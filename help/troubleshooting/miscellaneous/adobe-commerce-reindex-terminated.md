@@ -1,0 +1,41 @@
+---
+title: '"Adobe Commerce cloud: redex wordt afgesloten met een "Killed" message'
+description: '* Adobe Commerce op cloudinfrastructuur (alle versies)'
+exl-id: 36ed9c9f-8280-41db-9df3-fe842dade4b1
+feature: Cloud, Paas
+role: Developer
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 0%
+
+---
+
+# Adobe Commerce-cloud: opnieuw indexeren wordt beëindigd met `Killed` message
+
+## Betrokken producten en versies
+
+* Adobe Commerce op cloudinfrastructuur (alle versies)
+
+## Probleem
+
+U probeert om een herdex op de tak van de Integratie (of op het Opvoeren van het de architectuurproject van de Aanzet) in werking te stellen, en het proces wordt geëindigd met `Killed` bericht.
+
+## Oorzaak
+
+Dit gebeurt meestal omdat er onvoldoende geheugen beschikbaar is voor PHP-processen.
+De meest algemene reden hiervoor is bijvoorbeeld een groot aantal producten, winkels en/of klantengroepen.
+
+## Oplossing
+
+1. Verminder het aantal producten (en klantgroepen en winkels, indien van toepassing).
+1. Gebruik beperken tot een of twee gelijktijdige gebruikers.
+1. Schakel de taken voor uitsnijden uit en voer indien nodig handmatig uit.
+1. Als dit niet eerder is gedaan, verzoek om een verbetering aan de Verbeterde milieu&#39;s van de Integratie - neem nota van de beperking op het aantal milieu&#39;s u tot beperkt zou zijn zodra de verbetering is uitgevoerd. Zie de [Verbeteringsverzoek integratieomgeving - Pro en Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) artikel in onze kennisbasis voor ondersteuning voor meer informatie .
+
+## Gerelateerde lezing:
+
+In onze documentatie voor ontwikkelaars:
+
+* [Pro-architectuur > Integratieomgeving](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#cloud-arch-int)
+* [Starter-architectuur > Staging-omgeving](https://devdocs.magento.com/cloud/architecture/starter-architecture.html#cloud-arch-stage)

@@ -1,0 +1,86 @@
+---
+title: "Adobe Commerce 2.4.0: uitzondering tijdens installatie B2B 1.2.0"
+description: Dit artikel biedt een oplossing voor een bekende Adobe Commerce-probleem voor een uitzondering die tijdens de installatie van B2B 1.2.0 wordt gegenereerd.
+exl-id: 2c1dadd9-7754-4b4c-8d37-b75c13beae5c
+feature: B2B, Install, Upgrade
+role: Developer
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 0%
+
+---
+
+# Adobe Commerce 2.4.0: uitzondering tijdens installatie B2B 1.2.0
+
+Dit artikel biedt een oplossing voor een bekende Adobe Commerce-probleem voor een uitzondering die tijdens `setup:upgrade` bij de installatie van B2B 1.2.0.
+
+## Betrokken producten en versies
+
+* Adobe Commerce op locatie 2.4.0
+* Adobe Commerce over cloudinfrastructuur 2.4.0
+* B2B 1.2.0
+
+## Probleem
+
+<u>Stappen om te reproduceren</u>
+
+1. Installeer Adobe Commerce met meer dan één winkel gemaakt.
+1. Maak een extra winkel.
+1. B2B 1.2.0 installeren.
+
+>[!WARNING]
+>
+>De upgrade van elke B2B-instantie met meer dan één winkel van een versie onder 1.2.0 of Commerce-instantie onder 2.4.0 wordt ook beïnvloed.
+
+<u>Verwacht resultaat</u>
+
+B2B 1.2.0-installaties.
+
+<u>Werkelijk resultaat</u>
+
+Wanneer `setup:upgrade` wordt uitgevoerd om B2B 1.2.0 te installeren, wordt deze fout weergegeven op de `PurchaseOrder` module:
+
+```php
+Module 'Magento_PurchaseOrder':
+  Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence
+  for module Magento_PurchaseOrder. Original exception message: DDL statements
+  are not allowed in transactions
+```
+
+## Oplossing
+
+Pas de patch toe die in dit artikel is opgenomen.
+
+## Reparatie
+
+De patch is gekoppeld aan dit artikel en kan in beide toepassingen worden gedownload `.composer` en `.git` indelingen (nadat u de bestanden hebt uitgepakt).
+
+Als u het bestand wilt downloaden, schuift u omlaag naar het einde van het artikel en klikt u op de bestandsnaam of op een van de volgende koppelingen:
+
+* [Composer patch B2B-716\_composer.patch](assets/B2B-716_composer.patch.zip)
+* [Git patch B2B-716\_git.patch](assets/B2B-716_git.patch.zip)
+
+## Hoe een pleister aanbrengen
+
+<u>Composer-patch </u>
+
+Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor patchinstructies voor composer.
+
+<u>Git patch </u>
+
+* Zie [Patches toepassen](https://devdocs.magento.com/cloud/project/project-patch.html) in de ontwikkelaarsdocumentatie voor git patch-instructies voor Adobe Commerce over cloud-infrastructuur.
+* Zie [Patches toepassen: aangepaste patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) in de ontwikkelaarsdocumentatie voor git patch-instructies voor Adobe Commerce.
+
+## Gerelateerde lezing
+
+* [Bekende uitgave van Adobe Commerce 2.4.0: onbewerkte weergave van berichtgegevens op winkel](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
+* [Bekende uitgave van Adobe Commerce 2.4.0: Export Tax Rates werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
+* [Bekende uitgave van Adobe Commerce 2.4.0: Betalingsmethoden voor Braintree worden niet weergegeven bij de afhandeling van meerdere adressen](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
+* [Bekende uitgave van Adobe Commerce 2.4.0: Foutbericht dat lokale betalingsmethode selecteert die in sommige landen wordt weergegeven tijdens het afrekenen](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
+* [Bekende uitgave van Adobe Commerce 2.4.0: 404-fout bij het verwijderen van beloningspunten bij afhandeling via meerdere verzendingen](/help/troubleshooting/storefront/magento-2-4-0-404-error-removing-rewards-points-on-multi-shipping-checkout.md)
+* [Bekende uitgave van Adobe Commerce 2.4.0: weergavefout voor bestellingen](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
+* [Adobe Commerce 2.4.0 B2B Admin kan geen configureerbaar product toevoegen om te citeren](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
+* [Aanmaak van verzendlabels Bekend probleem in Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)
+* [Bekende uitgave van Adobe Commerce 2.4.0 - Vernieuwen van de activiteiten van de Klant werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
+* [Bekende uitgave van Adobe Commerce 2.4.0: &quot;Selecties toevoegen aan mijn winkelwagentje&quot; werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)

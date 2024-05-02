@@ -1,0 +1,51 @@
+---
+title: Het handmatig exporteren van bestellingen naar MOM mislukt. De knop Exportvolgorde retourneert de HTTP 404-fout
+description: In dit artikel wordt besproken hoe u een probleem kunt oplossen. Wanneer u een bestelling naar Magento Order Management probeert te exporteren door op de knop **Exportopdracht** in de ordeweergave in Commerce Admin te klikken, wordt de fout " *404 Pagina niet gevonden*" geretourneerd.
+exl-id: 75741473-7c9a-4418-a56f-de75ac246d27
+feature: Data Import/Export
+role: Developer
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
+
+---
+
+# Het handmatig exporteren van bestellingen naar MOM mislukt. De knop Exportvolgorde retourneert de HTTP 404-fout
+
+In dit artikel wordt besproken hoe u een probleem kunt oplossen, waarbij u een order naar Magento Order Management (MOM) probeert te exporteren door op het tabblad **Exportvolgorde** in de ordeweergave in Commerce Admin wordt een &quot; *404 pagina niet gevonden* &quot; fout.
+
+## Betrokken producten en versies
+
+* Adobe Commerce 2.2.x, 2.3.x
+* MOM-aansluiting 2.3.0, 2.4.0, 3.2.0, 3.3.0
+
+## Probleem
+
+<u>Stappen om te reproduceren:</u>:
+
+1. Klik in Commerce Admin op **Verkoop > Bestellingen**.
+1. Klik op de knop **Nieuwe volgorde maken** knop.
+1. Selecteer een gebruiker, voeg een of meer objecten toe, selecteer de methode voor betaling en verzending en klik op de knop **Bestelling verzenden** knop.
+1. Klik op de knop **Exportvolgorde** en vervolgens **OK**.
+
+<u>Verwacht resultaat</u>:
+
+De orde wordt verzonden naar MOM.
+
+<u>Werkelijk resultaat</u>:
+
+A &quot; *404 Fout: pagina niet gevonden* &quot; wordt weergegeven.
+
+## Oplossing
+
+* Upgrade de MOM-aansluiting naar 3.4.0 voor Adobe Commerce 2.3.x of MOM-aansluiting 2.5 voor Adobe Commerce 2.2.x.
+* Als het bevorderen van de Schakelaar van het MOM geen optie is, kunt u de orde naar Magento Order Management uitvoeren gebruikend het CLI bevel:
+
+```bash
+$bin/magento oms:orders:sync
+```
+
+## Gerelateerde lezing
+
+[Technische documentatie Magento Order Management](https://omsdocs.magento.com/en/)
