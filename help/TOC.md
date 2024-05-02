@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 2db8eeb5bbe473db895bc092462b77de39af3e6d
+source-git-commit: 59671ff01a398ad8dc525c8948b5dc5548774cf5
 workflow-type: tm+mt
-source-wordcount: '10975'
+source-wordcount: '10989'
 ht-degree: 0%
 
 ---
@@ -797,6 +797,7 @@ ht-degree: 0%
          * [ACSD-57394: Onjuiste productsortering op meerdere sorteervelden in [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57394-incorrect-product-sorting-by-multiple-sort-fields-in-graphql.md)
          * [ACSD-56546: configureerbare en bundelproducten worden weergegeven als producten die niet in voorraad zijn in de winkel](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-56546-configurable-and-bundle-products-display-as-out-of-stock-on-the-storefront.md)
          * [ACSD-5566: [!UICONTROL mergeCart] mutatie mislukt vanwege interne serverfout in [!DNL GraphQL] reactie](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-55566-mergecart-mutation-fails-with-an-internal-server-error-in-graphql-response.md)
+         * [ACSD-58008: Het uitgeven van de einddatum als leeg veroorzaakt de planningupdate om te verdwijnen](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-58008-editing-the-end-date-as-empty-causes-the-schedule-update-to-disappear.md)
          * [ACSD-57854: GraphQL response bevat uitgeschakelde categorieën die niet in categoriesamenvoegingen mogen worden vermeld](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57854-graphql-response-contains-disabled-categories-that-should-not-be-listed-in-the-category-aggregations.md)
          * [ACSD-57565: op het dashboard voor bestellingen worden onjuiste ordegegevens weergegeven](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57565-the-order-dashboard-displays-incorrect-order-information.md)
       * [Patch controleren voor Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
