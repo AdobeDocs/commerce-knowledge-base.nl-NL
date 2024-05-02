@@ -3,9 +3,9 @@ title: De Adobe Commerce-omgeving herstellen op cloudinfrastructuur
 description: In dit artikel worden verschillende scenario's getoond voor het terugdraaien van een omgeving op Adobe Commerce op cloudinfrastructuur.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: ddde2385f1d94194b34e9ed51f6cbda55c916d90
+source-git-commit: f2aeb0262ddcb3d7e78028d08b9323db243fc96b
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -156,8 +156,8 @@ Indien het `setup:uninstall` De opdracht mislukt met een fout en kan niet worden
 
 1. [SSH voor uw omgeving](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Verbinding maken met de MySQL-database: `mysql -h database.internal` (Voor Pro-omgevingen raadpleegt u: [MySQL-service instellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)).
-1. Zet de DB \&quot;main\&quot; neer: `drop database main;`
-1. Lege database \&quot;main\&quot; maken: `create database main;`
+1. Zet de `main` DB: `drop database main;`
+1. Een leeg bestand maken `main` DB: `create database main;`
 1. Verwijder de volgende configuratiebestanden: `config.php` , `config.php` , `.bak,` , `env.php`, `env.php.bak`
 
 Nadat u de database opnieuw hebt ingesteld, [een [!DNL git] duwen naar de omgeving om herimplementatie te starten](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html) en installeer Adobe Commerce in een nieuwe database. of [Voer de opdracht Opnieuw implementeren uit](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands).
