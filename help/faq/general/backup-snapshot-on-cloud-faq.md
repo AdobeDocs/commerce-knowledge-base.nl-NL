@@ -3,9 +3,9 @@ title: 'Back-up (momentopname) op Cloud: Veelgestelde vragen'
 description: In dit artikel worden de basisvereisten besproken voor het maken van back-ups van uw omgevingen met momentopnamen op Adobe Commerce op cloudinfrastructuur.
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 9491279d147eac9ed36ad236c227b08e7c6e0211
+source-git-commit: 0958a8923e27c1341f4b536812b26205685b2b81
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Dit artikel behandelt het maken van back-ups van uw omgevingen met momentopnamen
 
 ## Een omgevingsmomentopname herstellen
 
-Om een bestaande momentopname (op het gesteunde milieu te herstellen: Integratie, het Staging, Productie op het Plan van de Aanzet of Integratie op Pro plan), volg de stappen in [Back-upbeheer: een handmatige back-up herstellen](/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) in onze Commerce on Cloud Infrastructure Guide.
+Om een bestaande momentopname (op het gesteunde milieu te herstellen: Integratie, het Staging, Productie op het Plan van de Aanzet of Integratie op Pro plan), volg de stappen in [Back-upbeheer: een handmatige back-up herstellen](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) in onze Commerce on Cloud Infrastructure Guide.
 
 ## Back-up van database (DB)
 
