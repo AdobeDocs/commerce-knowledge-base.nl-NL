@@ -4,9 +4,9 @@ description: Dit artikel bevat een oplossing voor het probleem waarbij u probeer
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: 465eb89cf5c5169b0b459ab7e6bdcbd418781093
+source-git-commit: d55702ab97f3770d0ec71322f6c24448f0169ad4
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,10 @@ Als u het proces optioneel als een snijtaak wilt toevoegen, moet u de opdracht `
 >[!NOTE]
 >
 >Als u de `.magento.env.yaml` bestand voor uw omgeving, en u denkt dat het is verwijderd, moet u een nieuw bestand maken `.magento.env.yaml`. Deze is mogelijk aanvankelijk leeg, u kunt desgewenst gegevens toevoegen. Verwijs naar de volgende artikelen: [Omgevingsvariabelen voor implementatie configureren](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) en [Omgevingsvariabelen](/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html) in onze ontwikkelaarsdocumentatie.
+
+>[!TIP]
+>
+>[YAML-bestanden](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) zijn hoofdlettergevoelig en staan geen tabs toe. Wees voorzichtig met het gebruik van consistente inspringing in het .magento.env.yaml-bestand, anders werkt de configuratie mogelijk niet naar behoren. De voorbeelden in de documentatie en in het voorbeeldbestand gebruiken een inspringing met twee spaties. Gebruik de Griekenland-hulpmiddelen bevestigen bevel om uw configuratie te controleren.
 
 >[!NOTE]
 >
