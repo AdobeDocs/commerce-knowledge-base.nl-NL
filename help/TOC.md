@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 0cb8c7c2e09a5abb97d6c0ba4193826152606546
+source-git-commit: cdfcfbb1c6b91eb06bb028179676d022a1e27000
 workflow-type: tm+mt
-source-wordcount: '10999'
+source-wordcount: '11006'
 ht-degree: 0%
 
 ---
@@ -1253,6 +1253,7 @@ ht-degree: 0%
    * [E-mailadres wijzigen op magento.com-account wanneer het veld grijs wordt weergegeven](/help/how-to/general/change-email-address-on-magento-account.md)
    * [Magento Order Management verwijderen](/help/how-to/general/how-to-remove-mom.md)
    * [Technische tips voor gereedheid voor Commerce op vakantie](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
+   * [WAF-aanvragen voor GraphQL omzeilen](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
 * Veelgestelde vragen {#faq}
    * [Overzicht van veelgestelde vragen](/help/faq/overview.md)
    * [Web Application Firewall (WAF) aangedreven door Fastly: de veelgestelde vragen](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
