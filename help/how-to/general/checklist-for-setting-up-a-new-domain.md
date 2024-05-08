@@ -3,9 +3,9 @@ title: Controlelijst voor het instellen van een nieuwe [!DNL domain]
 description: Dit is een controlelijst voor het instellen van een nieuwe [!DNL domain] in Adobe Commerce over cloudinfrastructuur.
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
-source-git-commit: cc3dc1e3f9c8f98370ce5db125b402d4c1dfbd6f
+source-git-commit: 625ed2c7ab79f7bca9a979903e97c44c875e607c
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,13 @@ Adobe Commerce op cloudinfrastructuur, [alle ondersteunde versies](https://www.a
 >[!NOTE]
 >
 >U kunt de nieuwe [!DNL domain] tot [!DNL Fastly] door de configuratie in de [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** zoals in [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) in onze gebruikershandleiding.
+>
+>Als u het domein niet kunt toevoegen, kan dit aan een van de volgende redenen zijn te wijten:
+>
+>1. U migreert het domein naar het wolkenmilieu, dat in uw wordt gevormd [!DNL Fastly] service. In dit geval dient u een verzoek in en vraagt u om delegatie van het domein.
+>1. U migreert het domein van Starter naar Pro. In dat geval dient de Commissie een verzoek om verdere bijstand in.
 
-* **[!DNL Starter]**: [!DNL Custom domains] worden niet ondersteund.
+* **[!DNL Starter]**: [!DNL Custom domains] worden niet ondersteund in de testomgeving.
 
 ### Stap 3 - [!DNL Production environment]: ben je aan [!DNL Pro] of [!DNL Starter]?
 
@@ -43,6 +48,12 @@ Adobe Commerce op cloudinfrastructuur, [alle ondersteunde versies](https://www.a
 >[!NOTE]
 >
 >U kunt de nieuwe [!DNL domain] tot [!DNL Fastly] door de configuratie in de [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) in onze gebruikershandleiding.
+>
+>
+>Als u het domein niet kunt toevoegen, kan dit aan een van de volgende redenen zijn te wijten:
+>
+>1. U migreert het domein van op gebouw aan het wolkenmilieu, dat in uw eigen is gevormd [!DNL Fastly] service. In dit geval dient u een verzoek in en vraagt u om delegatie van het domein.
+>1. U migreert het domein van Starter naar Pro. In dat geval dient de Commissie een verzoek om verdere bijstand in.
 
 * **[!DNL Starter]**: Voeg de [!DNL domain] aan uw project in **[!DNL Domains]** dan **een verzoek indienen** de **[!DNL ACME Challenge Key]** voor de [!DNL SSL certificate].
 
