@@ -1,11 +1,12 @@
 ---
-title: "Implementatie mislukt met de juiste toegangstoetsen in env:COMPOSER_AUTH of auth.json"
+title: Implementatie mislukt met de juiste toegangssleutels in env:COMPOSER_AUTH of auth.json
 description: Dit artikel biedt een oplossing voor het probleem wanneer de implementatie mislukt met de fout "Het bestand https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip kan niet worden gedownload (HTTP/1.1 404 niet gevonden)".
 feature: Deploy
 role: Admin
-source-git-commit: 8e0aca8f528b017e288ae6fb19b072a5cc04761b
+exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
+source-git-commit: 54ef4e95cf0e3f5822ff5e5c566129fab331f784
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -58,4 +59,4 @@ Raadpleeg voor stappen [Variabele niveaus](/docs/commerce-cloud-service/user-gui
 ## Gerelateerde lezing
 
 * [Adobe Commerce on cloud repo kan niet worden geopend: 403 Verboden of 404 Geen fout gevonden bij implementatie](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)
-* [Implementatiefout: fout 7 tijdens het downloaden ... poort 443: verbinding geweigerd](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/deployment-error-downloading-connection-refused-adobe-commerce.html)
+* [Implementatiefout: fout 7 tijdens het downloaden ... poort 443: verbinding geweigerd](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce)
