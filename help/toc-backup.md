@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowldge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 667fcacd5b6cbf56a5fd919d0683ad6a0f979fca
+source-git-commit: 5e20e9d150eb8a527e530a19abd8b364f55a5aa6
 workflow-type: tm+mt
-source-wordcount: '9319'
+source-wordcount: '9315'
 ht-degree: 0%
 
 ---
@@ -965,7 +965,6 @@ ht-degree: 0%
    * [Uitgave van token en Composer-sleutelprocedures](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
    * [Adobe Commerce 2.4.1-probleem: Amazon-account kan niet worden gewijzigd in Chrome](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
    * [ECE-tools en patchupdatefouten Adobe Commerce cloud Infrastructure 2.2.x, 2.3.x](/help/troubleshooting/miscellaneous/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
-   * [Problemen met snelle afhandeling oplossen](/help/troubleshooting/miscellaneous/quick-checkout-issues.md)
    * [PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
    * [Nieuwste patches installeren om Adobe Commerce Redis-problemen op te lossen](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
    * [Een ongeldige verschuivingsfout oplossen](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
