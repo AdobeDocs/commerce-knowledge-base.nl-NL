@@ -4,9 +4,9 @@ description: 'In dit artikel wordt beschreven hoe u de Adobe Commerce op een mis
 exl-id: 2f72d80a-05b2-4908-8fa8-61d06885ed07
 feature: Cloud, Deploy, Paas, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 9ca95444aa785191e4c8bf1603773f3430414797
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Enkele redenen waarom sleutels niet geldig zijn zijn:
 Ga als volgt te werk om het probleem op te lossen met de machtigingstoetsen (zie de onderstaande secties voor meer informatie over elke stap):
 
 1. Vraag de geldige autorisatietoetsen aan (sla deze over als u er absoluut zeker van bent dat uw sleutel geldig is).
-1. Voeg de sleutelwaarde in toe `env:COMPOSER_AUTH` variabele (of controleer of de juiste waarde aanwezig is) en controleer of de toetsen consistent zijn opgegeven in de variabele en het dialoogvenster `auth.json` bestand in de hoofdmap van het project.
+1. Voeg de sleutelwaarde in toe `env:COMPOSER_AUTH` variabele (of zorg ervoor dat de correcte waarde er is) en controleer of de sleutels constant in de variabele op projectniveau en milieuniveau evenals op het `auth.json` bestand (als dit bestaat) in de hoofdmap van het project.
 1. Bijwerken of verwijderen `auth.json`, om één enkele plaats te hebben waar de sleutel wordt gevormd, als de waarden van de vergunningssleutels niet worden gespecificeerd of een andere waarde hebben.
 
 ### 1. Geldige autorisatietoetsen verkrijgen
