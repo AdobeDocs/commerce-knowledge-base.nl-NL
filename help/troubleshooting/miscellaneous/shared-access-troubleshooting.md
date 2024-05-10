@@ -4,9 +4,9 @@ description: '**Probleem:** U wilt gedeelde toegang verlenen aan uw vertrouwde c
 exl-id: 9e03c031-2359-42a6-9de4-943451a16456
 feature: Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: e77322c04c7245538c10dfb397094eee6cfe6be9
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,19 @@ ht-degree: 0%
 1. Neem contact op met de accounteigenaar (de primaire rekeninghouder) als de specifieke bron ontbreekt.
 
 Neem contact op met het accountteam van de Adobe of stuur een e-mail naar grp-Magento-HelpCenterLoginIssues@adobe.com als het probleem zich blijft voordoen. Geef uw naam en de e-mail op die aan uw account zijn gekoppeld.
+
+## Ik gebruikte gedeelde toegang en klikte op [!UICONTROL Support], maar toen ik een nieuw ticket opende, [!UICONTROL Organization] dropdown wordt niet weergegeven
+
+**Probleem:** Ik ben overgeschakeld naar de gedeelde toegangsaccount, maar heb geen toegang tot de **[!UICONTROL Support tab]** (bijvoorbeeld).
+
+**Mogelijke oorzaak:** U hebt slechts gedeelde toegang tot één handelaar in uw account.
+
+**Oplossing:**
+
+1. Terug naar **[!UICONTROL My Account]**.
+1. Als er maar één wordt weergegeven **[!UICONTROL Shared Name]**, dat zal *standaardorganisatie* dat uw tickets onder zullen worden geopend.
+
+Neem contact op met het accountteam van de Adobe of stuur een e-mail naar grp-Magento-HelpCenterLoginIssues@adobe.com als het probleem zich blijft voordoen. Geef uw naam en het e-mailadres op dat aan uw account is gekoppeld.
 
 ## Ik gebruikte gedeelde toegang, maar zie nog steeds mijn tickets in plaats van de gedeelde
 

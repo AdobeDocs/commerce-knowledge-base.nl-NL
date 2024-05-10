@@ -2,9 +2,9 @@
 title: "[!DNL Fastly] Veelgestelde vragen over het camouflage van oorsprong"
 description: In deze veelgestelde vragen worden veelvoorkomende vragen over [!DNL Fastly] de mogelijkheid om de oorsprong te camoufleren in Adobe Commerce (die sinds 2021 volledig is geïmplementeerd).
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
-source-git-commit: 348a1f6e455aff9ad7c562ea20c95f27c9ee0b86
+source-git-commit: 1021a1ab81481f92e850bd49330f1742fe9a21f2
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Deze functie is oorspronkelijk gemaakt ten behoeve van Adobe Commerce op cloudin
 
 ## Moet ik een verzoek indienen om mijn project te camoufleren van de oorsprong?
 
-Nee. Deze functie had al moeten worden geïmplementeerd voor alle cloudprojecten en voor alle projecten die sinds 2021 zijn ingericht, zou dit standaard zijn ingeschakeld. U kunt echter vragen dat de camouflage van de oorsprong voor uw project wordt uitgeschakeld door [een supportverzoek indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+Nee. Deze functie had al moeten worden geïmplementeerd voor alle cloudprojecten en voor alle projecten die sinds 2021 zijn ingericht, zou dit standaard zijn ingeschakeld.
 
 ## Verandert de oorsprong het uitgaande IP adres camoufleren?
 
@@ -37,8 +37,22 @@ Nee, dat is het niet.
 
 [!DNL Fastly] plaatst geen API vraag in het voorgeheugen, zodat zou de cliënt met de verandering fijn moeten zijn. Aanwezigheid camoufleren leidt alleen tot aanvragen die recht naar de oorsprong gaan, zoals:
 
+* Productie
+
 ```php
 mywebsite.com.c.abcdefghijkl.ent.magento.cloud
+```
+
+* Staging
+
+```php
+mcstaging2.mywebsite.com.c.abcdefghijkl.dev.ent.magento.cloud
+```
+
+* StagingX
+
+```php
+mcstagingX.mywebsite.com.c.abcdefghijkl.X.dev.ent.magento.cloud
 ```
 
 In dit voorbeeld kan de client de API nog steeds raken als deze de URL wijzigt in ``mywebsite.com``:
