@@ -3,9 +3,9 @@ title: Handboek voor Adobe Commerce Help Center
 description: Leer hoe u een ondersteuningsticket naar het Adobe Commerce Help Center kunt verzenden, gedeelde toegang tot accounts kunt bieden en naar de Adobe Commerce Knowledge Base kunt navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: a2e68f63a53013b6f0b8bfa12838fafe2bb6e6c7
+source-git-commit: 4e8833d100b776ca3c66a96274cde2d68eb0fd10
 workflow-type: tm+mt
-source-wordcount: '3924'
+source-wordcount: '3993'
 ht-degree: 0%
 
 ---
@@ -231,6 +231,10 @@ Nadat u gedeelde toegang hebt gekregen van de handelaar, moet u de volgende stap
 1. Aanmelden bij uw [Account Magento op de website magento.com](https://account.magento.com/).
 1. In de **Wisselen tussen accounts** drop-down gebied bij de hoogste juiste hoek, selecteer de gedeelde toegangsrekening.
 1. Klik op de knop **Ondersteuning** in het linkerdeelvenster. Dit zorgt ervoor dat het Adobe Commerce Help Center op de juiste wijze is geconfigureerd via de SSO-oproep van Magento.com naar Adobe Commerce Help Center.
+
+Als u dit al hebt gedaan, controleert u of u toestemming hebt verleend *gedeelde toegang van meer dan één handelaar* door op de knop [[!UICONTROL Shared with me] tabblad op uw account](https://account.magento.com/grantor/manage/shared/):
+* Als slechts één [!UICONTROL Share Name] wordt vermeld, d.w.z. dat u slechts door één handelaar bent verleend, *u ziet geen [!UICONTROL Organization] vervolgkeuzelijst*.
+* Als er meerdere [!UICONTROL Share Names]De steunrechten van de handelaar kunnen zijn vervallen omdat hun vergunning eerder is ingetrokken wegens betalingsproblemen.
 
 ### Volg uw tickets {#track-tickets}
 
