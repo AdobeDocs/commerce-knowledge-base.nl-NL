@@ -3,9 +3,9 @@ title: Tijdelijke Adobe Commerce aanvragen voor uitgebreide cloudinfrastructuur
 description: Als uw organisatie een online gebeurtenis plant waarin u veel verkeer verwacht, of u plotseling vindt dat uw site een gebeurtenis met veel verkeer ondergaat, kunt u een [Support Ticket] (/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) indienen om tijdelijke extra cloudcapaciteit voor uw Adobe Commerce in de cloudinfrastructuur aan te vragen.
 exl-id: 561e2bdd-718a-45c1-8b6c-a0e3a6c8ad04
 feature: Cloud, Iaas
-source-git-commit: a445bae7f013b29cb83fc96eb26dcbfd186a4de7
+source-git-commit: 357e0acb1c849079ff0fe9f53fe386f60475c7f9
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Een [Support-ticket in het Adobe Commerce Support Center](/help/help-center-guid
 
 ## De geschiedenis van uw upformaten weergeven
 
-U kunt de historie van de aangevraagde formaatwijzigingen bekijken in uw [Projectportal (onboarding UI)](/docs/commerce-cloud-service/start/onboarding.html#cloud-project-portal-(onboarding-ui)), onder **Project** > **Services** > **CPU-verbruik bijhouden**.
+U kunt de historie van de aangevraagde formaatwijzigingen bekijken door de gegevens bij uw te vragen **CSM (Customer Success Manager)**.
 De volgende informatie is beschikbaar voor elk resize verzoek:
 
 * **Begindatum van grootte**: datum van verzoek voor bijwerken.
@@ -87,7 +87,7 @@ De volgende informatie is beschikbaar voor elk resize verzoek:
 
 * Voor inzichten, methodes, en voorbeelden van om plaatsprestaties te meten en te verbeteren, verwijs naar de volgende diepgaande artikelen in onze steun kennisbasis:
    * [Berekening van CPU-toewijzing voor Adobe Commerce in cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
-   * [Controleren of een upgrade naar de hostinstanties nodig is voor Adobe Commerce in de cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
+   * [Controleren of de host moet worden bijgewerkt voor Adobe Commerce in de cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
    * [CPU-configuratie van host controleren op Adobe Commerce in cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
 * Voor informatie over hoe te om stroomonderbrekingen te identificeren, verwijs naar [Onderkennen en meten van uitvallen voor Adobe Commerce in de cloud](/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) in onze kennisbasis voor ondersteuning.
 * Raadpleeg de volgende artikelen in de documentatie voor ontwikkelaars voor informatie over het verbeteren van de prestaties van de site om te voorkomen dat u een capaciteitsuitbreiding moet gebruiken:

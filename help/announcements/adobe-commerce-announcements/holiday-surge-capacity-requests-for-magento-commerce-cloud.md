@@ -4,9 +4,9 @@ description: Tijdens het hoogtepunt van de vakantieverkoop (ongeveer half-novemb
 exl-id: 9d6910bf-30bc-4117-bf7f-a0316f9506b5
 feature: Cloud, Paas
 role: Admin
-source-git-commit: dfd3f788f42677b631ffb5b3153a1c79c2cc1ca3
+source-git-commit: 357e0acb1c849079ff0fe9f53fe386f60475c7f9
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Als u de aanbevolen schatting hebt voltooid en uw team datums heeft vastgesteld 
 
 **De geschiedenis van uw upformaten weergeven**
 
-U kunt de historie van de aangevraagde formaatwijzigingen bekijken in uw [Projectportal (onboarding UI)](https://devdocs.magento.com/cloud/onboarding/onboarding-tasks.html), onder **Project** > **Services** > **CPU-verbruik bijhouden**.
+U kunt de historie van de aangevraagde formaatwijzigingen bekijken door de gegevens bij uw te vragen **CSM (Customer Success Manager)**.
 De volgende informatie is beschikbaar voor elk resize verzoek:
 
 * **Begindatum van grootte**: datum van verzoek voor bijwerken.
