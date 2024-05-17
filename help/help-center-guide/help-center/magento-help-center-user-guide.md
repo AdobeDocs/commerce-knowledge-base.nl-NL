@@ -3,9 +3,9 @@ title: Handboek voor Adobe Commerce Help Center
 description: Leer hoe u een ondersteuningsticket naar het Adobe Commerce Help Center kunt verzenden, gedeelde toegang tot accounts kunt bieden en naar de Adobe Commerce Knowledge Base kunt navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 4e8833d100b776ca3c66a96274cde2d68eb0fd10
+source-git-commit: 86810427e8f902dc184b377257c8e86dd28f38f6
 workflow-type: tm+mt
-source-wordcount: '3993'
+source-wordcount: '3992'
 ht-degree: 0%
 
 ---
@@ -574,7 +574,7 @@ Nochtans, zodra u de toestemmingen voor die Gedeelde gebruikers van de Toegang h
 1. Zoek de gebruiker waarvan de gedeelde toegang moet worden ingetrokken en klik op **[!UICONTROL Edit]** in de rij van de gebruiker (*[!UICONTROL Actions]* kolom).
 1. Alle bronnen onder deselecteren *[!UICONTROL Grant Account Permissions]*.
 
-![image](https://git.corp.adobe.com/storage/user/38345/files/2d42fa60-559f-4697-a3cf-287c7e765405)
+![Grant-account-permissions-image](assets/help-center-user-guide-grant-account-permissions-image.png){width="800"}
 
 Voor meer informatie raadpleegt u de [Gebruikerstoegang beheren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-project-web-interface) documentatie op onze Commerce on Cloud Infrastructure Guide.
 
