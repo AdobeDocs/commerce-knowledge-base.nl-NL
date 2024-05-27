@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 5fb41bb335b03804f38b3bd95d699f0026ca8970
+source-git-commit: 45ab0d3a858239dc8a35ed81c3b0d2f7cda5c85b
 workflow-type: tm+mt
-source-wordcount: '11021'
+source-wordcount: '11031'
 ht-degree: 0%
 
 ---
@@ -1255,6 +1255,7 @@ ht-degree: 0%
    * [Magento Order Management verwijderen](/help/how-to/general/how-to-remove-mom.md)
    * [Technische tips voor gereedheid voor Commerce op vakantie](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
    * [WAF-aanvragen voor GraphQL omzeilen](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
+   * [Upgrade MariaDB 10.4 naar 10.5 voor Adobe Commerce op cloud](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * Veelgestelde vragen {#faq}
    * [Overzicht van veelgestelde vragen](/help/faq/overview.md)
    * [Web Application Firewall (WAF) aangedreven door Fastly: de veelgestelde vragen](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
