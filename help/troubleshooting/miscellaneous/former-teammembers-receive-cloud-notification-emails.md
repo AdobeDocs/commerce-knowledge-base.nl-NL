@@ -4,16 +4,18 @@ description: Dit artikel biedt een oplossing voor Adobe Commerce voor e-mailberi
 exl-id: b2535f66-8aec-4ddf-9a69-60879a0a1939
 feature: Cloud, Communications, Paas
 role: Developer
-source-git-commit: 075f295c5b600fcca9fbecc5aad20b0640d900f9
+source-git-commit: 0017d43e221ef3023630f714c34aa65b368e214f
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
 # Oude teamleden ontvangen e-mailberichten over de cloud van Adobe Commerce
 
-Dit artikel verstrekt een oplossing voor waar de teamleden die niet meer met uw project worden geassocieerd berichten blijven ontvangen.
+Dit artikel biedt een oplossing voor het verwijderen van gebruikers uit de lijst met meldingen van ontvangers die zijn:
+* Oude teamleden die niet meer bij uw project horen.
+* Huidige teamleden die de meldingen niet moeten ontvangen.
 
 ## Probleem
 
