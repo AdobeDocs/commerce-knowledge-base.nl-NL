@@ -3,7 +3,7 @@ title: Omgeving terugdraaien zonder Cloud-opname
 description: Dit artikel bevat twee oplossingen om een omgeving terug te draaien zonder een momentopname van uw omgeving op Adobe Commerce op cloudinfrastructuur.
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 feature: Build, Cloud, Console
-source-git-commit: f3c976bd44dbc47bd5cc8076f1679d56910cfaf3
+source-git-commit: 5347e8714ef1374440f5d246100a0221e4b189fc
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -44,13 +44,13 @@ Lees de gedetailleerde stappen hieronder:
 
 Wij moeten het Beheer van de Configuratie onbruikbaar maken zodat het niet automatisch de vorige configuratiemontages tijdens plaatsing toepast.
 
-Om configuratiebeheer onbruikbaar te maken, zorg ervoor dat uw `/app/etc/` map bevat niet de `config.php` (voor Adobe Commerce 2.2.x) of `config.local.php` (voor Adobe Commerce 2.1.x).
+Om configuratiebeheer onbruikbaar te maken, zorg ervoor dat uw `/app/etc/` map bevat niet de `config.php` (voor Adobe Commerce 2.4.x) of `config.local.php` (voor Adobe Commerce 2.1.x).
 
 Ga als volgt te werk om het configuratiebestand te verwijderen:
 
 1. [SSH voor uw omgeving](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Verwijder het configuratiebestand:
-   * Voor Adobe Commerce 2.2:
+   * Voor Adobe Commerce 2.4:
 
    ```php
     rm app/etc/config.php
