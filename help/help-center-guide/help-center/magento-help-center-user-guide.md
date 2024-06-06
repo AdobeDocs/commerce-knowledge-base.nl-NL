@@ -3,9 +3,9 @@ title: Handboek voor Adobe Commerce Help Center
 description: Leer hoe u een ondersteuningsticket naar het Adobe Commerce Help Center kunt verzenden, gedeelde toegang tot accounts kunt bieden en naar de Adobe Commerce Knowledge Base kunt navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 86810427e8f902dc184b377257c8e86dd28f38f6
+source-git-commit: 751a315303be3d6435f4064cdd3fb28a0c811155
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '3986'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,16 @@ Ga als volgt te werk als u een nieuw ondersteuningsticket wilt verzenden op de s
 1. Vul de velden in.
 1. Klikken **Verzenden**.
 
-U **moet zich aanmelden** aan het Centrum van de Hulp gebruikend uw Rekening van het Magento om een steunkaartje voor te leggen. Totdat u bent aangemeld, [de **Een ticket verzenden** wordt niet weergegeven](#no-submit-link).
+U *moeten* een account op zowel https://account.adobe.com als https://account.magento.com. Meld u vervolgens aan bij het Help Center met uw Adobe Commerce-account om een ondersteuningsticket te verzenden. Totdat u bent aangemeld, [de **Een ticket verzenden** wordt niet weergegeven](#no-submit-link).
+
+>[!NOTE]
+>
+>Als u al een account hebt op https://account.magento.com maar u niet kunt aanmelden, hebt u zich mogelijk niet geregistreerd voor een account op https://account.adobe.com, dat vanaf augustus 2022 vereist is.
+>
+>Dit probleem oplossen:
+>1. Maak een account op https://account.adobe.com met hetzelfde e-mailadres op je MAG-id.
+>1. Ga naar https://account.magento.com om uw Adobe ID te koppelen aan de MAG-id.
+
 
 #### Pagina Magento-account {#submit-ticket-magento-account-page}
 
@@ -182,7 +191,7 @@ Als u problemen hebt met het aanmelden bij uw account of als u denkt dat gedeeld
 
 >[!NOTE]
 >
->Verzend geen e-mail als u een kaartje kunt voorleggen, maar in plaats daarvan heeft het probleem met de toegang tot van uw wolkenproject. Stuur het ticket voor deze uitgave via de normale kanalen.
+>Als u problemen hebt met de toegang tot uw cloud-project, verzendt u het ticket voor deze uitgave via de normale kanalen. Stuur geen e-mail als u een ticket kunt verzenden.
 
 ### Fout in &quot;Verifieer uw e-mailadres&quot; op de pagina Magento Account {#verify-email-address}
 
@@ -192,13 +201,8 @@ U kunt geen ondersteuningsticket verzenden als u de *Controleer uw e-mailadres* 
 
 De oplossing is om uw e-mailadres te valideren:
 
-1. Klik op de knop **E-mail valideren** knop onder het veld E-mail op het tabblad [Accountgegevens bewerken](https://account.magento.com/customer/account/edit/) dezelfde pagina als hieronder.
-
-   ![Valideren_E-mail_Oplossing](assets/Validate_Email_Solution.png){width="800"}
-
-1. Klik op de knop **E-mail valideren** met een koppeling om het e-mailadres te valideren, verzendt u een e-mail naar het e-mailadres dat voor dit Magento-account is geregistreerd.
-1. Klik op de koppeling voor e-mailvalidatie om uw e-mail te valideren en dit probleem op te lossen.
-1. Als u geen e-mail ontvangt met een koppeling voor e-mailvalidatie, stuurt u een e-mail naar [Aanmeldingsproblemen in het Help Center](mailto:grp-magento-helpcenterloginissues@adobe.com) en geven aan dat u uw e-mailadres niet kunt valideren.
+1. Meld u aan bij https://account.adobe.com en verzoek zo nodig een wachtwoord.
+1. Verifieer uw Adobe account.
 
 >[!NOTE]
 >
