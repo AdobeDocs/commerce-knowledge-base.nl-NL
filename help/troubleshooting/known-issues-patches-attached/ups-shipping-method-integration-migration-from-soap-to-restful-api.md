@@ -5,14 +5,18 @@ description: Pas een patch toe om de [!DNL UPS] integratiemigratie van verzendme
 feature: Shipping/Delivery
 role: Developer
 exl-id: 8ab5d4a8-0155-4b2c-ab67-d0bd2f949a07
-source-git-commit: 7785a37e033bc2bea5b6a1509c337289e7b871cb
+source-git-commit: 6694bb1e041e6285f5bd5a05a1c37b7062521f52
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
 
 # [!DNL UPS] integratiemigratie van verzendmethoden [!DNL SOAP] tot [!DNL RESTful API]
+
+>[!NOTE]
+>
+>Als u een van de drie patches van dit artikel hebt geüpload voordat u **6 juni 2024**: Als u deze kwestie wegens [!DNL Metric System/SI] meetwaarden (kilo&#39;s en centimeters) die niet worden gebruikt, moet u een van deze nieuwe, bijgewerkte patches die nu in dit artikel zijn gepubliceerd opnieuw toepassen voor uw versie van Adobe Commerce/Magento Open Source van 2.4.4+/2.4.5+/2.4.6+, omdat u anders de [!DNL Metric System/SI] metingen van **kilogram** en **centimeter** in de [!DNL UPS] verzendmethoden in het dialoogvenster **[!DNL Admin configuration]**. Deze nieuwe patches zijn compatibel met de eerder vrijgegeven patches. Dit probleem wordt permanent opgelost in het bereik van de komende Adobe Commerce versie 2.4.7-p1-release die gepland is voor **11 juni 2024**.
 
 >[!NOTE]
 >
@@ -39,9 +43,11 @@ Adobe Commerce op cloudinfrastructuur en op locatie, en Magento Open Source:
 * 2.4.6.
 * 2.4.6-pX
 
-## Oorzaak
+## Oorzaken
 
 De [!DNL UPS] vrijgegeven [beveiligingsupdate voor hun [!DNL API]](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914).
+
+Als u een Europese Unie hebt (andere oorsprong kan hetzelfde probleem ervaren) als de herkomst van de verzending, zal dit een fout veroorzaken in de [!DNL UPS REST] request: &quot;*Een zending mag geen KGS/IN, LBS/CM of OZS/CM hebben als maateenheid.*&quot;
 
 ## Oplossing
 
@@ -55,15 +61,15 @@ Gebruik de volgende bijgevoegde patches, afhankelijk van uw Adobe Commerce/Magen
 
 ### Voor versies 2.4.4, 2.4.4-pX:
 
-* [AC-9363_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip](assets/AC-9646_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip)
+* [AC-11984_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip](assets/AC-11984_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip)
 
 ### Voor versies 2.4.5, 2.4.5-pX:
 
-* [AC-9358_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip](assets/AC-9647_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip)
+* [AC-11983_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip](assets/AC-11983_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip)
 
 ### Voor versies 2.4.6, 2.4.6-pX:
 
-* [AC-9345_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip](assets/AC-9648_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip)
+* [AC-11916_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip](assets/AC-11916_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip)
 
 ## Hoe de pleister aanbrengen
 
