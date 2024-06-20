@@ -1,19 +1,19 @@
 ---
 title: "ACSD-52041: Bij het renderen van Page Builder worden geen vergrendelingen vrijgegeven."
-description: Pas de ACSD-52041-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de Page Builder 5 seconden lang wordt weergegeven zonder vergrendelingen vrij te geven.
+description: Pas de ACSD-52041-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de Page Builder vijf seconden lang wordt weergegeven zonder vergrendelingen vrij te geven.
 feature: Page Builder
 role: Admin, Developer
 exl-id: f2a1fd36-2098-46a7-aa42-3a5a0014adc9
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: fc5dc9fcf610cae6f8c0a334b4ef15029c462c66
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
 # ACSD-52041: Bij het renderen van Page Builder worden geen vergrendelingen vrijgegeven
 
-De ACSD-52041-patch verhelpt het probleem waarbij de Page Builder 5 seconden lang wordt weergegeven zonder vergrendelingen vrij te geven. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.35 is geïnstalleerd. De patch-id is ACSD-52041. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-52041-patch verhelpt het probleem waarbij de Page Builder vijf seconden lang rendert zonder vergrendelingen vrij te geven. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.48 is geïnstalleerd. De patch-id is ACSD-52041-v2. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
@@ -23,7 +23,7 @@ De ACSD-52041-patch verhelpt het probleem waarbij de Page Builder 5 seconden lan
 
 **Compatibel met Adobe Commerce-versies:**
 
-* Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.6-p1
+* Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.4-p8, 2.4.5 - 2.4.5-p7, 2.4.6 - 2.4.6-p6
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ De ACSD-52041-patch verhelpt het probleem waarbij de Page Builder 5 seconden lan
 
 ## Probleem
 
-De Page Builder wordt 5 seconden gerenderd zonder vergrendelingen vrij te geven.
+De Page Builder wordt gedurende vijf seconden weergegeven zonder vergrendelingen vrij te geven.
 
 <u>Stappen om te reproduceren</u>:
 
