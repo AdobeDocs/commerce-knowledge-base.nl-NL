@@ -4,9 +4,9 @@ description: Meer informatie over de [!DNL Site-Wide Analysis Tool], een proacti
 exl-id: 7c843d55-9e2c-4b18-8859-0ebad0ae28cf
 feature: Best Practices, Saas, Support, Tools and External Services
 role: Admin
-source-git-commit: 4e327654279095f6523a7cbec77bd2dca57b2034
+source-git-commit: 580ad148cd4346868cd9892a1ae9a4d85f73edce
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -58,3 +58,7 @@ Alle klanten, ongeacht [!DNL Site-Wide Analysis Tool] Health Index, ontvangt elk
 ## Hoe worden rapporten geleverd?
 
 [!DNL Site-Wide Analysis Tool] de rapporten worden automatisch per maand of per kwartaal via het Adobe Commerce-systeem voor ondersteuningstickets bezorgd. [!DNL Site-Wide Analysis Tool] de rapporten kunnen ook manueel van [!DNL Site-Wide Analysis Tool] Dashboard en opgeslagen op uw bureaublad. Deze [!DNL Site-Wide Analysis Tool] rapporten kunnen vervolgens via e-mail worden verzonden als bijlagen .
+
+>[!NOTE]
+>
+>Na het toepassen van een aanbeveling worden de aanbevelingen niet handmatig bijgewerkt wanneer een rapport wordt gegenereerd. Het kan een paar dagen duren voordat de aanbeveling uit het [!DNL Site-Wide Analysis Tool Dashboard].
