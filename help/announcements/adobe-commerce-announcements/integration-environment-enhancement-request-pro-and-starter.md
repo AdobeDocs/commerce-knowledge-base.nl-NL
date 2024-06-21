@@ -4,9 +4,9 @@ description: Als u een Adobe Commerce bent op het gebied van cloudinfrastructuur
 exl-id: c49b049b-efb8-412f-b27d-a89f8a758d85
 feature: Integration
 role: Admin
-source-git-commit: 43be85de953909253900d60488f76a20bac91793
+source-git-commit: fb26b71316e04de31fa6a895b87230bed5c1ca6a
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 0%
 # Verbeteringsverzoek integratieomgeving - Pro en Starter
 
 Als u een Adobe Commerce bent op het gebied van cloudinfrastructuur Pro en momenteel de standaardomgevingen voor integratie gebruikt, of als u een Adobe Commerce bent op het gebied van de architectuur van de starterarchitectuur van de cloudinfrastructuur en momenteel de standaardgrootteklasse Staging Environment gebruikt en meer stroom wilt, kunt u een upgrade aanvragen naar de Enhanced Integration-omgevingen, die ongeveer vier keer de prestaties leveren. In dit artikel worden instructies voor Pro-klanten gescheiden van Starter-klanten.
+
+>[!NOTE]
+>
+> De bevordering aan Verbeterde Integratie kan niet alle prestatieskwesties behandelen aangezien het van de totale middelvereisten van uw installatie, met inbegrip van derdesintegraties of aanpassingen zou afhangen.
+>
+> U moet ook ervoor zorgen dat u de beste praktijken voor beste prestaties in het integratiemilieu volgt, en zelfs dat niet een eind-al oplossing kan zijn. Raadpleeg de volgende documentatie voor instructies: [Pro-architectuur](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment) en [Starter-architectuur](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment) in de Commerce on Cloud Infrastructure Guide.
 
 ## Pro
 
