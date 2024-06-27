@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 449e37e140e7df13be8d59a61a33c6298cb65f53
+source-git-commit: 366e27875cd3a764d99d62997336c11adafcb623
 workflow-type: tm+mt
-source-wordcount: '11040'
+source-wordcount: '11052'
 ht-degree: 0%
 
 ---
@@ -1035,7 +1035,7 @@ ht-degree: 0%
       * [Amazon-e-mailberichten om uur uitschakelen bij gebruik van Adobe Commerce](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
       * [Ingevalideerde cache veroorzaakt vertraging van responstijd](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md)
       * [Uitgave van token en Composer-sleutelprocedures](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
-      * [Adobe Commerce 2.4.1-probleem: Amazon-account kan niet worden gewijzigd in Chrome](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
+      * [Uitgave Adobe Commerce 2.4.1: Amazon-account kan niet worden gewijzigd in Chrome](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
       * [ECE-tools en patchupdatefouten Adobe Commerce cloud Infrastructure 2.2.x, 2.3.x](/help/troubleshooting/miscellaneous/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
       * [PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
       * [Nieuwste patches installeren om Adobe Commerce Redis-problemen op te lossen](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
@@ -1062,11 +1062,11 @@ ht-degree: 0%
       * [uitvoering instellen:static-content:distribueren, geïmplementeerd_versie.txt, probleem](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed-version-txt-issue.md)
       * [Omleiden naar het aanmeldingsformulier voor Commerce Admin met de fout &quot;Uw account is tijdelijk uitgeschakeld&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
       * [Googles Analytics worden uitgeschakeld na implementatie](/help/troubleshooting/miscellaneous/google-analytics-gets-disabled-after-deployment.md)
-      * [Probleemoplossing voor vergrendeling van Adobe Commerce Intelligence-account](/help/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.md)
+      * [Problemen met vergrendeling van Adobe Commerce Intelligence-account oplossen](/help/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.md)
       * [Bekende kwesties die xdebug installatie beïnvloeden](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md)
       * [Kan niet aanmelden bij Adobe Commerce-ondersteuning of cloudaccount](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
       * [Conflicterende componentafhankelijkheden](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)
-      * [Beleid van de inlichtingendienst van Adobe Commerce](/help/troubleshooting/miscellaneous/mbi-service-policies.md)
+      * [Adobe Commerce Intelligence-servicebeleid](/help/troubleshooting/miscellaneous/mbi-service-policies.md)
       * [Nieuwe omgevingen die onder productie worden geplaatst wanneer ze van Git worden geduwd](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
       * [Fout na aanmelden bij Commerce Admin](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
       * [Magento Order Management System (OMS) for Adobe Commerce times out](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
@@ -1085,7 +1085,7 @@ ht-degree: 0%
       * [Snijstops als gevolg van foutief configureren of ontbreken [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
       * [Het bestand kan niet worden verwijderd. Waarschuwing! ontkoppelen: geen bestands- of mapfout* in de map [!DNL Admin]](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)
       * [[!DNL Admin] aanmelden werkt niet - toegestane sessiegrootte is overschreden](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
-      * [Verbinding met Adobe Commerce Intelligence configureren voor bestaande startprojecten voor cloud](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
+      * [Adobe Commerce Intelligence-verbinding configureren voor bestaande startprojecten voor cloud](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
       * [[!DNL Google Tag Manager] wordt afgebroken door de widget Live zoeken](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
       * [De kwetsbaarheden die door derdeveiligheidsscans worden gevonden zouden moeten gaan naar [!DNL HackerOne]](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
       * [Duizenden zoekresultaten ophalen na de upgrade van 2.4.2 naar 2.4.5-p3](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
@@ -1113,6 +1113,7 @@ ht-degree: 0%
       * [Implementatie mislukt: er zijn geen opdrachten gedefinieerd in de naamruimtefout &#39;cache&#39;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [Implementatie mislukt met de juiste toegangssleutels in env:COMPOSER_AUTH of auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * Bekende problemen {#known-issues-patches-attached}
+      * [Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-40] Herzien om geïsoleerde pleister op te nemen voor [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
       * [[!DNL UPS] integratiemigratie van verzendmethoden [!DNL SOAP] tot [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] Ondersteuning voor hotfix van de verzendmethode voor grondvoordeel voor AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
       * [Adobe Commerce 2.4.3-p2 - 2.4.5 beveiligingshotfix voor CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
@@ -1165,7 +1166,7 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.6-fout bij het plaatsen van de volgorde in het deelvenster Beheer](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [[!UICONTROL salesRule] labelproblemen bij upgraden vanaf versies &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
       * [[!DNL JQuery UI] beveiligingskwetsbaarheid [!DNL CVE-2022-31160] oplossing voor 2.4.4-, 2.4.5- en 2.4.6-releases](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
-      * [[!DNL FedEx] Migratie van SOAP naar RESTful-API voor de integratie van verzendmethoden](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
+      * [[!DNL FedEx] Integratie van verzendmethoden migratie van SOAP naar RESTful-API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
    * Elasticsearch {#elasticsearch}
       * [Terugvallen op [!DNL Elasticsearch7] als zoekprogramma is ingesteld op [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Problemen met Elasticsearch na upgrade naar Adobe Commerce Cloud Infrastructure 2.3.1+](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
@@ -1216,7 +1217,7 @@ ht-degree: 0%
    * [Meer ruimte toewijzen voor MySQL in Adobe Commerce in de cloud](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [De increment ID van een DB-entiteit wijzigen (order, factuur, creditnota, enz.) in een bepaald archief](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [Snel instellen voor starterabonnement op cloud](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
-   * [Adobe Commerce Intelligence Training Video: Cohort Report Builder](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
+   * [Adobe Commerce Intelligence Training Video: Report Builder Cohort](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
    * [Upgrade MariaDB 10.0 naar 10.2 voor Adobe Commerce op cloud](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
    * [De Adobe Commerce-omgeving herstellen op cloudinfrastructuur](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI: integraties opnieuw verifiëren](/help/how-to/general/mbi-reauthenticating-integrations.md)
@@ -1238,7 +1239,7 @@ ht-degree: 0%
    * [MBI: Geavanceerde berekende kolommen maken en bewerken](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
    * [Limiet schijfruimte controleren voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)
    * [SSL-certificaten (TLS) voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
-   * [Kan de nieuwste bètaversie niet openen](/help/how-to/general/cannot-access-the-latest-beta-version.md)
+   * [Kan de nieuwste Beta-versie niet openen](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [De toepassingsmodus wijzigen](/help/how-to/general/switch-the-magento-mode.md)
    * [Meld u aan bij Fastly-account dat bij Adobe Commerce wordt geleverd voor cloudinfrastructuur](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
    * [Geef Adobe Commerce-foutrapportnummer weer in plaats van Fastly 503-fout](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
