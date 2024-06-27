@@ -2,9 +2,9 @@
 title: '''[!DNL Admin] aanmelden werkt niet - toegestane sessiemaximale grootte overschreden'
 description: Los het probleem op wanneer u zich probeert aan te melden bij uw [!DNL Admin] en het formulier wordt vernieuwd en u kunt zich niet aanmelden.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,6 @@ U kunt instellen op hoger dan *500000* afhankelijk van de bestaande maximale gro
 
 ## Verwante lezing
 
-* [Sessieformaat](/docs/commerce-admin/systems/security/security-session-management.html?lang=en#admin-sessions) in Admin Systems Guide.
-* [Bewerkingsmodus](/docs/commerce-operations/configuration-guide/cli/set-mode.html) in de Guide Configuratie.
-* [Beveiligde verbindingen](/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in de Commerce on Cloud Infrastructure Guide.
+* [Sessieformaat](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) in Admin Systems Guide.
+* [Bewerkingsmodus](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) in de Guide Configuratie.
+* [Beveiligde verbindingen](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) in de Commerce on Cloud Infrastructure Guide.

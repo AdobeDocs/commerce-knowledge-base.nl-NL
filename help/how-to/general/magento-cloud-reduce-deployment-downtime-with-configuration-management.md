@@ -3,7 +3,7 @@ title: Implementatiedowntime in Adobe Commerce op cloudinfrastructuur vermindere
 description: Adobe Commerce on cloud Infrastructure biedt de functie **Configuration Management** om de downtime van het onderhoud aanzienlijk te verminderen en een efficiënte configuratie van uw winkel in verschillende omgevingen te bieden. Voor Adobe Commerce op cloudinfrastructuur 2.2.x en latere implementaties ondersteunt deze functie concepten en opties voor de implementatie van de pijplijn met beperkte stappen.
 exl-id: fde3571c-d95c-4a9b-a024-3b29f9c491ab
 feature: Build, Cloud, Configuration, Deploy
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 23d957ceac17f9989d14b215582304199d398545
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -20,7 +20,7 @@ De pijnlijke en tijdrovende problemen bij de implementatie van uw webwinkel zijn
 
 * **Dezelfde configuratie toepassen in alle omgevingen.** Normaal, zou u configuraties manueel of door gecompliceerde gegevensbestandupdates ingaan. Met het Beheer van de Configuratie, voert u configuraties van het gegevensbestand in één enkel dossier uit om het met uw code van uw lokale ontwikkelomgeving aan Integratie, het Opvoeren, en Productie later te duwen.
 
-* **Sitedowntime bij het implementeren van statische inhoud.** Statische inhoud wordt doorgaans geïmplementeerd tijdens de [implementatiefase](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#deploy-phase). Dit kan tot 30 minuten of meer duren, wat niet aanvaardbaar is voor het bedrijfsleven. Het Beheer van de configuratie verplaatst statische inhoudsplaatsing aan [bouwfase](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?#build-phase), waarvoor geen downtime is vereist.
+* **Sitedowntime bij het implementeren van statische inhoud.** Statische inhoud wordt doorgaans geïmplementeerd tijdens de [implementatiefase](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#deploy-phase-deploy-phase). Dit kan tot 30 minuten of meer duren, wat niet aanvaardbaar is voor het bedrijfsleven. Het Beheer van de configuratie verplaatst statische inhoudsplaatsing aan [bouwfase](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#build-phase-build-phase), waarvoor geen downtime is vereist.
 
 ## Technologieversies
 
@@ -34,7 +34,7 @@ Om een lang verhaal kort te maken, haalt het proces van het Beheer van de Config
 Dit biedt de volgende voordelen:
 
 * **Consistente instellingen in alle omgevingen:** alle instellingen die naar het configuratiebestand worden geëxporteerd, worden vergrendeld (de corresponderende velden in de Commerce-beheerder worden alleen-lezen). Dit zorgt voor consistente configuraties wanneer u het bestand in al uw omgevingen plaatst.
-* **Minder downtime:** de statische dossierplaatsing verschuift van [implementatiefase](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#deploy-phase) (waarvoor de locatie in de onderhoudsmodus moet staan) naar de [bouwfase](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?#build-phase) (wanneer de locatie niet in de modus Onderhoud staat en niet wordt uitgepakt in geval van fouten of problemen).
+* **Minder downtime:** de statische dossierplaatsing verschuift van [implementatiefase](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#deploy-phase-deploy-phase) (waarvoor de locatie in de onderhoudsmodus moet staan) naar de [bouwfase](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#build-phase-build-phase) (wanneer de locatie niet in de modus Onderhoud staat en niet wordt uitgepakt in geval van fouten of problemen).
 * **Beschermde vertrouwelijke gegevens:** met Adobe Commerce op cloudinfrastructuur 2.2 en hoger exporteert het proces ook gevoelige gegevens (bijvoorbeeld gegevens van betaalgateway) naar de `env.php` bestand. Dit bestand moet alleen worden opgeslagen in de omgeving waarin het is gemaakt en niet worden geduwd met de Git-vertakkingen.
 
 Wij adviseren sterk het toepassen van de benadering van het Beheer van de Configuratie in uw plaatsing.

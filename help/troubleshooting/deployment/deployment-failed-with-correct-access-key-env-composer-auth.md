@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor het probleem wanneer de implem
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 54ef4e95cf0e3f5822ff5e5c566129fab331f784
+source-git-commit: 7804e7094fb05d1cce9747c8f96c3cfe6bc6171e
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 
 Adobe Commerce op cloudinfrastructuur 2.4.x
 
-## Probleem  
+## Probleem
 
 <u>Stappen om te reproduceren</u>:
 
-Poging om te implementeren. 
+Poging om te implementeren.
 
 <u>Verwachte resultaten</u>:
 
@@ -40,7 +40,7 @@ De implementatie is voltooid.
 >
 >Dit is een voorbeeldfout. Er kan een fout optreden die een ander bestand aangeeft (afhankelijk van de Adobe Commerce-versie die u implementeert).
 
-U kunt niet correct implementeren. Er verschijnt een fout als *Kan het bestand &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; niet downloaden (HTTP/1.1 404 niet gevonden)* in de [implementatielogboek](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+U kunt niet correct implementeren. Er verschijnt een fout als *Kan het bestand &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; niet downloaden (HTTP/1.1 404 niet gevonden)* in de [implementatielogboek](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 
 ### Oorzaak
@@ -54,7 +54,7 @@ De opgegeven toegangstoetsen voor composers die op een van deze locaties worden 
 
 Werk de `env:COMPOSER_AUTH` variabele op het projectniveau en zorg ervoor dat het met sleutels wordt gevormd die toegang tot de code hebben.
 
-Raadpleeg voor stappen [Variabele niveaus](/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) in Commerce on Cloud Infrastructure Guide.
+Raadpleeg voor stappen [Variabele niveaus](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) in Commerce on Cloud Infrastructure Guide.
 
 ## Gerelateerde lezing
 
