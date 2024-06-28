@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 366e27875cd3a764d99d62997336c11adafcb623
+source-git-commit: c8e688b59f0d66dc32da098c185d81b14c6770bc
 workflow-type: tm+mt
-source-wordcount: '11052'
+source-wordcount: '11064'
 ht-degree: 0%
 
 ---
@@ -912,6 +912,7 @@ ht-degree: 0%
       * [Problemen oplossen op de Adobe Commerce-site](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md)
       * [Als u een patch toepast, wordt uw site uitgeschakeld](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [Fout 404 op alle pagina&#39;s vanwege probleem met het opslaan van inhoud](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
+      * [Gereviseerde patches voor Google Maps-toegangsverlies op alle Adobe Commerce-versies](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * Overige {#miscellaneous}
       * [Hoe controleert u waarom? [!DNL cron] was uitgeschakeld](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
       * [Fout [!DNL opensearch] zoekmachine bestaat niet. Terugvallen op [!DNL livesearch].](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
