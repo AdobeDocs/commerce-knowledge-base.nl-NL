@@ -3,9 +3,9 @@ title: Gereviseerde patches voor Google Maps-toegangsverlies op alle Adobe Comme
 description: 'Dit artikel biedt een oplossing voor Adobe Commerce-handelaren die niet compatibel zijn met recente [!DNL Google Maps] versies van 3.54+.'
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 49bc0b643c10c6597d6a905935c36251e92b18f9
+source-git-commit: 575fce2f678321ff184779895d43be90828c2ce4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ Dit artikel biedt een oplossing voor Adobe Commerce-handelaren die niet compatib
 
 Aan *14 juni 2024* [!DNL Google Maps] versie *3,53* het einde van de levensduur heeft bereikt en [!DNL Google].
 
-Raadpleeg voor meer informatie [[!DNL Google Maps] Platform: hiermee kunt u JavaScript API [https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions] toewijzen.
+[Raadpleeg voor meer informatie ([!DNL Google Maps Platform: Maps JavaScript API])] (https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
 
 Adobe Commerce is niet compatibel met recente [!DNL  Google Maps] versies van 3.54+.
 
 De incompatibiliteit werd veroorzaakt door verouderde `prototype.js script`, die door `lib/web/legacy-build.min.js` negeert native Array.from functie, wat leidt tot een direct conflict met [!DNL  Google Maps] API.
 
-Zie [[!DNL Google Maps: JS Best Practices]] (https://developers.google.com/maps/documentation/javascript/best-practices).
+[Verwijs naar ([!DNL Google Maps: JS Best Practices])] (https://developers.google.com/maps/documentation/javascript/best-practices).
 
 <u>Stappen om te reproduceren</u> :
 
-1. Ga naar **[!UICONTROL Content]** > **[!UICONTROL Pages]** > en klik op een **[!UICONTROL New Page]**.
+1. Klikken op **[!UICONTROL Content]** > **[!UICONTROL Pages]** > en selecteer een **[!UICONTROL New Page]**.
 1. Vouw het blok Inhoud uit en klik op Bewerken **[!DNL PageBuilder]** knop.
 1. Sleep het blok met kaartinhoud vanuit het deelvenster **[!DNL PageBuilder]** aan pagina.
 
