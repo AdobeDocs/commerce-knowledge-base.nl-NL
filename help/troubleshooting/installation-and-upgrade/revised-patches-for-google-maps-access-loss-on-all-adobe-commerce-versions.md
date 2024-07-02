@@ -3,7 +3,7 @@ title: Gereviseerde patches voor Google Maps-toegangsverlies op alle Adobe Comme
 description: 'Dit artikel biedt een oplossing voor Adobe Commerce-handelaren die niet compatibel zijn met recente [!DNL Google Maps] versies van 3.54+.'
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 98581cc9c251976339406f80764715096321126b
+source-git-commit: cf235c2fdd7a36d7e3b126de35c51e6711cd3845
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Bij het neerzetten van het blok Inhoud toewijzen uit **[!DNL PageBuilder]** aan 
 
 ## Oplossing
 
-* Alle verkopers op om het even welke 2.4.4, 2.4.5, 2.4.6 of 2.2.7 flardversie zouden deze overeenkomstige flarden op hun versie moeten toepassen.
+* Alle verkopers op om het even welke 2.4.4, 2.4.5, 2.4.6 of 2.4.7 flardversie zouden deze overeenkomstige flarden op hun versie moeten toepassen.
 
 ## Reparatie
 
