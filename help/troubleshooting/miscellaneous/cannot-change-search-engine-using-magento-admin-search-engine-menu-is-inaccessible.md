@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor het wijzigen van de zoekengine
 exl-id: 5b0f728c-6a8d-446d-9553-5abc3d01e516
 feature: Admin Workspace, Search, Variables
 role: Developer
-source-git-commit: e9f009cf4e072dcd9784693c10a4c16746af3cc5
+source-git-commit: 0ea7bbef7fec556f9a90151be9cf1077f5cfac45
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,14 @@ In dit artikel:
 
 ## Zoekmachine wijzigen met de beheerfunctie (stappen)
 
-1. Meld u als beheerder aan bij de beheerder.
-1. Klik in de linkerzijbalk van de Admin-beheerder op **Winkels**. Vervolgens, onder **Instellingen**, kiest u **Configuratie**.
-1. In het linkerdeelvenster onder **Catalogus,** kiezen **Catalogus**.
-1. Breid uit **Catalogus zoeken** sectie.    ![catalog_menu.png](assets/catalog_menu.png)
-1. Ga naar de **Zoekmachine** veld en selectie verwijderen uit **Systeemwaarde gebruiken** selectievakje.
-1. Klik op de knop **Zoekmachine** en selecteert u een van de beschikbare opties.    ![search_engine_menu.png](assets/search_engine_menu.png)
-1. Klikken **Config opslaan** rechtsboven op de pagina.
+1. Aanmelden bij de **[!UICONTROL Admin]** als beheerder.
+1. Aan de linkerkant van het **[!UICONTROL Admin]** zijbalk, klik op **[!UICONTROL Stores]**.
+1. Onder **[!UICONTROL Settings]**, kiest u **[!UICONTROL Configuration]**.
+1. Navigeer naar het deelvenster links onder **[!UICONTROL Catalog],** en kiest u **[!UICONTROL Catalog]**.
+1. Breid uit **[!UICONTROL Catalog Search]** sectie.    ![catalog_menu.png](assets/catalog_menu.png)
+1. Ga naar de **[!UICONTROL Search Engine]** veld en selectie verwijderen uit **[!UICONTROL Use system value]** selectievakje.
+1. Klik op de knop **[!UICONTROL Search Engine]** en selecteert u een van de beschikbare opties zoals hieronder weergegeven.    ![search_engine_menu.png](assets/search_engine_menu.png)
+1. Klikken op **[!UICONTROL Save Config]** rechtsboven op de pagina.
 
 ## Problemen met Adobe Commerce op locatie
 
@@ -65,10 +66,11 @@ De zoekmachine is een algemene configuratie die is ingesteld op toepassingsnivea
 
 ### Oplossing: de mening van de Opslag plaatsen aan Standaard Config
 
-1. Meld u als beheerder aan bij de beheerder.
-1. Klik in de linkerzijbalk van de Admin-beheerder op **Winkels**. Vervolgens, onder **Instellingen**, kiest u **Configuratie**.
-1. Klik in de linkerbovenhoek op de knop **Winkelweergave** selector en kies *Standaardconfiguratie*.
-1. Klikken **OK** in het bevestigingsdialoogvenster om wijziging in de winkelweergave goed te keuren.
+1. Aanmelden bij de **[!UICONTROL Admin]** als beheerder.
+1. Aan de linkerkant van het **[!UICONTROL Admin]** zijbalk, klik op **[!UICONTROL Stores]**.
+1. Navigeren naar **[!UICONTROL Settings]** en kiest u **[!UICONTROL Configuration]**.
+1. Klik in de linkerbovenhoek op de knop **[!UICONTROL Store View]** selector en kies **[!UICONTROL *Standaardconfiguratie *]**.
+1. Klikken op **[!UICONTROL OK]** in het bevestigingsdialoogvenster om de wijzigingen in de winkelweergave goed te keuren.
 
 ![change_store_view.png](assets/change_store_view.png)
 
