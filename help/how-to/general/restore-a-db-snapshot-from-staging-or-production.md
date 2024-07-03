@@ -2,9 +2,9 @@
 title: Een DB-momentopname herstellen uit Staging of Productie
 description: In dit artikel wordt getoond hoe u een DB-momentopname van Staging of Production op Adobe Commerce op cloudinfrastructuur kunt herstellen.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: b9e72ff8d541ad01788e5198e03abcb46a1bd11f
+source-git-commit: ad0ec2e6dc1d3e1023ad4ecda595b5c942716407
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -124,16 +124,22 @@ De stappen zijn:
 
 1. Voer de volgende opdracht in om de [!DNL snapshot]:
 
-   (Voor [!DNL Production])
+   (Voor het importeren van de databaseback-up uit [!DNL Production])
 
    ```sql
    zcat <cluster ID>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
    ```
 
-   (Voor [!DNL Staging])
+   (Voor het importeren van de databaseback-up uit [!DNL Staging])
 
    ```sql
    zcat <cluster ID_stg>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
+   ```
+
+   (Voor het importeren van een databaseback-up vanuit een andere omgeving)
+
+   ```sql
+   zcat <database-backup-name>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
    ```
 
 ## Gerelateerde lezing
