@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor het probleem wanneer de implem
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 7804e7094fb05d1cce9747c8f96c3cfe6bc6171e
+source-git-commit: 9f9dc8374bb681398ed1c295ac15679553cfc74e
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,7 @@ De implementatie is voltooid.
 >
 >Dit is een voorbeeldfout. Er kan een fout optreden die een ander bestand aangeeft (afhankelijk van de Adobe Commerce-versie die u implementeert).
 
-U kunt niet correct implementeren. Er verschijnt een fout als *Kan het bestand &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; niet downloaden (HTTP/1.1 404 niet gevonden)* in de [implementatielogboek](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
-
+U kunt niet correct implementeren. Er verschijnt een fout als *Kan het bestand &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; niet downloaden (HTTP/1.1 404 niet gevonden)* in de [implementatielogboek](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Oorzaak
 
@@ -59,4 +58,4 @@ Raadpleeg voor stappen [Variabele niveaus](https://experienceleague.adobe.com/en
 ## Gerelateerde lezing
 
 * [Adobe Commerce on cloud repo kan niet worden geopend: 403 Verboden of 404 Geen fout gevonden bij implementatie](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)
-* [Implementatiefout: fout 7 tijdens het downloaden ... poort 443: verbinding geweigerd](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce)
+* [Implementatiefout: fout 7 tijdens het downloaden ... poort 443: verbinding geweigerd](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
