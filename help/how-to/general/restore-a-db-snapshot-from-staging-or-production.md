@@ -2,9 +2,9 @@
 title: Een DB-momentopname herstellen uit Staging of Productie
 description: In dit artikel wordt getoond hoe u een DB-momentopname van Staging of Production op Adobe Commerce op cloudinfrastructuur kunt herstellen.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: ad0ec2e6dc1d3e1023ad4ecda595b5c942716407
+source-git-commit: b99d78845128ca3d995cbbb5df0799449ca954e3
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Kies de meest geschikte optie voor uw kwestie:
 
 De stappen zijn:
 
-1. Gebruiken [!DNL sFTP], navigeer naar de locatie waar de database zich bevindt [!DNL snapshot] is geplaatst, gewoonlijk op de eerste server/de knoop van uw [!DNL cluster] (Bijvoorbeeld: `/mnt/recovery-<recovery_id>`). NOTA: Als uw project op Azure-Gebaseerd is, d.w.z., kijkt uw project URL ongeveer als https://us-a1.magento.cloud/projects/&lt;cluster_id>, wordt de opname geplaatst `/mnt/shared/<cluster ID>/all-databases.sql.gz` of `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz` in plaats daarvan.
+1. Gebruiken [!DNL SFTP], navigeer naar de locatie waar de database zich bevindt [!DNL snapshot] is geplaatst, gewoonlijk op de eerste server/de knoop van uw [!DNL cluster] (Bijvoorbeeld: `/mnt/recovery-<recovery_id>`). NOTA: Als uw project op Azure-Gebaseerd is, d.w.z., kijkt uw project URL ongeveer als https://us-a1.magento.cloud/projects/&lt;cluster_id>, wordt de opname geplaatst `/mnt/shared/<cluster ID>/all-databases.sql.gz` of `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz` in plaats daarvan.
 
    NOTA: Het formaat van de momentopname op Azure projecten zal verschillend zijn en bevat andere gegevensbestanden die niet kunnen worden ingevoerd. Alvorens de momentopname in te voeren, zult u extra stappen moeten nemen om het aangewezen gegevensbestand te halen alvorens de stortplaats in te voeren.
 
@@ -134,6 +134,12 @@ De stappen zijn:
 
    ```sql
    zcat <cluster ID_stg>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
+   ```
+
+   (Voor het importeren van een databaseback-up vanuit een andere omgeving)
+
+   ```sql
+   zcat <database-backup-name>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
    ```
 
    (Voor het importeren van een databaseback-up vanuit een andere omgeving)
