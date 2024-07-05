@@ -1,19 +1,19 @@
 ---
 title: Kan verzending niet opslaan als URL-sleutel
-description: Dit artikel biedt een oplossing voor het probleem wanneer u "Verzending" niet kunt opslaan als een URL-sleutel (bijvoorbeeld "/verzending") voor producten of CMS-pagina's. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
+description: Dit artikel biedt een oplossing voor het probleem wanneer u verzending niet kunt opslaan als een URL-sleutel (_bijv. /Shipping_) voor producten of CMS-pagina's. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
 exl-id: df19b597-f615-4b19-82c1-59cc179fa720
 feature: Marketing Tools, Shipping/Delivery, Storefront
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 1ce963142a261a17e2b42f79dd567c8484ec5b3e
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
-# Kan verzending niet opslaan als URL-sleutel
+# Kan niet opslaan _verzending_ als URL-sleutel
 
-Dit artikel biedt een oplossing voor het probleem wanneer u &quot;Verzending&quot; niet kunt opslaan als een URL-sleutel (bijvoorbeeld &quot;/verzending&quot;) voor producten of CMS-pagina&#39;s. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
+Dit artikel biedt een oplossing voor het probleem wanneer u de verzending niet als URL-sleutel kunt opslaan (_bijv., /Shipping_) voor producten of CMS-pagina&#39;s. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
 
 ## Betrokken producten en versies
 
@@ -21,19 +21,20 @@ Adobe Commerce (alle implementatiemethoden) 2.4.x
 
 ## Probleem
 
-U kunt een CMS-pagina met de term &quot;verzending&quot; in de URL-sleutel niet opslaan.
+U kunt een CMS-pagina met de term niet opslaan _verzending_ in de URL-sleutel.
 
 <u>Stappen om te reproduceren</u>:
 
-Maak een CMS-pagina met de URL-sleutel als &quot;verzending&quot;.
+Een **[!UICONTROL CMS page]** met de URL-sleutel als _verzending_.
 
 <u>Verwacht resultaat</u>:
 
-De pagina wordt met &quot;Verzending&quot; opgeslagen in de URL-sleutel.
+De pagina wordt opgeslagen met _verzending_ als URL-sleutel.
 
 <u>Werkelijk resultaat</u>:
 
-U kunt het bestand niet opslaan en er wordt een fout weergegeven: *Met de waarde die u opgeeft in het veld URL-sleutel, wordt een bestaande URL gegenereerd.*
+U kunt niet opslaan omdat deze fout optreedt:
+*Met de waarde die u opgeeft in het veld URL-sleutel, wordt een bestaande URL gegenereerd.*
 
 ## Oorzaak
 
@@ -49,19 +50,77 @@ Verzending is een gereserveerd woord dat is gedefinieerd in `vendor/magento/modu
 
 ## Oplossing
 
-Je kunt de term &#39;verzending&#39; niet gebruiken in je URL-sleutel. Je kunt echter de term &#39;verzending&#39; gebruiken in combinatie met een andere letter of een ander nummer (bijvoorbeeld &#39;verzending1&#39; en &#39;verzending2&#39;). Hoewel de term niet &quot;verzending&quot; hoeft te zijn+&lt;another number=&quot;&quot; or=&quot;&quot; letter=&quot;&quot;> - de term kan een willekeurige tekenreeks zijn, zolang de lengte niet meer dan 255 tekens bedraagt.
+U kunt de term niet gebruiken _verzending_ in uw URL-sleutel - maar u kunt de term _verzending_ gecombineerd met een andere letter of een ander getal (_Bijvoorbeeld verzending1 en verzending2_).
 
-Voer de volgende stappen uit:
+Hoewel de term niet hoeft te worden gebruikt _verzending_+&lt;another number=&quot;&quot; or=&quot;&quot; letter=&quot;&quot;> - de term kan een willekeurige tekenreeks zijn zolang de lengte niet wordt overschreden *255* tekens.
 
-1. Meld u aan bij de Commerce-beheerder.
-1. Ga naar **Marketing** > SEO &amp; Search > **URL herschrijft**.
-1. Klikken **URL-herschrijven toevoegen**.
-1. Selecteren *Aangepast* op Create URL herschrijft drop-down.
-   1. Typ in het aanvraagpad &quot;verzending&quot;. Opmerking: het aanvraagpad is het pad dat een gebruiker in de browser invoert en het doelpad is het pad waarnaar de gebruiker moet omleiden.
-   1. Typ in het doelpad de nieuwe URL-sleutel (bijvoorbeeld &quot;Shipping1&quot;).
-   1. Selecteren **Nee** in de vervolgkeuzelijst Omleiden.
+## Voer de volgende stappen uit:
+
+1. Meld u aan bij de Adobe Commerce-beheerder.
+1. Ga naar **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
+1. Klik op **[!UICONTROL Add URL Rewrite]**.
+1. Selecteren **[!UICONTROL Custom]** in de **[!UICONTROL Create URL Rewrite]** vervolgkeuzelijst.
+   1. Typ de [!UICONTROL Request Path] als **_verzending_**.
+   1. In de **[!UICONTROL Target Path]** Typ de nieuwe URL-sleutel (_Bijvoorbeeld &quot;Shipping1&quot;_).
+   1. Selecteren **[!UICONTROL No]** in de **[!UICONTROL Redirect]** vervolgkeuzelijst.
+
+
+      (**Opmerking**: Het verzoekpad is het pad dat een gebruiker in de browser invoert en het doelpad is het pad waarnaar de gebruiker moet omleiden.)
+
+Vermijd bovendien het gebruik van deze trefwoorden met het label *gereserveerd* trefwoorden die ertoe leiden dat dezelfde uitzondering wordt weergegeven. Als u een van deze trefwoorden gebruikt als een URL-sleutelwaarde, wordt dezelfde fout weergegeven.
+
+
+```
+"admin"
+"adminAnalytics"
+"analytics"
+"api"
+"backup"
+"bulk"
+"captcha"
+"catalog"
+"catalogsearch"
+"checkout"
+"cms"
+"contact"
+"cookie"
+"customer"
+"directory"
+"downloadable"
+"giftmessage"
+"groupedProduct"
+"indexer"
+"instantpurchase"
+"loginascustomer"
+"marketplace"
+"mui"
+"multishipping"
+"newsletter"
+"oauth"
+"paypal"
+"persistent"
+"productalert"
+"releaseNotification"
+"reports"
+"review"
+"robots"
+"rss"
+"sales"
+"search"
+"security"
+"sendfriend"
+"shipping"
+"stores"
+"swagger"
+"swatches"
+"tax"
+"theme"
+"translation"
+"vault"
+"wishlist"
+```
 
 ## Gerelateerde lezing
 
-* [URL herschrijft](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in onze gebruikershandleiding.
-* [SEO Best practices](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in onze gebruikershandleiding.
+* [URL herschrijft](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in onze Gebruikershandleiding voor Verkoop en Aanbiedingen.
+* [SEO Best practices](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in onze Gebruikershandleiding voor Merchandising en Promoties..
