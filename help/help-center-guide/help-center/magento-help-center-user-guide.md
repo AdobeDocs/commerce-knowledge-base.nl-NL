@@ -3,7 +3,7 @@ title: Handboek voor Adobe Commerce Help Center
 description: Leer hoe u een ondersteuningsticket naar het Adobe Commerce Help Center kunt verzenden, gedeelde toegang tot accounts kunt bieden en naar de Adobe Commerce Knowledge Base kunt navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: bdef7c26141356727a225c0ea0a1f9a064d213db
+source-git-commit: 3e773131f6f44436fc533f74474efbe8597abb5f
 workflow-type: tm+mt
 source-wordcount: '4988'
 ht-degree: 0%
@@ -112,7 +112,7 @@ Zodra u zich hebt aangemeld, kunt u een ondersteuningskwestie indienen via de ho
 
 Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met de startpagina van Adobe Experience League:
 
->
+>[!NOTE]
 >
 >1. Als u tot veelvoudige organisaties behoort, zult u de aangewezen organisatie van dropdown moeten selecteren.
 >1. Als je een kwestie wilt indienen, moet je recht hebben op ondersteuning. Als u dat niet doet, wordt boven aan de pagina een balk weergegeven met de mededeling dat u geen gebruiker in de organisatie bent die recht heeft op ondersteuning.
@@ -276,6 +276,7 @@ U *moeten* een account op zowel https://account.adobe.com als https://account.ma
 >Als u al een account hebt op https://account.magento.com maar u niet kunt aanmelden, hebt u zich mogelijk niet geregistreerd voor een account op https://account.adobe.com, dat vanaf augustus 2022 vereist is.
 >
 >Dit probleem oplossen:
+>
 >1. Maak een account op https://account.adobe.com met hetzelfde e-mailadres op je MAG-id.
 >1. Ga naar https://account.magento.com om uw Adobe ID te koppelen aan de MAG-id.
 
