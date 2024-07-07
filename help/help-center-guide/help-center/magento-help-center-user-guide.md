@@ -3,24 +3,43 @@ title: Handboek voor Adobe Commerce Help Center
 description: Leer hoe u een ondersteuningsticket naar het Adobe Commerce Help Center kunt verzenden, gedeelde toegang tot accounts kunt bieden en naar de Adobe Commerce Knowledge Base kunt navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 751a315303be3d6435f4064cdd3fb28a0c811155
+source-git-commit: bdef7c26141356727a225c0ea0a1f9a064d213db
 workflow-type: tm+mt
-source-wordcount: '3986'
+source-wordcount: '4988'
 ht-degree: 0%
 
 ---
 
 # Handboek voor Adobe Commerce Help Center
 
-Leer in deze handleiding hoe u een ondersteuningsticket kunt indienen bij de [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) en gedeelde toegang tot de rekeningen van het Magento verlenen.
+Leer in deze handleiding hoe u een ondersteuningsticket kunt indienen bij de [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) en gedeelde toegang tot de Adobe Commerce-accounts bieden.
 
 >[!NOTE]
 >
->Het gedeelte Knowledge Base van het Adobe Commerce Help Center is naar het Adobe Experience League-portaal gemigreerd. Wanneer u een ondersteuningsticket maakt, worden verwante artikelen in de Knowledge Base samen met andere relevante Adobe Commerce-documentatie van de Adobe Experience League aan u voorgesteld.
+>Adobe Commerce-ondersteuning gaat van Adobe Commerce Help Center naar Experience League. Als u op de hoogte bent gesteld dat u toegang hebt, gebruikt u de beschreven stroom van het Experience League-case-formulier [hier](#what-is-experience-support). Als u geen bericht hebt ontvangen, blijft u de [Adobe Commerce Help Center - casestroom](#what-is-adobe-commerce-help-center).
 
-**Primaire update:** 14 oktober 2022
+>[!NOTE]
+>
+>Het gedeelte Knowledge Base van het Adobe Commerce Help Center is naar het Adobe Experience League-portaal gemigreerd. Wanneer u een ondersteuningsticket maakt, worden de bijbehorende artikelen in de Knowledge Base samen met andere relevante Adobe Commerce-documentatie van Adobe Experience League aan u voorgesteld.
 
-**[WAT IS HET ADOBE COMMERCE HELP CENTER?](#what-is)**
+**Primaire update:** 8 juli 2024
+
+**[WAT ONDERSTEUNT EXPERIENCE LEAGUE?](#what-is-experience-support)**
+
+**[ONDERSTEUNINGSGEVALLEN](#support-cases)**
+
+* [Aanmelden bij Experience League Support](#sign-in-experience-support)
+* [Een ondersteuningskwestie indienen](#submit-case)
+
+   * [Adobe Experience League-startpagina](#experience-league-start-page)
+   * [Adobe Commerce-accountpagina](#submit-case-adobe-commerce-account-page)
+   * [*Verifieer uw e-mailadres*](#verify-email-address-error)
+
+* [Houd uw ondersteuningsgevallen bij](#track-support-cases)
+* [Opmerkingen in uw geval](#comments-in-your-case)
+* [Kwestie sluiten](#close-case)
+
+**[WAT IS HET ADOBE COMMERCE HELP CENTER?](#what-is-adobe-commerce-help-center)**
 
 **[ONDERSTEUNINGSTICKETS](#support-tickets)**
 
@@ -59,7 +78,160 @@ Leer in deze handleiding hoe u een ondersteuningsticket kunt indienen bij de [Ad
 
 **[MAGENTO U MAAKT NU DEEL UIT VAN DE ADOBE DIGITALE LEERDIENSTEN](#magento-u)**
 
-## WAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
+>[!NOTE]
+>
+>Als u geen melding hebt ontvangen, kunt u de opdracht [Adobe Commerce Help Center - casestroom](#what-is-adobe-commerce-help-center). Als u op de hoogte bent gesteld dat u in de cohort met toegang werkt, volgt u de beschreven stroom voor het Experience League-case-formulier [onder](#what-is-experience-league-support).
+
+## WAT ONDERSTEUNT EXPERIENCE LEAGUE? {#what-is-experience-support}
+
+De Steun van het Experience League is een steunportaal voor Adobe waar de in aanmerking komende klanten van Adobe Commerce steunkaartjes kunnen voorleggen en beheren. Dit is ook de locatie waar u artikelen voor het oplossen van problemen kunt bekijken.
+
+## ONDERSTEUNINGSGEVALLEN {#support-cases}
+
+Met Adobe Experience League Support Case Management kunt u voor alle Adobe Commerce-producten waarvoor een contract is gesloten, met ondersteuning werken door middel van gevallen om specifieke problemen op te lossen die zijn opgetreden bij het gebruik van Adobe producten, waaronder Adobe Commerce.
+
+## AANMELDEN BIJ ONDERSTEUNING VAN EXPERIENCE LEAGUE {#sign-in-experience-support}
+
+Door in te loggen kunt u vragen van medewerkers op ondersteuningstickets indienen, bijwerken en beantwoorden.
+
+Voer de volgende stappen uit om u aan te melden bij Adobe Experience League Support:
+
+1. Navigeren naar [experienceleague.adobe.com](https://experienceleague.adobe.com/).
+1. Meld u aan met uw aanmeldingsgegevens voor de Adobe.
+
+![sign-into experience-league](assets/experience_league_sign_in.png)
+
+### Een ondersteuningskwestie indienen {#support-case}
+
+Zodra u zich hebt aangemeld, kunt u een ondersteuningskwestie indienen via de homepage van Adobe Experience League, uw Adobe Commerce-accountpagina en uw Adobe Commerce Cloud-accountpagina.
+
+* Voer de onderstaande stappen uit als u de eigenaar van de account bent.
+* Als u een Gedeelde gebruiker van de Toegang bent, moet u eerst van rekeningen veranderen. Zie [Toegang tot gedeelde account (switchaccounts)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts)en vervolgens kunt u verdergaan met de onderstaande stappen.
+
+#### Adobe Experience League-startpagina {#experience-league-start-page}
+
+Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met de startpagina van Adobe Experience League:
+
+>
+>
+>1. Als u tot veelvoudige organisaties behoort, zult u de aangewezen organisatie van dropdown moeten selecteren.
+>1. Als je een kwestie wilt indienen, moet je recht hebben op ondersteuning. Als u dat niet doet, wordt boven aan de pagina een balk weergegeven met de mededeling dat u geen gebruiker in de organisatie bent die recht heeft op ondersteuning.
+
+1. Klikken op **Ondersteuning** in de koptekst. Het zal de homepage van de Steun openen.
+
+   ![open-support-page](assets/click_support.png)
+
+1. Klik op **[!UICONTROL Open Ticket]** of klik op **[!UICONTROL Get Started]** in *[!UICONTROL Open a support ticket]* kaart.
+
+   ![open-support-case](assets/open_support_case.png)
+
+1. Selecteer een product in het vervolgkeuzemenu en geef een titel en beschrijving op.
+
+   ![select_product](assets/support_case_product.png)
+
+1. Adobe Experience League zal artikelen en tips en trucs voorstellen die je kunnen helpen je kwestie op te lossen. Als u nog steeds directe ondersteuning nodig hebt, moet u aanvullende informatie opgeven voordat u de kwestie kunt indienen.
+
+   ![direct_support_required](assets/direct_support.png)
+
+1. Als u alle vereiste gegevens hebt ingevuld, klikt u op **[!UICONTROL Submit case]**.
+
+U moet over een account op zowel https://account.adobe.com als https://account.magento.com beschikken om u aan te melden bij het Experience League om een ondersteuningskwestie in te dienen. U kunt pas een ondersteuningskwestie verzenden nadat u bent aangemeld.
+
+>[!NOTE]
+>
+>Als u al een account hebt op https://account.magento.com maar u niet kunt aanmelden, hebt u zich mogelijk niet geregistreerd voor een account op https://account.adobe.com, dat vanaf augustus 2022 vereist is.
+>
+>Dit probleem oplossen:
+>1. Maak een account op https://account.adobe.com met hetzelfde e-mailadres op je MAG-id.
+>1. Ga naar https://account.magento.com om uw Adobe ID te koppelen aan de MAG-id.
+
+#### Adobe Commerce-accountpagina {#submit-case-adobe-commerce-account-page}
+
+Ga als volgt te werk als u een nieuw ondersteuningsticket wilt verzenden via uw Adobe Commerce-accountpagina:
+
+1. Meld u aan bij uw Adobe Commerce-account. Zie [gedetailleerde instructies](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) in onze gebruikershandleiding.
+1. Klik op de knop **Ondersteuning** tab.
+
+   ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
+
+1. De Adobe Experience League-ondersteuningspagina wordt voor u geladen.
+1. Selecteren **[!UICONTROL Open Ticket]** in het linkermenu.
+1. Vul de velden in.
+1. Klikken **Verzenden**.
+
+#### *Controleer uw e-mailadres* fout op pagina Adobe Commerce-account {#verify-email-address-error}
+
+U kunt geen ondersteuningsticket verzenden als u de e-mailadresfout ontvangt die vergelijkbaar is met de hieronder vermelde fout [Adobe Commerce-account](https://account.magento.com/) pagina.
+
+![Verify_Email_Address_Error](assets/Verify_Email_Address_Error.png)
+
+
+### Houd uw ondersteuningsgevallen bij {#track-support-case}
+
+Uw ondersteuningszaken zijn die van u:
+
+* persoonlijk hebben ingediend.
+* zijn toegevoegd als waterkant via een CC (koolstofkopie).
+
+#### Bekijk je kwesties
+
+Je kunt je kwesties bekijken door op **[!UICONTROL My Cases]** in het linkermenu.
+
+![view-support-cases](assets/view_support_cases.png)
+
+#### Zoeken naar gevallen
+
+Als u gevallen wilt zoeken, typt u uw zoekopdracht in het dialoogvenster *[!UICONTROL Search]* veld en druk op *enter* op uw toetsenbord.
+
+![zoekgevallen](assets/search_cases.png)
+
+#### Vergroot uw zaken
+
+Als u van mening bent dat een zaak extra aandacht vereist en onze eerste reactietijd voorbij is, kunt u de zaak escaleren. Om dat te doen,
+
+1. Klikken op **[!UICONTROL Escalate to management]** rechtsonder in het dialoogvenster *[!UICONTROL Case Detail]* aan de rechterkant van het scherm.
+
+   ![escalate-to-management](assets/escalate_to_management.png)
+
+1. Nadat u hebt geklikt, wordt een pop-upformulier weergegeven. Vul het formulier in en klik op **[!UICONTROL Escalate]**.
+
+   ![bevestiging-escalatie](assets/confirm_escalation.png)
+
+   *Redenen voor escalatie kunnen onder meer zijn*: Communicatie van de agent Vaardigheden, de Technische Kennis van de Agent, wachtend Callback/Update, Verandering in Kwestie Urgentie, de Resolutie voldeed niet aan verwachtingen, of Tijd aan Resolutie.
+
+#### Voeg een watcher toe aan ondersteuningsgevallen
+
+U kunt watchers toevoegen om gevallen te ondersteunen die door leden van uw organisatie zijn ingediend. De kijkers zullen e-mailberichten ontvangen wanneer nieuwe gevallen worden voorgelegd of wanneer bestaande gevallen worden bijgewerkt.
+
+1. Als u een watcher wilt toevoegen aan een bestaand hoofdlettergebruik, opent u het hoofdlettergebruik en klikt u op het potloodpictogram naast &quot;watchers&quot; in het deelvenster Details hoofdlettergebruik rechts van het scherm.
+
+   ![add-watchers](assets/add_watchers.png)
+
+1. Nadat u op het potlood hebt geklikt, kunt u er wachtwoorden aan toevoegen of eruit verwijderen.
+
+   ![update-watchers](assets/update_watchers.png)
+
+### Opmerkingen in uw geval {#comments-in-your-case}
+
+Opmerkingen in uw geval bevatten alle opmerkingen die u of het Adobe Commerce-ondersteuningsteam hebben geschreven. Opmerkingen worden weergegeven van de laatste (boven) tot de vroegste (onder).
+Ga als volgt te werk om een opmerking toe te voegen:
+
+1. Blader naar de onderkant van uw ticket.
+1. Schrijf uw opmerking in de **[!UICONTROL Comments]** veld en klik op **[!UICONTROL Add comments]**.
+
+![add-comments](assets/add_comments.png)
+
+### Kwestie sluiten {#close-case}
+
+Klik op **[!UICONTROL Close case]** rechtsonder in het dialoogvenster *[!UICONTROL Case Detail]* deelvenster.
+
+![met gesloten hoofdletters](assets/close_case.png)
+
+>[!NOTE]
+>
+>Doorgaan met de formulierstroom van Adobe Commerce Help Center [onder](#what-is-adobe-commerce-help-center) voor het verzenden en beheren van tickets, tenzij u op de hoogte bent gesteld dat u in de cohort bent met toegang tot de beschreven stroom van het Experience League-casestormulier [hier](#what-is-experience-league-support).
+
+## WAT IS ADOBE COMMERCE HELP CENTER? {#what-is-adobe-commerce-help-center}
 
 De [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is een ondersteuningsportaal voor Adobe Commerce, waar in aanmerking komende klanten ondersteuningstickets kunnen indienen en beheren. Dit is ook de locatie waar u artikelen voor het oplossen van problemen kunt bekijken.
 
@@ -291,7 +463,7 @@ De toegangskaarten voor een organisatie volgen/opheffen:
 
 ### Adobe Commerce-operationeel model voor gedeelde verantwoordelijkheid {#shared-responsibility-operational-model}
 
-**Aanmelding is vereist** toegang tot [Adobe Commerce-operationeel model voor gedeelde verantwoordelijkheid](https://support.magento.com/hc/en-us/articles/4407700678669) artikel dat bedoeld is om de operationele verantwoordelijkheden rond de Adobe Commerce te verduidelijken, uitsluitend met betrekking tot ons pro-infrastructuuraanbod.
+Zie het artikel over [Adobe Commerce-operationeel model voor gedeelde verantwoordelijkheid](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary), die bedoeld is om de operationele verantwoordelijkheden voor alleen ons Pro-infrastructuuraanbod te verduidelijken.
 
 ### Ondersteuningskaartvelden uitgelegd {#ticket-fields-explained}
 
@@ -393,7 +565,7 @@ Meer informatie over Adobe Commerce over cloudinframeconformaties in [Pro-archit
 
 Selecteer het bereik van de desbetreffende bestellingen.
 
-Dit is een vervolgkeuzelijst en alleen van toepassing op het product Order Management.
+Dit is een vervolgkeuzelijst die alleen van toepassing is op Order Management-producten.
 
 #### Organisatie
 
@@ -446,15 +618,15 @@ Schrijf in eenvoudige taal, met korte zinnen.
 
 #### Onderwerp
 
-Een kort overzicht van uw probleem opnemen (bijvoorbeeld *Fout 404 op alle pagina&#39;s* ).
+Een kort overzicht van uw probleem opnemen (bijvoorbeeld *Fout 404 op alle pagina&#39;s*).
 
-**Voorgestelde artikelen:** Wanneer u de zoekterm invoert, geeft u een lijst op met artikelen in de documentatie van Adobe Commerece die mogelijk gerelateerd zijn aan uw probleemweergave. Klik op een artikel in de lijst om het te openen.
+**Voorgestelde artikelen:** Wanneer u de zoekterm invoert, wordt een lijst weergegeven met Adobe Commerce-documentatieartikelen die mogelijk verband houden met uw probleem. Klik op een artikel in de lijst om het te openen.
 
 ![hc_subject-proposed-articles.png](assets/hc_subject-suggested-articles.png)
 
 *Aanbeveling:* Overweeg de voorgestelde artikelen zorgvuldig, ze bevatten mogelijk de oplossing die u van het Adobe Commerce-ondersteuningsteam verwacht te ontvangen.
 
-#### Versie (Adobe Commerce on-premise, Adobe Commerce on cloud Infrastructure and Shipping only)
+#### Versie (Adobe Commerce op locatie, Adobe Commerce op cloudinfrastructuur en alleen op verzending)
 
 Selecteer de Adobe Commerce-versie waarmee u hulp aanvraagt. Alle ondersteunde versies van Adobe Commerce worden bovenaan weergegeven. Niet-ondersteunde versies worden onderaan weergegeven met haakjes. Als u bezig bent met migratie, selecteert u de meest recente versie om ervoor te zorgen dat u wordt ondersteund.
 
@@ -498,6 +670,7 @@ Om een commentaar aan het gesprek toe te voegen, volg deze stappen:
    ![hc_add-to-conversatie.png](assets/hc_add-to-conversation.png)
 
 1. Als u iemand aan uw opmerking wilt toevoegen, geeft u het e-mailadres op in het dialoogvenster **CC** in het veld Opmerking.
+
    >[!NOTE]
    >
    >De gebruiker in CC: moet een bestaand account hebben op https://account.magento.com. Als dat niet het geval is, moeten ze eerst een account maken op https://account.adobe.com en zich aanmelden bij https://account.magento.com met dat account.
@@ -518,29 +691,29 @@ Als u een vervolgticket wilt openen, klikt u op &quot;*een follow-up maken*&quot
 
 ## GEDEELDE TOEGANG: BIEDT ANDERE GEBRUIKERS RECHTEN OM TOEGANG TE KRIJGEN TOT UW ACCOUNT {#shared-access}
 
-U kunt aan andere rekeninghouders van Magento&#39;s beperkte toegang tot uw account verlenen. Met name door **gedeelde toegang** kunt u vertrouwde werknemers en serviceproviders privileges geven om uw account in het Help Center te gebruiken, zodat ze met uw ondersteuningstickets kunnen werken.
+Je kunt aan andere Adobe Commerce-rekeninghouders beperkte toegang tot je account verlenen. Met name door **gedeelde toegang** kunt u vertrouwde werknemers en serviceproviders privileges geven om uw account in het Help Center te gebruiken, zodat ze met uw ondersteuningstickets kunnen werken.
 
-U kunt gedeelde toegang verlenen en beheren met behulp van de pagina voor uw Magento-account op [https://account.magento.com](https://account.magento.com/).
+U kunt gedeelde toegang bieden en beheren met uw Adobe Commerce-accountpagina op [https://account.magento.com](https://account.magento.com/).
 
 ### Wie gedeelde toegang kan verlenen {#who-can-provide-shared-access}
 
-Alleen de accounteigenaar (primaire rekeninghouder) met de bijbehorende rechten kan andere gebruikers gedeelde toegang bieden.
+Alleen de eigenaar van de account (primaire rekeninghouder) met de bijbehorende rechten kan andere gebruikers gedeelde toegang bieden.
 
-Het beheren van gebruikers en hun toegang is de verantwoordelijkheid van de klant, vooral in het gedeelde toegangsperspectief. Het Adobe Commerce-ondersteuningsteam kan dus geen gedeelde toegang verlenen tot een Magento-account namens een klant. Klanten worden aangemoedigd om gebruikers met gedeelde toegang zelf toe te voegen, met de [Pagina Magento-account](https://account.magento.com/).
+Het beheren van gebruikers en hun toegang is de verantwoordelijkheid van de klant, vooral in het gedeelde toegangsperspectief. Het Adobe Commerce-ondersteuningsteam kan dus geen gedeelde toegang verlenen aan een Adobe Commerce-account namens een klant. Klanten worden aangemoedigd om gebruikers met gedeelde toegang zelf toe te voegen, met de [Adobe Commerce-accountpagina](https://account.magento.com/).
 
 Gebruikers die gedeelde toegang hebben gekregen, kunnen dergelijke toegang niet aan andere gebruikers overdragen of verlenen.
 
 ### Gedeelde toegang bieden {#provide-shared-access}
 
-Zie de [Uw account delen](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) sectie van de Adobe Commerce-gebruikershandleiding voor gedetailleerde stappen voor het instellen van een gedeelde account.
+Zie de [Een Commerce-account delen](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) sectie van de Aan de slag-handleiding van Adobe Commerce voor gedetailleerde stappen voor het instellen van een gedeelde account.
 
-Nadat u een nieuwe gebruiker gedeelde toegang hebt verleend, is de bijbehorende informatie beschikbaar in **Gedeelde toegang** > **Rechten beheren** van de pagina voor je Magento-account.
+Nadat u een nieuwe gebruiker gedeelde toegang hebt verleend, is de bijbehorende informatie beschikbaar in **Gedeelde toegang** > **Rechten beheren** van je Adobe Commerce-accountpagina.
 
-![magento-account-shared-manage-permissions](assets/magento-account-shared-manage-permissions.png){width="800"}
+![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png)
 
 ### Gedeelde toegang intrekken (verwijderen) {#revoke-shared-access}
 
-1. Meld u aan bij uw Magento-account op [https://account.magento.com](https://account.magento.com/).
+1. Meld u aan bij uw Adobe Commerce-account op [https://account.magento.com](https://account.magento.com/).
 1. Kies in het linkerdeelvenster onder Gedeelde toegang de optie **Rechten beheren.**
 1. Zoek de gebruiker waarvan de gedeelde toegang moet worden ingetrokken en klik op ![pictogram verwijderen](assets/remove_icon.png){width="25"} in de rij van de gebruiker (**Handelingen** kolom).
 1. Klikken **Gebruiker verwijderen** om toegang in te trekken of X in de bovenhoek om intrekking te annuleren.
@@ -549,7 +722,7 @@ Nadat u een nieuwe gebruiker gedeelde toegang hebt verleend, is de bijbehorende 
 
    U kunt gedeelde toegang ook intrekken met de opdracht **Bewerken** menu:
 
-1. Meld u aan bij uw Magento-account op [https://account.magento.com](https://account.magento.com/).
+1. Meld u aan bij uw Adobe Commerce-account op [https://account.magento.com](https://account.magento.com/).
 1. Kies in het linkerdeelvenster onder Gedeelde toegang de optie **Rechten beheren.**
 1. Zoek de gebruiker waarvan de gedeelde toegang moet worden ingetrokken en klik op **Bewerken** in de rij van de gebruiker (**Handelingen** kolom).
 1. Klikken **Deze gebruiker verwijderen** onder aan de pagina.
@@ -573,7 +746,7 @@ Het is niet mogelijk om de lijst van de Gedeelde gebruikers van de Toegang met d
 
 Nochtans, zodra u de toestemmingen voor die Gedeelde gebruikers van de Toegang hebt ingetrokken, zullen zij niet meer die toegang hebben.
 
-1. Meld u aan bij uw Magento-account op [https://account.magento.com](https://account.magento.com/).
+1. Meld u aan bij uw Adobe Commerce-account op [https://account.magento.com](https://account.magento.com/).
 1. In het deelvenster aan de linkerkant, onder *[!UICONTROL Shared Access]*, kiest u **[!UICONTROL Manage Permissions]**.
 1. Zoek de gebruiker waarvan de gedeelde toegang moet worden ingetrokken en klik op **[!UICONTROL Edit]** in de rij van de gebruiker (*[!UICONTROL Actions]* kolom).
 1. Alle bronnen onder deselecteren *[!UICONTROL Grant Account Permissions]*.
@@ -586,10 +759,10 @@ Voor meer informatie raadpleegt u de [Gebruikerstoegang beheren](https://experie
 
 Voer de volgende stappen uit om de gedeelde toegang te gebruiken die aan u wordt geboden:
 
-1. Meld u aan bij uw Magento-account op [https://account.magento.com](https://account.magento.com/).
+1. Meld u aan bij uw Adobe Commerce-account op [https://account.magento.com](https://account.magento.com/).
 1. Klik op de knop **Wisselen tussen accounts** en selecteer een account.
 
-   ![magento-account-shared-switch](assets/magento-account-shared-switch.png){width="800"}
+   ![magento-account-shared-switch](assets/magento_account_shared_switch.png){width="800"}
 
 Als u wilt weten welk account u momenteel gebruikt (uw eigen native account of gedeelde toegang), raadpleegt u de **Wisselen tussen accounts** menu: hiermee wordt de actieve account weergegeven.
 
@@ -605,4 +778,3 @@ Handelaren betalen meestal voor onze services via een creditcardtransactie (CC),
 
 Magento U is samengevoegd met [ADLS (Adobe Digital Learning Services)](https://learning.adobe.com/).
 
-Magento U Zendesk zal geleidelijk worden afgeschaft.
