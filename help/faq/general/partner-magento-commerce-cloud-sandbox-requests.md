@@ -3,9 +3,9 @@ title: Partner Adobe Commerce op verzoek van cloud-infrastructuursandbox
 description: Dit artikel in veelgestelde vragen bevat koppelingen naar nuttige bronnen voor Adobe Commerce over sandboxverzoeken voor cloudinfrastructuur.
 exl-id: 3ec1cbc0-1a71-4753-8fc5-51c5f1928f12
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ Zie de [Adobe Commerce Support Knowledge Base](https://support.magento.com/hc/en
 ## Waar/hoe stellen de oplossingspartners of de technologiepartners een steunverzoek voor? {#wherehow-do-solution-partners-or-tech-partners-submit-a-support-request}
 
 * De partners van de oplossing kunnen een kaartje voor zandbakgerelateerde kwesties voorleggen door een e-mail naar te verzenden [SPPHelp@adobe.com](mailto:SPPHelp@adobe.com) en het zal aan het team van de partner technische steun door:sturen.
-* Tech-partners kunnen een supportverzoek indienen op de [Commerce Marketplace Help Center](https://marketplacesupport.magento.com/hc/en-us/requests) pagina.
+* Technische partners kunnen [Contact opnemen met de ondersteuning van Marktplaats](mailto:commercemarketplacesupport@adobe.com).

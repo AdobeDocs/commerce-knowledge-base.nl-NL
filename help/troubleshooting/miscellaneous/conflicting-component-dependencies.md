@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor conflicterende componentafhank
 exl-id: 782049c4-b6e1-4ead-a00f-80d2aa8475c9
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ Conflicterende componentengebiedsdelen kunnen ook door derdemodules worden veroo
 ## Adobe Commerce {#magento-commerce-magento-commerce-cloud}
 
 1. Vraag de ontwikkelaar van de extensie om hulp. U vindt hun contactgegevens op de pagina waarop u de extensie hebt aangeschaft op de Commerce Marketplace. Zoek naar **Contact opnemen met verkoper** weergegeven in het rechterdeelvenster. Alle Commerce-ontwikkelaars moeten een gebruikers- en installatiegids leveren wanneer ze een extensie publiceren op Marketplace. U kunt beide vinden op de rechterkant van hun landingspagina.
-1. Als je binnen een redelijke termijn geen antwoord van de verkoper ontvangt, [Commerce Marketplace op de hoogte stellen](https://marketplacesupport.magento.com/hc/en-us) zodat wij hen kunnen herinneren aan hun verplichtingen inzake klantenondersteuning.
+1. Als je binnen een redelijke termijn geen antwoord van de verkoper ontvangt, [Contact opnemen met de ondersteuning van Marktplaats](mailto:commercemarketplacesupport@adobe.com) zodat wij hen kunnen herinneren aan hun verplichtingen inzake klantenondersteuning.
 
 ## Magento Open Source {#opensource}
 
-Hulp aanvragen bij [ons belangrijkste forum](https://community.magento.com/) of [contact opnemen met een Adobe Commerce-partner](https://magento.com/find-a-partner) die helpt bij Open Source-problemen.
+Hulp aanvragen bij [ons belangrijkste forum](https://community.magento.com/) of [contact opnemen met een Adobe Commerce-partner](https://magento.com/find-a-partner) dat helpt bij Open Source-problemen.
