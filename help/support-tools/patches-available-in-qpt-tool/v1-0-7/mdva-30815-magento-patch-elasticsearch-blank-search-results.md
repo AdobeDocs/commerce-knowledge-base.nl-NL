@@ -50,7 +50,7 @@ Op de pagina wordt het geconfigureerde aantal productresultaten weergegeven.
 
 <u> Ware resultaten </u>:
 
-Lege pagina wordt weergegeven. Deze fout kan ook worden gezien in `var/report` : *\` ` 0&#39;:&quot;SQLSTATE\[42000\]: de fout van de Syntaxis of toegangsschending: 1064 u hebt een fout in uw SQL syntaxis; controleer de handleiding die aan uw MySQL serverversie voor de juiste syntaxis aan gebruik dichtbij&#39;\ `* beantwoordt
+Lege pagina wordt weergegeven. Deze fout kan ook worden gezien in `var/report` : *\` 0&#39;:&quot;SQLSTATE\[42000\]: de fout van de Syntaxis of toegangsschending: 1064 u hebt een fout in uw SQL syntaxis; controleer de handleiding die aan uw MySQL serverversie voor de juiste syntaxis aan gebruik dichtbij&#39;\`* beantwoordt
 
 ## De patch toepassen
 
