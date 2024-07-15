@@ -25,16 +25,16 @@ U kunt de MDVA-43395-pleister niet aanbrengen.
 
 ## Oorzaak
 
-Cloud merchants hoeven de MDVA-43395-patch niet afzonderlijk toe te passen als ze [magento/magento-cloud-patches 1.0.16](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) is geïnstalleerd, dat de patch al bevat.
+De kooplieden van de wolk hoeven niet om het flard MDVA-43395 afzonderlijk toe te passen als zij [ magento/magento-cloud-patches 1.0.16 ](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) geïnstalleerd hebben, die reeds het flard omvat.
 
 ## Oplossing
 
-U lost dit probleem op door de patches MDVA-43395 en MDVA-43443 uit de `m2-hotfixes` directory en herimplementatie.
+U lost het probleem op door de patches MDVA-43395 en MDVA-43443 uit de map `m2-hotfixes` te verwijderen en opnieuw te implementeren.
 
-Als u de MDVA-43443 pleister via de `m2-hotfixes` directory, moet u deze nog steeds verwijderen zoals hierboven vermeld. In toekomstige versies van Adobe Commerce zijn deze patches al in de patches opgenomen. Hierdoor kan de implementatie mislukken als u later een upgrade uitvoert.
+Als u de MDVA-43443-patch via de map `m2-hotfixes` kon toepassen, moet u de patch toch verwijderen, zoals hierboven vermeld. In toekomstige versies van Adobe Commerce zijn deze patches al in de patches opgenomen. Hierdoor kan de implementatie mislukken als u later een upgrade uitvoert.
 
-Als u wilt controleren of de patch is toegepast, voert u het `vendor/bin/magento-patches -n status |grep 43443` gebruiken.
-Als er meerdere resultaten als deze zichtbaar zijn, dan moet u de MDVA-43443 pleister uit de `m2-hotfixes` map:
+Voer de opdracht `vendor/bin/magento-patches -n status |grep 43443` uit om te controleren of de patch is toegepast.
+Als er meerdere resultaten als deze worden weergegeven, verwijdert u de MDVA-43443-patch uit de map `m2-hotfixes` :
 
 ```bash
 $ vendor/bin/magento-patches -n status |grep 43443
@@ -44,5 +44,5 @@ $ vendor/bin/magento-patches -n status |grep 43443
 
 ## Gerelateerde lezing
 
-* [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
-* [Cloud-patches voor handel](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) in onze ontwikkelaarsdocumentatie.
+* [ hoe te om een componentenflard toe te passen dat door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
+* [ de Patches van de Wolk voor Commerce ](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) in onze ontwikkelaarsdocumentatie.

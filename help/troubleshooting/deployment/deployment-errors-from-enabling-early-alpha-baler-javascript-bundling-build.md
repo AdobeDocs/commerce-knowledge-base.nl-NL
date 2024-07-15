@@ -28,18 +28,18 @@ De handelaar ervaart plaatsingsfouten wanneer het gebruiken van de module Baler 
 
 We raden handelaren niet aan de Baler-module te gebruiken in een productieomgeving, aangezien deze zich momenteel in de vroege fase van alfaontwikkeling bevindt. Het gebruiken van het kan in plaatsingsfouten resulteren.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. De handelaar probeert het **SCD\_USE\_BALER** variabele in de bouwfase van `.magento.env.yaml` bestand, dat het bundelpakket Baler JavaScript inschakelt.
-1. De handelaar voegt ook de composer van Baler toe gebiedsdeel: `"magento/module-baler": "1.0.0-alpha"` tot `require` deel van `composer.json`.
+1. De handelaar probeert om **SCD\_USE\_BALER** variabele in te voegen in het bouwstijlstadium van het `.magento.env.yaml` dossier, dat het bundelpakket van JavaScript van de Baler toelaat.
+1. De handelaar voegt ook de composer-afhankelijkheid Baler toe: `"magento/module-baler": "1.0.0-alpha"` aan `require` sectie van `composer.json` .
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Succesvolle implementatie.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-De handelaar ziet de volgende foutenmelding in de plaatsingslogboeken op de wolk, die is `<project home>/var/log/cloud.log`, zodra de statische inhoud wordt geïmplementeerd:
+De handelaar ziet de volgende foutenmelding in de plaatsingslogboeken op de wolk, die `<project home>/var/log/cloud.log` is, op het statische stadium van de inhoudsimplementatie:
 
 ```
 [2020-08-19 12:06:12] WARNING: [1007] Baler JS bundling cannot be used because of the following issues:
@@ -52,9 +52,9 @@ De Baler-module bevindt zich momenteel in de vroege fase van alfaontwikkeling en
 
 ## Oplossing
 
-U kunt de bestaande Baler Alpha documentatie bekijken op [Github/Magento/Baler/Aan de slag met de alfa](https://github.com/magento/baler/blob/master/docs/ALPHA.md). Het is echter niet klaar voor gebruik in de productie en het wordt op eigen risico gebruikt. U wordt aangeraden in plaats daarvan Javascript-bestanden (JS) samen te voegen of te bundelen met ingebouwde bundeling (basisbundeling) van Adobe Commerce voor optimalisatie van bestanden.
+U kunt bestaande documentatie van de Alpha van Baler bij [ bekijken Github/Magento/Baler/Begonnen het worden met alpha ](https://github.com/magento/baler/blob/master/docs/ALPHA.md). Het is echter niet klaar voor gebruik in de productie en het wordt op eigen risico gebruikt. U wordt aangeraden in plaats daarvan Javascript-bestanden (JS) samen te voegen of te bundelen met ingebouwde bundeling (basisbundeling) van Adobe Commerce voor optimalisatie van bestanden.
 
-* U kunt samenvoeging of bundeling inschakelen in Beheer (samenvoeging en bundeling kunnen niet tegelijkertijd worden ingeschakeld): **Winkels** > **Instellingen** > **Configuratie** > **Geavanceerd** > **Ontwikkelaar** > **JavaScript-instellingen**.
-* U kunt ingebouwde bundeling (basisbundeling) voor Adobe Commerce ook inschakelen via de opdrachtregel: `php -f bin/magento config:set dev/js/enable_js_bundling 1`
+* U kunt het samenvoegen of het bundelen in Admin (het samenvoegen en het bundelen kunnen niet tezelfdertijd worden toegelaten) aanzetten: **Slaat** > **Montages** > **Configuratie** > **Geavanceerd** > **Ontwikkelaar** > **de Montages van JavaScript**.
+* U kunt ingebouwde Adobe Commerce-bundeling (basisbundeling) ook inschakelen via de opdrachtregel: `php -f bin/magento config:set dev/js/enable_js_bundling 1`
 
-Raadpleeg voor meer informatie [CSS- en Javascript-bestandsoptimalisatie op Adobe Commerce op cloudinfrastructuur en Adobe Commerce op locatie](https://support.magento.com/hc/en-us/articles/360044482152).
+Meer leren, verwijs naar [ CSS en Javascript dossieroptimalisering op Adobe Commerce op wolkeninfrastructuur en Adobe Commerce op-gebouw ](https://support.magento.com/hc/en-us/articles/360044482152).

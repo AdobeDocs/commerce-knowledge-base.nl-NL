@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Databasequery&#39;s in Adobe Commerce profileren op cloudinfrastructuur
 
-Raadpleeg de [Databasequery&#39;s profiel](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar de [ het gegevensbestandvragen van het Profiel ](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html) in onze ontwikkelaarsdocumentatie.

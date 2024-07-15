@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Problemen met /tmp-montage oplossen: vol voor Adobe Commerce
 
-Dit artikel biedt een oplossing voor de `/tmp` De montage is vol, de site kan omlaag zijn en u kunt SSH niet in een knooppunt plaatsen.
+Dit artikel biedt een oplossing voor het geval dat de `/tmp` -montage vol is, de site mogelijk is ingedrukt en u geen SSH in een knooppunt kunt plaatsen.
 
 ## Betrokken producten en versies
 
@@ -21,53 +21,53 @@ Dit artikel biedt een oplossing voor de `/tmp` De montage is vol, de site kan om
 
 ## Probleem
 
-De `/tmp` het vol zijn van de montage kan tot een waaier van mogelijke symptomen, met inbegrip van de volgende fouten leiden:
+Als de `/tmp` -hoeveelheid vol is, kan dit leiden tot een reeks mogelijke symptomen, waaronder de volgende fouten:
 
-* *SQLSTATE[HY000]: Algemene fout: 3 Fout bij schrijven van bestand*
-* *Foutcode: 28*
-* *Geen ruimte meer op apparaat (28)*
-* *error session_start(): failed: No space left on device*
-* *FOUT 1 (HY000): Kan niet maken/schrijven naar bestand &#39;/tmp/*
-* *SQL-fout: 3, SQLState: HY000*
-* *Algemene fout: 1021 schijf vol (/tmp)*
-* *Geen toegang tot knooppunt via SSH:*
-  *bash: kan geen tijdelijk bestand maken voor dit document: geen ruimte meer over op apparaat*
-* *fout: 28 &quot;Geen ruimte meer op apparaat&quot;*
-* *mysqld: De schijf is vol en schrijft &#39;/tmp&#39;*
-* *[FOUT] mysqld: Schijf vol (/tmp)*
-* *SQLSTATE[HY000]: Algemene fout: 1 kan niet maken/schrijven naar bestand &#39;/tmp/&#39;*
-* *SQLSTATE[HY000]: Algemene fout: 23 Onvoldoende bronnen bij het openen van bestand &#39;/tmp/&#39;*
-* *Fout: 24 &quot;Te veel geopende bestanden&quot;*
-* *Fout: 23: onvoldoende bronnen bij openen van bestand*
+* *SQLSTATE [ HY000 ]: Algemene fout: 3 Fout die dossier* schrijft
+* *code van de Fout: 28*
+* *Geen ruimte verlaten op apparaat (28)*
+* *fout session_start (): ontbroken: Geen ruimte verlaten op apparaat*
+* *FOUT 1 (HY000): Kan niet tot stand brengen/schrijven aan dossier &#39;/tmp/*
+* *SQL Fout: 3, SQLState: HY000*
+* *Algemene fout: 1021 volledige Schijf (/tmp)*
+* *Onbekwaam om tot knoop via SSH toegang te hebben:*
+  *bash: kan geen tijdelijk dossier voor hier-document creëren: Geen ruimte verlaten op apparaat*
+* *fout: 28 &quot;Geen ruimte verlaten op apparaat&quot;*
+* *mysqld: De schijf is volledig schrijvend &#39;/tmp&#39;*
+* *[FOUT ] mysqld: Volledige schijf (/tmp)*
+* *SQLSTATE [ HY000 ]: Algemene fout: 1 kan niet tot stand brengen/schrijven aan dossier &quot;/tmp/&quot;*
+* *SQLSTATE [ HY000 ]: Algemene fout: 23 uit middelen wanneer het openen van dossier &#39;/tmp/&#39;*
+* *Erkenning: 24 &quot;Te veel open dossiers&quot;*
+* *Kreeg fout: 23: Uit middelen wanneer het openen van dossier*
 
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
-Om te controleren hoe vol de `/tmp` de montage is, in CLI schakelaar aan `/tmp` en voer de volgende opdracht uit:
+Als u wilt controleren hoe vol de `/tmp` -hoeveelheid is, schakelt u in de CLI over naar `/tmp` en voert u de volgende opdracht uit:
 
 ```bash
  df -h
 ```
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Minder dan 80%.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Ongeveer 100%.
 
 ## Oorzaak
 
-De `/tmp` mount heeft te veel bestanden, die kunnen worden veroorzaakt door:
+Het `/tmp` -aantal heeft te veel bestanden, die kunnen worden veroorzaakt door:
 
 * Onjuiste SQL-query&#39;s die grote en/of te veel tijdelijke tabellen genereren.
-* Services die schrijven naar de `/tmp` directory.
-* Databaseback-ups/dumps die nog in de `/tmp` directory.
+* Services die naar de map `/tmp` schrijven.
+* Back-ups/dumps van databases blijven beschikbaar in de map `/tmp` .
 
 ## Oplossing
 
-Er zijn dingen u kunt doen om één keer wat ruimte vrij te maken en er zijn beste praktijken die zouden verhinderen `\tmp` niet vol te worden.
+Er zijn dingen die u kunt doen om enige ruimte één keer vrij te maken, en er zijn beste praktijken die `\tmp` zouden verhinderen volledig te worden.
 
 ### Inodes controleren en vrijmaken
 
@@ -88,11 +88,11 @@ Controleer of Use% &lt;70% is. De knooppunten zijn gecorreleerd met bestanden. A
 
 ### Opslagruimte controleren en vrijmaken
 
-Er zijn verscheidene diensten die dossiers zouden kunnen opslaan aan `/tmp`.
+Er zijn verschillende services die bestanden kunnen opslaan in `/tmp` .
 
 #### MySQL-ruimte inchecken en vrijmaken
 
-Volg de instructies in [MySQL-schijfruimte is te klein voor Adobe Commerce op cloudinfrastructuur > Opslagruimte controleren en vrijmaken](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md#check_and_free) in onze kennisbasis voor ondersteuning.
+Volg de instructies in [ MySQL schijfruimte is laag op Adobe Commerce op de infrastructuur van de wolk > Controle en bevrijd opslagruimte ](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md#check_and_free) in onze basis van de steunkennis.
 
 #### Hapdumpen van Elasticsearch controleren
 
@@ -100,13 +100,13 @@ Volg de instructies in [MySQL-schijfruimte is te klein voor Adobe Commerce op cl
 >
 >Heapdumps bevatten logboekinformatie die nuttig zou kunnen zijn voor het onderzoeken van kwesties. U kunt overwegen ze ten minste 10 dagen op een aparte locatie op te slaan.
 
-Heapdumps verwijderen (`*.hprof`) met behulp van systeemshell:
+Verwijder heapdumps (`*.hprof`) met behulp van systeemshell:
 
 ```bash
 find /tmp/*.hprof -type f -delete
 ```
 
-Als u geen machtigingen hebt om bestanden te verwijderen die door een andere gebruiker zijn gemaakt (in dit geval Elasticsearch), maar u ziet dat bestanden groot zijn, [een ondersteuningsticket maken](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om ze aan te pakken.
+Als u geen toestemmingen hebt om dossiers te schrappen die door een andere gebruiker (in dit geval, Elasticsearch) worden gecreeerd, maar u ziet dat de dossiers groot zijn, te creëren gelieve [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om hen te behandelen.
 
 #### Database-dumps/back-ups controleren
 
@@ -114,15 +114,15 @@ Als u geen machtigingen hebt om bestanden te verwijderen die door een andere geb
 >
 >De steunen van het gegevensbestand worden gewoonlijk gecreeerd voor een doel. Als u niet zeker weet of het bestand nog steeds nodig is, kunt u het naar een andere locatie verplaatsen in plaats van het te verwijderen.
 
-Controleren `/tmp` for `.sql` of `.sql.gz` en schoonmaken. Deze zijn mogelijk gemaakt met behulp van de &#39;ece-tools&#39; tijdens de back-up of bij het handmatig maken van databasedumps met behulp van de `mysqldump` gebruiken.
+Controleer `/tmp` op `.sql` - of `.sql.gz` -bestanden en pas deze op. Deze zijn mogelijk gemaakt met behulp van de versnellingsprogramma&#39;s tijdens een back-up of tijdens het handmatig maken van databasedumps met het gereedschap `mysqldump` .
 
 ### Aanbevolen procedures
 
-Om problemen te voorkomen met `/tmp` de volgende aanbevelingen zijn volledig :
+Volg de onderstaande aanbevelingen om problemen met `/tmp` als vol te voorkomen:
 
-* Gebruik MySQL niet voor zoekopdrachten. Elasticsearch voor onderzoek elimineert gewoonlijk de behoefte aan de meeste zware tijdlijstverwezenlijking. Zie [Adobe Commerce configureren voor gebruik van Elasticsearch](https://devdocs.magento.com/guides/v2.2/config-guide/elasticsearch/configure-magento.html) in onze ontwikkelaarsdocumentatie.
-* Vermijd het uitvoeren van `SELECT` de vraag op kolommen zonder indexen aangezien dit omhoog een grote hoeveelheid tijdelijke schijfruimte gebruikt. U kunt ook de indexen toevoegen.
-* Een uitsnede maken om op te schonen `/tmp` door het volgende bevel in CLI in werking te stellen:
+* Gebruik MySQL niet voor zoekopdrachten. Elasticsearch voor onderzoek elimineert gewoonlijk de behoefte aan de meeste zware tijdlijstverwezenlijking. Zie [ Adobe Commerce vormen om Elasticsearch ](https://devdocs.magento.com/guides/v2.2/config-guide/elasticsearch/configure-magento.html) in onze ontwikkelaarsdocumentatie te gebruiken.
+* Vermijd het uitvoeren van de query `SELECT` op kolommen zonder indexen aangezien dit een grote hoeveelheid tijdelijke schijfruimte gebruikt. U kunt ook de indexen toevoegen.
+* Maak een uitsnede om op te schonen `/tmp` door de volgende opdracht in de CLI uit te voeren:
 
   ```bash
   sudo find /tmp -type f -atime +10 -delete
@@ -130,4 +130,4 @@ Om problemen te voorkomen met `/tmp` de volgende aanbevelingen zijn volledig :
 
 ## Gerelateerde lezing
 
-[MySQL-schijfruimte is te klein voor Adobe Commerce op cloudinfrastructuur](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md) in onze kennisbasis voor ondersteuning.
+[ MySQL schijfruimte is laag op Adobe Commerce op wolkeninfrastructuur ](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md) in onze basis van steunkennis.

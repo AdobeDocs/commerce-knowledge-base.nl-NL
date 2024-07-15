@@ -19,7 +19,7 @@ Dit artikel biedt een patch voor het bekende Adobe Commerce 2.2.2-probleem met b
 
 Wanneer u een configureerbaar product hebt en voor een bepaalde combinatie van opties, is het verwante eenvoudige product uit voorraad, is het staal nog steeds beschikbaar en kan het op de winkel worden geselecteerd.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Maak in Commerce Admin een configureerbaar product met opties voor twee kenmerken: kleur (rood, zwart) en grootte (S, M, L).
 1. Stel Hoeveelheid in op &quot;1&quot; voor elk overeenkomend eenvoudig product.
@@ -28,11 +28,11 @@ Wanneer u een configureerbaar product hebt en voor een bepaalde combinatie van o
 1. Zorg ervoor dat de backorders niet worden toegestaan.
 1. Navigeer in de winkel naar dezelfde productpagina en selecteer dezelfde opties: rood, M.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Het rode, M-staal heeft een rode schuine streep en kan niet worden geselecteerd.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Het rode M-staal kan worden geselecteerd.
 
@@ -54,6 +54,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.9'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.9.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.9'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.1.9 worden opgelost.
 exl-id: bd89de26-6ac7-463e-891a-9550e888b9f8
 feature: Tools and External Services
 role: Admin
@@ -11,21 +11,21 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht versie 1.1.9
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.1.9
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.9.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.9.
 
 QPT v1.1.9 bevat de volgende patches:
 
-1. **37984**: Hiermee wordt het probleem opgelost waarbij de [!DNL Visual Merchandiser] *Product op regel afstemmen* de functionaliteit filtert producten met het opvoeren van updates correct niet.
-1. **38346**: Hiermee wordt het probleem verholpen waarbij datumfilters niet goed werken wanneer de Adobe Commerce-tijdzone afwijkt van de tijdzone van de lokale omgeving.
-1. **38526 MDVA**: Hiermee wordt het probleem verholpen waarbij de beheerder geen toegang heeft tot het dialoogvenster [!DNL Site-Wide Analysis tool].
-1. **38626 MDVA**: Hiermee wordt het probleem verholpen waarbij de beheerder geen volgorde op de achtergrond kan plaatsen met de opdracht [!DNL PayPal Payflow Pro] betaling.
-1. **MDVA-3866**: Hiermee wordt het probleem verholpen waarbij de gebruiker van de beheerder de configureerbare productopties in de winkelwagentje van de klant niet kan wijzigen.
-1. **39163**: Hiermee wordt het probleem verholpen waarbij geen verzendmethoden beschikbaar zijn wanneer een nieuwe gebruiker wordt geregistreerd en producten in de winkelwagen afkomstig zijn van de gastsessie.
-1. **MDVA-4048**: Hiermee wordt het probleem verholpen waarbij configureerbare producten met onderliggende producten buiten de voorraad niet in het juiste prijsbereik worden weergegeven.
-1. **42507**: Hiermee wordt het probleem verholpen waarbij de cache van de volledige pagina wordt opgeschoond nadat een staging-update voor de kartelregel is toegepast.
-1. **MDVA-42657**: Hiermee wordt het probleem verholpen waarbij de beheerder geen categorieën kan selecteren onder de voorwaarden van het klantensegment.
-1. **42806**: Hiermee wordt het probleem opgelost waarbij een *Nieuwe bedrijfsregistratie* Elke keer dat een bestaand bedrijf via de REST API wordt bijgewerkt, wordt een e-mail verzonden.
+1. **MDVA-37984**: Verhelpt de kwestie waar de [!DNL Visual Merchandiser] *Gelijke product door regel* functionaliteit niet correct filterproducten met het opvoeren updates.
+1. **MDVA-38346**: Verhelpt de kwestie waar de datumfilters niet behoorlijk werken wanneer de tijdzone van Adobe Commerce van lokale milieu timezone verschillend is.
+1. **MDVA-38526**: Verhelpt de kwestie waar de admingebruiker tot [!DNL Site-Wide Analysis tool] niet kan toegang hebben.
+1. **MDVA-38626**: Verhelpt de kwestie waar de admingebruiker geen orde op het achterste eind kan plaatsen gebruikend de [!DNL PayPal Payflow Pro] betaling.
+1. **MDVA-38666**: Bevestigt de kwestie waar de admingebruiker niet de configureerbare productopties in de kar van de klant kan veranderen.
+1. **MDVA-39163**: Verhelpt de kwestie waar de verschepende methodes niet beschikbaar zijn wanneer een nieuwe gebruiker wordt geregistreerd en de producten in het karretje zijn van de gastzitting.
+1. **MDVA-40488**: Verhelpt de kwestie waar de configureerbare producten met uit-van-voorraad kindproducten niet in hun correcte prijswaaier worden getoond.
+1. **MDVA-42507**: Verhelpt de kwestie waar het full-page geheime voorgeheugen na het toepassen van het opvoeren update voor de kartregel wordt schoongemaakt.
+1. **MDVA-42657**: Verhelpt de kwestie waar de admingebruiker geen categorieën in de voorwaarden van het klantensegment kan selecteren.
+1. **MDVA-42806**: Verhelpt de kwestie waar e-mail van de a *Nieuwe bedrijfregistratie* wordt verzonden telkens als een bestaand bedrijf via REST API wordt bijgewerkt.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart
 
-In dit artikel wordt gesproken over een voorgestelde oplossing voor het gebruik van een JavaScript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) hangt lang alvorens met compilatie in Progressieve Studio van de Web App (PWA Studio) te beginnen.
+Dit artikel spreekt over een voorgestelde oplossing aan wanneer een javascript [ Webpack ](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) lange tijd alvorens met compilatie in de Progressieve Studio van de Web App (PWA Studio) te beginnen hangt.
 
 ## Betrokken producten en versies
 
@@ -21,13 +21,13 @@ In dit artikel wordt gesproken over een voorgestelde oplossing voor het gebruik 
 
 ## Probleem
 
-[Controleer wat de meest recente release van de pawa-buildpack is](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack)en de
+[ Controle wat de recentste versie van pwa-buildpack is ](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack), en
 
 ```yaml
 pwa-buildpack
 ```
 
-het versienummer komt naast het `package.json` bestandsnaamvermelding. Als u een oude versie van
+naast de bestandsnaamlijst van `package.json` staat een versienummer. Als u een oude versie van
 
 ```yaml
 pwa-buildpack
@@ -35,9 +35,9 @@ pwa-buildpack
 
 project, kan de webpack lang hangen alvorens met compilatie te beginnen.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-<u>Vereisten</u>: Stel een winkelcentrum voor PWA Studio&#39;s in, zoals Venia, met een lokale Adobe Commerce-instantie en voer een
+<u> Eerste vereisten </u>: Opstelling een storefront van de PWA Studio, zoals Venia, met een lokale instantie van Adobe Commerce en stel a in werking
 
 ```yaml
 build
@@ -51,12 +51,12 @@ watch
 
 gebruiken.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 * Als u de    ```yaml    build    ```    de bouwkunst normaal voor Venia wordt gegenereerd.
 * Als u de    ```yaml    watch    ```    , start het de Venia storefront normaal.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Uw
 
@@ -88,12 +88,12 @@ openssl version
 
 De versie moet 1.0 of hoger zijn (of LibreSSL 2, in het geval van OSX High Sierra.).
 
-U kunt hogere versies van OpenSSL installeren met [Homebrew](https://brew.sh/) op OSX, [Chocolatey](https://chocolatey.org/) in Windows of in het pakketbeheer van uw Linux-distributie.
+U kunt hogere versies van OpenSSL met [ Homebrew ](https://brew.sh/) op OSX, [ Chocolade ](https://chocolatey.org/) op Vensters, of uw het pakketmanager van de distributie van Linux installeren.
 
 ## Gerelateerde lezing
 
-* [JavaScript-webpack: concepten](https://webpack.js.org/concepts/)
-* [Venia storefront setup](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
-* [PWA Buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/)
-* [buildpack, opdrachtregelinterface](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
-* [Gereedschappen en bibliotheken: buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
+* [ JavaScript Webpack: Concepten ](https://webpack.js.org/concepts/)
+* [ Venia storefront opstelling ](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
+* [ PWA Buildpack ](https://magento.github.io/pwa-studio/pwa-buildpack/)
+* [ bouwdpack Interface van de Lijn van het Bevel ](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
+* [ Hulpmiddelen en bibliotheken: bouwstijlpak ](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)

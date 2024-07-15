@@ -23,17 +23,17 @@ Dit artikel biedt een oplossing voor dit probleem wanneer u toegang krijgt tot A
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
 Open een winkel- of beheerpagina.
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
 De pagina wordt geopend.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
-De pagina is leeg of geeft de *&quot;Deze webpagina heeft een omleidingslus&quot;* foutbericht.
+De pagina is leeg of toont *&quot;Deze webpage heeft een herleidingslijn&quot;* foutenmelding.
 
 ## Oorzaak
 
@@ -45,15 +45,16 @@ Om de kwestie te bevestigen, moet u de waarde van de veilige verbinding verbeter
 
 Ga als volgt te werk om ervoor te zorgen dat dit de oorzaak van het probleem is:
 
-1. Controleer de `web/secure/enable_upgrade_insecure` , `web/secure/use_in_adminhtml` (als u een probleem hebt met de blanco-/lusomleiding in Admin) of `web/secure/use_in_frontend` (als u de uitgave voor het omleiden van de blanco/lus op de winkelvoorzijde hebt) in de `'core_config_data'` DB-tabel.
-   * Indien `web/secure/enable_upgrade_insecure` is ingesteld op &quot;1&quot;, en Adobe Commerce is ingesteld op het toevoegen van de antwoordheader `Content-Security-Policy: upgrade-insecure-requests`, waardoor browsers de instructie krijgen HTTPS te gebruiken, waarbij alle query&#39;s die via HTTP naar HTTPS worden verzonden, voor zowel Admin als storefront worden doorgestuurd.
-   * Indien `web/secure/use_in_adminhtml` is ingesteld op &quot;1&quot;, Adobe Commerce retourneert HTTPS-omleidingen voor alle HTTP-aanvragen voor de beheerpagina&#39;s.
-   * Indien `web/secure/use_in_frontend` is ingesteld op &quot;1&quot;, Adobe Commerce retourneert HTTPS-omleidingen voor alle HTTP-aanvragen voor de winkelvoorpagina&#39;s.
-1. Controleer de `web/secure/base_url` en `web/unsecure/base_url` waarden in de `'core_config_data'` tabel. Als beide beginnen met    `http`, dan moet u de &quot;veilige&quot;waarde verbeteren.
+1. Controleer de waarde `web/secure/enable_upgrade_insecure` , `web/secure/use_in_adminhtml` (als u een probleem met de blanco-/lusbewerking hebt in Admin) of `web/secure/use_in_frontend` (als u een probleem met de blanco-/lusbewerking hebt op de winkelvoorzijde) in de `'core_config_data'` DB-tabel.
+   * Als `web/secure/enable_upgrade_insecure` is ingesteld op &quot;1&quot;, wordt Adobe Commerce ingesteld op het toevoegen van de responsheader `Content-Security-Policy: upgrade-insecure-requests` , waarmee browsers wordt geïnstrueerd HTTPS te gebruiken en alle query&#39;s die via HTTP worden verzonden, worden doorgestuurd
+naar HTTPS, voor zowel Admin als storefront.
+   * Als `web/secure/use_in_adminhtml` is ingesteld op &quot;1&quot;, retourneert Adobe Commerce HTTPS-omleidingen voor alle HTTP-aanvragen voor de beheerpagina&#39;s.
+   * Als `web/secure/use_in_frontend` is ingesteld op &quot;1&quot;, retourneert Adobe Commerce HTTPS omleidingen voor alle HTTP-aanvragen voor de winkelvoorpagina&#39;s.
+1. Controleer de waarden `web/secure/base_url` en `web/unsecure/base_url` in de tabel `'core_config_data'` . Als beide beginnen met    `http` , moet u de waarde &quot;secure&quot; corrigeren.
 
 Probleem verhelpen:
 
-1. Stel de waarde in die begint met `https` for `web/secure/base_url.`
+1. De waarde instellen op `https` for `web/secure/base_url.`
 1. Voor de uit te voeren veranderingen, schoon het configuratiecache door het volgende bevel in werking te stellen:
 
    ```bash

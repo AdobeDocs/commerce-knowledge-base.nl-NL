@@ -21,10 +21,10 @@ Dit artikel biedt een oplossing voor het probleem waarbij u duizenden zoekresult
 
 ## Problemen
 
-U zoekt een bepaald product (bijvoorbeeld *WSH12-32-rood*) maar de zoekopdracht geeft veel vergelijkbare producten.
+U zoekt een bepaald product (bijvoorbeeld, *WSH12-32-Rood*) maar het onderzoek keert veel gelijkaardige producten terug.
 
 ## Oplossingen
 
 De aard van een full-text zoekopdracht in [!DNL ElasticSearch] is gebaseerd op relevantie, niet op exacte overeenkomst. De meest relevante overeenkomsten (zoals exact overeenkomende SKU) worden dus eerst geordend.
 
-Als u echter een zoekresultaat nodig hebt dat exact overeenkomt met uw zoekterm (exacte overeenkomst), moet u aanhalingstekens gebruiken voor uw zoekopdracht. Bijvoorbeeld, vraag voor *WSH12-32-rood* zonder aanhalingstekens retourneert u verschillende resultaten met de exacte overeenkomst (product met *SKU WSH12-32-Red*) als eerste in het resultaat. Maar geciteerde query *&quot;WSH12-32-Red&quot;* retourneert slechts één exacte overeenkomst.
+Als u echter een zoekresultaat nodig hebt dat exact overeenkomt met uw zoekterm (exacte overeenkomst), moet u aanhalingstekens gebruiken voor uw zoekopdracht. Bijvoorbeeld, zal de vraag voor *WSH12-32-Rood* zonder citaten verscheidene resultaten met de nauwkeurige gelijke terugkeren (product met *SKU WSH12-32-Rood*) die eerst in het resultaat verschijnen. Maar geciteerde vraag *&quot;WSH12-32-rood&quot;* zal slechts één nauwkeurig gelijke resultaat terugkeren.

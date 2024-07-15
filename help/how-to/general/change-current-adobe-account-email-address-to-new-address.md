@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # E-mailadres huidige Adobe account wijzigen
 
-In dit artikel wordt uitgelegd hoe u het huidige e-mailadres kunt wijzigen dat is geregistreerd in het dialoogvenster [Adobe](https://account.adobe.com/) naar een nieuw adres dat momenteel niet is geregistreerd in het [Adobe](https://account.adobe.com/) of de [Magento](https://account.magento.com/).
+Dit artikel verklaart hoe te om het huidige e-mailadres te veranderen dat in de [ rekening van de Adobe ](https://account.adobe.com/) aan een nieuw adres wordt geregistreerd momenteel niet in de [ rekening van de Adobe ](https://account.adobe.com/) of de [ rekening van het Magento ](https://account.magento.com/).
 
 ## Betrokken producten en versies
 
@@ -28,6 +28,6 @@ Als u geen toegang hebt tot het huidige e-mailadres, stelt u e-mail door:sturen 
 
 Ga als volgt te werk om het e-mailadres te wijzigen:
 
-1. Stel het wachtwoord dat met het oude e-mailadres wordt gebruikt opnieuw in. Volg de instructies op in [Wachtwoord vergeten opnieuw instellen](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in Adobe Help.
+1. Stel het wachtwoord dat met het oude e-mailadres wordt gebruikt opnieuw in. Volg de instructies die in [ worden gegeven vergeten wachtwoord van het Terugstellen ](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in Adobe helpx.
 1. De koppeling voor het opnieuw instellen van het wachtwoord wordt samen met instructies naar de postbus van de huidige eigenaar verzonden.
-1. Ga naar de [Pagina met Adobe-accounts](https://account.adobe.com) om u aan te melden met de nieuwe e-mail en het wachtwoord in te stellen.
+1. Navigeer aan de [ pagina van de de rekeningsrekening van de Adobe ](https://account.adobe.com) aan login met nieuwe e-mail en opstelling het wachtwoord.

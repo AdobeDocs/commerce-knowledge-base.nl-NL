@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# Implementatiefout: SQLSTATE[HY000]
+# De fout van de plaatsing: SQLSTATE [ HY000 ]
 
-Dit artikel biedt een oplossing voor het probleem waarbij de implementatie mislukt door de SQLSTATE[HY000] fout.
+Dit artikel verstrekt een oplossing voor de kwestie waar de plaatsing wegens de fout SQLSTATE [ HY000 ] ontbreekt.
 
 ## Betrokken producten en versies
 
-* Adobe Commerce [alle implementatiemethoden](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce, [ alle plaatsingsmethodes ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 

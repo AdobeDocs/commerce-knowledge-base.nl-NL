@@ -13,9 +13,9 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [De zoekfunctie voor MySQL-catalogus wordt verwijderd uit Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). U moet de Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Zie [Elasticsearch installeren en configureren](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+> [ MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Verwijs naar [ installeer en vorm Elasticsearch ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 
-Het artikel bevat een oplossing voor het geval de indexstatus van de Elasticsearch niet &#39;*groen*&quot;. &#39;*geel*&#39; geeft normaal aan, en &#39;*rood*&#39; geeft aan dat het slecht is. De status &#39;geel&#39; of &#39;rood&#39; kan voorkomen in combinatie met ontbrekende producten of de weergave van oude productinformatie.
+Het artikel verstrekt een moeilijke situatie voor wanneer de Status van de Index van de Elasticsearch niet &quot;*groen*&quot;is. &quot;*geel*&quot;wijst op normaal, en &quot;*rood*&quot;wijst op slecht. De status &#39;geel&#39; of &#39;rood&#39; kan voorkomen in combinatie met ontbrekende producten of de weergave van oude productinformatie.
 
 ## Betrokken versies en producten
 
@@ -24,7 +24,7 @@ Het artikel bevat een oplossing voor het geval de indexstatus van de Elasticsear
 
 ## Probleem
 
-De zoekindex van de Elasticsearch-catalogus is traag, wat resulteert in de status &#39;*geel*&#39; of &#39;*rood*&#39; in plaats van &#39;*groen*&quot;. Het is ook mogelijk dat er ontbrekende wijzigingen aan de voorkant optreden.
+De index van het de catalogusonderzoek van de Elasticsearch is langzaam, resulterend in een status van &quot;*geel*&quot;of &quot;*rood*&quot;eerder dan &quot;*groen*&quot;. Het is ook mogelijk dat er ontbrekende wijzigingen aan de voorkant optreden.
 
 ## Oorzaak
 
@@ -55,8 +55,8 @@ Creeer een nieuwe mysql stortplaats alvorens deze stappen te volgen en hen buite
    curl --silent -X GET localhost:9200/_cat/indices?v
    ```
 
-Als deze stappen niet werken, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Als deze stappen niet werken, [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen.
 
 ## Gerelateerde lezing
 
-Raadpleeg voor meer informatie [Elasticsearch Cluster Health API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html).
+Meer leren, verwijs naar [ gezondheid API van de Cluster van de Elasticsearch ](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html).

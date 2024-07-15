@@ -13,27 +13,27 @@ ht-degree: 0%
 
 # ACSD-45424: Onjuiste reserveringscompensatie na gedeeltelijke terugbetaling
 
-De ACSD-45424-patch verhelpt het probleem dat na een gedeeltelijke terugbetaling een onjuiste reserveringscompensatie wordt gecreëerd. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 is geïnstalleerd. De patch-id is ACSD-45424. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
+De ACSD-45424-patch verhelpt het probleem dat na een gedeeltelijke terugbetaling een onjuiste reserveringscompensatie wordt gecreëerd. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 geïnstalleerd is. De patch-id is ACSD-45424. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.3.4 - 2.4.4
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 Na een gedeeltelijke terugbetaling wordt een onjuiste reserveringscompensatie tot stand gebracht.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Verzendmethode voor in-store levering inschakelen.
 1. Maak drie inventarisbronnen en zorg ervoor dat de ophaallocatie actief is in elke bron (bron1, bron2, bron3).
@@ -53,31 +53,31 @@ Na een gedeeltelijke terugbetaling wordt een onjuiste reserveringscompensatie to
    SELECT * FROM inventory_reservation WHERE sku = 'P3';
    ```
 
-   U krijgt de geplaatste opdracht record in het dialoogvenster `inventory_reservation` tabel. De hoeveelheid is 10, wat juist is.
+   U krijgt de geplaatste record in de `inventory_reservation` -tabel. De hoeveelheid is 10, wat juist is.
 1. Factureer deze volgorde vanaf de achterkant.
-1. Maak nu een creditmemo voor slechts één product. NIET selecteren *Terug naar voorraad* selectievakje.
+1. Maak nu een creditmemo voor slechts één product. Selecteer NIET de *Terugkeer aan voorraad* checkbox.
 1. Voer de zelfde vraag van Stap 8 uit.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-Als u de *Terug naar voorraad* tijdens het aanmaken van de kredietnota `inventory_reservation` de tabel bevat geen record die overeenkomt met de creditnota.
+Als u niet de *Terugkeer aan Voorraad* tijdens de verwezenlijking van het creditmemo selecteerde, zal de `inventory_reservation` lijst geen verslag hebben die aan het creditmemo beantwoordt.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Ook al hebt u de *Terug naar voorraad* tijdens het aanmaken van de kredietmemo wordt een record toegevoegd aan `inventory_reservation` tabel met `creditmemo_created` gebeurtenistype. Ook de in de `inventory_reservation` de tabel heeft een hoeveelheid van 10, ook al hebt u slechts voor één hoeveelheid een creditmemo gemaakt.
+Alhoewel u niet de *Terugkeer aan Voorraad* tijdens de verwezenlijking van het creditmemo selecteerde, voegt het een verslag aan `inventory_reservation` lijst met `creditmemo_created` gebeurtenistype toe. Bovendien heeft de in de tabel `inventory_reservation` toegevoegde creditmemo-record een hoeveelheid van 10, ook al hebt u de creditmemo voor slechts één hoeveelheid gemaakt.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [Patches beschikbaar in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar [ die flarden beschikbaar in QPT ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.

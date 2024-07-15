@@ -23,22 +23,22 @@ Adobe Commerce op cloudinfrastructuur 2.4.1 en hoger.
 
 U krijgt een fout 403 wanneer het proberen om tot het hulpmiddel van de Analyse van de Plaats-brede toegang te hebben.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
-Meld u aan bij het deelvenster Commerce Admin en klik op **Rapporten** > *Systeeminzichten* > **Analyse voor de hele site**.
+Login aan het paneel van Admin van Commerce en klik **Rapporten** > *de Inzichten van het Systeem* > **Plaats-brede Hulpmiddel van de Analyse**.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 U ziet het hulpmiddel van de Analyse voor de hele site.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-Je ziet: *Fout 403.*
+U ziet: *Fout 403.*
 
 
 ## Oplossing
 
-Om ervoor te zorgen dat het hulpmiddel van de Analyse van de Plaats-brede de juiste toegang tot uw toepassing heeft, stel het volgende bevel in CLI in werking. Vervangen `<store URL>` met de URL van je winkel:
+Om ervoor te zorgen dat het hulpmiddel van de Analyse van de Plaats-brede de juiste toegang tot uw toepassing heeft, stel het volgende bevel in CLI in werking. Vervang `<store URL>` door de URL van uw winkel:
 
 ```cURL
 curl -sIL -X GET <store URL>/swat/key/index | grep HTTP
@@ -57,26 +57,26 @@ Als de responscode 403 is, hebt u mogelijk de bescherming van de Cloudflare-bot,
 
 ### 200-responscode en JSON-uitvoer corrigeren
 
-Als de reactie de juiste 200 code en JSON-uitvoer is, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om de kwestie met de toegang van het Hulpmiddel van de Analyse voor de hele Plaats te escaleren.
+Als de reactie de correcte 200 code en output JSON is, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om de kwestie met de toegang van het Hulpmiddel van de Analyse te escaleren plaats-brede.
 
 
 ### Responscode van 500 (Fatale fout)
 
 Als een responscode 500 is (Fatale fout), installeert u de MDVA-38526-patch. Gebruik een van de volgende koppelingen om de patch te downloaden, afhankelijk van het gewenste type patch:
 
-* Adobe Commerce on cloud Infrastructure-patch: [MDVA-38526_EE_2.4.1-p1_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_v3.patch.zip)
-* Adobe Commerce op componentpatch voor cloudinfrastructuur: [MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
+* Adobe Commerce op het flard van de wolkeninfrastructuur: [ MDVA-38526_EE_2.4.1-p1_v3.patch.zip ](assets/MDVA-38526_EE_2.4.1-p1_v3.patch.zip)
+* Adobe Commerce op de componentenflard van de wolkeninfrastructuur: [ MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip ](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
 
 De patch is van toepassing op Adobe Commerce op cloudinfrastructuur versie 2.4.1 en hoger.
 
 ### Response not JSON
 
-Als de responsuitvoer niet JSON is, kan dit te wijten zijn aan PWA/Headless-implementatie. Als u de implementatie zonder kop gebruikt, werkt u de UPWARD-configuratie bij om aanvragen naar Adobe Commerce Origin te omzeilen. Om dit te doen, in Adobe Commerce Admin, onder **Winkels** > **Configuratie** > **Algemeen** > **Web** > **PWA-configuratie UPWARD** > **Lijst van gewenste personen voornaam**, toevoegen *swat*.
+Als de responsuitvoer niet JSON is, kan dit te wijten zijn aan PWA/Headless-implementatie. Als u de implementatie zonder kop gebruikt, werkt u de UPWARD-configuratie bij om aanvragen naar Adobe Commerce Origin te omzeilen. Om dit, in Adobe Commerce te doen Admin, onder **Slaat** > **Configuratie** > **Algemeen** > **Web** > **de Configuratie van de PWA van de UPWARD** > **Lijst van gewenste personen van de Voornaam 11}, voeg *wat* toe.**
 
-![Upward_configuration](assets/upward_pwa.png)
+![ Upward_configuration ](assets/upward_pwa.png)
 
-Als u nog steeds geen toegang hebt tot het hulpprogramma voor analyse voor de hele site, meldt u zich de volgende keer aan bij het deelvenster Commerce Admin en navigeert u naar **Rapporten** > *Systeeminzichten* > **Analyse voor de hele site**, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Als u nog niet tot het Plaats-brede Hulpmiddel van de Analyse kunt toegang hebben, wanneer u binnen aan het paneel van Commerce Admin binnen registreert en aan **Rapporten** > *de Inzichten van het Systeem* > **Plaats-brede Hulpmiddel van de Analyse** navigeert, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Gerelateerde lezing
 
-* [Handleiding voor Analyse voor de hele site](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)
+* ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html) de gids van het Hulpmiddel van de Analyse van 0} plaats-brede[

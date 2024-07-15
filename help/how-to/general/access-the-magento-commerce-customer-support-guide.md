@@ -13,7 +13,7 @@ ht-degree: 0%
 
 In de Adobe Commerce Customer Support Guide worden de aanbiedingen voor klantenondersteuning uitgelegd en wordt uitgelegd hoe u deze kunt gebruiken. Dit omvat beste praktijken voor de steunverhouding, het verzamelen van informatie nodig voor diagnose, de prioriteit van de klantensteun, het voorleggen van een steunverzoek, en verbindingen aan middelen. Deze handleiding is beschikbaar via de sectie Downloads op de pagina voor uw Magento-account. Toegang verkrijgen:
 
-1. Ga naar het Magento [aanmeldingspagina van account.](https://account.magento.com/customer/account/login)
+1. Ga naar de Magento [ pagina van de rekeningslogin.](https://account.magento.com/customer/account/login)
 1. Meld u aan met uw gebruikersnaam en wachtwoord voor het Magento.
-1. Klik in de linkernavigatiebalk op **Downloads**.
-1. Klik in het rechterdeelvenster op **Merchants - Bronnen voor Aan de slag**.  ![access_magento_commerce_customer_support_guide.png](assets/access_magento_commerce_customer_support_guide.png)
+1. In de linkernavigatiebar, klik **Downloads**.
+1. In de juiste ruit, klik **Merchants - Middelen voor Begonnen het Worden**.  ![ access_magento_commerce_customer_support_guide.png ](assets/access_magento_commerce_customer_support_guide.png)

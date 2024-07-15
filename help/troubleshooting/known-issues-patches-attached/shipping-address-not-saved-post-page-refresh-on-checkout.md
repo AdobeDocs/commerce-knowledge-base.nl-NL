@@ -19,9 +19,9 @@ Dit artikel bevat een patch voor de bekende Adobe Commerce 2.2.3-uitgave waarbij
 
 Klanten gaan door de uitcheckprocedure voor gasten en vullen alle formulieren in, inclusief het verzendadres. Ze gaan naar de sectie Controleren en betalen en laden de pagina opnieuw. Het formulier is leeg en ze moeten het verzendadres opnieuw invoeren. De functie voor het permanent winkelwagentje is ingeschakeld.
 
-<u>Stappen om te reproduceren</u> :
+<u> Stappen om </u> te reproduceren:
 
-**Vereisten**: De functie voor hardnekkig winkelwagentje is ingeschakeld. Controleer of deze functie is ingeschakeld in de beheerfunctie, onder **Winkels** > **Configuratie** > **Klanten** of **Winkels** > **Configuratie** > **Verkoop** afhankelijk van uw Adobe Commerce-versie.
+**Eerste vereisten**: De blijvende het winkelen functionaliteit van het karretje wordt toegelaten. Controle als het in Admin, onder **Opslag** wordt toegelaten > **Configuratie** > **Klanten** of **Opslag** > **Configuratie** > **Verkoop,** afhankelijk van uw versie van Adobe Commerce.
 
 1. Ga naar de winkel.
 1. Voeg producten toe aan het winkelwagentje.
@@ -31,11 +31,11 @@ Klanten gaan door de uitcheckprocedure voor gasten en vullen alle formulieren in
 1. Controleer of je het verzendadres ziet in de sectie Verzenden naar.
 1. Vernieuw de pagina.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 U kunt doorgaan met het uitchecken en alle gegevens worden opgeslagen.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Het verzendadres is leeg. Je moet het opnieuw invoeren.
 
@@ -47,11 +47,11 @@ De patch is aan dit artikel gekoppeld. Als u het bestand wilt downloaden, schuif
 
 ### Compatibele Adobe Commerce-versies
 
-**De patch is gemaakt voor:**
+**het flard werd gecreeerd voor:**
 
 * Adobe Commerce 2.2.3
 
-**De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volgende Adobe Commerce-versies en -versies:**
+**het flard is ook compatibel (maar zou de kwestie niet kunnen oplossen) met de volgende versies en de uitgaven van Adobe Commerce:**
 
 * Adobe Commerce over wolkeninfrastructuur 2.1.13 - 2.1.18
 * Adobe Commerce over cloudinfrastructuur 2.2.0 - 2.2.5
@@ -61,6 +61,6 @@ De patch is aan dit artikel gekoppeld. Als u het bestand wilt downloaden, schuif
 
 ## Hoe de pleister aanbrengen
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Bijgevoegde bestanden

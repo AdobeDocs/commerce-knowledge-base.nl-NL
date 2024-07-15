@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit artikel biedt een patch als tijdelijke oplossing, maar het probleem is in Adobe Commerce permanent opgelost in de release van versie 2.3.3 van de cloudinfrastructuur en het wordt aanbevolen een upgrade uit te voeren naar versie 2.3.3. Voer de stappen uit in [Adobe Commerce-versie upgraden](https://devdocs.magento.com/cloud/project/project-upgrade.html) in onze ontwikkelaarsdocumentatie.
+>Dit artikel biedt een patch als tijdelijke oplossing, maar het probleem is in Adobe Commerce permanent opgelost in de release van versie 2.3.3 van de cloudinfrastructuur en het wordt aanbevolen een upgrade uit te voeren naar versie 2.3.3. Volg de stappen in [ versie van Adobe Commerce van de Verbetering ](https://devdocs.magento.com/cloud/project/project-upgrade.html) in onze ontwikkelaarsdocumentatie.
 
-Dit artikel bevat een patch voor het bekende Adobe Commerce-probleem met cloudinfrastructuur 2.2.0 dat betrekking heeft op het ontoegankelijk maken van voorcataloguspagina&#39;s van winkels, waarbij het foutbericht lijkt op het volgende in log: *Schending van integriteitsbeperking: 1062 Dubbele vermelding &#39;%entry%&#39; voor sleutel &#39;PRIMARY&#39;, query was: INSERT INTO \&#39;search\_tmp\_%number%*.
+Dit artikel biedt een patch voor de bekende Adobe Commerce in de cloud-infrastructuur 2.2.0-kwestie met betrekking tot de ontoegankelijke opslag van voorcataloguspagina&#39;s. Het foutbericht ziet er ongeveer als volgt uit: *schending integriteitsbeperking: 1062 Dubbele vermelding &#39;%entry%&#39; voor sleutel &#39;PRIMARY&#39;, query was: INSERT INTO \&quot;search\_tmp\_%number%*.
 
 ## Probleem
 
-Voorste cataloguspagina&#39;s opslaan wordt onverwacht toegankelijk. Het foutenlogboek heeft een foutenbeschrijving gelijkend op het volgende: *Schending van integriteitsbeperking: 1062 Dubbele vermelding &#39;%entry%&#39; voor sleutel &#39;PRIMARY&#39;, query was: INSERT INTO \&#39;search\_tmp\_%number%*.
+Voorste cataloguspagina&#39;s opslaan wordt onverwacht toegankelijk. Het foutenlogboek heeft een foutenbeschrijving gelijkend op het volgende: *schending van de de beperkingsbeperking van de Integriteit: 1062 Dubbele ingang &quot;%entry%&quot;voor sleutel &quot;PRIMARY&quot;, de vraag was: TUSSENVOEGSEL IN \&quot;search\_tmp\_%number%*.
 
 Het probleem houdt verband met zoeken en wordt veroorzaakt door het bestaan van de verouderde index samen met de nieuwe index na herdex.
 
@@ -58,26 +58,26 @@ De patches zijn aan dit artikel gekoppeld. Als u een patch wilt downloaden, schu
 De patches zijn gemaakt voor de volgende versies en versies:
 
 * Adobe Commerce on cloud Infrastructure 2.2.0 (`MDVA-9590_EE_2.2.0_COMPOSER_v2.patch`)
-* Adobe Commerce over wolkeninfrastructuur 2.2.4 (`MDVA-13203_EE_2.2.4_V1_COMPOSER.patch`)
+* Adobe Commerce op cloudinfrastructuur 2.2.4 (`MDVA-13203_EE_2.2.4_V1_COMPOSER.patch`)
 
-De `MDVA-9590_EE_2.2.0_COMPOSER_v2` patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volgende Adobe Commerce-versies en -versies:
+De `MDVA-9590_EE_2.2.0_COMPOSER_v2` -patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volgende Adobe Commerce-versies en -versies:
 
 * Adobe Commerce op cloudinfrastructuur 2.0.X, 2.1.X, 2.2.X en 2.3.0 - 2.3.3
 * Adobe Commerce op locatie 2.0.X, 2.1.X, 2.2.X en 2.3.0 - 2.3.3
 
-De `MDVA-13203_EE_2.2.4_V1_COMPOSER` patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volgende Adobe Commerce-versies en -versies:
+De `MDVA-13203_EE_2.2.4_V1_COMPOSER` -patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volgende Adobe Commerce-versies en -versies:
 
 * Adobe Commerce op cloudinfrastructuur 2.0.X, 2.1.X, 2.2.X en 2.3.0 - 2.3.3
 * Adobe Commerce op locatie 2.0.X, 2.1.X, 2.2.X en 2.3.0 - 2.3.3
 
 ## Hoe de pleister aanbrengen
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Nuttige koppelingen
 
-* [Locatie van logbestanden voor Adobe Commerce op Starter-planarchitectuur voor cloudinfrastructuur](/help/how-to/general/log-locations-directories-for-starter-plan.md) in onze kennisbasis voor ondersteuning.
-* [Locatie van logbestanden voor Adobe Commerce op de Pro-planarchitectuur van de cloud-infrastructuur](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) in onze kennisbasis voor ondersteuning.
-* [Locatie van logbestanden voor Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) in onze ontwikkelaarsdocumentatie.
+* [ plaats van de dossiers van het Logboek voor Adobe Commerce op het planarchitectuur van de Aanzet van de wolkeninfrastructuur ](/help/how-to/general/log-locations-directories-for-starter-plan.md) in onze basis van de steunkennis.
+* [ plaats van de dossiers van het Logboek voor Adobe Commerce op de architectuur van het Pro plan van de wolkeninfrastructuur ](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) in onze basis van de steunkennis.
+* [ plaats van de dossiers van het Logboek voor Adobe Commerce ](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) in onze ontwikkelaarsdocumentatie.
 
 ## Bijgevoegde bestanden

@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Verlagen verlopen `oauth_tokens` vóór upgrade naar 2.4.6
+# Verlagen van verlopen `oauth_tokens` vóór upgrade van 2.4.6
 
-Dit artikel biedt een oplossing voor het probleem waarbij een groot aantal `oauth_tokens` in uw `oauth_token` tabel, die een lange vertraging kan veroorzaken bij de upgrade naar versie 2.4.6. Het wordt aanbevolen de `oauth_token` tabel met de [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] taak om de verlopen tokens te verwijderen.
+Dit artikel biedt een oplossing voor het probleem waarbij een groot aantal `oauth_tokens` in uw `oauth_token` -tabel wordt weergegeven. Hierdoor kan de upgrade naar versie 2.4.6 veel langer duren. Het wordt aanbevolen de tabel `oauth_token` te verkleinen met de taak [`CleanExpiredTokens.php` ](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] om de verlopen tokens te verwijderen.
 
 ## Betrokken producten en versies
 
@@ -21,20 +21,20 @@ Dit artikel biedt een oplossing voor het probleem waarbij een groot aantal `oaut
 
 ## Probleem
 
-Als er een groot aantal `oauth_tokens` in uw `oauth_token` die een lange vertraging kan veroorzaken bij de upgrade naar versie 2.4.6.
+Als er een groot aantal `oauth_tokens` in uw `oauth_token` -tabel staat, kan dit een lange vertraging veroorzaken bij het upgraden naar versie 2.4.6.
 
 Het verbeteringsproces omvat het coderen van die tokens voor een extra laag van veiligheid, en het is slechts 100 verslagen tegelijkertijd gedaan. Dit kan enkele uren duren als er een groot aantal tokens is.
 
-Een groot aantal `oauth_tokens` in uw `oauth_token` tabel kan een lange vertraging bij de upgrade naar versie 2.4.6 voorkomen.
+Als u een groot aantal `oauth_tokens` in uw `oauth_token` -tabel reduceert, voorkomt u een lange vertraging bij het upgraden naar versie 2.4.6.
 
 ## Oplossing
 
-Voordat u een upgrade start, moet u eerst controleren of de [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] taak wordt uitgevoerd. Hierdoor wordt de grootte van de `oauth_token` tabel door de verlopen te verwijderen `oauth_tokens` tokens, en zou reeds door gebrek moeten worden toegelaten.
+Voordat u een upgrade start, moet u eerst controleren of de [`CleanExpiredTokens.php` ](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] -taak wordt uitgevoerd. Hierdoor wordt de tabel `oauth_token` kleiner door de verlopen `oauth_tokens` -tokens te verwijderen. Deze moeten al standaard zijn ingeschakeld.
 
-Als u de [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] taak, uitvoeren:
+Voer de volgende handelingen uit om de [`CleanExpiredTokens.php` ](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] -taak handmatig te activeren:
 ```bin/magento cron:run --group=default```
 
 ## Gerelateerde lezing
 
-* [Services > [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) in de handleiding Commerce Configuration Reference.
-* [Verificatiehandleiding](https://developer.adobe.com/developer-console/docs/guides/authentication/) in de handleiding van Adobe Developer.
+* [ de Diensten >  [!DNL OAuth] ](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) in de gids van de Verwijzing van de Configuratie van Commerce.
+* [ Gids van de Authentificatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/) in de gids van Adobe Developer.

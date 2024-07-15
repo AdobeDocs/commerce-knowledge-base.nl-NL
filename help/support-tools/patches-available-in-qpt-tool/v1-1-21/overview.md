@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.21'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.21.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.21'
+description: Deze subsectie biedt een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in  [!DNL Quality Patches Tool]  (QPT) v1.1.21.
 exl-id: eec449a4-a9ad-4fb2-84e6-ecff6db76797
 feature: Tools and External Services
 role: Admin
@@ -11,20 +11,20 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht versie 1.1.21
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.1.21
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.21.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.21.
 
 QPT v1.1.21 omvat de volgende flarden:
 
-1. **ACSD-45071**: Hiermee wordt het probleem verholpen waarbij de standaardbron tijdens het importeren aan het product wordt toegevoegd.
-1. **ACSD-46541**: Hiermee wordt het probleem verholpen waarbij een beheerder geen creditnota kan maken als een orderitem wordt verwijderd.
-1. **ACSD-46581**: Hiermee wordt de kwestie opgelost waarbij het geraamde belastingtotaal niet wordt bijgewerkt na selectie van een land in het winkelwagentje.
-1. **ACSD-46618**: Hiermee wordt het probleem verholpen waarbij in de widget voor de productlijst onjuiste cacheprijzen worden weergegeven voor een aangemelde klant.
-1. **ACSD-46674**: Hiermee verhelpt u het probleem waarbij aangepaste opties van een afbeeldingstype als HTML worden weergegeven in e-mails van klanten.
-1. **ACSD-46809**: Het probleem waarbij een gebruiker een fout krijgt bij het toewijzen van een groot aantal productbronnen, is opgelost.
-1. **ACSD-46856**: Verbetert de prestaties bij het bijwerken van de laagprijzen via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]**.
-1. **ACSD-4698**: Hiermee wordt het probleem verholpen waarbij de GraphQL API-aanvraag NULL-waarden retourneert voor een aangepaste valuta.
-1. **ACSD-47076**: Hiermee wordt het probleem opgelost waarbij [!DNL Vimeo] video&#39;s kunnen niet worden afgespeeld op de winkelserver.
+1. **ACSD-45071**: Verhelpt de kwestie waar de standaardbron aan het product tijdens de invoer wordt toegevoegd.
+1. **ACSD-46541**: Verhelpt de kwestie waar een admin gebruiker geen creditnota kan tot stand brengen als een orde punt wordt geschrapt.
+1. **ACSD-46581**: Verhelpt de kwestie waar het geschatte belastingtotaal niet na het selecteren van een land in het winkelwagentje wordt bijgewerkt.
+1. **ACSD-46618**: Verhelpt de kwestie waar de widget van de productlijst onjuiste caching prijzen voor een het programma geopende klant toont.
+1. **ACSD-46674**: Verhelpt de kwestie waar de douaneopties van een beeldtype als HTML in klantene-mails worden getoond.
+1. **ACSD-46809**: Verhelpt de kwestie waar een gebruiker een fout krijgt wanneer het toewijzen van een groot aantal productbronnen.
+1. **ACSD-46856**: verbetert prestaties die laagprijzen via **[!UICONTROL System]** bijwerken > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]**.
+1. **ACSD-46988**: Verhelpt de kwestie waar het &quot;valuta&quot;API Verzoek van GraphQL ONGELDIGE waarden voor een douanemunt terugkeert.
+1. **ACSD-47076**: Verhelpt de kwestie waar [!DNL Vimeo] video&#39;s niet op de storefront kunnen worden gespeeld.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

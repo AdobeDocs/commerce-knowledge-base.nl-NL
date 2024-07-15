@@ -21,16 +21,16 @@ Dit artikel bevat een oplossing voor het probleem waarbij met het gereedschap Be
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Configureer het hulpprogramma Beveiligingsscan om uw website te controleren, zoals beschreven in [Beveiligingsscan](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) in onze gebruikershandleiding.
-1. Selecteer in de kolom Handelingen de optie **Scan uitvoeren**.
+1. Vorm het Hulpmiddel van het Scannen van de Veiligheid om uw website te controleren, zoals die in [ Scannen van de Veiligheid ](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) in onze gebruikersgids wordt beschreven.
+1. In de kolom van Acties, uitgezochte **Scannen van de Looppas**.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Bekijk het bericht van de rapportvoltooiing en de capaciteit om het rapport te openen.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Geen melding en geen rapport beschikbaar.
 
@@ -43,9 +43,9 @@ Dit probleem kan optreden omdat het hulpprogramma voor beveiligingsscan uw websi
 Probeer uw website te openen.
 
 * Als de pagina met succes wordt geladen, zou u IPs kunnen moeten toevoegen die door de Hulpmiddelen van het Scannen van de Veiligheid aan de Lijst van gewenste personen van de firewall wordt gebruikt. De volgende IP&#39;s worden gebruikt: 52.87.98.44, 34.196.167.176, 3.218.25.102 in de havens 80 en 443.
-* Als de site het bestand niet laadt en retourneert *&quot;Er is een fout opgetreden bij het verwerken van uw verzoek.&quot;* bericht, controleer uw website op mogelijke fouten.
+* Als de plaats niet laadt en *&quot;Er is een fout geweest die uw verzoek&quot;verwerkt* bericht, uw website voor mogelijke fouten controleert.
 
 ## Gerelateerde lezing
 
-* [Live gaan en starten](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) in onze ontwikkelaarsdocumentatie.
-* [Beveiligingsscan](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) in onze gebruikershandleiding.
+* [ ga levend en lanceer ](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) in onze ontwikkelaardocumentatie.
+* [ Scannen van de Veiligheid ](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) in onze gebruikersgids.

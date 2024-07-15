@@ -13,38 +13,38 @@ ht-degree: 0%
 
 # ACSD-45817: mutatie in GraphQL-producten biedt alle configureerbare varianten
 
-De ACSD-45817-patch verhelpt het probleem waarbij een GraphQL `products` de mutatie voor een specifieke opslag keert alle configureerbare varianten, met inbegrip van terug die niet aan de gevraagde opslag worden toegewezen. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 is geïnstalleerd. De patch-id is ACSD-45817. De kwestie is opgelost in Adobe Commerce 2.4.4.
+De ACSD-45817-patch verhelpt het probleem waarbij een GraphQL `products` -mutatie voor een specifieke winkel alle configureerbare varianten retourneert, inclusief varianten die niet aan de gevraagde winkel zijn toegewezen. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 geïnstalleerd is. De patch-id is ACSD-45817. De kwestie is opgelost in Adobe Commerce 2.4.4.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.3-p1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2 - 2.4.3-p3
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-A GRAPHQL `products` de mutatie voor een specifieke opslag keert alle configureerbare varianten, met inbegrip van terug die niet aan de gevraagde opslag worden toegewezen.
+Een GraphQL `products` -mutatie voor een specifieke store retourneert alle configureerbare varianten, inclusief varianten die niet aan de gevraagde store zijn toegewezen.
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 Maak een tweede website, tweede winkel en tweede winkelweergave.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Creeer een configureerbaar product met twee subproducts: &quot;configureerbaar-a&quot;en &quot;configureerbaar-b&quot;.
 1. Wijs het configureerbare product aan beide websites toe.
 1. Wijs slechts één &quot;configureerbaar-a&quot;variatie aan de tweede website toe.
-1. Ga naar de **Storefront**, overschakelen naar de tweede website en het configureerbare product openen.
+1. Ga naar **Storefront**, schakelaar aan de tweede website, en open het configureerbare product.
 1. Zorg ervoor dat er slechts één onderliggende optie wordt weergegeven: &quot;configureerbaar-a&quot;.
-1. GraphQL-query uitvoeren met `POST: /graphql` eindpunt, en `Headers: "store" = "new"`
+1. Een GraphQL-query uitvoeren met het `POST: /graphql` -eindpunt en `Headers: "store" = "new"`
 
    ```GraphQL
    {
@@ -111,11 +111,11 @@ Maak een tweede website, tweede winkel en tweede winkelweergave.
    }
    ```
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De variatie &#39;configureerbaar-b&#39; wordt niet toegewezen aan de tweede website en moet niet worden weergegeven in de reactie.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De &quot;configureerbaar-b&quot;variatie wordt getoond in de reactie.
 
@@ -123,14 +123,14 @@ De &quot;configureerbaar-b&quot;variatie wordt getoond in de reactie.
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [Patches beschikbaar in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar [ die flarden beschikbaar in QPT ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.

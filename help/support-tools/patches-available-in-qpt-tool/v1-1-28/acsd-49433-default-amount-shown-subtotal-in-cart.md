@@ -13,40 +13,40 @@ ht-degree: 0%
 
 # ACSD-49433: Standaardbedrag weergegeven als subtotaal in karretje voor cadeaukaart
 
-De ACSD-49433-patch verhelpt het probleem waarbij het standaardbedrag als subtotaal in het winkelwagentje voor de cadeaukaart met een open bedrag wordt weergegeven. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is geïnstalleerd. De patch-id is ACSD-49433. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-49433-patch verhelpt het probleem waarbij het standaardbedrag als subtotaal in het winkelwagentje voor de cadeaukaart met een open bedrag wordt weergegeven. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 wordt geïnstalleerd. De patch-id is ACSD-49433. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.3-p1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.3 - 2.4.6
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 Het standaardbedrag wordt weergegeven als subtotaal in het winkelwagentje voor de cadeaukaart met een open bedrag.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Maak een cadeaukaart.
-1. Zorg ervoor dat de hoeveelheid is ingesteld op *[!UICONTROL Yes]* (tussen 50 en 500 dollar).
-1. Ga naar de [!UICONTROL Gift Card] in de winkel en kies een ander bedrag uit de vervolgkeuzelijst.
+1. Zorg ervoor dat het open bedrag is ingesteld op *[!UICONTROL Yes]* (tussen 50 en 500 €).
+1. Ga naar het [!UICONTROL Gift Card] -product in de winkel en kies een andere hoeveelheid in de vervolgkeuzelijst.
 1. Geef $100 op in het bedrag in USD.
 1. Vul andere velden in en voeg deze toe aan het winkelwagentje.
 1. Ga naar de miniwinkelwagentje of de winkelwagentje pagina.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Het subtotaal toont het bedrag de gebruiker inging.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Het subtotaal toont het standaardbedrag van de cadeau-kaart.
 
@@ -54,14 +54,14 @@ Het subtotaal toont het standaardbedrag van de cadeau-kaart.
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

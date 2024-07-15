@@ -13,53 +13,53 @@ ht-degree: 0%
 
 # ACSD-48070: uitzondering tijdens het bewerken van een geplande update
 
-De ACSD-48070-patch verhelpt het probleem waarbij een uitzondering wordt geactiveerd tijdens het bewerken van een geplande update. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is geïnstalleerd. De patch-id is ACSD-48070. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-48070-patch verhelpt het probleem waarbij een uitzondering wordt geactiveerd tijdens het bewerken van een geplande update. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 wordt geïnstalleerd. De patch-id is ACSD-48070. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4-p2
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.3.7 - 2.4.6-p1
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 Er wordt een uitzondering geactiveerd tijdens het bewerken van een geplande update.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Open een categorie.
-2. Een nieuwe **[!UICONTROL Scheduled Update]** en sla deze op.
-3. Klikken **[!UICONTROL View/Edit]** in het gemaakte **[!UICONTROL Scheduled Update]**.
+2. Maak een nieuwe **[!UICONTROL Scheduled Update]** en sla deze op.
+3. Klik op **[!UICONTROL View/Edit]** in het gemaakte bestand **[!UICONTROL Scheduled Update]** .
 4. Sla het bestand opnieuw op.
 
-<u>Verwachte resultaten</u>
+<u> Verwachte resultaten </u>
 
-De **[!UICONTROL Scheduled Update]** wordt opgeslagen.
+**[!UICONTROL Scheduled Update]** wordt opgeslagen.
 
-<u>Werkelijke resultaten</u>
+<u> Ware resultaten </u>
 
-Er treedt een fout op: *fout: er is iets fout gegaan tijdens het opslaan van de map Magento\Catalog\Api\Data\CategoryInterface.*
+Een fout komt voor: *fout: iets ging verkeerd terwijl het bewaren van Magento\Catalog\Api\Data\CategoryInterface.*
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

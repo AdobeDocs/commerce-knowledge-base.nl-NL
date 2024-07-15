@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Omleiden naar het aanmeldingsformulier voor Commerce Admin met de fout &quot;Uw account is tijdelijk uitgeschakeld&quot;
 
-Dit artikel bevat de mogelijke oplossingen voor het aanmeldingsprobleem van Commerce Admin, waarbij u met het volgende foutbericht terugkeert naar het aanmeldingsformulier: *&quot;Uw account is tijdelijk uitgeschakeld.&quot;*. De voorgestelde oplossing controleert en verbetert de montages van het admin gebruikersgegevensbestand.
+Dit artikel verstrekt de mogelijke oplossingen voor de login van Commerce Admin kwestie, waar u terug naar het login formulier met het volgende foutenbericht wordt opnieuw gericht: *&quot;Uw rekening is tijdelijk gehandicapt&quot;*. De voorgestelde oplossing controleert en verbetert de montages van het admin gebruikersgegevensbestand.
 
 ## Betrokken versies en versies:
 
@@ -21,23 +21,23 @@ Alle Adobe Commerce-versies en -versies
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Ga naar de pagina Commerce Admin.
 1. Voer uw referenties in en klik op Aanmelden.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 U wordt aangemeld bij de Commerce Admin.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-U wordt opnieuw omgeleid naar het aanmeldingsformulier, met het volgende foutbericht weergegeven: *&quot;Uw account is tijdelijk uitgeschakeld. Probeer het later opnieuw.&quot;*.
+U wordt teruggeleid naar het aanmeldingsformulier, met het volgende foutbericht weergegeven: *&quot;Uw account is tijdelijk uitgeschakeld. Gelieve te proberen opnieuw later&quot;*.
 
 ## Oplossing
 
 1. Maak een back-up van de database.
-1. Een databasegereedschap gebruiken, zoals [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)of opent u de database handmatig via de opdrachtregel. In de `admin_user` databasetabel, voor de gebruikersrecord van uw beheerder, controleert u of `is_active` is ingesteld op &quot;`1`&quot; en `lock_expires` is `NULL`. Stel deze waarden desgewenst opnieuw in.
+1. Gebruik een gegevensbestandhulpmiddel zoals [ phpMyAdmin ](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), of toegang manueel tot DB van de bevellijn. In de `admin_user` gegevensbestandlijst, voor uw admin gebruikersverslag, controleer als `is_active` aan &quot; `1`&quot;wordt geplaatst en `lock_expires` is `NULL`. Stel deze waarden desgewenst opnieuw in.
 
 ## Gerelateerde lezing in onze kennisbasis voor support
 

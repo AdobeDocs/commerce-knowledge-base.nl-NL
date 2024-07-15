@@ -15,16 +15,16 @@ ht-degree: 0%
 
 Dit artikel bevat een oplossing voor problemen met de gereedheidscontrole voor bestandsmachtigingen. Mappen in het Adobe Commerce-bestandssysteem moeten kunnen worden geschreven door de gebruiker van de webserver en, indien van toepassing, door de eigenaar van het Adobe Commerce-bestandssysteem. Een fout gelijkend op de volgende vertoningen in de Tovenaar van de Opstelling van het Web als uw toestemmingen niet behoorlijk worden geplaatst:
 
-![install_rc_file-perms.png](assets/install_rc_file-perms.png)
+![ install_rc_file-perms.png ](assets/install_rc_file-perms.png)
 
 De manier waarop u het probleem verhelpt, hangt af van het feit of u een installatie voor één gebruiker of voor twee gebruikers hebt:
 
-* *Eén gebruiker* betekent dat u zich aanmeldt bij de Adobe Commerce-server als dezelfde gebruiker die ook de webserver uitvoert. Dit type installatie komt veel voor in gedeelde hostomgevingen.
-* *Twee gebruikers* betekent gewoonlijk *kan* aanmelden als of overschakelen naar de gebruiker van de webserver. Meestal meldt u zich aan als één gebruiker en voert u de webserver uit als een andere gebruiker. Dit is typisch bij privé het ontvangen of als u uw eigen server hebt.
+* *Één gebruiker* betekent u login aan de server van Adobe Commerce zoals de zelfde gebruiker die ook de Webserver in werking stelt. Dit type installatie komt veel voor in gedeelde hostomgevingen.
+* *Twee gebruikers* betekent u typisch *niet* login als, of schakelaar aan, de gebruiker van de Webserver. Meestal meldt u zich aan als één gebruiker en voert u de webserver uit als een andere gebruiker. Dit is typisch bij privé het ontvangen of als u uw eigen server hebt.
 
 ## Resolutie van één gebruiker
 
-Als u opdrachtregeltoegang hebt, voert u de volgende opdracht in, ervan uitgaande dat Adobe Commerce is geïnstalleerd in `/var/www/html/magento2`:
+Als u opdrachtregeltoegang hebt, voert u de volgende opdracht in, ervan uitgaande dat Adobe Commerce is geïnstalleerd in `/var/www/html/magento2` :
 
 ```bash
 $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -type f -exec chmod g+w {} + && find var vendor pub/static pub/media app/etc -type d -exec chmod g+w {} + && chmod u+x bin/magento
@@ -34,13 +34,13 @@ Als u geen opdrachtregeltoegang hebt, gebruikt u een FTP-client of een toepassin
 
 ## Resolutie van twee gebruikers
 
-Als u desgewenst alle opdrachten op één regel wilt invoeren, voert u het volgende in, ervan uitgaande dat Adobe Commerce is geïnstalleerd in `/var/www/html/magento2` en de naam van de webservergroep is `apache`:
+Als u desgewenst alle opdrachten op één regel wilt invoeren, voert u het volgende in, ervan uitgaande dat Adobe Commerce is geïnstalleerd in `/var/www/html/magento2` en dat de naam van de webservergroep `apache` is:
 
 ```bash
 $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -type f -exec chmod g+w {} + && find var vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} + && chown -R :apache . && chmod u+x bin/magento
 ```
 
-Als de systeemmachtigingen voor het gebeurtenisbestand onjuist zijn ingesteld en niet kunnen worden gewijzigd door de eigenaar van het Adobe Commerce-bestandssysteem, kunt u de opdracht invoeren als een gebruiker met `root` rechten:
+Als de systeemmachtigingen voor het gebeurtenisbestand onjuist zijn ingesteld en niet kunnen worden gewijzigd door de eigenaar van het Adobe Commerce-bestandssysteem, kunt u de opdracht invoeren als een gebruiker met `root` -rechten:
 
 ```bash
 $ cd /var/www/html/magento2 && sudo find var vendor

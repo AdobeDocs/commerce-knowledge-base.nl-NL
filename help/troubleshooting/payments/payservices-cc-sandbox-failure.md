@@ -18,11 +18,11 @@ In dit artikel wordt uitgelegd waarom een testcreditcard mislukt in een Sandbox-
 ## Betrokken producten en versies
 
 
-* Adobe Commerce 2.4.0 - 2.4.4, alle implementatieopties, met [Betalingsdiensten](https://marketplace.magento.com/magento-payment-services.html)
+* Adobe Commerce 2.4.0 - 2.4.4, alle plaatsingsopties, met [ de Diensten van de Betaling ](https://marketplace.magento.com/magento-payment-services.html)
 
 ## Probleem
 
-Bij gebruik van een Visa-creditcard `4111 1111 1111 1111` van PayPal mislukt het soms door het PayPal-fraudebeleid met de volgende fout:
+Wanneer u een Visa-creditcard test van PayPal gebruikt, mislukt deze soms door PayPal-fraudebeleid met de volgende fout:`4111 1111 1111 1111`
 
 ```terminal
 Error happened when processing the request. Please try again later.
@@ -36,6 +36,6 @@ Deze fout wordt weergegeven wanneer PayPal een specifiek creditcardnummer voor f
 
 Gebruik een andere creditcard. Voor het genereren van modelcreditcards kunt u het testen:
 
-1. Ga naar het PayPal Developer Portal [Creditcardmaatschappij](https://developer.paypal.com/developer/creditCardGenerator/) pagina.
+1. Ga naar de pagina van de Generator van de Kredietkaart van het Portaal van de Ontwikkelaar van PayPal [.](https://developer.paypal.com/developer/creditCardGenerator/)
 1. Meld u aan bij het PayPal Developer Portal-dashboard.
 1. Genereer een testcreditcard.

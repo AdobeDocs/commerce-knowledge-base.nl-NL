@@ -21,7 +21,7 @@ Dit artikel biedt een oplossing voor het probleem wanneer Fastly Image Optimizat
 
 ## Probleem
 
-Op de pagina van de Snelle Configuratie, naast het Fastly IO Fragment, ziet u de Huidige staat: \_disabled \_met het volgende bericht onder: Gelieve te contacteren uw verkoopvertegenwoordiger of een e-mail te verzenden naar `support@fastly.com` om activering van optimalisatie van afbeeldingen voor uw snelservice aan te vragen.
+Op de pagina Fastly Configuration, naast het Fastly IO Snippet, ziet u de Huidige staat: \_disabled \_met het volgende bericht onder: Gelieve te contacteren uw verkoper of een e-mail te verzenden naar `support@fastly.com` om de activering van de beeldoptimalisering voor uw Snelle dienst te verzoeken.
 
 ## Oorzaak
 
@@ -29,4 +29,4 @@ Mogelijk is de site nog niet live. Er zijn processen om de site vooraf te laden 
 
 ## Oplossing
 
-Een [Ondersteuningsticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) en vragen om optimalisatie van de afbeelding.
+Creeer het kaartje van de a [ Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) en verzoek beeldoptimalisering.

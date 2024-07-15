@@ -23,25 +23,25 @@ Dit artikel biedt een oplossing voor ontbrekende extensies in de Admin Extension
 
 Wanneer u extensies aanschaft via de Commerce Marketplace, kunt u deze niet installeren met de Adobe Commerce-kernExtension Manager. Wanneer u de toegangstoetsen toevoegt en synchroniseert met de Marketplace, ziet de Extension Manager geen extensies.
 
-De **Workaround** omdat u de opdrachtregel voor de Adobe Commerce-installatie moet gebruiken, zoals in [Algemene CLI-installatie](https://devdocs.magento.com/extensions/install/) in onze ontwikkelaarsdocumentatie.
+De **Oplossing** voor de kwestie moet de installatie van de bevellijnAdobe Commerce zoals aangetoond in [ Algemene installatie CLI ](https://devdocs.magento.com/extensions/install/) in onze ontwikkelaarsdocumentatie gebruiken.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Een extensie aanschaffen via de Commerce Marketplace.
 1. Voeg de toegangstoetsen van uw extensie toe en synchroniseer deze met de Marketplace.
 1. Ga naar de sectie Extension Manager van de Admin.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 De extensie wordt weergegeven in de sectie Extension Manager van Commerce Admin.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-**In de sectie Extension Manager van Commerce Admin wordt geen extensie weergegeven, vergelijkbaar met de onderstaande afbeelding:**
+**geen uitbreiding verschijnt op de sectie van de Extension Manager van Commerce Admin, gelijkend op het hieronder beeld:**
 
 
-![KB-607_Image_1.png](assets/KB-607_Image_1.png)
+![ KB-607_Image_1.png ](assets/KB-607_Image_1.png)
 
 ## Workaround
 
-De opdrachtregel voor Adobe Commerce-installatie gebruiken, zoals wordt getoond in [Algemene CLI-installatie](https://devdocs.magento.com/extensions/install/) in onze ontwikkelaarsdocumentatie.
+Gebruik de installatie van Adobe Commerce van de bevellijn zoals aangetoond in [ Algemene installatie CLI ](https://devdocs.magento.com/extensions/install/) in onze ontwikkelaarsdocumentatie.

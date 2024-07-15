@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: browser geeft &quot;Cannot proxy to&quot;error weer
 
-Dit onderwerp bespreekt een oplossing wanneer uw Webbrowser &quot;*Kan niet proxy naar*&quot; en geeft de console een
+Dit onderwerp bespreekt een oplossing wanneer uw Webbrowser a &quot;*niet volmacht aan*&quot;toont en de console toont een
 
 ```
 ENOTFOUND
@@ -27,17 +27,17 @@ fout bij het gebruiken van de Progressieve Studio van de Web App (PWA) voor Adob
 
 ## Probleem
 
-<u>Stap om te reproduceren</u>:
+<u> Stap om te reproduceren </u>:
 
 * Laad uw Adobe Commerce-winkel in een browser.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 * De Adobe Commerce-winkel wordt normaal in uw browser geladen.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-* In uw webbrowser wordt &quot;*Kan niet proxy naar*&quot;fout en de console toont een fout als:
+* Uw Webbrowser toont &quot;*niet volmacht aan* &quot;fout en de console toont een fout als:
 
 ```
     ENOTFOUND
@@ -51,9 +51,9 @@ NodeJS kan de hostnaam van uw Adobe Commerce-winkel niet oplossen.
 ## Oplossing
 
 1. Zorg ervoor dat de Adobe Commerce-winkel in meerdere webbrowsers wordt geladen.
-1. Als u een lokale DNS server of VPN in werking stelt, voeg een ingang aan uw hostfile toe (die in wordt gevestigd `/etc/hosts`) en dit domein handmatig toewijzen ([Algemene instructies voor het bewerken van hostbestanden](https://linuxize.com/post/how-to-edit-your-hosts-file/)), dus NodeJS kan het oplossen.
+1. Als u een lokale DNS server of VPN in werking stelt, voeg een ingang aan uw hostfile (die in `/etc/hosts` wordt gevestigd) toe en kaart manueel dit domein ([ Algemene instructies op hostfile het uitgeven ](https://linuxize.com/post/how-to-edit-your-hosts-file/)) toe zodat NodeJS het kan oplossen.
 
 ## Gerelateerde lezing
 
-* [PWA Studio voor Adobe Commerce-documentatie](https://magento.github.io/pwa-studio/)
-* [Gereedschappen en bibliotheken](https://magento.github.io/pwa-studio/technologies/tools-libraries/)
+* [ PWA Studio voor de Documentatie van Adobe Commerce ](https://magento.github.io/pwa-studio/)
+* [ Hulpmiddelen en bibliotheken ](https://magento.github.io/pwa-studio/technologies/tools-libraries/)

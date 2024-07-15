@@ -20,15 +20,15 @@ Adobe Commerce (alle implementatiemethoden) 2.3.x, 2.4.x.
 
 Maak een &#39;scrubbed&#39;-dump van de beheerder:
 
-1. Ga in Commerce Admin naar **Systeem** > **Ondersteuning** > **Gegevensverzameling**.
-1. Klikken **Nieuwe back-up**.
-1. Na een paar minuten klikt u op **Status vernieuwen** (kan langer duren, herhaal deze elke 5 minuten tot het voltooien).
-1. Plaats de gegenereerde stortplaatsbestanden opnieuw vanuit de `/var/support` naar de hoofdmap van Adobe Commerce.
+1. In Commerce Admin, ga naar **Systeem** > **Steun** > **de Collector van Gegevens**.
+1. Klik **Nieuwe Steun**.
+1. Na een paar notulen, klik **verfrissen Status** (kan langer duren, herhaal om de 5 minuten tot voltooide).
+1. Verplaats de gegenereerde dump-bestanden vanuit de map `/var/support` naar de hoofdmap van Adobe Commerce.
 
 Vervolgens kunt u ondersteuning bieden voor de directe downloadkoppeling naar de dump-bestanden (uw winkeladres en de bestandsnaam zoals deze worden weergegeven).
 
-Als u problemen ondervindt bij het maken van dumps vanuit de beheerder, kunt u overwegen CLI-opdrachten te gebruiken, zoals beschreven in [Voer de hulpprogramma&#39;s voor ondersteuning uit](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-spt-util.html) in onze ontwikkelaarsdocumentatie.
+Als u kwesties hebt die tot dumps van Admin leiden, denk na gebruikend bevelen CLI zoals die in [ worden beschreven in werking stellen de steunnut ](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-spt-util.html) in onze ontwikkelaarsdocumentatie.
 
 ## Gerelateerde lezing
 
-* [Volledige databaseback-up voor Adobe Commerce maken op cloudinfrastructuur](/help/how-to/general/create-database-dump-on-cloud.md) in onze kennisbasis voor ondersteuning.
+* [ creeer volledige gegevensbestandsteun voor Adobe Commerce op wolkeninfrastructuur ](/help/how-to/general/create-database-dump-on-cloud.md) in onze basis van steunkennis.

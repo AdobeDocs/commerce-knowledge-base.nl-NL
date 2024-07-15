@@ -22,14 +22,14 @@ Dit artikel biedt een oplossing voor problemen met de modulefunctionaliteit nada
 
 ## Probleem
 
-Uitvoer van de module is uitgeschakeld in Commerce Admin, onder **Winkels** > **Instellingen** > **Configuratie** > GEAVANCEERD > **Geavanceerd**, zou u kwesties kunnen beginnen zien met betrekking tot de modulefunctionaliteit.
+Het hebben van gehandicapte moduleoutput in Commerce Admin, onder **Slaat** > **Montages** > **Configuratie** > GEAVANCEERD > **Geavanceerd**, zou u kwesties met betrekking tot de modulefunctionaliteit kunnen beginnen te zien.
 
 ## Oorzaak
 
-Een moduleuitvoer uitschakelen onder **Winkels** > **Instellingen** > **Configuratie** > GEAVANCEERD > **Geavanceerd** Hiermee wordt alleen de uitvoer (HTML, JS) uitgeschakeld, maar wordt de functionaliteit van deze module niet uitgeschakeld.
+Het onbruikbaar maken van een moduleoutput onder **Slaat** > **Montages** > **Configuratie** > GEAVANCEERD > **Geavanceerd** maakt slechts de output (HTML, JS) onbruikbaar, maar het maakt niet de functionaliteit van deze module onbruikbaar.
 
 ## Oplossing
 
-Als u modulefunctionaliteit moet onbruikbaar maken, maak de module zoals beschreven in [Modules in- of uitschakelen](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html) in onze ontwikkelaarsdocumentatie.
+Als u modulefunctionaliteit moet onbruikbaar maken, maak de module zoals die in [ wordt beschreven toe of onbruikbaar maakt modules ](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html) in onze ontwikkelaarsdocumentatie.
 
 De functie voor het uitschakelen van de module-uitvoer is verwijderd vanaf versie 2.2.0.

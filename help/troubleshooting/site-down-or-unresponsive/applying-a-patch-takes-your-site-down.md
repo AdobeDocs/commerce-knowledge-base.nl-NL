@@ -48,15 +48,15 @@ Voor Adobe Commerce on-premisse en Magento Open Source 2.x versies,
    patch -p1 -R %patch_name%.composer.patch
    ```
 
-   (Als de bovenstaande opdracht niet werkt, probeert u het `-p2` in plaats van `-p1`)
+   (Als de bovenstaande opdracht niet werkt, probeert u `-p2` in plaats van `-p1` te gebruiken)
 
-1. Vernieuw de cache in Admin onder om de wijzigingen door te voeren **Systeem** > **Cachebeheer**.
+1. Voor de veranderingen die moeten worden weerspiegeld, vernieuw het geheime voorgeheugen in Admin onder **Systeem** > **het Beheer van het Geheime voorgeheugen**.
 
 ### Adobe Commerce op cloud-infrastructuur, alle versies
 
 Voor Adobe Commerce op cloud-infrastructuur, alle versies,
 
-1. Verwijder de `%patch_name%.composer.patch` bestand(en) van de `m2-hotfixes` directory.
+1. Verwijder de `%patch_name%.composer.patch` bestanden uit de map `m2-hotfixes` .
 1. Leg de wijzigingen in de code vast en duw erop:
 
    ```
@@ -65,4 +65,4 @@ Voor Adobe Commerce op cloud-infrastructuur, alle versies,
 
 ## Gerelateerde lezing
 
-* [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+* [ hoe te om een componentenflard toe te passen dat door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.

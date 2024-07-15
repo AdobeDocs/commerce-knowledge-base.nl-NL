@@ -13,61 +13,61 @@ ht-degree: 0%
 
 # MDVA-33970 patch: currency sign in credit memo
 
-De patch MDVA-33970 lost het probleem op waarbij een Dollar ($)-teken werd weergegeven in plaats van de gelokaliseerde valuta in een creditmemo. Dit gebeurt wanneer een **Website** bereik wordt gebruikt voor een **Prijs** kenmerk.
+De patch MDVA-33970 lost het probleem op waarbij een Dollar ($)-teken werd weergegeven in plaats van de gelokaliseerde valuta in een creditmemo. Dit komt voor wanneer het werkingsgebied van de a **Website** voor a **Prijs** attributen wordt gebruikt.
 
-Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15 is geïnstalleerd. Het probleem wordt volgens de planning opgelost in Adobe Commerce versie 2.4.3.
+Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15 geïnstalleerd is. Het probleem wordt volgens de planning opgelost in Adobe Commerce versie 2.4.3.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:** Adobe Commerce op cloudinfrastructuur 2.3.4-p2
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:** Adobe Commerce op wolkeninfrastructuur 2.3.4-p2
 
-**Compatibel met Adobe Commerce-versies:** Adobe Commerce op cloudinfrastructuur en Adobe Commerce op locatie 2.3.4 - 2.4.1-p1
+**Compatibel met de versies van Adobe Commerce:** Adobe Commerce op wolkeninfrastructuur en Adobe Commerce op-gebouw 2.3.4 - 2.4.1-p1
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-<u>Voorwaarden</u>:
+<u> Voorwaarden </u>:
 
 In dit voorbeeld worden de volgende instellingen gebruikt:
 
-* 2 websites bestaan - elk heeft een **Winkel** en **Winkelweergave**.
-* De **Standaardconfiguratie** heeft de Singaporese dollar als **Valuta** (**Stores > Configuration > General > Currency Setup**):
-   * **Basisvaluta** = *Singaporese dollar*
-   * **Standaardweergavemunt** = *Singaporese dollar*
-   * **Toegestane valuta&#39;s** = *Singaporese dollar*
-* **Website 1** heeft een **Standaardconfiguratie**.
-* **Website 2** heeft de Maleisische ringgit als **Valuta**:
-   * **Basisvaluta** = *Maleisische ringgit*
-   * **Standaardweergavemunt** = *Maleisische ringgit*
-   * **Toegestane valuta&#39;s** = *Maleisische ringgit*
-* Ga naar **Winkels > Valutasymbolen** en Set:
-   * **MYR (Maleisische ringgit)** = *RM*
-   * **SGD (Singaporese dollar)** = *SGD* (**Standaard gebruiken** = *Ingeschakeld*)
+* 2 Websites bestaan - elk heeft a **Opslag** en a **Mening van de Opslag**.
+* De **StandaardConfig** heeft de Dollar van Singapore als **Valuta** (**Opslag > Configuratie > Algemeen > de Opstelling van de Valuta**):
+   * **BasisValuta** = *de Dollar van Singapore*
+   * **StandaardValuta van de Vertoning** = *de Dollar van Singapore*
+   * **Toegestane Valuta&#39;s** = *de Dollar van Singapore*
+* **Website 1** heeft a **Standaard Config**.
+* **Website 2** heeft Maleisische Ringgit als **Valuta**:
+   * **= *Maleisische Ringgit***
+   * **StandaardValuta van de Vertoning** = *Maleisische Ringgit*
+   * **Toegestane Valuta&#39;s** = *Maleisische Ringgit*
+* Ga naar **Opslag > de Symbolen van de Valuta**, en Reeks:
+   * **MYR (Maleisische Ringgit)** = *RM*
+   * **SGD (de Dollar van Singapore)** = *SGD* (**Norm van het Gebruik** = *Gecontroleerd*)
 * Sommige **Product** bestaat.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Maak een **Volgorde** van de **Website 2** (U kunt de standaardinstelling instellen om extra instellingen te voorkomen).
-1. Aanmelden bij **Beheerder**.
+1. Maak een **Orde** van **Website 2** (u kunt opstelling het als Gebrek om extra montages te vermijden).
+1. Login aan **Admin**.
 1. Open de nieuwe volgorde.
-1. Controleer of de **Valutasymbool** = *RM*.
-1. Een **Factuur**.
-1. Controleer of de **Valutasymbool** = *RM* in de factuur.
-1. Een **Kredietfaciliteit**.
-1. Controleer of de **Valutasymbool**  ** ** = *RM* in de **Kredietfaciliteit**.
-1. Open de **Creditnota&#39;s** tab in **Volgorde**.
-1. Controleer de **Valutasymbool** in het raster.
-1. Openen **Verkoop > Creditnota&#39;s**.
-1. Controleer de **Valutasymbool** in het raster.
+1. Controle dat het **Symbool van de Valuta** = *RM*.
+1. Creeer een **Factuur**.
+1. Controle dat het **Symbool van de Valuta** = *RM* in de factuur.
+1. Creeer a **Memo van het Krediet**.
+1. Controle dat het **Symbool van de Valuta** ** * = *RM* in het **Memo van het Krediet**.
+1. Open het **lusje van de Memo&#39;s van het Krediet** in **Orde**.
+1. Controleer het **Symbool van de Valuta** in het net.
+1. Open **Verkoop > de Memo&#39;s van de Krediet**.
+1. Controleer het **Symbool van de Valuta** in het net.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Het correcte gelokaliseerde valutasymbool wordt gebruikt, zoals verwacht.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Het Dollar-teken ($) wordt gebruikt, ook al is dit niet ingesteld in de beheerinstellingen.
 
@@ -75,14 +75,14 @@ Het Dollar-teken ($) wordt gebruikt, ook al is dit niet ingesteld in de beheerin
 
 Als u afzonderlijke patches wilt toepassen, gebruikt u de volgende koppelingen, afhankelijk van uw Adobe Commerce-product:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Raadpleeg voor meer informatie over andere patches die beschikbaar zijn in het gereedschap QPT de [Reparaties beschikbaar in het gereedschap QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) sectie.
+Voor info over andere flarden beschikbaar in hulpmiddel QPT, verwijs naar de [ flarden beschikbaar in het hulpmiddel QPT ](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) sectie.

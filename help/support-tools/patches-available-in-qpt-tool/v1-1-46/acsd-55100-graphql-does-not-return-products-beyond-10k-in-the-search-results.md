@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55100 [!DNL GraphQL] retourneert geen producten van meer dan 10 kB in zoekresultaten"
+title: "ACSD-55100: [!DNL GraphQL]  keert geen producten voorbij 10k in onderzoeksresultaten terug"
 description: Pas de ACSD-55100-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de GraphQL in de zoekresultaten geen producten retourneert die hoger zijn dan *10k*.
 feature: GraphQL, Products, Search
 role: Admin, Developer
@@ -11,53 +11,53 @@ ht-degree: 0%
 
 ---
 
-# ACSD-55100: [!DNL GraphQL] retourneert geen producten van meer dan 10 k in zoekresultaten
+# ACSD-55100: [!DNL GraphQL] retourneert geen producten van meer dan 10 kB in zoekresultaten
 
-De ACSD-55100-patch verhelpt het probleem waarbij [!DNL GraphQL] retourneert geen andere producten dan *10 kB* in de zoekresultaten. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.46 is geïnstalleerd. De patch-id is ACSD-55100. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+ACSD-55100 herstelt de flard waar [!DNL GraphQL] geen producten voorbij *10k* in de onderzoeksresultaten terugkeert. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.46 wordt geïnstalleerd. De patch-id is ACSD-55100. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-[!DNL GraphQL] retourneert geen andere producten dan *10 kB* in de zoekresultaten.
+[!DNL GraphQL] keert geen producten voorbij *10k* in de onderzoeksresultaten terug.
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
-In geval van **[!DNL OpenSearch]**, zorgt u ervoor dat u de nieuwste beschikbare versie gebruikt.
+Gebruik in het geval van **[!DNL OpenSearch]** de nieuwste beschikbare versie.
 
-Om het gemelde probleem op te lossen, wordt de functie Punt in tijd geïntroduceerd, die beschikbaar is na **[!DNL OpenSearch]** 2.5.0 en vereist versie 2.2 van het `opensearch-project/opensearch-php` pakket.
+Om het gerapporteerde probleem op te lossen, wordt de functie Punt in tijd geïntroduceerd, die beschikbaar is na **[!DNL OpenSearch]** 2.5.0 en versie 2.2 van het `opensearch-project/opensearch-php` -pakket vereist.
 
-Er is echter een conflict met de `magento/magento-cloud-metapackage`, die een afhankelijkheid van de `opensearch-project/opensearch-php` pakket dat lager moet zijn dan versie 2.0.1.
+Er is echter een conflict met de `magento/magento-cloud-metapackage` , die een afhankelijkheid van het `opensearch-project/opensearch-php` -pakket opgeeft dat lager moet zijn dan versie 2.0.1.
 
 
-Deze afhankelijkheid voorkomt het bijwerken van de [openssearch-project/openssearch-php] naar de recentste versie 2.2.
+Dit gebiedsdeel verhindert het bijwerken van [ openssearch-project/openssearch-php ] pakket aan recentste versie 2.2.
 
-Dientengevolge, ontmoet het systeem de volgende fout en keert ongeldige resultaten voor producten die overschrijden *10 000*.
+Dientengevolge, ontmoet het systeem de volgende fout en keert ongeldige resultaten voor producten terug die *10.000* overschrijden.
 
 `Namespace [createPointInTime] not found in /vendor/opensearch-project/opensearch-php/src/OpenSearch/Client.php:135`
 
-Het bestaande gebiedsdeel maakt het uitdagend om een versie aan de `composer.json` bestand en werk de `opensearch-project/opensearch-php` naar versie 2.2.
+De bestaande afhankelijkheid maakt het lastig om rechtstreeks een versie toe te voegen aan het `composer.json` -bestand en het `opensearch-project/opensearch-php` -pakket bij te werken naar versie 2.2.
 
-Neem de volgende regel op in uw hoofd om het probleem op te lossen `composer.json` bestand onder het verplichte blok. Hierna kunt u het pakket opnieuw implementeren om het probleem bij te werken naar de nieuwste versie.
+Neem de volgende regel op in het `composer.json` -hoofdbestand onder het verplichte blok om het probleem op te lossen. Hierna kunt u het pakket opnieuw implementeren om het probleem bij te werken naar de nieuwste versie.
 
 `"opensearch-project/opensearch-php": "2.2.0 as 2.0.0",`
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. De catalogus genereren met *15 duodecies* producten.
-1. Verzend de [!DNL GraphQL]:
+1. Produceer de catalogus met *15k* producten.
+1. Verstuur de [!DNL GraphQL]:
 
 ```
     query {
@@ -105,28 +105,28 @@ Neem de volgende regel op in uw hoofd om het probleem op te lossen `composer.jso
     }
 ```
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-Total_count = *15 duodecies*
+Total_count = *15k*
 U zou alle producten moeten kunnen tonen.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Total_count = *10 kB*
-U kunt geen producten meer laten zien na de *10 kB* batch.
+Total_count = *10k*
+U kunt geen meer producten krijgen om na de *10k* partij te tonen.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

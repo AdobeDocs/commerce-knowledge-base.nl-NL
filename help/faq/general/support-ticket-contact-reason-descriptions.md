@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Beschrijvingen van contactreden voor ondersteuningsticket
 
-In dit artikel wordt het ondersteuningsticket weergegeven **Reden contactpersoon** veldopties en meer gedetailleerde beschrijvingen van elk.
+Dit artikel maakt een lijst van de opties van het steunkaartje **gebied van de Reden van het 1} contact en meer gedetailleerde beschrijvingen van elke.**
 
 ## Redenen voor contact
 
@@ -52,7 +52,7 @@ In dit artikel wordt het ondersteuningsticket weergegeven **Reden contactpersoon
 
 ## Adobe Commerce-toepassingsredenen
 
-Dit zijn de opties die verschijnen als **Adobe Commerce-toepassing** is geselecteerd als de **Reden contactpersoon**:
+Dit zijn de opties die verschijnen als **de Toepassing van Adobe Commerce** als **Reden van het Contact** wordt geselecteerd:
 
 <table class="tg">
 <thead>
@@ -95,7 +95,7 @@ Dit zijn de opties die verschijnen als **Adobe Commerce-toepassing** is geselect
 
 ## Adobe Commerce Cloud-infrastructuurredenen
 
-Dit zijn de opties die verschijnen als **Adobe Commerce Cloud-infrastructuur** is geselecteerd als de **Reden contactpersoon**:
+Dit zijn de opties die verschijnen als **de Infrastructuur van Adobe Commerce Cloud** als **Reden van het Contact** wordt geselecteerd:
 
 <table class="tg">
 <thead>
@@ -150,4 +150,4 @@ Dit zijn de opties die verschijnen als **Adobe Commerce Cloud-infrastructuur** i
 
 ## Verwante lezing
 
-Zie [Help Center Guide > Ondersteuningskaartvelden uitgelegd](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets) voor meer informatie over andere velden voor het innemen van tickets.
+Verwijs naar [ Gids van het Centrum van de Hulp > de kaartgebieden van de Steun verklaarden ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets) om details over andere gebieden van de de inname van tickets te zien.

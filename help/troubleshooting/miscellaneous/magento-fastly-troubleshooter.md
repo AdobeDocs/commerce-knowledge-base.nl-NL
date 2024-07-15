@@ -17,64 +17,64 @@ Deze functie voor het snel oplossen van problemen voor Adobe Commerce-gebruikers
 
 ## Stap 1 - Verifieer de Snelle dienst {#step-1}
 
-+++**De klant rapporteert een probleem met Fastly. Is de Fastly service down?**
++++**de Klant meldt een probleem dat Fastly impliceert. Is de dienst van de Fastly neer?**
 
-a. JA - Controle [Snelle servicestatus](https://status.fastly.com/), en [een Adobe Commerce-ondersteuningsticket verzenden](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. NO - Doorgaan naar [Stap 2](#step-2).
+a. JA - controleer [ de Snelle Status van de Dienst ](https://status.fastly.com/), en [ voorlegt een de steunkaartje van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+b. NO - ga aan [ Stap 2 ](#step-2) te werk.
 
 +++
 
 ## Stap 2 - VCL-configuratiebestand controleren {#step-2}
 
-+++**Hebt u om het even welke fouten wanneer u het Meetapparaat van de Rand in werking stelt?**
++++**hebt u om het even welke fouten wanneer u het Meetapparaat van het Achterste in werking stelt?**
 
-Voer de URL van uw project uit via [Achterste tester - snel](https://magento-tester.global.ssl.fastly.net/magento-tester/). Het toont de versie van het VCL configuratiedossier, als de pagina cacheable is, de versie van Fastly module en andere nuttige het oplossen van problemeninformatie. Hebt u fouten?
+Stel uw project URL door het [ Achterste Meetapparaat in werking - snel ](https://magento-tester.global.ssl.fastly.net/magento-tester/). Het toont de versie van het VCL configuratiedossier, als de pagina cacheable is, de versie van Fastly module en andere nuttige het oplossen van problemeninformatie. Hebt u fouten?
 
-a. JA - U hebt het bericht _De versie van de insteekmodule VCL is verouderd! Upload het bestand opnieuw._ Voor de oplossing van deze fout raadpleegt u [Fastly Error: Plugin VCL version is verouderd! Please re-Upload](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md).\
-b) NO - [Stap 3](#step-3).
+a. JA - U hebt de versie van de Insteekmodule VCL van het bericht _verouderd! Upload het bestand opnieuw._ Voor de oplossing aan deze fout, verwijs naar [ Fastly Fout: De versie van de stop VCL is verouderd! Please re-Upload ](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md).\
+b. NO - [ Stap 3 ](#step-3).
 
 +++
 
 ## Stap 3 - Controleren op optimalisatiefout van afbeelding {#step-3}
 
-+++**Optimalisatiefout afbeelding?**
++++**fout van de optimalisering van het Beeld?**
 
-a. JA - [Fout bij inschakelen van optimalisatie afbeelding](/help/troubleshooting/miscellaneous/error-enabling-image-optimization-in-magento-commerce.md).\
-b. NO - Controleer DNS door in CLI/terminal te lopen: `dig [your website.com] + short`. Doorgaan naar [Stap 4](#step-4).
+a. JA - [ Fout wanneer het toelaten van beeldoptimalisering ](/help/troubleshooting/miscellaneous/error-enabling-image-optimization-in-magento-commerce.md).\
+b. NO - Controleer DNS door in CLI/terminal te lopen: `dig [your website.com] + short`. Ga aan [ Stap 4 ](#step-4) te werk.
 
 +++
 
 ## Stap 4 - Verbeter DNS {#step-4}
 
-+++**Wat gebeurt er wanneer u uitvoert `dig`?**
++++**wat gebeurt wanneer u `dig` in werking stelt?**
 
-Wanneer u `dig` heeft het een verslag teruggegeven dat aan prod.magentocloud.map.fastly.net of één van de volgende IP adressen richt (zie [DNS-configuratie bijwerken met productieinstelling](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns) in onze documentatie voor ontwikkelaars):
+Wanneer u `dig` in werking stelde het een verslag terugkwam dat aan prod.magentocloud.map.fastly.net of één van de volgende IP adressen richt (zie [ DNS van de Update configuratie met productie plaatsend ](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns) in onze ontwikkelaarsdocumentatie):
 
 * 15.10.1.124
 * 151 101 65 124
 * 15.10.129.124
 * 15.10.193.124
 
-a. JA - De kwestie heeft geen DNS betrekking. Doorgaan naar [Stap 5](#step-5).\
-b. NO - De kwestie heeft waarschijnlijk betrekking op DNS. De klant moet [DNS-configuratie controleren](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns "https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns") of neem contact op met de DNS-provider voor meer informatie.
+a. JA - De kwestie heeft geen DNS betrekking. Ga aan [ Stap 5 ](#step-5) te werk.\
+b. NO - De kwestie heeft waarschijnlijk betrekking op DNS. De klant zou DNS configuratie ](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns "https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns") moeten controleren [ of hun DNS leverancier voor meer informatie contacteren.
 
 +++
 
 ## Stap 5 - Verbinding bevestigen {#step-5}
 
-+++**Wordt het bericht &quot;Verbinding onbeveiligd&quot; of &quot;Niet beveiligd&quot; geretourneerd wanneer u een bewerking uitvoert `curl -svo /dev/null "https://website.com"` in de CLI/terminal?**
++++**krijgt u een &quot;Verbinding onveilig&quot;of &quot;niet Veilig&quot;bericht teruggekeerd wanneer het lopen `curl -svo /dev/null "https://website.com"` in CLI/terminal?**
 
-a. JA - Dit is waarschijnlijk een certificaatafgifte. Ga naar de website in een browser en selecteer het vergrendelingspictogram en zoek naar een vervaldatum van het certificaat. Doorgaan naar [Stap 6](#step-6).\
-b. NO - Bezoek [http://fastly-debug.com](https://www.fastly-debug.com/) en deelt deze informatie in een [Adobe Commerce-ondersteuningsticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. JA - Dit is waarschijnlijk een certificaatafgifte. Ga naar de website in een browser en selecteer het vergrendelingspictogram en zoek naar een vervaldatum van het certificaat. Ga aan [ Stap 6 ](#step-6) te werk.\
+b. NO - Bezoek [ http://fastly-debug.com ](https://www.fastly-debug.com/) en deel deze informatie in een [ de steunkaartje van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
 ## Stap 6 - Bevestig dat u een geldig SLV-certificaat hebt {#step-6}
 
-+++**Is het certificaat verlopen?**
++++**is het certificaat verlopen?**
 
 a. JA - U moet uw TLS-certificaat vernieuwen met de certificeringsinstantie (CA).\
-b. NEE - U mag helemaal geen certificaat hebben. Als u Adobe Commerce hebt, raden we u aan een TLS-certificaat aan te schaffen. Als u op Adobe Commerce op cloudinfrastructuur bent, kunt u beschikken over een door domein gevalideerd SSL/TLS-certificaat coderen om snel veilig HTTPS-verkeer te kunnen gebruiken. Zie [SSL/TLS-certificaten leveren](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) in onze ontwikkelaarsdocumentatie.
+b. NEE - U mag helemaal geen certificaat hebben. Als u Adobe Commerce hebt, raden we u aan een TLS-certificaat aan te schaffen. Als u op Adobe Commerce op cloudinfrastructuur bent, kunt u beschikken over een door domein gevalideerd SSL/TLS-certificaat coderen om snel veilig HTTPS-verkeer te kunnen gebruiken. Zie [ voorziening SSL/TLS certificaten ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) in onze ontwikkelaarsdocumentatie.
 
 +++
 

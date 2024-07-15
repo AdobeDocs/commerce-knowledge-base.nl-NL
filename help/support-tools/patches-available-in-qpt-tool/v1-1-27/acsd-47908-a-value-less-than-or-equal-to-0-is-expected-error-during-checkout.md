@@ -11,55 +11,55 @@ ht-degree: 0%
 
 ---
 
-# ACSD-47908: *Een waarde kleiner dan of gelijk aan 0 wordt verwacht* fout tijdens uitchecken
+# ACSD-47908: *de waarde van A minder dan of gelijk aan 0 wordt verwacht* fout tijdens controle
 
-De fout is opgelost met de ACSD-47908-patch *Een waarde kleiner dan of gelijk aan 0 wordt verwacht* bij het selecteren van de bron en hoeveelheid in de verzendstap tijdens het afrekenen. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is geïnstalleerd. De patch-id is ACSD-47908. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+Het ACSD-47908 flard bevestigt de fout *waarde A minder dan of gelijk aan 0 wordt verwacht* wanneer het selecteren van de bron en de hoeveelheid in de verschepende stap tijdens controle. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is geïnstalleerd. De patch-id is ACSD-47908. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4-p2
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.3.7 - 2.4.6
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-De volgende fout treedt op wanneer u de bron en het aantal in de verzendstap selecteert tijdens het uitchecken: *Een waarde kleiner dan of gelijk aan 0 wordt verwacht*.
+De volgende fout wordt geworpen wanneer het selecteren van de bron en de hoeveelheid in de verschepende stap tijdens controle: *de waarde van A minder dan of gelijk aan 0 wordt verwacht*.
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 Installeer de Adobe Commerce Inventory management-modules (MSI).
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Ga naar **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Sources]** en configureer meerdere bronnen.
 1. Ga naar **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock]** en maak een nieuwe voorraad.
    * Wijs nu de bronnen toe aan de nieuwe voorraad.
 1. Ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Products]** en bewerk ten minste één product.
    * Controleer of de producten aan de nieuwe bronnen zijn toegewezen en geef de beschikbare hoeveelheid op.
-1. Ga naar **[!UICONTROL Sales]** > **[!UICONTROL Orders]** en maakt u een nieuwe volgorde.
+1. Ga naar **[!UICONTROL Sales]** > **[!UICONTROL Orders]** en maak een nieuwe volgorde.
 1. Voeg die producten aan de orde toe en plaats het.
 1. Klik op **[!UICONTROL Ship]**.
 1. Selecteer de bron waaruit u wilt verzenden.
 1. Geef de hoeveelheid van elk object op die moet worden verzonden.
 1. Laad de pagina opnieuw.
-1. Klikken op **[!UICONTROL Proceed to Shipment]**.
+1. Klik op **[!UICONTROL Proceed to Shipment]** .
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De nieuwe verzendpagina wordt zonder fouten geopend.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 * De ingevoerde hoeveelheid kan niet worden gevalideerd.
-* De volgende fout wordt gegenereerd: *Voer een waarde kleiner dan of gelijk aan 0 in*.
+* De volgende fout wordt geworpen: *gelieve te gaan een waarde minder dan of gelijk aan 0* in.
 
   De fout is echter inconsistent en wordt mogelijk niet altijd weergegeven.
 
@@ -67,14 +67,14 @@ De nieuwe verzendpagina wordt zonder fouten geopend.
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

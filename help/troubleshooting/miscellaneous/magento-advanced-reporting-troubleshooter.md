@@ -17,107 +17,107 @@ Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgelost met dit h
 
 ## Stap 1 - bevestig de plaats voldoet aan de Geavanceerde Vereisten van de Rapportering {#step-1}
 
-+++**Voldoet uw website aan de geavanceerde rapportagevereisten?**
++++**voldoet uw website Geavanceerde Rapportagevereisten?**
 
-U hebt een 404 pagina van de Fout wanneer het gebruiken van Geavanceerde Rapportering. Komt uw website samen [Geavanceerde rapportagevereisten](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements)?
+U hebt een 404 pagina van de Fout wanneer het gebruiken van Geavanceerde Rapportering. Voldoet uw website [ Geavanceerde het Melden Vereisten ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements)?
 
-a. JA - Ga door naar [Stap 2](#step-2).\
-b. NEE - Voltooi de Geavanceerde Rapportagevereisten voor uw plaats door de stappen te volgen in [Geavanceerde rapportagevereisten](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements). Ga vervolgens verder met [Stap 2](#step-2).
+a. JA - ga aan [ Stap 2 ](#step-2) te werk.\
+b. NO - voltooi de Geavanceerde Rapportagevereisten voor uw plaats door de stappen in [ Geavanceerde Rapportagevereisten ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements) te volgen. Dan, ga aan [ Stap 2 ](#step-2) te werk.
 
 +++
 
 ## Stap 2 - Zijn er orders in meerdere basisvaluta&#39;s? {#step-2}
 
-+++**Worden meerdere basisvaluta&#39;s gebruikt?**
++++**zijn veelvoudige basismunten gebruikt?**
 
 Worden meerdere basisvaluta&#39;s gebruikt (in orders en in configuratie)? Voer deze SQL-opdracht uit om de huidige configuratie te verkrijgen: `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` .
 
 a. JA - als er veelvoudige rijen door de vraag zijn teruggekeerd, kunt u Geavanceerde Rapportering niet gebruiken, aangezien wij slechts één munt steunen.\
-b. NO - Output toont slechts één valuta. Voorbeeld: `USD`. Zijn er ooit meerdere basisvaluta&#39;s gebruikt (in orders)? Voer deze SQL-opdracht uit om historische ordergegevens te verkrijgen:\
+b. NO - Output toont slechts één valuta. Voorbeeld: `USD` . Zijn er ooit meerdere basisvaluta&#39;s gebruikt (in orders)? Voer deze SQL-opdracht uit om historische ordergegevens te verkrijgen:\
 `SELECT DISTINCT base_currency_code FROM sales_order;`.
-**NOTA: Dit bevel vereist een volledig lijstaftasten, zodat voor lijsten met hoge aantallen verslagen, dit een prestatieseffect zou kunnen hebben terwijl de vraag uitvoert** om historische ordergegevens te verkrijgen.
-Als er meerdere basisvaluta&#39;s zijn gebruikt, kunt u Geavanceerde rapportage niet gebruiken, omdat we slechts één valuta ondersteunen. Als er slechts één valuta wordt weergegeven, gaat u verder met [Stap 3](#step-3).
+**NOTA: Dit bevel vereist een volledig lijstaftasten, zodat voor lijsten met hoge aantallen verslagen, dit een prestatieseffect zou kunnen hebben terwijl de vraag** uitvoert om historische ordegegevens te verkrijgen.
+Als er meerdere basisvaluta&#39;s zijn gebruikt, kunt u Geavanceerde rapportage niet gebruiken, omdat we slechts één valuta ondersteunen. Als de output slechts één munt toont ga aan [ Stap 3 ](#step-3) te werk.
 
 +++
 
 ## Stap 3 - Controleren of gesplitste database in gebruik is {#step-3}
 
-+++**Gebruikt u gesplitste databaseoplossing?**
++++**gebruikt u gespleten gegevensbestandoplossing?**
 
-Gebruikt u [gesplitste databaseoplossing](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)?
+Gebruikt u [ gespleten gegevensbestandoplossing ](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)?
 
-a. JA - De pleister gebruiken **26831** in [Advanced Reporting 404-fout bij gesplitste databaseoplossing](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md) en cache wissen. Wacht 24 uur voordat de taak opnieuw wordt uitgevoerd en probeer het opnieuw.\
-b. NO - Doorgaan naar [Stap 4](#step-4).
+a. JA - gebruik het flard **MDVA-26831** in [ Geavanceerde Rapportering 404 fout op gesplitste gegevensbestandoplossing ](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md) en duidelijk geheime voorgeheugen. Wacht 24 uur voordat de taak opnieuw wordt uitgevoerd en probeer het opnieuw.\
+b. NO - ga aan [ Stap 4 ](#step-4) te werk.
 
 +++
 
 ## Stap 4 - Bevestig Geavanceerde toegelaten Rapportering {#step-4}
 
-+++**Is Geavanceerde rapportering ingeschakeld?**
++++**wordt Geavanceerde toegelaten Rapportering?**
 
-Controleren **Beheerder** > **Winkels** > **Instellingen** > **Configuratie** > **Algemeen** > **Geavanceerd**. Voor gedetailleerde stappen, herzie [Geavanceerde rapportage: Geavanceerde rapportage inschakelen](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting).
+Controle **Admin** > **Slaat** > **Montages** > **Configuratie** > **Algemeen** > **Geavanceerd** op. Voor gedetailleerde stappen, overzicht [ Geavanceerde Rapportering: laat Geavanceerde Rapportering ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) toe.
 
-a. JA - Ga door naar [Stap 5](#step-5).\
-b) NO - [Geavanceerde rapportage inschakelen](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) en bespaar, en wacht 24 uur op Adobe Commerce en Geavanceerde Rapporten om te synchroniseren. Controleer of uw gegevens nu worden geladen. Als dat het geval is, hebt u het probleem opgelost. Indien niet verder wordt gegaan naar [Stap 5](#step-5).
+a. JA - ga aan [ Stap 5 ](#step-5) te werk.\
+b. NO - [ laat Geavanceerde Rapportering ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) toe en sparen, en wacht 24 uren op Adobe Commerce en Geavanceerde Rapportering om te synchroniseren. Controleer of uw gegevens nu worden geladen. Als dat het geval is, hebt u het probleem opgelost. Als het niet aan [ Stap 5 ](#step-5) te werk gaat.
 
 +++
 
 ## Stap 5 - Controleren op token {#step-5}
 
-+++**Is er een token?**
++++**is er een teken?**
 
 Controleer of er een token is door de volgende query uit te voeren: `SELECT * FROM core_config_data WHERE path LIKE 'analytics/general/token' \G` Is er een token?
 
-a. JA - Ga door naar [Stap 7](#step-7).\
-b. NO - Als de symbolische waarde ONGELDIG is of er geen verslag in het gegevensbestand is, ga te werk aan [Stap 6](#step-6).
+a. JA - ga aan [ Stap 7 ](#step-7) te werk.\
+b. NO - als de symbolische waarde ONGELDIG is of er geen verslag in het gegevensbestand is, ga aan [ Stap 6 ](#step-6) te werk.
 
 +++
 
 ## Stap 6 - De rij gebruiken {#step-6}
 
-+++**Retourneert de query de rij?**
++++**keert de vraag de rij terug?**
 
-Controleer de tellerwaarde in vlaglijst door deze vraag in werking te stellen: ``SELECT * FROM `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter'\G`` Retourneert de query de rij?
+Controleer de tellerwaarde in de vlaglijst door deze vraag in werking te stellen: ``SELECT * FROM `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter'\G`` Keert de vraag de rij terug?
 
 a. JA - Voer de volgende stappen uit: 1. Voer de query hieronder uit:\
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``\
-2\. [De module Geavanceerde rapportage uit- en inschakelen](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) in instellingen en [de token opnieuw autoriseren](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active).\
-3 Wacht 24 uur op Adobe Commerce en de Geavanceerde Rapporten om te synchroniseren. Als u nog geen gegevens in Geavanceerde Rapportering kunt zien, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. NO - Als de query niets oplevert, voert u de volgende stappen uit: 1. [De module Geavanceerde rapportage uit- en inschakelen](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) in instellingen en [de token opnieuw autoriseren](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active).\
-2\. Wacht 24 uur op Adobe Commerce en de Geavanceerde Rapporten om te synchroniseren. Als u nog geen gegevens in Geavanceerde Rapportering kunt zien, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+2\. [ onbruikbaar maken en laat Geavanceerde Meldingsmodule ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) in montages toe en [ machtigt het teken ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active) opnieuw.\
+3 Wacht 24 uur op Adobe Commerce en de Geavanceerde Rapporten om te synchroniseren. Als u nog geen gegevens in Geavanceerde Rapportering kunt zien, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+b. NO - Als de query niets oplevert, voert u de volgende stappen uit: 1. [ onbruikbaar maken en laat Geavanceerde Meldingsmodule ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) in montages toe en [ machtigt het teken ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active) opnieuw.\
+2\. Wacht 24 uur op Adobe Commerce en de Geavanceerde Rapporten om te synchroniseren. Als u nog geen gegevens in Geavanceerde Rapportering kunt zien, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
-## Stap 7 - Controleren op records in `cron_schedule` table {#step-7}
+## Stap 7 - Controleren op records in de tabel `cron_schedule` {#step-7}
 
-+++**Zijn er records in de `cron_schedule` tafel?**
++++**zijn er verslagen in de `cron_schedule` lijst?**
 
-Controleer die taak `analytics_collect_data` is uitgevoerd door deze query uit te voeren: `SELECT * FROM cron_schedule WHERE job_code LIKE 'analytics_collect_data' \G`
+Controleer of taak `analytics_collect_data` is uitgevoerd door deze query uit te voeren: `SELECT * FROM cron_schedule WHERE job_code LIKE 'analytics_collect_data' \G`
 
-a. JA - Indien er gegevens zijn en **status** column: _gemist_, gebruik de pleister in dit KB-artikel [Geavanceerde rapportage bijwerken om op een eigen uitsnijdgroep te worden uitgevoerd](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md).\
-b) JA - Indien er gegevens zijn en **status** column: _succes_, ga door naar [Stap 9](#step-9).\
-c. JA - Indien er gegevens zijn en **status** column: _fout_, ga door naar [Stap 8.](#step-8)\
-d. NO - Als er geen gegevens zijn, gaat u verder met [Stap 8](#step-8).
+a. JA - als er verslagen zijn en de **status** kolom zegt _gemist_, gebruik het flard in dit KB artikel [ Geavanceerde Rapportering van de Update om op zijn eigen kroongroep ](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md) in werking te stellen.\
+b. JA - als er verslagen zijn en de **status** kolom zegt _succes_, ga aan [ Stap 9 ](#step-9) te werk.\
+c. JA - als er verslagen zijn en de **status** kolom zegt _fout_, ga aan [ Stap 8 te werk.](#step-8)\
+d. NO - als er geen verslagen zijn, ga aan [ Stap 8 ](#step-8) te werk.
 
 +++
 
-## Stap 8 - Taak controleren in `support_report.log` {#step-8}
+## Stap 8 - Controleren op taak in `support_report.log` {#step-8}
 
-+++**Is de taak aangemeld? `support_report.log`?**
++++**was de baan het programma geopend `support_report.log`?**
 
 Voer de opdracht uit: `zgrep analytics_collect_data var/log/support_report.log var/log/support_report.log.1.gz | tail`
 
-a. JA - Als de output van de vraag op een succesvolle baan wijst, bijvoorbeeld `Cron Job analytics_collect_data is successfully finished` doorgaan naar [Stap 9](#step-9).\
-b. NO - Indien het logboek geen gegevens bevat, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-c. JA - Als er records zijn maar er een fout is, gaat u verder met [Stap 10](#step-10).
+a. JA - als de output van de vraag op een succesvolle baan wijst, bijvoorbeeld `Cron Job analytics_collect_data is successfully finished` te werk gaat aan [ Stap 9 ](#step-9).\
+b. NO - als er geen verslagen in het logboek zijn, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+c. JA - als er verslagen maar er een fout zijn, ga aan [ Stap 10 ](#step-10) te werk.
 
 +++
 
-## Stap 9 - Controleren op `data.tgz` file {#step-9}
+## Stap 9 - Controleren op bestand `data.tgz` {#step-9}
 
-+++**Hiermee wordt het bestand uitgevoerd `data.tgz` bestaan in het systeem en zijn er verslagen in toegangslogboeken?**
++++**bestaat het dossier `data.tgz` in het systeem en zijn er verslagen in toegangslogboeken?**
 
-Controleren of het bestand `data.tgz` bestaat, opdracht uitvoeren:
+Voer de opdracht uit om te controleren of het bestand `data.tgz` bestaat:
 
 ```
 ls -ltr pub/media/analytics/<there should be a directory with hash name>/
@@ -129,30 +129,30 @@ Om te controleren dat er verslagen in access.logs zijn, stel bevel in werking:
 zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
 ```
 
-a. JA - Als het bestand `data.tgz` is aanwezig en er zijn verslagen in de toegangslogboeken, maar u hebt nog een fout 404, moet u [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. NO - Doorgaan naar [Stap 10](#step-10).
+a. JA - als het dossier `data.tgz` aanwezig is en er verslagen in de toegangslogboeken zijn, maar u hebt nog een fout 404, moet u [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen.\
+b. NO - ga aan [ Stap 10 ](#step-10) te werk.
 
 +++
 
 ## Stap 10 - Controleer het foutbericht {#step-10}
 
-+++**Is er een foutbericht gegenereerd door de uitsnijdtaak?**
++++**is er een foutenmelding die door de cron baan wordt geworpen?**
 
-Voorbeeld: in het dialoogvenster `core_config_data` tabel die de fout bevat *Het bestand &quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a000850c0 kan niet worden verwijderd*. Waarschuwing!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a000850c0?lang=en): Geen dergelijk bestand of deze map*
+Voorbeeld: In de `core_config_data` lijst ziet u de fout *&quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a000850c0 dossier kan niet worden geschrapt*. Waarschuwing!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a000850c0?lang=en): Geen dergelijk bestand of deze map*
 
-a. JA - Gebruik de ACSD-50165-patch in [Het bestand kan niet worden verwijderd. Waarschuwing!unlink: bestands- of mapfout is niet beschikbaar in de beheerdersmap](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md), wacht 24 uur totdat de taak opnieuw wordt uitgevoerd en probeer het opnieuw.\
-b. NO - Doorgaan naar [Stap 11](#step-11).
+a. JA - gebruik het ACSD-50165 flard in [ het dossier kan niet worden geschrapt. Waarschuwing!unlink: Geen dergelijk dossier of folderfout van Admin ](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md), wacht 24 uur op de baan om opnieuw te lopen en dan opnieuw te proberen.\
+b. NO - ga aan [ Stap 11 ](#step-11) te werk.
 
 +++
 
 ## Stap 11 - verifieer of er de fout van de Bouwer van de Pagina is {#step-11}
 
-+++**Is er een fout veroorzaakt door de Bouwer van de Pagina?**
++++**is er een fout die door de Bouwer van de Pagina wordt veroorzaakt?**
 
 Voorbeeld: `report.ERROR: Cron Job analytics_collect_data has an error: substr_count() expects parameter 1 to be string, null given. Statistics: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384} [] []`
 
-a. JA - Gebruik de MDVA-19391-pleister in [Algemene fouten met snijtaken in Adobe Commerce melden](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md), wacht 24 uur totdat de taak opnieuw wordt uitgevoerd en probeer het opnieuw.\
-b) NO - [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. JA - gebruik het flard MDVA-19391 in [ Gemeenschappelijke Geavanceerde het Melden van de fouten van de baankast op Adobe Commerce ](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md), wacht 24 uren op de baan opnieuw te lopen en probeer opnieuw.\
+b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 

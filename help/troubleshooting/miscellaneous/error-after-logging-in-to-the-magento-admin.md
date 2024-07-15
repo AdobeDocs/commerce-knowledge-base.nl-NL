@@ -19,14 +19,14 @@ Dit artikel biedt een oplossing voor het probleem waarbij een foutbericht wordt 
 
 De gevraagde URL /magento2index.php/admin/admin/dashboard/index/key/0c81957145a968b697c32a846598dc2e/ is niet gevonden op deze server.
 
-Er is geen schuine streep tussen `magento2` en `index.php` in de URL.
+Let op het gebrek aan een slash tussen `magento2` en `index.php` in de URL.
 
 ## Oplossing
 
 De basis-URL is onjuist. De basis-URL moet:
 
 * Beginnen met `http://` of `https://`
-* Met een schuine streep ( `/` )
-* Komt overeen met het hoofdlettergebruik `web/unsecure/base_url` opnemen in het `core_config_data` databasetabel
+* Eindigen met een schuine streep ( `/` )
+* Het hoofdlettergebruik van de `web/unsecure/base_url` -record in de `core_config_data` -databasetabel
 
 Voer de installatie opnieuw uit met een geldige waarde.

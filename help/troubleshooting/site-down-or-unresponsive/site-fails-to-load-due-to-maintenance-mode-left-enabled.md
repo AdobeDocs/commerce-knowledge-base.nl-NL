@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Site kan niet worden geladen omdat de onderhoudsmodus ingeschakeld blijft
 
-Dit artikel bevat een oplossing voor het geval uw site niet wordt geladen omdat de onderhoudsmodus ingeschakeld blijft of niet automatisch is uitgeschakeld. U ontvangt mogelijk een foutbericht: *Service tijdelijk niet beschikbaar De server kan uw verzoek tijdelijk niet uitvoeren vanwege onderhouds- of capaciteitsproblemen.*
+Dit artikel bevat een oplossing voor het geval uw site niet wordt geladen omdat de onderhoudsmodus ingeschakeld blijft of niet automatisch is uitgeschakeld. U kunt een foutenmelding ontvangen: *de Dienst tijdelijk niet beschikbaar is De server is tijdelijk niet in staat om uw verzoek wegens onderhoudsonderbreking of capaciteitsproblemen te onderhouden.*
 
 ## Betrokken versies en producten
 
@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## Verwante lezing
 
-Raadpleeg voor meer informatie over het gebruik van de onderhoudsmodus [Onderhoudsmodus in- of uitschakelen](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode) in onze ontwikkelaarsdocumentatie.
+Leren wanneer om onderhoudswijze te gebruiken, verwijs naar [ toelaten of onderhoudswijze ](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode) in onze ontwikkelaarsdocumentatie onbruikbaar maken.

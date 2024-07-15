@@ -13,46 +13,46 @@ ht-degree: 0%
 
 # MDVA-12304: fout van 503 op de voorzijde van de opslag en koekjesfout
 
-Met deze MDVA-12304 Adobe Commerce-patch worden 503 fouten op winkelfronten opgelost, met *Kan het cookie niet verzenden. Het maximumaantal cookies wordt overschreden.* foutbericht in logboeken. Dit is een bekend Adobe Commerce 2.2.5-probleem. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 is geïnstalleerd.
+Dit mDVA-12304 Adobe Commerce flard lost 503 fouten op opslagfronten op, met *Onbekwaam om het koekje te verzenden. Het maximumaantal cookies wordt overschreden.* foutbericht in logboeken. Dit is een bekend Adobe Commerce 2.2.5-probleem. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 geïnstalleerd is.
 
 ## Betrokken producten en versies
 
-* **De patch wordt gemaakt voor Adobe Commerce-versie:** Adobe Commerce op locatie 2.2.5.
-* **Compatibel met Adobe Commerce-versies:** Adobe Commerce (alle implementatiemethoden) 2.x.x.
+* **het flard wordt gecreeerd voor de versie van Adobe Commerce:** Adobe Commerce op-gebouw 2.2.5.
+* **Compatibel met de versies van Adobe Commerce:** Adobe Commerce (alle plaatsingsmethodes) 2.x.x.
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Klanten krijgen een fout van 503 wanneer het navigeren van de opslagvoorzijde. In de `var/log/exception.log` bestand bevat het volgende foutbericht *Kan het cookie niet verzenden. Het maximumaantal cookies wordt overschreden.*
+Klanten krijgen een fout van 503 wanneer het navigeren van de opslagvoorzijde. In het `var/log/exception.log` dossier is er het volgende foutenmelding *Onbekwaam om het koekje te verzenden. Het maximum aantal cookies wordt overschreden.*
 
 Het probleem doet zich voor omdat de Adobe Commerce-standaardlimiet voor cookies is ingesteld op 50. Als de browser van de client deze limiet bereikt, genereert Commerce een uitzondering. De oplossing in de pleister verhoogt de limiet van 200 cookies.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 De fout van 503 kan op om het even welk punt tonen wanneer de klant probeert om binnen te registreren en hun karretje te bekijken.
 
-In de `var/log/exception.log` bestand bevat het volgende foutbericht *Kan het cookie niet verzenden. Het maximumaantal cookies wordt overschreden.*
+In het `var/log/exception.log` dossier is er het volgende foutenmelding *Onbekwaam om het koekje te verzenden. Het maximum aantal cookies wordt overschreden.*
 
-<u>Werkelijk resultaat:</u> De klant kan zijn winkelwagentje niet controleren of zijn bestelling voltooien.
+<u> Ware resultaat:</u> de klant kan hun karretje niet controleren of hun orde voltooien.
 
-<u>Verwacht resultaat:</u> De klant kan zijn winkelwagentje controleren en de bestelling voltooien.
+<u> Verwacht resultaat:</u> de klant kan hun kar controleren en hun orde voltooien.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [Patches beschikbaar in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar [ die flarden beschikbaar in QPT ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.

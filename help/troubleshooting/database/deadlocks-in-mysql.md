@@ -24,7 +24,7 @@ In dit artikel wordt gesproken over blokkeringen in MySQL om hen te helpen ident
 
 Deadlocks in MySQL komen voor wanneer twee of meer transacties wederzijds houden en verzoeken om sloten. De aanwezige vertragingen wijzen niet altijd op een kwestie maar zijn vaak een symptoom van een andere kwestie MySQL of Adobe Commerce die is voorgekomen.
 
-Vaak zullen de toepassing, de plaatsing, of Logboeken MySQL het *&quot;impasse&quot;* fout of fout *&quot;Deadlock found when try to get lock; try restarted transaction.&quot;*
+Vaak zullen de toepassing, de plaatsing, of Logboeken MySQL a *&quot;blokkering&quot;* fout of de fout *&quot;Deadlock gevonden wanneer het proberen om slot te krijgen; probeer het opnieuw beginnen transactie.&quot;*
 
 ## Oorzaak
 
@@ -35,17 +35,17 @@ Als voorbeeld, is het beste praktijken om een geplakt MySQL gegevensbestandinvoe
 ## Oplossing
 
 1. Controleer uw toepassing, plaatsing, of Logboeken MySQL voor vastzettingsfouten:
-   * [Adobe Commerce- en Magento Open Source-loglocaties](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
-   * [Adobe Commerce op locatie voor logbestanden met cloud-infrastructuur](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+   * [ Adobe Commerce en het logboekplaatsen van de Magento Open Source ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
+   * [ Adobe Commerce op de logboekplaatsen van de wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
 1. Controleer uw MySQL proceslijst voor het runnen van processen met het bevel `mysql -e 'show full processlist';`
-1. Controleer of MySQL-slave is ingeschakeld in Adobe Commerce op cloudinfrastructuur. Raadpleeg dit artikel: [Variabelen implementeren (MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection).
-1. Afhankelijk van de fouten kan de oplossing zich voorstellen, of u kunt uw nuttige logboekinformatie moeten omvatten als u een [Support-ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Controleer of MySQL-slave is ingeschakeld in Adobe Commerce op cloudinfrastructuur. Raadpleeg dit artikel: [ stelt variabelen (MYSQL\_USE\_SLAVE\_CONNECTION) op ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection).
+1. Afhankelijk van de betrokken fouten, kan de oplossing zich voorstellen, of u kunt uw nuttige logboekinformatie moeten omvatten als u a [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) moet openen.
 
 ## Gerelateerde lezing
 
-* [Hoe te om Deadlocks te minimaliseren en te behandelen](https://dev.mysql.com/doc/refman/5.7/en/innodb-deadlocks-handling.html)
-* [Indexeroptimalisatie - Indexer Table Switching](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
-* [Bulkbewerkingen - Berichten consumeren](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)
+* [ hoe te om Deadlocks te minimaliseren en te behandelen ](https://dev.mysql.com/doc/refman/5.7/en/innodb-deadlocks-handling.html)
+* [ optimalisering van de Indexer - de Omschakeling van de Lijst van de Indexer ](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
+* [ Bulkverrichtingen - de Berichten van het consul ](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)
 
 >[!NOTE]
 >

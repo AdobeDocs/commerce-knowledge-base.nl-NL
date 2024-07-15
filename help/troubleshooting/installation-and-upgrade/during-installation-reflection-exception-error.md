@@ -25,9 +25,9 @@ Tijdens de installatie wordt een bericht weergegeven dat lijkt op het volgende:
 
 ## Oplossing {#solution}
 
-Alle mappen en bestanden wissen onder Adobe Commerce `var` en installeer de Adobe Commerce-software opnieuw.
+Wis alle mappen en bestanden onder de submap Adobe Commerce `var` en installeer de Adobe Commerce-software opnieuw.
 
-Als de [Adobe Commerce-eigenaar bestandssysteem](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) of als gebruiker met `root` Voer de volgende opdrachten in:
+Als [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) of als gebruiker met `root` voorrechten, ga de volgende bevelen in:
 
 ```bash
 $ cd <your Magento install directory>/var

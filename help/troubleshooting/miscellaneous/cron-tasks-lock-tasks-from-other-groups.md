@@ -24,20 +24,20 @@ Dit artikel biedt een oplossing voor het Adobe Commerce-probleem met de cloudinf
 
 In Adobe Commerce for Cloud kunnen andere uitvoeringstaken worden vergrendeld wanneer u complexe uitsnijdtaken hebt (taken op lange termijn). De taak van indexeerders herstelt bijvoorbeeld de ongeldig gemaakte indexen. Het kan een paar uur duren om te voltooien en het zal andere standaardtaken vergrendelen, zoals het verzenden van e-mails, het genereren van sitemaps, klantmeldingen en andere aangepaste taken.
 
-<u>Symptomen</u>:
+<u> Symptomen </u>:
 
 De processen die worden uitgevoerd door snijtaken worden niet uitgevoerd. Productupdates worden bijvoorbeeld niet gedurende uren toegepast of klanten melden geen e-mails te ontvangen.
 
-Wanneer u het dialoogvenster `cron_schedule` databasetabel, u ziet de taken met `missed` status.
+Wanneer u de databasetabel `cron_schedule` opent, ziet u de taken met de status `missed` .
 
 ## Oorzaak
 
-Eerder, in onze wolkenomgeving, werd de server Jenkins gebruikt om bouwbanen in werking te stellen. Jenkins zal slechts één geval van een baan in een tijd in werking stellen; bijgevolg zal er slechts één zijn `bin/magento cron:run` proces dat tegelijkertijd wordt uitgevoerd.
+Eerder, in onze wolkenomgeving, werd de server Jenkins gebruikt om bouwbanen in werking te stellen. Jenkins voert slechts één instantie van een taak tegelijk uit. Er wordt dus slechts één `bin/magento cron:run` -proces tegelijk uitgevoerd.
 
 ## Oplossing
 
-1. Contact [Adobe Commerce-ondersteuning](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om zelf-beheerde toe te laten kronnen.
-1. Bewerk de `.magento.app.yaml` bestand in de hoofdmap van de code voor Adobe Commerce in de Git-vertakking. Voeg het volgende toe:
+1. De steun van Adobe Commerce van het contact ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om zelf-geleide toegelaten kronen te hebben.[
+1. Bewerk het `.magento.app.yaml` -bestand in de hoofdmap van de code voor Adobe Commerce in de Git-vertakking. Voeg het volgende toe:
 
    ```yaml
      crons:
@@ -50,11 +50,11 @@ Eerder, in onze wolkenomgeving, werd de server Jenkins gebruikt om bouwbanen in 
 
 >[!NOTE]
 >
->Er is geen behoefte om oude kroonconfiguraties over te brengen waar de veelvoudige `cron:run` zijn opgenomen in het nieuwe uitsnijdschema; de normale `cron:run` taak, toegevoegd zoals hierboven beschreven, is genoeg. Het is echter wel verplicht om aangepaste taken over te dragen als u die hebt.
+>Het is niet nodig om oude uitsnijdconfiguraties over te dragen waarbij meerdere `cron:run` aanwezig zijn in het nieuwe uitsnijdschema. De normale `cron:run` -taak, toegevoegd zoals hierboven beschreven, is voldoende. Het is echter wel verplicht om aangepaste taken over te dragen als u die hebt.
 
 ### Controleren of de functie voor zelfbeheerd uitsnijden is ingeschakeld (alleen voor Staging en productie in Cloud Pro)
 
-Als u wilt controleren of de zelfbeheerde uitsnede is ingeschakeld, voert u de opdracht `crontab -l` en observeer het resultaat:
+Als u wilt controleren of de zelfbeheerde uitsnede is ingeschakeld, voert u de opdracht `crontab -l` uit en bekijkt u het resultaat:
 
 * Zelf-geleid kruin wordt toegelaten, als u de taken, als het volgende kunt zien:
 
@@ -63,7 +63,7 @@ Als u wilt controleren of de zelfbeheerde uitsnede is ingeschakeld, voert u de o
   SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun
   ```
 
-* De zelfbeheerde uitsnede wordt niet ingeschakeld als u de taken niet kunt zien en de *&quot;U mag dit programma niet gebruiken&quot;* foutbericht.
+* De zelf-beheerde krong wordt niet toegelaten als u niet de taken kunt zien en *&quot;krijgt u niet toegestaan om dit programma&quot;te gebruiken* foutenmelding.
 
 >[!NOTE]
 >
@@ -71,4 +71,4 @@ Als u wilt controleren of de zelfbeheerde uitsnede is ingeschakeld, voert u de o
 
 ## Gerelateerde lezing
 
-* [Uitsnijdtaken instellen](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) in onze ontwikkelaarsdocumentatie.
+* [ de banen van de opstelling cron ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) in onze ontwikkelaarsdocumentatie.

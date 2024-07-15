@@ -27,10 +27,10 @@ Na de eerste installatie of upgrade om Inventory management in de Adobe Commerce
 
 ## Oorzaak
 
-Wanneer u installeert/bevordert, worden al uw producten toegewezen aan de standaardbron, associerend alle hoeveelheden aan die bron. De standaardbron wordt toegewezen aan de standaardvoorraad, waarbij de standaardwebsite is gekoppeld.
+Wanneer u installeert/bevordert, worden al uw producten toegewezen aan de standaardbron, associerend alle hoeveelheden aan die bron. De standaard-Source wordt toegewezen aan de standaardvoorraad, waarbij de standaardwebsite is gekoppeld.
 
 ## Oplossing
 
 Als u meerdere websites hebt, moet u deze websites als Sales Channel toevoegen aan de standaardvoorraad of andere aangepaste bestanden.
 
-Zie de [Het gedeelte Stock van de wiki/gebruikershandleiding](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) in onze gebruikershandleiding voor meer informatie hierover.
+Zie de [ sectie van de Beeld van de wiki/gebruikershandleiding ](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) in onze gebruikersgids voor details op hoe te om dit te doen.

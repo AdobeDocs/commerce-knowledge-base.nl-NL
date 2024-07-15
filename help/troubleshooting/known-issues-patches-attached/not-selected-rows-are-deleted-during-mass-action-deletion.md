@@ -17,19 +17,19 @@ Dit artikel biedt een patch voor de bekende Adobe С handel in cloudinfrastructu
 
 ## Probleem
 
-Als u in Beheer klant- of clientrecords selecteert die u wilt verwijderen, filtert u het raster en selecteert u vervolgens het **Verwijderen** , worden alle records verwijderd.
+In Admin, als u klant of cliëntverslagen selecteert om worden geschrapt, filter het net, en selecteer dan de **Schrapping** actie, worden alle verslagen geschrapt.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Navigeren naar **Catalogus** > **Producten** in de Admin.
+1. Navigeer aan **Catalogus** > **Producten** in Admin.
 1. Selecteer een product of meerdere producten.
 1. Selecteer Verwijderen in het vervolgkeuzemenu Handelingen.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Alleen geselecteerde producten worden verwijderd.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Sommige andere producten worden ook verwijderd.
 
@@ -52,4 +52,4 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.

@@ -35,24 +35,24 @@ Voer in uw storefront-project de opdracht uit voor het toevoegen van een aangepa
 yarn buildpack create-custom-origin ./
 ```
 
-Het genereren van certificaten wordt afgehandeld door [ontwapening](https://github.com/davewasmer/devcert). Het hangt van OpenSSL af, dus zorg ervoor u een huidige versie van open op uw systeem gebruikend het volgende bevel hebt:
+Het produceren van certificaten wordt behandeld door [ devcert ](https://github.com/davewasmer/devcert). Het hangt van OpenSSL af, dus zorg ervoor u een huidige versie van open op uw systeem gebruikend het volgende bevel hebt:
 
 `openssl version`
 
 De versie moet 1.0 of hoger zijn (of LibreSSL 2 in het geval van OSX High Sierra).
 
-U kunt hogere versies van OpenSSL installeren met [Homebrew](https://brew.sh/) op OSX, [Chocolatey](https://chocolatey.org/) in Windows of in het pakketbeheer van uw Linux-distributie.
+U kunt hogere versies van OpenSSL met [ Homebrew ](https://brew.sh/) op OSX, [ Chocolade ](https://chocolatey.org/) op Vensters, of uw het pakketmanager van de distributie van Linux installeren.
 
-Als u werkt met Linux, controleert u of `libnss3-tools` (of het equivalent) op uw systeem is geïnstalleerd. Nadere informatie die in deze rubriek van de [ontwapening](https://github.com/davewasmer/devcert#skipcertutil) Lees mij.
+Als u Linux gebruikt, moet u ervoor zorgen dat `libnss3-tools` (of het equivalent) op uw systeem is geïnstalleerd. Verdere informatie die in deze sectie van [ wordt verstrekt devcert ](https://github.com/davewasmer/devcert#skipcertutil) readme.
 
 Sommige gebruikers hebben voorgesteld de map devcert te verwijderen om het opnieuw genereren van certificaten te starten.
 
-* Voor MacOS-gebruikers vindt u deze map meestal op: `{{~/Library/Application Support/devcert }}`
-* Voor Windows-gebruikers vindt u deze map meestal in: `${User}\AppData\Local\devcert`
+* Voor MacOS-gebruikers bevindt deze map zich gewoonlijk op: `{{~/Library/Application Support/devcert }}`
+* Voor Windows-gebruikers bevindt deze map zich gewoonlijk op: `${User}\AppData\Local\devcert`
 
 ## Gerelateerde lezing in onze kennisbasis voor support
 
-* [PWA Studio: vertrouwensfout bij niet-geautoriseerd certificaat](https://support.magento.com/hc/en-us/articles/360038973172)
+* [ PWA Studio: Zelfondertekende fout van het certificaatvertrouwen ](https://support.magento.com/hc/en-us/articles/360038973172)
 * [PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
 * [PWA Studio: browser geeft &quot;Cannot proxy to&quot;error weer](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
 * [PWA Studio: validatiefouten bij het uitvoeren van de ontwikkelaarsmodus](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)

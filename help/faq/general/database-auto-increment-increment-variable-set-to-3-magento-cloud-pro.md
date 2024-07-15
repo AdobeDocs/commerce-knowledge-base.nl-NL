@@ -16,20 +16,20 @@ Dit is het verwachte gedrag voor Adobe Commerce op cloudinfrastructuur Pro-archi
 
 De Galera-databasecluster wordt gebruikt. Dit is een databasecluster met één MariaDB MySQL-database per knooppunt met een instelling voor automatisch verhogen van drie voor unieke id&#39;s in elke database.
 
-<u>Waarom wordt de verhogings-id die wordt gebruikt voor Pro-clusters niet altijd gescheiden/verhoogd met 3?</u>
+<u> waarom wordt increment identiteitskaart die op Pro clusters wordt gebruikt niet altijd gescheiden/verhoogd door 3?</u>
 
 De verhogings-id die in clusters wordt gebruikt, wordt niet altijd met 3 gescheiden/verhoogd vanwege de manier waarop Galera werkt.
 
 Elk van de drie servers beheert zijn eigen ruimte van identiteitskaart, en de toename die afhangt van welke MySQL belangrijkste gegevensbestandserver (afhankelijk van de relatieve lading) is - vandaar de variërende hiaten.
 Als u SSH aan elke knoop verbindt en met de lokale instantie MySQL verbindt die op die knoop gebruikend haven 3307 loopt (in plaats van proxied aan &quot;hoofd&quot;op de standaardhaven 3306), zult u het volgende beeld zien:
 
-![auto_increment](assets/auto_increment_id.png)
+![ auto_increment ](assets/auto_increment_id.png)
 
-Als de geselecteerde hoofd bijvoorbeeld knooppunt 1 is, waarbij `auto_increment_offset = 1`, wordt de id verhoogd met 1. Vervolgens als een nieuw hoofdknooppunt op een later tijdstip wordt geselecteerd, bijvoorbeeld knooppunt 3 waar `auto_increment_offset = 3`In plaats daarvan zou de verhoging met 3 worden verhoogd.
+Als de geselecteerde hoofd bijvoorbeeld knooppunt 1 is waar `auto_increment_offset = 1` staat, wordt de id verhoogd met 1. Als een nieuw hoofdknooppunt later wordt geselecteerd, bijvoorbeeld knooppunt 3 waar `auto_increment_offset = 3` , wordt het in plaats daarvan met 3 verhoogd.
 
 ## Nuttige koppelingen
 
 Zie in onze documentatie voor ontwikkelaars:
 
-* [Cloud voor Adobe Commerce > Pro-architectuur > Back-up en noodherstel](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
-* [Cloud voor Adobe Commerce > Voorwaarden installeren: database](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)
+* [ Cloud voor Adobe Commerce > Pro architectuur > Steun en rampenterugwinning ](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
+* [ Wolk voor Adobe Commerce > installeer eerste vereisten: gegevensbestand ](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)

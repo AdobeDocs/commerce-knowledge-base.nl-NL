@@ -17,16 +17,16 @@ Dit artikel biedt een patch voor de bekende Adobe Commerce 2.3.0-beperking die v
 
 >[!NOTE]
 >
->De belangrijkste integratie van Adobe Commerce Cybersource-betalingen is sinds 2.3.3 verouderd en zal in 2.4.0 volledig worden verwijderd. Gebruik de [officiële verlenging](https://marketplace.magento.com/cybersource-global-payment-management.html) in plaats daarvan van Marketplace.
+>De belangrijkste integratie van Adobe Commerce Cybersource-betalingen is sinds 2.3.3 verouderd en zal in 2.4.0 volledig worden verwijderd. Gebruik in plaats hiervan de [ officiële uitbreiding ](https://marketplace.magento.com/cybersource-global-payment-management.html) van Marketplace.
 
 ## Probleem
 
-Dankzij de vorige implementatie van de Cybersource-integratie konden betalingen van slechts één domein worden verwerkt. Als uw Adobe Commerce-winkel zich in een ander domein bevindt dan de Commerce Admin, treedt de volgende fout op wanneer u een bestelling probeert te plaatsen met gebruik van Cybersource in de Admin: &quot; *Laden geweigerd door X-Frame-Options: https://%your\_domain%/cybersource/SilentOrder/TokenResponse/ staat geen opmaak naar andere oorsprong toe.* ...&quot;
+Dankzij de vorige implementatie van de Cybersource-integratie konden betalingen van slechts één domein worden verwerkt. Dientengevolge, als uw Adobe Commerce storefront op verschillend domein van Commerce Admin is, krijgt u de volgende fout wanneer het proberen om een orde te plaatsen gebruikend Cybersource in Admin: &quot; *lading ontkend door x-Kader-Opties: https://%your\_domain%/cybersource/SilentOrder/TokenResponse/ staat geen dwars-oorsprong het framing toe.*..&quot;
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Stel Admin in op een ander subdomein.
-1. Cybersource configureren voor de winkel onder **Winkels** > Instellingen > **Configuratie** > **Verkoop** > **Betalingsmethoden** > **CyberSource**.
+1. Vorm Cybersource voor de opslag onder **Opslag** > Montages > **Configuratie** > **Verkoop** > **de Methoden van de Betaling** > **CyberSource**.
 1. Ga naar **Verkoop** > **Orders**.
 1. Nieuwe bestelling maken.
 1. Nieuwe klant maken.
@@ -35,13 +35,13 @@ Dankzij de vorige implementatie van de Cybersource-integratie konden betalingen 
 1. Selecteer Cybersource als betalingsmethode.
 1. Bestelling verzenden.
 
-<u>Verwacht resultaat</u>: De bestelling wordt geplaatst zonder problemen.
+<u> Verwacht resultaat </u>: De orde wordt geplaatst zonder kwesties.
 
-<u>Werkelijk resultaat</u>: Op de pagina Volgorde wordt een pictogram voor het laden weergegeven, maar de volgorde wordt nooit geplaatst. De fout wordt getoond in console.
+<u> Ware resultaat </u>: De pagina van de Orde toont een ladingspictogram, maar de orde wordt nooit geplaatst. De fout wordt getoond in console.
 
 ## Oplossing
 
-De bijgevoegde patch biedt de verbetering voor de integratie met Cybersource. Nadat u de patch hebt toegepast, moet u nog één profiel maken met Cybersource voor het verwerken van betalingen in de beheerfunctie en de vereiste referenties toevoegen in de Cybersource-configuratie in de Commerce Admin onder **Winkels** > Instellingen > **Configuratie** > **Verkoop** > **Betalingsmethoden** > **CyberSource**.
+De bijgevoegde patch biedt de verbetering voor de integratie met Cybersource. Na het toepassen van het flard, moet u één meer profiel met Cybersource voor verwerkingsbetalingen in Admin tot stand brengen, en de vereiste geloofsbrieven in de configuratie Cybersource in Commerce Admin onder **toe te voegen** > Montages > **Configuratie** > **Verkoop** > **de Methoden van de Betaling** > **CyberSource**.
 
 >[!NOTE]
 >
@@ -69,6 +69,6 @@ De patches zijn ook compatibel met de volgende versies:
 
 ## Hoe een pleister aanbrengen
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Bijgevoegde bestanden

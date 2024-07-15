@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Site-Wide Analysis Tool] op Adobe: overzicht"'
-description: De [!DNL Site-Wide Analysis Tool] is een proactief zelfbedieningshulpmiddel en een centrale gegevensopslagplaats die gedetailleerde systeeminzichten en aanbevelingen omvat om de veiligheid en de operabiliteit van uw installatie van Adobe Commerce te verzekeren. Alle informatie over de klantlocatie met betrekking tot tools wordt elke drie uur tot eenmaal per dag verzameld op vooraf bepaalde planningen. Dit betekent dat SWAT constant de gegevens van de klantenplaats voor Bevindingen analyseert.
+title: '[!DNL Site-Wide Analysis Tool] op Adobe: overview'
+description: ' [!DNL Site-Wide Analysis Tool]  is een pro-actief zelfbedieningshulpmiddel en een centrale bewaarplaats die gedetailleerde systeeminzichten en aanbevelingen omvat om de veiligheid en de operabiliteit van uw installatie van Adobe Commerce te verzekeren. Alle informatie over de klantlocatie met betrekking tot tools wordt elke drie uur tot eenmaal per dag verzameld op vooraf bepaalde planningen. Dit betekent dat SWAT constant de gegevens van de klantenplaats voor Bevindingen analyseert.'
 exl-id: cfb51926-4293-410b-aad4-724344c7f24a
 feature: Support, Tools and External Services
 role: Admin
@@ -11,12 +11,12 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Site-Wide Analysis Tool] per Adobe: overzicht
+# [!DNL Site-Wide Analysis Tool] op Adobe: overzicht
 
 >[!IMPORTANT]
 >
->Met ingang van 23 april 2024 [!DNL Site-Wide Analysis Tool] worden buiten bedrijf gesteld voor alle Adobe Commerce-klanten op locatie.
+>Met ingang van 23 april 2024 wordt de [!DNL Site-Wide Analysis Tool] voor alle Adobe Commerce-klanten op locatie buiten bedrijf gesteld.
 
-[!DNL Site-Wide Analysis Tool] is een proactief zelfbedieningshulpmiddel en een centrale gegevensopslagplaats die gedetailleerde systeeminzichten en aanbevelingen omvat om de veiligheid en de operabiliteit van uw installatie van Adobe Commerce te verzekeren. Alle informatie over de klantlocatie met betrekking tot tools wordt elke drie uur tot eenmaal per dag verzameld op vooraf bepaalde planningen. Dit betekent dat SWAT constant de gegevens van de klantenplaats voor Bevindingen analyseert.
+[!DNL Site-Wide Analysis Tool] is een proactief zelfbedieningshulpmiddel en een centrale opslagplaats die gedetailleerde systeeminzichten en aanbevelingen omvat om de veiligheid en de operabiliteit van uw installatie van Adobe Commerce te verzekeren. Alle informatie over de klantlocatie met betrekking tot tools wordt elke drie uur tot eenmaal per dag verzameld op vooraf bepaalde planningen. Dit betekent dat SWAT constant de gegevens van de klantenplaats voor Bevindingen analyseert.
 
-Meer informatie over [!DNL Site-Wide Analysis Tool], gelieve de [[!DNL Site-Wide Analysis Tool] hulplijn](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html).
+Om meer over [!DNL Site-Wide Analysis Tool] te weten te komen, gelieve te verwijzen naar de [[!DNL Site-Wide Analysis Tool]  gids ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html).

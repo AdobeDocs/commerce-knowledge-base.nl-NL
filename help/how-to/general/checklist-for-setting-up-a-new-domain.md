@@ -1,6 +1,6 @@
 ---
-title: Controlelijst voor het instellen van een nieuwe [!DNL domain]
-description: Dit is een controlelijst voor het instellen van een nieuwe [!DNL domain] in Adobe Commerce over cloudinfrastructuur.
+title: Checklist voor vestiging een nieuw  [!DNL domain]
+description: Dit is een controlelijst van hoe te opstelling a nieuw  [!DNL domain]  in Adobe Commerce op wolkeninfrastructuur.
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
 source-git-commit: 625ed2c7ab79f7bca9a979903e97c44c875e607c
@@ -10,58 +10,58 @@ ht-degree: 0%
 
 ---
 
-# Controlelijst voor het instellen van een nieuwe [!DNL domain]
+# Controlelijst voor het instellen van een nieuwe versie [!DNL domain]
 
-Dit is een controlelijst voor het instellen van een nieuwe [!DNL domain] in Adobe Commerce over cloudinfrastructuur. Het is van toepassing, ongeacht of u een nieuw domein wilt toevoegen of het huidige domein wilt vervangen door een nieuw domein.
+Dit is een controlelijst voor het instellen van een nieuwe [!DNL domain] in Adobe Commerce op cloudinfrastructuur. Het is van toepassing, ongeacht of u een nieuw domein wilt toevoegen of het huidige domein wilt vervangen door een nieuw domein.
 
 ## Betrokken producten en versies
 
-Adobe Commerce op cloudinfrastructuur, [alle ondersteunde versies](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Hoe te opstelling een nieuw domein
 
-### Stap 1 - Is dit voor de [!DNL Integration, Staging], of [!DNL Production environment]?
+### Stap 1 - Is dit voor [!DNL Integration, Staging], of [!DNL Production environment]?
 
-* **[!DNL Integration]**: [!DNL Custom domains] worden niet ondersteund. U moet deze methode gebruiken: [Meerdere websites of winkels instellen: lokale installatie configureren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) in onze gebruikershandleiding.
+* **[!DNL Integration]**: [!DNL Custom domains] worden niet ondersteund. U moet deze methode in plaats daarvan gebruiken: [ Opstelling veelvoudige websites of opslag: Vorm lokale installatie ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) in onze gebruikersgids.
 * **[!DNL Staging]**: Ga naar **Stap 2**.
 * **[!DNL Production]**: Ga naar **Stap 3**.
 
-### Stap 2 - [!DNL Staging environment]: ben je aan [!DNL Pro] of [!DNL Starter]?
+### Stap 2 - [!DNL Staging environment] : bevindt u zich op [!DNL Pro] of [!DNL Starter] ?
 
-* **[!DNL Pro]**: **Een aanvraag indienen** om het domein toe te voegen aan [!DNL Fastly, Nginx]en configureert u de [!DNL SSL certificate] en de [!DNL Sendgrid domain], indien nodig). Zodra dat is gevormd, [de update [!DNL DNS] configuratie met [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
+* **[!DNL Pro]**: **leg een verzoek** voor om het domein aan [!DNL Fastly, Nginx] toe te voegen, en vorm [!DNL SSL certificate] (evenals [!DNL Sendgrid domain], indien nodig). Zodra dat is gevormd, [ werk de  [!DNL DNS]  configuratie met  [!DNL development settings] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings) bij.
 
 >[!NOTE]
 >
->U kunt de nieuwe [!DNL domain] tot [!DNL Fastly] door de configuratie in de [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** zoals in [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) in onze gebruikershandleiding.
+>U kunt de nieuwe [!DNL domain] aan [!DNL Fastly] zelf toevoegen door de configuratie in [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** bij te werken, zoals in [[!DNL Manage domains] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) in de gebruikershandleiding.
 >
 >Als u het domein niet kunt toevoegen, kan dit aan een van de volgende redenen zijn te wijten:
 >
->1. U migreert het domein naar het wolkenmilieu, dat in uw wordt gevormd [!DNL Fastly] service. In dit geval dient u een verzoek in en vraagt u om delegatie van het domein.
+>1. U migreert het domein naar de wolkenomgeving, die in uw eigen [!DNL Fastly] dienst is gevormd. In dit geval dient u een verzoek in en vraagt u om delegatie van het domein.
 >1. U migreert het domein van Starter naar Pro. In dat geval dient de Commissie een verzoek om verdere bijstand in.
 
 * **[!DNL Starter]**: [!DNL Custom domains] worden niet ondersteund in de testomgeving.
 
-### Stap 3 - [!DNL Production environment]: ben je aan [!DNL Pro] of [!DNL Starter]?
+### Stap 3 - [!DNL Production environment] : bevindt u zich op [!DNL Pro] of [!DNL Starter] ?
 
-* **[!DNL Pro]**: **Een aanvraag indienen** om het domein toe te voegen aan [!DNL Fastly, Nginx]en configureert u de [!DNL SSL certificate] (als de [!DNL Sendgrid domain], indien nodig). Zodra dat is gevormd, blijf **Stap 4**.
+* **[!DNL Pro]**: **leg een verzoek** voor om het domein aan [!DNL Fastly, Nginx] toe te voegen, en vorm [!DNL SSL certificate] (als [!DNL Sendgrid domain], indien nodig). Zodra dat is gevormd, blijf aan **Stap 4**.
 
 >[!NOTE]
 >
->U kunt de nieuwe [!DNL domain] tot [!DNL Fastly] door de configuratie in de [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) in onze gebruikershandleiding.
+>U kunt de nieuwe [!DNL domain] aan [!DNL Fastly] zelf toevoegen door de configuratie in [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) bij te werken in de gebruikershandleiding.
 >
 >
 >Als u het domein niet kunt toevoegen, kan dit aan een van de volgende redenen zijn te wijten:
 >
->1. U migreert het domein van op gebouw aan het wolkenmilieu, dat in uw eigen is gevormd [!DNL Fastly] service. In dit geval dient u een verzoek in en vraagt u om delegatie van het domein.
+>1. U migreert het domein van op-gebouw aan het wolkenmilieu, dat in uw eigen [!DNL Fastly] dienst is gevormd. In dit geval dient u een verzoek in en vraagt u om delegatie van het domein.
 >1. U migreert het domein van Starter naar Pro. In dat geval dient de Commissie een verzoek om verdere bijstand in.
 
-* **[!DNL Starter]**: Voeg de [!DNL domain] aan uw project in **[!DNL Domains]** dan **een verzoek indienen** de **[!DNL ACME Challenge Key]** voor de [!DNL SSL certificate].
+* **[!DNL Starter]**: Voeg [!DNL domain] aan uw project in het **[!DNL Domains]** lusje toe, dan **verzend een verzoek** om **[!DNL ACME Challenge Key]** voor [!DNL SSL certificate] te verstrekken.
 
-### Stap 4 - Is de [!DNL domain] leven?
+### Stap 4 - Is de [!DNL domain] live?
 
-* **JA**: [Werk de [!DNL DNS] configuratie met [!UICONTROL production] instellingen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html#update-dns-configuration-with-production-settings).
-* **NEE**: [Werk de [!DNL DNS] configuratie met [!UICONTROL development] instellingen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
+* **JA**: [ werk de  [!DNL DNS]  configuratie met [!UICONTROL production] montages ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html#update-dns-configuration-with-production-settings) bij.
+* **GEEN**: [ werk de  [!DNL DNS]  configuratie met [!UICONTROL development] montages ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings) bij.
 
 ## Gerelateerde lezing
 
-* [Meerdere websites of winkels instellen: Nieuwe toevoegen [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) in onze gebruikershandleiding.
+* [ Opstelling veelvoudige websites of opslag: voeg Nieuw  [!DNL Domains] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) in onze gebruikersgids toe.

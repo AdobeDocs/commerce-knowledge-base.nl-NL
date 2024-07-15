@@ -22,19 +22,19 @@ Dit artikel biedt een oplossing voor een bekend probleem in Adobe Commerce 2.4.1
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
-1. Ga naar **Deelvenster Beheer** > **Inhoud** > **Pagina&#39;s** en selecteert u **Bewerken** van een willekeurige pagina.
-1. Ga naar **Inhoud** en klik op de knop **Bewerken met Page Builder** knop.
-1. Sleep de **dotdigitaal formulier** blokkeren en selecteren **Bewerken**.
-1. Selecteer een van de testformulieren en kies **Ingesloten** en slaat u het formulier op.
+1. Ga naar **Comité Admin** > **Inhoud** > **Pagina&#39;s**, en selecteer **uitgeven** van om het even welke pagina.
+1. Ga naar **Inhoud** en klik op **uitgeven met de knoop van de Bouwer van de Pagina**.
+1. Sleep het **dotdigital vormblok** en selecteer **uitgeven**.
+1. Selecteer één van de testvormen, dan kies **Ingebedde** wijze en sparen de vorm.
 1. Sla de paginawijziging op.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 De webpagina moet zijn opgeslagen.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
 De webpagina is leeg. Nadat u de webpagina opnieuw hebt geladen, worden de wijzigingen toegepast.
 
@@ -44,7 +44,7 @@ De oplossing is een alternatieve browser te gebruiken voor Safari. Het probleem 
 
 ## Gerelateerde lezing
 
-* [Wat is Page Builder?](https://devdocs.magento.com/page-builder/docs/) in onze ontwikkelaarsdocumentatie.
-* [Pagina Builder instellen](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html) in onze ontwikkelaarsdocumentatie.
-* [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html) in onze gebruikershandleiding.
-* [Page Builder - Elements](https://docs.magento.com/user-guide/cms/page-builder-elements.html) in onze gebruikershandleiding.
+* [ wat is de Bouwer van de Pagina?](https://devdocs.magento.com/page-builder/docs/) in de documentatie voor ontwikkelaars.
+* [ Opstelling van de Bouwer van de Pagina ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html) in onze ontwikkelaarsdocumentatie.
+* [ Bouwer van de Pagina ](https://docs.magento.com/user-guide/cms/page-builder.html) in onze gebruikersgids.
+* [ de Bouwer van de Pagina - Elementen ](https://docs.magento.com/user-guide/cms/page-builder-elements.html) in onze gebruikersgids.

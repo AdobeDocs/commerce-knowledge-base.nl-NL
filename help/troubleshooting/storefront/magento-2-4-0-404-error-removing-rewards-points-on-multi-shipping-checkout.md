@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0: 404-fout: beloningspunten verwijderen bij afhandeling via meerdere verzendingen
 
-Dit artikel biedt een oplossing voor een bekende uitgave in Adobe Commerce 2.4.0 voor een &quot;*404 Niet gevonden*&quot;-webpaginafout bij het verwijderen van beloningspunten op een pagina voor afhandeling via meerdere verzendingen. Op de pagina voor afhandeling van meerdere verzendingen wordt momenteel een &#39;*404 Niet gevonden* De pagina wordt weergegeven in plaats van de annulering van bonuspunten. Dit probleem wordt opgelost in een Adobe Commerce 2.4.1-patch-release.
+Dit artikel verstrekt een oplossing voor een bekende kwestie in Adobe Commerce 2.4.0 voor a &quot;*404 niet Gevonden*&quot;Web-pagina fout wanneer het verwijderen van beloningspunten op een multi-verschepende controlepagina. Momenteel, op de multi-verschepende checkout pagina, wanneer het proberen om beloningspunten te verwijderen die werden gebruikt om voor een orde te betalen, wordt de pagina van a &quot;*404 niet Gevonden* &quot; getoond in plaats van succesvolle prijspunten annulering. Dit probleem wordt opgelost in een Adobe Commerce 2.4.1-patch-release.
 
 ## Betrokken producten en versies
 
@@ -21,33 +21,33 @@ Dit artikel biedt een oplossing voor een bekende uitgave in Adobe Commerce 2.4.0
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
 1. Navigeer naar de winkel en meld u aan als klant.
-1. Voeg ten minste twee producten toe aan de **Winkelwagentje**.
-1. Open de **Mini-Cart**.
-1. Klik op de knop **Winkelwagentje weergeven en bewerken** koppeling.
-1. Klik op de knop **Uitchecken met meerdere adressen** koppeling.
-1. Verzendadressen selecteren op de **Verzenden naar meerdere adressen** pagina.
-1. Klik op de knop **Ga naar Verzendgegevens** knop.
-1. Selecteer de **Vaste prijs - Vaste verzendmethode** voor elk adres.
-1. Klik op de knop **Doorgaan met factureringsgegevens** knop.
-1. Controleer de **Uw punten voor beloningen gebruiken** Selectievakje op de **Factuurgegevens** pagina.
-1. Klik op de knop **Ga naar Je bestelling bekijken** knop.
-1. Klik op de knop **Verwijderen** link naar elk adres om de bonuspunten te verwijderen.
+1. Voeg minstens twee producten aan **toe die Kar Shopping**.
+1. Open **mini-Kar**.
+1. Klik de **Mening en geef de verbinding van de Kar** uit.
+1. Klik de **Controle uit met Veelvoudige Adressen** verbinding.
+1. Selecteer verzendadressen op de **verschepen naar Veelvoudige Adressen** pagina.
+1. Klik **gaan naar de Verzendinformatie** knoop.
+1. Selecteer het **Vaste Tarief - Vaste Verzendmethode** voor elk adres.
+1. Klik **blijven aan de knoop van de Informatie van het Factureren**.
+1. Controleer het **Gebruik Uw Betrouwbare Punten** checkbox op de **Facturerende Informatie** pagina.
+1. Klik **gaan uw Orde** knoop herzien.
+1. Klik **verwijderen** verbinding voor om het even welk adres om de beloningspunten te verwijderen.
 
-<u>Verwachte resultaten</u>
+<u> Verwachte resultaten </u>
 
-* De **Winkelwagentje** wordt weergegeven.
-* De &quot;*Je hebt de bonuspunten uit deze bestelling verwijderd.* &#39;&#39; wordt weergegeven.
+* De **Shopping Kart** pagina zou moeten verschijnen.
+* &quot;*u verwijderde de beloningspunten uit deze orde.*&quot; moet worden weergegeven.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
-A &quot;*404 Niet gevonden* &#39;&#39; wordt weergegeven.
+A &quot;*404 niet Gevonden*&quot;foutenpagina verschijnt.
 
 ## Workaround
 
-De oplossing is dat de koper teruggaat naar de **Kar** en de bonuspunten uit de **Kar** webpagina. Het probleem zal naar verwachting worden opgelost in de Adobe Commerce versie 2.4.1-patch, die in het vierde kwartaal van 2020 zal worden uitgebracht.
+De oplossing moet de koper hebben terug naar **Kar** navigeren en de beloningspunten van de **Kar** Web-pagina verwijderen. Het probleem zal naar verwachting worden opgelost in de Adobe Commerce versie 2.4.1-patch, die in het vierde kwartaal van 2020 zal worden uitgebracht.
 
 ## Gerelateerde lezing
 

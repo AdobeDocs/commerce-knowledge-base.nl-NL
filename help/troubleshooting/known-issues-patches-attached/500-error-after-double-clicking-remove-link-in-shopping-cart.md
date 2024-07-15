@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # &quot;500 fout&quot; na het dubbelklikken op Koppeling verwijderen in winkelwagentje
 
-Dit artikel bevat een patch voor het bekende Adobe Commerce-probleem met cloudinfrastructuur 2.2.0 dat betrekking heeft op een fout die klanten ondervinden wanneer ze twee keer een winkelwagentje proberen te verwijderen (door te dubbelklikken op de knop *Verwijderen* (of door erop te klikken op verschillende tabbladen).
+Dit artikel verstrekt een flard voor bekende Adobe Commerce op de kwestie van de wolkeninfrastructuur 2.2.0 met betrekking tot klanten die fout wanneer het proberen om tweemaal een het winkelwagentje punt te verwijderen (door *te tweemaal klikken verwijdert* verbinding of door het in verschillende lusjes te klikken).
 
 ## Probleem
 
-Wanneer klanten dubbelklikken op *Verwijderen* een link in het winkelwagentje , die probeert een product uit het winkelwagentje te verwijderen , krijgt een lege pagina met het volgende foutbericht : *&quot;Deze pagina werkt niet. HTTP-FOUT 500&quot;.* Hetzelfde probleem doet zich voor als een klant twee browsertabbladen met de winkelwagentje opent en het product eerst op één tabblad verwijdert, daarna op de tweede.
+Wanneer de klanten *tweemaal klikken verwijdert* verbinding in het het winkelwagentje, die probeert om een product uit het het winkelwagentje te verwijderen, krijgen zij een lege pagina met het volgende foutenbericht: *&quot;Deze pagina werkt niet. HTTP-FOUT 500&quot;.* Hetzelfde probleem doet zich voor als een klant twee browsertabbladen opent met de winkelwagenpagina en het product eerst op één tabblad verwijdert, daarna op de tweede.
 
-<u>Stappen om te reproduceren</u> :
+<u> Stappen om </u> te reproduceren:
 
 1. Voeg een product toe aan winkelwagentje op de winkel.
 1. Navigeer naar de winkelwagenpagina.
@@ -33,9 +33,9 @@ OF
 1. Verwijder het product uit het karretje.
 1. Open het tweede tabblad en verwijder het product opnieuw.
 
-<u>Verwacht resultaat</u> : Het product wordt zonder fouten uit het winkelwagentje verwijderd.
+<u> Verwacht resultaat </u>: Het product wordt verwijderd uit de kar zonder fouten.
 
-<u>Werkelijk resultaat</u> : Het product wordt verwijderd met de fout: *&quot;Deze pagina werkt niet. HTTP-FOUT 500&quot;* foutbericht.
+<u> Werkelijk resultaat </u>: Het product wordt verwijderd met de fout: *&quot;Deze pagina werkt niet. De FOUT van HTTP 500&quot;* foutenmelding.
 
 ## Reparatie
 
@@ -56,6 +56,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Bijgevoegde bestanden

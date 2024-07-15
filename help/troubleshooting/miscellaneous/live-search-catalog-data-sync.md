@@ -23,24 +23,24 @@ Dit artikel biedt oplossingen voor het Adobe Commerce-probleem waarbij de catalo
 
 De catalogusgegevens worden niet correct gesynchroniseerd of er is een nieuw product toegevoegd, maar dit wordt niet weergegeven in de zoekresultaten.
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
-1. Live zoeken voor uw Adobe Commerce-instantie configureren en verbinden, zoals beschreven in [Live zoeken installeren > API-sleutels configureren](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) in onze gebruikersdocumentatie.
-1. Controleer na 30 minuten de geëxporteerde catalogusgegevens zoals beschreven in [Live zoeken installeren > Exporteren verifiëren](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) in onze gebruikersdocumentatie.
-1. Test na 30 minuten de verbinding zoals beschreven in [Live zoeken installeren > De verbinding testen](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) in onze gebruikersdocumentatie.
+1. Vorm en verbind Levende Onderzoek voor uw instantie van Adobe Commerce zoals die in [ wordt beschreven installeer Levende Onderzoek > vormen API sleutels ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) in onze gebruikersdocumentatie.
+1. Na 30 minuten, verifieer de uitgevoerde catalogusgegevens zoals die in [ worden beschreven installeer Levende Onderzoek > verifieer de uitvoer ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) in onze gebruikersdocumentatie.
+1. Na 30 minuten, test de verbinding zoals die in [ wordt beschreven installeer Levende Onderzoek > test de verbinding ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) in onze gebruikersdocumentatie.
 
 of
 
 1. Voeg een nieuw product toe aan de catalogus.
 1. Probeer een zoekquery uit te voeren met de productnaam of andere doorzoekbare kenmerken na 15-20 minuten van de tijd dat Magento indexer + cron zijn uitgevoerd om gegevens te synchroniseren naar back-endservice.
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
 * Geëxporteerde catalogusgegevens kunnen worden geverifieerd
 * Verbinding is gelukt
 * Nieuw product wordt weergegeven in zoekresultaten.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
 De geëxporteerde catalogus kan niet worden geverifieerd en/of de verbinding is niet tot stand gebracht omdat de API-sleutel is gewijzigd.
 
@@ -56,7 +56,7 @@ Zodra u vormt en verbindt, kan het meer dan 30 minuten voor de te creëren index
 
 Als uw productgegevens niet correct voor een specifieke SKU worden gesynchroniseerd, doe het volgende:
 
-1. Gebruik de volgende SQL-query en controleer of u de gegevens hebt die u verwacht in het dialoogvenster `feed_data` kolom. Noteer ook de `modified_at` tijdstempel.
+1. Gebruik de volgende SQL-query en controleer of u de gegevens hebt die u verwacht in de kolom `feed_data` . Noteer ook de tijdstempel van `modified_at` .
 
    ```sql
    select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
@@ -68,11 +68,11 @@ Als uw productgegevens niet correct voor een specifieke SKU worden gesynchronise
    bin/magento indexer:reindex catalog_data_exporter_products
    ```
 
-1. Als u nog steeds de juiste gegevens niet ziet, [een ondersteuningsticket maken](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Als u nog niet de correcte gegevens ziet, [ creeer een kaartje van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Tijdstempel controleren van laatste export van product
 
-1. Als u de juiste gegevens ziet in `catalog_data_exporter_products`gebruikt u de volgende SQL-query om de tijdstempel van de laatste export te controleren. Het moet na de `modified_at` tijdstempel:
+1. Als u de juiste gegevens ziet in `catalog_data_exporter_products` , gebruikt u de volgende SQL-query om de tijdstempel van de laatste export te controleren. Deze moet na het tijdstempel `modified_at` staan:
 
    ```sql
    select * from flag where flag_code = 'products-feed-version';
@@ -84,13 +84,13 @@ Als uw productgegevens niet correct voor een specifieke SKU worden gesynchronise
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. Wacht op `<>` tijd (tijd voor incrementele updates). Als uw gegevens nog steeds niet worden weergegeven, [een ondersteuningsticket maken](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Wacht op `<>` tijd (tijd voor stijgende updates). Als u nog niet uw gegevens ziet, [ creeer een kaartje van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Specifieke kenmerkcode synchroniseren
 
 Als de gegevens van uw productkenmerk niet correct zijn gesynchroniseerd voor een specifieke kenmerkcode, doet u het volgende:
 
-1. Gebruik de volgende SQL-query en controleer of u de gegevens hebt die u verwacht in het dialoogvenster `feed_data` kolom. Noteer ook de `modified_at` tijdstempel.
+1. Gebruik de volgende SQL-query en controleer of u de gegevens hebt die u verwacht in de kolom `feed_data` . Noteer ook de tijdstempel van `modified_at` .
 
    ```sql
    select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
@@ -102,13 +102,13 @@ Als de gegevens van uw productkenmerk niet correct zijn gesynchroniseerd voor ee
    bin/magento indexer:reindex catalog_data_exporter_product_attributes
    ```
 
-1. Als u nog steeds de juiste gegevens niet ziet, [een ondersteuningsticket maken](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Als u nog niet de correcte gegevens ziet, [ creeer een kaartje van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Tijdstempel controleren van laatste export van productkenmerk
 
-Als u de juiste gegevens ziet in `catalog_data_exporter_product_attributes`:
+Als u de juiste gegevens ziet in `catalog_data_exporter_product_attributes` :
 
-1. Gebruik de volgende SQL-query om de tijdstempel van de laatste export te controleren. Het moet na de `modified_at` tijdstempel.
+1. Gebruik de volgende SQL-query om de tijdstempel van de laatste export te controleren. Dit moet na het tijdstempel van `modified_at` staan.
 
    ```sql
    select * from flag where flag_code = 'product-attributes-feed-version';
@@ -120,7 +120,7 @@ Als u de juiste gegevens ziet in `catalog_data_exporter_product_attributes`:
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. Wacht 15-20 minuten (tijd voor incrementele updates). Als uw gegevens nog steeds niet worden weergegeven, gelieve [een ondersteuningsticket maken](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Wacht 15-20 minuten (tijd voor incrementele updates). Als u nog niet uw gegevens ziet, gelieve [ een kaartje van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) creëren.
 
 ### Synchroniseren na wijziging van API-configuratie
 
@@ -133,4 +133,4 @@ bin/magento saas:resync --feed productattributes
 
 ## Gerelateerde lezing
 
-Zie [Live zoeken aan boord](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) in onze gebruikersdocumentatie.
+Zie [ Levende Onderzoek van de Bord ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) in onze gebruikersdocumentatie.

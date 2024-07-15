@@ -13,46 +13,55 @@ ht-degree: 0%
 
 # MDVA-40134: GraphQL retourneert geen verwante producten als gedeelde catalogus is ingeschakeld
 
-De MDVA-40134-patch verhelpt het probleem dat GraphQL geen verwante producten retourneert wanneer de gedeelde catalogus is ingeschakeld. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is geïnstalleerd. De patch-id is MDVA-40134. De kwestie is opgelost in Adobe Commerce 2.4.3.
+De MDVA-40134-patch verhelpt het probleem dat GraphQL geen verwante producten retourneert wanneer de gedeelde catalogus is ingeschakeld. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 geïnstalleerd is. De patch-id is MDVA-40134. De kwestie is opgelost in Adobe Commerce 2.4.3.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 Adobe Commerce (alle implementatiemethoden) 2.4.2-p1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 Adobe Commerce (alle implementatiemethoden) 2.4.2-p1 - 2.4.2-p2
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 GraphQL retourneert geen verwante producten wanneer de gedeelde catalogus is ingeschakeld.
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 B2B-modules moeten worden geïnstalleerd.
 Het exemplaar moet schoon zijn met alleen de monstergegevens.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Ga naar **Winkels** > **Configuratie** > **Algemeen** > **B2B-functies** en **Bedrijf en gedeelde catalogus**.
-1. Ga naar **Catalogus** > **Gedeelde catalogus** en alle producten aan de **Algemene catalogus**.
+1. Ga naar **Opslag** > **Configuratie** > **Algemeen** > **B2B eigenschappen** en laat **Bedrijf en Gedeelde Catalogus** toe.
+1. Ga naar **Catalogus** > **Gedeelde Catalogus** en voeg alle producten aan de **Algemene Catalogus** toe.
 1. Gebruik de voorbeeldgegevens en wijzig de joust Duffle Bag (SKU 24-MB01).
-1. Onder **Verwante producten** de twee duffelzakken (ID 7 en 13).
-1. Een **Post** verzoek:
+1. Onder **Verwante Producten**, voeg de twee Dubbele zakken (identiteitskaart 7 en 13) toe.
+1. Verzend a **Post** verzoek:
 
-<pre>{ products(filter: {sku: {eq: "24-MB01"}, sort: {name: ASC}) { items { related_products { uid name } } } }</pre>
+<pre>{
+  products(filter: {sku: {eq: "24-MB01"}, sort: {name: ASC}) {
+    items {
+      related_products {
+        uid
+        name
+      }
+    }
+  }
+}</pre>
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Verwante producten worden weergegeven in de reactie van GraphQL.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Gebruikers krijgen de volgende fout:
 
@@ -62,14 +71,14 @@ Gebruikers krijgen de volgende fout:
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [Patches beschikbaar in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar [ die flarden beschikbaar in QPT ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.

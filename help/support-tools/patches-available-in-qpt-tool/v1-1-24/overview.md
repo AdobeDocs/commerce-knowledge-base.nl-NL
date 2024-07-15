@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.24'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.24.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.24'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.1.24 worden bevestigd.
 exl-id: 7c296124-c9ae-4b7c-b711-fc39741cabe2
 feature: Tools and External Services
 role: Admin
@@ -11,23 +11,23 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht versie 1.1.24
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.1.24
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.24.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.24.
 
 QPT v1.1.24 bevat de volgende patches:
 
-1. **ACSD-45168**: Hiermee wordt het probleem verholpen waarbij geen SEO-vriendelijke URL&#39;s worden gegenereerd voor producten die *url_key* worden genegeerd op winkelweergaveniveau.
-1. **ACSD-46617**: Hiermee wordt het probleem opgelost waarbij de **[!UICONTROL Continue to Checkout]** de knoop wordt grijs uit zelfs als subtotaal groter is dan gevormd *Minimumbedrag bestelling*.
-1. **ACSD-46770**: Hiermee wordt het probleem verholpen waarbij e-mails met bestellingen voor beheerders worden verzonden, zelfs als de *E-mailorderbevestiging* is uitgeschakeld.
-1. **ACSD-46865**: Hiermee wordt het probleem opgelost waarbij de [!UICONTROL Shipment and Credit Memo] Het raster wordt niet gevuld wanneer asynchrone indexering is ingeschakeld.
-1. **ACSD-47004**: Hiermee wordt de kwestie opgelost waarbij btw niet wordt toegepast op een factuuradres zonder BTW-identificatienummer.
-1. **ACSD-47079**: Hiermee wordt het probleem opgelost waarbij de status van samengestelde producten (bundel, groep en configureerbaar) niet wordt bijgewerkt wanneer de status van de voorraad van subproducten verandert via REST API-POST /rest/V1/voorraad/bron-items.
-1. **ACSD-47137**: verbetert de laadsnelheid van de afbeeldingsgalerie wanneer de map pub/media erg groot is.
-1. **ACSD-47336**: correcties *Er is iets misgegaan.* fout bij het negeren van meldingen in Commerce Admin.
-1. **ACSD-47559**: Hiermee wordt het probleem verholpen waarbij het gebied Voorvertoning e-mailsjabloon niet volledig zichtbaar is.
-1. **ACSD-47803**: Hiermee wordt het probleem verholpen waarbij naar behoren configureerbare productstalen worden weergegeven als beschikbaar.
-1. **ACSD-47920**: Hiermee wordt het probleem verholpen waarbij bestellingen via de Rest API als gastgebruiker kunnen worden geplaatst, zelfs als de *Uitchecken door gasten toestaan* is uitgeschakeld.
-1. **ACSD-4795**: Hiermee wordt het probleem verholpen waarbij GraphQL de kaartkorting niet correct weergeeft.
+1. **ACSD-45168**: Verhelpt de kwestie waar SEO-vriendelijke URLs niet voor producten wordt geproduceerd die *url_key* attributen hebben op store-view niveau met voeten worden getreden.
+1. **ACSD-46617**: Bevestigt de kwestie waar de **[!UICONTROL Continue to Checkout]** knoop uit grijs is zelfs als subtotal groter is dan het gevormde *Minimale Bedrag van de Orde*.
+1. **ACSD-46770**: Bevestigt de kwestie waar de orde admin e-mails worden verzonden zelfs wanneer de *bevestiging van de E-mailorde* wordt ongecontroleerd.
+1. **ACSD-46865**: Verhelpt de kwestie waar het [!UICONTROL Shipment and Credit Memo] net niet bevolkt is wanneer het asynchrone indexeren wordt toegelaten.
+1. **ACSD-47004**: Verhelpt de kwestie waar de BTW niet op een factureringsadres zonder een identiteitskaart van de BTW wordt toegepast.
+1. **ACSD-47079**: Bevestigt de kwestie waar de samengestelde producten (bundel, gegroepeerde, en configureerbare) voorraadstatus niet worden bijgewerkt wanneer de status van de sub-productvoorraad via de POST /rest/V1/voorraad/bron-punten van de REST API verandert.
+1. **ACSD-47137**: verbetert de ladingssnelheid van de beeldgalerie wanneer de pub/media omslag zeer groot is.
+1. **ACSD-47336**: De moeilijke situaties *gingen het Iets fout.* fout bij het negeren van meldingen in Commerce Admin.
+1. **ACSD-47559**: Verhelpt de kwestie waar het gebied van het Malplaatje van de Voorproef E-mail niet volledig zichtbaar is.
+1. **ACSD-47803**: Verhelpt de kwestie waar de uit-van-voorraad configureerbare productmonsters zoals beschikbaar worden getoond.
+1. **ACSD-47920**: Bevestigt de kwestie waar de orden via Rest API als gastgebruiker kunnen worden geplaatst zelfs wanneer *Gast Afhandeling van de Gast* wordt toegelaten uitgezet.
+1. **ACSD-47955**: Verhelpt de kwestie waar GraphQL de wortelkorting niet correct toont.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

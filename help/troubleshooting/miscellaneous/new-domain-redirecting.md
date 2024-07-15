@@ -25,19 +25,19 @@ Het nieuwe domein wordt omgeleid naar het standaarddomein in de huidige omgeving
 
 ## Oorzaak
 
-Dit gebeurt wanneer de variabelen niet worden bijgewerkt na het toevoegen van een nieuw domein of het verkeerde domein. [!DNL Fastly] de dienst is gevormd in het milieu.
+Dit gebeurt wanneer de Variabelen niet worden bijgewerkt nadat een nieuw domein is toegevoegd of wanneer de verkeerde [!DNL Fastly] -service in de omgeving is geconfigureerd.
 
 ## Oplossing
 
-1. Als het domein binnen het zelfde milieu opnieuw richt, zorg ervoor dat u hebt gevormd [Variabelen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables).
-1. Als het domein aan een ander milieu opnieuw richt, controleer of u het correcte hebt gevormd [!DNL Fastly] de dienst door het volgende bevel in werking te stellen: `bin/magento fastly:conf:get -s`
+1. Als het domein binnen het zelfde milieu opnieuw richt, zorg ervoor dat u de [ Variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables) hebt gevormd.
+1. Als het domein naar een andere omgeving omleidt, controleert u of u de juiste [!DNL Fastly] -service hebt geconfigureerd door de volgende opdracht uit te voeren: `bin/magento fastly:conf:get -s`
 
 >[!NOTE]
 >
->U kunt de [!DNL Fastly] API-referenties door u aan te melden bij elke omgeving (Staging/Productie) en de `/mnt/shared/fastly_tokens.txt` bestand. Zie voor meer informatie [vormen [!DNL Fastly] diensten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in de Commerce on Cloud Infrastructure Guide.
+>U kunt de [!DNL Fastly] API-referenties vinden door u aan te melden bij elke omgeving (Staging/Productie) en het `/mnt/shared/fastly_tokens.txt` -bestand te controleren. Voor meer informatie, zie [  [!DNL Fastly]  de diensten ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in Commerce op de Gids van de Infrastructuur van de Wolk vormen.
 
 Als beide bovenstaande configuraties correct zijn, dient u een ondersteuningsticket in.
 
 ## Gerelateerde lezing
 
-* [Controlelijst voor het instellen van een nieuw domein](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html) in onze kennisbasis voor ondersteuning.
+* [ Checklist voor vestiging een nieuw domein ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html) in onze basis van de steunkennis.

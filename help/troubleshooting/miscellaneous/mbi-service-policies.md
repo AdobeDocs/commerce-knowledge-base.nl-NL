@@ -1,6 +1,6 @@
 ---
-title: Beleid van de inlichtingendienst van Adobe Commerce
-description: Bij Commerce Intelligence is het ons doel om een fantastische klantenservice te bieden, uw gegevens te beschermen en u de kennis te geven die u nodig hebt om gegevensgestuurde beslissingen te nemen.
+title: Adobe Commerce Intelligence-servicebeleid
+description: In Commerce Intelligence is het ons doel de stellige klantenservice te bieden, uw gegevens te beschermen en u de kennis te geven die u nodig hebt om gegevensgestuurde beslissingen te nemen.
 exl-id: 2e1ef4b3-a77c-4281-8337-fb90574a44f7
 feature: Commerce Intelligence, User Account
 role: Developer
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Beleid van de inlichtingendienst van Adobe Commerce
+# Adobe Commerce Intelligence-servicebeleid
 
-Bij Commerce Intelligence is het ons doel om een fantastische klantenservice te bieden, uw gegevens te beschermen en u de kennis te geven die u nodig hebt om gegevensgestuurde beslissingen te nemen.
+In Commerce Intelligence is het ons doel de stellige klantenservice te bieden, uw gegevens te beschermen en u de kennis te geven die u nodig hebt om gegevensgestuurde beslissingen te nemen.
 
 ## Wat kan uw ondersteuningsteam doen?
 
@@ -38,16 +38,16 @@ Hoewel we deze handelingen niet namens u kunnen uitvoeren, zijn we meer dan bere
 * Factureringsgegevens invoeren of wijzigen
 * [Het delen van dashboards met andere gebruikers](/docs/commerce-business-intelligence/mbi/build/dashboards/share-dashboard-with-users.html?lang=en)
 * Gegevensverbindingen en serverdetails bespreken, maken of wijzigen
-* Functies op beheerniveau uitvoeren voor gebruikers met de standaardkwaliteit of alleen-lezen (bijvoorbeeld [metriek toevoegen/bewerken](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-metrics.html))
+* Het uitvoeren van Admin-vlakke functies voor Standaard of read-only gebruikers (b.v. [ toevoegend/het uitgeven metriek ](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-metrics.html))
 * Het onthullen van rekeningsdetails - bijvoorbeeld, rapporten of het factureren informatie - over binnenkomende telefoongesprekken. We volgen een geregistreerd e-mailadres.
 
 Naast de hierboven vermelde functies voor gegevensbeveiliging zijn er enkele productgerelateerde verzoeken die ons supportteam niet kan verwerken:
 
-* **SQL onderwijzen** - Wilt u de SQL-Report Builder gebruiken, maar kent u SQL niet? Geen zorgen - we hebben een [zelfstudie](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) om u te helpen bij de basisbeginselen.
+* **het Onderwijzen SQL** - wil de SQL Report Builder gebruiken, maar u kent SQL niet? Geen zorgen - wij zetten een [ zelfstudie ](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) samen om u met de grondbeginselen te helpen.
 
-* **SQL-visualisatieproblemen die niet worden veroorzaakt door productfouten** - Als er een grafiek opwaait die er een beetje eigenaardig uitziet **is niet** veroorzaakt door een productgebrek, is het waarschijnlijk dat de oorzaak de vraag zelf is. Kijk eens naar onze [Visualisaties maken op basis van de zelfstudie SQL-query&#39;s](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) in onze gebruikershandleiding voor hulp bij het structureren van uw vragen voor visualisatie.
-* **Fouten opsporen in SQL-query&#39;s** - Van tijd tot tijd, kunt u niet-EXPLAIN fouten ontmoeten die uw vraag verhinderen in werking te stellen. We raden u aan te verwijzen naar de [Commerce Intelligence User Guide: de SQL-Report Builder gebruiken](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) en onze SQL-zelfstudie voor hulp bij het bepalen waar de query fout ging.
+* **SQL visualisatieproblemen die niet door productgebreken** worden veroorzaakt - als een grafiek omhoog kijkt die een weinig eigenaardig kijkt en het **niet** door een productgebrek wordt veroorzaakt, is het waarschijnlijk dat de oorzaak de vraag zelf is. Neem een blik bij ons [ Creërend visualisaties van SQL vragen leerprogramma ](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) in onze gebruikersgids voor begeleiding op hoe te om uw vragen voor visualisatie te structureren.
+* **het Zuiveren SQL vragen** - van tijd tot tijd, kunt u niet-EXPLAIN fouten ontmoeten die uw vraag van het lopen houden. Wij adviseren die naar de [ Gids van de Gebruiker van Commerce Intelligence verwijzen: Gebruikend de SQL Report Builder ](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) en ons SQL leerprogramma voor hulp die waar de vraag verkeerd ging aanwijzen.
 
 ## Hoe dien ik een ticket in?
 
-U kunt [een ticket verzenden](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) aan ons ondersteuningsteam door op de knop **Een ticket verzenden** aan de bovenkant van de pagina. We raden aan om uit te checken [Informatie in uw ondersteuningsticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#info-in-support-ticket) voordat u ons oproept om ervoor te zorgen dat alle noodzakelijke informatie in uw eerste bijdrage is opgenomen.
+U kunt [ een kaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) aan ons team van de Steun voorleggen door **te klikken legt een kaartje** verbinding bij de bovenkant van de pagina voor. Wij adviseren controlerend uit [ Informatie in uw steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#info-in-support-ticket) alvorens u naar ons rekt om ervoor te zorgen alle noodzakelijke informatie in uw aanvankelijke voorlegging is.

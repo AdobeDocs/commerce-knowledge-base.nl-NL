@@ -23,18 +23,18 @@ Dit artikel bevat een patch voor de Adobe Commerce 2.4.5-uitgave, waarbij een Ad
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. De kernintegratie van de Braintree wordt gebruikt (**Winkels** > **Configuraties** > **Verkoop** > **Betalingsmethode** > **Braintree**).
+1. De integratie van de kern Braintree wordt gebruikt (**slaat** > **Configuraties** > **Verkoop** > **de Methode van de Betaling** > **Braintree**) op.
 1. Plaats een bestelling met Luma Storefront.
 1. Ga naar Admin UI > **Verkoop**.
-1. Probeer een nieuwe bestelling voor een klant te maken of ga naar een eerder geplaatste bestelling en klik op **Opnieuw**.
+1. Of probeer om een nieuwe orde voor een klant tot stand te brengen, of naar een eerder geplaatste orde te gaan en op **te klikken herordent**.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Gebruikers met beheerdersrechten kunnen met succes bestellingen en opnieuw bestellingen voor klanten maken wanneer de betalingsmethode voor Braintreeën is ingeschakeld.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Gebruikers met beheerdersrechten kunnen geen orders maken of orders opnieuw ordenen voor klanten als de betalingsmethode voor Braintreeën is ingeschakeld en de volgende fout wordt geretourneerd:
 
@@ -58,7 +58,7 @@ De patch is aan dit artikel gekoppeld. Klik op de volgende koppeling om deze te 
 
 >[!NOTE]
 >
->Daarnaast voor Adobe Commerce op producten met cloudinfrastructuur: Adobe heeft de oplossing opgenomen in de cloudpatches voor Commerce versie 1.0.18. Zie [Cloudpatches voor Commerce-releaseopmerkingen](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html) in onze ontwikkelaarsdocumentatie om instructies te vinden over het toepassen van het recentste pakket.
+>Daarnaast voor Adobe Commerce op producten met cloudinfrastructuur: Adobe heeft de oplossing opgenomen in de cloudpatches voor Commerce versie 1.0.18. Gelieve te verwijzen naar [ de versienota&#39;s van de Huur van de Wolk voor de versie van Commerce ](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html) in onze ontwikkelaarsdocumentatie om instructies te vinden bij het toepassen van het recentste pakket.
 
 ### Compatibele Adobe Commerce-versies:
 
@@ -74,4 +74,4 @@ De patch is gemaakt voor:
 
 ## Hoe de pleister aanbrengen
 
-Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze basis van steunkennis voor instructies wordt verstrekt.

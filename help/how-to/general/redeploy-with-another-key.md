@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Dit artikel bevat instructies voor het opnieuw implementeren van Adobe Commerce op cloudinfrastructuur met verschillende verificatietoetsen. U hebt bijvoorbeeld mogelijk de toetsen voor een ander account gebruikt of u hebt Magento Open Source-toetsen gebruikt in plaats van Adobe Commerce-toetsen.
 
-Als u de onjuiste toetsen hebt gebruikt, mislukt de implementatie. Om terug te krijgen, moet u het project klonen, voeg de correcte sleutels aan toe `auth.json`en duw op de verandering in de hoofdtak.
+Als u de onjuiste toetsen hebt gebruikt, mislukt de implementatie. Als u wilt herstellen, moet u het project klonen, de juiste toetsen aan `auth.json` toevoegen en de wijziging doorvoeren in de hoofdvertakking.
 
-In dit artikel gaan we ervan uit dat uw project een `master` alleen vertakking (`master` is de standaardvertakking wanneer u eerst een project) creeert.
+In dit artikel, veronderstellen wij dat uw project een `master` tak slechts heeft (`master` is de standaardtak wanneer u eerst een project creeert).
 
 Opnieuw implementeren met de juiste verificatietoetsen:
 
@@ -27,14 +27,14 @@ Opnieuw implementeren met de juiste verificatietoetsen:
    magento-cloud login
    ```
 
-1. Een vertakking maken om de code met de naam bij te werken `auth`:
+1. Maak een vertakking om de code bij te werken met de naam `auth` :
 
    ```
    magento-cloud environment:branch auth master
    ```
 
 1. Verandering in de folder van de projectwortel.
-1. Openen `auth.json` in een teksteditor.
+1. Open `auth.json` in een teksteditor.
 
    ```json
    {
@@ -65,4 +65,4 @@ Opnieuw implementeren met de juiste verificatietoetsen:
 
 1. Wacht tot de implementatie is voltooid.
 
-De berichten wijzen erop of de plaatsing succesvol was. U kunt een geslaagde implementatie bevestigen door naar een van de **Omgevingsroutes** weergegeven op uw scherm.
+De berichten wijzen erop of de plaatsing succesvol was. U kunt een succesvolle plaatsing bevestigen door naar één van de **routes van het Milieu** te gaan die op uw scherm worden getoond.

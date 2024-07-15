@@ -29,5 +29,5 @@ Nadat u het gereedschap hebt geïnstalleerd, kunt u controleren op beschikbare p
 
 Raadpleeg de documentatie van onze ontwikkelaar voor meer informatie:
 
-* [Patches beschikbaar in het gereedschap Kwaliteitspatches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
-* [Opmerkingen bij de release Quality Patches Tool](https://devdocs.magento.com/quality-patches/release-notes.html)
+* [ Patches beschikbaar in het Hulpmiddel van de Patches van de Kwaliteit ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
+* [ de versienota&#39;s van het Hulpmiddel van de Patches van de Kwaliteit ](https://devdocs.magento.com/quality-patches/release-notes.html)

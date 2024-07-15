@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Kan niet opslaan *contact* als URL-sleutel
+# Kan *contact* niet opslaan als sleutel URL
 
-Dit artikel biedt een oplossing voor het probleem wanneer u het niet kunt opslaan *contact* als een URL-sleutel (bijvoorbeeld &quot;/contact&quot;) voor producten of CMS-pagina&#39;s.
+Dit artikel verstrekt een tijdelijke oplossing voor de kwestie wanneer u *contact* niet als sleutel URL (b.v., &quot;/contact&quot;) voor producten of CMS pagina&#39;s kunt bewaren.
 
 ## Betrokken producten en versies
 
@@ -21,23 +21,23 @@ Adobe Commerce (alle implementatiemethoden) 2.4.x
 
 ## Probleem
 
-U kunt een product of CMS-pagina niet opslaan met de term *contact* als URL-sleutel. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
+U kunt geen product of een pagina opslaan CMS gebruikend de termijn *contact* als sleutel URL. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-Een CMS-pagina maken met *contact* als URL-sleutel.
+Creeer een CMS pagina met *contact* als sleutel URL.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
-De pagina wordt opgeslagen met *contact* als URL-sleutel.
+De pagina wordt bewaard met *contact* als sleutel URL.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-U kunt de pagina niet opslaan. De fout wordt weergegeven: *Met de waarde die u opgeeft in het veld URL-sleutel, wordt een bestaande URL gegenereerd.*
+U kunt de pagina niet opslaan. U krijgt de fout: *de waarde die op het Zeer belangrijke gebied wordt gespecificeerd URL zou een URL produceren die reeds bestaat.*
 
 ## Oorzaak
 
-*Contact* is een gereserveerd woord dat is gedefinieerd in `vendor/magento/module-contact/view/frontend/layout/contact_index_index.xml`.
+*Contact* is een gereserveerd woord dat in `vendor/magento/module-contact/view/frontend/layout/contact_index_index.xml` wordt bepaald.
 
 ```xml
 <router id="standard">
@@ -49,19 +49,19 @@ U kunt de pagina niet opslaan. De fout wordt weergegeven: *Met de waarde die u o
 
 ## Oplossing
 
-U kunt de term niet gebruiken *contact* als URL-sleutel kunt u echter de term *contact* gecombineerd met een andere letter of een ander getal (bijvoorbeeld *contact1* en *contact2*). Hoewel de term niet hoeft te worden gebruikt *contact+\&lt;another number=&quot;&quot; or=&quot;&quot; letter=&quot;&quot;>* kan de term een willekeurige tekenreeks zijn, zolang de lengte niet meer dan 255 tekens bedraagt.
+U kunt niet het term *contact* als uw sleutel gebruiken URL, echter, kunt u het term *contact* gebruiken gecombineerd met een andere brief of een aantal (bijvoorbeeld, *contact1* en *contact2*). Hoewel de termijn niet *contact+ \ &lt;een ander aantal of brief \>* moet zijn, zou de termijn om het even welk koord kunnen zijn zolang de lengte niet 255 karakters overschrijdt.
 
 Voer de volgende stappen uit:
 
 1. Meld u aan bij Commerce Admin.
-1. Ga naar **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
+1. Ga naar **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]** .
 1. Klik op **[!UICONTROL Add URL Rewrite]**.
-1. Selecteren *[!UICONTROL Custom]* op de [!UICONTROL Create URL Rewrite] vervolgkeuzelijst.
-   1. In de [!UICONTROL Request Path], typt u &quot;contact&quot;. Let erop dat de [!UICONTROL Request Path] is wat een gebruiker in browser en [!UICONTROL Target Path] is waar het moet worden omgeleid naar.
-   1. In de [!UICONTROL Target Path]Typ de nieuwe URL-sleutel (bijvoorbeeld &quot;contact1&quot;).
-   1. Selecteren *[!UICONTROL No]* in de [!UICONTROL Redirect] vervolgkeuzelijst.
+1. Selecteer *[!UICONTROL Custom]* in de vervolgkeuzelijst [!UICONTROL Create URL Rewrite] .
+   1. Typ in [!UICONTROL Request Path] &quot;contact&quot;. De instructie [!UICONTROL Request Path] is de instructie die een gebruiker in de browser invoert en de instructie [!UICONTROL Target Path] is de locatie waarnaar de gebruiker moet omleiden.
+   1. Typ in de [!UICONTROL Target Path] de nieuwe URL-sleutel (bijvoorbeeld &quot;contact1&quot;).
+   1. Selecteer *[!UICONTROL No]* in de vervolgkeuzelijst [!UICONTROL Redirect] .
 
 ## Gerelateerde lezing
 
-* [URL herschrijft](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in onze gebruikershandleiding.
-* [SEO Best practices](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in onze gebruikershandleiding.
+* [ URL herschrijft ](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in onze gebruikersgids.
+* [ SEO Beste praktijken ](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in onze gebruikersgids.

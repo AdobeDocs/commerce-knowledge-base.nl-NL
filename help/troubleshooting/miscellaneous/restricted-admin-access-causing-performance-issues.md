@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Beperkte toegang tot beheerder leidt tot prestatieproblemen
 
-Dit artikel biedt oplossingen voor situaties waarin de prestaties negatief worden beïnvloed door het gebruik [Beheerdersrollen met rolbereik beperkt door website](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) in onze gebruikershandleiding.
+Dit artikel verstrekt oplossingen voor wanneer de prestaties negatief worden beïnvloed door [ rollen Admin met rolwerkingsgebied te gebruiken dat door website ](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) in onze gebruikersgids wordt beperkt.
 
 ## Betrokken producten en versies
 
@@ -30,10 +30,10 @@ Het probleem is opgelost in Adobe Commerce 2.2.10 en 2.3.3.
 
 Hieronder vindt u opties om dit probleem te voorkomen:
 
-* Voer een upgrade uit van de Adobe Commerce-toepassingsversie naar 2.2.10 of 2.3.3. (zie voor instructies de [Adobe Commerce upgraden op versie van cloudinfrastructuur](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) in onze ontwikkelaarsdocumentatie).
+* Voer een upgrade uit van de Adobe Commerce-toepassingsversie naar 2.2.10 of 2.3.3. (voor instructies, zie de [ Verbetering Adobe Commerce op versie van de wolkeninfrastructuur ](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) in onze ontwikkelaarsdocumentatie).
 * Beperk indien mogelijk het bereik van de beheerdersrol niet per website.
-* [Een ondersteuningsticket voor Magento&#39;s verzenden](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), om een pleister aan te vragen, als deze beschikbaar is.
+* [ leg een kaartje van de Steun van het Magento ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor, om een flard te verzoeken, als het beschikbaar is.
 
 ## Gerelateerde lezing
 
-* [Gebruikersrollen](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html) in onze gebruikershandleiding.
+* [ de rollen van de Gebruiker ](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html) in onze gebruikersgids.

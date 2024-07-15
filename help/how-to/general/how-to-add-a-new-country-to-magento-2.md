@@ -14,7 +14,7 @@ ht-degree: 0%
 
 In dit artikel wordt uitgelegd hoe u een land toevoegt dat niet aanwezig is in Adobe Commerce en de Landbibliotheek van Zend. Hiervoor zijn code- en databasewijzigingen vereist die klantaanpassingen volgens de toepasselijke bepalingen van de overeenkomst vormen. De voorbeeldmaterialen die in dit artikel zijn opgenomen, worden zonder enige garantie geleverd. Noch Adoben, noch verbonden entiteiten zijn verplicht om deze materialen te onderhouden, te corrigeren, bij te werken, te wijzigen, te wijzigen of anderszins te ondersteunen. Hier zullen we de grondbeginselen beschrijven van wat er gedaan moet worden om dit te bereiken.
 
-In dit voorbeeld maken we een nieuwe Adobe Commerce-module met een gegevenspatch die wordt toegepast bij de installatie of upgrade van Adobe Commerce en voegen we een Abstract land toe met de landcode XX bij Adobe Commerce. De [Adobe Commerce Directory](https://developer.adobe.com/commerce/php/module-reference/module-directory/) bouwt een aanvankelijke landlijst en dan gebruikt het de Patches van de Opstelling om gebieden aan die lijst toe te voegen. In dit artikel wordt uitgelegd hoe u een nieuwe module maakt die een nieuw land aan de lijst toevoegt. U kunt de code van de bestaande Adobe Commerce Directory-module ter referentie controleren. Dit is omdat de volgende voorbeeldmodule de modulebaan van de Folder voortzet om een lijst van landen en gebieden te bouwen, en delen van de code van de de modulefbeeldingen van de Opstelling van de Folder van Adobe Commerce opnieuw gebruikt.
+In dit voorbeeld maken we een nieuwe Adobe Commerce-module met een gegevenspatch die wordt toegepast bij de installatie of upgrade van Adobe Commerce en voegen we een Abstract land toe met de landcode XX bij Adobe Commerce. De [ Folder van Adobe Commerce ](https://developer.adobe.com/commerce/php/module-reference/module-directory/) bouwt een aanvankelijke landlijst en dan gebruikt het Patches van de Opstelling om gebieden aan die lijst toe te voegen. In dit artikel wordt uitgelegd hoe u een nieuwe module maakt die een nieuw land aan de lijst toevoegt. U kunt de code van de bestaande Adobe Commerce Directory-module ter referentie controleren. Dit is omdat de volgende voorbeeldmodule de modulebaan van de Folder voortzet om een lijst van landen en gebieden te bouwen, en delen van de code van de de modulefbeeldingen van de Opstelling van de Folder van Adobe Commerce opnieuw gebruikt.
 
 ## Aanbevolen documentatie
 
@@ -22,10 +22,10 @@ U moet vertrouwd zijn met de ontwikkeling van de Adobe Commerce-module om een ni
 
 Raadpleeg de volgende onderwerpen in de documentatie voor ontwikkelaars voordat u een nieuwe module gaat maken:
 
-* [PHP-ontwikkelaarsgids](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
-* [Overzicht van module](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)
-* [Een nieuwe module maken](https://devdocs.magento.com/videos/fundamentals/create-a-new-module/)
-* [Moduleconfiguratiebestanden](https://devdocs.magento.com/guides/v2.4/config-guide/config/config-files.html)
+* [ PHP Gids van de Ontwikkelaar ](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
+* [ Overzicht van de Module ](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)
+* [ creeer een Nieuwe Module ](https://devdocs.magento.com/videos/fundamentals/create-a-new-module/)
+* [ de configuratiedossiers van de Module ](https://devdocs.magento.com/guides/v2.4/config-guide/config/config-files.html)
 
 ## Vereiste informatie
 
@@ -35,20 +35,34 @@ Een nieuw land moet in heel Adobe Commerce een unieke naam, land-id, ISO2- en IS
 
 In dit voorbeeld gaan we een nieuwe module maken met de naam \&quot;Extracountries\&quot; met de volgende directorystructuur:
 
-(Zie voor meer informatie over de modulestructuur [Overzicht van module](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html) in onze ontwikkelaarsdocumentatie).
+(Om meer over de modulestructuur te weten te komen, zie [ Overzicht van de Module ](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html) in onze ontwikkelaarsdocumentatie).
 
 <pre><ExtraCountries>
  |
  <etc>
- | | | config.xml | di.xml | module.xml |
+ | |
+ | config.xml
+ | di.xml
+ | module.xml
+ |
  <Plugin>
- | | | <Framework>
- | | |   <Locale>
- | | | TranslatedListsPlugin.php |
+ | |
+ | <Framework>
+ |   |
+ |   <Locale>
+ |     |
+ |     TranslatedListsPlugin.php
+ |
  <Setup>
- | | | <Patch>
- | | |   <Data>
- | | | AddDataForAbstractCountry.php | composer.json registration.php</pre>
+ | |
+ | <Patch>
+ |   |
+ |   <Data>
+ |     |
+ |     AddDataForAbstractCountry.php
+ |
+ composer.json
+ registration.php</pre>
 
 >[!NOTE]
 >
@@ -58,10 +72,10 @@ In dit voorbeeld gaan we een nieuwe module maken met de naam \&quot;Extracountri
 
 Er wordt een nieuwe moduleconfiguratie gedefinieerd in dit XML-bestand. De volgende configuraties en tags kunnen worden bewerkt om de standaardinstellingen voor het nieuwe land aan te passen.
 
-* `allow` - Als u het nieuwe toegevoegde land standaard wilt toevoegen aan de lijst &quot;Landen toestaan&quot;, voegt u de nieuwe landcode toe aan het einde van de `allow` taginhoud. Landcodes worden gescheiden door komma&#39;s. Met deze tag worden de gegevens van de `Directory` moduleconfiguratiebestand *Directory/etc/config.xml)* `allow` tag , daarom herhalen we hier alle codes plus de nieuwe .
-* `optional_zip_countries` - Indien de postcode voor het nieuwe toegevoegde land facultatief moet zijn, voeg de landcode toe aan het einde van de inhoud van de `optional_zip_countries` -tag. Landcodes worden gescheiden door komma&#39;s. Met deze tag worden de gegevens van de `Directory` moduleconfiguratiebestand *Directory/etc/config.xml)* `optional_zip_countries` tag , daarom herhalen we hier alle codes plus de nieuwe .
-* `eu_countries` - Als het nieuwe toegevoegde land standaard deel moet uitmaken van de lijst van landen van de Europese Unie, voegt u de landcode toe aan het einde van de inhoud van de `eu_countries` -tag. Landcodes worden gescheiden door komma&#39;s. Met deze tag worden de gegevens van de `Store` moduleconfiguratiebestand *(\_Store/etc/config.xml\_)* `eu_countries` tag , daarom herhalen we hier alle codes plus de nieuwe .
-* `config.xml` bestandsvoorbeeld
+* `allow` - Als u het nieuwe toegevoegde land standaard wilt toevoegen aan de lijst &#39;Landen toestaan&#39;, voegt u de nieuwe landcode toe aan het einde van de `allow` -tag-inhoud. Landcodes worden gescheiden door komma&#39;s. Houd er rekening mee dat met deze tag de gegevens uit het `Directory` moduleconfiguratiebestand *(Directory/etc/config.xml)* `allow` -tag worden overschreven. Daarom herhalen we hier alle codes plus de nieuwe.
+* `optional_zip_countries` - Als de postcode voor het nieuwe toegevoegde land optioneel moet zijn, voegt u de landcode toe aan het einde van de inhoud van de `optional_zip_countries` -tag. Landcodes worden gescheiden door komma&#39;s. Houd er rekening mee dat met deze tag de gegevens uit het `Directory` moduleconfiguratiebestand *(Directory/etc/config.xml)* `optional_zip_countries` -tag worden overschreven. Daarom herhalen we hier alle codes plus de nieuwe.
+* `eu_countries` - Als het nieuwe toegevoegde land standaard deel moet uitmaken van de lijst met EU-landen, voegt u de landcode toe aan het einde van de inhoud van de tag `eu_countries` . Landcodes worden gescheiden door komma&#39;s. Houd er rekening mee dat met deze tag de gegevens uit het `Store` moduleconfiguratiebestand *worden overschreven (\_Store/etc/config.xml\_)* `eu_countries` -tag. Daarom herhalen we hier alle codes plus de nieuwe.
+* `config.xml` voorbeeld van bestand
 
 ```xml
 <?xml version="1.0"?>
@@ -83,15 +97,15 @@ Er wordt een nieuwe moduleconfiguratie gedefinieerd in dit XML-bestand. De volge
 </config>
 ```
 
-Voor meer informatie over de dossiers van de moduleconfiguratie, zie [PHP Developer Guide > Define Configurations files](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html) in onze ontwikkelaarsdocumentatie.
+Voor meer informatie over de dossiers van de moduleconfiguratie, zie [ Gids van de Ontwikkelaar PHP > de dossiers van Configuraties ](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html) in onze ontwikkelaarsdocumentatie bepalen.
 
-Deze wijzigingen zijn optioneel en hebben alleen invloed op het standaardlidmaatschap van het nieuwe land op de lijsten &quot;Allow countries&quot;, &quot;Zip/Postal Code is Optional for&quot; en &quot;European Union countries&quot;. Als dit dossier van de modulestructuur wordt overgeslagen, zal een nieuw land nog worden toegevoegd, maar het zal manueel moeten vormen bij **Beheerder** > **Winkels** > *Instellingen* > **Configuratie** > **Algemeen** > **Landopties** instellingenpagina.
+Deze wijzigingen zijn optioneel en hebben alleen invloed op het standaardlidmaatschap van het nieuwe land op de lijsten &quot;Allow countries&quot;, &quot;Zip/Postal Code is Optional for&quot; en &quot;European Union countries&quot;. Als dit dossier van de modulestructuur wordt overgeslagen, zal een nieuw land nog worden toegevoegd, maar het zal manueel moeten worden gevormd bij **Admin** > **Opslag** > *Montages* > **Configuratie** > **Algemene** > **de montagespagina van de Opties van het Land 11}.**
 
 ### ExtraCountries/etc/di.xml
 
-De `di.xml` het dossier vormt welke gebiedsdelen door de objecten manager worden ingespoten. Zie <a>PHP Developer Guide > The di.xml</a> in onze ontwikkelaarsdocumentatie voor meer informatie over `di.xml`.
+Het bestand `di.xml` configureert welke afhankelijkheden door objectbeheer worden geïnjecteerd. Zie <a> Gids van de Ontwikkelaar PHP > di.xml </a> in onze ontwikkelaarsdocumentatie voor meer details over `di.xml`.
 
-In ons voorbeeld moeten we een `_TranslatedListsPlugin_` die de nieuw geïntroduceerde landcodes vertaalt in een volledige landnaam als er geen codes aanwezig zijn in de lokalisatiegegevens van de landbibliotheek van Zend.
+In ons voorbeeld moeten we een `_TranslatedListsPlugin_` registreren die de nieuw geïntroduceerde landcodes omzet in een volledige landnaam als er geen codes aanwezig zijn in de lokalisatiegegevens van de landbibliotheek van Zend.
 
 `di.xml` voorbeeld
 
@@ -109,7 +123,7 @@ In ons voorbeeld moeten we een `_TranslatedListsPlugin_` die de nieuw geïntrodu
 
 In het dossier van de moduleregistratie moeten wij het gebiedsdeel voor de module &quot;van de Folder van Adobe Commerce&quot;specificeren ervoor zorgen dat de module &quot;Extra Landen&quot;na de module van de Folder zal worden geregistreerd en worden uitgevoerd.
 
-Zie [Afhankelijkheden van modules beheren](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies) in onze ontwikkelaarsdocumentatie voor meer informatie over modulegebiedsdelen.
+Zie [ het Leiden modulegebiedsdelen ](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies) in onze ontwikkelaarsdocumentatie voor meer informatie over modulegebiedsdelen.
 
 `module.xml` voorbeeld
 
@@ -126,7 +140,7 @@ Zie [Afhankelijkheden van modules beheren](https://devdocs.magento.com/guides/v2
 
 ### ExtraCountries/Plugin/Framework/Locale/TranslatedListsPlugin.php
 
-In de `aroundGetCountryTranslation()` insteekmodule we moeten een landcode vertalen in een volledige landnaam . Dit is een vereiste stap voor landen die geen volledige naam hebben die is gekoppeld aan een nieuwe landcode in de Landbibliotheek van Zend.
+In de insteekmodule `aroundGetCountryTranslation()` moeten we een landcode omzetten in een volledige landnaam. Dit is een vereiste stap voor landen die geen volledige naam hebben die is gekoppeld aan een nieuwe landcode in de Landbibliotheek van Zend.
 
 ```php
 <?php
@@ -171,9 +185,9 @@ class TranslatedListsPlugin
 
 Deze gegevenspatch wordt uitgevoerd tijdens de installatie/upgrade van Adobe Commerce en voegt een nieuwe landrecord toe aan de database.
 
-Zie [Gegevens- en schemapatches ontwikkelen](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html) in onze ontwikkelaarsdocumentatie voor meer informatie over gegevenspatches.
+Zie [ gegevens en schemapatches ontwikkelen ](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html) in onze ontwikkelaarsdocumentatie voor meer informatie over gegevenspatches.
 
-In het onderstaande voorbeeld ziet u dat de `$data` array van de methode `apply()` bevat land-id, ISO2- en ISO3-codes voor het nieuwe land en deze gegevens worden in de database ingevoegd.
+In het onderstaande voorbeeld ziet u dat de `$data` -array van de methode `apply()` landinstellings-id-, ISO2- en ISO3-code voor het nieuwe land bevat en dat deze gegevens in de database worden ingevoegd.
 
 ```php
 <?php
@@ -252,7 +266,7 @@ class AddDataForAbstractCountry implements DataPatchInterface, PatchVersionInter
 
 ### ExtraCountries/registration.php
 
-Dit is een voorbeeld van het bestand registration.php. Voor meer informatie over moduleregistratie raadpleegt u [PHP Developer Guide > Register your component](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html) in onze ontwikkelaarsdocumentatie.
+Dit is een voorbeeld van het bestand registration.php. Om meer over moduleregistratie te weten te komen, zie [ Gids van de Ontwikkelaar PHP > registreer uw component ](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html) in onze ontwikkelaarsdocumentatie.
 
 ```php
 <?php
@@ -265,7 +279,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 Dit is een voorbeeld van het bestand composer.json.
 
-Ga voor meer informatie over composer.json naar [PHP Developer Guide > The composer.json file](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html) in onze ontwikkelaarsdocumentatie.
+Om meer over composer.json te weten te komen, zie [ Gids van de Ontwikkelaar PHP > het composer.json- dossier ](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html) in onze ontwikkelaarsdocumentatie.
 
 ```json
 {
@@ -296,8 +310,8 @@ Ga voor meer informatie over composer.json naar [PHP Developer Guide > The compo
 
 ## Module-installatie
 
-Als u wilt weten hoe u de module installeert, raadpleegt u [Modulelocaties](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations) in onze ontwikkelaarsdocumentatie.
+Om te weten te komen hoe te om de module te installeren, zie {de plaatsen van de 0} Module ](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations) in onze ontwikkelaarsdocumentatie.[
 
-Zodra de modulefolder in een correcte plaats wordt geplaatst, voer uit `bin/magento setup:upgrade` om de gegevenspatches toe te passen en de vertaalinsteekmodule te registreren.
+Nadat de moduledirectory op de juiste locatie is geplaatst, voert u `bin/magento setup:upgrade` uit om de gegevenspatches toe te passen en de vertaalinsteekmodule te registreren.
 
 Mogelijk moet u de cache van de browser opschonen om de nieuwe wijzigingen door te voeren.

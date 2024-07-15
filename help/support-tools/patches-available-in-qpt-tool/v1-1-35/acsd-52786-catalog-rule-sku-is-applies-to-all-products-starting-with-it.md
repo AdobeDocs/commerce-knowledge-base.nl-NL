@@ -1,6 +1,6 @@
 ---
-title: '"ACSD-52786: Catalogusregel *[!UICONTROL SKU is]* is van toepassing op alle producten die beginnen met de SKU'''
-description: Pas de ACSD-52786-patch toe om het Adobe Commerce-probleem op te lossen waarbij de voorwaarde van de catalogusregel geldt *[!UICONTROL SKU is]* geldt voor alle producten die beginnen met de opgegeven SKU.
+title: "ACSD-52786: De regel van de Catalogus *[!UICONTROL SKU is]* is op alle producten van toepassing die met SKU beginnen"
+description: Pas ACSD-52786 flard toe om de kwestie van Adobe Commerce te bevestigen waar de voorwaarde van de catalogusregel *[!UICONTROL SKU is]* op alle producten van toepassing is die met bepaalde SKU beginnen.
 feature: Price Rules
 role: Admin
 exl-id: af373b6c-5944-412b-a544-cc6fc3f209d3
@@ -11,59 +11,59 @@ ht-degree: 0%
 
 ---
 
-# ACSD-52786: Catalogusregel &quot;*[!UICONTROL SKU is]*&quot; is van toepassing op alle producten die beginnen met de SKU
+# ACSD-52786: De regel van de Catalogus &quot;*[!UICONTROL SKU is]*&quot;is op alle producten van toepassing die met SKU beginnen
 
-Met de ACSD-52786-patch is het probleem verholpen waarbij de voorwaarde van de catalogusregel *[!UICONTROL SKU is]* van toepassing op alle producten die beginnen met de gegeven SKU. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.35 is geïnstalleerd. De patch-id is ACSD-52786. De kwestie is opgelost in Adobe Commerce 2.4.7.
+De ACSD-52786-patch verhelpt het probleem waarbij de voorwaarde van de catalogusregel *[!UICONTROL SKU is]* van toepassing is op alle producten die beginnen met de opgegeven SKU. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.35 wordt geïnstalleerd. De patch-id is ACSD-52786. De kwestie is opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5-p1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5 - 2.4.5-p3
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Voorwaarde van catalogusregel *[!UICONTROL SKU is]* van toepassing op alle producten die beginnen met de gegeven SKU.
+De voorwaarde van de catalogusregel *[!UICONTROL SKU is]* is op alle producten van toepassing die met bepaalde SKU beginnen.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Maak twee producten, een met SKU &quot;24&quot; en een ander met SKU &quot;24-MB01&quot;.
-1. Navigeren naar **[!UICONTROL Marketing]** > **[!UICONTROL Catalog Price Rule]** > **[!UICONTROL Add New Rule]**.
+1. Navigeer naar **[!UICONTROL Marketing]** > **[!UICONTROL Catalog Price Rule]** > **[!UICONTROL Add New Rule]** .
 1. Pas de volgende voorwaarde toe:
-   * *[!UICONTROL If ** ALLES **van deze voorwaarden** TRUE **]*: *[!UICONTROL SKU is 24]*
+   * *[!UICONTROL If ** ALLE **van deze voorwaarden is WAAR** **]*: *[!UICONTROL SKU is 24]*
 1. Stel een kortingsbedrag in in handelingen.
 1. Klik op **[!UICONTROL Save and Apply]**.
 1. Cachegeheugen leegmaken.
 1. Ga naar de winkel en controleer de prijs van 24 MB01.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De catalogusregel wordt toegepast slechts op één enkel product met SKU gelijk aan 24.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Voorwaarde van catalogusregel *[!UICONTROL SKU is]* van toepassing op alle producten die beginnen met de gegeven SKU.
+De voorwaarde van de catalogusregel *[!UICONTROL SKU is]* is op alle producten van toepassing die met bepaalde SKU beginnen.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

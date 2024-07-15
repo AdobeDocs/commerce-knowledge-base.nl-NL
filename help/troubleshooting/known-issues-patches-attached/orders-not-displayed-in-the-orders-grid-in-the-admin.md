@@ -17,28 +17,28 @@ Dit artikel bevat een patch voor het bekende Adobe Commerce 2.2.1-probleem met b
 
 ## Probleem
 
-In Adobe Commerce 2.2.1 met B2B-extensie geïnstalleerd, worden bestellingen die door een geregistreerde klant in de winkel zijn gemaakt, niet weergegeven in de lijst met bestellingen in de account van de klant in Commerce Admin. In het logbestand voor foutopsporing (`./var/log/debug.log`), wordt de volgende fout geregistreerd:
+In Adobe Commerce 2.2.1 met B2B-extensie geïnstalleerd, worden bestellingen die door een geregistreerde klant in de winkel zijn gemaakt, niet weergegeven in de lijst met bestellingen in de account van de klant in Commerce Admin. In het zuivert logboek (`./var/log/debug.log`), wordt de volgende fout geregistreerd:
 
 `report.CRITICAL: You cannot define a correlation name ‘company_order’ more than once`
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 Uw winkelcatalogus bevat producten, geen Adobe Commerce-voorbeeldgegevens en de B2B-extensie is geïnstalleerd.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Navigeer naar de winkel en maak een klantenaccount.
 1. Voeg een product toe aan het winkelwagentje, voltooi de afhandeling en verzend een bestelling.
 1. Meld u aan bij de beheerder.
-1. Navigeren naar **Klanten** kies vervolgens **Alle klanten**.
-1. Voor de nieuwe klant klikt u op **Bewerken**.
-1. Klikken **Orders** in het deelvenster aan de linkerkant.
+1. Navigeer aan **Klanten,** dan kies **Alle Klanten**.
+1. Voor de pas gecreëerde klant klikt **uitgeven**.
+1. Klik **Orders** in het paneel op de linkerzijde.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 De onlangs verzonden volgorde wordt vermeld in het raster.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Het raster Orden wordt niet weergegeven. In plaats daarvan wordt een lege pagina weergegeven.
 
@@ -61,6 +61,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning, voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis, voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

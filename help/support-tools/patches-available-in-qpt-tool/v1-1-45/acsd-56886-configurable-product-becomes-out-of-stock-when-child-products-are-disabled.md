@@ -13,68 +13,68 @@ ht-degree: 0%
 
 # ACSD-56886: configureerbaar product is niet meer beschikbaar als onderliggende producten zijn uitgeschakeld
 
-De ACSD-56886-patch verhelpt het probleem waarbij het configureerbare product uit voorraad raakt als onderliggende producten worden uitgeschakeld. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is geïnstalleerd. De patch-id is ACSD-56886. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-56886-patch verhelpt het probleem waarbij het configureerbare product uit voorraad raakt als onderliggende producten worden uitgeschakeld. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 wordt geïnstalleerd. De patch-id is ACSD-56886. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5-p5
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2 - 2.4.6-p3
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 Het configureerbare product wordt uit voorraad wanneer de kindproducten worden onbruikbaar gemaakt.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Meld u aan als beheerder.
-1. Alle indexen in het dialoogvenster instellen **[!UICONTROL Update By Schedule]** -modus.
+1. Stel alle indexen in de modus **[!UICONTROL Update By Schedule]** in.
 1. Maak het volgende configureerbare product:
 
-   * Naam = *CONFIGURATIETEST 1*
-   * Kenmerk = *kleur*
+   * Naam = *CONFIGURABLE 1 VAN DE TEST*
+   * Attribuut = *kleur*
    * Waarden = *rood* en *zwart*
-   * Prijs van de **rood**  onderliggend product = *$ 100*;
-   * Prijs van het &quot;zwarte&quot; onderliggende product = *$ 200*.
+   * Prijs van het **rode** kindproduct = *$100*;
+   * Prijs van het &quot;zwarte&quot; onderliggende product = *$200*.
 
 1. Maak de volgende geplande update voor het configureerbare product:
 
-   * Begindatum = *3* minuten later.
-   * Einddatum = *5* minuten na begindatum.
-   * Productnaam = *CONFIGURABLE 1 TESTEN BEWERKT*.
-   * Schakel het dialoogvenster **rood** kinderproduct in **Configureerbaar** sectie.
+   * Datum van het begin = *3* notulen van nu.
+   * Einddatum = *5* notulen na de Datum van het Begin.
+   * De Naam van het product = *CONFIGURABLE 1 bewerkte TEST*.
+   * Maak het **rode** kindproduct in **Configurable** sectie onbruikbaar.
 
 1. Wacht op de Begindatum.
 1. Open de configureerbare productdetails op de Storefront.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-Het configureerbare product wordt weergegeven als **In voorraad** met de **Slechts 200** label.
+Het configureerbare product wordt getoond als **in Voorraad** met **zo laag zoals 200** etiket.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Het configureerbare product wordt weergegeven als **Onvoldoende voorraad**.
+Het configureerbare product wordt getoond als **uit Voorraad**.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

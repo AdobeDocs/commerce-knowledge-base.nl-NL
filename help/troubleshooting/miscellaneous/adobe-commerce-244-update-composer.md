@@ -25,18 +25,18 @@ Dit artikel biedt een oplossing om problemen met composer-plug-ins te voorkomen 
 
 Wanneer u na juli 2022 een update naar Adobe Commerce 2.4.4 of hoger uitvoert, wordt mogelijk een waarschuwing van de componist over plug-ins weergegeven.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Vereisten: Adobe Commerce 2.4.3 of eerder is geïnstalleerd.
 
-1. De upgrade starten zoals wordt beschreven in [Een upgrade uitvoeren](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html).
-1. Voer de `composer update` gebruiken om de Adobe Commerce-toepassing bij te werken.
+1. Begin de verbetering zoals die in [ wordt beschreven een verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) uitvoeren.
+1. Voer de opdracht `composer update` uit om de Adobe Commerce-toepassing bij te werken.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Upgrade is voltooid.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Installatie mislukt met een fout die lijkt op het volgende:
 
@@ -58,13 +58,13 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
 
 ## Oorzaak
 
-Na juli 2022 wijzigt Composer de standaardwaarde van de component [`allow-plugins` option](https://getcomposer.org/doc/06-config.md#allow-plugins) tot `{}` en plug-ins worden alleen geladen als dit is toegestaan.
+Na juli 2022 wijzigt Composer de standaardwaarde van de optie [`allow-plugins` ](https://getcomposer.org/doc/06-config.md#allow-plugins) in `{}` en de plug-ins worden alleen geladen als dit is toegestaan.
 
 ## Oplossing
 
 Voeg het volgende toe aan uw `composer.json` -bestand, afhankelijk van de manier waarop u Adobe Commerce hebt geïnstalleerd:
 
-* Als het project is gemaakt [met de `composer create-project` command](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage):
+* Als het project [ gebruikend het `composer create-project` bevel ](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage) is gecreeerd:
 
   ```json
   "config": {
@@ -76,7 +76,7 @@ Voeg het volgende toe aan uw `composer.json` -bestand, afhankelijk van de manier
   }
   ```
 
-* Als het project op een andere manier is gemaakt en niet `"dealerdirect/phpcodesniffer-installer"` in `"require-dev"` sectie:
+* Als het project op een andere manier is gemaakt en niet `"dealerdirect/phpcodesniffer-installer"` in `"require-dev"` -sectie heeft:
 
   ```json
   "config": {
@@ -87,4 +87,4 @@ Voeg het volgende toe aan uw `composer.json` -bestand, afhankelijk van de manier
   }
   ```
 
-Na het bijwerken van de `composer.json` bestand, voer het `composer update` en start het upgradeproces opnieuw.
+Nadat u het `composer.json` -bestand hebt bijgewerkt, voert u de opdracht `composer update` uit en start u het upgradeproces opnieuw.

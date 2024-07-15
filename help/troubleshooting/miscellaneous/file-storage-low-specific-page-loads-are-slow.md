@@ -23,7 +23,7 @@ Dit artikel biedt een oplossing voor het probleem van weinig schijfruimte die wo
 
 ## Probleem
 
-Lage schijfopslag en trage paginabelasting kunnen worden veroorzaakt door grote, rijke afbeeldingen die veel opslagruimte in `pub/media/catalog/products` en het delen van schijfruimte tussen het opvoeren en de productie, (tenzij een specifieke het opvoeren milieu wordt voorzien).
+Lage schijfopslag en trage paginabelasting kunnen worden veroorzaakt door grote, rijke afbeeldingen die veel opslagruimte gebruiken in `pub/media/catalog/products` en het delen van schijfruimte tussen ophaling en productie (tenzij een specifieke opvoeromgeving is ingericht).
 
 ## Oorzaak
 
@@ -33,8 +33,8 @@ Afbeeldingen zijn niet geoptimaliseerd om de prestaties in evenwicht te brengen 
 
 Voordat u afbeeldingen uploadt, optimaliseert en comprimeert u deze om de prestaties in evenwicht te brengen met de weergavekwaliteit. Hierdoor neemt de ruimte toe en nemen de laadtijden van de pagina af. PNG-bestanden geven kleinere afmetingen voor afbeeldingen met grote gebieden met effen kleuren. JPEG geven kleinere grootten voor alle andere zaken. Gebruik de hoogste compressie (zonder merkbare verslechtering). Dit is meestal 60-80%.
 
-Gebruiken [Snelle optimalisatie van afbeeldingen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization.html) om meer opslagefficiënte afbeeldingen te produceren.
+Het gebruik [ snelst beeldoptimalisering ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization.html) om opslag efficiëntere beelden te produceren.
 
 ## Gerelateerde lezing
 
-Ga voor meer informatie over het beheer van de schijfruimte (als u zich op Adobe Commerce bevindt in de cloud-infrastructuur) naar [Schijfruimte beheren in Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html) in de Commerce on Cloud Infrastructure Guide.
+Om over het beheren van uw schijfruimte (als u op Adobe Commerce op wolkeninfrastructuur) bent te leren zie [ schijfruimte in Adobe Commerce beheren ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html) in Commerce op de Gids van de Infrastructuur van de Wolk.

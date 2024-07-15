@@ -23,18 +23,18 @@ Dit artikel biedt een oplossing voor het geval dat uw Adobe Commerce op de opsla
 
 https: &#x200B;//mydomain.com.c.&lt;projectid>.magento.cloud/ is niet meer toegankelijk.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. Meld u aan bij uw project.
-1. Klikken **Project openen** voor een lijst van URLs en SSH.
+1. Klik **Project van de Toegang** voor een lijst van URLs en SSH.
 
-<u>Werkelijke resultaten:</u>
+<u> Ware resultaten:</u>
 
 Pagina kan niet worden geladen met de volgende fout:
 
-*NET::ERR\_CERT\_INVALID*  *TLS-waarschuwing, ongeldig certificaat (554):*
+*NET::ERR\_CERT\_INVALID* *waakzaam TLS, slecht certificaat (554):*
 
-<u>Verwachte resultaten:</u>
+<u> Verwachte resultaten:</u>
 
 Pagina is geladen.
 
@@ -47,8 +47,8 @@ Oorspronkelijke camouflage is een beveiligingsfunctie waarmee Adobe Commerce elk
 ## Oplossing
 
 * Schakel over naar https://mydomain.com/ als uw cloudsite actief is.
-* Als u een actieve site (niet-cloud) hebt, maakt u een subdomein via het domein https://mydomain.com/ `mcprod.mydomain.com` en werk uw **Basis-URL** tot *https://mcprod.mydomain.com* in plaats daarvan [de DNS naar Fastly richten](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
+* Als u een actieve plaats (niet wolk) hebt, gebruikend het https://mydomain.com/ domein, opstelling een subdomein `mcprod.mydomain.com` en werk uw **Basis URL** aan *https://mcprod.mydomain.com* in plaats daarvan bij, dan [ richt DNS aan Fastly ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
 
 ## Gerelateerde lezing
 
-[Veelgestelde vragen over het snel camoufleren van oorsprong](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) in onze kennisbasis voor ondersteuning.
+[ Snelle oorsprong het camoufleren FAQ ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) in onze basis van steunkennis.

@@ -11,56 +11,56 @@ ht-degree: 0%
 
 ---
 
-# ACSD-57003: statuswijzigingen van bestellingen naar *Voltooid* in plaats van over te schakelen op *Verwerking*
+# ACSD-57003: De statusveranderingen van de orde in *Volledige* in plaats van het veranderen in *Verwerking*
 
-De ACSD-57003-patch verhelpt het probleem waarbij de orderstatus verandert in *Voltooid* in plaats van over te schakelen op *Verwerking*. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.46 is geïnstalleerd. De patch-id is ACSD-57003. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+ACSD-57003 herstelt de flard waar de ordestatus in *Volledige* in plaats van het veranderen in *Verwerking* verandert. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.46 wordt geïnstalleerd. De patch-id is ACSD-57003. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6-p3
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-De orderstatus verandert in *Voltooid* in plaats van over te schakelen op *Verwerking* wanneer een bestelling gedeeltelijk wordt terugbetaald en gedeeltelijk wordt verzonden.
+De ordestatus verandert in *Volledig* in plaats van het veranderen in *Verwerking* wanneer een orde gedeeltelijk wordt terugbetaald en gedeeltelijk verscheept.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Creeer een orde met twee configureerbare producten.
 1. Factuur alle items.
 1. Alleen het eerste object verzenden.
-1. Een creditnota terugbetalen/maken voor alleen het verzonden object (*eerste object*).
+1. Restitueer/creeer een creditnota voor slechts het verscheepte punt (*eerste punt*).
 1. Controleer de orderstatus.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-De status van de bestelling moet in de _Verwerking_ status.
+De status van de orde zou in de _staat van de Verwerking_ moeten zijn.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Status van bestelling wijzigen in *Voltooid* nadat je een creditnota hebt gemaakt voor het gedeeltelijk verzonden object.
+De statusveranderingen van de orde in *Volledige* na het creëren van een creditnota voor gedeeltelijk verscheept punt.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

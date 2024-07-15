@@ -37,10 +37,10 @@ Om huidige configuratie en gebruikt geheugen te controleren, stel het volgende b
 redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_peak|maxmemory|evicted_keys|uptime_in_days)"
 ```
 
-De *REDIS\_PORT* en *REDIS\_HOST* variabelen kunnen worden opgehaald uit `app/etc/env.php`.
+*REDIS \_PORT* en *REDIS \_HOST* variabelen kunnen van `app/etc/env.php` worden teruggewonnen.
 
-Als uit de uitvoer van de bovenstaande query blijkt dat het percentage vrij geheugen minder dan 40% is, [een ticket verzenden naar Adobe Commerce-ondersteuning](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) verzoeken om een verhoging van de `maxmemory` instellen in Redis Server. Als de waarde van de verwijderde toetsen niet &quot;0&quot; is of als de retoucheertijd in dagen gelijk is aan 0 (wat aangeeft dat Redis vandaag is vastgelopen), moet u ook [een ticket verzenden naar Adobe Commerce-ondersteuning](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) een onderzoek en een oplossing voor dit probleem aan te vragen.
+Als de output van het runnen van de bovengenoemde vraag toont dat het percentage van vrij geheugen minder dan 40% is, [ een kaartje aan de steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen die om een verhoging van `maxmemory` verzoekt die in de Server Redis plaatst. Als de geëlimineerde sleutelwaarde niet &quot;0&quot;is of Redis omhoog tijd in dagen evenaart 0 (erop wijzend Redis vandaag) is gekrompen, zou u ook [ een kaartje aan de steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) moeten voorleggen die om een onderzoek en een moeilijke situatie voor deze kwestie verzoekt.
 
 ## Verwante lezing
 
-Meer informatie over Redis-geheugen vindt u in [Geheugenoptimalisatie opnieuw instellen](https://redis.io/topics/memory-optimization).
+Meer over Redis geheugen leren verwijs naar [ Redis Optimalisering van het Geheugen ](https://redis.io/topics/memory-optimization).

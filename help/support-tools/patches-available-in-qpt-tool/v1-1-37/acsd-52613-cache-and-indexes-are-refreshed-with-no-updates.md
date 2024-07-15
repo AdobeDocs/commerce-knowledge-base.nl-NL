@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-52613: Cache en indexen worden vernieuwd zonder updates'
-description: Pas ACSD-52613 flard toe om de kwestie van Adobe Commerce te bevestigen waar het geheime voorgeheugen en de indexen worden verfrist wanneer geen updates aan "Inventory_source"punten door worden gemaakt [!DNL REST API].
+description: Pas ACSD-52613 flard toe om de kwestie van Adobe Commerce te bevestigen waar het geheime voorgeheugen en de indexen worden verfrist wanneer geen updates aan "Inventory_source"punten door  [!DNL REST API] worden gemaakt.
 feature: REST
 role: Admin
 exl-id: 78f23fee-a48e-4ee2-bc75-e98e3dd1ac44
@@ -13,33 +13,33 @@ ht-degree: 0%
 
 # ACSD-52613: Cache en indexen worden vernieuwd, zelfs zonder updates
 
-De ACSD-52613-patch verhelpt het probleem waarbij het Adobe Commerce-probleem waarbij het cachegeheugen en de indexen worden vernieuwd wanneer er geen updates worden uitgevoerd naar `Inventory_source` objecten van [!DNL REST API]. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.37 is geïnstalleerd. De patch-id is ACSD-52613. De kwestie is opgelost in Adobe Commerce 2.4.7.
+De ACSD-52613-patch verhelpt het probleem waarbij het Adobe Commerce-probleem waarbij het cachegeheugen en de indexen worden vernieuwd wanneer er geen updates worden uitgevoerd naar `Inventory_source` -items door [!DNL REST API] . Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.37 wordt geïnstalleerd. De patch-id is ACSD-52613. De kwestie is opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6 - 2.4.7
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-De cache en de indexen worden vernieuwd wanneer er geen updates worden uitgevoerd naar `Inventory_source` objecten van [!DNL REST API].
+Cache en indexen worden vernieuwd wanneer er geen updates worden uitgevoerd naar `Inventory_source` -items door [!DNL REST API] .
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 Geïnstalleerde inventarismodules
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. De modus Ontwikkelaar veranderen in `debug.log`.
+1. Zet de modus voor ontwikkelaars om in `debug.log` .
 1. Importbestand voorbereiden met 100 producten - import.csv:
 
    ```
@@ -51,12 +51,12 @@ Geïnstalleerde inventarismodules
    ```
 
 1. Producten importeren uit `import.csv`
-1. Nieuwe voorraad en bron maken met de naam **test_stock** en **test_source**.
+1. Creeer nieuwe voorraad en bron genoemd **test_stock** en **test_source**.
 1. Wijs nieuwe voorraad aan de website toe en wijs bron aan voorraad toe.
 1. Creeer een nieuwe integratie met toegang tot allen, activeer het en kopieer-kleef de Token van de Toegang.
-1. Ga naar **Winkels** > **Configuratie** > **Services** > **Oauth** > **Consumenteninstellingen** en **Tokens van OAuth Access toestaan om te worden gebruikt als zelfstandige tokens voor toonder**.
+1. Ga naar **Opslag** > **Configuratie** > **de Diensten** > **Oauth** > **de Montages van de Consumenten** en laat **toe Tokens van de Toegang om als standalone tokens van de Drager worden gebruikt**.
 1. Maak de cache leeg.
-1. Indexeerders instellen als **Bijgewerkt volgens planning**
+1. Plaats indexeerders als **bijgewerkt door programma**
 1. API-aanvraag uitvoeren
 
    `POST ../rest/V1/inventory/source-items`
@@ -671,29 +671,29 @@ Geïnstalleerde inventarismodules
    ```
 
 1. Alle logbestanden verwijderen uit `var/log`
-1. Voer de [!DNL REST API] opnieuw aanvragen.
-1. Controleer de `var/log/debug.log`.
+1. Voer de aanvraag van [!DNL REST API] opnieuw uit.
+1. Controleer `var/log/debug.log`.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Cache moet niet worden schoongemaakt en de indexen mogen niet na de tweede run worden uitgevoerd omdat er niets is gewijzigd.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De `var/log/debug.log` bevat de gegevens die betrekking hebben op de cache.
+`var/log/debug.log` bevat de vermelding die betrekking heeft op het wissen van de cache.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

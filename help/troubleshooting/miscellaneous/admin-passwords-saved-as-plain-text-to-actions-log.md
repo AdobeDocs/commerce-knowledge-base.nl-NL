@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Wachtwoorden voor beheerders die zijn opgeslagen als onbewerkte tekst in het logboek Handelingen
 
-Dit artikel bevat een oplossing voor het geval dat een Commerce-beheerder een nieuwe gebruiker maakt met de beheerdersrechten en het wachtwoord als onbewerkte tekst wordt opgeslagen in het dialoogvenster `magento_logging_event_changes` databasetabel.
+Dit artikel bevat een oplossing voor het geval dat een Commerce-beheerder een nieuwe gebruiker maakt met de beheerdersrechten en het wachtwoord als onbewerkte tekst wordt opgeslagen in de databasetabel van `magento_logging_event_changes` .
 
 Installeer de beveiligingsupdate Adobe Commerce 2.0.16 en 2.1.9 om dit beveiligingsprobleem op te lossen. Nadat u de beveiligingsupdate hebt toegepast, worden de wachtwoorden versleuteld en worden ze niet als onbewerkte tekst weergegeven.
 
@@ -24,26 +24,26 @@ Installeer de beveiligingsupdate Adobe Commerce 2.0.16 en 2.1.9 om dit beveiligi
 
 ## Probleem {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Issue}
 
-Als een bestaande Commerce Administrator een nieuwe gebruiker maakt met de beheerdersrechten via **Systeem** > **Machtigingen** > **Alle gebruikers** > **Nieuwe gebruiker toevoegen**, wordt het wachtwoord (ingevoerd als bevestiging) opgeslagen als onbewerkte tekst in het dialoogvenster `magento_logging_event_changes` databasetabel.
+Wanneer een bestaande Beheerder van Commerce tot een nieuwe gebruiker met de voorrechten van de Beheerder via **Systeem** **>** Toestemmingen **>** toevoegt nieuwe gebruiker **, wordt het wachtwoord (ingegaan als bevestiging) bewaard als gewone tekst in de `magento_logging_event_changes` gegevensbestandlijst.**
 
 ### Stappen om te reproduceren: {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Stepstoreproduce}
 
-1. Meld u aan als beheerder en maak een nieuwe gebruiker door naar dit pad te navigeren: **Systeem** > Machtigingen > **Alle gebruikers**.
+1. Login als Beheerder en creeer een nieuwe gebruiker door aan deze weg te navigeren: **Systeem** > Toestemmingen > **Alle Gebruikers**.
 
-   ![add_user_magento_2.4.1.png](assets/add_user_magento_2.4.1.png)
+   ![ add_user_magento_2.4.1.png ](assets/add_user_magento_2.4.1.png)
 
-1. Klik vervolgens op de knop **Nieuwe gebruiker toevoegen** pagina. Geef het wachtwoord van uw huidige beheerder op wanneer u hierom wordt gevraagd.
-1. Ga naar de **Systeem** > **Handelingenlogboek** > **Rapport** en zoek naar de laatste logbestandvermelding.
+1. Dan klik **toevoegen nieuwe gebruiker** pagina. Geef het wachtwoord van uw huidige beheerder op wanneer u hierom wordt gevraagd.
+1. Ga naar het **Systeem** > **Logboek van de Actie** > **Rapport** pagina en vind de laatste logboekingang.
 1. U kunt het huidige wachtwoord zien. Het wachtwoord is niet versleuteld of gehasht.
 
 ## Oplossing {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Solution}
 
-De installatie van de [Adobe Commerce 2.0.16- en 2.1.9-beveiligingsupdate](https://magento.com/security/patches/magento-2016-and-219-security-update) verhelpt dit probleem.
+Het installeren van [ Adobe Commerce 2.0.16 en 2.1.9 Update van de Veiligheid ](https://magento.com/security/patches/magento-2016-and-219-security-update) lost deze kwestie op.
 
-Nadat u de beveiligingsupdate hebt geïnstalleerd, wordt het wachtwoord gecodeerd en wordt het niet weergegeven in onbewerkte tekst in het dialoogvenster `magento_logging_event_changes` tabel.
+Nadat u de beveiligingsupdate hebt geïnstalleerd, wordt het wachtwoord gecodeerd en wordt het niet weergegeven in onbewerkte tekst in de tabel `magento_logging_event_changes` .
 
 ## Meer informatie {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
 
-[Adobe Commerce 2.0.16 en 2.1.9 pagina Beveiligingsupdate](https://magento.com/security/patches/magento-2016-and-219-security-update) in ons veiligheidscentrum.
+[ Adobe Commerce 2.0.16 en 2.1.9 pagina van de Update van de Veiligheid ](https://magento.com/security/patches/magento-2016-and-219-security-update) in ons veiligheidscentrum.
 
-[Een upgrade uitvoeren van de Adobe Commerce-toepassing en -onderdelen](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) in onze ontwikkelaarsdocumentatie.
+[ bevorder de toepassing en de componenten van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) in onze ontwikkelaarsdocumentatie.

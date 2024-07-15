@@ -1,7 +1,7 @@
 ---
-title: '''[!DNL FedEx] Migratie van SOAP naar RESTful API voor de integratie van verzendmethoden'
+title: '[!DNL FedEx] de migratie van de de verzendingsmethode integratie van SOAP aan RESTful API'
 promoted: true
-description: Pas een patch toe om de [!DNL FedEx] migratie van SOAP naar RESTful API voor de integratie van verzendmethoden voor Adobe Commerce 2.4.4-p4 - 2.4.6-pX.
+description: Pas een flard toe om de  [!DNL FedEx]  verschepende migratie van de methodeintegratie van SOAP aan RESTful API voor Adobe Commerce 2.4.4-p4 - 2.4.6-pX te behandelen.
 feature: Shipping/Delivery
 role: Developer
 exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# [!DNL FedEx] Migratie van SOAP naar RESTful-API voor de integratie van verzendmethoden
+# [!DNL FedEx] migratie van SOAP naar RESTful-API voor verzendmethoden
 
-Dit artikel bevat een patch voor het oplossen van problemen met de [!DNL FedEx] migratie van SOAP naar RESTful API voor de integratie van verzendmethoden voor Adobe Commerce 2.4.4-p4 - 2.4.6-pX.
+Dit artikel bevat een patch voor het oplossen van problemen met de integratiemigratie van SOAP naar RESTful-API voor Adobe Commerce 2.4.4-p4 - 2.4.6-pX voor de verzendmethode. [!DNL FedEx]
 
-[!DNL FedEx Web Services] het volgen, de Bevestiging van het Adres, en bevestigt de Talen van de Definitie van de Diensten van het Web van Postcodes (WSDLS) zullen op 15 mei 2024 worden gepensioneerd. Gebaseerd op SOAP [!DNL FedEx Web Services] is in ontwikkelingsinsluiting en is vervangen door [!DNL FedEx] RESTFUL API&#39;s. Raadpleeg voor meer informatie [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
+[!DNL FedEx Web Services] tracking, Address Validation en Validate Postal Codes Web Services Definition Languages (WSDLS) worden op 15 mei 2024 afgesloten. Het SOAP [!DNL FedEx Web Services] bevindt zich in ontwikkelingsbeperking en is vervangen door [!DNL FedEx] RESTFUL API&#39;s. Raadpleeg [[!DNL FedEx Web Services] ](https://www.fedex.com/en-us/developer/web-services.html) voor meer informatie.
 
-Deze wijziging is van invloed op onze huidige [!DNL FedEx] implementatie van de integratie van verzendmethoden in Adobe Commerce. Hiervoor moeten we onze huidige implementatie herstellen en migreren van verouderde SOAP API&#39;s naar de nieuwste [!DNL FedEx] RESTFUL API&#39;s.
+Deze wijziging is van invloed op onze huidige implementatie van de [!DNL FedEx] -verzendmethode in Adobe Commerce. Hiervoor is het nodig dat we onze huidige implementatie herstellen en overstappen van verouderde SOAP API&#39;s naar de nieuwste [!DNL FedEx] RESTFUL API&#39;s.
 
-Vanaf 15 mei 2024 kunnen Adobe Commerce-klanten onze huidige [!DNL FedEx] integratie van verzendmethoden, dus Adobe geeft deze hotfix uit waarmee klanten van Adobe Commerce 2.4.4+ de nieuwste [!DNL FedEx] RESTFUL-API&#39;s in plaats van de vervangen SOAP-API&#39;s.
+Vanaf 15 mei 2024 kunnen Adobe Commerce-klanten onze huidige integratie met de verzendmethode [!DNL FedEx] niet gebruiken. Adobe geeft deze hotfix dus uit, waarmee Adobe Commerce 2.4.4+-klanten de nieuwste [!DNL FedEx] RESTFUL API&#39;s kunnen gebruiken in plaats van de vervangen SOAP.
 
 
 ## Betrokken producten en versies
@@ -35,7 +35,7 @@ Adobe Commerce op cloudinfrastructuur en op locatie, en Magento Open Source:
 
 ## Oorzaak
 
-De [!DNL FedEx] vervangen door de RESTful-API&#39;s. Zie [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
+De [!DNL FedEx] heeft hun op SOAP gebaseerde API&#39;s vervangen door de RESTful-API&#39;s. Zie [[!DNL FedEx Web Services] ](https://www.fedex.com/en-us/developer/web-services.html).
 
 ## Oplossing
 
@@ -64,22 +64,22 @@ Gebruik de volgende bijgevoegde patches, afhankelijk van uw Adobe Commerce/Magen
 
 ## Hoe de pleister aanbrengen
 
-Pak het bestand uit en zie [Hoe een door Adobe geleverde componentpleister aanbrengen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) in onze kennisbasis voor ondersteuning voor instructies.
+Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ## Hoe te om te bepalen of de pleisters zijn aangebracht
 
-Aangezien het niet mogelijk is om gemakkelijk te controleren of de kwestie werd gepatenteerd, zou u kunnen willen controleren of de flard met succes is toegepast. Dit gebruikt (voorbeeld: *AC-9363*) als de te controleren pleister.
+Aangezien het niet mogelijk is om gemakkelijk te controleren of de kwestie werd gepatenteerd, zou u kunnen willen controleren of de flard met succes is toegepast. Dit gebruikt (Voorbeeld: *AC-9363*) als flard om te controleren.
 
-<u>U kunt dit doen door de volgende stappen te nemen</u>:
+<u> u kunt dit doen door de volgende stappen te nemen </u>:
 
-1. [Installeer de [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [ installeer  [!DNL Quality Patches Tool] ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
 1. Voer de opdracht uit:
 
    ```bash
    vendor/bin/magento-patches -n status |grep "9363|Status"
    ```
 
-1. U zou output gelijkend op dit moeten zien, waar AC-9363 terugkeert *Toegepast* status:
+1. U zou output gelijkend op dit moeten zien, waar AC-9363 de *Toegepaste* status terugkeert:
 
    ```bash
    ║ Id            │ Title                                                        │ Category        │ Origin                 │ Status      │ Details                                          ║ ║ N/A           │ ../m2-hotfixes/AC-9363_USPS_Ground_Advantage_shipping_method_COMPOSER_patch.patch      │ Other           │ Local                  │ Applied     │ Patch type: Custom                                

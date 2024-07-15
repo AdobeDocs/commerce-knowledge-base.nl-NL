@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-48059: handelaren kunnen niet opslaan [!UICONTROL Match product by rule] for Categories attribute.'
-description: Pas de ACSD-48059-patch toe om het Adobe Commerce-probleem op te lossen, waarbij handelaren het [!UICONTROL Match product by rule] voor het kenmerk Categorieën.
+title: 'ACSD-48059: handelaren kunnen [!UICONTROL Match product by rule] niet opslaan voor het kenmerk Categorieën.'
+description: Pas de ACSD-48059-patch toe om het Adobe Commerce-probleem op te lossen, waarbij handelaren het [!UICONTROL Match product by rule] voor het kenmerk Categorieën niet kunnen opslaan.
 exl-id: 97213157-1b54-4634-9c76-c9ab8fa96e17
 feature: Admin Workspace, Attributes, Categories, Products
 role: Admin
@@ -11,56 +11,56 @@ ht-degree: 0%
 
 ---
 
-# ACSD-48059: Merchants kunnen de *[!UICONTROL Match product by rule]* voor de categorie
+# ACSD-48059: Merchants kunnen de *[!UICONTROL Match product by rule]* voor het categoriekenmerk niet opslaan
 
-De ACSD-48059-patch verhelpt het probleem waarbij handelaren de *[!UICONTROL Match product by rule]* voor het kenmerk Categorieën in [!DNL Visual Merchandiser]. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is geïnstalleerd. De patch-id is ACSD-48059. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-48059-patch verhelpt het probleem waarbij handelaren *[!UICONTROL Match product by rule]* voor het categoriekenmerk in [!DNL Visual Merchandiser] niet kunnen opslaan. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is geïnstalleerd. De patch-id is ACSD-48059. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) >=2.3.7 &lt;2.4.7
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Handelaren kunnen de *[!UICONTROL Match product by rule]* voor categorieën, kenmerk in [!DNL Visual Merchandiser].
+Handelaars kunnen het kenmerk *[!UICONTROL Match product by rule]* for category niet opslaan in [!DNL Visual Merchandiser] .
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Ga naar **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Visual Merchandiser]** > **[!UICONTROL Visible Attributes for Category Rules]**, voegt categorieën toe.
-1. Ga naar Adobe Commerce Admin > **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
-   * Ga naar de [!UICONTROL Products in Category] sectie.
-   * Een nieuwe toevoegen *[!UICONTROL Match products by rule]* voorwaarde met het categoriekenmerk.
+1. Ga naar **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Visual Merchandiser]** > **[!UICONTROL Visible Attributes for Category Rules]** en voeg categorieën toe.
+1. Ga naar Adobe Commerce Admin > **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** .
+   * Ga naar de sectie [!UICONTROL Products in Category] .
+   * Voeg een nieuwe voorwaarde *[!UICONTROL Match products by rule]* met het categoriekenmerk toe.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De categorie is opgeslagen.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 * U kunt de categorie niet opslaan met de nieuwe regel en voorwaarde.
-* *Er is iets misgegaan tijdens het opslaan van de categorie* Er wordt een fout weergegeven.
+* *ging het iets verkeerd terwijl het bewaren van de categorie* fout wordt getoond.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

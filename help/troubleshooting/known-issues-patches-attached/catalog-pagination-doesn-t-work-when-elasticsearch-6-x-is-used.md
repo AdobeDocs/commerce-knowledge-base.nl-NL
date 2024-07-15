@@ -30,26 +30,26 @@ Nadat deze patch is geïnstalleerd, kunnen gebruikers door alle zoekresultaten b
 
 Er is een probleem ontdekt in Magento Open Source, Adobe Commerce op locatie en Adobe Commerce op cloudinfrastructuur waar de paginering van de resultatenpagina Zoeken niet werkt als u van pagina verandert.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Adobe Commerce installeren.
 1. Schakel Elasticseach 6 in als zoekengine voor catalogi.
-1. Voeg een aantal producten aan Categorie toe die voorbij de 1 paginalimiet in Admin gaat. **Opmerking**: 12 is het standaardaantal producten dat per pagina wordt weergegeven in Adobe Commerce 2.3.3.
+1. Voeg een aantal producten aan Categorie toe die voorbij de 1 paginalimiet in Admin gaat. **Nota**: 12 is het standaardaantal producten die per pagina in Adobe Commerce 2.3.3 worden getoond.
 1. Open Categorie op winkel (zoekresultaten of rubriekpagina) en ga naar pagina 2.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Producten moeten op de tweede pagina worden weergegeven.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-**&quot;***We kunnen geen producten vinden die overeenkomen met de selectie***&quot;** bericht wordt weergegeven op de tweede pagina.
+**&quot;***wij kunnen geen producten vinden die de selectie*** aanpassen&quot;** bericht wordt getoond op de tweede pagina.
 
 ## Oplossing
 
 Als u het probleem wilt verhelpen, past u de patch toe die aan dit artikel is gekoppeld. Als u het bestand wilt downloaden, schuift u omlaag naar het einde van het artikel en klikt u op de bestandsnaam of op de volgende koppeling:
 
-[Probleem met paginering van catalogus downloaden bij Elasticsearch 6.x-patch](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip) - De patch is compatibel met alle betrokken versies en versies.
+[ de pagineringskwestie van de Catalogus van de Download op Elasticsearch 6.x flard ](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip) - het flard is compatibel met alle beïnvloede versies en versies.
 
 >[!WARNING]
 >
@@ -57,6 +57,6 @@ Als u het probleem wilt verhelpen, past u de patch toe die aan dit artikel is ge
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

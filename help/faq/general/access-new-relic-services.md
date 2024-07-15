@@ -16,20 +16,20 @@ In dit artikel wordt uitgelegd hoe klanten met voldoende licentie-/abonnementsma
 * New Relic Infrastructure kan worden gebruikt om de prestaties van de infrastructuur te controleren.
 * New Relic APM, een hulpprogramma voor het bewaken van toepassingsprestaties dat inzicht biedt in trends voor toepassingsprestaties.
 
-**Klanten die Adobe Commerce gebruiken op een cloudinfrastructuur Pro die New Relic-infrastructuur willen gebruiken:**
+**Klanten die Adobe Commerce op de architectuur van het de planplan van de wolkeninfrastructuur gebruiken Pro die wensen om de Infrastructuur van New Relic te gebruiken:**
 
-Klanten die Pro-architectuur gebruiken, krijgen de New Relic Infrastructure-service met het abonnement automatisch geïnstalleerd. Deze klanten hadden een e-mail moeten ontvangen met een activeringskoppeling van New Relic toen hun Adobe Commerce-project werd gemaakt. Na het volgen van de instructies van de e-mail om hun New Relic-account te registreren, moeten gebruikers zich kunnen aanmelden op de [Aanmelden bij New Relic](https://login.newrelic.com/login) pagina met de gebruikersnaam en het wachtwoord die ze toentertijd hebben gemaakt.
+Klanten die Pro-architectuur gebruiken, krijgen de New Relic Infrastructure-service met het abonnement automatisch geïnstalleerd. Deze klanten hadden een e-mail moeten ontvangen met een activeringskoppeling van New Relic toen hun Adobe Commerce-project werd gemaakt. Na het volgen van de instructies van e-mail om hun rekening van New Relic te registreren, zouden de gebruikers op de [ login van New Relic ](https://login.newrelic.com/login) pagina met de gebruikersbenaming en het wachtwoord moeten kunnen aanmelden zij in die tijd creeerden.
 
-**Opmerking** : Klanten die Pro-architectuur gebruiken, beschikken naast de New Relic Infrastructure-service over New Relic Application Performance Monitoring (APM).
+**Nota** : De klanten die Pro architectuur gebruiken zullen de Controle van de Prestaties van de Toepassing van New Relic (APM), naast de dienst van de Infrastructuur van New Relic hebben.
 
-**Klanten die Pro-architectuur gebruiken en hun wachtwoord vergeten zijn of hun New Relic Infrastructure-account niet hebben geactiveerd:**
+**Klanten die Pro architectuur gebruiken die hun wachtwoord vergeten of hun rekening van de Infrastructuur van New Relic niet activeren:**
 
-Als sommige klanten het e-mailbericht met een activeringskoppeling van New Relic hebben ontvangen en hun New Relic-account hebben geregistreerd, maar vervolgens hun gebruikersgegevens vergeten, moeten ze op het [Aanmelden bij New Relic](https://login.newrelic.com/login) en klik op &quot;Wachtwoord vergeten?&quot;. De gebruikersnaam is hun e-mailadres. Ze moeten hun wachtwoord opnieuw instellen om zich weer aan te melden bij New Relic. Klanten die het e-mailbericht niet meer ontvangen en New Relic Infrastructure willen gebruiken, moeten deze stappen ook volgen.
+Als sommige klanten e-mail ontvingen die een activeringsverbinding van New Relic bevatten en hun rekening van New Relic registreerden MAAR later hun gebruikersgeloofsbrieven vergaten zij op de [ login van New Relic ](https://login.newrelic.com/login) pagina moeten klikken en &quot;vergeten uw wachtwoord?&quot; klikken? De gebruikersnaam is hun e-mailadres. Ze moeten hun wachtwoord opnieuw instellen om zich weer aan te melden bij New Relic. Klanten die het e-mailbericht niet meer ontvangen en New Relic Infrastructure willen gebruiken, moeten deze stappen ook volgen.
 
-**Adobe Commerce on cloud Infrastructure Starter-architectuurklanten die New Relic willen gebruiken:**
+**Adobe Commerce op de klanten van het de planarchitectuur van de infrastructuur van de wolk van de Aanzet die New Relic willen gebruiken:**
 
-Klanten met starterarchitectuur worden niet voorzien van de New Relic Infrastructure-service als onderdeel van hun abonnement. Ze kunnen echter APM (New Relic Application Performance Monitoring) gebruiken als ze een licentie toevoegen door de volgende stappen uit te voeren [Verbinding maken met New Relic](https://devdocs.magento.com/cloud/project/new-relic.html#connect-to-new-relic) in onze ontwikkelaarsdocumentatie.
+Klanten met starterarchitectuur worden niet voorzien van de New Relic Infrastructure-service als onderdeel van hun abonnement. Nochtans, kunnen zij de Controle van de Prestaties van de Toepassing van New Relic (APM) gebruiken als zij een vergunning door de stappen [ verbinden met New Relic ](https://devdocs.magento.com/cloud/project/new-relic.html#connect-to-new-relic) in onze ontwikkelaarsdocumentatie te volgen toevoegen.
 
 ## Verwante lezing
 
-Ga voor meer informatie over New Relic-services naar [Prestaties onderzoeken](https://devdocs.magento.com/cloud/project/new-relic.html#investigate-performance) in onze ontwikkelaarsdocumentatie. U kunt ook [Prestaties met New Relic op Adobe Commerce op cloudinfrastructuur oplossen](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) in onze kennisbasis voor ondersteuning.
+Om over de diensten van New Relic te leren, zie [ Prestaties ](https://devdocs.magento.com/cloud/project/new-relic.html#investigate-performance) in onze ontwikkelaarsdocumentatie onderzoeken. U kunt [ ook herzien problemen oplossen prestaties gebruikend New Relic op Adobe Commerce op wolkeninfrastructuur ](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) in onze basis van steunkennis.

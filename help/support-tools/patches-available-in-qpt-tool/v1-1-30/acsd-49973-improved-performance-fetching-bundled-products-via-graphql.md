@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-49973: Betere prestaties bij het ophalen van gebundelde producten via [!DNL GraphQL]'
-description: Pas de ACSD-49973-patch toe om het Adobe Commerce-probleem op te lossen waarbij de prestaties afnemen bij het ophalen van gebundelde producten via [!DNL GraphQL].
+title: 'ACSD-49973: Betere prestaties die gebundelde producten ophalen via  [!DNL GraphQL]'
+description: Pas de ACSD-49973-patch toe om het Adobe Commerce-probleem op te lossen waarbij de prestaties afnemen bij het ophalen van gebundelde producten via  [!DNL GraphQL] .
 exl-id: 7d7fce0f-40f9-4dec-aee7-1014690ccd7c
 feature: GraphQL, Products
 role: Admin
@@ -13,39 +13,39 @@ ht-degree: 0%
 
 # ACSD-49973: Betere prestaties bij het ophalen van gebundelde producten via [!DNL GraphQL]
 
-De ACSD-49973-patch verbetert de prestaties bij het ophalen van gebundelde producten via [!DNL GraphQL]. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is geïnstalleerd. De patch-id is ACSD-49973. De kwestie is opgelost in Adobe Commerce 2.4.7.
+De ACSD-49973-patch verbetert de prestaties bij het ophalen van gebundelde producten via [!DNL GraphQL]. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 wordt geïnstalleerd. De patch-id is ACSD-49973. De kwestie is opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4-p2
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.4-p3
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-De prestaties nemen af wanneer gebundelde producten worden opgehaald via [!DNL GraphQL].
+De prestaties gaan achteruit wanneer gebundelde producten via [!DNL GraphQL] worden opgehaald.
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
-Maak 2000 bundelproducten met de [Prestatiewerkset](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/generate-data.html).
+Creeer 2000 bundelproducten gebruikend [ toolkit van Prestaties ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/generate-data.html).
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. De optie [!DNL DB] querylogger:
+1. Schakel het query-logger [!DNL DB] in:
 
    ```
    bin/magento dev:query-log:enable
    ```
 
-1. Het volgende uitvoeren [!DNL GraphQL] query:
+1. Voer de volgende [!DNL GraphQL] query uit:
 
    ```GraphQL
    {
@@ -63,28 +63,28 @@ Maak 2000 bundelproducten met de [Prestatiewerkset](https://experienceleague.ado
    }
    ```
 
-1. Controleren `var/log/db.log` voor verzoeken aan de `catalog_product_bundle_selection` tabel.
+1. Controleer `var/log/db.log` op aanvragen bij de `catalog_product_bundle_selection` -tabel.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-Verzoeken aan de `catalog_product_bundle_selection` de tabel mag niet voorkomen in de `var/log/db.log`.
+Verzoeken naar de tabel `catalog_product_bundle_selection` mogen niet voorkomen in de tabel `var/log/db.log` .
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Er zijn 2000 verzoeken om `catalog_product_bundle_selection` tabel die tezelfdertijd worden geactiveerd en de prestaties verminderen.
+Er zijn 2000 verzoeken aan `catalog_product_bundle_selection` lijst die tezelfdertijd teweeggebracht worden, die prestatiesvermindering veroorzaken.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

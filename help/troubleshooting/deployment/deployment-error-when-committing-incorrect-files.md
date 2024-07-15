@@ -21,7 +21,7 @@ Adobe Commerce op cloudinfrastructuur (alle versies)
 
 ## Probleem
 
-Er treden implementatiefouten op wanneer u bestanden/mappen opslaat in de opslagplaats. De volgende fout wordt bijvoorbeeld veroorzaakt door een poging om verbinding te maken met de database wanneer deze momenteel niet beschikbaar is tijdens het dialoogvenster [Fase samenstellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase):
+Er treden implementatiefouten op wanneer u bestanden/mappen opslaat in de opslagplaats. Bijvoorbeeld, wordt de volgende fout veroorzaakt toe te schrijven aan een poging om met DB te verbinden wanneer het niet momenteel beschikbaar tijdens [ is bouwt Fase ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase):
 
 ```SQL
 SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i  
@@ -42,7 +42,7 @@ SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i
 
 ## Oorzaak
 
-Bepaalde bestanden/mappen moeten niet worden toegewezen aan de opslagplaats, omdat ze een onderbreking veroorzaken in de [implementatieworkflow](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html).
+Bepaalde dossiers/omslagen zouden niet aan de bewaarplaats moeten worden geëngageerd, aangezien zij een onderbreking in het [ plaatsingswerkschema ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html) veroorzaken.
 
 ## Oplossing
 

@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.0'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.0.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.0'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.1.0 worden opgelost.
 exl-id: e099e388-85a8-4885-a658-fb8801c94c7c
 feature: Tools and External Services
 role: Admin
@@ -11,14 +11,14 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht van versie 1.1.0
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.1.0
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.0.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.0.
 
 QPT v1.1.0 omvat de volgende flarden:
 
-1. **37592**: Het probleem wordt verholpen wanneer sorteren op prijs niet correct werkt voor producten met een nulprijs die aan de gedeelde catalogus is toegewezen.
-1. **MDVA-3879**: Hiermee wordt het probleem verholpen waarbij downloadbare producten niet zijn opgeslagen na het maken van een testupdate.
-1. **MDVA-38827**: Hiermee verhelpt u het probleem dat klanten een e-mailbericht met een bestelbericht ontvangen.
+1. **MDVA-37592**: Verhelpt de kwestie wanneer het sorteren door prijs niet correct voor producten met een nulprijs die aan de gedeelde catalogus wordt toegewezen.
+1. **MDVA-38799**: Verhelpt de kwestie waar de downloadbare producten niet na het creëren van een het opvoeren update werden bewaard.
+1. **MDVA-38827**: Verhelpt de kwestie waar de klanten een e-mail van de ordeverzending ontvangen die een foutenmelding bevat.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

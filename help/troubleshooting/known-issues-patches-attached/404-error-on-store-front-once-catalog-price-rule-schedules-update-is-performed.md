@@ -19,19 +19,19 @@ Dit artikel bevat een patch en de vereiste stappen voor het verhelpen van het be
 
 Storefront-pagina&#39;s zijn niet meer beschikbaar, er is een fout van 404 geretourneerd. De uitgave wordt weergegeven nadat de actieve update van de catalogusprijsregel moet worden uitgevoerd, op voorwaarde dat de begindatum van deze update is bewerkt na de eerste aanmaak.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Maak in Commerce Admin een nieuwe regel voor catalogusprijzen onder **Marketing** > **Aanbiedingen** > **Catalogusprijsregel**.
-1. In de **Catalogusprijsregel** raster, klikken **Bewerken,** een nieuwe update plannen en instellen **Status** tot *Actief.*
-1. Navigeren naar **Inhoud** > **Inhoud stapelen** > **Dashboard.**
+1. In Commerce Admin, creeer een nieuwe Regel van de Prijs van de Catalogus onder **Marketing** > **Bevorderingen** > **Regel van de Prijs van de Catalogus**.
+1. In het **net van de Regel van de Prijs van de Catalogus**, klik **uitgeven,** programma een nieuwe Update en plaats **Status** aan *Actief.*
+1. Navigeer aan **Inhoud** > **Inhoud die** opneemt > **Dashboard.**
 1. Selecteer de onlangs gemaakte update en wijzig de begintijd.
 1. Sla de wijzigingen op.
 
-<u>Verwacht resultaat</u> :
+<u> Verwacht resultaat </u>:
 
 Wanneer de begindatum van de update van kracht wordt, wordt de regel voor catalogusprijzen met succes toegepast.
 
-<u>Werkelijk resultaat</u> :
+<u> Werkelijk resultaat </u>:
 
 Wanneer de begindatum van de update van kracht wordt, worden alle catalogus en producten in de winkel niet meer beschikbaar en wordt de fout 404 geretourneerd.
 
@@ -41,12 +41,12 @@ Als u cataloguspagina&#39;s wilt herstellen en de functionaliteit voor updates v
 
 Hieronder volgt een gedetailleerde beschrijving van de vereiste stappen:
 
-1. [De patch toepassen](#patch).
-1. Verwijder in Commerce Admin de regel voor catalogusprijzen met betrekking tot de uitgave (waar de begintijd is bijgewerkt). Om dit te doen, open de regelpagina onder **Marketing** > **Aanbiedingen** > **Catalogusprijsregel** en klik op **Regel verwijderen**.
-1. De toegang tot van het gegevensbestand schrapt manueel het verwante verslag uit `catalogrule` tabel.
-1. Corrigeer de ongeldige koppelingen in de database. Zie de [verwante alinea](#fix_links) voor meer informatie.
-1. In Commerce Admin onder **Marketing**, ga naar **Aanbiedingen** > **Catalogusprijsregel** en maak de nieuwe regel met de vereiste configuratie.
-1. De browsercache onder wissen **Systeem** > **Cachebeheer**.
+1. [ pas het flard ](#patch) toe.
+1. Verwijder in Commerce Admin de regel voor catalogusprijzen met betrekking tot de uitgave (waar de begintijd is bijgewerkt). Om dit te doen, open de regelpagina onder **Marketing** > **Bevorderingen** > **Regel van de Prijs van de Catalogus**, en klik **Regel van de Schrapping**.
+1. Als u de database opent, verwijdert u de verwante record handmatig uit de tabel `catalogrule` .
+1. Corrigeer de ongeldige koppelingen in de database. Zie de [ verwante paragraaf ](#fix_links) voor details.
+1. In Commerce Admin onder **Marketing**, ga **Bevorderingen** > **Regel van de Prijs van de Catalogus**, en creeer de nieuwe regel met de vereiste configuratie.
+1. Wis het browser geheime voorgeheugen onder **Systeem** > **het Beheer van het Geheime voorgeheugen**.
 1. Zorg ervoor dat de uitsnijdtaken correct zijn geconfigureerd en met succes kunnen worden uitgevoerd.
 
 ## Reparatie {#patch}
@@ -68,7 +68,7 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructie, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Ongeldige koppelingen naar testbestanden in database herstellen {#fix_links}
 
@@ -76,30 +76,30 @@ Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen]
 >
 >Wij adviseren sterk om een gegevensbestandsteun tot stand te brengen alvorens om het even welke gegevensbestandmanipulaties. Wij adviseren eerst het testen van vragen over ontwikkelomgeving.
 
-Voer de volgende stappen uit om de rijen te corrigeren met ongeldige koppelingen naar de `staging_update` tabel.
+Voer de volgende stappen uit om de rijen te corrigeren met ongeldige koppelingen naar de tabel `staging_update` .
 
-1. Controleer of de ongeldige koppelingen naar de `staging_update` de tabel bestaat in `flag` tabel. Dit zijn records waarin `flag_code=staging`.
-1. De ongeldige versie van de `flag` tabel met de volgende query:
+1. Controleer of de ongeldige koppelingen naar de tabel `staging_update` voorkomen in de tabel `flag` . Dit zijn records waarin `flag_code=staging` voorkomt.
+1. Identificeer de ongeldige versie van de `flag` lijst gebruikend de volgende vraag:
 
    ```sql
    SELECT flag_data FROM flag WHERE flag_code = 'staging';
    ```
 
-1. Van de `staging_update` Selecteer de bestaande versie die kleiner is dan de huidige (ongeldige) versie en krijg de versiewaarde die twee getallen terug is. Als de vorige versie de maximale versie is in het dialoogvenster `staging_update` een tabel die kan worden toegepast, en we moeten die nog steeds opnieuw toepassen.
+1. Selecteer in de tabel `staging_update` de bestaande versie die lager is dan de huidige (ongeldige) versie en stel de versiewaarde van twee getallen in. U neemt het, niet de vorige versie, om de situatie te vermijden dat de vorige versie de maximumversie in de tabel `staging_update` is die kan worden toegepast en dat we deze nog steeds opnieuw moeten toepassen.
 
    ```sql
    SELECT id FROM staging_update WHERE id < %current_id% ORDER BY id DESC LIMIT 1, 1
    ```
 
-   De versie die u als reactie krijgt, is uw geldige versie `id`.
+   De versie die u als reactie krijgt, is uw geldige versie `id` .
 
-1. Voor rijen met ongeldige koppelingen in het dialoogvenster `flag` tabel instellen `flag_data` waarden aan gegevens die een geldige versie-id bevatten. Dit helpt de prestaties te besparen bij het opnieuw indexeren en maakt het mogelijk opnieuw indexeren van alle entiteiten te voorkomen.
+1. Voor de rijen met ongeldige koppelingen in de `flag` -tabel stelt u de `flag_data` -waarden in op gegevens die een geldige versie-id bevatten. Dit helpt de prestaties te besparen bij het opnieuw indexeren en maakt het mogelijk opnieuw indexeren van alle entiteiten te voorkomen.
 
    ```sql
    UPDATE flag SET flag_data=REPLACE(flag_data, '%invalid_id%', '%new_valid_id%') WHERE flag_code='staging';
    ```
 
-<u>Voorbeeld:</u>
+<u> Voorbeeld:</u>
 
 ```sql
 SELECT flag_data FROM flag WHERE flag_code = 'staging'; <code class="language-bash">Response < 2.2 version</code>

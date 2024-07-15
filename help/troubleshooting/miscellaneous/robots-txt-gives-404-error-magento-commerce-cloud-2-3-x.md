@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # robots.txt geeft 404 fouten in Adobe Commerce op cloudinfrastructuur
 
-Dit artikel bevat een oplossing voor het `robots.txt` Er treedt een fout van 404 op in Adobe Commerce op de cloudinfrastructuur.
+Dit artikel bevat een oplossing voor het probleem wanneer in het `robots.txt` -bestand een fout van 404 optreedt in Adobe Commerce op de cloud-infrastructuur.
 
 ## Betrokken producten en versies
 
@@ -21,7 +21,7 @@ Adobe Commerce op cloudinfrastructuur (alle versies)
 
 ## Probleem
 
-De `robots.txt` werkt niet en genereert een Nginx-uitzondering. De `robots.txt` bestand wordt dynamisch &quot;ter plekke&quot; gegenereerd. De `robots.txt` bestand is niet toegankelijk voor de `/robots.txt` URL omdat Nginx een herschrijfregel heeft die alle regels forceert omleiden `/robots.txt` verzoeken aan de `/media/robots.txt` niet bestaat.
+Het bestand `robots.txt` werkt niet en genereert een Nginx-uitzondering. Het `robots.txt` -bestand wordt dynamisch &quot;ter plekke&quot; gegenereerd. Het `robots.txt` -bestand is niet toegankelijk via de `/robots.txt` URL omdat Nginx een herschrijfregel heeft die alle `/robots.txt` -aanvragen forceert omleiden naar het `/media/robots.txt` -bestand dat niet bestaat.
 
 ## Oorzaak
 
@@ -29,14 +29,14 @@ Dit gebeurt typisch wanneer Nginx niet behoorlijk wordt gevormd.
 
 ## Oplossing
 
-De oplossing is om de regel van Nginx onbruikbaar te maken die opnieuw richt `/robots.txt` verzoeken aan de `/media/robots.txt` bestand. De handelaren met toegelaten zelfbediening kunnen het op hun eigen doen, en de handelaren zonder zelf-dienst toegelaten behoefte om een steunkaartje tot stand te brengen.
+De oplossing is het uitschakelen van de regel Nginx die `/robots.txt` -aanvragen doorstuurt naar het `/media/robots.txt` -bestand. De handelaren met toegelaten zelfbediening kunnen het op hun eigen doen, en de handelaren zonder zelf-dienst toegelaten behoefte om een steunkaartje tot stand te brengen.
 
-Als de zelfbediening niet is ingeschakeld (of niet zeker of deze is ingeschakeld), [een Magento-ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) verzoek om verwijdering van de Nginx-omleidingsregel uit `/robots.txt` verzoeken om `/media/robots.txt`.
+Als u niet de toegelaten zelfbediening hebt (of niet zeker als het) toeliet, [ voorlegt een kaartje van de Steun van het Magento ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) verzoekend schrapping van de Nginx omleidingsregel van `/robots.txt` verzoeken aan `/media/robots.txt`.
 
-Als u de zelfbediening hebt toegelaten, gelieve ECE-Hulpmiddelen aan minstens 2002.0.12 te bevorderen en de Nginx te verwijderen omleidingsregel in uw `.magento.app.yaml` bestand. U kunt verwijzen naar [Robots voor site-toewijzing en zoekprogramma&#39;s toevoegen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) in onze ontwikkelaarsdocumentatie voor meer informatie.
+Als u de zelfbediening hebt ingeschakeld, werkt u ECE-Tools bij naar minimaal 2002.0.12 en verwijdert u de Nginx-omleidingsregel in uw `.magento.app.yaml` -bestand. U kunt naar [ verwijzen voeg plaatstoewijzing en onderzoekmachine robots ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) in onze ontwikkelaarsdocumentatie voor meer informatie toe.
 
 ## Verwante lezing
 
-* [Hoe te om kwaadwillig verkeer voor Magento Commerce Cloud op Fastly te blokkeren](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) in onze kennisbasis voor ondersteuning.
-* [Robots voor site-toewijzing en zoekprogramma&#39;s toevoegen](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) in onze ontwikkelaarsdocumentatie.
-* [Zoekmachinekrobots](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots) in onze gebruikershandleiding.
+* [ hoe te om kwaadwillig verkeer voor Magento Commerce Cloud op Fastly niveau ](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) in onze steunkennisbasis te blokkeren.
+* [ voeg plaatstoewijzing en onderzoekmachine robots ](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) in onze ontwikkelaarsdocumentatie toe.
+* [ Robots van de Motor van het Onderzoek ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots) in onze gebruikersgids.

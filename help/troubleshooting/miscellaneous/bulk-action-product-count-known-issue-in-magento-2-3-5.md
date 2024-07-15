@@ -36,4 +36,4 @@ Een oplossing is beschikbaar in Adobe Commerce 2.3.6, dat volgens de planning in
    * [Probleem met landbetalingsmethode in Adobe Commerce inzake cloudinfrastructuur en Adobe Commerce op locatie 2.3.5 en 2.3.5-p1](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
    * [Adobe Commerce vraagt klanten zich aan te melden, maar bevat een ongeldige koppeling](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
    * [Probleem met afhandeling van afhandeling voor Amazon Pay in Adobe Commerce 2.3.5-p1](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
-   * [Adobe Commerce 2.3.5 Bekende problemen in onze documentatie voor ontwikkelaars](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
+   * [ Adobe Commerce 2.3.5 Bekende Kwesties in onze ontwikkelaarsdocumentatie ](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)

@@ -23,19 +23,19 @@ Dit artikel bevat een patch voor het bekende Adobe Commerce 2.2.4-probleem met b
 
 De conversiegegevens zijn niet bijgehouden door Googles Analytics vanwege een fout in de code van de component Googles Analytics.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. De functionaliteit Googles Analytics in Commerce Admin inschakelen en configureren onder **Winkels** > **Instellingen** > **Configuratie** > **Verkoop** > **GOOGLE API** > **Googles Analytics**.
-1. Klikken **Config opslaan**.
+1. Laat en vorm de functionaliteit van Googles Analytics in Commerce toe Admin onder **Opslag** > **Montages** > **Configuratie** > **Verkoop** > **Google API** > **Googles Analytics**.
+1. Klik **sparen Config**.
 1. Plaats een bestelling op de winkel.
-1. Ga naar **Dashboard Googles Analytics** > **Conversies** > **Overzicht**.
+1. Ga naar **dashboard van Googles Analytics** > **Omzettingen** > **Overzicht**.
 1. Stel het datumbereik in op de huidige datum.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 De volgorde wordt weergegeven in de conversiegegevens.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 De volgorde wordt niet weergegeven in de conversiegegevens.
 
@@ -62,6 +62,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

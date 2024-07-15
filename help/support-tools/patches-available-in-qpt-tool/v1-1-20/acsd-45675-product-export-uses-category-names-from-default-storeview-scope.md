@@ -13,46 +13,46 @@ ht-degree: 0%
 
 # ACSD-45675: Bij het exporteren van producten worden categorienamen gebruikt van het standaardweergavebereik van de winkel
 
-De ACSD-45675-patch verhelpt het probleem waarbij het exportproduct categorienamen uit het standaardweergavebereik van de winkel gebruikt. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.20 is geïnstalleerd. De patch-id is ACSD-45675. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
+De ACSD-45675-patch verhelpt het probleem waarbij het exportproduct categorienamen uit het standaardweergavebereik van de winkel gebruikt. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.20 wordt geïnstalleerd. De patch-id is ACSD-45675. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.3
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.0 - 2.4.5
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 Bij exporteren van product worden categorienamen uit het standaardweergavebereik van de winkel gebruikt.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Een aangepaste winkelweergave maken **[!UICONTROL Thai]** in de hoofdwinkel.
-1. Merk **[!UICONTROL Thai]** de standaardwinkelweergave van de hoofdwebsite.
-1. De volgende categoriestructuur maken onder **[!UICONTROL Default Category]**:
+1. Maak een aangepaste winkelweergave **[!UICONTROL Thai]** in de hoofdwinkel.
+1. Maak **[!UICONTROL Thai]** de standaardwinkelweergave van de hoofdwebsite.
+1. Maak de volgende categoriestructuur onder **[!UICONTROL Default Category]** :
 
    *[!UICONTROL Default category/Tea/Black]*
 
-1. Selecteer de categorie **[!UICONTROL Tea]** en wijzigt u **[!UICONTROL Scope]** tot **[!UICONTROL Thai]**.
-1. Stel de **[!UICONTROL Category Name]** als **[!UICONTROL ชาดำ]**.
-1. Een eenvoudig product maken **[!UICONTROL SP001]** en de categorie toewijzen **[!UICONTROL Black]**.
+1. Selecteer de categorie **[!UICONTROL Tea]** en wijzig **[!UICONTROL Scope]** in **[!UICONTROL Thai]** .
+1. Stel de **[!UICONTROL Category Name]** in op **[!UICONTROL ชาดำ]** .
+1. Maak een eenvoudig product **[!UICONTROL SP001]** en wijs de categorie **[!UICONTROL Black]** toe.
 1. Controleer of de uitsnede niet wordt uitgevoerd.
-1. Een product exporteren. Filteren op SKU en selecteren **[!UICONTROL SP001]**.
-1. Controleer de **[!UICONTROL categories]** in de geëxporteerde CSV.
+1. Een product exporteren. Filter op SKU en selecteer **[!UICONTROL SP001]**.
+1. Controleer de kolom **[!UICONTROL categories]** in het geëxporteerde CSV-bestand.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-Aangezien er tijdens het exporteren geen winkel is geselecteerd, kunt u het beste een categoriepad als het volgende ophalen: *[!UICONTROL Default Category/Tea/Black]*.
+Aangezien er tijdens het exporteren geen winkel is geselecteerd, kunt u het best een categoriepad als het volgende ophalen: *[!UICONTROL Default Category/Tea/Black]* .
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Categoriepad heeft gemengde talen: *[!UICONTROL Default Category/ชาดำ/Black]*.
 
@@ -60,14 +60,14 @@ Categoriepad heeft gemengde talen: *[!UICONTROL Default Category/ชาดำ/Bl
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tools] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding voor het gereedschap Kwaliteitspatches.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tools] > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding voor het gereedschap Kwaliteitspatches.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/check-patch-for-magento-issue-with-magento-quality-patches.html) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool] ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/check-patch-for-magento-issue-with-magento-quality-patches.html) in onze basis van de steunkennis.
 
-Voor informatie over andere patches die beschikbaar zijn in [!DNL QPT], zie [Patches beschikbaar in [!DNL QPT]](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de handleiding voor het gereedschap Kwaliteitspatches.
+Voor info over andere flarden beschikbaar in [!DNL QPT], verwijs naar [ Patches beschikbaar in  [!DNL QPT] ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de gids van het Hulpmiddel van de Patches van de Kwaliteit.

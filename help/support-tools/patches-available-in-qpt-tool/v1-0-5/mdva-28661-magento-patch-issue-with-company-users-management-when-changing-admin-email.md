@@ -13,37 +13,37 @@ ht-degree: 0%
 
 # MDVA-28661: probleem met beheer van bedrijfsgebruikers bij het wijzigen van e-mailadressen voor beheerders
 
-De MDVA-28861-patch verhelpt het probleem waarbij de gebruikers een fout krijgen bij het wijzigen van het e-mailadres van de beheerder. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.5 is geïnstalleerd. De patch-id is MDVA-28861.
+De MDVA-28861-patch verhelpt het probleem waarbij de gebruikers een fout krijgen bij het wijzigen van het e-mailadres van de beheerder. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.5 geïnstalleerd is. De patch-id is MDVA-28861.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 Adobe Commerce op locatie en Adobe Commerce op cloudinfrastructuur 2.3.0 tot en met 2.4.1 (inclusief 2.3.5-p1) met B2B-uitbreiding
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Nadat u de **Bedrijfsbeheerder** e-mailadres, een fout wordt geretourneerd en de **Bedrijfsgebruikers** wordt niet weergegeven.
+Na het veranderen van het **e-mailadres van Admin van het Bedrijf** {, is een fout teruggekeerd, en de **lijst van de Gebruikers van het Bedrijf** wordt niet getoond.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Bedrijffunctionaliteit inschakelen (meer informatie hierover vindt u in [B2B installeren: B2B-functies inschakelen in Commerce Admin](https://devdocs.magento.com/extensions/b2b/#enable-b2b-features-in-magento-admin) in onze ontwikkelaarsdocumentatie en creeer een nieuw Bedrijf met twee gebruikers - een admin en twee gebruikers - allen met e-mailadressen).
-1. Ga naar de **Commerce Admin** > **Klanten** > **Bedrijven** en opent u uw bedrijfsaccount.
-1. Openen **Bedrijfsbeheerder** tab en wijzig de beheerder in de eerste gebruiker, waaronder het wijzigen van de **Bedrijfsbeheerder** e-mail naar de e-mail van de eerste gebruiker.
+1. Laat de functionaliteit van het Bedrijf toe (leer meer over dat in [ installeer B2B: laat B2B eigenschappen in Commerce Admin ](https://devdocs.magento.com/extensions/b2b/#enable-b2b-features-in-magento-admin) in onze ontwikkelaarsdocumentatie toe en creeer een nieuw Bedrijf met twee gebruikers - een admin en twee gebruikers - allen met e-mailadressen).
+1. Ga naar **Commerce Admin** > **Klanten** > **Bedrijven** en open uw rekening van het Bedrijf.
+1. Open **lusje Admin van het Bedrijf 1} en veranderings admin aan de eerste gebruiker, die het veranderen van** Admin van het Bedrijf **e-mail aan e-mail van de eerste gebruiker omvat.**
 1. Ga naar de voorkant van de Adobe Commerce en meld u aan als de eerste gebruiker.
-1. Ga naar de **Bedrijfsgebruikers** sectie.
+1. Ga naar de **sectie van de Gebruikers van het Bedrijf**.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-De **Bedrijfsgebruikers** lijst moet worden weergegeven zoals u verwacht.
+De **lijst van de Gebruikers van het Bedrijf** zou moeten worden getoond zoals verwacht.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De **Bedrijfsgebruikers** wordt niet weergegeven en er wordt een fout weergegeven die lijkt op de volgende:
+De **lijst van de Gebruikers van het Bedrijf** wordt niet getoond, en een fout gelijkend op de volgende vertoningen:
 
 ```bash
 No such entity with id = 2
@@ -53,20 +53,20 @@ No such entity with id = 2
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [Patches beschikbaar in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar [ die flarden beschikbaar in QPT ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.
 
 Meer over de functionaliteit van het Bedrijf B2B leren, verwijs naar deze artikelen in onze ontwikkelaarsdocumentatie:
 
-* [B2B-ontwikkelaarsgids](https://devdocs.magento.com/guides/v2.4/b2b/bk-b2b.html)
-* [Bedrijfsrollen beheren](https://devdocs.magento.com/guides/v2.4/b2b/roles.html)
-* [Referentie voor configuratiepaden voor Adobe Commerce Enterprise B2B-extensies](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-b2b.html)
+* [ B2B de Gids van de Ontwikkelaar ](https://devdocs.magento.com/guides/v2.4/b2b/bk-b2b.html)
+* [ beheer bedrijfrollen ](https://devdocs.magento.com/guides/v2.4/b2b/roles.html)
+* [ de configuratiewegen van de Uitbreiding van de Onderneming B2B van Adobe Commerce verwijzing ](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-b2b.html)

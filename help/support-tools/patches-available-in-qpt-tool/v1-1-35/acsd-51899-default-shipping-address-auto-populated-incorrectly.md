@@ -13,62 +13,62 @@ ht-degree: 0%
 
 # ACSD-51899: standaardverzendadres wordt niet correct ingevuld
 
-De ACSD-51899-patch verhelpt het probleem waarbij het standaardverzendadres automatisch wordt ingevuld met een onjuist adres. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.35 is geïnstalleerd. De patch-id is ACSD-51899. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-51899-patch verhelpt het probleem waarbij het standaardverzendadres automatisch wordt ingevuld met een onjuist adres. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.35 wordt geïnstalleerd. De patch-id is ACSD-51899. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4-p3
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.0 - 2.4.6-p1
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 Het standaardverzendadres wordt automatisch ingevuld met een onjuist adres
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Inschakelen **Ophalen in winkel** onder verzendmethode.
-1. Maken *voorraad* en *bron*.
+1. Laat **in de Bestelwagen van de Opslag** onder het verschepen methode toe.
+1. Creeer *voorraad* en *bron*.
 1. Maak een product en wijs het product aan de bron toe.
 1. Voeg een product toe aan winkelwagentje.
-1. Klikken op **Doorgaan naar Afhandeling** uit mini-kar.
-1. Voer het teste-mailadres in en selecteer **Winkel kiezen**.
-1. Klik op de knop **Winkel selecteren** en selecteer de locatie van de winkel die u wilt kiezen.
-1. Klik op de knop **next** knop.
-1. Ga naar de **Startpagina** door op het winkellogo te klikken.
-1. Open de **Minikaart**.
-1. Klik op de onderste hyperlink met de naam **Winkelwagentje weergeven en bewerken**.
-1. Klikken **Doorgaan naar Afhandeling**.
+1. Klik op **ga aan Controle** van mini-kar te werk.
+1. Ga teste-mailadres in en selecteer **Kiezen in Opslag**.
+1. Klik de **Uitgezochte Opslag** knoop, en selecteer een opslagplaats om van te kiezen.
+1. Klik op de **volgende** knoop.
+1. Navigeer aan de **Pagina van het Huis** door op het opslagembleem te klikken.
+1. Open de **Mini kart**.
+1. Klik op bodemhyperlink genoemd **Mening en geef Kaart** uit.
+1. Klik **ga aan Controle** te werk.
 1. Klik op de verzendknop op de verzendpagina.
 
-<u>Verwachte resultaten</u>
+<u> Verwachte resultaten </u>
 
-Het veld Verzendadres blijft leeg, behalve voor *Land, regio en postcode*.
+Het verschepende adresgebied blijft leeg behalve *Land, Gebied, en Postcode*.
 
-<u>Werkelijke resultaten</u>
+<u> Ware resultaten </u>
 
-Het standaardverzendadres wordt automatisch ingevuld *Ophalen in winkel* adres na het vernieuwen van de pagina.
+Het standaard verschepende adres is auto-bevolkt met *in-opslag bestelwagen* adres na het verfrissen van de pagina.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

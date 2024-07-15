@@ -13,26 +13,26 @@ ht-degree: 0%
 
 # Bekende uitgave van Adobe Commerce 2.4.0: Amazon-betaling, geen betalingsmethoden
 
-Dit artikel biedt een oplossing voor een bekende Adobe Commerce 2.4.0-probleem waarbij betalingsmethoden ontbreken bij gebruik door klanten **Terug naar standaardafhandeling**, nadat ze Amazon hebben ingeschakeld voor betalen.
+Dit artikel verstrekt een oplossing voor een bekende kwestie van Adobe Commerce 2.4.0 waar de betalingsmethodes ontbreken wanneer de klanten **Terugkeer aan standaardcontrole** gebruiken, nadat zij Amazon toelagen.
 
 ## Betrokken producten en versies
 
 Adobe Commerce op locatie en Adobe Commerce op cloudinfrastructuur v2.3.5.p1 en v2.4.0
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. Ga naar de storefront.
 1. Voeg een willekeurig item aan het winkelwagentje toe en ga verder met het afrekenen.
 1. Meld u aan bij uw Amazon Pay-account.
 1. Selecteer een adres en ga door naar de kassa.
-1. Klikken **Terug naar standaardafhandeling**.
+1. Klik **Terugkeer aan standaardcontrole**.
 1. Ga door naar de kassa.
 
-<u>Verwachte resultaten:</u>
+<u> Verwachte resultaten:</u>
 
 Betalingsmethoden moeten worden weergegeven nadat het afrekenen opnieuw is gestart.
 
-<u>Werkelijke resultaten:</u>
+<u> Ware resultaten:</u>
 
 Betalingsmethoden ontbreken.
 

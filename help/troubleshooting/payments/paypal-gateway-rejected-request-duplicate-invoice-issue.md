@@ -53,20 +53,20 @@ Standaard staat PayPal verwerking voor dezelfde factuur niet toe.
 
 Wijzig je PayPal-profiel om meerdere betalingen per factuur-ID toe te staan. Je moet deze wijzigingen aanbrengen via PayPal.
 
-1. Meld u aan bij uw account op [https://www.paypal.com](https://www.paypal.com/).
-1. Klikken **Profiel** > **Profiel en instellingen** (rechterbovenhoek).
-1. Ga naar **Mijn verkooptools**.
-1. Navigeren naar **Betaald krijgen en mijn risico beheren** > **Blokbetalingen** en klik op **Bijwerken**.
-1. **Verkoopvoorkeuren**, klikt u op **Voorkeuren voor betalingsontvangst**.
-1. Onder **Accidentele betalingen blokkeren**, kiest u **Nee, meerdere betalingen per factuur toestaan**.    ![paypal_allow_multiple_payments_per_factuur_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
-1. Naar beneden schuiven en klikken **Opslaan**.
+1. Login aan uw rekening in [ https://www.paypal.com ](https://www.paypal.com/).
+1. Klik **Profiel** > **Profiel en montages** (hoger-juiste hoek).
+1. Ga naar **Mijn het verkopen hulpmiddelen**.
+1. Navigeer aan **het Krijgen betaald en het beheren van mijn risico** > **betalingen van het Blok** en klik **Update**.
+1. **het Verkopen Voorkeur**, klik **Betaling die Voorkeur** ontvangt.
+1. Onder **Onvoorziene Betalingen van het Blok**, kies **Nr, sta veelvoudige betalingen per factuuridentiteitskaart** toe.    ![ paypal_allow_multiple_payments_per_factuur_id.png ](assets/paypal_allow_multiple_payments_per_invoice_id.png)
+1. De rol aan de bodem en klikt **sparen**.
 
 ## Meer informatie
 
-* [Onbedoelde betalingen blokkeren](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments) op PayPal Developer Docs.
+* [ blokkeer toevallige betalingen ](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments) op de Doopdokken van de Ontwikkelaar van PayPal.
 * PayPal-betalingen in onze gebruikershandleiding:
    * [PayPal Express-afhandeling](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html)
    * [Andere PayPal-oplossingen](/docs/commerce-admin/stores-sales/payments/paypal/paypal.html)
 * In onze documentatie voor ontwikkelaars:
    * [PayPal-betalingsmethoden instellen voor Adobe Commerce op cloudinfrastructuur](/docs/commerce-cloud-service/user-guide/configure-store/paypal.html)
-   * [Betalingsintegratie](https://developer.adobe.com/commerce/php/development/payments-integrations/)
+   * [ Integraties van Betalingen ](https://developer.adobe.com/commerce/php/development/payments-integrations/)

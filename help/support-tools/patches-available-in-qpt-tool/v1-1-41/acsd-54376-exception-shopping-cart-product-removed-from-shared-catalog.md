@@ -1,6 +1,6 @@
 ---
-title: '"ACSD-54376: Uitzondering in winkelwagentje wanneer het product uit het winkelwagentje wordt verwijderd [!UICONTROL shared catalog]'''
-description: Pas de ACSD-54376-patch toe om het Adobe Commerce-probleem op te lossen waarbij een uitzondering optreedt in het winkelwagentje wanneer een product uit het winkelwagentje wordt verwijderd [!UICONTROL shared catalog] nadat het aan de kar is toegevoegd.
+title: "ACSD-54376: Uitzondering in winkelwagentje wanneer het product uit [!UICONTROL shared catalog] wordt verwijderd."
+description: Pas de ACSD-54376-patch toe om het Adobe Commerce-probleem op te lossen, waarbij een uitzondering optreedt in het winkelwagentje wanneer een product uit de [!UICONTROL shared catalog] wordt verwijderd nadat het aan het winkelwagentje is toegevoegd.
 feature: Shopping Cart, B2B
 role: Admin, Developer
 exl-id: a1e5c084-532f-49e8-ab87-6674b44218e8
@@ -11,42 +11,42 @@ ht-degree: 0%
 
 ---
 
-# ACSD-54376: Uitzondering in winkelwagentje wanneer het product wordt verwijderd [!UICONTROL shared catalog]
+# ACSD-54376: Uitzondering in winkelwagentje wanneer product uit [!UICONTROL shared catalog] wordt verwijderd
 
-De ACSD-54376-patch verhelpt het probleem waarbij een uitzondering optreedt in het winkelwagentje wanneer een product uit het winkelwagentje wordt verwijderd [!UICONTROL shared catalog] nadat het aan de kar is toegevoegd. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is geïnstalleerd. De patch-id is ACSD-54376. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-54376-patch verhelpt het probleem dat zich een uitzondering voordoet in het winkelwagentje wanneer een product uit de [!UICONTROL shared catalog] wordt verwijderd nadat het aan het winkelwagentje is toegevoegd. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 wordt geïnstalleerd. De patch-id is ACSD-54376. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2 - 2.4.6-p3
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Er treedt een uitzondering op in het winkelwagentje wanneer een product uit het winkelwagentje wordt verwijderd [!UICONTROL shared catalog] nadat het aan de kar is toegevoegd.
+Er treedt een uitzondering op in het winkelwagentje wanneer een product uit de [!UICONTROL shared catalog] wordt verwijderd nadat het aan de winkelwagentje is toegevoegd.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Adobe Commerce installeren met B2B.
-1. Inschakelen [!UICONTROL shared catalog].
-1. Een product maken en toewijzen aan de standaardversie [!UICONTROL shared catalog].
+1. Schakel [!UICONTROL shared catalog] in.
+1. Maak een product en wijs dit toe aan de standaardwaarde [!UICONTROL shared catalog] .
 1. Voeg een product uit de winkel toe aan de winkelwagentje.
-1. Het product uit de [!UICONTROL shared catalog].
+1. Verwijder het product uit de [!UICONTROL shared catalog] .
 1. Navigeer naar de uitcheckpagina met behulp van de mini-cart vervolgkeuzelijst.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Uitzonderingen worden afgehandeld en niet aan u weergegeven.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Een niet-afgehandelde uitzondering wordt weergegeven op de uitcheckpagina.
 
@@ -54,14 +54,14 @@ Een niet-afgehandelde uitzondering wordt weergegeven op de uitcheckpagina.
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

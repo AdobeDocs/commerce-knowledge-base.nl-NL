@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Om te controleren hoeveel ruimte u voor elke Adobe Commerce hebt op de omgeving van de cloud-infrastructuur:
 
-1. Aanmelden bij de [Cloud Console](https://console.adobecommerce.com).
-1. Op de **[!UICONTROL All projects]** Selecteer het desbetreffende project in het dashboard. Zie de beschikbaarheid van schijfruimte in de onderhoek.
+1. Login aan de [ Console van de Wolk ](https://console.adobecommerce.com).
+1. Selecteer het desbetreffende project op het dashboard van **[!UICONTROL All projects]** . Zie de beschikbaarheid van schijfruimte in de onderhoek.
 
-   ![project_space.png](/help/how-to/general/assets/project_space.png)
+   ![ project_space.png ](/help/how-to/general/assets/project_space.png)
 
 ## Gerelateerde lezing
 
-[Schijfruimte beheren](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in onze ontwikkelaarsdocumentatie.
+[ beheer schijfruimte ](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in onze ontwikkelaarsdocumentatie.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # De opdracht voor het installeren van de composer overschrijft het .gitignore-bestand, Adobe Commerce
 
-Dit artikel biedt een oplossing voor het geval een track `.gitignore` bestand wordt overschreven door composer op Adobe Commerce op cloudinfrastructuur 2.4.2-p1 en 2.3.7.
+Dit artikel biedt een oplossing voor het geval dat een bijgehouden `.gitignore` -bestand wordt overschreven door composer op Adobe Commerce op cloudinfrastructuur 2.4.2-p1 en 2.3.7.
 
 ## Betrokken producten en versies
 
@@ -21,9 +21,9 @@ Adobe Commerce op cloudinfrastructuur 2.4.2-p1 en 2.3.7.
 
 ## Probleem
 
-`.gitignore` bestand wordt overschreven wanneer de opdracht voor het installeren van composer wordt uitgevoerd.
+`.gitignore` wordt overschreven wanneer u de opdracht voor het installeren van composer uitvoert.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 
 1. Maak een lege map voor de werkruimte.
@@ -39,7 +39,7 @@ Adobe Commerce op cloudinfrastructuur 2.4.2-p1 en 2.3.7.
    1. `echo "/this/line/should/stay" >> .gitignore`
    1. `git init`
    1. `git add * && git add .*`
-   1. `git commit -m "Init"` # bestand dat moet worden gerepareerd
+   1. `git commit -m "Init"` # bestand dat is toegewezen aan reactie
    1. `rm -rf vendor/*`
    1. `composer install`
    1. `git diff`
@@ -56,17 +56,17 @@ Adobe Commerce op cloudinfrastructuur 2.4.2-p1 en 2.3.7.
       -/this/line/should/stay
       ```
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 `.gitignore` wordt niet overschreven door composer.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 `.gitignore` wordt overschreven door elke installatie van de composer.
 
 ## Oplossing
 
-Aangepaste `.gitignore file` u moet het in `magento-deploy-ignore` sectie.
+Als u de aangepaste versie `.gitignore file` wilt behouden, moet u deze negeren in de sectie `magento-deploy-ignore` .
 
 ```git
 {
@@ -84,4 +84,4 @@ Aangepaste `.gitignore file` u moet het in `magento-deploy-ignore` sectie.
 
 ## Gerelateerde lezing
 
-* [Het getraceerde .gitignore-bestand wordt overschreven door de componist!](https://github.com/magento/magento2/issues/32888) in Magento2 GitHub.
+* [ het Getraceerde.gitignore- dossier wordt met voeten getreden door composer!](https://github.com/magento/magento2/issues/32888) in Magento2 GitHub.

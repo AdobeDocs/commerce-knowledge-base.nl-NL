@@ -13,34 +13,34 @@ ht-degree: 0%
 
 # ACSD-53643: het totaal van een bestelling is onjuist bij het plaatsen van een inkooporder
 
-De ACSD-53643-patch verhelpt het probleem waarbij het totaal van de bestelling onjuist is bij het plaatsen van een inkooporder met uitgeschakelde of out-of-stock producten. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is geïnstalleerd. De patch-id is ACSD-53643. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-53643-patch verhelpt het probleem waarbij het totaal van de bestelling onjuist is bij het plaatsen van een inkooporder met uitgeschakelde of out-of-stock producten. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 wordt geïnstalleerd. De patch-id is ACSD-53643. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.3 - 2.4.6-p3
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 Het totaal van de bestellingen is onjuist wanneer u een inkooporder plaatst met een product dat uit de oorspronkelijke voorraad of een handicap bestaat.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Installeren *[!UICONTROL B2B]* en *[!UICONTROL Inventory]*.
-1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL B2B]** en instellen **[!UICONTROL Company]** = *Ja* en **[!UICONTROL Purchase Order]** = *Ja*.
+1. Installeer *[!UICONTROL B2B]* en *[!UICONTROL Inventory]* .
+1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL B2B]** en reeks **[!UICONTROL Company]** = *ja* en **[!UICONTROL Purchase Order]** = *ja*.
 1. Wis configuratiecache.
-1. Een nieuw bedrijf maken, dit activeren en inschakelen *[!UICONTROL Purchase order]* voor de onderneming.
+1. Maak een nieuw bedrijf, activeer het en schakel *[!UICONTROL Purchase order]* in voor het bedrijf.
 1. Maak een nieuwe gebruiker voor het bedrijf.
-1. Een *Goedkeuringsregel* alle orders van meer dan *1 USD* door de bedrijfsbeheerder.
+1. Creeer een *regel van de Goedkeuring* om alle orden van meer dan *1 USD* door de bedrijfbeheerder goed te keuren.
 1. Maak een extra bron.
 1. Meld u aan als nieuwe bedrijfgebruiker.
 1. Voeg twee producten aan de kar toe en plaats een kooporder.
@@ -51,12 +51,12 @@ Het totaal van de bestellingen is onjuist wanneer u een inkooporder plaatst met 
 1. Plaats de bestelling.
 1. Open de bestelgegevens.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-* Kan de bestelling niet plaatsen, zelfs niet als één product in de bestelling staat *uitgeschakeld* of *uit voorraad*.
-* *[!UICONTROL Place Order]* is verborgen.
+* Kan de orde plaatsen zelfs als één product in de orde *gehandicapt* of *uit voorraad* is.
+* *[!UICONTROL Place Order]* verborgen.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De geplaatste order bevat alleen het eerste actieve product, maar het totale ordervolume wordt voor beide producten berekend.
 
@@ -64,14 +64,14 @@ De geplaatste order bevat alleen het eerste actieve product, maar het totale ord
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

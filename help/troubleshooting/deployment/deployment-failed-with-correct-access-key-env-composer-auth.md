@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Implementatie mislukt met de juiste toegangssleutels in env:COMPOSER_AUTH of auth.json
 
-Dit artikel biedt een oplossing voor het probleem wanneer uw implementatie mislukt door een fout zoals hieronder in het dialoogvenster [implementatielogboek](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
+Dit artikel verstrekt een oplossing voor de kwestie wanneer uw plaatsing met een fout zoals hieronder ontbreekt, in het [ plaatsingslogboek ](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
 
 ```
 W:   [Composer\Downloader\TransportException]
@@ -26,34 +26,34 @@ Adobe Commerce op cloudinfrastructuur 2.4.x
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Poging om te implementeren.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De implementatie is voltooid.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 >[!NOTE]
 >
 >Dit is een voorbeeldfout. Er kan een fout optreden die een ander bestand aangeeft (afhankelijk van de Adobe Commerce-versie die u implementeert).
 
-U kunt niet correct implementeren. Er verschijnt een fout als *Kan het bestand &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; niet downloaden (HTTP/1.1 404 niet gevonden)* in de [implementatielogboek](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+U kunt niet correct implementeren. U ziet een fout als *het &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot;dossier niet kon worden gedownload (HTTP/1.1 404 niet Gevonden)* in het [ plaatsingslogboek ](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Oorzaak
 
 De opgegeven toegangstoetsen voor composers die op een van deze locaties worden gevonden, hebben mogelijk geen toegang tot de code:
 
-* in de `env:COMPOSER_AUTH` variabele op projectniveau
-* in de `auth.json file`, die voorrang heeft op de `env:COMPOSER_AUTH` variabele.
+* in de `env:COMPOSER_AUTH` -variabele op projectniveau
+* in de `auth.json file` , die voorrang heeft op de `env:COMPOSER_AUTH` -variabele.
 
 ### Oplossing
 
-Werk de `env:COMPOSER_AUTH` variabele op het projectniveau en zorg ervoor dat het met sleutels wordt gevormd die toegang tot de code hebben.
+Werk `env:COMPOSER_AUTH` variabele op het projectniveau bij en zorg ervoor dat het met sleutels wordt gevormd die toegang tot de code hebben.
 
-Raadpleeg voor stappen [Variabele niveaus](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) in Commerce on Cloud Infrastructure Guide.
+Voor stappen, verwijs naar [ Variabele niveaus ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) in Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ## Gerelateerde lezing
 

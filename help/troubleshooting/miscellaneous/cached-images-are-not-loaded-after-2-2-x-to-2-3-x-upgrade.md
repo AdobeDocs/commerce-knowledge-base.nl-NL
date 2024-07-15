@@ -23,11 +23,11 @@ Dit artikel biedt de oplossing voor het probleem met cacheafbeeldingen die niet 
 
 Nadat Adobe Commerce is bijgewerkt van 2.2.X naar 2.3.X, zijn de productafbeeldingen in de cache niet beschikbaar en wordt in plaats daarvan een pagina van 404 weergegeven.
 
-De kwestie wordt veroorzaakt door de onjuiste configuratie Nginx die in wordt geplaatst `.magento.app.yaml`: `index.php` (of geen) wordt gebruikt voor de `"/media"` locatie in plaats van `passthru: /get.php`.
+Het probleem wordt veroorzaakt door de onjuiste Nginx-configuratie die is ingesteld in `.magento.app.yaml` : `index.php` (of geen) wordt gebruikt voor de `"/media"` -locatie in plaats van `passthru: /get.php` .
 
 ## Oplossing
 
-1. Controleer uw `.magento.app.yaml` configuratiebestand, in het `"/media"` locatie. De juiste configuratie ziet er als volgt uit:
+1. Controleer het `.magento.app.yaml` -configuratiebestand op de `"/media"` -locatie. De juiste configuratie ziet er als volgt uit:
 
    ```yaml
    "/media":
@@ -38,13 +38,13 @@ De kwestie wordt veroorzaakt door de onjuiste configuratie Nginx die in wordt ge
        passthru: "/get.php"
    ```
 
-1. Indien `passthru` is niet ingesteld op `"/get.php"` en `expires` niet is ingesteld, voert u de volgende stappen uit.
+1. Als `passthru` niet is ingesteld op `"/get.php"` en `expires` niet is ingesteld, voert u de volgende stappen uit.
 1. Corrigeer het configuratiebestand.
    * Starterabonnement: corrigeer het bestand zelf en duw op de wijzigingen.
    * Pro-abonnement:
    * Integratie: corrigeer het bestand zelf en duw op de wijzigingen.
-   * Staging en productie: corrigeer het bestand zelf, duw de wijzigingen en maak een [Adobe Commerce-ondersteuningsticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om het toe te passen.
+   * Het opvoeren en de Productie: verbeter het dossier zelf, duw de veranderingen, en creeer een [ de steunkaartje van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om het toe te passen te hebben.
 
-1. Snellere optimalisatie van afbeeldingen inschakelen in Commerce Admin (eerst snel configureren), zoals beschreven in <https://devdocs.magento.com/guides/v2.3/cloud/cdn/fastly-image-optimization.html>.
+1. Optimalisatie van snel renderen van afbeeldingen in Commerce-beheer inschakelen (eerst snel configureren), zoals beschreven in <https://devdocs.magento.com/guides/v2.3/cloud/cdn/fastly-image-optimization.html> .
 
-Als de configuratie correct is, maar u ervaart nog de kwestie, vervolg het onderzoek of contact [Adobe Commerce-ondersteuning](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Als de configuratie correct is, maar u ervaart nog de kwestie, vervolg het onderzoek of contacteer [ de Steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

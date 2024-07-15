@@ -17,7 +17,7 @@ Adobe Commerce op locatie, Adobe Commerce op cloudinfrastructuur en Magento Open
 
 >[!WARNING]
 >
->Als u Elasticsearch 6/7 niet installeert/configureert voordat u probeert een upgrade uit te voeren, kunnen er ernstige problemen optreden met Adobe Commerce. Houd er rekening mee dat serviceupgrades op Adobe Commerce op cloudinfrastructuur niet naar de productieomgeving kunnen worden verplaatst zonder dat het infrastructuurteam hiervan 48 kantooruren op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Dus 48 uur voor het moment dat uw veranderingen in productie moeten zijn [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) het gedetailleerd van uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
+>Als u Elasticsearch 6/7 niet installeert/configureert voordat u probeert een upgrade uit te voeren, kunnen er ernstige problemen optreden met Adobe Commerce. Houd er rekening mee dat serviceupgrades op Adobe Commerce op cloudinfrastructuur niet naar de productieomgeving kunnen worden verplaatst zonder dat het infrastructuurteam hiervan 48 kantooruren op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen detailend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
 
 De reden voor het verwijderen van MySQL zoekmachine is dat Elasticsearch betere zoekmogelijkheden biedt en optimaliseert de catalogusprestaties.
 
@@ -36,15 +36,15 @@ De reden voor het verwijderen van MySQL zoekmachine is dat Elasticsearch betere 
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">MySQL</td>
-<td style="width: 478.2px;">U moet Elasticsearch installeren. Zie <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">Elasticsearch installeren en configureren</a> in onze ontwikkelaarsdocumentatie.</td>
+<td style="width: 478.2px;">U moet Elasticsearch installeren. Zie <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html"> Elasticsearch </a> in onze ontwikkelaarsdocumentatie installeren en vormen.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch (zonder vermelde versie)</td>
-<td style="width: 478.2px;">U gebruikt Elasticsearch 2 en moet bijwerken naar Elasticsearch 7 (voorkeur) of 6. Zie <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html#es-upgrade6">Elasticsearch bijwerken</a> en <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html">Commerce configureren voor gebruik van Elasticsearch</a> in onze ontwikkelaarsdocumentatie voor meer informatie.</td>
+<td style="width: 478.2px;">U gebruikt Elasticsearch 2 en moet bijwerken naar Elasticsearch 7 (voorkeur) of 6. Zie <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html#es-upgrade6"> Bevorderend Elasticsearch </a> en <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html"> vormen Commerce om Elasticsearch </a> in onze ontwikkelaarsdocumentatie voor details te gebruiken.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">ELASTICSEARCH 5</td>
-<td style="width: 478.2px;">ELASTICSEARCH 5 <a href="https://www.elastic.co/support/eol">Einde van levensduur</a> en is vervangen in Adobe Commerce 2.4.0. Bijwerken naar Elasticsearch 7 (voorkeur) of 6.</td>
+<td style="width: 478.2px;">Elasticsearch 5 heeft zijn <a href="https://www.elastic.co/support/eol"> Eind van het Leven </a> bereikt en is afgekeurd in Adobe Commerce 2.4.0. Bijwerken naar Elasticsearch 7 (voorkeur) of 6.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch 6 of 7</td>
@@ -59,9 +59,9 @@ De reden voor het verwijderen van MySQL zoekmachine is dat Elasticsearch betere 
 
 ## Installatie:
 
-Wanneer Adobe Commerce op-gebouw en Magento Open Source 2.4.0 wordt vrijgegeven, zal de Elasticsearch een vereist onderdeel zijn, zodat moet u een Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Zie [Elasticsearch installeren en configureren](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in onze ontwikkelaarsdocumentatie.
+Wanneer Adobe Commerce op-gebouw en Magento Open Source 2.4.0 wordt vrijgegeven, zal de Elasticsearch een vereiste component zijn, zodat moet u een de gastheeropstelling hebben van de Elasticsearch en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Zie [ installeer en vorm Elasticsearch ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in onze ontwikkelaarsdocumentatie.
 
-Standaard gebruikt Adobe Commerce search Elasticsearch 7 als zoekengine en probeert het verbinding te maken met een server op localhost:9200. Elasticsearch 6.x wordt ook ondersteund. Als uw configuratie niet de gebreken aanpast, kunt u deze montages vormen gebruikend argumenten tot `setup:install`, op ongeveer de zelfde manier wordt de gegevensbestandverbinding gevormd.
+Standaard gebruikt Adobe Commerce search Elasticsearch 7 als zoekengine en probeert het verbinding te maken met een server op localhost:9200. Elasticsearch 6.x wordt ook ondersteund. Als uw configuratie niet de gebreken aanpast, kunt u deze montages vormen gebruikend argumenten die tot `setup:install` worden overgegaan, op ongeveer de zelfde manier de gegevensbestandverbinding wordt gevormd.
 
 Bijvoorbeeld: `setup:install --elasticsearch-host=es.mystore.com`
 

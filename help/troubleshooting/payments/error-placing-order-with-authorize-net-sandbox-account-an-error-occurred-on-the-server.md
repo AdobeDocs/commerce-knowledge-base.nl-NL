@@ -13,36 +13,36 @@ ht-degree: 0%
 
 # Fout bij plaatsen van volgorde met Authorize.net Sandbox-account (er is een fout opgetreden op de server)
 
-Dit artikel bevat een oplossing voor &quot;*Er is een fout opgetreden op de server*&quot;foutbericht bij het plaatsen van een bestelling met Authorize.Net Direct Post.
+Dit artikel verstrekt een moeilijke situatie voor &quot;*een fout voorkwam op de server*&quot;foutenmelding wanneer het plaatsen van een orde gebruikend Authorize.Net Direct Post.
 
 >[!WARNING]
 >
->**Kennisgeving van veroudering**
+>**Bericht van de Verdringing**
 >
->Als gevolg van de Richtlijn Betalingsdiensten [PSD 2](https://docs.magento.com/user-guide/v2.3/stores/compliance-payment-services-directive.html) en de voortdurende evolutie van vele APIs, Authorize.Net loopt het risico verouderd te worden en niet meer veiligheids volgzaam in de toekomst. Daarom is deze nu afgekeurd en raden we u aan deze optie uit te schakelen in uw Adobe Commerce-configuratie en over te schakelen naar de bijbehorende [Commerce Marketplace-uitbreiding](https://marketplace.magento.com/extensions.html).
+>Wegens de Richtlijn van de Dienst van de Betaling [ PSD2 ](https://docs.magento.com/user-guide/v2.3/stores/compliance-payment-services-directive.html) en de voortdurende evolutie van vele APIs, is Authorize.Net het risico verouderd te worden en niet meer veiligheid volgzaam in de toekomst. Om deze reden, wordt het nu afgekeurd, en wij adviseren dat u het in uw configuratie van Adobe Commerce en overgang aan de overeenkomstige [ uitbreiding van de Commerce Marketplace ](https://marketplace.magento.com/extensions.html) onbruikbaar maakt.
 >
->**Deze integratie is verwijderd uit de Adobe Commerce 2.4.0-versie en is vervangen door de huidige versie van 2.3.**
+>**Deze integratie wordt verwijderd uit Adobe Commerce 2.4.0 versie en is afgekeurd van de huidige versies van 2.3.**
 >
->Voor meer informatie over het maken van een veilige overgang van verouderde integratie in de betalingssector raadpleegt u onze [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445).
+>Voor details over het maken van een veilige overgang van verouderde betaalintegratie, zie onze [ DevBlog ](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445).
 
 ## Probleem
 
-Een bestelling plaatsen met [Autoriseren.Net Direct Post](https://docs.magento.com/user-guide/v2.3/payment/authorize-net-direct-post.html) Sandbox-account veroorzaakt een foutbericht:
+Het plaatsen van een orde gebruikend [ Authorize.Net Directe de rekening van Post ](https://docs.magento.com/user-guide/v2.3/payment/authorize-net-direct-post.html) Sandbox veroorzaakt een foutenmelding:
 
 >>
 &quot;Er is een fout opgetreden op de server. Probeer de bestelling opnieuw te plaatsen.&quot;
 
 ## Oorzaak 1: Testmodus is ingeschakeld
 
-Het lijkt niet vanzelfsprekend, maar het bestand Authorize.net **Testmodus** instellen op **Nee** zelfs bij het testen met de account Sandbox.
+Het lijkt niet duidelijk, maar Authorize.net **het Testen Wijze** het plaatsen moet aan **Nr** worden geplaatst zelfs wanneer het testen met de rekening Sandbox.
 
 ## Oplossing 1: testmodus uitschakelen
 
-1. Ga naar **Winkels** > **Configuratie** > **Verkoop** > **Betalingsmethoden** > **Andere betalingsmethoden** > **Authorize.net Direct Post**.
-1. Set **Testmodus** naar &quot;Nee&quot; (uitschakelen **Systeemwaarde gebruiken** en selecteert u vervolgens &quot;Nee&quot; in het menu).
-1. Klikken **Config opslaan**.
+1. Ga naar **Opslag** > **Configuratie** > **Verkoop** > **de Methoden van de Betaling** > **Andere Wijzen van de Betaling** > **Authorize.net Direct Post**.
+1. Plaats **Wijze van de Test** aan &quot;Nr&quot;(uncheck **systeemwaarde van het Gebruik**, dan uitgezochte &quot;Nr&quot;in het menu).
+1. Klik **sparen Config**.
 
-![authorize-net_test-mode_setting.png](/help/troubleshooting/miscellaneous/assets/authorize-net_test-mode_setting.png)
+![ autorisze-net_test-mode_setting.png ](/help/troubleshooting/miscellaneous/assets/authorize-net_test-mode_setting.png)
 
 ## Oorzaak 2: Onjuiste URL&#39;s
 
@@ -50,18 +50,18 @@ De instellingen Authorize.net bevatten mogelijk onjuiste URL-adressen voor de kr
 
 ## Oplossing 2: juiste URL&#39;s opgeven
 
-* **Gateway-URL:**   `https://test.authorize.net/gateway/transact.dll`
-* **Transactiedetails-URL:**   `https://apitest.authorize.net/xml/v1/request.api`
-* **API-referentie:**   `https://developer.authorize.net/api/reference/`
+* **Gateway URL:**   `https://test.authorize.net/gateway/transact.dll`
+* **de Details URL van de transactie:**   `https://apitest.authorize.net/xml/v1/request.api`
+* **API Verwijzing:**   `https://developer.authorize.net/api/reference/`
 
 ## Als niets geholpen heeft: krijg foutopsporingsinfo
 
-Als het plaatsen van een orde met Authorize.net ontbreekt met niet-informatief *&quot;Er is iets fout gegaan&quot;* fout, controleer de Adobe Commerce `debug.log`.
+Als het plaatsen van een orde met Authorize.net met een niet-informatieve *&quot;ging iets fout verkeerd&quot;* fout, controleer Adobe Commerce `debug.log`.
 
 ### Transact.dll
 
-In het geval van `debug.log` is leeg, controleer **transform.dll** reactie in de console van uw webbrowser:
+Voor het geval `debug.log` leeg is, controleer de **transact.dll** reactie in de console van uw Webbrowser:
 
 1. Open de console.
-1. Voordat u een bestelling plaatst, gaat u naar de **Netwerk** en selecteert u **Logbestand behouden**.    ![web-console_network_preserve-log.png](assets/web-console_network_preserve-log.png)
-1. Reacties filteren op **transform.dll** om een antwoordbericht met een mogelijke fout te zien.    ![transact-dll_web-console_response.png](assets/transact-dll_web-console_response.png)
+1. Alvorens een orde te plaatsen, ga naar het **1} lusje van het Netwerk en selecteer** Logboek **behouden.**    ![ web-console_network_preserve-log.png ](assets/web-console_network_preserve-log.png)
+1. De reacties van de filter door **transact.dll** om een reactiebericht met een mogelijke fout te zien.    ![ transact-dll_web-console_response.png ](assets/transact-dll_web-console_response.png)

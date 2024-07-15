@@ -19,9 +19,9 @@ Dit artikel is een hulpprogramma voor het oplossen van problemen voor Adobe Comm
 
 +++Probleem opnieuw verzenden?
 
-a. JA - Ga door naar [Stap 2](#step2)</a>.
+a. JA - ga aan [ Stap 2 ](#step2)</a> te werk.
 
-b) NO - Terugkeer naar [support.magento.com](https://support.magento.com/hc/en-us) en zoek naar relevante artikelen voor probleemoplossing.
+b. NO - Terugkeer aan [ support.magento.com ](https://support.magento.com/hc/en-us) en onderzoek naar relevante het oplossen van problemenartikelen.
 
 +++
 
@@ -29,9 +29,9 @@ b) NO - Terugkeer naar [support.magento.com](https://support.magento.com/hc/en-u
 
 +++Huidige Redis-patches geïnstalleerd?
 
-a. JA - Ga door naar [Stap 3](#step3)</a>.
+a. JA - ga aan [ Stap 3 ](#step3)</a> te werk.
 
-b. NO - Controleer of u de meest recente versie van het pakket hebt `magento-cloud-patches` geïnstalleerd. Dit pakket bevat de benodigde patches voor Redis. Ga naar [GitHub magneto-cloud-patches](https://github.com/magento/magento-cloud-patches/).
+b. NO - Controleer of de laatste versie van het pakket `magento-cloud-patches` is geïnstalleerd. Dit pakket bevat de benodigde patches voor Redis. Om tot [ toegang te hebben gaat GitHub magneto-cloud-flarden ](https://github.com/magento/magento-cloud-patches/).
 
 +++
 
@@ -39,23 +39,23 @@ b. NO - Controleer of u de meest recente versie van het pakket hebt `magento-clo
 
 +++On Redis versies 3.2 of 5.0?
 
-Controle door de volgende bevelen in CLI in werking te stellen. Pro of Staging: `$ redis-cli -p %port-number% info | grep redis_version`, waarbij `%port-number%` is het nummer van de poort die u kunt vinden in het `app/etc/env.php` of door een van de volgende opdrachten uit te voeren: `$ vendor/bin/ece-tools env:config:show | grep -i redis -A 3` of `$ cat app/etc/env.php | grep redis -A 3` Starter of integratie: `$ redis-cli -h 'redis.internal' info | grep redis_version`
+Controle door de volgende bevelen in CLI in werking te stellen. Pro of Staging: `$ redis-cli -p %port-number% info | grep redis_version` , waarbij `%port-number%` het nummer van de poort is, die u vindt in het `app/etc/env.php` -bestand of door een van de volgende opdrachten uit te voeren: `$ vendor/bin/ece-tools env:config:show | grep -i redis -A 3` of `$ cat app/etc/env.php | grep redis -A 3` Starter of Integration: `$ redis-cli -h 'redis.internal' info | grep redis_version`
 
-a. JA - Ga door naar [Stap 4](#step4).
+a. JA - ga aan [ Stap 4 ](#step4) te werk.
 
-b. NO - Adobe Commerce ondersteunt Redis versies 3.2 en 5.0. Als u Adobe Commerce uitvoert op cloudinfrastructuur 2.3.3 of hoger, raden we u aan een upgrade naar Redis 5 uit te voeren. Raadpleeg voor installatie-stappen op Adobe Commerce over de architectuur van de cloudinfrastructuur, integratie en starteromgevingen in de cloud, de [Adobe Commerce on cloud Infrastructure > Redis-service instellen](https://devdocs.magento.com/cloud/project/services-redis.html)</a> in onze ontwikkelaarsdocumentatie. **U moet [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om de de dienstconfiguratie op Pro architectuur te veranderen Productie en het Opvoeren milieu&#39;s. Voor Adobe Commerce op cloudinfrastructuur en Adobe Commerce op locatie 2.3.5+ wordt bovendien een uitgebreide Redis-cacheimplementatie aanbevolen. Dit type van Redis geheim voorgeheugenimplementatie verstrekt verhogingen die het aantal vragen aan Redis minimaliseren die op elk Adobe Commerce verzoek worden uitgevoerd. Raadpleeg voor stappen [Uitgebreide Redis cache-implementatie Adobe Commerce 2.3.5+](https://support.magento.com/hc/en-us/articles/360049292532) in onze kennisbasis voor ondersteuning. Voor alle andere Adobe Commerce-gebruikers raadpleegt u [Adobe Commerce Configuration Guide > Configure Redis](https://devdocs.magento.com/guides/v2.4/config-guide/redis/config-redis.html) in onze ontwikkelaarsdocumentatie, voor stappen.
+b. NO - Adobe Commerce ondersteunt Redis versies 3.2 en 5.0. Als u Adobe Commerce uitvoert op cloudinfrastructuur 2.3.3 of hoger, raden we u aan een upgrade naar Redis 5 uit te voeren. Voor opstellingsstappen op Adobe Commerce op de architectuur van het plan van de wolkeninfrastructuur Pro, Integratie en Startermilieu&#39;s met inbegrip van de hoofdtak, verwijs naar [ Adobe Commerce op wolkeninfrastructuur > de dienst van Redis van de Opstelling ](https://devdocs.magento.com/cloud/project/services-redis.html) </a> in onze ontwikkelaarsdocumentatie. **U moet [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen om de de dienstconfiguratie op Pro architectuurProductie en het Opvoeren milieu&#39;s te veranderen. Voor Adobe Commerce op cloudinfrastructuur en Adobe Commerce op locatie 2.3.5+ wordt bovendien een uitgebreide Redis-cacheimplementatie aanbevolen. Dit type van Redis geheim voorgeheugenimplementatie verstrekt verhogingen die het aantal vragen aan Redis minimaliseren die op elk Adobe Commerce verzoek worden uitgevoerd. Voor stappen, verwijs naar [ Uitgebreide Redis geheim voorgeheugenimplementatie Adobe Commerce 2.3.5+ ](https://support.magento.com/hc/en-us/articles/360049292532) in onze basis van de steunkennis. Voor alle andere gebruikers van Adobe Commerce, verwijs naar [ de Gids van de Configuratie van Adobe Commerce > vormt Redis ](https://devdocs.magento.com/guides/v2.4/config-guide/redis/config-redis.html) in onze ontwikkelaarsdocumentatie, voor stappen.
 
 +++
 
 ## Stap 4 - verifieer recentste versie van ECE-Hulpmiddelen {#step-4}
 
-+++Hebt u de nieuwste versie van [ECE Tools > v2002.1.1](https://github.com/magento/ece-tools/releases)?
++++hebt u de recentste versie van [ ECE Hulpmiddelen > v2002.1.1 ](https://github.com/magento/ece-tools/releases)?
 
-Controleer welke versie u door het bevel in CLI/Terminal in werking te stellen hebt: `$php vendor/bin/composer info magento/ece-tools`.
+Controleer welke versie u hebt door het bevel in CLI/Terminal in werking te stellen: `$php vendor/bin/composer info magento/ece-tools`.
 
-a. JA - Ga door naar [Stap 5](#step5).
+a. JA - ga aan [ Stap 5 ](#step5) te werk.
 
-b) NO - [ECE-gereedschappen upgraden](https://devdocs.magento.com/cloud/project/ece-tools-update.html) in de meest recente versie.
+b. NO - [ Verbetering ECE-Hulpmiddelen ](https://devdocs.magento.com/cloud/project/ece-tools-update.html) aan de recentste versie.
 
 +++
 
@@ -63,9 +63,9 @@ b) NO - [ECE-gereedschappen upgraden](https://devdocs.magento.com/cloud/project/
 
 +++Is er veel netwerkverkeer tussen app en Redis?
 
-a. JA - probeer het volgende: zorg voor een niet-gesplitste architectuur [secundaire verbinding](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md) wordt gebruikt. Voor gesplitste architectuur [L2-cache moet zijn ingeschakeld](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html).
+a. JA - probeer het volgende: Voor een niet-gesplitste architectuur, zorg a [ secundaire verbinding ](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md) wordt gebruikt. Voor gespleten architectuur, moet het [ L2 geheime voorgeheugen ](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html) worden toegelaten.
 
-b. NO - Configuratie van L2-cache configureren door [Herdis Backend bijwerken](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend). Doorgaan naar [Stap 6](#step6).
+b. NO - vorm L2 geheim voorgeheugenconfiguratie door [ Bijgewerkt Redis Backend ](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend). Ga aan [ Stap 6 ](#step6) te werk.
 
 +++
 
@@ -73,7 +73,7 @@ b. NO - Configuratie van L2-cache configureren door [Herdis Backend bijwerken](h
 
 +++Werkt de site nog steeds langzaam, nadat de L2-cache is ingeschakeld?
 
-a. JA - Controleer de tijdelijke map `/dev/shm` om te zien of moet u ruimte verhogen. Als u meer ruimte nodig hebt [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. JA - Controleer de tijdelijke map `/dev/shm` om te zien of u meer ruimte nodig hebt. Als u meer ruimte nodig hebt, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 b. NO - Het inschakelen van L2-cache lijkt uw problemen met Redis op te lossen.
 
 +++

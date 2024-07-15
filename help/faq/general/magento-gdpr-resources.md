@@ -16,7 +16,7 @@ Dit artikel bevat een overzicht van de officiële documentatiebronnen die bespre
 
 ## Adobe Commerce is gereed voor GDPR
 
-De [officiële homepage](https://business.adobe.com/privacy/general-data-protection-regulation.html) voor alle Adobe Commerce GDPR-bronnen.
+De [ officiële homepage ](https://business.adobe.com/privacy/general-data-protection-regulation.html) voor alle middelen van Adobe Commerce GDPR.
 
 ## Officiële Adobe Commerce-verklaringen
 

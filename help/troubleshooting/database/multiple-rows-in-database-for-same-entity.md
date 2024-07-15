@@ -29,7 +29,7 @@ Bijvoorbeeld, na het ontvangen van een lijst van verslagen met dubbele entiteit 
 SELECT * FROM $entityTable WHERE $column = <$entityID> ORDER BY created_in;
 ```
 
-Wanneer `$entityID = ID` van categorie/product/winkelprijsegel/catalogusprijsregel/CMS-pagina.
+Waarbij `$entityID = ID` van de pagina Categorie/product/winkelprijsegel/catalogusprijsregel/CMS.
 
 | Entiteit | $entityTable | $column |
 |------------------|-----------------------------------|------------------|
@@ -41,9 +41,9 @@ Wanneer `$entityID = ID` van categorie/product/winkelprijsegel/catalogusprijsreg
 
 Dit is het verwachte gedrag. De meerdere rijen worden gemaakt door de functie voor het opslaan van inhoud:
 
-* Als u een begindatum zonder een einddatum opgeeft, zijn er minstens twee rijen met dezelfde entiteit-/regel-/pagina-id. Eén rij geeft de oorspronkelijke staat van de entiteit aan (de rij waarin `created_in=1`), en één rij geeft de *Einde van de geplande update*.
+* Als u een begindatum zonder een einddatum opgeeft, zijn er minstens twee rijen met dezelfde entiteit-/regel-/pagina-id. Één rij zal op de originele staat van de entiteit (de rij wijzen waarin `created_in=1`), en één rij zal op het *Eind van de Geplande Update* wijzen.
 
-* Als u een begindatum opgeeft met een einddatum, zijn er ten minste drie rijen met dezelfde entiteit-/regel-/pagina-id. Eén rij geeft de oorspronkelijke staat van de entiteit aan (de rij waarin `created_in=1`), is er één rij voor de *Begin van de geplande update* en één rij voor de *Einde van de geplande update*.
+* Als u een begindatum opgeeft met een einddatum, zijn er ten minste drie rijen met dezelfde entiteit-/regel-/pagina-id. Één rij zal op de originele staat van de entiteit (de rij waarin `created_in=1`) wijzen, zal één rij voor het *Begin van de Geplande Update* zijn, en één rij zal voor het *Eind van de Geplande Update* zijn.
 
 In deze query ziet u bijvoorbeeld:
 
@@ -51,15 +51,15 @@ In deze query ziet u bijvoorbeeld:
 SELECT row_id, entity_id, created_in, updated_in FROM catalog_product_entity WHERE entity_id = 483 ORDER BY created_in;
 ```
 
-![multiple_rows_in_database.png](assets/multiple_rows_in_database.png)
+![ multiple_rows_in_database.png ](assets/multiple_rows_in_database.png)
 
-* De `created_in` en `updated_in` De waarden moeten dit patroon volgen: De `created_in` waarde van de huidige rij is gelijk aan de waarde van `updated_in` waarde in de vorige rij. De eerste rij moet ook `created_in = 1` en de laatste rij bevat `updated_in = 2147483647`. (Als er slechts één rij is, moet u zien `created_in=1` en `updated_in=2147483647`).
+* De waarden `created_in` en `updated_in` moeten dit patroon volgen: de waarde `created_in` van de huidige rij is gelijk aan de waarde `updated_in` in de vorige rij. Bovendien moet de eerste rij `created_in = 1` bevatten en de laatste rij `updated_in = 2147483647` . (Als er slechts één rij is, moet u `created_in=1` en `updated_in=2147483647` zien.)
 
 ### Waarom wordt de tweede DB-vermelding (en alle volgende vermeldingen) in de DB voor dezelfde entiteit weergegeven?
 
-* De tweede DB-record (en eventueel de volgende record) voor de betrokken entiteit betekent dat er updates voor het opslaan van inhoud zijn gepland met behulp van de `Magento_Staging` die een extra record voor een entiteit in de desbetreffende tabellen oplevert.
+* De tweede DB-record (en mogelijk de volgende record) voor de betrokken entiteit betekent dat er updates voor het opslaan van inhoud zijn gepland met de module `Magento_Staging` , die een extra record maakt voor een entiteit in de respectievelijke tabellen.
 
-Er zou alleen een probleem optreden als de records dezelfde waarden voor de `created_in` of `updated_in` kolommen.
+Er treedt alleen een probleem op als de records dezelfde waarden hebben voor de kolommen `created_in` of `updated_in` .
 
 ## Oplossing
 
@@ -67,5 +67,5 @@ Dit is het verwachte gedrag en leidt alleen tot problemen als er verschillen tus
 
 ## Gerelateerde lezing
 
-* [Wijzigingen in categorieën worden niet opgeslagen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html) in onze kennisbasis voor ondersteuning.
-* [Items in de catalogustabel dupliceren na het bewerken van de einddatum van een planningupdate](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html) in onze kennisbasis voor ondersteuning.
+* [ de Veranderingen in categorieën worden niet bewaard ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html) in onze basis van de steunkennis.
+* [ dubbele ingangen in de lijst van de catalogusregel na het uitgeven van de einddatum van een planningupdate ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html) in onze basis van de steunkennis.

@@ -11,34 +11,34 @@ ht-degree: 0%
 
 # ACSD-51739: Fout bij aanvragen `structure_id` in `CompanyTeam` GraphQL-verzoek
 
-De ACSD-51739-patch verhelpt het probleem waarbij een fout wordt geretourneerd wanneer de `structure_id` wordt gevraagd in een `CompanyTeam` GraphQL request. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34 is geïnstalleerd. De patch-id is ACSD-51739. De kwestie is opgelost in Adobe Commerce 2.4.7.
+De ACSD-51739-patch verhelpt het probleem waarbij een fout wordt geretourneerd wanneer `structure_id` wordt aangevraagd in een `CompanyTeam` GraphQL-aanvraag. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34 is geïnstalleerd. De patch-id is ACSD-51739. De kwestie is opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6 - 2.4.6-p1
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Er wordt een fout geretourneerd wanneer de `structure_id` wordt gevraagd in een `CompanyTeam` GraphQL request.
+Er wordt een fout geretourneerd wanneer `structure_id` wordt aangevraagd in een `CompanyTeam` GraphQL-aanvraag.
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
-1. Ga naar **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**, en instellen *[!UICONTROL Enable Company]* tot *Ja*.
+1. Ga naar **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**, en reeks *[!UICONTROL Enable Company]* aan *ja*.
 1. Creeer een bedrijf samen met een bedrijf admin gebruiker.
-1. Een nieuwe klant maken (*klant1*) en het bedrijf (hierboven gemaakt) aan deze klant toewijzen.
+1. Creeer een nieuwe klant (*customer1*), en wijs het bedrijf (hierboven gecreeerd) aan deze klant toe.
 1. Voor frontend, login als bedrijf admin gebruiker.
-1. Creeer een bedrijfsteam, en wijs toe *klant1* naar het team slepen met slepen en neerzetten.
-1. Voer de volgende query voor GraphQl van het bedrijf uit, waaronder `CompanyTeam` with `structure_id`:
+1. Creeer een bedrijfteam, en wijs *customer1* aan het team toe gebruikend belemmering en daling.
+1. Voer de volgende GraphQl-query van het bedrijf uit, die `CompanyTeam` met `structure_id` bevat:
 
    ```GraphQL
    query{
@@ -71,11 +71,11 @@ Er wordt een fout geretourneerd wanneer de `structure_id` wordt gevraagd in een 
 
 1. Controleer het GraphQL-antwoord.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Er worden geen fouten geretourneerd en alle aangevraagde gegevens bevinden zich in de GraphQL-reactie.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 * De reactie bevat een *Interne serverfout*.
 * `var/log/exception.log` bevat:
@@ -88,14 +88,14 @@ Er worden geen fouten geretourneerd en alle aangevraagde gegevens bevinden zich 
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.8'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.8.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.8'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de beschikbare flarden in  [!DNL Quality Patches Tool]  (QPT) v1.1.8 worden opgelost.
 exl-id: a203d482-fdfc-406a-87e8-2a650ebb34b7
 feature: Tools and External Services
 role: Admin
@@ -11,17 +11,17 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht van versie 1.1.8
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.1.8
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.8.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.8.
 
 QPT v1.1.8 omvat de volgende flarden:
 
-1. **38393**: Hiermee wordt het probleem verholpen waarbij de catalogusregels niet meer werken voor een configureerbaar product als de naam van het eenvoudige product wordt gewijzigd.
-1. **39153**: Hiermee wordt het probleem verholpen waarbij een kortingsbedrag onjuist wordt berekend tijdens het opnieuw ordenen in de beheerder.
-1. **MDVA-41139**: Hiermee wordt het probleem verholpen waarbij configureerbare producten uit voorraad worden na het importeren van het product wanneer een hoeveelheid van een eenvoudig product gelijk is aan 0 voor een van de bronnen.
-1. **41215 MDVA**: Hiermee wordt het probleem verholpen waarbij gebruikers de fout van 500 krijgen nadat ze de instelling *afbeeldingsberichten* cookie, als deze al bestaat, maar er zijn geen nieuwe berichten.
-1. **42326 MDVA**: Hiermee wordt het probleem verholpen waarbij klanten na een sessietime-out een fout krijgen bij het uitchecken, zelfs als het hardnekkige winkelwagentje is ingeschakeld.
-1. **MDVA-42341**: Hiermee wordt het probleem opgelost waarbij de `categoryList` De resultaten van GraphQL-query worden niet gefilterd als een aanvraag de winkelkoptekst bevat.
+1. **MDVA-38393**: Verhelpt de kwestie waar de regels van de Catalogus het werken voor een configureerbaar product ophouden als zijn eenvoudig product opnieuw wordt genoemd.
+1. **MDVA-39153**: Verhelpt de kwestie waar een kortingsbedrag verkeerd tijdens reorder in Admin wordt berekend.
+1. **MDVA-41139**: Verhelpt de kwestie waar de configureerbare producten uit voorraad na de invoer van het product worden wanneer qty=0 van een eenvoudig product voor één van zijn bronnen.
+1. **MDVA-41215**: Verhelpt de kwestie waar de gebruikers de 500 fout na het plaatsen van het *beeld-berichten* koekje krijgen als het reeds bestaat, maar er zijn geen nieuwe berichten.
+1. **MDVA-42326**: Verhelpt de kwestie waar de klanten een fout bij controle na een zittingsonderbreking krijgen zelfs als het blijvende het winkelwagentje wordt toegelaten.
+1. **MDVA-42341**: Verhelpt de kwestie waar de `categoryList` vraag van GraphQL geen resultaten filtert als een verzoek de kopbal van de Opslag heeft.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

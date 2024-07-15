@@ -13,38 +13,38 @@ ht-degree: 0%
 
 # ACSD-50858: Betere prestaties voor het laden van banners&#39;-inhoud
 
-De ACSD-50858-patch verhelpt een probleem op het gebied van bannerprestaties op de pagina Kaart/Afhandeling: *excessieve DB-query&#39;s en langere laadtijd voor pagina&#39;s*. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.31 is geïnstalleerd. De patch-id is ACSD-50858. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+Het ACSD-50858 flard lost een probleem van bannerprestaties in de kar/de controlepagina op: *buitensporige vragen van OB en verhoogde tijd van de paginading*. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.31 wordt geïnstalleerd. De patch-id is ACSD-50858. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5-p1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.6
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-De prestaties van de banner worden beïnvloed op de winkelwagentje-/afhandelingspagina door *excessieve DB-query&#39;s en langere laadtijd voor pagina&#39;s*.
+De prestaties van de banner worden beïnvloed in het karretje/de controlepagina toe te schrijven aan *buitensporige vragen van DB en verhoogde tijd van het paginading*.
 
 Dit probleem is opgelost door de manier te wijzigen waarop de inhoud van banners wordt geladen. Hierdoor is het aantal DB-query&#39;s met 99,99% en de laadtijd van de pagina met ~99% verminderd.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Meld u aan bij Admin en maak een eenvoudig product.
 1. Maak een klant, hetzij via Admin of de frontend, en voeg er een verzendadres voor toe.
-1. Banners.php naar de map verplaatsen `magento_root/pub/` map.
-1. Banners genereren met de opdracht  `php pub/banners.php` gebruiken. Het zal 10.000 eenvoudige banners en 1.000 banners met verkoopregels produceren.
+1. Verplaats banners.php naar de map `magento_root/pub/` .
+1. Maak banners met de opdracht `php pub/banners.php` . Het zal 10.000 eenvoudige banners en 1.000 banners met verkoopregels produceren.
 1. Meld u aan bij de klant die u eerder op de voorzijde hebt gemaakt.
 1. Voeg het eerder gemaakte product toe aan het winkelwagentje.
 1. Ga naar de afhandelingspagina (Afrekenen/Kar).
-1. Controleer de `banner/ajax/load` laadtijd verzoek:
+1. Controleer de laadtijd van de `banner/ajax/load` aanvraag:
 
    * Zonder `bin/magento dev:query-log:enable`
    * Met `bin/magento dev:query-log:enable`
@@ -53,24 +53,24 @@ Dit probleem is opgelost door de manier te wijzigen waarop de inhoud van banners
      grep 'magento_banner_content' var/debug/db.log  | wc -l
      ```
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-Daling van het aantal vragen van DB voor `magento_banner_content` en laadtijd wagentje-/uitcheckpagina.
+Verlaag het aantal DB-query&#39;s voor `magento_banner_content` en de laadtijd van de pagina met cart- en uitcheckpagina.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Verhoging van het aantal vragen van DB voor `magento_banner_content` en laadtijd wagentje-/uitcheckpagina.
+Verhoog het aantal DB-query&#39;s voor `magento_banner_content` en de laadtijd van de pagina met cart/checkout.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Aanvullende informatie
 
-<u>banners.php content</u>:
+<u> banners.php inhoud </u>:
 
 ```php
 \Banner::class);
@@ -132,9 +132,9 @@ for ($i = 0; $i < 1000; $i++) {
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

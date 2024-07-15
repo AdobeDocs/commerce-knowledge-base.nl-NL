@@ -49,16 +49,16 @@ In twijfel, kapitaliseer niet. Gebruik in koppen hoofdletters in de stijl van de
 
 ## UI-elementen
 
-* Alles waarop de gebruiker klikt **vet**. Bijvoorbeeld: &quot;Klik **Doorgaan**.&quot; Optiewaarden en foutberichten worden opgemaakt met _cursief_.
-* Vermijd waar mogelijk vermelding van het UI-elementtype in instructies. (Klik op **Volgende**. vs Klik op **Volgende** knop.)
-* Gebruik &quot;Kiezen&quot; en &quot;>&quot;&quot; in opdrachtreeksen. (Kies **Bewerken** > **Voorkeuren**. vs Klik op Bewerken | Voorkeuren.)
+* Alles dat de gebruiker klikt zet in **vette**. Bijvoorbeeld, &quot;klik **verdergaan**.&quot; De waarden van de optie en de foutenmeldingen zijn geformatteerd met _cursief_.
+* Vermijd waar mogelijk vermelding van het UI-elementtype in instructies. (Klik **daarna**. vs klik de **Volgende** knoop.)
+* Gebruik &quot;Kiezen&quot; en &quot;>&quot;&quot; in opdrachtreeksen. (Kies **uitgeven** > **Voorkeur**. vs Klik op Bewerken | Voorkeuren.)
 * Preposition: &quot;in&quot; voor dialoogvenster, venster, zijn een, deelvenster, weergave, wizard, lijst, map, knooppunt.
 * Prepositie: &quot;on&quot; voor scherm, pagina, werkbalk, menubalk, tab, deelvenster, lint.
-* Preposition: klikken (klikken **Volgende** vs Klik op **Volgende**).
+* Prepositie: Klik (klik **daarna** vs klik op **daarna**).
 
 ## Bestandsnamen
 
-Bestandsnamen en mappen worden als code opgemaakt. Voorbeeld: `/var/log` systeemdirectory bevat logboeken voor alle omgevingen.
+Bestandsnamen en mappen worden als code opgemaakt. Voorbeeld: de systeemmap `/var/log` bevat logboeken voor alle omgevingen.
 
 
 ## Getallen
@@ -202,11 +202,11 @@ Geen reden voor hoofdletters.
 
 Foutbericht: _&quot;Er is iets misgegaan.&quot;_
 
-Foutbericht: __Er is iets misgegaan.__
+Het bericht van de fout: __ging iets fout.__
 
 </td>
 
-<td colspan="1"> Foutbericht:  <i>Er is iets misgegaan.</i> </td>
+<td colspan="1"> Het bericht van de fout: <i> ging iets fout.</i> </td>
 
 <td colspan="1">
 </td>
@@ -219,9 +219,9 @@ Foutbericht: __Er is iets misgegaan.__
 
 ## Toegankelijkheid
 
-* Alle niet-tekstuele of grafische elementen hebben tekstuele equivalenten of Alt-tekst. Voorbeeld: ![example_image](/url "alt_text_for_this_image").
+* Alle niet-tekstuele of grafische elementen hebben tekstuele equivalenten of Alt-tekst. Voorbeeld: ![ example_image ](/url " alt_text_for_this_image ").
 
-* Alle koppelingen beschrijven de bestemming van de koppeling. Voorbeeld [link](/uri "doel_van_de_koppeling").
+* Alle koppelingen beschrijven de bestemming van de koppeling. Voorbeeld [ verbinding ](/uri "doel_van_de_koppeling").
 
 
 <!--
@@ -253,14 +253,14 @@ Een lijst met gespecialiseerde koppelingen, ook wel een lijst met opnamen genoem
 
 ### Koppelingen naar externe websites
 
-Gebruik normale URL&#39;s in plaats van goURL&#39;s om een koppeling te maken naar pagina&#39;s buiten  [Adobe.com](http://Adobe.com).
+Gebruik gewone URLs eerder dan goURLs om met pagina&#39;s buiten [ Adobe.com ](http://Adobe.com) te verbinden.
 
 
 ## Kommels
 
 In het algemeen volgt u de aanbevelingen in de Chicago Manual of Style voor leestekens in open stijl, waarbij u alleen waar nodig leestekens geeft om mislezing te voorkomen. U kunt bijvoorbeeld de komma vóór een combinatie in een samengestelde zin weglaten als er weinig of geen risico op mislezing bestaat. Gebruik waar nodig komma&#39;s voor verduidelijking.
 
-* Altijd de seriële komma gebruiken (een komma die voorafgaat _en_ of _of_ in een lijst met drie of meer items): x, y en z
+* Gebruik altijd de periodieke komma (een komma die _voorafgaat en_ of _of_ in een lijst van drie of meer punten): x, y, en z
 
 * Plaats een komma vóór een combinatie waarin een onafhankelijke component wordt geïntroduceerd: &quot;Geef een locatie op en typ een naam voor de bestandenlijst.&quot;
 
@@ -276,4 +276,4 @@ In het algemeen volgt u de aanbevelingen in de Chicago Manual of Style voor lees
 
 ## Branding
 
-* Magento Commerce is nu Adobe Commerce. Raadpleeg de [Hermerktermen](https://github.com/magento/knowledge-base/wiki) wiki voor meer informatie over hoe te om bijgewerkte brandingstaal te gebruiken.
+* Magento Commerce is nu Adobe Commerce. Gelieve te verwijzen naar de [ termen van Rebrand ](https://github.com/magento/knowledge-base/wiki) wiki voor meer informatie over hoe te om bijgewerkte brandingstaal te gebruiken.

@@ -11,65 +11,65 @@ ht-degree: 0%
 
 ---
 
-# ACSD-5241: **Gebruikt** en **Gebruikte tijden** attributen geven onjuiste waarden weer voor gegenereerde coupons
+# ACSD-55241: **Gebruikte** en **Gebruikte Tijden** attributen tonen onjuiste waarden voor geproduceerde coupons
 
-De ACSD-55241-patch verhelpt het probleem waarbij de **Gebruikt** en **Gebruikte tijden** worden onjuiste waarden weergegeven voor gegenereerde coupons. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.47 is geïnstalleerd. De patch-id is ACSD-55241. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+ACSD-55241 herstelt de flard waar **Gebruikte** en **Gebruikte Tijden** attributen onjuiste waarden voor geproduceerde coupons tonen. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.47 is geïnstalleerd. De patch-id is ACSD-55241. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6-p1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2 - 2.4.6-p3
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-**Gebruikt** en **Gebruikte tijden** worden onjuiste waarden weergegeven voor gegenereerde coupons.
+**Gebruikte** en **Gebruikte Tijden** attributen tonen onjuiste waarden voor geproduceerde coupons.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Maken **[!UICONTROL Cart Price Rules]** van **[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]** en voeg om het even welke voorwaarde toe die tijdens het plaatsen van een orde (Voorbeeld: subtotal groter dan *5$*)
+1. Creeer **[!UICONTROL Cart Price Rules]** van **[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]** en voeg om het even welke voorwaarde toe die terwijl het plaatsen van een orde aanpast (Voorbeeld: subtotaal groter dan *5$*)
 
 * Pas een willekeurige korting toe.
-* Selecteren **[!UICONTROL Auto Coupon]**.
-* Er worden enkele coupon-codes gegenereerd op basis van **Couponcodes beheren**.
+* Selecteer **[!UICONTROL Auto Coupon]** .
+* Het zal een paar Codes van de Coupon van **produceren beheert de Codes van de Coupon**.
 * Wijzig de index en wis de cache.
 
-1. Een **[!UICONTROL customer account]** en meld u aan bij de frontend.
-1. Eén product toevoegen met meer dan *2* hoeveelheden in de kar en één coupon toepassen.
-1. Klikken op **[!UICONTROL Check Out with Multiple Addresses]**.
+1. Maak een **[!UICONTROL customer account]** en meld u aan bij de voorzijde.
+1. Voeg één product met meer dan *2* hoeveelheden in de kar toe en pas één coupon toe.
+1. Klik op **[!UICONTROL Check Out with Multiple Addresses]** .
 1. Selecteer een afzonderlijk adres voor elk aantal, plaats de orde, en voltooi het controleproces.
 1. Neem het ordertotaal van de beheerder waar en zie de toegepaste korting.
 1. Plaats een andere order met een andere coupon.
-1. Voer de `php81 bin/Magento queue:consumers: start sales.rule.update.coupon.usage &` gebruiken om het gebruik van de couponcode bij te werken.
+1. Voer de opdracht `php81 bin/Magento queue:consumers: start sales.rule.update.coupon.usage &` uit om het gebruik van de couponcode bij te werken.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-Het juiste aantal moet worden weergegeven in het dialoogvenster **Gebruikte tijd** en **Gebruikt** kolommen met **Ja** waarde voor **[!UICONTROL manage coupon]** in de **[!UICONTROL cart price rule]** in de beheerder.
+De correcte telling zou in de **Gebruikte Tijd** en **Gebruikte** kolommen met **ja** waarde voor **[!UICONTROL manage coupon]** in **[!UICONTROL cart price rule]** in admin moeten worden getoond.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Het gebruikte aantal couponcodes wordt niet bijgewerkt in het dialoogvenster **Gebruikte tijd** in het couponraster en de **Gebruikt** de kolom toont *Nee* waarde als je een bestelling met meerdere verzendadressen plaatst.
+De gebruikte telling van de couponcode werkt niet in de **Gebruikte Tijd** kolom in het couponnet bij, en de **Gebruikte** kolom toont de *Geen* waarde als u een orde met veelvoudige het verschepen adressen plaatst.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

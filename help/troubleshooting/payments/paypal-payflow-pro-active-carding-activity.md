@@ -55,11 +55,11 @@ Voor de installatie zijn CLI-opdrachten vereist voor uw Adobe Commerce-instantie
 
 #### Google reCAPTCHA installeren en formulierupdates uitchecken
 
-De `magento/module-paypal-recaptcha` pakket bevat integratie met Google reCAPTCHA- en Payflow Pro-updates voor betalingsformulieren. Zelfs als u de reCAPTCHA module geïnstalleerd en gevormd hebt, adviseren wij u dit pakket te installeren.
+Het `magento/module-paypal-recaptcha` -pakket bevat integratie met updates van Google reCAPTCHA- en Payflow Pro-betalingsformulieren. Zelfs als u de reCAPTCHA module geïnstalleerd en gevormd hebt, adviseren wij u dit pakket te installeren.
 
 Voer de volgende opdrachten uit om de toepassing te installeren.
 
-**Voor Adobe Commerce op locatie:**
+**voor Adobe Commerce op-gebouw:**
 
 ```bash
 composer require magento/module-paypal-recaptcha
@@ -68,7 +68,7 @@ bin/magento setup:upgrade
 bin/magento cache:clean
 ```
 
-**Voor Adobe Commerce op cloudinfrastructuur:**
+**voor Adobe Commerce op wolkeninfrastructuur:**
 
 1. Voer de volgende opdracht uit:
 
@@ -86,11 +86,11 @@ bin/magento cache:clean
 
 #### Uitchecken van formulierupdates voor CAPTCHA installeren
 
-De `magento/module-paypal-captcha` pakket bevat integratie met de native Adobe Commerce CAPTCHA-module.
+Het pakket `magento/module-paypal-captcha` bevat integratie met de native Adobe Commerce CAPTCHA-module.
 
 Voer de volgende opdrachten uit om de toepassing te installeren:
 
-**Voor Adobe Commerce op locatie:**
+**voor Adobe Commerce op-gebouw:**
 
 ```bash
 composer require magento/module-paypal-captcha
@@ -99,7 +99,7 @@ bin/magento setup:upgrade
 bin/magento cache:clean
 ```
 
-**Voor Adobe Commerce op cloudinfrastructuur:**
+**voor Adobe Commerce op wolkeninfrastructuur:**
 
 1. Voer de volgende opdracht uit:
 
@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 Nadat u het pakket hebt geïnstalleerd, configureert u Google reCAPTCHA (aanbevolen) of CAPTCHA zoals beschreven in de volgende documenten:
 
-* [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) in onze gebruikershandleiding.
-* [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html) in onze gebruikershandleiding.
+* [ Google reCAPTCHA ](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) in onze gebruikersgids.
+* [ CAPTCHA ](https://docs.magento.com/user-guide/stores/security-captcha.html) in onze gebruikersgids.
 
 De nieuwe optie voor het uitcheckformulier is:
 
@@ -129,22 +129,22 @@ De nieuwe optie voor het uitcheckformulier is:
 
 ## PayPal-ondersteuning en contactpersonen
 
-Neem contact op met PayPal Payflow Merchant Support voor meer informatie over de services voor fraudebescherming. U kunt het PayPal-ondersteuningsteam vragen om [Basisdiensten voor fraudebescherming](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) filters om de strengste controle mogelijk te maken over betalingen, zodat u automatisch betalingen kunt weigeren die tot frauduleuze transacties kunnen leiden en betalingen kunt accepteren die doorgaans geen probleem zijn. Houd er rekening mee dat transacties na het inschakelen van de filters van PayPal Fraud Protection Services maximaal twee uur kunnen duren.
+Neem contact op met PayPal Payflow Merchant Support voor meer informatie over de services voor fraudebescherming. U kunt het team van de Steun van PayPal verzoeken om ](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) filters van de Bescherming van de Fraude toe te laten Basis om de strengste controle mogelijk over betalingen te verstrekken zodat u automatisch betalingen kunt ontkennen die waarschijnlijk in frauduleuze transacties zullen resulteren en betalingen goedkeuren die geen typisch probleem zijn. [ Houd er rekening mee dat transacties na het inschakelen van de filters van PayPal Fraud Protection Services maximaal twee uur kunnen duren.
 
 >[!NOTE]
 >
->Zie KB van PayPal voor meer informatie. [&quot;Adobe heeft contact met mij opgenomen over mijn Payflow Pro-integratie. Wat moet ik doen?&quot;](https://www.paypal.com/us/smarthelp/article/ts2242).
+>Zie voor meer informatie de KB [ van PayPal&#39;s &quot;Adobe heeft contact met me opgenomen over mijn Payflow Pro-integratie. Wat moet ik doen?&quot;](https://www.paypal.com/us/smarthelp/article/ts2242).
 
-**Details PayPal-betalingsservice Merchant**
+**PayPal de Informatie van de Steun van de Betalingsindustrie van de Betalingsverkeer**
 
 De kantooruren van de Steun van de koophandel zijn van maandag tot vrijdag van 7:00 - 8:00 PM CST. Je kunt contact opnemen met Payflow Merchant Support voor hulp via je account via telefoon of e-mail:
 
 * Telefoon: 1-888-883-9770 (Selecteer vraag 2)
 * Internationale klanten: 1-408-967-0191
-* E-mail: [payflow-support@paypal.com](mailto:payflow-support@paypal.com)
+* E-mail: [ payflow-support@paypal.com](mailto:payflow-support@paypal.com)
 
 Australische ondersteuning
 
 * Maandag - vrijdag 8:00 - 19:00 uur (AU-tijd)
 * Telefoon: +61 2 8288 0198
-* E-mail: [gateway-ausupport@paypal.com](mailto:gateway-ausupport@paypal.com)
+* E-mail: [ gateway-ausupport@paypal.com](mailto:gateway-ausupport@paypal.com)

@@ -19,21 +19,21 @@ Dit artikel biedt een oplossing voor het opwarmen van de paginacache en het misl
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op cloudinfrastructuur, alle [ondersteunde versies](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 
 Opwarmen van cache mislukt.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Opwarmbewerkingen in cache starten.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Pagina&#39;s of de hele site wordt geladen.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 De site is niet beschikbaar of de responstijd is te hoog. *FOUT: Opwarmen is mislukt:`<website link>`*
 
@@ -43,9 +43,9 @@ Opwarmen van cache werkt niet met ingeschakelde HTTP-toegangscontrole.
 
 ## Oplossing
 
-Zorg ervoor dat u geen toegangsbeheer hebt toegelaten: ga naar de specifieke tak/het milieu en klik op **Instellingen** en controleer de **HTTP-toegangsbeheer** instelling - opwarmen van cache kan in dit scenario niet voorkomen en toegangsbeheer moet worden uitgeschakeld.
+Zorg ervoor dat u geen toegelaten toegangsbeheer hebt: ga naar de specifieke tak/het milieu en klik op het **pictogram van Montages**, en controleer het **de toegangsbeheer van HTTP** plaatsen - geheime voorgeheugen warm-up kan niet in dit scenario voorkomen, en toegangsbeheer moet worden onbruikbaar gemaakt.
 
 ## Gerelateerde lezing
 
-* [Adobe Commerce User Guide > Full-Page Cache](https://docs.magento.com/user-guide/system/cache-full-page.html) in onze gebruikershandleiding.
-* [Opwarmen van cache en site niet beschikbaar op Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) in onze kennisbasis voor ondersteuning.
+* [ de Gids van de Gebruiker van Adobe Commerce > het Geheime voorgeheugen van de Volledige Pagina ](https://docs.magento.com/user-guide/system/cache-full-page.html) in onze gebruikersgids.
+* [ Geheime voorgeheugen opwarmt en plaats niet beschikbaar op Adobe Commerce ](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) in onze basis van de steunkennis.

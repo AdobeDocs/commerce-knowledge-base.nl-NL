@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.2'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.2.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.2'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de beschikbare flarden in  [!DNL Quality Patches Tool]  (QPT) v1.1.2 worden opgelost.
 exl-id: 6f8a7e74-b385-49f7-8032-fcaad8b252e9
 feature: Tools and External Services
 role: Admin
@@ -11,25 +11,25 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht versie 1.1.2
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.1.2
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.2.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.2.
 
 QPT v1.1.2 bevat de volgende patches:
 
-1. **MDVA-3715**: Hiermee wordt het probleem opgelost waarbij een onnodige *Slechts 0 links* op de configureerbare productpagina wordt een waarschuwing weergegeven.
-1. **37364**: Hiermee wordt het probleem verholpen waarbij het kenmerk van de aangepaste klant van het datumtype de interface van het raster van de klant verbreekt.
-1. **MDVA-3847**: Hiermee worden twee problemen opgelost: de *Niet afzonderlijk zichtbaar* configureerbare onderliggende producten worden geretourneerd in GraphQL-reactie en optimaliseren MySQL-query voor GraphQL-productquery met categoriefilter.
-1. **38852**: Hiermee wordt het probleem verholpen waarbij de catalogusvoorraad door het ontwerp tabellen vergrendelt voor updates die de prestaties aanzienlijk verminderen in gevallen met meerdere parallelle bestellingen.
-1. **38929 MDVA**: Hiermee wordt de kwestie opgelost waarbij op de factuur met FPT een verkeerde Grand Total wordt weergegeven wanneer de bestelling uit het winkelkrediet wordt betaald.
-1. **39043**: Hiermee wordt het probleem verholpen waarbij de beheerder met beperkte toegang een fout krijgt bij het toevoegen van de opdracht *Producten* aan de CMS-pagina.
-1. **39195**: Hiermee wordt het probleem opgelost waarbij **[!UICONTROL Add to Cart]** button was inactief op de categoriepagina wanneer omleiding naar winkelwagentje ingeschakeld was.
-1. **39384**: Hiermee wordt het probleem verholpen waarbij het kenmerk custom customer voor een bedrijfgebruiker niet wordt opgeslagen.
-1. **39521**: Hiermee wordt het probleem verholpen waarbij de gebruiker geen verzendadressen op de winkelwagen kan instellen met een leeg telefoonnummer via GraphQL.
-1. **MDVA-39923**: Hiermee wordt het probleem verholpen waarbij klanten een fout krijgen wanneer ze de bestelling via SKU doorzoeken in de B2B-functie voor snelle bestellingen met een ander geval dan het geval waarin de naam wordt opgeslagen.
-1. **39935**: Hiermee wordt het probleem verholpen waarbij de GraphQL configureerbare onderliggende producten retourneert die op websiteniveau zijn uitgeschakeld.
-1. **MDVA-3996**: Het probleem met de implementatie van onjuiste landinstellingen is opgelost.
-1. **39986**: Hiermee wordt het probleem verholpen waarbij de gebruiker via de Safari-browser geen bestelling kan plaatsen in Admin op MacOS.
-1. **MDVA-40134**: Hiermee wordt het probleem verholpen waarbij GraphQL geen verwante producten retourneert wanneer de gedeelde catalogus is ingeschakeld.
+1. **MDVA-37115**: Verhelpt de kwestie waar een onnodige *slechts 0 linker* bericht op de configureerbare productpagina wordt getoond.
+1. **MDVA-37364**: Verhelpt de kwestie waar het attribuut van de douaneklanker van datumtype het net UI van de klant breekt.
+1. **MDVA-38447**: Bevestigt twee kwesties: waar *niet zichtbaar individueel* configureerbare kindproducten in de reactie van GraphQL zijn teruggekeerd en optimaliseer MySQL vraag voor de productvraag van GraphQL met categoriefilter.
+1. **MDVA-38852**: Verhelpt de kwestie waar de catalogusinventaris door ontwerp lijsten voor updates sluit die prestaties in gevallen met verscheidene parallelle orden beduidend verminderen.
+1. **MDVA-38929**: Bevestigt de kwestie waar de factuur met FPT een verkeerde Groot Totaal toont wanneer de orde van het winkelkrediet wordt betaald.
+1. **MDVA-39043**: Verhelpt de kwestie waar de admin gebruiker met beperkte toegang een fout krijgt wanneer het proberen om *Producten* widget aan de CMS pagina toe te voegen.
+1. **MDVA-39195**: Verhelpt de kwestie waar **[!UICONTROL Add to Cart]** knoop op de categoriepagina inactief was toen geschikt om aan kart om te leiden.
+1. **MDVA-39384**: Verhelpt de kwestie waar het attribuut van de douaneklanten voor een bedrijfgebruiker niet wordt bewaard.
+1. **MDVA-39521**: Verhelpt de kwestie waar de gebruiker geen verzendadressen op de kar met een leeg telefoonaantal via GraphQL kan plaatsen.
+1. **MDVA-39923**: Verhelpt de kwestie waar de klanten een fout krijgen wanneer zij de orde door SKU in B2B snelle ordefunctionaliteit met een verschillend geval dan met zoeken waarmee de naam wordt bewaard.
+1. **MDVA-39935**: Verhelpt de kwestie waar GraphQL configureerbare kindproducten terugkeert die op het websiteniveau worden onbruikbaar gemaakt.
+1. **MDVA-39966**: Verhelpt de kwestie met het opstellen van onjuiste scènes.
+1. **MDVA-39986**: Verhelpt de kwestie waar de gebruiker geen orde in Admin op MacOS kan plaatsen gebruikend Safari browser.
+1. **MDVA-40134**: Verhelpt de kwestie waar GraphQL geen verwante producten terugkeert wanneer de Gedeelde Catalogus wordt toegelaten.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

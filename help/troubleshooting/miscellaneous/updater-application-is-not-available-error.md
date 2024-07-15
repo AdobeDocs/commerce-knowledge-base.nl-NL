@@ -19,7 +19,7 @@ Dit artikel spreekt over de oplossing voor de &quot;updater toepassing is niet b
 
 Het volgende bericht wordt weergegeven bij de gereedheidscontrole:
 
-![Screen_Shot_2019-08-29_at_1.39.12_PM.png](assets/Screen_Shot_2019-08-29_at_1.39.12_PM.png)
+![ Screen_Shot_2019-08-29_at_1.39.12_PM.png ](assets/Screen_Shot_2019-08-29_at_1.39.12_PM.png)
 
 ## Betrokken producten/versies
 
@@ -29,4 +29,4 @@ Het volgende bericht wordt weergegeven bij de gereedheidscontrole:
 
 ## Oplossing
 
-U kunt dit probleem oplossen door te kijken of er een `<magento_root>/update` map die bestanden en submappen bevat. Anders, zie [De updater instellen](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) in onze ontwikkelaarsdocumentatie.
+Zie of er een map `<magento_root>/update` is die bestanden en submappen bevat om dit probleem op te lossen. Anders, zie [ Opstelling updater ](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) in onze ontwikkelaarsdocumentatie.

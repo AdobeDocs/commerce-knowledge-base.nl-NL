@@ -24,52 +24,52 @@ In dit artikel wordt een bekende Adobe Commerce 2.4.1-kwestie beschreven waarbij
 
 Vereisten:
 
-Inschakelen **Vertexadres opschonen**. Raadpleeg voor stappen [Het vormen de Reiniging van het Adres van Storefront](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html) in onze gebruikershandleiding.
+Laat **Reiniging van het Adres van de top** toe. Voor stappen, verwijs naar [ het Vormen het Schoonmaken van het Adres Storefront ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html) in onze gebruikersgids.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. Maak een account en meld u aan.
-1. Een item aan het winkelwagentje toevoegen door op **Toevoegen aan winkelwagentje**. Klik op het pictogram Winkelwagen en klik vervolgens op **Doorgaan naar Afhandeling**.
-1. Voer een geldig adres in het dialoogvenster **Verzendadres** veld.
-1. Selecteer een van de opties onder **Verzendmethoden**. Klik vervolgens op **Volgende**.
-1. Als de Bevestiging van het Adres verschillende adresinformatie voorstelt, klik **Adres bijwerken** en klik op **Volgende**.
-1. Schakel het selectievakje **Mijn facturerings- en verzendadres zijn hetzelfde** selectievakje.
+1. Voeg een punt aan de kar toe door **te klikken toevoegt aan Kaart**. Klik op het pictogram van het Kunst en klik dan **Ga aan Controle** te werk.
+1. Ga een geldig adres op het **Verzendadres** gebied in.
+1. Controleer één van de opties onder **Verschepende Methoden**. Dan klik **daarna**.
+1. Als de Bevestiging van het Adres verschillende adresinformatie voorstelt, klik **adres van de Update** en klik **daarna**.
+1. Uncheck **Mijn het factureren en verschepen adres zijn het zelfde** checkbox.
 
-<u>Eerste scenario:</u>
+<u> Eerste scenario:</u>
 
-Volg de [boven zes stappen](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) en dan:
+Volg [ boven zes stappen ](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) en toen:
 
 1. Voer een nieuw geldig factureringsadres in.
-1. Klik op de knop **Bijwerken** knop. Het zal het bericht/de suggestie als het volgende tonen: *Het adres is ongeldig.* Hierna volgt een adressuggestie zoals: *Postcode: XXXXX- XXXX Street: XXX City street XXX*
-1. Klik op de knop **Bijwerken** (klik niet op de knop **Adres bijwerken** knop Vertex-adressuggestie).
-1. Klik op de knop **Bewerken** van het bijgewerkte factureringsadres.
+1. Klik op de **knoop van de Update**. Het zal het bericht/de suggestie als het volgende tonen: *het adres is ongeldig.* dit zal met een adressuggestie als volgen: *Postcode: XXXXX- XXXX Street: XXX de straat van de Stad*
+1. Klik op de **knoop van de Update** (klik niet op de **het adres van de Update** knoop van de het adressuggestie van de Top).
+1. Klik op **uitgeven** knoop van het bijgewerkte facturerings adres.
 1. Selecteer het adres in de vervolgkeuzelijst Adres.
-1. Klik op de knop **Bijwerken** knop.
+1. Klik op de **knoop van de Update**.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 Het oude bericht voor validatie/suggestie wordt verwijderd.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-Het validatiebericht/de suggestie *&quot;We hebben geen geldig adres gevonden Postcode : XXXXX-XXXX Street : XXX City street XXX&quot;* bericht is **NOT** verwijderd. Hetzelfde probleem doet zich voor als u een ongeldig adres in het formulier invoert.
+Het bevestigingsbericht/de suggestie *&quot;wij vonden geen geldig adres Postcode: XXXXX-XXXX Street: XXX van de Stad straat XXX&quot;* bericht wordt **NIET** verwijderd. Hetzelfde probleem doet zich voor als u een ongeldig adres in het formulier invoert.
 
-<u>Tweede scenario:</u>
+<u> Tweede scenario:</u>
 
-Volg de [boven zes stappen](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) en dan:
+Volg [ boven zes stappen ](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) en toen:
 
 1. Vul het adresformulier met een geldig adres.
-1. Klik op de knop **Bijwerken** knop. Het zal het bericht/de suggestie als het volgende tonen: *Het adres is ongeldig.* Hierna volgt een adressuggestie zoals: *Postcode : XXXXX-XXXX Street : XXX City street XXX*.
-1. Klik op de knop **Bijwerken** (klik niet op de knop **Adres bijwerken** knop met suggesties voor hoekpuntadressen).
-1. Controleer de ***Mijn facturerings- en verzendadres zijn hetzelfde*** vervolgkeuzelijst.
+1. Klik op de **knoop van de Update**. Het zal het bericht/de suggestie als het volgende tonen: *het adres is ongeldig.* dit zal met een adressuggestie als volgen: *Postcode: XXXXX-XXXX Straat: XXX de straat XXX van de Stad*.
+1. Klik op de **knoop van de Update** (klik niet op de **het adres van de Update** knoop van de suggestie van het hoekpuntadres).
+1. Controleer ***Mijn het factureren en verschepen adres zijn het zelfde*** drop-down.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 Het oude bericht voor validatie/suggestie wordt verwijderd.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-Het validatiebericht/de suggestie *&quot;We hebben geen geldig adres gevonden Postcode: XXXXX-XXXX Street XXX City street XXX&quot;* bericht is **NOT** verwijderd. Hetzelfde probleem doet zich voor als u een ongeldig adres in het formulier invoert.
+Het bevestigingsbericht/de suggestie *&quot;wij vonden geen geldig adres Postcode: XXXXX-XXXX straat XXX van de Stad XXX&quot;* bericht wordt **NIET** verwijderd. Hetzelfde probleem doet zich voor als u een ongeldig adres in het formulier invoert.
 
 ## Gerelateerde lezing in onze kennisbasis voor ondersteuning:
 

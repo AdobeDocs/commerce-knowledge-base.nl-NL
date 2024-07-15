@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Bekende kwestie in Adobe Commerce 2.3.5 voor de vergelijking van producten
 
-In dit artikel worden aanbevelingen gegeven voor het voorkomen van een bekende [productvergelijking](https://docs.magento.com/user-guide/marketing/product-compare.html) probleem in Adobe Commerce op locatie 2.3.5 en Adobe Commerce op cloudinfrastructuur 2.3.5.
+Dit artikel verstrekt aanbevelingen op hoe te om een bekende ](https://docs.magento.com/user-guide/marketing/product-compare.html) kwestie van de 0} productvergelijking {in Adobe Commerce op-gebouw 2.3.5 en Adobe Commerce op wolkeninfrastructuur 2.3.5 te vermijden.[
 
 ## Betrokken producten en versies
 
@@ -30,11 +30,11 @@ Geef niet-lege waarden op voor vergelijkbare productkenmerken of gebruik de stan
 
 >[!NOTE]
 >
->Productkenmerken worden ingesteld om te worden gebruikt voor vergelijking met de **Vergelijkbaar op Storefront** configuratie-instelling. Raadpleeg voor meer informatie de [Productkenmerken maken](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties) in onze gebruikershandleiding.
+>De attributen van het product worden geplaatst om voor vergelijking worden gebruikt gebruikend **Vergelijkbaar op configuratie het plaatsen van de Configuratie Storefront**. Voor meer informatie, verwijs naar [ Creërend de Attributen van het Product ](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties) in onze gebruikersgids.
 
 Een oplossing is beschikbaar in Adobe Commerce 2.3.6, dat volgens de planning in het vierde kwartaal van 2020 zal worden uitgebracht.
 
-U kunt de moeilijke situatie in GitHub bekijken (gelieve te overwegen, dat de moeilijke situatie niet door regressietests ging en geen officiële hete moeilijke situatie is): <https://github.com/magento/magento2/pull/27662>
+U kunt de moeilijke situatie in GitHub bekijken (gelieve te bedenken, dat de moeilijke situatie niet door regressietests ging en geen officiële hete moeilijke situatie is): <https://github.com/magento/magento2/pull/27662>
 
 ## Gerelateerde lezing
 
@@ -53,4 +53,4 @@ U kunt de moeilijke situatie in GitHub bekijken (gelieve te overwegen, dat de mo
 <p title="Probleem met afhandeling van afhandeling voor Amazon Pay in Adobe Commerce 2.3.5-p1"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Probleem met afhandeling van afhandeling voor Amazon Pay in Adobe Commerce 2.3.5-p1</a></p>
 </li>
 </ul>
-</li><li><a href="https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5 Bekende problemen</a> in onze documentatie voor ontwikkelaars</li></ul>
+</li><li><a href="https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues"> Adobe Commerce 2.3.5 Bekende Kwesties </a> in onze ontwikkelingsdocumentatie</li></ul>

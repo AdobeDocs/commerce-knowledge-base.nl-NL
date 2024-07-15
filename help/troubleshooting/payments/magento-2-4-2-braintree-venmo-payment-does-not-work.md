@@ -21,24 +21,24 @@ In dit artikel wordt een bekende Adobe Commerce 2.4.2-kwestie beschreven waarbij
 
 ## Probleem
 
-<u>Voorwaarde</u> :
+<u> Voorwaarde </u>:
 
 Betalingen via Venmo inschakelen in configuratie met Braintreeën.
 
-<u>Stappen om te reproduceren</u> :
+<u> Stappen om </u> te reproduceren:
 
 1. Voeg op de winkel artikelen toe aan het winkelwagentje.
-1. Doorgaan naar **Afhandeling**.
+1. Ga aan **Controle** te werk.
 1. Selecteer de juiste verzendmethode.
-1. Selecteren **Venmo** als betalingsmethode.
-1. Klikken **Betalen met Venmo**.
-1. Klikken **Positie plaatsen**.
+1. Selecteer **Venmo** als betalingsmethode.
+1. Klik **betalen met Venmo**.
+1. Klik **orde van de Plaats**.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De bestelling wordt niet in Adobe Commerce-code gemaakt nadat de klant vanuit de Venmo-app is omgeleid naar de winkel. Er wordt dan geen foutbericht weergegeven. De volgorde wordt in Braintree gemaakt.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De bestelling wordt in Adobe Commerce gemaakt nadat de klant vanuit de Venmo-app naar de winkel is omgeleid en de bestelling in Braintree is gemaakt, zoals u had verwacht.
 

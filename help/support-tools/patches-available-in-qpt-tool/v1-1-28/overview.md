@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.28'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.28.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.28'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.1.28 worden bevestigd.
 exl-id: a95e74dd-54d7-4ad7-bcb9-7a59a548357a
 feature: Tools and External Services
 role: Admin
@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.28
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.28.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.28.
 
 QPT v1.1.28 omvat de volgende flarden:
 
-1. **ACSD-48204**: Hiermee wordt het probleem opgelost waarbij de *[!UICONTROL catalog price rule]* gemaakt op basis van de *[!UICONTROL Yes/No]* wordt niet gekeken naar het geselecteerde bereik.
-1. **ACSD-47704**: Oplossing van de kwestie waar het gebundelde product de prijs van alleen in-voorraadproducten toont.
-1. **ACSD-49370**: Hiermee wordt het probleem verholpen waarbij het kenmerk product een `FilterMatchTypeInput` typt u het GraphQL-schema.
-1. **ACSD-48807**: Hiermee wordt het probleem verholpen waarbij productrevisies niet via een storeview via GraphQL worden gefilterd.
-1. **ACSD-4943**: Hiermee wordt het probleem verholpen waarbij het standaardbedrag als subtotaal in het winkelwagentje wordt weergegeven voor een cadeaukaart met een open bedrag.
-1. **ACSD-48866**: Hiermee wordt het probleem verholpen waarbij een fout optreedt bij het aanvragen van RSS-feed voor categorieën.
-1. **ACSD-49574**: Het probleem waarbij het cadeaukaartproduct niet via GraphQL kan worden bijgewerkt in het winkelwagentje, is opgelost.
-1. **ACSD-48784**: Hiermee wordt het probleem verholpen waarbij de prijzen van het klantensegment onjuist in de cache worden opgeslagen tussen klantengroepen.
-1. **ACSD-48857**: Hiermee wordt het probleem verholpen waarbij een gebruiker na het bewerken geen wijzigingen kan opslaan *[!UICONTROL PageBuilder]*.
-1. **ACSD-49065**: Hiermee wordt het probleem verholpen waarbij aanhalingstekens niet zichtbaar zijn in de beheerder als deze alleen aan de aangepaste voorraad worden toegewezen.
-1. **ACSD-49179**: Hiermee wordt het probleem opgelost waarbij *[!UICONTROL Orders Report]* in het geval van verschillende valuta&#39;s voor verschillende winkels onjuiste bedragen worden weergegeven.
-1. **ACSD-49286**: Hiermee wordt het probleem verholpen waarbij een product tweemaal aan een winkelwagentje wordt toegevoegd wanneer er meerdere productwidgets op de pagina aanwezig zijn.
+1. **ACSD-48204**: Verhelpt de kwestie waar *[!UICONTROL catalog price rule]* creeerde die op het *[!UICONTROL Yes/No]* attribuut wordt gebaseerd niet het geselecteerde werkingsgebied overweegt.
+1. **ACSD-47704**: Verhelpt de kwestie waar het gebundelde product de prijs van in voorraadproducten slechts toont.
+1. **ACSD-49370**: Verhelpt de kwestie waar het productattribuut een `FilterMatchTypeInput` type in het schema van GraphQL heeft.
+1. **ACSD-48807**: Verhelpt de kwestie waar de productoverzichten niet door storeview via GraphQL worden gefiltreerd.
+1. **ACSD-49433**: Verhelpt de kwestie waar het standaardbedrag als subtotaal in de kar voor een geschenkkaart met een open bedrag wordt getoond.
+1. **ACSD-48866**: Verhelpt de kwestie waar een fout voorkomt wanneer het verzoeken van voer RSS voor categorieën.
+1. **ACSD-49574**: Verhelpt de kwestie waar het product van de cadeaukaart niet in het winkelwagentje via GraphQL kan worden bijgewerkt.
+1. **ACSD-48784**: Verhelpt de kwestie waar de prijzen van het klantensegment verkeerd in het voorgeheugen ondergebracht tussen klantengroepen zijn.
+1. **ACSD-48857**: Verhelpt de kwestie waar een gebruiker veranderingen na het uitgeven met *[!UICONTROL PageBuilder]* niet kan bewaren.
+1. **ACSD-49065**: Verhelpt de kwestie waar de citaatpunten niet zichtbaar in Admin als slechts aan het douanedossier worden toegewezen.
+1. **ACSD-49179**: Verhelpt de kwestie waar *[!UICONTROL Orders Report]* onjuiste bedragen in het geval van verschillende valuta&#39;s voor verschillende opslag toont.
+1. **ACSD-49286**: Verhelpt de kwestie waar een product tweemaal aan een kar wordt toegevoegd wanneer de veelvoudige productwidgets op de pagina aanwezig zijn.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

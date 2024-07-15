@@ -39,7 +39,7 @@ Op verzoek wordt de volgende uitzondering gegenereerd in logboeken:
 
 ## Oorzaak
 
-Standaard kunnen in Gelaagde navigatie alleen bepaalde typen productkenmerken worden gebruikt. Dit zijn Ja/Nee, Vervolgkeuzelijst, Vermenigvuldigen en Prijs. Daarom kunt u in Commerce Admin geen kenmerk van een ander type instellen zoals **Gebruiken in gelaagde navigatie** = *Filterbaar* of **Gebruiken in gelaagde navigatie met zoekresultaten** = *Ja*. Maar er is een technische mogelijkheid om deze beperking te omzeilen door de `is_filterable` en `is_filterable_in_search` waarden in de database. Als dit gebeurt en elk ander kenmerktype, zoals Datum, Tekst, enzovoort, is ingesteld voor gebruik in Gelaagde Navigatie, genereert Elasticsearch 5 een uitzondering.
+Standaard kunnen in Gelaagde navigatie alleen bepaalde typen productkenmerken worden gebruikt. Dit zijn Ja/Nee, Vervolgkeuzelijst, Vermenigvuldigen en Prijs. Dat is waarom in Commerce Admin, u geen attribuut van een ander type zoals **Gebruik in Gelaagde Navigatie** = *Filterable* of **Gebruik in Gelaagde Navigatie van de Resultaten van het Onderzoek** = *ja* kunt plaatsen. Maar er is een technische mogelijkheid om deze beperking te omzeilen door de `is_filterable` - en `is_filterable_in_search` -waarden in de database rechtstreeks te wijzigen. Als dit gebeurt en elk ander kenmerktype, zoals Datum, Tekst, enzovoort, is ingesteld voor gebruik in Gelaagde Navigatie, genereert Elasticsearch 5 een uitzondering.
 
 Om ervoor te zorgen dat dit het geval is, moet u weten of er andere attributen behalve Dropdown, Multipleselect, en Prijs zijn, die worden geplaatst om in Gelaagde Navigatie te worden gebruikt. Voer de volgende query uit om naar deze kenmerken te zoeken:
 
@@ -53,10 +53,10 @@ Het resultaat zal een lijst van attributen bevatten die voor Gelaagde Navigatie 
 
 ## Oplossing
 
-Als u het probleem wilt verhelpen, moet u instellen `is_filterable` (d.w.z. gebruikt in Gelaagde Navigatie) en `filterable_in_search` (dat wil zeggen, wordt gebruikt in zoekresultaten Gelaagde Navigatie) naar &quot;0&quot; (niet gebruikt). Voer hiertoe de volgende stappen uit:
+Als u het probleem wilt verhelpen, moet u `is_filterable` (dat wil zeggen gebruikt in gelaagde navigatie) en `filterable_in_search` (dat wil zeggen gebruikt in gelaagde navigatie in zoekresultaten) instellen op 0 (niet gebruikt). Voer hiertoe de volgende stappen uit:
 
 1. Maak een back-up van de database.
-1. Een databasegereedschap gebruiken, zoals [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)U kunt de volgende SQL-query ook handmatig vanaf de opdrachtregel openen:
+1. Gebruik een gegevensbestandhulpmiddel zoals [ phpMyAdmin ](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), of toegang manueel OB van de bevellijn om de volgende SQL vraag in werking te stellen:
 
    ```sql
    UPDATE catalog_eav_attribute AS cea
@@ -79,6 +79,6 @@ Als u het probleem wilt verhelpen, moet u instellen `is_filterable` (d.w.z. gebr
    bin/magento cache:clean
    ```
 
-of in Commerce Admin onder **Systeem** > **Gereedschappen** > **Cachebeheer**.
+of in Commerce Admin onder **Systeem** > **Hulpmiddelen** > **Beheer van het Geheime voorgeheugen**.
 
 Nu moet u cataloguszoekopdrachten zonder problemen kunnen uitvoeren.

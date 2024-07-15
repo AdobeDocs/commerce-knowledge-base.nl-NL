@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Snel instellen voor starterabonnement op cloud
 
-Zie [Snel instellen](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar [ Opstelling snel ](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html) in onze ontwikkelaarsdocumentatie.

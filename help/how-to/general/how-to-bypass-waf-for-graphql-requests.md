@@ -2,7 +2,8 @@
 title: WAF-aanvragen voor GraphQL omzeilen
 description: In dit artikel wordt uitgelegd hoe u WAF-aanvragen voor GraphQL kunt omzeilen.
 feature: GraphQL
-source-git-commit: c35d4ba82fbe1657756e160a73fd575c736b4e1c
+exl-id: 3a0f2c22-f976-4596-b6a9-4634be1ea4c3
+source-git-commit: 2bec86818336a9ef4d8316e257a0ca4256cdd93c
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # WAF-aanvragen voor GraphQL omzeilen
 
-In dit artikel wordt uitgelegd hoe u WAF-aanvragen voor GraphQL kunt omzeilen wanneer de [!DNL Fastly] WAF blokkeert je GraphQL-aanvragen.
+In dit artikel wordt uitgelegd hoe u WAF-aanvragen voor GraphQL kunt omzeilen wanneer de [!DNL Fastly] WAF uw GraphQL-aanvragen blokkeert.
 
 ## Betrokken producten en versies
 
@@ -19,13 +20,15 @@ Adobe Commerce op cloudinfrastructuur (alle versies)
 
 ## Oorzaak
 
-Vanwege de inherente aard van GraphQL-verzoeken kunnen er veel herhaalde tekens zijn die kunnen leiden tot een fout-positieve blokkering van de aanvragen van de [!DNL Fastly] WAF.
+Vanwege de inherente aard van GraphQL-aanvragen kunnen er veel herhaalde tekens zijn die het blokkeren van aanvragen door de WAF-instructie van [!DNL Fastly] op valse positiefpunten kunnen activeren.
 
 ## Oplossing
 
-1. U kunt WAF voor deze aanvragen omzeilen door een aangepast fragment toe te voegen via het dialoogvenster [!DNL Fastly] Module Magento:
+1. U kunt WAF voor deze aanvragen omzeilen door een aangepast fragment toe te voegen via de module Magento [!DNL Fastly] :
 
-   type: recv-prioriteit: 15 inhoud:
+   type: recv
+prioriteit : 15
+inhoud:
 
    ```
    if( req.url.path ~ "^/graphql" ) {
@@ -33,10 +36,9 @@ Vanwege de inherente aard van GraphQL-verzoeken kunnen er veel herhaalde tekens 
    }
    ```
 
-1. Klikken op **[!UICONTROL Upload VCL to Fastly]**.
+1. Klik op **[!UICONTROL Upload VCL to Fastly]** .
 
 ## Gerelateerde lezing
 
-* [Web Application Firewall (WAF)](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service) in Commerce on Cloud Infrastructure guide.
-* [Aan de slag met aangepaste VCL](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) in Commerce on Cloud Infrastructure guide.
-
+* [ Firewall van de Toepassing van het Web (WAF) ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service) in Commerce op de gids van de Infrastructuur van de Wolk.
+* [ Begonnen het worden met douane VCL ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) in Commerce op de gids van de Infrastructuur van de Wolk.

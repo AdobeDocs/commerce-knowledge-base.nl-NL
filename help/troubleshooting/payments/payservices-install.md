@@ -17,24 +17,24 @@ In dit artikel worden de fouten uitgelegd die u kunt ervaren tijdens de installa
 
 ## Betrokken producten en versies
 
-* [Betalingsdiensten](https://marketplace.magento.com/magento-payment-services.html) is nu compatibel met Adobe Commerce-versies 2.4.0 tot en met 2.4.4.
+* [ de Diensten van de Betaling ](https://marketplace.magento.com/magento-payment-services.html) is nu compatibel met versies 2.4.0 van Adobe Commerce aan 2.4.4.
 
 ## Probleem - onjuiste composer-sleutels
 
 Wanneer u de extensie Betalingsservices installeert, wordt mogelijk een foutbericht weergegeven met de mededeling dat u tijdens de installatie onjuiste Composer-sleutels hebt gebruikt.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Poging tot [Betalingsservices installeren](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html).
+1. Poging om de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) te installeren 0}.[
 1. Zie de volgende fout:
 
-   *Kan geen overeenkomende versie van pakketmagento/betalingsservices vinden. Controleer de spelling van het pakket, de versiebeperking en of het pakket beschikbaar is in een stabiliteit die overeenkomt met de minimale stabiliteit (stabiel).*
+   *Kon geen passende versie van pakketmagento/betaling-diensten vinden. Controleer de pakketspelling, uw versiebeperking en dat het pakket in een stabiliteit beschikbaar is die uw minimum-stabiliteit (stabiel) aanpast.*
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
-U kunt deze [installatie-instructies](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) in onze ontwikkelaarsdocumentatie om de Betalingsdiensten met succes te installeren.
+U kunt deze [ installatieinstructies ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) in onze ontwikkelaarsdocumentatie volgen om de Diensten van de Betaling met succes te installeren.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Tijdens de installatie wordt een foutbericht weergegeven dat u tijdens de installatie niet de juiste Composer-toetsen hebt gebruikt.
 
@@ -44,7 +44,7 @@ Tijdens de installatie hebt u onjuiste Composer-toetsen gebruikt.
 
 ### Oplossing
 
-Controleren of [uw Composer-sleutels zijn gekoppeld aan de Magento-id](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#incorrect-composer-keys) gebruikt tijdens de registratie van betalingsservices.
+Verifieer dat [ uw sleutels Composer met identiteitskaart van het Magento ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#incorrect-composer-keys) verbonden zijn die tijdens de registratie van de Diensten van de Betaling wordt gebruikt.
 
 ## Probleem - het gebruiken van zelfde gegevensruimte over veelvoudige instanties
 
@@ -59,24 +59,24 @@ Wanneer u een SaaS-project maakt, genereert Commerce een of meer SaaS-gegevensru
 * Adobe Commerce - Eén productiedeswitruimte; twee testgegevensruimten
 * Magento Open Source - Eén gegevensruimte voor productie; geen gegevensruimten voor tests
 
-Instructies volgen in [Commerce API-sleutel en persoonlijke sleutel](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#obtain-api-credentials) om uw uitbreiding van de Betalingsdiensten met succes te vormen.
+Volg instructies in [ Commerce API sleutel en privé sleutel ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#obtain-api-credentials) om uw uitbreiding van de Diensten van de Betaling met succes te vormen.
 
 ## Probleem - onvoldoende geheugen voor PHP
 
 Wanneer u de extensie Betalingsservices installeert, wordt mogelijk een foutbericht weergegeven dat u onvoldoende geheugen hebt voor PHP.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Poging tot [Betalingsservices installeren](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html).
+1. Poging om de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) te installeren 0}.[
 1. Zie de volgende fout, of gelijkaardig:
 
-   *Fatale fout: toegestane geheugengrootte van 2146435072 bytes is uitgeput (geprobeerd 4096 bytes toe te wijzen) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php op regel 52*
+   *Fatale fout: Toegestane geheugengrootte van 2146435072 bytes uitgeput (geprobeerd om 4096 bytes toe te wijzen) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php op lijn 52*
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
-U kunt deze [installatie-instructies](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) in onze ontwikkelaarsdocumentatie om de Betalingsdiensten met succes te installeren.
+U kunt deze [ installatieinstructies ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) in onze ontwikkelaarsdocumentatie volgen om de Diensten van de Betaling met succes te installeren.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Tijdens de installatie wordt een foutbericht weergegeven dat je onvoldoende geheugen hebt voor PHP.
 
@@ -86,4 +86,4 @@ De limiet voor PHP op je omgeving is niet ingesteld op een hoog genoeg niveau.
 
 ### Oplossing
 
-[De geheugenlimiet voor PHP verhogen](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php) over uw omgeving in `php.ini`.
+[ verhoog de geheugengrens voor PHP ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php) op uw milieu in `php.ini`.

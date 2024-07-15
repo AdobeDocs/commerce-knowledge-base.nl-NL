@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Omleiden naar het aanmeldingsformulier voor Commerce Admin met de fout &quot;Uw huidige sessie is verlopen&quot;
 
-Dit artikel bevat de mogelijke oplossingen voor het aanmeldingsprobleem van Commerce Admin, waarbij u met het volgende foutbericht terugkeert naar het aanmeldingsformulier: *&quot;Uw huidige sessie is verlopen&quot;*. Tot de oplossingen behoren het controleren op problemen met de instelling van de servertijd en het wijzigen van de opslaginstellingen voor sessies.
+Dit artikel geeft de mogelijke oplossingen voor de Commerce Admin login kwestie, waar u terug naar het login formulier met het volgende foutenmelding wordt gericht: *&quot;Uw huidige zitting is verlopen&quot;*. Tot de oplossingen behoren het controleren op problemen met de instelling van de servertijd en het wijzigen van de opslaginstellingen voor sessies.
 
 ## Betrokken versies en versies:
 
@@ -21,18 +21,18 @@ Alle Adobe Commerce-versies en -versies
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Ga naar de pagina Commerce Admin.
 1. Voer uw referenties in en klik op Aanmelden.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 U wordt aangemeld bij de Commerce Admin.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-U wordt opnieuw omgeleid naar het aanmeldingsformulier, met het volgende foutbericht weergegeven: *&quot;Uw huidige sessie is verlopen&quot;*.
+U wordt opnieuw gericht terug naar het login formulier, met het volgende getoonde foutenmelding: *&quot;Uw huidige zitting is verlopen&quot;*.
 
 ## Oorzaak
 
@@ -47,13 +47,13 @@ Raadpleeg de volgende sectie voor oplossingen.
 
 ### Controleren op problemen met servertijd
 
-Controleer de sessierecord die in het dialoogvenster `admin_user_session` tabel. Als de waarden van `created_at` en/of `updated_at` onjuist zijn, kan dit worden veroorzaakt door het probleem met de instellingen voor de servertijd. Vraag de systeembeheerder van het serversysteem om dat te controleren. Merk op, dat de tijd in OB aan UTC door gebrek wordt geplaatst.
+Controleer de sessierecord die in de tabel `admin_user_session` is gemaakt. Als de waarden van `created_at` en/of `updated_at` onjuist zijn, kan dit worden veroorzaakt door het probleem met de instellingen voor de servertijd. Vraag de systeembeheerder van het serversysteem om dat te controleren. Merk op, dat de tijd in OB aan UTC door gebrek wordt geplaatst.
 
 ### De sessieopslag wijzigen
 
-Wijzig de sessieopslag. De informatie uit het dialoogvenster [Uw sessiebestanden zoeken](https://devdocs.magento.com/guides/v2.3/config-guide/sessions.html) artikel in onze ontwikkelaarsdocumentatie om te weten te komen waar uw zitting wordt opgeslagen, en het te veranderen door het uit te geven `app/etc/env.php` bestand.
+Wijzig de sessieopslag. Gebruik info van [ hoe te om van uw zittingsdossiers ](https://devdocs.magento.com/guides/v2.3/config-guide/sessions.html) artikel in onze ontwikkelaarsdocumentatie de plaats te bepalen om te weten te komen waar uw zitting wordt opgeslagen, en het te veranderen door het `app/etc/env.php` dossier uit te geven.
 
-Als u bijvoorbeeld wilt beginnen met het opslaan van een sessie in het bestandssysteem, wijzigt u de instelling `'session'` als volgt:
+Als u bijvoorbeeld een sessie wilt opslaan in het bestandssysteem, wijzigt u de sectie `'session'` als volgt:
 
 ```php
 ....
@@ -64,12 +64,12 @@ Als u bijvoorbeeld wilt beginnen met het opslaan van een sessie in het bestandss
 ....
 ```
 
-Voer de `bin/magento app:config:import` om configuratiegegevens te importeren.
+Voer de opdracht `bin/magento app:config:import` uit om configuratiegegevens te importeren.
 
 
 ## Gerelateerde lezing
 
-* [Gegevens importeren uit configuratiebestanden](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html) in onze documentatie voor ontwikkelaars
-* [Redis configureren](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html) in onze documentatie voor ontwikkelaars
-* [Omleiden naar het aanmeldingsformulier voor Commerce Admin met de fout &quot;Uw account is tijdelijk uitgeschakeld&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) in onze kennisbasis voor ondersteuning
-* [Omleiden naar het aanmeldingsformulier zonder fout wanneer u zich probeert aan te melden bij de Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md) in onze kennisbasis voor ondersteuning
+* [ de Gegevens van de Invoer van configuratiedossiers ](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html) in onze ontwikkelaarsdocumentatie
+* [ vorm Redis ](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html) in onze ontwikkelaarsdocumentatie
+* [ Redirect terug naar de login van Commerce Admin vorm met &quot;Uw rekening is tijdelijk gehandicapt&quot;fout ](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) in onze basis van de steunkennis
+* [ richt terug naar de login vorm zonder fout, wanneer het proberen om aan Commerce te login Admin ](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md) in onze basis van de steunkennis

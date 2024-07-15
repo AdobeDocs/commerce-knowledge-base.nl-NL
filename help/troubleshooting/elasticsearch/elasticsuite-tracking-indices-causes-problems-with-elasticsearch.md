@@ -28,10 +28,10 @@ ElasticSuite-versies die ouder zijn dan 2.9.8 / 2.10.7 slaan traceerindexen op i
 Als de ElasticSuite-insteekmodule van derden is geïnstalleerd, kunnen er geheugenproblemen optreden bij de Elasticsearch en kan de service Elasticsearch vastlopen als gevolg van ElasticSuite-trackingsindices. Symptomen zijn onder meer:
 
 * Elasticsearch loopt vast zonder geheugenfouten.
-* Bij het uitvoeren van een opdracht voor gezondheid `curl -m1 localhost:9200/_cluster/health?pretty` of `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` (voor startaccounts) er zijn honderden of duizenden `unassigned_shards`
+* Als u een opdracht voor de gezondheid `curl -m1 localhost:9200/_cluster/health?pretty` of `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` (voor startaccounts) uitvoert, zijn er honderden of duizenden `unassigned_shards`
 * De Elasticsearch- of siteprestaties worden ernstig aangetast.
-* *&quot;Geen levende knopen die in uw cluster worden gevonden&quot;* in Elasticsearch stelt of registreert fouten op.
-* *&quot;Toewijzingsupdate negeren naar [&lt;\*>_ tracking_log_event _&lt;\*>]&quot;* in opstellen of logboekfouten.
+* *&quot;Geen levende knopen die in uw cluster&quot;worden gevonden* in Elasticsearch stelt of registreert fouten op.
+* *&quot;het Afwijzen van toewijzingsupdate aan [ &lt;\*>_ tracking_log_event _&lt;\*> ]&quot;* in opstellen of logboekfouten.
 
 ## Oorzaak
 
@@ -43,7 +43,7 @@ ElasticSuite beschikt over een nieuwe functie waarmee traceerindexen worden gema
 
 Als u de insteekmodule ElasticSuite hebt bijgewerkt naar een hogere versie dan versie 2.8.0, kunt u een periodieke reiniging van indexen configureren.
 
-Ga naar **Winkels** > **Configuratie** > **Tekstspatiëring** > **Algemene configuratie** > **Bewaarvertraging**
+Ga naar **Opslag** > **Configuratie** > **het Volgen** > **Globale Configuratie** > **Vertraging van het Behoud**
 
 De standaardretentieperiode is 365 dagen. U kunt deze terugbrengen tot 30 of 15 dagen.
 
@@ -53,7 +53,7 @@ Als u de insteekmodule ElasticSuite hebt bijgewerkt naar versie > 2.9.8 / 2.10.7
 
 U kunt de retentieperiode nog steeds verkorten:
 
-Ga naar **Winkels** > **Configuratie** > **Tekstspatiëring** > **Algemene configuratie** > **Bewaarvertraging**
+Ga naar **Opslag** > **Configuratie** > **het Volgen** > **Globale Configuratie** > **Vertraging van het Behoud**
 
 De standaardretentieperiode is 12 maanden (er worden 12 indexen gegenereerd). U kunt de dosis verlagen tot 3 of 6 maanden.
 
@@ -68,5 +68,5 @@ Maak een uitsnijdtaak om de volgende indexen te verwijderen. Met deze opdracht v
 
 Als u indexen op een vastgestelde tijd-frequentie wilt schrappen, creeer een hulpbaan door naar de volgende artikelen in onze ontwikkelaarsdocumentatie te verwijzen:
 
-* [Een aangepaste uitsnijdtaak en uitsnijdgroep configureren (zelfstudie)](https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html)
-* [Uitsnijdtaken instellen](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html)
+* [ vorm een baan van de douanecurn en de cron groep (leerprogramma) ](https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html)
+* [ de banen van de opstelling cron ](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html)

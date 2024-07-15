@@ -40,24 +40,24 @@ kan ook op de opdrachtregel worden weergegeven.
 
 ## Oplossing {#solution}
 
-We raden u aan [2 GB geheugen toewijzen aan PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) in onze ontwikkelaarsdocumentatie om ervoor te zorgen uw installatie of verbetering succesvol is.
+Wij adviseren u [ 2 GB van geheugen aan PHP ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) in onze ontwikkelaarsdocumentatie toewijst om uw installatie of verbetering te verzekeren slagen.
 
-Als u dat al hebt gedaan, maakt u een wisselbestand op uw computer. Een Linux-computer gebruikt *wisselruimte* als er meer geheugenbronnen nodig zijn en het RAM vol is. De wisselruimte wordt gebruikt voor inactieve pagina&#39;s in het geheugen.
+Als u dat al hebt gedaan, maakt u een wisselbestand op uw computer. Een machine van Linux gebruikt *ruilmiddel* als het meer geheugenmiddelen en RAM volledig vereist. De wisselruimte wordt gebruikt voor inactieve pagina&#39;s in het geheugen.
 
-Hieronder vindt u alleen suggesties; mogelijk zijn andere opties beschikbaar. Raadpleeg een netwerkbeheerder of een andere betrouwbare bron voordat u verdergaat. U moet de opdrachten uitvoeren om een wisselbestand te maken als een gebruiker met `root` rechten.
+Hieronder vindt u alleen suggesties; mogelijk zijn andere opties beschikbaar. Raadpleeg een netwerkbeheerder of een andere betrouwbare bron voordat u verdergaat. U moet de opdrachten uitvoeren om een wisselbestand te maken als een gebruiker met `root` -rechten.
 
 ### Bestand wisselen op Ubuntu {#swap-file-on-ubuntu}
 
-Gebruik de `fallocate` bevel zoals die in deze verwijzingen wordt besproken:
+Gebruik de opdracht `fallocate` zoals beschreven in deze verwijzingen:
 
-* [Hoe wordt omwisselen toegevoegd op Ubuntu 14.04 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
-* [Hoe voegt u wisselruimte toe op Ubuntu 16.04 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
-* [SwapFaq (help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
+* [ hoe te om Wisselen op Ubuntu 14.04 (Digitalocean) toe te voegen ](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
+* [ hoe te om Ruimte van de Wisseling op Ubuntu 16.04 (Digitalocean) toe te voegen ](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
+* [ SwapFaq (help.ubuntu.com) ](https://help.ubuntu.com/community/SwapFaq)
 
 ### Bestand wisselen op CentOS {#swap-file-on-centos}
 
-Gebruik de `mkswap` bevel zoals die in deze verwijzingen wordt besproken:
+Gebruik de opdracht `mkswap` zoals beschreven in deze verwijzingen:
 
-* [Omwisselen toevoegen op CentOS 6 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
-* [Omwisselen toevoegen op CentOS 7 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
-* [Ruimte wisselen (RedHat-klantenportal)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)
+* [ hoe te om Wisselen op CentOS 6 (Digitalocean) toe te voegen ](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
+* [ hoe te om Wisselen op CentOS 7 (Digitalocean) toe te voegen ](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
+* [ Ruimte van het Wisselen (klantenportaal RedHat) ](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)

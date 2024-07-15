@@ -17,29 +17,29 @@ Dit artikel bevat een hotfix voor het probleem wanneer u moeite hebt om een nieu
 
 ## Probleem
 
-De **Een account maken** op de knop **Nieuw account maken** De pagina blijft uitgeschakeld als een klant ongeldige gegevens heeft ingevoerd. Zo voorkomt u dat kopers opnieuw proberen een account te maken nadat ze een fout hebben gemaakt.
+**creeer een knoop van de Rekening** op **creeer Nieuwe pagina van de Rekening** gehandicapt blijft als een verkoopster ongeldige gegevens heeft ingegaan. Zo voorkomt u dat kopers opnieuw proberen een account te maken nadat ze een fout hebben gemaakt.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Ga naar **Nieuwe klantaccount maken**.
-1. Vul de formuliervelden in. In de **Wachtwoord** veld, invoerwaarden die niet voldoen aan de wachtwoordvereisten. Bijvoorbeeld:
-   * De wachtwoorden in de **Wachtwoord** en de **Wachtwoord bevestigen** de velden komen niet overeen.
-   * De wachtwoorden in de **Wachtwoord** en de **Wachtwoord bevestigen** de velden zijn niet lang genoeg .
-1. Klik op de knop **Een account maken** knop.
+1. Ga naar **creëren Nieuwe Rekening van de Klant**.
+1. Vul de formuliervelden in. Op het **gebied van het Wachtwoord**, inputwaarden die niet de wachtwoordvereisten voldoen. Bijvoorbeeld:
+   * De wachtwoorden in het **Wachtwoord** en **bevestigen de gebieden van het Wachtwoord** passen niet aan.
+   * De wachtwoorden in het **Wachtwoord** en **bevestigen de gebieden van het Wachtwoord** zijn niet lang genoeg.
+1. Klik **creeer een knoop van de Rekening**.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-* **Een account maken** Deze knop moet actief blijven of ingeschakeld.
+* **creeer een knoop van de Rekening** actief/toegelaten zou moeten blijven.
 * De gebruiker moet een nieuwe account kunnen maken.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-* **Een account maken** de knop blijft uitgeschakeld, zelfs nadat alle vereiste velden zijn ingevuld met geldige/correcte gegevens.
+* **creeer een de knoopverblijven van de Rekening** gehandicapt, zelfs na het invullen van alle vereiste gebieden met geldige/correcte gegevens.
 * De klant kan geen nieuwe account maken.
 
 ## Reparatie
 
-De patch is aan dit artikel gekoppeld. Als u het bestand wilt downloaden, schuift u omlaag naar het einde van het artikel en klikt u op de bestandsnaam of op de volgende koppeling: [MC-38509-composer.patch downloaden](assets/MC-38509-composer.patch.zip)
+De patch is aan dit artikel gekoppeld. Om het te downloaden, scrol neer aan het eind van het artikel en klik het dossier - noem of klik de volgende verbinding: [ Download MC-38509-composer.patch ](assets/MC-38509-composer.patch.zip)
 
 ## Compatibele Adobe Commerce-versies:
 
@@ -52,9 +52,9 @@ De patch is niet compatibel met andere Adobe Commerce-versies en -versies.
 
 ## Hoe de pleister moet worden aangebracht
 
-Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Gerelateerde lezing
 
-* [GitHub Adobe Commerce > Ongeldige verzendaccount aanmaken, zodat de verzendknop uitgeschakeld blijft](https://github.com/magento/magento2/issues/30513)
-* [Adobe Commerce User Guide > Getting Started > Creating an Account](https://docs.magento.com/user-guide/magento/magento-account-create.html)
+* [ GitHub Adobe Commerce > het Voorleggen van ongeldig leidt rekeningsvorm tot verlaten de voorgelegde knoop ](https://github.com/magento/magento2/issues/30513)
+* [ de Gids van de Gebruiker van Adobe Commerce > Begonnen het worden > Creërend een Rekening ](https://docs.magento.com/user-guide/magento/magento-account-create.html)

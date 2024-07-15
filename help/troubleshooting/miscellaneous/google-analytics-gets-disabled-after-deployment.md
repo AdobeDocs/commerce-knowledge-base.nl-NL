@@ -21,7 +21,7 @@ Dit onderwerp bespreekt een oplossing aan een typisch probleem u met Googles Ana
 
 ## Probleem
 
-Wanneer het opstellen van uw code over milieu&#39;s, bouwt en stelt manuscripten op verifieert `master/production/staging` de tak wordt opgesteld om Googles Analytics toegelaten te houden. Wanneer het opstellen ontwikkelt (of kind) takken van meester aan ontwikkelaarmilieu&#39;s (Integratie), stelt manuscript Googles Analytics onbruikbaar.
+Wanneer het opstellen van uw code over milieu&#39;s, bouwt en stelt manuscripten op verifieert de `master/production/staging` tak wordt opgesteld om Googles Analytics toegelaten te houden. Wanneer het opstellen ontwikkelt (of kind) takken van meester aan ontwikkelaarmilieu&#39;s (Integratie), stelt manuscript Googles Analytics onbruikbaar.
 
 ## Oorzaak
 
@@ -29,7 +29,7 @@ Dit is een beoogde functie om ervoor te zorgen dat ontwikkelaarsgegevens en -int
 
 ## Oplossing
 
-Als u altijd toegelaten Googles Analytics wilt hebben, plaats de plaatsingsvariabele `ENABLE_GOOGLE_ANALYTICS = true`, zoals beschreven in [Variabelen implementeren](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics) in onze ontwikkelaarsdocumentatie.
+Als u altijd toegelaten Googles Analytics wilt hebben, plaats veranderlijk opstellen `ENABLE_GOOGLE_ANALYTICS = true`, zoals die in [ wordt beschreven stelt variabelen ](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics) in onze ontwikkelaarsdocumentatie op.
 
 >[!NOTE]
 >

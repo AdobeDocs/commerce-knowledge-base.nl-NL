@@ -8,9 +8,9 @@ ht-degree: 0%
 # Handleiding KB-labels
 
 Dit document bevat richtlijnen voor het toevoegen van labels aan artikelen in de Adobe Commerce Support Knowledge Base.
-Met labels (ook wel tags genoemd) verbetert u de zoekervaring in het dialoogvenster [Adobe Commerce Support Knowledge Base](https://support.magento.com/hc/en-us).
+De etiketten (ook genoemd markeringen) verbeteren het zoeken ervaring in de [ Kennisbank van de Steun van Adobe Commerce ](https://support.magento.com/hc/en-us).
 Labels worden toegevoegd in het veld &quot;labels&quot; in de metagegevenssectie van een artikelbestand, gescheiden door komma&#39;s, zonder ruimte tussen een komma en het volgende label.
-Zie [../../.github/CONTRIBUTING.md] voor meer informatie.
+Zie [../../.github/CONTRIBUTING.md#metadata ] voor meer informatie.
 
 ## Algemene bepalingen
 
@@ -84,7 +84,8 @@ Zie de secties hieronder voor gedetailleerde aanbevelingen over hoe te om etiket
 
 * Voeg een apart label toe voor elke versie van Adobe Commerce. Voorbeeld: &quot;2.3.7&quot;
 * Voeg geen labels voor intervallen toe.
-Indien van toepassing, bijv. 2.3.0-2.3.5: &quot;2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2&quot; NOT &quot;2.2 3,0-2,3,5 inch
+Indien 2.3.0-2.3.5 aangetast, voeg dan toe: &quot;2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2&quot;
+NIET &quot;2.3.0-2.3.5&quot;
 * Voeg geen labels met .x toe. Voorbeeld: &quot;2.3.x&quot;
 
 ## Labels voor inhoudstype (op basis van categorie)

@@ -34,7 +34,7 @@ Configuraties, onjuiste gegevens of niet-ondersteunde Adobe Commerce-extensies k
 
 ### Testen met graven, opdracht
 
-Eerst, controleer kopballen met een gradibevel aan URL. In een eindtoepassing, ga graven in `<url>` om te verifiëren de de dienstenvertoning van de Snelheid in de kopballen. Zie Fastly&#39;s voor aanvullende gradtests [Testen voordat DNS wordt gewijzigd](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains).
+Eerst, controleer kopballen met een gradibevel aan URL. In een eindtoepassing, ga graving `<url>` in om de Snelle vertoning van de diensten in de kopballen te verifiëren. Voor extra grafietests, zie het Snelle Testen van [ alvorens DNS ](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains) te veranderen.
 
 Bijvoorbeeld:
 
@@ -46,12 +46,12 @@ Bijvoorbeeld:
 
 Vervolgens gebruikt u een krullingsopdracht om te controleren of er X-Magento-tags bestaan en aanvullende koptekstgegevens. Het bevelformaat verschilt voor het Opvoeren en de Productie.
 
-Voor meer informatie over deze opdrachten kunt u bij het injecteren de sneltoets ingedrukt houden `-H "host:URL"`, door oorsprong te vervangen naar de verbindingslocatie (CNAME-gegevens van uw OneDrive-werkblad), `-k` SSL negeert, en `-v` biedt uitgebreide antwoorden. Als de kopballen correct tonen, controleer de levende plaats en verifieer opnieuw kopballen.
+Voor meer informatie over deze opdrachten gaat u snel over wanneer u `-H "host:URL"` injecteert, vervangt u deze door de oorsprong naar de verbindingslocatie (CNAME-informatie uit uw OneDrive-werkblad), negeert `-k` SSL en `-v` biedt uitgebreide reacties. Als de kopballen correct tonen, controleer de levende plaats en verifieer opnieuw kopballen.
 
 * Als er headerproblemen optreden wanneer de oorspronkelijke servers rechtstreeks worden overgeslagen zonder dat dit ten koste gaat van Snelheid, kunnen er problemen optreden in uw code, met extensies of met de infrastructuur.
 * Als er geen fouten optreden die direct van invloed zijn op de oorspronkelijke servers, maar de headers het live domein niet snel raken, kunnen er snel fouten optreden.
 
-Eerst, controleer uw **livesite** om de antwoordheaders te verifiëren. De opdracht doorloopt de extensie Snelst om reacties te ontvangen. Als u niet de correcte kopballen ontvangt, dan zou u de oorsprongservers direct moeten testen. Deze opdracht retourneert de waarden van de opdracht `Fastly-Magento-VCL-Uploaded` en `X-Cache` kopteksten.
+Eerst, controleer uw **levende plaats** om de antwoordkopballen te verifiëren. De opdracht doorloopt de extensie Snelst om reacties te ontvangen. Als u niet de correcte kopballen ontvangt, dan zou u de oorsprongservers direct moeten testen. Deze opdracht retourneert de waarden van de koppen `Fastly-Magento-VCL-Uploaded` en `X-Cache` .
 
 1. Voer in een terminal de volgende opdracht in om de URL van uw livesite te testen:
 
@@ -59,7 +59,7 @@ Eerst, controleer uw **livesite** om de antwoordheaders te verifiëren. De opdra
    curl http://<live URL> -vo /dev/null -HFastly-Debug:1 [--resolve]
    ```
 
-   Gebruiken `--resolve` slechts als uw levende URL niet opstelling met DNS is en u geen statische routereeks hebt. Bijvoorbeeld:
+   Gebruik `--resolve` slechts als uw levende URL niet opstelling met DNS is en u geen statische routeset hebt. Bijvoorbeeld:
 
    ```
    curl http://www.mymagento.biz -vo /dev/null -HFastly-Debug:1
@@ -71,19 +71,19 @@ Eerst, controleer uw **livesite** om de antwoordheaders te verifiëren. De opdra
    < Fastly-Magento-VCL-Uploaded: yes    < X-Cache: HIT, MISS
    ```
 
-Testen **Staging** :
+Om **het Staging** te testen:
 
 ```
 curl http[s]://staging.<your domain>.c.<instanceid>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
-Testen **Stabiliteitsmechanisme voor productielading** :
+Om **het taakverdelingsmechanisme van de Productie** te testen:
 
 ```
 curl http[s]://<your domain>.c.<project ID>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
-Testen **knooppunt Productie-oorsprong** :
+Om **knoop van de Oorsprong van de Productie te testen**:
 
 ```
 curl http[s]://<your domain>.{1|2|3}.<project ID>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
@@ -163,20 +163,20 @@ Als u wilt controleren of Fastly is ingeschakeld in Staging en Productie, contro
 1. Klik op Snelconfiguratie. Controleer of de snelste service-id en het snelste API-token zijn ingevoerd (uw snelste referenties). Verifieer u de correcte geloofsbrieven hebt ingegaan voor de het Opvoeren en milieu van de Productie. Klik op Referenties testen voor hulp.
 1. Bewerk het bestand composer.json en zorg ervoor dat de module Snelheid wordt opgenomen in de versie. Dit bestand bevat alle modules die bij versies worden vermeld.
 
-   * In de sectie &quot;Vereist&quot; moet u &quot;favaal/magento2&quot; hebben: `<version number>`
+   * In de sectie &quot;require&quot; moet u &quot;faals/magento2&quot; hebben: `<version number>`
    * In de sectie &quot;repositories&quot; moet u beschikken over:
 
    ```
    "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
    ```
 
-1. Als u het Beheer van de Configuratie gebruikt, zou u een configuratiedossier moeten hebben. Bewerk het bestand app/etc/config.app.php (2.0, 2.1) of app/etc/config.php (2.2) en zorg ervoor dat de instelling `'Fastly_Cdn' => 1` is correct. De instelling mag niet `'Fastly_Cdn' => 0` (betekenis gehandicapt).Als u snel toeliet, schrap het configuratiedossier en stel de bak/magento magento-cloud:scd-dump bevel in werking om bij te werken. Voor een doorloop van dit bestand raadpleegt u [Voorbeeld van het beheren van systeemspecifieke instellingen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration) in de Guide Configuratie.
+1. Als u het Beheer van de Configuratie gebruikt, zou u een configuratiedossier moeten hebben. Bewerk het bestand app/etc/config.app.php (2.0, 2.1) of app/etc/config.php (2.2) en controleer of de instelling `'Fastly_Cdn' => 1` juist is. De instelling mag niet `'Fastly_Cdn' => 0` (uitgeschakeld) zijn. Als u Fastly hebt ingeschakeld, verwijdert u het configuratiebestand en voert u de opdracht bin/magento magento-cloud:scd-dump uit om bij te werken. Voor een looppas-door van dit dossier, zie [ Voorbeeld van het beheren van systeem-specifieke montages ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration) in de Gids van de Configuratie.
 
-Als de module niet is geïnstalleerd, moet u een [Integratieomgeving](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) vertakking en worden ingezet in de afbouw en productie. Zie [Snel instellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) voor instructies in de Commerce on Cloud Infrastructure Guide.
+Als de module niet geïnstalleerd is, moet u in een [ milieu van de Integratie ](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) tak installeren en aan het Staging en Productie worden opgesteld. Zie [ Opstelling snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) voor instructies in Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ### Fastly-Magento-VCL-Uploaded is niet aanwezig
 
-Tijdens installatie en configuratie, zou u Fastly VCL moeten uploaden. Dit zijn de basisVCL fragmenten die door de Fastly module worden verstrekt, niet de fragmenten van douaneVCL u creeert. Zie voor instructies [VCL-fragmenten snel uploaden](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly) in de Commerce on Cloud Infrastructure Guide.
+Tijdens installatie en configuratie, zou u Fastly VCL moeten uploaden. Dit zijn de basisVCL fragmenten die door de Fastly module worden verstrekt, niet de fragmenten van douaneVCL u creeert. Voor instructies, zie [ snel VCL fragmenten ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly) in Commerce op de Gids van de Infrastructuur van de Wolk uploaden.
 
 ### X-cache bevat MISS
 
@@ -190,8 +190,8 @@ Als u hetzelfde resultaat krijgt, gebruikt u de krullopdrachten en controleert u
 
 Als het probleem zich blijft voordoen, worden deze headers waarschijnlijk opnieuw ingesteld door een andere extensie. Herhaal de volgende procedure in Staging om extensies uit te schakelen om te zoeken welke procedure de kwestie veroorzaakt. Nadat u de extensie(s) hebt gevonden die het probleem veroorzaakt, moet u de extensie(s) in Production uitschakelen.
 
-1. Volg de stappen in [Extensies beheren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) sectie van Commerce over Cloud Infrastructure-handleiding.
-1. Ga na het uitschakelen van de extensies naar **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**.
+1. Om de uitbreidingen onbruikbaar te maken, volg de stappen die in [ worden gegeven leiden de sectie van Uitbreidingen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) van Commerce op de gids van de Infrastructuur van de Wolk.
+1. Nadat u de extensies hebt uitgeschakeld, gaat u naar **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]** .
 1. Klik op **[!UICONTROL Flush Magento Cache]**.
 1. Schakel nu één extensie tegelijk in en sla de configuratie op en spoel de cache op.
 1. Probeer de krullopdrachten en controleer de antwoordheaders.
@@ -201,6 +201,6 @@ Wanneer u de extensie isoleert die de sneltoetsen opnieuw instelt, neemt u conta
 
 ## Meer informatie in onze ontwikkelaarsdocumentatie:
 
-* [Info snel](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Snel instellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [Aangepaste, snel VCL-fragmenten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [ Ongeveer snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
+* [ Opstelling snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* [ de fragmenten van VCL van de Douane de Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)

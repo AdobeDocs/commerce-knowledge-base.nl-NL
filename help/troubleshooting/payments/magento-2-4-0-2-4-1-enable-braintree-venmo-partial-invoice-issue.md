@@ -22,24 +22,24 @@ In dit artikel wordt een bekende uitgave van Adobe Commerce 2.4.0 en 2.4.1 besch
 
 ## Probleem
 
-<u>Vereisten:</u>
+<u> Eerste vereisten:</u>
 
-In de configuratie van de betalingsmethode van de Braintree, plaats **Venmo inschakelen via Braintree** = *Ja* with **Betalingsactie** = *Toestemming*; **Vault inschakelen voor kaartbetalingen** = *Nee*.
+In de configuratie van de betalingsmethode van de Braintree, plaats **laat Venmo door Braintree** toe = *ja* met **de Actie van de Betaling** = *Vergunning*; **laat vault voor de Betalingen van de Kaart** toe = *Nr*.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. Maak een bestelling voor twee of meer producten, waarbij Venmo (Braintree) wordt gebruikt als betalingsmethode.
 1. Open de volgorde in Commerce Admin.
 1. Maak een factuur voor een van de bestelde producten.
 1. Probeer facturen te maken voor de overige bestelde producten.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 Factuur gemaakt.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-Het volgende foutbericht wordt weergegeven: *De opdracht &quot;vault\_capture&quot; bestaat niet. Controleer de opdracht en probeer het opnieuw.*
+Het volgende foutbericht wordt weergegeven: *De opdracht &quot;vault\_capture&quot; bestaat niet. Verifieer het bevel en probeer opnieuw.*
 
 ## Workaround
 

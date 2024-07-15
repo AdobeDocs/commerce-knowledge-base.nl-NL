@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Advanced Reporting 404-fout bij gesplitste databaseoplossing
 
-Dit artikel bevat een patch voor Adobe Commerce 2.3.x-gebruikers met de [gesplitste databaseoplossing](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) die een fout 404 ervaren wanneer het proberen om Geavanceerde Rapportering te gebruiken.
+Dit artikel verstrekt een flard voor Adobe Commerce 2.3.x gebruikers met de [ gespleten gegevensbestandoplossing ](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) die een fout 404 wanneer het proberen om Geavanceerde Rapportering te gebruiken ervaart.
 
 ## Betrokken producten en versies
 
@@ -25,7 +25,7 @@ De patch verhelpt het probleem waarbij de onjuiste verbindingsnaam wordt gebruik
 
 ## Oplossing
 
-Pas de [pleister](assets/MDVA-26831_EE_2.3.4_v1.composer.patch.zip) in dit artikel.
+Pas het [ flard ](assets/MDVA-26831_EE_2.3.4_v1.composer.patch.zip) toe dat in dit artikel wordt verstrekt.
 
 ## Reparatie
 
@@ -35,4 +35,4 @@ De patch is aan dit artikel gekoppeld. Klik op de volgende koppeling om deze te 
 
 ## Hoe de pleister aanbrengen
 
-Pak het bestand uit en volg de instructies in [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+Pak het dossier uit en volg de instructies in [ hoe te om een composerflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) wordt verstrekt.

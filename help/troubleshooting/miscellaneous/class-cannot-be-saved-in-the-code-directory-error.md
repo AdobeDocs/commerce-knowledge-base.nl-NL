@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Fout: &quot;Klasse kan niet worden opgeslagen in de codedirectory&quot;
 
-In dit artikel wordt beschreven hoe u het probleem kunt oplossen waarbij de manier waarop u afhankelijkheden hebt opgegeven, voorkomt dat klassen automatisch worden gegenereerd. Bovendien krijgt u de *&quot;Klasse kan niet worden opgeslagen in de gegenereerde/codedirectory&quot;* foutbericht.
+Dit artikel beschrijft hoe te om de kwestie te bevestigen waar de manier u gebiedsdelen specificeerde voorkomt klassen worden auto-geproduceerd op de vlucht, en u krijgt *&quot;Klasse kan niet in de geproduceerde/codefolder worden bewaard&quot;* foutenmelding.
 
 ## Betrokken producten en versies
 
@@ -21,28 +21,28 @@ In dit artikel wordt beschreven hoe u het probleem kunt oplossen waarbij de mani
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
 1. In uw lokale milieu, schrijf een douaneklasse met een afhankelijkheid van de auto-geproduceerde klasse.
 1. Voer het scenario uit, waarbij de aangepaste klasse wordt geactiveerd, en zie hoe het werkt.
 1. Leg uw wijzigingen vast en duw op de integratieomgeving. Dit zou het plaatsingsproces teweegbrengen. Implementatie is geslaagd.
-1. In de [integratieomgeving](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), voert u het scenario uit waarin de aangepaste klasse wordt geactiveerd.
+1. In het [ integratiemilieu ](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), stel het scenario in werking waar uw douaneklasse wordt teweeggebracht.
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
 Alles werkt correct, net als in uw lokale omgeving.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
-Fout bij het foutbericht dat aangeeft dat uw klasse niet kan worden opgeslagen in de `generated/code` directory.
+Fout bij het foutbericht dat aangeeft dat uw klasse niet in de map `generated/code` kan worden opgeslagen.
 
 ## Oorzaak
 
-De oorzaak van het probleem is dat de klasse waarop u gebiedsdeel hebt, niet tijdens de plaatsing wordt geproduceerd, en niet later op de vlucht kan worden geproduceerd wanneer de klasse wordt teweeggebracht, omdat `generated/code` kan niet worden geschreven nadat de implementatie is voltooid.
+De oorzaak van het probleem is dat de klasse waarop u gebiedsdeel hebt, niet tijdens de plaatsing wordt geproduceerd, en niet later op de vlucht kan worden geproduceerd wanneer de klasse wordt teweeggebracht, omdat de `generated/code` folder niet voor het schrijven na plaatsing is voltooid.
 
 Er zijn twee belangrijke redenen waarom dit zou kunnen gebeuren:
 
-* Case 1: De klasse met gebiedsdelen op auto-geproduceerde klassen wordt gevestigd in het ingangspunt (als `index.php` ), dat tijdens de implementatie niet op afhankelijkheden is gescand.
+* Case 1: De klasse met afhankelijkheden van automatisch gegenereerde klassen bevindt zich in het ingangspunt (zoals `index.php` ), dat tijdens de implementatie niet is gescand op afhankelijkheden.
 * Geval 2: De afhankelijkheid van de auto-geproduceerde klasse wordt gespecificeerd direct (vergelijk aan het geadviseerde gebruik van aannemer om gebiedsdeel te verklaren).
 
 ## Oplossing
@@ -55,9 +55,9 @@ Of er is een specifieke oplossing voor elk geval.
 
 Verplaats uw klassecode van het ingangspunt naar een afzonderlijke module en gebruik deze vervolgens in het ingangspunt.
 
-<u>Voorbeeld</u>
+<u> Voorbeeld </u>
 
-Oorspronkelijke code in, bijvoorbeeld `index2.php` :
+Oorspronkelijke code in, bijvoorbeeld, `index2.php` :
 
 ```php
 <?php
@@ -85,7 +85,7 @@ $someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
 
 U moet de volgende stappen uitvoeren:
 
-1. De klassedefinitie verplaatsen naar `app/code/YourVendor/YourModule`:
+1. Verplaats de klassedefinitie naar `app/code/YourVendor/YourModule` :
 
    ```php
       <?php
@@ -103,7 +103,7 @@ U moet de volgende stappen uitvoeren:
        }
    ```
 
-1. Het ingangspunt bewerken `my_api/index.php` zodat het er als volgt uitziet:
+1. Bewerk het ingangspunt `my_api/index.php` zodat het er als volgt uitziet:
 
    ```php
      <?php
@@ -118,7 +118,7 @@ U moet de volgende stappen uitvoeren:
 
 Afhankelijkheidsdeclaratie verplaatsen naar de constructor.
 
-<u>Voorbeeld</u>
+<u> Voorbeeld </u>
 
 Oorspronkelijke klassendeclaratie:
 
@@ -170,4 +170,4 @@ class YourClass
 
 ## Gerelateerde lezing
 
-* [Codegeneratie](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) in onze ontwikkelaarsdocumentatie.
+* [ generatie van de Code ](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) in onze ontwikkelaarsdocumentatie.

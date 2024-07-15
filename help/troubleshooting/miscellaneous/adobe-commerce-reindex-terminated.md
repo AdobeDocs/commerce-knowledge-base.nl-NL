@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce-cloud: opnieuw indexeren wordt beëindigd met `Killed` message
+# Adobe Commerce-cloud: opnieuw indexeren wordt beëindigd met `Killed` -bericht
 
 ## Betrokken producten en versies
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Probleem
 
-U probeert om een herdex op de tak van de Integratie (of op het Opvoeren van het de architectuurproject van de Aanzet) in werking te stellen, en het proces wordt geëindigd met `Killed` bericht.
+U probeert om een herdex op de tak van de Integratie (of bij het Opvoeren van het de architectuurproject van de Aanzet) in werking te stellen, en het proces wordt geëindigd met het `Killed` bericht.
 
 ## Oorzaak
 
@@ -31,11 +31,11 @@ De meest algemene reden hiervoor is bijvoorbeeld een groot aantal producten, win
 1. Verminder het aantal producten (en klantgroepen en winkels, indien van toepassing).
 1. Gebruik beperken tot een of twee gelijktijdige gebruikers.
 1. Schakel de taken voor uitsnijden uit en voer indien nodig handmatig uit.
-1. Als dit niet eerder is gedaan, verzoek om een verbetering aan de Verbeterde milieu&#39;s van de Integratie - neem nota van de beperking op het aantal milieu&#39;s u tot beperkt zou zijn zodra de verbetering is uitgevoerd. Zie de [Verbeteringsverzoek integratieomgeving - Pro en Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) artikel in onze kennisbasis voor ondersteuning voor meer informatie .
+1. Als dit niet eerder is gedaan, verzoek om een verbetering aan de Verbeterde milieu&#39;s van de Integratie - neem nota van de beperking op het aantal milieu&#39;s u tot beperkt zou zijn zodra de verbetering is uitgevoerd. Verwijs naar het [ verzoek van de Verbetering van het Milieu van de Integratie - Pro en 1} artikel van de Aanzet in onze basis van steunkennis voor details.](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
 
 ## Gerelateerde lezing:
 
 In onze documentatie voor ontwikkelaars:
 
-* [Pro-architectuur > Integratieomgeving](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#cloud-arch-int)
-* [Starter-architectuur > Staging-omgeving](https://devdocs.magento.com/cloud/architecture/starter-architecture.html#cloud-arch-stage)
+* [ Pro architectuur > het milieu van de Integratie ](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#cloud-arch-int)
+* [ de architectuur van de Aanzet > het Opvoeren milieu ](https://devdocs.magento.com/cloud/architecture/starter-architecture.html#cloud-arch-stage)

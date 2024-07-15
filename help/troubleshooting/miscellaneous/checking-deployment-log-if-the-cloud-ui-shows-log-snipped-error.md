@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Implementatielogboek controleren als de interface van de cloud *logbestand is uitgesneden* fout
+# Het controleren plaatsingslogboek als de wolk UI *logboek heeft dat* fout knipte
 
-Dit artikel biedt een oplossing voor het probleem waarbij de gebruikersinterface van Adobe Commerce voor cloudinfrastructuur het volgende laat zien *logbestand is uitgesneden omdat het te lang was* foutbericht bij het bekijken van het implementatielogboek in de interface van het cloudproject. (Niet van toepassing op [Adobe Commerce Cloud Console](https://console.adobecommerce.com/).)
+Dit artikel verstrekt een oplossing voor de kwestie waar Adobe Commerce op de interface van de wolkeninfrastructuur het *ontsponnen logboek toont omdat het* foutenbericht te lang was toen het proberen om het plaatsingslogboek op het wolkenproject UI te bekijken. (Is niet op de [ Console van Adobe Commerce Cloud ](https://console.adobecommerce.com/) van toepassing.)
 
 ## Betrokken producten
 
@@ -21,20 +21,20 @@ Adobe Commerce op cloudinfrastructuur (alle ondersteunde versies)
 
 ## Probleem
 
-Wanneer u probeert het implementatielogbestand weer te geven in de interface van het cloudproject, geeft Adobe Commerce op de interface van de cloudinfrastructuur het volgende foutbericht weer: *logbestand is uitgesneden omdat het te lang was*.
+Wanneer het proberen om het plaatsingslogboek op het wolkenproject UI te bekijken, toont Adobe Commerce op de interface van de wolkeninfrastructuur het volgende foutenbericht: *logboek dat omdat het te lang* was.
 
 ## Stappen om te reproduceren
 
-1. Ga naar de URL van het project en klik op de knop **Status** van de betrokken inzet.
-1. Als het logboek te lang is om in UI te worden getoond, zal het het foutenbericht tonen: *logbestand is uitgesneden omdat het te lang was*.
+1. Ga naar het Project URL en klik op de **Status** van de plaatsing in kwestie.
+1. Als het logboek te lang is om in UI te worden getoond, zal het het foutenbericht tonen: *het logboek dat wordt gesneld omdat het te lang* was.
 
 ## Oorzaak
 
-Merk op dat het logboek dat in UI wordt getoond niet als bron van waarheid zou moeten worden behandeld, vooral als u vindt dat de plaats niet of behoorlijk werkt nadat de plaatsing met een status van Succes werd vermeld. U moet ook controleren met de logboeken op de server. Zie [Logbestanden weergeven en beheren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) in onze ontwikkelaarsdocumentatie.
+Merk op dat het logboek dat in UI wordt getoond niet als bron van waarheid zou moeten worden behandeld, vooral als u vindt dat de plaats niet of behoorlijk werkt nadat de plaatsing met een status van Succes werd vermeld. U moet ook controleren met de logboeken op de server. Verwijs naar [ Mening en beheer logboeken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) in onze ontwikkelaarsdocumentatie.
 
 ## Oplossing
 
-1. Zorg ervoor dat u [Magento Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) geïnstalleerd in uw lokale omgeving.
+1. Zorg ervoor dat u [ CLI van de Wolk van het Magento ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) geïnstalleerd in uw lokale milieu hebt.
 1. Voer de volgende opdracht uit:
 
    ```bash
@@ -66,5 +66,5 @@ Merk op dat het logboek dat in UI wordt getoond niet als bron van waarheid zou m
 
 ## Verwante lezingen in onze ontwikkelaarsdocumentatie:
 
-* [Adobe Commerce on cloud Infrastructure > Samenstellen en implementeren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
-* [Adobe Commerce on cloud Infrastructure > Logbestanden weergeven en beheren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+* [ Adobe Commerce op wolkeninfrastructuur > bouwt en stelt ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) op
+* [ Adobe Commerce op wolkeninfrastructuur > Logboeken van de Mening en van het beheer ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)

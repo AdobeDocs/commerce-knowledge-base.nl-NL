@@ -1,6 +1,6 @@
 ---
-title: "[!DNL Fastly] Veelgestelde vragen over het camouflage van oorsprong"
-description: In deze veelgestelde vragen worden veelvoorkomende vragen over [!DNL Fastly] de mogelijkheid om de oorsprong te camoufleren in Adobe Commerce (die sinds 2021 volledig is geïmplementeerd).
+title: "[!DNL Fastly] veelgestelde vragen over het camoufleren van oorsprong"
+description: Dit FAQ bespreekt gemeenschappelijke vragen over  [!DNL Fastly]  oorsprong het camoufleren enablement in Adobe Commerce (die volledig is uitgevoerd sinds 2021).
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
 source-git-commit: 1021a1ab81481f92e850bd49330f1742fe9a21f2
 workflow-type: tm+mt
@@ -11,15 +11,15 @@ ht-degree: 0%
 
 # [!DNL Fastly] veelgestelde vragen over het camoufleren van oorsprong
 
-In deze veelgestelde vragen worden veelvoorkomende vragen over [!DNL Fastly] de mogelijkheid om de oorsprong te camoufleren in Adobe Commerce (die sinds 2021 volledig is geïmplementeerd).
+In deze veelgestelde vragen worden veelvoorkomende vragen over [!DNL Fastly] mogelijkheden voor het camoufleren van oorsprong in Adobe Commerce besproken (die vanaf 2021 volledig zijn geïmplementeerd).
 
-## Wat is [!DNL Fastly] camoufleren van oorsprong?
+## Wat is [!DNL Fastly] oorsprong camoufleren?
 
-Oorspronkelijke camouflage is een beveiligingsfunctie waarmee Adobe Commerce in de cloud-infrastructuur alle [!DNL non-Fastly] verkeer (om aanvallen van DDoS te verhinderen, die naar de wolkeninfrastructuur (oorsprong) gaan.
+Oorspronkelijke camouflage is een beveiligingsfunctie waarmee Adobe Commerce op de cloudinfrastructuur elk [!DNL non-Fastly] -verkeer kan blokkeren (om aanvallen met DDoS te voorkomen, waarbij naar de cloudinfrastructuur (oorsprong) wordt gegaan.
 
 ## Wat zijn de voordelen van het camoufleren van de oorsprong?
 
-Oorsprongscamouflage is ontworpen om te voorkomen dat het verkeer de [!DNL Fastly Web Application Firewall] (WAF) en het verpletteren van het door de strikt bepaalde stroom van **[!DNL Fastly]** > **Balans laden** > **Instanties**. Met deze implementatie wordt gegarandeerd dat al het verkeer door de [!DNL Fastly] zowel WAF als de interne WAF die in het taakverdelingsmechanisme is ingebouwd.
+Oorsprong het camoufleren wordt ontworpen om verkeer te verhinderen [!DNL Fastly Web Application Firewall] (WAF) te mijden en het te verpletteren door de strikt bepaalde stroom van **[!DNL Fastly]** > **de Balancer van de Lading** > **Instanties**. Met deze implementatie is gegarandeerd dat al het verkeer door de [!DNL Fastly] WAF gaat en de interne WAF die in het taakverdelingsmechanisme is ingebouwd.
 
 ## Waarom gebeurt deze &#39;oorsprong&#39;-ontmoediging?
 
@@ -35,7 +35,7 @@ Nee, dat is het niet.
 
 ## Beïnvloedt het camoufleren van de oorsprong de REST API?
 
-[!DNL Fastly] plaatst geen API vraag in het voorgeheugen, zodat zou de cliënt met de verandering fijn moeten zijn. Aanwezigheid camoufleren leidt alleen tot aanvragen die recht naar de oorsprong gaan, zoals:
+[!DNL Fastly] plaatst geen API-aanroepen in het cachegeheugen, dus de client moet wel naar behoren met de wijziging werken. Aanwezigheid camoufleren leidt alleen tot aanvragen die recht naar de oorsprong gaan, zoals:
 
 * Productie
 
@@ -55,7 +55,7 @@ mcstaging2.mywebsite.com.c.abcdefghijkl.dev.ent.magento.cloud
 mcstagingX.mywebsite.com.c.abcdefghijkl.X.dev.ent.magento.cloud
 ```
 
-In dit voorbeeld kan de client de API nog steeds raken als deze de URL wijzigt in ``mywebsite.com``:
+In dit voorbeeld kan de client de API nog steeds raken als ze de URL wijzigen in ``mywebsite.com`` :
 
 ```php
 mywebsite.com/rest/default/V1/integration/admin/token?username=XXXX&password=XXXXX;
@@ -66,7 +66,7 @@ mywebsite.com/rest/default/V1/inventory/source-items
 
 ## Zal deze verandering plaatsing en onderbreking beïnvloeden?
 
-Nee, deze wijziging zal **NOT** impact implementatie en downtime.
+Nr, zal deze verandering **NIET** plaatsing en onderbreking beïnvloeden.
 
 ## Als het project meerdere staging-omgevingen heeft, wordt de oorspronkelijke camouflage toegepast op alle staging-omgevingen?
 

@@ -1,5 +1,5 @@
 ---
-title: De kwetsbaarheden die door derdeveiligheidsscans worden gevonden zouden moeten gaan naar [!DNL HackerOne]
+title: De kwetsbaarheid die door derdeveiligheidsscans wordt gevonden zou moeten gaan  [!DNL HackerOne]
 description: Dit artikel biedt een oplossing voor kwetsbaarheden die worden gevonden door beveiligingsscans van derden.
 feature: Security
 role: Developer, Admin
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# De kwetsbaarheden die door derdeveiligheidsscans worden gevonden zouden moeten gaan naar [!DNL HackerOne]
+# De kwetsbaarheden die worden gevonden door beveiligingsscans van derden, kunnen het beste naar [!DNL HackerOne] gaan
 
 Dit artikel biedt een oplossing voor kwetsbaarheden die worden gevonden door beveiligingsscans van derden.
 
@@ -25,4 +25,4 @@ Merchant voerde een PEN-test uit via een onafhankelijke beveiligingsinstantie en
 
 ## Oplossingen
 
-Door beveiligingsscans van derden aangetroffen kwetsbaarheden moeten naar de [!DNL HackerOne] website. Adobe Commerce heeft geen rechtstreeks aanspreekpunt op [!DNL HackerOne], dus u moet rechtstreeks contact opnemen met [!DNL HackerOne]. De Adobe behandelt slechts het MST (het hulpmiddel van de Scannen van de Veiligheid van het Magento) rapport.
+De kwetsbaarheden die worden gevonden door beveiligingsscans van derden, moeten naar de [!DNL HackerOne] -website worden verzonden. Adobe Commerce heeft geen rechtstreeks aanspreekpunt bij [!DNL HackerOne] , dus u moet rechtstreeks contact opnemen met [!DNL HackerOne] . De Adobe behandelt slechts het MST (het hulpmiddel van de Scannen van de Veiligheid van het Magento) rapport.

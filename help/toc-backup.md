@@ -14,11 +14,11 @@ ht-degree: 0%
 * [Commerce Help Center Home](overview.md)
 * Ondersteuningsgereedschappen {#support-tools}
    * [Overzicht](/help/support-tools/overview.md)
-   * Site-brede analyse {#site-wide-analysis-tool}
+   * Het gereedschap Sitebrede analyse {#site-wide-analysis-tool}
       * [Analyse voor de hele site op Adobe: overzicht](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
    * Waarneming voor Adobe Commerce {#observation}
       * [Overzicht waarneming voor Adobe Commerce](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
-   * Beheerde berichten over Adobe Commerce {#managed-alerts}
+   * Beheerde waarschuwingen voor Adobe Commerce {#managed-alerts}
       * [Beheerde waarschuwingen voor Adobe Commerce: Redis-waarschuwing voor geheugenkritiek](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
       * [Beheerde waarschuwingen voor Adobe Commerce: waarschuwing voor een schijf](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert.md)
       * [Beheerde waarschuwingen voor Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md)
@@ -313,7 +313,7 @@ ht-degree: 0%
       * [MDVA-34886: geen zoekresultaten bij gebruik van het kenmerk &quot;weight&quot;](/help/support-tools/patches-available-in-qpt-tool/mdva-34886-magento-patch-no-search-results-when-weight-attribute-used.md)
 * Aankondigingen {#announcements}
    * [Overzicht van aankondigingen](/help/announcements/overview.md)
-   * Aankondigingen van Adobe Commerce {#commerce-announcements}
+   * Adobe Commerce-aankondigingen {#commerce-announcements}
       * [Verbeteringsverzoek integratieomgeving - Pro en Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
       * [Vakantiedrukcapaciteit voor Adobe Commerce op onze cloudinfrastructuur](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
       * [Upgrade Compatibility Tool 1.1.0 voor Adobe Commerce](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
@@ -331,18 +331,18 @@ ht-degree: 0%
       * [MBI-documentatie is verplaatst](/help/announcements/help-center-news/mbi-documentation-got-moved.md)
       * [Tweewekelijkse Adobe Commerce Support KB-nieuwsbrief: nieuwe artikelen en updates](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
       * [Adobe Commerce Support Knowledge Base begint met het accepteren van bijdragen](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
-* Aanbevolen procedures {#best-practices}
+* Aanbevolen werkwijzen {#best-practices}
    * [Overzicht](/help/best-practices/overview.md)
    * Configuratie {#configuration}
       * [Aanbevolen werkwijze voor OPcache-geheugengrootte in Adobe Commerce](/help/best-practices/configuration/best-practice-for-opcache-memory-size-in-magento-commerce.md)
       * [Aanbevolen procedures voor het omzetten van cachegrootte in paden](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [CSS- en JS-bestanden optimaliseren in Adobe Commerce](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
    * Database {#database}
-      * [Adobe Commerce 2.3.5-upgrade: compact naar dynamische tabellen](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
+      * [ Adobe Commerce 2.3.5 verbetering: compact aan dynamische lijsten ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
       * [Aanbevolen werkwijze voor triggergebruik](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [Meest voorkomende databaseproblemen in Adobe Commerce met cloudinfrastructuur](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+      * [ gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
       * [Adobe Commerce on cloud Infrastructure best practices voor MySQL slave-verbinding](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
-      * [Best practices voor databases voor Adobe Commerce op cloudinfrastructuur](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+      * [ beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
    * Algemeen {#general}
       * [_isScopePrivate in blokken met persoonlijke inhoud vertraagt de Adobe Commerce-prestaties](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
       * [Aanbevolen procedures voor het oplossen van problemen voor Adobe Commerce met cloudinfrastructuur](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
@@ -370,7 +370,7 @@ ht-degree: 0%
       * [Aanbevolen procedures voor afbeeldingen in Adobe Commerce op cloudinfrastructuur](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
       * [Tips en trucs voor Adobe Commerce: kritieke acties uitvoeren in Admin](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
       * [Tips en trucs voor Adobe Commerce: klik op Rapporten uitschakelen als u dit niet doet](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-      * [Indexers &quot;Update On Schedule&quot; optimaliseert de Adobe Commerce-prestaties](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
+      * [ Indexers &quot;Update op Programma&quot;optimaliseert de prestaties van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
       * [Aanbevolen Adobe Commerce-productvariaties](/help/best-practices/performance/best-practice-magento-product-variations.md)
       * [Aanbevolen procedures voor plaatsing van Adobe Commerce-orders](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
       * [Tips en trucs voor Adobe Commerce: asynchrone orderverwerking inschakelen](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)
@@ -379,7 +379,7 @@ ht-degree: 0%
       * [Aanbevolen procedures voor opties voor Adobe Commerce-productkenmerken](/help/best-practices/performance/best-practices-for-magento-product-attribute-options.md)
 * Problemen oplossen {#troubleshooting}
    * [Overzicht](/help/troubleshooting/overview.md)
-   * Algemene probleemoplossing {#general}
+   * Algemene problemen oplossen {#general}
       * [Problemen met de Recommendations-module Product in Adobe Commerce oplossen](/help/troubleshooting/general/troubleshoot-product-recommendations-module-in-magento-commerce.md)
       * [Bestanden veilig verwijderen wanneer onvoldoende ruimte beschikbaar is op schijf in Adobe Commerce op cloudinfrastructuur](/help/troubleshooting/general/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md)
       * [robots.txt niet bijgewerkt of standaardinstellingen weergeven](/help/troubleshooting/general/robots-txt-not-updated-or-displaying-default-settings.md)
@@ -480,7 +480,7 @@ ht-degree: 0%
       * [Een gegevensdiscrepantie diagnosticeren](/help/troubleshooting/general/diagnosing-a-data-discrepancy.md)
       * [Implementatiefout: SQLSTATE[HY000]](/help/troubleshooting/general/deployment-error-sql-hy000.md)
       * [Omleiden naar het aanmeldingsformulier voor Commerce Admin met de fout &quot;Uw huidige sessie is verlopen&quot;](/help/troubleshooting/general/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
-      * [Redis unserialization error setup:static-content:inzetten](/help/troubleshooting/general/redis-unserialize-error-setup-static-content-deploy.md)
+      * [Redis unserialize foutenopstelling :static-content: opstellen](/help/troubleshooting/general/redis-unserialize-error-setup-static-content-deploy.md)
       * [Installatie mislukt; kan install.log niet maken](/help/troubleshooting/general/installation-fails-cannot-create-install-log.md)
       * [Site in onderhoudsmodus maar beschikbaar voor klanten](/help/troubleshooting/general/site-in-maintenance-mode-but-available-to-customers.md)
       * [Probleem met winkelcreditering tijdens afhandeling in Adobe Commerce 2.3.5](/help/troubleshooting/general/store-credit-issue-during-checkout-in-magento-2-3-5.md)
@@ -554,7 +554,7 @@ ht-degree: 0%
       * [Ingevalideerde cache veroorzaakt vertraging van responstijd](/help/troubleshooting/general/invalidated-cache-causes-response-time-degradation.md)
       * [Uitgave van token en Composer-sleutelprocedures](/help/troubleshooting/general/github-token-issue-and-composer-key-procedures.md)
       * [Betalingen met creditcard zijn mislukt in een sandbox-omgeving](/help/troubleshooting/general/payservices-cc-sandbox-failure.md)
-      * [Adobe Commerce 2.4.1-probleem: Amazon-account kan niet worden gewijzigd in Chrome](/help/troubleshooting/general/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
+      * [Uitgave Adobe Commerce 2.4.1: Amazon-account kan niet worden gewijzigd in Chrome](/help/troubleshooting/general/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
       * [ECE-tools en patchupdatefouten Adobe Commerce cloud Infrastructure 2.2.x, 2.3.x](/help/troubleshooting/general/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
       * [PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart](/help/troubleshooting/general/pwa-studio-webpack-hangs-before-beginning-compilation.md)
       * [Elasticsearch met ElasticSuite loopt vast of heeft onvoldoende geheugen](/help/troubleshooting/general/elasticsearch-with-elasticsuite-crashes-or-out-of-memory.md)
@@ -598,7 +598,7 @@ ht-degree: 0%
       * [De hoge productie AJAX verzoeken veroorzaken slechte prestaties](/help/troubleshooting/general/high-throughput-ajax-requests-cause-poor-performance.md)
       * [PWA Studio: fout &quot;Cannot proxy to&quot; wordt weergegeven in browser](/help/troubleshooting/general/pwa-studio-browser-displays-cannot-proxy-to-error.md)
       * [Bekende uitgave van Adobe Commerce 2.4.0: Klarna On-Site Messaging-blanco pagina&#39;s](/help/troubleshooting/general/magento-2-4-0-known-issue-klarna-on-site-messaging-blank-pages.md)
-      * [uitvoering instellen:static-content:distribueren, geïmplementeerd_versie.txt, probleem](/help/troubleshooting/general/run-setup-static-content-deploy-deployed-version-txt-issue.md)
+      * [looppas opstelling :static-content: opstellen opstellen_version.txt kwestie](/help/troubleshooting/general/run-setup-static-content-deploy-deployed-version-txt-issue.md)
       * [Coupon voor eenmalig gebruik wordt meerdere keren gebruikt, Adobe Commerce](/help/troubleshooting/general/coupon-code-used-more-than-once-adobe-commerce.md)
       * [Omleiden naar het aanmeldingsformulier voor Commerce Admin met de fout &quot;Uw account is tijdelijk uitgeschakeld&quot;](/help/troubleshooting/general/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
       * [Googles Analytics worden uitgeschakeld na implementatie](/help/troubleshooting/general/google-analytics-gets-disabled-after-deployment.md)
@@ -619,7 +619,7 @@ ht-degree: 0%
       * [2.3.4 Probleemoplossing voor PayPal](/help/troubleshooting/known-issues-patches-attached/2-3-4-paypal-issue-hotfix.md)
       * [Adobe Commerce 2.4.4: Onbekwaam om gedeeltelijke facturen te creëren](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
       * [Nieuwe bestellingen worden naar archief verzonden](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
-      * [Update Authorize.Net Direct Post van MD5 aan SHA-512](/help/troubleshooting/known-issues-patches-attached/update-authorize.net-direct-post-from-md5-to-sha-512.md)
+      * [Autoriseren.Net Direct Post bijwerken van MD5 naar SHA-512](/help/troubleshooting/known-issues-patches-attached/update-authorize.net-direct-post-from-md5-to-sha-512.md)
       * [Geavanceerde rapportage van fouten met uitsnijdtaken Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)
       * [Mislukte aanmeldingspogingen verwijderen uit de database](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md)
       * [Geavanceerde rapportage bijwerken om op een eigen uitsnijdgroep te worden uitgevoerd](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md)
@@ -669,10 +669,10 @@ ht-degree: 0%
       * [Adobe Commerce vraagt klanten zich aan te melden bij ongeldige koppeling](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
       * [Aanmaak van verzendlabels Bekend probleem in Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)
       * [B2B: Bedrijven hebben geen toegang tot profielpagina&#39;s op winkelvoorzijde](/help/troubleshooting/known-issues-patches-attached/b2b-companies-cannot-access-profile-pages-on-store-front.md)
-* Handleiding voor Help Center {#help-center-guide}
+* Help Center Guide {#help-center-guide}
    * [Handboek voor Adobe Commerce Help Center](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
    * [Beleidsupdate voor Adobe Commerce Support-beleid voor de levenscyclus van tickets](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
-* Hoe kan ik {#how-to}
+* Procedure {#how-to}
    * [Overzicht](/help/how-to/overview.md)
    * [MBI Essentials: betalingsmethode bijwerken of abonnement annuleren](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [MBI Training Video: SQL-Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
@@ -731,7 +731,7 @@ ht-degree: 0%
    * [MBI: Geavanceerde berekende kolommen maken en bewerken](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
    * [Limiet schijfruimte controleren voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)
    * [SSL-certificaten (TLS) voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
-   * [Kan de nieuwste bètaversie niet openen](/help/how-to/general/cannot-access-the-latest-beta-version.md)
+   * [Kan de nieuwste Beta-versie niet openen](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [De toepassingsmodus wijzigen](/help/how-to/general/switch-the-magento-mode.md)
    * [Meld u aan bij Fastly-account dat bij Adobe Commerce wordt geleverd voor cloudinfrastructuur](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
    * [Geef Adobe Commerce-foutrapportnummer weer in plaats van Fastly 503-fout](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
@@ -963,7 +963,7 @@ ht-degree: 0%
    * [Amazon-e-mailberichten om uur uitschakelen bij gebruik van Adobe Commerce](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
    * [Ingevalideerde cache veroorzaakt vertraging van responstijd](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md)
    * [Uitgave van token en Composer-sleutelprocedures](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
-   * [Adobe Commerce 2.4.1-probleem: Amazon-account kan niet worden gewijzigd in Chrome](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
+   * [Uitgave Adobe Commerce 2.4.1: Amazon-account kan niet worden gewijzigd in Chrome](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
    * [ECE-tools en patchupdatefouten Adobe Commerce cloud Infrastructure 2.2.x, 2.3.x](/help/troubleshooting/miscellaneous/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
    * [PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
    * [Nieuwste patches installeren om Adobe Commerce Redis-problemen op te lossen](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
@@ -1058,7 +1058,7 @@ ht-degree: 0%
    * [ACSD-45488: configureerbaar product met meerdere bronnen die niet automatisch in voorraad worden geretourneerd](/help/support-tools/patches-available-in-qpt-tool/acsd-45488-configurable-product-with-multiple-sources-not-returned-to-in-stock.md)
    * [ACSD-46146: twee e-mails ter bevestiging van bestelling verzonden na het plaatsen van een bestelling bij de beheerder](/help/support-tools/patches-available-in-qpt-tool/acsd-46146-two-order-confirmation-emails-are-sent-after-placing-order-from-admin.md)
    * [MDVA-43824: De annuleringsactie van de orde is mislukt met fout &quot;U hebt het punt niet geannuleerd&quot;](/help/support-tools/patches-available-in-qpt-tool/mdva-43824-order-cancellation-action-failed-with-error.md)
-   * [MDVA-39605: Redis cache TTL (vervaldatum) heeft onjuiste waarde](/help/support-tools/patches-available-in-qpt-tool/mdva-39605-redis-cache-ttl-expiration date-has-wrong-value.md)
+   * [ mDVA-39605: Redis geheime voorgeheugen TTL (vervaldatum) heeft verkeerde waarde ] (/help/support-tools/patches-available-in-qpt-tool/mdva-39605-redis-cache-ttl-expiration date-has-wrong-value.md)
    * [MDVA-30599: customer_is_gast wordt verkeerd geplaatst](/help/support-tools/patches-available-in-qpt-tool/mdva-30599-magento-patch-customer_is_guest-is-set-incorrectly.md)
    * [MDVA-44100: alle FPT&#39;s worden toegewezen aan het laatste product in het winkelwagentje](/help/support-tools/patches-available-in-qpt-tool/mdva-44100-all-fpts-are-assigned-to-the-last-product-in-the-shopping-cart-and-reset-for-other-product.md)
    * [MDVA-21095: INSERT INTO &quot;search_tmp...&quot; never end after mass attribute update](/help/support-tools/patches-available-in-qpt-tool/mdva-21095-insert-into-search_tmp...-never-ends-after-mass-attribute-update.md)

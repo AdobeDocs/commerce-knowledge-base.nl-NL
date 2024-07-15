@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Dit artikel bevat een oplossing voor het probleem wanneer u zich aanmeldt bij de Commerce Admin of wanneer u de uitcheckpagina opent. Dit veroorzaakt vertraging of time-out (meer dan 30 seconden). De kwestie komt voor wanneer Redis voor zittingsopslag wordt gebruikt.
 
-**Oorzaak:**   [Uitgave van Github \#12385](https://github.com/magento/magento2/issues/12385).
+**Oorzaak:**   [ Uitgave van Github \#12385 ](https://github.com/magento/magento2/issues/12385).
 
-**Oplossing:** update naar de nieuwste Adobe Commerce-patch om deze problemen op te lossen voor alle versies van Redis en specifieke versies van Adobe Commerce.
+**Oplossing:** update aan het recentste flard van Adobe Commerce om deze kwesties voor alle versies van Redis en specifieke versies van Adobe Commerce te bevestigen.
 
 ## Betrokken versies en technologieën
 
@@ -25,7 +25,7 @@ Dit artikel bevat een oplossing voor het probleem wanneer u zich aanmeldt bij de
 * Adobe Commerce-versies ter plaatse 2.1.11 - 2.1.13 en 2.2.1
 * Redis, alle versies
 
-Als u Adobe Commerce gebruikt op de versie van de cloudinfrastructuur [2.2.0.](#h_64593789291526919876198), is een oplossing beschikbaar.
+Als u Adobe Commerce op versie van de wolkeninfrastructuur [ 2.2.0 ](#h_64593789291526919876198) gebruikt, is een oplossing beschikbaar.
 
 ## Probleem
 
@@ -35,7 +35,7 @@ Dit gebeurt alleen als gebruikerssessies worden opgeslagen in Redis.
 
 ## Oorzaak
 
-Adobe Commerce had een probleem met het mechanisme voor sessievergrendeling dat een time-out van 30 seconden toevoegde aan bepaalde bewerkingen toen Redis werd gebruikt voor sessieopslag. Zie voor meer informatie de [Uitgave van Github \#12385](https://github.com/magento/magento2/issues/12385).
+Adobe Commerce had een probleem met het mechanisme voor sessievergrendeling dat een time-out van 30 seconden toevoegde aan bepaalde bewerkingen toen Redis werd gebruikt voor sessieopslag. Voor details, zie de [ kwestie van Github \#12385 ](https://github.com/magento/magento2/issues/12385).
 
 Dit probleem is opgelost in Adobe Commerce 2.1.14 en 2.2.2.
 
@@ -43,9 +43,9 @@ Dit probleem is opgelost in Adobe Commerce 2.1.14 en 2.2.2.
 
 ### Oplossing 1: De pleister aanbrengen met een oplossing
 
-Om een pleister te ontvangen [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) de patch aanvragen. Geef in uw ticket uw Adobe Commerce-versie en het bijbehorende referentienummer voor de patch op:
+Om een flard te ontvangen, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) verzoekend het flard. Geef in uw ticket uw Adobe Commerce-versie en het bijbehorende referentienummer voor de patch op:
 
-* **2.1.11 en hoger:** MDVA-7835
+* **2.1.11 en later:** MDVA-7835
 * **2.2.1:** MDVA-8128
 
 Het algemene (version-agnostic) referentienummer is MAGETWO-84289.
@@ -56,7 +56,7 @@ Als u eerder hebt overwogen een upgrade naar Adobe Commerce 2.2.2 of hoger uit t
 
 ## Oplossing: sessievergrendeling uitschakelen
 
-Als u sessievergrendeling wilt uitschakelen, stelt u `disable_locking` tot `1` in de Redis-configuratiesectie van de `env.php` bestand:
+Als u de sessievergrendeling wilt uitschakelen, stelt u `disable_locking` in op `1` in de configuratiesectie Opnieuw van het `env.php` -bestand:
 
 ```php
 'session' =>
@@ -76,10 +76,10 @@ Deze oplossing heeft geen invloed op andere Adobe Commerce-functionaliteit.
 
 ### De tijdelijke oplossing herstellen nadat de patch is toegepast
 
-Nadat u de pleister met de oplossing hebt aangebracht, is de tijdelijke oplossing niet meer nodig, dus kunt u deze herstellen (instellen) `disable_locking` tot `0`).
+Nadat u de patch met de fix hebt toegepast, is de tijdelijke oplossing niet meer nodig. U kunt de patch dus weer instellen op `disable_locking` . `0`
 
 ## Adobe Commerce on cloud Infrastructure 2.2.0: gebruik ECE-Tools v2002.0.8 of hoger {#h_64593789291526919876198}
 
-De [ECE-gereedschappen](https://devdocs.magento.com/cloud/project/ece-tools-update.html) scriptpakket voor implementatie met versies 2002.0.3 - 2002.0.7 [is](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) automatisch de tijdelijke oplossing instellen `disable_locking` tot `1`. Hierdoor wordt het mechanisme voor sessievergrendeling uitgeschakeld voor Adobe Commerce 2.2.0, waarop het oorspronkelijke probleem zich niet voordoet.
+Het [ ECE-Hulpmiddelen ](https://devdocs.magento.com/cloud/project/ece-tools-update.html) pakket van het plaatsingsmanuscript met versies 2002.0.3 - 2002.0.7 [ past ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) automatisch de tijdelijke oplossing toe, die `disable_locking` aan `1` plaatst. Hierdoor wordt het mechanisme voor sessievergrendeling uitgeschakeld voor Adobe Commerce 2.2.0, waarop het oorspronkelijke probleem zich niet voordoet.
 
 Als u Adobe Commerce uitvoert op cloudinfrastructuur 2.2.0, moet u ECE-Tools upgraden naar versie 2002.0.8 of hoger. U kunt ook overwegen om uw Adobe Commerce op cloudinfrastructuur te upgraden naar versie 2.2.2 of hoger.

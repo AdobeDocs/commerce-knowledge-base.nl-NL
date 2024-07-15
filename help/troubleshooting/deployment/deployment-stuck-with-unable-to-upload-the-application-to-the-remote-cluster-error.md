@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Implementatie is vastgelopen met de fout &quot;Kan de toepassing niet uploaden naar de externe cluster&quot;
 
-Dit artikel verstrekt een oplossing voor de kwestie van Adobe Commerce, waar de plaatsing geplakt wordt, en het volgende foutenbericht kan in het opstellen logboek worden gevonden: *&quot;Fout: kan de toepassing niet uploaden naar de externe cluster&quot;*.
+Dit artikel verstrekt een oplossing voor de kwestie van Adobe Commerce, waar de plaatsing geplakt wordt, en het volgende foutenbericht kan in het opstellen logboek worden gevonden: *&quot;Fout: Onbekwaam om de toepassing aan de verre cluster&quot;te uploaden*.
 
 ## Betrokken producten en versies
 
@@ -21,17 +21,17 @@ Dit artikel verstrekt een oplossing voor de kwestie van Adobe Commerce, waar de 
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Trigger plaatsing manueel of door een fusie, duw, of synchronisatie van uw milieu uit te voeren.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 De implementatie is voltooid.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-De implementatie blijft vastzitten, en in het logboek van de plaatsingsfout in wolk UI, wordt het volgende foutenbericht getoond: *&quot;Fout: kan de toepassing niet uploaden naar de externe cluster&quot; gevonden in implementatielogboek na mislukte implementatie, geeft de site mogelijk de fout &quot;503 eerste byte timeout&quot; weer*.
+De plaatsing wordt geplakt, en in het login van de plaatsingsfout in wolk UI, wordt het volgende foutenbericht getoond: *&quot;Fout: kan niet de toepassing aan de verre cluster&quot;uploaden die in plaatsingslogboek na ontbroken plaatsing wordt gevonden, kan de plaats fout &quot;503 eerste byteonderbreking&quot;tonen*.
 
 ## Oorzaak
 
@@ -48,4 +48,4 @@ Mappen die in aanmerking komen voor opruiming:
 * `var/debug/`
 * `var`
 
-Ga voor meer informatie over hoe u schijfruimte kunt vergroten als u op de Adobe Commerce werkt op de Starter-architectuur van de cloud-infrastructuur naar [Schijfruimte vergroten voor integratieomgeving in de cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md) in onze kennisbasis voor ondersteuning. Dezelfde instructies kunnen worden gebruikt voor het vergroten van de ruimte van de Adobe Commerce in de omgeving voor integratie van de architectuur van de cloudinfrastructuur van de Pro-cloudinfrastructuur. Voor Pro Productie/Staging moet u [een ticket naar Adobe Commerce-ondersteuning indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) en vraag meer schijfruimte. Maar doorgaans hoeft u dit niet te doen met betrekking tot de ophaling/productie van het Pro-plan, aangezien Adobe Commerce deze parameters voor u controleert en waarschuwingen geeft en/of acties uitvoert volgens het contract.
+Voor details op hoe te om schijfruimte te verhogen als u op Adobe Commerce op het planarchitectuur van de Aanzet van de wolkeninfrastructuur bent, zie [ de schijfruimte van de Verhoging voor het milieu van de Integratie op wolk ](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md) in onze basis van de steunkennis. Dezelfde instructies kunnen worden gebruikt voor het vergroten van de ruimte van de Adobe Commerce in de omgeving voor integratie van de architectuur van de cloudinfrastructuur van de Pro-cloudinfrastructuur. Voor ProProductie/het Staging, moet u een kaartje aan de Steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) dossier [ en verzoek verhoogde schijfruimte. Maar doorgaans hoeft u dit niet te doen met betrekking tot de ophaling/productie van het Pro-plan, aangezien Adobe Commerce deze parameters voor u controleert en waarschuwingen geeft en/of acties uitvoert volgens het contract.

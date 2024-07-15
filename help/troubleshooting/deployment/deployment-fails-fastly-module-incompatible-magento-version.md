@@ -17,13 +17,13 @@ BIJGEWERKT: 29 februari 2019
 
 Dit artikel bevat een oplossing voor het geval de implementatie mislukt omdat de module Snelheid niet compatibel is met uw huidige Adobe Commerce-versie.
 
-**Probleem:** De plaatsing ontbreekt na nieuw begaan en duw, met het foutenbericht gelijkend op het volgende:
+**Probleem:** de Plaatsing ontbreekt na nieuw begaan en duw, met het foutenbericht gelijkend op het volgende:
 
 >\[Exception\] Warning: Missing argument 3 for Fastly\\Cdn\\Plugin\\..., called in /app/vendor/magento/framework/Interception/Interceptor.php ... and defined in /app/vendor/fastly/magento2/Plugin/ExcludeFilesFromMinification.php ...
 
-**Oorzaak:** achterwaartse incompatibele wijzigingen in module Fastly v1.2.79.
+**Oorzaak:** achterwaartse incompatibele veranderingen in de Fastly module v1.2.79.
 
-**Oplossing (tijdelijk):** Upgrade de Fastly-module naar versie 1.2.82 of hoger en upload een nieuwe VCL in de Commerce Admin. Dan, verbind en duw uw veranderingen om een succesvolle plaatsing teweeg te brengen.
+**Oplossing (tijdelijk):** bevorder de Fastly module aan versie 1.2.82 of hoger en upload een nieuwe VCL in Commerce Admin. Dan, verbind en duw uw veranderingen om een succesvolle plaatsing teweeg te brengen.
 
 ## Betrokken versies
 
@@ -54,7 +54,7 @@ De plaatsing zou met de volgende foutenmeldingen kunnen ontbreken:
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
 
-Als u Adobe Commerce gebruikt voor de oplossing van de cloud-infrastructuur, wordt deze foutmelding weergegeven in het dialoogvenster [logboek implementeren](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html#log-deploy-log). Voor Adobe Commerce op-gebouw, zult u de fout in de bevellijn zien.
+Als u Adobe Commerce op de oplossing van de wolkeninfrastructuur gebruikt, zult u dit foutenbericht in [ zien opstellen logboek ](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html#log-deploy-log). Voor Adobe Commerce op-gebouw, zult u de fout in de bevellijn zien.
 
 ## Oorzaak
 
@@ -70,4 +70,4 @@ Voer hiertoe de volgende stappen uit:
    * als de Fastly-module is opgenomen in het magento-cloud-metapakket:    <pre>composer update magento/magento-cloud-metapack</pre>
    * als de Fastly-module afzonderlijk is geïnstalleerd (bijvoorbeeld als u Adobe Commerce op locatie gebruikt, niet de cloud) <pre>composer-update snel/magento2</pre>
 1. Leg de wijzigingen vast en duw deze op en activeer het implementatieproces als dit niet automatisch gebeurt.
-1. In de Admin [uploadt de nieuwe VCL naar Snelst](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
+1. In Admin, [ uploadt nieuwe VCL aan Fastly ](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).

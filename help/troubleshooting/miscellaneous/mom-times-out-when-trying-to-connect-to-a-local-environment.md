@@ -23,21 +23,21 @@ Dit artikel verstrekt een oplossing voor de kwestie waar het Systeem van het Mag
 
 >[!WARNING]
 >
->Disclaimer: Adobe Commerce beveelt geen specifiek instrument aan of bekrachtigt geen specifiek instrument voor het aanleggen van tunnels. Het voorgaande is alleen suggesties. Voor meer informatie raadpleegt u de [ngrok-documentatie](https://ngrok.com/docs).
+>Disclaimer: Adobe Commerce beveelt geen specifiek instrument aan of bekrachtigt geen specifiek instrument voor het aanleggen van tunnels. Het voorgaande is alleen suggesties. Voor meer informatie, raadpleeg de [ documentatie van het Ingrok ](https://ngrok.com/docs).
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
 1. Installeer Adobe Commerce in uw lokale omgeving.
 1. Stel een naam in om een tunnel te maken om uw lokale server toegankelijk te maken.
-1. Proberen [verbinding maken met OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+1. Probeer [ verbindend met OMS ](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
 Verbinding tot stand gebracht.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
 MCOM lijkt een time-out op te geven wanneer wordt geprobeerd terug te bellen naar de URL van het knooppunt.
 
@@ -53,4 +53,4 @@ Voeg een parameter toe die het gebied aangeeft wanneer u het notitieankerpunt st
 ./ngrok http 80 -region eu
 ```
 
-Het standaardgebied is US. Zie [alle mogelijke waarden](https://ngrok.com/docs#config_region).
+Het standaardgebied is US. Zie [ alle mogelijke waarden ](https://ngrok.com/docs#config_region).

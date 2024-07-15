@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Implementatiefout: *fout 7 tijdens het downloaden ... poort 443: verbinding geweigerd*
+# De fout van de plaatsing: *fout 7 terwijl het downloaden... haven 443: Verbinding weigerde*
 
 Dit artikel biedt een oplossing voor het probleem wanneer de implementatie mislukt met het volgende foutbericht:
 
@@ -25,23 +25,23 @@ W:    refused
 
 ## Betrokken versies
 
-Adobe Commerce op cloudinfrastructuur, [alle ondersteunde versies](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Probleem
 
-Implementatie mislukt met een **cursiefout 7** bericht.
+De plaatsing ontbreekt met a **krulfout 7** bericht.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Trigger een plaatsing.
 
-<u>Verwacht gedrag</u>:
+<u> Verwacht gedrag </u>:
 
 Implementatie is geslaagd.
 
-<u>Werkelijk gedrag</u>:
+<u> Ware gedrag </u>:
 
-Implementatie mislukt en de volgende fout: *fout 7 tijdens het downloaden van ... poort 443: verbinding geweigerd* verschijnt in opstellen logboek.
+De plaatsing ontbreekt, en de volgende fout: *curl fout 7 terwijl het downloaden.. haven 443: Verweigerde Verbinding* verschijnt in opstellen logboek.
 
 ## Oorzaak
 
@@ -55,10 +55,10 @@ Vraag een Super Gebruiker op het project om dit bevel in werking te stellen:
 magento-cloud project:clear-build-cache -p <project ID>
 ```
 
-Om te controleren wie op het project een SuperGebruiker is, verwijs naar [De projectrol van een gebruiker weergeven](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) in de Commerce on Cloud Infrastructure Guide.
+Om te controleren wie op het project een Super Gebruiker is, verwijs naar [ Mening de het projectrol van een gebruiker ](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) in Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ## Aanbevolen lezen
 
-* [Adobe Commerce-probleemoplossing voor implementatie](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html).
-* [Adobe Commerce on cloud repo kan niet worden geopend: 403 Verboden of 404 Geen fout gevonden bij implementatie](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
-* [De plaatsing ontbreekt met &quot;Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
+* [ de plaatsingsproblemen van Adobe Commerce ](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html).
+* [ Adobe Commerce op wolkenrepo kon niet worden betreden: 403 Verboden of 404 niet Gevonden fout toen het opstellen van ](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
+* [ de Plaatsing ontbreekt met &quot;Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).

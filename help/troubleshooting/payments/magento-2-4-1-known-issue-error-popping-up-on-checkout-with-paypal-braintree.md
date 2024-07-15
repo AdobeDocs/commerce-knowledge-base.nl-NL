@@ -24,25 +24,25 @@ In dit artikel wordt een bekende Adobe Commerce 2.4.1-kwestie beschreven, waarbi
 
 Er verschijnt een foutbericht en dit bericht verdwijnt bij de afhandeling van de betalingsmethode als betaling via PayPal-Braintree wordt gebruikt en als de verzending van meerdere adressen is geselecteerd.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. Voor de opslag, login als klant (facultatief zou een gastcontrole kunnen zijn, als het in Admin wordt toegelaten).
 1. Voeg een product toe aan de kar.
 1. Klik om de voorvertoning van het winkelwagentje te openen.
-1. Klikken **Winkelwagentje weergeven en bewerken**.
-1. Klik op de startpagina op **Uitchecken met meerdere adressen**.
-1. Klikken **Ga naar Verzendgegevens** en geeft u de adressen op.
-1. Klikken **Doorgaan met factureringsgegevens**.
-1. Selecteren **PayPal-Braintree** en klik op de knop **PayPal** knop.
-1. Klik in het pop-upvenster op **Akkoord en betalen**.
+1. Klik **Mening en geef Kar** uit.
+1. Voor de pagina van het Kunst, klik **Controle uit met Veelvoudige Adressen**.
+1. Klik **gaan naar de Verzendinformatie** en specificeer de adressen.
+1. Klik **blijven aan het Factureren Informatie**.
+1. Selecteer **Braintree PayPal** en klik de **PayPal** knoop.
+1. In het pop-up venster, klik **Akkoord &amp; betaal**.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 De volgorde wordt zonder fout geplaatst.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-De volgorde wordt geplaatst, maar met een fout. De *PayPal-afhandeling kan niet worden geïnitialiseerd. Neem contact op met de eigenaar van de winkel*.  fout wordt een seconde weergegeven en verdwijnt.
+De volgorde wordt geplaatst, maar met een fout. De *PayPal Afhandeling kon niet worden geïnitialiseerd. Gelieve te contacteren opslageigenaar*.  fout wordt een seconde weergegeven en verdwijnt.
 
 ## Repareren
 

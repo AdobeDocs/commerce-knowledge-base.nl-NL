@@ -13,45 +13,45 @@ ht-degree: 0%
 
 # ACSD-50621: Niveau-prijzen voor verschillende websites in gedeelde catalogus zijn niet zichtbaar
 
-De ACSD-50621-patch verhelpt het probleem dat de prijzen op niveaus voor verschillende websites in de gedeelde catalogus niet zichtbaar zijn wanneer deze worden bewerkt in een omgeving met meerdere websites. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.32 is geïnstalleerd. De patch-id is ACSD-50621. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-50621-patch verhelpt het probleem dat de prijzen op niveaus voor verschillende websites in de gedeelde catalogus niet zichtbaar zijn wanneer deze worden bewerkt in een omgeving met meerdere websites. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.32 wordt geïnstalleerd. De patch-id is ACSD-50621. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.3.7 - 2.4.6
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 Niveauprijzen voor verschillende websites in de gedeelde catalogus zijn niet zichtbaar wanneer u deze in een omgeving met meerdere websites bewerkt.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Stel de **[!UICONTROL Catalog Price Scope]** tot **[!UICONTROL Website]**.
+1. Stel de waarde **[!UICONTROL Catalog Price Scope]** in op **[!UICONTROL Website]** .
 1. Maak een aanvullende website, winkel en voorvertoning.
 1. Maak een eenvoudig product en wijs dit toe aan alle websites.
 1. Een aangepaste gedeelde catalogus maken.
 1. Ga naar **[!UICONTROL Set Pricing and Structure]** voor de aangepaste gedeelde catalogus die u hebt gemaakt.
 1. In Stap 1: selecteer producten voor catalogus. Voeg het eenvoudige product toe dat u hebt gemaakt.
-1. In stap 2: stel aangepaste prijzen in en klik op **[!UICONTROL Configure]**.
+1. In stap 2: stel aangepaste prijzen in en klik op **[!UICONTROL Configure]** .
 1. Stel verschillende laagprijzen in voor verschillende websites.
-1. Selecteren **[!UICONTROL Done]** en klik op **[!UICONTROL Generate Catalog]** en klik vervolgens op **[!UICONTROL Save]**.
+1. Selecteer **[!UICONTROL Done]** en klik op **[!UICONTROL Generate Catalog]** en klik vervolgens op **[!UICONTROL Save]** .
 1. Uitsnijden uitvoeren.
-1. Navigeren naar **[!UICONTROL Set Pricing and Structure]** > **[!UICONTROL Configure]** > **[!UICONTROL Next]** > **[!UICONTROL Configure]** en controleer de prijs op de laag.
+1. Navigeer naar **[!UICONTROL Set Pricing and Structure]** > **[!UICONTROL Configure]** > **[!UICONTROL Next]** > **[!UICONTROL Configure]** en controleer de laagprijs.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Alle eerder geconfigureerde laagprijzen voor verschillende websites zijn aanwezig.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Eerder geconfigureerde Tier-prijzen zijn niet aanwezig.
 
@@ -59,14 +59,14 @@ Eerder geconfigureerde Tier-prijzen zijn niet aanwezig.
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

@@ -13,42 +13,42 @@ ht-degree: 0%
 
 # Adobe Commerce-statuskolom ontbrekende geëxporteerde producten CSV-bestand
 
-Dit artikel biedt een oplossing voor het probleem wanneer u de statuskolom niet kunt vinden (d.w.z. of het product is in- of uitgeschakeld) in het CSV-bestand dat geëxporteerde producten bevat. De status van het product wordt aangegeven door de [!UICONTROL product_online] kolom.
+Dit artikel biedt een oplossing voor het probleem wanneer u de statuskolom niet kunt vinden (d.w.z. of het product is in- of uitgeschakeld) in het CSV-bestand dat geëxporteerde producten bevat. De status van het product wordt aangegeven met de kolom [!UICONTROL product_online] .
 
 ## Betrokken producten en versies
 
-Adobe Commerce (alle implementatiemethoden) alle [ondersteunde versies](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce (alle plaatsingsmethodes) alle [ gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Probleem
 
-U kunt de map [!UICONTROL status] in het CSV-bestand dat geëxporteerde producten bevat. Zo, bijvoorbeeld, voert u een CSV van alle SKUs, met hun status uit, maar de lijst schijnt te ontbreken [!UICONTROL status] kolom.
+U kunt de kolom [!UICONTROL status] niet vinden in het CSV-bestand dat geëxporteerde producten bevat. U exporteert bijvoorbeeld een CSV van alle SKU&#39;s met hun status, maar de kolom [!UICONTROL status] lijkt in de tabel te ontbreken.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
-1. Selecteer in Adobe Commerce Admin de optie **[!UICONTROL System]**, onder **[!UICONTROL Data Transfer]** selecteren **[!UICONTROL Export]**.
-1. In de **[!UICONTROL Export Settings]** in de sectie **[!UICONTROL Entity Type]** vervolgkeuzelijst **[!UICONTROL Products]**.
-1. Zoeken naar **[!UICONTROL status]**, vermeld onder **[!UICONTROL Attribute Code]**. Deze kenmerkcode wordt weergegeven in de lijst met beschikbare kenmerken (**[!UICONTROL Enable Product]**).
-1. Klikken op **[!UICONTROL Export]**.
+1. Selecteer in Adobe Commerce Admin de optie **[!UICONTROL System]** onder **[!UICONTROL Data Transfer]** select **[!UICONTROL Export]** .
+1. Selecteer in de sectie **[!UICONTROL Export Settings]** in de vervolgkeuzelijst **[!UICONTROL Entity Type]** **[!UICONTROL Products]** .
+1. Zoeken naar **[!UICONTROL status]** , weergegeven onder **[!UICONTROL Attribute Code]** . U ziet dat attributencode in de lijst van beschikbare attributen (**[!UICONTROL Enable Product]**).
+1. Klik op **[!UICONTROL Export]** .
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
-In het CSV-bestand dat u net hebt geëxporteerd, ziet u een kolom met het label [!UICONTROL status].
+In het CSV-bestand dat u net hebt geëxporteerd, ziet u een kolom met het label [!UICONTROL status] .
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-Er wordt geen kolom met het label weergegeven [!UICONTROL status] in het geëxporteerde CSV-bestand.
+Er wordt geen kolom met het label [!UICONTROL status] weergegeven in het geëxporteerde CSV-bestand.
 
 ## Oorzaak
 
-De naam van het statuskenmerk van het product is gewijzigd in het CSV-bestand. Het is nu [!UICONTROL product_online] kolom.
+De naam van het statuskenmerk van het product is gewijzigd in het CSV-bestand. Het is nu de kolom [!UICONTROL product_online] .
 
 ## Oplossing
 
-1. Selecteren **[!UICONTROL System]**, onder **[!UICONTROL Data Transfer]** selecteren **[!UICONTROL Import]**.
+1. Selecteer **[!UICONTROL System]** onder **[!UICONTROL Data Transfer]** Selecteren **[!UICONTROL Import]** .
 1. Klik op **[!UICONTROL Download Sample File]**.
-1. U kunt de [!UICONTROL product_online] in het CSV-bestand.
+1. U kunt de kolom [!UICONTROL product_online] in het CSV-bestand zien.
 
 ## Gerelateerde lezing
 
-* [Werken met CSV-bestanden](https://docs.magento.com/user-guide/system/data-csv.html) in onze gebruikershandleiding.
-* [Referentie productkenmerken exporteren](https://docs.magento.com/user-guide/system/data-attributes-product.html) in onze gebruikershandleiding.
+* [ Werkend met Csv- dossiers ](https://docs.magento.com/user-guide/system/data-csv.html) in onze gebruikersgids.
+* [ Verwijzing van de Attributen van de Uitvoer van het Product ](https://docs.magento.com/user-guide/system/data-attributes-product.html) in onze gebruikersgids.

@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # Eigenaar van account wijzigen voor New Relic op Cloud
 
-Voor uw Adobe Commerce on cloud Infrastructure-project kunt u de New Relic-accounteigenaar wijzigen op de New Relic UI-pagina. Zie voor meer informatie [De accounteigenaar wijzigen](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/change-account-owner) in New Relic documentatie.
+Voor uw Adobe Commerce on cloud Infrastructure-project kunt u de New Relic-accounteigenaar wijzigen op de New Relic UI-pagina. Voor gedetailleerde stappen, zie [ Verandering de rekeningeigenaar ](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/change-account-owner) in de documentatie van New Relic.
 
-Als de gebruiker (waaraan u de rol van eigenaar wilt toewijzen) nog niet in uw account wordt vermeld, moet u de gebruiker aan de account toevoegen. Zie [Gebruikers toevoegen en bijwerken](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/add-update-users) in de documentatie van New Relic, met name de [Een nieuwe gebruiker toevoegen](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/add-update-users#adding_users) sectie.
+Als de gebruiker (waaraan u de rol van eigenaar wilt toewijzen) nog niet in uw account wordt vermeld, moet u de gebruiker aan de account toevoegen. Zie [ gebruikers ](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/add-update-users) in de documentatie van New Relic toevoegen en bijwerken, in het bijzonder [ een nieuwe gebruiker ](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/add-update-users#adding_users) sectie toevoegen.
 
-Als iemand als gebruiker moet worden toegevoegd, maar geen bestaande Eigenaar of Admin op de account hen kan helpen, elke Adobe Commerce-gebruiker die toegang heeft tot de New Relic [Adobe Commerce Partnership Owner Account](https://account.newrelic.com/accounts/1311131/users) kan alle accounts van de Klant bekijken en gebruikers namens de Klant toevoegen.
+Als iemand als gebruiker moet worden toegevoegd, maar geen bestaande Eigenaar of Admin op de rekening hen kan helpen, kan om het even welke gebruiker van Adobe Commerce die toegang tot de [ rekening van de Eigenaar van het Partnerschap van New Relic van Adobe Commerce ](https://account.newrelic.com/accounts/1311131/users) heeft alle rekeningen van de Klant bekijken en gebruikers namens de Klant toevoegen.
 
 ## Gerelateerde lezing
 
-* [New Relic-services](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) in onze ontwikkelaarsdocumentatie.
+* [ de diensten van New Relic ](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) in onze ontwikkelaarsdocumentatie.

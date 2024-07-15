@@ -23,20 +23,20 @@ Dit artikel biedt een oplossing voor het probleem wanneer de opties voor het bun
 
 ## Probleem
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 U hebt een geldig CSV-bestand met bundelproducten.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Het bestand importeren met de opdracht [Functie importeren](https://docs.magento.com/m2/ee/user_guide/system/data-import.html).
+1. Importeer het dossier gebruikend de [ functionaliteit van de Invoer ](https://docs.magento.com/m2/ee/user_guide/system/data-import.html).
 1. Open de productpagina van de bundel.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De volgorde van opties is gelijk aan die in het CSV-bestand.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De volgorde van opties verschilt van die in het CSV-bestand.
 
@@ -46,7 +46,7 @@ De positie van de opties is niet expliciet gedeclareerd.
 
 ## Oplossing
 
-1. Declareer expliciet een positie voor elke optie in het dialoogvenster `position` parameter van de `bundle_values` in het CSV-bestand. Zie voor gedetailleerde instructies [De productgegevens bewerken](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html#method-2-edit-the-product-data) in onze gebruikershandleiding.
+1. Declareer expliciet een positie voor elke optie in de parameter `position` van de kolom `bundle_values` in het .csv-bestand. Voor gedetailleerde instructies, zie [ de Gegevens van het Product ](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html#method-2-edit-the-product-data) in onze gebruikersgids uitgeven.
 1. Herhaal de importbewerking.
 
-Voor algemene informatie over importeren raadpleegt u de [Bundelproduct importeren](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html) in onze gebruikershandleiding.
+Voor algemene informatie bij de Invoer, zie het [ Invoerende Product van de Bundel ](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html) in onze gebruikersgids.

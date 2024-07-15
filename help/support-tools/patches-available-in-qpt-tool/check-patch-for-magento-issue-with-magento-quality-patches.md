@@ -17,12 +17,12 @@ In dit artikel vindt u een overzicht van het gereedschap Kwaliteitspatches (QPT)
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op locatie, alle [ondersteunde versies](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* Adobe Commerce op cloudinfrastructuur, alle [ondersteunde versies](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op-gebouw, alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Wat is het gereedschap Kwaliteitspatches
 
-De [Gereedschap Kwaliteitspatches](https://github.com/magento/quality-patches) (QPT) zijn afzonderlijke patches die door Adobe en de Magento Open Source gemeenschap zijn ontwikkeld.
+Het [ Hulpmiddel van de Patches van de Kwaliteit ](https://github.com/magento/quality-patches) (QPT) zijn individuele die flarden door Adobe en de gemeenschap van de Magento Open Source worden ontwikkeld.
 
 Zo kunt u:
 
@@ -32,17 +32,17 @@ Zo kunt u:
 
 Hier is een voorbeeld van de statuslijst u kunt krijgen om de beschikbare flarden te bekijken:
 
-![Magento_patches_list](assets/status_table.png)
+![ Magento_patches_list ](assets/status_table.png)
 
 Het gereedschap is bedoeld om u in staat te stellen zelf te dienen met patches voor problemen die u kunt ervaren met Adobe Commerce, of om eenvoudig patches toe te passen die worden voorgesteld door Adobe Commerce-ondersteuning.
 
 >[!NOTE]
 >
->QPT is alleen voor kwaliteitspatches. Beveiligingspatches zijn beschikbaar in het dialoogvenster [Magento Security Center](https://magento.com/security/patches).
+>QPT is alleen voor kwaliteitspatches. De flarden van de veiligheid zijn beschikbaar in het [ Centrum van de Veiligheid van de Magento ](https://magento.com/security/patches).
 
 ## Patches beschikbaar in het gereedschap Kwaliteitspatches
 
-Zie [Gereedschap Kwaliteitspatches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie voor de lijst van beschikbare flarden.
+Gelieve te verwijzen naar [ Hulpmiddel van de Patches van de Kwaliteit ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie voor de lijst van beschikbare flarden.
 
 ## Het gereedschap Kwaliteitspatches installeren en gebruiken
 
@@ -50,13 +50,13 @@ De installatie- en gebruiksopdrachten verschillen voor Adobe Commerce op locatie
 
 ### QPT voor Adobe Commerce installeren en gebruiken op locatie
 
-Zie [Software Update Guide > Patching](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie voor meer informatie over het installeren en gebruiken van QPT voor het toepassen en herstellen van patches.
+Gelieve te verwijzen naar [ Gids van de Update van de Software > het Patching ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie voor details op hoe te om QPT voor het toepassen van en het terugkeren van flarden te installeren en te gebruiken.
 
 ### QPT voor Adobe Commerce installeren en gebruiken op cloudinfrastructuur
 
-Zie [Cloud voor Adobe Commerce > Patches toepassen](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie voor meer informatie over het installeren en gebruiken van QPT voor het toepassen en herstellen van patches op Adobe Commerce op cloudinfrastructuur.
+Gelieve te verwijzen naar [ Wolk voor Adobe Commerce > pas flarden ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie voor details op om QPT voor het toepassen en het terugkeren van flarden op Adobe Commerce op wolkeninfrastructuur te installeren en te gebruiken.
 
 ## Gerelateerde lezing
 
-* [Opmerkingen bij de release Quality Patches Tool](https://devdocs.magento.com/quality-patches/release-notes.html) in onze ontwikkelaarsdocumentatie.
-* [Hoe worden door Adobe geleverde componentpatches toegepast](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+* [ de versienota&#39;s van het Hulpmiddel van de Patches van de Kwaliteit ](https://devdocs.magento.com/quality-patches/release-notes.html) in onze ontwikkelaarsdocumentatie.
+* [ hoe te om componentenflarden toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis worden verstrekt.

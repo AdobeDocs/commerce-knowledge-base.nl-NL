@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce *post-implementatie wordt overgeslagen omdat implementatie is mislukt* fout
-description: '''Dit artikel legt uit hoe te om een plaatsingsfout te onderzoeken: *Post-opstellen wordt overgeslagen omdat de implementatie ontbroken* was'
+description: 'Dit artikel legt uit hoe u een implementatiefout kunt onderzoeken: *Post-Implementatie wordt overgeslagen omdat implementatie is mislukt*'
 exl-id: cd0a3015-b7b9-442e-8ac1-89447ef12cd7
 feature: Deploy
 source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce *ná implementatie wordt overgeslagen omdat implementatie is mislukt* fout
+# Adobe Commerce *post-opstellen wordt overgeslagen omdat opstellen* fout ontbrak
 
-Dit artikel verklaart hoe te om een plaatsingsfout te onderzoeken: *Post-implementatie wordt overgeslagen omdat de implementatie is mislukt* die optreedt tijdens de implementatie naar verschillende omgevingen, bijvoorbeeld de upgrade.
+Dit artikel verklaart hoe te om een plaatsingsfout te onderzoeken: *Post-stelt wordt overgeslagen omdat opstellen* ontbrak die tijdens plaatsing aan verschillende milieu&#39;s voorkomt, bijvoorbeeld bevordering.
 
 ## Betrokken producten en versies
 
-Adobe Commerce over cloudinfrastructuur [alle ondersteunde versies](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce op wolkeninfrastructuur [ alle gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Probleem
 
@@ -46,4 +46,4 @@ Onbepaald - wat dit foutenbericht veroorzaakt hangt van de code en het gegevensb
     W:
 ```
 
-Om het foutenspoor te verkrijgen om de daadwerkelijke oorzaak te bepalen, SSH aan de server en het logboekdossier te controleren `var/log/install_upgrade.log`.
+Om het foutenspoor voor het bepalen van de daadwerkelijke oorzaak te verkrijgen, SSH aan de server en controleer het logboekdossier `var/log/install_upgrade.log`.

@@ -23,15 +23,15 @@ Dit artikel verstrekt een oplossing voor wanneer u 404 gevonden niet fout wannee
 
 Wanneer het installeren van een uitbreiding die de Tovenaar van de Opstelling van het Web gebruiken toont een 404 pagina.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Merchant klikt de Tovenaar van de Opstelling van het Web om nieuwe module/integratie te installeren.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Installatie van modules/integratie.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Er wordt een fout van 404 weergegeven.
 
@@ -43,9 +43,9 @@ De wizard Web Setup is voor alle Adobe Commerce uitgeschakeld op instanties van 
 
 Deze functie is uitgeschakeld in Adobe Commerce op cloudinfrastructuur.
 
-Zie [Extensies installeren, beheren en upgraden](https://devdocs.magento.com/cloud/howtos/install-components.html) in onze ontwikkelaarsdocumentatie voor informatie over het uitvoeren van updates of het installeren van externe modules voor Adobe Commerce op onze cloudinfrastructuur.
-Zie [Snelle start](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) in onze ontwikkelaarsdocumentatie voor informatie over hoe te om updates uit te voeren of externe modules voor Adobe Commerce op-gebouw te installeren.
+Zie [ installeren, beheren, en verbetert uitbreidingen ](https://devdocs.magento.com/cloud/howtos/install-components.html) in onze ontwikkelaarsdocumentatie voor informatie over hoe te om updates uit te voeren of externe modules voor Adobe Commerce op onze wolkeninfrastructuur te installeren.
+Zie [ Snel begin installeert ](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) in onze ontwikkelaarsdocumentatie voor informatie over hoe te om updates uit te voeren of externe modules voor Adobe Commerce op-gebouw te installeren.
 
 ## Gerelateerde lezing
 
-* Zie [Een extensie installeren](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) in onze ontwikkelaarsdocumentatie.
+* Zie [ een uitbreiding ](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) in onze ontwikkelaarsdocumentatie installeren.

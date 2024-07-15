@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-54660: Nieuwe invoerkenmerksortering naar sortering van klantorders in [!DNL GraphQL]'
-description: Pas de ACSD-54660-patch toe om het Adobe Commerce-probleem op te lossen waarbij een nieuw invoerkenmerk "sort" wordt toegevoegd aan sorteerklantorders in [!DNL GraphQL] door "sort_field" en "sort_direction".
+title: 'ACSD-54660: Nieuwe soort invoerkenmerk voor het sorteren van klantorders in  [!DNL GraphQL]'
+description: Pas ACSD-54660 flard toe om de kwestie van Adobe Commerce te bevestigen waar een nieuw inputattribuut "soort ` wordt toegevoegd aan de orden van de soortklant in  [!DNL GraphQL]  door sort_field ` en ` sort_direction `'.
 feature: GraphQL, Orders
 role: Admin, Developer
 exl-id: 29869139-e5e2-4b00-a090-e2c6673ff9ca
@@ -13,29 +13,29 @@ ht-degree: 0%
 
 # ACSD-54660: Nieuwe sortering van invoerkenmerken toegevoegd aan sorteervolgorde van klanten in [!DNL GraphQL]
 
-De ACSD-54660-patch verhelpt het probleem waarbij een nieuw invoerkenmerk `sort` toegevoegd aan de sorteeropdracht van klanten in [!DNL GraphQL] door `sort_field` en `sort_direction`. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is geïnstalleerd. De patch-id is ACSD-54660. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
+De ACSD-54660-patch verhelpt het probleem waarbij een nieuw invoerkenmerk `sort` is toegevoegd om klantorders te sorteren in [!DNL GraphQL] by `sort_field` en `sort_direction` . Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 wordt geïnstalleerd. De patch-id is ACSD-54660. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5-p2
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.5-p5
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Nieuw invoerkenmerk `sort` toegevoegd aan de sorteeropdracht van klanten in [!DNL GraphQL] door `sort_field` en `sort_direction`.
+Nieuw invoerkenmerk `sort` toegevoegd om klantorders te sorteren in [!DNL GraphQL] by `sort_field` en `sort_direction` .
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-De klantenorden van de vraag gebruikend [!DNL GraphQL]:
+De opdracht van klanten van de vraag gebruikend [!DNL GraphQL]:
 
 ```
   {
@@ -51,26 +51,26 @@ De klantenorden van de vraag gebruikend [!DNL GraphQL]:
   }
 ```
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-Deze patch wordt toegevoegd `sort` en `sort_direction` argumenten voor `customer.orders`.
+Deze patch voegt `sort` en `sort_direction` arguments toe aan `customer.orders` .
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Het is niet mogelijk om de bestellingen te sorteren met [!DNL GraphQL].
+Het is niet mogelijk om de bestellingen te sorteren met [!DNL GraphQL] .
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

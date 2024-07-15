@@ -32,21 +32,21 @@ Adobe Commerce op cloudinfrastructuur 2.4.x
 
 ## Probleem  
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Poging om te implementeren. 
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De implementatie is voltooid.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-U kunt niet correct implementeren. In de logboeken ziet u een plaatsingsfout met een bericht gelijkend op het volgende *Er zijn geen opdrachten in de cachenaamruimte*.
+U kunt niet correct implementeren. In de logboeken ziet u een plaatsingsfout met een bericht gelijkend op het volgende *Er zijn geen bevelen in het geheime voorgeheugen namespace*.
 
 ### Oorzaak
 
-De **core_config_data** tabel bevat configuraties voor een winkel-id of website-id die niet meer in de database aanwezig zijn. Dit gebeurt wanneer u een databaseback-up hebt geïmporteerd uit een andere instantie/omgeving en de configuraties voor die bereikinstellingen in de database blijven, hoewel de bijbehorende opslag(en)/website(s) zijn verwijderd.
+De **core_config_data** lijst bevat configuraties voor een opslagidentiteitskaart of websiteidentiteitskaart die niet meer in het gegevensbestand bestaat. Dit gebeurt wanneer u een databaseback-up hebt geïmporteerd uit een andere instantie/omgeving en de configuraties voor die bereikinstellingen in de database blijven, hoewel de bijbehorende opslag(en)/website(s) zijn verwijderd.
 
 ### Oplossing
 
@@ -82,7 +82,7 @@ Om dit probleem op te lossen, identificeer de ongeldige rijen die van die config
 
    `bin/magento`
 
-   Als u een fout krijgt zoals hieronder die erop wijst dat de website met id X die werd gevraagd niet werd gevonden u configuraties in het gegevensbestand van website(s) evenals opslag(s) hebt die zijn geschrapt.
+   Als u een fout krijgt zoals hieronder die erop wijst dat de website met identiteitskaart X die werd gevraagd niet werd gevonden u nog configuraties hebt        in de database van website(s) en winkel(s) die zijn verwijderd.
 
    ```
    In WebsiteRepository.php line 110:
@@ -102,7 +102,7 @@ Om dit probleem op te lossen, identificeer de ongeldige rijen die van die config
    delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
    ```
 
-Om te bevestigen dat de oplossing werkte, stel `bin/magento` opnieuw gebruiken. U zou niet meer de fouten moeten zien en met succes kunnen opstellen.
+Voer de opdracht `bin/magento` opnieuw uit om te bevestigen dat de oplossing heeft gewerkt. U zou niet meer de fouten moeten zien en met succes kunnen opstellen.
 
 ## Gerelateerde lezing
 

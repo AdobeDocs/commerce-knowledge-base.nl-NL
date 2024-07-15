@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0-installatie mislukt met verouderde opslagcache
 
-Dit artikel biedt een oplossing voor het probleem waarbij de Adobe Commerce 2.4.0-installatie mislukt met het foutbericht: *De standaardwebsite is niet gedefinieerd. Stel de website in en probeer het opnieuw.* weergegeven in de console.
+Dit artikel verstrekt een oplossing voor de kwestie waar uw installatie van Adobe Commerce 2.4.0 met het foutenmelding ontbreekt: *de standaardwebsite wordt niet bepaald. Stel de website in en probeer het opnieuw.* weergegeven in de console.
 
 ## Betrokken producten en versies
 
@@ -22,8 +22,8 @@ Dit artikel biedt een oplossing voor het probleem waarbij de Adobe Commerce 2.4.
 
 ## Probleem
 
-<u>Vereisten:</u>
-Een derdeuitbreiding met gebiedsdelen op APIs voor de module van de Opslag in CLI bevelen wordt gevormd zoals vereist in `composer.json`. Hierdoor mislukt de installatie van Adobe Commerce 2.4.0 met een foutbericht: *De standaardwebsite is niet gedefinieerd. Stel de website in en probeer het opnieuw.* weergegeven in de console.
+<u> Eerste vereisten:</u>
+Een derdeuitbreiding met gebiedsdelen op APIs voor de module van de Opslag in CLI bevelen wordt gevormd zoals vereist in `composer.json`. Dit veroorzaakt de installatie van Adobe Commerce 2.4.0 om met een foutenmelding te ontbreken: *de standaardwebsite wordt niet bepaald. Stel de website in en probeer het opnieuw.* weergegeven in de console.
 
 ## Oorzaak
 
@@ -33,7 +33,7 @@ De kwestie verschijnt voor de derdeuitbreidingen die van opslag in hun CLI bevel
 
 Voor de installatie van Adobe Commerce 2.4.0 moeten handelaren:
 
-1. Deze extensies van derden verwijderen uit `composer.json`.
+1. Verwijder deze extensies van derden uit `composer.json` .
 1. Installeer Adobe Commerce zonder extensies.
 1. Voeg de extensies toe na de installatie.
 

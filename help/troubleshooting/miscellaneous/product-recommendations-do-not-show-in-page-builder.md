@@ -30,12 +30,12 @@ Er is geen optie in de Bouwer van de Pagina om Product Recommendations toe te vo
 ## Oplossing
 
 1. Controleer of u de module afzonderlijk hebt geïnstalleerd door de opdracht uit te voeren: `composer show magento/module-page-builder-product-recommendations`
-1. Als het het volgende bericht terugkeert: *Niet gevonden in pakket magento/module-page-builder-product-recommendations*, moet u het installeren door het bevel in werking te stellen: `composer require magento/module-page-builder-product-recommendations`
+1. Als het het volgende bericht terugkeert: *Pakket magento/module-page-builder-product-aanbevelingen niet gevonden*, zult u het moeten installeren door het bevel in werking te stellen: `composer require magento/module-page-builder-product-recommendations`
 
-Als u Product Recommendations inschakelt in Page Builder, kunt u [een aanbeveling-eenheid toevoegen](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) op alle inhoud die is gemaakt in Page Builder.
+Door Product Recommendations in de Bouwer van de Pagina toe te laten, zult u een aanbeveling eenheid ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) aan om het even welke inhoud kunnen toevoegen die in de Bouwer van de Pagina wordt gecreeerd.[
 
 ## Gerelateerde lezing
 
-* [Inhoud toevoegen - Product Recommendations](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) in onze gebruikershandleiding.
-* [Product Recommendations installeren en configureren](https://devdocs.magento.com/recommendations/install-configure.html) in onze ontwikkelaarsdocumentatie.
-* [Adobe Commerce-gebruikershandleiding](https://docs.magento.com/user-guide/)
+* [ voeg Inhoud toe - product Recommendations ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) in onze gebruikersgids.
+* [ installeer en vorm Recommendations van het Product ](https://devdocs.magento.com/recommendations/install-configure.html) in onze ontwikkelaarsdocumentatie.
+* [ de Gids van de Gebruiker van Adobe Commerce ](https://docs.magento.com/user-guide/)

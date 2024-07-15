@@ -51,13 +51,13 @@ De patches zijn niet compatibel met andere Adobe Commerce-versies.
 
 ### Hoe de pleister aanbrengen
 
-De gedownloade gegevens decomprimeren `.zip` en pas de patch toe zoals beschreven in [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+Pak het gedownloade `.zip` dossier uit en pas het flard toe zoals die in [ wordt beschreven hoe te om een composerflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) wordt verstrekt.
 
 >[!WARNING]
 >
->Als u vermoedt dat uw winkel een DoS-aanval ondervindt, raadt de Adobe u aan de standaardinvoerbeperkingen tot een lagere waarde te verlagen om het aantal bronnen dat kan worden aangevraagd, te beperken.  U kunt de standaardgrenzen programmatically aanpassen gebruikend [klasseconstructorargumenten](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)
->zoals beschreven in onze ontwikkelaarsdocumentatie: [API-beveiliging > Snelheidsbeperking > Maximale parameterinvoer](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
+>Als u vermoedt dat uw winkel een DoS-aanval ondervindt, raadt de Adobe u aan de standaardinvoerbeperkingen tot een lagere waarde te verlagen om het aantal bronnen dat kan worden aangevraagd, te beperken.  U kunt de standaardgrenzen programmatically aanpassen gebruikend [ argumenten van de klassenaannemer ](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)
+>zoals die in onze ontwikkelaarsdocumentatie wordt beschreven: [ API veiligheid > het Beperken van het Tarief > Maximale parameterinput ](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
 
 ## Gerelateerde lezing
 
-[API-beveiliging > Snelheid beperken](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting) in onze ontwikkelaarsdocumentatie.
+[ API veiligheid > het Beperken van het Tarief ](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting) in onze ontwikkelaarsdocumentatie.

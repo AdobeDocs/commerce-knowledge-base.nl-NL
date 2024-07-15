@@ -1,6 +1,6 @@
 ---
-title: '"ACSD-56193: [!DNL Fastly] cache is niet gewist voor update van inhoudstaging'''
-description: Pas de ACSD-56193-patch toe om het Adobe Commerce-probleem op te lossen waarbij de [!DNL Fastly] cache is niet gewist voor update van inhoudstaging.
+title: "ACSD-56193: [!DNL Fastly]  het geheime voorgeheugen wordt niet ontruimd voor inhoud die update opvoeren"
+description: Pas ACSD-56193 flard toe om de kwestie van Adobe Commerce te bevestigen waar het  [!DNL Fastly]  geheime voorgeheugen niet voor inhoud het opvoeren update wordt ontruimd.
 feature: Cache, GraphQL, Staging
 role: Admin, Developer
 exl-id: d4bbfafa-2d24-44cf-a08b-f7dd9111a65b
@@ -11,31 +11,31 @@ ht-degree: 0%
 
 ---
 
-# ACSD-56193: [!DNL Fastly] cache is niet gewist voor update van inhoudstaging
+# ACSD-56193: [!DNL Fastly] cache wordt niet gewist voor update van inhoudstaging
 
-De ACSD-56193-patch verhelpt het probleem waarbij de [!DNL Fastly] cache is niet gewist voor update van inhoudstaging. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is geïnstalleerd. De patch-id is ACSD-56193. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-56193-patch verhelpt het probleem waarbij de [!DNL Fastly] -cache niet wordt gewist voor de update van de inhoudstaging. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 wordt geïnstalleerd. De patch-id is ACSD-56193. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2-p2
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2 - 2.4.4
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-De [!DNL Fastly/Varnish] cache is niet gewist voor update van inhoudstaging
+De cache van [!DNL Fastly/Varnish] wordt niet gewist voor de update van de inhoudstaging
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Installeren en configureren [!DNL Varnish] cache.
+1. Installeer en configureer [!DNL Varnish] cache.
 1. Maak een statisch blok met een geplande update.
 1. Maak een categorie waarin het statische blok wordt ingesloten.
 1. Zoek de inhoud van de categorie met de onderstaande GraphQL-query:
@@ -61,17 +61,17 @@ De [!DNL Fastly/Varnish] cache is niet gewist voor update van inhoudstaging
      {"id":"Mwo="}
    ```
 
-1. Voer deze query meerdere keren uit en zorg ervoor dat de reactie in de cache is geplaatst [!DNL Varnish].
+1. Voer deze query meerdere keren uit en zorg ervoor dat de reactie in de [!DNL Varnish] in de cache is opgeslagen.
 1. Voer het uitsnijden uit om de geplande wijziging toe te passen.
 1. Voer de bovenstaande GraphQL-query opnieuw uit.
 1. Maak een nieuw schema voor hetzelfde statische blok.
 1. Herhaal de stappen met nummer 5-9.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De bijgewerkte inhoud wordt geretourneerd nadat de geplande updates zijn uitgevoerd.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De verouderde inhoud wordt geretourneerd nadat de geplande updates zijn uitgevoerd.
 
@@ -79,14 +79,14 @@ De verouderde inhoud wordt geretourneerd nadat de geplande updates zijn uitgevoe
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

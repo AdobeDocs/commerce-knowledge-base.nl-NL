@@ -24,19 +24,19 @@ Dit artikel bevat een correctie voor fouten die tijdens de plaatsing van de best
 
 Er treedt een fout op bij het invoeren van het land en de regio tijdens het plaatsen van de bestelling in PayPal Express Checkout. De kwestie is reproduceerbaar voor om het even welk land waar het gebiedsgebied in de adressectie een tekstgebied (in tegenstelling tot een drop-down menu) is.
 
-<u>Stappen om te reproduceren</u> :
+<u> Stappen om </u> te reproduceren:
 
 1. Afhandeling via PayPal Express inschakelen.
 1. Voeg een product toe aan de winkelwagen als gast of wanneer u bent aangemeld.
 1. Ga naar Afrekenen.
-1. Selecteer je verzendadres. Bijvoorbeeld de *VK* . Voer vervolgens een invoer in het dialoogvenster **Staat/provincie** veld. Bijvoorbeeld: *Nottinghamshire*.
-1. Klik op de knop **Opdracht plaatsen** om de volgorde te plaatsen. U ontvangt een pagina met succesvolle bestellingen en ontvangt een bevestigingsbericht.
+1. Selecteer je verzendadres. Bijvoorbeeld, het *VK*. Dan ga een input in het **Staat/Provincie** gebied in. Bijvoorbeeld, *Nottinghamshire*.
+1. Klik op de **knoop van de Orde van de Plaats** om orde te plaatsen. U ontvangt een pagina met succesvolle bestellingen en ontvangt een bevestigingsbericht.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht Resultaat:</u>
 
 De bestelling is geplaatst.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware Resultaat:</u>
 
 Wanneer op de volgordeknop wordt geklikt, wordt een fout weergegeven:
 
@@ -47,14 +47,14 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 ## Oplossing
 
-Voor Adobe Commerce-handelaren in verkoopruimten: [hotfix,](https://magento.com/tech-resources/download#download2353) die beschikbaar is in de sectie Downloads op [magento.com](https://magento.com) in Mijn account.
+Voor Adobe Commerce op-gebouwhandelaren: Pas [ hotfix toe, ](https://magento.com/tech-resources/download#download2353) die van de sectie van Downloads op [ magento.com ](https://magento.com) portaal in Mijn rekening beschikbaar is.
 
-Voor Adobe Commerce op producten met cloudinfrastructuur: Adobe heeft de oplossing opgenomen in de cloudpatches voor Commerce v1.0.2. Zie [Cloudpatches voor Commerce-releaseopmerkingen](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) in onze ontwikkelaarsdocumentatie om instructies te vinden over het toepassen van het recentste pakket.
+Voor Adobe Commerce op producten met cloudinfrastructuur: Adobe heeft de oplossing opgenomen in de cloudpatches voor Commerce v1.0.2. Gelieve te verwijzen naar [ de versienota&#39;s van de Huur van de Wolk voor de versie van Commerce ](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) in onze ontwikkelaarsdocumentatie om instructies te vinden bij het toepassen van het recentste pakket.
 
 ## Hoe de pleister moet worden aangebracht
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Verwante lezing
 
-* [Release-informatie > Opmerkingen bij de release van Adobe Commerce 2.3.4 > Het probleem met PayPal Express Checkout toepassen met de regionale patch voor Adobe Commerce 2.3.4 om een belangrijk probleem met PayPal Express-afhandeling op te lossen](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) in onze ontwikkelaarsdocumentatie.
+* [ de informatie van de Versie > de Nota&#39;s van de Versie van Adobe Commerce 2.3.4 > pas de Uitdrukkelijke kwestie van de Afhandeling van PayPal met gebiedspatch voor Adobe Commerce 2.3.4 toe om een kritieke Uitdrukkelijke kwestie van de Afhandeling van PayPal ](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) in onze ontwikkelaarsdocumentatie te richten.

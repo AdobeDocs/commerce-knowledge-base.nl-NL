@@ -1,6 +1,6 @@
 ---
-title: Terugvallen op [!DNL Elasticsearch7] als zoekprogramma is ingesteld op [!DNL Opensearch]
-description: Dit artikel biedt een oplossing voor het probleem wanneer een *Falling terug naar [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch] in Adobe Commerce.
+title: Het vallen terug naar  [!DNL Elasticsearch7]  wanneer de onderzoeksmotor aan  [!DNL Opensearch] wordt geplaatst
+description: Dit artikel verstrekt een oplossing voor de kwestie wanneer a *Falling terug naar  [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch]  in Adobe Commerce.
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Terugvallen op [!DNL Elasticsearch7] als zoekprogramma is ingesteld op [!DNL Opensearch]
+# Terugvallen op [!DNL Elasticsearch7] wanneer zoekprogramma is ingesteld op [!DNL Opensearch]
 
-Dit artikel biedt een oplossing voor het probleem wanneer een *Terugvallen op[!DNL Elasticsearch7]* Er treedt een fout op wanneer de zoekfunctie is ingesteld op [!DNL OpenSearch] in Adobe Commerce.
+Dit artikel verstrekt een oplossing voor de kwestie wanneer a *die terug naar[!DNL Elasticsearch7]* fout terugloopt voorkomt wanneer de onderzoeksmotor aan [!DNL OpenSearch] in Adobe Commerce wordt geplaatst.
 
 ## Betrokken versies
 
@@ -21,33 +21,33 @@ Adobe Commerce over cloudinfrastructuur 2.4.4 - 2.4.5
 
 >[!NOTE]
 >
->[!DNL OpenSearch] is beschikbaar als zoekmachine vanaf Adobe Commerce 2.4.6.
+>[!DNL OpenSearch] is beschikbaar als zoekprogramma vanaf Adobe Commerce 2.4.6.
 
 ## Probleem
 
-U stelt uw **zoekmachine** tot **[!DNL OpenSearch]**, maar raadpleeg dit type fout in het dialoogvenster `var/log/support_report.log` bestand:
+U plaatst uw **onderzoeksmotor** aan **[!DNL OpenSearch]**, maar zie dit type van fout in het `var/log/support_report.log` dossier:
 
 ```[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []```
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Controleren of [!DNL OpenSearch] is geïnstalleerd door deze opdracht uit te voeren: `curl 127.0.0.1:9200`<br>
-Als dit aangeeft *1.2.4.* vervolgens [!DNL OpenSearch] is al geïnstalleerd.
-1. Ga naar **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**.
-1. Controleer het zoekprogramma. Het wordt weergegeven [!DNL Elasticsearch7].
+1. Controleer of [!DNL OpenSearch] is geïnstalleerd door deze opdracht uit te voeren: `curl 127.0.0.1:9200`<br>
+Als het *1.2.4* wijst, dan [!DNL OpenSearch] is reeds geïnstalleerd.
+1. Ga naar **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** .
+1. Controleer het zoekprogramma. Deze wordt weergegeven [!DNL Elasticsearch7] .
 
 ## Oorzaak
 
-Ook al wordt uw versie wel ondersteund [!DNL OpenSearch]wordt de toepassing alleen herkend/geaccepteerd [!DNL Elasticsearch7] als zoekprogramma.
+Hoewel uw versie [!DNL OpenSearch] wel ondersteunt, herkent/accepteert de toepassing [!DNL Elasticsearch7] alleen als zoekengine.
 
-Vanaf Adobe Commerce versie 2.4.6 is de toepassing bijgewerkt op [!DNL OpenSearch] te selecteren als zoekprogramma.
-Als u gaat naar **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** in een niet-cloud-omgeving kunt u deze optie wijzigen, zoals wordt weergegeven in het dialoogvenster **Oplossing** hieronder.
-(Opmerking: in een cloudomgeving kan dit veld niet worden gewijzigd omdat het zoekprogramma is vergrendeld in het dialoogvenster `app/etc/env.php` bestand.)
+Vanaf Adobe Commerce versie 2.4.6 is de toepassing bijgewerkt zodat [!DNL OpenSearch] als zoekprogramma kan worden geselecteerd.
+Als u **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** in een niet wolkenmilieu gaat, zult u deze optie zoals aangetoond in de **Oplossing** hieronder kunnen veranderen.
+(Opmerking: in een cloudomgeving kan dit veld niet worden gewijzigd omdat het zoekprogramma is vergrendeld in het `app/etc/env.php` -bestand.)
 
 ## Oplossing
 
-Werk de `SEARCH_CONFIGURATION` in de `.magento.env.yaml` en zorgt ervoor dat de **zoekmachine** is ingesteld op *[!DNL elasticsearch7]*.
+Werk `SEARCH_CONFIGURATION` variabele in het `.magento.env.yaml` dossier bij, en zorg ervoor dat de **onderzoeksmotor** aan *[!DNL elasticsearch7]* wordt geplaatst.
 
 ## Gerelateerde lezing
 
-[OpenSearch-service instellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) in de handleiding Commerce on Cloud Infrastructure.
+[ de dienst van OpenSearch van de Opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) in Commerce op de gids van de Infrastructuur van de Wolk.

@@ -19,19 +19,19 @@ Als u een Adobe Commerce bent op het gebied van cloudinfrastructuur Pro en momen
 >
 > De bevordering aan Verbeterde Integratie kan niet alle prestatieskwesties behandelen aangezien het van de totale middelvereisten van uw installatie, met inbegrip van derdesintegraties of aanpassingen zou afhangen.
 >
-> U moet ook ervoor zorgen dat u de beste praktijken voor beste prestaties in het integratiemilieu volgt, en zelfs dat niet een eind-al oplossing kan zijn. Raadpleeg de volgende documentatie voor instructies: [Pro-architectuur](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment) en [Starter-architectuur](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment) in de Commerce on Cloud Infrastructure Guide.
+> U moet ook ervoor zorgen dat u de beste praktijken voor beste prestaties in het integratiemilieu volgt, en zelfs dat niet een eind-al oplossing kan zijn. Verwijs naar de volgende documentatie voor begeleiding: [ Pro architectuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment) en [ architectuur van de Aanzet ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment) in Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ## Pro
 
-1. Als u Pro bent, aan verbetering, moet u het aantal takken van de Integratie tot twee verminderen (**de belangrijkste bedrijfstak van de Integratie omvat in het totaal**). **Opmerking: tel de primaire vertakking niet in dit totaal. De primaire vertakking wordt niet beschouwd als een integratievertakking.** Voer de stappen uit in [Vertakkingen beheren met de Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) in onze ontwikkelaarsdocumentatie.
-1. De handelaar moet [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om een Verbetering aan Verbeterde milieu&#39;s van de Integratie te verzoeken, gebruikend de contactreden &quot;*Een wijziging in de cloudconfiguratie aanvragen*&quot;.
+1. Als u op Pro bent, om te bevorderen, moet u het aantal takken van de Integratie aan twee verminderen (**de belangrijkste tak van de Integratie is inbegrepen in het totaal**). **Nota: Telt niet de primaire tak in dit totaal. De primaire vertakking wordt niet beschouwd als een integratievertakking.** volg de stappen in [ leiden takken met de Console van de Wolk ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) in onze ontwikkelaarsdocumentatie.
+1. De handelaar moet [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen die om een Verbetering verzoekt aan Verbeterde Milieu&#39;s van de Integratie, gebruikend de contactreden &quot;*verzoek een verandering van de wolkenconfiguratie*&quot;.
 1. Het team van de Techniek van de Klant van de Adobe bevestigt het aantal milieu&#39;s van de Integratie en begint de verandering.
 1. De handelaar zal in het kaartje op de hoogte worden gebracht wanneer de verbetering volledig is.
-1. De handelaar herstelt de Milieu&#39;s van de Integratie. Voer de stappen uit in [Een vertakking samenvoegen](https://devdocs.magento.com/cloud/env/environments-start.html#merge) in onze ontwikkelaarsdocumentatie. *Opmerking*: De plaatsing gebeurt automatisch wanneer u in werking stelt: <pre>oorsprong van git-push <branch-name></pre>
+1. De handelaar herstelt de Milieu&#39;s van de Integratie. Volg de stappen in [ een tak ](https://devdocs.magento.com/cloud/env/environments-start.html#merge) in onze ontwikkelaarsdocumentatie samenvoegen. *Nota*: De plaatsing gebeurt automatisch wanneer u in werking stelt: <pre>oorsprong van git-push <branch-name></pre>
 
 De verhoogde prestaties wijzen op een succesvolle verbetering aan Verbeterde Milieu van de Integratie.
 
-**Notities**:
+**Nota&#39;s**:
 
 * De standaardgrootte en de verbeterde grootte zijn de enige twee beschikbare formaten.
 * Alle integratieomgevingen voor een bepaalde winkel zijn even groot - ze kunnen niet afzonderlijk van grootte worden weergegeven.
@@ -39,15 +39,15 @@ De verhoogde prestaties wijzen op een succesvolle verbetering aan Verbeterde Mil
 
 ## Starter
 
-1. De plannen van de aanzet kunnen geen takken van de Integratie hebben: de verkopers moeten de milieu&#39;s van de Integratie schrappen en slechts het het Opvoeren milieu verlaten. Voer de stappen uit in [Vertakkingen beheren met de Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) in onze ontwikkelaarsdocumentatie. Het aantal beschikbare omgevingen wordt beperkt om maximaal één integratieomgeving mogelijk te maken.
-1. De handelaar moet [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om een Verbetering aan Verbeterde Milieu&#39;s van de Integratie te verzoeken, gebruikend de contactreden *&quot;Een wijziging in de cloudconfiguratie aanvragen&quot;* -  **uw het Staging milieu is genoemd een Omgeving van de Integratie**.
+1. De plannen van de aanzet kunnen geen takken van de Integratie hebben: de verkopers moeten de milieu&#39;s van de Integratie schrappen en slechts het het Opvoeren milieu verlaten. Volg de stappen in [ leiden takken met de Console van de Wolk ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) in onze ontwikkelaarsdocumentatie. Het aantal beschikbare omgevingen wordt beperkt om maximaal één integratieomgeving mogelijk te maken.
+1. De handelaar moet [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen die om een Verbetering aan Verbeterde Milieu&#39;s van de Integratie verzoekt, gebruikend de contactreden *&quot;verzoek een verandering van de wolkenconfiguratie&quot;* - **uw het Opvoeren milieu is een genoemd Milieu van de Integratie**.
 1. Het team van de Techniek van de Klant van de Adobe bevestigt het aantal milieu&#39;s van de Integratie en begint de verandering.
 1. De handelaar zal in het kaartje op de hoogte worden gebracht wanneer de verbetering volledig is.
-1. De handelaar herstelt de Milieu&#39;s van de Integratie. Voer de stappen uit in [Een vertakking samenvoegen](https://devdocs.magento.com/cloud/env/environments-start.html#merge) in onze ontwikkelaarsdocumentatie. *Opmerking*: De plaatsing gebeurt automatisch wanneer u in werking stelt: <pre>oorsprong van git-push <branch-name></pre>
+1. De handelaar herstelt de Milieu&#39;s van de Integratie. Volg de stappen in [ een tak ](https://devdocs.magento.com/cloud/env/environments-start.html#merge) in onze ontwikkelaarsdocumentatie samenvoegen. *Nota*: De plaatsing gebeurt automatisch wanneer u in werking stelt: <pre>oorsprong van git-push <branch-name></pre>
 
 De verhoogde prestaties wijzen op een succesvolle verbetering aan Verbeterde Milieu van de Integratie.
 
-**Notities**:
+**Nota&#39;s**:
 
 * De standaardgrootte en de verbeterde grootte zijn de enige twee beschikbare formaten.
 * Alle integratieomgevingen voor een bepaalde winkel zijn even groot - ze kunnen niet afzonderlijk van grootte worden weergegeven.

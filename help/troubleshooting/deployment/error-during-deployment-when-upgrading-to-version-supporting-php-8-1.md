@@ -41,8 +41,8 @@ PHP 8.1 biedt al JSON-ondersteuning en vereist niet dat de extensie afzonderlijk
 
 ## Oplossing
 
-JSON verwijderen uit de **Runtime** > **Extensies** sectie in `.magento.app.yaml` en opnieuw implementeren.
+Verwijder JSON uit **Runtime** > **de sectie van Uitbreidingen** in `.magento.app.yaml` en herstelt.
 
 ## Gerelateerde lezing
 
-[PHP-toepassing](https://devdocs.magento.com/cloud/project/magento-app-php-application.html) in onze ontwikkelaarsdocumentatie.
+[ PHP toepassing ](https://devdocs.magento.com/cloud/project/magento-app-php-application.html) in onze ontwikkelaarsdocumentatie.

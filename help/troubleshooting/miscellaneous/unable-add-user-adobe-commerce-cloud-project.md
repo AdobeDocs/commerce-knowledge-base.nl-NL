@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Kan gebruiker niet toevoegen aan Adobe Commerce Cloud Project
 
-Dit artikel biedt een oplossing wanneer u een gebruiker aan een wolkenproject probeert toe te voegen, maar het ontbreekt met een fout: *Gebruiker XXX bestaat niet*.
+Dit artikel verstrekt een oplossing voor wanneer u probeert om een gebruiker aan een wolkenproject toe te voegen, maar het ontbreekt met een fout: *Gebruiker XXX bestaat niet*.
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op cloudinfrastructuur, [alle ondersteunde versies](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 
@@ -29,11 +29,12 @@ Dit is het verwachte gedrag. De rekening van de gebruiker zou eerst in https://a
 
 ## Oplossing
 
-1. Vraag de gebruiker om zich aan te melden bij zijn account op https://accounts.magento.cloud (ze moeten zich al hebben geregistreerd voor een account op adobe.com onder dat e-mailadres. Het maken/hebben van een account op https://account.adobe.com betekent niet automatisch dat de gebruiker een account op https://accounts.magento.cloud) heeft. Opmerking: als de gebruiker vóór augustus 2022 een account op account.magento.com of accounts.magento.cloud had, hebben ze mogelijk geen account met of op adobe.com, tenzij ze dit account in augustus 2022 of hoger hadden gemaakt. Als de gebruiker een Adobe-account heeft en zich niet kan aanmelden, stuurt u een e-mail naar [Grp-Magento-HelpCenterLoginIssues@adobe.com](mailto:Grp-Magento-HelpCenterLoginIssues@adobe.com) met de details.
+1. Vraag de gebruiker om zich aan te melden bij zijn account op https://accounts.magento.cloud (ze moeten zich al hebben geregistreerd voor een account op adobe.com onder dat e-mailadres. Het maken/hebben van een account op https://account.adobe.com betekent niet automatisch dat de gebruiker een account heeft op https://accounts.magento.cloud)
+Opmerking: als de gebruiker vóór augustus 2022 een account heeft op account.magento.com of accounts.magento.cloud, hebben ze mogelijk geen account bij/op adobe.com, tenzij ze dit account in augustus 2022 of hoger hebben gemaakt. Als de gebruiker een rekening van de Adobe heeft en niet kan login, gelieve een e-mail naar [ Grp-Magento-HelpCenterLoginIssues@adobe.com ](mailto:Grp-Magento-HelpCenterLoginIssues@adobe.com) met de details te verzenden.
 1. De gebruiker moet dan naar https://accounts.magento.cloud gaan.
-1. Zodra zij dat hebben gedaan, zou u de gebruiker aan het project moeten kunnen toevoegen. Raadpleeg voor stappen [Gebruikers toevoegen en toegang beheren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-users-and-manage-access) in onze Commerce on Cloud Infrastructure Guide.
+1. Zodra zij dat hebben gedaan, zou u de gebruiker aan het project moeten kunnen toevoegen. Voor stappen, verwijs naar [ gebruikers toevoegen en toegang ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-users-and-manage-access) in onze Commerce op de Gids van de Infrastructuur van de Wolk beheren.
 
 ## Gerelateerde lezing:
 
-* [Gebruikerstoegang beheren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in onze Commerce on Cloud Infrastructure Guide.
-* [Kan niet aanmelden bij Adobe Commerce-ondersteuning of cloudaccount](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.html)
+* [ beheer gebruikerstoegang ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in onze Commerce op de Gids van de Infrastructuur van de Wolk.
+* [ Onbekwaam aan login aan de steun van Adobe Commerce of wolkenrekening ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.html)

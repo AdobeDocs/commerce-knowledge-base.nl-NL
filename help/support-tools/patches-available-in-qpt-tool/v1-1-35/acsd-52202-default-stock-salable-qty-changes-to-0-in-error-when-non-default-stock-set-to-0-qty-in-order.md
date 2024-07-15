@@ -13,43 +13,43 @@ ht-degree: 0%
 
 # ACSD-52202: De standaardhoeveelheid die in voorraad kan worden verkocht, verandert ten onrechte in 0 wanneer de niet-standaardvoorraad op 0 staat in een volgorde
 
-De ACSD-52202-patch verhelpt het probleem waarbij een standaard verkochte hoeveelheid (hoeveelheid) in voorraad verandert in 0 als de niet-standaard voorraad wordt ingesteld op 0 in een volgorde. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.35 is geïnstalleerd. De patch-id is ACSD-52202. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-52202-patch verhelpt het probleem waarbij een standaard verkochte hoeveelheid (hoeveelheid) in voorraad verandert in 0 als de niet-standaard voorraad wordt ingesteld op 0 in een volgorde. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.35 wordt geïnstalleerd. De patch-id is ACSD-52202. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5-p1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.3 - 2.4.6-p1
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 De standaard verkochte hoeveelheid van de voorraad verandert in 0 ten onrechte wanneer de niet-standaardvoorraad wordt ingesteld op 0 in een volgorde.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Aanmelden bij de [!DNL Admin].
-1. Maken **website2**.
-1. Aangepast maken **bron2**.
-1. Aangepast maken **voorraad2**.
-1. Wijs het **bron2** en **voorraad2** tot **website1** en de standaardbron en -voorraad voor de standaardwebsite.
-1. Een eenvoudig product maken en toewijzen **kwik** = *10* voor de standaardbron en **kwik** = *1* voor de **bron2** bron.
-1. Een bestelling plaatsen met **kwik** = *1* for **website2**.
+1. Meld u aan bij de [!DNL Admin] .
+1. Creeer **website2**.
+1. Creeer douane **source2**.
+1. Creeer douane **stock2**.
+1. Wijs **source2** en **stock2** aan **website1** en de standaardbron en de voorraad aan de standaardwebsite toe.
+1. Creeer een eenvoudig product en wijs **hoeveelheid** toe = *10* voor standaardbron en **qty** = *1* voor de **bron2** bron.
+1. Plaats een orde met **qty** = *1* voor **website2**.
 1. Maak een factuur en een verzending.
-1. Controleer het eenvoudige product **verkoopbare hoeveelheid**.
+1. Controleer het eenvoudige product **verkoopbare aantal**.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-De **verkoopbare hoeveelheid** = *10* for **bron2**.
+De **verkoopbare hoeveelheid** = *10* voor **source2**.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De **verkoopbare hoeveelheid** = *0* voor beide bronnen.
 
@@ -57,14 +57,14 @@ De **verkoopbare hoeveelheid** = *0* voor beide bronnen.
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

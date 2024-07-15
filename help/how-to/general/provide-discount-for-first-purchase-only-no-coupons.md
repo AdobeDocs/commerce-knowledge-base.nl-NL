@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Alleen korting geven voor eerste aankoop (geen coupons)
 
-Raadpleeg de [Korting op eerste aankoop](https://docs.magento.com/m2/ee/user_guide/marketing/price-rule-discount-first-purchase.html) artikel in onze gebruikershandleiding.
+Gelieve te verwijzen naar het [ Korting met Eerste artikel van de Aankoop ](https://docs.magento.com/m2/ee/user_guide/marketing/price-rule-discount-first-purchase.html) in onze gebruikersgids.

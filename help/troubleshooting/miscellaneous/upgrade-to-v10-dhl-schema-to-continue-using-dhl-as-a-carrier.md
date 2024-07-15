@@ -21,7 +21,7 @@ Dit artikel biedt een oplossing waarmee handelaren DHL-scheepvaart kunnen blijve
 
 ## Probleem
 
-In augustus 2022 hebben we de [upgrade van DHL-schema versie 6.2. samen met een patch voor repareren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html) voor handelaren om DHL-scheepvaart te blijven aanbieden. DHL introduceert in oktober 2022 opnieuw een nieuw schema - versie 10.0 - en de vorige versie (6.2-schema) zal eind december 2022 verouderd zijn. Adobe Commerce 2.4.5 en eerdere DHL-integratie ondersteunen alleen versie 6.2.
+In Augustus 2022, hebben wij de [ verbetering van het schemaversie 6.2 van DHL samen met een moeilijke flardflard ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html) voor handelaren vrijgegeven om de verscheping van DHL te blijven aanbieden. DHL introduceert in oktober 2022 opnieuw een nieuw schema - versie 10.0 - en de vorige versie (6.2-schema) zal eind december 2022 verouderd zijn. Adobe Commerce 2.4.5 en eerdere DHL-integratie ondersteunen alleen versie 6.2.
 
 ## Oplossing
 
@@ -31,26 +31,26 @@ Handelaren die niet willen upgraden naar 2.4.5-p1 en 2.4.4-p2, moeten een repara
 
 ## Reparatie
 
-De patch-id is AC-3023 en is beschikbaar in de [!DNL Quality Patches Tool] versie 1.1.21.
+De patch-id is AC-3023 en is beschikbaar in [!DNL Quality Patches Tool] versie 1.1.21.
 
-Verwijs de volgende verbindingen op hoe te om te gebruiken [!DNL Quality Patches Tool] en installeer patches afhankelijk van uw implementatiemethoden:
+Raadpleeg de volgende koppelingen voor het gebruik van [!DNL Quality Patches Tool] en het installeren van patches, afhankelijk van uw implementatiemethoden:
 
-* Adobe Commerce op locatie en Magento Open Source: [Quality Patches Tools > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce op-gebouw en Magento Open Source: [ Hulpmiddelen van de Patches van de Kwaliteit > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
-**De patch is van toepassing op de volgende Adobe Commerce-versies (alle implementatiemethoden):**
+**het flard is toepasselijk voor de volgende versies van Adobe Commerce (alle plaatsingsmethodes):**
 
 * 2.3.7, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 2.4.3-p2, 2.4.3-p3, 2.4.4
 
 ## Nuttige koppelingen
 
-* [[!DNL Quality Patches Tool] > Opmerkingen bij de release](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) in Adobe Experience League.
+* [[!DNL Quality Patches Tool]  > Opmerkingen bij de release ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) in Adobe Experience League.
 
-* [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
+* [[!DNL Quality Patches Tool]: zoek naar patches ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
 
 ## Gerelateerde lezing
 
-* [Pas een patch toe om DHL als scheepvaartmaatschappij te blijven aanbieden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html) in onze kennisbasis voor ondersteuning.
+* [ pas een flard toe om DHL als verschepende drager ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html) in onze steunkennisbasis te blijven aanbieden.
 
-* [Shipping Carriers > DHL](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl.html) in onze gebruikershandleiding.
-* [Configuration Reference > Sales > Delivery Methods](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/delivery-methods.html) in onze gebruikershandleiding.
+* [ Verschepende Dragers > DHL ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl.html) in onze gebruikersgids.
+* [ Verwijzing van de Configuratie > Verkoop > Methoden van de Levering ](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/delivery-methods.html) in onze gebruikersgids.

@@ -19,16 +19,16 @@ Dit artikel bevat een patch voor het bekende Adobe Commerce-probleem met cloudin
 
 Wanneer u een bestelling plaatst in het deelvenster Beheer, blijft de selectie van de winkel ongewijzigd.
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
 1. Ga naar **[!UICONTROL Sales]** > **[!UICONTROL Orders]** en selecteer een klant om een bestelling te maken.
 2. Selecteer de winkel om de volgorde in het selectiescherm van de winkel te plaatsen.
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
 Nadat u de winkel hebt geselecteerd, kunt u de bestelling voltooien.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
 Nadat u de winkel hebt geselecteerd, gaat u terug naar de pagina met winkelkiezers en kunt u geen bestelling maken.
 
@@ -44,5 +44,5 @@ De patch is gemaakt voor en compatibel met Adobe Commerce op cloudinfrastructuur
 
 ## Hoe de pleister aanbrengen
 
-* Voor instructies over het toepassen van patches voor Adobe Commerce op cloudinfrastructuur raadpleegt u [Patches toepassen](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in onze Commerce on Cloud Infrastructure Guide.
-* Voor instructies over het aanbrengen van pleisters voor Adobe Commerce op locatie raadpleegt u [Patches toepassen](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) in onze Commerce Upgrade Guide.
+* Voor instructies bij het toepassen van flarden voor Adobe Commerce op wolkeninfrastructuur, verwijs naar [ passen flarden ](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in onze Commerce op de Gids van de Infrastructuur van de Wolk toe.
+* Voor instructies bij het toepassen van flarden voor Adobe Commerce op-gebouw, verwijs naar [ passen flarden ](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) in onze Gids van de Verbetering van Commerce toe.

@@ -26,11 +26,11 @@ Niet-kritische leesbewerkingen geven onjuiste informatie weer.
 
 ## Oorzaak
 
-De `slave_parallel_mode` config op het gegevensbestand werd veranderd standaard in *optimistisch* wanneer de waarde *conservatief* en de `synchronous_replication` waarde in Ece-Tools wordt standaard ingesteld op *true* wanneer de waarde *false*.
+`slave_parallel_mode` config op het gegevensbestand werd veranderd door gebrek in *optimistics* wanneer de waarde *conservatief* zou moeten zijn, en de `synchronous_replication` waarde in ce-Tools aan *waar* in gebreke blijft wanneer de waarde *vals* zou moeten zijn.
 
 ## Oplossing
 
-1. Controleer of de `slave_parallel_mode` parameter is ingesteld op *conservatief* (u moet [een ondersteuningsticket opvragen](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) als de waarde niet wordt weergegeven als *conservatief*). Voer de volgende opdracht uit om te controleren:
+1. Controle dat de `slave_parallel_mode` parameter aan *conservatief* wordt geplaatst (u zult een steunkaartje ](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) moeten opheffen als de waarde niet als *conservatief* toont). [ Voer de volgende opdracht uit om te controleren:
 
    ```
     MariaDB [main]> show variables like 'slave_parallel_mode';
@@ -42,7 +42,7 @@ De `slave_parallel_mode` config op het gegevensbestand werd veranderd standaard 
     1 row in set (0.001 sec)
    ```
 
-1. Bijwerken `.magento.env.yaml` databaseconfiguraties naar:
+1. Werk `.magento.env.yaml` databaseconfiguraties bij naar:
 
    ```yaml
        DATABASE_CONFIGURATION:
@@ -54,10 +54,10 @@ De `slave_parallel_mode` config op het gegevensbestand werd veranderd standaard 
 
 
 
-Voor stappen bij het bijwerken van de gegevensbestandconfiguratie, verwijs naar [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) in het onderwerp Variabelen distribueren in de Commerce on Cloud Infrastructure Guide.
+Voor stappen bij het bijwerken van de gegevensbestandconfiguratie, verwijs naar [ DATABASE_CONFIGURATION ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) in het Deploy variabelen onderwerp in Commerce op de Gids van de Infrastructuur van de Wolk.
 
 
 ## Gerelateerde lezing
 
-* [Omgevingsvariabelen voor implementatie configureren](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) in de Commerce on Cloud Infrastructure Guide.
-* [Aanbevolen procedures voor databaseconfiguratie](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in het afspeelboek van de implementatie.
+* [ vorm milieuvariabelen voor plaatsing ](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) in Commerce op de Gids van de Infrastructuur van de Wolk.
+* [ Beste praktijken voor gegevensbestandconfiguratie ](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in het Playbook van de Implementatie.

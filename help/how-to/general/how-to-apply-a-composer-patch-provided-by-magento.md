@@ -20,8 +20,8 @@ In dit artikel wordt uitgelegd hoe u een composer-patch kunt toepassen voor Adob
 
 ## Een componentpatch voor Adobe Commerce toepassen op cloudinfrastructuur {#cloud}
 
-1. Als u geen map hebt met de naam `m2-hotfixes` in de projectwortel, gelieve te creëren.
-1. De `%patch_name%.composer.patch` aan de `m2-hotfixes` directory.
+1. Als u geen map hebt met de naam `m2-hotfixes` in de hoofdmap van het project, maakt u een map.
+1. Kopieer het bestand of de bestanden `%patch_name%.composer.patch` naar de map `m2-hotfixes` .
 1. De wijzigingen in de code toevoegen, doorvoeren en doorvoeren:
 
    ```git
@@ -36,7 +36,7 @@ In dit artikel wordt uitgelegd hoe u een composer-patch kunt toepassen voor Adob
    git push origin
    ```
 
-Voor meer informatie over het toepassen van patches op Cloud-projecten raadpleegt u [Patches toepassen](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+Voor extra informatie over het toepassen van flarden op de projecten van de Wolk, zie [ flarden ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toepassen.
 
 ### Een componentpatch voor Adobe Commerce op locatie en Magento Open Source toepassen {#commerce}
 
@@ -47,6 +47,6 @@ Voor meer informatie over het toepassen van patches op Cloud-projecten raadpleeg
    patch -p1 < %patch_name%.composer.patch
    ```
 
-   (Als de bovenstaande opdracht niet werkt, probeert u het `-p2` in plaats van `-p1` )
+   (Gebruik `-p2` in plaats van `-p1` als de bovenstaande opdracht niet werkt.)
 
-1. Vernieuw de cache in Admin onder om de wijzigingen door te voeren **Systeem** > **Cachebeheer**.
+1. Voor de veranderingen die moeten worden weerspiegeld, vernieuw het geheime voorgeheugen in Admin onder **Systeem** > **het Beheer van het Geheime voorgeheugen**.

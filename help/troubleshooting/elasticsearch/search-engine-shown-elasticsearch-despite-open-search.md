@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Elasticsearch] wordt getoond als zoekmachine ondanks [!DNL OpenSearch] installatie'
-description: Dit artikel biedt een oplossing voor de kwestie waar [!DNL Elasticsearch] wordt nog steeds weergegeven als zoekmachine voor Adobe Commerce in de cloud, zelfs na installatie of upgrade naar [!DNL OpenSearch].
+title: '"[!DNL Elasticsearch] wordt getoond als onderzoeksmotor ondanks  [!DNL OpenSearch]  installatie'''
+description: Dit artikel verstrekt een oplossing voor de kwestie waar  [!DNL Elasticsearch]  nog als onderzoeksmotor voor Adobe Commerce op wolk na het installeren of het bevorderen aan  [!DNL OpenSearch] wordt getoond.
 exl-id: cdd8a35d-da6f-46d3-b732-65626487c9bb
 feature: Install
 source-git-commit: 1f053f76ae56edc06bfe82e55210244c8ec4b8eb
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Elasticsearch] wordt getoond als zoekmachine ondanks [!DNL OpenSearch] installatie
+# [!DNL Elasticsearch] wordt weergegeven als zoekprogramma ondanks [!DNL OpenSearch] installatie
 
-Dit artikel biedt een oplossing voor de kwestie waar [!DNL Elasticsearch] wordt nog steeds weergegeven als zoekmachine voor Adobe Commerce in de cloud, zelfs na installatie of upgrade naar [!DNL OpenSearch].
+Dit artikel biedt een oplossing voor het probleem waarbij [!DNL Elasticsearch] nog steeds wordt weergegeven als zoekengine voor Adobe Commerce in de cloud, zelfs na installatie of upgrade naar [!DNL OpenSearch] .
 
 ## Betrokken versies
 
@@ -20,30 +20,30 @@ Adobe Commerce op cloud 2.4.3-p2 - 2.4.5-p6
 
 >[!NOTE]
 >
->[!DNL OpenSearch] is beschikbaar als zoekmachine vanaf Adobe Commerce 2.4.6.
+>[!DNL OpenSearch] is beschikbaar als zoekprogramma vanaf Adobe Commerce 2.4.6.
 
 ## Probleem
 
-[!DNL Elasticsearch] wordt nog steeds weergegeven als zoekmachine voor Adobe Commerce in de cloud, zelfs na installatie of upgrade naar [!DNL OpenSearch].
+[!DNL Elasticsearch] wordt nog steeds weergegeven als de zoekengine voor Adobe Commerce in de cloud, zelfs na installatie of upgrade naar [!DNL OpenSearch] .
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Ga naar **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**.
-1. Controleer het zoekprogramma. Het wordt weergegeven [!DNL Elasticsearch7].
+1. Ga naar **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** .
+1. Controleer het zoekprogramma. Deze wordt weergegeven [!DNL Elasticsearch7] .
 
 ## Oorzaak
 
-Adobe Commerce is hard-coded om te specificeren [!DNL Elasticsearch7] als zoekprogramma.
+Adobe Commerce heeft een vaste code om [!DNL Elasticsearch7] op te geven als zoekengine.
 
-Dit mag niet worden verward met de geïnstalleerde versie van de service. De toepassing herkent alleen [!DNL Elasticsearch7] als zoekmachine, maar niet [!DNL OpenSearch], ook al wordt de onderliggende waarde gebruikt [!DNL OpenSearch] als de motor op de achtergrond.
+Dit mag niet worden verward met de geïnstalleerde versie van de service. De toepassing herkent [!DNL Elasticsearch7] alleen als de zoekengine, maar niet [!DNL OpenSearch] , ook al wordt de onderliggende [!DNL OpenSearch] -service gebruikt als de engine op de achtergrond.
 
 ## Oplossing
 
-Om te verifiëren of [!DNL OpenSearch] is geïnstalleerd, voer het volgende bevel in werking:
+Voer de volgende opdracht uit om te controleren of [!DNL OpenSearch] is geïnstalleerd:
 
 **Methode 1**:
 
-* Voer de volgende opdracht op de server uit: `curl 127.0.0.1:9200`. Het moet terugkeren [!DNL OpenSearch] met de versie.
+* Voer de volgende opdracht uit op de server: `curl 127.0.0.1:9200` . Deze moet [!DNL OpenSearch] retourneren met de versie ervan.
 
 Voorbeeld:
 
@@ -70,8 +70,8 @@ $ curl 127.0.0.1:9200
 
 **Methode 2**:
 
-* Gebruik het volgende bevel op Magento-wolk CLI: `magento-cloud relationships -p <project_id>`. Na het gebruiken van het bevel, bepaal [!DNL OpenSearch].
+* Gebruik de volgende opdracht voor de CLI Magento-cloud: `magento-cloud relationships -p <project_id>`. Zoek [!DNL OpenSearch] nadat u de opdracht hebt gebruikt.
 
 ## Gerelateerde lezing
 
-[OpenSearch-service instellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) in de handleiding Commerce on Cloud Infrastructure.
+[ de dienst van OpenSearch van de Opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) in Commerce op de gids van de Infrastructuur van de Wolk.

@@ -25,19 +25,21 @@ Wanneer u een profiel op de cloudaccount wijzigt, kunnen de volgende velden word
 
 Voer de volgende stappen uit om deze velden te wijzigen:
 
-1. Open uw account op [Aanmelden bij Adobe account](https://accounts.magento.cloud).
-1. Klik op de knop **[!UICONTROL Account Settings]** tab.
-1. Selecteer de *nieuw wachtwoord maken* selectievakje.
-1. Breng de benodigde wijzigingen aan en klik op *opslaan*.
+1. Heb toegang tot uw rekening bij [ login van de de rekeningsrekening van de Adobe ](https://accounts.magento.cloud).
+1. Klik op de tab **[!UICONTROL Account Settings]** .
+1. Selecteer *creeer nieuw wachtwoord* checkbox.
+1. Breng de noodzakelijke veranderingen aan en klik *sparen*.
 
-**OPMERKING**: *Uw wachtwoord wordt niet gewijzigd.*
+**NOTA**: *Uw wachtwoord zal niet worden veranderd.*
 
 ## Wat kan niet worden gewijzigd?
 
-1. **[!UICONTROL Password]**: Ga naar [Wachtwoord voor Adobe opnieuw instellen](https://account.adobe.com/), omdat dit profiel aan uw account/e-mailadres daar is gekoppeld.
+1. **[!UICONTROL Password]** :
+Om uw wachtwoord te veranderen, bezoek {het terugstellen van het wachtwoord van de Adobe 1} ](https://account.adobe.com/), aangezien dit profiel met uw rekening/e-mailadres daar wordt verbonden.[
 
-1. **[!UICONTROL Email Address]**: Het wijzigen van dit veld is afhankelijk van uw individuele omstandigheden.
+1. **[!UICONTROL Email Address]** :
+Het wijzigen van dit veld is afhankelijk van uw individuele omstandigheden.
 
 Als u de eigendom van uw huidige account wilt overdragen aan een nieuwe eigenaar of een ander e-mailadres, moet u de primaire e-mail voor de gebruiker die aan het account is gekoppeld, bijwerken.
 
-Zie: [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)
+Verwijs naar: [ https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)

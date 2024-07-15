@@ -22,17 +22,17 @@ In dit artikel wordt een bekend probleem in Adobe Commerce 2.3.5 uitgelegd, waar
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Voeg fysieke en virtuele producten aan de winkelwagentje toe.
-1. Ga door naar de kassa en selecteer **Uitchecken met meerdere adressen**.
+1. Ga aan controle te werk en **Controle met Veelvoudige Adressen** te selecteren.
 1. Voeg alle vereiste informatie toe en plaats de orde.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Bestellingen worden voor alle producten correct geplaatst.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 De volgorde voor het virtuele product is leeg.
 
@@ -52,4 +52,4 @@ In onze kennisbasis voor ondersteuning:
 
 In onze documentatie voor ontwikkelaars:
 
-* [Opmerkingen bij de release Adobe Commerce 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
+* [ Adobe Commerce 2.3.5 de Nota&#39;s van de Versie ](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)

@@ -11,6 +11,6 @@ ht-degree: 0%
 
 # Magento Order Management verwijderen (MOM)
 
-1. Schakel de MOM-integratie uit door de stappen in [De integratie in- of uitschakelen](/docs/commerce-admin/systems/integrations/mcom.html#disable-or-enable-the-integration).
-1. Schakel de MOM-module uit door de stappen uit te voeren in [Modules verwijderen](/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html).
-1. Voor het ophalen van gegevens van volledige bestelling bieden we de API. U kunt meer leren door te controleren [Opslagplaats bestellen](https://omsdocs.magento.com/specifications/#magento.sales.order_repository) in onze Adobe | OMS Docs van het Magento, die ordeinformatie (orde_bewaarplaats) behandelen. Gebruik de [sectie met specificaties](https://omsdocs.magento.com/specifications/#services) in onze Adobe | OMS Docs van het Magento aan gebruik andere APIs om verschillende informatietypen te halen.
+1. Maak de integratie van MOM door de stappen in [ uit te volgen onbruikbaar of laat de integratie ](/docs/commerce-admin/systems/integrations/mcom.html#disable-or-enable-the-integration) toe.
+1. Maak de module MOM door de stappen in [ uit te voeren desinstalleert modules ](/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html).
+1. Voor het ophalen van gegevens van volledige bestelling bieden we de API. U kunt meer leren door [ Bewaarplaats van de Orde ](https://omsdocs.magento.com/specifications/#magento.sales.order_repository) in onze Adobe te herzien | OMS Docs van het Magento, die ordeinformatie (orde_bewaarplaats) behandelen. Gebruik de [ specificatiesectie ](https://omsdocs.magento.com/specifications/#services) in onze Adobe | OMS Docs van het Magento aan gebruik andere APIs om verschillende informatietypen te halen.

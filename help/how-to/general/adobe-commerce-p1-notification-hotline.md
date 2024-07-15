@@ -16,12 +16,12 @@ Dit artikel verstrekt de P1 bericht hotline aantallen voor Adobe Commerce die ku
 
 ## P1-incidentdefinitie
 
-Zoals gedefinieerd in [Voorwaarden en bepalingen voor Adobe Commerce Support Services](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf): &quot;Een P1-incident is een catastrofaal productieincident binnen de service dat ernstige gevolgen heeft voor de locatie van de klant, waardoor de site niet langer bestellingen hoeft uit te voeren of te accepteren, of omdat de locatie van de klant volledig defect is of niet werkt, of omdat er productiegegevens verloren gaan en er geen oplossing is. P1 Incidenten moeten op het gratis P1-telefoonnummer van de Adobe worden gemeld om de oplossing te versnellen. De Adobe zal zich voortdurend inspannen, met passende escalatie naar het hoger management, om een oplossing voor een P1-incident te bieden zodra dit commercieel redelijk is.&quot;
+Zoals bepaald in [ de Voorwaarden en de Voorwaarden van de Diensten van de Steun van Adobe Commerce ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf): &quot;Een P1 incident is een catastrofaal productieincident binnen de Dienst dat ernstige gevolgen voor de Plaats van de Klant heeft, die de plaats ertoe brengt om van het werken of het goedkeuren van orden te ophouden, of omdat de Plaats van de Klant volledig of niet functioneert, of dat in een verlies van productiegegevens en geen oplossing resulteert. P1 Incidenten moeten op het gratis P1-telefoonnummer van de Adobe worden gemeld om de oplossing te versnellen. De Adobe zal zich voortdurend inspannen, met passende escalatie naar het hoger management, om een oplossing voor een P1-incident te bieden zodra dit commercieel redelijk is.&quot;
 
 ## P1-meldingsbeleid voor telefonische telefonische hulpdiensten
 
 * P1 meldings hotline is beschikbaar om P1-vlakke kwesties te melden. (Zie de definitie van het P1-incident in de vorige sectie).
-* [Een ondersteuningsticket verzenden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) voordat u de Adobe Commerce P1-meldingshotline aanroept.
+* [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) voorafgaand aan het roepen van het P1 van Adobe Commerce meldingshotline voor.
 * Het onderzoek, het oplossen van problemen, en de mededeling zullen uitsluitend binnen het steunkaartje plaatsvinden.
 * Voeg alle extra informatie die u over de kwestie kunt hebben direct aan het kaartje toe, voorafgaand aan het roepen.
 * Wanneer het roepen, ben zeker om het kaartaantal te hebben.

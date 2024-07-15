@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Elasticsearch inschakelen in cloud
 
-Raadpleeg de [Service voor Elasticsearch instellen](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html#elasticsearch-software-compatibility) artikel in onze ontwikkelaarsdocumentatie voor informatie over het opzetten van Elasticsearch voor Adobe Commerce over de infrastructuur van de wolk.
+Gelieve te verwijzen naar het ](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html#elasticsearch-software-compatibility) artikel van de Dienst van de Elasticsearch van de Opstelling [ in onze ontwikkelaarsdocumentatie voor informatie over vestiging Elasticsearch voor Adobe Commerce op wolkeninfrastructuur.

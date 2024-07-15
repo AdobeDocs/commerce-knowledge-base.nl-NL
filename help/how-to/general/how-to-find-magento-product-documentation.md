@@ -18,10 +18,10 @@ De Adobe Commerce-ondersteuningskennisbasis biedt oplossingen voor het oplossen 
 
 Er zijn ook afzonderlijke bronnen voor probleemoplossing voor:
 
-* Adobe Commerce leren: [https://learning.adobe.com/products-resources/contact-us.html](https://learning.adobe.com/products-resources/contact-us.html)
-* Oplossingspartners: [https://solutionpartners.adobe.com/](https://solutionpartners.adobe.com/)
-* Technische partners: [https://partners.adobe.com/exchangeprogram/experiencecloud.html](https://solutionpartners.adobe.com/)
-* Commerce Marketplace: [https://commercemarketplace.adobe.com](https://commercemarketplace.adobe.com)
+* Adobe Commerce leren: [ https://learning.adobe.com/products-resources/contact-us.html](https://learning.adobe.com/products-resources/contact-us.html)
+* De Partners van de oplossing: [ https://solutionpartners.adobe.com/](https://solutionpartners.adobe.com/)
+* Tech Partners: [ https://partners.adobe.com/exchangeprogram/experiencecloud.html](https://solutionpartners.adobe.com/)
+* Commerce Marketplace: [ https://commercemarketplace.adobe.com](https://commercemarketplace.adobe.com)
 
 Gebruik een van de volgende koppelingen als u technische documentatie of documentatie voor eindgebruikers zoekt:
 
@@ -34,7 +34,8 @@ Gebruik een van de volgende koppelingen als u technische documentatie of documen
 <td>Website</td>
 </tr>
 <tr>
-<td rowspan="2">Adobe Commerce op locatie en Adobe Commerce over cloudinfrastructuur</td>
+<td rowspan="2">Adobe Commerce ter plaatse en
+Adobe Commerce over cloudinfrastructuur</td>
 <td>
 <p>Documentatie ontwikkelaar (technisch):</p>
 <p><a href="https://developer.adobe.com/commerce/docs/">https://developer.adobe.com/commerce/docs/</a></p>
@@ -100,6 +101,6 @@ Gebruik een van de volgende koppelingen als u technische documentatie of documen
 
 ## Blogs en communicatie
 
-* Adobe Trust Center (beveiligingsupdates en patches): [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
-* Adobe Commerce Community Developer Blog (Hoe kan ik-onderwerpen, beste praktijken en technisch nieuws van de gemeenschap): [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
-* Adobe Commerce Blog (e-commerce op hoog niveau):[https://business.adobe.com/blog/](https://business.adobe.com/blog/)
+* Het Centrum van het Vertrouwen van de Adobe (veiligheidsupdates en flarden): [ https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
+* Adobe Commerce Community Developer Blog (Hoe kan ik-onderwerpen, best practices en technisch nieuws van de gemeenschap): [ https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
+* Adobe Commerce Blog (high level e-commerce):[ https://business.adobe.com/blog/](https://business.adobe.com/blog/)

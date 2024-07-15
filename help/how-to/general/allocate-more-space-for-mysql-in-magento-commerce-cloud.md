@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## Ruimte toewijzen aan Starter-plan en Pro Plan-integratie
 
-Voor alle Starter-planningsomgevingen en Pro-plan [Integratieomgeving](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), kunt u meer ruimte toewijzen voor MySQL in de `.magento/services.yaml` bestand, door de `mysql: disk:` parameter. Bijvoorbeeld:
+Voor alle milieu&#39;s van het Plan van de Starter en het Pro milieu van de Plan [ Integratie ](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), kunt u meer ruimte voor MySQL in het `.magento/services.yaml` dossier toewijzen, door de `mysql: disk:` parameter te verhogen. Bijvoorbeeld:
 
 ```yaml
 mysql:
@@ -23,9 +23,9 @@ mysql:
     disk: 2048
 ```
 
-Zie de [MySQL-service instellen](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html) artikel ter referentie.
+Zie de [ dienst MySQL van de Opstelling ](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html) artikel voor verwijzing.
 
-Wanneer u de `.magento/services.yaml` moet u de wijzigingen vastleggen en doorvoeren, zodat deze worden toegepast. De duw zal het plaatsingsproces teweegbrengen.
+Nadat u het `.magento/services.yaml` -bestand hebt gewijzigd, moet u de wijzigingen doorvoeren en doorvoeren, zodat deze kunnen worden toegepast. De duw zal het plaatsingsproces teweegbrengen.
 
 >[!WARNING]
 >
@@ -33,9 +33,9 @@ Wanneer u de `.magento/services.yaml` moet u de wijzigingen vastleggen en doorvo
 
 ## Ruimte toewijzen aan Pro Plan Staging of Productie
 
-Als u deze wijzigingen wilt aanbrengen in de omgeving Staging of Productie van het Pro-plan, moet u een [ondersteuningsticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed). Wanneer het voorleggen van een steunkaartje om opslag te verhogen, zal de steun moeten weten hoeveel en aan welke verdeling de opslag zou moeten worden toegepast (`/mysql` of `/exports`). Een verzoek om opslagverhoging vereist goedkeuring van uw Team van de Rekening van de Adobe, die uw recht van opslag (zoals in het ordeformulier) zal herzien alvorens goed te keuren.
+Om deze veranderingen voor het Opvoeren of het milieu van de Productie van het Pro plan aan te brengen, moet u a [ steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed) tot stand brengen. Wanneer het voorleggen van een steunkaartje om opslag te verhogen, zal de steun moeten weten hoeveel en aan welke verdeling de opslag zou moeten worden toegepast (`/mysql` of `/exports`). Een verzoek om opslagverhoging vereist goedkeuring van uw Team van de Rekening van de Adobe, die uw recht van opslag (zoals in het ordeformulier) zal herzien alvorens goed te keuren.
 
 ## Toegewezen ruimte verkleinen is niet beschikbaar (Pro- en Starterabonnement)
 
-Adobe Commerce Support kan een partitie uitbreiden (`/mysql` of `/exports`), maar kan een partitie niet verkleinen. Er bestaat een risico op gegevensbeschadiging als u dit doet. Daarom is het verlagen van de opslagcapaciteit voor een partitie niet beschikbaar.
+De Steun van Adobe Commerce kan een verdeling (`/mysql` of `/exports`) groeien, maar kan geen verdeling krimpen. Er bestaat een risico op gegevensbeschadiging als u dit doet. Daarom is het verlagen van de opslagcapaciteit voor een partitie niet beschikbaar.
 Dit geldt ook voor het Starter-plan, waar u de toegewezen ruimte zelf kunt vergroten: verkleinen wordt ten zeerste afgeraden en kan leiden tot beschadiging van gegevens.

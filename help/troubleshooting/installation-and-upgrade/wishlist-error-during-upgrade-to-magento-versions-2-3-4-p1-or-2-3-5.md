@@ -28,17 +28,17 @@ Wanneer u uw Adobe Commerce (alle implementatiemethoden) en Magento Open Source 
 Magento_Wishlist
 ```
 
-Bijwerken vanuit Adobe Commerce (alle implementatiemethoden)/Magneto Open Source versie 2.3.4-p1 **naar versie 2.3.4-p2** of van Adobe Commerce (alle implementatiemethoden)/Magneto Open Source versie 2.3.5 **naar versie 2.3.5-p1** zal de fout verhelpen.
+De bevordering van Adobe Commerce (alle plaatsingsmethodes)/Magneto Open versie van Source 2.3.4-p1 **aan versie 2.3.4-p2** of van Adobe Commerce (alle plaatsingsmethodes)/Magneto Open versie van Source 2.3.5 **aan versie 2.3.5-p1** zal de fout bevestigen.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Upgrade uw Adobe Commerce (alle implementatiemethoden)/Magento Open Source naar versie 2.3.4-p1 of 2.3.5.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Het upgradeproces naar Adobe Commerce (alle implementatiemethoden)/Magento Open Source versie 2.3.4-p1 of 2.3.5 wordt normaal voltooid.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Tijdens de upgrade treedt deze fout op:
 
@@ -50,15 +50,15 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 ## Oplossingen
 
-* Als u een upgrade naar Adobe Commerce (alle implementatiemethoden)/Magneto Open Source versie 2.3.5 uitvoert, **upgrade naar versie 2.3.5-p1**. Adobe Commerce (alle implementatiemethoden)/Magento Open Source versie 2.3.5-p1 vervangt 2.3.5.
-* Als u aan Adobe Commerce (alle plaatsingsmethodes)/Magento Open Source versie 2.3.4-p1 opwaardeerde, **upgrade naar versie 2.3.4-p2**. Adobe Commerce (alle implementatiemethoden)/Magneto Open Source versie 2.3.4-p2 vervangt versie 2.3.4-p1.
+* Als u aan Adobe Commerce (alle plaatsingsmethodes)/Magneto Open versie van Source 2.3.5, **verbetering aan versie 2.3.5-p1** bevorderde. Adobe Commerce (alle implementatiemethoden)/Magento Open Source versie 2.3.5-p1 vervangt 2.3.5.
+* Als u aan Adobe Commerce (alle plaatsingsmethodes)/Magento Open Source versie 2.3.4-p1 bevorderde, **verbetering aan versie 2.3.4-p2**. Adobe Commerce (alle implementatiemethoden)/Magneto Open Source versie 2.3.4-p2 vervangt versie 2.3.4-p1.
 
 ## Gerelateerde lezing
 
 In onze documentatie voor ontwikkelaars:
 
-* [Adobe Commerce on cloud Infrastructure Guide](https://devdocs.magento.com/cloud/bk-cloud.html)
-* [Adobe Commerce on cloud Infrastructure - Upgrade voor Adobe Commerce-versie](https://devdocs.magento.com/cloud/project/project-upgrade.html)
-* [Adobe Commerce op locatie en Magento Open Source - Upgrade de Adobe Commerce-toepassing en -modules](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
-* [Pagina configureren van lijstitem](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
-* [Modules die geavanceerde rapportage bieden](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)
+* [ Adobe Commerce op de gids van de wolkeninfrastructuur ](https://devdocs.magento.com/cloud/bk-cloud.html)
+* [ Adobe Commerce op wolkeninfrastructuur - de versie van Adobe Commerce van de Verbetering ](https://devdocs.magento.com/cloud/project/project-upgrade.html)
+* [ Adobe Commerce op-gebouw en Magento Open Source - bevorder de toepassing en de modules van Adobe Commerce ](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
+* [ het punt van de Wijze lijst vormt pagina ](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
+* [ Modules die geavanceerde rapportering verstrekken ](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)

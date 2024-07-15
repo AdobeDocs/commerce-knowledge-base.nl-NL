@@ -37,4 +37,4 @@ Adobe Commerce biedt een groot aantal ondersteuningsmiddelen die u helpen en in 
    * [Beheerde waarschuwingen voor Adobe Commerce: waarschuwing van Apdex](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
    * [Beheerde waarschuwingen voor Adobe Commerce: waarschuwing voor CPU](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
 * Commerce Site Assessment
-   * [Commerce-sitebeoordeling](https://experienceleague.adobe.com/tools/commerce-site-assessment/index.html)
+   * [ de plaatsbeoordeling van Commerce ](https://experienceleague.adobe.com/tools/commerce-site-assessment/index.html)

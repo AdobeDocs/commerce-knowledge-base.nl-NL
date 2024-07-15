@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce op cloudinfrastructuur v2.3.5 Invalidatie van GraphQL-caching werkt niet
 
-Dit artikel biedt een patch voor het probleem waarbij GraphQL `GET` het verzoek keert verouderde informatie terug als de klant productinformatie verandert.
+Dit artikel bevat een patch voor het probleem waarbij met een GraphQL `GET` -aanvraag verouderde informatie wordt geretourneerd als de klant productinformatie wijzigt.
 
 ## Betrokken producten en versies
 
@@ -23,7 +23,7 @@ Adobe Commerce on cloud Infrastructure v2.3.5.
 
 GraphQL-verzoeken worden snel in het cachegeheugen opgeslagen en de versie in het cachegeheugen wordt opgehaald voor elk volgend verzoek van Fastly. Als een product opnieuw wordt opgeslagen in de Adobe Commerce-backend, maakt de Fastly-cache de validatie ongedaan wanneer een product wordt bijgewerkt. Het blijft echter geldig.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Activeer het volgende GraphQL-verzoek om producten voor bijvoorbeeld bepaalde rubrieken op te halen:
    <pre><magento2-server>
@@ -31,13 +31,13 @@ GraphQL-verzoeken worden snel in het cachegeheugen opgeslagen en de versie in he
 1. Sla een van de producten die in de bovenstaande aanvraag zijn opgehaald, opnieuw op in Commerce Admin.
 1. Trigger het verzoek opnieuw.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-De `X-Cache` header contains `MISS`.
+De header `X-Cache` bevat `MISS` .
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De `X-Cache` header contains `HIT`, wat betekent dat de reactie in de cache wordt geplaatst.
+De header `X-Cache` bevat `HIT` , wat betekent dat de reactie in de cache wordt geplaatst.
 
 ## Oplossing
 
@@ -73,6 +73,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies over het aanbrengen van een componentpatch.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies op wordt verstrekt hoe te om een composerflard toe te passen.
 
 ## Bijgevoegde bestanden

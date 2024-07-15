@@ -13,37 +13,37 @@ ht-degree: 0%
 
 # ACSD-49389: klaar voor het ophalen van e-mail verzonden door API wanneer niet klaar voor ophalen
 
-De ACSD-49389-patch verhelpt het probleem dat een e-mailbericht met de functie &quot;ready-for-pickup&quot; wordt verzonden door de API wanneer de bestelling niet klaar is voor ophalen. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is geïnstalleerd. De patch-id is ACSD-49389. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-49389-patch verhelpt het probleem dat een e-mailbericht met de functie &quot;ready-for-pickup&quot; wordt verzonden door de API wanneer de bestelling niet klaar is voor ophalen. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 wordt geïnstalleerd. De patch-id is ACSD-49389. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.0 - 2.4.6
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [Startpagina voor QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren als het flard met uw versie van Adobe Commerce compatibel is, werk het `magento/quality-patches` pakket aan de recentste versie bij en controleer de verenigbaarheid op de [ QPT landende pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 De API stuurt een e-mailbericht dat u kunt ophalen wanneer de bestelling nog niet klaar is om te worden opgehaald.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Inschakelen *[!UICONTROL In-Store Delivery]* methode.
+1. Schakel de methode *[!UICONTROL In-Store Delivery]* in.
 1. Maak een aandelenbron met de ophaallocatie ingeschakeld.
 1. Maak nieuwe voorraad met behulp van de hoofdwebsite met de hierboven gemaakte bron.
 1. Maak een product dat dezelfde bron toewijst.
 1. Voorraadhoeveelheid instellen = 1.
-1. Ontdek het product dat u in stap 4 hebt gemaakt met de opdracht *[!UICONTROL In-Store Delivery]* van de storefront.
+1. Bekijk het product dat u in stap 4 hebt gemaakt met de methode *[!UICONTROL In-Store Delivery]* uit de winkel.
 1. Maak een factuur voor de bestelling.
-1. Aantal producten instellen op *0* en maakt het uit de voorraad.
-1. Plaats de volgende API-aanvraag:
+1. Plaats de hoeveelheid van het product aan *0* en maak het uit voorraad.
+1. Post de volgende API-aanvraag:
 
 ```
 {
@@ -53,26 +53,26 @@ De API stuurt een e-mailbericht dat u kunt ophalen wanneer de bestelling nog nie
 }
 ```
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 E-mailadres klaar om op te halen is niet verzonden.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-API-geretourneerd *De bestelling is niet klaar voor ophalen*, maar e-mail kan worden opgehaald is verzonden.
+API keert *orde terug is niet klaar voor bestelwagen*, maar klaar om e-mail op te halen wordt verzonden.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [Patches beschikbaar in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar [ Patches beschikbaar in QPT ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

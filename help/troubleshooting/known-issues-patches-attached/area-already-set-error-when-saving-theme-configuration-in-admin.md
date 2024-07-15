@@ -13,23 +13,23 @@ ht-degree: 0%
 
 # Fout bij het opslaan van de themaconfiguratie in Admin
 
-Dit artikel bevat een patch voor het bekende Adobe Commerce-probleem met cloudinfrastructuur 2.2.4 dat betrekking heeft op het ophalen van de *&quot;Gebied is al ingesteld&quot;* foutbericht bij het instellen van een thema voor de standaardwinkelweergave in Commerce Admin.
+Dit artikel verstrekt een flard voor bekende Adobe Commerce op de kwestie van de wolkeninfrastructuur 2.2.4 met betrekking tot het krijgen van *&quot;Gebied is reeds plaatste&quot;* foutenmelding wanneer het proberen om een thema voor de Mening van de StandaardOpslag in Commerce Admin te plaatsen.
 
 ## Probleem
 
-Je krijgt de &quot; *Er is iets misgegaan tijdens het opslaan van deze configuratie: Gebied is al ingesteld* &#39;&#39; foutbericht tijdens het instellen van een thema voor de standaardwinkelweergave.
+U krijgt &quot; *iets ging verkeerd terwijl het opslaan van deze configuratie: Het gebied is reeds plaatste* &quot; foutenmelding wanneer het proberen om een thema voor de Mening van de StandaardOpslag te plaatsen.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Meld u aan bij de Commerce-beheerder.
-1. Navigeren naar **Inhoud** > **Ontwerp** > **Configuratie**.
-1. Stel het configuratiebereik in op *Standaardwinkelweergave*.
-1. Het thema wijzigen in het dialoogvenster **Toegepast thema** vervolgkeuzelijst. Bijvoorbeeld van *Luminantie* tot *Leeg.*
-1. Klikken **Configuratie opslaan**.
+1. Navigeer aan **Inhoud** > **Ontwerp** > **Configuratie**.
+1. Plaats het configuratiewerkingsgebied aan *StandaardMening van de Opslag*.
+1. Verander het thema in de **Toegepaste drop-down van het Thema**. Bijvoorbeeld, van *Luma* aan *Lege.*
+1. Klik **sparen Configuratie**.
 
-<u>Verwacht resultaat</u>: Het geselecteerde thema wordt toegepast voor de standaardwinkelweergave.
+<u> Verwacht resultaat </u>: Het geselecteerde thema wordt toegepast voor de standaardarchiefmening.
 
-<u>Werkelijk resultaat</u> : Het thema wordt niet toegepast, de *&quot;Er is iets fout gegaan tijdens het opslaan van deze configuratie: het gebied is al ingesteld&quot;* foutbericht wordt weergegeven.
+<u> Werkelijk resultaat </u> : Het thema wordt niet toegepast, *&quot;Het iets ging verkeerd terwijl het opslaan van deze configuratie: Het gebied is reeds plaatste&quot;* foutenmelding wordt getoond.
 
 ## Reparatie
 
@@ -54,6 +54,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Bijgevoegde bestanden

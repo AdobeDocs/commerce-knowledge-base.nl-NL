@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # De plaatsing ontbreekt met &quot;Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1
 
-In dit artikel wordt gesproken over de oorzaken en oplossingen voor het probleem met de cloudinfrastructuur in Adobe Commerce, waar de opbouwfase van het implementatieproces mislukt, en de foutmelding wordt samengevat met: *&quot;Fout bij het bouwen van project: De bouwstijlhaak is mislukt met statuscode 1&quot;*.
+Dit artikel spreekt over de oorzaken en de oplossingen voor Adobe Commerce op de kwestie van de wolkeninfrastructuur, waar de bouwstijlfase van het plaatsingsproces ontbreekt, en het foutenbericht wordt samengevat met: *&quot;Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1&quot;*.
 
 ## Betrokken producten en versies
 
@@ -21,22 +21,22 @@ In dit artikel wordt gesproken over de oorzaken en oplossingen voor het probleem
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Trigger de plaatsing manueel of door een fusie, duw, of synchronisatie van uw milieu uit te voeren.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 De implementatie is voltooid.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 1. De bouwfase mislukt en het hele implementatieproces zit vast.
-1. In het logboek van de plaatsingsfout, beëindigt het foutenbericht met: *&quot;Fout die project bouwt: De bouwstijlhaak ontbrak met statuscode 1. Samenstellen afgebroken&quot;.*
+1. In het logboek van de plaatsingsfout, beëindigt het foutenbericht met: *&quot;Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1. Geaborteerde build&quot;.*
 
 ## Oorzaak
 
-Er zijn meerdere redenen waarom het bouwen van een omgeving mislukt. Gewoonlijk, in het plaatsingslogboek, zult u een lange foutenmelding zien, waar het eerste deel specifieker betreffende de reden zou zijn, en de conclusie zou zijn *&quot;Fout die project bouwt: De bouwstijlhaak ontbrak met statuscode 1. Samenstellen afgebroken&quot;.*
+Er zijn meerdere redenen waarom het bouwen van een omgeving mislukt. Gewoonlijk, in het plaatsingslogboek, zult u een lange foutenmelding zien, waar het eerste deel specifieker betreffende de reden zou zijn, en de conclusie *&quot;Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1. Geaborteerde build&quot;.*
 
 Als u het eerste probleemspecifieke deel nader bekijkt, kunt u het probleem beter identificeren. Hier zijn de gemeenschappelijkste, en de volgende sectie verstrekt oplossingen voor hen:
 
@@ -47,9 +47,9 @@ Als u het eerste probleemspecifieke deel nader bekijkt, kunt u het probleem bete
 
 ## Oplossing
 
-* Controleer of er voldoende opslagruimte is. Voor informatie over het controleren van beschikbare ruimte raadpleegt u de [Schijfruimte controleren in een cloud-omgeving met CLI](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md) artikel. U kunt overwegen de logboekfolders en/of het verhogen van schijfruimte te reinigen.
+* Controleer of er voldoende opslagruimte is. Voor informatie over hoe te om beschikbare ruimte te controleren, zie de [ schijfruimte van de Controle op wolkenmilieu gebruikend CLI ](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md) artikel. U kunt overwegen de logboekfolders en/of het verhogen van schijfruimte te reinigen.
 * Zorg ervoor dat ECE-Tools correct zijn geconfigureerd.
-* Controleer of het probleem wordt veroorzaakt door de pleister. Conflict of contact oplossen [Adobe Commerce-ondersteuning](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Zie hieronder voor meer informatie.
+* Controleer of het probleem wordt veroorzaakt door de pleister. Los het conflict op of contacteer [ de Steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Zie hieronder voor meer informatie.
 * Controleer of het probleem wordt veroorzaakt door de aangepaste extensie. Los het conflict op of contacteer de uitbreidingsontwikkelaars voor de oplossing.
 
 De volgende alinea&#39;s bevatten nadere bijzonderheden.
@@ -63,11 +63,11 @@ Voor opruiming in aanmerking te nemen mappen:
 * `var/debug/`
 * `var`
 
-Raadpleeg voor meer informatie over hoe u schijfruimte kunt vergroten als u op de Adobe Commerce werkt op de Starter-planarchitectuur van de cloud-infrastructuur de [Schijfruimte vergroten voor integratieomgeving in de cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md). Dezelfde instructies kunnen worden gebruikt voor het vergroten van de ruimte van Adobe Commerce op de integratie-omgeving van de cloudinfrastructuur Pro. Voor Pro Productie/het Staging, moet u een kaartje aan indienen [Adobe Commerce-ondersteuning](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)en vraag meer schijfruimte. Maar het wordt gecontroleerd door Platform. Maar doorgaans hoeft u dit niet te doen voor de Staging/Production of Pro-architectuur, aangezien Adobe Commerce deze parameters voor u controleert en u waarschuwt en/of acties uitvoert volgens het contract.
+Voor details op hoe te om schijfruimte te verhogen als u op Adobe Commerce op het planarchitectuur van de Aanzet van de wolkeninfrastructuur bent, zie [ de schijfruimte van de Verhoging voor het milieu van de Integratie op wolk ](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md). Dezelfde instructies kunnen worden gebruikt voor het vergroten van de ruimte van Adobe Commerce op de integratie-omgeving van de cloudinfrastructuur Pro. Voor ProProductie/het Staging, moet u een kaartje aan [ Steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) indienen, en verhoogde schijfruimte verzoeken. Maar het wordt gecontroleerd door Platform. Maar doorgaans hoeft u dit niet te doen voor de Staging/Production of Pro-architectuur, aangezien Adobe Commerce deze parameters voor u controleert en u waarschuwt en/of acties uitvoert volgens het contract.
 
 ### Zorg ervoor dat ECE-gereedschappen correct zijn geconfigureerd
 
-1. Zorg ervoor dat de haken van de build correct zijn gedefinieerd in het dialoogvenster `magento.app.yaml` bestand. Als u Adobe Commerce 2.2.X gebruikt, moeten de haken voor het bouwen als volgt worden gedefinieerd:
+1. Zorg ervoor dat de build-haken correct zijn gedefinieerd in het `magento.app.yaml` -bestand. Als u Adobe Commerce 2.2.X gebruikt, moeten de haken voor het bouwen als volgt worden gedefinieerd:
 
    ```yaml
    # We run build hooks before your application has been packaged.
@@ -78,11 +78,11 @@ Raadpleeg voor meer informatie over hoe u schijfruimte kunt vergroten als u op d
        php ./vendor/bin/ece-tools deploy
    ```
 
-   Gebruik de [Upgrade uitvoeren naar bureaubladgereedschappen](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) artikel ter referentie.
+   Gebruik de [ Verbetering aan artikel-hulpmiddelen ](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) artikel voor verwijzing.
 
-1. Zorg ervoor dat het pakket ECE-tools aanwezig is in het dialoogvenster `composer.lock` bestand met de volgende opdracht:    <pre><code class="language-bash">grep &#39;<code class="language-yaml">&quot;name&quot;: &quot;magento/ece-tools&quot;</code>&#39; composer.lock</code></pre>    Als ze worden opgegeven, ziet het antwoord er als volgt uit:    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
+1. Zorg ervoor dat het pakket ECE-tools aanwezig is in het `composer.lock` -bestand door de volgende opdracht uit te voeren:    <pre><code class="language-bash"> grep &quot;<code class="language-yaml"> &quot;naam&quot;: &quot;magento/ece-tools&quot;</code>&#39; composer.lock</code></pre>    Als ze worden opgegeven, ziet het antwoord er als volgt uit:    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
 
-Zie de [Upgrade uitvoeren naar bureaubladgereedschappen](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) artikel ter referentie.
+Zie [ Verbetering aan artikel-hulpmiddelen ](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) artikel voor verwijzing.
 
 ### Veroorzaakt de pleister het probleem?
 
@@ -103,7 +103,7 @@ W: build
 E: Error building project: The build hook failed with status code 1. Aborted build.
 ```
 
-Deze foutberichten betekenen dat de patch die u wilt toepassen, is gemaakt voor een andere Adobe Commerce-versie of conflicteert met uw aanpassingen of eerder toegepaste patches. Probeer het conflict of de contact op te lossen [Adobe Commerce-ondersteuning](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Deze foutberichten betekenen dat de patch die u wilt toepassen, is gemaakt voor een andere Adobe Commerce-versie of conflicteert met uw aanpassingen of eerder toegepaste patches. Probeer om het conflict op te lossen of contact [ Steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Veroorzaakt de uitbreiding het probleem?
 

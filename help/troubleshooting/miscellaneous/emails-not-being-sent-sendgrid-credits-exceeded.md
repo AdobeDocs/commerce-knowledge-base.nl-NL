@@ -25,7 +25,7 @@ Het aantal e-mails dat in Productie kan worden verzonden, is onbeperkt, zolang d
 
 ## Hoe kan ik controleren of je crediteringen zijn overschreden?
 
-Adobe Commerce on cloud Infrastructure Pro-planarchitectuur: controleer de `/var/log/mail.log` - u zou een bericht als dit kunnen zien:
+Adobe Commerce on cloud Infrastructure Pro-planningsarchitectuur: controleer de `/var/log/mail.log` - u ziet mogelijk een bericht als deze:
 
 `May 28 21:13:00 <i-node> postfix/error[21335]: BC7941A2BBF: to=<to@email.com>, relay=none, delay=4642, delays=4642/0.56/0/0.03, dsn=4.0.0, status=deferred (delivery temporarily suspended: SASL authentication failed; server smtp.sendgrid.net[ip address] said: 451 Authentication failed: Maximum credits exceeded).`
 
@@ -35,9 +35,9 @@ Het aantal toegestane e-mailberichten dat kan worden verzonden, is beperkt.
 
 ## Oplossing
 
-* Als dit bericht wordt weergegeven in de productieomgeving, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) en verstrek het bovenstaande bericht en verzoek om een verhoging van de kredieten.
-* Als dit bericht niet wordt weergegeven of als u zich op Adobe Commerce bevindt op de Starter-planarchitectuur van de cloud [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) en vermelden dat de `mail.log` geeft niet aan dat de credits zijn overschreden.
+* Als u dit bericht in het milieu van de Productie ziet, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) en verstrekt het bovengenoemde bericht en verzoek om de kredieten worden verhoogd.
+* Als u dit bericht niet ziet of u op Adobe Commerce op het planarchitectuur van de Aanzet van de wolkeninfrastructuur bent, ook [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) en vermeld dat het `mail.log` dossier niet erop wijst dat de kredieten zijn overschreden.
 
 ## Gerelateerde lezing
 
-* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) in onze ontwikkelaarsdocumentatie.
+* [ SendGrid ](https://devdocs.magento.com/cloud/project/sendgrid.html) in onze ontwikkelaarsdocumentatie.

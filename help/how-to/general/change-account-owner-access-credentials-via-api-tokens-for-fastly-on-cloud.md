@@ -12,5 +12,5 @@ ht-degree: 0%
 
 # Accounteigenaar wijzigen (toegangsgegevens via API-tokens) voor Fastly op Cloud
 
-Raadpleeg de [Snelle de dienstrekening en geloofsbrieven](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=en#test-fastly-credentials) in onze Commerce on Cloud Infrastructure Guide.
+Gelieve te verwijzen naar de [ Snelle de dienstrekening en geloofsbrieven ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=en#test-fastly-credentials) in onze Commerce op de Gids van de Infrastructuur van de Wolk.
 

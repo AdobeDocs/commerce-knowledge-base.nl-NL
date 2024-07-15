@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In dit artikel wordt beschreven hoe u de implementatiefout van Adobe Commerce on cloud-infrastructuur kunt oplossen, vergelijkbaar met het volgende:
 
-&quot;*Kan de URL &#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39;&#39; niet openen: HTTP/1.1 403 Verboden* &quot;. Of de &quot;*https://repo.magento.com/archives/magento/module-customer-segment/magento-module-customer-segment-102.0.5.0-patch2.zip&quot; kan niet worden gedownload (HTTP/1.1 404 niet gevonden)*&quot;.
+&quot;*&quot;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39; URL kon niet worden betreden: HTTP/1.1 403 Verboden* &quot;. Of het &quot;*https://repo.magento.com/archives/magento/module-customer-segment/magento-module-customer-segment-102.0.5.0-patch2.zip&quot;dossier kon niet worden gedownload (HTTP/1.1 404 niet Gevonden)*&quot;.
 
 ## Betrokken producten en versies
 
@@ -25,19 +25,19 @@ In dit artikel wordt beschreven hoe u de implementatiefout van Adobe Commerce on
 
 Foutbericht bij implementatie dat de repo-URL aangeeft, kan niet worden geopend.
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
 Trigger plaatsing manueel of door een fusie, duw, of synchronisatie van uw milieu uit te voeren.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
 Implementatie blijft vastzitten. In het login van de plaatsingsfout UI van het Project, wordt een foutenmelding gelijkend op het volgende getoond:
 
-*&quot;De URL &#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39; kan niet worden geopend: HTTP/1.1 \[403 Verboden of 404 Niet gevonden\]&quot;*.
+*&quot;De &#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39; URL kon niet worden betreden: HTTP/1.1 \[403 Verboden of 404 Niet gevonden\]&quot;*.
 
 (Klik op het pictogram &quot;Mislukt&quot; in de projectgebruikersinterface om het logbestand weer te geven.)
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
 De implementatie is voltooid.
 
@@ -59,18 +59,18 @@ Enkele redenen waarom sleutels niet geldig zijn zijn:
 Ga als volgt te werk om het probleem op te lossen met de machtigingstoetsen (zie de onderstaande secties voor meer informatie over elke stap):
 
 1. Vraag de geldige autorisatietoetsen aan (sla deze over als u er absoluut zeker van bent dat uw sleutel geldig is).
-1. Voeg de sleutelwaarde in toe `env:COMPOSER_AUTH` variabele (of zorg ervoor dat de correcte waarde er is) en controleer of de sleutels constant in de variabele op projectniveau en milieuniveau evenals op het `auth.json` bestand (als dit bestaat) in de hoofdmap van het project.
-1. Bijwerken of verwijderen `auth.json`, om één enkele plaats te hebben waar de sleutel wordt gevormd, als de waarden van de vergunningssleutels niet worden gespecificeerd of een andere waarde hebben.
+1. Voeg de sleutelwaarde in de `env:COMPOSER_AUTH` variabele toe (of zorg ervoor dat de correcte waarde daar) is en controleer of de sleutels constant in de variabele op projectniveau en milieuniveau evenals het `auth.json` dossier (als het bestaat) in de projectwortel worden gespecificeerd.
+1. Werk `auth.json` bij of verwijder dit om één plaats te hebben waar de sleutel wordt gevormd, als de waarden van de vergunningssleutels niet worden gespecificeerd of een andere waarde hebben.
 
 ### 1. Geldige autorisatietoetsen verkrijgen
 
 Als u de sleutels gebruikte die onder de gedeelde rekening worden gecreeerd, moet u de de vergunningseigenaar van Adobe Commerce contacteren die u toegang verleent en verzoekt zij hen produceren de sleutels voor u.
 
-Als uw licentie eerder is ingetrokken vanwege betalingsproblemen en u deze problemen hebt opgelost en uw licentie is vernieuwd, moet u [nieuwe verificatietoetsen genereren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+Als uw vergunning eerder wegens betalingskwesties werd ingetrokken, en u die kwesties hebt opgelost en uw vergunning werd vernieuwd, moet u [ de nieuwe authentificatietoetsen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) produceren.
 
 ### 2. Voeg de waarde van de toetsen toe aan de variabele env:COMPOSER\_AUTH en controleer of dezelfde toetsen zijn opgegeven in auth.json
 
-Zie de instructies en verwante informatie in [Uw bestaande systeem voorbereiden](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) en [Verificatietoetsen toevoegen](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys) in onze ontwikkelaarsdocumentatie.
+Zie de instructies en de verwante informatie in [ uw bestaand systeem ](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) voorbereiden en [ authentificatietoetsen ](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys) in onze ontwikkelaarsdocumentatie toevoegen.
 
 ### 3. Uth.json bijwerken of verwijderen
 
@@ -78,10 +78,10 @@ Hieronder volgt een stapsgewijze beschrijving van het bijwerken van uw verificat
 
 1. Meld u aan bij de computer met de Adobe Commerce op SSH-sleutels voor cloudinfrastructuur.
 1. Meld u aan bij uw project: `magento-cloud login`
-1. Een vertakking maken om de code bij te werken (in het volgende voorbeeld is de vertakkingsnaam `auth` wordt gemaakt van de primaire vertakking):     `magento-cloud environment:branch auth master`
+1. Maak een vertakking om de code bij te werken (in het volgende voorbeeld wordt de vertakkingsnaam `auth` gemaakt van de primaire vertakking):     `magento-cloud environment:branch auth master`
 1. Verandering in de folder van de projectwortel.
-1. Optioneel: verwijder de `auth.json` als u dit wilt en wilt doorgaan [stap 9](#step9).
-1. Openen `auth.json` in een teksteditor.
+1. Facultatief: Schrap `auth.json` als u verkiest en aan [ stap 9 ](#step9) verdergaat.
+1. Open `auth.json` in een teksteditor.
 
    ```json
               {

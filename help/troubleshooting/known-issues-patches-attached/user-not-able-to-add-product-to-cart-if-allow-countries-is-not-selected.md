@@ -23,19 +23,19 @@ Adobe Commerce 2.4.4 met PHP 8.1
 
 Gebruikers kunnen geen producten aan het winkelwagentje toevoegen als de optie Landen toestaan is uitgeschakeld.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Meld u aan bij de Commerce-beheerder.
-1. Ga naar **Winkel** > **Configuratie** > **Algemeen** > **Landopties**
-1. Selectie van alle opties ongedaan maken in **Landen toestaan** veld.
-1. Klikken **Config opslaan** om de configuratie op te slaan.
+1. Ga naar **Opslag** > **Configuratie** > **Algemeen** > **Opties van het Land**
+1. Deselecteer alle opties op **toestaat Landen** gebied.
+1. Klik **sparen Config** om de configuratie te bewaren.
 1. Ga naar de winkel en probeer een product aan de winkelwagentje toe te voegen.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht Resultaat:</u>
 
 U kunt een product aan de kar toevoegen.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware Resultaat:</u>
 
 U kunt geen product aan de kar toevoegen. U krijgt de volgende consolefout:
 
@@ -51,7 +51,7 @@ customer-data.js:87 Uncaught Error: [object Object]
 
 ## Oorzaak
 
-De Adobe Commerce-configuratie wordt opgehaald `null` als een multiselect configuratie geen geselecteerde punten heeft. Deze configuratie als verder succesvol verwerkt in PHP versies ouder dan 8.1. In PHP 8.1 werkt het echter niet correct vanwege de fouten die worden veroorzaakt door de id[Null-tot niet-nullable argumenten van interne functies in PHP 8.1 afgekeurd](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)&quot;.
+De Adobe Commerce-configuratie haalt `null` op als een multiselect-configuratie geen geselecteerde items heeft. Deze configuratie als verder succesvol verwerkt in PHP versies ouder dan 8.1. Nochtans in PHP 8.1 werkt het niet behoorlijk toe te schrijven aan de fouten die door &quot;[ worden veroorzaakt verval ongeldig overgaan tot niet-nullable argumenten van interne functies in PHP 8.1 ](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)&quot;.
 
 ## Oplossingen
 
@@ -61,8 +61,8 @@ Pas de volgende patch toe om het probleem op te lossen:
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis voor instructies wordt verstrekt.
 
 ## Nuttige koppelingen
 
-[Aangepaste patches op Adobe Commerce toepassen op cloudinfrastructuur](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+[ pas douaneflarden op Adobe Commerce op wolkeninfrastructuur ](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html) in onze ontwikkelaardocumentatie toe.

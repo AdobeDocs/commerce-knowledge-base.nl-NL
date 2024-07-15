@@ -25,7 +25,7 @@ We raden u aan de volgende oplossingen in de aangegeven volgorde te kiezen:
 
 ### Conflicterende afhankelijkheden {#trouble-depend-conflict}
 
-Het bericht *We hebben conflicterende componentafhankelijkheden gevonden* wordt weergegeven als Composer niet kan bepalen welke componenten moeten worden geïnstalleerd of bijgewerkt. Om componentenafhankelijkheidskwesties op te lossen, zou u een technische persoon moeten zijn die grondig begrijpt hoe Composer werkt.
+Het bericht *wij ontdekten conflicterende componentengebiedsdelen* tonen als Composer niet kan bepalen welke componenten om te installeren of bij te werken. Om componentenafhankelijkheidskwesties op te lossen, zou u een technische persoon moeten zijn die grondig begrijpt hoe Composer werkt.
 
 Hier volgt een voorbeeld van een foutbericht:
 
@@ -40,7 +40,7 @@ We found conflicting component dependencies.
 >
 >Het bericht dat u ziet, zal waarschijnlijk anders zijn.
 
-Zie [Conflicterende componentengebiedsdelen voor een oplossing](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md) in onze kennisbasis voor ondersteuning.
+Verwijs naar [ Conflicterende componentengebiedsdelen voor een oplossing ](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md) in onze basis van steunkennis.
 
 ## Problemen met bestandssysteemmachtigingen {#trouble-depend-permission}
 
@@ -51,10 +51,10 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-Controleer of u de bestandssysteemmachtigingen instelt zoals beschreven in het artikel [Overzicht van eigendom en machtigingen](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) in onze ontwikkelaarsdocumentatie.
+Zorg ervoor u de toestemmingen van het dossiersysteem zoals besproken in het artikel [ Overzicht van eigendom en toestemmingen ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) in onze ontwikkelaarsdocumentatie plaatst.
 
 ## De status van Componentafhankelijke controle verandert nooit {#trouble-depend-state}
 
-In sommige gevallen verandert de status van Componentafhankelijke controle niet, zelfs niet nadat u problemen hebt verholpen. In dat geval kunt u bestanden met de naam `<magento_root>/var/.update_cronjob_status` en `<magento_root>/var/.setup_cronjob_status` en voer Componentbeheer opnieuw uit.
+In sommige gevallen verandert de status van Componentafhankelijke controle niet, zelfs niet nadat u problemen hebt verholpen. In dat geval kunt u bestanden met de namen `<magento_root>/var/.update_cronjob_status` en `<magento_root>/var/.setup_cronjob_status` verwijderen of de naam ervan wijzigen en probeert u Componentbeheer opnieuw uit te voeren.
 
 Als u de naam van deze bestanden wijzigt of deze bestanden verwijdert, wordt Componentbeheer gedwongen de controles opnieuw uit te voeren.

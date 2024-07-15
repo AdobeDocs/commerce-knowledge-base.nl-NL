@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.0.22'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.2.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.0.22'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.0.22 worden bevestigd.
 exl-id: 3d8f380a-cc27-4444-86e3-a564b01dacf0
 feature: Tools and External Services
 role: Admin
@@ -11,17 +11,17 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht versie 1.0.22
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.0.22
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.2.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.22.
 
 QPT v1.0.22 omvat de volgende flarden:
 
-1. **MDVA-3573**: Hiermee wordt de kwestie opgelost waarbij het Eindtotaal niet als nul op de factuur wordt weergegeven voor bestellingen met een korting van 100%.
-1. **36253**: Hiermee wordt het probleem opgelost waarbij het onjuiste subtotaal wordt weergegeven in het mini-winkelwagentje na verwijdering van het item.
-1. **36718 MDVA**: Hiermee wordt het probleem verholpen waarbij de oude aangepaste opties blijven bestaan nadat deze via API zijn gewijzigd.
-1. **MDVA-3683**: Hiermee verhelpt u het probleem met zoekresultaten waarbij een willekeurig aantal producten per pagina wordt weergegeven nadat bepaalde producten uit de gedeelde catalogus zijn verwijderd.
-1. **36853**: Het probleem waarbij geen afbeeldingen worden weergegeven, wordt opgelost wanneer grote mediagalerieën worden geladen.
-1. **37182**: Hiermee kunt u het probleem verhelpen door onjuiste zoekresultaten op te halen in beide [!DNL Elasticsearch] versie 6 en versie 7.
+1. **MDVA-35773**: Bevestigt de kwestie met het Grote Totaal dat niet als nul op de Factuur voor orden met 100% korting wordt getoond.
+1. **MDVA-36253**: Bevestigt de kwestie waar het verkeerde subtotaal in de minikaart na puntschrapping wordt getoond.
+1. **MDVA-36718**: Verhelpt de kwestie waar de oude douaneopties na wordt veranderd via API blijven.
+1. **MDVA-36833**: Bevestigt de kwestie met onderzoeksresultaten die willekeurige aantallen producten per pagina tonen na het uitsluiten van sommige producten van gedeelde catalogus.
+1. **MDVA-36853**: Verhelpt de kwestie zonder beelden verschijnen wanneer het laden van grote media galerieën.
+1. **MDVA-37182**: Verhelpt de kwestie met het krijgen van onjuiste onderzoeksresultaten in zowel [!DNL Elasticsearch] versie 6 als versie 7.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

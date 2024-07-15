@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.0.17'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.17.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.0.17'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.0.17 worden bevestigd.
 exl-id: 38246a79-b0a6-4d00-b9d7-05b4a4508cdb
 feature: Tools and External Services
 role: Admin
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht versie 1.0.17
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.0.17
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.17.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.17.
 
 QPT v1.0.17 omvat de volgende flarden:
 
-1. **34012**: Hiermee wordt het probleem opgelost waarbij de *Standaardwaarde gebruiken* Schakel het selectievakje uit nadat de geplande wijzigingen zijn toegepast. De uitgave wordt weergegeven zodra de geplande wijzigingen niet meer van kracht zijn.
-1. **MDVA-34850**: Hiermee wordt het probleem verholpen waarbij de stalen niet worden doorgestreept wanneer de voorraad &quot;0&quot; bereikt en niet zichtbaar zijn in de koppeling met de pagina Productdetails (PDP) naar andere stalen in de voorraad.
-1. **34867**: Hiermee wordt het probleem verholpen waarbij waarden voor een voorwaardenveld dat is ingesteld voor een geplande update, niet worden opgeslagen.
-1. **34943**: Hiermee wordt het probleem verholpen waarbij de eerder ingevoerde SKU&#39;s in cache worden opgeslagen in de snelorder.
-1. **35064**: Hiermee wordt het probleem verholpen waarbij URL-herschrijvingen niet worden gegenereerd voor configureerbare producten die via API zijn gemaakt.
-1. **35092**: Hiermee wordt het probleem verholpen waarbij gebruikers geen gegevens kunnen toevoegen [!DNL Vimeo] video&#39;s vanwege vervangen [!DNL Vimeo] API.
-1. **35197**: Hiermee wordt het probleem verholpen waarbij een fout optreedt bij het toevoegen aan winkelwagentje met GraphQL als eerder toegevoegde producten uit voorraad raken.
+1. **MDVA-34012**: Verhelpt de kwestie waar het *3} checkbox van de Waarde van het Gebruik {wordt ontruimd nadat de geplande veranderingen worden toegepast.* De uitgave wordt weergegeven zodra de geplande wijzigingen niet meer van kracht zijn.
+1. **MDVA-34850**: Verhelpt de kwestie waar de monsters niet door worden getroffen wanneer de inventaris &quot;0&quot;bereikt en niet zichtbaar in de Verbinding van de Details van het Product van de Pagina (PDP) aan een andere Stalen in voorraad is.
+1. **MDVA-34867**: Verhelpt de kwestie waar de waarden voor een voorwaardengebied voor een geplande update worden geplaatst niet worden bewaard.
+1. **MDVA-34943**: Verhelpt de kwestie waar de snelle orde eerder ingegaan SKUs in het voorgeheugen onderbrengt.
+1. **MDVA-35064**: Verhelpt de kwestie waar herschrijft URL niet voor configureerbare producten wordt geproduceerd die via API worden gecreeerd.
+1. **MDVA-35092**: Verhelpt de kwestie waar de gebruikers [!DNL Vimeo] geen video&#39;s wegens afgekeurde [!DNL Vimeo] API kunnen toevoegen.
+1. **MDVA-35197**: Verhelpt de kwestie waar er een fout wanneer het toevoegen aan karretje gebruikend GraphQL is als eerder toegevoegde producten uit voorraad worden.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

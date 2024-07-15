@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-49480: Verdere regels die niet werken negeren'
-description: Pas de ACSD-49480-patch toe om het Adobe Commerce-probleem op te lossen waarbij de [!UICONTROL Cart Price Rule - Discard Subsequent Rules] werkt niet zoals bedoeld.
+description: Pas de ACSD-49480-patch toe om het Adobe Commerce-probleem op te lossen waarbij [!UICONTROL Cart Price Rule - Discard Subsequent Rules] niet naar behoren werkt.
 exl-id: 8d306a9e-ed1a-4295-8130-81700cbf31a6
 feature: Price Rules
 role: Admin
@@ -11,57 +11,57 @@ ht-degree: 0%
 
 ---
 
-# ACSD-49480: [!UICONTROL Cart Price Rule - Discard Subsequent Rules] werkt niet zoals bedoeld
+# ACSD-49480: [!UICONTROL Cart Price Rule - Discard Subsequent Rules] werkt niet zoals verwacht
 
-De ACSD-49480-patch verhelpt het probleem waarbij de [!UICONTROL Cart Price Rule - Discard Subsequent Rules] werkt niet zoals bedoeld. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.32 is geïnstalleerd. De patch-id is ACSD-49480. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-49480-patch verhelpt het probleem waarbij [!UICONTROL Cart Price Rule - Discard Subsequent Rules] niet naar behoren werkt. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.32 wordt geïnstalleerd. De patch-id is ACSD-49480. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.5
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 [!UICONTROL Cart Price Rule - Discard Subsequent Rules] werkt niet zoals bedoeld.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Een **[!UICONTROL Cart Price Rule]** met een couponcode (geef deze de naam *TEST*) die een korting van $10 geeft aan de *Product-id 1* in de **[!UICONTROL Actions]** tab met [!UICONTROL Discard Subsequent Rules] instellen op *[!UICONTROL Yes]* en [!UICONTROL Priority] instellen op *1*.
-1. Een andere maken **[!UICONTROL Cart Price Rule]** zonder couponcode die een korting van € 5 geeft aan *Product ID 2* in de **[!UICONTROL Actions]** tab met [!UICONTROL Priority] instellen op *2*. We gaan ervan uit dat dit een wereldwijde verkoop is voor *Product ID 2*.
-1. Ga naar de voorste site en voeg *Product-id 1* en *Product ID 2* in de kar.
-1. Pas de *TEST* couponcode.
+1. Creeer a **[!UICONTROL Cart Price Rule]** met een couponcode (noem het als *TEST*) die een korting $10 aan *identiteitskaart van het Product 1* in het **[!UICONTROL Actions]** lusje met [!UICONTROL Discard Subsequent Rules] geeft die aan *[!UICONTROL Yes]* wordt geplaatst en [!UICONTROL Priority] aan *1* wordt geplaatst.
+1. Creeer een andere **[!UICONTROL Cart Price Rule]** zonder een couponcode die een korting $5 aan *identiteitskaart van het Product 2* in het **[!UICONTROL Actions]** lusje met [!UICONTROL Priority] geeft die aan *2* wordt geplaatst. Hier, veronderstellen wij, dit een globale verkoop voor *identiteitskaart 2 van het Product* is.
+1. Ga naar frontend plaats en voeg *identiteitskaart van het Product 1* en *identiteitskaart van het Product 2* in de kar toe.
+1. Pas de ** couponcode van de TEST toe.
 
-<u>Verwachte resultaten</u>
+<u> Verwachte resultaten </u>
 
-* *Korting 1* wordt toegepast op *Product-id 1*.
-* *Korting 2* wordt toegepast op *Product ID 2*.
+* *Korting 1* wordt toegepast op *identiteitskaart 1 van het Product*.
+* *Korting 2* wordt toegepast op *identiteitskaart van het Product 2*.
 
-<u>Werkelijke resultaten</u>
+<u> Ware resultaten </u>
 
-* Alleen *Korting 1* wordt toegepast op *Product-id 1*.
-* *Korting 2* is niet toegepast op *Product ID 2*.
+* Slechts *Korting 1* wordt toegepast op *identiteitskaart 1 van het Product*.
+* *Korting 2* wordt niet toegepast op *identiteitskaart van het Product 2*.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

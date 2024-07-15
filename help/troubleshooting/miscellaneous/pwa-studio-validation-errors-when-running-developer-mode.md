@@ -21,15 +21,15 @@ Dit onderwerp bespreekt een oplossing voor wanneer de bevestigingsfouten voorkom
 
 ## Probleem
 
-<u>Stap om te reproduceren</u>:
+<u> Stap om te reproduceren </u>:
 
 * Voer de ontwikkelaarsmodus uit in PWA Studio voor Adobe Commerce.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 * De server van de PWA Studio begint normaal.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 * U ziet validatiefouten, die er ongeveer als volgt kunnen uitzien:
 
@@ -53,5 +53,5 @@ in de hoofdmap om het bestand te genereren dat de variabelen voor uw lokale ontw
 
 ## Gerelateerde lezing
 
-* [PWA Studio voor Adobe Commerce-documentatie](https://magento.github.io/pwa-studio/)
-* [Venia Storefront (concept)](https://magento.github.io/pwa-studio/venia-pwa-concept/)
+* [ PWA Studio voor de Documentatie van Adobe Commerce ](https://magento.github.io/pwa-studio/)
+* [ Venia Storefront (Concept) ](https://magento.github.io/pwa-studio/venia-pwa-concept/)

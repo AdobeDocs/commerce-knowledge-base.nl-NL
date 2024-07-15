@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.3'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.3.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.3'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de beschikbare flarden in  [!DNL Quality Patches Tool]  (QPT) v1.1.3 worden opgelost.
 exl-id: ba4f8bcc-6653-44ae-b304-e048f42dae5c
 feature: Tools and External Services
 role: Admin
@@ -11,17 +11,17 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht van versie 1.1.3
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.1.3
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.3.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.3.
 
 QPT v1.1.3 omvat de volgende flarden:
 
-1. **MDVA-31590**: Hiermee wordt het probleem verholpen waarbij gebruikers geen kenmerken in bulk kunnen bijwerken met MySQL async-wachtrijen.
-1. **33606**: Hiermee wordt het probleem verholpen waarbij gebruikers een *Unieke schending van beperking* fout bij het opslaan van een CMS-pagina die is toegewezen aan een hiërarchie.
-1. **36309**: Hiermee wordt het probleem verholpen waarbij het zoeken naar kenmerken van producten traag verloopt in de beheerrasters.
-1. **37234**: Hiermee wordt het probleem verholpen waarbij een item meerdere keren (parallel verzoek) voor dezelfde SKU aan het winkelwagentje wordt toegevoegd, waardoor een dubbel regelitem voor dezelfde winkelwagentje-id wordt gemaakt.
-1. **MDVA-4026**: Hiermee wordt het probleem verholpen waarbij GraphQL-zoekopdrachten niet worden weergegeven in populaire zoektermen in de beheerdersfunctie.
-1. **MDVA-40601**: Hiermee wordt het probleem verholpen waarbij gebruikers een fout krijgen wanneer ze proberen informatie over de categorie te wijzigen via een geplande update via GraphQL.
+1. **MDVA-31590**: Verhelpt de kwestie waar de gebruikers geen attributen in massa kunnen bijwerken gebruikend MySQL async rijen.
+1. **MDVA-33606**: Verhelpt de kwestie waar de gebruikers a *Unieke fout van de beperkingsschending* wanneer het opslaan van een CMS pagina die aan een hiërarchie wordt toegewezen krijgen.
+1. **MDVA-36309**: Verhelpt de kwestie waar het productonderzoek door attributen langzaam in de adminnetten is.
+1. **MDVA-37234**: Bevestigt de kwestie waar het toevoegen van een punt aan de kar veelvoudige tijden (parallel verzoek) voor zelfde SKU tot een dubbel lijnpunt voor zelfde wortelidentiteitskaart leidt
+1. **MDVA-40262**: Verhelpt de kwestie waar de het onderzoeksvragen van GraphQL niet in populaire onderzoekstermijnen in Admin worden getoond.
+1. **MDVA-40601**: Verhelpt de kwestie waar de gebruikers een fout krijgen wanneer het proberen om informatie over de categorie te krijgen die door geplande update door GraphQL wordt veranderd.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

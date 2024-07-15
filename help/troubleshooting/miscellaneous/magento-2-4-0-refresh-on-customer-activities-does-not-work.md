@@ -22,37 +22,37 @@ Dit artikel biedt een oplossing voor een bekend probleem met Adobe Commerce 2.4.
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Ga naar de **Deelvenster Beheer** > **Verkoop** > **Orders**.
-1. Klik op de knop **Nieuwe volgorde maken** knop.
+1. Ga naar het **Comité Admin** > **Verkoop** > **Orders**.
+1. Klik **creëren Nieuwe Orde** knoop.
 1. Selecteer de klant die u hebt gemaakt.
 1. Ga naar de winkel als de nieuwe klant.
-1. Ga naar de **Product** pagina. Klik op de knop **Vernieuwen** op de knop **Onlangs bekeken producten** deel van **Activiteiten van de klant**.
+1. Ga naar de **pagina van het Product**. Klik **verfrissen** knoop op de **onlangs Bekeken Producten** sectie van **Activiteiten van de Klant**.
 1. Ga terug naar de winkel.
 1. Plaats een bestelling met de gemaakte producten.
-1. Ga terug naar de **Deelvenster Beheer** en klik op de knop **Vernieuwen** van de **Laatst bestelde objecten** deel van **Activiteiten van de klant**.
-1. Ga terug naar de winkel. Het gemaakte product toevoegen aan de **Vergelijkingslijst**.
-1. Ga terug naar de **Deelvenster Beheer**. Klik op de knop **Vernieuwen** van de **Producten in vergelijkingslijst** deel van **Activiteiten van de klant**.
+1. Ga terug naar het **Comité Admin** en klik **verfrissen** knoop van de **Laatste Bestelde Punten** sectie van **Activiteiten van de Klant**.
+1. Ga terug naar de winkel. Voeg het gecreeerde product aan de **Vergelijkingslijst** toe.
+1. Ga terug naar het **Comité Admin**. Klik **verfrissen** knoop van de **Producten in de sectie van de Lijst van de Vergelijking** van **Activiteiten van de Klant**.
 1. Ga terug naar de winkel.
-1. Het gemaakte product verwijderen uit de **Vergelijkingslijst**.
-1. Ga terug naar de **Deelvenster Beheer**.
-1. Klik op de knop **Vernieuwen** van de **Onlangs vergeleken producten** deel van **Activiteiten van de klant**.
+1. Verwijder het gecreeerde product uit de **Lijst van de Vergelijking**.
+1. Ga terug naar het **Comité Admin**.
+1. Klik **verfrissen** knoop van de **onlangs Vergelijkte Producten** sectie van **Activiteiten van de Klant**.
 1. Ga terug naar de winkel.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-De naam van het product moet in de **Onlangs bekeken producten**, **Laatst bestelde objecten**, **Producten in vergelijkingslijst**, en **Onlangs vergeleken producten** sectie.
+De naam van het product zou in de **onlangs Bekeken Producten**, **Laatste Bestelde Punten**, **Producten in Vergelijkingslijst**, en **onlangs Vergeleken de sectie van Producten** moeten verschijnen.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De pagina wordt elke keer dat een **Vernieuwen** wordt geklikt. De naam van het product komt niet voor in de juiste sectie.
+De pagina wordt omhoog geschoven telkens als a **verfrist** knoop wordt geklikt. De naam van het product komt niet voor in de juiste sectie.
 
 ## Oplossing
 
-Een oplossing is dat de Admin-gebruiker de update kan uitvoeren **Activiteiten van de klant** door op de knop **Wijzigingen bijwerken** onder aan de zijbalk. Het probleem wordt opgelost in de Adobe Commerce 2.4.1-patch.
+Een alternerende actie is de gebruiker Admin kan de Activiteiten van **Klant** bijwerken door de **knoop van de Veranderingen van de Update** bij de bodem van sidebar te klikken. Het probleem wordt opgelost in de Adobe Commerce 2.4.1-patch.
 
-![mceclip0.png](assets/mceclip0.png)
+![ mceclip0.png ](assets/mceclip0.png)
 
 ## Gerelateerde lezing
 

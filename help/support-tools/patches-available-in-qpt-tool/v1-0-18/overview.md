@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.0.18'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.18.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.0.18'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.0.18 worden bevestigd.
 exl-id: a72c7bf0-4695-48d1-96d2-7326a2483e33
 feature: Tools and External Services
 role: Admin
@@ -11,17 +11,17 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht van versie 1.0.18
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.0.18
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.18.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.18.
 
 QPT v1.0.18 omvat de volgende flarden:
 
-1. **MDVA-3265**: Corrigeert de onjuiste *in uitvoering* berichtstatus voor de juiste *complete* boodschap voor de consument `quoteItemCleaner` na het verwijderen van meerdere producten.
-1. **34102**: Hiermee wordt de kwestie opgelost waarbij de standaardvoorraad nul is voor uitgeschakelde producten op de [!UICONTROL Product Grid] en [!UICONTROL Edit Product] pagina&#39;s in de beheerder.
-1. **34189**: hiermee wordt 503 eerste byte-time-out gecorrigeerd op [!DNL Visual Merchandiser] vragen bij het laden van de beheercategoriepagina.
-1. **34695**: Hiermee wordt negatief gecorrigeerd `children_count` na het verwijderen van categorieën.
-1. **35286**: Hiermee wordt het probleem verholpen waarbij een fout optreedt als een klant producten in de winkelwagen heeft gebundeld en overschakelt van meerdere adressen bij uitchecken naar on-epage uitchecken.
-1. **35312**: Hiermee wordt het probleem verholpen waarbij een lege GraphQL-aanvraag foutantwoordcode 500 in plaats van 200 code genereert
+1. **MDVA-32655**: Bevestigt de onjuiste *lopende* berichtstatus aan het correcte *volledige* bericht voor consument `quoteItemCleaner` na het schrappen van verscheidene producten.
+1. **MDVA-34102**: Verhelpt de kwestie waar de hoeveelheid standaardvoorraad nul voor gehandicapte producten op [!UICONTROL Product Grid] en [!UICONTROL Edit Product] pagina&#39;s in admin is.
+1. **mDVA-34189**: Bevestigt 503 eerste byteonderbreking op [!DNL Visual Merchandiser] vragen wanneer het laden van de admin categoriepagina.
+1. **mDVA-34695**: Bevordert negatief `children_count` na het schrappen van categorieën.
+1. **MDVA-35286**: Verhelpt de kwestie waar er een fout is als een klant producten in de kar heeft gebundeld en schakelt van veelvoudige adrescontrole aan onepage controle.
+1. **MDVA-35312**: Bevestigt de kwestie waar een leeg verzoek van GraphQL foutenantwoordcode 500 in plaats van 200 code werpt
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

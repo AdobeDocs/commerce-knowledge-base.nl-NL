@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat instructies voor het oplossen van problemen voor de Adobe Commerce met betrekking tot cloudinfrastructuur, waarbij het proberen om toegang te krijgen tot de nieuwe integratieomgeving in plaats daarvan naar de bovenliggende omgeving leidt.
 
-Als u dit wilt corrigeren, moet u de waarde van de basis\_url in de database corrigeren en ervoor zorgen dat `UPDATE_URLS` variable value is ingesteld op `true`. Meer informatie vindt u in de onderstaande secties.
+Als u dit wilt corrigeren, moet u de waarde van de basis\_url in de database corrigeren en ervoor zorgen dat de waarde van de variabele `UPDATE_URLS` is ingesteld op `true` . Meer informatie vindt u in de onderstaande secties.
 
 Betrokken versies en edities:
 
@@ -23,22 +23,22 @@ Betrokken versies en edities:
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Kloon de bestaande tak van de Integratie.
 1. Klik op de URL voor toegang tot de nieuwe omgeving.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 U gaat naar de nieuwe omgeving.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 U wordt omgeleid aan het milieu op de oudertak.
 
 ## Oplossing
 
-Als u het probleem wilt verhelpen, moet u het `base_url` waarden (veilig en onveilig) in het gegevensbestand van het douanemilieu en reeks `UPDATE_URL` in de `.magento.env.yaml` bestand.
+Als u het probleem wilt verhelpen, moet u de `base_url` -waarden (veilig en onveilig) in de aangepaste-omgevingsdatabase corrigeren en de `UPDATE_URL` -variabele in het `.magento.env.yaml` -bestand instellen.
 
 ### Basis\_url-waarden in database corrigeren
 
@@ -59,7 +59,7 @@ update core_config_data set value = %your_new_environment_secure_url% where path
 
 #### Corrigeer de database met Adobe Commerce CLI (beschikbaar voor versies 2.2.X)
 
-1. Meld u aan als, of schakel over naar, de [Adobe Commerce-eigenaar bestandssysteem](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html).
+1. Login als, of schakelaar aan, de [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html).
 1. Voer de volgende opdrachten uit:
 
 ```bash
@@ -67,9 +67,9 @@ php <your_magento_install_dir>/bin/magento config:set web/unsecure/base_url http
 php <your_magento_install_dir>/bin/magento config:set web/secure/base_url https://example.com
 ```
 
-### Stel de `UPDATE_URLS` variabel
+### De variabele `UPDATE_URLS` instellen
 
-In uw lokale codebase, in `.magento.env.yaml` bestandenset:
+In uw lokale codebase, in de `.magento.env.yaml` dossierreeks:
 
 ```
  stage:
@@ -87,4 +87,4 @@ php <your_magento_install_dir>/bin/magento cache:clean config
 
 ## Verwante artikelen in onze documentatie voor ontwikkelaars:
 
-[Variabelen implementeren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html)
+[ stelt variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) op

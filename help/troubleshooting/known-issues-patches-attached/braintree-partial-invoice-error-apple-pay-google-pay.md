@@ -21,25 +21,25 @@ Adobe Commerce (alle implementatiemethoden) 2.4.4
 
 ## Probleem
 
-Als gebruikers Apple Pay of Google Pay gebruiken als betalingsmethode, krijgen ze de fout &quot;*De opdracht &#39;vault_capture&#39; bestaat niet. Controleer de opdracht en probeer het opnieuw.*&quot; bij het maken van gedeeltelijke facturen.
+Wanneer het gebruiken van Betalen Apple of Google als betalingsmethodes, krijgen de gebruikers de fout &quot;*het bevel &quot;vault_capture&quot;niet bestaat. Controleer de opdracht en probeer het opnieuw.* &quot; tijdens het maken van gedeeltelijke facturen.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Open uw Adobe Commerce-website.
 1. Voeg een eenvoudig product toe aan de wagen (hoeveelheid 2).
-1. Kies **Apple Pay** of **Google Pay** als betalingsmethode van het winkelwagentje.
+1. Kies **Apple Betalen** of **Google Betalen** als betalingsmethode van het het winkelwagentje.
 1. Plaats de bestelling.
 1. Open bestelgegevens vanaf de achterkant.
 1. Maak een gedeeltelijke factuur.
 1. Maak een andere factuur voor het resterende bedrag.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Gedeeltelijke facturen worden gemaakt.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De eerste gedeeltelijke factuur wordt gemaakt. Bij het maken van de tweede gedeeltelijke factuur krijgen gebruikers de volgende fout: *De opdracht &#39;vault_capture&#39; bestaat niet. Controleer de opdracht en probeer het opnieuw*.
+De eerste gedeeltelijke factuur wordt gemaakt. Tijdens het creëren van de tweede gedeeltelijke factuur, krijgen de gebruikers de volgende fout: *het bevel &quot;vault_capture&quot;bestaat niet. Verifieer het bevel en probeer opnieuw*.
 
 ## Oorzaak
 
@@ -53,4 +53,4 @@ Pas de volgende patch toe om het probleem op te lossen:
 
 ## Hoe de pleister moet worden aangebracht
 
-Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.

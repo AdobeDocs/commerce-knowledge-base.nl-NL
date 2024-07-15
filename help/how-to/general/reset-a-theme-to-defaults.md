@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Afhankelijk van de problemen die u tegenkomt bij het aanpassen van uw thema&#39;s en het ontwikkelen van uw winkel, hebt u mogelijk geen toegang via de Commerce Admin. U kunt het standaardthema wissen en herstellen zonder de beheerdersfunctie te gebruiken. Nadat u het thema hebt gewist, wordt het standaardthema Luminantie toegepast.
 
-Tijdens de ontwikkeling van Adobe Commerce (alle implementaties) en Magento Open Source-onderdelen (modules, thema&#39;s en taalpakketten), vereist uw snel veranderende omgeving dat u regelmatig bepaalde mappen en cache wist. Anders wordt de code uitgevoerd met uitzonderingen en werkt deze niet correct. Zie voor meer informatie [Mappen wissen tijdens ontwikkeling](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html) in onze ontwikkelaarsdocumentatie.
+Tijdens de ontwikkeling van Adobe Commerce (alle implementaties) en Magento Open Source-onderdelen (modules, thema&#39;s en taalpakketten), vereist uw snel veranderende omgeving dat u regelmatig bepaalde mappen en cache wist. Anders wordt de code uitgevoerd met uitzonderingen en werkt deze niet correct. Voor details, zie [ Duidelijke folders tijdens ontwikkeling ](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html) in onze ontwikkelaarsdocumentatie.
 
 ## Milieu en technologieën
 
@@ -30,7 +30,7 @@ Tijdens de ontwikkeling van Adobe Commerce (alle implementaties) en Magento Open
 
 Als u het winkelthema opnieuw moet instellen, maar geen toegang hebt tot het deelvenster Beheer, kunt u het als volgt opnieuw instellen in de database:
 
-1. Een databasegereedschap gebruiken, zoals [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) U kunt de database ook handmatig openen via de opdrachtregel om de volgende SQL-query uit te voeren: `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
+1. Gebruik een gegevensbestandhulpmiddel zoals [ phpMyAdmin ](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) of toegang manueel OB van de bevellijn om de volgende SQL vraag uit te voeren: `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
 1. Wis de volgende directory&#39;s:
    * `pub/static/frontend`
    * `var/view_preprocessing`
@@ -41,4 +41,4 @@ Op deze manier wordt er geen thema ingesteld op het weergaveniveau van de winkel
 
 ## Aanvullende informatie
 
-* [Mappen wissen tijdens ontwikkeling](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html) in onze documentatie voor ontwikkelaars
+* [ Duidelijke folders tijdens ontwikkeling ](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html) in onze ontwikkelingsdocumentatie

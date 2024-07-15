@@ -17,28 +17,28 @@ Dit artikel biedt een oplossing voor het probleem, waarbij klanten hun product u
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op locatie, [alle ondersteunde versies](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* Adobe Commerce op cloudinfrastructuur, [alle ondersteunde versies](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op-gebouw, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. De klant voegt producten toe aan winkelwagentje en gaat verder met het afrekenen.
 1. De klant wordt doorgestuurd naar de externe site voor betaling/verzending of andere informatie/service.
 1. De klant wordt teruggeleid naar de winkel.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
 De klant is omgeleid naar het lege winkelwagentje of een lege pagina.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 De klant is omgeleid naar een pagina voor een geslaagde betaling (of een andere succespagina), zonder dat de gegevens en voortgang van de afhandeling verloren gaan.
 
 ## Oorzaak
 
-Het Cookie-kenmerk SameSite is ingesteld op *Lax* of niet gespecificeerd (die worden behandeld als ingesteld op *Lax* ). Na `SameSite` = *Lax* schakelt het overbrengen van een cookie naar externe URL&#39;s via `POST` verzoeken.
+Het het koekjesattribuut van SameSite wordt geplaatst aan *Lax* of niet gespecificeerd (die als reeks aan *Lax* wordt behandeld). Het hebben van `SameSite` = *Lax* maakt het overbrengen van een koekje naar externe URLs via `POST` verzoeken onbruikbaar.
 
 ## Oplossing
 
@@ -46,4 +46,4 @@ Om de kwestie op te lossen, contacteer de derdedienstverlener en verzoek hun ont
 
 ## Gerelateerde lezing
 
-[Chrome SameSite-update](https://www.chromestatus.com/feature/5088147346030592)
+[ update Chrome SameSite ](https://www.chromestatus.com/feature/5088147346030592)

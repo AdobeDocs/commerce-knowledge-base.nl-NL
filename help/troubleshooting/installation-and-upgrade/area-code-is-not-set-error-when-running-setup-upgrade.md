@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Fout bij uitvoeren van &#39;Gebiedscode is niet ingesteld&#39; `setup:upgrade`
 
-Dit artikel bevat een patch voor het bekende Adobe Commerce-probleem met cloudinfrastructuur 2.2.3 dat verband houdt met het ophalen van de *&quot;Gebiedscode is niet ingesteld&quot;* fout bij het uitvoeren van de volgende opdracht:
+Dit artikel verstrekt een flard voor bekende Adobe Commerce op de kwestie van de wolkeninfrastructuur 2.2.3 met betrekking tot het krijgen van *&quot;de code van het Gebied is niet plaatste&quot;* fout wanneer het runnen van het volgende bevel:
 
 ```bash
 setup:upgrade
@@ -31,7 +31,7 @@ Wanneer u het
 bin/magento setup:upgrade
 ```
 
-krijgt u het volgende foutbericht: *&quot;Module &#39;Magento\_AdvancedSalesRule&#39;: Gegevens installeren...Gebiedscode niet ingesteld: Gebiedscode moet worden ingesteld voordat een sessie wordt gestart&quot;* en de uitvoering van de opdracht wordt onderbroken. De kwestie verschijnt omdat de gebiedsconfiguratie wordt gevraagd alvorens het eigenlijk wordt geplaatst. De patch maakt het mogelijk de fout op te vangen en het upgradeproces niet te onderbreken.
+bevel, krijgt u het volgende foutenbericht: *&quot;Module &quot;Magento\_AdvancedSalesRule&quot;: Het installeren van gegevens...Gebiedscode niet plaatste: De code van het Gebied moet worden geplaatst alvorens een zitting te beginnen&quot;* en de beveluitvoering wordt onderbroken. De kwestie verschijnt omdat de gebiedsconfiguratie wordt gevraagd alvorens het eigenlijk wordt geplaatst. De patch maakt het mogelijk de fout op te vangen en het upgradeproces niet te onderbreken.
 
 ## Reparatie
 
@@ -51,6 +51,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Bijgevoegde bestanden

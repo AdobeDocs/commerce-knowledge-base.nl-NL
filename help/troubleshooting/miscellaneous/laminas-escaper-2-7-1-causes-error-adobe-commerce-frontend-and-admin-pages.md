@@ -23,17 +23,17 @@ ht-degree: 0%
 
 Na de update naar laminas/laminas-escape:2.7.1 wordt een foutbericht weergegeven op de pagina.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Werk laminas/laminas-escaper bij naar 2.7.1.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Geen fout.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-Na update naar laminas/laminas-escaper:2.7.1 wordt een foutbericht weergegeven op een pagina voor productbewerking (of productbeheer): *TypeError: rawurlencode() verwacht dat parameter 1 een tekenreeks is, int in /var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php:246*
+Na update aan laminas/laminas-escaper:2.7.1 wordt een foutenmelding getoond op een product geeft (of productbeheer) pagina uit: *TypeError: rawurlencode () verwacht parameter 1 om koord te zijn, int die in /var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php wordt gegeven:246*
 Deze fout treedt op op de pagina&#39;s frontend en Admin, waardoor de inhoud van de pagina wordt vervormd.
 
 ## Oorzaak
@@ -42,8 +42,8 @@ laminas/laminas-escaper 2.7.1 begon strikte typedetectie te gebruiken voor de kl
 
 ## Oplossing
 
-Uitvoeren `composer require laminas/laminas-escaper:2.7.0` in de wortelfolder van elk project.
+Voer `composer require laminas/laminas-escaper:2.7.0` uit in de hoofdmap van elk project.
 
 ## Gerelateerde lezing
 
-Documentatie laminas: [laminas-escaper](https://docs.laminas.dev/laminas-escaper/)
+laminas Documentatie: [ laminas-escaper ](https://docs.laminas.dev/laminas-escaper/)

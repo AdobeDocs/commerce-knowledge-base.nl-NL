@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # git pull origin develop failed when update the Adobe Commerce software
 
-Dit artikel biedt een oplossing voor het feit dat u Adobe Commerce-software niet kunt bijwerken wanneer deze wordt uitgevoerd `git pull origin develop`.
+Dit artikel biedt een oplossing voor het probleem wanneer u geen Adobe Commerce-software kunt bijwerken wanneer `git pull origin develop` wordt uitgevoerd.
 
 ## Details
 
@@ -44,7 +44,7 @@ Uw oplossing hangt af van het feit of u opzettelijk bestanden hebt gewijzigd in 
 
 #### U hebt bestanden met opzet gewijzigd
 
-Los de conflicten handmatig op de gebruikelijke manier op. Als u niet zeker bent wat te doen, raadpleeg [Help bij GitHub](https://help.github.com/).
+Los de conflicten handmatig op de gebruikelijke manier op. Als u niet zeker bent wat te doen, raadpleeg [ hulp GitHub ](https://help.github.com/).
 
 #### Bestanden zijn niet opzettelijk gewijzigd
 
@@ -71,6 +71,6 @@ Probeer een van de volgende handelingen uit:
 
   >[!NOTE]
   >
-  >De Adobe adviseert of bevestigt geen bepaalde GitHub configuratiemontages. Het voorgaande is alleen suggesties. Raadpleeg voor meer informatie [Help bij GitHub](https://help.github.com/).
+  >De Adobe adviseert of bevestigt geen bepaalde GitHub configuratiemontages. Het voorgaande is alleen suggesties. Voor meer informatie, raadpleeg [ hulp GitHub ](https://help.github.com/).
 
   Ga door waar je bent gebleven met je Adobe Commerce-update.

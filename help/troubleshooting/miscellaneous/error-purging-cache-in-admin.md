@@ -14,7 +14,7 @@ ht-degree: 0%
 # Fout bij wissen van cache in Commerce Admin
 
 In dit artikel wordt uitgelegd hoe u de oorzaak kunt achterhalen van een foutbericht dat optreedt bij het leegmaken van de cache in Commerce Admin. Wanneer u de cache probeert te wissen via de beheerfunctie, ontvangt u het volgende bericht:
-*/app/project-id/pub/media/catalog/product/cache/directory/filename&quot;-bestand kan niet worden verwijderd. Waarschuwing!unlink(/app/project id/pub/media/catalog/product/cache/directory/filename): geen dergelijk bestand of deze map*
+Het bestand */app/project-id/pub/media/catalog/product/cache/directory/filename&quot; kan niet worden verwijderd. Waarschuwing!unlink(/app/project id/pub/media/catalog/product/cache/directory/filename): dergelijk bestand of deze map ontbreekt*
 
 ## Betrokken producten en versies
 
@@ -24,16 +24,16 @@ Adobe Commerce (alle implementatiemethoden) 2.3.0-2.3.7, 2.4.0-2.4.2-p1
 
 Wanneer u de cache probeert te wissen via de beheerfunctie, ontvangt u een foutbericht.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
-1. Ga in Beheer naar **Systeem** > **Gereedschappen** > **Cachebeheer**.
+1. In Admin, ga naar **Systeem** > **Hulpmiddelen** > **het Beheer van het Geheime voorgeheugen**.
 1. Selecteer een van de opties voor het wissen van de cache.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 U kunt de Adobe Commerce-cache zonder fouten leegmaken.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
 De fout &#39;&#39;Bestand kan niet worden verwijderd&#39;&#39; wordt weergegeven.
 
@@ -56,8 +56,8 @@ ls: cannot access 'pub/media/catalog/product/cache/directory/filename/': No such
 ```
 
 er is geprobeerd de bestanden te wissen toen de bewerking al was voltooid. Dit is geen insect; het is een kwestie van de overseinensgelijktijdig die naar verwachting soms zal gebeuren. Er is geen probleem om problemen op te lossen.
-Als echter uit de uitvoer blijkt dat de bestanden zich nog in de cache bevinden, moet u [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Nochtans, als de output toont dat de dossiers nog in het geheime voorgeheugen zijn, moet u [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen.
 
 ## Verwante lezing
 
-* [Cachebeheer](https://docs.magento.com/user-guide/system/cache-management.html) in onze ontwikkelaarsdocumentatie.
+* [ Beheer van het Geheime voorgeheugen ](https://docs.magento.com/user-guide/system/cache-management.html) in onze ontwikkelaarsdocumentatie.

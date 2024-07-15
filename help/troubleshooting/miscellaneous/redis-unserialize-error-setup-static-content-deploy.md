@@ -1,6 +1,6 @@
 ---
-title: Redis unserialize error ` setup:static-content:inzetten"
-description: Dit artikel bevat een oplossing voor de ongedaan-maken-fout van Redis bij het uitvoeren van de setup van "magento":static-content:inzetten".
+title: 'Redis unserialize fout "opstelling :static-content: stelt"op'
+description: 'Dit artikel verstrekt een moeilijke situatie voor Redis unserialize fout wanneer het runnen van ` magento opstelling :static-content: opstellen `.'
 exl-id: 4bc88933-3bf9-4742-b864-b82d3c1b07a9
 feature: Cache, Deploy, Page Content, SCD, Services, Variables
 role: Developer
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Fout bij ongedaan maken van Redis `setup:static-content:deploy`
+# Redis unserialize error `setup:static-content:deploy`
 
-Dit artikel bevat een oplossing voor de Redis-fout voor ongedaan maken bij uitvoering `magento setup:static-content:deploy`.
+Dit artikel bevat een oplossing voor de Redis-fout bij het ongedaan maken van de serienummering wanneer `magento setup:static-content:deploy` wordt uitgevoerd.
 
-Wordt uitgevoerd `magento setup:static-content:deploy` veroorzaakt de fout van Redis:
+Als `magento setup:static-content:deploy` wordt uitgevoerd, treedt de fout Redis op:
 
 ```
 [Exception]
@@ -25,13 +25,13 @@ Notice: unserialize(): Error at offset 0 of 1 bytes in
 
 Het probleem wordt veroorzaakt door parallelle storende processen op de Redis-verbinding.
 
-Uitvoeren om te herstellen `setup:static-content:deploy` in een single-thread-modus door de volgende omgevingsvariabele in te stellen:
+Als u wilt oplossen, voert u `setup:static-content:deploy` uit in een modus met één thread door de volgende omgevingsvariabele in te stellen:
 
 ```
 STATIC_CONTENT_THREADS =1
 ```
 
-of voert u de `setup:static-content:deploy` gevolgd door de `-j 1` (of `--jobs=1` ).
+of voert u de opdracht `setup:static-content:deploy` uit, gevolgd door het argument `-j 1` (of `--jobs=1` ).
 
 Merk op dat het onbruikbaar maken van multithreading het proces vertraagt om statische activa op te stellen.
 
@@ -43,7 +43,7 @@ Merk op dat het onbruikbaar maken van multithreading het proces vertraagt om sta
 
 ## Probleem
 
-De `setup:static-content:deploy` veroorzaakt de Redis-fout:
+Als u de opdracht `setup:static-content:deploy` uitvoert, treedt de fout Redis op:
 
 ```php
 )
@@ -79,17 +79,17 @@ Command php ./bin/magento setup:static-content:deploy --jobs=3  en_US  returned 
 
 Het probleem wordt veroorzaakt door parallelle storende processen op de Redis-verbinding.
 
-Hier, een proces in `App/Config/Type/System.php` had een reactie verwacht voor `system_defaultweb`, maar heeft een reactie ontvangen voor `system_cache_exists` dat is gebeurd via een ander proces . Zie de gedetailleerde uitleg in [Jason Woods-bericht](https://github.com/magento/magento2/issues/9287#issuecomment-302362283).
+In dit geval verwachtte een proces in `App/Config/Type/System.php` een reactie voor `system_defaultweb` , maar ontving het een reactie voor `system_cache_exists` die door een ander proces werd gemaakt. Zie de gedetailleerde verklaring in [ Jason Woods&#39; post ](https://github.com/magento/magento2/issues/9287#issuecomment-302362283).
 
 ## Oplossing
 
-Parallelisme uitschakelen en uitvoeren `setup:static-content:deploy` in een single-thread-modus door de volgende omgevingsvariabele in te stellen:
+U kunt parallellisme uitschakelen en `setup:static-content:deploy` uitvoeren in een modus met één thread door de volgende omgevingsvariabele in te stellen:
 
 ```
 STATIC_CONTENT_THREADS =1
 ```
 
-U kunt ook de opdracht `setup:static-content:deploy` gevolgd door de `-j 1` (of `--jobs=1`).
+U kunt ook de opdracht `setup:static-content:deploy` uitvoeren, gevolgd door het argument `-j 1` (of `--jobs=1` ).
 
 >[!NOTE]
 >
@@ -99,5 +99,5 @@ U kunt ook de opdracht `setup:static-content:deploy` gevolgd door de `-j 1` (of 
 
 In onze documentatie voor ontwikkelaars:
 
-* [Redis configureren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/config-redis.html)
-* [Opdrachtregelupgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)
+* [ vormen Redis ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/config-redis.html)
+* [ bevel-lijn verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)

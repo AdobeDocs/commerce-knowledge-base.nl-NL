@@ -22,26 +22,26 @@ In dit artikel wordt uitgelegd dat de meeste betalingsmethoden niet worden weerg
 
 >[!NOTE]
 >
->De belangrijkste integratie van Adobe Commerce Cybersource-betalingen is sinds 2.3.3 verouderd en zal in 2.4.0 volledig worden verwijderd. Gebruik de [officiële verlenging](https://marketplace.magento.com/cybersource-global-payment-management.html) in plaats daarvan van Marketplace.
+>De belangrijkste integratie van Adobe Commerce Cybersource-betalingen is sinds 2.3.3 verouderd en zal in 2.4.0 volledig worden verwijderd. Gebruik in plaats hiervan de [ officiële uitbreiding ](https://marketplace.magento.com/cybersource-global-payment-management.html) van Marketplace.
 
 ## Probleem
 
-<u>Vereisten</u>: Schakel in Commerce Admin de betalingsmethoden PayPal en Cybersource in en configureer deze. Schakel Multiverzending voor uw winkel in.
+<u> Vereisten </u>: In Commerce Admin, laat en vormt PayPal en Cybersource betalingsmethodes toe, en laat MultiShipping voor uw opslag toe.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Voeg in de winkel meerdere producten toe aan de winkelwagentje.
 1. Ga naar de winkelwagentje pagina.
-1. Klikken **Uitchecken met meerdere adressen**.
+1. Klik **Controle uit met Veelvoudige Adressen**.
 1. Meld u aan of maak account.
 1. Splits omhoog producten tussen de adressen op de Schip aan Veelvoudige pagina van Adressen.
-1. Klikken **Ga naar Verzendgegevens**.
+1. Klik **gaan naar de Verzendinformatie**.
 1. Selecteer verzendmethoden voor elke verzending.
-1. Klikken **Doorgaan met factureringsgegevens**.
+1. Klik **blijven aan het Factureren Informatie**.
 
-<u>Verwacht resultaat</u>: PayPal en Cybersource zijn beschikbaar als betalingsopties.
+<u> Verwacht resultaat </u>: PayPal en Cybersource zijn beschikbaar als betalingsopties.
 
-<u>Werkelijk resultaat</u>: Alleen Cybersource wordt weergegeven als beschikbare betalingsoptie.
+<u> Ware resultaat </u>: Slechts verschijnt Cybersource als beschikbare betalingsoptie.
 
 ## Oorzaak
 

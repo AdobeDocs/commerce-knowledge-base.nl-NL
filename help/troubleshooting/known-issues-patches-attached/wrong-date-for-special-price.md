@@ -17,30 +17,30 @@ Dit artikel bevat een patch voor het bekende Adobe Commerce 2.2.2-probleem met b
 
 ## Probleem
 
-Wanneer u de speciale prijs voor een product instelt/wijzigt, worden de huidige datum en tijd in de database opgeslagen als een waarde voor de `special_from_date` kenmerk (niet zichtbaar bij het bewerken van een product). Als u de speciale prijs bewerkt en uw beheergebruikersaccount is ingesteld op een andere interface-landinstelling, kan een verkeerde waarde worden ingesteld op `special_from_date` vanwege de problemen in de notatie voor parseerdatums voor verschillende landinstellingen.
+Wanneer u de speciale prijs voor een product instelt/wijzigt, worden de huidige datum en tijd in de database opgeslagen als een waarde voor het kenmerk `special_from_date` (niet zichtbaar bij het bewerken van een product). Als u de speciale prijs bewerkt en uw beheergebruikersaccount is ingesteld op een andere interfacetaal, is het mogelijk dat een verkeerde waarde is ingesteld op `special_from_date` vanwege de problemen in de notatie voor de parseerdatum voor verschillende landinstellingen.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Vereisten: de landinstelling van de gebruiker voor het beheer is Engels (Verenigde Staten).
 
 1. Meld u aan bij de Commerce-beheerder.
 1. Ga naar de instellingen voor de gebruikersaccount van de beheerder.
 1. Stel interfacelocatie in op Oekraïens.
-1. Klikken **Account opslaan**.
+1. Klik **sparen Rekening**.
 1. Ga naar **Catalogus** > **Product**.
 1. Selecteer een product.
-1. Klik op de productpagina op **Geavanceerde prijzen**.
+1. Voor de productpagina, klik **Geavanceerde Prijsbepaling**.
 1. Voeg een speciale prijs toe.
 1. Sla het product op.
 1. Herhaal stap 7-9.
-1. Ga naar **Systeem** > **Handelingenlogboeken**.
+1. Ga naar **Systeem** > **Logboeken van de Actie**.
 1. Controleer het logboek op productupdate.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De begindatum voor de speciale prijs moet de huidige datum zijn.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De begindatum voor de speciale prijs is een datum die enkele jaren in de toekomst ligt, zodat de speciale prijs niet actief kan zijn.
 
@@ -67,6 +67,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

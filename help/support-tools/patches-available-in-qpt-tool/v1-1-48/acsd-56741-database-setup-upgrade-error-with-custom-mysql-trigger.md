@@ -1,9 +1,10 @@
 ---
 title: 'ACSD-56741: Problemen met fouten met de installatie van databases oplossen met aangepaste MySQL-triggers'
-description: Pas ACSD-56741 flard toe om de kwestie van Adobe Commerce te bevestigen waar een foutenmelding *Poging om tot seriecompensatie op waarde van type ongeldig* te toegang te hebben "verschijnt tijdens opstelling:verbetering"wegens een douane MySQL trekker in het gegevensbestand niet verwant aan indexatie en [!DNL MView].
+description: Pas ACSD-56741 flard toe om de kwestie van Adobe Commerce te bevestigen waar een foutenmelding *Poging tot seriecompensatie op waarde van type null* tijdens opstelling te toegang te hebben:verbetering ` toe te schrijven aan een douane MySQL trekker in het gegevensbestand niet verwant aan indexatie en  [!DNL MView].
 feature: Install
 role: Admin, Developer
-source-git-commit: 216ce1035584e4c049029073ee0017d3616cdbd6
+exl-id: 97839140-03c5-44f0-ba75-935d62f5bf90
+source-git-commit: 7cd830d9ba4af6350a14e0cdb50439d2d07084dc
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -12,29 +13,29 @@ ht-degree: 0%
 
 # ACSD-56741: Problemen met fouten in de installatie van databases oplossen met aangepaste MySQL-triggers
 
-De ACSD-56741-patch verhelpt het probleem waarbij een foutbericht verschijnt *Arrayverschuiving benaderen bij waarde van type null* verschijnt tijdens `setup:upgrade` vanwege een aangepaste MySQL-trigger in de database die geen verband houdt met indexering en [!DNL MView]. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is geïnstalleerd. De patch-id is ACSD-56741. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.5.0
+ACSD-56741 flardmoeilijke situatie de kwestie waar een foutenmelding *probeert toegang te hebben tot matrixcompensatie op waarde van type ongeldig* verschijnt tijdens `setup:upgrade` toe te schrijven aan een douaneMySQL trekker in het gegevensbestand niet verwant aan indexatie en [!DNL MView]. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 wordt geïnstalleerd. De patch-id is ACSD-56741. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.5.0
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6-p3
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6 - 2.4.6-p4
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Een foutbericht *Arrayverschuiving benaderen bij waarde van type null* verschijnt tijdens `setup:upgrade` vanwege een aangepaste MySQL-trigger in de database die geen verband houdt met indexering en [!DNL MView].
+Een foutenmelding *die probeert om tot matrixcompensatie op waarde van type ongeldig* toegang te hebben verschijnt tijdens `setup:upgrade` toe te schrijven aan een douaneMySQL trekker in het gegevensbestand niet verwant aan indexatie en [!DNL MView].
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Uitvoeren `php bin/magento indexer:set-mode schedule`.
+1. Voer `php bin/magento indexer:set-mode schedule` uit.
 
    ```
    DELIMITER //
@@ -44,31 +45,31 @@ Een foutbericht *Arrayverschuiving benaderen bij waarde van type null* verschijn
        -> END //
    ```
 
-1. Uitvoeren `php bin/magento c:f`.
-1. Uitvoeren `php bin/magento setup:upgrade`.
+1. Voer `php bin/magento c:f` uit.
+1. Voer `php bin/magento setup:upgrade` uit.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De setup-upgrade wordt zonder fouten voltooid.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De setup-upgrade wordt afgesloten met een foutbericht:
 
-*Waarschuwing: Arrayverschuiving proberen te benaderen bij waarde van type null*.
+*Waarschuwing: Het proberen om tot matrixcompensatie op waarde van type ongeldig* toegang te hebben.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

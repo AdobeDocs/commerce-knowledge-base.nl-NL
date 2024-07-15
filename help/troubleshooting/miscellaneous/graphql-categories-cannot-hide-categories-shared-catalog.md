@@ -20,9 +20,9 @@ ht-degree: 0%
 
 ## Probleem
 
-GraphQL-categorieën en `categoryList` wordt de categorietoestemming genegeerd om categorieën in een gedeelde catalogus te verbergen. Dit gebeurt bij alle verkopers op Adobe Commerce 2.4.3 met B2B Gedeelde functie van de Catalogus ingeschakeld.
+GraphQL-categorieën en `categoryList` -query&#39;s negeren de categorietoestemming om categorieën in een gedeelde catalogus te verbergen. Dit gebeurt bij alle verkopers op Adobe Commerce 2.4.3 met B2B Gedeelde functie van de Catalogus ingeschakeld.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Vereisten:
 
@@ -34,14 +34,14 @@ Dit gebeurt bij alle verkopers op Adobe Commerce 2.4.3 met PWA storefront die Gr
 1. Wijs een paar producten aan elk van deze categorieën toe.
 1. Wijs CAT1 aan de douanecatalogus toe, unassign CAT2 van de douane privé catalogus. Hierdoor worden alle producten van CAT2 uit de gedeelde catalogus verwijderd.
 1. Sla de aangepaste catalogus op.
-1. Stel de categorietoestemming voor CAT2 in op *Weigeren* In de categorie bladeren en de klantengroep instellen op de bovenstaande persoonlijke catalogus.
-1. Voer de `categoryList query` of de categorieën vragen als bedrijfgebruiker van stap drie.
+1. Plaats de categorietoestemming voor CAT2 aan *ontken* het doorbladeren categorie en de klantengroep plaatsen aan de bovengenoemde privé catalogus.
+1. Voer de query `categoryList query` of de categoriesquery uit als de bedrijfsgebruiker van stap drie.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Alleen de CAT1 wordt weergegeven in de resultaten.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Alle categorieën worden weergegeven, ongeacht of ze zijn toegewezen/niet toegewezen in de gedeelde catalogus of wat de categorietoestemmingen zijn.
 
@@ -51,8 +51,8 @@ Functionaliteit is niet geïmplementeerd.
 
 ## Oplossing
 
-De kwestie zal in het toepassingsgebied van versie 2.4.4 worden geregeld en handelaren zouden [een ticket verzenden](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om een aangepaste pleister aan te brengen als zij een oplossing nodig hebben vóór de release van 2.4.4.
+De kwestie zal in het werkingsgebied van versie 2.4.4 worden bevestigd, en de handelaren zouden [ een kaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) moeten voorleggen om een douaneflard te krijgen als zij een oplossing voorafgaand aan 2.4.4 versie nodig hebben.
 
 ## Gerelateerde lezing
 
-* [Beste praktijken Adobe Commerce aantal rubrieken limieten](https://support.magento.com/hc/en-us/articles/360048176832) in onze kennisbasis voor ondersteuning.
+* [ aantal van de beste praktijken Adobe Commerce van categoriegrenzen ](https://support.magento.com/hc/en-us/articles/360048176832) in onze basis van de steunkennis.

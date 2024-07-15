@@ -31,5 +31,5 @@ Het probleem is opgelost in Adobe Commerce 2.3.1.
 
 ## Gerelateerde lezing
 
-* [Verschillende adressen niet toegestaan wanneer het unselecting &quot;Mijn facturerings en het verschepen adres zijn het zelfde&quot;gebruikend VertexAddress het Schoonmaken](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md) in onze kennisbasis voor ondersteuning.
-* [Adobe Commerce 2.4.1 Vertex Bericht voor validatie van hoekpunt Bericht na adresupdate](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) in onze kennisbasis voor ondersteuning.
+* [ Verschillende adressen niet toegestaan wanneer het unselecting &quot;Mijn het factureren en het verschepen adres zijn het zelfde&quot;gebruikend Reiniging VertexAddress ](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md) in onze basis van steunkennis.
+* [ Adobe Commerce 2.4.1 het bericht van de bevestiging van het Adres van de top van het Adres postadres update ](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) in onze basis van de steunkennis.

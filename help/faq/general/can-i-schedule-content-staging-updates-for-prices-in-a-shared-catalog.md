@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Kan ik updates voor het opslaan van inhoud plannen voor prijzen in een gedeelde catalogus?
 
-Adobe Commerce biedt geen functionaliteit voor het plannen van een prijsupdate ([Inhoud stapelen](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) voor een of meer producten in een gedeelde catalogus.
+Adobe Commerce biedt niet de functionaliteit aan om een prijsupdate ([ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) voor één of meerdere producten in een gedeelde catalogus te plannen.
 
-Dit betekent dat u een dergelijke prijsupdate niet rechtstreeks vanuit de **Prijsbepaling en structuur instellen** menu van het deelvenster Commerce-beheer (er is geen **Nieuwe update plannen** in dit menu).
+Dat betekent u niet direct een dergelijke prijsupdate van het **Vastgestelde Prijsbepaling en het menu van de Structuur** van het paneel van Admin van Commerce kunt plannen (er is geen **Nieuwe knoop van de Update van het Programma** in dit menu).
 
 Toch kunt u alternatieve methodes gebruiken en een prijsupdate voor plannen:
 
@@ -23,14 +23,14 @@ Toch kunt u alternatieve methodes gebruiken en een prijsupdate voor plannen:
 
 ## Prijsupdate plannen voor een klantengroep
 
-1. Start [een nieuwe productupdate plannen](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html).
-1. Omlaag schuiven naar de **Prijs** veld en klik op **Geavanceerde prijzen**.
+1. Het begin [ die een nieuwe productupdate ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html) plant.
+1. De rol neer aan het **Prijs** gebied en klikt **Geavanceerde Prijsbepaling**.
 
-   ![advanced_pricing.png](assets/advanced_pricing.png){width="600"}
+   ![ advanced_pricing.png ](assets/advanced_pricing.png){width="600"}
 
-1. In de **Prijssectie voor klantgroep**, selecteert u de gewenste klantengroep en stelt u de bijgewerkte prijs in.
+1. In de **sectie van de Prijs van de Groep van de Klant**, selecteer de vereiste Groep van de Klant en plaats de bijgewerkte prijs.
 
-   ![customer_group_price.png](assets/customer_group_price.png){width="700"}
+   ![ customer_group_price.png ](assets/customer_group_price.png){width="700"}
 
 1. Beëindig het plannen van de update zoals gebruikelijk.
 
@@ -38,11 +38,11 @@ In deze workflow kunt u alleen de prijs voor één product bijwerken. De update 
 
 Herinner me: gedeelde catalogi hefboomwerking de prijs van de klantengroep.
 
-**Gerelateerde documentatie**
+**Verwante documentatie**
 
-* [Een update plannen (inhoud stapelen)](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html) in onze gebruikershandleiding.
-* [Geavanceerde prijzen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) in onze gebruikershandleiding.
+* [ plannend een update (Inhoud het Opvoeren) ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html) in onze gebruikersgids.
+* [ Geavanceerde Prijsbepaling ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) in onze gebruikersgids.
 
 ## Prijsupdate voor schema voor de basisprijs
 
-Zie het verwante artikel: [Welke invloed heeft de wijziging van de basisprijs op de prijs van de gedeelde catalogus?](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md) in onze kennisbasis voor ondersteuning.
+Zie het verwante artikel: [ hoe de verandering van de basisprijs de gedeelde catalogusprijs beïnvloedt?](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md) in onze kennisbasis voor ondersteuning.

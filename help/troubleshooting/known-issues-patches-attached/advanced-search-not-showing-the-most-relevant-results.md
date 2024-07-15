@@ -24,17 +24,17 @@ Dit artikel bevat een patch voor het bekende Adobe Commerce-probleem, waarbij de
 
 De geavanceerde zoekfunctie retourneert niet eerst de meest relevante resultaten, zoals de snelle zoekopdracht doet. Het probleem is niet afhankelijk van het geselecteerde type zoekmachine.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. Ga in de winkel naar de snelzoekfunctie en zoek naar &quot;Flitsomslag&quot;.
 1. Opmerking &quot;Orion Two-Tone Fitting Jacket&quot; is het eerste resultaat.
 1. Ga naar Geavanceerde zoekopdracht en zoek naar &#39;&#39;Geschikt jasje&#39;&#39; in het naamveld.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 Het &quot;Orion Two-Tone Gedichte Jasje&quot;is het eerste resultaat wanneer het gebruiken van Geavanceerd onderzoek, als het meest relevante resultaat.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
 Het &quot;Orion Two-Tone Fitting Jacket&quot; is niet het eerste resultaat, hoewel het het meest relevant is.
 
@@ -50,6 +50,6 @@ De patch is compatibel met alle betrokken versies en versies.
 
 ## Hoe de pleister aanbrengen
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Bijgevoegde bestanden

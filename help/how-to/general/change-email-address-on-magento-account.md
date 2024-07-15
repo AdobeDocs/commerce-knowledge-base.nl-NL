@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hoe wijzigt u het e-mailadres op magento.com-account wanneer het veld grijs wordt weergegeven?
 
-In dit artikel wordt uitgelegd hoe u het e-mailadres op uw [Magento.com](https://account.magento.com) als het veld grijs wordt weergegeven.
+Dit artikel verklaart hoe te om het e-mailadres op uw [ Magento.com ](https://account.magento.com) rekening te veranderen wanneer het gebied uit grijs wordt.
 
 ## Betrokken producten en versies
 
@@ -20,15 +20,15 @@ In dit artikel wordt uitgelegd hoe u het e-mailadres op uw [Magento.com](https:/
 
 ## Oorzaak
 
-Het e-mailadres op uw [Magento.com](https://account.magento.com) account is gekoppeld aan je Adobe account op <https://account.adobe.com> en moet daar worden bijgewerkt.
+Het e-mailadres op uw [ Magento.com ](https://account.magento.com) rekening is verbonden met uw rekening van de Adobe in <https://account.adobe.com> en zal daar moeten worden bijgewerkt.
 
 ## Stappen om het e-mailadres te wijzigen
 
 ### Zaak I:
 
-Het e-mailadres wijzigen van een gebruiker met een eigen account op <https://account.adobe.com>
+Het e-mailadres wijzigen voor een gebruiker met een eigen account op <https://account.adobe.com>
 
-<u>Oplossing</u>
+<u> Oplossing </u>
 
 1. Verzend een e-mail naar Grp-magento-HelpCenterLoginIssues@adobe.com waarin het volgende wordt vermeld:
 
@@ -42,20 +42,20 @@ Het e-mailadres wijzigen van een gebruiker met een eigen account op <https://acc
 
 Het e-mailadres wijzigen van een gebruiker die momenteel geen eigen account heeft op <https://account.adobe.com>
 
-<u>Oplossing</u>
+<u> Oplossing </u>
 
-Als u toegang tot de brievenbus van hebt [e-mail huidige eigenaar], het wachtwoord voor de e-mail van de huidige eigenaar opnieuw instellen na de [Wachtwoord voor Adobe opnieuw instellen of wijzigen](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in de gebruikershandleiding van het Creative Cloud.
+Als u toegang tot de brievenbus van de [ huidige eigenaar e-mail ] hebt, stel het wachtwoord voor de e-mail van de huidige eigenaar na het [ Terugstellen terug of verander uw gids van het het wachtwoord van de Adobe ](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in de Gids van de Gebruiker van het Creative Cloud.
 
 1. Zoek de koppeling voor het opnieuw instellen van wachtwoorden die naar de postbus van de huidige eigenaar is verzonden met instructies.
-1. Stel een nieuw wachtwoord in en wijzig de e-mail in [e-mail nieuwe eigenaar].
-1. Ga naar de [IMS-account](https://account.adobe.com/) om u aan te melden met de nieuwe e-mail en het wachtwoord te wijzigen.
-1. Nadat u het e-mailadres en wachtwoord hebt gewijzigd, navigeert u naar [Magento.com](https://account.magento.com) aan login die [e-mail nieuwe eigenaar].
+1. Plaats een nieuw wachtwoord, en verander e-mail in [ nieuwe eigenaar e-mail ].
+1. Navigeer aan de [ Rekening IMS ](https://account.adobe.com/) aan login met nieuwe e-mail, en verander het wachtwoord.
+1. Na het veranderen van het e-mailadres en wachtwoord, navigeer aan [ Magento.com ](https://account.magento.com) aan login gebruikend [ nieuwe eigenaar e-mail ].
 
-Als u echter geen toegang hebt tot e-mailberichten die naar de [e-mail huidige eigenaar]Voer de volgende stappen uit:
+Nochtans, als u geen toegang tot e-mail hebt die naar [ wordt verzonden huidige eigenaar e-mail ], volg deze stappen:
 
-1. E-mailverzending instellen vanuit de [e-mail huidige eigenaar] naar een nieuwe e-mail met gebruik van de configuratie van de mailserver van uw bedrijf.
+1. De opstelling e-mail die van de [ huidige eigenaar e-mail ] door:sturen aan een nieuwe e-mail gebruikend de configuratie van de de postserver van uw bedrijf.
 1. Ga nu verder met de voorafgaande stappen.
 
 ## Gerelateerde lezing
 
-[Wachtwoord vergeten opnieuw instellen](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in de gebruikershandleiding van het Creative Cloud.
+[ het vergeten wachtwoord van het Terugstellen ](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in de Gids van de Gebruiker van het Creative Cloud.

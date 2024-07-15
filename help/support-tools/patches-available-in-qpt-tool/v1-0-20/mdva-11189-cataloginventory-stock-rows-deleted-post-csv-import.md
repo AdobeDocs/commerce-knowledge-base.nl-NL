@@ -13,64 +13,64 @@ ht-degree: 0%
 
 # MDVA-11189: catalogusvoorraad rijen verwijderd na CSV-import
 
-De MDVA-11189 Adobe Commerce-patch verhelpt het probleem bij het importeren van een .csv-bestand om de productvoorraad bij te werken, rijen van de `cataloginventory_stock` de tabel wordt verwijderd. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is geïnstalleerd. De patch-id is MDVA-1189. De kwestie is opgelost in Adobe Commerce 2.3.5.
+De MDVA-11189 Adobe Commerce-patch verhelpt het probleem wanneer na het importeren van een .csv-bestand om de productvoorraad bij te werken, rijen uit de `cataloginventory_stock` -tabel worden verwijderd. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 geïnstalleerd is. De patch-id is MDVA-1189. De kwestie is opgelost in Adobe Commerce 2.3.5.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:** Adobe Commerce over wolkeninfrastructuur 2.2.3
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:** Adobe Commerce op wolkeninfrastructuur 2.2.3
 
-**Compatibel met Adobe Commerce-versies:** Adobe Commerce (alle implementatiemethoden) 2.3.0-2.3.4-p2
+**Compatibel met de versies van Adobe Commerce:** Adobe Commerce (alle plaatsingsmethodes) 2.3.0-2.3.4-p2
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Het probleem bij het importeren van een `.csv` om productvoorraad bij te werken, rijen van `cataloginventory_stock` de tabel wordt verwijderd.
+Hiermee wordt het probleem verholpen wanneer na het importeren van een `.csv` om de productvoorraad bij te werken, rijen uit de tabel `cataloginventory_stock` worden verwijderd.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. Voer in de database de volgende MySQL-opdracht uit: `select count(*) from cataloginventory_stock_status;`
 1. Noteer het aantal rijen.
 1. Stel de tab als volgt in: `* * * * * /usr/bin/php <path to installation>/bin/magento cron:run  | grep -v "Ran jobs by schedule" >> <path to installation>/var/log/cron.log 2>&1`
-1. Ga naar het deelvenster Beheer in **Systeem** > **Gereedschappen** > **Indexbeheer**.
-1. Indexeerders instellen op *Bijwerken volgens schema.*
-1. Ga naar **Systeem** > *Gegevensoverdracht* > **Exporteren**.
-1. Set **Type entiteit** gelijk aan *Producten* > **Doorgaan**.
-1. Opgeslagen bestanden openen `.csv` Bestand > Alle kolommen verwijderen behalve SKU en QTY.
+1. Ga naar het Admin paneel in **Systeem** > **Hulpmiddelen** > **het Beheer van de Index**.
+1. Plaats indexeerders aan *Update door Programma.*
+1. Ga naar **Systeem** > *Overdracht van Gegevens* > **Uitvoer**.
+1. Plaats **Type van Entiteit** gelijk aan *Producten* > **gaat** verder.
+1. Open het opgeslagen `.csv` -bestand > Alle kolommen verwijderen behalve SKU en QTY.
 1. Werk de hoeveelheid voor alle producten bij tot 150.
-1. Sla de `.csv` bestand.
-1. Ga naar **Systeem** > *Gegevensoverdracht* > **Importeren** .
+1. Sla het `.csv` -bestand op.
+1. Ga naar **Systeem** > *Overdracht van Gegevens* > **de Invoer**.
 1. Stel de volgende waarden in:
-   1. Type entiteit: *Producten*
-   1. Gedrag bij importeren: *Toevoegen/bijwerken*
+   1. Type van entiteit: *Producten*
+   1. Het Gedrag van de invoer: *voeg/Update* toe
    1. Laat alle andere waarden standaard staan.
    1. Kies Bestand om de productspreadsheet van de catalogus te selecteren.
-1. Klikken **Gegevens controleren** > **Importeren**. Laat 5-10 minuten passeren.
+1. Klik **Gegevens van de Controle** > **de Invoer**. Laat 5-10 minuten passeren.
 1. Voer in de database de volgende MySQL-opdracht uit:
    `select count(*) from cataloginventory_stock_status;`
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-Het aantal rijen in `cataloginventory_stock` wordt verlaagd na de CSV-invoer om de voorraad bij te werken.
+Het aantal rijen in `cataloginventory_stock` wordt verlaagd nadat de CSV-bestanden zijn geïmporteerd om de bestanden bij te werken.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
-Het aantal rijen in `cataloginventory_stock` moeten na de CSV-invoer gelijk blijven om de voorraad bij te werken.
+Het aantal rijen in `cataloginventory_stock` moet gelijk blijven na het importeren van de CSV om de voorraad bij te werken.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [Patches beschikbaar in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar [ die flarden beschikbaar in QPT ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.

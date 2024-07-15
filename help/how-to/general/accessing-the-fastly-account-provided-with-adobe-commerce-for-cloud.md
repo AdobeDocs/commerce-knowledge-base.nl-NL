@@ -16,12 +16,12 @@ In dit artikel wordt uitgelegd hoe u zich kunt aanmelden bij uw Fastly-account d
 
 ## Uw snelle referenties bekijken
 
-Raadpleeg de [Snelle aanmeldingsgegevens ophalen](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar [ krijgt de Snelle sectie van Referenties ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds) in onze ontwikkelaarsdocumentatie.
 
 ## De snelreferenties testen
 
-Raadpleeg de [Test de snelreferenties](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar de [ Test de Snelle sectie van Referenties ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
 
 ## Gerelateerde lezing
 
-[Accounteigenaar wijzigen (toegangsgegevens via API-tokens) voor Fastly op Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md) in onze kennisbasis voor ondersteuning.
+[ de rekeningseigenaar van de Verandering (toegangsgeloofsbrieven via API tokens) voor Fastly op Wolk ](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md) in onze basis van de steunkennis.

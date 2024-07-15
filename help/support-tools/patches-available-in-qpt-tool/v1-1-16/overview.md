@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.16'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.16.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.16'
+description: Deze subsectie biedt een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in  [!DNL Quality Patches Tool]  (QPT) v1.1.16.
 exl-id: 1a9cdcda-ca01-48aa-8387-60609f81d758
 feature: Tools and External Services
 role: Admin
@@ -11,17 +11,17 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht versie 1.1.16
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.1.16
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.16.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.16.
 
 QPT v1.1.16 bevat de volgende patches:
 
-1. **42509**: Hiermee wordt het probleem verholpen waarbij een CSV niet kan worden geüpload voor een snelle volgorde, wat resulteert in een *Kan het cookie niet verzenden* fout.
-1. **MDVA-43167**: Hiermee wordt het probleem verholpen waarbij de handeling voor de massa van het raster van de beheervolgorde niet van toepassing is op meerdere pagina&#39;s wanneer de beheerder alle bestellingen selecteert.
-1. **MDVA-4404**: Hiermee wordt het probleem verholpen waarbij een product niet op de categoriepagina wordt weergegeven nadat het aan een nieuwe website is toegewezen.
-1. **44562**: Hiermee wordt het probleem verholpen waarbij de niet-standaard opslag-id voor aanhalingstekens wordt overschreven door de standaard winkel-id, ondanks het GraphQL-verzoek dat afkomstig is uit de niet-standaard winkelweergave.
-1. **44703**: Hiermee wordt de kwestie opgelost waarbij de ordertotalen in het rapport Opdrachten onjuist zijn berekend voor de beperkte gebruiker van de beheerder.
-1. **MDVA-44940**: Hiermee corrigeert u de SQL-fout die optreedt bij het opslaan van de categorie in de beheerfunctie.
+1. **MDVA-42509**: Verhelpt de kwestie waar geen CSV voor een snelle orde kon niet worden geupload die in *resulteert Onbekwaam om de koekjesfout* te verzenden.
+1. **MDVA-43167**: Verhelpt de kwestie waar de de massa van het de ordennet van de admin actie niet voor multi-pagina van toepassing is wanneer de admin gebruiker alle orden selecteert.
+1. **MDVA-44044**: Verhelpt de kwestie waar een product niet op de categoriepagina wordt getoond nadat het aan een nieuwe website wordt toegewezen.
+1. **MDVA-44562**: Bevestigt de kwestie waar niet-gebrek opslag identiteitskaart voor citaatpunten door standaard opslagidentiteitskaart wordt met voeten getreden, ondanks het verzoek van GraphQL voortkomend uit de niet-gebrek opslagmening.
+1. **MDVA-44703**: Verhelpt de kwestie waar de ordertotalen in het rapport van Orden verkeerd worden berekend voor de beperkte admin gebruiker.
+1. **MDVA-44940**: Verhelpt de SQL fout die terwijl het bewaren van de categorie van Admin voorkomt.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

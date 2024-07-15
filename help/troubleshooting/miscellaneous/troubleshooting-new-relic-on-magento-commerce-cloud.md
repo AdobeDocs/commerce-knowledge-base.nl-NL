@@ -28,13 +28,13 @@ Dit artikel bevat bronnen voor het oplossen van problemen met New Relic op Adobe
 <tr>
 <td>
 <p><u>Kan geen projecten zien in New Relic.</u></p>
-<p>Aanmelden bij <em>New Relic</em> maar u kunt geen projecten zien die u recht zouden moeten hebben op weergave/toegang.</p>
+<p>U login aan <em> New Relic </em> maar kan geen projecten zien u aan mening/toegang zou moeten gerechtigd zijn.</p>
 </td>
 <td>
 <p>In die gevallen, moet een admin gebruiker u aan het project toevoegen.</p>
 </td>
 <td>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">Toegang tot New Relic-services</a> in onze kennisbasis voor ondersteuning.</p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html"> Toegang tot de diensten van New Relic </a> in onze basis van de steunkennis.</p>
 </td>
 </tr>
 <tr>
@@ -43,7 +43,7 @@ Dit artikel bevat bronnen voor het oplossen van problemen met New Relic op Adobe
 <tr>
 <td>
 <p><u>Ontbrekende gegevens na installatie.</u></p>
-<p>Gebruik de <a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics">New Relic Diagnostics-hulpprogramma</a> proberen de oorzaak te achterhalen. Als dit niet helpt, kijk agentenspecifieke oplossingen. De koppelingen naar artikelen met deze oplossingen staan in de rechterkolom.</p>
+<p>Gebruik het <a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics"> nut van de Diagnostiek van New Relic </a> om de oorzaak te identificeren. Als dit niet helpt, kijk agentenspecifieke oplossingen. De koppelingen naar artikelen met deze oplossingen staan in de rechterkolom.</p>
 </td>
 <td>
 <p>Ontbrekende gegevens kunnen verschillende oorzaken hebben. Mogelijk moet u:</p>
@@ -66,7 +66,7 @@ Dit artikel bevat bronnen voor het oplossen van problemen met New Relic op Adobe
 </tr>
 <tr>
 <td>
-<p><u>Transactietijdstempelafwijking.</u> U kunt moeite hebben om lange transacties (meer dan 5 minuten) te vinden met de gebruikersinterface van New Relic. Het is ook mogelijk dat transacties buiten het verwachte tijdkader worden weergegeven.</p>
+<p><u> tijdstempeldiscrepantie van Transacties.</u> U kunt moeite hebben om lange transacties (meer dan 5 minuten) te vinden via de gebruikersinterface van New Relic. Het is ook mogelijk dat transacties buiten het verwachte tijdkader worden weergegeven.</p>
 </td>
 <td>
 <p>De gebruikersinterface van New Relic geeft de tijd van het einde van de transactie weer, niet de tijd waarop de transactie is gestart.</p>
@@ -77,13 +77,13 @@ Dit artikel bevat bronnen voor het oplossen van problemen met New Relic op Adobe
 </tr>
 <tr>
 <td>
-<p><u>NerdGraph GraphQL <code>curl</code> vragen met speciale tekens zoals <code>|</code> en <code>%</code> werken niet</u>.</p>
+<p><u> NerdGraph GraphQL <code>curl</code> vragen gebruikend speciale karakters zoals <code>|</code> en <code>%</code> werken niet </u>.</p>
 </td>
 <td>
-<p>De functie 'copy to curl' van New Relic in NerdGraph biedt momenteel geen manier om speciale tekens zoals <code>|</code> en <code>%</code>.</p>
+<p>De New Relic-functie 'copy to curl' in NerdGraph biedt momenteel geen manier om speciale tekens zoals <code>|</code> en <code>%</code> af te handelen.</p>
 </td>
 <td>
-<p>Gebruik een andere API-bibliotheek om het probleem op te lossen met speciale tekens. Bijvoorbeeld GraphQLClient Library for Graphql API on Python, of Apache.commons door Java Language-aanroepen. Clientbibliotheken controleren op <a href="https://graphql.org/code/">GraphQL</a>.</p>
+<p>Gebruik een andere API-bibliotheek om het probleem op te lossen met speciale tekens. Bijvoorbeeld GraphQLClient Library for Graphql API on Python, of Apache.commons door Java Language-aanroepen. De cliëntbibliotheken van het overzicht op <a href="https://graphql.org/code/"> GraphQL </a>.</p>
 </td>
 </tr>
 <tr>
@@ -94,7 +94,7 @@ Dit artikel bevat bronnen voor het oplossen van problemen met New Relic op Adobe
 <p>Los ontbrekende grafieken op door New Relic-domeinen aan de lijst van gewenste personen toe te voegen of verwijder de browserextensie die de problemen veroorzaakt.</p>
 </td>
 <td>
-<p><a href="https://docs.newrelic.com/docs/apm/new-relic-apm/troubleshooting/charts-missing-or-do-not-render">New Relic Documentation &gt; Charts missing or not render</a> </p>
+<p><a href="https://docs.newrelic.com/docs/apm/new-relic-apm/troubleshooting/charts-missing-or-do-not-render"> de Documentatie van New Relic &gt; Ontbrekende grafieken of geef niet terug </a> </p>
 </td>
 </tr>
 <tr>
@@ -108,7 +108,7 @@ Dit artikel bevat bronnen voor het oplossen van problemen met New Relic op Adobe
 <p>Het aantal instanties kan afhankelijk van back-end processen en doorvoer toenemen. Verschillen tussen serverwaarden kunnen het gevolg zijn van processen die op de ene server worden uitgevoerd, maar niet op de andere server.</p>
 </td>
 <td>
-<p><a href="https://docs.newrelic.com/docs/agents/php-agent/troubleshooting/troubleshoot-php-agent-instance-count">New Relic Documentation &gt; Troubleshoot the PHP agent instance count</a> </p>
+<p><a href="https://docs.newrelic.com/docs/agents/php-agent/troubleshooting/troubleshoot-php-agent-instance-count"> de Documentatie van New Relic &gt; los de PHP telling van de agenteninstantie </a> problemen op </p>
 </td>
 </tr>
 </tbody>

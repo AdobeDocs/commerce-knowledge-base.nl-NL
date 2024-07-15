@@ -1,5 +1,5 @@
 ---
-title: Afhandelingspagina voor storefront oplossen in [!UICONTROL CSP] beperkte modus
+title: Probleem met uitchecken van storefront oplossen in de beperkte modus van [!UICONTROL CSP]
 description: In dit artikel worden de fouten uitgelegd die u kunt ervaren bij het weergeven van de afhandelingspagina in de modus CSP-beperkt en worden oplossingen geboden voor het verhelpen van deze fouten.
 feature: Checkout,Security,Orders,Payments
 role: Developer
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Afhandelingspagina voor storefront oplossen in [!UICONTROL CSP] beperkte modus
+# Probleem met uitchecken van storefront oplossen in de beperkte modus van [!UICONTROL CSP]
 
-Dit artikel bevat uitleg en oplossingen voor Adobe Commerce 2.4.7-problemen tijdens het bekijken van de pagina voor afrekenen in **[!UICONTROL CSP restricted mode]**, met de &quot;*Geweigerd om inline manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: &quot;manuscript-src..*&quot;- foutbericht in het logboek van de browserconsole.
+Dit artikel verstrekt verklaringen en moeilijke situaties voor Adobe Commerce 2.4.7 kwesties terwijl het bekijken van de controlepagina in **[!UICONTROL CSP restricted mode]**, met &quot;*die wordt geweigerd om inline manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud overtreedt: &quot;manuscript-src...*&quot;foutenmelding in het browser consolelogboek.
 
 ## Betrokken producten en versies
 
@@ -26,39 +26,39 @@ Adobe Commerce op cloudinfrastructuur, Adobe Commerce op locatie en Magento Open
 
 ## Probleem - Afhandelingspagina voor winkelobject is verbroken of kan niet worden geladen
 
-De **winkeluitchecken** pagina is verbroken of kan niet worden geladen, met &quot;*Geweigerd om inline manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: &quot;manuscript-src..*&quot;- foutbericht in het logboek van de browserconsole.
+De **storefront controle** pagina is gebroken of kan niet laden, met &quot;*die wordt geweigerd om gealigneerd manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: &quot;manuscript-src..*&quot;foutenmelding in het browser consolelogboek.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Ga naar de winkel.
 1. Voeg een product toe aan het winkelwagentje en ga verder met het afrekenen.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De uitcheckpagina wordt normaal volledig geladen.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De uitcheckpagina is leeg of bevat ontbrekende componenten. Het volgende [!DNL JS] de fout wordt getoond in het browser consolelogboek: &quot;*Geweigerd om inline manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: &quot;manuscript-src..*&quot;
+De uitcheckpagina is leeg of bevat ontbrekende componenten. De volgende [!DNL JS] fout wordt getoond in het browser consolelogboek: &quot;*die wordt geweigerd om gealigneerd manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud overtreedt: &quot;manuscript-src...*&quot;
 
 ### Oorzaak
 
-In Adobe Commerce en Magento Open Source versie 2.4.7 en hoger: **[!UICONTROL CSP]** is geconfigureerd in `restrict-mode`standaard, voor betalingspagina&#39;s in de opslagruimte en in de beheergebieden, en in `report-only` voor alle andere pagina&#39;s.
-De overeenkomstige **[!UICONTROL CSP]** header bevat niet de `unsafe-inline` trefwoord in de `script-src` richtlijn voor betalingspagina&#39;s. Alleen [!DNL whitelisted] inline scripts zijn toegestaan.
+In Adobe Commerce en Magento Open Source versie 2.4.7 en hoger is **[!UICONTROL CSP]** standaard geconfigureerd in `restrict-mode` , voor betalingspagina&#39;s in de opslagruimte en in de beheergebieden, en in de `report-only` -modus voor alle andere pagina&#39;s.
+De corresponderende header **[!UICONTROL CSP]** bevat niet het trefwoord `unsafe-inline` binnen de aanwijzing `script-src` voor betaalpagina&#39;s. Bovendien zijn alleen [!DNL whitelisted] inlinescripts toegestaan.
 
 ### Oplossing
 
-Gebruikers kunnen browserfouten zien als gevolg van bepaalde scripts die zijn geblokkeerd vanwege **[!UICONTROL CSP]**:
+Gebruikers zien mogelijk browserfouten omdat bepaalde scripts zijn geblokkeerd door **[!UICONTROL CSP]** :
 
 `Refused to execute inline script because it violates the following Content Security Policy directive: "script-src`
 
-<u>Als u dit probleem wilt verhelpen, moet u</u>:
+<u> om deze kwestie te bevestigen, moet u één van beide </u>:
 
-1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde scripts gebruiken `SecureHtmlRenderer` klasse.
-1. Gebruik de `CSPNonceProvider` klasse om toe te staan dat scripts worden uitgevoerd.
-Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] om het genereren van unieke [!DNL nonce] tekenreeksen voor elke aanvraag. Deze [!DNL nonce] tekenreeksen worden vervolgens gekoppeld aan de [!UICONTROL CSP] header.
+1. [[!DNL Whitelist] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde manuscripten die de `SecureHtmlRenderer` klasse gebruiken.
+1. Gebruik de klasse `CSPNonceProvider` om toe te staan dat scripts worden uitgevoerd.
+Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] -provider om het genereren van unieke [!DNL nonce] -tekenreeksen voor elke aanvraag te vergemakkelijken. Deze [!DNL nonce] -tekenreeksen worden vervolgens aan de [!UICONTROL CSP] -koptekst gekoppeld.
 
-   Gebruik de `generateNonce` functie in `Magento\Csp\Helper\CspNonceProvider` om een [!DNL nonce] tekenreeks.
+   Gebruik de functie `generateNonce` in `Magento\Csp\Helper\CspNonceProvider` om een tekenreeks [!DNL nonce] te verkrijgen.
 
    ```php
    use Magento\Csp\Helper\CspNonceProvider;
@@ -91,44 +91,44 @@ Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL 
    }
    ```
 
-1. [Voeg een [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) naar de module `csp_whitelist.xml` bestand.
+1. [ voeg a  [!DNL hash] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) aan het dossier van uw module `csp_whitelist.xml` toe.
 
 ## Uitgave - Betalingsmethode ontbreekt of werkt niet
 
-De betalingsmethode ontbreekt of werkt niet aan de **winkeluitchecken** pagina, met de &quot;*Geweigerd om inline manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: &quot;manuscript-src..*&quot;- foutbericht in het logboek van de browserconsole.
+De betalingsmethode ontbreekt of werkt niet aan de **storefront controle** pagina, met &quot;*die wordt geweigerd om gealigneerd manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: &quot;manuscript-src..*&quot;foutenmelding in het browser consolelogboek.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Ga naar de winkel.
 2. Voeg een product toe aan het winkelwagentje en ga verder met het afrekenen.
 3. Selecteer een betalingsmethode.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 U kunt een betalingsmethode selecteren en doorgaan met het plaatsen van een bestelling.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De betalingsmethode ontbreekt of werkt niet. Het volgende [!DNL JS] de fout wordt getoond in het browser consolelogboek: &quot;*Geweigerd om inline manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: &quot;manuscript-src..*&quot;
+De betalingsmethode ontbreekt of werkt niet. De volgende [!DNL JS] fout wordt getoond in het browser consolelogboek: &quot;*die wordt geweigerd om gealigneerd manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud overtreedt: &quot;manuscript-src...*&quot;
 
 ### Oorzaak
 
-In Adobe Commerce en Magento Open Source versie 2.4.7 en hoger: **[!UICONTROL CSP]** is geconfigureerd in `restrict-mode`standaard, voor betalingspagina&#39;s in de opslagruimte en in de beheergebieden, en in `report-only` voor alle andere pagina&#39;s.
-De overeenkomstige **[!UICONTROL CSP]** header bevat niet de `unsafe-inline` trefwoord in de `script-src` richtlijn voor betalingspagina&#39;s. Alleen [!DNL whitelisted] inline scripts zijn toegestaan.
+In Adobe Commerce en Magento Open Source versie 2.4.7 en hoger is **[!UICONTROL CSP]** standaard geconfigureerd in `restrict-mode` , voor betalingspagina&#39;s in de opslagruimte en in de beheergebieden, en in de `report-only` -modus voor alle andere pagina&#39;s.
+De corresponderende header **[!UICONTROL CSP]** bevat niet het trefwoord `unsafe-inline` binnen de aanwijzing `script-src` voor betaalpagina&#39;s. Bovendien zijn alleen [!DNL whitelisted] inlinescripts toegestaan.
 
 ### Oplossing
 
-Gebruikers kunnen browserfouten zien als gevolg van bepaalde scripts die zijn geblokkeerd vanwege **[!UICONTROL CSP]**:
+Gebruikers zien mogelijk browserfouten omdat bepaalde scripts zijn geblokkeerd door **[!UICONTROL CSP]** :
 
 `Refused to execute inline script because it violates the following Content Security Policy directive: "script-src`
 
-<u>Als u dit probleem wilt verhelpen, moet u</u>:
+<u> om deze kwestie te bevestigen, moet u één van beide </u>:
 
-1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde scripts gebruiken `SecureHtmlRenderer` klasse.
-1. Gebruik de `CSPNonceProvider` klasse om toe te staan dat scripts worden uitgevoerd.
-Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] om het genereren van unieke [!DNL nonce] tekenreeksen voor elke aanvraag. Deze [!DNL nonce] tekenreeksen worden vervolgens gekoppeld aan de [!UICONTROL CSP] header.
+1. [[!DNL Whitelist] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde manuscripten die de `SecureHtmlRenderer` klasse gebruiken.
+1. Gebruik de klasse `CSPNonceProvider` om toe te staan dat scripts worden uitgevoerd.
+Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] -provider om het genereren van unieke [!DNL nonce] -tekenreeksen voor elke aanvraag te vergemakkelijken. Deze [!DNL nonce] -tekenreeksen worden vervolgens aan de [!UICONTROL CSP] -koptekst gekoppeld.
 
-   Gebruik de `generateNonce` functie in `Magento\Csp\Helper\CspNonceProvider` om een [!DNL nonce] tekenreeks.
+   Gebruik de functie `generateNonce` in `Magento\Csp\Helper\CspNonceProvider` om een tekenreeks [!DNL nonce] te verkrijgen.
 
    ```php
    use Magento\Csp\Helper\CspNonceProvider;
@@ -161,45 +161,45 @@ Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL 
    }
    ```
 
-1. [Voeg een [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) naar de module `csp_whitelist.xml` bestand.
+1. [ voeg a  [!DNL hash] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) aan het dossier van uw module `csp_whitelist.xml` toe.
 
 ## Probleem - Klant kan geen bestelling plaatsen
 
-Een klant kan een bestelling niet plaatsen met &quot;*Geweigerd om inline manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: &quot;manuscript-src..*&quot;- foutbericht in het logboek van de browserconsole.
+Een klant kan geen orde plaatsen, met &quot;*die wordt geweigerd om inline manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: &quot;manuscript-src...*&quot;foutenmelding in het browser consolelogboek.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Ga naar de winkel.
 2. Voeg een product toe aan het winkelwagentje en ga verder met het afrekenen.
 3. Selecteer een betalingsmethode.
-4. Klikken **Opdracht plaatsen**.
+4. Klik **de Orde van de Plaats**.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 U kunt een bestelling plaatsen.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-U kunt geen bestelling plaatsen. Het volgende [!DNL JS] de fout wordt getoond in het browser consolelogboek: &quot;*Geweigerd om inline manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: &quot;manuscript-src..*&quot;
+U kunt geen bestelling plaatsen. De volgende [!DNL JS] fout wordt getoond in het browser consolelogboek: &quot;*die wordt geweigerd om gealigneerd manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud overtreedt: &quot;manuscript-src...*&quot;
 
 ### Oorzaak
 
-In Adobe Commerce en Magento Open Source versie 2.4.7 en hoger: **[!UICONTROL CSP]** is geconfigureerd in `restrict-mode`standaard, voor betalingspagina&#39;s in de opslagruimte en in de beheergebieden, en in `report-only` voor alle andere pagina&#39;s.
-De overeenkomstige **[!UICONTROL CSP]** header bevat niet de `unsafe-inline` trefwoord in de `script-src` richtlijn voor betalingspagina&#39;s. Alleen [!DNL whitelisted] inline scripts zijn toegestaan.
+In Adobe Commerce en Magento Open Source versie 2.4.7 en hoger is **[!UICONTROL CSP]** standaard geconfigureerd in `restrict-mode` , voor betalingspagina&#39;s in de opslagruimte en in de beheergebieden, en in de `report-only` -modus voor alle andere pagina&#39;s.
+De corresponderende header **[!UICONTROL CSP]** bevat niet het trefwoord `unsafe-inline` binnen de aanwijzing `script-src` voor betaalpagina&#39;s. Bovendien zijn alleen [!DNL whitelisted] inlinescripts toegestaan.
 
 ### Oplossing
 
-Gebruikers kunnen browserfouten zien als gevolg van bepaalde scripts die zijn geblokkeerd vanwege **[!UICONTROL CSP]**:
+Gebruikers zien mogelijk browserfouten omdat bepaalde scripts zijn geblokkeerd door **[!UICONTROL CSP]** :
 
 `Refused to execute inline script because it violates the following Content Security Policy directive: "script-src`
 
-<u>Als u dit probleem wilt verhelpen, moet u</u>:
+<u> om deze kwestie te bevestigen, moet u één van beide </u>:
 
-1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde scripts gebruiken `SecureHtmlRenderer` klasse.
-1. Gebruik de `CSPNonceProvider` klasse om toe te staan dat scripts worden uitgevoerd.
-Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] om het genereren van unieke [!DNL nonce] tekenreeksen voor elke aanvraag. Deze [!DNL nonce] tekenreeksen worden vervolgens gekoppeld aan de [!UICONTROL CSP] header.
+1. [[!DNL Whitelist] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde manuscripten die de `SecureHtmlRenderer` klasse gebruiken.
+1. Gebruik de klasse `CSPNonceProvider` om toe te staan dat scripts worden uitgevoerd.
+Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] -provider om het genereren van unieke [!DNL nonce] -tekenreeksen voor elke aanvraag te vergemakkelijken. Deze [!DNL nonce] -tekenreeksen worden vervolgens aan de [!UICONTROL CSP] -koptekst gekoppeld.
 
-   Gebruik de `generateNonce` functie in `Magento\Csp\Helper\CspNonceProvider` om een [!DNL nonce] tekenreeks.
+   Gebruik de functie `generateNonce` in `Magento\Csp\Helper\CspNonceProvider` om een tekenreeks [!DNL nonce] te verkrijgen.
 
    ```php
    use Magento\Csp\Helper\CspNonceProvider;
@@ -232,4 +232,4 @@ Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL 
    }
    ```
 
-1. [Voeg een [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) naar de module `csp_whitelist.xml` bestand.
+1. [ voeg a  [!DNL hash] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) aan het dossier van uw module `csp_whitelist.xml` toe.

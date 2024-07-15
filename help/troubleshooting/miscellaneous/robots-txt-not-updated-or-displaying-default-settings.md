@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # robots.txt niet bijgewerkt of standaardinstellingen weergeven
 
-Het artikel verstrekt een oplossing voor wanneer u hebt gevormd `robots.txt` correct, bijvoorbeeld per [Aanbevolen procedures voor Adobe Commerce robots.txt](https://support.magento.com/hc/en-us/articles/360048754931) maar de `robots.txt` wordt niet bijgewerkt of geeft de standaardinstellingen weer.
+Het artikel verstrekt een oplossing voor wanneer u `robots.txt` correct hebt gevormd, bijvoorbeeld per [ Beste praktijken voor Adobe Commerce robots.txt ](https://support.magento.com/hc/en-us/articles/360048754931) maar `robots.txt` wordt niet bijgewerkt of toont de standaardmontages.
 
 ## Betrokken producten en versies
 
@@ -21,20 +21,20 @@ Het artikel verstrekt een oplossing voor wanneer u hebt gevormd `robots.txt` cor
 
 ## Probleem
 
-Kan de standaardwaarde niet wijzigen `robots.txt` instellen.
+Kan de standaardinstelling `robots.txt` niet wijzigen.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. Open het deelvenster Beheer.
-1. Inhoud toevoegen aan **Inhoud** > Ontwerp > **Configuratie** > **Aangepaste instructies bewerken van`robots.txt`** en sla de wijzigingen op.
-1. Ga naar `robots.txt` url.
+1. Voeg inhoud aan **Inhoud** toe > Ontwerp > **Configuratie** > **geeft de instructie van de Douane van`robots.txt`** dossier zoals de tekst &quot;hello&quot;en sparen de veranderingen uit.
+1. Ga naar de `robots.txt` url.
 
-<u>Verwacht resultaat:</u>
-`robots.txt` bevat de opgeslagen tekst.
+<u> Verwacht resultaat:</u>
+`robots.txt` heeft de opgeslagen tekst.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-`robots.txt` bestand wordt niet gewijzigd.
+`robots.txt` verandert niet.
 
 ## Oorzaak
 
@@ -42,8 +42,8 @@ Indexeren door zoekmachines is uitgeschakeld.
 
 ## Oplossing
 
-Indexeren door zoekmachines inschakelen. Zie [Indexeren via zoekprogramma configureren](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine) in onze ontwikkelaarsdocumentatie.
+Indexeren door zoekmachines inschakelen. Zie [ indexeren door onderzoeksmotor ](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine) in onze ontwikkelaarsdocumentatie vormen.
 
 ## Gerelateerde lezing
 
-* [Robots voor site-toewijzing en zoekprogramma&#39;s toevoegen](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) in onze ontwikkelaarsdocumentatie.
+* [ voeg plaatstoewijzing en onderzoekmachine robots ](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) in onze ontwikkelaarsdocumentatie toe.

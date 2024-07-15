@@ -23,20 +23,20 @@ Dit artikel stelt een oplossing voor de onderbrekingskwestie voor u zou kunnen h
 
 ## Probleem
 
-Vereisten: de **Winkels** > **Configuratie** > **CATALOGUS** > **Catalogus** > **Categoriepad gebruiken voor product-URL&#39;s** optie is ingesteld op *Ja* voor de winkelweergave.
+Vereisten: De **Opslag** > **Configuratie** > **CATALOG** > **Catalogus** > **de Weg van de Categorieën van het Gebruik voor product URLs** optie wordt geplaatst aan *ja* voor uw opslagmening.
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
-1. Ga in Commerce Admin naar **Catalogus** > **Categorieën**.
+1. In Commerce Admin, ga naar **Catalogus** > **Categorieën**.
 1. Open een grote categorie, zoals meer dan 1000 toegewezen producten.
 1. Voeg een product toe aan de categorie.
-1. Klikken **Categorie opslaan**.
+1. Klik **sparen Categorie**.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 Categorie is opgeslagen.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
 Na vijf minuten van opslagproces, verschijnt de pagina van de 504 gatewayonderbreking foutmelding.
 
@@ -46,22 +46,22 @@ Het proces duurt langer dan de geconfigureerde time-out van de server.
 
 ## Oplossing
 
-Het onbruikbaar maken van **URL voor &quot;categorie/product&quot; genereren Herschrijvingen** Als u deze optie kiest, worden alle herschrijvingen van de categorie-/product-URL uit de database verwijderd en wordt de tijd die nodig is voor bewerkingen met grote categorieën aanzienlijk korter.
+Het onbruikbaar maken van **produceert &quot;categorie/product&quot;URL herschrijft** optie zal alle categorie/product URL herschrijft uit het gegevensbestand verwijderen, en beduidend de tijd verminderen die voor de verrichtingen met grote categorieën wordt vereist.
 
 >[!WARNING]
 >
 >Als u deze optie uitschakelt, wordt de categorie/product-URL permanent verwijderd zonder dat de URL kan worden hersteld.
 
-Om het **URL voor &quot;categorie/product&quot; genereren Herschrijvingen** optie:
+Om **onbruikbaar te maken produceer &quot;categorie/product&quot;URL herschrijft** optie:
 
-1. Navigeer in Commerce Admin naar **Winkels** > **Configuratie** > **CATALOGUS** > **Catalogus**.
-1. In de linkerbovenhoek van de configuratiepagina, in **Toepassingsgebied** gebied, plaats uw configuratiewerkingsgebied aan *Standaardconfiguratie*.
-1. Set **URL voor &quot;categorie/product&quot; genereren Herschrijvingen** tot *Nee*.
-1. Klikken **Config opslaan**.
-1. Cache opschonen door uit te voeren    ```bash    bin/magento cache:clean    ```    of in Commerce Admin onder **Systeem** > **Gereedschappen** > **Cachebeheer**.
+1. In Commerce Admin, navigeer aan **Opslag** > **Configuratie** > **CATALOG** > **Catalogus**.
+1. In de hoogste linkerhoek van de configuratiepagina, op het **gebied van het Toepassingsgebied**, plaats uw configuratiewerkingsgebied aan *Standaard Config*.
+1. De reeks **produceert &quot;categorie/product&quot;URL herschrijft** aan *Nr*.
+1. Klik **sparen Config**.
+1. Cache opschonen door uit te voeren    ```bash    bin/magento cache:clean    ```    of in Commerce Admin onder **Systeem** > **Hulpmiddelen** > **Beheer van het Geheime voorgeheugen**.
 
 Nu kunt u doorgaan met het toevoegen van producten aan categorieën of het verplaatsen van categorieën met een groot aantal producten. Deze bewerkingen nemen veel minder tijd in beslag en leiden niet tot time-out.
 
 ## Gerelateerde lezing
 
-[Automatische productomleiding](https://docs.magento.com/user-guide/v2.3/marketing/url-redirect-product-automatic.html) in onze gebruikershandleiding.
+[ Automatische Omleiding van het Product ](https://docs.magento.com/user-guide/v2.3/marketing/url-redirect-product-automatic.html) in onze gebruikersgids.

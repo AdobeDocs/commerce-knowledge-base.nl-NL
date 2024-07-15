@@ -17,7 +17,7 @@ Dit onderwerp stelt een oplossing voor een typisch redirects prestatieskwestie v
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op cloudinfrastructuur (alle versies) `Master/Production/Staging` omgevingen die snel gebruikmaken van
+* Adobe Commerce op cloudinfrastructuur (alle versies) `Master/Production/Staging` -omgevingen die snel gebruikmaken van
 
 ## Probleem
 
@@ -25,9 +25,9 @@ In Adobe Commerce op cloudinfrastructuur kunnen grote aantallen niet-regex-omlei
 
 ## Oorzaak
 
-De `routes.yaml` in het `.magento/routes.yaml` Deze directory definieert routes voor uw Adobe Commerce op cloudinfrastructuur.
+Het bestand `routes.yaml` in de map `.magento/routes.yaml` definieert routes voor uw Adobe Commerce op cloudinfrastructuur.
 
-Als de grootte van uw `routes.yaml` bestand is 32 kB of groter, moet u het niet-regex omleiden/opnieuw schrijven naar Fastly.
+Als de grootte van het `routes.yaml` -bestand 32 kB of groter is, moet u de omleiding/herschrijving van het bestand naar Fastly ongedaan maken.
 
 Deze NGinx-laag kan geen groot aantal niet-regex omleidingen/herschrijvingen verwerken, anders zullen er prestatieproblemen optreden.
 
@@ -37,13 +37,13 @@ De oplossing is om die niet-regex in plaats daarvan om te leiden naar Snelst. Ma
 
 In de volgende stappen wordt beschreven hoe u omleidingen snel kunt plaatsen in plaats van op Nginx.
 
-1. Maak een randwoordenboek.
+1. Maak een Edge-woordenboek.
 
-   U kunt eerst [VCL-fragmenten in Adobe Commerce](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) om een randwoordenboek te definiëren. Dit bevat de omleidingen.
+   Eerst, kunt u [ VCL fragmenten in Adobe Commerce ](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) gebruiken om een randwoordenboek te bepalen. Dit bevat de omleidingen.
 
    Enkele kanttekeningen:
 
-   * Kan snel geen regex uitvoeren op woordenboekitems. Het is maar een exacte overeenkomst. Zie voor meer informatie over deze beperkingen [De documenten van Fastly op de beperkingen van het randwoordenboek](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations).
+   * Kan snel geen regex uitvoeren op woordenboekitems. Het is maar een exacte overeenkomst. Voor meer op deze beperkingen, gelieve te zien {de documenten van 0} Fastly op de beperkingen van het randwoordenboek ](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations).[
    * Er geldt een limiet van 1000 items in één woordenboek. Deze limiet kan snel worden vergroot, maar dat leidt tot het derde voorbehoud.
    * Telkens wanneer u de ingangen bijwerkt en dat bijgewerkte VCL aan alle knopen opstelt, is er een geometrische toename van de ladingstijd met het uitbreiden van woordenboeken - betekenend, zal een 2000 ingangswoordenboek 3x-4x langzamer dan een 1000 ingangswoordenboek eigenlijk laden. Maar dat is slechts een kwestie wanneer u VCL (het bijwerken van het woordenboek of het veranderen van de VCL functiecode) opstelt.
 
@@ -59,7 +59,7 @@ In de volgende stappen wordt beschreven hoe u omleidingen snel kunt plaatsen in 
 
    Wanneer de URL-zoekopdracht wordt uitgevoerd, wordt de vergelijking gemaakt om de aangepaste foutcode toe te passen als er een overeenkomst wordt gevonden.
 
-   Een ander VCL-fragment gebruiken om iets als het volgende toe te voegen aan `vcl_recv`:
+   Gebruik een ander VCL-fragment om iets als het volgende toe te voegen aan `vcl_recv` :
 
    ```
         declare local var.redir-path STRING;
@@ -74,9 +74,9 @@ In de volgende stappen wordt beschreven hoe u omleidingen snel kunt plaatsen in 
 
 1. De omleiding beheren.
 
-   Wanneer een overeenkomst wordt gevonden, wordt de actie ondernomen die voor dat wordt bepaald `obj.status`, in dit geval 301 permanente verhuizing.
+   Wanneer een overeenkomst wordt gevonden, wordt de actie ondernomen die voor die `obj.status` wordt bepaald, in dit geval een 301 permanent bewegingsomleiding.
 
-   Een laatste fragment gebruiken in `vcl_error` om de 301 foutcodes terug te sturen naar de client:
+   Gebruik een laatste fragment in `vcl_error` om de 301 foutcodes terug te sturen naar de client:
 
    ```
      if (obj.status == 912) {
@@ -87,7 +87,7 @@ In de volgende stappen wordt beschreven hoe u omleidingen snel kunt plaatsen in 
           }
    ```
 
-   Met dit blok, controleren wij om te zien of gaat de foutencode binnen van `vcl_recv` komt overeen, en als dat het geval is, zullen wij de plaats aan het foutenbericht plaatsen binnen, dan veranderen de statuscode in 301 en het bericht in &quot;Geldig bewegen&quot;. Op dat punt, zou de reactie klaar moeten zijn om terug naar de cliënt te gaan.
+   Met dit blok, controleren wij om te zien of zal de foutencode die van `vcl_recv` wordt overgegaan aanpast, en als zo, zullen wij de plaats aan het foutenbericht plaatsen dat binnen wordt overgegaan, dan de statuscode in 301 en het bericht &quot;permanent&quot;veranderen. Op dat punt, zou de reactie klaar moeten zijn om terug naar de cliënt te gaan.
 
 ### Stage-service
 
@@ -99,7 +99,7 @@ Als u geen Adobe Commerce het opvoeren milieu wilt in werking stellen, maar u zo
 
 ## Gerelateerde lezing
 
-* [Fastly VCL reference](https://docs.fastly.com/vcl/)
-* [Verbindingen vormen](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) in onze ontwikkelaarsdocumentatie.
-* [Snel instellen](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in onze ontwikkelaarsdocumentatie.
-* [VCL-opmaakmodel voor reguliere expressie](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) in onze ontwikkelaarsdocumentatie.
+* [ de Snelle verwijzing van VCL ](https://docs.fastly.com/vcl/)
+* [ vorm routes ](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) in onze ontwikkelaarsdocumentatie.
+* [ Opstelling snel ](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in onze ontwikkelaarsdocumentatie.
+* [ VCL regelmatige uitdrukkingsbedriegblad ](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) in onze ontwikkelaardocumentatie.

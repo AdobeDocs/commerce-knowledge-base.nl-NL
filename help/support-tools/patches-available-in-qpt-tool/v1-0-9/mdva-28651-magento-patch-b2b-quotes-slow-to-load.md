@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-28651: B2B - Aanhalingstekens traag te laden
 
-De patch MDVA-28651 lost het probleem op waarbij verschillende prestatieproblemen optreden bij het laden van aanhalingstekens. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) versie 1.0.9 is geïnstalleerd. Het probleem zou volgens de planning worden opgelost in Adobe Commerce versie 2.4.2.
+De patch MDVA-28651 lost het probleem op waarbij verschillende prestatieproblemen optreden bij het laden van aanhalingstekens. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) v.1.0.9 geïnstalleerd is. Het probleem zou volgens de planning worden opgelost in Adobe Commerce versie 2.4.2.
 
 ## Betrokken producten en versies
 
@@ -22,7 +22,7 @@ De patch MDVA-28651 lost het probleem op waarbij verschillende prestatieprobleme
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
@@ -32,31 +32,31 @@ Prestatieproblemen op de pagina met de prijsopgave voor klanten:
 * een lus waarbij elk aanhalingsteken van de plug-in wordt geladen.
 * het tweemaal laden van de citaatpunten toen het citaat in de momentopname werd omgezet.
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
 1. 40+ aanhalingstekens hebben toegewezen aan een klant.
-1. Meld u aan en blader door de **Mijn aanhalingstekens** pagina.
+1. Login en doorblader de **Mijn Citaten** pagina.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
-De reactietijd om de inhoud van de **Mijn aanhalingstekens** De pagina (het laden van de pagina + de gegevens die in het raster worden weergegeven) is 45 seconden.
+De reactietijd om de inhoud van **volledig te laden Mijn Citaten** pagina (lading van pagina + gegevens die in het net worden getoond) is ~ 45 seconden.
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
-De reactietijd om de inhoud van de **Mijn aanhalingstekens** De pagina moet minder dan 45 seconden zijn.
+De reactietijd om de inhoud van de **Mijn Citaten** pagina volledig te laden zou minder dan 45 seconden moeten zijn.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches die beschikbaar zijn in QPT, raadpleegt u de [Patches beschikbaar in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) sectie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar de [ flarden beschikbaar in QPT ](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) sectie.

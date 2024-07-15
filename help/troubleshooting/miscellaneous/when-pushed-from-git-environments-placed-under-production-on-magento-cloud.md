@@ -17,27 +17,27 @@ Dit artikel biedt een oplossing voor het probleem dat nieuwe omgevingen onder de
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op cloudinfrastructuur, [alle ondersteunde versies](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Probleem
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 Een lokale, gecontroleerde kloon van het project hebben.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 U moet een integratietak van de het opvoeren tak tot stand brengen:
 
-1. Ga naar de staging tak door de volgende opdracht in de lokale shell uit te voeren: `git checkout staging`
-1. Creeer een integratietak van de het opvoeren tak door het volgende bevel in lokale shell in werking te stellen: `git checkout -b <branch>`
+1. Ga naar de trapsgewijze vertakking door de volgende opdracht in de lokale shell uit te voeren: `git checkout staging`
+1. Maak een integratievertakking van de staging-vertakking door de volgende opdracht in de lokale shell uit te voeren: `git checkout -b <branch>`
 1. Druk de vertakking naar de externe opslagplaats en stel een stroomopwaartse vertakking in door de volgende opdracht in de lokale shell uit te voeren: `git push --set-upstream origin <branch>`
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De nieuwe tak wordt gecreeerd onder de het opvoeren tak.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De nieuwe tak werd opgericht onder de productietak.
 
@@ -47,9 +47,9 @@ Dit is geen bug. Voor het plaatsen van een oudertak voor een andere tak, zou de 
 
 ## Oplossing
 
-Een bovenliggende vertakking kan alleen worden ingesteld nadat de handelaar een nieuwe vertakking heeft geduwd en geactiveerd. Zie [Adobe Commerce on cloud Infrastructure > Bitmap Integration](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch) in onze ontwikkelaarsdocumentatie.
+Een bovenliggende vertakking kan alleen worden ingesteld nadat de handelaar een nieuwe vertakking heeft geduwd en geactiveerd. Verwijs naar [ Adobe Commerce op wolkeninfrastructuur > integratie Bitbucket ](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch) in onze ontwikkelaarsdocumentatie.
 
-Als u een bovenliggend item voor de bestaande vertakking op de server wilt bijwerken, gebruikt u de `magento-cloud environment:info` in de magento-cloud CLI.
+Als u een bovenliggend item voor de bestaande vertakking op de server wilt bijwerken, gebruikt u de opdracht `magento-cloud environment:info` in de magento-cloud-CLI.
 
 Voorbeeld van het gebruik:
 
@@ -59,4 +59,4 @@ Hierdoor wordt de bovenliggende vertakking ingesteld op &quot;Staging&quot; voor
 
 ## Gerelateerde lezing
 
-* [Adobe Commerce on cloud Infrastructure > magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) in onze ontwikkelaarsdocumentatie.
+* [ Adobe Commerce op wolkeninfrastructuur > magento-wolk CLI ](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) in onze ontwikkelaarsdocumentatie.

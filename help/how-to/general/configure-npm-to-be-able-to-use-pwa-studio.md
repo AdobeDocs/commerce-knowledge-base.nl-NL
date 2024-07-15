@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Vorm NPM om PWA Studio te kunnen gebruiken
 
-[Progressieve Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) is een nieuw project beschikbaar voor Adobe Commerce op wolkeninfrastructuur 2.3.x of later. Om PWA Studio te kunnen gebruiken en installeren, moet u de versie van het NPM pakketbeheer aan 5.x of recenter plaatsen om steun voor Node.js 8.x te krijgen. Dit gebeurt in het dialoogvenster `hooks:build` van de `.magento.app.yaml` configuratiebestand.
+[ de Progressieve Studio van het Web Apps (PWA) ](https://magento.github.io/pwa-studio/) is een nieuw project beschikbaar voor Adobe Commerce op wolkeninfrastructuur 2.3.x of later. Om PWA Studio te kunnen gebruiken en installeren, moet u de versie van het NPM pakketbeheer aan 5.x of recenter plaatsen om steun voor Node.js 8.x te krijgen. Dit wordt gedaan in de `hooks:build` sectie van het `.magento.app.yaml` configuratiedossier.
 
 ## Milieu en technologieën
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 ## NPM-versie instellen: stappen
 
-Als u de benodigde NPM-versie wilt instellen, geeft u deze op in het dialoogvenster `.magento.app.yaml` configuratiebestand. Voer de volgende stappen uit:
+Als u de benodigde NPM-versie wilt instellen, geeft u deze op in het configuratiebestand van `.magento.app.yaml` . Voer de volgende stappen uit:
 
-1. Zoek in uw lokale ontwikkelomgeving de locatie `.magento.app.yaml` configuratiebestand.
+1. Zoek in uw lokale ontwikkelomgeving het configuratiebestand van `.magento.app.yaml` .
 1. Open het bestand voor bewerking met de teksteditor zonder opmaak of IDE.
-1. Stel de vereiste versie in het dialoogvenster `hooks:build` sectie. In het volgende voorbeeld wordt de configuratie ingesteld op de installatie van NPM v9.5.0, de hoogste configuratie die momenteel beschikbaar is (4 februari 2019):
+1. Stel de vereiste versie in de sectie `hooks:build` in. In het volgende voorbeeld wordt de configuratie ingesteld op de installatie van NPM v9.5.0, de hoogste configuratie die momenteel beschikbaar is (4 februari 2019):
 
    ```yaml
    hooks:
@@ -48,10 +48,10 @@ Als u de benodigde NPM-versie wilt instellen, geeft u deze op in het dialoogvens
    > ```
 
 1. Sla de wijzigingen op in het bestand.
-1. Kies Push the Edit file om het bewerkte bestand aan uw [integratieomgeving](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
+1. Git duw het uitgegeven dossier aan uw [ integratiemilieu ](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
 
 De wijzigingen worden van kracht nadat u het bijgewerkte YAML-bestand in de omgeving hebt geplaatst.
 
 ## Gerelateerde documentatie
 
-* [Toepassingsconfiguratie: haken](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) in onze Adobe Commerce on Cloud Infrastructure Guide.
+* [ configuratie van de Toepassing: haken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) in onze Adobe Commerce op de Gids van de Infrastructuur van de Wolk.

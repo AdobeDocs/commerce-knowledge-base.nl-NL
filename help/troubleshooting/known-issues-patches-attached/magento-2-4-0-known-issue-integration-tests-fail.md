@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Bekend probleem van Adobe Commerce 2.4.0: integratietests mislukken
 
-Dit artikel bevat een patch voor het Adobe Commerce 2.4.0-probleem waarbij integratietests mislukken omdat de declaratie `Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp()` is niet compatibel met PHPUnit 9, dat wordt gebruikt voor 2.4.0.
+Dit artikel bevat een patch voor het Adobe Commerce 2.4.0-probleem waarbij integratietests mislukken omdat de declaratie van `Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp()` niet compatibel is met PHPUnit 9, dat wordt gebruikt voor 2.4.0.
 
 ## Betrokken producten en versies
 
@@ -22,17 +22,17 @@ Dit artikel bevat een patch voor het Adobe Commerce 2.4.0-probleem waarbij integ
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
 Voer 2.4.0 integratietests uit.
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
 Test geslaagd.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
-*Fatale fout in PHP: Verklaring van Dotdigitalgroup\\Email\\Test\\Integration\\Model\\Sync\\Importer\\ImporterFailedTest::setUp() moet compatibel zijn met PHPUnit\\Framework\\TestCase::setUp(): void in /var/www/vendor/dotmailer/dotmailer-magento2-extension/Test/Integration/Model/Sync/Importer/ImporterFailedTest.php op regel 36*
+*PHP Onherstelbare fout: Verklaring van Dotdigitalgroup\\Email\\Test\\Integration\\Model\\Sync\\Importer\\ImporterFailedTest::setUp() moet compatibel zijn met PHPUnit\\Framework\\TestCase::setUp(): void in /var/www/vendor/dotmailer/dotmailer-magento2-extension/Test/Integration/Model/Sync/Importer/ImporterFailedTest.php op regel 36*
 
 ## Oplossing
 
@@ -53,6 +53,6 @@ De patch is gemaakt voor:
 
 ## Hoe de pleister aanbrengen
 
-Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

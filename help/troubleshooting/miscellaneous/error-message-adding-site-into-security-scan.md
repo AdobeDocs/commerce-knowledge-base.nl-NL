@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Foutbericht bij het toevoegen van sites aan Beveiligingsscan
 
-Dit artikel biedt mogelijke oplossingen voor de kwestie wanneer een gebruiker geen sites kan toevoegen aan de [Commerce Security Scan](https://account.magento.com/scanner/dashboard/).
+Dit artikel verstrekt mogelijke oplossingen voor de kwestie wanneer een gebruiker geen plaatsen in het [ Scannen van de Veiligheid van Commerce ](https://account.magento.com/scanner/dashboard/) kan toevoegen.
 
 ## Betrokken producten en versies
 
@@ -22,7 +22,7 @@ Dit artikel biedt mogelijke oplossingen voor de kwestie wanneer een gebruiker ge
 
 ## Probleem
 
-Gebruiker kan geen sites toevoegen aan de [Commerce Security Scan](https://account.magento.com/scanner/dashboard/). Het volgende foutbericht wordt weergegeven wanneer u een site probeert toe te voegen: *Kan site niet verzenden voor scannen.*
+De gebruiker kan geen plaatsen in het [ Scannen van de Veiligheid van Commerce ](https://account.magento.com/scanner/dashboard/) toevoegen. Het volgende foutenbericht verschijnt wanneer het proberen om een plaats toe te voegen: *kan geen plaats voor het aftasten voorleggen.*
 
 ## Oplossing
 
@@ -31,10 +31,10 @@ Gebruiker kan geen sites toevoegen aan de [Commerce Security Scan](https://accou
    * 34 196 167 176
    * 3 218 25 102
 
-1. De bevestigingscode is tijdgevoelig. Indien meer dan 30 minuten voorbij zijn gegaan na de **Site toevoegen** Er is op de koppeling geklikt, de code is waarschijnlijk verlopen.
+1. De bevestigingscode is tijdgevoelig. Als meer dan 30 minuten zijn overgegaan nadat **plaats** verbinding werd geklikt toevoegt, is de code waarschijnlijk verlopen.
 1. Vergeet niet cache op te schonen en ervoor te zorgen dat de validatiecode in de brontekst van de startpagina wordt weergegeven. De bevestigingscode moet worden geïnjecteerd volgens de HTML-opmaakspecificaties: HTML-commentaar kan in de hoofdtekst van de pagina worden geïnjecteerd (we raden aan het in de voettekstsectie te plaatsen); de META-tag mag alleen in de hoofdsectie staan.
-1. Voordat u klikt **Bevestigingscode verifiëren**, opent u de ontwikkelaarsconsole van de browser en klikt u op de knop **Netwerk** en bekijk het antwoord van magento.com. De waarde moet HTTP 200 (OK) zijn en de hoofdtekst van de reactie moet een JSON-object bevatten.
-1. Als de responscode HTTP 200 is en de hoofdtekst van de reactie een JSON-object en de `verified` eigenschapswaarde is `false`, betekent dit dat de code niet op de pagina is gevonden. De `details` De waarde van de eigenschap moet de uitleg bevatten. Als de winkel bijvoorbeeld een zelfondertekend SSL-certificaat gebruikt, treedt er waarschijnlijk een verbindingsfout op.
+1. Alvorens **te klikken verifieer de code van de Bevestiging**, open de de ontwikkelaarsconsole van browser, klik het **3} lusje van het Netwerk {en controleer de reactie van magento.com.** De waarde moet HTTP 200 (OK) zijn en de hoofdtekst van de reactie moet een JSON-object bevatten.
+1. Wanneer de antwoordcode HTTP 200 is en de hoofdtekst van de reactie een JSON-object is en de waarde van de eigenschap `verified` `false` is, betekent dit dat de code niet op de pagina wordt gevonden. De eigenschapwaarde `details` moet de uitleg bevatten. Als de winkel bijvoorbeeld een zelfondertekend SSL-certificaat gebruikt, treedt er waarschijnlijk een verbindingsfout op.
 
 Voer de volgende stappen uit als u nog steeds geen sites kunt toevoegen:
 
@@ -53,4 +53,4 @@ Voer de volgende stappen uit als u nog steeds geen sites kunt toevoegen:
 
 ## Gerelateerde lezing
 
-* [Beveiligingsscan](https://docs.magento.com/user-guide/magento/security-scan.html) in onze gebruikershandleiding.
+* [ Scannen van de Veiligheid ](https://docs.magento.com/user-guide/magento/security-scan.html) in onze gebruikersgids.

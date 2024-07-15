@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ## Auteur in markeringen
 
-Over het algemeen gebruiken we [Handleiding voor syntaxisopmaak voor Adobe Experience League Markdown](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), maar er zijn enkele verschillen en uitzonderingen. Bovendien zijn bepaalde HTML-tags in bepaalde gevallen vereist.
+Over het algemeen, gebruiken wij [ Gids van de Stijl van de Syntaxis van de Markering van Adobe Experience League ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), maar er zijn sommige verschillen en uitzonderingen. Bovendien zijn bepaalde HTML-tags in bepaalde gevallen vereist.
 
 Hier volgen voorbeelden van de opmaak Markering die het meest wordt gebruikt in onze reactie.
 
@@ -23,11 +23,11 @@ Als u tekst wilt opmaken als cursief, gebruikt u één sterretje:
 
 `This text will be *italics*`
 
-Als u tekst wilt opmaken als onderstreept, gebruikt u de opdracht `<ins>` tag:
+Als u tekst wilt opmaken als onderstreept, gebruikt u de tag `<ins>` :
 
 `<ins>This text will be underlined</ins>`
 
-Als u een regeleinde wilt toevoegen, gebruikt u de opdracht `<br>` HTML-tag.
+Als u een regeleinde wilt toevoegen, gebruikt u de tag `<br>` HTML.
 
 
 ## Kopteksten
@@ -54,8 +54,11 @@ Als u een codeblok wilt invoegen, plaatst u het codeblok in drievoudige achtergr
 
 \``\`\` sql
 
-TABLE_NAME AS SELECTEREN `Table`, ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
-VAN information_schema.TABELLES WAAR TABLE_SCHEMA = &quot;%project_id%&quot;ORDER DOOR (DATA_LENGTH + INDEX_LENGTH) DESC;
+SELECT TABLE_NAME AS `Table` ,
+ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
+FROM information_schema.TABLES
+WHERE TABLE_SCHEMA = &quot;%project_id%&quot;
+ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
 
 \``\``\`
 
@@ -81,7 +84,7 @@ your code here
 </pre></code>
 ```
 
-Wanneer ``%language-code%`` zijn de codes die worden gedefinieerd door [Ondersteunde talen voor Prism.js](https://prismjs.com/#supported-languages).
+Waar ``%language-code%`` de codes zijn die door [ worden bepaald Prism.js gesteunde talen ](https://prismjs.com/#supported-languages).
 
 ## Lijsten
 
@@ -130,7 +133,7 @@ Externe koppelingen zijn eenvoudig:
 
 Elke bijlage moet de indelingen .png, .jpg en .jpeg hebben. Voor veiligheidsdoeleinden accepteren we alleen bijlagen in een van de drie indelingen.
 
-Als u een afbeelding wilt invoegen, plaatst u de afbeelding op *elementen* submap in dezelfde sectiemap als het artikel en gebruik de volgende syntaxis om de afbeelding in te voegen in uw artikel:
+Om een beeld op te nemen, plaats het beeld aan *activa* subfolder in de zelfde sectieomslag zoals het artikel, en gebruik de volgende syntaxis om het beeld aan uw artikel op te nemen:
 
 ```markdown
 ![alt text](assets/image.png)
@@ -162,17 +165,17 @@ Dit is een koppeling naar deze header:
 [this is link to the anchor in the same article](#this-is-header)
 ```
 
-Als u naar een ander element dan koptekst moet verwijzen, gebruikt u HTML om het toe te voegen element te definiëren [id, kenmerk](https://www.w3schools.com/html/html_id.asp). Vervolgens kunt u Markdown of HTML gebruiken om naar deze ID te verwijzen.
+Als u een element buiten kopbal moet van verwijzingen voorzien, gebruik HTML om het element te bepalen om het [ attribuut van identiteitskaart ](https://www.w3schools.com/html/html_id.asp) toe te voegen. Vervolgens kunt u Markdown of HTML gebruiken om naar deze ID te verwijzen.
 
 ### Relatieve koppelingen en koppelingen naar andere artikelen
 
-Gebruik geen relatieve koppelingen om te verwijzen naar onze artikelen in de basis van supportkennis. Deze koppelingen werken niet wanneer uw artikel wordt gepubliceerd in het dialoogvenster [Adobe Commerce Help Center](https://support.magento.com/hc/en-us).
-Gebruik volledige hyperlinks van het dialoogvenster [Adobe Commerce Help Center](https://support.magento.com/hc/en-us).
+Gebruik geen relatieve koppelingen om te verwijzen naar onze artikelen in de basis van supportkennis. Die verbindingen zullen niet werken wanneer uw artikel in het [ Centrum van de Hulp van Adobe Commerce ](https://support.magento.com/hc/en-us) wordt gepubliceerd.
+Gelieve te gebruiken volledige hyperlinks van het [ Centrum van de Hulp van Adobe Commerce ](https://support.magento.com/hc/en-us).
 
 
 ## Tabellen
 
-Gebruiken [HTML-opmaak voor tabellen](https://www.w3schools.com/html/html_tables.asp).
+Gebruik [ HTML het formatteren voor lijsten ](https://www.w3schools.com/html/html_tables.asp).
 
 
 ## Waarschuwingen en infoblokken

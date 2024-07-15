@@ -23,17 +23,17 @@ Dit artikel bevat een patch voor het bekende Adobe Commerce 2.2.0-probleem met b
 
 Wanneer klanten bestellingen plaatsen, worden deze weergegeven in het raster voor gearchiveerde bestellingen in plaats van in het gewone raster voor bestellingen.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Voeg een product toe aan de winkelwagentje, ga door het afrekenen en plaats de bestelling.
-1. Navigeer in Commerce Admin naar **Verkoop** > **Bewerkingen** > **Volgorde**. Zie de volgorde in het raster.
-1. Navigeren naar **Verkoop** > **Archief** > **Orders**. Zie de nieuwe volgorde in het raster.
+1. In Commerce Admin, navigeer aan **Verkoop** > **Verrichtingen** > **Orde**. Zie de volgorde in het raster.
+1. Navigeer aan **Verkoop** > **Archief** > **Orden**. Zie de nieuwe volgorde in het raster.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De volgorde wordt alleen weergegeven in het raster Orden.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De volgorde wordt weergegeven in het raster Orden en in het archiefraster van de volgorde.
 
@@ -59,10 +59,10 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie voor instructies [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Nuttige koppelingen in onze gebruikershandleiding
 
-* [Gearchiveerde bestellingen beheren](https://docs.magento.com/user-guide/sales/order-archive.html)
+* [ beheert Gearchiveerde orden ](https://docs.magento.com/user-guide/sales/order-archive.html)
 
 ## Bijgevoegde bestanden

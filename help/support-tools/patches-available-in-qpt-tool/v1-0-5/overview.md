@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.0.5'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.5.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.0.5'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.0.5 worden opgelost.
 exl-id: 439358e8-d6bc-4d35-aee1-f4fc33ae267c
 feature: Tools and External Services
 role: Admin
@@ -11,22 +11,22 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht versie 1.0.5
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.0.5
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.5.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.5.
 
 QPT v1.0.5 omvat de volgende flarden:
 
-1. **MDVA-2819**: Hiermee wordt het probleem verholpen waarbij geen betalingsmethoden worden geladen tijdens het maken van bestellingen via de beheerder.
-1. **28409**: Hiermee wordt het probleem opgelost waarbij de `sales_clean_quotes` snijtaak mislukt met *onvoldoende geheugen* fout wanneer het aantal verlopen aanhalingstekens in de database enorm is.
-1. **MDVA-2861**: Hiermee verhelpt u het probleem waarbij een fout optreedt in de accountsectie van het bedrijf Company Users nadat bedrijfsbeheer is gewijzigd.
-1. **28763**: Hiermee wordt het probleem verholpen waarbij de productafbeelding wordt gedupliceerd nadat de productinformatie met behulp van de REST API meerdere keren is bijgewerkt.
-1. **MDVA-2904**: Hiermee verhelpt u het probleem waarbij catalogusmachtigingen zijn gewijzigd in *Toestaan* automatisch nadat een nieuw product aan de gedeelde catalogus is toegevoegd.
-1. **MDVA-29959**: Hiermee wordt het probleem verholpen waarbij een beperkte beheerder *Bedrijven* rechten mogen bedrijfsaccount niet verwijderen.
-1. **30107**: Hiermee wordt het probleem verholpen waarbij de opslagswitch niet werkt zoals verwacht als verschillende basis-URL&#39;s worden gebruikt voor de weergave van de winkel.
-1. **MDVA-30265**: Hiermee wordt het probleem verholpen waarbij de link voor het volgen van verzending stopt met werken na het maken van de factuur.
-1. **30284**: Hiermee wordt het probleem verholpen waarbij de zoekindex voor catalogi mislukt als gevolg van het volgende: *[!DNL Elasticsearch]fout: limiet van totaal aantal velden in index is overschreden.*
-1. **30428**: Hiermee kunt u het probleem verhelpen waarbij klanten een product niet aan de verlanglijst kunnen toevoegen als dit product aan een aangepaste inventarisbron is toegewezen.
-1. **30593**: Hiermee wordt het probleem verholpen waarbij offertes die zijn verlopen volgens de instelling Aanbiedingslevensduur niet worden opgeschoond.
+1. **MDVA-28191**: Verhelpt de kwestie waar geen betalingsmethodes tijdens ordeverwezenlijking via Admin worden geladen.
+1. **mvdr-28409**: Verhelpt de kwestie waar de `sales_clean_quotes` kroonbaan met *uit-van-geheugen* fout ontbreekt wanneer het aantal verlopen citaten in het gegevensbestand reusachtig is.
+1. **MDVA-28661**: Verhelpt de kwestie waar een fout in de de ondernemingsrekening van de Gebruikers van het Bedrijf wordt geworpen sectie nadat bedrijfadmin wordt veranderd.
+1. **MDVA-28763**: Verhelpt de kwestie waar het productbeeld na het bijwerken van productinformatie wordt gedupliceerd meer dan eens gebruikend REST API.
+1. **MDVA-29042**: Bevestigt de kwestie waar de toestemmingen van de Catalogus in *werden veranderd sta* automatisch toe nadat het nieuwe product aan de gedeelde catalogus werd toegevoegd.
+1. **MDVA-29959**: Verhelpt de kwestie waar een beperkte admin gebruiker met *Bedrijven* toestemmingen niet wordt toegestaan om bedrijfrekening te schrappen.
+1. **MDVA-30107**: Verhelpt de kwestie waar de opslagschakelaar niet zoals verwacht werkt als verschillende basis URLs voor opslagmeningen wordt gebruikt.
+1. **MDVA-30265**: Verhelpt de kwestie waar de verbinding van het verschepen het volgen van verbindingen na factuurverwezenlijking ophoudt te werken.
+1. **mDVA-30284**: Verhelpt de kwestie waar de indexator van het Onderzoek van de Catalogus wegens de volgende *[!DNL Elasticsearch]fout ontbreekt: de grens van totale gebieden in index is overschreden.*
+1. **MDVA-30428**: Verhelpt de kwestie waar de klanten geen product aan verlanglijst kunnen toevoegen als dit product aan een bron van de douaneinventaris wordt toegewezen.
+1. **mDVA-30593**: Verhelpt de kwestie waar de citaten die volgens het plaatsen van de Levensduur van het Citaat verliepen niet worden schoongemaakt.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

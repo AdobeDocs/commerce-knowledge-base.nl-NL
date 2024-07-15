@@ -22,18 +22,18 @@ Dit artikel biedt een oplossing voor het bekende probleem met winkelkrediet tijd
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. De klant voegt producten aan de kar toe en gaat verder met de afhandeling.
 1. Klant geeft krediet op als betalingsmethode.
 1. De Klant verwijdert winkelkrediet en wijzigt de betalingsmethode.
 1. De klant gaat door met het afrekenen.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Alle ordegegevens worden correct weergegeven.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Adobe Commerce geeft een fout weer in de sectie Overzicht van bestellingen op de pagina Volgorde.
 
@@ -59,4 +59,4 @@ Artikelen voor Adobe Commerce 2.3.5 bekende problemen in onze basis voor onderst
 
 In onze documentatie voor ontwikkelaars:
 
-* [Adobe Commerce 2.3.5 Bekende problemen](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
+* [ Adobe Commerce 2.3.5 Bekende Kwesties ](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)

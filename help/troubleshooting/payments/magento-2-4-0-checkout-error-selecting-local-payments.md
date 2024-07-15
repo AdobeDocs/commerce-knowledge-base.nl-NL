@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In dit artikel wordt gesproken over een oplossing voor een bekend probleem in Adobe Commerce tijdens het afrekenen, waarbij een foutbericht wordt weergegeven wanneer een lokale betalingsmethode wordt geselecteerd voor sommige landen. Dit geldt voor de landen België, Italië, Nederland, Polen en Spanje.
 
-Het foutbericht &quot;*Er zijn momenteel geen betalingsmethoden beschikbaar. Werk uw factureringsadres bij.*&quot; wordt weergegeven, maar de lokale betalingsmethoden worden nog steeds weergegeven en werken correct. In Adobe Commerce 2.4.1 is een permanente oplossing beschikbaar.
+Het foutenbericht, &quot;*Er zijn momenteel geen beschikbare betalingsmethodes. Werk uw factureringsadres bij.* wordt weergegeven, maar de lokale betalingsmethoden worden wel weergegeven en werken correct. In Adobe Commerce 2.4.1 is een permanente oplossing beschikbaar.
 
 ## Betrokken producten en versies
 
@@ -24,13 +24,13 @@ Het foutbericht &quot;*Er zijn momenteel geen betalingsmethoden beschikbaar. Wer
 
 ## Probleem
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 * Adobe Commerce 2.4.0 is geïnstalleerd.
 * Maak één product en één categorie.
-* Configureren [Betalingsmethode Braintree](https://devdocs.magento.com/guides/v2.4/graphql/payment-methods/braintree.html).
+* Vorm [ de Methode van de Betaling van de Braintree ](https://devdocs.magento.com/guides/v2.4/graphql/payment-methods/braintree.html).
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Ga naar de storefront.
 1. Selecteer de items die u aan het winkelwagentje wilt toevoegen.
@@ -38,13 +38,13 @@ Het foutbericht &quot;*Er zijn momenteel geen betalingsmethoden beschikbaar. Wer
 1. Vul het adresformulier in met een geldig adres.
 1. Ga naar de pagina Controleren en betalen.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 De lokale betalingsmethoden moeten normaal worden weergegeven, zonder een foutbericht.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-Het foutbericht &quot;*Er zijn momenteel geen betalingsmethoden beschikbaar. Werk uw factureringsadres bij.*&quot; verschijnt, maar de lokale betalingsmethoden worden nog steeds correct weergegeven en functioneren.
+Het foutenbericht, &quot;*Er zijn momenteel geen beschikbare betalingsmethodes. Werk uw factureringsadres bij.* &quot; weergegeven, maar de lokale betalingsmethoden worden wel correct weergegeven en functioneren.
 
 ## Oplossing
 

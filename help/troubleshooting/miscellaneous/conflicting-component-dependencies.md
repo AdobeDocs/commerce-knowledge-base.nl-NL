@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Conflicterende componentafhankelijkheden
 
-Dit artikel biedt een oplossing voor conflicterende componentafhankelijkheden. Wanneer u probeert Adobe Commerce in te stellen of bij te werken met de wizard Web Setup, ziet u de *&quot;We hebben conflicterende componentafhankelijkheden gevonden&quot;* Foutbericht van composer.
+Dit artikel biedt een oplossing voor conflicterende componentafhankelijkheden. Wanneer het proberen om Adobe Commerce op te zetten of bij te werken gebruikend de Tovenaar van de Opstelling van het Web, ziet u *&quot;wij ontdekten conflicterende componentengebiedsdelen&quot;* de foutenmelding van Composer.
 
 ## Betrokken producten en versies
 
@@ -51,21 +51,21 @@ Twee hoofdscenario&#39;s kunnen tot conflicterende componentengebiedsdelen leide
 Als u Adobe Commerce upgradet op een cloudinfrastructuur, probeert u het volgende om conflicterende componentafhankelijkheden op te lossen:
 
 * Controleer de toetsen die worden gebruikt voor een upgrade. Worden de sleutels geproduceerd van de correcte e-mailrekening?
-* Controleer de machtigingen en zorg ervoor dat deze voldoen aan de upgradevereisten voor het Magento. Controleren [Overzicht van upgrade van Magento > Controlelijst voor bijwerken en bijwerken > Bestandssysteemmachtigingen](https://devdocs.magento.com/guides/v2.3/comp-mgr/prereq/prereq_compman-checklist.html#perms) in onze ontwikkelaarsdocumentatie.
+* Controleer de machtigingen en zorg ervoor dat deze voldoen aan de upgradevereisten voor het Magento. Het overzicht van de Verbetering van het Magento [ > Controlelijst van de Update en van de Verbetering > de Toestemmingen van het Systeem van het Dossier ](https://devdocs.magento.com/guides/v2.3/comp-mgr/prereq/prereq_compman-checklist.html#perms) in onze ontwikkelaarsdocumentatie.
 
 ## Incompatibiliteit met modules van derden: {#incompatibility-third-party-modules}
 
 Conflicterende componentengebiedsdelen kunnen ook door derdemodules worden veroorzaakt die van vroegere componenten van Commerce dan degenen afhangen u hebt geïnstalleerd. Probeer het volgende:
 
-1. In het voorgaande [voorbeeld](#issue)kan het geïnstalleerde pakket magento/sample-data versie 0.74.0-beta15 niet worden bijgewerkt naar 1.0.0-bèta. 0,74,0-bèta15 kan echter worden geüpgraded naar 0,74,0-bèta16 (of andere). Bewerken `composer.json` om deze wijzigingen aan te brengen. De versies die uw project aanvraagt, worden meestal gedefinieerd in het dialoogvenster `require` of `require-dev` eigenschap van het object in dat JSON-bestand. Afhankelijk van de opties van de meegeleverde pakketversies, kunnen ze een specifieke versie of een beperking opgeven. Voor algemene richtlijnen over het gebruik van composer kunt u, als u zich op onze cloudinfrastructuur bevindt, verwijzen naar [Cloud voor Adobe Commerce > Technologieën en vereisten > Composer](https://devdocs.magento.com/cloud/reference/cloud-composer.html#files) in onze ontwikkelaarsdocumentatie. Als je in Adobe Commerce op locatie bent, raadpleeg dan [Adobe Commerce > Installation Guide > Install Adobe Commerce Using the Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html) .
-1. Probeer nu de gereedheidscontrole. Controleren [Adobe Commerce Upgrade Overview > Voer Module Manager > Step 1 Readiness Check uit](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-readiness.html) in onze ontwikkelaarsdocumentatie.
-1. Als de gereedheidscontrole mislukt bij een ander foutbericht voor een componentafhankelijkheidscontrole, klikt u op de volgende koppelingen, afhankelijk van of u het programma gebruikt [Adobe Commerce](#magento-commerce-magento-commerce-cloud) of [Magento Open Source](#opensource) om verdere het oplossen van problemenstappen te krijgen.
+1. In het voorafgaande [ voorbeeld ](#issue), kan het geïnstalleerde pakket magento/sample-data versie 0.74.0-beta15 niet aan 1.0.0-bèta worden bevorderd. 0,74,0-bèta15 kan echter worden geüpgraded naar 0,74,0-bèta16 (of andere). Bewerk `composer.json` om deze wijzigingen aan te brengen. Doorgaans worden de versies die uw project aanvraagt, gedefinieerd in de eigenschap `require` of `require-dev` van het object in dat JSON-bestand. Afhankelijk van de opties van de meegeleverde pakketversies, kunnen ze een specifieke versie of een beperking opgeven. Voor algemene begeleiding op hoe te om composer te gebruiken, als u op onze wolkeninfrastructuur bent, kunt u naar [ Wolk voor Adobe Commerce > Technologieën en Vereisten > Composer ](https://devdocs.magento.com/cloud/reference/cloud-composer.html#files) in onze ontwikkelaarsdocumentatie verwijzen. Als u op Adobe Commerce op-gebouw bent, verwijs naar [ Adobe Commerce > de Gids van de Installatie > installeer Adobe Commerce Gebruikend Composer ](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html).
+1. Probeer nu de gereedheidscontrole. Herzie [ het Overzicht van de Verbetering van Adobe Commerce > stel de Manager van de Module > Stap 1 Controle van de Bereidheid ](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-readiness.html) in onze ontwikkelaarsdocumentatie in werking.
+1. Als de gereedheidscontrole met een ander de mislukkingsbericht van de de gebiedscontrole van de Component ontbreekt, klik op de volgende verbindingen afhankelijk van of u [ Adobe Commerce ](#magento-commerce-magento-commerce-cloud) of [ Magento Open Source ](#opensource) gebruikt om verdere het oplossen van problemenstappen te krijgen.
 
 ## Adobe Commerce {#magento-commerce-magento-commerce-cloud}
 
-1. Vraag de ontwikkelaar van de extensie om hulp. U vindt hun contactgegevens op de pagina waarop u de extensie hebt aangeschaft op de Commerce Marketplace. Zoek naar **Contact opnemen met verkoper** weergegeven in het rechterdeelvenster. Alle Commerce-ontwikkelaars moeten een gebruikers- en installatiegids leveren wanneer ze een extensie publiceren op Marketplace. U kunt beide vinden op de rechterkant van hun landingspagina.
-1. Als je binnen een redelijke termijn geen antwoord van de verkoper ontvangt, [Contact opnemen met de ondersteuning van Marktplaats](mailto:commercemarketplacesupport@adobe.com) zodat wij hen kunnen herinneren aan hun verplichtingen inzake klantenondersteuning.
+1. Vraag de ontwikkelaar van de extensie om hulp. U vindt hun contactgegevens op de pagina waarop u de extensie hebt aangeschaft op de Commerce Marketplace. Zoek de **Verkoper van het Contact** knoop die op het juiste paneel wordt getoond. Alle Commerce-ontwikkelaars moeten een gebruikers- en installatiegids leveren wanneer ze een extensie publiceren op Marketplace. U kunt beide vinden op de rechterkant van hun landingspagina.
+1. Als u geen reactie van de verkoper in een redelijke hoeveelheid tijd ontvangt, gelieve [ de Steun van de Marketplace ](mailto:commercemarketplacesupport@adobe.com) te contacteren zodat wij hen op hun verplichtingen van de klantensteun kunnen herinneren.
 
 ## Magento Open Source {#opensource}
 
-Hulp aanvragen bij [ons belangrijkste forum](https://community.magento.com/) of [contact opnemen met een Adobe Commerce-partner](https://magento.com/find-a-partner) dat helpt bij Open Source-problemen.
+Vraag hulp bij [ ons belangrijkste forum ](https://community.magento.com/) of [ contact een Partner van Adobe Commerce ](https://magento.com/find-a-partner) die in Open kwesties van Source bijstaat.

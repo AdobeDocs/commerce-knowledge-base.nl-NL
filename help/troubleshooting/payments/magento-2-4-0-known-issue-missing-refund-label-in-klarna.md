@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Bekende uitgave van Adobe Commerce 2.4.0: ontbrekend label &quot;Resund&quot; in Klarna
 
-Dit artikel biedt een oplossing voor een bekende kwestie in Admin voor een ontbrekende **Terugbetaling** label in Klarna VBE (Vendor Bundled Extension). Wanneer in het portaal Klarna een restitutie wordt uitgevoerd, **Terugbetaling** label wordt niet weergegeven naast het product dat is gerestitueerd.
+Dit artikel verstrekt een alternerende actie voor een bekende kwestie in Admin voor een ontbrekend **Terugkeer** etiket in Klarna VBE (de Gebundelde Uitbreiding van de Leverancier). Wanneer in het Klarna portaal die een restitutie leiden, wordt het **terugbetaalde** etiket niet getoond naast het Gebundelde product dat werd teruggegeven.
 
 ## Betrokken producten en versies
 
@@ -22,36 +22,36 @@ Dit artikel biedt een oplossing voor een bekende kwestie in Admin voor een ontbr
 
 ## Probleem
 
-<u>Vereisten:</u>
+<u> Eerste vereisten:</u>
 
 * Klarna is ingeschakeld.
 * Er wordt een gebundeld product gemaakt.
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
-1. Ga naar Adobe Commerce en voeg een gebundeld product toe aan **karretje**.
+1. Ga naar Adobe Commerce vooraf:sturen, en voeg een Gebundeld product aan **kar** toe.
 1. Navigeer naar de kassa.
-1. Consumenteninformatie invoeren bij afrekenen en klikken **Volgende**.
-1. Selecteren **KP, optie** en klik op **Opdracht plaatsen**.
-1. Ga naar **Beheerder** > **Verkoop** > **Orders**.
+1. De informatie van de consument van de input in controle en klik **daarna**.
+1. Selecteer **optie KP** en klik **de Orde van de Plaats**.
+1. Ga naar **Admin** > **Verkoop** > **Orden**.
 1. Open de volgorde.
 1. Factuur maken voor product.
-1. Ga naar **Facturen** > **Facturering selecteren** > Klik **Kredietfaciliteit** > Klik **Terugbetaling** (Niet **Offline terugbetalen**).
+1. Ga naar **Facturen** > **Uitgezochte factuur** > klik **Memo van het Krediet** > klik **Terugkeren** (niet **Offline teruggeven**).
 1. Ga naar Klarna portal.
 1. Open de volgorde.
-1. De **Terugbetaling** label aanwezig is.
+1. Het **terugbetaalde** etiket is aanwezig.
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
-Op het Klarna-portaal **Terugbetaling** wordt het label weergegeven naast het product dat is terugbetaald.
+Op het Klarna portaal, wordt het **Terugkeer** etiket getoond naast het product dat werd teruggegeven.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
-Op het Klarna-portaal **Terugbetaling** label wordt niet weergegeven naast het product dat is terugbetaald.
+Op het Klarna portaal, wordt het **Terugkeer** etiket niet getoond naast het product dat werd teruggegeven.
 
 ## Workaround
 
-De oplossing voor dit probleem is om de ontbrekende **Terugbetaling** in het Klarna-portaal voor terugbetaalde gebundelde producten. De restitutie heeft plaatsgevonden, ook al **Terugbetaling** label is niet weergegeven. Het probleem zal naar verwachting worden opgelost in Adobe Commerce 2.4.1, dat in het vierde kwartaal van 2020 zal worden gepubliceerd.
+De oplossing voor deze kwestie moet het ontbrekende **teruggeven** etiket in het portaal Klarna voor teruggegeven gebundelde gebundelde producten negeren. De terugbetaling is voorgekomen, alhoewel het **terugbetaalde** etiket niet toonde. Het probleem zal naar verwachting worden opgelost in Adobe Commerce 2.4.1, dat in het vierde kwartaal van 2020 zal worden gepubliceerd.
 
 ## Gerelateerde lezingen in onze kennisbasis voor ondersteuning:
 

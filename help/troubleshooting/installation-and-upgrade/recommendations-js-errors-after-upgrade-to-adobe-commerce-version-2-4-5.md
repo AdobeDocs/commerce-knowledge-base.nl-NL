@@ -1,6 +1,6 @@
 ---
-title: '''[!UICONTROL Recommendations] [!DNL JS] fouten na upgrade naar Adobe Commerce versie 2.4.5'
-description: Dit artikel biedt een oplossing voor het geval er na de upgrade naar Adobe Commerce (alle implementatiemethoden) sprake is van [!DNL JS] fouten in de console met betrekking tot het product [!UICONTROL Recommendations] modules.
+title: '[!UICONTROL Recommendations] [!DNL JS]  fouten na verbetering aan Adobe Commerce versie 2.4.5'
+description: Dit artikel verstrekt een moeilijke situatie voor wanneer na de verbetering aan Adobe Commerce (alle plaatsingsmethodes), er  [!DNL JS]  fouten in de console met betrekking tot de product [!UICONTROL Recommendations] modules zijn.
 feature: Install, Upgrade
 role: Developer
 exl-id: 51d899eb-48f7-48c5-8bda-bd72a4d28945
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL Recommendations] [!DNL JS] fouten na upgrade naar Adobe Commerce versie 2.4.5
 
-Dit artikel biedt een oplossing voor het geval er na de upgrade naar Adobe Commerce (alle implementatiemethoden) sprake is van [!DNL JS] fouten in de console met betrekking tot het product [!UICONTROL Recommendations] modules/eenheden.
+Dit artikel biedt een oplossing voor het probleem dat zich na de upgrade naar Adobe Commerce (alle implementatiemethoden) [!DNL JS] fouten voordoen in de console die betrekking hebben op de [!UICONTROL Recommendations] -modules/eenheden van het product.
 
 Er zijn momenteel geen plannen om dit probleem in toekomstige versies aan te pakken.
 
@@ -23,24 +23,24 @@ Er zijn momenteel geen plannen om dit probleem in toekomstige versies aan te pak
 
 ## Probleem
 
-Het probleem wordt veroorzaakt door de webpagina storefront die nog steeds verwijst naar een verwijderd product [!UICONTROL Recommendations] modules/eenheden (blokken en/of widgets) op de startpagina [!DNL CMS].
+Het probleem wordt veroorzaakt door de storefront-webpagina die nog steeds verwijst naar enkele verwijderde [!UICONTROL Recommendations] -modules/eenheden (blokken en/of widgets) op de startpagina [!DNL CMS] .
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Upgrade naar Adobe Commerce 2.4.5.
 1. Open de webpagina van de winkel.
-1. Klik met de rechtermuisknop en selecteer **Inspect** om de webcontrole in uw webbrowser te openen.
-1. Klik op de knop **[!UICONTROL Console]** tab.
+1. Klik uw muis met de rechtermuisknop aan, en selecteer **Inspect** om de Webcontrole op uw Webbrowser te openen.
+1. Klik op de tab **[!UICONTROL Console]** .
 1. Controleer de [!DNL JS] fouten.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-Upgrade zonder upgrade gelukt [!DNL JS] fouten.
+Correctie zonder [!DNL JS] fouten gelukt.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Verschillende typen [!DNL JS] fouten worden weergegeven in de webbrowserconsole.
+Verschillende typen [!DNL JS] -fouten worden in de webbrowserconsole weergegeven.
 
 ## Workaround
 
-Als tijdelijke oplossing kunt u alle [!UICONTROL Recommendations] eenheden die u op de pagina hebt gebruikt en verwijderde eenheden verwijderen.
+Als tussenoplossing kunt u alle eenheden van [!UICONTROL Recommendations] bekijken die u op de pagina hebt gebruikt en verwijderde eenheden verwijderen.

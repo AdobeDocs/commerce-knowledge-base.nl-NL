@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->OPMERKING: de functie voor de cryptbibliotheek was [vervangen uit PHP 7.1 en verwijderd uit PHP 7.2](https://www.php.net/manual/en/intro.mcrypt.php).
+>GELIEVE NOTA TE NEMEN: De crypt bibliotheekeigenschap was [ afgekeurd van PHP 7.1 en werd verwijderd uit PHP 7.2 ](https://www.php.net/manual/en/intro.mcrypt.php).
 
 ## Detail
 
@@ -51,13 +51,13 @@ Als gevolg hiervan kan het Adobe Commerce-installatieprogramma de extensie niet 
 
 Bepaal of de cryptextensie op een van de volgende manieren is geladen:
 
-* Een [phpinfo.php](http://kb.mediatemple.net/questions/764/How+can+I+create+a+phpinfo.php+page%3F#gs) in de hoofdmap van de webserver en bekijk de uitvoer in een webbrowser.
+* Opstelling a {](http://kb.mediatemple.net/questions/764/How+can+I+create+a+phpinfo.php+page%3F#gs) dossier 0} phpinfo.php in de wortelfolder van de Webserver en onderzoek de output in Webbrowser.[
 * Voer de volgende opdracht uit:    `$ php -r "phpinfo();" | grep mcrypt`
 
-Als mcrypt is *niet* geïnstalleerd, berichten gelijkend op de volgende vertoning:
+Als crypt *niet* geïnstalleerd is, berichten gelijkend op de volgende vertoning:
 
 ```php
 PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory in Unknown on line 0
 ```
 
-In sommige gevallen moet u mogelijk de Adobe Commerce-software installeren via de [opdrachtregel](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html) en geeft u het volledige pad op naar de LAMP-stapel waarop de crypt is geïnstalleerd.
+In sommige gevallen, zou u de software van Adobe Commerce van de [ bevellijn ](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html) kunnen moeten installeren en de volledige weg aan de stapel specificeren van de LAMP die geïnstalleerde crypt heeft.

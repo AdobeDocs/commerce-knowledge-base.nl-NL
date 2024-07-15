@@ -21,10 +21,10 @@ Tijdens de installatie van Adobe Commerce wordt een bericht weergegeven dat lijk
 
 `PHP Fatal error: Maximum function nesting level of '100' reached, aborting! in <path>/ClassLoader.php`
 
-Het wordt sterk aanbevolen om NIET TE GEBRUIKEN `xdebug` over een productieomgeving!
+U wordt ten zeerste aangeraden `xdebug` NIET TE GEBRUIKEN in een productieomgeving.
 
 ## Oplossing
 
-Er is een bekend probleem met `xdebug` die invloed kunnen hebben op Adobe Commerce-installaties of op de toegang tot de winkel of Commerce Admin na de installatie.
+Er is een bekend probleem met `xdebug` dat invloed kan hebben op Adobe Commerce-installaties of op de toegang tot de winkel of Commerce Admin na de installatie.
 
-Zie voor meer informatie [Bekend probleem met Xdebug](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md) in onze kennisbasis voor ondersteuning.
+Voor details, zie [ Bekende kwestie met xdebug ](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md) in onze basis van de steunkennis.

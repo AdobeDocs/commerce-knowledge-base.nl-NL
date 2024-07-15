@@ -17,20 +17,20 @@ Leer hoe u de verschillende problemen kunt oplossen met het hulpprogramma Securi
 
 ## Uitgave: kan de site niet verzenden
 
-Voor het hulpprogramma Beveiligingsscan moet u aantonen dat u de site in eigendom hebt voordat het domein aan het hulpprogramma Beveiligingsscan kan worden toegevoegd. U kunt dit uitvoeren door een bevestigingscode aan uw site toe te voegen met een HTML-opmerking of de `<meta>` -tag. De opmerking HTML moet in het dialoogvenster `<body>` -tag, bijvoorbeeld in de voettekstsectie. De `<meta>` -tag moet binnen de pagina worden geplaatst `<head>` sectie.
+Voor het hulpprogramma Beveiligingsscan moet u aantonen dat u de site in eigendom hebt voordat het domein aan het hulpprogramma Beveiligingsscan kan worden toegevoegd. U kunt dit doen door een bevestigingscode aan uw site toe te voegen met een HTML-opmerking of de `<meta>` -tag. De opmerking HTML moet binnen de tag `<body>` worden geplaatst, bijvoorbeeld in de voettekstsectie. De tag `<meta>` moet in de `<head>` -sectie van de pagina worden geplaatst.
 
 Handelaren hebben vaak te maken met het probleem dat de beveiligingsscan-functie de eigendom van de site van de handelaar niet kan bevestigen.
 
-Als er een fout optreedt en u uw site niet kunt verzenden voor de scan, raadpleegt u de [Foutbericht bij het toevoegen van sites aan Beveiligingsscan](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md) het oplossen van problemenartikel in onze steun kennisbasis.
+Als u een fout krijgt en uw plaats voor het aftasten niet kunt voorleggen, verwijs naar het [ bericht van de Fout wanneer het toevoegen van plaatsen in het het oplossen van problemenartikel van het Aftasten van de Veiligheid ](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md) in onze steunkennisbasis.
 
 ## Probleem: lege rapporten die zijn gegenereerd door het gereedschap Beveiligingsscan
 
-U krijgt lege scanrapporten van het hulpprogramma Security Scan of u krijgt rapporten met slechts één fout, zoals *Beveiligingsgereedschap kon de basis-URL niet bereiken* of *Installatie van Magento is niet gevonden op de opgegeven URL*.
+U krijgt lege aftastenrapporten van het hulpmiddel van het Scannen van de Veiligheid of krijgt rapporten die slechts één fout bevatten zoals *het hulpmiddel van de Veiligheid niet kon basis URL* bereiken of *de installatie van het Magento wordt niet gevonden op verstrekte URL*.
 
 ### Oplossing
 
 1. Controleer of IP&#39;s van 52.87.98.44, 34.196.167.176 en 3.218.25.102 niet worden geblokkeerd bij 80 en 443 poorten.
-1. Controleer de verzonden URL op omleidingen (bijvoorbeeld `https://mystore.com` omleiding naar `https://www.mystore.com` of vice versa of omleiding naar andere domeinnamen).
+1. Controleer de verzonden URL op omleidingen (bijvoorbeeld `https://mystore.com` wordt omgeleid naar `https://www.mystore.com` of andersom of wordt omgeleid naar andere domeinnamen).
 1. Onderzoek WAF/de logboeken van de Webservertoegang voor verworpen/onvervulde verzoeken. HTTP 403 `Forbidden` en HTTP 500 `Internal server error` zijn de gemeenschappelijke serverreacties die lege rapportgeneratie veroorzaken. Hier is een voorbeeld van de bevestigingscode die verzoeken door gebruikersagenten blokkeert:
 
 ```code block
@@ -39,7 +39,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 {   error 403;   }
 ```
 
-U kunt ook [Het rapport Beveiligingsscan Tool is leeg](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md) artikel in onze kennisbasis voor ondersteuning voor meer informatie .
+U kunt [ het rapport van het Hulpmiddel van het Scannen van de Veiligheid ook zien ](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md) leeg artikel in onze steunkennisbasis voor meer informatie.
 
 ## Probleem: beveiligingsprobleem opgelost, maar nog steeds kwetsbaar in scan
 
@@ -47,7 +47,7 @@ U hebt een beveiligingsprobleem opgelost en u verwacht dat de beveiligingsscan a
 
 ### Oorzaak
 
-Metagegevens van cloudinstellingen worden alleen verzameld voor `active` en `live` Cloudoprojecten en is GEEN real-time proces.
+Metagegevens van cloudinstellingen worden alleen verzameld voor `active` - en `live` Cloud-projecten. Dit is GEEN real-time proces.
 
 Het script voor het verzamelen van statistische gegevens wordt één keer per dag uitgevoerd en vervolgens moet het hulpprogramma voor beveiligingsscan de nieuwe gegevens later ophalen.
 
@@ -55,11 +55,11 @@ De verwachte vertraging van de synchronisatiecyclus bedraagt maximaal een week e
 
 De volgende statussen kunnen bij controles worden weergegeven:
 
-1. **Voldoende**: Met het gereedschap Beveiligingsscan hebt u de bijgewerkte gegevens gescand en de wijzigingen goedgekeurd.
-1. **Onbekend**: Het gereedschap Beveiligingsscan bevat nog geen gegevens over uw domein. Wacht op de volgende synchronisatiecyclus.
-1. **Mislukt**: Als de status aangeeft dat deze is mislukt, moet u het probleem verhelpen (2FA inschakelen, URL van beheerder wijzigen, enz.) en wacht op de volgende synchronisatiecyclus.
+1. **pas** over: Het hulpmiddel van het Scannen van de Veiligheid heeft uw bijgewerkte gegevens gescand en de veranderingen goedgekeurd.
+1. **Onbekend**: Het hulpmiddel van het Scannen van de Veiligheid heeft nog geen gegevens over uw domein; wacht op de volgende synchronisatiecyclus.
+1. **Gebrek**: Als de status toont ontbreken, zult u de kwestie moeten bevestigen (laat 2FA toe, verander admin URL, enz.) en wacht op de volgende synchronisatiecyclus.
 
-Als er 24 uur zijn verstreken sinds de wijzigingen zijn aangebracht in de instantie en deze niet worden weergegeven in het rapport Beveiligingsscan, kunt u [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Geef de URL van de winkel op wanneer u het ticket verzendt.
+Als 24 uren zijn overgegaan aangezien de veranderingen aan de instantie werden aangebracht en zij niet in het Scanrapport van de Veiligheid worden weerspiegeld, kunt u [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen. Geef de URL van de winkel op wanneer u het ticket verzendt.
 
 ## BotNet vermoedelijke fout
 
@@ -68,7 +68,7 @@ U ontvangt een melding met betrekking tot de fout &quot;BotNet Suspect&quot;.
 ### Oorzaak
 
 1. De naam van het opslagdomein kwam terug in een &quot;Potential BotNet Deelnemerslijst&quot;in 2019, en het had het Admin paneel, de downloader, of functionaliteit RSS openbaar, en/of zijn URL is vermeld in de CC skimming forums.
-1. De waarschuwing kan worden veroorzaakt door de signalen van compromis en/of malware van de opslagplaats, zoals JavaScript die op de pagina wordt gevonden.
+1. De waarschuwing kan worden veroorzaakt door de signalen van een compromis met de winkel en/of malware, zoals JavaScript op de pagina.
 1. Het is niet noodzakelijkerwijs een kwestie die nog steeds speelt. Als de winkel al eerder in gevaar is gebracht, kan de hostnaam nog steeds als &#39;slachtoffer&#39; rond het donkere web zweven.
 1. Het kan ook niet door Adobe Commerce worden veroorzaakt, maar door een systeemcompromis (op OS niveau).
 
@@ -77,7 +77,7 @@ U ontvangt een melding met betrekking tot de fout &quot;BotNet Suspect&quot;.
 1. Controleren op de nieuwe SSH-accounts, wijzigingen in het bestandssysteem, enzovoort.
 1. Voer een beveiligingscontrole uit.
 1. Controleer de Adobe Commerce-versie en upgrade, vooral als Magento 1 nog wordt uitgevoerd en dit niet meer wordt ondersteund.
-1. Als het probleem zich blijft voordoen, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) en geef de URL van de winkel op.
+1. Als de kwestie nog voortduurt, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) en verstrekt de opslag URL.
 
 ## Probleem: fout bij het toedienen van het compromis
 
@@ -87,10 +87,10 @@ Er is een fout opgetreden met betrekking tot een fout met betrekking tot een &qu
 
 1. Bekijk de scripts die worden vermeld in het rapport van het gereedschap Beveiligingsscan.
 1. De brontekst van de homepage van het overzicht voor inlinescripts injecties.
-1. Wijzigingen in systeemconfiguratie doorvoeren, vooral aangepast `HTML head` en `Miscellaneous HTML` in `footer` sectiewaarden.
+1. Wijzigingen in de systeemconfiguratie doorvoeren, met name aangepaste `HTML head` en `Miscellaneous HTML` in `footer` sectiewaarden.
 1. Voer code en gegevensbestandoverzicht voor onbekende veranderingen en tekenen van geïnjecteerde malware uit.
 
-Als geen van de bovenstaande voordelen helpt, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) en geef de URL van de winkel en het foutbericht van het rapport op.
+Als niets van de bovengenoemde hulp, [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorlegt en de opslag URL en foutenmelding van het rapport verstrekt.
 
 ## Veelgestelde vragen
 

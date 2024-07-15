@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-54885: Uitzondering tijdens uitchecken van meerdere adressen wanneer beheerders zich aanmelden als klant'
-description: Pas de ACSD-54885-patch toe om het Adobe Commerce-probleem op te lossen, waarbij een fout optreedt tijdens het uitchecken van meerdere adressen wanneer de beheerder de * gebruikt[!UICONTROL Login as Customer]* functionaliteit.
+description: Pas ACSD-54885 flard toe om de kwestie van Adobe Commerce te bevestigen waar een fout tijdens veelvoudige adrescontrole voorkomt wanneer admin de functionaliteit * [!UICONTROL Login as Customer]* gebruikt.
 feature: Checkout
 role: Admin, Developer
 exl-id: 524ec96b-1465-4673-9fbe-1a9c086b7e87
@@ -13,45 +13,45 @@ ht-degree: 0%
 
 # ACSD-54885: Uitzondering tijdens uitchecken van meerdere adressen wanneer beheerders zich aanmelden als klant
 
-De ACSD-54885-patch verhelpt het probleem waarbij een fout optreedt tijdens het uitchecken van meerdere adressen wanneer de beheerder de functie *[!UICONTROL Login as Customer]* functionaliteit. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is geïnstalleerd. De patch-id is ACSD-54885. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-54885-patch verhelpt het probleem waarbij een fout optreedt tijdens het uitchecken van meerdere adressen wanneer de beheerder de *[!UICONTROL Login as Customer]* -functionaliteit gebruikt. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 wordt geïnstalleerd. De patch-id is ACSD-54885. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.6-p1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2 - 2.4.6-p3
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Er treedt een fout op tijdens het uitchecken van meerdere adressen wanneer de beheerder de functie *[!UICONTROL Login as Customer]* functionaliteit.
+Er treedt een fout op tijdens het uitchecken van meerdere adressen wanneer de beheerder de functie *[!UICONTROL Login as Customer]* gebruikt.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Zorg ervoor dat *[!UICONTROL Login as Customer]* is ingeschakeld. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Configurations]** > **[!UICONTROL Advanced]** > **[!UICONTROL Admin]** > **[!UICONTROL Admin Actions]** > **[!UICONTROL Logging]** > **[!UICONTROL Login as Customer]**.
+1. Zorg ervoor dat *[!UICONTROL Login as Customer]* is ingeschakeld. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Configurations]** > **[!UICONTROL Advanced]** > **[!UICONTROL Admin]** > **[!UICONTROL Admin Actions]** > **[!UICONTROL Logging]** > **[!UICONTROL Login as Customer]** .
 1. Maak een eenvoudig product.
 1. Maak een nieuwe klantenaccount met een adres.
 1. Ga naar de klantenaccount op de achtergrond:
 
-   * Ga naar de **[!UICONTROL Account Information]** en -set *[!UICONTROL Allow remote shopping assistance]* = *Ja*.
+   * Ga naar het **[!UICONTROL Account Information]** lusje, en reeks *[!UICONTROL Allow remote shopping assistance]* = *ja*.
    * Klik op **[!UICONTROL Login as Customer]**.
 
-1. Het product aan de winkelwagentje toevoegen en doorgaan naar *[!UICONTROL Checkout with multiple addresses]*.
+1. Voeg het product toe aan de winkelwagentje en ga verder met *[!UICONTROL Checkout with multiple addresses]* .
 1. Werk het aantal producten bij.
 1. Probeer terug te gaan naar het winkelwagentje.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 U kunt het winkelwagentje bijwerken en het uitchecken van meerdere adressen gebruiken.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Je krijgt de volgende fout wanneer je teruggaat naar het winkelwagentje.
 
@@ -63,14 +63,14 @@ report.CRITICAL: Error: Call to a member function getCustomer() on null in magen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

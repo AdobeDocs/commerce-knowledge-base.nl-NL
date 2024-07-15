@@ -17,7 +17,7 @@ In dit artikel wordt uitgelegd waarom de rapportage van gegevens in Betalingsdie
 
 ## Betrokken producten en versies
 
-* [Betalingsdiensten](https://marketplace.magento.com/magento-payment-services.html) is nu compatibel met Adobe Commerce-versies 2.4.0 tot en met 2.4.4.
+* [ de Diensten van de Betaling ](https://marketplace.magento.com/magento-payment-services.html) is nu compatibel met versies 2.4.0 van Adobe Commerce aan 2.4.4.
 
 ## Probleem
 
@@ -25,38 +25,40 @@ Betalingsdiensten die gegevens rapporteren, voor Betalingsstatusrapporten voor b
 
 Nadat u een bestelling hebt gefactureerd (vastgelegd) of een creditnota voor een bestelling hebt uitgegeven, bijvoorbeeld, is de status van de bestelling mogelijk niet onmiddellijk beschikbaar.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Vereisten: een bestelling wordt geplaatst met behulp van de functionaliteit Betalingsservices.
 
-1. Een bestelling is [gefactureerd](https://docs.magento.com/user-guide/sales/invoice-create.html) (of [geannuleerd](https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order) of [terugbetaald via creditmemo](https://docs.magento.com/user-guide/sales/credit-memos.html)) in de [Beheerder](https://docs.magento.com/user-guide/stores/admin.html).
+1. Een orde wordt [ gefactureerd ](https://docs.magento.com/user-guide/sales/invoice-create.html) (of [ geannuleerd ](https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order) of [ die via creditmemo ](https://docs.magento.com/user-guide/sales/credit-memos.html) worden teruggegeven) in [ Admin ](https://docs.magento.com/user-guide/stores/admin.html).
 1. Navigeer naar het rapport Betalingsstatus bestellen voor informatie over die bestelling.
-1. De status wordt weergegeven als `AUTHORIZED`, dat wil zeggen de status van de bestelling voorafgaand aan de facturering of andere bestelling.
+1. De status wordt weergegeven als `AUTHORIZED` . Dit is de status van de bestelling voorafgaand aan het factureren of een andere bestelling.
 
    Commerce heeft geen gegevens gesynchroniseerd en deze naar Payment Services verzonden, zodat de nieuwe status van de bestelling nog niet in het rapport wordt herkend.
 
 >[!NOTE]
 >
->Dit is slechts één algemeen geval van gebruik. Er kunnen andere gevallen van gebruik zijn wanneer een [Handeling order](https://docs.magento.com/user-guide/sales/order-actions.html) voorkomt en de gegevens niet onmiddellijk beschikbaar zijn in het toepasselijke rapport.
+>Dit is slechts één algemeen geval van gebruik. Er kunnen andere gebruiksgevallen zijn wanneer een [ ordeactie ](https://docs.magento.com/user-guide/sales/order-actions.html) voorkomt en het gegeven niet onmiddellijk beschikbaar in het toepasselijke rapport is.
 
-<u>Verwacht resultaat</u>: Rapportgegevens worden direct gevuld nadat een handeling op een bestelling is uitgevoerd.
+<u> Verwacht resultaat </u>:
+Rapportgegevens worden direct ingevuld nadat een handeling op een bestelling is uitgevoerd.
 
-<u>Werkelijk resultaat</u>: Er kan een vertraging optreden in zichtbare rapportgegevens voor zojuist voltooide bestelacties. Uitbetalingsrapporten kunnen een vertraging van 24 tot 48 uur hebben. Betalingsstatusrapporten van bestellingen kunnen een paar uur vertraging oplopen.
+<u> Werkelijk resultaat </u>:
+Er kan een vertraging optreden in zichtbare rapportgegevens voor zojuist voltooide bestelacties. Uitbetalingsrapporten kunnen een vertraging van 24 tot 48 uur hebben. Betalingsstatusrapporten van bestellingen kunnen een paar uur vertraging oplopen.
 
 ## Oorzaak
 
 Er zijn twee factoren die deze vertraging in de zichtbare gegevens in de Admin beïnvloeden:
 
-* Hoe vaak u ervoor kiest om gegevens uit Commerce te synchroniseren (exporteren en behouden), via [configuratie in de beheerder](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html).
+* Hoe vaak u verkiest om (de uitvoer en voorhoudt) gegevens van Commerce, via [ configuratie in Admin ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html) te synchroniseren.
 * Tijdschema waarin PayPal rapportgegevens publiceert.
 
 ## Oplossing
 
 Voor de betalingsstatusrapporten van bestellingen:
 
-1. Navigeren naar **Verkoop** > **Betalingsdiensten**.
-1. Klikken **Betalingsstatus bestellen** om de tabel met betalingsstatusrapporten voor bestellingen te bekijken.
-1. Opnieuw synchroniseren forceren door op de knop **forceren resync** in de rechterbovenhoek van de rapportentabel.
+1. Navigeer aan **Verkoop** > **de Diensten van de Betaling**.
+1. Klik **de betalingsstatus van de Orde** om de lijst van de statusrapporten van de ordebetaling te bekijken.
+1. Drijf resync door het **kracht te klikken resync** pictogram in de hoogste juiste hoek van de rapportlijst.
 1. De laatste bijgewerkte tijdstempelwijziging en nieuwe transacties die in de rapporttabel zijn geladen, worden weergegeven.
 
 Voor PayPal-uitbetalingsrapporten is het verwachte resultaat een vertraging van 24 tot 48 uur vanwege de afhankelijkheid van het tijdpad voor het publiceren van gegevens van PayPal.

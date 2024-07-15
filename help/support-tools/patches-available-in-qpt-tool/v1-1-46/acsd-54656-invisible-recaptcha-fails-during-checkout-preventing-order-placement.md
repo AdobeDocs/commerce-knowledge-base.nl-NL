@@ -1,6 +1,6 @@
 ---
-title: Onzichtbaar [!DNL reCAPTCHA] mislukt tijdens afrekenen, waardoor plaatsing van bestelling wordt voorkomen
-description: Pas de ACSD-54656-patch toe om het Adobe Commerce-probleem op te lossen waar het onzichtbare [!DNL reCAPTCHA] werkt niet correct tijdens het afrekenen, wat plaatsing van een bestelling verhindert.
+title: Onzichtbaar  [!DNL reCAPTCHA]  ontbreekt tijdens controle, die de plaatsing van orde verhinderen
+description: Pas ACSD-54656 flard toe om de kwestie van Adobe Commerce te bevestigen waar onzichtbaar  [!DNL reCAPTCHA]  niet behoorlijk tijdens controle werkt, die de plaatsing van een orde verhindert.
 feature: Checkout, Gift
 role: Admin, Developer
 exl-id: dc26659e-ca34-461e-af91-b230c5afa919
@@ -11,55 +11,55 @@ ht-degree: 0%
 
 ---
 
-# ACSD-54656: onzichtbaar [!DNL reCAPTCHA] werkt niet correct tijdens het afrekenen, wat plaatsing van een bestelling verhindert.
+# ACSD-54656: Onzichtbaar [!DNL reCAPTCHA] werkt niet correct tijdens het uitchecken, waardoor het plaatsen van een bestelling wordt verhinderd.
 
-De ACSD-54656-patch verhelpt het probleem waarbij het onzichtbare [!DNL reCAPTCHA] werkt niet correct tijdens het afrekenen, wat plaatsing van een bestelling verhindert. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.46 is geïnstalleerd. De patch-id is ACSD-54656. De kwestie is opgelost in Adobe Commerce 2.4.6.
+De ACSD-54656-patch verhelpt het probleem dat het onzichtbare [!DNL reCAPTCHA] niet goed werkt tijdens het uitchecken, waardoor het plaatsen van een bestelling wordt verhinderd. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.46 wordt geïnstalleerd. De patch-id is ACSD-54656. De kwestie is opgelost in Adobe Commerce 2.4.6.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5-p4
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5 - 2.4.5-p5
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Onzichtbaar [!DNL reCAPTCHA] werkt niet correct tijdens het afrekenen, wat plaatsing van een bestelling verhindert.
+Onzichtbaar [!DNL reCAPTCHA] werkt niet correct tijdens het uitchecken, waardoor het plaatsen van een bestelling wordt verhinderd.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Elk type van [!DNL reCAPTCHA] voor een cadeaukaart op de [!UICONTROL Checkout] pagina.
-1. Product toevoegen aan winkelwagentje en naar de **[!UICONTROL Checkout]** pagina.
+1. Schakel elk type [!DNL reCAPTCHA] voor een cadeaukaart op de [!UICONTROL Checkout] -pagina in.
+1. Voeg een product toe aan de winkelwagentje en ga naar de pagina **[!UICONTROL Checkout]** .
 1. Vouw het formulier met de cadeau-kaart uit en vul een geldige coupon in.
-1. Klikken op **[!UICONTROL See balance and apply]** knop.
+1. Klik op de knop **[!UICONTROL See balance and apply]** .
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte Resultaten </u>:
 
 Cadeaukaart is toegepast.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware Resultaten </u>:
 
-Foutbericht wordt weergegeven: *[!DNL reCAPTCHA]validatie mislukt. Probeer het opnieuw*.
+Foutbericht wordt weergegeven: *[!DNL reCAPTCHA]validatie is mislukt, probeer het opnieuw* .
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

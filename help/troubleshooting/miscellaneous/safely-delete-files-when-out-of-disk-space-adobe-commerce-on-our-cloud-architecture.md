@@ -16,7 +16,7 @@ ht-degree: 0%
 ## Betrokken producten en versies
 
 * Adobe Commerce over wolkeninfrastructuur 2.4.2 - 2.4.7
-* Dit geldt specifiek voor toegewijde Pro-clusters. Starter- en integratieomgevingen zijn één knooppunt en hebben geen `/data/exports` directory.
+* Dit geldt specifiek voor toegewijde Pro-clusters. Starter- en integratieomgevingen zijn één knooppunt en hebben niet de map `/data/exports` .
 
 ## Tekens van weinig schijfruimte
 
@@ -28,15 +28,15 @@ Om de hoeveelheid schijfruimte te zien die door het dossiersysteem wordt gebruik
 
 ## Bestanden veilig verwijderen om schijfruimte te vergroten
 
-U kunt bestanden van de koppelingspunten van de toepassing verwijderen vanuit uw `/app` pad of doorheen `/mnt/shared`. Dit zijn twee verschillende manieren om toegang te krijgen tot dezelfde bestanden.
+U kunt bestanden verwijderen van de koppelingspunten van de toepassing, van het `/app` -pad of via `/mnt/shared` . Dit zijn twee verschillende manieren om toegang te krijgen tot dezelfde bestanden.
 
 >[!WARNING]
 >
->**De inhoud van`/data/exports`**.
+>**wijzigt of schrapt nooit de inhoud van`/data/exports`**.
 >
 >`/data/exports` is de onderliggende opslag achter het gedeelde bestandssysteem en wordt beheerd door GlusterFS.
 >
->Het bestandssysteem bevat niet alleen de bestandsinhoud, maar ook metagegevens over de status van het bestandssysteem, zodat synchronisatie >tussen de knooppunten van uw cluster mogelijk is. **Als u bestanden rechtstreeks in dit bestandssysteem wijzigt of verwijdert, wordt het gedeelde >bestandssysteem beschadigd. Hiervoor is uitgebreide reparatie of gegevensherstel vereist.**
+>Het bestandssysteem bevat niet alleen de bestandsinhoud, maar ook metagegevens over de status van het bestandssysteem, zodat synchronisatie >tussen de knooppunten van uw cluster mogelijk is. **het veranderen of het schrappen van dossiers direct binnen dit filesystem zal gedeeld >filesystem bederven, die uitgebreide herstellingen of gegevensherstel vereisen.**
 
 Om van de grootste dossiers de plaats te bepalen die goede kandidaten voor het ontruimen zouden kunnen zijn, stel het volgende bevel in werking (op grote of bezige projecten kunnen tot een uur duren):
 
@@ -59,4 +59,4 @@ In onze kennisbasis voor ondersteuning:
 
 In onze documentatie voor ontwikkelaars:
 
-* [Schijfruimte beheren](https://devdocs.magento.com/cloud/project/manage-disk-space.html)
+* [ beheer schijfruimte ](https://devdocs.magento.com/cloud/project/manage-disk-space.html)

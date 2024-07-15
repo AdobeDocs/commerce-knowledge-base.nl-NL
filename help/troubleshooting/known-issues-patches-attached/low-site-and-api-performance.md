@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Lage site- en API-prestaties
 
-Dit artikel biedt een patch voor het bekende Adobe Commerce-probleem met cloudinfrastructuur 2.2.1 dat te maken heeft met een lage site- en API-prestaties die worden veroorzaakt door een lange tijd die nodig is om te schrijven `debug.log`.
+Dit artikel bevat een patch voor het bekende Adobe Commerce-probleem met cloudinfrastructuur 2.2.1 dat te maken heeft met een lage site- en API-prestaties die worden veroorzaakt door een lange tijd die nodig is om `debug.log` te schrijven.
 
 ## Probleem
 
-De prestaties van de site zijn traag. API-bewerkingen worden traag uitgevoerd, bijvoorbeeld wanneer u producten bijwerkt met de `PUT` methode. Wanneer u de bewerkingen met New Relic nader bekijkt, wordt het meeste geheugen en de CPU verbruikt door te schrijven naar `/var/log/debug.log`.
+De prestaties van de site zijn traag. API-bewerkingen worden langzaam uitgevoerd, bijvoorbeeld wanneer u producten bijwerkt met de methode `PUT` . Wanneer u de bewerkingen met New Relic nader bekijkt, wordt het meeste geheugen en de CPU verbruikt door naar `/var/log/debug.log` te schrijven.
 
 ## Oplossing
 
@@ -42,6 +42,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

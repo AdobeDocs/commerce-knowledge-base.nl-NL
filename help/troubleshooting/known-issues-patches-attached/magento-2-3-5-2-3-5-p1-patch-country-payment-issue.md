@@ -26,17 +26,17 @@ Wanneer een winkel Amazon Pay heeft en een andere betaling aan verschillende lan
 
 Een webpagina vernieuwen is een tijdelijke oplossing voor de uitgave.
 
-Om dit probleem op te lossen en de fout te verwijderen, hebben we een [pleister](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip).
+Om deze kwestie op te lossen en de fout te verwijderen, hebben wij a [ flard ](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) gecreeerd.
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 * Er wordt een eenvoudig product gemaakt.
-* **Cheque/postwissel** is alleen beschikbaar voor specifieke landen (op **Winkel** > **Configuratie** > **Verkoop** > **Betalingsmethoden**).
+* **Controle/Geldorde** wordt toegelaten slechts voor specifieke landen (bij **Opslag** > **Configuratie** > **Verkoop** > **de Methoden van de Betaling**).
 
 * Voorbeeld: Betaling uit landen van toepassing = specifieke landen
 * Voorbeeld: Betaling uit specifieke landen = Verenigd Koninkrijk
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Ga naar de Storefront als gast.
 1. Voeg een eenvoudig product toe aan het winkelwagentje.
@@ -45,38 +45,38 @@ Om dit probleem op te lossen en de fout te verwijderen, hebben we een [pleister]
 
    * Land = *Verenigde Staten*
 
-1. Selecteer verzendkosten en klik op **Volgende**.
+1. Selecteer het verschepen tarief en klik **daarna**.
 
    * De betalingsstap is geopend.
    * Er zijn geen betalingen beschikbaar.
-   * Bericht: **Geen betalingsmethode beschikbaar.**
-   * Er is **Opdracht plaatsen** knop.
+   * Bericht: **Geen beschikbare methode van de Betaling.**
+   * Er is geen **knoop van de Orde van de Plaats**.
 
-1. Ga terug naar de **Verzendstap** en wijzig de waarde in:
+1. Ga terug naar de **Verschepende Stap** en verander de waarde aan:
 
    * Land = *Verenigd Koninkrijk*
 
-1. Selecteer verzendkosten en klik op **Volgende**.
+1. Selecteer het verschepen tarief en klik **daarna**.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 De stap Betaling wordt geopend.
 
-* **Betaling** wordt weergegeven.
-* **Cheque/postwissel** wordt weergegeven.
-* De **Opdracht plaatsen** wordt weergegeven.
+* **Onder rembours** verschijnt.
+* **Controle/Geldorde** verschijnt.
+* De **knoop van de Orde van de Plaats** verschijnt.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 De stap Betaling wordt geopend.
 
 * Er zijn geen betalingen beschikbaar.
-* Bericht: *Geen betalingsmethode beschikbaar.*
-* Er is **Opdracht plaatsen** knop.
+* Bericht: *Geen beschikbare methode van de Betaling.*
+* Er is geen **knoop van de Orde van de Plaats**.
 
 ## Oplossing
 
-[De patch toepassen](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) hieronder.
+[ pas het flard ](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) hieronder toe.
 
 ## Reparatie
 
@@ -97,6 +97,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

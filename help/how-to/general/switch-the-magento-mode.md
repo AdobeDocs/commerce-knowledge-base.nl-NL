@@ -13,5 +13,5 @@ ht-degree: 0%
 
 Raadpleeg de volgende artikelen in de documentatie voor ontwikkelaars:
 
-* Adobe Commerce 2.3: [De bewerkingsmodus instellen](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html)
-* Adobe Commerce 2.4: [De bewerkingsmodus instellen](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)
+* Adobe Commerce 2.3: [ plaats de verrichtingswijze ](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html)
+* Adobe Commerce 2.4: [ plaats de verrichtingswijze ](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)

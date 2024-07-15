@@ -37,19 +37,19 @@ Om te testen of uw vragen bijgewerkt zijn, stel het volgende bevel in de project
 yarn run validate-queries
 ```
 
-Dit zal een verenigbaarheidsrapport tonen. Als u incompatibiliteiten hebt, moet u uw PWA Studio of Adobe Commerce-exemplaar upgraden. Controleer de [Adobe Commerce-compatibiliteitsmatrix](https://developer.adobe.com/commerce/pwa-studio/integrations/adobe-commerce/version-compatibility/) om te zien welke versies u precies nodig hebt.
+Dit zal een verenigbaarheidsrapport tonen. Als u incompatibiliteiten hebt, moet u uw PWA Studio of Adobe Commerce-exemplaar upgraden. Controleer de [ de verenigbaarheidsmatrijs van Adobe Commerce ](https://developer.adobe.com/commerce/pwa-studio/integrations/adobe-commerce/version-compatibility/) om te zien welke precies versies u nodig hebt.
 
 Verwijs naar de volgende documentatie voor instructies op hoe te om te bevorderen:
 
-* Zoek voor upgrades van PWA Studio&#39;s naar de sectie &quot;Upgrade uitvoeren vanaf een vorige versie&quot; van het dialoogvenster [Opmerkingen bij de release PWA](https://github.com/magento/pwa-studio/releases/) voor de versie die u moet upgraden.
-* [Adobe Commerce upgraden op versie van cloudinfrastructuur](https://devdocs.magento.com/cloud/project/project-upgrade.html) in onze documentatie voor ontwikkelaars
-* [Upgrade uitvoeren van Adobe Commerce op locatie (geïnstalleerd met gebruik van &quot;composer create-project&quot; of archief)](https://devdocs.magento.com/guides/v2.3/comp-mgr/cli/cli-upgrade.html) in onze documentatie voor ontwikkelaars
-* [Upgrade uitvoeren van Adobe Commerce op locatie (geïnstalleerd door Adobe Commerce repo te klonen)](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/dev_update-magento.html) in onze documentatie voor ontwikkelaars
+* Voor de verbeteringen van de PWA Studio, onderzoek naar &quot;Bevorderend van een vorige versie&quot;sectie van de [ versienota&#39;s van de PWA ](https://github.com/magento/pwa-studio/releases/) voor de versie die u moet bevorderen aan.
+* [ Verbetering Adobe Commerce op versie van de wolkeninfrastructuur ](https://devdocs.magento.com/cloud/project/project-upgrade.html) in onze ontwikkelaarsdocumentatie
+* [ Verbetering Adobe Commerce op-gebouw (geïnstalleerd gebruikend &quot;composer creeer-project&quot;of archief) ](https://devdocs.magento.com/guides/v2.3/comp-mgr/cli/cli-upgrade.html) in onze ontwikkelaarsdocumentatie
+* [ Verbetering Adobe Commerce op-gebouw (die door het klonen van Adobe Commerce repo wordt geïnstalleerd) ](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/dev_update-magento.html) in onze ontwikkelaarsdocumentatie
 
 ## Gerelateerde lezing
 
-* [PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md) in onze kennisbasis voor ondersteuning
-* [PWA Studio: validatiefouten bij het uitvoeren van de ontwikkelaarsmodus](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md) in onze kennisbasis voor ondersteuning
-* [PWA Studio: browser geeft &quot;Cannot proxy to&quot;error weer](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md) in onze kennisbasis voor ondersteuning
-* [Vorm NPM om PWA Studio te kunnen gebruiken](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md) in onze kennisbasis voor ondersteuning
-* [PWA voor Adobe Commerce-documentatie](https://magento.github.io/pwa-studio/)
+* [ PWA Studio: Webpack hangt alvorens compilatie ](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md) in onze basis van de steunkennis te beginnen
+* [ PWA Studio: De fouten van de Bevestiging wanneer het runnen van ontwikkelaarwijze ](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md) in onze basis van de steunkennis
+* [ PWA Studio: Browser toont &quot;niet volmacht aan&quot;fout ](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md) in onze basis van de steunkennis
+* [ vorm NPM om PWA Studio ](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md) in onze basis van de steunkennis te kunnen gebruiken
+* [ PWA voor de Documentatie van Adobe Commerce ](https://magento.github.io/pwa-studio/)

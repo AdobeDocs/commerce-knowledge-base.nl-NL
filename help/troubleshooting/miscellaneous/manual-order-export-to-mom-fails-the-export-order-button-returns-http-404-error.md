@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Het handmatig exporteren van bestellingen naar MOM mislukt. De knop Exportvolgorde retourneert de HTTP 404-fout
 
-In dit artikel wordt besproken hoe u een probleem kunt oplossen, waarbij u een order naar Magento Order Management (MOM) probeert te exporteren door op het tabblad **Exportvolgorde** in de ordeweergave in Commerce Admin wordt een &quot; *404 pagina niet gevonden* &quot; fout.
+Dit artikel bespreekt hoe te om een kwestie te bevestigen, waar het proberen om een orde naar Magento Order Management (MOM) uit te voeren door de **knoop van de Orde van de Uitvoer** op de ordemening in Commerce Admin keert a &quot; *terug 404 Pagina niet gevonden* &quot; fout.
 
 ## Betrokken producten en versies
 
@@ -22,20 +22,20 @@ In dit artikel wordt besproken hoe u een probleem kunt oplossen, waarbij u een o
 
 ## Probleem
 
-<u>Stappen om te reproduceren:</u>:
+<u> Stappen om te reproduceren:</u>:
 
-1. Klik in Commerce Admin op **Verkoop > Bestellingen**.
-1. Klik op de knop **Nieuwe volgorde maken** knop.
-1. Selecteer een gebruiker, voeg een of meer objecten toe, selecteer de methode voor betaling en verzending en klik op de knop **Bestelling verzenden** knop.
-1. Klik op de knop **Exportvolgorde** en vervolgens **OK**.
+1. In Commerce Admin, klik **Verkoop > Orden**.
+1. Klik **creëren Nieuwe Orde** knoop.
+1. Selecteer een gebruiker, voeg een of meer punten toe, selecteer betaling en verschepende methodes, en klik dan de **Verzendorde** knoop.
+1. Klik de **knoop van de Orde van de Uitvoer** en dan **O.K.**.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 De orde wordt verzonden naar MOM.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-A &quot; *404 Fout: pagina niet gevonden* &quot; wordt weergegeven.
+A &quot; *404 Fout: Pagina niet gevonden* &quot; pagina wordt getoond.
 
 ## Oplossing
 
@@ -48,4 +48,4 @@ $bin/magento oms:orders:sync
 
 ## Gerelateerde lezing
 
-[Technische documentatie Magento Order Management](https://omsdocs.magento.com/en/)
+[ Magento Order Management technische documentatie ](https://omsdocs.magento.com/en/)

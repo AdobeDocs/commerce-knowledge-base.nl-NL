@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Uitvoer van Adobe Commerce Banner uitschakelen om de prestaties van de site te verbeteren
 
-Dit artikel biedt een oplossing voor lage prestaties op de site. Lage prestaties op de site kunnen worden veroorzaakt door de `Magento_Banner` module die wordt ingeschakeld maar niet wordt gebruikt. Als u de uitvoer van de module uitschakelt, kunnen de prestaties van de site verbeteren. Controleer het artikel voor resolutiestappen.
+Dit artikel biedt een oplossing voor lage prestaties op de site. Lage siteprestaties kunnen worden veroorzaakt door het inschakelen van de module `Magento_Banner` , maar niet door het gebruik ervan. Als u de uitvoer van de module uitschakelt, kunnen de prestaties van de site verbeteren. Controleer het artikel voor resolutiestappen.
 
 >[!NOTE]
 >
->Als u de Adobe Commerce Banner-functionaliteit gebruikt, raadpleegt u de [De hoge productie AJAX verzoeken veroorzaken slechte prestaties](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) artikel in onze basis van de steunkennis voor aanbevelingen over hoe te om prestatieskwesties te vermijden die door bovenmatige verzoeken Ajax worden veroorzaakt.
+>Als u de functionaliteit van de Banner van Adobe Commerce gebruikt, zie de [ Hoge productie AJAX verzoeken slechte prestaties ](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) artikel in onze steunkennisbasis voor aanbevelingen op hoe te om prestatieskwesties te vermijden die door bovenmatige verzoeken van Ajax worden veroorzaakt.
 
 ## Betrokken producten en versies
 
@@ -26,35 +26,35 @@ Dit artikel biedt een oplossing voor lage prestaties op de site. Lage prestaties
 
 ## Probleem
 
-De `Magento_Banner` is ingeschakeld, maar wordt niet gebruikt.
+De module `Magento_Banner` is ingeschakeld, maar wordt niet gebruikt.
 
 Om te controleren of dit het geval is:
 
 Voor Adobe Commerce op cloudinfrastructuur 2.2.x:
 
 1. Meld u aan bij de Commerce-beheerder.
-1. Navigeren naar **Inhoud** > *Elementen* > **Banners**.
+1. Navigeer aan **Inhoud** > *Elementen* > **Banners**.
 1. Als het raster dat op deze pagina wordt weergegeven leeg is, hebt u geen banners.
 
-Als u het geneesmiddel niet ziet **Banners** optie onder **Inhoud** > *Elementen* Dat is echter niet het geval en de aanbevelingen uit dit artikel kunnen niet worden toegepast.
+Als u niet de **optie van Banners** onder **Inhoud** > *Elementen* ziet, dan is dit niet het geval, en de aanbevelingen van dit artikel kunnen niet worden toegepast.
 
-Voor Adobe Commerce op cloudinfrastructuur 2.3.x (de functionaliteit was [hernoemd in v 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
+Voor Adobe Commerce op wolkeninfrastructuur 2.3.x (de functionaliteit werd [ anders genoemd in v 2.3.x ](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
 
 1. Meld u aan bij de Commerce-beheerder.
-1. Navigeren naar **Inhoud** > *Elements >*  **Dynamische blokken**.
+1. Navigeer aan **Inhoud** > *Elementen >* **Dynamische Blokken**.
 1. Als het raster op deze pagina leeg is, hebt u geen dynamische blokken (banners).
 
-Als u het geneesmiddel niet ziet **Dynamische blokken** optie onder **Inhoud** > *Elementen* Dat is echter niet het geval en de aanbevelingen uit dit artikel kunnen niet worden toegepast.
+Als u niet de **Dynamische Blokken** optie onder **Inhoud** > *Elementen* ziet, dan is dit niet het geval, en de aanbevelingen van dit artikel kunnen niet worden toegepast.
 
 ## Oorzaak
 
-Wanneer de `Magento_Banner` wordt toegelaten, verzendt Adobe Commerce Ajax- verzoeken van de storefront naar de server om de bannerinformatie te krijgen. Deze Ajax-verzoeken hebben een invloed op de prestaties, met name in situaties met een hoge belasting (hoog volume en hoog verkeer). Als de functionaliteit niet wordt gebruikt, wordt geadviseerd dat u de moduleoutput onbruikbaar maakt. Vanwege afhankelijkheidsproblemen wordt het niet aanbevolen de module uit te schakelen.
+Wanneer de module `Magento_Banner` is ingeschakeld, stuurt Adobe Commerce Ajax-aanvragen van de storefront naar de server om de bannergegevens op te halen. Deze Ajax-verzoeken hebben een invloed op de prestaties, met name in situaties met een hoge belasting (hoog volume en hoog verkeer). Als de functionaliteit niet wordt gebruikt, wordt geadviseerd dat u de moduleoutput onbruikbaar maakt. Vanwege afhankelijkheidsproblemen wordt het niet aanbevolen de module uit te schakelen.
 
 ## Oplossing
 
 >[!WARNING]
 >
->We raden u ten zeerste aan wijzigingen te testen op [Staging-/integratieomgeving](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) eerst, alvorens het op Productie toe te passen. We raden u ook aan een recente back-up te maken voordat u iets manipuleert.
+>Wij adviseren sterk testende veranderingen op [ het Staging/het milieu van de Integratie ](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) eerst, alvorens het op Productie toe te passen. We raden u ook aan een recente back-up te maken voordat u iets manipuleert.
 
-1. Schakel het dialoogvenster `Magento_Banner` moduleuitvoer, zoals beschreven in [Uitvoer van module uitschakelen](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) in onze ontwikkelaarsdocumentatie. De modulenaam u moet gebruiken is `Magento_Banner`.
-1. Implementeer uw code. Implementeer voor Adobe Commerce op cloudinfrastructuur zoals beschreven in het dialoogvenster [Je winkel implementeren](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) artikel in onze ontwikkelaarsdocumentatie.
+1. Maak de `Magento_Banner` moduleoutput, zoals die in [ wordt beschreven onbruikbaar moduleoutput ](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) in onze ontwikkelaarsdocumentatie. De modulenaam u moet gebruiken is `Magento_Banner`.
+1. Implementeer uw code. Voor Adobe Commerce op wolkeninfrastructuur, stel zoals die in [ wordt beschreven uw opslag ](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) artikel in onze ontwikkelaarsdocumentatie op.

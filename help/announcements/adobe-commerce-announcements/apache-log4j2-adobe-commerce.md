@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Apache log4j2 kwetsbaarheid in Adobe Commerce
 
-Raadpleeg de [Kwetsbaarheid Apache Log4j2 in Adobe Commerce](https://community.magento.com/t5/Magento-DevBlog/Apache-Log4j2-Vulnerability-in-Adobe-Commerce/ba-p/488683) DevBlog-bericht voor de meest recente Adobe Commerce-communicatie over de kwetsbaarheid van de Apache log4j-bibliotheek.
+Gelieve te verwijzen naar de [ Vulnerability van Apache Log4j2 in Adobe Commerce ](https://community.magento.com/t5/Magento-DevBlog/Apache-Log4j2-Vulnerability-in-Adobe-Commerce/ba-p/488683) DevBlog post voor de recentste mededeling van Adobe Commerce met betrekking tot de kwetsbaarheid van de Apache log4j bibliotheek.

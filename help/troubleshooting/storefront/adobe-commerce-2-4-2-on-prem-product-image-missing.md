@@ -21,21 +21,21 @@ In dit artikel wordt een bekende Adobe Commerce-uitgave (2.4.2) beschreven waarb
 
 ## Probleem
 
-De productafbeelding wordt opgeslagen in het dialoogvenster `s3` emmertje, maar wordt niet gesynchroniseerd naar de `pub/media` directory. Dit probleem treedt alleen op wanneer u beide gebruikt:
+De productafbeelding wordt opgeslagen in het emmertje van `s3` , maar wordt niet weer gesynchroniseerd met de map van `pub/media` . Dit probleem treedt alleen op wanneer u beide gebruikt:
 
 * Nginx voor site ingeschakeld om de grootte van afbeeldingen te wijzigen
 * AWS `s3` als media-opslag
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 Adobe Commerce geïnstalleerd met Nginx.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Adobe Commerce configureren voor gebruik van AWS `s3` als media-opslag.
-1. Nginx configureren met de `nginx.conf.sample` configuratiebestand in de installatiemap van Adobe Commerce en een virtuele Nginx-host. Zie [Nginx configureren](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) in onze ontwikkelaarsdocumentatie.
+1. Configureer Adobe Commerce om AWS `s3` te gebruiken als media-opslag.
+1. Configureer Nginx met behulp van het `nginx.conf.sample` -configuratiebestand in de Adobe Commerce-installatiemap en een Nginx-virtuele host. Zie [ Nginx ](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) in onze ontwikkelaarsdocumentatie vormen.
 1. Maak een eenvoudig product met één productafbeelding.
-1. Nginx heeft een configuratie zonder opmerkingen voor het vergroten of verkleinen van afbeeldingen in `nginx.conf.sample` vergelijkbaar met deze :
+1. Nginx heeft een configuratie zonder opmerkingen voor het wijzigen van de grootte van afbeeldingen in `nginx.conf.sample` , vergelijkbaar met:
 
 ```conf
 load_module /etc/nginx/modules/ngx_http_image_filter_module.so;
@@ -54,11 +54,11 @@ location /media/ {
     }
 ```
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De productafbeelding wordt geüpload naar de productpagina.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De productafbeelding wordt niet geüpload naar de productpagina.
 

@@ -30,7 +30,7 @@ Als u een stroomstoring had die mogelijk door een overbelaste database werd vero
    grep 'Query_time: [5-9][0-9]\|Query_time: [0-9][0-9][0-9]' /var/log/mysql/mysql-slow.log -A 3
    ```
 
-1. Ga naar <https://www.unixtimestamp.com/> (of een vergelijkbare Unix Timestamp Converter) en neem tijdstempel van op wanneer de langzame vraag werd uitgevoerd.
+1. Ga naar <https://www.unixtimestamp.com/> (of een vergelijkbare Unix-tijdstempelconverter) en voeg de tijdstempel in van wanneer de trage query is uitgevoerd.
 1. Als de tijd met om het even welke plaatsuitbarsting correleert die u ervoer, kon het door een overbelaste gegevensbestand worden veroorzaakt. Controleer welke ladingen op dat ogenblik in het gegevensbestand waren. Voorbeelden van dergelijke ladingen zijn:
 
 * Snijprocessen
@@ -39,13 +39,13 @@ Als u een stroomstoring had die mogelijk door een overbelaste database werd vero
 * dumpen maken
 
 
-### Zoekopdrachten analyseren met de opdracht [!DNL Percona Toolkit] (Adobe Commerce Pro: alleen architectuur voor cloud)
+### Zoekopdrachten analyseren met [!DNL Percona Toolkit] (alleen Adobe Commerce Pro: Cloud-architectuur)
 
-Als uw Adobe Commerce-project wordt geïmplementeerd op Pro-architectuur kunt u de [!DNL Percona Toolkit] om query&#39;s te analyseren.
+Als uw Adobe Commerce-project wordt geïmplementeerd op Pro-architectuur, kunt u query&#39;s analyseren met de [!DNL Percona Toolkit] .
 
-1. Voer de `pt-query-digest --type=slowlog` gebruiken tegen MySQL langzame querylogboeken.
-   * Zie voor meer informatie over de locatie van de trage querylogs **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** in onze ontwikkelaarsdocumentatie.
-   * Zie de [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) documentatie.
+1. Voer de opdracht `pt-query-digest --type=slowlog` uit op basis van MySQL langzame querylogs.
+   * Om de plaats van de langzame vraaglogboeken te vinden, zie **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** in onze ontwikkelaarsdocumentatie.
+   * Zie de documentatie [[!DNL Percona Toolkit] > pt-query-digest ](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) .
 1. Gebaseerd op de gevonden kwesties, onderneem stappen om de vraag te bevestigen, zodat loopt het sneller.
 
 ## MySQL &quot;process list&quot; controleren
@@ -78,7 +78,7 @@ Dit zal helpen om te identificeren als de server MySQL levend is en dat er geen 
 
 ## Gerelateerde lezing
 
-* [MySQL-syntaxis van proceslijst tonen](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) in dev.mysql.com.
-* [Syntaxis van MySQL Kill](https://dev.mysql.com/doc/refman/8.0/en/kill.html) in dev.mysql.com.
-* [Beveiliging, prestaties en gegevensverwerking](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html) in onze ontwikkelaarsdocumentatie.
-* [Help bij MySQL](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html) in onze ontwikkelaarsdocumentatie.
+* [ MySQL toont Syntaxis van Processlist ](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) in dev.mysql.com.
+* [ Syntaxis van de Kill MySQL ](https://dev.mysql.com/doc/refman/8.0/en/kill.html) in dev.mysql.com.
+* [ Veiligheid, Prestaties, en de Behandeling van Gegevens ](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html) in onze ontwikkelaarsdocumentatie.
+* [ Help MySQL ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html) in onze ontwikkelaarsdocumentatie.

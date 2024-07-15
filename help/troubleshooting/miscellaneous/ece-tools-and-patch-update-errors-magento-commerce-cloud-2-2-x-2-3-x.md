@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ECE-tools en patchupdatefouten Adobe Commerce cloud Infrastructure 2.2.x, 2.3.x
 
-Dit artikel biedt een oplossing voor het probleem waarbij foutberichten worden weergegeven, zoals &quot;*kan stroom niet openen:*&quot; of &quot;*Bestand of map bestaat niet*&quot; wanneer wordt geprobeerd updates voor ECE-tools, patches of andere wijzigingen in te voeren.
+Dit artikel verstrekt een oplossing voor de kwestie waar u foutenmeldingen met inbegrip van &quot;*ontbrak om stroom te openen:*&quot; of &quot;*geen dergelijk dossier of folder*&quot;wanneer het proberen om updates aan ECE-Hulpmiddelen, flarden of andere veranderingen op te stellen.
 
 ## Betrokken producten en versies
 
@@ -65,11 +65,11 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## Oorzaak
 
-Onjuiste configuratie van uw `composer.json` bestand.
+Onjuiste configuratie van het `composer.json` -bestand.
 
 ## Oplossing
 
-Als een instelling ontbreekt in uw `composer.json` niet worden gekopieerd uit de Adobe Commerce Code Base. Het pakket en de update/patch kunnen niet worden toegepast omdat er geen bestanden worden gevonden.
+Als een instelling ontbreekt in uw `composer.json` -bestand, worden sommige mappen niet gekopieerd uit de Adobe Commerce Code Base. Het pakket en de update/patch kunnen niet worden toegepast omdat er geen bestanden worden gevonden.
 
 Wijzig de extra sectie zodat deze overeenkomt met de onderstaande sectie en probeer de implementatie opnieuw uit te voeren.
 
@@ -82,4 +82,4 @@ Wijzig de extra sectie zodat deze overeenkomt met de onderstaande sectie en prob
 
 ## Gerelateerde lezing
 
-* [Upgrades en patches](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=update%20ece%20tools) in onze ontwikkelaarsdocumentatie.
+* [ Verbeteringen en flarden ](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=update%20ece%20tools) in onze ontwikkelaardocumentatie.

@@ -28,23 +28,23 @@ Alle Adobe Commerce op locatie en Adobe Commerce op cloudinfrastructuurversies t
 
 ## Probleem
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
-1. Ga naar **Winkels** > **Configuratie** > **Klanten** > **Klantconfiguratie** > **Nieuwe accountopties maken** en instellen **Automatische toewijzing inschakelen** tot **Klantengroep** tot *Ja*.
-1. Ga naar **Algemeen** > **Opslaggegevens** > en geef een geldig land- en BTW-nummer op.
-1. Klikken op **BTW-nummer valideren**.
+1. Ga naar **Opslag** > **Configuratie** > **Klanten** > **de Configuratie van de Klant** > **creeer Nieuwe Opties van de Rekening** en plaats **automatische Taak** aan **de Groep van de Klant 13} aan *ja*.**
+1. Ga naar **Algemeen** > **de Informatie van de Opslag** > en plaats een geldig Land en een Aantal van de BTW.
+1. Klik op **Valideren het Aantal van BTW**.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 Validatie is gelukt.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-De volgende fout wordt weergegeven: &quot;*Fout tijdens verificatie van BTW-nummer.*&quot;
+De volgende fout wordt getoond: &quot;*Fout tijdens de controle van het Aantal van BTW.*&quot;
 
 ## Oplossing
 
-Pas de [pleister](assets/MDVA-27623_EE_2.3.2-p2_COMPOSER_v1.patch.zip) in dit artikel.
+Pas het [ flard ](assets/MDVA-27623_EE_2.3.2-p2_COMPOSER_v1.patch.zip) toe dat in dit artikel wordt verstrekt.
 
 ## Reparatie
 
@@ -54,6 +54,6 @@ De patch is aan dit artikel gekoppeld. Als u het bestand wilt downloaden, schuif
 
 ## Hoe de pleister aanbrengen
 
-Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

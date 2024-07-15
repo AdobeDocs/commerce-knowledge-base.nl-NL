@@ -1,6 +1,6 @@
 ---
-title: "ACSD-46767: [!UICONTROL Category] pagina caches ongeldig maken wanneer het voorraadaantal verandert"
-description: Pas de ACSD-46767-patch toe om het Adobe Commerce-probleem op te lossen waarbij de [!UICONTROL Category] paginacaches ongeldig maken wanneer de voorraadhoeveelheid verandert, zelfs als het product nog in voorraad is.
+title: 'ACSD-46767: [!UICONTROL Category] pagina in cache wordt ongeldig gemaakt wanneer de voorraadhoeveelheid verandert'
+description: Pas de ACSD-46767-patch toe om het Adobe Commerce-probleem op te lossen waarbij de [!UICONTROL Category] -pagina in cache wordt geplaatst, ongeldig wordt wanneer de voorraadhoeveelheid verandert, zelfs als het product nog in voorraad is.
 feature: Cache, Products, Inventory
 role: Admin, Developer
 exl-id: 39811c03-8518-4975-a128-31537b4706c0
@@ -11,40 +11,40 @@ ht-degree: 0%
 
 ---
 
-# ACSD-46767: [!UICONTROL Category] paginakaarten ongeldig maken wanneer het voorraadaantal verandert
+# ACSD-46767: [!UICONTROL Category] paginacache wordt ongeldig gemaakt wanneer de voorraadhoeveelheid verandert
 
-De ACSD-46767-patch verhelpt het probleem waarbij de [!UICONTROL Category] paginacaches ongeldig maken wanneer de voorraadhoeveelheid verandert, zelfs als het product nog in voorraad is. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.46 is geïnstalleerd. De patch-id is ACSD-46767. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
+De ACSD-46767-patch verhelpt het probleem waarbij de cachegeheugen van de [!UICONTROL Category] -pagina ongeldig wordt als de voorraadhoeveelheid verandert, zelfs als het product nog in voorraad is. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.46 wordt geïnstalleerd. De patch-id is ACSD-46767. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.5-p5
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-[!UICONTROL Category] paginakaarten ongeldig maken wanneer het voorraadaantal verandert.
+[!UICONTROL Category] pagina caches ongeldig wanneer het voorraadaantal verandert.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Maak enkele producten en voeg deze toe aan dezelfde categorie.
-1. Open de *[!UICONTROL Category]* pagina in de opslagruimte om ervoor te zorgen dat de pagina in de cache wordt opgeslagen.
-1. Plaats de bestelling bij een van de producten uit de categorie *(producthoeveelheid is gewijzigd, maar product is nog in voorraad)*.
-1. Open de [!UICONTROL Category] weer in de winkelruimte.
+1. Open de pagina *[!UICONTROL Category]* in de winkel om te controleren of de pagina in de cache is opgeslagen.
+1. Plaats de orde met één van de producten van de categorie *(de producthoeveelheid wordt veranderd, maar het product is nog in voorraad)*.
+1. Open de pagina [!UICONTROL Category] opnieuw in de winkelruimte.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware Resultaten </u>:
 
 De pagina wordt niet vanuit de cache geladen. Het wordt opnieuw gegenereerd.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte Resultaten </u>:
 
 De pagina wordt uit de cache geladen.
 
@@ -52,14 +52,14 @@ De pagina wordt uit de cache geladen.
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

@@ -24,9 +24,9 @@ Dit artikel bevat een oplossing voor het probleem met de Adobe Commerce-infrastr
 
 >[!NOTE]
 >
->Dit artikel is niet van toepassing op de situatie waarin u een fout van 404 krijgt wanneer u probeert om [voorvertoning van de gefaseerde update](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change). Als u dat probleem hebt opgelost, opent u een [ondersteuningsticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+>Dit artikel is niet op de situatie van toepassing waarin u een fout 404 wanneer het proberen om [ voorproef de het opvoeren update ](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change) krijgt. Als u in die kwestie loopt, te openen gelieve a [ steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
-Als u een winkelpagina of de beheerderspagina opent, treedt de fout van 404 op (de pagina &quot;Wiops, our bad...&quot;) nadat u bewerkingen hebt uitgevoerd met geplande updates voor elementen van opslaginhoud met behulp van [Inhoud stapelen](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (updates voor elementen voor opslaginhoud die zijn gepland via de [Magento\_Staging, module](https://developer.adobe.com/commerce/php/module-reference/)). U hebt bijvoorbeeld een product met een geplande update verwijderd of de einddatum voor de geplande update verwijderd.
+De toegang tot van om het even welke storefront pagina of Admin resulteert in de 404 fout (de &quot;Wiops, onze slechte...&quot;pagina) na het uitvoeren van verrichtingen met geplande updates voor de activa van de opslaginhoud gebruikend [ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (updates voor de activa van de opslaginhoud die gebruikend de [ Magento \_Staging module ](https://developer.adobe.com/commerce/php/module-reference/) worden gepland). U hebt bijvoorbeeld een product met een geplande update verwijderd of de einddatum voor de geplande update verwijderd.
 
 Een opslaginhoudselement bevat:
 
@@ -42,11 +42,11 @@ Sommige scenario&#39;s worden besproken in de hieronder sectie van de Oorzaak.
 
 ## Oorzaak
 
-De `flag` de tabel in de database (DB) bevat ongeldige koppelingen naar de `staging_update` tabel.
+De `flag` -tabel in de database (DB) bevat ongeldige koppelingen naar de `staging_update` -tabel.
 
 Het probleem heeft te maken met het opslaan van inhoud. Hieronder volgen twee specifieke scenario&#39;s. Houd er rekening mee dat er wellicht meer situaties zijn die de kwestie veroorzaken.
 
-**Scenario 1** Een opslaginhoudselement verwijderen dat:
+**Scenario 1:** het schrappen van een activa van de opslaginhoud die:
 
 * heeft een update gepland met Inhoud het Staging
 * de update heeft een einddatum (de vervaldatum waarna het bijgewerkte element terugkeert naar de vorige versie)
@@ -54,7 +54,7 @@ Het probleem heeft te maken met het opslaan van inhoud. Hieronder volgen twee sp
 
 Het is mogelijk dat de uitgave niet optreedt als een verwijderd element geen einddatum heeft voor de geplande update.
 
-**Scenario 2** De einddatum/tijd van een geplande update verwijderen.
+**Scenario 2:** Verwijderend de einddatum/tijd van een geplande update.
 
 ### Identificeer als uw kwestie verwant is
 
@@ -68,19 +68,19 @@ Voer de volgende DB-query uit om te bepalen of het probleem dat u ondervindt het
    -> WHERE flag_code = 'staging';
 ```
 
-Als de vraag een lijst terugkeert waar `update_exists` waarde is &quot;0&quot;, dan een ongeldige koppeling naar de `staging_update` de tabel bestaat in uw database en de stappen worden beschreven in de [Sectie Oplossing](#solution) zal helpen het probleem op te lossen. Hier volgt een voorbeeld van het queryresultaat met `update_exists` waarde gelijk aan 0:
+Als de vraag een lijst terugkeert waar `update_exists` waarde &quot;0&quot;is, dan bestaat een ongeldige verbinding aan de `staging_update` lijst in uw gegevensbestand, en de stappen die in de [ sectie van de Oplossing ](#solution) worden beschreven zullen helpen om de kwestie op te lossen. Hieronder ziet u een voorbeeld van het queryresultaat met `update_exists` -waarde gelijk aan &quot;0&quot;:
 
-![update_exists_0.png](assets/update_exists_0.png)
+![ update_exists_0.png ](assets/update_exists_0.png)
 
-Als de vraag een lijst terugkeert waar `update_exists` waarde is &quot;1&quot; of een leeg resultaat; dit betekent dat uw uitgave niet gerelateerd is aan het uitvoeren van een testupdate. Hier volgt een voorbeeld van het queryresultaat met `update_exists` waarde gelijk aan &quot;1&quot;:
+Als de query een tabel retourneert waarvan de `update_exists` -waarde &quot;1&quot; of een leeg resultaat is, betekent dit dat uw uitgave niet gerelateerd is aan het uitvoeren van testupdates. Hieronder ziet u een voorbeeld van het queryresultaat met `update_exists` -waarde gelijk aan &quot;1&quot;:
 
-![updates_exist_1.png](assets/updates_exist_1.png)
+![ updates_exist_1.png ](assets/updates_exist_1.png)
 
-In dit geval kunt u verwijzen naar de [Problemen met site-onderaan oplossen](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md) voor het oplossen van problemenideeën.
+In dit geval, zou u naar de [ Plaats neer Troubleshooter ](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md) voor het oplossen van problemenideeën kunnen verwijzen.
 
 ## Oplossing
 
-1. Voer de volgende query uit om de ongeldige koppeling naar de `staging_update` tabel:
+1. Voer de volgende query uit om de ongeldige koppeling naar de tabel `staging_update` te verwijderen:
 
    ```sql
    DELETE FROM flag WHERE flag_code = 'staging';
@@ -88,4 +88,4 @@ In dit geval kunt u verwijzen naar de [Problemen met site-onderaan oplossen](/he
 
 1. Wacht tot de uitsnijdtaak is uitgevoerd (kan maximaal vijf minuten worden uitgevoerd als de functie correct is ingesteld) of voer de taak handmatig uit als u de uitsnijdbewerking niet hebt ingesteld.
 
-Het probleem moet direct worden opgelost nadat de ongeldige koppeling is hersteld. Als het probleem zich blijft voordoen, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Het probleem moet direct worden opgelost nadat de ongeldige koppeling is hersteld. Als het probleem voortduurt, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

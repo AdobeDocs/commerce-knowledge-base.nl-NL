@@ -16,7 +16,7 @@ Dit artikel biedt oplossingen voor het opnieuw autoriseren van een integratie om
 
 ## Database- en SaaS-integratie
 
-Raadpleeg voor lijsten met Database- en SaaS-integratie [Externe gegevens verbinden met behulp van integratie](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html) in onze ontwikkelaarsdocumentatie. (Gebruik voor navigatie de inhoudsopgave links bij het openen van de pagina.)
+Voor lijsten van Gegevensbestand en integratie SaaS, verwijs naar [ het Verbinden van Externe Gegevens die een Integratie gebruiken ](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html) in onze ontwikkelaarsdocumentatie. (Gebruik voor navigatie de inhoudsopgave links bij het openen van de pagina.)
 
 ## Hebt u verbindingsproblemen?
 
@@ -29,10 +29,10 @@ Dit kan om een aantal redenen gebeuren:
 * een wijziging aangebracht op uw beheeraccount
 * of een interne kwestie binnen de MBI
 
-De status van alle integraties staat op de pagina Integraties ( **Gegevens beheren > Integraties** ):
+Het statuut van alle integratie is op de pagina van Integraties ( **beheert Gegevens > Integraties**):
 
-![Integrations_page.png](assets/Integrations_page.png)
+![ Integrations_page.png ](assets/Integrations_page.png)
 
 Als u de verificatie opnieuw wilt uitvoeren, moet u mogelijk uw accountgegevens opnieuw invoeren. In sommige gevallen moet u mogelijk nieuwe API-sleutels voor de probleemintegratie genereren. Klik de naam van de probleemintegratie om met het hertoelatingsproces te beginnen.
 
-Als het probleem zich blijft voordoen, gelieve [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Als het probleem voortduurt, gelieve [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor te leggen.

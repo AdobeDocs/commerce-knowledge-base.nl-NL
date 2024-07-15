@@ -15,41 +15,41 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Als dit probleem is, voert u een upgrade uit naar ece-tools 2002.1.5 om dit probleem op te lossen. 2002.1.5 heeft functionaliteit om opcache op elke plaatsing terug te stellen zodat is er nooit een behoefte om het plaatsen te veranderen `opcache.enable_cli=1`. Als u niet wilt bevorderen, dan zou u de tijdelijke stappen moeten doen zoals hieronder beschreven in de oplossing.
+>Als dit probleem is, voert u een upgrade uit naar ece-tools 2002.1.5 om dit probleem op te lossen. 2002.1.5 heeft functionaliteit om opcache bij elke plaatsing opnieuw in te stellen zodat er nooit een behoefte is om het plaatsen `opcache.enable_cli=1` te veranderen. Als u niet wilt bevorderen, dan zou u de tijdelijke stappen moeten doen zoals hieronder beschreven in de oplossing.
 
-Dit artikel biedt een oplossing voor de kwestie waarin wijzigingen in `.magento.env.yaml` bestand wordt niet weerspiegeld in `app/etc/env.php` na de implementatie.
+Dit artikel biedt een oplossing voor het probleem waarbij wijzigingen in het `.magento.env.yaml` -bestand niet worden doorgevoerd in `app/etc/env.php` na de implementatie.
 
 ## Betrokken producten en versies
 
-* Adobe Commerce over cloudinfrastructuur (alle [ondersteunde versies](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)).
+* Adobe Commerce op wolkeninfrastructuur (alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)).
 
 ## Probleem
 
-Wijzigingen aangebracht in de `.magento.env.yaml` bestand heeft geen invloed op de `app/etc/env.php` gegenereerd.
+Wijzigingen die u aanbrengt in het `.magento.env.yaml` -bestand hebben geen invloed op de gegenereerde `app/etc/env.php` .
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
-Een waarde wijzigen in `.magento.env.yaml` en naar de server te duwen, waar de configuratie (en plaatsingsmontages) voor het momenteel uitgecheckte milieu zou moeten bepalen. Zie voor stappen [Omgevingsvariabelen > Variabelen implementeren](https://devdocs.magento.com/cloud/env/variables-deploy.html) in onze ontwikkelaarsdocumentatie.
+Wijzig elke waarde in `.magento.env.yaml` en druk naar de server, waar deze de configuratie (en implementatie-instellingen) voor de momenteel uitgecheckte omgeving moet definiëren. Voor stappen, zie [ Variabelen van het Milieu > Variabelen opstelt ](https://devdocs.magento.com/cloud/env/variables-deploy.html) in onze ontwikkelaarsdocumentatie.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
-Wijzigingen aangebracht in de `.magento.env.yaml` bestand heeft invloed op `app/etc/env.php` gegenereerd.
+Wijzigingen die in het `.magento.env.yaml` -bestand worden aangebracht, zijn van invloed op de gegenereerde `app/etc/env.php` .
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-De wijzigingen hebben geen invloed op de `app/etc/env.php` variabelen na implementatie.
+De wijzigingen hebben na de implementatie geen invloed op de variabelen van `app/etc/env.php` .
 
 ## Oorzaak
 
-Dit probleem kan worden veroorzaakt door de onjuiste waarde van het `opcache.enable_cli` in de `php.ini` bestand.
+Het probleem kan worden veroorzaakt door de onjuiste waarde van de parameter `opcache.enable_cli` in het `php.ini` -bestand.
 
 ## Oplossing
 
-1. Controleer of het systeem is geconfigureerd volgens [Aanbevolen procedures voor Adobe Commerce-prestaties > Softwareaanbevelingen](https://devdocs.magento.com/guides/v2.4/performance-best-practices/software.html).
-1. Controleren of `opcache.enable_cli` richtlijn in `php.ini` is ingesteld op `0` door uitvoering: `php -i | grep opcache.enable_cli`
-1. Als de uitvoer er zo uitziet `opcache.enable_cli=1` , bewerkt u de `php.ini` bestand in de hoofdmap van het project en wijzigen `opcache.enable_cli=1` tot `opcache.enable_cli=0`
+1. Controleer dat het systeem volgens [ Beste praktijken van de Prestaties van Adobe Commerce > de aanbevelingen van de Software ](https://devdocs.magento.com/guides/v2.4/performance-best-practices/software.html) wordt gevormd.
+1. Controleer of de aanwijzing `opcache.enable_cli` in `php.ini` is ingesteld op `0` door het volgende uit te voeren: `php -i | grep opcache.enable_cli`
+1. Als de uitvoer er als `opcache.enable_cli=1` uitziet, bewerkt u het `php.ini` -bestand in de hoofdmap van het project en wijzigt u `opcache.enable_cli=1` in `opcache.enable_cli=0`
 1. Implementeer het project opnieuw.
 
 ## Gerelateerde lezing
 
-* [Cloud voor Adobe Commerce > Samenstellen en implementeren](https://devdocs.magento.com/cloud/project/magento-env-yaml.html).
+* [ Wolk voor Adobe Commerce > bouwt en stelt ](https://devdocs.magento.com/cloud/project/magento-env-yaml.html) op.

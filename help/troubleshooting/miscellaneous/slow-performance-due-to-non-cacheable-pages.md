@@ -22,7 +22,7 @@ Dit artikel biedt oplossingen voor langere laadtijden of uitvallen van de websit
 
 ### Probleem
 
-De site heeft te maken met trage prestaties omdat er cacheblokken op pagina&#39;s zijn die in cache moeten worden geplaatst, maar waarvoor `cacheable="false"` .
+De site heeft te maken met trage prestaties omdat er cacheblokken op pagina&#39;s zijn die in cache moeten kunnen worden opgeslagen, maar die zijn ingesteld op `cacheable="false"` .
 
 ### Oorzaak
 
@@ -36,9 +36,9 @@ Deze pagina&#39;s zijn:
 
 In cache plaatsen en niet in cache plaatsen zijn termen die worden gebruikt om aan te geven of een pagina al dan niet in cache moet worden geplaatst. Standaard zijn alle pagina&#39;s in cache geplaatst. Als een blok in een lay-out echter als niet-cacheable is aangewezen, is de gehele pagina niet-cacheable.
 
-De schermopname hieronder toont een blok met een instelling `cacheable="false”`  ** ** waarmee een pagina wordt gemaakt die niet in de cache kan worden geplaatst.
+In de onderstaande schermafbeelding ziet u een blok met de instelling `cacheable="false”` ** *** waarmee een oncachebare pagina wordt gemaakt.
 
-![non_cacheable_kb.png](assets/non_cacheable_kb.png)
+![ non_cacheable_kb.png ](assets/non_cacheable_kb.png)
 
 Voorbeelden van pagina&#39;s die niet in cache kunnen worden geplaatst, zijn vergelijkingsproducten, winkelwagentjes en uitcheckpagina&#39;s.
 
@@ -46,15 +46,15 @@ De volgende lijst met pagina&#39;s wordt niet in cache geplaatst (caches voor sn
 
 ### Oplossing
 
-Controleren of de instelling voor de hierboven opgegeven bestanden is ingesteld `cacheable="false”` . Als dat het geval is, controleert u of deze instelling nodig is of vereist is.
+Controleer of voor de hierboven opgegeven bestanden de instelling `cacheable="false”` is ingesteld. Als dat het geval is, controleert u of deze instelling nodig is of vereist is.
 
-* Indien nodig, overweeg bewegende niet cacheable blokken aan [mechanisme voor privé-inhoud](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=private%20co) in plaats daarvan.
+* Indien nodig, denk na bewegend niet-cacheable blokken aan [ privé inhoudsmechanisme ](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=private%20co) in plaats daarvan.
 * Verwijder indien nodig het kenmerk `cacheable="false”` en verwijder de lay-outcache.
 
 >[!NOTE]
 >
->Voor Adobe Commerce op cloudinfrastructuur 2.4.1 en hoger kunt u de [Analyse voor de hele site](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) om automatisch te controleren of uw Volledige Geheime voorgeheugen van de Pagina niet correct wordt gevormd.
+>Voor Adobe Commerce op wolkeninfrastructuur 2.4.1 en recenter, kunt u het [ Plaats-brede Hulpmiddel van de Analyse ](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) gebruiken om automatisch te controleren als uw Volledig Geheime voorgeheugen van de Pagina niet correct wordt gevormd.
 
 ### Verwante lezing
 
-[Overzicht Adobe Commerce cache](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=cacheable%2) in onze ontwikkelaarsdocumentatie.
+[ het geheim voorgeheugenoverzicht van Adobe Commerce ](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=cacheable%2) in onze ontwikkelaarsdocumentatie.

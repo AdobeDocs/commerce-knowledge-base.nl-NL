@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0: uitzondering tijdens installatie B2B 1.2.0
 
-Dit artikel biedt een oplossing voor een bekende Adobe Commerce-probleem voor een uitzondering die tijdens `setup:upgrade` bij de installatie van B2B 1.2.0.
+Dit artikel bevat een oplossing voor een bekende Adobe Commerce-probleem voor een uitzondering die tijdens `setup:upgrade` wordt gegenereerd bij de installatie van B2B 1.2.0.
 
 ## Betrokken producten en versies
 
@@ -23,7 +23,7 @@ Dit artikel biedt een oplossing voor een bekende Adobe Commerce-probleem voor ee
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
 1. Installeer Adobe Commerce met meer dan één winkel gemaakt.
 1. Maak een extra winkel.
@@ -33,13 +33,13 @@ Dit artikel biedt een oplossing voor een bekende Adobe Commerce-probleem voor ee
 >
 >De upgrade van elke B2B-instantie met meer dan één winkel van een versie onder 1.2.0 of Commerce-instantie onder 2.4.0 wordt ook beïnvloed.
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
 B2B 1.2.0-installaties.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
-Wanneer `setup:upgrade` wordt uitgevoerd om B2B 1.2.0 te installeren, wordt deze fout weergegeven op de `PurchaseOrder` module:
+Wanneer `setup:upgrade` wordt uitgevoerd om B2B 1.2.0 te installeren, wordt deze fout weergegeven in de module `PurchaseOrder` :
 
 ```php
 Module 'Magento_PurchaseOrder':
@@ -54,7 +54,7 @@ Pas de patch toe die in dit artikel is opgenomen.
 
 ## Reparatie
 
-De patch is gekoppeld aan dit artikel en kan in beide toepassingen worden gedownload `.composer` en `.git` indelingen (nadat u de bestanden hebt uitgepakt).
+De patch is gekoppeld aan dit artikel en kan zowel in `.composer` - als in `.git` -indeling worden gedownload (nadat u de bestanden hebt uitgepakt).
 
 Als u het bestand wilt downloaden, schuift u omlaag naar het einde van het artikel en klikt u op de bestandsnaam of op een van de volgende koppelingen:
 
@@ -63,14 +63,14 @@ Als u het bestand wilt downloaden, schuift u omlaag naar het einde van het artik
 
 ## Hoe een pleister aanbrengen
 
-<u>Composer-patch </u>
+<u> Composer-patch </u>
 
-Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor patchinstructies voor composer.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor composer flardinstructies wordt verstrekt.
 
-<u>Git patch </u>
+<u> Git patch </u>
 
-* Zie [Patches toepassen](https://devdocs.magento.com/cloud/project/project-patch.html) in de ontwikkelaarsdocumentatie voor git patch-instructies voor Adobe Commerce over cloud-infrastructuur.
-* Zie [Patches toepassen: aangepaste patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) in de ontwikkelaarsdocumentatie voor git patch-instructies voor Adobe Commerce.
+* Zie [ flarden ](https://devdocs.magento.com/cloud/project/project-patch.html) in ontwikkelaarsdocumentatie voor het flardinstructies van de it voor Adobe Commerce op wolkeninfrastructuur toepassen.
+* Zie [ Toepassend flarden: De flarden van de Douane ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) in ontwikkelaarsdocumentatie voor de instructies van het git flardflard voor Adobe Commerce.
 
 ## Gerelateerde lezing
 

@@ -21,16 +21,16 @@ Alle Adobe Commerce-versies en -versies.
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Ga naar de pagina Commerce Admin.
 1. Voer uw referenties in en klik op Aanmelden.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 U wordt aangemeld bij de Commerce Admin.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 U wordt opnieuw omgeleid naar het aanmeldingsformulier zonder foutberichten.
 
@@ -52,7 +52,7 @@ Probeer een andere browser te gebruiken en verhoog de levensduur van de beheerse
 Voer de volgende stappen uit om de levensduur van de beheersessie te verhogen:
 
 1. Maak een back-up van de database.
-1. Een databasegereedschap gebruiken, zoals [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)U kunt de volgende SQL-query ook handmatig vanaf de opdrachtregel openen:
+1. Gebruik een gegevensbestandhulpmiddel zoals [ phpMyAdmin ](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), of toegang manueel OB van de bevellijn om de volgende SQL vraag in werking te stellen:
 
    ```sql
    UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -69,7 +69,7 @@ Voer de volgende stappen uit om de levensduur van de beheersessie te verhogen:
 Voer de volgende stappen uit om de waarden van de cookies-instellingen te controleren en te wissen:
 
 1. Maak een back-up van de database.
-1. Een databasegereedschap gebruiken, zoals [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)U kunt de volgende SQL-query ook handmatig vanaf de opdrachtregel openen:
+1. Gebruik een gegevensbestandhulpmiddel zoals [ phpMyAdmin ](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), of toegang manueel OB van de bevellijn om de volgende SQL vraag in werking te stellen:
 
    ```sql
    SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");
@@ -89,5 +89,5 @@ Voer de volgende stappen uit om de waarden van de cookies-instellingen te contro
 
 ## Verwante artikelen
 
-* [Omleiden naar het aanmeldingsformulier voor Admin met de fout &quot;Uw account is tijdelijk uitgeschakeld&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) in onze kennisbasis voor ondersteuning.
-* [Omleiden naar het aanmeldingsformulier voor Admin met de fout &quot;Uw huidige sessie is verlopen&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md) in onze kennisbasis voor ondersteuning.
+* [ richt terug naar de Admin login vorm met &quot;Uw rekening is tijdelijk gehandicapt&quot;fout ](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) in onze basis van de steunkennis.
+* [ richt terug naar de Admin login vorm met &quot;Uw huidige zitting is verlopen&quot;fout ](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md) in onze basis van de steunkennis.

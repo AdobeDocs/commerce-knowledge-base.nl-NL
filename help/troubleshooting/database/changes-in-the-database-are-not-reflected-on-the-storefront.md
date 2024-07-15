@@ -26,13 +26,13 @@ Wijzigingen die u aanbrengt in de database, worden niet doorgevoerd in de winkel
 
 ## Oorzaak
 
-Als uw indexen [geconfigureerd voor bijwerken volgens schema](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers), kan de kwestie door één of meerdere lijsten met veranderingslogboeken worden veroorzaakt die te groot zijn of de trekkers MySQL die niet opstelling zijn.
+Als uw indexeerders [ worden gevormd om door programma ](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) bij te werken, zou de kwestie door één of meerdere lijsten met veranderingslogboeken kunnen worden veroorzaakt die te groot zijn of trekkers MySQL die niet opstelling zijn.
 
 ### Te grote logtabellen voor wijzigingen
 
-De lijsten van het veranderingslogboek groeien dat als `indexer_update_all_views` de snijtaak is niet meerdere keren voltooid.
+De logtabellen voor wijzigingen worden zo groot als de `indexer_update_all_views` -uitsnijdtaak niet meerdere keren is voltooid.
 
-Logtabellen wijzigen zijn de databasetabellen waarin de wijzigingen in entiteiten worden bijgehouden. Een verslag wordt opgeslagen in een lijst van het veranderingslogboek zolang de verandering niet wordt toegepast, die door wordt uitgevoerd `indexer_update_all_views` snijtaak. Een Adobe Commerce-database bevat meerdere veranderingslogtabellen. Deze krijgen een naam volgens het volgende patroon: INDEXER\_TABLE\_NAME + ‘\_cl’, bijvoorbeeld `catalog_category_product_cl`, `catalog_product_category_cl`. Meer informatie over hoe wijzigingen worden bijgehouden in de database vindt u in het dialoogvenster [Overzicht van indexering > Weergave](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) artikel in onze ontwikkelaarsdocumentatie.
+Logtabellen wijzigen zijn de databasetabellen waarin de wijzigingen in entiteiten worden bijgehouden. Een record wordt opgeslagen in een tabel met het wijzigingslogboek, zolang de wijziging niet wordt toegepast. Deze wijziging wordt uitgevoerd door de `indexer_update_all_views` -snijtaak. Er zijn meerdere veranderingslogboeklijsten in een gegevensbestand van Adobe Commerce, zij worden genoemd volgens het volgende patroon: INDEXER\_TABLE\_NAME + &quot;\_cl&quot;, bijvoorbeeld `catalog_category_product_cl`, `catalog_product_category_cl`. U kunt meer details op vinden hoe de veranderingen in gegevensbestand in het [ Indexeren overzicht > artikel van de Mview ](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) in onze ontwikkelaarsdocumentatie worden gevolgd.
 
 ### MySQL database triggers not set
 
@@ -46,16 +46,16 @@ U zou vermoeden dat database-triggers niet worden ingesteld, als na het toevoege
 
 ### Vermijd te grote wijzigingen in logtabellen
 
-Zorg ervoor dat de `indexer_update_all_views` de snijtaak is altijd voltooid.
+Zorg ervoor dat de `indexer_update_all_views` -snijtaak altijd met succes is voltooid.
 
-U kunt de volgende SQL-query gebruiken om alle mislukte instanties van de opdracht `indexer_update_all_views` snijtaak:
+U kunt de volgende SQL-query gebruiken om alle mislukte instanties van de `indexer_update_all_views` cron-taak op te halen:
 
 ```sql
 select * from cron_schedule where job_code = "indexer_update_all_views" and status
   <> "success" and status <> "pending";
 ```
 
-Of u kunt de status in de logboeken controleren door te zoeken naar de `indexer_update_all_views` vermeldingen:
+U kunt ook de status van het bestand in de logboeken controleren door naar de `indexer_update_all_views` -items te zoeken:
 
 * `<install_directory>/var/log/cron.log` - voor versies 2.3.1+ en 2.2.8+
 * `<install_directory>/var/log/system.log` - voor eerdere versies
@@ -71,7 +71,7 @@ Gebruik de volgende opdracht om deze bewerking uit te voeren.
 
 >[!WARNING]
 >
->Voordat u van indexeermodus overschakelt, raden we u aan uw website in te zetten [onderhoud](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode) en [uitsnijdtaken uitschakelen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs) om databasestlokken te voorkomen.
+>Alvorens de wijzen van de omschakelingsindexeerder, adviseren wij het zetten van uw website in [ onderhoud ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode) wijze en [ bouwbanen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs) onbruikbaar maken om gegevensbestandsloten te vermijden.
 
 ```bash
 php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
@@ -83,5 +83,5 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## Gerelateerde lezing
 
-<ul><li title="MySQL-tabellen zijn te groot"><a href="/help/troubleshooting/database/mysql-tables-are-too-large.md">MySQL-tabellen zijn te groot</a> in onze kennisbasis voor ondersteuning.</li>
-<li title="MySQL-tabellen zijn te groot"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">Overzicht van Indexer &gt; Weergave</a> in onze ontwikkelaarsdocumentatie.</li></ul>
+<ul><li title="MySQL-tabellen zijn te groot"><a href="/help/troubleshooting/database/mysql-tables-are-too-large.md"> MySQL lijsten zijn te groot </a> in onze basis van steunkennis.</li>
+<li title="MySQL-tabellen zijn te groot"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview"> Indexer overzicht &gt; mening </a> in onze ontwikkelaardocumentatie.</li></ul>

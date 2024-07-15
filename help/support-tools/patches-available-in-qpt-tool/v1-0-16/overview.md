@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.0.16'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.16.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.0.16'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.0.16 worden bevestigd.
 exl-id: d99c6ec1-7098-4a3a-ae65-82cc359318ae
 feature: Tools and External Services
 role: Admin
@@ -11,17 +11,17 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht van versie 1.0.16
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.0.16
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.16.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.16.
 
 QPT v1.0.16 bevat de volgende patches:
 
-1. **32634 MDVA**: Hiermee wordt het probleem opgelost waarbij de `url_path` van de categorie die aan alle opslagruimten is toegewezen, blijft ongewijzigd nadat de categorie in de hiërarchie is verplaatst.
-1. **MDVA-3344**: Hiermee wordt het probleem verholpen waarbij harde code wordt gecodeerd `rma_item` id van standaard entiteitskenmerkset wordt gebruikt in plaats van de waarde uit de database.
-1. **33453**: Hiermee wordt het probleem opgelost waarbij [!DNL Page Builder] Voorvertoning van inhoudstype voor producten wordt afgebroken als overeenkomende producten verschillende prijzen voor elke website hebben.
-1. **34192**: Hiermee wordt het probleem verholpen waarbij de geboortedatum van de klant niet kan worden gewijzigd of opgegeven met de indeling dd/mm/jjjj.
-1. **34847**: Oplossingen opslaan id&#39;s als type conversie naar geheel getal voor SQL-voorwaarde in beheerverzamelingen voor gebruikers met aangepaste machtigingen.
-1. **MDVA-3486**: Hiermee wordt het probleem verholpen waarbij de zoekopdracht geen resultaten oplevert als *gewicht* productkenmerk is geconfigureerd als doorzoekbaar.
+1. **MDVA-32634**: Verhelpt de kwestie waar `url_path` van de categorie die aan al opslag wordt toegewezen onveranderd blijft na het bewegen van de categorie in de hiërarchie.
+1. **MDVA-33344**: Verhelpt de kwestie waar hard gecodeerde `rma_item` entiteit standaard geplaatste identiteitskaart in plaats van de waarde van het gegevensbestand wordt gebruikt.
+1. **MDVA-33453**: Verhelpt de kwestie waar [!DNL Page Builder] het inhoudstype van Producten voorproef als de passende producten verschillende prijzen voor elke website hebben.
+1. **MDVA-34192**: Verhelpt de kwestie waar het onmogelijk is om klantendatum van geboorte te wijzigen/te specificeren gebruikend dd/mm/jjjj formaat.
+1. **mDVA-34847**: De opslag IDs van moeilijke tijden typeomzetting aan geheel voor SQL voorwaarde in admininzamelingen voor admingebruiker met douanetoestemmingen.
+1. **MDVA-34886**: Verhelpt de kwestie waar het onderzoek niet resultaten terugkeert als *gewicht* productattribuut als doorzoekbaar wordt gevormd.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Hoofdmenu (Categorieën) wordt niet weergegeven op subpagina&#39;s waarvoor Snelheid is ingeschakeld
 
-Dit artikel bevat een oplossing voor het gebruik van het hoofdmenu (of het dialoogvenster [Menu Navigatie boven categorie](/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in onze gebruikershandleiding) niet wordt weergegeven in de winkel voor subpagina&#39;s (bijvoorbeeld *blog/pagina*) als Fastly of Varnish is ingeschakeld.
+Dit artikel verstrekt een moeilijke situatie voor wanneer het Belangrijkste Menu (of het [ menu van de Navigatie van de Categorie Hoogste ](/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in onze gebruikersgids) niet op opslag voor subpagina&#39;s (bijvoorbeeld, *blog/pagina*) wordt getoond wanneer de Fastly of Varnish wordt toegelaten.
 
-**Oorzaak:** niet-toegelaten `/` teken (schuine streep) in de *URL-sleutel* parameter van de pagina (Optimalisatie-instellingen voor zoekprogramma). Het teken wordt meestal toegevoegd wanneer *URL-pad* (met volledige paginalocatie) wordt per ongeluk opgegeven in plaats van *URL-sleutel*: bijvoorbeeld *blog/pagina\_naam* in plaats van *page\_name*.
+**Oorzaak:** het niet-toegelaten `/` karakter (schuine streep) in de *Zeer belangrijke URL* parameter van de pagina (de montages van de Optimalisering van de Motor van het Onderzoek). Het karakter wordt gewoonlijk toegevoegd wanneer *Weg URL* (met volledige paginalocatie) incorrect in plaats van *Sleutel URL* wordt gespecificeerd: bijvoorbeeld, *blog/pagina\_name* in plaats van enkel *pagina\_name*.
 
-**Oplossing:** verwijderen `/` teken (schuine streep); voor de *URL-sleutel* alleen de paginanaam op.
+**Oplossing:** verwijder het `/` karakter (schuine streep); voor de *Zeer belangrijke URL* parameter, specificeer slechts de paginanaam.
 
 ## Betrokken versies
 
@@ -27,35 +27,35 @@ Dit artikel bevat een oplossing voor het gebruik van het hoofdmenu (of het dialo
 
 ## Probleem
 
-Het hoofdmenu (ook wel het [Menu Navigatie boven categorie](/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in onze gebruikershandleiding) wordt niet weergegeven op de winkel voor subpagina&#39;s wanneer de services Snelst of andere op vernis gebaseerde services zijn ingeschakeld.
+Het Belangrijkste Menu (die ook als het [ Belangrijkste menu van de Navigatie van de Categorie ](/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in onze gebruikersgids wordt bedoeld) wordt niet getoond op opslag voor subpages wanneer de Fastly of andere op varens-Gebaseerde diensten worden toegelaten.
 
 ## Oorzaak
 
-Het probleem wordt veroorzaakt door het niet-toegestane `/` teken (schuine streep), toegevoegd aan de *URL-sleutel* parameter (Optimalisatie-instellingen voor zoekprogramma).
+De kwestie wordt veroorzaakt door het niet-toegelaten `/` karakter (schuine streep), dat aan de *wordt toegevoegd Sleutel URL* parameter (de montages van de Optimalisering van de Motor van het Onderzoek).
 
-Het teken wordt meestal toegevoegd wanneer *URL-pad* (met volledige paginalocatie, inclusief de bovenliggende bron/directory van de pagina) wordt per ongeluk opgegeven in plaats van *URL-sleutel*: bijvoorbeeld *blog/pagina\_naam* in plaats van *page\_name*.
+Het karakter wordt gewoonlijk toegevoegd wanneer *Weg URL* (met volledige paginalocatie, met inbegrip van het oudermiddel/de folder van de pagina) incorrect in plaats van *Sleutel URL* wordt gespecificeerd: bijvoorbeeld, *blog/pagina\_name* in plaats van enkel *pagina \_name*.
 
-![URL-sleutelparameter voor SEO-instellingen](assets/seo_url_key.png)
+![ Zeer belangrijke parameter URL voor montages SEO ](assets/seo_url_key.png)
 
 ## Oplossing
 
-Verwijder de `/` teken (schuine streep) uit de *URL-sleutel* parameter voor alle pagina&#39;s van uw opslag.
+Verwijder het `/` karakter (schuine streep) uit de *Zeer belangrijke URL* parameter voor alle pagina&#39;s van uw opslag.
 
-Met andere woorden, gebruik *URL-sleutel* in plaats van *URL-pad*: vermeld alleen de paginanaam zonder bovenliggende bron/map.
+Met andere woorden, gebruik *Sleutel URL* in plaats van *Weg URL*: vermeld enkel de paginanaam zonder oudermiddel/folder.
 
 ### Recommendations op paginahiërarchie en SEO
 
-Als u de paginahiërarchie wilt instellen, gebruikt u de opdracht **Hiërarchie** in het menu Pagina bewerken.
+Om de paginahiërarchie te plaatsen, gebruik de **sectie van de Hiërarchie** van het Edit menu van de Pagina.
 
-![Hiërarchie-instellingen](assets/hierarchy_hr.png)
+![ de montages van de Hiërarchie ](assets/hierarchy_hr.png)
 
-U kunt ook de opdracht **Inhoud** > **Elementen** > **Hiërarchie** -menu - voor complexere hiërarchieoplossingen.
+U kunt ook de **Inhoud** > **Elementen** > **Hiërarchie** menu - voor complexere hiërarchieoplossingen gebruiken.
 
-Voor SEO-doeleinden op productpagina&#39;s gebruikt u URL Rewrites (**Marketing** > **SEO &amp; Search** > **URL herschrijft**).
+Voor SEO doeleinden op productpagina&#39;s, herschrijft het gebruik URL (**Marketing** > **SEO &amp; Onderzoek** > **URL herschrijft**).
 
 ## Meer informatie in onze gebruikershandleiding
 
-De *URL-sleutel* parameter voor SEO:
+De *Zeer belangrijke URL* parameter voor SEO:
 
 * [Optimalisatie zoekmachine](/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html)
 * [Een nieuwe pagina toevoegen](/docs/commerce-admin/content-design/elements/pages/page-add.html)

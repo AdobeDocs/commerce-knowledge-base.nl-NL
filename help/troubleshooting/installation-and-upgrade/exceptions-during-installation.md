@@ -43,7 +43,7 @@ Object(Magento\Indexer\Model\Resource\Indexer\State\Collection), 'indexer_config
 
 ## Oplossing
 
-Wis de `<magento_root>/generated/code` en andere directory&#39;s onder `var` en `generated` als volgt:
+Wis de mappen `<magento_root>/generated/code` en overige mappen onder `var` en `generated` als volgt:
 
 ```bash
 rm -rf <magento_root>/generated/code/* <magento_root>/generated/metadata/* <magento_root>/var/cache/*

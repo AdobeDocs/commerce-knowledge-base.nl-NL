@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.0.19'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.19.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.0.19'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.0.19 worden bevestigd.
 exl-id: a8749772-b97a-4ed8-8671-2a1d52d2201a
 feature: Tools and External Services
 role: Admin
@@ -11,25 +11,25 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht versie 1.0.19
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.0.19
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.19.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.19.
 
 QPT v1.0.19 omvat de volgende flarden:
 
-1. **31307**: Hiermee wordt het probleem opgelost waar *Onvoldoende geheugen* fouten op bepaalde categorieën als gevolg van problemen met de dynamische whitelisting van CSP voor in cache geplaatste blokken.
-1. **33289**: Hiermee wordt het probleem verholpen waarbij onbewerkte JavaScript-code wordt weergegeven in de gebruikersinterface van het factureringsadres tijdens het uitchecken als [!DNL Google Tag Manager] is ingeschakeld.
-1. **33614**: Hiermee wordt het probleem verholpen waarbij de Page Builder de volgende fout veroorzaakt: *Er is een fout opgetreden bij het starten van de Page Builder. Neem contact op met uw contactpersoon voor technische ondersteuning.*
-1. **33704**: Hiermee wordt het probleem opgelost waarbij de *Ophalen in winkel* De verschepende optie verschijnt niet, hoewel wordt gevormd om beschikbaar te zijn.
-1. **34474**: Hiermee kunt u het probleem verhelpen door een product met de API toe te voegen aan de aanvraaglijst.
-1. **34591**: Hiermee wordt het probleem verholpen met een onjuiste berekening van de winkelregelkorting voor *Maximale korting op de hoeveelheid wordt toegepast op* en *Kortingsstap (X kopen)*.
-1. **34928**: Hiermee wordt het probleem verholpen waarbij de paginalader oneindig wordt weergegeven nadat het winkelkrediet uit de betaling is verwijderd.
-1. **MDVA-3515**: Hiermee wordt het probleem verholpen waarbij het onmogelijk is een bundelproduct te kopen als de optietechtheek is gewijzigd.
-1. **35254**: Hiermee verhelpt u de problemen met CAPTCHA tijdens het uitchecken.
-1. **35356**: Hiermee wordt het probleem verholpen met een onjuiste return voor winkelkredieten na gedeeltelijk gefactureerde annulering van bestelling.
-1. **35569**: Hiermee wordt het probleem opgelost waarbij de *vaste productbelastingen* wordt niet ingevuld in GraphQL-reactie als de status is opgegeven.
-1. **35847 MDVA**: Hiermee wordt het B2B-probleem verholpen waarbij de vorm van de formulier Bedrijfs-gebruikers wordt verbroken als een aangepast kenmerk van de klant wordt gebruikt.
-1. **MDVA-35910**: Hiermee wordt het probleem verholpen waarbij het onmogelijk is om een nieuwe klantenaccount te maken nadat de [!UICONTROL Login as Customer] functionaliteit.
-1. **35982**: Hiermee wordt het probleem verholpen waarbij beheerders die zijn beperkt tot een bepaalde website, geen verzending kunnen maken voor de bestelling die op dezelfde website is geplaatst.
+1. **MDVA-31307**: Verhelpt de kwestie waar er *uit geheugen* fouten op bepaalde categorieën wegens problemen met dynamische CSP die voor caching blokken zijn.
+1. **MDVA-33289**: Verhelpt de kwestie waar de ruwe code van JavaScript in het facturerings adres UI tijdens controle wordt getoond als [!DNL Google Tag Manager] wordt toegelaten.
+1. **MDVA-33614**: Verhelpt de kwestie waar de Bouwer van de Pagina de volgende fout werpt: *Een fout is voorgekomen terwijl het in werking stellen van de Bouwer van de Pagina. Raadpleeg uw contactpersoon voor technische ondersteuning.*
+1. **MDVA-33704**: Bevestigt de kwestie waar *in opslag bestelwagen* verschepende optie niet verschijnt, hoewel wordt gevormd om beschikbaar te zijn.
+1. **MDVA-34474**: Verhelpt de kwestie met het toevoegen van een product aan de verzoeklijst gebruikend API.
+1. **mDVA-34591**: Verhelpt de kwestie met een onjuiste berekening van de de regelkorting van de winkelwagentje voor *Maximale Korting van de Aantal wordt toegepast op* en *de Stap van de Korting (Koop X)*.
+1. **MDVA-34928**: Verhelpt de kwestie waar de paginalader voor onbepaalde tijd wordt getoond nadat het opslagkrediet van de betaling wordt verwijderd.
+1. **MDVA-35155**: Bevestigt de kwestie waar het onmogelijk is om een bundelproduct te kopen als de optietitel werd veranderd.
+1. **MDVA-35254**: Verhelpt de kwesties met CAPTCHA tijdens controle.
+1. **MDVA-35356**: Verhelpt de kwestie met onjuiste terugkeer van het opslagkrediet na gedeeltelijk gefactureerde ordevernietiging.
+1. **MDVA-35569**: Verhelpt de kwestie waar het *vaste productbelastingen* gebied niet in de reactie van GraphQL wordt bevolkt wanneer de staat wordt gespecificeerd.
+1. **MDVA-35847**: Verhelpt de B2B kwestie waar de Gebruikers van het Bedrijf onderbrekingen vormen als een attribuut van de douaneklanten wordt gebruikt.
+1. **MDVA-35910**: Verhelpt de kwestie waar het onmogelijk is om een nieuwe klantenrekening tot stand te brengen na het onbruikbaar maken van de [!UICONTROL Login as Customer] functionaliteit.
+1. **MDVA-35982**: Verhelpt de kwestie waar de admingebruikers beperkt tot een specifieke website geen lading voor de orde kunnen tot stand brengen die op de zelfde website wordt geplaatst.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

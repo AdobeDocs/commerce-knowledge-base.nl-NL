@@ -22,16 +22,16 @@ Dit artikel biedt een oplossing voor het probleem wanneer alle foutberichten op 
 
 ## Probleem
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
-1. Ga naar **Nieuw account maken** pagina op de opslagruimte.
+1. Ga naar **Create Nieuwe pagina van de Rekening** op de storefront.
 1. Maak een nieuw account met een geregistreerd e-mailadres. Het volgende bericht wordt weergegeven:
 
 `There+is+already+an+account+with+this+email+address.+If+you+are+sure+that+it+is+your+email+address,+click+here+to+get+your+password+and+access+your+account.`
 
 ## Oorzaak
 
-Het probleem wordt veroorzaakt door een PHP 7.4.2 uitgave met betrekking tot set\\read cookies. Zie [PHP BUG \#79174 setcookie() codeert ruimte als \`+\`, maar $\_COOKIE decodeert deze niet meer](https://bugs.php.net/bug.php?id=79174).
+Het probleem wordt veroorzaakt door een PHP 7.4.2 uitgave met betrekking tot set\\read cookies. Zie [ PHP BUG \#79174 setcookie() codeert ruimte als \`+\`, maar $\_COOKIE decodeert hen niet meer ](https://bugs.php.net/bug.php?id=79174).
 
 ## Oplossing
 

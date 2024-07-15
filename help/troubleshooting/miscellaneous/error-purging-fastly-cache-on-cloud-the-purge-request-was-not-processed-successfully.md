@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Fout bij snel leegmaken van cache op Cloud (de aanvraag voor leegmaken is niet verwerkt)
 
-Dit artikel bevat een oplossing voor het gebruik van een optie voor het snel leegmaken en u ontvangt de fout: *Het verwijderingsverzoek is niet verwerkt*. De snelst is een CDN en het in het voorgeheugen onderbrengen dienst inbegrepen met Adobe Commerce op de plannen en de implementaties van de wolkeninfrastructuur. Als u een optie voor het snel leegmaken probeert te gebruiken en deze niet verwerkt, hebt u mogelijk onjuiste gegevens in de omgeving of een probleem aangetroffen.
+Dit artikel verstrekt een moeilijke situatie voor wanneer u een Fastly zuivert optie gebruikt, en u ontvangt de fout: *het zuiveringsverzoek werd niet met succes verwerkt*. De snelst is een CDN en het in het voorgeheugen onderbrengen dienst inbegrepen met Adobe Commerce op de plannen en de implementaties van de wolkeninfrastructuur. Als u een optie voor het snel leegmaken probeert te gebruiken en deze niet verwerkt, hebt u mogelijk onjuiste gegevens in de omgeving of een probleem aangetroffen.
 
 Met deze informatie kunt u snel headers voor uw livesite en oorspronkelijke servers controleren en testen.
 
@@ -37,7 +37,7 @@ U hebt mogelijk onjuiste referenties ingesteld in uw omgeving of u moet VCL-frag
 Controleer of u over de juiste snelste service-id en API-token in uw omgeving beschikt. Als u het Staging geloofsbrieven in Productie hebt, kunnen de zuiveringen niet verkeerd verwerken of verwerken.
 
 1. Meld u als beheerder aan bij uw lokale Commerce-beheerder.
-1. Klikken **Winkels** > Instellingen > **Configuratie** > **Geavanceerd** > **Systeem** en uitbreiden **Volledige paginacache**.    ![magento_full_page_cache_2.4.1.png](assets/magento_full_page_cache_2.4.1.png)
+1. Klik **Slaat** op > Montages > **Configuratie** > **Geavanceerd** > **Systeem** en breid **het Volledige Geheime voorgeheugen van de Pagina** uit.    ![ magento_full_page_cache_2.4.1.png ](assets/magento_full_page_cache_2.4.1.png)
 1. Vouw de configuratie snel uit en controleer de snelste service-id en API-token voor uw omgeving.
 1. Als u de waarden wijzigt, klikt u op Referenties testen.
 
@@ -49,12 +49,12 @@ Als de geloofsbrieven correct zijn, kunt u problemen met uw VCLs hebben. Om van 
 curl -X GET -s https://api.fastly.com/service/<Service ID>/version/<Editable Version #>/snippet -H "Fastly-Key:FASTLY_API_TOKEN"
 ```
 
-Controleer de lijst met VCL&#39;s. Als u problemen hebt met de standaard-VCL&#39;s van Snelst, kunt u de inhoud opnieuw uploaden of verifiëren volgens de [Snelle standaard VCL&#39;s](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets). Ga voor het bewerken van uw aangepaste VCL&#39;s naar [Aangepaste, snel VCL-fragmenten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) in de Commerce on Cloud Infrastructure Guide.
+Controleer de lijst met VCL&#39;s. Als u kwesties met het gebrek VCLs van Fastly hebt, kunt u opnieuw uploaden of de inhoud per [ snel gebrek VCLs ](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets) verifiëren. Voor het uitgeven van uw douane VCLs, zie [ VCL fragmenten van de Douane VCL ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) in Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ## Meer informatie
 
 In onze documentatie voor ontwikkelaars:
 
-* [Info snel](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Snel instellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [Aangepaste, snel VCL-fragmenten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [ Ongeveer snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
+* [ Opstelling snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* [ de fragmenten van VCL van de Douane de Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)

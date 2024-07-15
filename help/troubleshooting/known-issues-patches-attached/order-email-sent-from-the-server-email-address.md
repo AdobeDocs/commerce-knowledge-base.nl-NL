@@ -19,16 +19,16 @@ Deze artikelen bieden een patch voor het bekende Adobe Commerce-probleem met clo
 
 E-mails ter bevestiging van de bestelling worden verzonden vanaf het e-mailadres van de Apache-server. Andere e-mailadressen (wachtwoord vergeten enzovoort) worden verzonden vanaf de geconfigureerde e-mailadressen.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Plaats een bestelling bij de **Bevestiging bestelling verzenden** ingeschakeld.
+1. Plaats een orde met **verzend gecontroleerde de bevestiging van de orde** doos.
 1. Controleer e-mail.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Het e-mailbericht is verzonden vanuit het door Adobe Commerce geconfigureerde verzendadres.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 De e-mail is verzonden vanaf het e-mailadres dat is geconfigureerd in de Apache-server die wordt gebruikt.
 
@@ -59,6 +59,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Bijgevoegde bestanden

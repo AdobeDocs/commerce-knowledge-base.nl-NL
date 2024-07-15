@@ -23,19 +23,19 @@ In dit artikel wordt een bekende Adobe Commerce 2.4.2 B2B-uitgave beschreven waa
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Bedrijfsbeheerder maakt vooraf een inkooporder (inkooporder).
-1. Controleer het automatisch goedgekeurde e-mailbericht. De **naam klant** / **valutakoers** moeten verwachte waarden zijn.
-1. Valutasymbool wijzigen (**Stores > Configuration > Currency Setup > Currency Options**) in de beheernaam van Admin en het bedrijf op de pagina Customer Account.
+1. Controleer het automatisch goedgekeurde e-mailbericht. De **klantennaam** / **munttarief** zou waarden moeten worden verwacht.
+1. Het muntsymbool van de verandering (**Opslag > Configuratie > de Opstelling van de Valuta > Opties van de Valuta**) in Admin en bedrijf admin naam op de pagina van de Rekening van de Klant.
 1. Beheerder van de klant maakt een andere inkooporder in Admin.
 1. Controleer het automatisch goedgekeurde e-mailbericht.
 
-<u>Verwachte resultaten:</u>
+<u> Verwachte resultaten:</u>
 
 De naam en het valutasymbool van de klant worden gewijzigd in e-mailberichten en hebben de nieuwe waarden zoals verwacht.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De naam en het valutasymbool van de klant worden niet gewijzigd in e-mailberichten en hebben hun vorige waarden.
 
@@ -45,4 +45,4 @@ Voer handmatig de snijtaak of de consument uit om de nieuwe informatie te verspr
 
 ## Gerelateerde lezing
 
-* [Berichtenrijen beheren](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in onze ontwikkelaarsdocumentatie.
+* [ beheer berichtrijen ](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in onze ontwikkelaarsdocumentatie.

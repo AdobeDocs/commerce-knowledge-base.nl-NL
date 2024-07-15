@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Kan niet opslaan _verzending_ als URL-sleutel
+# Kan _het verschepen_ als sleutel URL niet bewaren
 
-Dit artikel biedt een oplossing voor het probleem wanneer u de verzending niet als URL-sleutel kunt opslaan (_bijv., /Shipping_) voor producten of CMS-pagina&#39;s. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
+Dit artikel verstrekt een tijdelijke oplossing voor de kwestie wanneer u het verschepen niet als sleutel URL (_b.v., /Shipping_) voor producten of CMS pagina&#39;s kunt bewaren. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
 
 ## Betrokken producten en versies
 
@@ -21,24 +21,24 @@ Adobe Commerce (alle implementatiemethoden) 2.4.x
 
 ## Probleem
 
-U kunt een CMS-pagina met de term niet opslaan _verzending_ in de URL-sleutel.
+U kunt geen CMS pagina met de termijn _verschepen_ in de sleutel bewaren URL.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-Een **[!UICONTROL CMS page]** met de URL-sleutel als _verzending_.
+Creeer a **[!UICONTROL CMS page]** met de sleutel URL als _verzendend_.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
-De pagina wordt opgeslagen met _verzending_ als URL-sleutel.
+De pagina bewaart met _het verschepen_ als sleutel URL.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 U kunt niet opslaan omdat deze fout optreedt:
-*Met de waarde die u opgeeft in het veld URL-sleutel, wordt een bestaande URL gegenereerd.*
+*de waarde die op het Zeer belangrijke gebied wordt gespecificeerd URL zou een URL produceren die reeds bestaat.*
 
 ## Oorzaak
 
-Verzending is een gereserveerd woord dat is gedefinieerd in `vendor/magento/module-shipping/etc/frontend/routes.xml`.
+Verzending is een gereserveerd woord dat is gedefinieerd in `vendor/magento/module-shipping/etc/frontend/routes.xml` .
 
 ```xml
 <router id="standard">
@@ -50,24 +50,24 @@ Verzending is een gereserveerd woord dat is gedefinieerd in `vendor/magento/modu
 
 ## Oplossing
 
-U kunt de term niet gebruiken _verzending_ in uw URL-sleutel - maar u kunt de term _verzending_ gecombineerd met een andere letter of een ander getal (_Bijvoorbeeld verzending1 en verzending2_).
+U kunt niet de term _verschepen_ in uw sleutel gebruiken URL - nochtans kunt u de termijn _gebruiken die_ met een andere brief of een aantal (_wordt gecombineerd bijvoorbeeld, verschepen1 en verschepen2_).
 
-Hoewel de term niet hoeft te worden gebruikt _verzending_+&lt;another number=&quot;&quot; or=&quot;&quot; letter=&quot;&quot;> - de term kan een willekeurige tekenreeks zijn zolang de lengte niet wordt overschreden *255* tekens.
+Hoewel de termijn niet _het verschepen_ + &lt;een ander aantal of brief> moet zijn - de termijn zou om het even welk koord kunnen zijn zolang de lengte *255* karakters niet overschrijdt.
 
 ## Voer de volgende stappen uit:
 
 1. Meld u aan bij de Adobe Commerce-beheerder.
-1. Ga naar **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
+1. Ga naar **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]** .
 1. Klik op **[!UICONTROL Add URL Rewrite]**.
-1. Selecteren **[!UICONTROL Custom]** in de **[!UICONTROL Create URL Rewrite]** vervolgkeuzelijst.
-   1. Typ de [!UICONTROL Request Path] als **_verzending_**.
-   1. In de **[!UICONTROL Target Path]** Typ de nieuwe URL-sleutel (_Bijvoorbeeld &quot;Shipping1&quot;_).
-   1. Selecteren **[!UICONTROL No]** in de **[!UICONTROL Redirect]** vervolgkeuzelijst.
+1. Selecteer **[!UICONTROL Custom]** in de vervolgkeuzelijst **[!UICONTROL Create URL Rewrite]** .
+   1. Typ [!UICONTROL Request Path] als **_verschepen_**.
+   1. In **[!UICONTROL Target Path]**, typ de nieuwe sleutel URL (_Bijvoorbeeld, &quot;Shipping1&quot;_).
+   1. Selecteer **[!UICONTROL No]** in de vervolgkeuzelijst **[!UICONTROL Redirect]** .
 
 
-      (**Opmerking**: Het verzoekpad is het pad dat een gebruiker in de browser invoert en het doelpad is het pad waarnaar de gebruiker moet omleiden.)
+      (**Nota**: De Weg van het Verzoek is wat een gebruiker in browser ingaat en de Weg van het Doel is waar het aan zou moeten opnieuw richten.)
 
-Vermijd bovendien het gebruik van deze trefwoorden met het label *gereserveerd* trefwoorden die ertoe leiden dat dezelfde uitzondering wordt weergegeven. Als u een van deze trefwoorden gebruikt als een URL-sleutelwaarde, wordt dezelfde fout weergegeven.
+Bovendien vermijd het gebruiken van deze sleutelwoorden die als *gereserveerde* sleutelwoorden worden geëtiketteerd die de zelfde uitzondering veroorzaken om te verschijnen. Als u een van deze trefwoorden gebruikt als een URL-sleutelwaarde, wordt dezelfde fout weergegeven.
 
 
 ```
@@ -122,5 +122,5 @@ Vermijd bovendien het gebruik van deze trefwoorden met het label *gereserveerd* 
 
 ## Gerelateerde lezing
 
-* [URL herschrijft](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in onze Gebruikershandleiding voor Verkoop en Aanbiedingen.
-* [SEO Best practices](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in onze Gebruikershandleiding voor Merchandising en Promoties..
+* [ URL herschrijft ](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in onze Gids van de Gebruiker van Merchandising en van Bevorderingen.
+* {de Beste praktijken van 0} SEO ](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in onze Gids van de Gebruiker van Merchandising en van Bevorderingen.[

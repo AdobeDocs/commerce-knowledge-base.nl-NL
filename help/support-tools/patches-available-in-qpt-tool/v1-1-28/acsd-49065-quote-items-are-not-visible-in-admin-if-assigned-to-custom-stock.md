@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # ACSD-49065: Offertepunten zijn niet zichtbaar in admin
 
-De ACSD-49065-patch verhelpt het probleem waarbij de aanhalingstekens niet zichtbaar zijn in de beheerder als deze alleen zijn toegewezen aan de aangepaste voorraad. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is geïnstalleerd. De patch-id is ACSD-49065. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-49065-patch verhelpt het probleem waarbij de aanhalingstekens niet zichtbaar zijn in de beheerder als deze alleen zijn toegewezen aan de aangepaste voorraad. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 wordt geïnstalleerd. De patch-id is ACSD-49065. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4-p2
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.3 - 2.4.6
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
@@ -35,37 +35,37 @@ De aanhalingstekens zijn niet zichtbaar in de beheerder als deze alleen zijn toe
 
 Vereisten:
 
-**[!UICONTROL B2B]** en **[!UICONTROL Inventory]** moeten worden geïnstalleerd.
+**[!UICONTROL B2B]** en **[!UICONTROL Inventory]** modules moeten zijn geïnstalleerd.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Inschakelen **[!UICONTROL Company]** en **[!UICONTROL B2B Quote]** krachtens **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**.
-1. Een secundair bestand maken **[!UICONTROL Inventory Source]** en deze aan een secundair **[!UICONTROL Inventory Stock]**.
-1. Een nieuw product maken door alleen het secundaire (niet-standaard) toe te wijzen **[!UICONTROL Inventory Source]**.
-1. Ga naar de winkel en maak een nieuw bedrijfsaccount. Aanmelden als de **[!UICONTROL Company Admin]** en voeg het gemaakte product toe aan de winkelwagentje.
-1. Ga naar de winkelwagentje en *[!UICONTROL Request a Quote]*.
-1. Ga naar de beheerder en bekijk het gevraagde citaat bij **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
+1. Schakel **[!UICONTROL Company]** en **[!UICONTROL B2B Quote]** onder **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]** in.
+1. Maak een secundair **[!UICONTROL Inventory Source]** en wijs het toe aan een secundair **[!UICONTROL Inventory Stock]** .
+1. Maak een nieuw product door alleen het secundaire (niet-standaard) **[!UICONTROL Inventory Source]** toe te wijzen.
+1. Ga naar de winkel en maak een nieuw bedrijfsaccount. Meld u aan als de **[!UICONTROL Company Admin]** en voeg het gemaakte product toe aan de winkelwagentje.
+1. Navigeer naar het winkelwagentje en *[!UICONTROL Request a Quote]* .
+1. Ga naar de beheerder en bekijk de gevraagde prijsopgave op **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** .
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De punten zijn zichtbaar in het nieuwe citaat dat met nieuwe producten wordt gecreeerd zonder de producten opnieuw te bewaren.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De *[!UICONTROL Items Quoted]* is leeg. Als u het nieuwe product opnieuw opslaat, worden de items weergegeven.
+De sectie *[!UICONTROL Items Quoted]* is leeg. Als u het nieuwe product opnieuw opslaat, worden de items weergegeven.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

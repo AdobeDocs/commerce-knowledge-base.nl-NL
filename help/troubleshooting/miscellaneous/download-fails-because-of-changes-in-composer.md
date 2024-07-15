@@ -48,9 +48,9 @@ U kunt als volgt rondom de achtergrond werken:
 
 1. Wijzig uw versie van Composer zodat u de Adobe Commerce-software kunt downloaden door een van de volgende handelingen uit te voeren:
 
-   * Composer downgraden met de volgende opdracht: `composer self-update 1.0.0-alpha11`.
-   * Composer bijwerken naar een versie die later is dan 26 november 2015: `composer self-update`.
+   * Composer downgraden met de volgende opdracht: `composer self-update 1.0.0-alpha11` .
+   * Upgrade Composer naar een versie die ouder is dan 26 november 2015: `composer self-update` .
 
 1. Verwijder de Adobe Commerce-map en -submappen.
-1. Probeer het opnieuw met een van de twee `[composer create-project](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)` of `[git clone](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/dev_install.html)`.
-1. Werk de Composer bij nadat het downloaden van de Adobe Commerce-software is gelukt: `composer self-update`.
+1. Probeer de download opnieuw met `[composer create-project](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)` of `[git clone](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/dev_install.html)` .
+1. Werk de Composer bij nadat het downloaden van de Adobe Commerce-software is voltooid: `composer self-update`.

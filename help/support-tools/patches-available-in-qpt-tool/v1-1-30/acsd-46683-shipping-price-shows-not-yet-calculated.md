@@ -11,42 +11,42 @@ ht-degree: 0%
 
 ---
 
-# ACSD-46683: toont verzendprijs *Nog niet berekend*
+# ACSD-46683: De verzendprijs toont *nog niet berekend*
 
-De ACSD-46683-patch verhelpt het probleem waarbij de verzendprijs wordt weergegeven *Nog niet berekend*. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is geïnstalleerd. De patch-id is ACSD-46683. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+ACSD-46683 flardfixes de kwestie waar de verschepende prijs *nog niet berekend* toont. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 wordt geïnstalleerd. De patch-id is ACSD-46683. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.3-p2
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2 - 2.4.6
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-De verzendprijs toont *Nog niet berekend*.
+De het verschepen prijs toont *nog niet berekend*.
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 Adobe Commerce Inventory management-modules (MSI) zijn geïnstalleerd.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Een eenvoudig product maken en de prijs ervan instellen op *$ 34*.
+1. Creeer een eenvoudig product en plaats zijn prijs aan *$34*.
 1. Configureer de methode voor gratis verzending.
 1. Vorm minstens één meer leveringsmethode.
 1. Ga naar **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]** en maak een nieuwe regel:
-   * Naam = *75meer*
+   * Naam = *75more*
    * Coupon = Geen
    * Prioriteit = 1
-   * Voorwaarden: Subtotaal is gelijk aan of groter dan *$ 75*
+   * Voorwaarden: Subtotaal is gelijk aan of groter dan *$75*
    * Handelingen:
       * Toepassen op verzendbedrag = Ja
       * Verdere regels negeren = Nee
@@ -64,31 +64,31 @@ Adobe Commerce Inventory management-modules (MSI) zijn geïnstalleerd.
       * Gratis verzending = Nee
 1. Open de winkel en voeg drie producten toe aan de winkelwagen, zodat het subtotaal meer dan $75 bedraagt.
 1. Ga verder met uitchecken als gast.
-1. Selecteer bij de verzendstap de optie **$0 - gratis verzending** en ga verder met de betalingsstap.
-1. Controleer de [!UICONTROL Order Summary] in de betalingsstap. Het toont *[!UICONTROL $0 - Free Shipping - Free]*.
-1. De waardeboncode toepassen *35off*, wordt het subtotaal bijgewerkt en wordt het lager dan € 75.
-1. Controleren [!UICONTROL Order Summary] in de betalingsstap.
+1. Selecteer bij de verzendstap **$0 - gratis verzending** en ga verder met de betalingsstap.
+1. Controleer [!UICONTROL Order Summary] op de betalingsstap. Het toont *[!UICONTROL $0 - Free Shipping - Free]*.
+1. Pas de couponcode *35off* toe, zal het subtotal bijwerken en het minder dan $75 maken.
+1. Controleer [!UICONTROL Order Summary] op de betalingsstap.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-Het volgende bericht wordt weergegeven: *De geselecteerde verzendmethode is niet beschikbaar. Selecteer een andere verzendmethode voor deze bestelling.*
+Het volgende bericht wordt getoond: *Geselecteerde verschepende methode is niet beschikbaar. Selecteer een andere verzendmethode voor deze bestelling.*
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De verzendprijs wordt weergegeven *Nog niet berekend*.
+De het verschepen prijsvertoningen *nog niet berekend*.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

@@ -21,16 +21,16 @@ Dit artikel biedt een oplossing voor het moment waarop de onderhoudsmodus is ing
 
 ## Probleem
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. Schakel de onderhoudsmodus voor de site in.
 1. Ga naar de storefront.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 De onderhoudspagina wordt weergegeven.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
 De winkelpagina&#39;s worden op de gebruikelijke wijze weergegeven.
 
@@ -41,8 +41,8 @@ Pagina&#39;s worden nog steeds in het cachegeheugen opgeslagen, zodat de onderho
 ## Oplossing voor de locatie is zichtbaar ondanks de onderhoudsmodus
 
 1. SSH voor uw omgeving.
-1. Voer de `php bin/magento cache:clean` gebruiken.
+1. Voer de opdracht `php bin/magento cache:clean` uit.
 
 ## Gerelateerde lezing
 
-[Onderhoudsmodus in- of uitschakelen](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) in onze ontwikkelaarsdocumentatie.
+[ laat of maak onderhoudswijze ](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) in onze ontwikkelaarsdocumentatie toe onbruikbaar.

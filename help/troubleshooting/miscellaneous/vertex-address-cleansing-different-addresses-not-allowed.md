@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Vertexadres opschonen: verschillende adressen niet toegestaan
 
-In dit artikel wordt gesproken over de oplossing voor het probleem waarbij de gebruiker een **verschillend** facturerings- en verzendadres, met validatie van hoekpuntadressen ingeschakeld, laat de winkel de gebruiker niet het adres invoeren.
+Dit artikel spreekt over de oplossing voor de kwestie waar wanneer de gebruiker probeert om a **verschillend** het factureren en het verschepen adres in te gaan, met toegelaten de adrevalidatie van het hoekpunt, zal de storefront niet de gebruiker het laten ingaan.
 
 ## Betrokken producten en versies
 
@@ -21,23 +21,23 @@ In dit artikel wordt gesproken over de oplossing voor het probleem waarbij de ge
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Ga naar Beheer > **Winkels** > **Configuratie** > **Verkoop** > **Adres opschonen**.
-1. Selecteren *Ingeschakeld* van de **Vertexadres opschonen gebruiken** vervolgkeuzelijst **Config opslaan**.
+1. Ga naar Admin > **Opslag** > **Configuratie** > **Verkoop** > **het Schoonmaken van het Adres**.
+1. Selecteer *Toegelaten* van **Reiniging van het Adres van het Punt van het Gebruik** drop-down en **sparen Config**.
 1. Ga naar de frontend als gast en voeg een product aan de kar toe.
-1. Klik op het pictogram Winkelwagentje en **Doorgaan naar Afhandeling**.
+1. Klik op het pictogram van het Kunst en **ga aan Controle**.
 1. Vul de adresvelden in.
-1. Selecteren **Verzendmethode** en klik op **Volgende**.
-1. Klik op de knop **Volgende** nogmaals.
-1. Uitschakelen **Mijn facturerings- en verzendadres** **gelijk zijn** en voer een nieuw factureringsadres in (anders dan Adres).
-1. Klik op de knop **Bijwerken** klikt u vervolgens op **Adres bijwerken**.
+1. Selecteer gewenste **Verzendmethode** en klik **daarna**.
+1. Klik opnieuw op de **Volgende** knoop.
+1. Uncheck **Mijn het factureren en het verschepen adres** **is het zelfde**, en ga een nieuw het facturerings adres (verschillend aan Adres) in.
+1. Klik de **knoop van de Update**, dan klik **adres van de Update**.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De gebruiker ziet verschillende factuuradres en verzendadressen.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Wanneer de gebruiker op de update tikt, worden de facturerings- en verzendadressen weer gelijk.
 

@@ -23,7 +23,7 @@ Tijdens installatie die de Tovenaar van de Opstelling gebruikt, houdt het proces
 
 Veelvoorkomende oorzaken van dit probleem zijn:
 
-* De PHP-instelling voor [`max_execution_time`](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)
+* De instelling PHP voor [`max_execution_time` ](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)
 * Tijdlijnwaarden voor nginx en Varnish
 
 ## Oplossing:
@@ -32,11 +32,11 @@ Stel alle volgende opties naar wens in.
 
 ### Alle webservers en Varnish {#all-web-servers-and-varnish}
 
-1. Zoek uw `php.ini` met een [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) bestand.
-1. Als gebruiker met `root` rechten, openen `php.ini` in een teksteditor.
-1. Zoek de `max_execution_time` instellen.
-1. De waarde wijzigen in `18000` .
-1. Sla uw wijzigingen op in `php.ini` en sluit de teksteditor af.
+1. Zoek uw `php.ini` gebruikend een [`phpinfo.php` ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) dossier.
+1. Als gebruiker met `root` rechten, opent u `php.ini` in een teksteditor.
+1. Zoek de instelling `max_execution_time` .
+1. Wijzig de waarde in `18000` .
+1. Sla de wijzigingen in `php.ini` op en sluit de teksteditor af.
 1. Apache opnieuw starten:
 
    * CentOS: `service httpd restart`
@@ -46,7 +46,7 @@ Stel alle volgende opties naar wens in.
 
 ### alleen nginx {#nginx-only}
 
-Als u nginx gebruikt, gebruik dan de meegeleverde code `nginx.conf.sample` of voeg een onderbrekingsmontages in het nginx dossier van de gastheerconfiguratie aan het `location ~ ^/setup/index.php` als volgt:
+Als u nginx gebruikt, gebruikt u de meegeleverde `nginx.conf.sample` instellingen of voegt u als volgt een time-outinstellingen in het configuratiebestand van de nginx-host toe aan de sectie `location ~ ^/setup/index.php` :
 
 ```php
 location ~ ^/setup/index.php {
@@ -56,11 +56,11 @@ location ~ ^/setup/index.php {
 }
 ```
 
-Nginx opnieuw starten: `service nginx restart`
+Opnieuw starten, nginx: `service nginx restart`
 
 ### Alleen vernis {#varnish-only}
 
-Als u Varnish gebruikt, bewerkt u `default.vcl` en voeg een time-outgrenswaarde toe aan de `backend` stanza, als hieronder:
+Als u Varnish gebruikt, bewerkt u `default.vcl` en voegt u als volgt een time-outgrenswaarde toe aan de `backend` stanza:
 
 ```php
 backend default {

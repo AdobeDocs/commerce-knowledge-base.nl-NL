@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.0.26'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.26.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.0.26'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.0.26 worden bevestigd.
 exl-id: 36851ffd-bb25-483f-b7a5-c25fc68eaab6
 feature: Tools and External Services
 role: Admin
@@ -11,16 +11,16 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht van versie 1.0.26
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.0.26
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.26.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.26.
 
 QPT v1.0.26 bevat de volgende patches:
 
-1. **38468**: Hiermee corrigeert u de fout bij het opslaan van CMS-pagina&#39;s: *Item met dezelfde id PAGE_ID bestaat al*.
-1. **MDVA-34680**: Hiermee wordt het probleem verholpen waarbij de tijd die voor de Customer Account is gemaakt, niet correct is gefilterd in het klantenraster.
-1. **37068**: Hiermee wordt het probleem opgelost waarbij het onjuiste belastingtarief wordt weergegeven wanneer het winkelwagentje alleen virtuele producten bevat.
-1. **38308**: Hiermee verhelpt u de problemen met betrekking tot toevoegen [!DNL Vimeo] video&#39;s naar producten.
-1. **38608**: Hiermee wordt het probleem verholpen waarbij tijdelijke tabellen niet worden verwijderd als de redex niet met succes is voltooid.
+1. **MDVA-38468**: Vast de fout wanneer het bewaren van CMS pagina&#39;s: *Punt met zelfde identiteitskaart PAGE_ID bestaat reeds*.
+1. **mDVA-34680**: Verhelpt de kwestie waar de Rekening van de Klant gemaakte tijd niet correct in klantennet wordt gefiltreerd.
+1. **MDVA-37068**: Verhelpt de kwestie waar het onjuiste belastingtarief toont wanneer het winkelwagentje slechts virtuele producten heeft.
+1. **MDVA-38308**: lost de kwesties met betrekking tot het toevoegen van [!DNL Vimeo] video&#39;s aan producten op.
+1. **MDVA-38608**: Bevestigt de kwestie waar de tijdelijke lijsten niet worden geschrapt wanneer de herindex niet met succes wordt gebeëindigd.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

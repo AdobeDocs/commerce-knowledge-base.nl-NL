@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.32'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.32.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.32'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.1.32 worden bevestigd.
 exl-id: b0bec56f-3275-4100-9563-c1f63e0966e6
 feature: Tools and External Services
 role: Admin
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 # Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.32
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.32.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.32.
 
 QPT v1.1.32 omvat de volgende flarden:
 
-1. **ACSD-49628**: Hiermee wordt het probleem opgelost waarbij de [!UICONTROL Page Builder] Met CORS-fouten kunnen producten niet worden opgeslagen.
-1. **ACSD-51305**: Hiermee wordt het probleem verholpen waarbij samengestelde producten uit de voorraad niet beschikbaar zijn in het GraphQL-antwoord.
-1. **ACSD-50621**: Hiermee wordt het probleem verholpen waarbij de Tier-prijzen voor verschillende websites in een gedeelde catalogus niet zichtbaar zijn wanneer u deze probeert te bewerken in de omgeving van meerdere websites.
-1. **ACSD-51041**: Hiermee wordt het probleem opgelost waarbij de prijsindex lang duurt om te voltooien wanneer er een grote productset is.
-1. **ACSD-51379**: Hiermee wordt het probleem opgelost waarbij wijzigingen worden aangebracht in de inhoud van paginatekst via [!UICONTROL Page Builder] niet worden opgeslagen.
-1. **ACSD-49480**: Hiermee wordt het probleem opgelost waarbij de [!UICONTROL Cart Price Rule] latere regels worden overboord gezet, waardoor ze niet werken zoals bedoeld.
-1. **ACSD-51230**: Hiermee wordt het probleem opgelost waarbij de [!UICONTROL Gift Card] de rekening wordt geschrapt wanneer een gedeeltelijke terugbetaling van een eenvoudig product uit een bestelling wordt verwerkt.
-1. **ACSD-51238**: Hiermee wordt het probleem verholpen waarbij de inventarisbron wordt verwijderd bij het bijwerken van configureerbare producten en het bewerken van de prijs.
-1. **ACSD-50794**: Hiermee wordt het probleem verholpen waarbij de gegevens over het cadeaubericht of de cadeauverpakking niet worden bijgewerkt in de database wanneer het bericht of de cadeauverpakking via GraphQL wordt verwijderd.
-1. **ACSD-51528**: Hiermee wordt het probleem verholpen waarbij een ander gedrag optreedt `snake_case` opmaken dan verwacht.
+1. **ACSD-49628**: Verhelpt de kwestie waar de [!UICONTROL Page Builder] fouten CORS product sparen verhinderen.
+1. **ACSD-51305**: Verhelpt de kwestie waar de uit-van-voorraad samengestelde kindproducten niet beschikbaar in de reactie van GraphQL zijn.
+1. **ACSD-50621**: Verhelpt de kwestie waar de Prijzen van de Rij voor verschillende websites in een gedeelde catalogus niet zichtbaar zijn wanneer het proberen om hen in het multi-websitemilieu uit te geven.
+1. **ACSD-51041**: Verhelpt de kwestie waar de prijsindex zeer lange tijd vergt om te voltooien wanneer er een grote productreeks is.
+1. **ACSD-51379**: Verhelpt de kwestie waar de veranderingen die aan de inhoud van de paginatekst via [!UICONTROL Page Builder] worden aangebracht niet worden bewaard.
+1. **ACSD-49480**: Verhelpt de kwestie waar [!UICONTROL Cart Price Rule] verdere regels verwerpt, die hen maken niet zoals bedoeld werken.
+1. **ACSD-51230**: Verhelpt de kwestie waar de [!UICONTROL Gift Card] rekening wordt geschrapt wanneer een gedeeltelijke teruggave van een eenvoudig product van een orde wordt verwerkt.
+1. **ACSD-51238**: Verhelpt de kwestie waar de inventarisbron wordt verwijderd wanneer het bijwerken van configureerbare producten en het uitgeven van de prijs.
+1. **ACSD-50794**: Bevestigt de kwestie waar het geschenkbericht of de geschenkomsluitende details niet in het gegevensbestand wanneer het verwijderen van het door GraphQL worden bijgewerkt.
+1. **ACSD-51528**: Verhelpt de kwestie waar er een verschillend gedrag op `snake_case` het formatteren is dan verwacht.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

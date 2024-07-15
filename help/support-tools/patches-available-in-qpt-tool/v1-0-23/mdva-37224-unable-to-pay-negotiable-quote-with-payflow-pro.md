@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-37224: Kan &quot;verhandelbaar aanhalingsteken&quot; niet betalen met PayFlow Pro
 
-De MDVA-37224-patch verhelpt het probleem wanneer klanten niet kunnen betalen voor een **Onderhandelbare offerte** met PayPal Pro. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is geïnstalleerd. De patch-id is MDVA-37224. Het probleem wordt volgens de planning opgelost in Adobe Commerce versie 2.4.3.
+Het flard MDVA-37224 bevestigt de kwestie wanneer de klanten niet voor a **Negotiable Citate** met Paypal PayFlow Pro kunnen betalen. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 geïnstalleerd is. De patch-id is MDVA-37224. Het probleem wordt volgens de planning opgelost in Adobe Commerce versie 2.4.3.
 
 ## Betrokken producten en versies
 
@@ -22,37 +22,37 @@ De MDVA-37224-patch verhelpt het probleem wanneer klanten niet kunnen betalen vo
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 * Adobe Commerce met geïnstalleerde B2B-module
 * Bedrijfsfunctionaliteit ingeschakeld
-* **Onderhandelbare offerte** functionaliteit ingeschakeld
+* **Negotiable toegelaten functionaliteit van het Citaat**
 * Een bedrijfsgebruiker bestaat
 * PayPal PayFlow Pro-betalingsmethode is ingeschakeld en geconfigureerd
 * PayPal PayFlow Pro-betalingsmethode is toegestaan voor B2B
 * Er zijn 2 producten met verschillende prijzen gecreëerd
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Open de Storefront.
-1. Toevoegen **Product 1** op de winkelwagentje.
-1. Een **Onderhandelbare offerte** for **Product 1**.
-1. Toevoegen **Product 2** op de winkelwagentje.
-1. Neem bij de beheerder de **Onderhandelbare offerte** gemaakt in Stap 3.
-1. Open vanuit de Storefront deze **Onderhandelbare offerte** en doorgaan met afrekenen.
-1. Selecteer de **Betalingsmethode** = *PayPal PayFlow Pro* bij de **Controle en betalingen** stap.
+1. Voeg **Product 1** aan het winkelwagentje toe.
+1. Creeer a **Negotiable Citaat** voor **Product 1**.
+1. Voeg **Product 2** aan het winkelwagentje toe.
+1. Van Admin, keur het **Negotiable Citaat** goed dat in Stap 3 wordt gecreeerd.
+1. Van de Storefront, open dit **Negotiable Citaat** en ga aan controle te werk.
+1. Selecteer de **Methode van de Betaling** = *PayPal PayFlow Pro* bij de **Controle en de stap van Betalingen**.
 1. Plaats de bestelling.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 * De bestelling wordt correct geplaatst.
 * PayPal stuurt e-mail met de juiste gegevens naar de klant, zoals verwacht.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 * De webpagina loopt vast en voltooit de volgorde niet.
 * PayPal stuurt een bevestiging naar de klant met nulwaarden, vergelijkbaar met dit voorbeeld:
@@ -76,15 +76,15 @@ US
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
 * 
-   * [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+   * [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches die beschikbaar zijn in QPT, raadpleegt u de [Patches beschikbaar in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) sectie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar de [ flarden beschikbaar in QPT ](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) sectie.

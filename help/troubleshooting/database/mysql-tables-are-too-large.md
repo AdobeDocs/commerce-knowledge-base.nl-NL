@@ -28,10 +28,10 @@ De grootte van MySQL-tabellen heeft niet rechtstreeks invloed op de prestaties v
 
 Houd rekening met de volgende opties om een afname van de prestaties te voorkomen:
 
-* Maak een CRON-taak, die grote tabellen opschoont. Zie [Grote MySQL-tabellen zoeken](/help/how-to/general/find-large-mysql-tables.md) in onze kennisbasis voor ondersteuning van aanbevelingen over het identificeren van grote tabellen.
+* Maak een CRON-taak, die grote tabellen opschoont. Zie [ grote lijsten MySQL ](/help/how-to/general/find-large-mysql-tables.md) in onze basis van steunkennis voor aanbevelingen vinden op hoe te om grote lijsten te identificeren.
 * Gebruik voor tabellen die groter zijn dan 1 GB een MySQL-engine die is geoptimaliseerd voor het schrijven van logbestanden. Bijvoorbeeld de Archiefengine.
 * Werk de functionaliteit bij om te voorkomen dat logbestanden in de database worden opgeslagen.
 
 ## Gerelateerde lezing
 
-[De grote lijsten van het veranderingslogboek die vertragingen in entiteitupdates veroorzaken](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md) in onze kennisbasis voor ondersteuning.
+[ Overmaatse lijsten van het veranderingslogboek die vertragingen in entiteiten veroorzaken werkt ](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md) in onze basis van de steunkennis bij.

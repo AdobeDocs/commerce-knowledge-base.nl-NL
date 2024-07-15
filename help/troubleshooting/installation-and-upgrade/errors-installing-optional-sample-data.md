@@ -34,11 +34,11 @@ Deze uitzonderingen zijn het gevolg van de machtigingsinstellingen van het besta
 
 ### Oplossing
 
-[Eigendom en machtigingen van het bestandssysteem opnieuw instellen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) als een gebruiker met `root` rechten.
+[ plaats opnieuw bezit en toestemmingen van het dossiersysteem ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) als gebruiker met `root` voorrechten.
 
 ## Symptom (productiemodus)
 
-Als u momenteel bent ingesteld op [productiemodus](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), de installatie van voorbeeldgegevens mislukt als u de [magento sampledata:implementeren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) opdracht:
+Als u momenteel voor [ productiemodus ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html) wordt geplaatst, ontbreekt de installatie van steekproefgegevens als u [ magento sampledata gebruikt:stel ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) bevel op:
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -46,9 +46,9 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 ### Oplossing
 
-Installeer geen voorbeeldgegevens in de productiemodus. Overschakelen naar de modus Ontwikkelaar en enkele wissen `var` en probeer het opnieuw.
+Installeer geen voorbeeldgegevens in de productiemodus. Schakel over naar de modus Ontwikkelaar, wis enkele mappen van `var` en probeer het opnieuw.
 
-Voer de volgende opdrachten in in de volgorde als de [Adobe Commerce-eigenaar bestandssysteem](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html):
+Ga de volgende bevelen in de orde in die als [ wordt getoond eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html):
 
 ```php
 cd <magento_root>
@@ -69,8 +69,8 @@ PHP Fatal error: Call to undefined method Magento\Catalog\Model\Resource\Product
 
 Schakel tijdens de installatie van voorbeeldgegevens SELinux uit met behulp van een bron zoals:
 
-* [www.ibm.com](https://www.ibm.com/docs/ja/ahts/4.0?topic=t-disabling-selinux)
-* [CentOS-documentatie](https://docs.centos.org/en-US/docs/)
+* [ www.ibm.com](https://www.ibm.com/docs/ja/ahts/4.0?topic=t-disabling-selinux)
+* [ documentatie CentOS ](https://docs.centos.org/en-US/docs/)
 
 ## Symptom (vertakking ontwikkelen)
 
@@ -107,15 +107,15 @@ Deze fout treedt op wanneer de maximale geconfigureerde uitvoertijd van uw PHP s
 
 ### Oplossing
 
-Als gebruiker met `root` rechten, wijzigen `php.ini` om de waarde van `max_execution_time` tot 600 of meer. (600 seconden is 10 minuten. U kunt de waarde naar wens verhogen.) U moet het volgende wijzigen `max_execution_time` terug naar de vorige waarde nadat de installatie is gelukt.
+Als gebruiker met `root` rechten wijzigt u `php.ini` om de waarde van `max_execution_time` tot 600 of meer te verhogen. (600 seconden is 10 minuten. U kunt de waarde naar wens verhogen.) Als de installatie is gelukt, moet u `max_execution_time` weer terugzetten op de vorige waarde.
 
-Als u niet zeker bent waar `php.ini` bevindt, voert u de volgende opdracht in:
+Als u niet zeker weet waar `php.ini` zich bevindt, voert u de volgende opdracht in:
 
 ```php
 php --ini
 ```
 
-De waarde van `Loaded Configuration File` is de `php.ini` u moet wijzigen.
+De waarde van `Loaded Configuration File` is de `php.ini` die u moet wijzigen.
 
 >[!NOTE]
 >

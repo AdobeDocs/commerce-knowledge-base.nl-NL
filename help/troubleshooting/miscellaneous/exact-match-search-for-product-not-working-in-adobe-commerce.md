@@ -22,23 +22,23 @@ Dit artikel biedt een verduidelijking voor de kwestie waarin de resultaten van z
 
 ## Probleem
 
-<u>Vereisten:</u>
+<u> Eerste vereisten:</u>
 
-Er zijn producten met kenmerkwaarden `Saga 1` en `Saga 16` in zowel Adobe Commerce 2.3 als Adobe Commerce 2.4 winkels.
+Er zijn producten met kenmerkwaarden `Saga 1` en `Saga 16` in zowel Adobe Commerce 2.3- als Adobe Commerce 2.4-winkels.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
-1. Voer op de winkel voor een Adobe Commerce 2.3-winkel *Saga 1* in het zoekveld en klik op **Zoeken**.
-1. In zoekresultaten krijgt u alleen de producten met de kenmerkwaarde `Saga 1`.
-1. Voer op de winkel voor een Adobe Commerce 2.4-winkel *Saga 1* in het zoekveld en klik op **Zoeken**.
+1. Op de opslagvoorzijde van Adobe Commerce 2.3 aangedreven opslag, ga *Saga 1* op het onderzoeksgebied in en klik **Onderzoek**.
+1. In de zoekresultaten krijgt u alleen de producten met de kenmerkwaarde `Saga 1` .
+1. Op de opslagvoorzijde van Adobe Commerce 2.4 aangedreven opslag, ga *Saga 1* op het onderzoeksgebied in en klik **Onderzoek**.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-Zoekresultaten in 2.4 bevatten producten met kenmerkwaarden `Saga 1` en `Saga 16`.
+Zoekresultaten in 2.4 omvatten producten met kenmerkwaarden `Saga 1` en `Saga 16` .
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
-De zoekresultaten in 2.4 zijn vergelijkbaar met die in 2.3 en omvatten alleen producten met kenmerkwaarde `Saga 1`.
+De zoekresultaten in 2.4 zijn vergelijkbaar met die in 2.3 en omvatten alleen producten met kenmerkwaarde `Saga 1` .
 
 ## Oorzaak
 
@@ -46,6 +46,6 @@ De native zoekfunctionaliteit van Adobe Commerce die in 2.3.x wordt gebruikt, bi
 
 ## Verwante lezing
 
-[Live zoeken installeren](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) in onze gebruikershandleiding.
+[ installeer Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) in onze gebruikersgids.
 
-[Live zoeken](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=Live%20Search) in onze ontwikkelaarsdocumentatie.
+[ Levend Onderzoek ](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=Live%20Search) in onze ontwikkelaarsdocumentatie.

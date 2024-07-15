@@ -13,52 +13,52 @@ ht-degree: 0%
 
 # MDVA-30837: minimumbestelbedrag voor gratis verzending
 
-De flard MDVA-30837 voegt configuratieopties voor de vrije verzendberekening toe zodat kan de gebruiker het Minimale Bedrag van de Orde vormen om Vrije Verzending te krijgen die op Subtotal (of het Grote Totaal) wordt gebaseerd. Zo kunnen lokale aanpassingen voor belasting- en verzendmethoden worden toegepast. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is geïnstalleerd. De kwestie is opgelost in Adobe Commerce 2.4.2.
+De flard MDVA-30837 voegt configuratieopties voor de vrije verzendberekening toe zodat kan de gebruiker het Minimale Bedrag van de Orde vormen om Vrije Verzending te krijgen die op Subtotal (of het Grote Totaal) wordt gebaseerd. Zo kunnen lokale aanpassingen voor belasting- en verzendmethoden worden toegepast. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 geïnstalleerd is. De kwestie is opgelost in Adobe Commerce 2.4.2.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce op cloudinfrastructuur 2.3.4-p2
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce over cloudinfrastructuur 2.3.1 - 2.3.4-p2
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-De patch MDVA-30837 voegt de configuratie toe die om te vormen **Minimumbedrag bestelling** instellen om gratis verzending te krijgen op basis van het subtotaal (of Eindtotaal):
+De flard mDVA-30837 voegt de configuratie toe die het **Minimale Bedrag van de Orde** plaatsen te vormen om vrije verzending te krijgen die op Subtotal (of het Grote Totaal) wordt gebaseerd:
 
-* **Inclusief BTW op bedrag**: *Ja/Nee* in de configuratie van de methode Free Shipping.
-   * Wanneer **Inclusief BTW op bedrag** is ingesteld op *Ja*, wordt het minimale bestelbedrag berekend als Subtotaal + BTW - Korting.
-   * Wanneer **Inclusief BTW op bedrag** is ingesteld op *Nee*, wordt het minimumorderbedrag berekend als Subtotaal - Korting.
+* **omvat Belasting aan Bedrag**: *ja/Nr* in de Vrije Verzendmethode configuratie.
+   * Wanneer **omvat Belasting aan Bedrag** aan *ja* wordt geplaatst, wordt het minimumordebedrag berekend als Subtotaal + Belasting - Korting.
+   * Wanneer **omvat Belasting aan Bedrag** aan *Nr* wordt geplaatst, wordt het minimumordebedrag berekend als Subtotaal - Korting.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Ga naar **Winkels** > Instellingen > **Configuratie** > **Verkoop** > **Belasting** en stelt u het volgende in:
+1. Ga naar **Opslag** > Montages > **Configuratie** > **Verkoop** > **Belasting** en plaats het volgende:
 
-   * Belastingberekening op basis van *Verzendadres*
-   * Grensoverschrijdende handel inschakelen: *Nee*
-   * Productieprijzen weergeven in catalogus: *Exclusief belasting*
-   * Verzendprijzen weergeven: *Exclusief belasting*
-   * Prijzen weergeven: *Exclusief belasting*
-   * Subtotaal weergeven: *Exclusief belasting*
-   * Verzendbedrag weergeven: *Exclusief belasting*
-   * Weergaveprijzen voor cadeauverpakking: *Exclusief belasting*
-   * Afgedrukte kaartprijzen weergeven: *Exclusief belasting*
-   * Inclusief BTW in totaal bestelling: *Ja*
-   * Volledige belastingoverzicht weergeven: *Ja*
+   * De Berekening van de belasting die op *wordt gebaseerd Verzendadres*
+   * Laat Grensoverschrijdende handel toe: *Nr*
+   * Toon Productieprijzen in Catalogus: *exclusief Belasting*
+   * Toon Verzendprijzen: *exclusief Belasting*
+   * De Prijzen van de vertoning: *exclusief Belasting*
+   * Subtotaal van de vertoning: *exclusief Belasting*
+   * Verzendbedrag weergeven: *exclusief belasting*
+   * De Wrappende Prijzen van het Gift van de vertoning: *exclusief Belasting*
+   * De Prijzen van de Vertoning Gedrukte Kaart: *exclusief Belasting*
+   * Omvat Belasting in het Totaal van de Orde: *ja*
+   * Volledige Overzicht van de Belasting van de vertoning: *ja*
 
-1. Ga naar **Verkoop** > **Verzendinstellingen** > **Gratis verzending** en instellen **Minimumbedrag bestelling** = *30*.
-1. Ga naar **Marketing** > Promoties > **Lijnen met winkelprijzen** en maak een nieuwe prijsregel (voor gedetailleerde stappen raadpleegt u [Een regel voor een startprijs maken](https://docs.magento.com/user-guide/marketing/price-rules-cart-create.html) in onze gebruikershandleiding).
+1. Ga naar **Verkoop** > **Verschepende Montages** > **Vrij Verschepend** en plaats **MinimumBedrag van de Orde** = *30*.
+1. Ga naar **de Marketing** > Bevorderingen > **Regels van de Prijs van de Kar** en creeer een nieuwe prijsregel (voor gedetailleerde stappen, verwijs naar [ creeer een Regel van de Prijs van de Kar ](https://docs.magento.com/user-guide/marketing/price-rules-cart-create.html) in onze gebruikersgids).
 
    * Coupon Code = *Specifieke coupon*.
    * Voorwaarden: Subtotaal is gelijk aan of groter dan $25.
-   * Handelingen: Gratis verzending = *Voor overbrengingen met overeenkomende items*.
+   * Handelingen: Vrij Verzenden = *voor zendingen met overeenkomende items* .
 
 1. Maak een product met een prijs van $ 23,10.
 1. Voeg de CA-belasting toe aan de standaardbelastingregel.
@@ -66,14 +66,14 @@ De patch MDVA-30837 voegt de configuratie toe die om te vormen **Minimumbedrag b
 1. Ontvang een verzendprijsopgave - na belastingen is het Eindtotaal = $25,01 en wordt gratis verzending toegepast.
 1. Pas de waardeboncode toe - deze is niet geldig omdat het subtotaal (exclusief belasting) $23,10 is.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-Er is een extra configuratie-instelling - Inclusief BTW op bedrag: *Ja*/*Nee* in configuratie van de methode voor gratis verzending:
+Er is een extra configuratie die - omvat Belasting aan Bedrag plaatst: *ja*/ *Nr* in de Vrije Verzendingsmethodeconfiguratie:
 
-* Als Inclusief BTW op bedrag is ingesteld op *Ja*, wordt het minimumbedrag van de Orde berekend als Subtotaal + Belasting - Korting.
-* Als Inclusief BTW op bedrag is ingesteld op *Nee*, wordt het minimumbedrag van de Orde berekend als Subtotaal - Korting.
+* Wanneer omvat Belasting aan Bedrag wordt geplaatst aan *ja*, wordt het Minimale Bedrag van de Orde berekend als Subtotaal + Belasting - Korting.
+* Wanneer omvat Belasting aan Bedrag wordt geplaatst aan *Nr*, wordt het Minimale Bedrag van de Orde berekend als Subtotaal - Korting.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De voorwaarde voor de regel voor de prijs bij gratis verzending kan alleen worden gebaseerd op het subtotaal, terwijl de methode voor gratis verzending alleen kan worden gebaseerd op het Eindtotaal.
 
@@ -81,14 +81,14 @@ De voorwaarde voor de regel voor de prijs bij gratis verzending kan alleen worde
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [Patches beschikbaar in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar [ die flarden beschikbaar in QPT ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.

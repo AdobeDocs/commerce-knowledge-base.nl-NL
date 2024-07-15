@@ -1,6 +1,6 @@
 ---
-title: De "Magento-cloud" [!DNL CLI] geen actieve omgeving weergeven
-description: In dit artikel wordt een bekende Adobe Commerce-kwestie beschreven waarbij de "Magento-cloud" [!DNL CLI] (opdrachtregelprogramma) geeft geen actieve omgeving weer.
+title: '` Magento-wolk `  [!DNL CLI]  toont geen actief milieu'
+description: Dit artikel beschrijft een bekende kwestie van Adobe Commerce waar Magento-wolk `  [!DNL CLI]  (bevel-lijn hulpmiddel) geen actieve milieu toont.
 feature: Cloud, Integration, Configuration
 role: Developer
 exl-id: 3c1b5de2-8888-4531-9dc1-cd478e3c96fc
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# De `Magento-cloud` [!DNL CLI] geen actieve omgeving weergeven
+# In `Magento-cloud` [!DNL CLI] wordt geen actieve omgeving weergegeven
 
 ## Probleem
 
-Er zijn verschillende actieve omgevingen en u probeert te communiceren met een omgeving door een `Magento-cloud` [!DNL CLI] (opdrachtregelgereedschap). (Bijvoorbeeld: `ssh`, `db:size`, `db:sql`, enz.)
+Er zijn verschillende actieve omgevingen en u probeert te communiceren met een omgeving door een opdracht `Magento-cloud` [!DNL CLI] (opdrachtregelprogramma) uit te voeren. (Bijvoorbeeld: `ssh` , `db:size` , `db:sql` , enz.)
 Nochtans, maakt de herinnering om het gewenste milieu te kiezen geen lijst van deze milieu. (Bijvoorbeeld: de integratieomgeving)
 
 ```
@@ -34,7 +34,7 @@ Het is mogelijk dat de omgeving niet beschikbaar is vanwege een implementatie di
 
 ## Oplossing
 
-U moet de omgeving handmatig opgeven met de `e|-environment` markering.
+U moet de omgeving handmatig opgeven met de markering `e|-environment` .
 
 1. Zoek de lijst met actieve omgevingen en noteer de namen van de omgevingen:
 

@@ -24,31 +24,31 @@ Dit artikel verstrekt een flard voor de bekende kwestie van Adobe Commerce 2.4.0
 
 ### Scenario 1: betalingsmethode voor Braintree is geconfigureerd
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
-Ga in Commerce Admin naar **Verkoop** > **Virtuele terminal voor Braintree** . ** **
+In Commerce Admin, ga naar **Verkoop** > **de Virtuele Terminal van de Braintree** ** *
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
-De **Virtuele terminal voor Braintree** pagina wordt geladen met de juiste interface.
+De **Virtuele Eind van de Braintree {** pagina laadt met juiste UI.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-De gebruikersinterface van de **Virtuele terminal voor Braintree** pagina is verbroken.
+UI van de **Virtuele Eind van de Braintree** pagina is gebroken.
 
 ### Scenario 2: betalingsmethode voor Braintree is geconfigureerd
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
-Ga in Commerce Admin naar **Verkoop** > **Virtuele terminal voor Braintree** . ** **
+In Commerce Admin, ga naar **Verkoop** > **de Virtuele Terminal van de Braintree** ** *
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
-De **Virtuele terminal voor Braintree** pagina wordt geladen met juiste interface en er wordt een waarschuwing weergegeven met de melding dat de Braintree nog niet is geconfigureerd.
+De **Virtuele Eind van de Braintree {** pagina laadt met juiste UI en een waarschuwing wordt getoond informerend dat de Braintree nog niet wordt gevormd.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-De gebruikersinterface van de **Virtuele terminal voor Braintree** pagina is verbroken en er wordt geen waarschuwing weergegeven.
+UI van de **Virtuele Eind van de Braintree** pagina wordt gebroken en geen waarschuwing wordt getoond.
 
 ## Oplossing
 
@@ -69,6 +69,6 @@ De patch is gemaakt voor:
 
 ## Hoe de pleister aanbrengen
 
-Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

@@ -37,10 +37,10 @@ Als u de e-mail van de Afzender niet behoorlijk hebt gevormd, of uw domein niet 
    ```
 
    * Als het om het even welke resultaten terugkeert, betekent het dat het adres van de Afzender niet is gevormd.
-   * Als er een resultaat wordt geretourneerd, gaat u verder met **Stap 2**.
+   * Als het een resultaat terugkeert, ga aan **Stap 2** te werk.
 
 1. Als het e-mailbericht in uw map Spam werd weergegeven, klikt u op de koppeling in het e-mailbericht. Als de koppeling sindsdien is verlopen, probeert u zich opnieuw aan te melden om het proces te herhalen.
-1. Wanneer u toegang hebt gekregen, gaat u naar **Winkels** > **Configuratie** > **Algemeen** > **E-mailadressen van winkel** en configureer de e-mailadressen.
+1. Zodra u toegang hebt gekregen, ga **>** Configuratie **>** Algemene **>** E-mailadressen van de Opslag **en vorm de e-mailadressen.**
 
 ### Stap 2: Als/zodra de e-mailadressen behoorlijk zijn gevormd, SSH in het milieu en stel dit bevel in werking:
 
@@ -48,8 +48,8 @@ Als u de e-mail van de Afzender niet behoorlijk hebt gevormd, of uw domein niet 
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-Controleer de map Spam voor de e-mail. Als de e-mail daar verscheen, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) om aan te vragen dat het domein wit-geëtiketteerd in SendGrid is.
+Controleer de map Spam voor de e-mail. Als e-mail daar verscheen, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) om het domein te verzoeken om wit-geëtiketteerd in SendGrid zijn.
 
 ## Gerelateerde lezing
 
-* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) in onze ontwikkelaarsdocumentatie.
+* [ SendGrid ](https://devdocs.magento.com/cloud/project/sendgrid.html) in onze ontwikkelaarsdocumentatie.

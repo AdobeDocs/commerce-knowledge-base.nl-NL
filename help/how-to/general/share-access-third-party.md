@@ -27,11 +27,11 @@ Afhankelijk van uw interne veiligheidsnormen, kunt u verkiezen om de derdeproble
 
 * Geef uw externe leverancier toegang tot de cloudomgeving. Verwante artikelen:
 
-   * [Adobe Commerce Help Center - Gebruikershandleiding > GEDEELDE TOEGANG: ANDERE GEBRUIKERS KRIJGEN TOEGANG TOT UW ACCOUNT](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access) in onze kennisbasis voor ondersteuning.
-   * [Uw Commerce-account delen](https://docs.magento.com/user-guide/magento/magento-account-share.html) in onze gebruikershandleiding.
+   * [ de Gids van de Gebruiker van het Centrum van de Hulp van Adobe Commerce > GEDEELDE TOEGANG: DE VOORRECHTEN VAN DE VERLENER VOOR ANDERE GEBRUIKERS OM TOT UW ACCOUNT ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access) in onze steun kennisbasis toegang te hebben.
+   * [ delend Uw Rekening van Commerce ](https://docs.magento.com/user-guide/magento/magento-account-share.html) in onze gebruikersgids.
 
-* Creeer een gegevensbestandstortplaats (of geef de derdeverkoper toegang om dit te doen). Dit kan worden gedaan met de CLI of in de Commerce Admin. Deze stortplaats van DB zal klantengegevens verduisteren, zodat alles zij code en product SKU&#39;s, enz. krijgen, geen merkgebonden/klantengegevens. Ter referentie, gebruik [Uw Commerce-account delen] (/help/how-to/general/create-database-dump-on-cloud.md) in onze kennisbasis voor ondersteuning.
-* Nadat het testen is voltooid, moet u de gedeelde toegang tot uw cloudomgeving intrekken, zoals beschreven in [Adobe Commerce Help Center Handboek > Gedeelde toegang intrekken](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access) in onze kennisbasis voor ondersteuning.
+* Creeer een gegevensbestandstortplaats (of geef de derdeverkoper toegang om dit te doen). Dit kan worden gedaan met de CLI of in de Commerce Admin. Deze stortplaats van DB zal klantengegevens verduisteren, zodat alles zij code en product SKU&#39;s, enz. krijgen, geen merkgebonden/klantengegevens. Voor verwijzing, gebruik [ delend Uw Rekening van Commerce ] (/help/how-to/general/create-database-dump-on-cloud.md) in onze steun kennisbasis.
+* Zodra het testen volledig is, zorg ervoor om de gedeelde toegang tot uw wolkenmilieu, zoals die in [ wordt beschreven de Gids van de Gebruiker van het Centrum van de Hulp van Adobe Commerce > Intrekken (schrapt gedeelde toegang) ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access) in onze basis van steunkennis.
 
 ## Testen van beste praktijken
 
@@ -39,4 +39,4 @@ De standaardpraktijk moet op een lokaal milieu problemen oplossen. Ga naar Stagi
 
 ## Gerelateerde lezing
 
-* [Aanbevolen procedures voor het gebruik van extensies van derden in Adobe Commerce](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) in onze kennisbasis voor ondersteuning.
+* [ Beste praktijken voor het gebruiken van derdeuitbreidingen in Adobe Commerce ](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) in onze basis van de steunkennis.

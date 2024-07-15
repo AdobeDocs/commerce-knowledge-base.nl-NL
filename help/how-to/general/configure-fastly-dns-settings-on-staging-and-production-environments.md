@@ -11,4 +11,4 @@ ht-degree: 0%
 
 # Vorm de Snelle montages DNS op het Opvoeren en de milieu&#39;s van de Productie
 
-Raadpleeg de [Snelle installatie](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) artikel in onze ontwikkelaarsdocumentatie voor de recentste informatie.
+Gelieve te verwijzen naar het [ Snelle ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) artikel van de Opstelling in onze ontwikkelaarsdocumentatie voor de recentste informatie.

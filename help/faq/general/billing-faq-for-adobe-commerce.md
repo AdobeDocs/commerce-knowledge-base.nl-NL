@@ -28,19 +28,19 @@ We weten dat er soms factureringsproblemen ontstaan, en wanneer dat gebeurt, is 
 
 Deze betalingsmethode geldt voor handelaren met een vergunning op locatie en/of driemaandelijkse facturering, halfjaarlijkse facturering en jaarlijkse facturering. Als u in een van deze categorieën valt, volgt u de onderstaande instructies:
 
-1. Klikken [hier](https://account.magento.com/customer/account/login) aan login.
+1. Klik [ hier ](https://account.magento.com/customer/account/login) aan login.
 
-1. Gebruik uw referenties om toegang te krijgen tot uw account. **Alleen de primaire rekeninghouder kan toegang krijgen tot de betalingssectie van uw account.**
+1. Gebruik uw referenties om toegang te krijgen tot uw account. **slechts kan de primaire rekeninghouder tot de betalingssectie van uw rekening toegang hebben.**
 
-1. Ga naar **Mijn account** > **Mijn producten en services** > Selecteren *Je specifieke product aangeschaft* > **Beheren** (rechts van het Product) > **Details tonen** (rechts van het abonnement).
+1. Ga naar **Mijn Rekening** > **Mijn Producten en de Diensten** > Uitgezochte *Uw Specifiek Product dat* wordt aangekocht > **beheert** (aan het recht van het Product wordt gevestigd) > **toont Details** (die aan het recht van het Abonnement worden gevestigd).
 
-1. Klik op de knop **Nu betalen** om je creditcard/PayPal-gegevens in te voeren en de betaling te voltooien.
+1. Klik op de knop **Nu betalen** om uw creditcard/PayPal-gegevens in te voeren en de betaling te voltooien.
 
    >[!NOTE]
    >
-   >We accepteren geen gedeeltelijke creditcard- of PayPal-betalingen—door de **Nu betalen** -functie. Je gaat ermee akkoord dat de volledige factuurbedragen in rekening worden gebracht.
+   >Wij aanvaarden gedeeltelijke creditcard of PayPal geen betalingen-door de **eigenschap van het nu betalen van het Betalen** te gebruiken, gaat u ermee akkoord om voor de volledige factuurhoeveelheid(en) worden in rekening gebracht.
 
-1. Als u een fout tegenkomt of vragen hebt over de **Nu betalen** functie, neem contact op met [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) voor verdere bijstand.
+1. Als u een fout ontmoet of om het even welke vragen betreffende **betaal nu** eigenschap, gelieve contact [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com) voor verdere hulp.
 
 ### Autopay-up {#cc-autopay}
 
@@ -48,45 +48,45 @@ Deze betalingsmethode geldt voor handelaren met maandelijkse facturering (behalv
 
 >[!NOTE]
 >
->Als u momenteel het **Nu betalen** en wil een terugkerende betaling via de automatische incasso instellen. Neem contact op met het accountteam van de Adobe voor verdere ondersteuning.
+>Als u momenteel het **betalen** bezit gebruikt en een terugkomende betaling via de automatische incasso zou willen opzetten, gelieve uw Team van de Rekening van de Adobe voor verdere hulp te contacteren.
 
-1. Klikken [hier](https://account.magento.com/customer/account/login) aan login.
+1. Klik [ hier ](https://account.magento.com/customer/account/login) aan login.
 
 1. Gebruik uw referenties om toegang te krijgen tot uw account. Alleen de primaire rekeninghouder kan toegang krijgen tot de betalingssectie van uw account.
 
-1. Ga naar **Mijn account** > **Mijn product en services** > Selecteren *Je specifieke product aangeschaft* > **Beheren** (rechts van het Product) > **Details tonen** (rechts van het abonnement).
+1. Ga naar **Mijn Rekening** > **Mijn Product en de Diensten** > Uitgezochte *Uw Specifiek Product dat* wordt aangekocht > **beheert** (aan het recht van het Product wordt gevestigd) > **toont Details** (die aan het recht van het Abonnement worden gevestigd).
 
-1. Klik op de knop **Betalingsmethode wijzigen** om een nieuwe creditcard/PayPal-rekening toe te voegen of om een keuze te maken uit bestaande kaarten/accounts in het bestand.
+1. Klik de **knoop van de Wijzig van de Betalingsmethode** om een nieuwe creditcard/PayPal rekening toe te voegen of van bestaande kaarten/rekeningen op dossier te selecteren.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
    >[!NOTE]
    >
-   >Klik eenmaal op **Opslaan** alle openstaande en onbetaalde facturen worden volledig in rekening gebracht .
+   >Zodra u **sparen** klikt zullen alle open/onbetaalde facturen volledig in rekening worden gebracht.
 
-1. Als u een fout tegenkomt of vragen hebt over de **Autopay** functie, neem contact op met [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) voor verdere bijstand.
+1. Als u een fout ontmoet of om het even welke vragen betreffende de **Autopay** eigenschap hebt, gelieve contact [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com) voor verdere hulp.
 
 ### Veelgestelde vragen
 
-**V:** Hoeveel kan ik op mijn creditcard of via PayPal in rekening brengen?<br>
-**A:** Momenteel accepteren we creditcard- en/of PayPal-betaling voor maximaal USD 75.000. Betalingen van meer dan USD 75.000 moeten via ACH, overschrijving of cheque worden gedaan.
+**Q:** hoeveel kan ik op mijn Creditcard of via PayPal in rekening brengen?<br>
+**A:** momenteel, aanvaarden wij creditcard en/of PayPal betaling voor maximaal $75.000 USD. Betalingen van meer dan USD 75.000 moeten via ACH, overschrijving of cheque worden gedaan.
 
-**V:** Hoe kan ik een nieuwe kaart of PayPal-account in het eBay-bestand toevoegen?<br>
-**A:** Als primaire rekeninghouder kunt u als volgt een nieuwe kaart/account toevoegen:
+**Q:** Hoe kan ik een nieuwe kaart of een rekening PayPal op dossier toevoegen?<br>
+**A:** als primaire rekeninghouder, kunt u een nieuwe kaart/rekening toevoegen door het volgende te doen:
 
-1. Ga naar **Mijn account** > **Accountinstellingen** > **Facturering en betalingen**.
-1. Selecteer PayPal of Creditcard en klik vervolgens op **Een nieuwe kaart toevoegen** en voert u de gegevens in.
-1. Klik op **Instellen als standaard** naast de nieuwe kaart. U moet de CVV invoeren.
-1. Verwijder de oude kaart of account door op **Kaart verwijderen** rechts van de kaart. Alleen betalingsmethoden die niet als standaard zijn ingesteld, kunnen worden verwijderd.
+1. Ga naar **Mijn Rekening** > **de Montages van de Rekening** > **Facturering en Betalingen**.
+1. Selecteer PayPal of Kredietkaart, dan klik **voeg een nieuwe kaart** toe en ga de details in.
+1. Zodra met succes toegevoegd, klik **Reeks als Gebrek** naast de nieuwe kaart. U moet de CVV invoeren.
+1. Schrap de oude kaart/de rekening door **Kaart van de Schrapping** rechts van de kaart te klikken. Alleen betalingsmethoden die niet als standaard zijn ingesteld, kunnen worden verwijderd.
 
 >[!NOTE]
 >
 >Als u een verkoper van automatische incasso bent, volgt u dan de hierboven vermelde instructies voor automatische incasso om uw nieuwe kaart aan te sluiten op het juiste abonnement.
 
-**V:** Ik heb een kaart opgezet voor automatische incasso, maar die is verlopen. Hoe kan ik een nieuwe automatische betaalkaart toevoegen?<br>
-**A:** Als u een nieuwe kaart wilt toevoegen, doorloopt u de hierboven vermelde stappen voor automatische automatische incasso. Deze stappen voor het werk voor eerste opstelling en voor het toevoegen van nieuwe kaarten.
+**Q:** ik heb een kaartopstelling voor de automatische peiling, maar het is verlopen. Hoe kan ik een nieuwe automatische betaalkaart toevoegen?<br>
+**A:** om een nieuwe kaart toe te voegen, gelieve door de hierboven vermelde opstellingsstappen van de automatische slachting te gaan. Deze stappen voor het werk voor eerste opstelling en voor het toevoegen van nieuwe kaarten.
 
-Als u deze instructies hebt doorlopen maar binnen 30 minuten geen kosten op uw kaart/account hebt gezien, kunt u contact opnemen met: [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com).
+Als u door deze instructies bent gegaan, maar geen last op uw kaart/rekening binnen 30 minuten hebt gezien, gelieve te contacteren: [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com).
 
 
 ## Rechten
@@ -95,26 +95,26 @@ Met rechten kunt u tickets verzenden, modules downloaden en toegang krijgen tot 
 
 Hier volgen de stappen om te controleren of uw betalingen up-to-date zijn:
 
-1. Laat de primaire-accounteigenaar zich aanmelden [https://account.magento.com](https://account.magento.com) en navigeer naar de sectie facturen.
+1. Heb het Primaire Logboek van de Eigenaar van de Rekening in rekening [ https://account.magento.com ](https://account.magento.com) en navigeer aan de factuursectie.
 1. Controleer of er geen openstaande facturen zijn. Zodra een factuur één dag achterstallig is, worden de rechten tijdelijk uitgeschakeld totdat alle facturen zijn betaald.
 1. Als je een onbetaalde factuur hebt, moet je deze zo snel mogelijk betalen. Dit gebeurt snel via een CC en er wordt gecontroleerd of een CC is ingesteld op het bestand. Zodra de Adobe de betaling heeft ontvangen, komen uw rechten terug op dezelfde dag als waarop de betaling is ontvangen.
-1. Als je niet zeker weet of je facturen zijn betaald, of als je betaling hebt verzonden en je niet zeker weet of deze is ontvangen, kun je een e-mail sturen naar Magento. [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com).
+1. Als u onzeker bent of zijn uw facturen betaald, of u hebt betaling verzonden, en onzeker bent of is het ontvangen, gelieve de Inzamelingen van de Krediet van het Magento [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com) te e-mailen.
 
-**Als u geen onbetaalde facturen hebt, kunt u een ondersteuningsticket maken via e-mail [helpcenterloginissues@magento.com](mailto:helpcenterloginissues@magento.com) en moet ook [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) in CC: lijn.**
+**als u geen onbetaalde facturen hebt, gelieve een steunkaartje tot stand te brengen door [ helpcenterloginissues@magento.com ](mailto:helpcenterloginissues@magento.com) te e-mailen en zeker te zijn om [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com) in CC te zetten: lijn.**
 
 ## Toegang/betaling van facturen
 
 Alleen de primaire rekeninghouder kan toegang krijgen tot het gedeelte betaling/factuur van zijn rekening.
-Aanmelden bij [https://account.magento.com](https://account.magento.com)en kiest u vervolgens de **Producten en services** > Selecteren *Je specifieke product aangeschaft* > Kies **Nu betalen** naast de juiste factuur of kies de factuur.
+Login aan [ https://account.magento.com ](https://account.magento.com), dan kies de **Producten en de Diensten** > *Uw Specifiek Gekochte Product* > kiezen **nu** naast de juiste factuur betalen, of kies de factuur.
 
-De eerste stap is het herzien van uw contract. De meeste van deze gegevens zijn opgenomen in uw contract. Als u vragen hebt die niet in uw contract staan, kunt u betalingen/facturen controleren bij onze factureringsteams.  E-mail: [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com), en zij zullen graag duidelijkheid en hulp geven.
+De eerste stap is het herzien van uw contract. De meeste van deze gegevens zijn opgenomen in uw contract. Als u vragen hebt die niet in uw contract staan, kunt u betalingen/facturen controleren bij onze factureringsteams.  E-mail: [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com), en zij zullen bereid zijn om te verduidelijken en bij te staan.
 
-**Betalingsvergoeding**, staat altijd onder aan je factuur.
+**Terugbetaling van de Betaling**, is het altijd op de bodem van uw factuur.
 
 * We kunnen alleen creditcardbetalingen accepteren van minder dan 75.000 dollar.
-* **Handelaren op maandelijkse facturering moeten op automatische incasso per creditcard betalen.** [Zie de sectie CD](#cc-autopay).
+* **Merchants op maandelijkse facturering moeten via creditcard op automatische incasso betalen.** [ zie de sectie van de Autobus van CC ](#cc-autopay).
 * Handelaren op kwartaal-, halfjaarlijks en jaarbasis kunnen betalen via een creditcard, maar dit moet handmatig gebeuren door de handelaar.
 
 ## Aanvullende factureringscontactpersonen
 
-Als u een andere opstelling van de factureringscontact nodig hebt, te bereiken gelieve uit aan de Inzamelingen van de Krediet van de Magento [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com), en laat hen de naam en e-mail van de contacten weten die moeten worden toegevoegd.
+Als u een andere het factureren contactopstelling nodig hebt, te bereiken gelieve uit aan de Inzamelingen van de Krediet van het Magento [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com), en hen te vertellen de naam en e-mail van de contacten die moeten worden toegevoegd.

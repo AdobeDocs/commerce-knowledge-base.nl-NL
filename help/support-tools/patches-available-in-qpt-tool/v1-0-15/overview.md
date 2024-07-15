@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.0.15'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.15.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.0.15'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.0.15 worden opgelost.
 exl-id: b2c236f9-497d-474b-8807-a38ccd78fce6
 feature: Tools and External Services
 role: Admin
@@ -11,23 +11,23 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Overzicht versie 1.0.15
+# Overzicht van [!DNL Quality Patches Tool] (QPT) v1.0.15
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.15.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.0.15.
 
 QPT v1.0.15 omvat de volgende flarden:
 
-1. **MDVA-2764**: Hiermee verhelpt u het probleem in het registratieformulier voor klanten dat een fout veroorzaakt bij het weergeven: *FOUT - De geboortedatum mag niet groter zijn dan vandaag.*
-1. **32759 MDVA**: Hiermee wordt het probleem verholpen waarbij gedeelde catalogi de bestaande laagprijzen verwijderen.
-1. **MDVA-33393**: Hiermee corrigeert u de fout *Opgegeven landId bestaat niet*.
-1. **33482**: Oplossing van de kwestie waarbij het genereren van een creditnota tegen een gedeeltelijke factuur leidt tot belasting voor de totale bestelling in plaats van belasting voor die gedeeltelijke factuur.
-1. **MDVA-33559**: Oplossingen voor het probleem van [!DNL PayPal Payflow Pro] betaling mislukt vanwege fout in indeling parameterlijst omleiden.
-1. **33632**: Verstrekt een moeilijke situatie waar het uitzonderingsbericht *Dit product is uit voorraad* wordt nu weergegeven aan een beheerder die probeert een product van buiten de voorraad opnieuw te bestellen.
-1. **33894**: Hiermee verhelpt u meerdere problemen met de functie Snelle bestelling, zoals het toevoegen en verwijderen van meerdere producten en de gevoeligheid van SKU-hoofdletters.
-1. **33970 MDVA**: Hiermee wordt de kwestie verholpen waarbij een onjuist valutasymbool in de kredietmemo voorkomt wanneer het bereik van het prijskenmerk op de website is ingesteld.
-1. **33976**: Hiermee wordt het probleem verholpen waarbij het gebundelde product wordt weergegeven [!UICONTROL Out Of Stock] op de winkel nadat de tweede optie uit het gebundelde product is verwijderd.
-1. **33992**: Hiermee wordt het probleem verholpen van de speciale B2B-prijzen die tijdens het afrekenen onjuist worden weergegeven.
-1. **34023**: Hiermee wordt het probleem opgelost waarbij de fout optreedt *Entiteit met adresId bestaat niet* wordt willekeurig weergegeven in browsers van bezoekers.
-1. **34469**: Hiermee wordt het probleem verholpen waarbij GraphQL-mutaties in de winkelwagentje van een klant mislukken wanneer meerdere winkelweergaven worden gebruikt.
+1. **MDVA-27664**: Verhelpt de kwestie in de vorm van de klantenregistratie die een fout veroorzaakt om te tonen: *FOUT - de Datum van Macht zou niet groter dan vandaag moeten zijn.*
+1. **MDVA-32759**: Verhelpt de kwestie waar de gedeelde catalogi bestaande rij het tarief schrappen.
+1. **mDVA-33393**: Bevestigt de fout *verstrekte countryId bestaat niet*.
+1. **MDVA-33482**: Verhelpt de kwestie waar het produceren van een creditmemo tegen een gedeeltelijke factuur in belasting voor de totale orde in plaats van belasting voor die gedeeltelijke factuur resulteert.
+1. **MDVA-33559**: Verhelpt de kwestie van [!DNL PayPal Payflow Pro] betaling die met de fout van het formaat van de parameterlijst van de omleiding ontbreekt.
+1. **MDVA-33632**: Verstrekt een moeilijke situatie waar het uitzonderingsbericht *Dit product uit voorraad* nu aan een admin gebruiker wordt getoond wanneer het proberen om een uit-van-voorraad product opnieuw in orde te brengen.
+1. **MDVA-33894**: Verhelpt veelvoudige kwesties voor de functionaliteit van de Snelle Orde met inbegrip van het toevoegen van en het verwijderen van veelvoudige producten en van SKU gevalgevoeligheid.
+1. **MDVA-33970**: Verhelpt de kwestie waar er een verkeerd muntteken in het creditmemo is wanneer het werkingsgebied van het prijsattribuut aan website wordt geplaatst.
+1. **MDVA-33976**: Verhelpt de kwestie waar het gebundelde product [!UICONTROL Out Of Stock] op de storefront na het verwijderen van de tweede optie uit het gebundelde product wordt getoond.
+1. **mDVA-33992**: Verhelpt de kwestie van speciale prijsstelling B2B die verkeerd tijdens controle toont.
+1. **MDVA-34023**: Verhelpt de kwestie waar de fout *geen dergelijke entiteit met addressId* vertoningen willekeurig op bezoekersbrowsers.
+1. **MDVA-34469**: Verhelpt de kwestie waar de mutaties van GraphQL op de wagentje van een klant ontbreken wanneer het gebruiken van veelvoudige opslagmeningen.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Test snel op productie als een actieve site hetzelfde domein gebruikt
 
-Als u een live site in gebruik hebt op uw productiedomein (`example.com`) en u moet uw nieuwe opslag op Adobe Commerce op de milieu van de Productie van de wolkeninfrastructuur testen met Fastly CDN toegelaten, adviseren wij gebruikend subdomain (als `prod.example.com`), na deze eerder aan Fastly toe te voegen, voor eventuele testactiviteiten voorafgaand aan de lancering. In dit artikel worden de details besproken en worden nuttige koppelingen naar de gerelateerde Adobe Commerce-documentatiebronnen weergegeven.
+Als u een live site hebt die wordt uitgevoerd op uw productiedomein (`example.com`) en u uw nieuwe winkel op Adobe Commerce moet testen op de productieomgeving van de cloud-infrastructuur met snelwerkende CDN, raden we u aan het subdomein (zoals `prod.example.com` ) te gebruiken en deze eerder aan Fastly toe te voegen voor testactiviteiten die worden uitgevoerd voordat u de toepassing start. In dit artikel worden de details besproken en worden nuttige koppelingen naar de gerelateerde Adobe Commerce-documentatiebronnen weergegeven.
 
 ## Probleem
 
-Je huidige winkel die de `example.com` productiedomein is actief en actief. U moet echter wel uw nieuwe winkel testen, die met Adobe Commerce is gebouwd op cloudinfrastructuur en die is geïmplementeerd in de productieomgeving, met de snelst service voor volledige paginacache ingeschakeld.
+De huidige winkel waarin het productiedomein `example.com` wordt gebruikt, is actief. U moet echter wel uw nieuwe winkel testen, die met Adobe Commerce is gebouwd op cloudinfrastructuur en die is geïmplementeerd in de productieomgeving, met de snelst service voor volledige paginacache ingeschakeld.
 
-Het probleem is dat de productieomgeving van uw Adobe Commerce voor het infrastructuurproject in de cloud hetzelfde live domein gebruikt (`example.com`) en u kunt niet van de nieuwe site naar dit domein overschakelen terwijl de huidige live winkel op hetzelfde domein wordt uitgevoerd.
+Het probleem is dat de productieomgeving van uw Adobe Commerce op het project van de wolkeninfrastructuur het zelfde levende domein (`example.com`) gebruikt, en u kunt niet uw nieuwe plaats aan dit domein schakelen, gelijktijdig hebbend uw huidige levende opslag die - op het zelfde domein loopt.
 
 ### Waarom Fastly gebruiken voor het testen op de productieomgeving?
 
@@ -28,19 +28,19 @@ Als cache van volledige pagina is ingeschakeld, werkt de winkel echter anders. U
 
 ## Oplossing: subdomein van de gebruiksproductie
 
-Het eerste subdomein gebruiken (`prod.example.com`) voor uw nieuwe Adobe Commerce over de cloud Infrastructure Store op de Production-omgeving en de huidige live site op het basisdomein te houden (`example.com`).
+Gebruik het eerste-niveau subdomain (`prod.example.com`) voor uw nieuwe Adobe Commerce op de opslag van de wolkeninfrastructuur op het milieu van de Productie terwijl het houden van de huidige levende plaats op het basisdomein (`example.com`).
 
 Wanneer u uw Adobe Commerce-project voor cloudinfrastructuur wilt plannen, kunt u een dergelijk subdomein voor productie opgeven en het team voor cloudinfrastructuur verzoeken het subdomein naar de snelservice te verwijzen.
 
 Voer de volgende stappen uit om het subdomein in uw Adobe Commerce te verwerken voor een infrastructuurproject in de cloud:
 
-* [Een ondersteuningsticket verzenden](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) het aanvragen om het subdomein toe te voegen aan de Fastly-service/Nginx-configuratie (voor Adobe Commerce op de Pro-planarchitectuur van de cloud-infrastructuur).
+* [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) verzoekend om subdomain aan de Fastly dienst/Nginx configuratie (voor Adobe Commerce op de architectuur van het de planplan van de wolkeninfrastructuur Pro) toe te voegen.
 * Vorm de overeenkomstige DNS montages op uw kant.
 
 Nadat u de stappen voor subdomeinconfiguratie hebt uitgevoerd, moet u ook de volgende stappen uitvoeren om uw productiedomein voor het SSL-certificaat te valideren:
 
 * Upload het DNS TXT-record voor SSL-validatie van uw productiedomein.
-* [Een ondersteuningsticket verzenden](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) vragen om het productiedomein voor het SSL-certificaat te valideren.
+* [ legt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor het verzoeken om het productiedomein voor het SSL certificaat te bevestigen.
 
 Door het subdomein te gebruiken, kunt u in de toekomst een &quot;zachte opstart&quot; van uw winkel uitvoeren, aangezien voor een dergelijke opstart alleen de bijbehorende DNS-instellingen hoeven te worden bijgewerkt.
 
@@ -48,11 +48,11 @@ Door het subdomein te gebruiken, kunt u in de toekomst een &quot;zachte opstart&
 
 In onze kennisbasis voor ondersteuning:
 
-* [Vorm de Snelle montages DNS op het Opvoeren en de milieu&#39;s van de Productie](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
-* [Snelheid instellen voor starterabonnement in cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
-* [Potentiële blokkeerders voor lancering op Adobe Commerce op wolkeninfrastructuur](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* [ vorm snel DNS montages op het Opvoeren en de milieu&#39;s van de Productie ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
+* [ Opstelling snel voor het plan van de Aanzet op wolk ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
+* [ Potentiële blokkers voor lancering op Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
 
 In onze documentatie voor ontwikkelaars:
 
-* [Snelle overzicht](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Live checklist: DNS-configuraties voor snel](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [ Snelle Overzicht ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
+* [ ga levende checklist: DNS configuraties voor Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)

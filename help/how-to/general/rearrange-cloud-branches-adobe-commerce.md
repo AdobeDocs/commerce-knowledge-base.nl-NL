@@ -29,17 +29,17 @@ De juiste hiërarchische organisatie voor uw vertakkingen is:
 
 Zo rangschikt u vertakkingen in de cloud:
 
-1. U moet beschikken over [[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) rol.
-1. De magento-cloud installeren [!DNL CLI] (als u dat nog niet hebt gedaan).
+1. U moet de [[!DNL Super User] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) rol hebben.
+1. Installeer de magento-cloud [!DNL CLI] (als u dat nog niet hebt gedaan).
 1. Voer de volgende opdracht uit voor de vertakkingen die moeten worden verplaatst:
    `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
-Opmerking: u kunt de bovenliggende vertakking opgeven wanneer u een nieuwe vertakking maakt. Raadpleeg voor stappen [Aan de slag voor het maken van vertakkingen](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted) in onze ontwikkelaarsdocumentatie.
+Opmerking: u kunt de bovenliggende vertakking opgeven wanneer u een nieuwe vertakking maakt. Voor stappen, verwijs naar [ het Beginnen van Begin creërend takken ](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted) in onze ontwikkelaarsdocumentatie.
 
-U kunt een nieuwe omgevingsvertakking maken met de opdracht `branch <environment-name> <parent-environment-ID>` magento-cloud, opdracht voor omgeving.
+U kunt een nieuwe omgevingsvertakking maken met de omgevingsopdracht `branch <environment-name> <parent-environment-ID>` magento-cloud.
 
 Het kan enige extra tijd duren om een nieuwe omgevingsvertakking te maken en te activeren.
 
 ## Gerelateerde lezing
 
-[Vertakkingen beheren met de [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html) in onze ontwikkelaarsdocumentatie.
+[ beheer takken met  [!DNL CLI] ](https://devdocs.magento.com/cloud/env/environments-start.html) in onze ontwikkelaarsdocumentatie.

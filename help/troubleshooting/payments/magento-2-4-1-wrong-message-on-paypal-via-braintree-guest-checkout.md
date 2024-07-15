@@ -24,20 +24,20 @@ In dit artikel wordt een bekende Adobe Commerce 2.4.1-kwestie beschreven. Als ui
 
 Er wordt een niet-specifieke fout weergegeven wanneer uitchecken door gasten vanaf de achterkant is uitgeschakeld en de betalingsoptie PayPal via Braintree is geselecteerd in de miniwinkelwagentje of winkelwagentje.
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
-1. In de Commerce Admin, onder **Winkels** > **Configuratie** > **Verkoop** > **Afhandeling**, set **Uitchecken door gasten toestaan** = *Nee*.
-1. PayPal inschakelen via Braintree zoals beschreven in het dialoogvenster [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) in onze gebruikershandleiding.
+1. In Commerce Admin, onder **Slaat** > **Configuratie** > **Verkoop** > **Controle**, plaats **Gast Afhandeling** = *Nr* toestaan.
+1. Laat PayPal door Braintree toe zoals die in de [ Braintree ](https://docs.magento.com/user-guide/payment/braintree.html?) in onze gebruikersgids wordt beschreven.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Voeg product toe aan winkelwagentje als gast.
-1. Selecteren **Minikaart** en klik op **Betalen met PayPal**.
+1. Selecteer **mini-kar** en klik **Betalen met PayPal**.
 1. Voltooi de PayPal-afhandeling en start vervolgens op de pagina Order Review.
-1. Selecteren **Verzendmethode**.
-1. Klikken **Opdracht plaatsen**.
+1. Selecteer **Verzendmethode**.
+1. Klik **de Orde van de Plaats**.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Wanneer een klant op de PayPal-knop op de pagina Miniwinkelwagentje of Winkelwagentje klikt, moet het volgende bericht aan de klant worden getoond:
 
@@ -47,7 +47,7 @@ Als u Direct PayPal inschakelt zonder Braintree te gebruiken, gedraagt dit scena
 
 <pre><code class="language-bash">To check out, please sign in with your email address.</code></pre>
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De klant wordt omgeleid naar de pagina Winkelwagentje en het volgende bericht wordt weergegeven:
 
@@ -59,6 +59,6 @@ De oplossing voor deze kwestie is dat de klant zich bij een opslag kan aanmelden
 
 ## Gerelateerde lezing
 
-* [Beste praktijken voor het aantal producten in karretjes in Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) in onze kennisbasis voor ondersteuning.
-* [Zelfstudie voor het verwerken van bestellingen: stap 1. Items aan het winkelwagentje toevoegen](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) in onze documentatie voor ontwikkelaars
-* [GraphQL-zelfstudie over uitchecken: stap 1. Producten aan de winkelwagentje toevoegen](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) in onze documentatie voor ontwikkelaars
+* [ Beste praktijken voor aantal producten in kar in Adobe Commerce ](https://support.magento.com/hc/en-us/articles/360048550332) in onze basis van steunkennis.
+* [ de verwerkingsleerprogramma van de Orde: Stap 1. Voeg punten aan de kar ](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) in onze ontwikkelaarsdocumentatie toe
+* [ GraphQL checkout leerprogramma: Stap 1. Voeg producten aan de kar ](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) in onze ontwikkelaarsdocumentatie toe

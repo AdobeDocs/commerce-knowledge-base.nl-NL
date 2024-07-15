@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Installatie mislukt; kan install.log niet maken
 
-Dit artikel verstrekt een moeilijke oplossing voor een ontbroken installatie toe te schrijven aan de Tovenaar van de Opstelling die geen creeert `install.log` tijdens de installatie.
+Dit artikel biedt een oplossing voor een mislukte installatie omdat de installatiewizard de `install.log` niet tijdens de installatie heeft gemaakt.
 
 ## Probleem
 
@@ -21,20 +21,21 @@ Als u tegelijkertijd Adobe Commerce-processen uitvoert, kunnen er problemen optr
 
 ## Oorzaak
 
-Installatie-failed-cannot-create-install.log Controleer uw instelling voor `open_basedir` in `php.ini`. De tovenaar van de Opstelling gebruikt [sys\_get\_temp\_dir ( void )](https://php.net/manual/en/function.sys-get-temp-dir.php) PHP aanroep om de waarde van de tijdelijke directory op te halen. Indien [open\_basedir](http://php.net/manual/en/ini.core.php#ini.open-basedir) is ingesteld op het weigeren van verbindingen met een directory die wordt aangegeven door `sys_get_temp_dir`, mislukt de installatie.
-Controleer uw instelling voor `open_basedir` in `php.ini`. De tovenaar van de Opstelling gebruikt [sys\_get\_temp\_dir ( void )](https://php.net/manual/en/function.sys-get-temp-dir.php) PHP aanroep om de waarde van de tijdelijke directory op te halen. Indien [open\_basedir](https://php.net/manual/en/ini.core.php#ini.open-basedir) is ingesteld op het weigeren van verbindingen met een directory die wordt aangegeven door `sys_get_temp_dir`, mislukt de installatie.
+Installatie-mislukt-kan-create-install.log
+Controleer de instelling voor `open_basedir` in `php.ini` . De tovenaar van de Opstelling gebruikt [ sys\_get\_temp\_dir ( void ) ](https://php.net/manual/en/function.sys-get-temp-dir.php) PHP vraag om de waarde van de tijdelijke folder te krijgen. Als [ open \_basedir ](http://php.net/manual/en/ini.core.php#ini.open-basedir) wordt geplaatst om verbindingen aan een folder te weigeren die door `sys_get_temp_dir` wordt gespecificeerd, ontbreekt de installatie.
+Controleer de instelling voor `open_basedir` in `php.ini` . De tovenaar van de Opstelling gebruikt [ sys\_get\_temp\_dir ( void ) ](https://php.net/manual/en/function.sys-get-temp-dir.php) PHP vraag om de waarde van de tijdelijke folder te krijgen. Als [ open \_basedir ](https://php.net/manual/en/ini.core.php#ini.open-basedir) wordt geplaatst om verbindingen aan een folder te weigeren die door `sys_get_temp_dir` wordt gespecificeerd, ontbreekt de installatie.
 
 
 ## Oplossing
 
-Wijzig de waarde van `open_basedir` en start de webserver opnieuw op.
+Wijzig de waarde van `open_basedir` en start de webserver opnieuw om het probleem op te lossen.
 
 Als u niet zeker bent hoe te om deze waarde te veranderen, gebruik de volgende stappen:
 
-1. Als u dit nog niet hebt gedaan, maakt u [phpinfo.php](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo).
+1. Als u dit nog niet hebt gedaan, creeer [ phpinfo.php ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo).
 1. Voer de volgende URL in het adres- of locatieveld van uw browser in: `https://<your web server IP or hostname>/<path to docroot>/phpinfo.php`
-1. Zoeken naar de locatie van `php.ini`.     `php.ini` wordt doorgaans opgegeven als **Geladen configuratiebestand** in de weergegeven resultaten.
-1. Als gebruiker met hoofdrechten, opent u `php.ini` in een teksteditor.
-1. De waarde van `open_basedir` en wijzigen.
-1. Sla uw wijzigingen op in `php.ini`.
+1. Zoek de locatie van `php.ini` .     `php.ini` wordt typisch gespecificeerd als **Geladen Dossier van de Configuratie** in de getoonde resultaten.
+1. Open `php.ini` als gebruiker met rootrechten in een teksteditor.
+1. Zoek de waarde van `open_basedir` en wijzig deze.
+1. Sla uw wijzigingen op in `php.ini` .
 1. Start de webserver opnieuw.

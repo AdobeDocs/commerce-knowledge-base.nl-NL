@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Bekende uitgave van Adobe Commerce 2.4.0: knoppen Nieuwe volgorde maken ontbreken
 
-Dit artikel biedt een oplossing voor een bekend probleem in Commerce Admin voor twee ontbrekende knoppen op de pagina voor het maken van bestellingen. Wanneer u een nieuwe bestelling maakt voor een nieuwe of bestaande klant, is het niet mogelijk om producten aan de bestelling van de catalogus toe te voegen sinds de **Producten toevoegen per SKU** en **Producten toevoegen** knoppen ontbreken. Dit wordt veroorzaakt doordat JS-bundeling wordt ingeschakeld. Een oplossing is beschikbaar in Adobe Commerce 2.4.1.
+Dit artikel biedt een oplossing voor een bekend probleem in Commerce Admin voor twee ontbrekende knoppen op de pagina voor het maken van bestellingen. Wanneer het creëren van een nieuwe orde voor een nieuwe of bestaande klant, is het niet mogelijk om producten aan de orde van de catalogus toe te voegen aangezien **Producten door SKU** toevoegt en **toevoegt de knopen van Producten** ontbreken. Dit wordt veroorzaakt doordat JS-bundeling wordt ingeschakeld. Een oplossing is beschikbaar in Adobe Commerce 2.4.1.
 
 ## Betrokken producten en versies
 
@@ -22,19 +22,19 @@ Dit artikel biedt een oplossing voor een bekend probleem in Commerce Admin voor 
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
-1. Ga naar **Klanten > Alle klanten**.
-1. Klik op de knop **Bewerken** koppeling naar een klant.
-1. Klik op de knop **Volgorde maken** knop.
+1. Ga naar **Klanten > Alle Klanten**.
+1. Klik **uitgeven** verbinding op een klant.
+1. Klik de **Create Orde** knoop.
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
-De **Producten toevoegen per SKU** en **Producten toevoegen** knoppen worden weergegeven op de knop **Nieuwe volgorde maken** pagina.
+**voegt Producten door SKU** toe en **voegt Producten** knopen op **verschijnen tot Nieuwe orde** pagina toe.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
-De **Producten toevoegen per SKU** en **Producten toevoegen** knoppen ontbreken op de **Nieuwe volgorde maken** pagina.
+**voegt Producten door SKU** toe en **voegt Producten** knopen toe ontbreken op **creeer Nieuwe orde** pagina.
 
 ## Workaround
 

@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.33'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.3.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.33'
+description: Deze subsectie biedt een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in  [!DNL Quality Patches Tool]  (QPT) v1.1.33.
 feature: Tools and External Services
 role: Admin
 exl-id: df3ae5e2-7c57-4ccd-af34-eb78cc60bcf6
@@ -13,28 +13,28 @@ ht-degree: 0%
 
 # Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.33
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.3.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.33.
 
 QPT v1.1.33 omvat de volgende flarden:
 
-1. **ACSD-50478**: Hiermee wordt de opdracht voor het terugdraaien van de database gecorrigeerd voor een geval waarin de DB-dump triggers en een SQL-opdracht als scheidingsteken bevat.
-1. **ACSD-50512**: Hiermee corrigeert u de fout: *De downloadbare koppeling heeft geen betrekking op het product. Controleer de koppeling en probeer het opnieuw.*  Dit gebeurt wanneer u de begindatum voor een downloadbare update voor de productplaatsing bijwerkt.
-1. **ACSD-50949**: Hiermee wordt het probleem verholpen waarbij het prijfilter wordt ingeschakeld [!UICONTROL Advanced Search] retourneert geen goede resultaten bij gebruik langs het SKU-filter.
-1. **ACSD-51645**: Hiermee corrigeert u de gegenereerde fout bij het opslaan van een nieuwe [!UICONTROL Cart Price Rule] als de extensie `Magento_OfflineShipping` is uitgeschakeld.
-1. **ACSD-50895**: Hiermee wordt het probleem opgelost waarbij [!DNL Google Analytics] 3 GTM-tags worden niet geactiveerd als [!DNL Google Analytics] 4 GTM is niet geconfigureerd.
-1. **ACSD-51102**: Hiermee wordt het probleem verholpen waarbij een catalogusregel die op een groot aantal producten wordt toegepast, niet correct wordt geïndexeerd wanneer de regel door een geplande update wordt ingeschakeld.
-1. **ACSD-50368**: Hiermee wordt het probleem opgelost waarbij de klant `group_id` wordt genegeerd wanneer een klant wordt gemaakt via de Async REST API of de Async Bulk REST API.
-1. **ACSD-51497**: Hiermee verhelpt u het probleem waarbij een klant een cataloguspagina niet op kan sorteren [!UICONTROL Custom Attribute] van het vervolgkeuzetype.
-1. **ACSD-51408**: Hiermee wordt het probleem opgelost waarbij de status van het orderitem onjuist is ingesteld op [!UICONTROL Backordered].
-1. **ACSD-51735**: Hiermee wordt het probleem opgelost waarbij de status van het orderitem onjuist is ingesteld op [!UICONTROL Ordered] wanneer de productvoorraad *0*.
-1. **ACSD-51792**: Hiermee wordt het probleem verholpen waarbij een pagina niet de impliciete gebeurtenis heeft wanneer [!DNL Google Tag Manager] 4 is ingeschakeld.
-1. **ACSD-51471**: Hiermee wordt het probleem verholpen waarbij een beheerder geen geplande update kan opslaan voor een gebundeld product dat gebruikmaakt van een eenvoudig product dat zelf een geplande update heeft.
-1. **ACSD-51700**: Hiermee wordt de fout verholpen die optreedt wanneer wordt geschakeld naar een andere winkelweergave op een downloadbare productbewerkingspagina in de beheerder.
-1. **ACSD-51120**: Hiermee wordt het probleem verholpen waarbij de cache van GraphQL-GET niet wordt gewist voor CMS-pagina&#39;s die CMS-blokken bevatten die via een testupdate worden bijgewerkt.
-1. **ACSD-51240**: Hiermee verhelpt u het probleem waarbij het geüploade bestand ontbreekt als de registratie wordt uitgevoerd via het bedrijfsregistratieformulier.
-1. **ACSD-51907**: Hiermee wordt het probleem verholpen waarbij een gebruiker met beperkte beheerdersrechten geen creditnota met een offline terugbetaling kan maken.
-1. **ACSD-52148**: Hiermee wordt het probleem opgelost waarbij de [!UICONTROL Google V3 reCAPTCHA Admin] aanmelden mislukt soms.
-1. **ACSD-51431**: Hiermee wordt het probleem verholpen waarbij een indexeerstatus werkt, zelfs als er geen nieuwe vermeldingen in de wijziging voorkomen.
-1. **ACSD-51892**: Hiermee verhelpt u het prestatieprobleem waarbij configuratiebestanden meerdere keren tijdens de implementatie worden geladen.
+1. **ACSD-50478**: Bevestigt het gegevensbestand terugschroeven van prijzen bevel voor een geval wanneer de stortplaats van DB trekkers en een afbakeningsSQL bevel bevat.
+1. **ACSD-50512**: Bevestigt de fout: *de downloadbare verbinding is niet verwant met het product. Controleer de koppeling en probeer het opnieuw.* dat wordt uitgevoerd wanneer de begindatum voor een downloadbare product-staging-update wordt bijgewerkt.
+1. **ACSD-50949**: Verhelpt de kwestie waar de prijsfilter in [!UICONTROL Advanced Search] geen juiste resultaten terugkeert wanneer gebruikt langs de filter van SKU.
+1. **ACSD-51645**: Bevestigt de geworpen fout wanneer het opslaan van nieuw [!UICONTROL Cart Price Rule] als de uitbreiding `Magento_OfflineShipping` gehandicapt is.
+1. **ACSD-50895**: Verhelpt de kwestie waar [!DNL Google Analytics] 3 GTM markeringen niet in brand worden gestoken als [!DNL Google Analytics] 4 GTM niet wordt gevormd.
+1. **ACSD-51102**: Verhelpt de kwestie waar een catalogusregel die op een groot aantal producten wordt toegepast niet correct wordt geïndexeerd wanneer de regel door een geplande update wordt toegelaten.
+1. **ACSD-50368**: Verhelpt de kwestie waar de klant `group_id` wordt genegeerd wanneer een klant via Async REST API of Async Bulk REST API wordt gecreeerd.
+1. **ACSD-51497**: Verhelpt de kwestie waar een klant geen cataloguspagina door [!UICONTROL Custom Attribute] van het drop-down type kan sorteren.
+1. **ACSD-51408**: Verhelpt de kwestie waar de status van het ordepunt verkeerd aan [!UICONTROL Backordered] wordt geplaatst.
+1. **ACSD-51735**: Verhelpt de kwestie waar de status van het ordepunt verkeerd aan [!UICONTROL Ordered] wordt geplaatst wanneer het productdossier *0* is.
+1. **ACSD-51792**: Bevestigt de kwestie waar een pagina niet de imperiale gebeurtenis heeft wanneer [!DNL Google Tag Manager] 4 wordt toegelaten.
+1. **ACSD-51471**: Verhelpt de kwestie waar een admin gebruiker geen geplande update voor een gebundeld product kan bewaren dat een eenvoudig product gebruikt dat zelf een geplande update heeft.
+1. **ACSD-51700**: Bevestigt de fout die gebeurt wanneer het schakelen van archiefmeningen op een downloadbaar product uitgeeft pagina in admin.
+1. **ACSD-51120**: Verhelpt de kwestie waar de GET van GraphQL geheim voorgeheugen niet wordt ontruimd voor CMS pagina&#39;s die CMS blokken bevatten die via een het opvoeren update worden bijgewerkt.
+1. **ACSD-51240**: Verhelpt de kwestie waar het geuploade dossier mist als de registratie via de vorm van de bedrijfregistratie wordt gedaan.
+1. **ACSD-51907**: Verhelpt de kwestie waar een beperkte admin gebruiker geen creditnota met een off-line teruggave kan tot stand brengen.
+1. **ACSD-52148**: Verhelpt de kwestie waar [!UICONTROL Google V3 reCAPTCHA Admin] login af en toe ontbreekt.
+1. **ACSD-51431**: Verhelpt de kwestie waar een indexeerstatus werkt zelfs als er geen nieuwe ingangen in het kanaal zijn.
+1. **ACSD-51892**: Verhelpt de prestatieskwestie waar de config- dossiers veelvoudige tijden tijdens plaatsing laden.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

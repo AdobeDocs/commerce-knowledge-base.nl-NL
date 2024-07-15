@@ -16,21 +16,21 @@ In dit artikel wordt gesproken over oplossingen voor problemen die worden veroor
 
 >[!WARNING]
 >
->Op Adobe Commerce over cloudinfrastructuur dient u te weten dat serviceupgrades niet naar de productieomgeving kunnen worden doorgevoerd zonder dat ons infrastructuurteam hiervan 48 uur op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Dus 48 uur voor het moment dat uw veranderingen in productie moeten zijn, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) het gedetailleerd van uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
+>Op Adobe Commerce over cloudinfrastructuur dient u te weten dat serviceupgrades niet naar de productieomgeving kunnen worden doorgevoerd zonder dat ons infrastructuurteam hiervan 48 uur op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailerend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
 
 ## Elasticsearch versiecompatibiliteit met Adobe Commerce
 
 * Adobe Commerce op locatie en Adobe Commerce op cloudinfrastructuur:
    * v2.2.3+ ondersteunt ES 5.x
    * v2.2.8+ en v2.3.1+ ondersteunen ES 6.x
-   * ES v2.x en v5.x worden niet aanbevolen vanwege [Einde van levensduur](https://www.elastic.co/support/eol). Als u echter Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [De Elasticsearch-php-client wijzigen](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
+   * ES v2.x en v5.x worden niet geadviseerd wegens [ Eind van Leven ](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [ de Elasticsearch veranderen php Cliënt ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
 * Magento Open Source v2.3.0+ ondersteunt ES 5.x en 6.x (maar 6.x wordt aanbevolen).
 
 ## Probleem
 
 De volgende symptomen wijzen erop dat de Elasticsearch niet correct wordt gevormd:
 
-* `Error: No alive nodes in your cluster` - deze fout kan in de logboeken van Adobe Commerce verschijnen:
+* `Error: No alive nodes in your cluster` - deze fout kan worden weergegeven in Adobe Commerce-logboeken:
    * `var/log/system.log`
    * `var/log/support_report.log`
    * `var/log/cron.log`
@@ -42,7 +42,7 @@ De volgende symptomen wijzen erop dat de Elasticsearch niet correct wordt gevorm
   [YYYY-MM-DD HH:MM:SS] CRITICAL: Fix configuration with given suggestions:    - Elasticsearch version #<version> is not compatible with current version of magento    Upgrade elasticsearch version to ~5.0
   ```
 
-Wanneer *versie* is de Elasticsearch Service die wordt uitgevoerd in de cloud-omgeving.
+Waar *versie* de Dienst is die van de Elasticsearch op het wolkenmilieu loopt.
 
 ## Oorzaak
 
@@ -56,16 +56,16 @@ Elasticsearch is niet correct geïnstalleerd. Dit kan te wijten zijn aan:
 
 Elasticsearch correct instellen:
 
-* Handelaars op Adobe Commerce op cloudinfrastructuur kunnen de stappen in onze ontwikkelaarsdocumentatie volgen: [Service Elasticsearch instellen](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html).
-* Handelaren op Adobe Commerce op locatie en Magento Open Source kunnen de stappen in onze documentatie voor ontwikkelaars volgen: [Elasticsearch installeren en configureren](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+* De handelaren op Adobe Commerce op wolkeninfrastructuur kunnen de stappen in onze ontwikkelaardocumentatie volgen: [ de dienst van de Elasticsearch van de opstelling ](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html).
+* De handelaren op Adobe Commerce op-gebouw en de Magento Open Source kunnen de stappen in onze ontwikkelaarsdocumentatie volgen: [ installeren en vormen Elasticsearch ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 
 Nadat u opstelling Elasticsearch hebt, controleer dat het correct is gevormd:
 
 1. Meld u aan bij uw server.
-1. Controleer het versienummer van de Elasticsearch (2.x, 5.x, of 6.x) in de uitvoer van het uitvoeren van de opdracht: `curl -XGET <Elasticsearch hostname>:<Elasticsearch server port>` Bijvoorbeeld in Adobe Commerce op cloudinfrastructuur: `curl -XGET localhost:9200`
-1. Controleer wat in Adobe Commerce op de Configuratie van de wolkeninfrastructuur door het bevel in werking te stellen wordt gevormd: `php bin/magento config:show catalog/search`
-1. Controleren `catalog/search/engine` en zorg ervoor dat deze overeenkomt met het versienummer van de Elasticsearch. Bijvoorbeeld in Adobe Commerce op cloudinfrastructuur:
+1. Controleer het versienummer van de Elasticsearch (2.x, 5.x of 6.x) in de uitvoer van het uitvoeren van de opdracht: `curl -XGET <Elasticsearch hostname>:<Elasticsearch server port>` Bijvoorbeeld in Adobe Commerce op cloudinfrastructuur: `curl -XGET localhost:9200`
+1. Ga als volgt te werk om te controleren wat er in Adobe Commerce is geconfigureerd in de configuratie van de cloud-infrastructuur: `php bin/magento config:show catalog/search`
+1. Controleer `catalog/search/engine` en controleer of deze overeenkomt met het versienummer van de Elasticsearch. Bijvoorbeeld in Adobe Commerce op cloudinfrastructuur:
    * Elasticsearch 5.X - elasticsearch5
    * Elasticsearch 6.X - elasticsearch6
    * Elasticsearch 2.X - elasticsearch
-1. Controleren `index_prefix`. Als u meerdere omgevingen hebt, moet u ervoor zorgen dat u verschillende `index_prefix` waarden voor deze groepen.
+1. Schakel `index_prefix` in. Als u meerdere omgevingen hebt, moet u ervoor zorgen dat er verschillende `index_prefix` -waarden voor zijn.

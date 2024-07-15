@@ -17,4 +17,4 @@ Waarneming voor Adobe Commerce is een New Relic-nerdlet die de status van uw Ado
 
 Het tabblad Samenvatting van waarneming voor Adobe Commerce is bedoeld om snel een aantal problemen te zien die sites ervaren om u te helpen bij het automatisch oplossen of identificeren van mogelijke basisoorzaken van siteproblemen. De extra lusjes verstrekken diepgaande niveauinformatie over componentendiensten, gegevensbestand, infrastructuur, en processtaten.
 
-Ga voor de volledige handleiding over het gebruik van Observatie voor Adobe Commerce over cloudinfrastructuur naar [Waarneming voor Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html) in Experience League.
+Om de volledige gids op te zien hoe te om Waarneming voor Adobe Commerce op wolkeninfrastructuur te gebruiken, ga naar [ Waarneming voor Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html) gids in Experience League.

@@ -29,4 +29,4 @@ Magento Inventory biedt momenteel geen ondersteuning voor het berekenen van verz
 
 ## Verwante lezing
 
-* [Veelgestelde vragen over Magento-inventarisatie](https://github.com/magento/inventory/wiki/MSI-FAQs) in GitHub.
+* [ Veelgestelde vragen van de Inventaris van het Magento ](https://github.com/magento/inventory/wiki/MSI-FAQs) in GitHub.

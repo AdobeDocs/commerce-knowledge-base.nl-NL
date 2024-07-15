@@ -13,29 +13,29 @@ ht-degree: 0%
 
 # ACSD-47292: gebundelde producten uit de voorraad zijn niet beschikbaar in GraphQL-respons
 
-De ACSD-47292-patch verhelpt het probleem dat gebundelde producten uit de voorraad niet beschikbaar zijn in de GraphQL-respons, zelfs als de [!UICONTROL Display Out-of-Stock Products] is ingesteld op *[!UICONTROL Yes]*. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is geïnstalleerd. De patch-id is ACSD-47292. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
+De ACSD-47292-patch verhelpt het probleem dat gebundelde producten uit de voorraad niet beschikbaar zijn in de GraphQL-respons, zelfs als de [!UICONTROL Display Out-of-Stock Products] is ingesteld op *[!UICONTROL Yes]* . Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 wordt geïnstalleerd. De patch-id is ACSD-47292. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.5-p1
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-De gebundelde producten uit de voorraad zijn niet beschikbaar in het GraphQL-antwoord, zelfs niet als de [!UICONTROL Display Out-of-Stock Products] is ingesteld op *[!UICONTROL Yes]*.
+De gebundelde producten uit de out-of-stock zijn niet beschikbaar in de GraphQL-respons, zelfs niet als de [!UICONTROL Display Out-of-Stock Products] is ingesteld op *[!UICONTROL Yes]* .
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Ga naar Adobe Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** en stelt de [!UICONTROL Display Out-of-Stock Products] tot *[!UICONTROL Yes]*.
+1. Ga naar Adobe Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** en stel de [!UICONTROL Display Out-of-Stock Products] in op *[!UICONTROL Yes]* .
 1. Maak twee eenvoudige producten, s1 en s2.
 1. Maak s1 uit-van-voorraad en niet zichtbaar individueel en s2 in-voorraad en niet zichtbaar individueel, en wijs hen aan een categorie toe.
 1. Maak een gebundeld product met ten minste één optieproduct en wijs s1 en s2 aan deze optie toe (invoertype &quot;RadioButton&quot;).
@@ -77,11 +77,11 @@ De gebundelde producten uit de voorraad zijn niet beschikbaar in het GraphQL-ant
 }
 ```
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-s1-bundeloptie wordt vermeld in de GraphQL-reactie omdat [!UICONTROL Display Out-of-Stock Products] is ingesteld op *[!UICONTROL Yes]* en is zichtbaar op de winkel.
+s1-bundeloptie wordt vermeld in de GraphQL-reactie omdat [!UICONTROL Display Out-of-Stock Products] is ingesteld op *[!UICONTROL Yes]* en deze zichtbaar is in de winkel.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 s1-bundeloptie wordt niet vermeld in GraphQL-reactie.
 
@@ -110,14 +110,14 @@ s1-bundeloptie wordt niet vermeld in GraphQL-reactie.
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

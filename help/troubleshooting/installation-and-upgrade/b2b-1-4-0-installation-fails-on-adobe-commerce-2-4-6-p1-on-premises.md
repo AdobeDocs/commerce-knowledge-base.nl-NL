@@ -1,6 +1,6 @@
 ---
-title: '[!DNL B2B] 1.4.0 de installatie ontbreekt op Adobe Commerce 2.4.6-p1 op-gebouw'
-description: Dit artikel biedt een oplossing voor de Adobe Commerce 2.4.6-p1-kwestie op locatie waar [!DNL B2B] De installatie van versie 1.4.0 is mislukt.
+title: '[!DNL B2B] 1.4.0-installatie mislukt op Adobe Commerce 2.4.6-p1 op locatie'
+description: Dit artikel verstrekt een oplossing voor Adobe Commerce 2.4.6-p1 op-gebouw kwestie waar  [!DNL B2B]  versie 1.4.0 installatie ontbreekt.
 feature: Install, Upgrade, B2B
 role: Developer
 exl-id: 4a557c13-7ec2-4cfe-b86e-bb0d1a441658
@@ -11,22 +11,22 @@ ht-degree: 0%
 
 ---
 
-# [!DNL B2B] 1.4.0 de installatie ontbreekt op Adobe Commerce 2.4.6-p1 op gebouw
+# De installatie van [!DNL B2B] 1.4.0 mislukt op Adobe Commerce 2.4.6-p1 in bedrijven
 
-Dit artikel biedt een oplossing voor de Adobe Commerce 2.4.6-p1-kwestie op locatie waar [!DNL B2B] De installatie van versie 1.4.0 is mislukt.
+Dit artikel biedt een oplossing voor het probleem dat zich op locatie bij Adobe Commerce 2.4.6-p1 voordoet en waarbij de installatie van [!DNL B2B] versie 1.4.0 mislukt.
 
 ## Betrokken producten en versies
 
-* Adobe Commerce 2.4.6-p1 **ter plaatse**
+* Adobe Commerce 2.4.6-p1 **op-gebouw**
 * [!DNL B2B] versie 1.4.0
 
 >[!NOTE]
 >
->[!DNL B2B] versie 1.4.0 kan worden geïnstalleerd op **Adobe Commerce Cloud 2.4.6-p1**.
+>[!DNL B2B] versie 1.4.0 met succes installeert op **Adobe Commerce Cloud 2.4.6-p1**.
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Installeer Adobe Commerce 2.4.6-p1.
 
@@ -34,17 +34,17 @@ Dit artikel biedt een oplossing voor de Adobe Commerce 2.4.6-p1-kwestie op locat
    m2install.sh -s composer --ee -v 2.4.6-p1
    ```
 
-1. Probeer te installeren [!DNL B2B] versie 1.4.0.
+1. Installeer [!DNL B2B] versie 1.4.0.
 
    ```terminal
    composer require magento/extension-b2b:1.4.0
    ```
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-[!DNL B2B] Versie 1.4.0 wordt geïnstalleerd op Adobe Commerce 2.4.6-p1.
+Met [!DNL B2B] versie 1.4.0 kan worden geïnstalleerd op Adobe Commerce 2.4.6-p1.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Installatie mislukt met de onderstaande fout:
 
@@ -61,15 +61,15 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ## Workaround
 
-Installeren of upgraden naar [!DNL B2B] versie 1.4.0 op Adobe Commerce 2.4.6-p1 door handmatige afhankelijkheden voor de [!DNL B2B] beveiligingspakket met [stabiliteitstag](https://getcomposer.org/doc/04-schema.md#package-links).
+Met succes installeren of bevorderen aan [!DNL B2B] versie 1.4.0 op Adobe Commerce 2.4.6-p1 door handgebiedsdelen voor het [!DNL B2B] veiligheidspakket met a [ stabiliteitmarkering ](https://getcomposer.org/doc/04-schema.md#package-links) toe te voegen.
 
-1. Bijwerken vanuit de Adobe Commerce-installatiemap `composer.json` met de vereiste afhankelijkheden:
+1. Werk `composer.json` vanuit de installatiemap van Adobe Commerce bij met de vereiste afhankelijkheden:
 
    ```terminal
    composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/security-package-b2b=1.0.4-beta1@beta
    ```
 
-   **Uitvoer opdracht:**
+   **output van het Bevel:**
 
    ```terminal
    Running composer update magento/module-re-captcha-company magento/security-package-b2b
@@ -92,13 +92,13 @@ Installeren of upgraden naar [!DNL B2B] versie 1.4.0 op Adobe Commerce 2.4.6-p1 
    No security vulnerability advisories found
    ```
 
-1. Bijwerken `composer.json` toevoegen [!DNL B2B] versie 1.4.0.
+1. Werk `composer.json` bij om [!DNL B2B] versie 1.4.0 toe te voegen.
 
    ```terminal
    composer require magento/extension-b2b=1.4.0
    ```
 
-   **Uitvoer opdracht:**
+   **output van het Bevel:**
 
    ```terminal
    ./composer.json has been updated
@@ -114,5 +114,5 @@ Installeren of upgraden naar [!DNL B2B] versie 1.4.0 op Adobe Commerce 2.4.6-p1 
 
 1. Voltooi het installatie- of upgradeproces.
 
-   * [Installeren [!DNL B2B] over cloudinfrastructuur](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
-   * [Installeren in de bedrijfsruimten](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html)
+   * [ installeer  [!DNL B2B]  op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
+   * [ installeer op-gebouw ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html)

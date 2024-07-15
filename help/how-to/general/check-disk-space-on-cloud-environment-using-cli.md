@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Schijfruimte controleren met CLI op Adobe Commerce in een cloud-infrastructuuromgeving
 
-Raadpleeg de [Schijfruimte beheren](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html) artikel in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar het [ beheer schijfruimte ](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html) artikel in onze ontwikkelaarsdocumentatie.

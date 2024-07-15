@@ -22,20 +22,20 @@ Dit artikel biedt oplossingen voor het gebruik van producten die niet in de wink
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Meld u aan bij de Commerce-beheerder.
 1. Ga naar **Catalogus** > **Producten**.
 
-   ![open_product_page_magento_2.4.1.png](assets/open_product_page_magento_2.4.1.png)
+   ![ open_product_page_magento_2.4.1.png ](assets/open_product_page_magento_2.4.1.png)
 
-1. Klikken **Product toevoegen** en doorloopt het proces voor het maken van producten. Of importeer producten uit een CSV-bestand.
+1. Klik **toevoegen Product** en ga door het proces van de productverwezenlijking. Of importeer producten uit een CSV-bestand.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Het product wordt weergegeven op de winkel.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Het product wordt niet weergegeven.
 
@@ -47,15 +47,15 @@ Dit kan om verschillende redenen worden veroorzaakt. Volg de onderstaande stappe
 
 Elk van de volgende punten zou de kwestie kunnen oplossen.
 
-* Controleer de productinstellingen in Admin. Ga naar **Catalogus** > **Producten**, opent u de productpagina en controleert u of de volgende velden correct zijn geconfigureerd:
-   * **Product inschakelen** = *Ja.*
-   * **Status van voorraad**: *In voorraad*. of als *Uit voorraad* is de juiste waarde, zorg ervoor dat **Producten uit voorraad weergeven** (**VOORRADEN** > **Instellingen** > **Configuratie** > **CATALOGUS** > **Inventaris** > **Opties voor voorraad** > **Producten uit voorraad weergeven**) is ingesteld op *Ja* (geconfigureerd op mondiaal niveau).
-   * **Categorieën**: Als u het product op een categoriepagina probeert te vinden, controleert u of het product aan de categorie is toegewezen. Om het oplossen van problemen te vereenvoudigen, creeer een nieuwe categorie van de huidige pagina en wijs een product aan het toe.
-   * **Zichtbaarheid** = *Catalogus, zoeken.*
-   * In de **Product op websites** , zorgt u ervoor dat het product aan de juiste website wordt toegewezen.
+* Controleer de productinstellingen in Admin. Ga naar **Catalogus** > **Producten**, open de productpagina en zorg ervoor de volgende gebieden correct worden gevormd:
+   * **laat Product** toe = *ja.*
+   * **Status van de Beeld**: *in Voorraad*. Of als *uit Voorraad* de correcte waarde is, zorg ervoor dat **Vertoning uit de Producten van de Voorraad** (**STORES** > **Montages** > **Configuratie** > **CATALOGUS** > **Voorraad** > **Opties van de Voorraad** 6} Vertoning uit de Producten van de Voorraad **) wordt geplaatst aan *ja* (gevormd op globaal niveau).**
+   * **Categorieën**: Als u probeert om het product op een categoriepagina te vinden, verifieer dat het product aan de categorie wordt toegewezen. Om het oplossen van problemen te vereenvoudigen, creeer een nieuwe categorie van de huidige pagina en wijs een product aan het toe.
+   * **Zichtbaarheid** = *Catalogus, Onderzoek.*
+   * In het **Product in Websites** sectie, zorg ervoor het product aan de correcte website wordt toegewezen.
    * Schakel de bereikkiezer naar de winkelweergave waar u het product op de winkel probeert te vinden en controleer dezelfde instellingen.
-* Voer de volledige herindex uit door `bin/magento indexer:reindex` vanaf de console, en verwijder alle cache in de Admin, onder **Systeem** > **Gereedschappen** > **Cachebeheer** of vanaf de console door `bin/magento cache:clean`.
-* Als het bovenstaande niet helpt, kunt u verder onderzoek starten door logbestanden in te checken in het dialoogvenster `var/log` directory.
+* Voer de volledige herdex uit, door `bin/magento indexer:reindex` van de console in werking te stellen, en al geheim voorgeheugen in Admin, onder **Systeem** te spoelen > **Hulpmiddelen** > **Beheer van het Geheime voorgeheugen**, of van de console door `bin/magento cache:clean` in werking te stellen.
+* Als het bovenstaande niet helpt, kunt u verder onderzoek starten door logbestanden in de map `var/log` te controleren.
 
 ## Gerelateerde lezing in onze kennisbasis voor support
 

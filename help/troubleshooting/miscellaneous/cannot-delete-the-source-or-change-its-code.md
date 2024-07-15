@@ -37,6 +37,6 @@ De code is essentieel voor het verbinden van de bron met orden. Dit is een uniek
 
 U kunt een bron uit een product verwijderen door de voorraad over te brengen of het product van alle verzendingen op een locatie te laten vallen.
 
-Als u een bron moet verwijderen uit [SSA](https://devdocs.magento.com/guides/v2.3/inventory/source-selection-algorithms.html) U kunt de bron uitschakelen door berekeningen en Adobe Commerce Inventory Order-verwerking uit te voeren. Uitgeschakelde bronnen bewaren alle gegevens, toegewezen producten en inventarishoeveelheden en kunnen op elk moment weer worden ingeschakeld om opnieuw te beginnen met verzenden.
+Als u een bron uit [ SSA ](https://devdocs.magento.com/guides/v2.3/inventory/source-selection-algorithms.html) berekeningen en de ordeverwerking van de Inventaris van Adobe Commerce moet verwijderen, kunt u de bron onbruikbaar maken. Uitgeschakelde bronnen bewaren alle gegevens, toegewezen producten en inventarishoeveelheden en kunnen op elk moment weer worden ingeschakeld om opnieuw te beginnen met verzenden.
 
-Zie de [Hulplijn Bronnen maken](https://github.com/magento/inventory/wiki/Create-Sources#disable-sources) voor meer informatie over het uitschakelen van een bron.
+Zie de [ Create Brongids ](https://github.com/magento/inventory/wiki/Create-Sources#disable-sources) voor details op hoe te om een bron onbruikbaar te maken.

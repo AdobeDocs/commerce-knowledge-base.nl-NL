@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Voor een correcte opmaak van metagegevens in MD-bestanden hebben we een validatietest voor metagegevens ingesteld. Dit document bevat richtlijnen die contribuanten helpen enkele van de meest voorkomende validatiefouten voor metagegevens te voorkomen.
 
-**Voorbeeld van metagegevens:**
+**Voorbeeld van meta-gegevens:**
 
 ```markdown
 ---
@@ -37,7 +37,7 @@ labels: patch: 2041.1,article,labels,tags
 ---
 ```
 
-U voorkomt deze fout door de titel of labels (of beide als ze dubbele punten hebben) te plaatsen in **enkele aanhalingstekens**.
+Om deze fout te vermijden, verpak de titel of de etiketten (of allebei als allebei dubbele punten) in **enige aanhalingstekens** hebben.
 
 **Voorbeeld:**
 
@@ -61,7 +61,7 @@ labels: patch: 2041.1,'article',labels,tags
 ---
 ```
 
-Deze fout is opgelost door de titel of de labels (of beide) in te sluiten **dubbele aanhalingstekens**.
+Deze fout wordt bevestigd door de titel of de etiketten (of allebei) in **dubbele aanhalingstekens** te verpakken.
 
 **Voorbeeld:**
 
@@ -83,7 +83,7 @@ labels: patch: 2041.1,'article',"labels",can't,tags
 ---
 ```
 
-Wanneer dit gebeurt, plaatst u de titel of labels (of beide) in **dubbele aanhalingstekens** en gebruiken een **backslash** om alle dubbele aanhalingstekens in de titel en de labels te verwijderen.
+Wanneer dit gebeurt, verpak de titel of de etiketten (of allebei) in **dubbele aanhalingstekens** en gebruik a **backslash** om alle dubbele aanhalingstekens in de titel en de etiketten te ontsnappen.
 
 **Voorbeeld:**
 

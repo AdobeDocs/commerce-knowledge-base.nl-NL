@@ -35,16 +35,16 @@ Dit komt meestal door een gebrek aan schijfruimte voor het importeren van de dat
 
 ## Oplossing
 
-Controleer of er onvoldoende schijfruimte is. Voer hiertoe de `netcat` bevel in CLI tegen gegevensbestandhaven 3306; er zal een schijf volledig bericht zijn als het volledig is:
+Controleer of er onvoldoende schijfruimte is. Om dit te doen, stel het `netcat` bevel in CLI tegen gegevensbestandhaven 3306 in werking; er zal een schijf volledig bericht zijn als het volledig is:
 
 ```
 web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-U moet meer ruimte toewijzen aan de database in uw `services.yaml` en implementeren als u wat ruimte ongebruikt hebt. Zie voor stappen [Serviceschijfruimte](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).
+U moet meer ruimte toewijzen voor de database in uw `services.yaml` en deze implementeren als u wat ruimte niet gebruikt. Voor stappen, zie {de Ruimte van de Schijf van 0} Dienst ](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).[
 
-Nota: Op het Pro architectuurplan, kunt u de toegewezen ruimte op uw verdeling controleren door het volgende bevel in werking te stellen: `df -h`
+Opmerking: In het Pro-architectuurplan kunt u de toegewezen ruimte op uw partitie controleren met de volgende opdracht: `df -h`
 
 Verwacht uitvoer vergelijkbaar met de volgende uitvoer. In dit voorbeeld wordt 10 GB van de toegewezen 25 GB gebruikt, waarbij 15 GB van MySQL-ruimte niet wordt gebruikt.
 
@@ -58,4 +58,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## Gerelateerde lezing
 
-[Schijfruimte beheren](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in onze documentatie voor ontwikkelaars
+[ beheer de Ruimte van de Schijf ](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in onze ontwikkelaarsdocumentatie

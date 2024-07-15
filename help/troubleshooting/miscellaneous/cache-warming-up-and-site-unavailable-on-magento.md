@@ -17,28 +17,28 @@ Dit artikel biedt een oplossing voor het opwarmen van de paginacache en er is ee
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op cloudinfrastructuur, alle [ondersteunde versies](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Probleem
 
 Het geheime voorgeheugen warm op manuscript, aan het eind van de post-opstellen fase, verzendt verzoeken aan zulk een hoge tarief dat bepaalde instanties, zoals 4-cpu degenen, niet kunnen behandelen. Hun ngInx haalt het aantal werknemers op.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Opwarmen van cache starten.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Pagina&#39;s of de hele site wordt geladen.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 De site is niet beschikbaar of de responstijd is te hoog.
 
 ## Oplossing
 
-Beperk het aantal gelijktijdige verbindingen tijdens de cache-opwarmen. Hiervoor moet u de opdracht `WARM_UP_CONCURRENCY` post-opstellen variabele om het aantal warm-op verzoeken te specificeren dat het geheim voorgeheugenwarm-up manuscript kan gelijktijdig verzenden. Door deze optie in te stellen, kunt u de belasting op de Adobe Commerce-cloudinfrastructuur beter beheren. Zie voor stappen [Variabelen na implementatie > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) in onze ontwikkelaarsdocumentatie.
+Beperk het aantal gelijktijdige verbindingen tijdens de cache-opwarmen. Hiervoor moet u de variabele `WARM_UP_CONCURRENCY` post-distribueren toevoegen om het aantal opwarmen aanvragen op te geven dat het opwarmen van de cache script tegelijkertijd kan verzenden. Door deze optie in te stellen, kunt u de belasting op de Adobe Commerce-cloudinfrastructuur beter beheren. Voor stappen, zie [ Post-stelt variabelen > WARM \_UP\_CONCURRENCY ](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) in onze ontwikkelaarsdocumentatie op.
 
 ## Gerelateerde lezing
 
-[Cache van volledige pagina](https://docs.magento.com/user-guide/system/cache-full-page.html) in onze gebruikershandleiding
+[ Volledig-Pagina Geheime voorgeheugen ](https://docs.magento.com/user-guide/system/cache-full-page.html) in onze gebruikersgids

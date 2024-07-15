@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Prijzen van gedeelde catalogi bijwerken met REST API
 
-Om prijzen in Gedeelde Catalogi met API toe te voegen of bij te werken, adviseren wij gebruikend `TierPriceStorageInterface` de dienst, die in [Laagprijzen beheren](http://devdocs.magento.com/guides/v2.2/rest/modules/catalog-pricing.html#manage-tier-prices) REST API Reference in our developer documentation. Voor gedeelde catalogusprijzen gebruiken we de Tier-prijs en de Klantengroep.
+Om prijzen in Gedeelde Catalogi met API toe te voegen of bij te werken, adviseren wij het gebruiken van de `TierPriceStorageInterface` dienst, die in [ wordt beschreven beheert laagprijzen ](http://devdocs.magento.com/guides/v2.2/rest/modules/catalog-pricing.html#manage-tier-prices) REST API Verwijzing in onze ontwikkelaarsdocumentatie. Voor gedeelde catalogusprijzen gebruiken we de Tier-prijs en de Klantengroep.

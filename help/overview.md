@@ -13,26 +13,26 @@ ht-degree: 1%
 
 # Adobe Commerce Support Knowledge Base
 
-![Homepage kennisbasis](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
+![ homepage van de Kennisbank ](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
-De informatie in deze kennisbank is ontworpen als aanvulling op [Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs), en [Adobe Commerce Merchant Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)en andere publicaties van Adobe Commerce. Het behandelt het oplossen van problemen en beste praktijken, gastheeraankondigingen, antwoorden FAQs, en benadrukt specifieke scenario&#39;s die (om het even welke reden) niet vermeld in de officiële documentatie zijn.
+De informatie in deze Kennisbank wordt ontworpen als aanvulling op [ de Documentatie van de Ontwikkelaar van Adobe Commerce ](https://developer.adobe.com/commerce/docs), en [ Handleiding van de Merchant van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html), en andere publicaties van Adobe Commerce. Het behandelt het oplossen van problemen en beste praktijken, gastheeraankondigingen, antwoorden FAQs, en benadrukt specifieke scenario&#39;s die (om het even welke reden) niet vermeld in de officiële documentatie zijn.
 
 ## Wat zit er in de Knowledge Base?
 
 | CATEGORIE | BESCHRIJVING |
 | --- | --- |
-| [Ondersteuningsgereedschappen](/help/support-tools/overview.md) | Verbeter uw e-commercewinkelervaring met de verschillende ondersteuningsinstrumenten die Adobe Commerce biedt. Wij bieden gepersonaliseerde beste praktijken, diagnose en controlehulpmiddelen, en de meest relevante informatie over uw plaats. |
-| [Aankondigingen](/help/announcements/overview.md) | Ontvang belangrijke updates van de Adobe Commerce-teams. |
-| [Problemen oplossen](/help/troubleshooting/overview.md) | Haal oplossingen en patches voor zelfbediening van het Adobe Commerce Support-team. |
-| [Handboek voor Help Center](/help/help-center-guide/help-center/magento-help-center-user-guide.md) | Leer hoe u uw ondersteuningstickets beheert, gedeelde toegang verleent en de Knowledge Base op effectieve wijze doorbladert. |
-| [Procedure](/help/how-to/overview.md) | Kies voor duidelijke stapsgewijze instructies van het Adobe Commerce Support-team. |
-| [Veelgestelde vragen](/help/faq/overview.md) | Veelgestelde vragen over het beleid, de strategieën en de specifieke eigenschappen van Adobe Commerce zijn te vinden. |
+| [ Hulpmiddelen van de Steun ](/help/support-tools/overview.md) | Verbeter uw e-commercewinkelervaring met de verschillende ondersteuningsinstrumenten die Adobe Commerce biedt. Wij bieden gepersonaliseerde beste praktijken, diagnose en controlehulpmiddelen, en de meest relevante informatie over uw plaats. |
+| [ Mededelingen ](/help/announcements/overview.md) | Ontvang belangrijke updates van de Adobe Commerce-teams. |
+| [ het Oplossen van problemen ](/help/troubleshooting/overview.md) | Haal oplossingen en patches voor zelfbediening van het Adobe Commerce Support-team. |
+| [ Gids van de Gebruiker van het Centrum van de Hulp ](/help/help-center-guide/help-center/magento-help-center-user-guide.md) | Leer hoe u uw ondersteuningstickets beheert, gedeelde toegang verleent en de Knowledge Base op effectieve wijze doorbladert. |
+| [ hoe te ](/help/how-to/overview.md) | Kies voor duidelijke stapsgewijze instructies van het Adobe Commerce Support-team. |
+| [ Veelgestelde vragen ](/help/faq/overview.md) | Veelgestelde vragen over het beleid, de strategieën en de specifieke eigenschappen van Adobe Commerce zijn te vinden. |
 
 >[!NOTE]
 >
->Als u een nieuw ticket wilt indienen, meldt u zich aan [Adobe Commerce Help Center](https://support.magento.com/) en voert u de volgende stappen uit [Een ondersteuningsticket verzenden](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket).
+>Om een nieuw kaartje te dossier, teken binnen aan [ het Centrum van de Hulp van Adobe Commerce ](https://support.magento.com/) en volg de stappen die onder [ worden gedetailleerd een Ticket van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) voorleggen.
 >
->Als u de optie om een ticket te verzenden niet ziet, raadpleegt u de *[Verzenden van niet-weergegeven ticketkoppeling](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)* in onze [Handboek voor Help Center](/help/help-center-guide/help-center/magento-help-center-user-guide.md).
+>Als u niet de optie ziet om een kaartje voor te leggen, verwijs naar *[voorlegt een kaarthink niet getoond ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)* sectie in onze [ Gids van de Gebruiker van het Centrum van de Hulp ](/help/help-center-guide/help-center/magento-help-center-user-guide.md).
 
 ## Nieuwe functies
 
@@ -45,14 +45,14 @@ De informatie in deze kennisbank is ontworpen als aanvulling op [Adobe Commerce 
 
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-update-the-cloud-account-profile">Hoe kan ik het profiel van de cloud-account bijwerken?</a> Dit artikel bevat stappen voor het wijzigen van het profiel voor de cloud-account.
+    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-update-the-cloud-account-profile"> hoe te om het profiel van de wolkenrekening bij te werken:</a> Dit artikel verstrekt stappen op hoe te om het profiel op de wolkenrekening te wijzigen.
     </td>
     <td>Nieuw artikel</td>
     <td>22 april 2024</td>
   </tr>
 
 <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/admin-create-order-page-in-csp-restricted-mode">Los problemen op creeer ordepagina op CSP beperkte wijze:</a> Dit artikel bevat uitleg en oplossingen voor Adobe Commerce 2.4.7-problemen bij het maken van een bestelling aan de beheerzijde wanneer de modus voor beperkte toegang tot CDV is ingesteld op <em>Ingeschakeld</em>.  
+    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/admin-create-order-page-in-csp-restricted-mode"> lost problemen op leidt tot ordepagina op CSP beperkte wijze:</a> Dit artikel verstrekt verklaringen en moeilijke situaties voor Adobe Commerce 2.4.7 kwesties terwijl het creëren van een orde op Admin kant wanneer CSP beperkte wijze <em> </em> wordt toegelaten.  
     </td>
     <td>Nieuw artikel</td>
     <td>22 april 2024</td>
@@ -60,7 +60,7 @@ De informatie in deze kennisbank is ontworpen als aanvulling op [Adobe Commerce 
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/storefront-checkout-page-in-csp-restricted-mode">Los storefront checkout pagina op in CSP beperkte wijze:</a> Dit artikel bevat uitleg en oplossingen voor Adobe Commerce 2.4.7-problemen terwijl de pagina voor uitchecken wordt weergegeven in de modus CSP-beperkt, met de opdracht <em>"Geweigerd om inline manuscript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: "manuscript-src.."</em> foutbericht in het logboek van de browserconsole. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/storefront-checkout-page-in-csp-restricted-mode"> los storefront checkout pagina op CSP beperkte wijze problemen op:</a> Dit artikel verstrekt verklaringen en moeilijke situaties voor Adobe Commerce 2.4.7 kwesties terwijl het bekijken van de controlepagina op CSP beperkte wijze, met <em> "weigert om inlinescript uit te voeren omdat het de volgende richtlijn van het Beleid van de Veiligheid van de Inhoud schendt: "manuscript-src..."</em> foutenmelding in het browser consolelogboek. 
     </td>
     <td>Nieuw artikel </td>
     <td>22 april 2024</td>
@@ -68,7 +68,7 @@ De informatie in deze kennisbank is ontworpen als aanvulling op [Adobe Commerce 
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-54656-invisible-recaptcha-fails-during-checkout-preventing-order-placement">ACSD-54656: Onzichtbare reCAPTCHA werkt niet tijdens het afrekenen waardoor plaatsing van de bestelling wordt verhinderd:</a> De ACSD-54656-patch verhelpt het probleem waarbij het onzichtbare reCAPTCHA niet goed werkt tijdens het uitchecken, waardoor het plaatsen van een bestelling wordt verhinderd. Deze pleister is beschikbaar wanneer de <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46 is geïnstalleerd. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-54656-invisible-recaptcha-fails-during-checkout-preventing-order-placement"> ACSD-54656: Onzichtbare reCAPTCHA die niet tijdens controle verhindert ordeplaatsing werkt:</a> het ACSD-54656 flard bevestigt de kwestie waar onzichtbare reCAPTCHA niet behoorlijk tijdens controle werkt, die de plaatsing van een orde verhindert. Deze patch is beschikbaar wanneer <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46 wordt geïnstalleerd. 
     </td>
     <td>Nieuw artikel </td>
     <td>22 april 2024</td>
@@ -76,7 +76,7 @@ De informatie in deze kennisbank is ontworpen als aanvulling op [Adobe Commerce 
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-46767-category-page-caches-invalidate-when-the-stock-quantity-changes">ACSD-46767: caches voor categoriepagina worden ongeldig gemaakt wanneer de voorraadhoeveelheid verandert:</a> De ACSD-46767-patch verhelpt het probleem waarbij de categoriepagina ongeldig wordt gemaakt als de voorraadhoeveelheid verandert, zelfs als het product nog in voorraad is. Deze pleister is beschikbaar wanneer de <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46 is geïnstalleerd.  
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-46767-category-page-caches-invalidate-when-the-stock-quantity-changes"> ACSD-46767: De geheime voorgeheugens van de pagina van de categorie ongeldig wanneer de voorraadhoeveelheid verandert:</a> ACSD-46767 flardfixes de kwestie waar de de paginakaart van de Categorie ongeldig maakt wanneer de voorraadhoeveelheid verandert, zelfs als het product nog in voorraad is. Deze patch is beschikbaar wanneer <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46 wordt geïnstalleerd.  
     </td>
     <td>Nieuw artikel </td>
     <td>22 april 2024</td>
@@ -84,7 +84,7 @@ De informatie in deze kennisbank is ontworpen als aanvulling op [Adobe Commerce 
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-45/acsd-56415-performance-of-partial-price-indexing-is-slowed-down-due-to-a-delete-query">ACSD-56415: De prestaties van Partial Price Indexing worden vertraagd toe te schrijven aan DELETE query:</a> De markering ACSD-56415 lost het probleem op waar de prestaties van de Onafhankelijke Indexering van de Prijs wegens een vraag van de DELETE worden vertraagd wanneer het gegevensbestand veel gedeeltelijke index van prijsgegevens heeft. Deze pleister is beschikbaar wanneer de <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.45 is geïnstalleerd.  
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-45/acsd-56415-performance-of-partial-price-indexing-is-slowed-down-due-to-a-delete-query"> ACSD-56415: De prestaties van Onvolledige Prijsindexering wordt vertraagd toe te schrijven aan de vraag van DELETE:</a> ACSD-56415 flardmoeilijke situatie waar de prestaties van de Onafhankelijke Prijsindexering wegens een vraag van DELETE worden vertraagd wanneer het gegevensbestand veel gedeeltelijke prijsindex heeft. Deze patch is beschikbaar wanneer <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.45 wordt geïnstalleerd.  
     </td>
     <td>Nieuw artikel </td>
     <td>22 april 2024</td>
@@ -92,7 +92,7 @@ De informatie in deze kennisbank is ontworpen als aanvulling op [Adobe Commerce 
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel">ACSD-56858: discrepantie bij rolmachtigingen in B2B-bedrijfsbeheer:</a> De ACSD-56858-patch verhelpt het probleem waarbij rolinerechten onjuist worden weergegeven voor een beperkte bedrijfsbeheerder in de B2B-omgeving. Deze pleister is beschikbaar wanneer de <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.47 is geïnstalleerd. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel"> ACSD-56858: De discrepantie van de toestemmingen van de rol in B2B bedrijfbeheerder:</a> ACSD-56858 herstelt de kwestie waar de roltoestemmingen verkeerd voor een beperkt bedrijf admin in het milieu B2B worden getoond. Deze patch is beschikbaar wanneer <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.47 is geïnstalleerd. 
     </td>
     <td>Nieuw artikel </td>
     <td>22 april 2024</td>

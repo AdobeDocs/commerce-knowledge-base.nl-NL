@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Kan zoekengine niet wijzigen in `app/etc/env.php`
 
-Dit artikel biedt een oplossing voor het probleem waarbij u de configuratie van de zoekmachine probeert te verwijderen uit de `app/etc/env.php` bestand, maar na opnieuw implementeren, wordt de configuratie teruggezet naar de vorige instelling of wordt de configuratie gewijzigd in [!DNL OpenSearch] standaard.
+Dit artikel biedt een oplossing voor het probleem waarbij u probeert de configuratie van de zoekmachine uit het `app/etc/env.php` -bestand te verwijderen, maar na de herimplementatie wordt de configuratie teruggezet naar de vorige instelling of wordt deze standaard gewijzigd in [!DNL OpenSearch] .
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op cloudinfrastructuur, [alle ondersteunde versies](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 
@@ -23,11 +23,11 @@ U probeert het zoekprogramma te wijzigen in Commerce Admin, maar de velden zijn 
 
 ## Oorzaak
 
-De configuratie van de zoekmachine is vergrendeld in het dialoogvenster `app/etc/env.php` of het zoekprogramma expliciet wordt gedefinieerd in het dialoogvenster `.magento.env.yaml` bestand.
+De configuratie van de zoekmachine is vergrendeld in het `app/etc/env.php` -bestand of de zoekmachine is expliciet gedefinieerd in het `.magento.env.yaml` -bestand.
 
 ## Oplossing
 
-1. Controleer de `.magento.env.yaml` bestand onder het werkgebied implementeren en controleren of de `SEARCH_CONFIGURATION` variable is gevormd. Voorbeeld:
+1. Controleer het `.magento.env.yaml` -bestand in het werkgebied Implementeren en controleer of de `SEARCH_CONFIGURATION` -variabele is geconfigureerd. Voorbeeld:
 
    ```yaml
    SEARCH_CONFIGURATION:
@@ -36,10 +36,10 @@ De configuratie van de zoekmachine is vergrendeld in het dialoogvenster `app/etc
    <VARIABLE X>
    ```
 
-1. Is de  `SEARCH_CONFIGURATION` variabele aanwezig? Indien niet aanwezig is, is de configuratie van de zoekmachine vergrendeld op [!DNL OpenSearch] standaard. Als u de configuratie wilt wijzigen, moet u de variabele aan de `.magento.env.yaml` bestand met de juiste waarde voor het zoekprogramma. Als de `SEARCH_CONFIGURATION` variabele aanwezig is en u wilt de motor wijzigen, de bestaande waarde voor de motor vervangen `.magento.env.yaml`. Mogelijke/bekende waarden: [!DNL opensearch], [!DNL livesearch], [!DNL elasticsuite], [!DNL amasty_elastic], en [!DNL amasty_elastic_opensearch].
+1. Is de variabele `SEARCH_CONFIGURATION` aanwezig? Als dit niet het geval is, is de configuratie van de zoekmachine standaard vergrendeld op [!DNL OpenSearch] . Als u de configuratie wilt wijzigen, moet u de variabele aan het `.magento.env.yaml` -bestand toevoegen met de juiste waarde voor de zoekfunctie. Als de variabele `SEARCH_CONFIGURATION` aanwezig is en u de engine wilt wijzigen, vervangt u de bestaande waarde voor de engine in `.magento.env.yaml` . Mogelijke/bekende waarden: [!DNL opensearch], [!DNL livesearch], [!DNL elasticsuite], [!DNL amasty_elastic] en [!DNL amasty_elastic_opensearch] .
 1. Implementeer de instantie opnieuw.
 1. Het veld Zoekmachine in Beheer blijft vergrendeld, maar wordt bijgewerkt met de waarde die u hebt opgegeven.
 
 ## Gerelateerde lezing
 
-* [Vergrendelde velden in Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) in Commerce on Cloud Infrastructure Guide.
+* [ Vergrendelde gebieden in Admin van Commerce ](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) in Commerce op de Gids van de Infrastructuur van de Wolk.

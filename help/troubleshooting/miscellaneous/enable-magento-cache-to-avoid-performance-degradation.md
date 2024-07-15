@@ -30,25 +30,25 @@ Een reden voor prestatievermindering kan zijn dat bepaalde Adobe Commerce-cachet
 
 ## Oplossing
 
-1. Controleer eerst de status van de Adobe Commerce cache om te zien of dit het probleem is. Hiervoor [SSH voor uw omgeving](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) en voer de volgende opdracht uit:
+1. Controleer eerst de status van de Adobe Commerce cache om te zien of dit het probleem is. Voor dit, [ SSH aan uw milieu ](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) en stel het volgende bevel in werking:
 
    ```bash
    php bin/magento cache:status
    ```
 
-   Dit zou de status van elk geheim voorgeheugentype (&quot;0&quot;voor gehandicapte, &quot;1&quot;voor toegelaten) tonen. U kunt deze gegevens ook in het dialoogvenster `app/etc/env.php` bestand.
+   Dit zou de status van elk geheim voorgeheugentype (&quot;0&quot;voor gehandicapte, &quot;1&quot;voor toegelaten) tonen. U kunt deze gegevens ook in het `app/etc/env.php` -bestand opnemen.
 
 1. Onderzoek de gehandicapte geheim voorgeheugentypes. Alle Adobe Commerce-cachetypen moeten zijn ingeschakeld, tenzij u alternatieve instructies van de Adobe hebt ontvangen. Voor extensies van derden moet geen Adobe Commerce-cache worden uitgeschakeld.
 1. Als het onderzoek bevestigt dat sommige geheim voorgeheugentypes door fout gehandicapt zijn, laat hen toe door het volgende bevel voor elk geheim voorgeheugentype in werking te stellen: `php bin/magento cache:enable <your_disabled_cache_type>`
 
-Als er bezorgdheid en/of vragen zijn of een bepaald Adobe Commerce-cachetype kan of moet worden uitgeschakeld, [contact opnemen met Adobe Commerce-ondersteuning](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) vragen om aanbevelingen.
+Als er zorgen en/of vragen zijn of een bepaald Adobe Commerce geheim voorgeheugentype kan of zou moeten worden onbruikbaar gemaakt, [ de steun van Adobe Commerce van het contact ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) vragend om aanbevelingen.
 
 ## Gerelateerde lezing
 
 Adobe Commerce cache-documentatie in onze ontwikkelaarsdocumentatie:
 
-* [Overzicht Adobe Commerce cache](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
-* [De cache beheren](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)
+* [ Adobe Commerce geheim voorgeheugenoverzicht ](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
+* [ beheer het geheime voorgeheugen ](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)
 
 Andere mogelijke redenen voor prestatieproblemen en oplossingen voor deze problemen:
 

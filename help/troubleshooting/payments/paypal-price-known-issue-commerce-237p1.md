@@ -25,23 +25,23 @@ U kunt de patch downloaden vanuit dit artikel en deze is ook beschikbaar via het
 
 Wanneer u een bestelling plaatst met de PayPal Express-betalingsmethode, wordt het eerder bestelde gekochte product toegevoegd aan de bestelling in plaats van aan de eigenlijke bestelling.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. Voeg op de winkelvoorzijde elk product aan de winkelwagentje toe (product A, prijs $50).
 1. Klik op de koppeling Kar om de kar te openen.
-1. Klik op de knop **PayPal-afhandeling** knop.
+1. Klik de **PayPal knoop van de Controle**.
 1. Gebruik uw PayPal-gegevens om u aan te melden bij PayPal en de betaling te verzenden.
 1. Beëindig de plaatsing van de bestelling aan de kant van de winkel.
 1. Ga terug naar de catalogus en voeg een ander product (product B, prijs $100) aan de kar toe.
 1. Klik op de koppeling Kar om de kar te openen.
-1. Klik op de knop **PayPal-afhandeling** knop.
+1. Klik de **PayPal knoop van de Controle**.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
 De productprijs in de winkelwagen is $50 in plaats van $100.<br/>
 Aan de zijde van de winkel bevat de bestelling product A in plaats van product B.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 Product B wordt toegevoegd aan de bestelling.
 
@@ -51,7 +51,7 @@ Pas de patch toe die in dit artikel is opgenomen.
 
 ## Reparatie
 
-Gebruik de volgende koppeling om een ZIP-bestand met de patch te downloaden: [MC42674-composer.patch.zip](assets/MC42674-composer.patch.zip).
+Gebruik de volgende verbinding om een .zip dossier te downloaden dat het flard bevat: [ MC42674-composer.patch.zip ](assets/MC42674-composer.patch.zip).
 
 ### Compatibele Adobe Commerce-versies
 
@@ -60,4 +60,4 @@ Gebruik de volgende koppeling om een ZIP-bestand met de patch te downloaden: [MC
 ## De pleisters aanbrengen
 
 1. Pak het gedownloade .zip-bestand uit.
-1. Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor verdere instructies.
+1. Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor verdere instructies wordt verstrekt.

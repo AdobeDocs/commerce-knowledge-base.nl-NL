@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Dit artikel biedt een oplossing voor het feit dat productafbeeldingen niet worden weergegeven op de winkelpagina, ondanks de afbeeldingsrollen die zijn ingesteld op de pagina Product Edit.
 
-**Oorzaak:** in Adobe Commerce-gevallen met meerdere winkels kunnen sommige productafbeeldingen de `no_selection` waarden voor afbeeldingsrolkenmerken `image`, `small_image`, `thumbnail`, `swatch`. Dergelijke `no_selection` De waarden verschijnen wanneer de rol van het productbeeld op het globale, alle-opslagwerkingsgebied in plaats van het werkingsgebied van een bepaalde opslag wordt geplaatst (met andere woorden, op **Alle winkelweergaven** in plaats van een bepaalde **Winkelweergave**). Om te begrijpen als dat uw geval is, stel het SQL manuscript van in werking **Oorzaak** hieronder.
+**Oorzaak:** op de instanties van Adobe Commerce met meer dan één opslag, kunnen sommige productbeelden de `no_selection` waarden voor de attributen van de beeldrol `image`, `small_image`, `thumbnail`, `swatch` hebben. Zulke `no_selection` waarden komen voor wanneer de rol van het productbeeld op globaal wordt geplaatst, alles-opslag werkingsgebied in plaats van het werkingsgebied van een bepaalde opslag (met andere woorden, op **Alle Kijken van de Opslag** in plaats van een bepaalde **Mening van de Opslag**). Om te begrijpen als dat uw geval is, stel het SQL manuscript van de **sectie van de Oorzaak** hieronder in werking.
 
-**Oplossing:** rijen verwijderen met de `no_selection` waarden voor dergelijke beelden gebruiken het SQL manuscript van de sectie van de Oplossing hieronder.
+**Oplossing:** schrap rijen met de `no_selection` waarden voor dergelijke beelden gebruikend het SQL manuscript van de hieronder sectie van de Oplossing.
 
 ## Betrokken versies
 
@@ -28,21 +28,21 @@ Dit artikel biedt een oplossing voor het feit dat productafbeeldingen niet worde
 
 Afbeeldingen van producten worden mogelijk niet weergegeven op de winkelpagina, hoewel de afbeeldingsrollen (Basis, Klein, Miniatuur, Staal) juist zijn ingesteld op de productpagina van het beheerpaneel.
 
-Wanneer u de productpagina controleert met **Winkelweergave** instellen op **Alle winkelweergaven** heeft het beeld de rollen die op de **Afbeeldingsdetails** scherm.
+Wanneer u de pagina van het Product met **de Mening van de Opslag** {aan **Al opslagmeningen** controleert, heeft het beeld de rollen die op het **Gedetailleerde** scherm van het Beeld worden geplaatst.
 
-![all_store_views.png](assets/all_store_views.png)
+![ all_store_views.png ](assets/all_store_views.png)
 
-![image_rollen.png](assets/image_roles.png)
+![ image_rollen.png ](assets/image_roles.png)
 
-Op de winkel wordt de afbeelding echter niet weergegeven; wanneer u de productpagina op het specifieke archiefniveau controleert (en de **Winkelweergave**), is de afbeelding aanwezig maar zijn de rollen niet ingesteld.
+Nochtans, op de storefront, verschijnt het beeld niet; wanneer u de pagina van het Product op het bijzondere opslagniveau (het schakelen van de **Mening van de Opslag**) controleert, is het beeld daar maar de rollen zijn niet geplaatst.
 
-![image_rollen_not_set.png](assets/image_roles_not_set.png)
+![ image_rollen_not_set.png ](assets/image_roles_not_set.png)
 
 ## Oorzaak
 
-Op de multi-store Adobe Commerce-instanties (met meerdere winkels) kunnen sommige productafbeeldingen de `no_selection` waarden voor kenmerken `image`, `small_image`, `thumbnail`, `swatch` (Deze kenmerken komen overeen met afbeeldingsrollen). Dergelijke `no_selection` De waarden verschijnen wanneer de rol van het productbeeld op het globale, alle-opslagwerkingsgebied in plaats van het werkingsgebied van een bepaalde opslag wordt geplaatst (met andere woorden, op **Alle winkelweergaven** in plaats van een bepaalde **Winkelweergave**).
+Op de multi-store Adobe Commerce-instanties (met meerdere opslagruimten) kunnen sommige productafbeeldingen de `no_selection` waarden voor de kenmerken `image`, `small_image`, `thumbnail` en `swatch` hebben (deze kenmerken komen overeen met afbeeldingsrollen). Zulke `no_selection` waarden komen voor wanneer de rol van het productbeeld op globaal wordt geplaatst, alles-opslag werkingsgebied in plaats van het werkingsgebied van een bepaalde opslag (met andere woorden, op **Alle Kijken van de Opslag** in plaats van een bepaalde **Mening van de Opslag**).
 
-Technisch gezien: aan `store_id=0` (die de globale montages voor alle opslag op uw instantie van Adobe Commerce houdt), zouden de de beeldrollen van het product kunnen worden geplaatst: dit betekent dat de attributen `image`, `small_image`, `thumbnail`, `swatch` hebben geldige waarden (pad naar afbeeldingen). Tegelijkertijd wordt `store_id=1` (dit is een speciale opslagweergave), de waarden voor deze kenmerken zijn `no_selection`.
+Technisch gezien: op `store_id=0` (met de algemene instellingen voor alle winkels op uw Adobe Commerce-instantie) kunnen de rollen van de productafbeelding worden ingesteld. Dit betekent dat de kenmerken `image`, `small_image`, `thumbnail`, `swatch` geldige waarden hebben (pad naar afbeeldingen). Bij `store_id=1` (een bepaalde opslagrepresentatie) zijn de waarden voor deze kenmerken `no_selection` .
 
 ### Hoe te om te verifiëren dat uw probleem is
 
@@ -75,11 +75,11 @@ Als de vraag een resultaat als hieronder terugkeert, behandelt u het probleem da
 
 Als de Adobe Commerce-toepassing meer dan één winkel heeft, worden gegevens mogelijk niet gesynchroniseerd tussen een bepaalde winkel en de algemene opslaginstellingen.
 
-Waarden op `store_id=1` hebben meer prioriteit dan de standaard (globale) opslag (`store_id=0`). Aldus kan de toepassing de globale beeldmontages negeren en de configuratie van het archiefwerkingsgebied gebruiken (`no_selection` voor afbeeldingsrolkenmerken) bij het weergeven van een afbeelding.
+Waarden op `store_id=1` hebben meer prioriteit dan de standaard (globale) opslag (`store_id=0`). Aldus, kan de toepassing de globale beeldmontages negeren en de configuratie van het archiefwerkingsgebied (`no_selection` voor de attributen van de beeldrol) gebruiken wanneer het tonen van een beeld.
 
 ## Oplossing {#solution}
 
-Kenmerken verwijderen met de opdracht `no_selection` waarden met dit SQL-script:
+Verwijder kenmerken met de `no_selection` -waarden met dit SQL-script:
 
 ```
 DELETE `cpev_s`.* FROM `catalog_product_entity_varchar` `cpev_s` JOIN `eav_attribute` `ea` ON `cpev_s`.`attribute_id` = `ea`.`attribute_id` LEFT JOIN `catalog_product_entity_varchar` `cpev_0` ON `cpev_0`.`row_id` = `cpev_s`.`row_id` AND `cpev_0`.`attribute_id` = `cpev_s`.`attribute_id` AND `cpev_0`.`store_id` = 0 WHERE `cpev_s`.`value` = 'no_selection' AND `ea`.`attribute_code` IN ('image', 'small_image', 'thumbnail') AND `cpev_s`.`store_id` > 0 AND `cpev_s`.`value` != `cpev_0`.`value` AND `cpev_s`.`value` = 'no_selection';
@@ -91,19 +91,19 @@ Nadat deze attributen worden verwijderd, worden de rollen voor bepaalde opslag g
 
 U kunt de resultaten van de correctie niet meteen zien als de optie Volledige paginacache in uw Adobe Commerce-exemplaar is ingeschakeld.
 
-Voor de wijzigingen die u wilt weergeven, vernieuwt u de paginacache met de optie **Cachebeheer** van het deelvenster Beheer.
+Voor de veranderingen aan vertoning, vernieuw het paginacache gebruikend het **menu van het Beheer van het Geheime voorgeheugen** van uw paneel Admin.
 
 ## Meer informatie
 
 ### Winkels en bereik
 
-[Winkels en winkelbereik](/docs/commerce-admin/stores-sales/site-store/stores.html) in onze gebruikershandleiding
+[ opslag en opslagwerkingsgebied ](/docs/commerce-admin/stores-sales/site-store/stores.html) in onze gebruikersgids
 
 ### Afbeeldingen
 
-[Productafbeeldingen uploaden](/docs/commerce-admin/catalog/products/digital-assets/product-image.html#upload-an-image) in onze gebruikershandleiding
+[ Uploading de Beelden van het Product ](/docs/commerce-admin/catalog/products/digital-assets/product-image.html#upload-an-image) in onze gebruikersgids
 
 ### Cache
 
-* [Cachebeheer](/docs/commerce-admin/systems/tools/cache-management.html) in onze systeemhandleiding voor gebruikersbeheer.
-* [De cache beheren](/docs/commerce-operations/configuration-guide/cli/manage-cache.html) in onze documentatie voor ontwikkelaars
+* [ het beheer van het Geheime voorgeheugen ](/docs/commerce-admin/systems/tools/cache-management.html) in onze Gids van het Systeem van Admin van de gebruiker.
+* [ beheer het geheime voorgeheugen ](/docs/commerce-operations/configuration-guide/cli/manage-cache.html) in onze ontwikkelaarsdocumentatie

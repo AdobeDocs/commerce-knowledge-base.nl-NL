@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel biedt oplossingen voor fouten die kunnen optreden wanneer u het hulpprogramma voor gegevensmigratie uitvoert.
 
-## Brondocumenten/velden niet toegewezen {#source-documents-fields-not-mapped}
+## Source-documenten/velden niet toegewezen {#source-documents-fields-not-mapped}
 
 ### Foutberichten
 
@@ -40,15 +40,15 @@ in plaats van bronbestanden.
 
 Sommige Adobe Commerce versie 1-entiteiten (die in de meeste gevallen afkomstig zijn van extensies) bestaan niet in de Adobe Commerce versie 2-database.
 
-Dit bericht verschijnt omdat het hulpmiddel van de Migratie van Gegevens interne tests in werking stelt om te verifiëren dat de lijsten en de gebieden tussen verenigbaar zijn *bron* (Adobe Commerce 1) en *doel* (Adobe Commerce 2).
+Dit bericht verschijnt omdat het Hulpmiddel van de Migratie van Gegevens interne tests in werking stelt om te verifiëren dat de lijsten en de gebieden tussen *bron* (Adobe Commerce 1) en *bestemmings* (Adobe Commerce 2) gegevensbestanden verenigbaar zijn.
 
 ### Mogelijke oplossingen
 
-* De overeenkomstige Adobe Commerce 2-extensies installeren vanuit [Commerce Marketplace](https://marketplace.magento.com/).     Als de conflicterende gegevens afkomstig zijn van een extensie die eigen databasestructuurelementen toevoegt, kan de Adobe Commerce 2-versie van dezelfde extensie dergelijke elementen toevoegen aan de doeldatabase (Adobe Commerce 2) en zo de kwestie verhelpen.
-* Gebruik de `-a` als u het gereedschap uitvoert om fouten automatisch op te lossen en te voorkomen dat de migratie stopt.
+* Installeer de overeenkomstige Adobe Commerce 2 uitbreidingen van [ Commerce Marketplace ](https://marketplace.magento.com/).     Als de conflicterende gegevens afkomstig zijn van een extensie die eigen databasestructuurelementen toevoegt, kan de Adobe Commerce 2-versie van dezelfde extensie dergelijke elementen toevoegen aan de doeldatabase (Adobe Commerce 2) en zo de kwestie verhelpen.
+* Gebruik het argument `-a` wanneer u het gereedschap uitvoert om fouten automatisch op te lossen en te voorkomen dat de migratie stopt.
 * Configureer het gereedschap om de problematische gegevens te negeren.
 
-Als u database-entiteiten wilt negeren, voegt u de opdracht `<ignore>` tag toewijzen aan een entiteit in het dialoogvenster `map.xml` bestand, als volgt:
+Als u database-entiteiten wilt negeren, voegt u de tag `<ignore>` als volgt toe aan een entiteit in het `map.xml` -bestand:
 
 ```xml
 ...
@@ -71,7 +71,7 @@ Als u database-entiteiten wilt negeren, voegt u de opdracht `<ignore>` tag toewi
 
 >[!WARNING]
 >
->Voordat u entiteiten negeert via een toewijzingsbestand of het `-a` wilt gebruiken, moet u ervoor zorgen dat u de desbetreffende gegevens niet in uw Adobe Commerce 2-winkel nodig hebt.
+>Voordat u entiteiten via een toewijzingsbestand of de optie `-a` negeert, moet u ervoor zorgen dat u de desbetreffende gegevens niet nodig hebt in uw Adobe Commerce 2-winkel.
 
 ## Klasse wordt niet toegewezen in record {#class-does-not-exist-but-mentioned}
 
@@ -83,13 +83,13 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### Oorzaak
 
-Een klasse van Adobe Commerce 1-codebase is niet gevonden in Adobe Commerce 2-codebase tijdens de [EAV-migratiestap](https://devdocs.magento.com/guides/v2.3/migration/migration-tool-internal-spec.html#eav) in onze ontwikkelaarsdocumentatie. De ontbrekende klasse behoort meestal tot een [extension](https://glossary.magento.com/extension).
+Een klasse van Adobe Commerce 1 codebase kon niet in Adobe Commerce 2 codebase tijdens de [ EAV migratiestap ](https://devdocs.magento.com/guides/v2.3/migration/migration-tool-internal-spec.html#eav) in onze ontwikkelaarsdocumentatie worden gevonden. In de meeste gevallen, behoort de ontbrekende klasse tot een [ uitbreiding ](https://glossary.magento.com/extension).
 
 ### Mogelijke oplossingen
 
 * Installeer de overeenkomstige Adobe Commerce 2-extensie.
-* Negeer het attribuut dat de kwestie veroorzaakt.    Voeg hiertoe het kenmerk toe aan de `ignore` in de `eav-attribute-groups.xml.dist` bestand.
-* Klassetoewijzing toevoegen met de opdracht `class-map.xml.dist` bestand.
+* Negeer het attribuut dat de kwestie veroorzaakt.    Voeg hiertoe het kenmerk toe aan de groep `ignore` in het `eav-attribute-groups.xml.dist` -bestand.
+* Voeg klassentoewijzing toe met behulp van het `class-map.xml.dist` -bestand.
 
 ## Beperking externe sleutel mislukt
 
@@ -101,13 +101,13 @@ Foreign key <KEY_NAME> constraint fails on source database. Orphan records id: <
 
 ### Oorzaak
 
-Er ontbreken databaserecords in de `parent_table` waarbij de `field_id` van de `child_table` verwijst naar.
+Er ontbreken databaserecords in de `parent_table` waarnaar de `field_id` van de `child_table` verwijst.
 
 ### Mogelijke oplossing
 
-De records verwijderen uit het dialoogvenster `child_table` , als u ze niet nodig hebt.
+Verwijder de records uit de `child_table` als u ze niet nodig hebt.
 
-Als u de records wilt bewaren, schakelt u het `Data Integrity Step` door de opties van het hulpprogramma voor gegevensmigratie te wijzigen `config.xml` .
+Als u de records wilt bewaren, schakelt u de `Data Integrity Step` uit door de functies `config.xml` van het gereedschap Gegevensmigratie te wijzigen.
 
 ## Duplicaten in herschreven URL
 
@@ -119,13 +119,13 @@ Request path: towel.html Store ID: 2 Target path: catalog/product/view/id/12
 
 ### Oorzaak
 
-De `Target path` in een URL moet rewrite door een uniek paar van `Request path` + `Store ID` . Deze fout rapporteert twee items die hetzelfde gebruiken `Request path` + `Store ID` paar met twee verschillende `Target path` waarden.
+De waarde `Target path` in een URL voor herschrijven moet worden opgegeven met een uniek paar `Request path` + `Store ID` . Deze fout rapporteert twee items die hetzelfde `Request path` + `Store ID` -paar gebruiken met twee verschillende `Target path` -waarden.
 
 ### Mogelijke oplossing
 
-De optie `auto_resolve_urlrewrite_duplicates` in uw `config.xml` bestand.
+Schakel de optie `auto_resolve_urlrewrite_duplicates` in het `config.xml` -bestand in.
 
-Deze configuratie voegt een hash-string toe aan de conflicterende records van [URL](https://glossary.magento.com/url) herschrijft, en toont het resolutieresultaat in uw interface van de bevellijn.
+Deze configuratie voegt een knoeiboel-koord aan de conflicterende verslagen van [ URL ](https://glossary.magento.com/url) toe herschrijft, en toont het resolutieresultaat in uw interface van de bevellijn.
 
 ## Entiteiten komen niet overeen {#mismatch-of-entities}
 
@@ -143,7 +143,7 @@ Ontbrekende records treden op wanneer een klant een bestelling plaatst tijdens d
 
 ### Mogelijke oplossing
 
-Het hulpprogramma voor gegevensmigratie uitvoeren in `Delta` om incrementele wijzigingen over te brengen.
+Voer het gereedschap Gegevensmigratie uit in de modus `Delta` om incrementele wijzigingen over te brengen.
 
 ## Deltalog is niet geïnstalleerd {#deltalog-is-not-installed}
 
@@ -155,9 +155,9 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### Oorzaak
 
-Deze fout treedt op tijdens [incrementele migratie](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-delta.html) (in onze documentatie voor ontwikkelaars) van wijzigingen in gegevens. Dit betekent deltalogtabellen (met voorvoegsel) `m2_cl_*`) niet gevonden in de Adobe Commerce 1-database. Deze tabellen worden geïnstalleerd tijdens het gebruik van het gereedschap [gegevensmigratie](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-data.html) (in onze ontwikkelaarsdocumentatie) evenals gegevensbestandtrekkers die veranderingen volgen en lijstlijsten vullen.
+Deze fout komt tijdens [ stijgende migratie ](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-delta.html) (in onze ontwikkelaarsdocumentatie) van veranderingen in gegevens voor. Dit betekent dat er geen Deltalog-tabellen (met voorvoegsel `m2_cl_*` ) zijn gevonden in de Adobe Commerce 1-database. Het hulpmiddel installeert deze lijsten tijdens [ gegevensmigratie ](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-data.html) (in onze ontwikkelaarsdocumentatie) evenals gegevensbestandtrekkers die veranderingen volgen en lijstlijsten vullen.
 
-Een reden voor de fout kan zijn dat u probeert te migreren van een *kopiëren* van je live Adobe Commerce 1-winkel, niet van de live winkel zelf. Wanneer u een kopie maakt van een live Adobe Commerce 1-winkel die nog nooit is gemigreerd, bevat de kopie niet de triggers en extra catalogustabellen die nodig zijn om een delta-migratie te voltooien, zodat de migratie mislukt. Het hulpmiddel van de Migratie van Gegevens maakt GEEN vergelijkingen tussen OB van AC1 en AC2 om de verschillen te migreren. In plaats daarvan gebruikt het gereedschap de triggers en de delta-tabellen die tijdens de eerste migratie zijn geïnstalleerd om volgende deltamigraties uit te voeren. In een dergelijk geval bevat uw exemplaar van de live Adobe Commerce 1 DB niet de triggers en overzichtstabellen die het hulpprogramma voor gegevensmigratie gebruikt om een migratie uit te voeren.
+Één reden voor de fout zou kunnen zijn dat u probeert om van a *exemplaar* van uw levende Adobe Commerce 1 opslag, niet van de levende opslag zelf te migreren. Wanneer u een kopie maakt van een live Adobe Commerce 1-winkel die nog nooit is gemigreerd, bevat de kopie niet de triggers en extra catalogustabellen die nodig zijn om een delta-migratie te voltooien, zodat de migratie mislukt. Het hulpmiddel van de Migratie van Gegevens maakt GEEN vergelijkingen tussen OB van AC1 en AC2 om de verschillen te migreren. In plaats daarvan gebruikt het gereedschap de triggers en de delta-tabellen die tijdens de eerste migratie zijn geïnstalleerd om volgende deltamigraties uit te voeren. In een dergelijk geval bevat uw exemplaar van de live Adobe Commerce 1 DB niet de triggers en overzichtstabellen die het hulpprogramma voor gegevensmigratie gebruikt om een migratie uit te voeren.
 
 ### Mogelijke oplossing
 

@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Welkom bij de startpagina van de Adobe Commerce Support Knowledge Base-reportdocumentatie.
 Hier kunt u documenten vinden die u helpen om best-passende bijdragen en malplaatjes te maken, die het zelfde doel dienen.
-Ga voor meer informatie over de algemene bijdragestroom naar [Handleiding voor contribuanten](../.github/CONTRIBUTING.md).
+Als u over algemene bijdragestroom moet leren, ga naar {de Gids van 0} Medewerker ](../.github/CONTRIBUTING.md).[
 
 ## Hulplijnen
 

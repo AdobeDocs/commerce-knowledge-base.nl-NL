@@ -24,22 +24,22 @@ Deze patch verhelpt het probleem met het feit dat een betalingsmethode niet kan 
 
 Wanneer een winkelier uitcheckt met Amazon Pay, zich aanmeldt, naar de betalingsstap gaat en probeert zijn betaalcreditcard te wijzigen van de widget betalingen, wordt een foutbericht weergegeven. Het afrekenen kan niet worden voltooid als de winkelier de fout negeert en verder gaat met het afrekenen.
 
-Om dit probleem op te lossen en de fout te verwijderen, hebben we een [pleister](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip).
+Om deze kwestie op te lossen en de fout te verwijderen, hebben wij a [ flard ](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip) gecreeerd.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Afhandeling starten met Amazon Pay.
 1. Aanmelden als Amazon Pay-klant.
 1. Selecteer de verzendmethode en ga verder met de betalingsstap.
 1. Probeer de creditcard te wijzigen in een andere.
 
-<u>Verwacht resultaat</u>: Een andere creditcard wordt zonder fout als betalingsmethode geselecteerd.
+<u> Verwacht resultaat </u>: Een verschillende creditcard wordt geselecteerd als betalingsmethode zonder een fout.
 
-<u>Werkelijk resultaat</u>: Het foutbericht wordt weergegeven: *&quot;Neem contact op met deze leverancier voor hulp bij het voltooien van uw bestelling.&quot;*
+<u> Ware resultaat </u>: Het foutenbericht verschijnt: *&quot;Gelieve te contacteren deze handelaar voor hulp die uw orde voltooit.&quot;*
 
 ## Oplossing
 
-[De patch toepassen](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip) hieronder.
+[ pas het flard ](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip) hieronder toe.
 
 ## Reparatie
 
@@ -61,6 +61,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

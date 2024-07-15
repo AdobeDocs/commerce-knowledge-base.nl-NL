@@ -13,37 +13,37 @@ ht-degree: 0%
 
 # MDVA-42584: voorraadstatus van configureerbaar product niet automatisch bijgewerkt
 
-De MDVA-42584-patch lost het probleem op waarbij de voorraadstatus van het configureerbare product niet automatisch wordt bijgewerkt wanneer het eenvoudige product wordt bijgewerkt. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 is geïnstalleerd. De patch-id is MDVA-42584. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
+De MDVA-42584-patch lost het probleem op waarbij de voorraadstatus van het configureerbare product niet automatisch wordt bijgewerkt wanneer het eenvoudige product wordt bijgewerkt. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 geïnstalleerd is. De patch-id is MDVA-42584. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2-p2
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2 - 2.4.2-p2
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-De voorraadstatus van het configureerbare product in de achtergrond wordt niet automatisch bijgewerkt wanneer zijn eenvoudig product wordt geplaatst aan **In voorraad** via API of import.
+De status van de voorraad van het configureerbare product in het backend wordt niet automatisch bijgewerkt wanneer zijn eenvoudig product aan **in Voorraad** door API of de invoer wordt geplaatst.
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 MSI geïnstalleerd.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Een configureerbaar product maken, **InvCheck001**, met twee opties: **InvCheck001-M** en **InvCheck001-L**.
-1. Zowel de eenvoudige producten moeten Hoeveelheid hebben en zij moeten zijn **In voorraad** zodat het configureerbare product ook **In voorraad** op de achtergrond.
-1. Nu kunt u zowel eenvoudige producten bijwerken als Hoeveelheid instellen op **0** en de status van de voorraad **Uit voorraad**.
-1. Vernieuw het configureerbare product en verifieer de voorraadstatus wordt bijgewerkt aan **Uit voorraad**.
-1. Gebruik het volgende API-eindpunt en stel het eenvoudige product in **InvCheck001-M** tot **In voorraad** met Aantal > 0.
+1. Creeer een configureerbaar product, **InvCheck001**, met twee opties: **InvCheck001-M** en **InvCheck001-L**.
+1. Zowel zouden de eenvoudige producten Hoeveelheid moeten hebben en zij zouden **in Voorraad** moeten zijn zodat het configureerbare product ook **in Voorraad** in het achterste eind is.
+1. Nu, werk zowel eenvoudige producten bij en plaats Hoeveelheid aan **0** en de Status van de Voorraad aan **uit Voorraad**.
+1. Vernieuw het configureerbare product en verifieer de voorraadstatus wordt bijgewerkt aan **uit Voorraad**.
+1. Gebruik het volgende API eindpunt en plaats het eenvoudige product **InvCheck001-M** aan **In Voorraad** met Aantal > 0.
 
    ```JSON
    /rest/V1/inventory/source-items
@@ -61,29 +61,29 @@ MSI geïnstalleerd.
    }
    ```
 
-1. Ga naar de back-end en controleer de hoeveelheid en voorraadstatus van het eenvoudige product **InvCheck001-M**. Het is bijgewerkt naar **In voorraad**.
+1. Ga naar het achterste eind en verifieer de hoeveelheid en voorraadstatus van het eenvoudige product **InvCheck001-M**. Het wordt bijgewerkt aan **In voorraad**.
 1. Vernieuw het configureerbare product en controleer de voorraadstatus.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-De voorraadstatus van het configureerbare product **InvCheck001** op de achtergrond wordt automatisch bijgewerkt naar **In voorraad**.
+De voorraadstatus van het configureerbare product **InvCheck001** in het achterste wordt bijgewerkt automatisch aan **in Voorraad**.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De voorraadstatus van het configureerbare product is nog **Uit voorraad**.
+De voorraadstatus van het configureerbare product is nog **uit Voorraad**.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [Patches beschikbaar in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar [ die flarden beschikbaar in QPT ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.

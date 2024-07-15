@@ -19,7 +19,7 @@ Dit artikel biedt oplossingen voor fouten die u kunt ervaren wanneer de service 
 
    * v2.2.3+ ondersteunt ES 5.x
    * v2.2.8+ en v2.3.1+ ondersteunen ES 6.x
-   * ES v2.x en v5.x worden niet aanbevolen vanwege [Einde van levensduur](https://www.elastic.co/support/eol). Als u echter Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [De Elasticsearch-php-client wijzigen](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
+   * ES v2.x en v5.x worden niet geadviseerd wegens [ Eind van Leven ](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [ de Elasticsearch veranderen php Cliënt ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
 
 * Magento Open Source v2.3.0+ ondersteunt ES 5.x en 6.x (maar 6.x wordt aanbevolen).
 
@@ -37,7 +37,7 @@ Dit artikel biedt oplossingen voor fouten die u kunt ervaren wanneer de service 
 <code>{"0":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"Fielddata is disabled on text fields by default. Set fielddata=true on [%attribute_code%]] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.\"}]</code>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled...-error.html">Elasticsearch 5 is geconfigureerd, maar de zoekpagina wordt niet geladen met de fout "Veldgegevens is uitgeschakeld..."</a> in onze kennisbasis voor ondersteuning.
+<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled...-error.html"> Elasticsearch 5 wordt gevormd, maar de onderzoekspagina laadt niet met "de gegevens van het Gebied is gehandicapt..."fout </a> in onze basis van de steunkennis.
 </td>
 </tr>
 <tr>
@@ -45,13 +45,13 @@ Dit artikel biedt oplossingen voor fouten die u kunt ervaren wanneer de service 
 <code>Elasticsearch\Common\Exceptions\NoNodesAvailableException: Noticed exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51</code>
 </td>
 <td>
-Elasticsuite-indices worden niet verwijderd.  Zie <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html">ElasticSuite-volgindices veroorzaken problemen met Elasticsearch</a> in onze kennisbasis voor ondersteuning.
+Elasticsuite-indices worden niet verwijderd.  Zie <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html"> ElasticSuite die indexen volgen veroorzaakt problemen met Elasticsearch </a> in onze basis van de steunkennis.
  </td>
 </tr>
 <tr>
 <td>PHP-fout</td>
 <td>
-<i>Geen levende knopen die in uw cluster"worden gevonden,"1":"#0 /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php</i>
+<i> Geen levende knopen die in uw cluster"worden gevonden,"1":"#0 /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php</i>
 </td>
 <td rowspan="4">
 <ul>
@@ -59,26 +59,27 @@ Elasticsuite-indices worden niet verwijderd.  Zie <a href="https://experiencelea
 <li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">8 tips voor het oplossen van problemen met Linux- en Unix-systemen op de vaste schijf, zoals de schijf vol of kan niet naar de schijf schrijven</a></li>
 <li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfout: df zegt dat de schijf vol is, maar niet</a></li>
 <li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com: Waar is de schijfruimte gebleven voor Linux?</a></li>
-<li>Logbestanden worden niet regelmatig genoeg gearchiveerd. Zie <a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive">Logarchief configureren</a> in onze ontwikkelaarsdocumentatie.</li>
-<li>Bestandssysteemmappen zijn niet geoptimaliseerd. Zie <a href="https://docs.magento.com/m2/ee/user_guide/system/file-optimization.html">Bestandsoptimalisatie</a> in onze ontwikkelaarsdocumentatie.</li>
+<li>Logbestanden worden niet regelmatig genoeg gearchiveerd. Zie <a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive"> het Archief van het Logboek </a> in onze ontwikkelaardocumentatie vormen.</li>
+<li>Bestandssysteemmappen zijn niet geoptimaliseerd. Zie <a href="https://docs.magento.com/m2/ee/user_guide/system/file-optimization.html"> Optimalisering van het Dossier </a> in onze ontwikkelaarsdocumentatie.</li>
 <li>Als de oplossingen in de bovenstaande documentatie het probleem niet oplossen, kunt u contact opnemen met het accountteam van de Adobe om extra opslagruimte aan te vragen.</li>
 </ul>
 </li>
-<li>Als uw schijf niet uit opslagruimte is, maar u krijgt nog de foutenmeldingen in de linkerkolom, <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">een ondersteuningsticket indienen</a>.</li>
+<li>Als uw schijf niet uit opslag maar u nog de foutenmeldingen in de linkerkolom heeft gekregen, <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket"> een steunkaartje </a> voorleggen.</li>
 </ul>
 <ul>
-<li>Zie <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html">ElasticSuite-volgindices veroorzaken problemen met Elasticsearch</a> in onze kennisbasis voor ondersteuning.
+<li>Zie <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html"> ElasticSuite die indexen volgen veroorzaakt problemen met Elasticsearch </a> in onze basis van de steunkennis.
 </li>
 </ul>
 </td>
 </tr>
 <tr>
 <td><code>Curl</code> fout</td>
-<td>De <code>curl</code> bevel om de gezondheid van de Elasticsearch te controleren:<code>curl -m1 localhost:9200/_cluster/health?pretty</code>(of<code>curl -m1 elasticsearch.internal:9200/_cluster/health?pretty</code>voor Starter-accounts) resulteert in deze fout: <i>Fout: curl: (7) Kan geen verbinding maken met localhost-poort 9200: verbinding geweigerd</i> </td>
+<td>Het in werking stellen van het <code>curl</code> bevel om de gezondheid van de Elasticsearch te controleren:<code>curl -m1 localhost:9200/_cluster/health?pretty</code> (of <code>curl -m1 elasticsearch.internal:9200/_cluster/health?pretty</code> voor de rekeningen van de Aanzet) veroorzaakt deze fout: <i> Fout: krulling: (7) Kon er niet in om met localhost haven 9200 te verbinden: De verbinding weigerde </i> </td>
 </tr>
 <tr>
 <td>Opdrachtregelfout</td>
-<td>Wordt uitgevoerd <code>$ bin/magento indexer:reindex catalogsearch_fulltext</code> produceert deze fout <i>Verwerkingsfout van de indexator van Catalog Search: geen levende knopen die in uw cluster worden gevonden</i>
+<td>Het lopen <code>$ bin/magento indexer:reindex catalogsearch_fulltext</code> veroorzaakt deze fout <i> het proces van de indexeerder van het Onderzoek van de Catalogus onbekende fout:
+        Geen levende knopen die in uw cluster worden gevonden </i>
 </td>
 </tr>
 <tr>

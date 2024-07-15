@@ -1,6 +1,6 @@
 ---
-title: '"Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.42'''
-description: In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.42.
+title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.42'
+description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.1.42 worden bevestigd.
 feature: Tools and External Services
 role: Admin, Developer
 exl-id: 49f7ebd6-7a5f-49da-8fac-c3c2b73b52c1
@@ -13,22 +13,22 @@ ht-degree: 0%
 
 # Overzicht: [!DNL Quality Patches Tool] (QPT) v1.1.42
 
-In deze subsectie vindt u een gedetailleerde beschrijving van de problemen die worden opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.42.
+Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in [!DNL Quality Patches Tool] (QPT) v1.1.42.
 
 QPT v1.1.42 omvat de volgende flarden:
 
-1. **ACSD-53658**: Hiermee wordt het probleem opgelost waarbij *[!UICONTROL Recently Viewed]* De productgegevens worden niet correct bijgewerkt in de winkelweergave.
-1. **ACSD-54626**: Hiermee kunt u het probleem verhelpen waarbij u geen nieuwe regel voor inkooporders kunt maken (`createPurchaseOrderApprovalRule`) met de `NUMBER_OF_SKUS` via GraphQL.
-1. **ACSD-53845**: Hiermee wordt het probleem met de MySQL-verbindingstijd verholpen wanneer `consumer max_messages` = 0.
-1. **ACSD-54890**: Hiermee wordt het probleem opgelost waarbij `aggregate_sales_report_bestsellers_data` veroorzaakt MySQL-fouten vanwege `/tmp` schijf heeft onvoldoende ruimte.
-1. **ACSD-55112**: Hiermee wordt het probleem opgelost waarbij de *[!UICONTROL Submit review]* er kan meerdere keren op de knop worden geklikt zonder [!DNL Google reCAPTCHA v3] validatie.
-1. **ACSD-54264**: Hiermee wordt het probleem verholpen waarbij het foutbericht *U kunt het gevraagde kenmerk niet bijwerken. Rij-id: store_id* verschijnt wanneer een klant probeert uit te checken met een verhandelbaar aanhalingsteken in een andere winkelweergave.
-1. **ACSD-54418**: Hiermee wordt de kwestie opgelost waarbij een vaste korting onjuist wordt toegepast op elk onderliggend product van de dynamisch geprijsde bundel.
-1. **ACSD-55238**: Hiermee kunt u het probleem verhelpen door de lege metagegevensbeschrijving van het product op te slaan.
-1. **ACSD-54966**: Hiermee wordt de emissie gecorrigeerd waarbij een couponcode met een beperkt gebruik per klant niet opnieuw kan worden gebruikt als de vorige bestelling is mislukt.
-1. **ACSD-54060**: Hiermee wordt het probleem verholpen waarbij een beperkte beheerder een product niet kan opslaan als het een onderliggend product is van een ander product dat aan een ander bereik is toegewezen.
-1. **ACSD-48910**: Hiermee wordt de kwestie opgelost waarbij een gebundeld product dat aan meerdere bronnen is toegewezen, uit voorraad raakt nadat een bestelling is gefactureerd en verzonden, zelfs als het een hoeveelheid heeft die niet gelijk is aan nul.
-1. **ACSD-55381**: Oplossing voor een interne serverfout bij het opvragen `configurable_product_option_uid` en `configurable_product_option_value_uid` velden van een B2B *[!UICONTROL Requisition list]* via GraphQL.
-1. **ACSD-55628**: Hiermee wordt het uploaden van een bestand in het bedrijfsregistratieformulier en het vervangen van een bestand voor een klantkenmerk in de winkel opgelost.
+1. **ACSD-53658**: Verhelpt de kwestie waar *[!UICONTROL Recently Viewed]* productgegevens niet behoorlijk in de archiefmening worden bijgewerkt.
+1. **ACSD-54626**: Verhelpt de kwestie waar u geen nieuwe regel van de inkooporde (`createPurchaseOrderApprovalRule`) met het `NUMBER_OF_SKUS` attribuut via GraphQL kunt tot stand brengen.
+1. **ACSD-53845**: Bevestigt de MySQL kwestie van de verbindingsonderbreking wanneer `consumer max_messages` = 0.
+1. **ACSD-54890**: Verhelpt de kwestie waar `aggregate_sales_report_bestsellers_data` fouten MySQL toe te schrijven aan `/tmp` schijf die uit ruimte is veroorzaakt.
+1. **ACSD-55112**: Bevestigt de kwestie waar de *[!UICONTROL Submit review]* knoop veelvoudige tijden zonder [!DNL Google reCAPTCHA v3] bevestiging kan worden geklikt.
+1. **ACSD-54264**: Verhelpt de kwestie waar het foutenbericht *u niet de gevraagde attributen kunt bijwerken. Rij ID: store_id* verschijnt wanneer een klant probeert om met een verhandelbaar citaat van een andere archiefmening te controleren.
+1. **ACSD-54418**: Verhelpt de kwestie waar een vaste hoeveelheid korting verkeerd wordt toegepast op elk kindproduct van de dynamisch geprijsde bundel.
+1. **ACSD-55238**: Verhelpt de kwestie met het opslaan van de lege beschrijving van productmeta.
+1. **ACSD-54966**: Verhelpt de kwestie waar een couponcode met een beperkt gebruik per klant niet kan worden opnieuw gebruikt als de vorige orde ontbrak.
+1. **ACSD-54060**: Verhelpt de kwestie waar beperkt admin geen product kan bewaren als het een kind van een ander product is dat aan een verschillend werkingsgebied wordt toegewezen.
+1. **ACSD-48910**: Verhelpt de kwestie waar een gebundeld die product aan veelvoudige bronnen wordt toegewezen uit-van-voorraad gaat nadat een orde wordt gefactureerd en verscheept, zelfs als het een niet-nul hoeveelheid heeft.
+1. **ACSD-55381**: Verhelpt een interne serverfout wanneer het vragen van `configurable_product_option_uid` en `configurable_product_option_value_uid` gebieden van B2B *[!UICONTROL Requisition list]* via GraphQL.
+1. **ACSD-55628**: Bevestigt het uploaden van een dossier op het formulier van de bedrijfregistratie en het vervangen van een dossier voor een klantenattribuut op de opslag.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

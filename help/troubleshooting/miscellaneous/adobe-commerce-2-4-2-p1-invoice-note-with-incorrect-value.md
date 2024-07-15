@@ -24,22 +24,22 @@ In dit artikel wordt een bekende Adobe Commerce 2.4.2-p1-uitgave beschreven waar
 
 Wanneer de klantengroep op het tijdstip van het aanmaken van de order wordt gewijzigd, wordt de factuur met een onjuiste factuurverklaring gegenereerd.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Een **Klantenaccount testen** en voeg het toe aan **Retail Customer Group**.
-1. Een **Nieuwe volgorde** voor de testklant, voeg **Product** en **Adres**.
-1. Selecteren **Verzendmethode**.
-1. In de **Accountinformatie** sectie, klantgroep wijzigen vanuit **Detailhandelaar** tot **Overheid**.
-1. Klikken **Opdracht plaatsen**.
-1. Klikken **Factuur** > **Factuur verzenden**.
+1. Creeer de Rekening van de Klant van de a **Test** en voeg het aan de **DetailhandelGroep van de Klant** toe.
+1. Creeer a **Nieuwe Orde** voor de testklant, voeg **Product** en **Adres** toe.
+1. Selecteer **Verzendmethode**.
+1. In de **sectie van de Informatie van de Rekening**, de groep van de veranderingsklant van **Detailhandelaar** aan **Regering**.
+1. Klik **de Orde van de Plaats**.
+1. Klik **Factuur** > **voorleggen Factuur**.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-De volgende opmerking moet worden opgenomen onder de **Notities voor deze volgorde**  sectie: &quot;De factuur voor hoekpunt is verzonden. Bedrag: $0.00.&quot;
+De volgende nota zou onder de **Nota&#39;s voor deze orde** sectie moeten verschijnen: &quot;De Rekening van de top die met succes wordt verzonden. Bedrag: $0.00.&quot;
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De volgende opmerking wordt weergegeven onder de **Notities voor deze volgorde** sectie: &quot;De factuur voor hoekpunt is verzonden. Bedrag: $ 3,23.&quot;
+De volgende nota verschijnt onder de **Nota&#39;s voor deze orde** sectie: &quot;De Rekening van de top die met succes wordt verzonden. Bedrag: $ 3,23.&quot;
 
 ## Oplossing
 

@@ -22,24 +22,24 @@ Dit artikel bevat een patch voor het bekende Adobe Commerce 2.4.0-probleem wanne
 
 ## Probleem
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 1. Plaats en voltooi een bestelling met een van de volgende kernverzendmethoden: FedEx, DHL, UPS en USPS.
 1. Hiermee maakt u geretourneerde waarden voor deze bestelling en autoriseert u deze.
-1. Een geautoriseerde **Retourinformatie** pagina en klik op de knop **Verzendlabel maken** knop.
+1. Open een geoorloofde **pagina van de Informatie van de Terugkeer** en klik **creeer het verschepen van Etiket** knoop.
 1. Selecteer de verzendmethode, voeg een product toe aan een pakket en klik op Opslaan.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
-Er is een verzendlabel gemaakt en er verschijnt een bericht: *Je hebt een verzendlabel gemaakt.*
+Een verschepend etiket wordt gecreeerd met succes en u ziet een bericht: *u creeerde een het verschepen etiket.*
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-De **Retourinformatie** De pagina is verbroken en er verschijnt een foutbericht op de pagina Retourgegevens: *Algemene informatie Er zijn wijzigingen aangebracht in deze sectie die niet zijn opgeslagen. Dit tabblad bevat ongeldige gegevens*.
+De **pagina van de Informatie van de Terugkeer** is gebroken en u ziet een foutenmelding op de pagina van de Informatie van de Terugkeer: *de Algemene Veranderingen van de Informatie zijn aangebracht aan deze sectie die niet zijn bewaard. Dit lusje bevat ongeldige gegevens*.
 
 ## Oplossing
 
-Toepassen [pleister](assets/MC-35984-2.4.0-CE-composer.patch.zip) in dit artikel.
+Pas [ flard ](assets/MC-35984-2.4.0-CE-composer.patch.zip) toe dat in dit artikel wordt verstrekt.
 
 ## Reparatie
 
@@ -47,11 +47,11 @@ De patch is aan dit artikel gekoppeld. Als u het bestand wilt downloaden, schuif
 
 [MC-35984-2.4.0-CE-composer.patch](assets/MC-35984-2.4.0-CE-composer.patch.zip)
 
-De patch is ook beschikbaar voor beide toepassingen, `.git` en `.composer`, indelingen op [Adobe Commerce-downloads](https://magento.com/tech-resources/download) pagina, onder **Patches** in de linkerkolomnavigatie. Zoeken naar MC-35984-patch.
+Het flard is ook beschikbaar voor download in zowel, `.git` als `.composer`, formaten op [ de Downloads van Adobe Commerce ](https://magento.com/tech-resources/download) pagina, onder **Patches** in de linkerkolomnavigatie. Zoeken naar MC-35984-patch.
 
 ## Hoe de pleister aanbrengen
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze pagina van de steunkennis.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze pagina van de steunkennis wordt verstrekt.
 
 ## Gerelateerde lezingen in onze kennisbasis voor ondersteuning:
 

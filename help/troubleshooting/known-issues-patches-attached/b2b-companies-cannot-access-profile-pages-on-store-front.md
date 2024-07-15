@@ -17,7 +17,7 @@ Dit artikel bevat een patch voor het bekende Adobe Commerce 2.2.4 B2B-probleem d
 
 ## Probleem
 
-Klanten (bedrijven) kunnen een bedrijfsaccount op de site maken, maar krijgen de *&quot;Geen dergelijke entiteit met customerId = &quot;* en *&quot;U hebt nog geen bedrijfsaccount&quot;* foutberichten. Misschien krijgen ze ook de *&quot;500 Interne serverfout&quot;* wanneer het proberen om tot de pagina van het Profiel van het Onderneming toegang te hebben.
+De klanten (bedrijven) kunnen tot een bedrijfrekening op de plaats succesvol leiden, maar krijgen *&quot;Geen dergelijke entiteit met customerId = &quot;* en *&quot;U hebt nog geen bedrijfrekening&quot;* foutenmeldingen. Zij kunnen *&quot;500 Interne Fout van de Server&quot;* ook krijgen wanneer het proberen om tot de pagina van het Profiel van het Bedrijf toegang te hebben.
 
 ## Reparatie
 
@@ -38,4 +38,4 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.

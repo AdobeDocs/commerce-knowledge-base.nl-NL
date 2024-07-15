@@ -1,6 +1,6 @@
 ---
-title: '"setup uitvoeren:static-content:Implementeer het probleem "distribueren_version.txt"'
-description: Dit artikel verstrekt een moeilijke situatie voor ` opstellen_version.txt ` is geen beschrijfbare fout wanneer het runnen van ` opstelling:static-content:implementeren.
+title: 'looppas "opstelling :static-content: stelt van ` in werking opgestelde_version.txt kwestie'
+description: 'Dit artikel verstrekt een moeilijke situatie "opstellen_version.txt"is geen beschrijfbare fout wanneer het in werking stellen van het "opstelling :static-content: stelt"bevel manueel op.'
 exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
 feature: Deploy, Page Content, SCD
 role: Developer
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# run `setup:static-content:deploy` issue_version.tx
+# run `setup:static-content:deploy` distributieprobleem_version.txt
 
-Dit artikel bevat een oplossing voor `deployed_version.txt` is geen beschrijfbare fout wanneer u het `setup:static-content:deploy` handmatig.
+Dit artikel bevat een correctie voor `deployed_version.txt` . Dit is geen beschrijfbare fout wanneer u de opdracht `setup:static-content:deploy` handmatig uitvoert.
 
 ## Probleem
 
-Als u de Adobe Commerce-aanbevelingen voor cloudinfrastructuur opvolgt, kunt u deze gebruiken [Configuratiebeheer](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) (en het genereren van statische elementen verplaatsen naar de constructiefase om de downtime van websites tijdens de implementatie te verminderen), kan de volgende fout optreden wanneer u de `setup:static-content:deploy` handmatig opdracht:
+Als u Adobe Commerce op de aanbevelingen van de wolkeninfrastructuur volgt om [ Beheer van de Configuratie ](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) te gebruiken (en statische activa te bewegen produceren aan het bouwstijlstadium om website onderbreking tijdens plaatsing te verminderen), kunt u de volgende fout zien wanneer het in werking stellen van het `setup:static-content:deploy` bevel manueel:
 
 ```
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy
@@ -36,7 +36,7 @@ We raden ten zeerste aan om statische inhoud handmatig te implementeren, omdat a
 
 ## Oplossing
 
-Als u nog statische inhoudsplaatsing wilt in werking stellen, verwijder symlinks in `pub/static` en voert de `setup:static-content:deploy` opnieuw gebruiken:
+Als u de implementatie van statische inhoud nog steeds wilt uitvoeren, verwijdert u symlinks in de map `pub/static` en voert u de opdracht `setup:static-content:deploy` opnieuw uit:
 
 ```
 find pub/static/ -maxdepth 1 -type l -delete

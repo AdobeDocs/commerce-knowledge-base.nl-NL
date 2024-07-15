@@ -21,22 +21,22 @@ Dit artikel biedt een oplossing voor problemen met de implementatie van Adobe Co
 
 ## Probleem
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
-De cloudlicentie is gekoppeld aan contact A (e-mailadres: *<u>first@e.mail</u>*)
+De vergunning van de Wolk wordt geassocieerd met Contact A (e-mailadres: *<u>first@e.mail</u>*)
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Neem contact op met de Adobe Commerce-toegangstoetsen die u hebt gemaakt voor hun account (Key X) en installeer deze op de cloud.
-1. Contactpersoon B (e-mailadres: *<u>second@e.mail</u>*) heeft een extensie gekocht met zijn account en de toegangstoetsen gemaakt voor de installatie van de extensie (sleutel Y).
+1. Contact B (e-mailadres: *<u>second@e.mail</u>*) kocht een uitbreiding gebruikend zijn rekening en creeerde de toegangstoetsen voor het installeren van de uitbreiding (Zeer belangrijke Y).
 1. Contact A verliet toen het bedrijf, en de vergunning (eigendom) werd dan overgebracht naar Contact B.
 1. Systeemintegrator probeert de extensie met Key X in de cloud-omgeving te installeren.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 De extensie is geïnstalleerd.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 De extensie is niet geïnstalleerd omdat de implementatie mislukt.
 
@@ -50,18 +50,18 @@ Als een implementatie is mislukt nadat een wijziging is aangebracht in de primai
 
 ### Hoe te om de toegangssleutel onbruikbaar te maken
 
-Als u geen toegang hebt tot de [Commerce Marketplace](https://marketplace.magento.com/) aan de oude sleutel gekoppelde account; [contact opnemen met Adobe Commerce-ondersteuning](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om de toets uit te schakelen.
+Als u geen toegang tot de [ Commerce Marketplace ](https://marketplace.magento.com/) rekening verbonden aan de oude sleutel hebt, [ contacteer de Steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om de sleutel gehandicapt te hebben.
 
 Als u toegang hebt tot het Marketplace-account dat aan de oude toets is gekoppeld, voert u de volgende stappen uit om de toets uit te schakelen:
 
-1. Aanmelden bij de [Commerce Marketplace](https://marketplace.magento.com/) de aanmeldingsgegevens van het oude account gebruiken.
-1. Klik op de accountnaam rechtsboven op de pagina en selecteer **Mijn profiel**.
-1. Klikken **Toegangssleutels** op het tabblad Marktplaats.
+1. Login aan de [ Commerce Marketplace ](https://marketplace.magento.com/) gebruikend de geloofsbrieven van de oude rekening.
+1. Klik de rekeningsnaam in het hoogste recht van de pagina en selecteer **Mijn Profiel**.
+1. Klik **Sleutels van de Toegang** in het lusje van de Marketplace.
 
-   ![magento_products_access_keys_2.4.1.png](/help/troubleshooting/miscellaneous/assets/magento_products_access_keys_2.4.1.png)
+   ![ magento_products_access_keys_2.4.1.png ](/help/troubleshooting/miscellaneous/assets/magento_products_access_keys_2.4.1.png)
 
-1. Klikken **Uitschakelen** naast de toegangstoets.
+1. Klik **onbruikbaar maken** naast de toegangssleutel.
 
 ## Gerelateerde lezing
 
-* [Uw verificatietoetsen ophalen](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html) in onze ontwikkelaarsdocumentatie.
+* [ krijgt uw authentificatietoetsen ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html) in onze ontwikkelaarsdocumentatie.

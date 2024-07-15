@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Adobe Commerce Intelligence Training Video: SQL-Report Builder
 
-Onthoud, **u hebt beheerdersmachtigingen nodig om toegang te krijgen tot de SQL-Report Builder.**
+Herinner me, **u toestemmingen Admin nodig hebt om tot de SQL Report Builder toegang te hebben!**
 
 In deze video leert u:
 
 * Een SQL-query uitvoeren
-* Procedure [uw resultaten visualiseren](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) <!-- Link fails-->
+* Hoe te [ visualiseren uw resultaten ](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) <!-- Link fails-->
 * Hoe te om het rapport aan een dashboard te bewaren
 
-Ga naar [Commerce Intelligence - SQL-Report Builder](/docs/commerce-learn/tutorials/business-intelligence/sql-report-builder.html) in Adobe Experience League.
+Om op de video te letten, ga naar [ Commerce Intelligence - SQL Report Builder ](/docs/commerce-learn/tutorials/business-intelligence/sql-report-builder.html) in Adobe Experience League.
 
-**Wil je meedoen?** Bekijk onze [Zelfstudie over SQL-Report Builder](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) voor schriftelijke instructies.
+**wil volgen?** Controle uit ons [ SQL leerprogramma van de Report Builder ](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) voor geschreven instructies.

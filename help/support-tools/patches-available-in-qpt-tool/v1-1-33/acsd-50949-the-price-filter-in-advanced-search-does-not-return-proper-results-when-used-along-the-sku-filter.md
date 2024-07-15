@@ -13,27 +13,27 @@ ht-degree: 1%
 
 # ACSD-50949: Prijsfilter in geavanceerd zoeken retourneert geen goede resultaten bij gebruik met SKU-filter
 
-De ACSD-50949-patch verhelpt het probleem dat het prijsfilter in de geavanceerde zoekopdracht geen goede resultaten oplevert wanneer het samen met het SKU-filter wordt gebruikt. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is geïnstalleerd. De patch-id is ACSD-50949. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-50949-patch verhelpt het probleem dat het prijsfilter in de geavanceerde zoekopdracht geen goede resultaten oplevert wanneer het samen met het SKU-filter wordt gebruikt. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is geïnstalleerd. De patch-id is ACSD-50949. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5-p1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2 - 2.4.6-p1
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](<https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html>). Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](<https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html>) . Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Probleem
 
 Het prijsfilter in geavanceerd zoeken retourneert geen goede resultaten wanneer het samen met het SKU-filter wordt gebruikt.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Maak bijvoorbeeld meerdere producten:
 
@@ -47,30 +47,30 @@ Het prijsfilter in geavanceerd zoeken retourneert geen goede resultaten wanneer 
    | MJ6 | Product 6 | $ 34 | 10 |
    | MJ7 | Product 7 | $ 44 | 10 |
 
-1. Open de **[!UICONTROL Advanced Search]** op de Storefront en zoek door SKU: &quot;MJ&quot;.
-1. Klik op de knop **[!UICONTROL Modify your search]** koppeling.
-1. Voeg een prijsbereik toe aan de criteria van *1* tot *21* en klik op de knop **[!UICONTROL Search]** knop.
+1. Open **[!UICONTROL Advanced Search]** op de Storefront en onderzoek door SKU: &quot;MJ&quot;.
+1. Klik op de koppeling **[!UICONTROL Modify your search]** .
+1. Voeg een prijswaaier aan de criteria van *1* aan *21* toe, en klik de **[!UICONTROL Search]** knoop.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Alleen producten met prijzen binnen het gedefinieerde bereik worden geretourneerd.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Producten met hogere prijzen dan *$ 21* worden geretourneerd.
+Producten met prijzen hoger dan *$21* worden geretourneerd.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](<https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html>) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](<https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html>) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](<https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html>) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](<https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html>) in de [!DNL Quality Patches Tool] gids.

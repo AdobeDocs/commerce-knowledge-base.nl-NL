@@ -13,33 +13,33 @@ ht-degree: 0%
 
 # Items in de catalogustabel dupliceren na het bewerken van de einddatum van een planningupdate
 
-Dit artikel bevat een patch voor de bekende Adobe Commerce 2.2.3-uitgave waarbij het bewerken van de einddatum of tijd van een update van een catalogusprijsregelschema leidt tot het toevoegen van dubbele vermeldingen aan de `catalogrule` tabel en fouten in het `catalogrule_rule` (Catalog rule product) indexer redex.
+Dit artikel bevat een patch voor de bekende Adobe Commerce 2.2.3-uitgave, waarbij het bewerken van de einddatum of tijd van een update van een catalogusprijsregel leidt tot het toevoegen van dubbele vermeldingen aan de `catalogrule` -tabel en fouten in de indexeerindex van `catalogrule_rule` (het catalogusregelproduct).
 
 ## Probleem
 
-Wanneer u de einddatum of tijd wijzigt van een bestaande update van de catalogusprijsregel, worden dubbele items gemaakt in het dialoogvenster `catalogrule` databasetabel. Dientengevolge, `catalogrule_rule` opnieuw indexeert ontbreekt met de volgende fout in het uitzonderingslogboek: *Item met dezelfde id bestaat al*.
+Wanneer u de einddatum of tijd wijzigt van een bestaande update van de catalogusprijsregel, worden dubbele vermeldingen gemaakt in de databasetabel van `catalogrule` . Dientengevolge, ontbreekt de `catalogrule_rule` herdex met de volgende fout in het uitzonderingslogboek: *Punt met zelfde identiteitskaart bestaat reeds*.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-Vereisten: de `catalogrule_rule` indexer is ingesteld op *[Bijwerken in schema](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)* -modus.
+Eerste vereisten: De `catalogrule_rule` indexeerder wordt geplaatst aan *[Update op Programma ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)* wijze.
 
-1. Maak in Commerce Admin een nieuwe regel voor catalogusprijzen onder **Marketing** > **Aanbiedingen** > **Catalogusprijsregel**.
-1. In de **Catalogusprijsregel** raster, klikken **Bewerken** en een nieuwe update en set **Status** tot *Actief.*
-1. Klikken **Weergeven/bewerken** naast de nieuwe update en wijzig de einddatum in een eerdere tijd.
+1. In Commerce Admin, creeer een nieuwe Regel van de Prijs van de Catalogus onder **Marketing** > **Bevorderingen** > **Regel van de Prijs van de Catalogus**.
+1. In het **net van de Regel van de Prijs van de Catalogus**, klik **uitgeven**, en programma een nieuwe Update en plaats **Status** aan *Actief.*
+1. Klik **Mening/geef uit** naast de pas gecreëerde Update en verander de einddatum in een vroegere tijd.
 1. Sla de update op.
-1. Voer de opdracht -redex uit voor de `catalogrule_rule` indexeerprogramma.
+1. Voer de opdracht voor opnieuw indexeren uit voor de `catalogrule_rule` -index.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
-De `catalogrule_rule` de indexeerfunctie is opnieuw geïndexeerd. Geen dubbele vermeldingen in het dialoogvenster `catalogrule` tabel.
+De index van `catalogrule_rule` is opnieuw geïndexeerd. Geen dubbele vermeldingen in de `catalogrule` -tabel.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
-Opnieuw indexeren mislukt vanwege de volgende fout: *Item met dezelfde id bestaat al*, omdat er dubbele vermeldingen voorkomen in de `catalogrule` tabel.
+Opnieuw indexeren ontbreekt met de volgende fout: *Punt met zelfde identiteitskaart bestaat reeds*, omdat er dubbele ingangen in de `catalogrule` lijst zijn.
 
 ## Oplossing
 
-U kunt dit probleem oplossen door de bijgevoegde patch toe te passen en de bestaande dubbele vermeldingen te verwijderen. Zie de [Gedupliceerde items verwijderen](#remove) voor meer informatie over het controleren of de duplicaten bestaan en verwijderen.
+U kunt dit probleem oplossen door de bijgevoegde patch toe te passen en de bestaande dubbele vermeldingen te verwijderen. Zie [ verwijder gedupliceerde ingangen ](#remove) sectie voor details over het controleren als de duplicaten bestaan en hen verwijderen.
 
 ## Reparatie
 
@@ -60,7 +60,7 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies in onze kennisbasis voor ondersteuning.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies in onze basis van de steunkennis wordt verstrekt.
 
 ## Gedupliceerde items verwijderen {#remove}
 
@@ -78,9 +78,9 @@ Ga als volgt te werk om de gedupliceerde items te zoeken en te verwijderen:
 
    Als er geen dubbele ingangen zijn, zal de reactie leeg zijn en u moet niets anders doen. Als de gedupliceerde items bestaan, krijgt u de tabelnaam en `entity_id` van de gedupliceerde entiteit, zoals in het volgende voorbeeld:
 
-   ![table_results1.png](assets/table_results1.png)
+   ![ table_results1.png ](assets/table_results1.png)
 
-   Houd er rekening mee dat in bepaalde tabellen de naam van het veld met id van entiteit anders zal zijn dan `entity_id`. In het dialoogvenster `cms_page` de `page_id` in plaats van `entity_id`.
+   Houd er rekening mee dat in bepaalde tabellen de naam van het veld met de id van de entiteit anders zal zijn dan in `entity_id` . In de tabel `cms_page` zou dit bijvoorbeeld `page_id` in plaats van `entity_id` zijn.
 
 1. Vervolgens moet u de duplicaten nader bekijken en begrijpen welke gegevens moeten worden verwijderd. Gebruik een query die lijkt op de volgende om de duplicaten te zien. Vervang de tabelnaam, de id-naam en de waarde van de entiteit op basis van de resultaten die u in de vorige stap hebt ontvangen.
 
@@ -90,9 +90,9 @@ Ga als volgt te werk om de gedupliceerde items te zoeken en te verwijderen:
 
    U ontvangt een lijst met records met meerdere kolommen. Voorbeeld:
 
-   ![table_results2.png](assets/table_results2.png)
+   ![ table_results2.png ](assets/table_results2.png)
 
-   De `created_in` en `updated_in` de waarden moeten dit patroon volgen: de `created_in` waarde van de huidige rij is gelijk aan de waarde van `updated_in` waarde in de vorige rij. Ook de **eerste rij** moet het bestand created\_in = 1 en het **laatste rij** moet update\_in = 2147483647 bevatten. (Als er slechts 1 rij is, moet u de gemaakte\_in=1 zien **en** update\_in=2147483647). De rij(en) waarvoor dit patroon is afgebroken, moet(en) worden geschrapt. In ons voorbeeld zou het de rij zijn met `row_id` =2052 als tweede en derde rijen delen allebei de zelfde waarde voor created_in: 1540837826, die niet zou moeten voorkomen.
+   De waarden `created_in` en `updated_in` moeten dit patroon volgen: de waarde `created_in` van de huidige rij is gelijk aan de waarde `updated_in` in de vorige rij. Ook, zou de **eerste rij** moeten bevatten creeerde \_in = 1 en de **laatste rij** zou moeten bijgewerkt \_in = 2147483647 bevatten. (Als er slechts 1 rij is, moet u creeerde \_in=1 **zien en** bijgewerkt \_in=2147483647). De rij(en) waarvoor dit patroon is afgebroken, moet(en) worden geschrapt. In ons voorbeeld zou dit de rij zijn met `row_id` =2052 aangezien de tweede en derde rij beide dezelfde waarde hebben voor created_in: 1540837826, wat niet zou moeten voorkomen.
 
 1. Verwijder het duplicaat met behulp van een query die lijkt op de volgende. Vervang de tabelnaam, de id-naam en de waarde van de entiteit op basis van de resultaten die u in de vorige stappen hebt ontvangen:
 
@@ -106,11 +106,11 @@ Ga als volgt te werk om de gedupliceerde items te zoeken en te verwijderen:
    bin/magento cache:clean
    ```
 
-   of in Commerce Admin onder **Systeem** > **Gereedschappen** > **Cachebeheer**.
+   of in Commerce Admin onder **Systeem** > **Hulpmiddelen** > **Beheer van het Geheime voorgeheugen**.
 
 ## Nuttige koppelingen in de documentatie voor ontwikkelaars
 
-* [Aangepaste patches op Adobe Commerce toepassen op cloudinfrastructuur](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)
-* [Logbestanden voor Adobe Commerce weergeven en beheren op cloudinfrastructuur](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html))
+* [ pas douaneflarden op Adobe Commerce op wolkeninfrastructuur toe ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)
+* [ Mening en beheer logboeken voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html))
 
 ## Bijgevoegde bestanden

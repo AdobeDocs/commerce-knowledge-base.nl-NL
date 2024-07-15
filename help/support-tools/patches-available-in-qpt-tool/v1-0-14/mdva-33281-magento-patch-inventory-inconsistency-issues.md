@@ -13,45 +13,45 @@ ht-degree: 0%
 
 # MDVA-33281 patch: voorraadinconsistenties
 
-De MDVA-33281-patch verhelpt drie problemen op het gebied van inconsistentie bij de inventarisatie. Klik op de gekoppelde problemen in de sectie Uitgave om de stappen te bekijken waarmee deze fouten worden gereproduceerd. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.14 is geïnstalleerd.
+De MDVA-33281-patch verhelpt drie problemen op het gebied van inconsistentie bij de inventarisatie. Klik op de gekoppelde problemen in de sectie Uitgave om de stappen te bekijken waarmee deze fouten worden gereproduceerd. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.14 geïnstalleerd is.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 Adobe Commerce op cloudinfrastructuur 2.3.5-p1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 Adobe Commerce over cloudinfrastructuur 2.3.4 - 2.3.5-p2
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 De patch verhelpt inconsistenties in de inventaris, zoals:
 
-* **PHP Fatale fout** bij uitvoering `bin/magento inventory:reservation:list-inconsistencies` in CLI wegens het verkeerde de parametertype van SKU.
-* **Gegevens dupliceren** in de lijst van inconsistenties.
-* **Nieuwe reservering** wordt gecreëerd voordat de bestelling wordt geplaatst (vorige uitvoering op basis van reservering na geplaatste bestelling). In het geval van fouten binnen de plaatsing van de bestelling, zal extra reserve worden toegevoegd om te compenseren.
+* **PHP Onherstelbare fout** wanneer het lopen `bin/magento inventory:reservation:list-inconsistencies` in CLI wegens het verkeerde de parametertype van SKU.
+* **dupliceer gegevens** in inconsistenties lijst.
+* **Nieuwe reserve** zal vóór geplaatste orde worden gecreeerd (vorige realisatie die op reserve na geplaatste orde wordt gebaseerd). In het geval van fouten binnen de plaatsing van de bestelling, zal extra reserve worden toegevoegd om te compenseren.
 
 >[!NOTE]
 >
->Er is ook een patch MDVA-30112 die het probleem oplost waar onverwacht een groot aantal [inconsistenties in het voorbehoud](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in onze ontwikkelaarsdocumentatie, in `inventory_reservation` tabel. Raadpleeg voor de oplossing: [MDVA-30112 Patch voor Magento: inconsistenties bij reservering van grote aantallen](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-30112-magento-patch-large-number-reservation-inconsistencies.md) in onze kennisbasis voor ondersteuning.
+>Er is ook een flard MDVA-30112 die de kwestie oplost waar er een onverwacht groot aantal [ inconsistenties van de reservering ](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in onze ontwikkelaarsdocumentatie, in de `inventory_reservation` lijst is. Voor de oplossing, verwijs naar [ MDVA-30112 flard van het Magento: de inconsistenties van de grote aantalreserve ](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-30112-magento-patch-large-number-reservation-inconsistencies.md) in onze steunkennisbasis.
 
 ## Fatale PHP-fout
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-Fatale PHP fout tijdens uitvoeren `bin/magento inventory:reservation:list-inconsistencies`.
+PHP Fatale error when running `bin/magento inventory:reservation:list-inconsistencies`.
 
 Om een lijst van reserveringsinconsistenties te krijgen, login aan de productieserver en stel het volgende bevel in CLI in werking (-r schakelaar - ruwe output):
 
-<pre>bin/magento-voorraad:reservation:list-inconsistenties -r</pre>
+<pre>bin/magento inventariseren :reservation: lijst-inconsistenties - r</pre>
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De lijst met inconsistenties in de reserveringen wordt opgesteld. Deze worden geretourneerd in de volgende indeling
 
@@ -59,58 +59,61 @@ De lijst met inconsistenties in de reserveringen wordt opgesteld. Deze worden ge
 <ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>
 ```
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 PHP Fatal Error is outputted.
 
 ## Gegevens dupliceren
 
-Gegevens worden gedupliceerd in het dialoogvenster `inventory_reservation table`.
+Dubbele gegevens bevinden zich in de `inventory_reservation table` .
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Om reserveringsinconsistenties problemen op te lossen, stel het volgende bevel in werking:
 
-<pre>SELECTEER *, COUNT(*) UIT GROEP Inventaris_reservering OP metagegevens, SKU, Aantal HAVING COUNT(*) &gt; 1</pre>
+<pre>SELECTEREN *, COUNT(*)
+FROM voorraad_reserve
+GROEP OP metagegevens, SKU, hoeveelheid
+AANTAL (*) &gt; 1</pre>
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Geen duplicaten.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Er zijn duplicaten.
 
 ## Nieuwe reservering
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Nieuwe reservering gemaakt vóór geplaatste order:
 
 1. De database importeren.
-1. Uitvoeren `bin/magento setup:upgrade` in de terminal.
-1. Inconsistenties weergeven door uit te voeren `bin/magento inventory:reservation:list-inconsistencies        -i -r` in de terminal.
+1. Voer `bin/magento setup:upgrade` uit in de terminal.
+1. Maak een lijst van inconsistenties door `bin/magento inventory:reservation:list-inconsistencies        -i -r` in de terminal uit te voeren.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 Geen lus en veel snellere resultaten.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Dezelfde resultaten worden in een oneindige lus weergegeven, anders mislukt de opdracht met `memory_limit`, afhankelijk van de systeeminstellingen.
+Dezelfde resultaten worden in een oneindige lus weergegeven, anders mislukt de opdracht bij `memory_limit` , afhankelijk van de systeeminstellingen.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches die beschikbaar zijn in QPT, raadpleegt u de [Patches beschikbaar in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar de [ flarden beschikbaar in QPT ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.

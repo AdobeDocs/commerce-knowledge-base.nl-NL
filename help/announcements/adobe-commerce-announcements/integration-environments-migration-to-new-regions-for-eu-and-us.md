@@ -1,6 +1,6 @@
 ---
 title: Migratie van integratieomgevingen naar oude EU-regio
-description: '"Om u van de meest recente infrastructuurstichting te voorzien, migreren wij de integratieomgeving voor alle klanten die tot de oude "EU"-regio behoren naar een nieuwe EU-regio. De rest van de regio''s &Ndash; EU-3, EU-5, EU-6 en ndash; blijft hetzelfde.  '''
+description: '"Om u van de meest recente infrastructuurstichting te voorzien, migreren wij de integratieomgeving voor alle klanten die tot de oude "EU"-regio behoren naar een nieuwe EU-regio. De rest van de regio''s &ndash; EU-3, EU-5, EU-6 &ndash; blijft hetzelfde.  '''
 exl-id: 71c0d241-7ba8-48c3-acf1-2b28be5c80e7
 feature: Integration
 role: Admin

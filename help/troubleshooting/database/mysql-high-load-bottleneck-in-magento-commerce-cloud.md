@@ -22,46 +22,46 @@ Dit onderwerp bespreekt een oplossing wanneer de hoge lading van MySQL een prest
 ### Vereisten
 
 * ECE Tools versie 2002.0.16 en hoger
-* New Relic APM-service (**Uw Adobe Commerce on cloud Infrastructure-account bevat de software voor de New Relic APM-service** samen met een licentiecode.)
+* De dienst van New Relic APM (**Uw Adobe Commerce op de rekening van de wolkeninfrastructuur omvat de software voor de dienst van New Relic APM** samen met een vergunningssleutel.)
 
-Ga voor meer informatie over de New Relic APM-service en de installatie ervan met uw Adobe Commerce op een cloud-infrastructuuraccount naar [New Relic Services](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) en [Inleiding tot New Relic APM](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/).
+Voor meer informatie over de dienst van New Relic APM en zijn opstelling met uw Adobe Commerce op de rekening van de wolkeninfrastructuur, ga naar [ de Diensten van New Relic ](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) en [ Inleiding aan New Relic APM ](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/).
 
 ## Probleem
 
-<u>Stappen om te zien of beïnvloedt de kwestie u</u>
+<u> stappen om te zien of beïnvloedt de kwestie u </u>
 
 1. Controleer in uw New Relic APM Overview Chart de eerste aanwijzing dat MySQL een knelpunt is geworden. Bekijk de voorbeeldafbeelding hieronder waar MySQL een knelpunt is geworden en de meeste tijd van webtransacties in beslag neemt:
 
-   ![KB-372_image002.png](assets/KB-372_image002.png)
+   ![ KB-372_image002.png ](assets/KB-372_image002.png)
 
    U ziet hoe de rode onderbroken lijn in de afbeelding een waarneembare opwaartse trend in de tijd van de MySQL-webtransacties laat zien en vervolgens op nog hogere niveaus piekt.
-1. Vanaf hier kun je naar je **Database** scherm waar u de tweede aanwijzing van hoge productie of langzaam kunt zien `SELECT` query&#39;s in MySQL en in de onderstaande voorbeeldafbeelding kunt u zien wanneer u sorteert op **Meest tijdrovend** in dit voorbeeld is de winkel traag `SELECT` MySQL-query&#39;s.
+1. Van hier kunt u dan naar het uw **1} scherm van het Gegevensbestand {gaan waar u de tweede aanwijzing van hoge productie of langzame `SELECT` vragen in MySQL kunt zien, en in het hieronder steekproefbeeld kunt u zien wanneer het sorteren door** Meest tijdrovend **, uw opslag, in dit voorbeeld, is langzaam op `SELECT` vragen MySQL.**
 
-   ![KB-372_image003_BlurredExtension.png](assets/KB-372_image003_BlurredExtension.png)
+   ![ KB-372_image003_BlurredExtension.png ](assets/KB-372_image003_BlurredExtension.png)
 
-Analyseer de trage transacties in New Relic APM. Als u een hoog volume van vragen of hoge druk op een gegevensbestand MySQL ziet, kunt u de lading over verschillende knopen verspreiden door toe te laten `SLAVE` verbindingen.
+Analyseer de trage transacties in New Relic APM. Als u een hoog volume van vragen of hoge druk op een gegevensbestand MySQL ziet, kunt u de lading over verschillende knopen verspreiden door `SLAVE` verbindingen toe te laten.
 
 ## Oorzaak
 
-Uw Adobe Commerce on cloud Infrastructure Store heeft hoge doorvoer of is langzaam `SELECT` MySQL-query&#39;s.
+Uw Adobe Commerce on cloud Infrastructure Store heeft een hoge doorvoer of is traag bij `SELECT` MySQL-query&#39;s.
 
 ## Oplossing
 
 >[!WARNING]
 >
->Voor geschaalde architectuur (gesplitste architectuur), Redis slave-verbindingen **NIET** worden ingeschakeld. U kunt controleren of u op geschaalde architectuur bent door naar uw project-URL te gaan, bijvoorbeeld `https://console.adobecommerce.com/<owner-user-name>/<project-ID>/<environment-name>`. Klikken op **[!UICONTROL SSH]**. Als er meer dan drie knopen zijn, bent u op geschraapte architectuur. Als u Redis slave Reads inschakelt op geschaalde architectuur, ontvangt de klant fouten op Redis-verbindingen die geen verbinding kunnen maken. Dit heeft te maken met de manier waarop de clusters zijn geconfigureerd om Redis-verbindingen te verwerken. Redis Slaves is nog steeds actief, maar wordt niet gebruikt voor Redis Reads. Wij adviseren voor geschaalde architectuur om Adobe Commerce 2.3.5 of later te gebruiken en nieuwe Redis achterste-eindconfiguratie uit te voeren en L2 caching voor Redis uit te voeren.
+>Voor geschaalde architectuur (gespleten architectuur), ZOU de slave verbindingen van Redis **NIET** moeten worden toegelaten. U kunt controleren of u op geschaalde architectuur bent door naar uw project-URL te gaan, bijvoorbeeld `https://console.adobecommerce.com/<owner-user-name>/<project-ID>/<environment-name>` . Klik op **[!UICONTROL SSH]** . Als er meer dan drie knopen zijn, bent u op geschraapte architectuur. Als u Redis slave Reads inschakelt op geschaalde architectuur, ontvangt de klant fouten op Redis-verbindingen die geen verbinding kunnen maken. Dit heeft te maken met de manier waarop de clusters zijn geconfigureerd om Redis-verbindingen te verwerken. Redis Slaves is nog steeds actief, maar wordt niet gebruikt voor Redis Reads. Wij adviseren voor geschaalde architectuur om Adobe Commerce 2.3.5 of later te gebruiken en nieuwe Redis achterste-eindconfiguratie uit te voeren en L2 caching voor Redis uit te voeren.
 
-Als deze twee indicaties zich voordoen, kan `SLAVE` De verbindingen voor het MySQL gegevensbestand en Redis kunnen helpen om lading over verschillende knopen uit te spreiden.
+Als u deze twee indicaties ervaart en `SLAVE` -verbindingen inschakelt voor de MySQL-database en Redis, kunt u de laadbewerking verspreiden over verschillende knooppunten.
 
-Adobe Commerce kan meerdere databases of Redis asynchroon lezen. De `.magento.env.yaml` bestand door in te stellen op `true` de waarden `MYSQL_USE_SLAVE_CONNECTION` en `REDIS_USE_SLAVE_CONNECTION` om een **alleen-lezen** verbinding met het gegevensbestand om read-only verkeer op een niet hoofdknoop te ontvangen. Dit verbetert prestaties door lading het in evenwicht brengen omdat slechts één knoop read-write verkeer moet behandelen. Instellen op `false` om een bestaande alleen-lezen-verbindingsarray te verwijderen uit de `env.php` bestand.
+Adobe Commerce kan meerdere databases of Redis asynchroon lezen. Het bijwerken van het `.magento.env.yaml` dossier door aan `true` de waarden `MYSQL_USE_SLAVE_CONNECTION` en `REDIS_USE_SLAVE_CONNECTION` te plaatsen om a **read-only** verbinding aan het gegevensbestand te gebruiken om read-only verkeer op een niet hoofdknoop te ontvangen. Dit verbetert prestaties door lading het in evenwicht brengen omdat slechts één knoop read-write verkeer moet behandelen. Stel in op `false` om een bestaande alleen-lezen-verbindingsarray uit het `env.php` -bestand te verwijderen.
 
 ### Stappen
 
-1. Bewerk uw `.magento.env.yaml` en voeg de volgende inhoud toe:
+1. Bewerk het `.magento.env.yaml` -bestand en voeg de volgende inhoud toe:
 
-   ![KB-372_image004.png](assets/KB-372_image004.png)
+   ![ KB-372_image004.png ](assets/KB-372_image004.png)
 
-   Meer informatie vindt u in [Variabelen implementeren in DevDocs](https://devdocs.magento.com/cloud/env/variables-deploy.html#mysql_use_slave_connection).
+   U kunt meer details in [ vinden stelt Variabelen in DevDocs ](https://devdocs.magento.com/cloud/env/variables-deploy.html#mysql_use_slave_connection) op.
 
 1. Leg de wijzigingen vast en duw op de wijzigingen.
 1. Het duwen van veranderingen zal een nieuw plaatsingsproces in werking stellen. Nadat de implementatie is voltooid, moet de Adobe Commerce op de cloudinframinstallatie nu zijn geconfigureerd voor gebruik van slave-verbindingen.
@@ -70,21 +70,21 @@ Adobe Commerce kan meerdere databases of Redis asynchroon lezen. De `.magento.en
 
 Hieronder volgen de veelgestelde vragen die u kunt stellen wanneer u overweegt de functionaliteit voor slave-verbindingen te gebruiken voor uw Adobe Commerce in de cloud-infrastructuurwinkel.
 
-* Zijn er bekende problemen of beperkingen bij het gebruik van slave-verbindingen? **Er zijn geen bekende problemen met het gebruik van slave-verbindingen. Zorg gewoon dat u het meest recente bijgewerkte pakket met gereedschappen gebruikt. Hier vindt u instructies [hoe u het pakket met gereedschappen voor Griekenland bijwerkt](https://devdocs.magento.com/cloud/project/ece-tools-update.html).**
-* Is er een extra latentie door de Verbindingen van de Slave te gebruiken? *Ja, cross-AZ (cross-Availability Zones) latentie is hoger en vermindert de prestaties van een Adobe Commerce op een cloudinframinstantie in het geval dat de instantie niet overbelast is en de volledige lading kan dragen. Maar duidelijk, als de instantie overbelast is - master-slave zal met prestaties helpen door de lading op het Gegevensbestand MySQL of Redis over verschillende knopen te spreiden.*
+* Zijn er bekende problemen of beperkingen bij het gebruik van slave-verbindingen? **wij hebben geen bekende kwesties van het gebruiken van de Verbindingen van de slave. Zorg gewoon dat u het meest recente bijgewerkte pakket met gereedschappen gebruikt. De instructies zijn hier op [ hoe te om uw kind-hulpmiddelen pakket ](https://devdocs.magento.com/cloud/project/ece-tools-update.html) bij te werken.**
+* Is er een extra latentie door de Verbindingen van de Slave te gebruiken? *ja, dwars-AZ (cross-Availability Zones) latentie is hoger en vermindert prestaties van een Adobe Commerce op de instantie van de wolkeninfrastructuur in het geval als de instantie niet overbelast is en de volledige lading kan dragen. Maar duidelijk, als de instantie wordt overbelast - master-slave zal met prestaties helpen door de lading op het Gegevensbestand MySQL of Redis over verschillende knopen te spreiden.*
 
-  **Bij niet-overbelaste clusters** -  **Slave Connections vertraagt de prestaties met 10-15%**, wat een van de redenen is waarom het niet standaard is.
+  **op niet-overbelaste clusters** - **de Verbindingen van de Slave zullen prestaties door 10-15%** vertragen, die één van de redenen is het niet gebrek.
 
-  *Maar bij overbelaste clusters is er een prestatieverhoging omdat deze 10-15% worden beperkt door de belasting van het verkeer te verminderen.*
-* Moet ik deze instellingen voor mijn winkel inschakelen? *Als u hoge lading hebt of hoge lading op het Gegevensbestand MySQL of Redis verwacht, moet u zeker de Verbindingen van de Slave toelaten. Voor een regelmatige klant met gemiddeld verkeer, is dit **niet**een optimale instelling die moet worden ingeschakeld.*
+  *maar op overbelaste clusters, is er een prestatiesverhoging omdat deze 10-15% door lading door verkeer te verminderen worden verlicht.*
+* Moet ik deze instellingen voor mijn winkel inschakelen? *als u hoge lading hebt of hoge lading op het Gegevensbestand MySQL of Redis verwacht, moet u zeker de Verbindingen van de Slave toelaten. Voor een regelmatige klant met gemiddeld verkeer, is dit **niet**het optimale plaatsen om worden toegelaten.*
 
 ## Gerelateerde lezing
 
 In onze documentatie voor ontwikkelaars:
 
-* [Variabelen implementeren](https://devdocs.magento.com/cloud/env/variables-deploy.html).
-* [Optionele databasereplicatie instellen](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master_slavedb.html).
-* [ece-tools-pakket](https://devdocs.magento.com/cloud/reference/ece-tools-reference.html).
+* [ stelt variabelen ](https://devdocs.magento.com/cloud/env/variables-deploy.html) op.
+* [ de facultatieve opstellings gegevensbestandreplicatie ](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master_slavedb.html).
+* [ knoop-hulpmiddelen pakket ](https://devdocs.magento.com/cloud/reference/ece-tools-reference.html).
 
 >[!NOTE]
 >

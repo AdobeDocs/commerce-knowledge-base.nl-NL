@@ -21,7 +21,7 @@ In dit artikel wordt gesproken over een algemeen indexeringsprobleem in Adobe Co
 
 ## Probleem
 
-Tijdens een volledige redex in uw CLI, geeft Adobe Commerce u het foutenbericht: *&#39;Index is vergrendeld door een ander herindexeringsproces. Overslaan.&#39;* Met andere woorden, wanneer het proces of het indextype vergrendeld is, kunt u dat bepaalde vergrendelde indextype niet opnieuw indexeren. De redex slaat altijd dat indextype over.
+Tijdens een volledige herindex in uw CLI geeft Adobe Commerce u het foutbericht: *&#39;Index is vergrendeld door een ander herindexeringsproces. Overslaan.&#39;* Met andere woorden, wanneer het proces- of indextype vergrendeld is, kunt u dat bepaalde vergrendelde indextype niet opnieuw indexeren. De redex slaat altijd dat indextype over.
 
 ## Oorzaak
 
@@ -35,7 +35,7 @@ Deze fout kan optreden als de vorige index niet is voltooid. Enkele mogelijke re
 ## Stappen om te reproduceren
 
 1. Stel bijvoorbeeld dat de    ```bash    cataloginventory_stock ```    indextype is vergrendeld.
-1. Wanneer u probeert alle gegevens opnieuw te indexeren door het CLI bevel in werking te stellen    ```bash    php bin/magento indexer:reindex    ```krijgt u het volgende uitvoerresultaat:    ```bash    customer_grid index has been rebuilt successfully in 00:00:09    catalog_category_product index has been rebuilt successfully in 00:00:07    catalog_product_category index has been rebuilt successfully in 00:00:00    catalogrule_rule index has been rebuilt successfully in 00:00:05    catalog_product_attribute index has been rebuilt successfully in 00:00:04    cataloginventory_stock index is locked by another reindex process. Skipping.    catalog_product_price index has been rebuilt successfully in 00:00:01    catalogrule_product has been rebuilt successfully in 00:00:00    catalogsearch_fulltext index has been rebuilt successfully in 00:00:01    ```
+1. Wanneer u probeert alle gegevens opnieuw te indexeren door het CLI bevel in werking te stellen    ```bash    php bin/magento indexer:reindex    ``` krijgt u het volgende uitvoerresultaat:    ```bash    customer_grid index has been rebuilt successfully in 00:00:09    catalog_category_product index has been rebuilt successfully in 00:00:07    catalog_product_category index has been rebuilt successfully in 00:00:00    catalogrule_rule index has been rebuilt successfully in 00:00:05    catalog_product_attribute index has been rebuilt successfully in 00:00:04    cataloginventory_stock index is locked by another reindex process. Skipping.    catalog_product_price index has been rebuilt successfully in 00:00:01    catalogrule_product has been rebuilt successfully in 00:00:00    catalogsearch_fulltext index has been rebuilt successfully in 00:00:01    ```
 1. Zoals u hierboven kunt zien,    ```bash    cataloginventory_stock```    indexproces is overgeslagen.
 
 
@@ -77,12 +77,12 @@ In onze kennisbasis voor ondersteuning:
 
 In onze gebruikershandleiding:
 
-* [Indexbeheer](https://docs.magento.com/user-guide/system/index-management.html?itm_source=merchdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=reindexing)
+* [ Beheer van de Index ](https://docs.magento.com/user-guide/system/index-management.html?itm_source=merchdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=reindexing)
 
 In onze documentatie voor ontwikkelaars:
 
-* [Overzicht van indexering](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
-* [Aanbevolen werkwijzen voor indexen](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers)
-* [Uitsnede configureren en uitvoeren](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html)
-* [De indexen beheren](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
-* [Indexeroptimalisatie](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html)
+* [ Indexerend Overzicht ](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
+* ](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers) de Beste praktijken van 0} Indexers[
+* [ vorm en looppas uitsnede ](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html)
+* [ beheer de indexen ](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
+* [ Optimalisering van de Indexer ](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html)

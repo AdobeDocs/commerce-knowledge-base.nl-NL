@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel biedt een oplossing voor een bekende Adobe Commerce 2.4.0-probleem waarbij betalingsmethoden voor Braintreeën niet zijn inbegrepen bij het werken met de afhandeling Meerdere adressen. De kwestie is opgelost in Adobe Commerce 2.4.1.
 
-Opmerking: Adobe Commerce raadt u aan de [Commerce Marketplace Braintree extensie](https://marketplace.magento.com/paypal-module-braintree.html) voor versies 2.3 en hoger om de PSD-compatibiliteit te behouden. De extensie biedt geen functionaliteit voor het afrekenen van meerdere adressen.
+Nota: Adobe Commerce adviseert gebruikend de [ uitbreiding van de Braintree van de Commerce Marketplace ](https://marketplace.magento.com/paypal-module-braintree.html) voor versies 2.3 en later om PSD naleving te houden. De extensie biedt geen functionaliteit voor het afrekenen van meerdere adressen.
 
 ## Betrokken producten en versies
 
@@ -24,26 +24,26 @@ Opmerking: Adobe Commerce raadt u aan de [Commerce Marketplace Braintree extensi
 
 ## Probleem
 
-<u>Vereisten</u>:
+<u> Eerste vereisten </u>:
 
 De belangrijkste integratie van de Braintree wordt gebruikt.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Ga naar de winkel.
 1. Meld u aan als klant.
 1. Voeg een product toe aan de kar.
 1. Open je winkelwagentje.
-1. Druk **Winkelwagentje weergeven en bewerken**.
-1. Druk **Uitchecken met meerdere adressen**.
-1. Druk **Ga naar Verzendgegevens**.
-1. Druk **Doorgaan met factureringsgegevens**.
+1. De Mening van de pers **en geeft Kaart** uit.
+1. De Controle van de pers **uit met Veelvoudige Adressen**.
+1. De pers **gaat naar de Verzendinformatie**.
+1. De pers **gaat aan het Factureren Informatie** voort.
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Braintree is beschikbaar als betalingsmethode.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Braintree is niet beschikbaar als betalingsmethode.
 

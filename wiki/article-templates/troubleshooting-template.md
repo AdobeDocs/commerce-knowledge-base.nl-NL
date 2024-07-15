@@ -14,7 +14,7 @@ ht-degree: 0%
 In de titel wordt het probleem kort beschreven. Maximaal 70 tekens hebben de voorkeur.<br/>
 (Voorbeeld: &quot;Onvoldoende geheugen tijdens installatie of upgrade&quot;.)
 
-Zie [Bijdragen > Metagegevens](../../CONTRIBUTING.md#metadata) voor aanvullende informatie over metagegevens.
+Zie [ het Bijdragen > Meta-gegevens ](../../CONTRIBUTING.md#metadata) voor extra informatie over meta-gegevens.
 
 Paragraaf of twee alinea&#39;s beginnen: een kort overzicht van de kwestie. De eerste 140 tekens zijn belangrijk voor SEO-doeleinden.
 
@@ -23,7 +23,7 @@ Paragraaf of twee alinea&#39;s beginnen: een kort overzicht van de kwestie. De e
 * Adobe Commerce op locatie x.x.x
 * Adobe Commerce op cloud-infrastructuur x.x.x
 
-(*U kunt ook het volgende zeggen als het gaat om dezelfde versies in de cloud of op het terrein:*)
+(*Alternatief als de zelfde versies op wolk of op-gebouw worden beïnvloed u kunt zeggen:*)
 
 Adobe Commerce (alle implementatiemethoden) x.x.x
 
@@ -38,7 +38,7 @@ Verwijder om het even welke specifieke project IDs of klanteninformatie uit fout
 
 Als de kwestie in een zeer specifieke situatie voorkomt, verstrek gedetailleerde stappen om, verwacht resultaat te reproduceren en daadwerkelijke resultaat in het volgende formaat:
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Vereisten: ... (indien van toepassing).
 
@@ -46,11 +46,11 @@ Vereisten: ... (indien van toepassing).
 1. Tweede stap.
 1. ...
 
-<u>Verwacht resultaat</u>:
+<u> Verwacht resultaat </u>:
 
 Adobe Commerce doet dit.
 
-<u>Werkelijk resultaat</u>:
+<u> Werkelijk resultaat </u>:
 
 Adobe Commerce doet dat.
 
@@ -67,7 +67,7 @@ Als er een tijdelijke oplossing is, geeft u deze hieronder op als een aparte sec
 
 ## Gerelateerde lezing
 
-* [Artikel](https://docs.magento.com/user-guide/) in onze gebruikershandleiding.
-* [Artikel](https://devdocs.magento.com) in onze ontwikkelaarsdocumentatie. U kunt ook zeggen om onderscheid te maken tussen instructies in apparaten voor wolk versus op-gebouw gebruikers: &quot;[Artikel](https://devdocs.magento.com) in onze documentatie voor ontwikkelaars voor Adobe Commerce over cloudinfrastructuur.&quot; vs &quot;[Artikel](https://devdocs.magento.com) in onze ontwikkelaarsdocumentatie voor Adobe Commerce op locatie.&quot;
-* [Artikel](https://support.magento.com/hc/en-us) in onze kennisbasis voor ondersteuning.
+* [ onderwerp van het Artikel ](https://docs.magento.com/user-guide/) in onze gebruikersgids.
+* [ onderwerp van het Artikel ](https://devdocs.magento.com) in onze ontwikkelaarsdocumentatie. U kunt ook zeggen om tussen instructies in apparaten voor wolk vs op-gebouw gebruikers te onderscheiden: &quot;[ het onderwerp van het Artikel ](https://devdocs.magento.com) in onze ontwikkelaarsdocumentatie voor Adobe Commerce op wolkeninfrastructuur.&quot; vs &quot;[ onderwerp van het Artikel ](https://devdocs.magento.com) in onze ontwikkelaarsdocumentatie voor Adobe Commerce op-gebouw.&quot;
+* [ onderwerp van het Artikel ](https://support.magento.com/hc/en-us) in onze basis van steunkennis.
 * Alle gerelateerde bronnen (blogs, forums, StackOverflow, enz.)

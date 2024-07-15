@@ -25,12 +25,12 @@ Uw team heeft een bericht ontvangen over een gedetecteerd probleem of een belang
 
 Er zijn twee manieren om de meldingen te stoppen door de gebruiker(s) uit uw project te verwijderen:
 
-* Methode 1: De cloud gebruiken [!DNL Project URL]. Zie [Gebruikerstoegang beheren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in de Commerce-handleiding voor cloudinfrastructuur voor stappen.
-* Methode 2: De magento-cloud gebruiken [!DNL CLI]. Zie [Gebruikers beheren met de [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli) in de Commerce-handleiding voor cloudinfrastructuur voor stappen.
+* Methode 1: De cloud gebruiken [!DNL Project URL] . Verwijs naar [ leiden gebruikerstoegang ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in Commerce op de gids van de wolkeninfrastructuur voor stappen.
+* Methode 2: De magento-cloud gebruiken [!DNL CLI] . Verwijs naar [ leiden gebruikers met  [!DNL CLI] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli) in Commerce op de gids van de wolkeninfrastructuur voor stappen.
 
-Als dit al is gebeurd en deze gebruikers in de e-mailberichten blijven worden opgenomen, dient u een ondersteuningsticket in om te verzoeken dat deze uit het *[!UICONTROL Always CC]* instellen op de account.
+Als dit al is gedaan en de e-mailmeldingen deze gebruikers toch blijven bevatten, dient u een ondersteuningsticket in om te vragen dat deze worden verwijderd van de instelling *[!UICONTROL Always CC]* op de account.
 
 ## Gerelateerde lezing
 
-* [De projectrol van een gebruiker weergeven](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user) in de Commerce-handleiding voor cloudinfrastructuur.
-* [Hoe te om een teamlid in de berichten van de Steun te omvatten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html) in de Commerce KB.
+* [ Mening de het projectrol van een gebruiker ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user) in Commerce op de gids van de wolkeninfrastructuur.
+* [ hoe te om een teamlid in de berichten van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html) in Commerce KB te omvatten.

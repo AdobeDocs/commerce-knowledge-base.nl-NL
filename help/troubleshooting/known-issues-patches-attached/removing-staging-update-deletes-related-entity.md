@@ -23,19 +23,19 @@ Dit artikel bevat een patch voor het bekende Adobe Commerce 2.2.3-probleem met b
 
 Wanneer u een actieve planningsupdate verwijdert tussen de begin- en einddatum, wordt de verwante entiteit (categorie, subcategorie, CMS-pagina) ook verwijderd.
 
-<u>Stappen om te reproduceren (met categorieën)</u>:
+<u> Stappen om (met categorieën) te reproduceren </u>:
 
 1. Meld u aan bij de Commerce-beheerder.
-1. Een nieuwe subcategorie maken onder **Catalogus** > **Categorieën**.
+1. Creeer een nieuwe subcategorie onder **Catalogus** > **Categorieën**.
 1. Maak een nieuwe testupdate met de begin- en eindtijd.
 1. Wacht tot de update wordt toegepast; dat is de begintijd komt.
-1. De update verwijderen met de opdracht **Weergeven/bewerken** koppeling.
+1. Schrap de update gebruikend de **Mening/geeft** verbinding uit.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De update wordt verwijderd en de subcategorie bestaat nog steeds in Beheer.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De update en de subcategorie worden verwijderd.
 
@@ -80,6 +80,6 @@ De patch MDVA-23505\_EE\_2.2.5\_COMPOSER\_v1.patch is ook compatibel (maar lost 
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Creeer een flard voor de installatie van Composer van Adobe Commerce van GitHub begaat
 
-Zie [Sectie met aangepaste patches voor de toepassingspatches](https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar [ de sectie van de flarden van de Douane van de Toepassende flarden ](https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches) in onze ontwikkelaarsdocumentatie.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel biedt een oplossing voor het volgende probleem: wanneer winkeliers proberen te upgraden naar Adobe Commerce (alle implementatiemethoden) of Magento Open Source 2.4.3 of 2.3.7-p1:
 
-*Fatale fout in PHP: Uncaught Error: Call to undefined function Magento\Framework\Filesystem\Directory\str_contains() in &lt;..>/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php:74*
+*PHP Onherstelbare fout: Uncaught Error: Call to undefined function Magento\Framework\Filesystem\Directory\str_contains() in &lt;...>/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php:74*
 
 De kwestie zal worden vastgesteld in het toepassingsgebied van 2.4.4, 2.4.3-p1 en 2.3.7-p2.
 
@@ -26,23 +26,23 @@ De kwestie zal worden vastgesteld in het toepassingsgebied van 2.4.4, 2.4.3-p1 e
 
 ## Probleem
 
-Dit probleem wordt veroorzaakt door de nieuwe Adobe Commerce 2.4.3 en 2.3.7-p1 versies die alleen PHP 8 gebruiken `str_contains`. Adobe Commerce 2.4.3 en 2.3.7-p1 zijn alleen compatibel met PHP 7.4, dus deze functie kan niet worden gebruikt.
+Dit probleem wordt veroorzaakt door de nieuwe Adobe Commerce 2.4.3- en 2.3.7-p1-versies die alleen PHP 8 gebruiken, functie `str_contains` . Adobe Commerce 2.4.3 en 2.3.7-p1 zijn alleen compatibel met PHP 7.4, dus deze functie kan niet worden gebruikt.
 
-<u>Stappen om te reproduceren</u> :
+<u> Stappen om </u> te reproduceren:
 
 Poging om te upgraden naar Adobe Commerce 2.4.3 of 2.3.7-p1.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 Upgrade voltooid.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
 PHP fatale fout.
 
 ## Oplossing
 
-Als alternerende actie stelt u het volgende bevel in CLI/Terminal in werking: `composer require symfony/polyfill-php80` in de hoofdmap van het Magento of installeer een componentpatch.
+Als tussenoplossing stelt u het volgende bevel in CLI/Terminal in werking: `composer require symfony/polyfill-php80` van de de wortelomslag van het Magento of installeert een composer flard.
 
 Om het probleem voor 2.4.3 op te lossen, moeten Adobe Commerce (alle implementatiemethoden) en Magento Open Source handelaren een patch toepassen:
 
@@ -54,8 +54,8 @@ Om het probleem voor 2.3.7-p1 op te lossen, moeten Adobe Commerce (alle implemen
 
 ## Hoe de pleister moet worden aangebracht
 
-Zie [Hoe een door het Magento geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Magento ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Verwante lezing
 
-GitHub [Niet-ondersteunde PHP 8-opdracht in Magento 2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)
+GitHub [ Niet gestaafd PHP 8 bevel in Magento 2.4.3 EE #33680 ](https://github.com/magento/magento2/issues/33680)

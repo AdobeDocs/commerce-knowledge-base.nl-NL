@@ -1,6 +1,6 @@
 ---
 title: Magento Order Management System (OMS) for Adobe Commerce processing error
-description: Dit artikel verstrekt een oplossing voor de kwestie wanneer u een "getMode ()"fout in CLI krijgt die ` bin/magento ruimten in werking stelt:messages:proces" in het systeem voor Magento Orders Management (OMS) voor Adobe Commerce.
+description: 'Dit artikel verstrekt een oplossing voor de kwestie wanneer u een "getMode ()"fout in CLI krijgt die ` bin/magento :messages: proces ` in het Systeem van het Magento Order Management (OMS) voor Adobe Commerce in werking stelt.'
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Magento Order Management System (OMS) for Adobe Commerce processing error
 
-Dit artikel biedt een oplossing voor het probleem wanneer u een `getMode()` fout in CLI die loopt `bin/magento oms:messages:process` in het Magento Order Management System (OMS) for Adobe Commerce.
+Dit artikel biedt een oplossing voor het probleem wanneer u een `getMode()` -fout krijgt in de CLI die `bin/magento oms:messages:process` in het Magento Order Management System (OMS) for Adobe Commerce wordt uitgevoerd.
 
 ## Betrokken producten en versies
 
@@ -56,14 +56,15 @@ Stack trace:
 
 ## Oorzaak
 
-Dit komt voor wanneer de Schakelaar probeert te verwerken `magento.inventory.source_management` berichten. De schakelaar probeert deze berichten te verwerken alsof zij a `magento.inventory.source_stock_management.update` een bericht waarvoor wel een moduswaarde is vereist. Omdat er geen modus is in het dialoogvenster `magento.inventory.source_mangement` -berichten, treedt de fout op.
+A
+Dit komt voor wanneer de Schakelaar probeert om `magento.inventory.source_management` berichten te verwerken. De connector probeert deze berichten te verwerken alsof het een `magento.inventory.source_stock_management.update` -bericht betreft waarvoor wel een moduswaarde is vereist. Omdat de `magento.inventory.source_mangement` -berichten geen modus bevatten, treedt de fout op.
 
 ## Oplossing
 
-Om het probleem op te lossen, stel de volgende SQL verklaring in CLI in werking die alle verslagen in CLI schrapt `mcom_api_messages` tabel:
+Voer de volgende SQL-instructie in de CLI uit, die alle records in de tabel `mcom_api_messages` verwijdert, om het probleem op te lossen:
 
 `delete from mcom_api_messages;`
 
 ## Verwante lezing
 
-Zie OMS Docs [Zelfstudie OMS Connector](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+Zie OMS Docs [ OMS de Zelfstudie van de Opstelling van de Schakelaar ](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).

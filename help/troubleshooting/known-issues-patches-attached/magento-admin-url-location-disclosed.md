@@ -29,9 +29,9 @@ Er is een probleem ontdekt in Magento Open Source en Adobe Commerce dat kan word
 
 Als u het probleem wilt verhelpen, past u de patch toe die aan dit artikel is gekoppeld. Klik op de volgende koppeling om deze te downloaden:
 
-* Downloaden [PRODSECBUG-2432\_EE\_2.1.17\_composer.patch](assets/PRODSECBUG-2432_EE_2.1.17_composer.patch.zip) - voor versies 2.1.13-2.1.17, Adobe Commerce, Magento Open Source
-* Downloaden [PRODSECBUG-2432\_EE\_2.2.8\_composer.patch](assets/PRODSECBUG-2432_EE_2.2.8_composer.patch.zip) - voor versies 2.2.0-2.2.8, alle versies
-* Downloaden [PRODSECBUG-2432\_EE\_2.3.1\_composer.patch](assets/PRODSECBUG-2432_EE_2.3.1_composer.patch.zip) - voor versies 2.3.0-2.3.1, alle versies
+* Download [ PRODSECBUG-2432 \_EE \_2.1.17\_composer.patch ](assets/PRODSECBUG-2432_EE_2.1.17_composer.patch.zip) - voor versies 2.1.13-2.1.17, Adobe Commerce, Magento Open Source
+* Download [ PRODSECBUG-2432 \_EE \_2.2.8\_composer.patch ](assets/PRODSECBUG-2432_EE_2.2.8_composer.patch.zip) - voor versies 2.2.0-2.2.8, alle uitgaven
+* Download [ PRODSECBUG-2432 \_EE \_2.3.1 \_composer.patch ](assets/PRODSECBUG-2432_EE_2.3.1_composer.patch.zip) - voor versies 2.3.0-2.3.1, alle uitgaven
 
 Als u geen patch ziet voor uw product/versie, dient u een upgrade uit te voeren naar de meest recente beveiligingsrelease en vervolgens de patch toe te passen.
 
@@ -39,13 +39,13 @@ Adobe beveelt ten zeerste aan de pleister zo snel mogelijk aan te brengen, zelfs
 
 ## Hoe de pleister aanbrengen
 
-Zie [Een door Adobe Commerce geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Overige beveiligingsaanbevelingen
 
 De Adobe adviseert ook sterk dat de handelaren hulpmiddelen opstellen om hun admin paneel, met inbegrip van tweefaste authentificatie, VPN, IP Voegend op lijst van gewenste personen, en meer te beveiligen. Raadpleeg de volgende blogs en documentatie voor meer informatie:
 
-* [5 Onmiddellijke acties tegen grove aanvallen op Protect](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
-* [Protect Your Magento Installation Password Gusing New Update](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
-* [Aanbevolen werkwijzen voor beveiliging](https://magento.com/security/best-practices/security-best-practices)
-* Two-Factor Authentificatie in Adobe Commerce toevoegen en vormen voor [2,3 x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) en [2,4 x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)
+* [ 5 Onmiddellijke Acties aan Protect tegen de Aanvallen van de Kracht ](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
+* [ Protect Uw Wachtwoord van de Installatie van het Magento Bezig Nieuwe Update ](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
+* [ Beste praktijken van de Veiligheid ](https://magento.com/security/best-practices/security-best-practices)
+* Toevoegend en Vormend Two-Factor Authentificatie in Adobe Commerce voor [ 2.3.x ](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) en [ 2.4.x ](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)

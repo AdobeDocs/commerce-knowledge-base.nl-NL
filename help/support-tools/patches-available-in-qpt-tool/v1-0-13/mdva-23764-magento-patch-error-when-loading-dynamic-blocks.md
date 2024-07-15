@@ -19,29 +19,29 @@ Met de MDVA-23764-patch voor Magento&#39;s wordt de fout in
 JsFooterPlugin.php
 ```
 
-die de weergave van dynamische blokken beïnvloedt. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is geïnstalleerd. De kwestie is in Magento 2.3.5 opgelost.
+die de weergave van dynamische blokken beïnvloedt. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 geïnstalleerd is. De kwestie is in Magento 2.3.5 opgelost.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor versie van Magento:** Magento Commerce Cloud 2.3.3.
+**het flard wordt gecreeerd voor Magento versie:** Magento Commerce Cloud 2.3.3.
 
-**Compatibel met Magento&#39;s versies:** Magento Commerce en Magento Commerce Cloud 2.3.2 - 2.3.4-p2.
+**Compatibel met Magento versies:** Magento Commerce en Magento Commerce Cloud 2.3.2 - 2.3.4-p2.
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
 Laad een URL die er als volgt uitziet: https://\[magento domain\]/banner/ajax/load/.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
-Er wordt een fout gegenereerd die vergelijkbaar is met het volgende: *Uncaught TypeError: strpos() verwacht dat parameter 1 een tekenreeks is, null gegeven in...(coderegel)* .
+Een fout gelijkend op het volgende wordt geworpen: *Uncaught TypeError: strpos () verwacht parameter 1 om koord te zijn, ongeldig die binnen... (lijn van code) wordt gegeven*.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 URL wordt zonder fouten geladen.
 
@@ -49,14 +49,14 @@ URL wordt zonder fouten geladen.
 
 Voor instructies over hoe te om een flard QPT toe te passen, gebruik de volgende verbindingen afhankelijk van uw product van het Magento:
 
-* Magento Commerce: Ontwikkeldocumenten [Patches toepassen met het gereedschap Kwaliteitspatches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) .
-* Magento Commerce Cloud: Ontwikkeldocumenten [Upgrades and Patches > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) .
+* Magento Commerce: DevDocs [ past flarden toe gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
+* Magento Commerce Cloud: DevDocs [ Verbeteringen en Patches > passen flarden ](https://devdocs.magento.com/cloud/project/project-patch.html) toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) .
-* [Controleer of er een patch beschikbaar is voor het probleem van het Magento met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) .
+* [ vrijgegeven Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitsflarden ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) zelf-te dienen.
+* [ Controle als het flard voor uw Magento kwestie gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) beschikbaar is.
 
-Raadpleeg voor meer informatie over andere patches die beschikbaar zijn in het gereedschap QPT de [Reparaties beschikbaar in het gereedschap QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) sectie.
+Voor info over andere flarden beschikbaar in hulpmiddel QPT, verwijs naar de [ flarden beschikbaar in het hulpmiddel QPT ](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) sectie.

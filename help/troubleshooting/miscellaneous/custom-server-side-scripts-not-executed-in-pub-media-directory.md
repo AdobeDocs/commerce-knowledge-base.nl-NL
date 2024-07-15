@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Aangepaste serverscripts worden niet uitgevoerd in de mediamap van de publicatie
 
-Dit artikel biedt een oplossing voor het feit dat aangepaste serverscripts niet worden uitgevoerd als deze in het dialoogvenster `./pub/media/` directory van uw Adobe Commerce-toepassing op cloudinfrastructuur. Dit is een verwachte veiligheidsbeperking, aangezien `./pub/media/` directory is schrijfbaar. Als u scripts uitvoerbaar wilt maken, plaatst u ze in niet-schrijfbare mappen, zoals `./app/code/` of `./pub/`.
+Dit artikel biedt een oplossing voor het geval aangepaste serverscripts niet worden uitgevoerd als deze in de map `./pub/media/` van uw Adobe Commerce-toepassing op de cloudinfrastructuur worden geplaatst. Dit is een verwachte beveiligingsbeperking, aangezien de map `./pub/media/` beschrijfbaar is. Als u scripts uitvoerbaar wilt maken, plaatst u ze in niet-schrijfbare mappen, zoals `./app/code/` of `./pub/` .
 
 ## Betrokken versies
 
@@ -23,16 +23,16 @@ Dit artikel biedt een oplossing voor het feit dat aangepaste serverscripts niet 
 
 Aangepaste serverscripts kunnen niet worden uitgevoerd wanneer ze worden gestart.
 
-Wanneer de eindgebruiker (Adobe Commerce-gebruiker) bijvoorbeeld op de koppeling klikt die leidt naar de `\*.php` bestand met het script (zoals *domain.com/media/directory/script.php* ), wordt het script gedownload in plaats van uitgevoerd.
+Bijvoorbeeld, wanneer het eind - gebruiker (Adobe Commerce verkoopster) de verbinding klikt die tot het `\*.php` dossier met het manuscript (als *domain.com/media/directory/script.php*) leidt, wordt het manuscript gedownload in plaats van het uitvoeren.
 
 ## Oorzaak: onjuiste locatie van scriptbestand
 
-De kwestie komt voor wanneer de manuscriptdossiers in worden gevestigd `./pub/media/` directory van Adobe Commerce-toepassing op cloudinfrastructuur. Dit is een verwacht gedrag: vanwege beveiligingsbeperkingen, bestanden van de beschrijfbare mappen (`./pub/media/`) nooit worden uitgevoerd.
+De kwestie komt voor wanneer de manuscriptdossiers in de `./pub/media/` folder van de toepassing van Adobe Commerce op wolkeninfrastructuur worden gevestigd. Dit is een verwacht gedrag: wegens veiligheidsbeperkingen, worden de dossiers van de beschrijfbare folders (`./pub/media/`) nooit uitgevoerd.
 
 ## Oplossing: plaats scripts in niet-schrijfbare mappen
 
-Sla de serverscripts op in niet-schrijfbare mappen, zoals `./app/code/` of `./pub/`  &quot;
+Sla de serverscripts op in niet-schrijfbare mappen, zoals `./app/code/` of `./pub/` &quot;
 
 ## Gerelateerde documentatie
 
-* [Cloud voor Adobe Commerce > Projectstructuur > Schrijfbare directory&#39;s](https://devdocs.magento.com/guides/v2.3/cloud/project/project-start.html#write-dir) in onze ontwikkelaarsdocumentatie.
+* [ Wolk voor Adobe Commerce > de structuur van het Project > Schrijfbare folders ](https://devdocs.magento.com/guides/v2.3/cloud/project/project-start.html#write-dir) in onze ontwikkelaarsdocumentatie.

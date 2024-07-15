@@ -13,22 +13,22 @@ ht-degree: 0%
 
 # Kan Adobe Commerce niet openen op interface van cloudinfrasinfrastructuur
 
-Dit artikel biedt oplossingen voor het probleem waarbij u zich niet kunt aanmelden bij uw Adobe Commerce op de interface van de cloud-infrastructuur en de *403-fout*.
+Dit artikel verstrekt oplossingen voor de kwestie waar u niet login aan uw Adobe Commerce op de interface van de wolkeninfrastructuur kunt en de *403 fout* krijgt.
 
 ## Probleem
 
-Wanneer u zich voor het eerst aanmeldt bij de gebruikersinterface van uw Adobe Commerce-cloudinfrastructuur, krijgt u een *403: Toegang tot omgeving geweigerd* fout. Deze fout kan optreden omdat het gaan naar de wolk URL voor de eerste keer de hoofdtak laadt, en u zou geen toegang tot die tak kunnen hebben.
+Wanneer het proberen om aan uw Adobe Commerce op de interface van de wolkeninfrastructuur voor het eerst te registreren, krijgt u a *403: Afgewezen van de Toegang van het Milieu* fout. Deze fout kan optreden omdat het gaan naar de wolk URL voor de eerste keer de hoofdtak laadt, en u zou geen toegang tot die tak kunnen hebben.
 
 ## Oplossing
 
 Als u een fout van 403 krijgt wanneer u tot URL voor het eerst toegang hebt, zorg ervoor u een rol in de hoofdtak hebt.
 
-1. С contact op met de eigenaar van de licentie of een supergebruiker voor het project en zorg ervoor dat deze als **gebruiker op milieuniveau**, ook beschreven in [Cloud projects > Manage users from the Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-cloud-console) in onze ontwikkelaarsdocumentatie.
+1. С de vergunningseigenaar of een super gebruiker op het project in werking te stellen en ervoor te zorgen zij toegang tot u als **milieu-vlakke gebruiker** verstrekten, ook die in [ de projecten van de Wolk > gebruikers van de Console van de Wolk ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-cloud-console) in onze ontwikkelaarsdocumentatie wordt beschreven.
 
    Als u slechts een toepasselijke rol in een specifieke tak hebt, dan zou u naar URL voor die tak, bijvoorbeeld, moeten gaan
    `https://console.adobecommerce.com/<owner-name>/<project-id>/<branch-name>`
 
    De volgende keer dat u de hoofd-URL opent, wordt standaard de laatste omgeving gebruikt die u hebt bezocht.
 
-1. Als u zich nog steeds niet kunt aanmelden, neemt с contact op met de eigenaar van de licentie of een supergebruiker van het project en zorgt u ervoor dat deze als een **gebruiker op projectniveau**, zoals beschreven in [Cloud projects > Add a user to the project](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-a-user-to-the-project) in onze ontwikkelaarsdocumentatie.
-1. Als de fout blijft bestaan, [een ondersteuningsticket indienen](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Als u nog niet login kunt, с de vergunningseigenaar of een super gebruiker op het project in werking stellen en ervoor zorgen zij toegang voor u als a **project-vlakke gebruiker** verstrekten, zoals die in [ de projecten van de Wolk > een gebruiker aan het project ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-a-user-to-the-project) in onze ontwikkelaarsdocumentatie wordt beschreven.
+1. Als de fout voortduurt, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

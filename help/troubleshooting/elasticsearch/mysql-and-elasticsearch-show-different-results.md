@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [De zoekfunctie voor MySQL-catalogus wordt verwijderd uit Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). U moet de Elasticsearch gastheer opstelling en gevormd hebben alvorens versie 2.4.0 te installeren. Zie [Elasticsearch installeren en configureren](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in onze ontwikkelaarsdocumentatie.
+> [ MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheer opstelling en gevormd hebben alvorens versie 2.4.0 te installeren. Verwijs naar [ installeer en vorm Elasticsearch ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in onze ontwikkelaarsdocumentatie.
 
 Dit artikel biedt een patch voor het bekende Adobe Commerce-probleem met cloudinfrastructuur 2.2.3 met betrekking tot het ophalen van verschillende zoekresultaten voor dezelfde zoekquery met MySQL en Elasticsearch.
 
@@ -21,18 +21,20 @@ Dit artikel biedt een patch voor het bekende Adobe Commerce-probleem met cloudin
 
 De zoekresultaten van de catalogus met dezelfde filterset verschillen afhankelijk van de zoekmachine die wordt gebruikt, MySQL of Elasticsearch.
 
-<u>Stappen om te reproduceren</u> :
+<u> Stappen om </u> te reproduceren:
 
 1. Installeer en configureer Elasticsearch.
 1. Selecteer in de winkel een van de filters.
 1. Noteer het aantal overeenkomende producten.
-1. De standaardinstelling configureren [MySQL-zoekopdracht](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md).
+1. Vorm het gebrek [ MySQL onderzoek ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md).
 1. Selecteer in de winkel een van de filters.
 1. Noteer het aantal overeenkomende producten.
 
-<u>Verwacht resultaat</u>: Het aantal overeenkomende producten is hetzelfde.
+<u> Verwacht resultaat </u>:
+Het aantal overeenkomende producten is hetzelfde.
 
-<u>Werkelijk resultaat</u>: Het aantal overeenkomende producten is anders.
+<u> Werkelijk resultaat </u>:
+Het aantal overeenkomende producten is anders.
 
 ## Reparatie
 
@@ -46,10 +48,10 @@ De patches zijn aan dit artikel gekoppeld. Als u een patch wilt downloaden, schu
 
 De patches zijn gemaakt voor:
 
-* Adobe Commerce on cloud Infrastructure 2.2.3 (de `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` bestand)
-* Adobe Commerce on cloud Infrastructure 2.2.6 (de `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` bestand)
+* Adobe Commerce on cloud Infrastructure 2.2.3 (het `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` -bestand)
+* Adobe Commerce on cloud Infrastructure 2.2.6 (het `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` -bestand)
 
-De `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volgende Adobe Commerce-versies en -versies:
+De `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` -patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volgende Adobe Commerce-versies en -versies:
 
 * Adobe Commerce over wolkeninfrastructuur 2.2.4
 * Adobe Commerce over wolkeninfrastructuur 2.2.5
@@ -57,12 +59,12 @@ De `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` patch is ook compatibel (maar lost he
 * Adobe Commerce op locatie 2.2.4
 * Adobe Commerce op locatie 2.2.5
 
-De `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volgende Adobe Commerce-versies en -versies:
+De `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` -patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volgende Adobe Commerce-versies en -versies:
 
 * Adobe Commerce op locatie 2.2.6
 
 ## Hoe de pleister aanbrengen
 
-Zie [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning voor instructies.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

@@ -17,15 +17,15 @@ In dit artikel worden de fouten uitgelegd die u kunt ervaren tijdens het gebruik
 
 ## Betrokken producten en versies
 
-* [Compatibiliteit upgraden](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) is vanaf 2.3.0 compatibel met Adobe Commerce-versies.
+* [ het Hulpmiddel van de Verenigbaarheid van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) is compatibel met de versies van Adobe Commerce vanaf 2.3.0.
 
 ## Fout in segmentfout
 
-<u>Oorzaak</u>:
+<u> Oorzaak </u>:
 
 Wanneer twee modules de zelfde naam hebben, toont het Hulpmiddel van de Verenigbaarheid van de Verbetering een fout van de segmenteringsfout.
 
-<u>Oplossing</u>:
+<u> Oplossing </u>:
 
 Om deze fout te vermijden, wordt aanbevolen het pad naar de module als argument op te geven:
 
@@ -39,7 +39,7 @@ bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
 
 ## Lege uitvoer
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 1. Indien na het uitvoeren van deze opdracht:
 
@@ -47,22 +47,22 @@ bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
    bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
    ```
 
-1. De enige uitvoer is `Upgrade compatibility tool`:
+1. De enige uitvoer is `Upgrade compatibility tool` :
 
    ```terminal
    bin/uct upgrade:check /var/www/project/magento/ -c 2.4.1
    Upgrade compatibility tool
    ```
 
-<u>Oorzaak</u>:
+<u> Oorzaak </u>:
 
 De waarschijnlijke oorzaak is een PHP geheugenbeperking.
 
 Er zijn twee mogelijke oplossingen om deze PHP geheugenbeperking te voorkomen.
 
-<u>Oplossing 1</u>:
+<u> Oplossing 1 </u>:
 
-De geheugenbeperking overschrijven door deze in te stellen `memory_limit` tot `-1`:
+Hef de geheugenbeperking op door `memory_limit` in te stellen op `-1` :
 
 ```bash
 php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
@@ -70,11 +70,11 @@ php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 
 >[!NOTE]
 >
-> De `M2_VERSION` Dit is de Adobe Commerce-doelversie die u wilt vergelijken met uw Adobe Commerce-exemplaar.
+> `M2_VERSION` is de Adobe Commerce-doelversie die u wilt vergelijken met uw Adobe Commerce-instantie.
 
-<u>Oplossing 2</u>:
+<u> Oplossing 2 </u>:
 
-De `-m` Met het gereedschap Compatibiliteit upgraden kunt u elke specifieke module afzonderlijk analyseren om te voorkomen dat er twee modules met dezelfde naam in uw Adobe Commerce-instantie voorkomen.
+Als u de optie `-m` toevoegt, kan het gereedschap Compatibiliteit upgraden elke specifieke module afzonderlijk analyseren om te voorkomen dat er twee modules met dezelfde naam in uw Adobe Commerce-instantie komen.
 
 Met deze opdrachtoptie kan het gereedschap Compatibiliteit upgraden ook een map analyseren die verschillende modules bevat:
 
@@ -82,4 +82,4 @@ Met deze opdrachtoptie kan het gereedschap Compatibiliteit upgraden ook een map 
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/
 ```
 
-Zie de [Het gereedschap uitvoeren in een opdrachtregelinterface](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) voor meer informatie over opdrachtregelinterface-opties.
+Zie [ in werking stellen het hulpmiddel in een bevel-lijn interface ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) pagina voor meer informatie over bevel-lijn interfaceopties.

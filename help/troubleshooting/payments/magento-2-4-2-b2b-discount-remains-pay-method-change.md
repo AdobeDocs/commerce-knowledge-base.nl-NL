@@ -24,19 +24,19 @@ In dit artikel wordt een bekende Adobe Commerce 2.4.2 B2B-uitgifte beschreven wa
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u> :
+<u> Stappen om </u> te reproduceren:
 
-1. Een winkelwagentje maken **Prijsregel** die aan een betalingsmethode is gekoppeld (Voorbeeld: PayPal-gebruikers krijgen een korting van 20%.)
+1. Creeer de Regel van de Kar **Prijs** die aan een betalingsmethode (Voorbeeld: De PayPal gebruikers krijgen een 20% korting.) gebonden is.
 1. Maak een inkooporder (inkooporder) en selecteer PayPal als betalingsmethode. De korting wordt toegepast.
 1. De PO is goedgekeurd.
 1. Ga naar de betalingspagina om de bestelling te voltooien.
 1. Selecteer een andere betalingsmethode.
 
-<u>Werkelijke resultaten</u> :
+<u> Ware resultaten </u>:
 
 De korting op de betalingsmethode blijft van toepassing op het totaal van de bestelling.  Er wordt geen foutbericht weergegeven. De eigenaar van de winkel kan dit zien door de ordergeschiedenis te controleren.
 
-<u>Verwachte resultaten</u> :De korting op de betalingsmethode wordt verwijderd uit het totaal van de bestelling, zoals u had verwacht.
+<u> Verwachte resultaten </u>: De korting van de betalingsmethode wordt verwijderd uit het ordertotaal, zoals verwacht.
 
 ## Oplossing
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-37478: Kan geen gedeeltelijke factuur maken via REST API
 
-De MDVA-37478-patch verhelpt het probleem wanneer u geen gedeeltelijke factuur kunt maken via REST API voor een bestelling die met een betalingsmethode is geplaatst **Betaling op rekening**. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is geïnstalleerd. De patch-id is MDVA-37478. Het probleem wordt volgens de planning opgelost in Adobe Commerce versie 2.4.3.
+Het flard MDVA-37478 bevestigt de kwestie wanneer u geen gedeeltelijke factuur via REST API voor een orde kunt tot stand brengen die met betalingsmethode **Betaling op Rekening** wordt geplaatst. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 geïnstalleerd is. De patch-id is MDVA-37478. Het probleem wordt volgens de planning opgelost in Adobe Commerce versie 2.4.3.
 
 ## Betrokken producten en versies
 
@@ -22,23 +22,23 @@ De MDVA-37478-patch verhelpt het probleem wanneer u geen gedeeltelijke factuur k
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-<u>Vereiste</u>:
+<u> Vereiste </u>:
 
 Adobe Commerce met geïnstalleerde B2B-module
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Inschakelen **B2B-bedrijf**.
-1. Inschakelen **Betaling op rekening** betalingsmethode.
+1. Laat **B2B bedrijf** toe.
+1. Laat **Betaling op Rekening** betalingsmethode toe.
 1. Maak twee eenvoudige producten.
 1. Maak een bedrijfsaccount.
 1. Voeg bedrijfskredieten toe die de totale prijs van 2 gecreëerde producten overschrijden.
 1. Meld u aan bij de frontend met behulp van het gemaakte bedrijfsaccount.
-1. Voeg de twee gemaakte producten toe aan het winkelwagentje en kassa met behulp van de **Betaling op rekening** betalingsmethode.
+1. Voeg de 2 producten toe die aan de kar worden gecreeerd, en controle gebruikend de **Betaling op Rekening** betalingsmethode.
 1. Probeer een gedeeltelijke factuur te maken voor de bestelling die via REST API is gemaakt:
 
    ```php
@@ -53,11 +53,11 @@ Adobe Commerce met geïnstalleerde B2B-module
    }
    ```
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
-De gedeeltelijke factuur wordt opgesteld voor een bestelling die is gemaakt met behulp van de **Betaling op rekening** betalingsmethode, zoals verwacht.
+De gedeeltelijke factuur wordt gecreeerd voor een orde die wordt gemaakt gebruikend de **Betaling op Rekening** betalingsmethode, zoals verwacht.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De volgende fout wordt geretourneerd door de REST API:
 
@@ -69,14 +69,14 @@ De volgende fout wordt geretourneerd door de REST API:
 
 Als u afzonderlijke patches wilt toepassen, gebruikt u de volgende koppelingen, afhankelijk van uw Adobe Commerce-product:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Raadpleeg voor meer informatie over andere patches die beschikbaar zijn in het gereedschap QPT de [Reparaties beschikbaar in het gereedschap QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) sectie.
+Voor info over andere flarden beschikbaar in hulpmiddel QPT, verwijs naar de [ flarden beschikbaar in het hulpmiddel QPT ](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) sectie.

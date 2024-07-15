@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce Intelligence Training Video: Cohort Report Builder
+# Adobe Commerce Intelligence Training Video: Report Builder Cohort
 
 Hebt u ooit willen onderzoeken hoe verschillende subsets van uw gebruikers zich in de loop der tijd gedragen? Bijvoorbeeld, vroeg ooit zich af of de gebruikers die tijdens een bevorderingsperiode registreren een hogere gemiddelde levenopbrengst hebben dan zij die niet? Als het antwoord &quot;Ja!&quot; is, dan is de Report Builder Cohort het perfecte hulpmiddel voor u. Commerce Intelligence is speciaal geoptimaliseerd om deze analyse uit te voeren en relevant te maken voor uw bedrijf.
 
@@ -20,8 +20,8 @@ In deze video leert u:
 * Waarom het belangrijk is
 * Uw eigen cohortanalyse maken in Magento BI
 
-Ga naar [Commerce Intelligence - Cohort Report Builder](/docs/commerce-learn/tutorials/business-intelligence/cohort-report-builder.html) in Adobe Experience League.
+Om op de video te letten, ga naar [ Commerce Intelligence - de Report Builder van Cohort ](/docs/commerce-learn/tutorials/business-intelligence/cohort-report-builder.html) in Adobe Experience League.
 
-**Wil je meedoen?** Bekijk onze [Zelfstudie Cohort Report Builder](/docs/commerce-business-intelligence/mbi/analyze/sql/cohort-rpt-bldr.html) voor schriftelijke instructies.
+**wil volgen?** Controle uit ons [ leerprogramma van de Report Builder van het Cohort ](/docs/commerce-business-intelligence/mbi/analyze/sql/cohort-rpt-bldr.html) voor geschreven instructies.
 
-Als u de Report Builder Cohort comfortabel hebt gebruikt, kunt u het beste eerst een **kwalitatief** cohortanalyse? Kijk uit de [Een zelfstudie voor een kwalitatieve codeanalyse maken](/docs/commerce-business-intelligence/mbi/analyze/sql/create-qual-cohort-analysis.html?lang=en) voor meer informatie !
+Nadat u comfortabel het gebruiken van de Report Builder van de Cohort bent, waarom niet het creëren van a **kwalitatieve** cohortanalyse onderzoeken? Controle uit [ Creërend een kwalitatieve zelfstudie van de cohortanalyse ](/docs/commerce-business-intelligence/mbi/analyze/sql/create-qual-cohort-analysis.html?lang=en) voor meer info!

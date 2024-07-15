@@ -21,9 +21,9 @@ Dit artikel bevat informatie over de componentplug-in die wordt vrijgegeven voor
 
 ## Probleem
 
-Een mogelijk geval van een actieve Aanval van de Verwardheid van de Afhankelijkheid wordt ontdekt door minstens één van de directe of indirecte gebiedsdelen die in `composer.json` door de componentplug-in `magento/composer-dependency-version-audit-plugin` tijdens installatie/update van composer.
+Een mogelijk geval van een actieve aanval van de Verwaring van de Afhankelijkheid wordt ontdekt door minstens één van de directe of indirecte gebiedsdelen die in `composer.json` door de componentenstop `magento/composer-dependency-version-audit-plugin` tijdens composer installatie/update worden bepaald.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Wanneer u composer installeert/bijwerkt, zal de composer stop het proces als het een potentiële aanval van de Verwaring van de Afhankelijkheid ontdekt. In dat geval mislukt de installatie/update van de composer met een foutbericht zoals:
 
@@ -47,5 +47,5 @@ Aanvallers kunnen deze kwetsbaarheid misbruiken als een pakket alleen beschikbaa
 
 ### Verwachtingen van ontwikkelaars van extensies
 
-* Er is geen enkele manier om vast te stellen of het pakket voor een insteekmodule, als dit afkomstig is van een publieke repo, al dan niet in gevaar is gebracht. De insteekmodule detecteert wanneer een openbare versie van een pakket op packagist.org een hogere versie heeft dan de versie die beschikbaar is in een privérepo [repo.magento.com](https://repo.magento.com). We raden ontwikkelaars van extensies aan dergelijke situaties te vermijden en geen nieuwere versies openbaar te publiceren die beschikbaar zijn via [repo.magento.com](https://repo.magento.com).
+* Er is geen enkele manier om vast te stellen of het pakket voor een insteekmodule, als dit afkomstig is van een publieke repo, al dan niet in gevaar is gebracht. De stop zal ontdekken wanneer een openbare versie van een pakket in packagist.org een hogere versie dan beschikbaar bij een privé repo als [ repo.magento.com ](https://repo.magento.com) heeft. Wij adviseren sterk dat de uitbreidingsontwikkelaars dergelijke situaties vermijden en publiceren geen nieuwere versies openbaar dan die beschikbaar door [ repo.magento.com ](https://repo.magento.com).
 * Adobe Commerce begrijpt dat het marktweerhalingsproces de beschikbaarheid van de release van extensies kan vertragen, maar dat het proces er is om handelaren veilig te houden en om ontwikkelaars te helpen onbedoelde fouten te vinden die ze wellicht hebben gemist.

@@ -21,32 +21,32 @@ Als u zich realiseert is er een kwestie met de eigenschappen van uw douanemodule
 
 ## Oplossing
 
-Controleer de logboeken om te zien of zijn er ingangen met de naam van de douanemodule in de fout.  Afhankelijk van de fouten kan de oplossing zichzelf voorstellen of moet u mogelijk uw nuttige Adobe Commerce-loggegevens opnemen als u een [Support-ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Zie de volgende alinea&#39;s voor informatie over de locatie van logbestanden en mogelijke oplossingen.
+Controleer de logboeken om te zien of zijn er ingangen met de naam van de douanemodule in de fout.  Afhankelijk van de betrokken fouten, kan de oplossing zich voorstellen, of u kunt uw nuttige het logboekinformatie van Adobe Commerce moeten omvatten als u a [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) wilt openen. Zie de volgende alinea&#39;s voor informatie over de locatie van logbestanden en mogelijke oplossingen.
 
 ### Adobe Commerce (alle implementatiemethoden), Magento Open Source, alle 2.X-versies
 
 1. Logboeklocaties:
-   * [Adobe Commerce on cloud Infrastructure Starter-planningslogboeken](/help/how-to/general/log-locations-directories-for-starter-plan.md) in onze kennisbasis voor ondersteuning.
-   * [Adobe Commerce on cloud Infrastructure Pro-planningslogbestanden](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) in onze kennisbasis voor ondersteuning.
+   * [ Adobe Commerce op de logboeken van de het planarchitectuur van de Aanzet van de wolkeninfrastructuur ](/help/how-to/general/log-locations-directories-for-starter-plan.md) in onze basis van steunkennis.
+   * [ Adobe Commerce op de logboeken van de de planarchitectuur van de wolkeninfrastructuur Pro ](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) in onze basis van de steunkennis.
 1. Afhankelijk van de fouten die u vindt, als u een aangepaste module wilt in-, uitschakelen of verwijderen, bevatten deze artikelen details over deze handelingen:
-   * [Modules in- of uitschakelen](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-enable.html) in onze ontwikkelaarsdocumentatie.
-   * [Modules verwijderen](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall-mods.html) in onze ontwikkelaarsdocumentatie.
+   * [ laat of maakt modules ](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-enable.html) in onze ontwikkelaarsdocumentatie toe onbruikbaar.
+   * [ desinstalleert modules ](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall-mods.html) in onze ontwikkelaarsdocumentatie.
 
 ### Adobe Commerce op cloud-infrastructuur, alle versies
 
-1. Logboeklocaties: [Adobe Commerce op cloud-infrastructuurlogs](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) in onze ontwikkelaarsdocumentatie.
+1. Logs plaatsen: [ Adobe Commerce op de logboeken van de wolkeninfrastructuur ](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) in onze ontwikkelaarsdocumentatie.
 1. Afhankelijk van de fouten die u vindt, als u een aangepaste module wilt in-, uitschakelen of verwijderen, bevatten deze artikelen in de ontwikkelaarsdocumentatie details over deze acties:
-   * [Extensies installeren, beheren en upgraden](https://devdocs.magento.com/guides/v2.3/cloud/howtos/install-components.html).
-   * [Implementatiefout component](https://devdocs.magento.com/guides/v2.3/cloud/trouble/trouble_comp-deploy-fail.html).
+   * [ installeer, beheer, en bevorder uitbreidingen ](https://devdocs.magento.com/guides/v2.3/cloud/howtos/install-components.html).
+   * [ de mislukte plaatsing van de Component ](https://devdocs.magento.com/guides/v2.3/cloud/trouble/trouble_comp-deploy-fail.html).
 
 ## Gerelateerde lezing
 
 In onze documentatie voor ontwikkelaars:
 
-* [Overzicht van module](https://devdocs.magento.com/guides/v2.3/architecture/archi_perspectives/components/modules/mod_intro.html)
-* [Fouten bij het installeren van optionele voorbeeldgegevens](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_sample-data.html)
-* [Uitzonderingsafhandeling](https://devdocs.magento.com/guides/v2.3/graphql/develop/exceptions.html)
-* [Uitzonderingen tijdens installatie](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_exceptions.html)
-* [Module Manager uitvoeren](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-checklist.html)
-* [Moduleconfiguratiebestanden](https://devdocs.magento.com/guides/v2.3/config-guide/config/config-files.html)
-* [Onvoldoende geheugen](https://devdocs.magento.com/guides/v2.3/comp-mgr/trouble/cman/out-of-memory.html)
+* [ Overzicht van de Module ](https://devdocs.magento.com/guides/v2.3/architecture/archi_perspectives/components/modules/mod_intro.html)
+* [ Fouten die facultatieve steekproefgegevens installeren ](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_sample-data.html)
+* [ Uitzondering behandeling ](https://devdocs.magento.com/guides/v2.3/graphql/develop/exceptions.html)
+* [ Uitzonderingen tijdens installatie ](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_exceptions.html)
+* [ stel de Manager van de Module in werking ](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-checklist.html)
+* [ de configuratiedossiers van de Module ](https://devdocs.magento.com/guides/v2.3/config-guide/config/config-files.html)
+* [ uit geheugenfouten ](https://devdocs.magento.com/guides/v2.3/comp-mgr/trouble/cman/out-of-memory.html)

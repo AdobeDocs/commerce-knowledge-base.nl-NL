@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Afgeschreven Google-afbeeldingen vervangen door afbeeldingen
 
-De meeste Adobe Commerce-versies en -versies worden momenteel gebruikt [Google-afbeeldingen](https://developers.google.com/chart/image/) om statische grafieken in Admin dashboards terug te geven. Vanaf 14 maart 2019 biedt Google geen ondersteuning meer voor Google Image Charts. Om dit probleem op te lossen, bieden we een patch waarmee we Google Image Charts kunnen vervangen door [Afbeeldingsgrafieken](https://www.image-charts.com/) gratis diensten.
+De meeste uitgaven en de versies van Adobe Commerce gebruiken momenteel {de Grafieken van het Beeld van 0} Google ](https://developers.google.com/chart/image/) om statische grafieken in dashboards terug te geven Admin. [ Vanaf 14 maart 2019 biedt Google geen ondersteuning meer voor Google Image Charts. Om deze kwestie op te lossen, verstrekken wij een flard om de Grafieken van het Beeld van Google met [ beeld-Grafieken ](https://www.image-charts.com/) vrije dienst te vervangen.
 
 ## Betrokken versies
 
@@ -26,7 +26,7 @@ De meeste Adobe Commerce-versies en -versies worden momenteel gebruikt [Google-a
 
 ## Probleem
 
-Google heeft op 14 maart 2019 de ondersteuning van Google Image Charts stopgezet. Gebruikers van Adobe Commerce 1.X en Adobe Commerce 2.2.X kunnen alleen statische diagrammen weergeven als ze de patch downloaden en toepassen en Google Image Charts vervangen door Image-Charts. Weergegeven grafieken hebben hetzelfde ontwerp en dezelfde functionaliteit als Google Image Charts via de gratis accountservice Image-Charts met een [GDPR](https://www.image-charts.com/data-processing-addendum.html) privacybeleid naleven. Zie voor meer opties [Afbeeldingsgrafieken](https://www.image-charts.com/).
+Google heeft op 14 maart 2019 de ondersteuning van Google Image Charts stopgezet. Gebruikers van Adobe Commerce 1.X en Adobe Commerce 2.2.X kunnen alleen statische diagrammen weergeven als ze de patch downloaden en toepassen en Google Image Charts vervangen door Image-Charts. De getoonde grafieken zullen het zelfde ontwerp en de functionaliteit van de Grafieken van het Beeld van Google door de beeld-Grafieken vrije rekeningsdienst met a [ GDPR ](https://www.image-charts.com/data-processing-addendum.html) nalevingsprivacybeleid hebben. Voor extra opties, te zien gelieve [ beeld-Grafieken ](https://www.image-charts.com/).
 
 ## Oplossing
 
@@ -34,25 +34,25 @@ Als u statische diagrammen wilt weergeven in de Commerce Admin, downloadt en pas
 
 ### Adobe Commerce ter plaatse
 
-1. Sla de [bijgevoegde MAGETWO-98833\_composer\_patch-2019-04-15-04-38-57.patch](assets/MAGETWO-98833_composer_patch-2019-04-15-04-38-57.patch.zip) te uploaden naar uw Adobe Commerce-hoofdmap.
+1. Sparen [ in bijlage MAGETWO-98833 \_composer\_patch-2019-04-15-04-38-57.patch ](assets/MAGETWO-98833_composer_patch-2019-04-15-04-38-57.patch.zip) flard en upload het aan uw de wortelfolder van Adobe Commerce.
 1. Voer de volgende opdracht SSH uit, waarbij u de naam van de patch hebt vervangen door de naam van de feitelijke patch:
 
    ```git
    patch -p1 < MAGETWO-98833_composer_patch-2019-04-15-04-38-57.patch
    ```
 
-   Als de bovenstaande opdracht niet werkt, probeert u het `-p2` in plaats van `-p1`.)
+   Als de bovenstaande opdracht niet werkt, probeert u `-p2` in plaats van `-p1` .)
 
-1. Vernieuw de cache in Admin onder om de wijzigingen door te voeren **Systeem** > **Cachebeheer**.
+1. Voor de veranderingen die moeten worden weerspiegeld, vernieuw het geheime voorgeheugen in Admin onder **Systeem** > **het Beheer van het Geheime voorgeheugen**.
 
 ### Adobe Commerce over cloudinfrastructuur
 
 Voor Cloud-handelaren wordt de patch opgenomen in de dichtstbijzijnde ECE-tools-update.
 
-### Magento 2 open bron
+### Magento 2 Open Source
 
-1. Ga naar [https://magento.com/tech-resources/download\#download2291](https://magento.com/tech-resources/download#download2291).
-1. In de **Selecteer uw indeling** vervolgkeuzelijst, selecteert u de componentversie en klikt u op **Downloaden**.
+1. Ga naar [ https://magento.com/tech-resources/download \ #download2291 ](https://magento.com/tech-resources/download#download2291).
+1. In **selecteer uw formaat** drop-down lijst, selecteer de composerversie en klik **Download**.
 1. Upload de patch naar uw Adobe Commerce-hoofdmap.
 1. Voer de volgende opdracht SSH uit, waarbij u de naam van de patch hebt vervangen door de naam van de feitelijke patch:
 
@@ -60,37 +60,37 @@ Voor Cloud-handelaren wordt de patch opgenomen in de dichtstbijzijnde ECE-tools-
    patch -p1 < MAGETWO-98833_composer_patch-2019-04-15-04-37-48.patch
    ```
 
-   (Als de bovenstaande opdracht niet werkt, probeert u het `-p2` in plaats van `-p1`.)
+   (Als de bovenstaande opdracht niet werkt, probeert u `-p2` in plaats van `-p1` .)
 
-1. Vernieuw de cache in Admin onder om de wijzigingen door te voeren **Systeem** > **Cachebeheer**.
+1. Voor de veranderingen die moeten worden weerspiegeld, vernieuw het geheime voorgeheugen in Admin onder **Systeem** > **het Beheer van het Geheime voorgeheugen**.
 
 ### Adobe Commerce 1 ter plaatse
 
 Ga als volgt te werk om de patch te downloaden en toe te passen:
 
-1. Sla de [Bijgevoegde MPERF-10509-EE-2019-03-13-06-32-19.diff](assets/MPERF-10509-EE-2019-03-13-06-32-19.diff.zip) te uploaden naar uw Adobe Commerce-hoofdmap.
+1. Sparen [ in bijlage MPERF-10509-EE-2019-03-13-06-32-19.diff ](assets/MPERF-10509-EE-2019-03-13-06-32-19.diff.zip) flard en upload het aan uw de wortelfolder van Adobe Commerce.
 1. Voer de volgende SSH-opdracht uit:
 
    ```git
    patch -p1 < MPERF-10509-EE-2019-03-13-06-32-19.diff
    ```
 
-   (Als de bovenstaande opdracht niet werkt, probeert u het `-p2` in plaats van `-p1`.)
+   (Als de bovenstaande opdracht niet werkt, probeert u `-p2` in plaats van `-p1` .)
 
-1. Vernieuw de cache in Admin onder om de wijzigingen door te voeren **Systeem** > **Cachebeheer**.
+1. Voor de veranderingen die moeten worden weerspiegeld, vernieuw het geheime voorgeheugen in Admin onder **Systeem** > **het Beheer van het Geheime voorgeheugen**.
 
-### Magento 1 open bron
+### Magento 1 Open Source
 
 Ga als volgt te werk om de patch te downloaden en toe te passen:
 
-1. Klikken [**deze koppeling**](https://magento.com/tech-resources/download#download2283) om de patch voor dashboardgrafieken voor beheerders te vinden.
+1. Klik [**deze verbinding** ](https://magento.com/tech-resources/download#download2283) om van de Reparatie van de Havens van het Dashboard van Admin de plaats te bepalen.
 1. Selecteren
 
    ```git
    MPERF-10509.diff
    ```
 
-   van de **Selecteer uw indeling** en klik op Downloaden.
+   van **selecteer uw formaat** drop-down en klik Download.
 
 1. Upload het bestand naar de hoofdmap van Adobe Commerce.
 1. Voer de volgende SSH-opdracht uit:
@@ -99,9 +99,9 @@ Ga als volgt te werk om de patch te downloaden en toe te passen:
    patch -p1 < MPERF-10509.diff
    ```
 
-   (Als de bovenstaande opdracht niet werkt, probeert u het `-p2` in plaats van `-p1`.)
+   (Als de bovenstaande opdracht niet werkt, probeert u `-p2` in plaats van `-p1` .)
 
-1. Vernieuw de cache in Admin onder om de wijzigingen door te voeren **Systeem** > **Cachebeheer**.
+1. Voor de veranderingen die moeten worden weerspiegeld, vernieuw het geheime voorgeheugen in Admin onder **Systeem** > **het Beheer van het Geheime voorgeheugen**.
 
 ## Bijgevoegde bestanden
 

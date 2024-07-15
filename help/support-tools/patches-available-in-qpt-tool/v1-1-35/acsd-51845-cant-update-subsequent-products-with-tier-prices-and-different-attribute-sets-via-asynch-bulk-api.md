@@ -1,6 +1,6 @@
 ---
-title: "ACSD-51845: Kan volgende producten met prijzen op lagen en verschillende kenmerksets niet bijwerken via asynchrone bulksgewijs [!DNL API]"
-description: Pas de ACSD-51845-patch toe om het Adobe Commerce-probleem op te lossen, waarbij u volgende producten niet via asynchrone bulksgewijs kunt bijwerken met prijzen op lagen en verschillende kenmerksets [!DNL REST API].
+title: "ACSD-51845: Kan volgende producten met laagprijzen en verschillende kenmerksets niet bijwerken via asynch bulk  [!DNL API]"
+description: Pas ACSD-51845 flard toe om de kwestie van Adobe Commerce te bevestigen waar u geen verdere producten met laagprijzen en verschillende attributenreeksen via asynchrone bulk  [!DNL REST API] kunt bijwerken.
 feature: REST, Products
 role: Admin
 exl-id: c3fff9f2-30ad-4bcb-945e-e9e0c69630b3
@@ -11,58 +11,58 @@ ht-degree: 0%
 
 ---
 
-# ACSD-51845: Kan volgende producten met prijzen op lagen en verschillende kenmerksets niet bijwerken via asynchrone bulksgewijs [!DNL API]
+# ACSD-51845: Kan volgende producten met prijzen op lagen en verschillende kenmerksets niet bijwerken via asynch bulksgewijs [!DNL API]
 
-De ACSD-51845-patch verhelpt het probleem dat u volgende producten met prijzen op lagen en verschillende kenmerksets niet via asynchrone bulksgewijs kunt bijwerken [!DNL REST API]. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.35 is geïnstalleerd. De patch-id is ACSD-51845. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-51845-patch verhelpt het probleem dat u volgende producten met prijzen op lagen en verschillende kenmerksets niet via asynchrone bulksgewijs kunt bijwerken [!DNL REST API]. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.35 wordt geïnstalleerd. De patch-id is ACSD-51845. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.5-p2
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.6-p1
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-Update mislukt voor volgende producten met laagprijzen en verschillende kenmerksets via asynchrone bulksgewijs [!DNL REST API].
+Update mislukt voor volgende producten met laagprijzen en verschillende kenmerksets via asynchrone bulksgewijs [!DNL REST API] .
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Configureren [!DNL RabbitMQ].
+1. Configureer [!DNL RabbitMQ].
 1. Maak twee kenmerkensets.
-1. Twee maken **Eenvoudige producten**, waarbij elk product wordt toegewezen aan een andere kenmerkset.
-1. Voeg een **Prijs van klantengroep** voor elk product.
-1. Beide producten in dezelfde bulk bijwerken [!DNL API] bijwerken.
-1. Zorg ervoor dat de `bin/magento queue:consumers:start async.operations.all` wordt uitgevoerd.
-1. De massa controleren [!DNL API] status.
+1. Creeer twee **Eenvoudige Producten**, toewijzend elk product aan een verschillende geplaatste attributen.
+1. Voeg de Prijs van de Groep van de a **Klant** voor elk product toe.
+1. Werk beide producten bij in dezelfde bulkupdate van [!DNL API] .
+1. Controleer of de opdracht `bin/magento queue:consumers:start async.operations.all` wordt uitgevoerd.
+1. Controleer de status van het bulkbestand [!DNL API] .
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De service is uitgevoerd.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-Het systeem retourneert het foutbericht: *Kan het product niet opslaan. Probeer het opnieuw.*
+Het systeem keert de foutenmelding terug: *het product kon niet worden bewaard. Probeer het opnieuw.*
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

@@ -21,7 +21,7 @@ Dit artikel praat over hoe te om de kwesties te bevestigen die door de encryptie
 
 ## Probleem
 
-Nadat u een [databasedruk](/help/how-to/general/create-database-dump-on-cloud.md) van Productie tot Staging/Integratie-omgevingen, de opgeslagen creditcardnummers lijken onjuist en/of betalingen mislukken voor betalingsintegraties die het gebruik van zakelijke gegevens vereisen.
+Na het invoeren van a [ gegevensbestandstortplaats ](/help/how-to/general/create-database-dump-on-cloud.md) van Productie aan het Opvoeren/de milieu&#39;s van de Integratie, verschijnen de bewaarde creditcardaantallen verkeerd en/of de betalingen ontbreken voor betalingsintegratie die gebruik van koopvaardijgeloofsbrieven vereisen.
 
 ## Oorzaak
 
@@ -33,9 +33,9 @@ U moet de encryptiesleutel van het bronmilieu kopiëren en het toevoegen aan het
 
 De coderingssleutel kopiëren:
 
-1. SSH aan uw project dat de bron voor de gegevensbestandstortplaats was, zoals die in wordt beschreven [SSH naar omgeving](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in onze ontwikkelaarsdocumentatie.
-1. Openen `app/etc/env.php` in een teksteditor.
-1. De waarde kopiëren van `key` for `crypt`.
+1. SSH aan uw project dat de bron voor de gegevensbestandstortplaats was, zoals die in [ SSH aan milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in onze ontwikkelaarsdocumentatie wordt beschreven.
+1. Open `app/etc/env.php` in een teksteditor.
+1. Kopieer de waarde van `key` for `crypt` .
 
 ```php
 return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
@@ -43,13 +43,13 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 
 Om de belangrijkste waarde voor het bestemmingsproject te plaatsen:
 
-1. Open de [Cloud Console](https://console.adobecommerce.com) en zoek uw project.
-1. Stel de waarde van de optie [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) (in onze ontwikkelaarsdocumentatie), zoals beschreven in [Uw project configureren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) in onze ontwikkelaarsdocumentatie. Dit zal het plaatsingsproces teweegbrengen en `CRYPT_KEY` wordt overschreven in het dialoogvenster `app/etc/env.php` bestand bij elke implementatie.
+1. Open de [ Console van de Wolk ](https://console.adobecommerce.com) en bepaal de plaats van uw project.
+1. Plaats de waarde van [ CRYPT \_KEY ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) (in onze ontwikkelaarsdocumentatie) variabele, zoals die in [ wordt beschreven uw project ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) in onze ontwikkelaarsdocumentatie vormt. Hierdoor wordt het implementatieproces geactiveerd en wordt `CRYPT_KEY` bij elke implementatie overschreven in het `app/etc/env.php` -bestand.
 
-U kunt desgewenst de coderingssleutel handmatig overschrijven in het dialoogvenster `app/etc/env.php` bestand:
+U kunt desgewenst de coderingssleutel in het `app/etc/env.php` -bestand handmatig overschrijven:
 
 1. SSH aan het bestemmingsmilieu.
-1. Openen `app/etc/env.php` in een teksteditor.
-1. De gekopieerde gegevens plakken als de `key` waarde voor `crypt`.
-1. Bewerkte opslaan `env.php`.
-1. Cache opschonen in de doelomgeving door het programma uit te voeren `bin/magento cache:clean` of in Commerce Admin onder **Systeem** > **Gereedschappen** > **Cachebeheer**.
+1. Open `app/etc/env.php` in een teksteditor.
+1. Plak de gekopieerde gegevens als de `key` -waarde voor `crypt` .
+1. Sla het bewerkte bestand op `env.php` .
+1. Het schone geheime voorgeheugen op het bestemmingsmilieu door `bin/magento cache:clean` of in Commerce Admin in werking te stellen onder **Systeem** > **Hulpmiddelen** > **Beheer van het Geheime voorgeheugen**.

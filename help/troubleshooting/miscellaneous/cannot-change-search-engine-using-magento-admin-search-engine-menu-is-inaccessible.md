@@ -15,14 +15,14 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [De zoekfunctie voor MySQL-catalogus wordt verwijderd uit Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). U moet de Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd.
+> [ MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd.
 > 
 > Zie:
-> [Elasticsearch installeren en configureren](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
-> [Openssearch installeren en configureren](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
-> [Live zoeken installeren en configureren](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
+> [Installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+> [Openssearch installeren en configureren ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
+> [Live zoeken installeren en configureren ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
 
-Dit artikel biedt een oplossing voor het wijzigen van de Adobe Commerce Search Engine met behulp van Commerce Admin als de **Zoekmachine** wordt niet weergegeven of **Systeemwaarde gebruiken** het selectievakje is grijs weergegeven en is niet toegankelijk.
+Dit artikel verstrekt een oplossing om de Motor van het Onderzoek van Adobe Commerce te veranderen gebruikend Commerce Admin als het **gebied van de Motor van het Onderzoek** niet wordt getoond of het **het systeemwaarde** checkbox van het Gebruik uit grayed en niet toegankelijk is.
 
 In dit artikel:
 
@@ -41,48 +41,48 @@ In dit artikel:
 
 ## Zoekmachine wijzigen met de beheerfunctie (stappen)
 
-1. Aanmelden bij de **[!UICONTROL Admin]** als beheerder.
-1. Aan de linkerkant van het **[!UICONTROL Admin]** zijbalk, klik op **[!UICONTROL Stores]**.
-1. Onder **[!UICONTROL Settings]**, kiest u **[!UICONTROL Configuration]**.
-1. Navigeer naar het deelvenster links onder **[!UICONTROL Catalog],** en kiest u **[!UICONTROL Catalog]**.
-1. Breid uit **[!UICONTROL Catalog Search]** sectie.    ![catalog_menu.png](assets/catalog_menu.png)
-1. Ga naar de **[!UICONTROL Search Engine]** veld en selectie verwijderen uit **[!UICONTROL Use system value]** selectievakje.
-1. Klik op de knop **[!UICONTROL Search Engine]** en selecteert u een van de beschikbare opties zoals hieronder weergegeven.    ![search_engine_menu.png](assets/search_engine_menu.png)
-1. Klikken op **[!UICONTROL Save Config]** rechtsboven op de pagina.
+1. Meld u als beheerder aan bij de **[!UICONTROL Admin]** .
+1. Klik links in de zijbalk van **[!UICONTROL Admin]** op **[!UICONTROL Stores]** .
+1. Kies onder **[!UICONTROL Settings]** de optie **[!UICONTROL Configuration]** .
+1. Navigeer naar het deelvenster links onder **[!UICONTROL Catalog]en kies** . **[!UICONTROL Catalog]**
+1. Vouw de sectie **[!UICONTROL Catalog Search]** uit.    ![ catalog_menu.png ](assets/catalog_menu.png)
+1. Ga naar het veld **[!UICONTROL Search Engine]** en verwijder de selectie uit het selectievakje **[!UICONTROL Use system value]** .
+1. Klik op het menu **[!UICONTROL Search Engine]** en selecteer een van de beschikbare opties zoals hieronder wordt weergegeven.    ![ search_engine_menu.png ](assets/search_engine_menu.png)
+1. Klik op **[!UICONTROL Save Config]** rechtsboven op de pagina.
 
 ## Problemen met Adobe Commerce op locatie
 
 ### Probleem 1: het veld Zoekmachine wordt niet weergegeven
 
-Wanneer u toegang hebt tot **Catalogus zoeken** de **Zoekmachine** wordt helemaal niet weergegeven.
+Wanneer u tot het **sectie van het Onderzoek van de Catalogus toegang hebt**, wordt het **menu van de Motor van het Onderzoek** niet getoond bij allen.
 
-![search_engine_not_displayed.png](assets/search_engine_not_displayed.png)
+![ search_engine_not_displayed.png ](assets/search_engine_not_displayed.png)
 
 ### Oorzaak: Winkelweergave is geen standaardconfiguratie
 
-De winkelweergave voor de beheerder is ingesteld op een andere waarde dan *Standaardconfiguratie*.
+De Mening van de Opslag voor Admin is geplaatst aan om het even welke waarde buiten *StandaardConfig*.
 
 De zoekmachine is een algemene configuratie die is ingesteld op toepassingsniveau, niet op het winkelbereik. Winkels in een Adobe Commerce-toepassing kunnen geen andere zoekmachines gebruiken.
 
 ### Oplossing: de mening van de Opslag plaatsen aan Standaard Config
 
-1. Aanmelden bij de **[!UICONTROL Admin]** als beheerder.
-1. Aan de linkerkant van het **[!UICONTROL Admin]** zijbalk, klik op **[!UICONTROL Stores]**.
-1. Navigeren naar **[!UICONTROL Settings]** en kiest u **[!UICONTROL Configuration]**.
-1. Klik in de linkerbovenhoek op de knop **[!UICONTROL Store View]** selector en kies **[!UICONTROL *Standaardconfiguratie *]**.
-1. Klikken op **[!UICONTROL OK]** in het bevestigingsdialoogvenster om de wijzigingen in de winkelweergave goed te keuren.
+1. Meld u als beheerder aan bij de **[!UICONTROL Admin]** .
+1. Klik links in de zijbalk van **[!UICONTROL Admin]** op **[!UICONTROL Stores]** .
+1. Navigeer naar **[!UICONTROL Settings]** en kies **[!UICONTROL Configuration]** .
+1. In de upper-left hoek, klik de **[!UICONTROL Store View]** selecteur en kies **[!UICONTROL *Standaard Config *]**.
+1. Klik op **[!UICONTROL OK]** in het bevestigingsdialoogvenster om de wijzigingen in de winkelweergave goed te keuren.
 
-![change_store_view.png](assets/change_store_view.png)
+![ change_store_view.png ](assets/change_store_view.png)
 
-**Verwante documentatie:** [Bereik wijzigen](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#set-the-scope) in onze gebruikershandleiding.
+**Verwante documentatie:** [ Veranderend Toepassingsgebied ](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#set-the-scope) in onze gebruikersgids.
 
 ### Uitgave 2: Kan &quot;Systeemwaarde gebruiken&quot; niet uitschakelen
 
-Wanneer u toegang hebt tot **Catalogus zoeken** van de Admin, de **Systeemwaarde gebruiken** het selectievakje is grijs weergegeven, zodat u de selectie van het selectievakje niet kunt verwijderen en de zoekfunctie later kunt wijzigen.
+Wanneer u tot het **gedeelte van het Onderzoek van de Catalogus** van Admin toegang hebt, wordt het **systeemwaarde van het Gebruik** checkbox grijs zodat kunt u geen selectie uit checkbox verwijderen om de onderzoeksmotor later te veranderen.
 
 ### Oorzaak
 
-De standaardzoekmachine is geconfigureerd op het niveau van de toepassingsconfiguratie in de `app/etc/env.php` of `app/etc/config.php` en kan dus niet worden gewijzigd met de beheerfunctie.
+De standaardzoekmachine is geconfigureerd op het niveau van de toepassingsconfiguratie in de `app/etc/env.php` - of `app/etc/config.php` -bestanden en kan daarom niet worden gewijzigd met de beheerfunctie.
 
 Voorbeeld van de sectie met standaardconfiguratie van zoekprogramma&#39;s:
 
@@ -104,27 +104,27 @@ array (
 
 ### Oplossing
 
-Verwijder de sectie met de standaardconfiguratie van de zoekmachine uit de `app/etc/env.php` of de `app/etc/config.php` configuratiebestanden.
+Verwijder de sectie met de standaardconfiguratie van de zoekmachine uit de `app/etc/env.php` - of `app/etc/config.php` -configuratiebestanden.
 
 ### Verwante artikelen in onze ontwikkelaarsdocumentatie
 
-[Adobe Commerce-configuratiebestanden](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/deployment-files.html) in Adobe Commerce-configuratiegids
+[ de configuratiedossiers van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/deployment-files.html) in de Gids van de Configuratie van Adobe Commerce
 
 ## Adobe Commerce over cloudinfrastructuur
 
 Wisselende zoekprogramma&#39;s met de Admin zijn niet beschikbaar in Adobe Commerce op cloudinfrastructuur vanwege de manier waarop de cloudinfrastructuur is georganiseerd.
 
-Tijdens het implementatieproces controleert de Adobe Commerce op implementatiescripts van de cloudinfrastructuur of Elasticsearch is gedeclareerd in de `MAGENTO_CLOUD_RELATIONSHIPS` variabele. Indien gedeclareerd, wordt Elasticsearch geselecteerd als de actieve zoekmachine en automatisch geconfigureerd; de [MySQL-zoekprogramma](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) ontoegankelijk wordt in de Admin. Als de relatie van de Elasticsearch niet is verklaard, wordt MySQL geplaatst aan actief, en de Elasticsearch wordt ontoegankelijk.
+Tijdens het implementatieproces controleert de Adobe Commerce op implementatiescripts van de cloud-infrastructuur of Elasticsearch is gedeclareerd in de variabele `MAGENTO_CLOUD_RELATIONSHIPS` . Als verklaard, wordt de Elasticsearch geselecteerd als actieve onderzoeksmotor en automatisch gevormd; de [ MySQL onderzoeksmotor ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) wordt ontoegankelijk in Admin. Als de relatie van de Elasticsearch niet is verklaard, wordt MySQL geplaatst aan actief, en de Elasticsearch wordt ontoegankelijk.
 
-Het wordt niet aanbevolen om de `app/etc/env.php` of de `app/etc/config.php` configuratiebestanden rechtstreeks in uw cloud-omgeving te configureren; daarom is het niet van toepassing op uw cloud-project om de Elasticsearch-engine in Admin weer te geven (de oplossing die we in de vorige sectie aanbevelen).
+Het wordt afgeraden de `app/etc/env.php` - of `app/etc/config.php` -configuratiebestanden rechtstreeks in uw cloud-omgeving te bewerken. Daarom is het niet van toepassing om deze bestanden te wijzigen zodat de Elasticsearch-engine in Admin wordt weergegeven (de oplossing die we in de vorige sectie aanbevelen).
 
 ### Zoekmachine wijzigen in een testomgeving en productieomgeving
 
-Voordat u van MySQL naar Elasticsearch overschakelt op uw Staging- en Productomgevingen, moet u ervoor zorgen dat u eerder [een ondersteuningsticket hebben ingediend](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) het verzoek om Elasticsearch op het milieu toe te staan en het ticket is met succes opgelost .
+Alvorens de onderzoeksmotor van MySQL aan Elasticsearch op uw het Opvoeren en milieu&#39;s van de Productie te schakelen, zorg ervoor u eerder [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) verzoekend hebt voorgelegd om Elasticsearch op het milieu toe te laten en het kaartje met succes is opgelost.
 
-Als u de zoekfunctie wilt wijzigen die wordt gebruikt in uw staging- en productieomgeving, wijzigt u de instelling `SEARCH_CONFIGURATION` omgevingsvariabele in uw `.magento.env.yaml` bestand in uw lokale omgeving en druk vervolgens op de wijzigingen in de omgevingen Integratie en Staging/Production om van kracht te worden.
+Als u het zoekprogramma wilt wijzigen dat wordt gebruikt in uw staging- en productieomgeving, wijzigt u de omgevingsvariabele `SEARCH_CONFIGURATION` in het `.magento.env.yaml` -bestand in uw lokale omgeving en duwt u vervolgens de wijzigingen in de omgevingen Integratie en Staging/Productie om van kracht te worden.
 
-Als u overschakelt naar Elasticsearch 7, de variabele SEARCH\_CONFIGURATION in het resulterende `.magento.env.yaml` Het bestand kan er als volgt uitzien:
+Als u overschakelt naar Elasticsearch 7, ziet de variabele SEARCH\_CONFIGURATION in het resulterende `.magento.env.yaml` -bestand er mogelijk als volgt uit:
 
 ```yaml
 stage:
@@ -137,7 +137,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-Als u overschakelt naar [Openssearch (in 2.4.6 en hoger)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search) de variabele SEARCH\_CONFIGURATION in het resulterende `.magento.env.yaml` Het bestand kan er als volgt uitzien:
+Als u aan [ OpenSearch (in 2.4.6 en later,) ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search) schakelt zou de variabele ZOEKEN \_CONFIGURATION in het resulterende `.magento.env.yaml` dossier als volgt kunnen kijken:
 
 ```yaml
 stage:
@@ -150,7 +150,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-Als u [schakelen naar Live zoeken](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch), de variabele SEARCH\_CONFIGURATION in het resultaat `.magento.env.yaml` Het bestand kan er als volgt uitzien:
+Als u [ overschakelt naar Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch), zou de variabele ZOEKEN \_CONFIGURATION in het resulterende `.magento.env.yaml` dossier als volgt kunnen kijken:
 
 ```yaml
 stage:
@@ -167,8 +167,8 @@ stage:
 
 #### Documentatie voor ontwikkelaars
 
-* [Service Elasticsearch instellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html)
-* [Samenstellen en implementeren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) (documentatie over de `.magento.env.yaml` configuratiebestand)
-* [Variabelen implementeren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) ([Sectie ZOEKEN\_CONFIGURATIE](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#search_configuration))
-* [Services](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html) (documentatie over de `.magento/services.yaml` configuratiebestand)
-* [Live zoeken](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
+* [ de dienst van de Elasticsearch van de opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html)
+* [ bouwt en stelt ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) (documentatie over het `.magento.env.yaml` configuratiedossier op)
+* [ stelt variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) op ([ ZOEKEN \_CONFIGURATION sectie ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#search_configuration))
+* [ de Diensten ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html) (documentatie over het `.magento/services.yaml` configuratiedossier)
+* [ Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)

@@ -13,44 +13,44 @@ ht-degree: 0%
 
 # ACSD-54680: B2B Citaat voor een product met Veelvoudige Toegewezen Bronnen kan niet worden verwerkt.
 
-De ACSD-54680-patch verhelpt het probleem waarbij het B2B-citaat voor een product met Meerdere toegewezen bronnen niet kan worden verwerkt. Deze pleister is beschikbaar wanneer de [!DNL Quality Patches Tool (QPT)] 1.1.40 is geïnstalleerd. De patch-id is ACSD-54680. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
+De ACSD-54680-patch verhelpt het probleem waarbij het B2B-citaat voor een product met Meerdere toegewezen bronnen niet kan worden verwerkt. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.40 wordt geïnstalleerd. De patch-id is ACSD-54680. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.3
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.0 - 2.4.5-p5
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 B2B Citaat voor een product met Veelvoudige Toegewezen Bronnen kan niet worden verwerkt.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Sources]** en maak twee nieuwe bronnen: **Bron 1** en **Bron 2**.
-1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Stocks]** en een nieuwe voorraad aanmaken: **Voorraad A**, en wijst u deze toe aan de hoofdwebsite **Bron 1** en **Bron 2** aan de Commissie.
-1. Een eenvoudig product maken, toewijzen **Bron 1** en **Bron 2** en stelt Qty = in *2* voor elke bron. (de verkoopbare hoeveelheid van het product moet *4* als gevolg daarvan).
+1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Sources]** en creeer twee nieuwe bronnen: **Source 1** en **Source 2**.
+1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Stocks]** en creeer een nieuwe Beeld: **Beeld A**, wijs het aan de belangrijkste website toe, en wijs **Source 1** en **Source 2** aan het toe.
+1. Creeer een Eenvoudig product, wijs **Source 1** en **Source 2** toe, en plaats Qty = *2* voor elke bron. (de verkoopbare hoeveelheid van het product zou *4* als resultaat moeten zijn).
 1. Maak een bedrijfsaccount.
-1. Ga naar de **[!UICONTROL Storefront]** en meld u aan bij de bedrijfsaccount.
-1. Voeg het eenvoudige product toe aan het winkelwagentje met hoeveelheid = *4*.
-1. Open de *[!UICONTROL Shopping cart]* en klik op **[!UICONTROL Request a quote]** knop.
-1. Voeg een opmerking en een aanhalingsteken toe en klik op **[!UICONTROL Send a Request]** knop.
-1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
+1. Ga naar **[!UICONTROL Storefront]** en meld u aan bij de bedrijfsaccount.
+1. Voeg het eenvoudige product aan het winkelwagentje met hoeveelheid toe = *4*.
+1. Open *[!UICONTROL Shopping cart]* en klik op **[!UICONTROL Request a quote]** knop.
+1. Voeg een opmerking en aanhalingsteken toe en klik op **[!UICONTROL Send a Request]** .
+1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** .
 1. Onlangs verzonden offerte openen.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De vermelde items bevatten het geordende product.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De pagina-sectie met items waarnaar wordt verwezen, is leeg en het is niet mogelijk om het aanhalingsteken te verwerken.
 `var/log/system.log` contains
@@ -63,14 +63,14 @@ report.CRITICAL: TypeError: number_format() expects parameter 1 to be float, nul
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

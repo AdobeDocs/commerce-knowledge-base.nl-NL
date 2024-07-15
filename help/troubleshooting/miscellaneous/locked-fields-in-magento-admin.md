@@ -22,36 +22,36 @@ Dit artikel biedt een oplossing voor het geval dat u geen velden in Commerce Adm
 
 ## Probleem
 
-Nadat u een wijziging in uw configuratie hebt opgeslagen in `app/etc/env.php` of `app/etc/config.php`kunt u de instelling in Beheer niet wijzigen.
+Nadat u een wijziging in uw configuratie in `app/etc/env.php` of `app/etc/config.php` hebt opgeslagen, kunt u de instelling niet meer wijzigen in Beheer.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
 Opmerking: dit is een voorbeeld. De uitgave kan van invloed zijn op alle configuraties die zijn opgeslagen.
 
-1. De handelaar bewaart hun geloofsbrieven van leveringsmethodes gebruikend het volgende bevel in de terminal: `./vendor/bin/ece-tools config:dump`. Hiermee worden de gegevens opgeslagen in het dialoogvenster `app/etc/env.php` bestand.
+1. De handelaar bewaart hun geloofsbrieven van leveringsmethodes gebruikend het volgende bevel in de terminal: `./vendor/bin/ece-tools config:dump`. Hiermee worden de gegevens in het `app/etc/env.php` -bestand opgeslagen.
 1. De handelaar probeert dan om de geloofsbrieven later te veranderen.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De handelaar kan de waarden in de Admin gebiedsmontages plaatsen en hen bewaren.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 De velden in Beheer zijn vergrendeld of de waarden kunnen worden gewijzigd, maar worden niet opgeslagen in Beheer.
 
 ## Oorzaak
 
-Wanneer de configuratie wordt opgeslagen naar `env.php` of `config.php`kunt u de instelling in Beheer niet wijzigen. Als u het bewerken van de instelling wilt toestaan, moet u de configuratie verwijderen uit `env.php` of `config.php`.
+Wanneer de configuratie wordt opgeslagen in `env.php` of `config.php` , kunt u de instelling niet wijzigen in de beheerfunctie. Als u het bewerken van de instelling wilt toestaan, moet u de configuratie verwijderen uit `env.php` of `config.php` .
 
 ## Oplossing
 
-Zorg ervoor dat de configuratie niet is bewaard aan `app/etc/env.php` of `app/etc/config.php`. Voer de volgende stappen uit als het bestand is opgeslagen:
+Controleer of de configuratie niet is opgeslagen in `app/etc/env.php` of `app/etc/config.php` . Voer de volgende stappen uit als het bestand is opgeslagen:
 
-* `config.php` - Verwijder de instelling en wijzig de implementatie.
-* `env.php` - Wijzig dit rechtstreeks op de server en verwijder de instelling en voer vervolgens uit `bin/magento app:config:import`.
+* `config.php` - Verwijder de instelling en herimplementeer deze.
+* `env.php` - Wijzig dit rechtstreeks op de server en verwijder de instelling en voer `bin/magento app:config:import` uit.
 
 ## Verwante lezing
 
-* [De configuratie exporteren](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings) in onze ontwikkelaarsdocumentatie.
-* [Configuratiewaarden instellen](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set) in onze ontwikkelaarsdocumentatie.
-* [Adobe Commerce op cloudinfrastructuur: implementatiedowntime verminderen met configuratiebeheer](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in onze kennisbasis voor ondersteuning.
+* [ voer de Configuratie ](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings) in onze ontwikkelaarsdocumentatie uit.
+* [ plaats de waarden van de Configuratie ](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set) in onze ontwikkelaarsdocumentatie.
+* [ Adobe Commerce op wolkeninfrastructuur: verminder plaatsingsonderbreking met het Beheer van de Configuratie ](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in onze steun kennisbasis.

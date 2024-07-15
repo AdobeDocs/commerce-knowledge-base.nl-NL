@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0: Selecties toevoegen aan mijn winkelwagentje werkt niet
 
-Dit artikel biedt een oplossing voor een probleem met een verbroken knop dat bekend is in de Commerce Admin wanneer u het winkelwagentje van een klant beheert. Wanneer u bepaalde producten aan het winkelwagentje van een klant probeert toe te voegen, **Selecties toevoegen aan mijn winkelwagentje** de knop onder aan de sectie werkt niet. Dit probleem doet zich voor op elke pagina in het deelvenster Beheer die twee **Selecties toevoegen aan mijn winkelwagentje** knoppen. In Adobe Commerce 2.4.1 is een permanente oplossing beschikbaar.
+Dit artikel biedt een oplossing voor een probleem met een verbroken knop dat bekend is in de Commerce Admin wanneer u het winkelwagentje van een klant beheert. Wanneer het proberen om geselecteerde producten aan het winkelwagentje van een klant toe te voegen, **voegt selecties aan mijn wortel** knoop toe die op de bodem van de sectie wordt gevestigd niet. Deze kwestie komt op om het even welke Admin paneelpagina voor die twee **bevat toevoegt selecties aan mijn wortel** knopen. In Adobe Commerce 2.4.1 is een permanente oplossing beschikbaar.
 
 ## Betrokken producten en versies
 
@@ -21,27 +21,27 @@ Dit artikel biedt een oplossing voor een probleem met een verbroken knop dat bek
 
 ## Probleem
 
-<u>Stappen om te reproduceren</u>
+<u> Stappen om te reproduceren </u>
 
-1. Navigeer naar een pagina in het deelvenster Beheer die twee pagina&#39;s bevat **Selecties toevoegen aan mijn winkelwagentje** knoppen.
+1. Navigeer aan om het even welke Admin paneelpagina die twee **bevat toevoegt selecties aan mijn wortel** knopen.
 1. Selecteer objecten die je aan mijn winkelwagentje wilt toevoegen.
-1. Klik op de knop **Selecties toevoegen aan mijn winkelwagentje** onder aan de sectie.
+1. Klik **toevoegen selecties aan mijn wortel** knoop die op de bodem van de sectie wordt gevestigd.
 
-<u>Verwacht resultaat</u>
+<u> Verwacht resultaat </u>
 
 Alle selecties worden aan mijn winkelwagentje toegevoegd zoals u had verwacht.
 
-<u>Werkelijk resultaat</u>
+<u> Werkelijk resultaat </u>
 
 Adobe Commerce voegt je selecties niet toe aan mijn winkelwagentje.
 
 ## Oplossing
 
-De **Selecties toevoegen aan mijn winkelwagentje** de knop boven aan de pagina werkt nog steeds. Het probleem zal naar verwachting worden opgelost in Adobe Commerce versie 2.4.1, die in het vierde kwartaal van dit jaar zal worden uitgebracht.
+**voegt selecties aan mijn wortel** knoop toe die op de bovenkant van de pagina wordt gevestigd nog werkt. Het probleem zal naar verwachting worden opgelost in Adobe Commerce versie 2.4.1, die in het vierde kwartaal van dit jaar zal worden uitgebracht.
 
 ## Gerelateerde lezing
 
-* [MerchDocs&#39; Een winkelwagentje beheren](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html) in onze gebruikershandleiding.
-* [Bekende uitgave van Adobe Commerce 2.4.0: onbewerkte weergave van berichtgegevens op winkel](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md) in onze kennisbasis voor ondersteuning.
-* [Bekende uitgave van Adobe Commerce 2.4.0: Export Tax Rates werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md) in onze kennisbasis voor ondersteuning.
-* [Bekende uitgave van Adobe Commerce 2.4.0: Betalingsmethoden voor Braintree worden niet weergegeven bij de afhandeling van meerdere adressen](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md) in onze kennisbasis voor ondersteuning.
+* [ MerchDocs het Leiden een het Winkelen Kart ](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html) in onze gebruikersgids.
+* [ Adobe Commerce 2.4.0 gekende kwestie: de ruwe vertoning van berichtgegevens op opslag ](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md) in onze basis van steunkennis.
+* [ Adobe Commerce 2.4.0 gekende kwestie: De Tarieven van de Belasting van de uitvoer werken niet ](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md) in onze steunkennisbasis.
+* [ Adobe Commerce 2.4.0 gekende kwestie: De betalingsmethodes van de Braintree verschijnen niet in Veelvoudige Controle van Adressen ](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md) in onze basis van de steunkennis.

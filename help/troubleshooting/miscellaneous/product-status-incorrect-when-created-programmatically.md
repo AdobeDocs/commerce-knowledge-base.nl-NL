@@ -26,12 +26,12 @@ Wanneer de catalogusproducten programmatically van een manuscript met Adobe Comm
 
 ## Oorzaak
 
-De kwestie zou wegens ACL beperkingen kunnen verschijnen die voor de instantie van Adobe Commerce admin rollen worden geplaatst. In het geval van bootstrapped toepassing, zullen er geen geïnitialiseerde admin zittingen met aangewezen ACL montages zijn. Hierdoor zouden validaties mislukken in het dialoogvenster `Magento_AdminGws` die verantwoordelijk is voor het controleren van machtigingen voor dergelijke handelingen.
+De kwestie zou wegens ACL beperkingen kunnen verschijnen die voor de instantie van Adobe Commerce admin rollen worden geplaatst. In het geval van bootstrapped toepassing, zullen er geen geïnitialiseerde admin zittingen met aangewezen ACL montages zijn. Hierdoor zouden validaties mislukken in de module `Magento_AdminGws` , die verantwoordelijk is voor het controleren van machtigingen voor dergelijke handelingen.
 
 ## Oplossing voor onjuiste productstatus
 
-Stel een dynamische voorkeur in voor de `Magento\Framework\Authorization\PolicyInterface`, zoals beschreven in de [ObjectManager>Programmatische productupdates](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) in onze ontwikkelaarsdocumentatie.
+Plaats een dynamische voorkeur van DI voor `Magento\Framework\Authorization\PolicyInterface`, zoals die in het [ wordt beschreven ObjectManager>Programmatic product werkt ](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) onderwerp in onze ontwikkelaarsdocumentatie bij.
 
 ## Gerelateerde lezing
 
-* [Github: Kan de productstatus van het product dat met productRepository wordt gemaakt, niet wijzigen](https://github.com/magento/magento2/issues/5664)
+* [ Github: Kan productstatus niet veranderen die het product met productRepository ](https://github.com/magento/magento2/issues/5664) werd gecreeerd

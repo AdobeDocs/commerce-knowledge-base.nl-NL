@@ -20,24 +20,24 @@ In dit artikel wordt een bekende Adobe Commerce 2.4.0-uitgave met de betaalmetho
 * Adobe Commerce op locatie 2.4.0
 * Adobe Commerce over cloudinfrastructuur 2.4.0
 
-<u>Vereisten:</u> De betalingsmethode Klarna is ingeschakeld.
+<u> Eerste vereisten:</u> de betalingsmethode van Klarna wordt toegelaten.
 
-<u>Stappen om te reproduceren:</u>
+<u> Stappen om te reproduceren:</u>
 
-1. Ga in Commerce Admin naar **Winkels** > **Configuratie** > **Verkoop** > **Betalingsmethoden** > **Klarna** > **Klarna On-Site Messaging**.
-1. Set **Inschakelen** tot *Ja*.
-1. Laat de **Ontwerpthema** veld leeg.
-1. Configuratie opslaan door te klikken **Config opslaan**.
+1. In Commerce Admin, ga **>** Configuratie **>** Verkoop **>** de Methoden van de Betaling **>** Klarna **>** het Overseinen van Klarna On-Site **.**
+1. Plaats **laat** toe *ja*.
+1. Verlaat het **thema van het Ontwerp** gebiedsspatie.
+1. Sparen configuratie door **te klikken sparen Config**.
 1. Ga naar de winkel en ga naar een willekeurige productpagina.
 
-<u>Verwacht resultaat:</u>
+<u> Verwacht resultaat:</u>
 
 De pagina wordt geladen met het standaardontwerpthema dat is toegepast voor het on-site berichtenverkeer van Klarna.
 
-<u>Werkelijk resultaat:</u>
+<u> Ware resultaat:</u>
 
 Er wordt een lege pagina weergegeven.
 
 ## Oplossing
 
-Als het toelaten van het Klarna onsite overseinen, zorg altijd ervoor dat **Ontwerpthema** veld is niet leeg.
+Als het toelaten van het Klarna onsite overseinen, zorg altijd ervoor dat het **het thema** gebied van het Ontwerp niet leeg is.

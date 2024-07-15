@@ -13,48 +13,48 @@ ht-degree: 0%
 
 # MDVA-39163: Verzendmethoden niet beschikbaar voor nieuwe geregistreerde gebruikers met producten van gastsessies
 
-Met de MDVA-39163-patch wordt het probleem opgelost waarbij de verzendmethoden niet beschikbaar zijn wanneer een nieuwe gebruiker wordt geregistreerd en producten in de winkelwagen afkomstig zijn van de gastsessie. Deze pleister is beschikbaar wanneer de [Kwaliteitspatches (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9 is geïnstalleerd. De patch-id is MDVA-39163. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
+Met de MDVA-39163-patch wordt het probleem opgelost waarbij de verzendmethoden niet beschikbaar zijn wanneer een nieuwe gebruiker wordt geregistreerd en producten in de winkelwagen afkomstig zijn van de gastsessie. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9 geïnstalleerd is. De patch-id is MDVA-39163. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.2-p1
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.3.5 - 2.4.3-p1
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
 Verzendmethoden zijn niet beschikbaar wanneer de nieuwe gebruiker is geregistreerd en producten in de winkelwagen zijn afkomstig van de gastsessie.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Ga naar **Beheerder** > **Winkels** > **Configuratie** > **Verkoop** > **Leveringsmethoden**. Alleen de optie **Platte snelheid** de verzendmethode en alle andere mogelijkheden uitschakelen.
-1. In de **Platte snelheid** verzendmethode, selecteer de **Specifiek** land-optie beschikbaar in het dialoogvenster **Schip naar landen van toepassing** het plaatsen en selecteren één land van de lijst (bijvoorbeeld, Verenigde Staten).
-1. Ga naar **Beheerder** > **Winkels** > **Configuratie** > **Klant** > **Klantconfiguratie** en instellen **E-mailbevestiging vereisen** tot _Ja_.
-1. Een nieuwe e-mailsjabloon maken in **Beheerder** > **Marketing** > **E-mailsjablonen** en laden `Footer (magento/luma)` sjabloon en de sjablooninhoud vervangen door een CMS-blok.
+1. Ga naar **Admin** > **Opslag** > **Configuratie** > **Verkoop** > **Methoden van de Levering**. Laat slechts het **Vlakke Tarief** verschepen methode toe en maak alles anders onbruikbaar.
+1. In het **Vaste Tarief** verschepen methode, selecteer de **Specifieke** landoptie beschikbaar in het **Schip aan Toepasselijke Landen** plaatsen en selecteer één land van de lijst (b.v., Verenigde Staten).
+1. Ga naar **Admin** > **Opslag** > **Configuratie** > **Klant** > **de Configuratie van de Klant** en de reeks **vereist E-mailbevestiging** aan _ja_.
+1. Creeer een nieuw E-mailMalplaatje in **Admin** > **de Marketing** > **E-mailMalplaatjes** en ladings `Footer (magento/luma)` malplaatje en vervang de malplaatjeinhoud met een blok CMS.
 
    ```CMS
    {{block class="Magento\Cms\Block\Block" block_id="footer_links_block"}}
    ```
 
-1. Ga naar **Beheerder** > **Inhoud** > **Ontwerp** > **Configuratie** en selecteer het thema dat betrekking heeft op uw frontend website. Stel de &quot;Voettekstsjabloon&quot; in op de nieuwe e-mailsjabloon die u maakt.
+1. Ga naar **Admin** > **Inhoud** > **Ontwerp** > **Configuratie** en selecteer het thema dat op uw voorste website betrekking heeft. Stel de &quot;Voettekstsjabloon&quot; in op de nieuwe e-mailsjabloon die u maakt.
 1. Ga naar de voorkant en voeg een product aan de kar toe.
 1. Maak een klant; u ontvangt een e-mail ter bevestiging van het e-mailadres. Klik op de koppeling Verificatie. U wordt aangemeld bij de website.
-1. Ga naar **Mijn account** en voeg een adres toe. Stel het adresland in op het verzendland dat u eerder hebt ingesteld in de beheerconfiguratie.
+1. Ga naar **Mijn Rekening** en voeg een adres toe. Stel het adresland in op het verzendland dat u eerder hebt ingesteld in de beheerconfiguratie.
 1. Ga naar Afrekenen.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 De verzendmethode is beschikbaar omdat de klant een adres heeft dat compatibel is met het verzendende land.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
 Verzendmethode is niet beschikbaar.
 
@@ -62,14 +62,14 @@ Verzendmethode is niet beschikbaar.
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [Software Update Guide > Patches toepassen](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelaarsdocumentatie.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 
 Raadpleeg voor meer informatie over het gereedschap Kwaliteitspatches:
 
-* [Release-gereedschap Kwaliteitspatches: een nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [ vrijgegeven het Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze steunkennisbasis zelf-te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend het Hulpmiddel van de Patches van de Kwaliteit ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [Patches beschikbaar in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.
+Voor info over andere flarden beschikbaar in QPT, verwijs naar [ die flarden beschikbaar in QPT ](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in onze ontwikkelaarsdocumentatie.

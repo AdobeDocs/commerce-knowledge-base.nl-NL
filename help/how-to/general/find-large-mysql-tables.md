@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Grote MySQL-tabellen zoeken
 
-Om de grote lijsten te identificeren, verbind met het gegevensbestand zoals die in wordt beschreven [Verbinding maken met de database](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) artikel en voer de volgende opdracht uit, waarbij `project_id` is uw Cloud-project-id:
+Om de grote lijsten te identificeren, verbind met het gegevensbestand zoals die in [ wordt beschreven verbind met het gegevensbestand ](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) artikel, en stel het volgende bevel in werking, waar `project_id` uw het projectidentiteitskaart van de Wolk is:
 
 ```sql
 SELECT TABLE_NAME AS `Table`,

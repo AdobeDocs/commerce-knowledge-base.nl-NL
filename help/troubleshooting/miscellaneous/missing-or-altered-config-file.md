@@ -21,22 +21,22 @@ In dit artikel wordt beschreven hoe u het probleem kunt oplossen waarbij configu
 
 ## Probleem
 
-Configuratiebestanden `config.php` en/of `env.php` ten onrechte zijn gewijzigd of ontbreken.
+Configuratiebestanden `config.php` en/of `env.php` zijn onjuist gewijzigd of ontbreken.
 
 ## Oplossing
 
 Tijdens het implementatieproces wordt voor elk configuratiebestand een back-upbestand gemaakt:
 
-* `app/etc/config.php.bak` — bevat systeemspecifieke instellingen en wordt automatisch gegenereerd tijdens het maken als dit niet het geval is.
+* `app/etc/config.php.bak` — bevat systeemspecifieke instellingen en wordt tijdens het maken automatisch gegenereerd als dit niet het geval is
 * `app/etc/env.php.bak` — bevat gevoelige configuratiegegevens
 
-U kunt ze herstellen met de ECE-gereedschappen `backup:restore` gebruiken.
+U kunt ze herstellen met de opdracht ECE-gereedschappen `backup:restore` .
 
 De BAK-bestanden zijn een product van het implementatieproces. Als u na de implementatie handmatig een configuratiebestand wijzigt, worden uw wijzigingen niet doorgevoerd in de bestaande BAK-bestanden.
 
 U kunt als volgt de configuratiebestanden herstellen:
 
-1. Meld u aan bij uw externe opslagplaats met [SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
+1. Login aan uw verre bewaarplaats gebruikend [ SSH ](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
 1. Maak een lijst met de beschikbare back-upbestanden.
 
    ```
@@ -62,7 +62,7 @@ U kunt als volgt de configuratiebestanden herstellen:
    app/etc/config.php file exists! If you want to rewrite existed files use --force
    ```
 
-1. Gebruik de `--force` als u alle bestanden wilt overschrijven.
+1. Gebruik de optie `--force` om alle bestanden te overschrijven.
 
    ```
    ./vendor/bin/ece-tools backup:restore --force

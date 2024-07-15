@@ -11,33 +11,33 @@ ht-degree: 0%
 
 ---
 
-# ACSD-48694: *Ongeldige statuswijziging aangevraagd* fout verhindert klant orde te plaatsen
+# ACSD-48694: *Ongeldige gevraagde staatsverandering* fout verhindert klant orde te plaatsen
 
-De ACSD-48694-patch verhelpt het probleem waarbij de fout optreedt *Ongeldige statuswijziging aangevraagd* voorkomt dat een klant een bestelling plaatst. Deze pleister is beschikbaar wanneer de [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is geïnstalleerd. De patch-id is ACSD-48694. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+ACSD-48694 herstelt de flard de kwestie waar de fout *Ongeldige gevraagde staatsverandering* een klant verhindert een orde te plaatsen. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is geïnstalleerd. De patch-id is ACSD-48694. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
-**De patch wordt gemaakt voor Adobe Commerce-versie:**
+**het flard wordt gecreeerd voor de versie van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.4.4
 
-**Compatibel met Adobe Commerce-versies:**
+**Compatibel met de versies van Adobe Commerce:**
 
 * Adobe Commerce (alle implementatiemethoden) 2.3.7 - 2.37-p4, 2.4.1 - 2.4.6
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] lozingen. Als u wilt controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u de `magento/quality-patches` het pakket aan de recentste versie en controleer verenigbaarheid op [[!DNL Quality Patches Tool]: Pagina met patches zoeken](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
-De fout *Ongeldige statuswijziging aangevraagd* voorkomt dat een klant een bestelling plaatst.
+De fout *Ongeldige gevraagde staatsverandering* verhindert een klant een orde te plaatsen.
 
-<u>Stappen om te reproduceren</u>:
+<u> Stappen om </u> te reproduceren:
 
-1. Een kleine vertraging toevoegen tijdens de `/estimate-shipping-methods` verzoek om een `sleep()` om `app/code/Magento/Quote/Model/GuestCart/GuestShippingMethodManagement.php::estimateByExtendedAddress()` functie, dus de `/estimate-shipping-methods` Het verzoek wordt voltooid na de `/shipping-information` bij het afrekenen van de verzendstap naar de betalingsstap.
-1. Configureer de te gebruiken sessie [!DNL Redis] met de *disable_locking: 1* instellen.
-1. Openen **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** en *[!UICONTROL Persistent Shopping Cart]*.
+1. Voeg een kleine vertraging toe tijdens de `/estimate-shipping-methods` request door een `sleep()` at `app/code/Magento/Quote/Model/GuestCart/GuestShippingMethodManagement.php::estimateByExtendedAddress()` functie op te nemen, zodat de `/estimate-shipping-methods` request is voltooid na de `/shipping-information` wanneer tijdens het afrekenen van de verzendstap naar de betalingsstap wordt gegaan.
+1. Vorm de zitting om [!DNL Redis] met *disable_locking te gebruiken: 1* het plaatsen.
+1. Open **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** en schakel *[!UICONTROL Persistent Shopping Cart]* in.
 1. Meld u aan als klant en voeg een product toe aan het winkelwagentje.
 1. Laat de klantenzitting verlopen. Blijvende cookie en het winkelwagentje blijven bestaan.
 1. Ga nu naar Afhandeling, voeg het verzendadres toe en navigeer naar de betalingssectie.
@@ -46,27 +46,27 @@ De fout *Ongeldige statuswijziging aangevraagd* voorkomt dat een klant een beste
 1. Ga nu rechtstreeks naar de betalingspagina en navigeer naar de betalingsstap.
 1. Plaats de bestelling.
 
-<u>Verwachte resultaten</u>:
+<u> Verwachte resultaten </u>:
 
 * Er is geen fout.
-* De bestelling is geplaatst en een *Bedankt* wordt weergegeven.
+* De orde wordt met succes geplaatst en a *bedankt* pagina wordt getoond.
 
-<u>Werkelijke resultaten</u>:
+<u> Ware resultaten </u>:
 
-De fout *Ongeldige statuswijziging aangevraagd* wordt weergegeven, maar de volgorde wordt geplaatst.
+De fout *Ongeldige gevraagde staatsverandering* wordt getoond, maar de orde wordt geplaatst.
 
 ## De patch toepassen
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source ter plaatse: [[!DNL Quality Patches Tool] > Gebruik](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de [!DNL Quality Patches Tool] hulplijn.
-* Adobe Commerce op cloudinfrastructuur: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in de handleiding Commerce on Cloud Infrastructure.
+* Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in de handleiding [!DNL Quality Patches Tool] .
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
 
 ## Gerelateerde lezing
 
-Meer informatie over [!DNL Quality Patches Tool], zie:
+Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 
-* [[!DNL Quality Patches Tool] uitgebracht: een nieuw hulpmiddel om kwaliteitspatches zelf te bedienen](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze kennisbasis voor ondersteuning.
-* [Controleer of er een patch beschikbaar is voor uw Adobe Commerce-probleem met [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze kennisbasis voor ondersteuning.
+* [[!DNL Quality Patches Tool]  vrijgegeven: een nieuw hulpmiddel om kwaliteitspatches ](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in onze basis van de steunkennis zelf te dienen.
+* [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
-Voor informatie over andere patches beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Zoeken naar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] hulplijn.
+Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.

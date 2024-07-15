@@ -17,20 +17,20 @@ Dit artikel bevat een patch voor het bekende Adobe Commerce-probleem met de clou
 
 ## Probleem
 
-Als Googles Analytics voor de winkel zijn ingeschakeld, kan de klant met de geïnstalleerde blokknop of een andere advertentieblokker het volgende doen: `trackingCode.js` bestand kan niet worden geladen en RequireJS breekt de JS-uitvoeringsstroom af. Dit veroorzaakt problemen met het laden van de checkout pagina.
+Als Googles Analytics zijn ingeschakeld voor de winkel, wordt het laden van het bestand `trackingCode.js` geblokkeerd en wordt de uitvoeringsstroom van het JS onderbroken als een klant met een geïnstalleerd blokkeerprogramma of een andere advertentieblokker het uitchecken uitvoert. Dit veroorzaakt problemen met het laden van de checkout pagina.
 
-<u>Stappen om te reproduceren</u> :
+<u> Stappen om </u> te reproduceren:
 
 Vereisten: een advertentieblokker moet in de browser zijn geïnstalleerd en actief zijn.
 
 1. In Commerce Admin, laat en vormt de functionaliteit van Googles Analytics toe.
 1. Open een productpagina in de winkel.
 1. Voeg producten toe aan de kar.
-1. Klik op de knop **Ga naar Afhandeling** koppeling.
+1. Klik **gaan naar Betalen** verbinding.
 
-<u>Verwacht resultaat</u>: Pagina voor uitchecken wordt geladen en de klant kan uitchecken voltooien.
+<u> Verwacht resultaat </u>: De paginaladingen van de Afhandeling en de klant kunnen afhandeling voltooien.
 
-<u>Werkelijk resultaat</u>: De pagina Uitchecken wordt niet geladen. De spinner die wordt geladen, verdwijnt nooit.
+<u> Ware resultaat </u>: De pagina van de Controle laadt niet; het ladende spinner verdwijnt nooit.
 
 ## Reparatie
 
@@ -53,10 +53,10 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Zie voor instructies [Hoe een door Adobe geleverde componentpleister aanbrengen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze kennisbasis voor ondersteuning.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Nuttige koppelingen
 
-* [De kwestie die op GitHub wordt besproken](https://github.com/magento/magento2/pull/13061)
+* [ de kwestie die op GitHub ](https://github.com/magento/magento2/pull/13061) wordt besproken
 
 ## Bijgevoegde bestanden
