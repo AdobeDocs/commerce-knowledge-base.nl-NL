@@ -4,9 +4,9 @@ description: Pas de ACSD-52041-patch toe om het Adobe Commerce-probleem op te lo
 feature: Page Builder
 role: Admin, Developer
 exl-id: f2a1fd36-2098-46a7-aa42-3a5a0014adc9
-source-git-commit: fc5dc9fcf610cae6f8c0a334b4ef15029c462c66
+source-git-commit: b5c253a5c0651c6027c0795edb2f230bd65f734a
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -23,25 +23,28 @@ De ACSD-52041-patch verhelpt het probleem waarbij de Page Builder vijf seconden 
 
 **Compatibel met de versies van Adobe Commerce:**
 
-* Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.4-p8, 2.4.5 - 2.4.5-p7, 2.4.6 - 2.4.6-p6
+* Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.4-p5, 2.4.5 - 2.4.5-p4, en 2.4.6 - 2.4.6-p2.
+
+
 
 >[!NOTE]
 >
 >De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
+
 ## Probleem
 
-De Page Builder wordt gedurende vijf seconden weergegeven zonder vergrendelingen vrij te geven.
+**[!DNL Page Builder]** geeft voor *5* seconden terug zonder de sloten vrij te geven.
 
 <u> Stappen om </u> te reproduceren:
 
-1. Bewerk een CMS-pagina, productpagina of iets anders met Page Builder.
+1. Bewerk een CMS-pagina, productpagina of iets anders dat **[!DNL Page Builder]** heeft.
 1. Sla de wijzigingen op.
 1. Let op de pagina die tijd bespaart.
 
 <u> Verwachte resultaten </u>
 
-De inhoud wordt opgeslagen. Geen fouten gevonden in browserlogboek.
+De inhoud wordt opgeslagen. Er zijn geen fouten gevonden in het browserlogbestand.
 
 <u> Ware resultaten </u>
 
@@ -50,7 +53,7 @@ Fout in console: ``Page Builder was rendering for 5 seconds without releasing lo
 
 ## De patch toepassen
 
-Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
+Om individuele flarden voor versies **toe te passen 2.4.4 - 2.4.4-p5, 2.4.5 - 2.4.5-p4, en 2.4.6 - 2.4.6-p2**, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
 * Adobe Commerce of Magento Open Source op locatie: [[!DNL Quality Patches Tool]  > Gebruik ](<https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html>) in de handleiding [!DNL Quality Patches Tool] .
 * Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in Commerce op de gids van de Infrastructuur van de Wolk toe.
