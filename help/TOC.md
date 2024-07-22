@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: c75a1ecbf5d89ede71eb3f873c75a5e7d8720a2b
+source-git-commit: 202f5edcef114a1d16177b05328803aca81c11e2
 workflow-type: tm+mt
-source-wordcount: '11069'
+source-wordcount: '11064'
 ht-degree: 0%
 
 ---
@@ -1031,7 +1031,6 @@ ht-degree: 0%
       * [Cloudsite is traag](/help/troubleshooting/miscellaneous/cloud-site-is-slow.md)
       * [Fout bij snel leegmaken van cache op Cloud (de aanvraag voor leegmaken is niet verwerkt)](/help/troubleshooting/miscellaneous/error-purging-fastly-cache-on-cloud-the-purge-request-was-not-processed-successfully.md)
       * [Aangepaste SSL-certificaatvervalgegevens](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
-      * [Redis troubleshooter op Adobe Commerce](/help/troubleshooting/miscellaneous/redis-troubleshooter.md)
       * [PWA Studio: validatiefouten bij het uitvoeren van de ontwikkelaarsmodus](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
       * [Amazon-e-mailberichten om uur uitschakelen bij gebruik van Adobe Commerce](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
       * [Ingevalideerde cache veroorzaakt vertraging van responstijd](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md)
