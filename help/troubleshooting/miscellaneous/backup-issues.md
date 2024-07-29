@@ -4,7 +4,7 @@ description: Dit artikel bevat een overzicht van de mogelijke oplossingen voor p
 exl-id: 1a6204ad-bd5a-46dc-8a8e-39655a174e09
 feature: Storage, Data Import/Export
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Dit artikel bevat een overzicht van de mogelijke oplossingen voor problemen met 
 
 Als de Adobe Commerce-back-upfunctie niet wordt gestart of het volgende bericht wordt weergegeven, moet u deze functie inschakelen voordat u een back-up maakt.
 
-```terminal
+```bash
 Backup functionality is disabled.
 Backup functionality is currently disabled. Please use other means for backups.
 ```

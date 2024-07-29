@@ -4,7 +4,7 @@ description: Dit artikel bevat oplossingen voor fouten met PHP-instellingen.
 exl-id: 51fb3c95-2e25-4d86-a6cf-e08e90d097ca
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -44,7 +44,7 @@ De limiet voor PHP-geheugen verhogen:
 
 Configuraties met een groot aantal weergaven, producten, kenmerken of opties kunnen formulieren genereren die de vooraf ingestelde limiet voor PHP overschrijden. Als het aantal verzonden waarden de `max-input-vars` -limiet overschrijdt die is ingesteld binnen `php.ini` (de standaardwaarde is 1000), worden de resterende gegevens niet overgedragen en worden die databasewaarden niet bijgewerkt. Als dit gebeurt, verschijnt er een waarschuwing in het PHP log:
 
-```terminal
+```bash
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
@@ -58,7 +58,7 @@ Zie [ tijdens installatie, xdebug maximumfunctie die niveaufout ](/help/troubles
 
 Fouttekst is doorgaans:
 
-```terminal
+```bash
 Parse error: syntax error, unexpected 'data' (T_STRING)
 ```
 
