@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: d3b832d2f8a0ef35e8a8e8899ccdaffeec8029ff
+source-git-commit: a520ef45f1c55dbf34a98c4f4d3ab49814535434
 workflow-type: tm+mt
-source-wordcount: '11066'
+source-wordcount: '11073'
 ht-degree: 0%
 
 ---
@@ -1054,6 +1054,7 @@ ht-degree: 0%
       * [FOUT: Opwarmen is mislukt in Adobe Commerce op cloudinfrastructuur](/help/troubleshooting/miscellaneous/error-warming-up-failed-on-magento-commerce-cloud.md)
       * [Kan de Magento GitHub-opslagplaats niet klonen](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
       * [Live zoekcatalogus is niet gesynchroniseerd](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
+      * [Klantprofielen die niet in Experience Platform worden weergegeven](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
       * [PWA Studio: browser kan de .local.pwadev-site niet oplossen](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
       * [Product Recommendations niet weergegeven in Page Builder](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
       * [Adobe Commerce-probleemoplosser](/help/troubleshooting/miscellaneous/magento-fastly-troubleshooter.md)
