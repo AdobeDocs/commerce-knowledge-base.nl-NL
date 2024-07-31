@@ -4,7 +4,7 @@ description: Met de MDVA-41229-patch wordt het probleem opgelost waarbij afbeeld
 exl-id: 69d7374f-9f8b-4ec4-8a7f-135ee06135a3
 feature: Data Import/Export, Configuration, Products
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 143a694fd573aeb2a52f47d194359e98f74f8033
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 2%
@@ -37,12 +37,15 @@ Afbeeldingen die op de achtergrond beschikbaar zijn, worden niet op de voorzijde
 
 1. Een schone Adobe Commerce installeren.
 1. Voeg een douaneattribuut toe door **te gaan Slaat** > **Attributen** > **Product** > **Nieuw Attribuut** met de montages hieronder toevoegen:
+
    * Eigenschappen:
       * Kenmerkeigenschappen:
+
          * Standaardlabel: Grootte instellen
          * Invoertype catalogus voor winkeleigenaar: Tekststaal
          * Vereiste waarden: geen
          * Afbeelding van productvoorvertoning bijwerken: Ja
+
       * Staal beheren (waarden van uw kenmerk):
 
         | Is standaard | Staal beheerder | Beschrijving beheerder | Standaardstaal voor winkelweergave | Standaardbeschrijving van winkelweergave |
@@ -52,17 +55,24 @@ Afbeeldingen die op de achtergrond beschikbaar zijn, worden niet op de voorzijde
         | nee | 30 | 30 | 30 | 30 |
         | nee | 60 | 60 | 60 | 60 |
         | nee | 68 | 68 | 68 | 68 |
+
       * Geavanceerde kenmerkeigenschappen:
+
          * Kenmerkcode: set_size
          * Bereik: Algemeen
          * Unieke waarde: Geen
          * Invoervalidatie voor winkeleigenaar: geen
          * Toevoegen aan kolomopties: Nee
          * Gebruiken in filteropties: Nee
+
    * Labels beheren:
+
       * Titels beheren (grootte, kleur, enz.)
+
          * Standaardweergave winkel: grootte instellen
+
    * Eigenschappen van Storefront:
+
       * Gebruiken in zoekopdracht: Ja
       * Zoekdikte: 1
       * Zichtbaar in Geavanceerd zoeken: Nee
@@ -73,12 +83,17 @@ Afbeeldingen die op de achtergrond beschikbaar zijn, worden niet op de voorzijde
       * Zichtbaar op cataloguspagina&#39;s in winkel: Ja
       * Gebruikt in productaanbieding: Ja
       * Gebruikt voor sorteren in productaanbieding: Nee
+
 1. Voeg deze attributen aan het StandaardAttribuut toe binnen de Groep van de Details van het Product (**opslag** > **Attributen** > **Vastgestelde Attributen**) wordt geplaatst.
 1. Download afbeeldingen die zijn ingesteld in de var map in de hoofdmap van Adobe Commerce.
 1. Ga naar **Systeem** > **Overdracht van Gegevens** > en voer het dossier in gebruikend de hieronder opties:
+
    * Instellingen importeren:
+
       * Type entiteit: producten
+
    * Gedrag bij importeren:
+
       * Gedrag bij importeren: Toevoegen/Bijwerken
       * Validatiestrategie: stoppen bij fout
       * Aantal toegestane fouten: 1
@@ -86,9 +101,12 @@ Afbeeldingen die op de achtergrond beschikbaar zijn, worden niet op de voorzijde
       * Scheidingsteken voor meerdere waarden: `,`
       * Constante kenmerkwaarde: EMPTYVALUE
       * Veldbijlage: uitgeschakeld
+
    * Te importeren bestand:
+
       * Te importeren bestand selecteren
       * Afbeeldingsbestandsmap: leeg laten
+
 1. Ga naar de winkel op de `/product-set.html` -pagina en schakel tussen de verschillende Grootte instellen. Voor Set Size 24 is er geen galerie.
 
 <u> Verwachte resultaten </u>:
