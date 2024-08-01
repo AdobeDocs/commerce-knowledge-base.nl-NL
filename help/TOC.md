@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 4c1199c31f83d7c2aaf28e259d63473779bf2efe
+source-git-commit: 29564ab62b8d82384092a1db6ac170666ec4acde
 workflow-type: tm+mt
-source-wordcount: '11080'
+source-wordcount: '11084'
 ht-degree: 0%
 
 ---
@@ -1116,6 +1116,7 @@ ht-degree: 0%
       * [Implementatie mislukt: er zijn geen opdrachten gedefinieerd in de naamruimtefout &#39;cache&#39;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [Implementatie mislukt met de juiste toegangssleutels in env:COMPOSER_AUTH of auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * Bekende problemen {#known-issues-patches-attached}
+      * [Rotatie coderingssleutel voor probleemoplossing: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
       * [Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-40] Gereviseerd om geïsoleerde patch op te nemen voor  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
       * [[!DNL UPS] het verschepen migratie van de methodeintegratie van  [!DNL SOAP]  aan  [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] Ondersteuning voor hotfix van de verzendmethode voor grondvoordeel voor AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
