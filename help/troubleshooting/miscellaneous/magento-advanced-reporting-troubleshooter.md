@@ -4,9 +4,9 @@ description: Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgel
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 84b4ca4c4144381f0b404d2eae6684e7b21755df
+source-git-commit: b3bfc41a67eb9ef0bbb52d1c1c3940b1aa49cf44
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ b. NO - ga aan [ Stap 4 ](#step-4) te werk.
 
 +++**wordt Geavanceerde toegelaten Rapportering?**
 
-Controle **Admin** > **Slaat** > **Montages** > **Configuratie** > **Algemeen** > **Geavanceerd** op. Voor gedetailleerde stappen, overzicht [ Geavanceerde Rapportering: laat Geavanceerde Rapportering ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) toe.
+Controle **Admin** > **Slaat** > **Montages** > **Configuratie** > **Algemeen** > **Geavanceerde het Melden** op. Voor gedetailleerde stappen, overzicht [ Geavanceerde Rapportering: laat Geavanceerde Rapportering ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) toe.
 
 a. JA - ga aan [ Stap 5 ](#step-5) te werk.\
 b. NO - [ laat Geavanceerde Rapportering ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) toe en sparen, en wacht 24 uren op Adobe Commerce en Geavanceerde Rapportering om te synchroniseren. Controleer of uw gegevens nu worden geladen. Als dat het geval is, hebt u het probleem opgelost. Als het niet aan [ Stap 5 ](#step-5) te werk gaat.
