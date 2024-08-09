@@ -4,9 +4,9 @@ description: Alles wat u moet weten om problemen op te lossen en uw Commerce-win
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
-source-git-commit: 738a5455267647d294d222d5bb6149254dcb93dd
+source-git-commit: cfbe281941fbdc3e6fe7ee36385dc6732b46da26
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 De informatie in deze Kennisbank wordt ontworpen als aanvulling op [ de Documentatie van de Ontwikkelaar van Adobe Commerce ](https://developer.adobe.com/commerce/docs), en [ Handleiding van de Merchant van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html), en andere publicaties van Adobe Commerce. Het behandelt het oplossen van problemen en beste praktijken, gastheeraankondigingen, antwoorden FAQs, en benadrukt specifieke scenario&#39;s die (om het even welke reden) niet vermeld in de officiële documentatie zijn.
 
-## Wat zit er in de Knowledge Base?
+## Wat staat er in deze Knowledge Base?
 
 | CATEGORIE | BESCHRIJVING |
 | --- | --- |
