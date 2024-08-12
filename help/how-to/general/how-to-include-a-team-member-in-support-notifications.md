@@ -4,9 +4,9 @@ description: In dit artikel wordt uitgelegd hoe u een teamlid kunt opnemen in on
 feature: Cloud, Support, Admin Workspace
 role: Admin, Developer
 exl-id: 63ea3f60-a509-447c-ac3d-bb2133141c80
-source-git-commit: 1c568d75534bbfe322d9f980b40c5dd64fc5b7a2
+source-git-commit: 771793d45000e65c1bf41137cd984d2977b0a9ff
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ In dit artikel wordt uitgelegd hoe u een teamlid opneemt om automatisch updates 
 
 1. Ga naar **[!DNL Cloud Project URL]** (Voorbeeld: `https://us-3.magento.cloud/projects/xxxxxx/edit`).
 1. Controleer of het teamlid aan het project is toegevoegd en of het een [!DNL Super User] is.
-
-Als zij [!DNL cloud project] geen toegang vereisen, leg a [ Verzoek van de Steun bij het Centrum van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) aan automatisch CC voor: zij op alle kaartjes, en verstrekken ook hun **[!DNL MAGE ID]** (als beschikbaar).
 
 Als ze niet aan het project zijn toegevoegd, moet u ze toevoegen als een [!DNL Super User] en een gift [!DNL Shared Access] :
 
