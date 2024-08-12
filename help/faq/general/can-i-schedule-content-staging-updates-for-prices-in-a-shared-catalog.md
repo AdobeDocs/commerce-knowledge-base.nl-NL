@@ -3,9 +3,9 @@ title: Kan ik updates voor het opslaan van inhoud plannen voor prijzen in een ge
 description: Adobe Commerce biedt geen functionaliteit voor het plannen van een prijsupdate ([content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) voor een of meer producten in een gedeelde catalogus.
 exl-id: 5482326f-54c2-4efc-8e5e-6d075ee5be55
 feature: Catalog Management, Customer Service
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: c3120f7df24e105b082df6544ab82241d6b6851f
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe Commerce biedt niet de functionaliteit aan om een prijsupdate ([ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) voor één of meerdere producten in een gedeelde catalogus te plannen.
 
-Dat betekent u niet direct een dergelijke prijsupdate van het **Vastgestelde Prijsbepaling en het menu van de Structuur** van het paneel van Admin van Commerce kunt plannen (er is geen **Nieuwe knoop van de Update van het Programma** in dit menu).
+Dat betekent u een dergelijke prijsupdate niet direct van het **Vastgestelde Prijsbepaling en het menu van de Structuur** van het paneel van Admin van Commerce kunt plannen (er is geen **Nieuwe Update van het Programma** knoop in dit menu).
 
 Toch kunt u alternatieve methodes gebruiken en een prijsupdate voor plannen:
 
