@@ -4,21 +4,21 @@ promoted: true
 description: Pas een Geïsoleerd flard toe om  [!DNL CVE-2024-39397]  voor Adobe Commerce 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10, en vroegere slechts lopende versieinstanties te verhelpen  [!DNL Apache].
 feature: Compliance, Security
 role: Developer
-source-git-commit: 2038e766d65c81172391091a0cdff4abb04e84d5
+source-git-commit: 76ff7669a0a57925a176e08031e0789ced0a7f0e
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-61]
 
-Op 13 augustus 2024 heeft Adobe een beveiligingsupdate uitgebracht voor de insteekmodule Adobe Commerce, Magento Open Source en Adobe Commerce Webhooks.
+Op 13 augustus 2024 heeft Adobe een regelmatig geplande beveiligingsupdate uitgebracht voor de plug-in Adobe Commerce, Magento Open Source en Adobe Commerce Webhooks.
 Deze update verhelpt [[!DNL critical, important], en  [!DNL moderate] ](https://helpx.adobe.com/security/severity-ratings.html) kwetsbaarheid. Succesvolle uitbuiting kan leiden tot willekeurige code-uitvoering, willekeurig lezen in een bestandssysteem, het omzeilen van beveiligingsfuncties en escalatie van bevoegdheden. Het bulletin is [ Bulletin van de Veiligheid van de Adobe ([!DNL APSB24-61]) ](https://helpx.adobe.com/security/products/magento/apsb24-61.html).
 
 >[!NOTE]
 >
->**[!DNL CVE-2024-39397]is alleen van toepassing wanneer u de [!DNL Apache] -webserver gebruikt.** Om ervoor te zorgen dat de oplossing voor deze kwetsbaarheid zo snel mogelijk kan worden toegepast, heeft de Adobe ook een geïsoleerde patch vrijgegeven die [!DNL CVE-2024-39397] verhelpt.
+>**[!DNL CVE-2024-39397]in het bovenstaande beveiligingsbulletin is alleen van toepassing wanneer u de [!DNL Apache] -webserver gebruikt.** Om ervoor te zorgen dat de oplossing voor deze kwetsbaarheid zo snel mogelijk kan worden toegepast, heeft de Adobe ook een geïsoleerde patch vrijgegeven die [!DNL CVE-2024-39397] verhelpt.
 
 **gelieve de recentste veiligheidsupdates toe te passen zo spoedig mogelijk. Als u dit nalaat, zult u aan deze veiligheidskwesties kwetsbaar zijn, en de Adobe zal beperkte middelen hebben helpen oplossen.**
 
