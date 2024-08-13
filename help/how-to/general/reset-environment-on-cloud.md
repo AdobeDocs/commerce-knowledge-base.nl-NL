@@ -3,7 +3,7 @@ title: De Adobe Commerce-omgeving herstellen op cloudinfrastructuur
 description: In dit artikel worden verschillende scenario's getoond voor het terugdraaien van een omgeving op Adobe Commerce op cloudinfrastructuur.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: f2aeb0262ddcb3d7e78028d08b9323db243fc96b
+source-git-commit: 4439ee25e929a1bdb2216cc10fa0d4506c4f3aed
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -158,6 +158,6 @@ Als het uitvoeren van de opdracht `setup:uninstall` mislukt met een fout en niet
 1. Verbind met de DB MySQL: `mysql -h database.internal` (Voor Pro milieu&#39;s zie: [ Opstelling de dienst MySQL ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)).
 1. Zet de `main` DB neer: `drop database main;`
 1. Maak een lege `main` DB: `create database main;`
-1. Verwijder de volgende configuratiebestanden: `config.php` , `config.php` , `.bak,` , `env.php`, `env.php.bak`
+1. Verwijder de volgende configuratiebestanden: `config.php`, `config.php.bak`, `env.php`, `env.php.bak`
 
 Na het terugstellen van OB, [ maak a  [!DNL git]  duw aan het milieu om opnieuw op te stellen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html) en Adobe Commerce aan nieuw gecreeerd OB te installeren. Of [ stel het redistribueren bevel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands) in werking.
