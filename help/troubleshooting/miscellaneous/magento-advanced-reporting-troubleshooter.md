@@ -4,9 +4,9 @@ description: Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgel
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: b3bfc41a67eb9ef0bbb52d1c1c3940b1aa49cf44
+source-git-commit: dfe9b9cf4751e28bd151fce36df168e48fb914ed
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ c. JA - als er verslagen maar er een fout zijn, ga aan [ Stap 10 ](#step-10) te 
 
 +++**bestaat het dossier `data.tgz` in het systeem en zijn er verslagen in toegangslogboeken?**
 
-Voer de opdracht uit om te controleren of het bestand `data.tgz` bestaat:
+Als u wilt controleren of het bestand `data.tgz` bestaat, voert u deze opdracht uit. De opdracht retourneert een of meer mappen met een of meer hashnamen:
 
 ```
-ls -ltr pub/media/analytics/<there should be a directory with hash name>/
+ls -ltr pub/media/analytics/
 ```
 
-Om te controleren dat er verslagen in access.logs zijn, stel bevel in werking:
+Om te controleren dat er verslagen in access.logs zijn, stel dit bevel in werking:
 
 ```
 zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
