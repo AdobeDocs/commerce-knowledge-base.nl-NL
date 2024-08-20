@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: abfd1e3a042f2756c27471b81004a3dcea0914ac
+source-git-commit: 01d815edd76b749df036021d75d4456d9d7b5550
 workflow-type: tm+mt
-source-wordcount: '11090'
+source-wordcount: '11096'
 ht-degree: 0%
 
 ---
@@ -240,7 +240,7 @@ ht-degree: 0%
          * [MDVA-34680: Klantenaccount is niet correct gefilterd op het raster van de klant](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-34680-customer-account-created-time-is-not-filtered-correctly-in-customers-grid.md)
          * [MDVA-37068: Onjuiste belasting weergegeven op afhandeling voor virtuele producten](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-37068-incorrect-tax-rate-displays-on-checkout-for-virtual-products.md)
          * [MDVA-38308: Fout bij het toevoegen van Vimeo-video&#39;s aan uitgeschakelde producten](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38308-error-after-adding-vimeo-videos-to-disabled-products.md)
-         * [MDVA-38468: Ontvang een foutbericht wanneer u CMS-pagina opslaat](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38468-error-when-saving-cms-pages.md)
+         * [MDVA-38468: Ontvang een foutbericht wanneer u de CMS-pagina opslaat](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38468-error-when-saving-cms-pages.md)
          * [MDVA-38608: Tijdelijke tabellen niet verwijderd voor niet-succesvolle redexen](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38608-temporary-tables-are-not-deleted-when-the-reindex-is-not-finished-successfully.md)
       * v1.1.0 {#v1-1-0}
          * [Overzicht: QPT (Quality Patches Tool) v1.1.0](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/overview.md)
@@ -272,7 +272,7 @@ ht-degree: 0%
       * v1.1.3 {#v1-1-3}
          * [Overzicht: QPT (Quality Patches Tool) v1.1.3](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/overview.md)
          * [MDVA-31590: Onbekwaam om attributen in bulk bij te werken gebruikend MySQL async rijen](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-31590-unable-to-update-attributes-in-bulk-using-mysql-async-queues.md)
-         * [MDVA-33606: Gebruikers krijgen een fout wanneer ze CMS-pagina opslaan die is toegewezen aan de hiërarchie](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-33606-users-get-error-when-saving-cms-page-assigned-to-hierarchy.md)
+         * [MDVA-33606: Gebruikers krijgen een foutmelding wanneer ze CMS-pagina opslaan die aan de hiërarchie is toegewezen](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-33606-users-get-error-when-saving-cms-page-assigned-to-hierarchy.md)
          * [MDVA-36309: Het zoeken van producten door attributen is langzaam in admin grids](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-36309-product-search-by-attributes-is-slow-in-the-admin-grids.md)
          * [MDVA-37234: Als u een item meerdere keren aan het winkelwagentje toevoegt, wordt een dubbel lijstitem gemaakt](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-37234-adding-item-to-cart-multiple-times-creates-duplicate-item.md)
          * [MDVA-40262: GraphQL query&#39;s worden niet weergegeven in populaire zoektermen in beheerders](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-40262-graphql-queries-dont-show-in-popular-search-terms-in-admin.md)
@@ -296,7 +296,7 @@ ht-degree: 0%
          * [MDVA-37748: De vraag van GraphQL keert producten terug die niet aan gedeelde catalogus worden toegewezen](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-37748-graphql-query-returns-products-not-assigned-to-shared-catalog.md)
          * [MDVA-39229: Fout na het bijwerken van de regel van de Catalogus het Staging update begintijd](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-39229-error-updating-catalog-rule-staging-update-start-time.md)
          * [MDVA-40545: Alleen het eerste knooppunt voor een pagina wordt opgehaald](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-40545-only-the-first-node-for-a-page-retrieved.md)
-         * [MDVA-40619: De hiërarchie verandert onderbreekt CMS pagina inline uitgeven en werpt 500 fout](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-40619-hierarchy-changes-break-cms-page-inline-edit-and-throw-500-error.md)
+         * [MDVA-40619: Hiërarchiewijzigingen breken CMS pagina inline uit bewerken en genereren 500 fouten](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-40619-hierarchy-changes-break-cms-page-inline-edit-and-throw-500-error.md)
          * [MDVA-41046: eenvoudige producten met aangepaste opties die niet beschikbaar zijn voor toewijzing](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-41046-simple-products-with-custom-options-not-available-for-assigning.md)
          * [MDVA-41061: Voorraadstatus kan opnieuw worden verkocht wanneer het product wordt opgeslagen bij Admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-41061-stock-status-resets-saleable-when-saved-from-admin.md)
          * [MDVA-41164: Kan bedrijf met de attributen van de douaneklanten niet opslaan of uitgeven](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-41164-admin-user-cannot-save-or-edit-company-with-custom-customer-attributes.md)
@@ -613,7 +613,7 @@ ht-degree: 0%
          * [ACSD-50512: Fout bij het bijwerken van de begindatum voor een downloadbare update voor productfasering](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50512-error-when-updating-the-start-date-for-a-downloadable-product-staging-update.md)
          * [ACSD-50895: Googles Analytics 3 GTM-tags worden niet geactiveerd als Googles Analytics 4 GTM niet is geconfigureerd](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.md)
          * [ACSD-51471: Admin-gebruiker kan geplande update voor gebundeld product niet opslaan](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51471-admin-user-cannot-save-scheduled-update-for-bundled-product.md)
-         * [ACSD-51120: GraphQL GET vraagt cache niet gewist voor CMS-pagina&#39;s die CMS-blokken bevatten](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51120-graphql-get-requests-cache-not-cleared-for-cms-pages.md)
+         * [ACSD-51120: GraphQL GET vraagt cache niet vrij voor CMS-pagina&#39;s die CMS-blokken bevatten](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51120-graphql-get-requests-cache-not-cleared-for-cms-pages.md)
          * [ACSD-51700: fout bij het schakelen tussen winkelweergaven op de downloadbare pagina voor productbewerking](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51700-downloadable-product-error-when-switching-storeviews.md)
          * [ACSD-51735: status van item bestellen is onjuist ingesteld op [!UICONTROL Ordered] als productvoorraad 0 is](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51735-order-item-status-incorrectly-set.md)
          * [ACSD-51497: Kan cataloguspagina niet sorteren op aangepast kenmerk van het type Dropdown](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51497-cannot-sort-catalog-page-by-custom-attribute-of-dropdown-type.md)
@@ -754,7 +754,7 @@ ht-degree: 0%
          * [ACSD-53309: Onvolledige belastingtoepassing voor aanpasbare opties en label &#39;[!UICONTROL Regular Price]&#39;](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53309-incomplete-tax-application-for-customizable-options.md)
          * [ACSD-53790: meerdere RMA&#39;s voor één product kunnen worden gemaakt via de Rest API](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53790-multiple-rmas-for-single-product-can-be-created-via-rest-api.md)
          * [ACSD-54739: [!UICONTROL Product Stock] status niet toegepast voor [!UICONTROL Related Product Rules]](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54739-product-stock-status-not-applied-for-related-product-rules.md)
-         * [ACSD-54983: Bedrijfs-UID met GraphQL niet beschikbaar bij inactieve gebruiker](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
+         * [ACSD-54983: Company user UID met GraphQL niet beschikbaar bij inactieve gebruiker](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
       * v1.1.44 {#v1-1-44}
          * [Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
          * [ACSD-55231: SKU niet gevonden fout tijdens gebruik van snelle-ordefunctionaliteit](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55231-sku-not-found-in-catalog.md)
@@ -823,6 +823,7 @@ ht-degree: 0%
       * [Overzicht van release 2024](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
       * [Adobe Commerce-supportproces voor migratie naar Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
    * Help Center News {#news}
+      * [Buiten bedrijf stellen van Adobe Commerce Help Center](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
       * [Adobe Commerce Support Knowledge Base begint met het accepteren van bijdragen](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * Problemen oplossen {#troubleshooting}
    * [Overzicht van probleemoplossing](/help/troubleshooting/overview.md)
@@ -1261,11 +1262,11 @@ ht-degree: 0%
    * [E-mailadres wijzigen op magento.com-account wanneer het veld grijs wordt weergegeven](/help/how-to/general/change-email-address-on-magento-account.md)
    * [Magento Order Management verwijderen](/help/how-to/general/how-to-remove-mom.md)
    * [Technische tips voor gereedheid voor Commerce op vakantie](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
-   * [WAF-aanvragen voor GraphQL omzeilen](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
+   * [WAF for GraphQL-aanvragen omzeilen](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
    * [Upgrade MariaDB 10.4 naar 10.5 voor Adobe Commerce op cloud](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * Veelgestelde vragen {#faq}
    * [Overzicht van veelgestelde vragen](/help/faq/overview.md)
-   * [Web Application Firewall (WAF) aangedreven door Fastly: de veelgestelde vragen](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
+   * [Web Application Firewall (WAF) met snelwerkende kracht: veelgestelde vragen](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
    * [Afschrijving van Core Adobe Commerce Payment Integrations](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
    * [Kan ik toepassingen van derden installeren op mijn cloudexemplaar?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
    * [Link Magento.com and accounts.magento.cloud account logins](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
