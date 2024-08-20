@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor het Adobe Commerce-probleem waar
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: a1b049dab989d5d8594d86b64b778e6e277a9f41
+source-git-commit: ab39a21ca325cdad30debf89a1cff660bf5925e5
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Als uw productgegevens niet correct voor een specifieke SKU worden gesynchronise
 1. Als u de juiste gegevens ziet in `catalog_data_exporter_products` , gebruikt u de volgende SQL-query om de tijdstempel van de laatste export te controleren. Deze moet na het tijdstempel `modified_at` staan:
 
    ```sql
-   select * from flag where flag_code = 'products-feed-version';
+   select * from scopes_website_data_exporter;
    ```
 
 1. Als de tijdstempel ouder is, kunt u wachten op de volgende uitsnijding of deze zelf activeren met de volgende opdracht:
@@ -111,7 +111,7 @@ Als u de juiste gegevens ziet in `catalog_data_exporter_product_attributes` :
 1. Gebruik de volgende SQL-query om de tijdstempel van de laatste export te controleren. Dit moet na het tijdstempel van `modified_at` staan.
 
    ```sql
-   select * from flag where flag_code = 'product-attributes-feed-version';
+   select * from scopes_website_data_exporter;
    ```
 
 1. Als de tijdstempel ouder is, kunt u wachten op de volgende uitsnijding of deze zelf activeren met de volgende opdracht:
@@ -133,4 +133,5 @@ bin/magento saas:resync --feed productattributes
 
 ## Gerelateerde lezing
 
-Zie [ Levende Onderzoek van de Bord ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) in onze gebruikersdocumentatie.
+* Zie [ Levende Onderzoek van de Bord ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) in onze gebruikersdocumentatie.
+* Zie [ logboeken van het Overzicht en los de gegevensuitvoer en synchronisatie van Adobe Commerce SaaS ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in de Gids van de Uitvoer van Gegevens van Adobe Commerce SaaS problemen op.
