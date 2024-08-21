@@ -3,9 +3,9 @@ title: Gebruikershandleiding voor ondersteuning van Experiencen League voor Adob
 description: Leer hoe te om een steunkaartje aan de Steun van het Experience League voor te leggen, gedeelde toegang tot rekeningen te verlenen, en de Kennisbank van Adobe Commerce te navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 38e67144f337c8359a5602e49d8a0ee91cd20b53
+source-git-commit: b7b272c2e1cb677829afa64e2c77c0faa207313d
 workflow-type: tm+mt
-source-wordcount: '2117'
+source-wordcount: '2116'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met d
 
 1. Om met het proces van de steunopname te beginnen, zorg ervoor dat u de aangewezen organisatie van de drop-down lijst (als beschikbaar) hebt geselecteerd, aangezien u veelvoudige organisaties met gelijkaardige namen kunt hebben, elk met hun eigen rechten.
 
-   ![ beeld ](https://git.corp.adobe.com/storage/user/38345/files/230d6ecd-bce2-4170-b377-3989fa8be615)
+   ![ select_appropriate_org ](assets/select_appropriate_org.png)
 
 1. Klik op **[!UICONTROL Open Ticket]** in het linkermenu of klik op **[!UICONTROL Get Started]** op de kaart *[!UICONTROL Open a support ticket]* .
 
