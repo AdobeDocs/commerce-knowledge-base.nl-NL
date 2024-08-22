@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: ac71666c082f59c8f40df57c31ae15a4ef595a18
+source-git-commit: 741b84c9a2a7308ab4fb5b233c99c7d06ec2729a
 workflow-type: tm+mt
-source-wordcount: '11100'
+source-wordcount: '11109'
 ht-degree: 0%
 
 ---
@@ -1119,6 +1119,7 @@ ht-degree: 0%
       * [Implementatie mislukt: er zijn geen opdrachten gedefinieerd in de naamruimtefout &#39;cache&#39;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [Implementatie mislukt met de juiste toegangssleutels in env:COMPOSER_AUTH of auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * Bekende problemen {#known-issues-patches-attached}
+      * [Richtlijnen voor het beveiligen van uw winkel en het roteren van coderingssleutels: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
       * [Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
       * [Rotatie coderingssleutel voor probleemoplossing: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
       * [Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-40] Gereviseerd om geïsoleerde patch op te nemen voor  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
