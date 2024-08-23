@@ -3,7 +3,7 @@ title: Repareren gegevens niet bijgewerkt in  [!DNL Commerce Data Exporter]  voe
 description: Dit artikel verstrekt een oplossing voor het bevestigen van de kwesties van de gegevenssynchronisatie die door verkeerd meningsidentiteitskaart in  [!DNL Commerce Data Exporter mview]  abonnement te gebruiken worden veroorzaakt.
 feature: Data Import/Export, Saas, Logs
 role: Developer
-source-git-commit: cf87b5f1280a2d1d23c7ace37616feb337b5142f
+source-git-commit: 3581e39e7054cf765403fd963e22a051457c1097
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -48,4 +48,4 @@ In het volgende voorbeeld ziet u de code die de tabellen opgeeft die worden bijg
 
 ## Gerelateerde lezing
 
-[[!DNL SaaS]  de Nota&#39;s van de Versie van de Uitbreiding van de Gegevens van de Uitvoer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) in de Gids van de Uitvoer van Gegevens van Adobe Commerce voor [!DNL SaaS] Diensten.
+[[!DNL SaaS]  de Nota&#39;s van de Versie van de Uitbreiding van de Gegevens van de Uitvoer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) in de Gids van de Uitvoer van Gegevens van Adobe Commerce voor [!DNL SaaS] de Diensten
