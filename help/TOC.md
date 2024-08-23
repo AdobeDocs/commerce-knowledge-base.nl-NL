@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: f4fb30dcef6cc05ce027df4dc793cf99d37f2a1f
+source-git-commit: 0f5e70462f439c6ed5b63567a21f039529262805
 workflow-type: tm+mt
-source-wordcount: '11118'
+source-wordcount: '11132'
 ht-degree: 0%
 
 ---
@@ -918,6 +918,7 @@ ht-degree: 0%
       * [Fout 404 op alle pagina&#39;s vanwege probleem met het opslaan van inhoud](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
       * [Gereviseerde patches voor Google Maps-toegangsverlies op alle Adobe Commerce-versies](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * Diversen {#miscellaneous}
+      * [Repareren gegevens niet bijgewerkt in  [!DNL Commerce Data Exporter]  voer en  [!DNL cron]  logboekfouten met veranderingslijst bestaan niet](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [Hoe te om te controleren waarom  [!DNL cron]  gehandicapt was](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
       * [De onderzoekmachine van de fout  [!DNL opensearch]  bestaat niet. Bezig met terugvallen naar  [!DNL livesearch] .](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [E-mail met de mededeling dat de exportopslag bijna vol is](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
