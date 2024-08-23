@@ -3,16 +3,20 @@ title: E-mailadres wijzigen op magento.com-account wanneer het veld grijs wordt 
 description: In dit artikel wordt besproken hoe u het e-mailadres op uw [Magento.com](https://account.magento.com)-account kunt wijzigen wanneer het veld grijs wordt weergegeven.
 exl-id: cd527203-345c-4318-8ca8-0063109b5f79
 feature: Communications
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 123027ee291b44ad4b234e561b9c3f4156af7c90
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # Hoe wijzigt u het e-mailadres op magento.com-account wanneer het veld grijs wordt weergegeven?
 
-Dit artikel verklaart hoe te om het e-mailadres op uw [ Magento.com ](https://account.magento.com) rekening te veranderen wanneer het gebied uit grijs wordt.
+Dit artikel verklaart hoe te om het e-mailadres op uw [ Magento.com ](https://account.magento.com) rekening te veranderen wanneer het gebied uit onder omstandigheden zoals wordt grijs:
+
+* U of de oorspronkelijke gebruiker heeft het bedrijf verlaten.
+* Uw bedrijf is gemigreerd naar een nieuw e-maildomein.
+* U schakelt naar een distributielijst of catch-all e-mailadres.
 
 ## Betrokken producten en versies
 
@@ -30,7 +34,7 @@ Het e-mailadres wijzigen voor een gebruiker met een eigen account op <https://ac
 
 <u> Oplossing </u>
 
-1. Verzend een e-mail naar Grp-magento-HelpCenterLoginIssues@adobe.com waarin het volgende wordt vermeld:
+1. [ leg een steunverzoek ](https://experienceleague.adobe.com/home#support) in https://experienceleague.adobe.com/home#support voor die het volgende verklaren:
 
    * Bestaand e-mailadres dat moet worden bijgewerkt
    * Nieuw e-mailadres
@@ -59,3 +63,4 @@ Nochtans, als u geen toegang tot e-mail hebt die naar [ wordt verzonden huidige 
 ## Gerelateerde lezing
 
 [ het vergeten wachtwoord van het Terugstellen ](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in de Gids van de Gebruiker van het Creative Cloud.
+[ werk uw rekeningsprofiel ](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html) in de Gids van de Gebruiker van het Creative Cloud bij.
