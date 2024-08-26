@@ -3,9 +3,9 @@ title: 'ACSD-56979: Productafbeeldingen die zijn verwijderd nadat de testupdate 
 description: Pas de ACSD-56979-patch toe om het Adobe Commerce-probleem op te lossen waarbij productafbeeldingen worden verwijderd nadat een testupdate is verwijderd
 feature: Products
 role: Admin, Developer
-source-git-commit: e97850bcaa98b1ccc1522fb6ee0046cd38bf1c93
+source-git-commit: 8e916feab8be9d92d047fae8861a479070d448e8
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De ACSD-56979-patch verhelpt het probleem waarbij productafbeeldingen worden ver
 
 **Compatibel met Adobe Commerce en de versies van de Magento Open Source:**
 
-* Adobe Commerce (alle implementatiemethoden) >=2.4.3 &lt;2.4.7
+* Adobe Commerce (alle implementatiemethoden) 2.4.3 - 2.4.6-p7
 
 >[!NOTE]
 >
