@@ -4,7 +4,7 @@ description: Pas de ACSD-55241-patch toe om het Adobe Commerce-probleem op te lo
 feature: Price Rules
 role: Admin, Developer
 exl-id: cfe0f8af-423a-4e12-a332-053392cbabed
-source-git-commit: 5d0b4743fe49d22c099102490f93dc4065ab4413
+source-git-commit: f830486ab3b00fca92dda897bbf0bfbae41543c1
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -37,10 +37,10 @@ ACSD-55241 herstelt de flard waar **Gebruikte** en **Gebruikte Tijden** attribut
 
 1. Creeer **[!UICONTROL Cart Price Rules]** van **[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]** en voeg om het even welke voorwaarde toe die terwijl het plaatsen van een orde aanpast (Voorbeeld: subtotaal groter dan *5$*)
 
-* Pas een willekeurige korting toe.
-* Selecteer **[!UICONTROL Auto Coupon]** .
-* Het zal een paar Codes van de Coupon van **produceren beheert de Codes van de Coupon**.
-* Wijzig de index en wis de cache.
+   * Pas een willekeurige korting toe.
+   * Selecteer **[!UICONTROL Auto Coupon]** .
+   * Het zal een paar Codes van de Coupon van **produceren beheert de Codes van de Coupon**.
+   * Wijzig de index en wis de cache.
 
 1. Maak een **[!UICONTROL customer account]** en meld u aan bij de voorzijde.
 1. Voeg één product met meer dan *2* hoeveelheden in de kar toe en pas één coupon toe.
