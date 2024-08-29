@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 1c3eadc58ce70ac8f70078e4d88705386477f6ae
+source-git-commit: 4d6785ce0c0624f62105a5f1541344c989439c40
 workflow-type: tm+mt
-source-wordcount: '11172'
+source-wordcount: '11180'
 ht-degree: 0%
 
 ---
@@ -806,6 +806,7 @@ ht-degree: 0%
          * [ACSD-57643: producten met aangepaste opties worden onjuist toegevoegd](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57643-products-with-custom-options-are-incorrectly-added.md)
          * [ACSD-57588: Fout bij verwerken van regio-id bij verzending naar meerdere adressen](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
          * [ACSD-56979: Productafbeeldingen die zijn verwijderd na het stapelen van de update verwijderd](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
+         * [ACSD-58054: genereren van API-token voor inactieve klanten](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
       * v1.1.50 {#v1-1-50}
          * [Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
          * [ACSD-46938: Prestatieproblemen met DB-triggers tijdens installatie:upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
