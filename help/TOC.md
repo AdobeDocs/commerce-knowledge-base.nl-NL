@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 4d6785ce0c0624f62105a5f1541344c989439c40
+source-git-commit: eb7f8bbb53cf96033c67ae077268351078fa786c
 workflow-type: tm+mt
-source-wordcount: '11180'
+source-wordcount: '11200'
 ht-degree: 0%
 
 ---
@@ -809,7 +809,9 @@ ht-degree: 0%
          * [ACSD-58054: genereren van API-token voor inactieve klanten](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
       * v1.1.50 {#v1-1-50}
          * [Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
+         * [ ACSD-59378: opslag-niveau  [!DNL URL]  herschrijft verkeerd bijgewerkt tijdens de invoer ](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938: Prestatieproblemen met DB-triggers tijdens installatie:upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
+         * [ACSD-60441: Het bijwerken van klanten via V1/klanten  [!DNL REST]  API eindpunt werpt een fout](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
       * [Patch controleren voor Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Aankondigingen {#announcements}
    * [Overzicht van aankondigingen](/help/announcements/overview.md)
