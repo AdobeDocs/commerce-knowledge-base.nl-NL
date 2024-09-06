@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor het Adobe Commerce-probleem waar
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: ab39a21ca325cdad30debf89a1cff660bf5925e5
+source-git-commit: fe276c444c235b096ea6d61b02d8362314b5c154
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,11 @@ Dit artikel biedt oplossingen voor het Adobe Commerce-probleem waarbij de catalo
 
 ## Probleem
 
-De catalogusgegevens worden niet correct gesynchroniseerd of er is een nieuw product toegevoegd, maar dit wordt niet weergegeven in de zoekresultaten.
+De catalogusgegevens zijn niet correct gesynchroniseerd of er is een nieuw product toegevoegd, maar dit wordt niet weergegeven in de zoekresultaten.
+
+>[!NOTE]
+>
+>De tabelnamen `catalog_data_exporter_products` en `catalog_data_exporter_product_attributes` worden nu `cde_products_feed` en `cde_product_attributes_feed` opgeroepen vanaf [!DNL Live Search] versie 4.2.1. Voor handelaren in versies ouder dan 4.2.1 zoekt u de gegevens in de oude tabelnamen `catalog_data_exporter_products` en `catalog_data_exporter_product_attributes` .
 
 <u> Stappen om te reproduceren </u>
 
@@ -59,20 +63,20 @@ Als uw productgegevens niet correct voor een specifieke SKU worden gesynchronise
 1. Gebruik de volgende SQL-query en controleer of u de gegevens hebt die u verwacht in de kolom `feed_data` . Noteer ook de tijdstempel van `modified_at` .
 
    ```sql
-   select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. Als u de juiste gegevens niet ziet, probeert u deze opnieuw te indexeren met de volgende opdracht en voert u de SQL-query opnieuw uit in stap 1 om de gegevens te verifiëren:
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_products
+   bin/magento indexer:reindex cde_products_feed
    ```
 
 1. Als u nog niet de correcte gegevens ziet, [ creeer een kaartje van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Tijdstempel controleren van laatste export van product
 
-1. Als u de juiste gegevens ziet in `catalog_data_exporter_products` , gebruikt u de volgende SQL-query om de tijdstempel van de laatste export te controleren. Deze moet na het tijdstempel `modified_at` staan:
+1. Als u de juiste gegevens ziet in `cde_products_feed` , gebruikt u de volgende SQL-query om de tijdstempel van de laatste export te controleren. Deze moet na het tijdstempel `modified_at` staan:
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -93,20 +97,20 @@ Als de gegevens van uw productkenmerk niet correct zijn gesynchroniseerd voor ee
 1. Gebruik de volgende SQL-query en controleer of u de gegevens hebt die u verwacht in de kolom `feed_data` . Noteer ook de tijdstempel van `modified_at` .
 
    ```sql
-   select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. Als u de juiste gegevens niet ziet, gebruikt u de volgende opdracht om de SQL-query opnieuw te indexeren en voert u deze vervolgens opnieuw uit in stap 1 om de gegevens te verifiëren.
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_product_attributes
+   bin/magento indexer:reindex cde_product_attributes_feed
    ```
 
 1. Als u nog niet de correcte gegevens ziet, [ creeer een kaartje van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Tijdstempel controleren van laatste export van productkenmerk
 
-Als u de juiste gegevens ziet in `catalog_data_exporter_product_attributes` :
+Als u de juiste gegevens ziet in `cde_product_attributes_feed` :
 
 1. Gebruik de volgende SQL-query om de tijdstempel van de laatste export te controleren. Dit moet na het tijdstempel van `modified_at` staan.
 
