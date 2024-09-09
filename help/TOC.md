@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 87b0024615d3aa02df40a6d6de56594e225d32b6
+source-git-commit: f309e4cde788475ae624520a76abaca1cc784f93
 workflow-type: tm+mt
-source-wordcount: '11278'
+source-wordcount: '11297'
 ht-degree: 0%
 
 ---
@@ -819,6 +819,8 @@ ht-degree: 0%
          * [ACSD-46938: Prestatieproblemen met DB-triggers tijdens installatie:upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
          * [ACSD-59229: onjuiste toewijzing van gegevens aan de klantengroep als gevolg van een verouderde waarde voor X-Magento-Variabele](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441: Het bijwerken van klanten via V1/klanten  [!DNL REST]  API eindpunt werpt een fout](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
+         * [ACSD-59280: RefCollectionUnionType::getName()-fout in 2.4.4-pX-installaties](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59280-fix-for-reflection-union-type-error.md)
+         * [ACSD-60303: probleem met plaatsing van beheerbestellingen is opgelost waarbij HTML-miniatuur is ingeschakeld](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60303-admin-order-placement-fix.md)
       * [Patch controleren voor Adobe Commerce-probleem met het gereedschap Kwaliteitspatches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Aankondigingen {#announcements}
    * [Overzicht van aankondigingen](/help/announcements/overview.md)
