@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: f309e4cde788475ae624520a76abaca1cc784f93
+source-git-commit: a4dfe41e3623e62e12cbefdc2889620b4015c6fd
 workflow-type: tm+mt
-source-wordcount: '11297'
+source-wordcount: '11313'
 ht-degree: 0%
 
 ---
@@ -811,6 +811,7 @@ ht-degree: 0%
          * [ACSD-58739: Onvolledige herindexering veroorzaakt een fout](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58739-partial-reindexing-throws-an-error.md)
          * [ACSD-57846: GraphQL-producten zoeken met filter naar nulprijzen zonder resultaten te retourneren](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57846-graphql-products-search-with-filter-for-zero-prices-not-returning-results.md)
          * [ACSD-58054: genereren van API-token voor inactieve klanten](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
+         * [ACSD-58375: onjuist geconfigureerde YouTube API-sleutel veroorzaakt een fout bij het toevoegen van video op archiefweergaveniveau](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58375-wrong-youtube-api-key-configuration-causes-an-error-when-adding-a-youtube-video-at-the-store-view-level.md)
       * v1.1.50 {#v1-1-50}
          * [Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
          * [ACSD-59036: Er treedt een uitzondering op bij het laden van productprijzen](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59036-exception-occurs-when-loading-product-prices.md)
