@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 8906fbf4830d8e1612af296efa83f7856f6ccec2
+source-git-commit: ed15e986088286c075953049dbadf329edccca51
 workflow-type: tm+mt
-source-wordcount: '11391'
+source-wordcount: '11408'
 ht-degree: 0%
 
 ---
@@ -823,6 +823,7 @@ ht-degree: 0%
          * [ACSD-58141: PHPSESSID regenereert op de verzoeken van de POST voor geregistreerde klanten als L2 Redis geheime voorgeheugen wordt toegelaten](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled.md)
          * [ACSD-59229: onjuiste toewijzing van gegevens aan de klantengroep als gevolg van een verouderde waarde voor X-Magento-Variabele](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441: Het bijwerken van klanten via V1/klanten  [!DNL REST]  API eindpunt werpt een fout](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
+         * [ACSD-58790: hiermee wordt de zoomfunctie met knijpbeweging op de pagina-afbeeldingen met productdetails in de mobiele weergave op  [!DNL Chrome] gecorrigeerd](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58790-fixes-pinch-to-zoom-functionality-on-the-product-detail-page-images-in-mobile-view-on-chrome.md)
          * [ACSD-58442: Het probleem waarbij apparaten met een breedte van 768 px als mobiel worden behandeld, waardoor menu&#39;s en kopteksten in de mobiele weergave niet als bureaublad worden geladen](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58442-fixes-issue-devices-768px-mobile-view-instead-desktop.md)
          * [ACSD-48210: Het kenmerk voor een specifiek bereik van de winkelweergave heeft voorrang op algemene waarden](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values.md)
          * [ACSD-59280: RefCollectionUnionType::getName()-fout in 2.4.4-pX-installaties](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59280-fix-for-reflection-union-type-error.md)
