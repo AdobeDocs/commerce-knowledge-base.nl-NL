@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 3ed9838bfb117888b3e4cfef052d39d7ada35b4b
+source-git-commit: 7bfbf1853dddc10199dcb97135535b9e8ee79293
 workflow-type: tm+mt
-source-wordcount: '11346'
+source-wordcount: '11357'
 ht-degree: 0%
 
 ---
@@ -811,6 +811,7 @@ ht-degree: 0%
          * [ACSD-58739: Onvolledige herindexering veroorzaakt een fout](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58739-partial-reindexing-throws-an-error.md)
          * [ACSD-57846: GraphQL-producten zoeken met filter naar nulprijzen zonder resultaten te retourneren](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57846-graphql-products-search-with-filter-for-zero-prices-not-returning-results.md)
          * [ACSD-58054: genereren van API-token voor inactieve klanten](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
+         * [ACSD-57045: URL herschrijft zorgt voor oneindige paginering nadat [!UICONTROL Website Root] is uitgeschakeld in [!UICONTROL Hierarchy]](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57045-url-rewrites-cause-infinite-page-looping-after-website-root-unchecked-hierarchy.md)
          * [ACSD-58446: Het verwijderen van een team met onderliggende gebruikers of teams via GraphQL geeft een niet-informatief foutbericht](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/ascd-58446-deleting-a-team-with-child-users-or-teams-via-graphql-gives-an-uninformative-error-message.md)
          * [ACSD-58375: onjuist geconfigureerde YouTube API-sleutel veroorzaakt een fout bij het toevoegen van video op archiefweergaveniveau](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58375-wrong-youtube-api-key-configuration-causes-an-error-when-adding-a-youtube-video-at-the-store-view-level.md)
       * v1.1.50 {#v1-1-50}
