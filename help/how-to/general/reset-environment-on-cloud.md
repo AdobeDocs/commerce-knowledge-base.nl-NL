@@ -3,9 +3,9 @@ title: De Adobe Commerce-omgeving herstellen op cloudinfrastructuur
 description: In dit artikel worden verschillende scenario's getoond voor het terugdraaien van een omgeving op Adobe Commerce op cloudinfrastructuur.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 4439ee25e929a1bdb2216cc10fa0d4506c4f3aed
+source-git-commit: 598459365cad811966ed529356cb9ab876f49a38
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,9 @@ Met een geplande implementatie of upgrade kunt u het eenvoudigst en aanbevolen [
 
 <u> op de dag van de veranderingen </u>:
 
-1. Plaats de website in [!UICONTROL Maintenance Mode] .<br>
+1. Plaats de website in [!UICONTROL Maintenance Mode] .
 Lees meer over [ toelaten of onbruikbaar maken [!UICONTROL Maintenance Mode] ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) in onze gebruikersgids, en [[!UICONTROL Maintenance Mode] opties voor verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html) in onze verbeteringsgids.
+1. Uitsnijdtaken uitschakelen. Lees meer over het onbruikbaar maken van kroonbanen in onze [ handleiding van de eigenschappen van kronen ](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>).
 1. Neem een lokale [[!UICONTROL Database Dump] ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html).
 
 <u> als a [!UICONTROL Rollback] </u> wordt vereist:
@@ -123,7 +124,7 @@ Met [!DNL git] reset, keren we de code terug naar de gewenste status in het verl
 1. De omgeving klonen naar uw lokale ontwikkelomgeving. U kunt de opdracht kopiëren in de Cloud Console:    ![ copy_git_clone.png ](assets/copy_git_clone.png)
 1. Open de geschiedenis van uw verplichtingen. Gebruik `--reverse` om de historie in omgekeerde volgorde weer te geven voor meer gemak: `git log --reverse`
 1. Selecteer de commit hash waarop u goed bent geweest. Om code aan zijn authentiek staat (Vanilla) terug te stellen, vind zeer eerste begaan die uw tak (milieu) creeerde.
-   ![ Selecterend begaan hash in git console ](assets/select_commit_hash.png)
+   ![ alt tekst ](image.png)
 1. Harde [!DNL git] reset toepassen: `git reset --h <commit_hash>`
 1. Push changes to server: `git push --force <origin> <branch>`
 
