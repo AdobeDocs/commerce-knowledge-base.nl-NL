@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 65af60f53789fdaac7aa2d1ea3ebddd82f2126d5
+source-git-commit: 97e61803978e9e18e9784020d53eb4b448cab830
 workflow-type: tm+mt
-source-wordcount: '11420'
+source-wordcount: '11432'
 ht-degree: 0%
 
 ---
@@ -806,6 +806,7 @@ ht-degree: 0%
          * [ACSD-57643: producten met aangepaste opties worden onjuist toegevoegd](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57643-products-with-custom-options-are-incorrectly-added.md)
          * [ACSD-57588: Fout bij verwerken van regio-id bij verzending naar meerdere adressen](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
          * [ACSD-56979: Productafbeeldingen die zijn verwijderd na het stapelen van de update verwijderd](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
+         * [ACSD-58163: [!UICONTROL Cart Price Rule] past geen korting toe op overeenkomende [!UICONTROL Customer Segment] -winkelwagentje zonder couponcode](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58163-cart-price-rule-does-not-apply-discount-from-matching-customer-segment-cart-without-coupon-code.md)
          * [ACSD-57086: bestellingen van niet-standaard websites waarvoor de voorwaarden zijn ingeschakeld, worden onjuist verwerkt](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57086-orders-placed-from-non-default-websites-with-terms-conditions-processed-incorrectly.md)
          * [ACSD-57941: de opties van het product worden verkeerd toegewezen aan de adminstore](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57941-product-options-are-incorrectly-assigned-to-the-admin-store.md)
          * [ACSD-58739: Onvolledige herindexering veroorzaakt een fout](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58739-partial-reindexing-throws-an-error.md)
