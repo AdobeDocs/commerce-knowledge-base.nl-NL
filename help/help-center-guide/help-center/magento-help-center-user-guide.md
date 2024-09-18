@@ -3,9 +3,9 @@ title: Gebruikershandleiding voor ondersteuning van Experiencen League voor Adob
 description: Leer hoe te om een steunkaartje aan de Steun van het Experience League voor te leggen, gedeelde toegang tot rekeningen te verlenen, en de Kennisbank van Adobe Commerce te navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7c6cc2fc3cd76fc4c156d7cdb15bfbc3a24f39cb
+source-git-commit: ab51577ea212470e9fa5a93dce3748de9c5c00a6
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ In deze gids, leer hoe te om een steunkaartje aan [ Steun van het Experience Lea
 >[!NOTE]
 >
 >Adobe Commerce-ondersteuning is gemigreerd van Adobe Commerce Help Center naar Experience League. Gebruik de hier beschreven stroom van de de gevalvorm van het Experience League [ ](#what-is-experience-support) om steungevallen voor te leggen.
+
+>[!NOTE]
+>
+>Op dit moment moet u naar https://support.magento.com/hc/en-us/requests gaan om uw eerder ingediende zaken te bekijken in het Adobe Commerce Help Center, aangezien deze gevallen niet naar het nieuwe systeem voor het plaatsen van ondersteuningstickets zijn gemigreerd. Het Centrum van de Hulp is nu read-only; om steun voor de originele kwestie te blijven ontvangen, zult u een follow-up kaartje aan [ de Steun van het Experience League ](https://experienceleague.adobe.com/home#support) moeten voorleggen.
 
 >[!NOTE]
 >

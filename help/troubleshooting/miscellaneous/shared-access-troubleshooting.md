@@ -4,9 +4,9 @@ description: '**Probleem:** U wilt gedeelde toegang verlenen aan uw vertrouwde c
 exl-id: 9e03c031-2359-42a6-9de4-943451a16456
 feature: Cache
 role: Developer
-source-git-commit: e77322c04c7245538c10dfb397094eee6cfe6be9
+source-git-commit: ff863a9c8ebf3759c7ecf0549f79cc3a5efe4b46
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 1. Klik op de **[!UICONTROL Shared Access]** -account waarvoor u problemen hebt en controleer welke bronnen toegang hebben gekregen.
 1. Neem contact op met de accounteigenaar (de primaire rekeninghouder) als de specifieke bron ontbreekt.
 
-Neem contact op met het accountteam van de Adobe of stuur een e-mail naar grp-Magento-HelpCenterLoginIssues@adobe.com als het probleem zich blijft voordoen. Geef uw naam en de e-mail op die aan uw account zijn gekoppeld.
+Neem contact op met het accountteam van de Adobe als de problemen zich blijven voordoen. Geef uw naam en de e-mail op die aan uw account zijn gekoppeld.
 
 ## Ik gebruikte gedeelde toegang en klikte op [!UICONTROL Support], maar toen ik een nieuw kaartje opende, wordt het [!UICONTROL Organization] vervolgkeuzemenu niet weergegeven
 
@@ -51,7 +51,7 @@ Neem contact op met het accountteam van de Adobe of stuur een e-mail naar grp-Ma
 1. Ga terug naar **[!UICONTROL My Account]** .
 1. Als het van slechts één **[!UICONTROL Shared Name]** een lijst maakt, zal dat de *standaardorganisatie* zijn dat uw kaartjes onder zullen worden geopend.
 
-Neem contact op met het accountteam van de Adobe of stuur een e-mail naar grp-Magento-HelpCenterLoginIssues@adobe.com als het probleem zich blijft voordoen. Geef uw naam en het e-mailadres op dat aan uw account is gekoppeld.
+Neem contact op met het accountteam van de Adobe als de problemen zich blijven voordoen. Geef uw naam en het e-mailadres op dat aan uw account is gekoppeld.
 
 ## Ik gebruikte gedeelde toegang, maar zie nog steeds mijn tickets in plaats van de gedeelde
 
