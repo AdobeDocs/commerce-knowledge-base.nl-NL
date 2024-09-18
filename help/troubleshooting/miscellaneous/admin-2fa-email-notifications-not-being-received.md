@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor problemen wanneer u geen e-mail 
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
 feature: Admin Workspace, Communications
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 435a545adcf2a1d6b023abaec55c4b73e942ee1a
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,12 @@ Als u de e-mail van de Afzender niet behoorlijk hebt gevormd, of uw domein niet 
    ```
 
    * Als het om het even welke resultaten terugkeert, betekent het dat het adres van de Afzender niet is gevormd.
+Aangezien u geen toegang tot admin hebt, zult u de configuratie in het gegevensbestand moeten opnemen. Sluit het juiste e-mailadres aan en voer de MySQL-instructie uit:
+
+   ```
+   insert into core_config_data (scope,scope_id,path,value) values ('default',0,'trans_email/ident_general/email', your-email@here.com)
+   ```
+
    * Als het een resultaat terugkeert, ga aan **Stap 2** te werk.
 
 1. Als het e-mailbericht in uw map Spam werd weergegeven, klikt u op de koppeling in het e-mailbericht. Als de koppeling sindsdien is verlopen, probeert u zich opnieuw aan te melden om het proces te herhalen.
