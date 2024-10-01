@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: f3d662d8843eded65eade4732d2016bf34ccd6a5
+source-git-commit: 25bc401506f81d83b1e00fe682fa477d708414dc
 workflow-type: tm+mt
-source-wordcount: '11462'
+source-wordcount: '11237'
 ht-degree: 0%
 
 ---
@@ -34,32 +34,6 @@ ht-degree: 0%
       * [Beheerde waarschuwingen voor Adobe Commerce: waarschuwing voor CPU](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
    * Reparaties beschikbaar in het gereedschap QPT {#patches}
       * [Overzicht van de beschikbare patches in het gereedschap QPT](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
-      * v1.0.5 {#v1-0-5}
-         * [Overzicht: QPT (Quality Patches Tool) v1.0.5](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/overview.md)
-         * [MDVA-28191: Geen betalingsmethode voor één website in Admin Create New Order](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28191-magento-patch-no-payment-method-for-one-website-in-admin-create-new-order.md)
-         * [MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28409-magento-patch-magento-web-server-crashing-out-of-memory.md)
-         * [MDVA-28661: Probleem met beheer van bedrijfsgebruikers bij het wijzigen van e-mailadressen voor beheerders](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28661-magento-patch-issue-with-company-users-management-when-changing-admin-email.md)
-         * [MDVA-28763: Problemen met het beheren van productafbeeldingen via REST API](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.md)
-         * [MDVA-29042: Algemene categorietoestemmingen ongewijzigd](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-29042-magento-patch-global-category-permissions-unchanged.md)
-         * [MDVA-29959 patch: Admin with &quot;Customers&quot; permissions cannot manage company account](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-29959-magento-patch-admin-with-customers-permissions-cannot-manage-company-account.md)
-         * [MDVA-30107: Winkelschakelaar werkt niet zoals verwacht](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30107-magento-patch-store-switcher-does-not-work-as-expected.md)
-         * [MDVA-30265: Koppeling voor bijhouden in e-mail retourneert 404 Pagina niet gevonden](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30265-magento-patch-tracking-link-in-email-returns-404-page-not-found.md)
-         * [MDVA-30284 Reparatie: Elasticsearch 7 - Limiet van totaal aantal velden [XXXXX] in index is overschreden](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30284-magento-patch-elasticsearch-7-limit-of-total-fields-xxxxx-in-index-has-been-exceeded.md)
-         * [MDVA-30428: Uitwijklijst werkt niet met Inventory management](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30428-magento-patch-wishlist-not-working-with-the-msi.md)
-         * [MDVA-30593-patch: Verlopen aanhalingstekens worden niet opgeschoond](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30593-magento-patch-expired-quotes-are-not-cleaned-up.md)
-      * v1.0.6 {#v1-0-6}
-         * [Overzicht: QPT (Quality Patches Tool) v1.0.6](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/overview.md)
-         * [MDVA-28202 patch: Out of stock products don&#39;t filter correctly.](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28202-magento-patch-out-of-stock-products-don-t-filter-properly.md)
-         * [MDVA-28300: Uitgave voor prijsberekening met toepassing van de regel voor catalogusprijzen in GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28300-magento-patch-price-calculation-issue-with-catalog-price-rule-in-graphql.md)
-         * [MDVA-28993: Gedeeltelijke zoekopdracht Elasticsearch, &quot;minimum dient overeen te komen&quot; en probleem &quot;zoekopdrachten met afbreekstreepje&quot; oplossen](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28993-magento-patch-elasticsearch-partial-search-minimum-should-match-and-fix-for-searches-with-hyphen-issue.md)
-         * [MDVA-29446: Niet-relevante verzendmethode beschikbaar voor afhandeling](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-29446-magento-patch-non-relevant-shipping-method-available-for-checkout.md)
-         * [MDVA-29787: verwante producten worden niet weergegeven](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-29787-magento-patch-related-products-are-not-displayed.md)
-         * [MDVA-30102: Redis cache wordt vol](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30102-magento-patch-redis-cache-getting-full.md)
-         * [MDVA-30357: De objecap die door de kroon wordt gegenereerd, heeft een onjuiste URL van de afbeelding](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30357-magento-patch-sitemap-generated-by-cron-has-wrong-image-url.md)
-         * [MDVA-30565: De lokale opslag van het zittingsgeheime voorgeheugen en de kwestie van de controle](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30565-magento-patch-session-cache-local-storage-and-checkout-issue.md)
-         * [MDVA-30599: Customer_is_gast wordt verkeerd geplaatst](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30599-magento-patch-customer-is-guest-is-set-incorrectly.md)
-         * [MDVA-30977: Ontbrekende producten uit categorieën, indexering](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.md)
-         * [MDVA-31006: fout 10415 wegens dubbele betalingsopdracht](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.md)
       * v1.0.7 {#v1-0-7}
          * [Overzicht: QPT (Quality Patches Tool) v1.0.7](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/overview.md)
          * [MDVA-29148: ArrayBackend wijst geen standaardwaarde toe bij sparen](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-29148-patch-arraybackend-does-not-assign-default-value-on-save.md)
