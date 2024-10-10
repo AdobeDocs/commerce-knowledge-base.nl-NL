@@ -4,16 +4,16 @@ description: Dit artikel biedt een oplossing voor het probleem wanneer de implem
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 9f9dc8374bb681398ed1c295ac15679553cfc74e
+source-git-commit: 2a1c97c65282d03010bffabbcd2d1be7fb9ff9a6
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
 # Implementatie mislukt met de juiste toegangssleutels in env:COMPOSER_AUTH of auth.json
 
-Dit artikel verstrekt een oplossing voor de kwestie wanneer uw plaatsing met een fout zoals hieronder ontbreekt, in het [ plaatsingslogboek ](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
+Dit artikel verstrekt een oplossing voor de kwestie wanneer uw plaatsing met een fout zoals hieronder ontbreekt, in het [ plaatsingslogboek ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
 
 ```
 W:   [Composer\Downloader\TransportException]
@@ -40,7 +40,7 @@ De implementatie is voltooid.
 >
 >Dit is een voorbeeldfout. Er kan een fout optreden die een ander bestand aangeeft (afhankelijk van de Adobe Commerce-versie die u implementeert).
 
-U kunt niet correct implementeren. U ziet een fout als *het &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot;dossier niet kon worden gedownload (HTTP/1.1 404 niet Gevonden)* in het [ plaatsingslogboek ](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+U kunt niet correct implementeren. U ziet een fout als *het &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot;dossier niet kon worden gedownload (HTTP/1.1 404 niet Gevonden)* in het [ plaatsingslogboek ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Oorzaak
 
