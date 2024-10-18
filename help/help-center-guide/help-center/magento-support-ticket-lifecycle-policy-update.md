@@ -2,76 +2,52 @@
 title: Beleidsupdate voor Adobe Commerce Support-beleid voor de levenscyclus van tickets
 description: Dit artikel bevat informatie over de beleidsupdate voor de levenscyclus van tickets van Adobe Commerce Support.
 exl-id: c3fbcb4a-107f-48b3-afed-b9a0c5d0425c
-source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
+source-git-commit: 5d291a221509c35c8bc34fd0957534c24342c59c
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 1%
+source-wordcount: '449'
+ht-degree: 0%
 
 ---
 
 # Beleidsupdate voor Adobe Commerce Support-beleid voor de levenscyclus van tickets
 
-Dit artikel bevat informatie over de beleidsupdate voor de levenscyclus van tickets van Adobe Commerce Support.
+In deze documentatie worden verbeteringen in de levenscyclus van de DX Support-Adobe beschreven, met als doel de communicatie te verbeteren en zo snel mogelijk oplossingen voor klanten te bieden om het succes van de klant te helpen garanderen. Dit kan ook in [ Overzicht van de Abonnementen van het Succes van de Adobe worden gevonden: De Levenscyclus van het Geval van de steun ](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
+Hieronder ziet u de tijdlijnen en meldingen voor verschillende scenario&#39;s die tijdens het ondersteuningsproces worden aangetroffen:
 
-De volgende tabel illustreert de bijgewerkte scenario&#39;s. In de onderstaande sectie vindt u details voor elk scenario.
+## Herinneringen voor follow-up van kwestie
 
-<table>
- <tbody>
- <tr>
- <td class="wysiwyg-text-align-center"> </td>
- <td class="wysiwyg-text-align-center"><strong>Ticket-status</strong></td>
- <td class="wysiwyg-text-align-center"><strong>Dagen naar "Opgelost"</strong></td>
- <td class="wysiwyg-text-align-center"><strong>Dagen naar "Gesloten"</strong></td>
- <td class="wysiwyg-text-align-center"><strong>Tijdstip van kennisgeving</strong></td>
- </tr>
- <tr>
- <td class="wysiwyg-text-align-left"><strong>Technicus biedt oplossing</strong></td>
- <td class="wysiwyg-text-align-center">"In afwachting van uw antwoord"</td>
- <td class="wysiwyg-text-align-center">3</td>
- <td class="wysiwyg-text-align-center">6</td>
- <td class="wysiwyg-text-align-center">Dagen 3 en 6</td>
- </tr>
- <tr>
- <td class="wysiwyg-text-align-left"><strong>Informatie van klant afwachten</strong></td>
- <td class="wysiwyg-text-align-center">"In afwachting van uw antwoord"</td>
- <td class="wysiwyg-text-align-center">NVT</td>
- <td class="wysiwyg-text-align-center">6</td>
- <td class="wysiwyg-text-align-center">Dagen 1, 3 en 6</td>
- </tr>
- <tr>
- <td class="wysiwyg-text-align-left"><strong>De klant stelt "Opgelost"in of vraagt ingenieur om aan "Opgelost" te plaatsen</strong></td>
- <td class="wysiwyg-text-align-center">"Opgelost"</td>
- <td class="wysiwyg-text-align-center">Meteen</td>
- <td class="wysiwyg-text-align-center">1</td>
- <td class="wysiwyg-text-align-center">Dag 1</td>
- </tr>
- </tbody>
- </table>
+| Melding | Status kwestie | Timing van meldingen | Aantal dagen voor sluitingsstatus kwestie |
+|--- |--- |--- |--- |
+| **1st** | Respons of resolutie in behandeling opgegeven | 24 uur / 1 dag | 5 dagen |
+| **2de** | Respons of resolutie in behandeling opgegeven | 72 uur / 3 dagen | 3 dagen |
+| **3de** | Respons of resolutie in behandeling opgegeven | 120 uur / 5 dagen | 1 dag |
+| **4de** | Respons of resolutie in behandeling gewijzigd in &quot;Automatisch gesloten&quot; | 144 uur / 6 dagen | gesloten |
 
 ## Scenario&#39;s in detail
 
-### Wanneer een technicus een oplossing biedt
-
-1. Zodra een oplossing aan een klant wordt verstrekt, plaatst de ingenieur de ticketstatus aan &quot;het wachten van uw antwoord&quot;.
-1. Als de klant 3 dagen nadat de status is gewijzigd in &quot;Wachten op uw antwoord&quot; geen antwoord heeft gegeven, wordt het ticket verplaatst naar &quot;Opgelost&quot; en wordt de klant op de hoogte gesteld.
-1. Als de klant zes dagen nadat de status is gewijzigd, geen antwoord heeft gegeven, wordt het ticket gesloten en wordt de klant op de hoogte gesteld.
-
 ### Wanneer een klant aanvullende informatie nodig heeft
 
-1. Als een update van de klant wordt vereist, plaatst de ingenieur het kaartje aan &quot;het wachten van uw antwoord&quot;.
-1. Meldingen worden op dag 1 en 3 naar de klant verzonden en vragen om follow-up.
-1. Als de klant zes dagen nadat de status is gewijzigd, geen antwoord heeft gegeven, wordt het ticket gesloten en wordt de klant op de hoogte gesteld.
+In dit scenario, wanneer de extra informatie van een klant wordt vereist, worden de volgende stappen genomen:
 
-### Ticket ingesteld op &quot;Opgelost&quot; door een klant
+* De technicus verzendt een update die om informatie verzoekt en de casestatus wordt geplaatst aan &quot;In afwachting van Reactie&quot;.
+* Op de eerste, derde en vijfde dag nadat de status is ingesteld op &quot;Reactie in behandeling&quot;, worden vervolgmeldingen verzonden naar de klant die om de aanvullende informatie verzoekt.
+* Als de klant zes dagen nadat de status is ingesteld op &quot;Reactie in behandeling&quot; geen antwoord heeft gegeven, wordt de zaak gesloten en wordt een melding van afsluiting verzonden.
 
-Wanneer een kaartje aan &quot;Opgelost&quot;door een klant wordt geplaatst, wordt het gesloten binnen één dag en de klant wordt op de hoogte gebracht.
+Klanten kunnen een gesloten kwestie binnen 14 dagen opnieuw openen om verder te gaan met de communicatie. Na 14 dagen kan een nieuwe steunzaak worden geopend om de communicatie over een eerder gesloten zaak voort te zetten.
 
-### Klant geeft opdracht tot ondersteuning om het ticket te sluiten
+### Wanneer een technicus een oplossing biedt
 
-Wanneer een klant Adobe Commerce Support opdracht geeft het ticket te sluiten, wordt het over één dag gesloten en wordt de klant op de hoogte gesteld.
+In dit scenario, wanneer een ingenieur een oplossing aanbiedt, worden de volgende stappen genomen:
+
+* De technicus stuurt een update met een voorgestelde oplossing en de casestatus is ingesteld op &quot;Opgegeven resolutie&quot;.
+* Op de eerste, derde en vijfde dag nadat de status is ingesteld op &quot;Opgeloste oplossing&quot;, worden vervolgmeldingen verzonden naar de klant die om bevestiging van de opgegeven oplossing verzoekt.
+* Als de klant zes dagen nadat de status op &quot;Opgeloste resolutie&quot; was ingesteld, geen antwoord heeft gegeven, wordt de zaak gesloten en wordt een sluitingsmelding verzonden.
+
+Klanten kunnen een gesloten kwestie binnen 14 dagen opnieuw openen om verder te gaan met de communicatie. Na 14 dagen kan een nieuwe steunzaak worden geopend om de communicatie over een eerder gesloten zaak voort te zetten.
 
 ## Gerelateerde lezing
 
-* [Een ondersteuningsticket verzenden](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)
-* [De koppeling Een ticket verzenden wordt niet weergegeven op de startpagina van Adobe Commerce Help Center](/help/help-center-guide/help-center/magento-help-center-user-guide.md#no-submit-link)
-* [Formulier voor het verzenden van een ticket: de handelaar wordt niet weergegeven in de vervolgkeuzelijst Organisatie](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed)
+* [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
+* [ De koppeling Een ticket verzenden wordt niet weergegeven op de startpagina van Adobe Commerce Help Center ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
+* [ de voorleggingsvorm van het Ticket: de handelaar wordt niet getoond in drop-down Organisatie ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
+* [ Overzicht van de Abonnementen van het Succes van de Adobe: De Levenscyclus van het Geval van de steun ](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
