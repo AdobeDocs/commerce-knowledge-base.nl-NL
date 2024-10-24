@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: d7940db29941e39ee6a664115095c7512a7f8d54
+source-git-commit: 9a93f596b5196a9da61e9698a7e6456c650c2b42
 workflow-type: tm+mt
-source-wordcount: '9794'
+source-wordcount: '9723'
 ht-degree: 0%
 
 ---
@@ -975,25 +975,18 @@ ht-degree: 0%
       * [Adobe Commerce 2.3.5, 2.3.5-p1-patch: probleem met landbetaling](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
       * [Adobe Commerce 2.4.0-patch: retourneert probleem met aanmaak van verzendlabel](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-patch-returns-shipping-label-creation-issue.md)
       * [&quot;500 fout&quot; na het dubbelklikken op Koppeling verwijderen in winkelwagentje](/help/troubleshooting/known-issues-patches-attached/500-error-after-double-clicking-remove-link-in-shopping-cart.md)
-      * [Web API kan aanvragen met meer dan 20 items in matrix niet verwerken](/help/troubleshooting/known-issues-patches-attached/web-api-resources-limit.md)
       * [Pakketten die na een upgrade zijn gedowngraded van 2.4.4 naar 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Paginering van catalogus werkt niet met Elasticsearch 6.x](/help/troubleshooting/known-issues-patches-attached/catalog-pagination-doesn-t-work-when-elasticsearch-6-x-is-used.md)
-      * [Beveiligingsupdates beschikbaar voor Adobe Commerce APSB22-12](/help/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.md)
-      * [404 Fout op winkelfront zodra de update van de catalogusprijsregelschema&#39;s is uitgevoerd](/help/troubleshooting/known-issues-patches-attached/404-error-on-store-front-once-catalog-price-rule-schedules-update-is-performed.md)
       * [Adobe Commerce 2.3.6, 2.4.1 CAPTCHA bij afrekenen werkt niet](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
-      * [Verzendadres niet opgeslagen pagina Vernieuwen na afhandeling](/help/troubleshooting/known-issues-patches-attached/shipping-address-not-saved-post-page-refresh-on-checkout.md)
-      * [CSV-productinformatie importeren voor product met dezelfde naam is mislukt](/help/troubleshooting/known-issues-patches-attached/import-csv-product-information-for-same-name-product-fails.md)
       * [E-mailadres bestellen dat is verzonden vanaf het e-mailadres van de server](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
       * [Advanced Reporting 404-fout bij gesplitste databaseoplossing](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)
       * [Prestatieproblemen veroorzaakt door buitensporige Ajax-aanvragen](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)
       * [Als u een gefaseerde update verwijdert, verwijdert u gerelateerde entiteit](/help/troubleshooting/known-issues-patches-attached/removing-staging-update-deletes-related-entity.md)
       * [Googles Analytics volgen geen conversiegegevens](/help/troubleshooting/known-issues-patches-attached/google-analytics-is-not-tracking-conversion-data.md)
-      * [Bekend probleem van Adobe Commerce 2.4.0: integratietests mislukken](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-known-issue-integration-tests-fail.md)
       * [Onjuiste datum voor speciale prijs](/help/troubleshooting/known-issues-patches-attached/wrong-date-for-special-price.md)
       * [Adobe Commerce 2.4.1 en 2.3.6 maken een accountknop met uitgeschakelde hotfix](/help/troubleshooting/known-issues-patches-attached/2-4-1-and-2-3-6-create-an-account-button-disabled-hotfix.md)
       * [Fout bij het opslaan van de themaconfiguratie in Admin](/help/troubleshooting/known-issues-patches-attached/area-already-set-error-when-saving-theme-configuration-in-admin.md)
       * [Adobe Commerce vraagt klanten zich aan te melden bij ongeldige koppeling](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
-      * [Aanmaak van verzendlabels Bekend probleem in Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)
       * [B2B: Bedrijven hebben geen toegang tot profielpagina&#39;s op winkelvoorzijde](/help/troubleshooting/known-issues-patches-attached/b2b-companies-cannot-access-profile-pages-on-store-front.md)
       * [Adobe Commerce 2.4.6-fout bij het plaatsen van de volgorde in het deelvenster Beheer](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [[!UICONTROL salesRule] problemen met labels bij upgrades van versies &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)

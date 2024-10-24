@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor het probleem wanneer alle fout
 exl-id: f44fe434-a320-4e7e-a876-9575921749f3
 feature: Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ Gebruik een andere versie van PHP 7.4.x om dit probleem op te lossen. PHP 7.4.2 
 ## Gerelateerde lezingen in onze kennisbasis voor ondersteuning:
 
 * [Bekende uitgave van Commerce 2.4.0: Betalingsmethoden voor Braintree worden niet weergegeven bij de afhandeling van meerdere adressen](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
-* [Aanmaak van verzendlabels Bekend probleem in Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0: Vernieuwen op activiteiten van de klant werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0: Export Tax Rates werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0: &quot;Selecties toevoegen aan mijn winkelwagentje&quot; werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
