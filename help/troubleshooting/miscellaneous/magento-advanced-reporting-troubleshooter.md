@@ -4,7 +4,7 @@ description: Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgel
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: dfe9b9cf4751e28bd151fce36df168e48fb914ed
+source-git-commit: ae6dde9ecc01a0e1c561d1e91dbd2f7bc3504fe0
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -94,7 +94,7 @@ b. NO - Als de query niets oplevert, voert u de volgende stappen uit: 1. [ onbru
 
 Controleer of taak `analytics_collect_data` is uitgevoerd door deze query uit te voeren: `SELECT * FROM cron_schedule WHERE job_code LIKE 'analytics_collect_data' \G`
 
-a. JA - als er verslagen zijn en de **status** kolom zegt _gemist_, gebruik het flard in dit KB artikel [ Geavanceerde Rapportering van de Update om op zijn eigen kroongroep ](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md) in werking te stellen.\
+a. JA - als er verslagen zijn en de **status** kolom zegt _gemist_, gebruik het flard in dit KB- artikel Update Geavanceerde Rapportering om op zijn eigen kroongroep in werking te stellen.\
 b. JA - als er verslagen zijn en de **status** kolom zegt _succes_, ga aan [ Stap 9 ](#step-9) te werk.\
 c. JA - als er verslagen zijn en de **status** kolom zegt _fout_, ga aan [ Stap 8 te werk.](#step-8)\
 d. NO - als er geen verslagen zijn, ga aan [ Stap 8 ](#step-8) te werk.
@@ -151,7 +151,7 @@ b. NO - ga aan [ Stap 11 ](#step-11) te werk.
 
 Voorbeeld: `report.ERROR: Cron Job analytics_collect_data has an error: substr_count() expects parameter 1 to be string, null given. Statistics: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384} [] []`
 
-a. JA - gebruik het flard MDVA-19391 in [ Gemeenschappelijke Geavanceerde het Melden van de fouten van de baankast op Adobe Commerce ](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md), wacht 24 uren op de baan opnieuw te lopen en probeer opnieuw.\
+a. JA - Gebruik de MDVA-19391-patch in Common Advanced Reporting cron job errors op Adobe Commerce, wacht 24 uur tot de taak opnieuw wordt uitgevoerd en probeer het opnieuw.\
 b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
