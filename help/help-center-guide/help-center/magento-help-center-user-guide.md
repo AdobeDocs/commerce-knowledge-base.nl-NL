@@ -3,9 +3,9 @@ title: Gebruikershandleiding voor ondersteuning van Experiencen League voor Adob
 description: Leer hoe te om een steunkaartje aan de Steun van het Experience League voor te leggen, gedeelde toegang tot rekeningen te verlenen, en de Kennisbank van Adobe Commerce te navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: d8f832869916c04cacc0cefeeb9b45bd3c1f3b80
+source-git-commit: 8ee52f47d9e230ecd633ead3429d864f9df7c33e
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2583'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,6 @@ Voer de volgende stappen uit om u aan te melden bij Adobe Experience League Supp
 
 Zodra u bent aangemeld als eigenaar van de account of als gebruiker van Gedeelde toegang, kunt u een ondersteuningskwestie indienen via de Adobe Experience League-homepage, uw Adobe Commerce-accountpagina en uw Adobe Commerce Cloud-accountpagina.
 
-* Voer de onderstaande stappen uit als u de eigenaar van de account of een geretourneerde gebruiker van Gedeelde toegang bent.
-* Als u een Gedeelde gebruiker van de Toegang bent en de rekeningseigenaar heeft enkel [ u van gedeelde toegang ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#provide-shared-access) voorzien, moet u eerst schakelaarrekeningen alvorens aan de hieronder stappen te werk te gaan. Zie [ Toegang gedeelde rekening (schakelaarrekeningen) ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts) voor meer details.
-
 #### Adobe Experience League-startpagina {#experience-league-start-page}
 
 Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met de startpagina van Adobe Experience League:
@@ -106,7 +103,7 @@ Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met d
 
    ![ open-steun-pagina ](assets/click_support.png)
 
-1. Zorg ervoor dat u de juiste organisatie hebt geselecteerd in de vervolgkeuzelijst Organisatie (indien zichtbaar) om het supportinnameproces te starten.
+1. Zorg ervoor dat u de juiste organisatie hebt geselecteerd in de vervolgkeuzelijst Organisatie (indien zichtbaar) om het supportinnameproces te starten. Als u een case voor Adobe Commerce wilt verzenden, selecteert u de naam van de organisatie die eindigt in *[!DNL Commerce]* .
 
    ![ select_appropriate_org ](assets/select_appropriate_org.png)
 
