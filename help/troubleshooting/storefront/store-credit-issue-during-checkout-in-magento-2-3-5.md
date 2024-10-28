@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor het bekende probleem met winke
 exl-id: a0cca226-4d95-40b3-bd37-f13d28591366
 feature: Checkout, Orders, Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d51fd4d7b064b8eea6cd3771af279b74a8bdec48
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,6 @@ Artikelen voor Adobe Commerce 2.3.5 bekende problemen in onze basis voor onderst
 
 * [Probleem met landbetalingsmethode in Adobe Commerce inzake cloudinfrastructuur en Adobe Commerce op locatie 2.3.5 en 2.3.5-p1](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
 
-* [Adobe Commerce vraagt klanten zich aan te melden, maar bevat een ongeldige koppeling](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
 
 * [Bulkactie product count known issue in Adobe Commerce 2.3.5](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
 

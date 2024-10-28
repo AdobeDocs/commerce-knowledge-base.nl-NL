@@ -4,9 +4,9 @@ description: In dit artikel wordt een bekend probleem in Adobe Commerce 2.3.5 ui
 exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 feature: Orders, Products, Shipping/Delivery
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d51fd4d7b064b8eea6cd3771af279b74a8bdec48
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,6 @@ In onze kennisbasis voor ondersteuning:
 * [Bekende kwestie in Adobe Commerce 2.3.5 voor de vergelijking van producten](/help/troubleshooting/storefront/product-comparison-known-issue-in-magento-2-3-5.md)
 * [Bulkactie product count known issue in Adobe Commerce 2.3.5](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
 * [Uitgifte van een landbetalingsmethode in Adobe Commerce 2.3.5 en 2.3.5-p1](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-* [Adobe Commerce vraagt klanten zich aan te melden, maar bevat een ongeldige koppeling](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
 * [Probleem met afhandeling van afhandeling voor Amazon Pay in Adobe Commerce 2.3.5-p1](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
 
 In onze documentatie voor ontwikkelaars:
