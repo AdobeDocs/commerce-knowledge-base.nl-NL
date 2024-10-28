@@ -3,9 +3,9 @@ title: Gebruikershandleiding voor ondersteuning van Experiencen League voor Adob
 description: Leer hoe te om een steunkaartje aan de Steun van het Experience League voor te leggen, gedeelde toegang tot rekeningen te verlenen, en de Kennisbank van Adobe Commerce te navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 8ee52f47d9e230ecd633ead3429d864f9df7c33e
+source-git-commit: 529bfc97ab05b839fca6d76f2d2f2f3dc040c9b9
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,9 @@ Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met d
 
 >[!INFO]
 >
->1. Als u een kwestie wilt indienen, moet u aanspraak kunnen maken op ondersteuning voor het desbetreffende product (bijvoorbeeld Adobe Commerce, Adobe Commerce Intelligence, Experience Platform, enz.). Als u niet gerechtigd bent om te steunen, zal een bar bij de bovenkant van de pagina verschijnen die u deelt dat u geen steun-gerechtigde gebruiker in de organisatie bent.
+>1. Als u een kwestie wilt indienen, moet u aanspraak kunnen maken op ondersteuning voor het juiste product (bijvoorbeeld Adobe Commerce, Adobe Commerce Reporting, Adobe Commerce Payment Services, Experience Platform, enz.). Als u niet gerechtigd bent om te steunen, zal een bar bij de bovenkant van de pagina verschijnen die u deelt dat u geen steun-gerechtigde gebruiker in de organisatie bent. Als u een kwestie voor Commerce-gerelateerde problemen wilt verzenden, moet u eerst de juiste organisatienaam selecteren die eindigt in *[!DNL Commerce]* .
 >1. Als u tot veelvoudige organisaties behoort of er veelvoudige organisaties met gelijkaardige-kijkt namen zijn (elk zal om het even welke andere producten van de Adobe vertegenwoordigen de organisatie abonnementen aan), zult u de aangewezen organisatie van dropdown eerst moeten selecteren.
+>1. Als u geen Adobe Commerce in [!UICONTROL Select a product] dropdown ziet, moet u [ Gedeelde Toegang ](#shared-access) van de Eigenaar van de Rekening van Commerce eerst verkrijgen. Zodra u Gedeelde Toegang hebt gekregen, zult u uw rekening [ moeten synchroniseren ](#switch-accounts) om het proces te voltooien alvorens u een geval kunt voorleggen.
 
 >[!NOTE]
 >
