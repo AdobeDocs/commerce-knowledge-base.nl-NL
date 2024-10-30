@@ -1,17 +1,18 @@
 ---
-title: "Implementatie mislukt bij leegmaken van cache: er zijn geen opdrachten gedefinieerd in de naamruimtefout 'cache'"
+title: "Implementatie mislukt bij leegmaken van cache: 'Er zijn geen opdrachten gedefinieerd in de fout 'cache' namespace'"
 description: Dit artikel biedt een oplossing voor het probleem wanneer de implementatie mislukt vanwege de volgende fout **Er zijn geen opdrachten gedefinieerd in de cachenaamruimte**.
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: e13be3ef9daa17b9463c8251933f68f6a35fedd2
+source-git-commit: 7efa7b5363c7f77d76c02051c7e0e6a0f38ca87d
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# Implementatie mislukt bij leegmaken van cache: &quot;Er zijn geen opdrachten gedefinieerd in de naamruimtefout &#39;cache&#39;.&quot;
+
+# Implementatie mislukt bij leegmaken van cache: &quot;Er zijn geen opdrachten gedefinieerd in de fout &#39;cache&#39; namespace
 
 >[!WARNING]
 >
@@ -30,11 +31,11 @@ Dit artikel verstrekt een oplossing voor de kwestie wanneer uw plaatsing ontbree
 
 Adobe Commerce op cloudinfrastructuur 2.4.x
 
-## Probleem  
+## Probleem
 
 <u> Stappen om </u> te reproduceren:
 
-Poging om te implementeren. 
+Poging om te implementeren.
 
 <u> Verwachte resultaten </u>:
 
@@ -66,16 +67,16 @@ Om dit probleem op te lossen, identificeer de ongeldige rijen die van die config
    The store that was requested wasn't found. Verify the store and try again.
    ```
 
-1. Voer deze MySql-query uit om te controleren of de winkel niet kan worden gevonden. Dit wordt aangegeven door het foutbericht in stap 2. 
+1. Voer deze MySql-query uit om te controleren of de winkel niet kan worden gevonden. Dit wordt aangegeven door het foutbericht in stap 2.
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. Voer de volgende MySql-instructie uit om de ongeldige rijen te verwijderen: 
+1. Voer de volgende MySql-instructie uit om de ongeldige rijen te verwijderen:
 
    ```sql
-   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
+   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
 1. Voer deze opdracht opnieuw uit:
