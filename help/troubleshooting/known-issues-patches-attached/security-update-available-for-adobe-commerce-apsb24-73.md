@@ -1,19 +1,19 @@
 ---
 title: Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-73]
 promoted: true
-description: Pas een Geïsoleerd flard toe om  [!DNL critical, important, and moderate vulnerabilities]  voor Adobe Commerce 2.4.7-p3, 2.4.6-p8, 2.4.5-p10, 2.4.4-p11, en vroegere versies slechts instanties te verhelpen die  [!DNL B2B]  module in werking stellen.
+description: Pas een Geïsoleerd flard toe om  [!DNL critical, important, and moderate vulnerabilities]  voor Adobe Commerce 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10, en vroegere versies slechts instanties te verhelpen die  [!DNL B2B]  module in werking stellen.
 feature: Compliance, Security
 role: Developer
-source-git-commit: 181316dc0bd42feae0a857ff52edd80dbfd492ad
+source-git-commit: 483589be81e55f818f5cf93cccff2ffcbb5763cf
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-73]
 
-Op 8 oktober 2024 heeft Adobe een regelmatig geplande beveiligingsupdate uitgebracht voor Adobe Commerce, Magento Open Source en [!DNL Adobe Commerce Webhooks Plugin] .
+Op 8 oktober 2024 heeft Adobe een regelmatig geplande beveiligingsupdate uitgebracht voor Adobe Commerce en [!DNL Adobe Commerce Webhooks Plugin] .
 Deze update verhelpt [[!DNL critical, important], en  [!DNL moderate] ](https://helpx.adobe.com/security/severity-ratings.html) kwetsbaarheid. Succesvolle uitbuiting kan leiden tot willekeurige code-uitvoering, willekeurig lezen in een bestandssysteem, het omzeilen van beveiligingsfuncties en escalatie van bevoegdheden. Het bulletin is [ Bulletin van de Veiligheid van de Adobe ([!DNL APSB24-73]) ](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 >[!NOTE]
@@ -28,14 +28,22 @@ Deze update verhelpt [[!DNL critical, important], en  [!DNL moderate] ](https://
 
 ## Betrokken producten en versies
 
-Adobe Commerce op Cloud, Adobe Commerce op locatie en Magento Open Source:
+Adobe Commerce on Cloud en Adobe Commerce in de gebouwen:
 
-* 2.4.7-p3 en eerdere versies
-* 2.4.6-p8 en eerder
-* 2.4.5-p10 en eerder
-* 2.4.4-p11 en eerder
+* 2.4.7-p2 en lager
+* 2.4.6-p7 en eerdere versies
+* 2.4.5-p9 en eerder
+* 2.4.4-p10 en eerder
 
-## Oplossing voor Adobe Commerce op Cloud, Adobe Commerce on-premisse software en Magento Open Source
+B2B:
+
+* 1.4.2-p2 en lager
+* 1.3.5-p7 en eerdere versies
+* 1.3.4-p9 en eerder
+* 1.3.3-p10 en eerder
+
+
+## Oplossing voor Adobe Commerce on Cloud en Adobe Commerce on-premisse software
 
 Om de kwetsbaarheid voor de betrokken producten en versies te helpen oplossen, moet u de [!DNL CVE-2024-45115] geïsoleerde patch toepassen.
 
@@ -43,7 +51,7 @@ Om de kwetsbaarheid voor de betrokken producten en versies te helpen oplossen, m
 
 Gebruik de volgende bijgevoegde geïsoleerde pleister:
 
-[vuln-25610-composer-patch.zip](assets/vuln-25610-composer-patch.zip)
+[vuln-26510-composer-patch.zip](assets/vuln-26510-composer-patch.zip)
 
 ## Hoe wordt de geïsoleerde pleister aangebracht
 
