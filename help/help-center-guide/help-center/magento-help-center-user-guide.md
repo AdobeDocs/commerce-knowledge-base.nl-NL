@@ -3,9 +3,9 @@ title: Gebruikershandleiding voor ondersteuning van Experiencen League voor Adob
 description: Leer hoe te om een steunkaartje aan de Steun van het Experience League voor te leggen, gedeelde toegang tot rekeningen te verlenen, en de Kennisbank van Adobe Commerce te navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 8438978de04746c8a66816fe4f03d5f0d2d11521
+source-git-commit: 7a70f2c54396f82424e442aca7413c02ebecddb9
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2770'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,8 @@ Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met d
 
 >[!INFO]
 >
+>1. Als u een kwestie wilt indienen, moet u aanspraak kunnen maken op ondersteuning voor het desbetreffende product (bijvoorbeeld Adobe Commerce, Adobe Commerce Intelligence, Experience Platform, enz.). Als u niet gerechtigd bent om te steunen, zal een bar bij de bovenkant van de pagina verschijnen die u deelt dat u geen steun-gerechtigde gebruiker in de organisatie bent.
+>1. Als u tot veelvoudige organisaties behoort of er veelvoudige organisaties met gelijkaardige-kijkt namen zijn (elk zal om het even welke andere producten van de Adobe vertegenwoordigen de organisatie abonnementen aan), zult u de aangewezen organisatie van dropdown eerst moeten selecteren die in &quot;(Commerce)&quot;beëindigt.
 >1. Als u een kwestie wilt indienen, moet u aanspraak kunnen maken op ondersteuning voor het juiste product (bijvoorbeeld Adobe Commerce, Adobe Commerce Reporting, Adobe Commerce Payment Services, Experience Platform, enz.). Als u niet gerechtigd bent om te steunen, zal een bar bij de bovenkant van de pagina verschijnen die u deelt dat u geen steun-gerechtigde gebruiker in de organisatie bent. Als u een kwestie voor Commerce-gerelateerde problemen wilt verzenden, moet u eerst de juiste organisatienaam selecteren die eindigt in *[!DNL (Commerce)]* .
 >1. Als u tot veelvoudige organisaties behoort of er veelvoudige organisaties met gelijkaardige-kijkt namen zijn (elk zal om het even welke andere producten van de Adobe vertegenwoordigen de organisatie abonnementen aan), zult u de aangewezen organisatie van dropdown eerst moeten selecteren.
 >1. Als u geen Adobe Commerce in [!UICONTROL Select a product] dropdown ziet, moet u [ Gedeelde Toegang ](#shared-access) van de Eigenaar van de Rekening van Commerce eerst verkrijgen. Zodra u Gedeelde Toegang hebt gekregen, zult u uw rekening [ moeten synchroniseren ](#switch-accounts) om het proces te voltooien alvorens u een geval kunt voorleggen.
@@ -98,7 +100,7 @@ Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met d
 >
 >Zorg ervoor dat u de juiste organisatie hebt geselecteerd voordat u de zaak indient en dat de door u geselecteerde organisatie over de juiste rechten beschikt voor het product waarvoor u ondersteuning aanvraagt. Bijvoorbeeld, als uw kwestie met Adobe Commerce verwant is, maar u had Experience Platform geselecteerd aangezien het product en de zaak met succes werd voorgelegd, kan dit tot misroutering van uw geval en vertragingen in reactietijden leiden.
 >
->Als de verkeerde organisatie is geselecteerd, kan uw team de kwestie bovendien niet bekijken onder [!UICONTROL My Cases] voor de juiste/correcte organisatie. Het ondersteuningsteam beschikt niet over de mogelijkheid om de organisatie die aan de zaak is gekoppeld, in de toekomst te wijzigen.
+>Als de verkeerde organisatie was geselecteerd op het moment dat de zaak werd ingediend, kan uw team de zaak niet bekijken onder [!UICONTROL My Cases] voor de juiste/correcte organisatie. Het Adobe Commerce-ondersteuningsteam beschikt niet over de mogelijkheid om de organisatie van de zaak te wijzigen. Om dit probleem aan te pakken, moet u het bestaande geval sluiten en een nieuw geval indienen met de juiste details die zijn opgegeven of geselecteerd.
 
 1. Klik op **Steun** in de kopbal. Het zal de homepage van de Steun openen.
 
