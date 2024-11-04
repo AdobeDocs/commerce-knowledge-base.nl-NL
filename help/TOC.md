@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: a0b8fdf0e04cad2260a04af7c1049c6831d2921b
+source-git-commit: 2212ec66c04445db791c5bd852d7498161de410d
 workflow-type: tm+mt
-source-wordcount: '9617'
+source-wordcount: '9625'
 ht-degree: 0%
 
 ---
@@ -940,6 +940,7 @@ ht-degree: 0%
       * [Implementatie mislukt bij leegmaken van cache: &quot;Er zijn geen opdrachten gedefinieerd in de fout &#39;cache&#39; namespace](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [Implementatie mislukt met de juiste toegangssleutels in env:COMPOSER_AUTH of auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * Bekende problemen {#known-issues-patches-attached}
+      * [Achterwaarts onverenigbare veranderingen voor  [!DNL GraphQL "placeOrder" API]  in Adobe Commerce 2.4.6-p8](/help/troubleshooting/known-issues-patches-attached/backwards-incompatible-changes-for-graphql-placeorder-api-in-adobe-commerce-2-4-6-p8.md)
       * [Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
       * [Richtlijnen voor het beveiligen van uw winkel en het roteren van coderingssleutels: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
       * [Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
@@ -1026,7 +1027,7 @@ ht-degree: 0%
    * [Adobe Commerce-productdocumentatie vinden](/help/how-to/general/how-to-find-magento-product-documentation.md)
    * [HTTP omleiden naar HTTPS voor alle pagina&#39;s op Adobe Commerce op cloudinfrastructuur (TLS afdwingen)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [Meer ruimte toewijzen voor MySQL in Adobe Commerce in de cloud](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
-   * [De increment ID van een DB-entiteit wijzigen (order, factuur, creditnota, enz.) in een bepaald archief](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
+   * [De incrementele id wijzigen voor een DB-entiteit (bestelling, factuur, creditnota, enz.) in een bepaalde winkel](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [Snel instellen voor starterabonnement op cloud](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
    * [Adobe Commerce Intelligence Training Video: Report Builder Cohort](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
    * [Upgrade MariaDB 10.0 naar 10.2 voor Adobe Commerce op cloud](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
