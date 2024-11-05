@@ -4,9 +4,9 @@ description: Klik op elke vraag om de antwoorddetails in elke stap van de proble
 exl-id: 10a2313e-cc82-4ffc-9247-624884f3e165
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Klik op elke vraag om de antwoorddetails in elke stap van de probleemoplosser te
 
 +++**toont <https://status.adobe.com> om het even welke kwesties?**
 
-a. JA - als u [ de Status van het Magento van de Adobe ](https://status.adobe.com/products/3350) controleerde en het een kwestie toonde, open a [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor verder onderzoek.\
-b. NO - als u [ de Status van het Magento van de Adobe ](https://status.adobe.com/products/3350) controleerde en het geen kwestie toonde, ga aan [ Stap 2 ](#step-2) te werk.
+a. JA - als u [ Status van Adobe Commerce ](https://status.adobe.com/cloud/experience_cloud) controleerde, en het toonde een kwestie, open a [ Ticket van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) voor verder onderzoek.\
+b. NO - als u [ Status van Adobe Commerce ](https://status.adobe.com/cloud/experience_cloud) controleerde, en het geen kwestie toonde, aan [ Stap 2 ](#step-2) te werk gaat.
 
 +++
 
@@ -28,8 +28,8 @@ b. NO - als u [ de Status van het Magento van de Adobe ](https://status.adobe.co
 
 +++**toont http://status.fastly.com om het even welke kwesties?**
 
-a. JA - als u [ Snelle Status ](https://status.fastly.com/) controleerde en het een kwestie toonde, open a [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor verder onderzoek.\
-b. NO - als u [ Snelle Status ](https://status.fastly.com/) controleerde en het geen kwestie toonde, aan [ Stap 3 ](#step-3) te werk gaat.
+a. JA - als u [[!DNL Fastly]  Status ](https://status.fastly.com/) controleerde en het een kwestie toonde, open a [ Ticket van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) voor verder onderzoek.\
+b. NO - als u [[!DNL Fastly]  Status ](https://status.fastly.com/) controleerde en het geen kwestie toonde, aan [ Stap 3 ](#step-3) te werk gaat.
 
 +++
 
@@ -39,7 +39,7 @@ b. NO - als u [ Snelle Status ](https://status.fastly.com/) controleerde en het 
 
 Om foutencodes in **Firefox** te controleren: Klik het **Open pictogram van het Menu** > **Ontwikkelaar van het Web** > **Hulpmiddelen van de knevel** > **9} lusje van het Netwerk** allen **filter >** van de Status **kolom.** Om foutencodes in **Chrome** te controleren: Klik het **Open pictogram van het Menu** > **Meer Hulpmiddelen** > **Hulpmiddelen van de Ontwikkelaar** > **lusje van het Netwerk** > **Alle** filter > **van de Status** kolom.
 
-a. JA - Open a [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor verder onderzoek.\
+a. JA - Open a [ Ticket van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) voor verder onderzoek.\
 b. NO - ga aan [ Stap 4 ](#step-4) te werk.
 
 +++
@@ -48,11 +48,11 @@ b. NO - ga aan [ Stap 4 ](#step-4) te werk.
 
 +++**welke code van de websitefout u ontving?**
 
-a. Foutcode 500 - Controleer het logboek van `/var/log/platform/` . Als dit gegeven niet de kwestie aan u voorstelt, kunt u a [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) openen en de het oplossen van problemeninformatie omvatten u tot nu toe voor verder onderzoek hebt.
+a. Foutcode 500 - Controleer het logboek van `/var/log/platform/` . Als dit gegeven niet de kwestie aan u voorstelt, kunt u a [ Ticket van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) openen en de het oplossen van problemeninformatie omvatten u tot nu toe voor verder onderzoek hebt.
 
-b. Foutcode 503 - Logboek controleren van `var/reports` . Als dit gegeven niet de kwestie aan u voorstelt, kunt u a [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) openen en de het oplossen van problemeninformatie omvatten u tot nu toe voor verder onderzoek hebt.
+b. Foutcode 503 - Logboek controleren van `var/reports` . Als dit gegeven niet de kwestie aan u voorstelt, kunt u a [ Ticket van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) openen en de het oplossen van problemeninformatie omvatten u tot nu toe voor verder onderzoek hebt.
 
-c. Code 404 van de fout - stel de volgende vraag in werking: `SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';` als de vraag een lijst terugkeert, waar `update_exists` de waarde &quot;0&quot;is, verwijs naar [ Fout 404 op alle pagina&#39;s, storefront en Admin, toe te schrijven aan de Staging van de Inhoud ](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md) artikel. In alle andere gevallen ga aan [ Stap 5 ](#step-5) te werk.
+c. Code 404 van de fout - stel de volgende vraag in werking: `SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';` als de vraag een lijst terugkeert, waar `update_exists` de waarde &quot;0&quot;is, verwijs naar [ Fout 404 op alle pagina&#39;s, storefront en Admin, toe te schrijven aan de Staging van de Inhoud ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue) artikel. In alle andere gevallen ga aan [ Stap 5 ](#step-5) te werk.
 
 d. Andere Codes van de Fout - ga aan [ Stap 5 ](#step-5) te werk.
 
@@ -60,9 +60,9 @@ d. Andere Codes van de Fout - ga aan [ Stap 5 ](#step-5) te werk.
 
 ## Stap 5 {#step-5}
 
-+++**is uw plaats langzaam, of het hebben hoge serverlading, hoge lading van cpu, langzame verzoekverwerking, of stroomonderbrekingen in MySQL of Redis?**
++++**is uw plaats langzaam, of het hebben hoge serverlading, hoge lading van cpu, langzame verzoekverwerking, of stroomonderbrekingen in [!DNL MySQL] of Redis?**
 
-a. JA - ga met stappen voor [ die voor aanvallen DDOS van CLI ](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md) controleren.\
+a. JA - ga met stappen voor [ die voor aanvallen DDOS van CLI ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli) controleren.\
 b. NO - de logboeken van de controle van `/var/log/exception.log` en `/var/log/deploy.log`, en als dit gegeven niet de kwestie aan u voorstelt, ga aan [ Stap 6 ](#step-6) te werk.
 
 +++
@@ -80,16 +80,16 @@ b. NO - ga aan [ Stap 7 ](#step-7) te werk.
 
 +++**hebt u de fouten van de Elasticsearch?**
 
-a. JA - ga met stappen voor [ het controleren Elasticsearch ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html) te werk.\
+a. JA - ga met stappen voor [ het controleren Elasticsearch ](https://developer.adobe.com/commerce/php/module-reference/module-elasticsearch/) te werk.\
 b. NO - ga aan [ Stap 8 ](#step-8) te werk.
 
 +++
 
 ## Stap 8 {#step-8}
 
-+++**was uw gegevensbestand MySQL die langzame vragen of onjuiste vragen hebben?**
++++**was uw [!DNL MySQL] gegevensbestand die langzame vragen of onjuiste vragen hebben?**
 
-a. JA - ga met [ het controleren langzame vragen en Processen die te lang in MySQL ](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md) nemen en uw vraagstructuur in dit [ MySQL vraagleerprogramma ](https://dev.mysql.com/doc/refman/5.5/en/entering-queries.html) controleren.\
+a. JA - ga met [ het controleren langzame vragen en Processen die te lang in  [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/checking-slow-queries-and-processes-mysql) and checking your query structure in this [[!DNL MySQL]  vraagleerprogramma ](https://dev.mysql.com/doc/refman/5.5/en/entering-queries.html) nemen.\
 b. NO - ga aan [ Stap 9 ](#step-9) te werk.
 
 +++
@@ -98,7 +98,7 @@ b. NO - ga aan [ Stap 9 ](#step-9) te werk.
 
 +++**is uw statische inhoud niet beschikbaar?**
 
-a. JA - ga met het raadplegen van het [ Controleren statische inhoud ](https://support.magento.com/hc/en-us/articles/360031624091) artikel te werk.\
+a. JA - ga met het raadplegen van het [ Controleren statische inhoud ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/static-content-deployment) artikel te werk.\
 b. NO - ga aan [ Stap 10 ](#step-10) te werk.
 
 +++
@@ -107,7 +107,7 @@ b. NO - ga aan [ Stap 10 ](#step-10) te werk.
 
 +++**ziet u PHP Fatale Fouten in uw logboeken?**
 
-a. JA - ga met het raadplegen van [ Gemeenschappelijke PHP Onherstelbare Fouten en oplossingen ](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md) te werk.\
+a. JA - ga met het raadplegen van [ Gemeenschappelijke PHP Onherstelbare Fouten en oplossingen ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions) te werk.\
 b. NO - ga aan [ Stap 11 ](#step-11) te werk.
 
 +++
@@ -116,7 +116,7 @@ b. NO - ga aan [ Stap 11 ](#step-11) te werk.
 
 +++**ziet u terugkerende fouten?**
 
-a. JA - ga met stappen te werk om [ te verifiëren Redis ](https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html#redis-verify) loopt en voor [ Redis het oplossen van problemen ](https://redis.io/topics/problems).\
+a. JA - ga met stappen te werk om [ te verifiëren  [!DNL Redis]  ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/redis#troubleshooting-redis) loopt en voor [[!DNL Redis]  het oplossen van problemen ](https://redis.io/topics/problems).\
 b. NO - ga aan [ Stap 12 ](#step-12) te werk.
 
 +++
@@ -125,8 +125,8 @@ b. NO - ga aan [ Stap 12 ](#step-12) te werk.
 
 +++**ziet u de fouten van Indexer?**
 
-a. JA - als uw Index door een ander proces wordt gesloten, raadpleeg [ Index wordt gesloten door een ander proces ](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md). Als u andere fouten van Indexer hebt, te openen gelieve Ticket van de a [ Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor verder onderzoek.\
-b. NO - Open a [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor verder onderzoek.
+a. JA - als uw Index door een ander proces wordt gesloten, raadpleeg [ Index wordt gesloten door een ander proces ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/index-is-locked-by-another-process). Als u andere fouten van Indexer hebt, te openen gelieve Ticket van de a [ Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) voor verder onderzoek.\
+b. NO - Open a [ Ticket van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) voor verder onderzoek.
 
 +++
 
@@ -134,7 +134,7 @@ b. NO - Open a [ Ticket van de Steun ](/help/help-center-guide/help-center/magen
 
 +++**hebt u kwesties met uw douanemodule(en)?**
 
-a. JA - ga te raadplegen [ Algemene hulp van het oplossen van problemen van de douanemodule ](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md).\
+a. JA - ga te raadplegen [ Algemene hulp van het oplossen van problemen van de douanemodule ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help).\
 b. NO - ga aan [ Stap 14 ](#step-14) te werk.
 
 +++
@@ -143,7 +143,7 @@ b. NO - ga aan [ Stap 14 ](#step-14) te werk.
 
 +++**hebt u post-haken mislukkingen?**
 
-a. JA - ga met het controleren van uw fout MySQL in dit [ MySQL de berichtverwijzing van de serverfout ](https://dev.mysql.com/doc/mysql-errors/5.7/en/server-error-reference.html) te werk.\
+a. JA - ga met het controleren van uw [!DNL MySQL] fout in dit [[!DNL MySQL]  de berichtverwijzing van de serverfout ](https://dev.mysql.com/doc/mysql-errors/5.7/en/server-error-reference.html) te werk.\
 b. NO - ga aan [ Stap 15 ](#step-15) te werk.
 
 +++
@@ -152,7 +152,7 @@ b. NO - ga aan [ Stap 15 ](#step-15) te werk.
 
 +++**hebt u kwesties met componentenflarden?**
 
-a. JA - ga aan het raadplegen [ te werk Toepassend een flard neemt uw plaats neer ](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md).\
+a. JA - ga aan het raadplegen [ te werk Toepassend een flard neemt uw plaats neer ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down).\
 b. NO - ga aan [ Stap 16 ](#step-16) te werk.
 
 +++
@@ -161,20 +161,24 @@ b. NO - ga aan [ Stap 16 ](#step-16) te werk.
 
 +++**hebt u SQL gegevensbestandfouten?**
 
-a. JA - ga met het controleren van uw fout MySQL in dit [ MySQL de berichtverwijzing van de serverfout ](https://dev.mysql.com/doc/mysql-errors/5.7/en/server-error-reference.html) te werk.\
+a. JA - ga met het controleren van uw [!DNL MySQL] fout in dit [[!DNL MySQL]  de berichtverwijzing van de serverfout ](https://dev.mysql.com/doc/mysql-errors/5.7/en/server-error-reference.html) te werk.\
 b. NO - ga aan [ Stap 17 ](#step-17) te werk.
 
 +++
 
 ## Stap 17 {#step-17}
 
-+++**hebt u MySQL gegevensbestand dode sloten of een unresponsive MySQL gegevensbestand?**
++++**hebt u [!DNL MySQL] gegevensbestand dode sloten of een niet ontvankelijk [!DNL MySQL] gegevensbestand?**
 
-a. JA - ga met het controleren op dode MySQL sloten in dit [ Deadlocks in MySQL ](/help/troubleshooting/database/deadlocks-in-mysql.md) artikel.\
-b. NO - Open a [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor verder onderzoek.
+a. JA - ga met het controleren op [!DNL MySQL] imloclocks in dit [ Deadlocks in  [!DNL MySQL] ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/deadlocks-in-mysql) artikel.\
+b. NO - Open a [ Ticket van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) voor verder onderzoek.
 
 +++
 
 [Terug naar stap 1](#step-1)
 
-Klik [ HIER ](/help/troubleshooting/site-down-or-unresponsive/site-down-troubleshooting-diagram.md) om het Stroomschema van het Oplossen van problemen van de Plaats te zien onderaan.
+Klik [ HIER ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/site-down-troubleshooting-diagram) om het Stroomschema van het Oplossen van problemen van de Plaats te zien onderaan.
+
+## Gerelateerde lezing
+
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

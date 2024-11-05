@@ -3,9 +3,10 @@ title: Repareren gegevens niet bijgewerkt in  [!DNL Commerce Data Exporter]  voe
 description: Dit artikel verstrekt een oplossing voor het bevestigen van de kwesties van de gegevenssynchronisatie die door verkeerd meningsidentiteitskaart in  [!DNL Commerce Data Exporter mview]  abonnement te gebruiken worden veroorzaakt.
 feature: Data Import/Export, Saas, Logs
 role: Developer
-source-git-commit: 3581e39e7054cf765403fd963e22a051457c1097
+exl-id: 50f2223b-bfcf-4c3c-b0f1-dbcc4365edc2
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -48,4 +49,5 @@ In het volgende voorbeeld ziet u de code die de tabellen opgeeft die worden bijg
 
 ## Gerelateerde lezing
 
-[[!DNL SaaS]  de Nota&#39;s van de Versie van de Uitbreiding van de Gegevens van de Uitvoer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) in de Gids van de Uitvoer van Gegevens van Adobe Commerce voor [!DNL SaaS] de Diensten
+* [[!DNL SaaS]  de Nota&#39;s van de Versie van de Uitbreiding van de Gegevens van de Uitvoer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) in de Gids van de Uitvoer van Gegevens van Adobe Commerce voor [!DNL SaaS] de Diensten
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

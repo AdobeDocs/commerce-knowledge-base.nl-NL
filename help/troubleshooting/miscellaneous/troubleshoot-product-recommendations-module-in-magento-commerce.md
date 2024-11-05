@@ -4,9 +4,9 @@ description: In dit artikel wordt ingegaan op suggesties voor het oplossen van p
 exl-id: 431ee31e-eb5b-400c-9c99-cc86613453d7
 feature: Cache, Compliance, Extensions, Marketing Tools, Personalization, Products, Recommendations
 role: Developer
-source-git-commit: af9ee28c5819a9d1b97411210816bfe8a9522614
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -83,3 +83,5 @@ saas-export
 * [ creeer Product Recommendations ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) in de Gids van Recommendations van het Product
 * [ Logboeken van het Overzicht en los ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in de [!DNL SaaS] Gids van de Uitvoer van Gegevens problemen op
 * [[!DNL SaaS]  de Nota&#39;s van de Versie van de Uitbreiding van de Gegevens van de Uitvoer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) in de Gids van de Uitvoer van Gegevens van Adobe Commerce voor [!DNL SaaS] de Diensten
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+

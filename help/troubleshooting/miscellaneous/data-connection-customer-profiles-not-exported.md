@@ -3,9 +3,10 @@ title: Klantprofielen die niet in Experience Platform worden weergegeven
 description: Dit artikel verstrekt het oplossen van problemenstappen als uw gegevens van het klantenprofiel niet in het Experience Platform verschijnen wanneer het gebruiken van de  [!DNL Data Connection]  uitbreiding.
 feature: Personalization, Integration, Configuration
 role: Admin, Developer
-source-git-commit: a520ef45f1c55dbf34a98c4f4d3ab49814535434
+exl-id: 4f12b032-0bee-47da-927a-8d4c2d8b8276
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -95,7 +96,7 @@ Controleer in Commerce Admin of de volgende velden zijn ingesteld:
 
 ### Query Event Data SaaS-tabel
 
-Maak verbinding met en voer de volgende SQL-query uit om te controleren of er gegevens over het klantprofiel worden weergegeven in het dialoogvenster
+Verbind en voer de volgende [!DNL SQL] vraag uit om de verslagen van het klantenprofiel te verifiëren verschijnen in
 `event_data_saas` en dat er geen fouten zijn:
 
 ```sql
@@ -124,4 +125,5 @@ select * from event_data_saas;
 
 ## Gerelateerde lezing
 
-Zie de [[!DNL Data Connection] ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) uitbreiding in de de gebruikersgids van de Diensten van Commerce.
+* [[!DNL Data Connection] ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) -extensie in de gebruikershandleiding van Commerce Services
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

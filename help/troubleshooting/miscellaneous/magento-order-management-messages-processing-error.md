@@ -4,9 +4,9 @@ description: 'Dit artikel verstrekt een oplossing voor de kwestie wanneer u een 
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -61,10 +61,11 @@ Dit komt voor wanneer de Schakelaar probeert om `magento.inventory.source_manage
 
 ## Oplossing
 
-Voer de volgende SQL-instructie in de CLI uit, die alle records in de tabel `mcom_api_messages` verwijdert, om het probleem op te lossen:
+Voer de volgende [!DNL SQL] -instructie in de CLI uit, die alle records in de `mcom_api_messages` -tabel verwijdert, om het probleem op te lossen:
 
 `delete from mcom_api_messages;`
 
 ## Verwante lezing
 
-Zie OMS Docs [ OMS de Zelfstudie van de Opstelling van de Schakelaar ](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+* OMS Docs [ Zelfstudie van de Opstelling van de Schakelaar OMS ](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

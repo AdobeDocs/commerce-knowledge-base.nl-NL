@@ -1,19 +1,19 @@
 ---
 title: Wijzigingen in de database worden niet weerspiegeld in de winkel
-description: Dit artikel biedt oplossingen om vertragingen of onderbrekingen in de updates van entiteiten te voorkomen. Dit omvat hoe te om veranderingslogboeklijsten te vermijden van het worden overmaats en hoe te opstelling MySQL lijsttrekkers.
+description: Dit artikel biedt oplossingen om vertragingen of onderbrekingen in de updates van entiteiten te voorkomen. Dit omvat hoe te om veranderingslogboeklijsten te vermijden van het krijgen van overmaatse en hoe te opstelling  [!DNL MySQL]  lijsttrekkers.
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
 
 # Wijzigingen in de database worden niet weerspiegeld in de winkel
 
-Dit artikel biedt oplossingen om vertragingen of onderbrekingen in de updates van entiteiten te voorkomen. Dit omvat hoe te om veranderingslogboeklijsten te vermijden van het worden overmaats en hoe te opstelling MySQL lijsttrekkers.
+Dit artikel biedt oplossingen om vertragingen of onderbrekingen in de updates van entiteiten te voorkomen. Dit omvat hoe te vermijden veranderingslogboeklijsten van het worden overmaats en hoe te opstelling [!DNL MySQL] lijsttrekkers.
 
 Betrokken producten en versies:
 
@@ -32,9 +32,9 @@ Als uw indexeerders [ worden gevormd om door programma ](https://devdocs.magento
 
 De logtabellen voor wijzigingen worden zo groot als de `indexer_update_all_views` -uitsnijdtaak niet meerdere keren is voltooid.
 
-Logtabellen wijzigen zijn de databasetabellen waarin de wijzigingen in entiteiten worden bijgehouden. Een record wordt opgeslagen in een tabel met het wijzigingslogboek, zolang de wijziging niet wordt toegepast. Deze wijziging wordt uitgevoerd door de `indexer_update_all_views` -snijtaak. Er zijn meerdere veranderingslogboeklijsten in een gegevensbestand van Adobe Commerce, zij worden genoemd volgens het volgende patroon: INDEXER\_TABLE\_NAME + &quot;\_cl&quot;, bijvoorbeeld `catalog_category_product_cl`, `catalog_product_category_cl`. U kunt meer details op vinden hoe de veranderingen in gegevensbestand in het [ Indexeren overzicht > artikel van de Mview ](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) in onze ontwikkelaarsdocumentatie worden gevolgd.
+Logtabellen wijzigen zijn de databasetabellen waarin de wijzigingen in entiteiten worden bijgehouden. Een record wordt opgeslagen in een tabel met het wijzigingslogboek, zolang de wijziging niet wordt toegepast. Deze wijziging wordt uitgevoerd door de `indexer_update_all_views` -snijtaak. Een Adobe Commerce-database bevat meerdere veranderingslogtabellen. Deze krijgen een naam volgens het volgende patroon: INDEXER\_TABLE\_NAME + &#39;\_cl&#39;, bijvoorbeeld `catalog_category_product_cl`, `catalog_product_category_cl` . U kunt meer details op vinden hoe de veranderingen in gegevensbestand in het [ Indexeren overzicht > artikel van de Mview ](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) in onze ontwikkelaarsdocumentatie worden gevolgd.
 
-### MySQL database triggers not set
+### [!DNL MySQL] database-triggers niet ingesteld
 
 U zou vermoeden dat database-triggers niet worden ingesteld, als na het toevoegen of wijzigen van een entiteit (product, categorie, doelregel, enzovoort) geen records worden toegevoegd aan de overeenkomstige tabel in het wijzigingslogboek.
 
@@ -60,9 +60,9 @@ U kunt ook de status van het bestand in de logboeken controleren door naar de `i
 * `<install_directory>/var/log/cron.log` - voor versies 2.3.1+ en 2.2.8+
 * `<install_directory>/var/log/system.log` - voor eerdere versies
 
-### MySQL-tabeltriggers opnieuw instellen
+### [!DNL MySQL] tabeltriggers opnieuw instellen
 
-Als u de ontbrekende MySQL-tabeltriggers wilt instellen, moet u de indexeermodus opnieuw instellen:
+Als u de ontbrekende [!DNL MySQL] tabeltriggers wilt instellen, moet u de indexeermodus opnieuw instellen:
 
 1. Schakel over naar &#39;Bij opslaan&#39;.
 1. Schakel terug naar &#39;Op schema&#39;.
@@ -83,5 +83,6 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## Gerelateerde lezing
 
-<ul><li title="MySQL-tabellen zijn te groot"><a href="/help/troubleshooting/database/mysql-tables-are-too-large.md"> MySQL lijsten zijn te groot </a> in onze basis van steunkennis.</li>
-<li title="MySQL-tabellen zijn te groot"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview"> Indexer overzicht &gt; mening </a> in onze ontwikkelaardocumentatie.</li></ul>
+* [[!DNL MySQL]  de lijsten zijn te groot ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/mysql-tables-are-too-large) in onze basis van de steunkennis
+* [ Indexeren: [!DNL Mview] ](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) in onze ontwikkelaarsdocumentatie
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

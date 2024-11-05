@@ -4,9 +4,9 @@ description: Dit artikel verstrekt een oplossing voor de kwestie waar u een groo
 feature: Variables, Upgrade
 role: Developer
 exl-id: 92d1d15a-04da-4ba4-b6b8-5c491af9c4c1
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -36,5 +36,6 @@ Voer de volgende handelingen uit om de [`CleanExpiredTokens.php` ](https://githu
 
 ## Gerelateerde lezing
 
-* [ de Diensten >  [!DNL OAuth] ](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) in de gids van de Verwijzing van de Configuratie van Commerce.
-* [ Gids van de Authentificatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/) in de gids van Adobe Developer.
+* [ de Diensten >  [!DNL OAuth] ](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) in de gids van de Verwijzing van de Configuratie van Commerce
+* [ Gids van de Authentificatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/) in de gids van Adobe Developer
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor fouten die kunnen optreden wanne
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -162,3 +162,7 @@ Deze fout komt tijdens [ stijgende migratie ](https://devdocs.magento.com/guides
 ### Mogelijke oplossing
 
 We raden u aan het migratieproces te testen vanuit een kopie van uw Adobe Commerce 1-database om uw migratieproblemen op te lossen. Nadat u de problemen in de kopie hebt opgelost, start u het migratieproces opnieuw vanuit uw livedatabank van Adobe Commerce 1. Dit zal helpen een vlot migratieproces verzekeren.
+
+## Gerelateerde lezing
+
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

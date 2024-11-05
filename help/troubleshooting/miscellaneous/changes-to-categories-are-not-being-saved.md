@@ -4,9 +4,9 @@ description: Dit artikel bevat een oplossing voor het bijwerken van productcateg
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -88,4 +88,8 @@ Voer de volgende stappen uit:
 1. Zoek de categorierecords met dezelfde `entity_id` en dezelfde `created_in` -waarde.
 1. Selecteer de record waar `row_id` = `entity_id` en kopieer de `updated_in` -waarde.
 1. Selecteer de record waarin `row_id` niet gelijk is aan `entity_id` en plak de gekopieerde `updated_in` waarde als de `created_in` waarde. Zie de onderstaande schermafbeelding als illustratie.    ![ het Kopiëren van created_in value.png ](assets/copy_created-in_value.png)
-1. Controleer of de update-record voor de categorie, waarvan u de `created_in` -waarde hebt bijgewerkt (in stap 3), bestaat in de `staging_update` -tabel. *bijvoorbeeld:* ALS de gekopieerde `created_in` waarde 1509281953 is, DAN moet de entiteit met `row_id` = 1509281953 in de `staging_update` lijst bestaan
+1. Controleer of de update-record voor de categorie, waarvan u de `created_in` -waarde hebt bijgewerkt (in stap 3), bestaat in de `staging_update` -tabel. *bijvoorbeeld:* ALS de gekopieerde `created_in` waarde 1509281953 is, DAN moet de entiteit met `row_id` = 1509281953 in de `staging_update` lijst bestaan.
+
+## Gerelateerde lezing
+
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor het Adobe Commerce-probleem waar
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: fe276c444c235b096ea6d61b02d8362314b5c154
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,13 @@ Zodra u vormt en verbindt, kan het meer dan 30 minuten voor de te creëren index
 
 Als uw productgegevens niet correct voor een specifieke SKU worden gesynchroniseerd, doe het volgende:
 
-1. Gebruik de volgende SQL-query en controleer of u de gegevens hebt die u verwacht in de kolom `feed_data` . Noteer ook de tijdstempel van `modified_at` .
+1. Gebruik de volgende [!DNL SQL] -query en controleer of u de gegevens hebt die u verwacht in de `feed_data` -kolom. Noteer ook de tijdstempel van `modified_at` .
 
    ```sql
    select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
    ```
 
-1. Als u de juiste gegevens niet ziet, probeert u deze opnieuw te indexeren met de volgende opdracht en voert u de SQL-query opnieuw uit in stap 1 om de gegevens te verifiëren:
+1. Als u de juiste gegevens niet ziet, probeert u deze opnieuw te indexeren met de volgende opdracht en voert u de query [!DNL SQL] opnieuw uit in stap 1 om de gegevens te verifiëren:
 
    ```bash
    bin/magento indexer:reindex cde_products_feed
@@ -76,7 +76,7 @@ Als uw productgegevens niet correct voor een specifieke SKU worden gesynchronise
 
 ### Tijdstempel controleren van laatste export van product
 
-1. Als u de juiste gegevens ziet in `cde_products_feed` , gebruikt u de volgende SQL-query om de tijdstempel van de laatste export te controleren. Deze moet na het tijdstempel `modified_at` staan:
+1. Als u de juiste gegevens ziet in `cde_products_feed` , gebruikt u de volgende [!DNL SQL] -query om de tijdstempel van de laatste export te controleren. Deze moet na het tijdstempel `modified_at` staan:
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -94,13 +94,13 @@ Als uw productgegevens niet correct voor een specifieke SKU worden gesynchronise
 
 Als de gegevens van uw productkenmerk niet correct zijn gesynchroniseerd voor een specifieke kenmerkcode, doet u het volgende:
 
-1. Gebruik de volgende SQL-query en controleer of u de gegevens hebt die u verwacht in de kolom `feed_data` . Noteer ook de tijdstempel van `modified_at` .
+1. Gebruik de volgende [!DNL SQL] -query en controleer of u de gegevens hebt die u verwacht in de `feed_data` -kolom. Noteer ook de tijdstempel van `modified_at` .
 
    ```sql
    select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
    ```
 
-1. Als u de juiste gegevens niet ziet, gebruikt u de volgende opdracht om de SQL-query opnieuw te indexeren en voert u deze vervolgens opnieuw uit in stap 1 om de gegevens te verifiëren.
+1. Als u de juiste gegevens niet ziet, gebruikt u de volgende opdracht om de query opnieuw te indexeren en voert u de query [!DNL SQL] in stap 1 opnieuw uit om de gegevens te verifiëren.
 
    ```bash
    bin/magento indexer:reindex cde_product_attributes_feed
@@ -112,7 +112,7 @@ Als de gegevens van uw productkenmerk niet correct zijn gesynchroniseerd voor ee
 
 Als u de juiste gegevens ziet in `cde_product_attributes_feed` :
 
-1. Gebruik de volgende SQL-query om de tijdstempel van de laatste export te controleren. Dit moet na het tijdstempel van `modified_at` staan.
+1. Gebruik de volgende [!DNL SQL] query om de tijdstempel van de laatste export te controleren. Dit moet na het tijdstempel van `modified_at` staan.
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -137,5 +137,6 @@ bin/magento saas:resync --feed productattributes
 
 ## Gerelateerde lezing
 
-* Zie [ Levende Onderzoek van de Bord ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) in onze gebruikersdocumentatie.
-* Zie [ logboeken van het Overzicht en los de gegevensuitvoer en synchronisatie van Adobe Commerce SaaS ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in de Gids van de Uitvoer van Gegevens van Adobe Commerce SaaS problemen op.
+* [ Levend Onderzoek van de Bord ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) in onze gebruikersdocumentatie
+* [ Logboeken van het Overzicht en los de gegevensuitvoer en synchronisatie van Adobe Commerce SaaS ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in de Gids van de Uitvoer van Gegevens van Adobe Commerce SaaS problemen op
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

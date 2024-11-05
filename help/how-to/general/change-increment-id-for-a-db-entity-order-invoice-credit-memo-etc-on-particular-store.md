@@ -1,18 +1,18 @@
 ---
-title: De increment ID van een DB-entiteit wijzigen (order, factuur, creditnota, enz.) in een bepaald archief
-description: In dit artikel wordt besproken hoe u de increment-id voor een Adobe Commerce Database-entiteit (DB) (bestelling, factuur, creditmemo, enz.) kunt wijzigen op een bepaalde Adobe Commerce-winkel die de SQL-instructie 'ALTER TABLE' gebruikt.
+title: De incrementele id wijzigen voor een DB-entiteit (bestelling, factuur, creditnota, enz.) in een bepaalde winkel
+description: In dit artikel wordt beschreven hoe u de increment-id voor een Adobe Commerce-database-entiteit (order, factuur, creditnota, enz.) wijzigt in een bepaalde Adobe Commerce-winkel met behulp van de SQL-instructie 'ALTER TABLE'.
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# De increment ID van een DB-entiteit wijzigen (order, factuur, creditnota, enz.) in een bepaald archief
+# De incrementele id wijzigen voor een DB-entiteit (bestelling, factuur, creditnota, enz.) in een bepaalde winkel
 
-In dit artikel wordt besproken hoe u de increment-id voor een Adobe Commerce Database-entiteit (DB) (bestelling, factuur, creditmemo, enz.) kunt wijzigen in een bepaalde Adobe Commerce-winkel met de SQL-instructie `ALTER TABLE` .
+In dit artikel wordt besproken hoe u de verhogings-id voor een Adobe Commerce-database-entiteit (volgorde, factuur, creditnota, enz.) in een bepaalde Adobe Commerce-winkel kunt wijzigen met de SQL-instructie `ALTER TABLE` .
 
 ## Betrokken versies
 
@@ -86,5 +86,6 @@ Voordat we de `ALTER TABLE` -query op de Production-omgeving van Adobe Commerce 
 
 ## Gerelateerde documentatie
 
-* [ creeer gegevensbestandstortplaats op Wolk ](/help/how-to/general/create-database-dump-on-cloud.md) in onze basis van de steunkennis.
-* [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in onze ontwikkelaarsdocumentatie.
+* [ creeer gegevensbestandstortplaats op Wolk ](/help/how-to/general/create-database-dump-on-cloud.md) in onze basis van de steunkennis
+* [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in onze ontwikkelingsdocumentatie
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

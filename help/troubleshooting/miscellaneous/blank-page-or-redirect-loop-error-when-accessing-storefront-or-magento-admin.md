@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor dit probleem wanneer u toegang
 exl-id: 65869de2-1939-481b-844b-69122345b407
 feature: Admin Workspace, Cache, Storefront
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -60,3 +60,7 @@ Probleem verhelpen:
    ```bash
    php <your_magento_install_dir>/bin/magento cache:clean config
    ```
+
+## Gerelateerde lezing
+
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

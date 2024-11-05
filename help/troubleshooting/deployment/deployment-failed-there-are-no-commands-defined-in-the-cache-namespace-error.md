@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor het probleem wanneer de implem
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: 7efa7b5363c7f77d76c02051c7e0e6a0f38ca87d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ U kunt niet correct implementeren. In de logboeken ziet u een plaatsingsfout met
 
 ### Oorzaak
 
-De **core_config_data** lijst bevat configuraties voor een opslagidentiteitskaart of websiteidentiteitskaart die niet meer in het gegevensbestand bestaat. Dit gebeurt wanneer u een databaseback-up hebt geïmporteerd uit een andere instantie/omgeving en de configuraties voor die bereikinstellingen in de database blijven, hoewel de bijbehorende opslag(en)/website(s) zijn verwijderd.
+De tabel **`core_config_data`** bevat configuraties voor een winkel-id of website-id die niet meer in de database aanwezig zijn. Dit gebeurt wanneer u een databaseback-up hebt geïmporteerd uit een andere instantie/omgeving en de configuraties voor die bereikinstellingen in de database blijven, hoewel de bijbehorende opslag(en)/website(s) zijn verwijderd.
 
 ### Oplossing
 
@@ -67,13 +67,13 @@ Om dit probleem op te lossen, identificeer de ongeldige rijen die van die config
    The store that was requested wasn't found. Verify the store and try again.
    ```
 
-1. Voer deze MySql-query uit om te controleren of de winkel niet kan worden gevonden. Dit wordt aangegeven door het foutbericht in stap 2.
+1. Voer deze [!DNL MySQL] -query uit om te controleren of de winkel niet kan worden gevonden. Dit wordt aangegeven door het foutbericht in stap 2.
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. Voer de volgende MySql-instructie uit om de ongeldige rijen te verwijderen:
+1. Voer de volgende instructie [!DNL MySQL] uit om de ongeldige rijen te verwijderen:
 
    ```sql
    delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
@@ -91,13 +91,13 @@ Om dit probleem op te lossen, identificeer de ongeldige rijen die van die config
    The website with id X that was requested wasn't found. Verify the website and try again.
    ```
 
-   Voer deze MySql-query uit en controleer of de website niet is gevonden:
+   Voer deze [!DNL MySQL] -query uit en controleer of de website niet is gevonden:
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. Voer deze MySql-instructie uit om de ongeldige rijen uit de websiteconfiguratie te verwijderen:
+1. Voer deze instructie [!DNL MySQL] uit om de ongeldige rijen uit de websiteconfiguratie te verwijderen:
 
    ```sql
    delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
@@ -107,5 +107,6 @@ Voer de opdracht `bin/magento` opnieuw uit om te bevestigen dat de oplossing hee
 
 ## Gerelateerde lezing
 
-* [Adobe Commerce-probleemoplossing voor implementatie](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html)
-* [Implementatielogbestand controleren als in de gebruikersinterface van Cloud een fout met een &#39;log snipped&#39; is opgetreden](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+* [ de plaatsingsproblemen van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter)
+* [ het Controleren plaatsingslogboek als de HUIDIGE UI &quot;logboek gesnakte&quot;fout ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) heeft
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

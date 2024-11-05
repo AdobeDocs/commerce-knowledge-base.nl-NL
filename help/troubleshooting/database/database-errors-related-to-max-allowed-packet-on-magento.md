@@ -4,9 +4,9 @@ description: Dit artikel verstrekt een oplossing voor de fouten van de gegevensb
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Dit artikel biedt een oplossing voor databaseverbindingsfouten in de `var/log/ex
 
 ## Probleem
 
-Wanneer een cliënt MySQL of de [ mysqld ](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) server een pakket groter dan [ max\_allowed\_packet ](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) bytes ontvangt, geeft het een [ ER\_NET\_PACKET\_TOO\_LARGE ](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) fout uit (die in `exception.log`) kan worden gezien en sluit de verbinding. Met sommige cliënten, kunt u a *Verloren verbinding aan server MySQL tijdens vraag* fout ook krijgen als het communicatie pakket te groot is.
+Wanneer een [!DNL MySQL] cliënt of de [ mysqld ](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) server een pakket groter dan [ max\_allowed\_packet ](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) bytes ontvangt, geeft het een [ ER\_NET\_PACKET\_TOO\_LARGE ](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) fout uit (die in `exception.log`) kan worden gezien en sluit de verbinding. Met sommige cliënten, kunt u a *Verloren verbinding aan [!DNL MySQL] server tijdens vraag* fout ook krijgen als het communicatie pakket te groot is.
 
 <u> Stappen om te reproduceren </u>
 
@@ -29,7 +29,7 @@ Dit probleem kan worden veroorzaakt door verschillende taken. Dit kan het prober
 
 ## Oorzaak
 
-De standaardwaarde van 16 MB voor de instelling MySQL `max_allowed_packets` is niet groot genoeg voor uw behoeften.
+De standaardwaarde van 16 MB voor de instelling [!DNL MySQL] `max_allowed_packets` is niet groot genoeg voor uw behoeften.
 
 ## Oplossing
 
@@ -45,7 +45,8 @@ De standaardwaarde van 16 MB voor de instelling MySQL `max_allowed_packets` is n
 
 ## Gerelateerde lezing
 
-* [ Gids van de Installatie > MySQL ](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=max%20allowed%2016%20MB) in onze ontwikkelaarsdocumentatie.
-* [ uploadt het Gegevensbestand verliest verbinding aan MySQL ](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md) in onze basis van de steunkennis.
+* [ op-gebouw installatieoverzicht ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) in onze ontwikkelaarsdocumentatie.
+* [ uploadt het Gegevensbestand verliest verbinding aan  [!DNL MySQL] ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql) in onze basis van de steunkennis.
 * [ beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in onze basis van steunkennis.
 * [ Beste praktijken om de kwesties van gegevensbestandprestaties ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) in onze basis van de steunkennis op te lossen.
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

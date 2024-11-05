@@ -4,9 +4,9 @@ description: Dit artikel is een hulpprogramma voor het oplossen van problemen vo
 exl-id: f7b09023-7129-4fd0-9bb5-02a2228bc148
 feature: Observability, Services, Storage, Support
 role: Developer
-source-git-commit: 324cce66df1e4ab7ec4ef8fb6512c3acbabdf3ab
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Dit artikel is een hulpprogramma voor het oplossen van problemen voor klanten in
 
 Dit kan worden aangegeven door een reeks symptomen, waaronder het feit dat de `/tmp` -montage vol is, is ingedrukt of niet in staat is om SSH in een knooppunt te plaatsen. U kunt fouten als _ook ervaren Geen ruimte verlaten op apparaat (28)_. Voor een lijst van fouten die het resultaat zijn van `/tmp` volledig zijn, herzie [ /tmp zet volledig ](/help/troubleshooting/miscellaneous/tmp-mount-full.md) op.
 
-Of heeft u een `/data/mysql` -probleem dat wordt veroorzaakt door een gebrek aan ruimte? Dit kan ook door een verscheidenheid van symptomen met inbegrip van plaatsstroomonderbreking, klanten niet kunnen om producten aan kar toe te voegen, verbindingsmislukking aan gegevensbestand, en Galeria fouten zoals _SQLSTATE \ [08S01 \]: Communicatie verbindingsmislukking: 1047 WSREP_ worden vermeld. Voor een lijst van fouten die uit lage MySQL schijfruimte voortvloeien, verwijs naar [ MySQL schijfruimte is laag op Adobe Commerce op wolkeninfrastructuur ](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md).
+Of heeft u een `/data/mysql` -probleem dat wordt veroorzaakt door een gebrek aan ruimte? Dit kan ook door een verscheidenheid van symptomen met inbegrip van plaatsstroomonderbreking, klanten niet kunnen om producten aan kar toe te voegen, verbindingsmislukking aan gegevensbestand, en Galeria fouten zoals _SQLSTATE \ [08S01 \]: Communicatie verbindingsmislukking: 1047 WSREP_ worden vermeld. Voor een lijst van fouten die uit lage [!DNL MySQL] schijfruimte voortvloeien, verwijs naar [[!DNL MySQL]  schijfruimte is laag op Adobe Commerce op wolkeninfrastructuur ](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md).
 
 Als u onzeker bent als u een kwestie van de schijfruimte hebt en u een rekening van New Relic hebt, ga naar de [ pagina van de Gastheren van de Infrastructuur van New Relic de controle ](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/). Van daar, klik op het **lusje van de Opslag**, verander de **Grafiek toont** daling neer van 5 tot 20 resultaten, en kijk in de lijst voor hoog schijfgebruik in de Schijf Gebruikte % grafiek of de lijst. Voor meer gedetailleerde stappen, verwijs naar [ de Controle van de Infrastructuur van New Relic > het lusje van de Opslag ] https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#storage).
 
@@ -42,7 +42,7 @@ b. NO. - Ruimte controleren. Voer `df -h | grep mysql` en vervolgens `df -h | gr
 Als u het aantal bestanden hebt verminderd, voert u `df -h | grep mysql` en vervolgens `df -h | grep tmp` in de CLI/Terminal uit om het gebruik van schijfruimte in `/tmp` en `/data/mysql` te controleren. Wordt meer dan 70% gebruikt voor `/tmp` of `/data/mysql`?
 
 a. JA - ga aan [ Stap 3 ](#step-3) te werk.
-b. NO - De vraag kan de beschikbare opslag uitputten. Hierdoor kan het knooppunt vastlopen, waarbij de query wordt gedood en de `tmp` -bestanden worden verwijderd. Onderzoek de output van `SHOW PROCESSLIST;` in MySQL CLI voor vragen die de oorzaak van het probleem kunnen zijn. [ legt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor, die om meer ruimte verzoeken.
+b. NO - De vraag kan de beschikbare opslag uitputten. Hierdoor kan het knooppunt vastlopen, waarbij de query wordt gedood en de `tmp` -bestanden worden verwijderd. Onderzoek de output van `SHOW PROCESSLIST;` in [!DNL MySQL] CLI voor vragen die de oorzaak van het probleem kunnen zijn. [ legt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor, die om meer ruimte verzoeken.
 
 +++
 
@@ -54,7 +54,7 @@ Welke folder heeft meer dan 70% gebruikt? `/tmp` of `/data/mysql` ?
 
 >[!NOTE]
 >
->Standaard schrijft tmpdir naar `/tmp` . Als u wilt controleren of uw databaseconfiguratie nog steeds op deze standaard is, voert u de volgende opdracht in MySQL CLI uit: `SHOW VARIABLES LIKE "TMPDIR";` als de databasetmpdir nog steeds naar `/tmp` schrijft, ziet u `/tmp` in de kolom Waarde.
+>Standaard schrijft tmpdir naar `/tmp` . Als u wilt controleren of uw databaseconfiguratie nog steeds op deze standaard is, voert u de volgende opdracht in [!DNL MySQL] CLI uit: `SHOW VARIABLES LIKE "TMPDIR";` Als de databasetmpdir nog steeds naar `/tmp` schrijft, ziet u `/tmp` in de kolom Waarde.
 
 a. `/tmp` - ga aan [ Stap 4 ](#step-4) te werk. \
 b. `/data/mysql` - ga aan [ Stap 5 ](#step-5) te werk.
@@ -81,7 +81,7 @@ b. NO - [ legt een steunkaartje ](/help/help-center-guide/help-center/magento-he
 
 +++**Controle gebrek**
 
-Uw databaseconfiguratie bevindt zich mogelijk niet meer op de oorspronkelijke standaard. Zoek de configuratie van de gegevensbestandtmpdir door in MySQL CLI in werking te stellen: `SELECT @@DATADIR;`. Als `/data/mysql/` wordt uitgevoerd, schrijft de database-tmpdir nu naar `/data/mysql/` . Probeer om ruimte in deze folder te verhogen door de stappen in [ te volgen MySQL schijfruimte is laag op Adobe Commerce op onze wolkeninfrastructuur ](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md). Voer vervolgens `df -h | grep mysql` en vervolgens `df -h | grep tmp` in de CLI/Terminal uit om het gebruik van schijfruimte in `/data/mysql` en `/tmp` te controleren.\
+Uw databaseconfiguratie bevindt zich mogelijk niet meer op de oorspronkelijke standaard. Zoek de tmpdir-configuratie van de database door deze uit te voeren in de [!DNL MySQL] CLI: `SELECT @@DATADIR;` . Als `/data/mysql/` wordt uitgevoerd, schrijft de database-tmpdir nu naar `/data/mysql/` . Probeer om ruimte in deze folder te verhogen door de stappen in [[!DNL MySQL]  schijfruimte te volgen is laag op Adobe Commerce op onze wolkeninfrastructuur ](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md). Voer vervolgens `df -h | grep mysql` en vervolgens `df -h | grep tmp` in de CLI/Terminal uit om het gebruik van schijfruimte in `/data/mysql` en `/tmp` te controleren.\
   &lt; 70% gebruikt?
 
 a. JA - U hebt de kwestie opgelost. \
@@ -90,3 +90,7 @@ b. NO - [ legt een steunkaartje ](/help/help-center-guide/help-center/magento-he
 +++
 
 [ terug naar Stap 1 ](#step-1)
+
+## Gerelateerde lezing
+
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

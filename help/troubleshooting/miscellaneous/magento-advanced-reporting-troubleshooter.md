@@ -4,9 +4,9 @@ description: Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgel
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: ae6dde9ecc01a0e1c561d1e91dbd2f7bc3504fe0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ b. NO - voltooi de Geavanceerde Rapportagevereisten voor uw plaats door de stapp
 
 +++**zijn veelvoudige basismunten gebruikt?**
 
-Worden meerdere basisvaluta&#39;s gebruikt (in orders en in configuratie)? Voer deze SQL-opdracht uit om de huidige configuratie te verkrijgen: `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` .
+Worden meerdere basisvaluta&#39;s gebruikt (in orders en in configuratie)? Voer deze [!DNL SQL] -opdracht uit om de huidige configuratie te verkrijgen: `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` .
 
 a. JA - als er veelvoudige rijen door de vraag zijn teruggekeerd, kunt u Geavanceerde Rapportering niet gebruiken, aangezien wij slechts één munt steunen.\
-b. NO - Output toont slechts één valuta. Voorbeeld: `USD` . Zijn er ooit meerdere basisvaluta&#39;s gebruikt (in orders)? Voer deze SQL-opdracht uit om historische ordergegevens te verkrijgen:\
+b. NO - Output toont slechts één valuta. Voorbeeld: `USD` . Zijn er ooit meerdere basisvaluta&#39;s gebruikt (in orders)? Voer deze opdracht [!DNL SQL] uit om historische ordergegevens te verkrijgen:\
 `SELECT DISTINCT base_currency_code FROM sales_order;`.
 **NOTA: Dit bevel vereist een volledig lijstaftasten, zodat voor lijsten met hoge aantallen verslagen, dit een prestatieseffect zou kunnen hebben terwijl de vraag** uitvoert om historische ordegegevens te verkrijgen.
 Als er meerdere basisvaluta&#39;s zijn gebruikt, kunt u Geavanceerde rapportage niet gebruiken, omdat we slechts één valuta ondersteunen. Als de output slechts één munt toont ga aan [ Stap 3 ](#step-3) te werk.
@@ -157,3 +157,7 @@ b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magent
 +++
 
 [Terug naar stap 1](#step-1)
+
+## Gerelateerde lezing
+
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

@@ -1,65 +1,65 @@
 ---
-title: Offload niet-regex herleidt naar Fastly in plaats van Nginx (routes)
-description: Dit onderwerp stelt een oplossing voor een typisch redirects prestatieskwestie voor u zou kunnen hebben wanneer u niet-regex herleidt aan Fastly in plaats van Nginx in Adobe Commerce op wolkeninfrastructuur.
+title: '"Offload niet- [!DNL regex] richt zich aan  [!DNL Fastly]  in plaats van  [!DNL Nginx]  (routes)'''
+description: Dit onderwerp stelt een oplossing aan een typisch redirects prestatieskwestie voor u zou kunnen hebben wanneer u niet [!DNL regex] herleidt aan  [!DNL Fastly]  in plaats van  [!DNL Nginx]  in Adobe Commerce op wolkeninfrastructuur.
 exl-id: 8b22d25d-0865-4d21-b275-d344ba8748f2
 feature: Routes
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
 
-# Offload niet-regex herleidt naar Fastly in plaats van Nginx (routes)
+# Offload niet-[!DNL regex] omleidingen naar [!DNL Fastly] in plaats van [!DNL Nginx] (routes)
 
-Dit onderwerp stelt een oplossing voor een typisch redirects prestatieskwestie voor u zou kunnen hebben wanneer u niet-regex herleidt aan Fastly in plaats van Nginx in Adobe Commerce op wolkeninfrastructuur.
+In dit onderwerp wordt een oplossing voorgesteld voor een typisch probleem met de omleiding van de prestaties dat u zou kunnen hebben wanneer u niet- [!DNL regex] omleidingen naar [!DNL Fastly] in plaats van [!DNL Nginx] in Adobe Commerce op cloudinfrastructuur verplaatst.
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op cloudinfrastructuur (alle versies) `Master/Production/Staging` -omgevingen die snel gebruikmaken van
+* Adobe Commerce op cloudinfrastructuur (alle versies) `Master/Production/Staging` -omgevingen die gebruikmaken van [!DNL Fastly]
 
 ## Probleem
 
-In Adobe Commerce op cloudinfrastructuur kunnen grote aantallen niet-regex-omleidingen/herschrijvingen niet worden uitgevoerd op de Nginx-laag en kunnen hierdoor prestatieproblemen ontstaan.
+In Adobe Commerce op cloudinfrastructuur kunnen grote aantallen niet- [!DNL regex] omleidingen/herschrijvingen niet worden uitgevoerd op de [!DNL Nginx] -laag, waardoor prestatieproblemen kunnen ontstaan.
 
 ## Oorzaak
 
 Het bestand `routes.yaml` in de map `.magento/routes.yaml` definieert routes voor uw Adobe Commerce op cloudinfrastructuur.
 
-Als de grootte van het `routes.yaml` -bestand 32 kB of groter is, moet u de omleiding/herschrijving van het bestand naar Fastly ongedaan maken.
+Als de grootte van uw `routes.yaml` dossier 32KB of groter is, zou u uw niet [!DNL regex] redirects/rewrites aan [!DNL Fastly] moeten offloaden.
 
-Deze NGinx-laag kan geen groot aantal niet-regex omleidingen/herschrijvingen verwerken, anders zullen er prestatieproblemen optreden.
+Deze [!DNL Nginx] laag kan een groot aantal niet - [!DNL regex] omleidingen/herschrijft behandelen, anders zullen de prestatieskwesties resulteren.
 
 ## Oplossing
 
-De oplossing is om die niet-regex in plaats daarvan om te leiden naar Snelst. Maak een algemeen foutpad om snel om te leiden.
+De oplossing is om die niet- [!DNL regex] in plaats daarvan om te leiden naar [!DNL Fastly]. Maak een algemeen foutpad om naar [!DNL Fastly] om te leiden.
 
-In de volgende stappen wordt beschreven hoe u omleidingen snel kunt plaatsen in plaats van op Nginx.
+In de volgende stappen wordt beschreven hoe u omleidingen kunt plaatsen op [!DNL Fastly] in plaats van [!DNL Nginx] .
 
 1. Maak een Edge-woordenboek.
 
-   Eerst, kunt u [ VCL fragmenten in Adobe Commerce ](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) gebruiken om een randwoordenboek te bepalen. Dit bevat de omleidingen.
+   Eerst, kunt u [[!DNL VCL]  fragmenten in Adobe Commerce ](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) gebruiken om een randwoordenboek te bepalen. Dit bevat de omleidingen.
 
    Enkele kanttekeningen:
 
-   * Kan snel geen regex uitvoeren op woordenboekitems. Het is maar een exacte overeenkomst. Voor meer op deze beperkingen, gelieve te zien {de documenten van 0} Fastly op de beperkingen van het randwoordenboek ](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations).[
-   * Er geldt een limiet van 1000 items in één woordenboek. Deze limiet kan snel worden vergroot, maar dat leidt tot het derde voorbehoud.
-   * Telkens wanneer u de ingangen bijwerkt en dat bijgewerkte VCL aan alle knopen opstelt, is er een geometrische toename van de ladingstijd met het uitbreiden van woordenboeken - betekenend, zal een 2000 ingangswoordenboek 3x-4x langzamer dan een 1000 ingangswoordenboek eigenlijk laden. Maar dat is slechts een kwestie wanneer u VCL (het bijwerken van het woordenboek of het veranderen van de VCL functiecode) opstelt.
+   * [!DNL Fastly] kan [!DNL regex] niet toepassen op woordenboekitems. Het is maar een exacte overeenkomst. Zie de documenten van [[!DNL Fastly] over de beperkingen van het randwoordenboek ](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations) voor meer informatie over deze beperkingen.
+   * [!DNL Fastly] heeft een limiet van 1000 items in één woordenboek. [!DNL Fastly] kan deze limiet uitbreiden, maar dat leidt tot het derde voorbehoud.
+   * Telkens wanneer u de items bijwerkt en dat bijgewerkte [!DNL VCL] naar alle knooppunten implementeert, is er een geometrische toename van de laadtijd met uitbreidende woordenboeken. Dit betekent dat een 2000-ingangswoordenboek 3x-4x langzamer wordt geladen dan een 1000-ingangswoordenboek. Maar dat is alleen van belang wanneer u [!DNL VCL] implementeert (het woordenboek bijwerkt of de functiecode [!DNL VCL] wijzigt).
 
-     Het heeft geen invloed op de tijd die nodig is om een aanvraag snel te verwerken; het is alleen van invloed op de tijd die nodig is om snel een nieuwe configuratie uit te duwen.
+     Het heeft geen invloed op de tijd die nodig is om een aanvraag te verwerken in [!DNL Fastly] . Het is alleen van invloed op de tijd die nodig is om een nieuwe configuratie uit te duwen in [!DNL Fastly] .
 
      Over het algemeen nemen configuratiewijzigingen gemiddeld enkele seconden in beslag, meestal niet meer dan 5-10 seconden. Zo neemt een 2x verhoging van woordenboekpunten omhoog van 30 seconden om uw config uit te krijgen. Een stijging van 4 x neemt dichter bij 2 minuten in beslag. Dit leidt tot het vierde voorbehoud.
 
    * Er is een vrij harde grens van 10.000 ingangen in een randwoordenboek.
 
-   We raden u ten zeerste aan uw lijst met omleidingen te consolideren. U kunt meerdere woordenboeken gebruiken, maar houd er rekening mee dat elke update die u aanbrengt in uw VCL enkele minuten duurt om snel te vullen.
+   We raden u ten zeerste aan uw lijst met omleidingen te consolideren. U kunt meerdere woordenboeken gebruiken, maar houd er rekening mee dat elke update die u uitvoert naar uw [!DNL VCL] enkele minuten duurt voordat deze daadwerkelijk wordt gevuld in [!DNL Fastly] .
 
-1. Vergelijk de URL met het woordenboek.
+1. Vergelijk de [!DNL URL] met de woordenboeken.
 
-   Wanneer de URL-zoekopdracht wordt uitgevoerd, wordt de vergelijking gemaakt om de aangepaste foutcode toe te passen als er een overeenkomst wordt gevonden.
+   Wanneer de [!DNL URL] -zoekopdracht wordt uitgevoerd, wordt de vergelijking gemaakt om de aangepaste foutcode toe te passen als er een overeenkomst wordt gevonden.
 
-   Gebruik een ander VCL-fragment om iets als het volgende toe te voegen aan `vcl_recv` :
+   Gebruik een ander [!DNL VCL] -fragment om iets als het volgende toe te voegen aan `vcl_recv` :
 
    ```
         declare local var.redir-path STRING;
@@ -70,7 +70,7 @@ In de volgende stappen wordt beschreven hoe u omleidingen snel kunt plaatsen in 
         }
    ```
 
-   Hier, controleren wij om te zien of bestaat URL in de lijstingang. Als dit het geval is, wordt een interne Fastly-fout aangeroepen en wordt de omleiding van de URL vanuit de tabel doorgegeven aan die fout.
+   Hier controleren we of de code [!DNL URL] bestaat in de tabelvermelding. Als dit het geval is, wordt een interne [!DNL Fastly] fout aangeroepen en wordt de omleiding [!DNL URL] vanuit de tabel doorgegeven aan die fout.
 
 1. De omleiding beheren.
 
@@ -93,13 +93,14 @@ In de volgende stappen wordt beschreven hoe u omleidingen snel kunt plaatsen in 
 
 >[!WARNING]
 >
->Als u al deze stappen wilt uitproberen, wordt u ten zeerste aangeraden een Adobe Commerce-testomgeving in te stellen. Op die manier kunt u tests uitvoeren tegen de Fastly-service om ervoor te zorgen dat alles zich gedraagt zoals u zou verwachten.
+>Als u al deze stappen wilt uitproberen, wordt u ten zeerste aangeraden een Adobe Commerce-testomgeving in te stellen. Op die manier kunt u tests uitvoeren met de service [!DNL Fastly] om ervoor te zorgen dat alles zich gedraagt zoals u zou verwachten.
 
-Als u geen Adobe Commerce het opvoeren milieu wilt in werking stellen, maar u zou willen zien hoe deze omleidingen zouden kijken, kunt u opstelling een werkgebiedrekening direct op Fastly.
+Als u geen Adobe Commerce-testomgeving wilt gebruiken, maar wilt zien hoe deze omleidingen eruit zouden zien, kunt u rechtstreeks een werkgebiedaccount instellen op [!DNL Fastly] .
 
 ## Gerelateerde lezing
 
-* [ de Snelle verwijzing van VCL ](https://docs.fastly.com/vcl/)
-* [ vorm routes ](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) in onze ontwikkelaarsdocumentatie.
-* [ Opstelling snel ](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in onze ontwikkelaarsdocumentatie.
-* [ VCL regelmatige uitdrukkingsbedriegblad ](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) in onze ontwikkelaardocumentatie.
+* [[!DNL Fastly VCL]  verwijzing ](https://docs.fastly.com/vcl/)
+* [ vorm routes ](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) in onze ontwikkelaarsdocumentatie
+* [ Opstelling  [!DNL Fastly]](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in onze ontwikkelingsdocumentatie
+* [[!DNL VCL]  regelmatige uitdrukkingsbedriegblad ](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) in onze ontwikkelaarsdocumentatie
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

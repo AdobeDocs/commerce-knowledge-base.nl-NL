@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor het gebruik van Adobe Commerce
 feature: Commerce Intelligence
 role: Developer
 exl-id: 56f6ad64-729d-4e3a-93a9-da1b91bc5c1d
-source-git-commit: b75328202952bf4c8f57ddc538b5c9e4318b2001
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Voer de volgende stappen uit:
 
    ![ voeg Openbare Sleutel SSH toe ](/help/troubleshooting/miscellaneous/assets/add_ssh_key_mbi.png)
 
-1. Geef MySQL-gebruikersgegevens op voor Business Intelligence Essentials.
+1. Geef Business Intelligence Essentials [!DNL MySQL] gebruikersgegevens op.
 
    * Werk uw `.magento/services.yaml` bij.
 
@@ -197,3 +197,7 @@ Voer de volgende stappen uit:
 1. Klik op **[!UICONTROL Save Integration]**.
 1. U hebt nu verbinding met uw Commerce Intelligence Essentials-account.
 1. Als u een Adobe Commerce Intelligence Pro-klant bent, neemt u contact op met uw Customer Success Manager of Customer Technical Advisor om de volgende stappen te coördineren.
+
+## Gerelateerde lezing
+
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

@@ -1,19 +1,19 @@
 ---
 title: Fout 404 op alle pagina's vanwege probleem met het opslaan van inhoud
-description: Dit artikel bevat een oplossing voor het probleem met de Adobe Commerce-infrastructuur op locatie en Adobe Commerce met betrekking tot de cloud-infrastructuur. Er is een fout van 404 opgetreden bij het openen van een winkelpagina of Commerce Admin.
+description: Dit artikel bevat een oplossing voor het probleem met de Adobe Commerce-infrastructuur op locatie en Adobe Commerce met betrekking tot cloudinfrastructuur. Er treedt een fout van 404 op bij het openen van een winkelpagina of de [!UICONTROL Commerce Admin] .
 exl-id: 62d8ba6e-8550-4e1e-8e8d-8f319c92778a
 feature: CMS, Catalog Management, Categories, Page Content, Staging
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
 
 # Fout 404 op alle pagina&#39;s vanwege probleem met het opslaan van inhoud
 
-Dit artikel bevat een oplossing voor het probleem met de Adobe Commerce-infrastructuur op locatie en Adobe Commerce met betrekking tot de cloud-infrastructuur. Er is een fout van 404 opgetreden bij het openen van een winkelpagina of Commerce Admin.
+Dit artikel bevat een oplossing voor het probleem met de Adobe Commerce-infrastructuur op locatie en Adobe Commerce met betrekking tot cloudinfrastructuur. Er treedt een fout van 404 op bij het openen van een winkelpagina of de [!UICONTROL Commerce Admin] .
 
 ## Betrokken producten en versies
 
@@ -24,7 +24,7 @@ Dit artikel bevat een oplossing voor het probleem met de Adobe Commerce-infrastr
 
 >[!NOTE]
 >
->Dit artikel is niet op de situatie van toepassing waarin u een fout 404 wanneer het proberen om [ voorproef de het opvoeren update ](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change) krijgt. Als u in die kwestie loopt, te openen gelieve a [ steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+>Dit artikel is niet op de situatie van toepassing waarin u een fout 404 wanneer het proberen om [ voorproef de het opvoeren update ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change) krijgt. Als u in die kwestie loopt, te openen gelieve a [ steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
 
 De toegang tot van om het even welke storefront pagina of Admin resulteert in de 404 fout (de &quot;Wiops, onze slechte...&quot;pagina) na het uitvoeren van verrichtingen met geplande updates voor de activa van de opslaginhoud gebruikend [ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (updates voor de activa van de opslaginhoud die gebruikend de [ Magento \_Staging module ](https://developer.adobe.com/commerce/php/module-reference/) worden gepland). U hebt bijvoorbeeld een product met een geplande update verwijderd of de einddatum voor de geplande update verwijderd.
 
@@ -35,7 +35,7 @@ Een opslaginhoudselement bevat:
 * Catalogusprijsregel
 * Regel voor winkelprijs
 * CMS-pagina
-* CMS-blok
+* CMS Block
 * Widget
 
 Sommige scenario&#39;s worden besproken in de hieronder sectie van de Oorzaak.
@@ -76,7 +76,7 @@ Als de query een tabel retourneert waarvan de `update_exists` -waarde &quot;1&qu
 
 ![ updates_exist_1.png ](assets/updates_exist_1.png)
 
-In dit geval, zou u naar de [ Plaats neer Troubleshooter ](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md) voor het oplossen van problemenideeën kunnen verwijzen.
+In dit geval, zou u naar de [ Plaats neer Troubleshooter ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter) voor het oplossen van problemenideeën kunnen verwijzen.
 
 ## Oplossing
 
@@ -86,6 +86,10 @@ In dit geval, zou u naar de [ Plaats neer Troubleshooter ](/help/troubleshooting
    DELETE FROM flag WHERE flag_code = 'staging';
    ```
 
-1. Wacht tot de uitsnijdtaak is uitgevoerd (kan maximaal vijf minuten worden uitgevoerd als de functie correct is ingesteld) of voer de taak handmatig uit als u de uitsnijdbewerking niet hebt ingesteld.
+1. Wacht tot de [!DNL cron] -taak is uitgevoerd (kan maximaal vijf minuten worden uitgevoerd als de instelling correct is ingesteld) of voer de taak handmatig uit als u [!DNL cron] niet hebt ingesteld.
 
-Het probleem moet direct worden opgelost nadat de ongeldige koppeling is hersteld. Als het probleem voortduurt, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Het probleem moet direct worden opgelost nadat de ongeldige koppeling is hersteld. Als het probleem voortduurt, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
+
+## Gerelateerde lezing
+
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

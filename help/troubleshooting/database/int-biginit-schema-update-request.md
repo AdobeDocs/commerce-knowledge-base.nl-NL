@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen als u een productupdate niet kunt ops
 exl-id: e2a00371-9032-4e81-b60e-5456ba35be94
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 * Adobe Commerce (alle plaatsingsmethodes) alle [ gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 Dit artikel biedt oplossingen als u een productupdate niet kunt opslaan, zoals een prijswijziging, of een product kunt verwijderen en dupliceren.
-U kunt het foutenbericht *zien het voorraadpunt kon niet worden bewaard. Probeer het opnieuw.* Mogelijk kunt u niet implementeren na een productupdate. Het volgende MySQL-foutbericht wordt ook weergegeven wanneer u `php bin/magento setup:upgrade` uitvoert (in Adobe Commerce op de cloud-infrastructuur wordt deze fout weergegeven in de implementatielogboeken):
+U kunt het foutenbericht *zien het voorraadpunt kon niet worden bewaard. Probeer het opnieuw.* Mogelijk kunt u niet implementeren na een productupdate. Het volgende [!DNL MySQL] foutbericht wordt ook weergegeven wanneer u `php bin/magento setup:upgrade` uitvoert (in Adobe Commerce op de cloud-infrastructuur wordt deze fout weergegeven in de implementatielogboeken):
 
 ```mysql
 SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column 'value_id' at row 1, query was: INSERT INTO `catalog_product_entity_decimal` (`attribute_id`,`store_id`,`row_id`,`value`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE `attribute_id` = VALUES(`attribute_id`), `store_id` = VALUES(`store_id`), `row_id` = VALUES(`row_id`), `value` = VALUES(`value`)
@@ -56,7 +56,7 @@ Als `max(value_id)` lager is dan `max int(11) [ 4294967296 ]`, en `[ AUTO_INCREM
 
 >[!WARNING]
 >
->Voer een gegevensbestandsteun uit alvorens de lijsten te veranderen. Ook, zet de plaats in [ onderhoudswijze ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode). Daarnaast wordt ook aangeraden de opdracht MYSQL optimaliseren uit te voeren in de databasetabellen (alleen naar tabellen waarin wijzigingen zijn aangebracht) nadat de wijzigingen zijn aangebracht.
+>Voer een gegevensbestandsteun uit alvorens de lijsten te veranderen. Ook, zet de plaats in [ onderhoudswijze ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode). Daarnaast wordt ook aangeraden de opdracht [!DNL MySQL] optimaliseren uit te voeren in de databasetabellen (alleen naar tabellen waarin wijzigingen zijn aangebracht) nadat de wijzigingen zijn aangebracht.
 
 >[!NOTE]
 >
@@ -111,7 +111,8 @@ Daartoe:
 
 ## Gerelateerde lezing
 
-* [ Algemene richtlijnen MySQL ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) in de Gids van de Installatie van Commerce.
-* [ uploadt het Gegevensbestand verliest verbinding aan MySQL ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html) in onze basis van de steunkennis.
-* [ beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html) in onze basis van steunkennis.
-* [ gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) in onze basis van steunkennis.
+* [ Algemene  [!DNL MySQL]  richtlijnen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) in de Gids van de Installatie van Commerce
+* [ uploadt het Gegevensbestand verliest verbinding aan  [!DNL MySQL] ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html) in onze basis van de steunkennis
+* [ beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html) in onze basis van de steunkennis
+* [ gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) in onze basis van de steunkennis
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

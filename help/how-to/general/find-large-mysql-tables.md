@@ -2,9 +2,9 @@
 title: Grote MySQL-tabellen zoeken
 description: '"Om de grote lijsten te identificeren, verbind met het gegevensbestand zoals die in het [verbindt met het gegevensbestand] (https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) artikel wordt beschreven, en stel het volgende bevel in werking, waar ` project_id'' uw het project ID van de Wolk is:'''
 exl-id: dc5019bc-ab6c-4568-986f-0a294a0f3ac3
-source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -22,3 +22,7 @@ ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
 ```
 
 Dit zou de volledige lijst van lijsten en hun grootte tonen. U kunt door de lijst gaan en identificeren welke lijsten aandacht wegens de grote grootte vereisen.
+
+## Gerelateerde lezing
+
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
