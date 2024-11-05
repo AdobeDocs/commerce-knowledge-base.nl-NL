@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 2212ec66c04445db791c5bd852d7498161de410d
+source-git-commit: 5110233220a6db734be2802b792869759f46b8c0
 workflow-type: tm+mt
-source-wordcount: '9625'
+source-wordcount: '9627'
 ht-degree: 0%
 
 ---
@@ -841,7 +841,7 @@ ht-degree: 0%
       * [robots.txt geeft 404 fouten Adobe Commerce op cloudinfrastructuur 2.3.x](/help/troubleshooting/miscellaneous/robots-txt-gives-404-error-magento-commerce-cloud-2-3-x.md)
       * [Beperkte toegang tot beheerder leidt tot prestatieproblemen](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
       * [Taken uitsnijden vergrendelen taken uit andere groepen](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
-      * [Vergrendelde velden in Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
+      * [Vergrendelde (grijs weergegeven) velden in Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
       * [Kan de zoekmachine niet wijzigen met Commerce Admin (menu Zoekmachine is niet toegankelijk)](/help/troubleshooting/miscellaneous/cannot-change-search-engine-using-magento-admin-search-engine-menu-is-inaccessible.md)
       * [Fout bij installatie xdebug van maximumnestniveau van functie](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
       * [Kan entiteit Adobe Commerce-backend niet opslaan](/help/troubleshooting/miscellaneous/unable-to-save-entity-backend.md)

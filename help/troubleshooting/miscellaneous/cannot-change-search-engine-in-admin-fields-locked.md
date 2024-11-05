@@ -2,9 +2,9 @@
 title: Kan zoekmachine niet wijzigen in "app/etc/env.php"
 description: Dit artikel biedt een oplossing voor het probleem waarbij u het zoekprogramma probeert te wijzigen in Commerce Admin, maar de velden zijn vergrendeld.
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ De configuratie van de zoekmachine is vergrendeld in het `app/etc/env.php` -best
 
 ## Gerelateerde lezing
 
-* [ Vergrendelde gebieden in Admin van Commerce ](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) in Commerce op de Gids van de Infrastructuur van de Wolk.
+* [ Vergrendelde (grijs uit) gebieden in Commerce Admin ](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) in Commerce op de Gids van de Infrastructuur van de Wolk.
