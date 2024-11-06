@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor blokkers die op Adobe Commerce
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: 3dd44b72bc9f02fe808b70355c4331fc28aa3606
+source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,6 @@ Probleem: zonder een geldig en werkend SSL-certificaat kunt u geen externe betal
 
 Aanbeveling **:** vraag uw gedeelde SSL-certificaat om opmaaknamen of Live domeinnamen.
 
-Lees over SSL certificaten in dit [ Snelle FAQ ](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md) artikel van FAQ in onze basis van de steunkennis.
 
 ## 3. 301 omleidingen configureren en testen
 

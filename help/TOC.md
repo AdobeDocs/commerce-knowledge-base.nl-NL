@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 5110233220a6db734be2802b792869759f46b8c0
+source-git-commit: d197baf1644dd734880e6e36d6cf477bad3b1170
 workflow-type: tm+mt
-source-wordcount: '9627'
+source-wordcount: '9597'
 ht-degree: 0%
 
 ---
@@ -631,13 +631,9 @@ ht-degree: 0%
       * [Verbeteringsverzoek integratieomgeving - Pro en Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
       * [Vakantiedrukcapaciteit voor Adobe Commerce op onze cloudinfrastructuur](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
       * [Upgrade Compatibility Tool 1.1.0 voor Adobe Commerce](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
-      * [SSL/TLS-certificaatvereisten Adoben en opschonen](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md)
       * [Veelgestelde vragen over het bijgewerkte levenscyclusbeleid voor Adobe Commerce-releases](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)
       * [Overschakelen naar OpenSearch for Adobe Commerce op Cloud 2.4.4](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
-      * [Migratie van integratieomgevingen naar oude EU-regio](/help/announcements/adobe-commerce-announcements/integration-environments-migration-to-new-regions-for-eu-and-us.md)
       * [Adobe Commerce Recommendations for PHP Vulnerabilities](/help/announcements/adobe-commerce-announcements/magento-recommendations-for-php-vulnerabilities.md)
-      * [Apache log4j2 kwetsbaarheid in Adobe Commerce](/help/announcements/adobe-commerce-announcements/apache-log4j2-adobe-commerce.md)
-      * [Blackfire access removal voor Adobe Commerce op cloudinfrastructuur](/help/announcements/adobe-commerce-announcements/blackfire-access-removal-for-magento-commerce-cloud.md)
       * [Gereedschap Kwaliteitspatches uitgebracht: nieuw gereedschap voor het zelf bedienen van kwaliteitspatches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
       * [De zoekfunctie voor MySQL-catalogus wordt verwijderd uit Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Toegang tot en privacy van gegevens voor klanten met Adobe](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
