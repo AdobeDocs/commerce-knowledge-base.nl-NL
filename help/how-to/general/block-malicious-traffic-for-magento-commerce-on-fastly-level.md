@@ -3,7 +3,7 @@ title: Blokkeren van kwaadwillig verkeer voor Adobe Commerce op snelniveau
 description: Dit artikel bevat de stappen die u kunt nemen om kwaadaardig verkeer te blokkeren wanneer u vermoedt dat er een DDoS-aanval plaatsvindt in uw Adobe Commerce on cloud Infrastructure Store.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -24,7 +24,7 @@ In dit artikel veronderstellen wij dat u reeds kwaadwillige IPs en/of hun land e
 
 Als uw website door DDoS wordt overbelast, kunt u zich mogelijk niet aanmelden bij uw Commerce Admin (en alle stappen uitvoeren die verder in dit artikel worden beschreven).
 
-Om toegang tot Admin te krijgen, zet uw website in onderhoudswijze zoals die in [ wordt beschreven laat of maakt onderhoudswijze ](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html#instgde-cli-maint) toe onbruikbaar en whitelist uw IP adres. Schakel de onderhoudsmodus uit nadat u dit hebt gedaan.
+Om toegang tot Admin te krijgen, zet uw website in onderhoudswijze zoals die in [ wordt beschreven laat of maakt onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) toe onbruikbaar en whitelist uw IP adres. Schakel de onderhoudsmodus uit nadat u dit hebt gedaan.
 
 ## Het verkeer van het blok door IP
 
@@ -74,7 +74,7 @@ Er zijn twee belangrijke overwegingen wanneer u `robots.txt` gebruikt:
 * Robots kunnen uw `robots.txt` negeren. Vooral malware-robots, die het web scannen op kwetsbaarheden op het gebied van beveiliging, en e-mailadressen die door spammers worden gebruikt, zullen geen aandacht besteden.
 * Het bestand `robots.txt` is een openbaar beschikbaar bestand. Iedereen kan zien welke gedeelten van uw server u niet wilt gebruiken voor robots.
 
-De basisinformatie en standaardAdobe Commerce `robots.txt` configuratie kunnen in het [ artikel van de Motor van het Onderzoek van de Motor Robots ](https://docs.magento.com/m2/ee/user_guide/marketing/search-engine-robots.html) in onze ontwikkelaarsdocumentatie worden gevonden.
+De basisinformatie en standaardAdobe Commerce `robots.txt` configuratie kunnen in het [ artikel van de Motor van het Onderzoek van de Motor Robots ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) in onze ontwikkelaarsdocumentatie worden gevonden.
 
 Zie voor algemene informatie en aanbevelingen over `robots.txt`:
 

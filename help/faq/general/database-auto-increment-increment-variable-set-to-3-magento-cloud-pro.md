@@ -3,7 +3,7 @@ title: Database auto_increment increment variabele ingesteld op "3" Adobe Commer
 description: Dit is het verwachte gedrag voor Adobe Commerce op cloudinfrastructuur Pro-architectuuroplossingen vanwege de architectuur met drie knooppunten en kan niet worden gewijzigd.
 exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -31,5 +31,5 @@ Als de geselecteerde hoofd bijvoorbeeld knooppunt 1 is waar `auto_increment_offs
 
 Zie in onze documentatie voor ontwikkelaars:
 
-* [ Cloud voor Adobe Commerce > Pro architectuur > Steun en rampenterugwinning ](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
-* [ Wolk voor Adobe Commerce > installeer eerste vereisten: gegevensbestand ](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)
+* [ Cloud voor Adobe Commerce > Pro architectuur > Steun en rampenterugwinning ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [ Wolk voor Adobe Commerce > installeer eerste vereisten: gegevensbestand ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)

@@ -4,7 +4,7 @@ description: In dit artikel wordt een bekende Adobe Commerce-uitgave (2.4.2) bes
 exl-id: c4d9240e-5df5-4eab-bb4e-1f06f9bd3a1e
 feature: Iaas, Products, Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Commerce geïnstalleerd met Nginx.
 <u> Stappen om </u> te reproduceren:
 
 1. Configureer Adobe Commerce om AWS `s3` te gebruiken als media-opslag.
-1. Configureer Nginx met behulp van het `nginx.conf.sample` -configuratiebestand in de Adobe Commerce-installatiemap en een Nginx-virtuele host. Zie [ Nginx ](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) in onze ontwikkelaarsdocumentatie vormen.
+1. Configureer Nginx met behulp van het `nginx.conf.sample` -configuratiebestand in de Adobe Commerce-installatiemap en een Nginx-virtuele host. Zie [ Nginx ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx) in onze ontwikkelaarsdocumentatie vormen.
 1. Maak een eenvoudig product met één productafbeelding.
 1. Nginx heeft een configuratie zonder opmerkingen voor het wijzigen van de grootte van afbeeldingen in `nginx.conf.sample` , vergelijkbaar met:
 

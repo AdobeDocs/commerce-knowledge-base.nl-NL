@@ -4,7 +4,7 @@ description: "Dit artikel bevat een oplossing voor het geval uw site niet wordt 
 exl-id: 77e01588-e135-4d24-a0c4-1a6ee123f4a8
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## Verwante lezing
 
-Leren wanneer om onderhoudswijze te gebruiken, verwijs naar [ toelaten of onderhoudswijze ](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode) in onze ontwikkelaarsdocumentatie onbruikbaar maken.
+Leren wanneer om onderhoudswijze te gebruiken, verwijs naar [ toelaten of onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) in onze ontwikkelaarsdocumentatie onbruikbaar maken.

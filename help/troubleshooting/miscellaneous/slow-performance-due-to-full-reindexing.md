@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor slechte prestaties als gevolg 
 exl-id: 4f20a862-cf54-4196-8a88-101f0c80f8f1
 feature: Best Practices
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -53,9 +53,9 @@ Acties die volledige herindexering kunnen produceren, zijn uitgevoerd vanuit de 
 
 ### Oplossing
 
-Voer alleen indien nodig opnieuw indexeren uit. Voor stappen, herzie [ Indexers ](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) in onze ontwikkelaarsdocumentatie vormen. Een algemene aanbeveling en beste praktijk is om het partiële herindexeringsmechanisme in staat te stellen om te zorgen voor herindexering van gegevens zonder dat een handelaar hiervoor handmatig iets hoeft te doen. Alle re-dexatie zou moeten worden gedaan gebruikend inheemse functionaliteit van Adobe Commerce (Mview). Mview voert gedeeltelijke herindexatie uit, wat de meest efficiënte manier is om gegevens opnieuw te indexeren. Om over Mview te leren, verwijs naar [ Indexerend overzicht: Mview ](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) in onze ontwikkelaarsdocumentatie.
+Voer alleen indien nodig opnieuw indexeren uit. Voor stappen, herzie [ Indexers ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) in onze ontwikkelaarsdocumentatie vormen. Een algemene aanbeveling en beste praktijk is om het partiële herindexeringsmechanisme in staat te stellen om te zorgen voor herindexering van gegevens zonder dat een handelaar hiervoor handmatig iets hoeft te doen. Alle re-dexatie zou moeten worden gedaan gebruikend inheemse functionaliteit van Adobe Commerce (Mview). Mview voert gedeeltelijke herindexatie uit, wat de meest efficiënte manier is om gegevens opnieuw te indexeren. Om over Mview te leren, verwijs naar [ Indexerend overzicht: Mview ](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) in onze ontwikkelaarsdocumentatie.
 
 ## Verwante lezing
 
-* [ Indexerend Overzicht: Hoe te om ](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex) in onze ontwikkelaarsdocumentatie opnieuw te indexeren.
+* [ Indexerend Overzicht: Hoe te om ](https://developer.adobe.com/commerce/php/development/components/indexing/#how-to-reindex) in onze ontwikkelaarsdocumentatie opnieuw te indexeren.
 * [ ongeldig geheim voorgeheugen veroorzaakt verslechtering van de reactietijd ](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) in onze basis van de steunkennis.

@@ -4,7 +4,7 @@ description: Dit artikel biedt de oplossing voor het probleem met cacheafbeeldin
 exl-id: 3e6bd5aa-bd5d-4880-8b78-64f280647abe
 feature: Cache, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -45,6 +45,6 @@ Het probleem wordt veroorzaakt door de onjuiste Nginx-configuratie die is ingest
    * Integratie: corrigeer het bestand zelf en duw op de wijzigingen.
    * Het opvoeren en de Productie: verbeter het dossier zelf, duw de veranderingen, en creeer een [ de steunkaartje van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om het toe te passen te hebben.
 
-1. Optimalisatie van snel renderen van afbeeldingen in Commerce-beheer inschakelen (eerst snel configureren), zoals beschreven in <https://devdocs.magento.com/guides/v2.3/cloud/cdn/fastly-image-optimization.html> .
+1. Optimalisatie van snel renderen van afbeeldingen in Commerce-beheer inschakelen (eerst snel configureren), zoals beschreven in <https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization> .
 
 Als de configuratie correct is, maar u ervaart nog de kwestie, vervolg het onderzoek of contacteer [ de Steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

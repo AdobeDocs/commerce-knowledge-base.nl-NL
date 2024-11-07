@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor een probleem met een verbroken
 exl-id: b0830ec2-2aea-4afb-8d02-e9c8f54283be
 feature: Orders, Shopping Cart
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Adobe Commerce voegt je selecties niet toe aan mijn winkelwagentje.
 
 ## Gerelateerde lezing
 
-* [ MerchDocs het Leiden een het Winkelen Kart ](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html) in onze gebruikersgids.
+* [ MerchDocs het Leiden een het Winkelen Kart ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage) in onze gebruikersgids.
 * [ Adobe Commerce 2.4.0 gekende kwestie: de ruwe vertoning van berichtgegevens op opslag ](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md) in onze basis van steunkennis.
 * [ Adobe Commerce 2.4.0 gekende kwestie: De Tarieven van de Belasting van de uitvoer werken niet ](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md) in onze steunkennisbasis.
 * [ Adobe Commerce 2.4.0 gekende kwestie: De betalingsmethodes van de Braintree verschijnen niet in Veelvoudige Controle van Adressen ](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md) in onze basis van de steunkennis.

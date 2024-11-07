@@ -1,10 +1,10 @@
 ---
 title: Beperkte toegang tot beheerder leidt tot prestatieproblemen
-description: Dit artikel biedt oplossingen voor situaties waarin de prestaties negatief worden beïnvloed door het gebruik van [Admin-rollen met rolbereik beperkt door website](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) in onze gebruikershandleiding.
+description: Dit artikel biedt oplossingen voor situaties waarin de prestaties negatief worden beïnvloed door het gebruik van [Admin-rollen met rolbereik beperkt door website](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources) in onze gebruikershandleiding.
 exl-id: da168d6b-9cda-41e2-aa3c-f3f0dccc803d
 feature: Admin Workspace, Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Beperkte toegang tot beheerder leidt tot prestatieproblemen
 
-Dit artikel verstrekt oplossingen voor wanneer de prestaties negatief worden beïnvloed door [ rollen Admin met rolwerkingsgebied te gebruiken dat door website ](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) in onze gebruikersgids wordt beperkt.
+Dit artikel verstrekt oplossingen voor wanneer de prestaties negatief worden beïnvloed door [ rollen Admin met rolwerkingsgebied te gebruiken dat door website ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources) in onze gebruikersgids wordt beperkt.
 
 ## Betrokken producten en versies
 
@@ -30,10 +30,10 @@ Het probleem is opgelost in Adobe Commerce 2.2.10 en 2.3.3.
 
 Hieronder vindt u opties om dit probleem te voorkomen:
 
-* Voer een upgrade uit van de Adobe Commerce-toepassingsversie naar 2.2.10 of 2.3.3. (voor instructies, zie de [ Verbetering Adobe Commerce op versie van de wolkeninfrastructuur ](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) in onze ontwikkelaarsdocumentatie).
+* Voer een upgrade uit van de Adobe Commerce-toepassingsversie naar 2.2.10 of 2.3.3. (voor instructies, zie de [ Verbetering Adobe Commerce op versie van de wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in onze ontwikkelaarsdocumentatie).
 * Beperk indien mogelijk het bereik van de beheerdersrol niet per website.
 * [ leg een kaartje van de Steun van het Magento ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor, om een flard te verzoeken, als het beschikbaar is.
 
 ## Gerelateerde lezing
 
-* [ de rollen van de Gebruiker ](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html) in onze gebruikersgids.
+* [ de rollen van de Gebruiker ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles) in onze gebruikersgids.

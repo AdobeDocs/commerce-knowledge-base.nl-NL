@@ -4,7 +4,7 @@ description: 'Dit artikel biedt een oplossing voor het geval een implementatie m
 exl-id: e7300f64-5749-4de8-b4d2-bc4789437282
 feature: Deploy
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -45,12 +45,12 @@ Uw versie van MariaDB is niet compatibel met de versie van Adobe Commerce waarna
 U moet de MariaDB-service upgraden naar een compatibele versie voordat u de toepassing upgradet.
 
 
-Voor de integratietak op Adobe Commerce op de architectuur van het plan van de wolkeninfrastructuur Pro (en alle takken in de architectuur van de Aanzet) te volgen gelieve [ de Dienst ](https://devdocs.magento.com/cloud/project/services.html) in onze ontwikkelaarsdocumentatie te vormen.
+Voor de integratietak op Adobe Commerce op de architectuur van het plan van de wolkeninfrastructuur Pro (en alle takken in de architectuur van de Aanzet) te volgen gelieve [ de Dienst ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/services-yaml) in onze ontwikkelaarsdocumentatie te vormen.
 
 Voor het Staging en de Productie op Adobe Commerce op de architectuur van het Pro plan van de wolkeninfrastructuur, gelieve [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor te leggen om te verzoeken dat de diensten worden bevorderd alvorens u de versie van Adobe Commerce opstelt.
 
 
 ## Gerelateerde lezing
 
-* [ Beste praktijken voor bouwt en plaatsing ](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) in onze ontwikkelaarsdocumentatie.
+* [ Beste praktijken voor bouwt en plaatsing ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices) in onze ontwikkelaarsdocumentatie.
 * [ Adobe Commerce 2.3.5 verbetering: compact aan dynamische lijsten ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) in onze steun knowlegde basis.

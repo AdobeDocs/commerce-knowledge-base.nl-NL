@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het probleem wanneer u verzend
 exl-id: df19b597-f615-4b19-82c1-59cc179fa720
 feature: Marketing Tools, Shipping/Delivery, Storefront
 role: Admin
-source-git-commit: 1ce963142a261a17e2b42f79dd567c8484ec5b3e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Kan _het verschepen_ als sleutel URL niet bewaren
 
-Dit artikel verstrekt een tijdelijke oplossing voor de kwestie wanneer u het verschepen niet als sleutel URL (_b.v., /Shipping_) voor producten of CMS pagina&#39;s kunt bewaren. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
+Dit artikel verstrekt een tijdelijke oplossing voor de kwestie wanneer u geen het verschepen als sleutel URL (_b.v., /Shipping_) voor producten of de pagina&#39;s van CMS kunt bewaren. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
 
 ## Betrokken producten en versies
 
@@ -21,7 +21,7 @@ Adobe Commerce (alle implementatiemethoden) 2.4.x
 
 ## Probleem
 
-U kunt geen CMS pagina met de termijn _verschepen_ in de sleutel bewaren URL.
+U kunt geen pagina van CMS met de termijn _verschepen_ in de sleutel bewaren URL.
 
 <u> Stappen om </u> te reproduceren:
 
@@ -122,5 +122,5 @@ Bovendien vermijd het gebruiken van deze sleutelwoorden die als *gereserveerde* 
 
 ## Gerelateerde lezing
 
-* [ URL herschrijft ](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in onze Gids van de Gebruiker van Merchandising en van Bevorderingen.
-* {de Beste praktijken van 0} SEO ](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in onze Gids van de Gebruiker van Merchandising en van Bevorderingen.[
+* [ URL herschrijft ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) in onze Gids van de Gebruiker van Merchandising en van Bevorderingen.
+* {de Beste praktijken van 0} SEO ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) in onze Gids van de Gebruiker van Merchandising en van Bevorderingen.[

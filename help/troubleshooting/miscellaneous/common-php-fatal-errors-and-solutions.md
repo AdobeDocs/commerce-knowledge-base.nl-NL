@@ -4,7 +4,7 @@ description: In dit artikel worden enkele veelvoorkomende snelle voorbeelden van
 exl-id: 3e42d38f-97bc-4d38-8e36-23b1453f81d9
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Bijvoorbeeld:
 
 `max_execution_time = 120`
 
-Raadpleeg [ aanpassen php.ini montages ](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) artikel.
+Raadpleeg [ aanpassen php.ini montages ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) artikel.
 
 ## Voorbeeld
 
@@ -35,7 +35,7 @@ Raadpleeg [ aanpassen php.ini montages ](https://devdocs.magento.com/cloud/proje
 
 ## Oplossing
 
-Pas de `php.ini` -instellingen aan. Raadpleeg dit [ aanpassen php.ini montages ](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) artikel.
+Pas de `php.ini` -instellingen aan. Raadpleeg dit [ aanpassen php.ini montages ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) artikel.
 
 ## Voorbeeld
 
@@ -65,9 +65,9 @@ Controleer de map `<root>/tmp` omdat deze waarschijnlijk vol is. Als de map vol 
 
 In onze documentatie voor ontwikkelaars:
 
-* [ PHP montagesfouten ](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html)
-* [ Vereiste PHP montages ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)
-* [ herdis controle ](https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html#redis-verify)
-* [ vormen Redis ](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html)
-* [ PHP fout van de geheugengrens ](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html#trouble-php-memory)
-* [ Oplossingen aan gemeenschappelijke problemen - de grens van het Geheugen ](https://devdocs.magento.com/guides/v2.3/test/unit/unit_test_execution_cli.html#solutions-to-common-problems)
+* [ PHP montagesfouten ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [ Vereiste PHP montages ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [ herdis controle ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [ vormen Redis ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [ PHP fout van de geheugengrens ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [ Oplossingen aan gemeenschappelijke problemen - de grens van het Geheugen ](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)

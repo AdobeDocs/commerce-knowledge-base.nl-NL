@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het opwarmen van de paginacach
 exl-id: c91d5c1f-95e6-4240-be98-2acea49ae728
 feature: Cache, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -37,8 +37,8 @@ De site is niet beschikbaar of de responstijd is te hoog.
 
 ## Oplossing
 
-Beperk het aantal gelijktijdige verbindingen tijdens de cache-opwarmen. Hiervoor moet u de variabele `WARM_UP_CONCURRENCY` post-distribueren toevoegen om het aantal opwarmen aanvragen op te geven dat het opwarmen van de cache script tegelijkertijd kan verzenden. Door deze optie in te stellen, kunt u de belasting op de Adobe Commerce-cloudinfrastructuur beter beheren. Voor stappen, zie [ Post-stelt variabelen > WARM \_UP\_CONCURRENCY ](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) in onze ontwikkelaarsdocumentatie op.
+Beperk het aantal gelijktijdige verbindingen tijdens de cache-opwarmen. Hiervoor moet u de variabele `WARM_UP_CONCURRENCY` post-distribueren toevoegen om het aantal opwarmen aanvragen op te geven dat het opwarmen van de cache script tegelijkertijd kan verzenden. Door deze optie in te stellen, kunt u de belasting op de Adobe Commerce-cloudinfrastructuur beter beheren. Voor stappen, zie [ Post-opstellen variabelen > WARM \_UP\_CONCURRENCY ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-post-deploy#warm_up_concurrency) in onze ontwikkelaarsdocumentatie.
 
 ## Gerelateerde lezing
 
-[ Volledig-Pagina Geheime voorgeheugen ](https://docs.magento.com/user-guide/system/cache-full-page.html) in onze gebruikersgids
+[ Volledig-Pagina Geheime voorgeheugen ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) in onze gebruikersgids

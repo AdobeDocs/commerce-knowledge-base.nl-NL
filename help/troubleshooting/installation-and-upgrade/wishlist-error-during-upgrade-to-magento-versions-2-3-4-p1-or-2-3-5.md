@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het bekende probleem bij de up
 exl-id: 97479615-bf3f-4544-a9c1-8f19ba74318e
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -57,8 +57,8 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 In onze documentatie voor ontwikkelaars:
 
-* [ Adobe Commerce op de gids van de wolkeninfrastructuur ](https://devdocs.magento.com/cloud/bk-cloud.html)
-* [ Adobe Commerce op wolkeninfrastructuur - de versie van Adobe Commerce van de Verbetering ](https://devdocs.magento.com/cloud/project/project-upgrade.html)
-* [ Adobe Commerce op-gebouw en Magento Open Source - bevorder de toepassing en de modules van Adobe Commerce ](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
-* [ het punt van de Wijze lijst vormt pagina ](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
-* [ Modules die geavanceerde rapportering verstrekken ](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)
+* [ Adobe Commerce op de gids van de wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/overview)
+* [ Adobe Commerce op wolkeninfrastructuur - de versie van Adobe Commerce van de Verbetering ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* [ Adobe Commerce op-gebouw en Magento Open Source - bevorder de toepassing en de modules van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)
+* [ het punt van de Wijze lijst vormt pagina ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts/#wishlist-item-configure-page)
+* [ Modules die geavanceerde rapportering verstrekken ](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)

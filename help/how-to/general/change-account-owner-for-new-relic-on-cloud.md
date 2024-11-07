@@ -3,7 +3,7 @@ title: Eigenaar van account wijzigen voor New Relic op Cloud
 description: Voor uw Adobe Commerce on cloud Infrastructure-project kunt u de New Relic-accounteigenaar wijzigen op de New Relic UI-pagina. Zie [De accounteigenaar wijzigen] (https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/change-account-owner) in de documentatie van New Relic voor meer informatie.
 exl-id: fbb778d5-7e5d-4cd9-849a-4071ca9e4bea
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -20,4 +20,4 @@ Als iemand als gebruiker moet worden toegevoegd, maar geen bestaande Eigenaar of
 
 ## Gerelateerde lezing
 
-* [ de diensten van New Relic ](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) in onze ontwikkelaarsdocumentatie.
+* [ de diensten van New Relic ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie.

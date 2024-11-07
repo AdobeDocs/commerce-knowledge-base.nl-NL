@@ -4,7 +4,7 @@ description: Het hulpmiddel van de Verenigbaarheid van de Verbetering 1.1.0 is e
 exl-id: 312abc5a-1d6a-4f32-9929-a94f4962eddd
 feature: Upgrade
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Adobe Commerce-klanten.
 
 ## Upgrade Compatibility Tool 1.1.0 installeren
 
-Voor installatiestappen, verwijs naar Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering > installeert ](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) in onze ontwikkelaarsdocumentatie. Voor eerste vereisten om het hulpmiddel te gebruiken, verwijs naar Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering ](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) in onze ontwikkelaarsdocumentatie.
+Voor installatiestappen, verwijs naar Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering > installeert ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run) in onze ontwikkelaarsdocumentatie. Voor eerste vereisten om het hulpmiddel te gebruiken, verwijs naar Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/prerequisites) in onze ontwikkelaarsdocumentatie.
 
 ## Wat is het aantal naast elke kwestie?
 
@@ -47,7 +47,7 @@ De foutberichten van het gereedschap Compatibiliteit bijwerken zijn gecategorise
 * Foutcode: de door Adobe Commerce toegewezen id voor het foutbericht.
 * Foutbeschrijving: een beschrijving die de oorzaak van de fout samenvat.
 * Fout gesuggereerde actie: Indien van toepassing, verstrekt raad om de fout problemen op te lossen en op te lossen.
-* De codes zijn vermeld en beschreven op de [ pagina van de het berichtverwijzing van de Fout ](https://devdocs.magento.com/upgrade-compatibility-tool/errors.html).
+* De codes zijn vermeld en beschreven op de [ pagina van de het berichtverwijzing van de Fout ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/reporting/error-messages).
 
 ## Waar kan ik feedback over het gereedschap delen?
 
@@ -56,4 +56,4 @@ U kunt het UCT team op ons [ #upgrade-verenigbaarheid-hulpmiddel ](https://magen
 ## Verwante lezing
 
 * Adobe Commerce Blog: [ Introducerend het Hulpmiddel van de Verenigbaarheid van de Verbetering (Alpha) ](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
-* Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering ](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview) in onze ontwikkelaarsdocumentatie.

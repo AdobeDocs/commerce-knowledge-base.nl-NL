@@ -4,7 +4,7 @@ description: Dit artikel biedt oplossingen om vertragingen of onderbrekingen in 
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -26,13 +26,13 @@ Wijzigingen die u aanbrengt in de database, worden niet doorgevoerd in de winkel
 
 ## Oorzaak
 
-Als uw indexeerders [ worden gevormd om door programma ](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) bij te werken, zou de kwestie door één of meerdere lijsten met veranderingslogboeken kunnen worden veroorzaakt die te groot zijn of trekkers MySQL die niet opstelling zijn.
+Als uw indexeerders [ worden gevormd om door programma ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) bij te werken, zou de kwestie door één of meerdere lijsten met veranderingslogboeken kunnen worden veroorzaakt die te groot zijn of trekkers MySQL die niet opstelling zijn.
 
 ### Te grote logtabellen voor wijzigingen
 
 De logtabellen voor wijzigingen worden zo groot als de `indexer_update_all_views` -uitsnijdtaak niet meerdere keren is voltooid.
 
-Logtabellen wijzigen zijn de databasetabellen waarin de wijzigingen in entiteiten worden bijgehouden. Een record wordt opgeslagen in een tabel met het wijzigingslogboek, zolang de wijziging niet wordt toegepast. Deze wijziging wordt uitgevoerd door de `indexer_update_all_views` -snijtaak. Een Adobe Commerce-database bevat meerdere veranderingslogtabellen. Deze krijgen een naam volgens het volgende patroon: INDEXER\_TABLE\_NAME + &#39;\_cl&#39;, bijvoorbeeld `catalog_category_product_cl`, `catalog_product_category_cl` . U kunt meer details op vinden hoe de veranderingen in gegevensbestand in het [ Indexeren overzicht > artikel van de Mview ](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) in onze ontwikkelaarsdocumentatie worden gevolgd.
+Logtabellen wijzigen zijn de databasetabellen waarin de wijzigingen in entiteiten worden bijgehouden. Een record wordt opgeslagen in een tabel met het wijzigingslogboek, zolang de wijziging niet wordt toegepast. Deze wijziging wordt uitgevoerd door de `indexer_update_all_views` -snijtaak. Een Adobe Commerce-database bevat meerdere veranderingslogtabellen. Deze krijgen een naam volgens het volgende patroon: INDEXER\_TABLE\_NAME + &#39;\_cl&#39;, bijvoorbeeld `catalog_category_product_cl`, `catalog_product_category_cl` . U kunt meer details op vinden hoe de veranderingen in gegevensbestand in het [ Indexeren overzicht > artikel van de Mview ](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) in onze ontwikkelaarsdocumentatie worden gevolgd.
 
 ### [!DNL MySQL] database-triggers niet ingesteld
 

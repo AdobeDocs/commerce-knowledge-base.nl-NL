@@ -3,7 +3,7 @@ title: Veelgestelde vragen over einde Adobe Commerce-software
 description: De volgende FAQ is bedoeld om handelaren, ontwikkelaars, en partners te helpen de implicaties van gepubliceerde EOS-datum (End of Support) van Adobe Commerce voor beïnvloede versies van Adobe Commerce begrijpen.
 exl-id: ec147307-46eb-4a3a-8572-a014b091c58a
 feature: Best Practices, Compliance, Console
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -18,7 +18,7 @@ De volgende FAQ is bedoeld om handelaren, ontwikkelaars, en partners te helpen d
 
 ### Waar vind ik de data van de softwaresteun voor alle versies van Adobe Commerce?
 
-U kunt het de softwarelevenscyclusbeleid en data van de softwaresteun van Adobe Commerce in het [ Beleid van de Levenscyclus van de Software van Adobe Commerce ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) vinden. Wij publiceren ook eind van steun (EOS) data op onze [ pagina van de ontwikkelaarsdocumentatie ](https://devdocs.magento.com/release/released-versions.html).
+U kunt het de softwarelevenscyclusbeleid en data van de softwaresteun van Adobe Commerce in het [ Beleid van de Levenscyclus van de Software van Adobe Commerce ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) vinden. Wij publiceren ook eind van steun (EOS) data op onze [ pagina van de ontwikkelaarsdocumentatie ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions).
 
 ### Wat betekent het wanneer de Adobe steun voor een versie van de software van Adobe Commerce beëindigt?
 
@@ -70,7 +70,7 @@ Uw handelsplatform is een belangrijk bedrijfssysteem voor uw bedrijf en het blij
 
 Als u naar de nieuwste versie van de Adobe Commerce-software gaat, kan het enige tijd en tijd duren voordat de middelen goed worden uitgevoerd. Het is aan te raden zo lang mogelijk voor het einde van de supportdatum te plannen, zodat u over de juiste tijd en middelen beschikt om uw strategische doelstellingen binnen de gestelde termijnen en binnen de begroting te verwezenlijken. Om u met uw volgende verbetering te helpen, heeft de Adobe de [ 2.4 Gids van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf) gepubliceerd die de beste praktijken en technische stappen omvat te volgen, evenals de hulpmiddelen en de middelen om te gebruiken wanneer het uitvoeren van uw verbetering.
 
-Een andere belangrijke overweging is om ontwikkelaars en partnermiddelen zo vroeg mogelijk te reserveren. De tijd en de middelen van de partner worden vaak geboekt ruim vóór het eind van steundatum, resulterend in beduidend minder middelen om met migratieprojecten te helpen. U wordt aangeraden een voortschrijdend driejarenplan te hebben dat u minstens eenmaal per jaar bespreekt en ervoor te zorgen dat het volgende jaar wordt gepland en begroot. De de versiekalender van de Adobe van het gebruik ](https://devdocs.magento.com/release/) om spoor van versiedata te houden.[
+Een andere belangrijke overweging is om ontwikkelaars en partnermiddelen zo vroeg mogelijk te reserveren. De tijd en de middelen van de partner worden vaak geboekt ruim vóór het eind van steundatum, resulterend in beduidend minder middelen om met migratieprojecten te helpen. U wordt aangeraden een voortschrijdend driejarenplan te hebben dat u minstens eenmaal per jaar bespreekt en ervoor te zorgen dat het volgende jaar wordt gepland en begroot. De de versiekalender van de Adobe van het gebruik ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) om spoor van versiedata te houden.[
 
 ### Kan ik een externe serviceprovider gebruiken voor softwareondersteuning wanneer Adobe Commerce Support wordt stopgezet?
 
@@ -94,7 +94,7 @@ Zodra uw Adobe Commerce-licentie verloopt, moet u de Adobe Commerce-software nie
 
 ### Zullen de steunkaartjes die vóór het eind van steundatum van een softwareversie zijn geopend nog aan resolutie worden gewerkt zelfs nadat het eind van steundatum is verstreken?
 
-Ja, de steunkaartjes die vóór het eind van de steundatum van een softwareversie worden geopend zullen verder worden gewerkt aan en worden opgelost zelfs als het eind van steundatum voor die softwareversie is overgegaan. Het oplossen van ondersteuningstickets kan echter afhankelijk zijn van het feit of de oplossing afhankelijk is van componenten waarop Adobe Commerce geen invloed heeft (zoals PHP, jQuery, enz.) die verlopen zijn of het einde van de ondersteuning hebben bereikt. In deze gevallen, kan het steunkaartje worden opgelost door u te instrueren om aan de recentste versie te bevorderen.
+Ja, de steunkaartjes die vóór het eind van de steundatum van een softwareversie worden geopend zullen verder worden gewerkt aan en worden opgelost zelfs als het eind van steundatum voor die softwareversie is overgegaan. Het oplossen van ondersteuningstickets kan echter afhankelijk zijn van het feit of de oplossing afhankelijk is van componenten die buiten de controle van Adobe Commerce (zoals PHP, jQuery, enz.) zijn verlopen of het einde van de ondersteuning hebben bereikt. In deze gevallen, kan het steunkaartje worden opgelost door u te instrueren om aan de recentste versie te bevorderen.
 
 ### Als ik een kaartje open voor een softwareversie waar de softwaresteun spoedig beëindigt, zal de Adobe die kaartjes voorrang geven zodat zij vóór het eind van steundatum worden opgelost?
 

@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing om het probleem met composer-plug-i
 exl-id: 7502ca9e-c307-4e8a-aa1d-4886e7be25da
 feature: Upgrade
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Na juli 2022 wijzigt Composer de standaardwaarde van de optie [`allow-plugins` ]
 
 Voeg het volgende toe aan uw `composer.json` -bestand, afhankelijk van de manier waarop u Adobe Commerce hebt geïnstalleerd:
 
-* Als het project [ gebruikend het `composer create-project` bevel ](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage) is gecreeerd:
+* Als het project [ gebruikend het `composer create-project` bevel ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer#get-the-metapackage) is gecreeerd:
 
   ```json
   "config": {

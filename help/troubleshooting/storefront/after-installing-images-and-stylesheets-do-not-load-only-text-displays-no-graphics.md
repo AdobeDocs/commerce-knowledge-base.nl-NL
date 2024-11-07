@@ -4,7 +4,7 @@ description: In dit artikel worden de mogelijke redenen en oplossingen beschreve
 exl-id: f33cee89-b416-4d63-8cc5-9cc57618ce92
 feature: Install, Storefront
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -47,8 +47,8 @@ Statische elementen bevinden zich onder `<magento_root>/pub/static/` , in de map
 
 De volgende oplossingen zijn mogelijke oplossingen afhankelijk van de software u gebruikt en de oorzaak van het probleem:
 
-* Als u de Apache Webserver gebruikt, verifieer uw [ server herschrijft ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html#apache-help-rewrite) het plaatsen en de basis URL van uw server Adobe Commerce/Magento Open Source en probeert opnieuw. Als u de aanwijzing Apache `AllowOverride` onjuist instelt, worden de statische bestanden niet op de juiste locatie aangeboden.
-* Als u de nginx Webserver gebruikt, ben zeker om een virtueel gastheerdossier ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/nginx.html#configure-nginx-ubuntu) te vormen. [ Het virtuele nginx-hostbestand moet aan de volgende criteria voldoen:
+* Als u de Apache Webserver gebruikt, verifieer uw [ server herschrijft ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache#apache-rewrites-and-htaccess) het plaatsen en de basis URL van uw server Adobe Commerce/Magento Open Source en probeert opnieuw. Als u de aanwijzing Apache `AllowOverride` onjuist instelt, worden de statische bestanden niet op de juiste locatie aangeboden.
+* Als u de nginx Webserver gebruikt, ben zeker om een virtueel gastheerdossier ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx) te vormen. [ Het virtuele nginx-hostbestand moet aan de volgende criteria voldoen:
    * De instructie `include` moet verwijzen naar het voorbeeldconfiguratiebestand nginx in de installatiemap van Adobe Commerce/Magento Open Source. Bijvoorbeeld:    `include /var/www/html/magento2/nginx.conf.sample;`
    * De aanwijzing `server_name` moet overeenkomen met de basis-URL die u hebt opgegeven bij de installatie van Adobe Commerce/Magento Open Source. Bijvoorbeeld: `server_name 192.186.33.10;`
-* Als de toepassing op [ productiemodus ](https://devdocs.magento.com/guides/v2.3/config-guide/bootstrap/magento-modes.html#production-mode) is, probeer plaatsend statische meningsdossiers gebruikend het `magento setup:static-content:deploy` bevel. Voor details over het opstellen van statische dossiers verwijzen naar [ Statische meningsdossiers ](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) in onze ontwikkelaarsdocumentatie opstellen.
+* Als de toepassing op [ productiemodus ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode) is, probeer plaatsend statische meningsdossiers gebruikend het `magento setup:static-content:deploy` bevel. Voor details over het opstellen van statische dossiers verwijzen naar [ Statische meningsdossiers ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) in onze ontwikkelaarsdocumentatie opstellen.

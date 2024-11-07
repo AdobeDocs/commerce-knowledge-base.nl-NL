@@ -4,7 +4,7 @@ description: Dit artikel bevat oplossingen voor fouten met PHP-instellingen.
 exl-id: 51fb3c95-2e25-4d86-a6cf-e08e90d097ca
 feature: Configuration
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Configuraties met een groot aantal weergaven, producten, kenmerken of opties kun
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
-Er is geen &#39;juiste&#39; waarde voor `max-input-vars`; deze is afhankelijk van de grootte en complexiteit van uw configuratie. Wijzig desgewenst de waarde in het `php.ini` -bestand. Zie [ Vereiste PHP montages ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+Er is geen &#39;juiste&#39; waarde voor `max-input-vars`; deze is afhankelijk van de grootte en complexiteit van uw configuratie. Wijzig desgewenst de waarde in het `php.ini` -bestand. Zie [ Vereiste PHP montages ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).
 
 ## fout bij nesten van maximale functie xdebug
 
@@ -76,4 +76,4 @@ De veelvoudige malplaatjes hebben syntaxis voor steun abstract niveau op malplaa
 
 Meer informatie over [ asp\_tags ](http://php.net/manual/en/ini.core.php#ini.asp-tags).
 
-Bewerken `php.ini` en instellen `asp_tags = off` . Voor meer informatie, zie [ Vereiste PHP montages ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+Bewerken `php.ini` en instellen `asp_tags = off` . Voor meer informatie, zie [ Vereiste PHP montages ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).

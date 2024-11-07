@@ -1,10 +1,10 @@
 ---
 title: Nieuwste patches installeren om Adobe Commerce Redis-problemen op te lossen
-description: Dit artikel bevat informatie over de nieuwste Redis-patches die beschikbaar zijn in het pakket [Adobe Commerce on cloud Infrastructure Patches](https://devdocs.magento.com/cloud/project/project-patch.html).
+description: Dit artikel bevat informatie over de nieuwste Redis-patches die beschikbaar zijn in het pakket [Adobe Commerce on cloud Infrastructure Patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches).
 exl-id: 0335bc11-f679-4629-b4e7-6a0e68c3ae44
 feature: Cache, Install, Services
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Nieuwste patches installeren om Adobe Commerce Redis-problemen op te lossen
 
-Dit artikel verstrekt informatie over de recentste Redis-Verwante flarden beschikbaar in [ Adobe Commerce op het pakket van de Patches van de wolkeninfrastructuur ](https://devdocs.magento.com/cloud/project/project-patch.html).
+Dit artikel verstrekt informatie over de recentste Redis-Verwante flarden beschikbaar in [ Adobe Commerce op het pakket van de Patches van de wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches).
 
 ## Betrokken producten en versies
 
@@ -25,7 +25,7 @@ Het extra CPU- en geheugenverbruik van Redis kan de Adobe Commerce-prestaties en
 
 ## Oplossing
 
-Pas de nieuwste patches van Adobe Commerce toe op het patchpakket voor cloudinfrastructuur. Voor gedetailleerde instructies, verwijs naar [ passen flarden ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
+Pas de nieuwste patches van Adobe Commerce toe op het patchpakket voor cloudinfrastructuur. Voor gedetailleerde instructies, verwijs naar [ passen flarden ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in onze ontwikkelaarsdocumentatie toe.
 
 De nieuwste Redis-patches die door Adobe Commerce zijn geleverd op het patches-pakket voor cloudinfrastructuur, dragen bij aan het volgende:
 

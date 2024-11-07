@@ -3,7 +3,7 @@ title: Hoe een door Adobe geleverde componentpleister aanbrengen
 description: In dit artikel wordt uitgelegd hoe u een composer-patch kunt toepassen voor Adobe Commerce op locatie, Adobe Commerce op cloudinfrastructuur en Magento Open Source.
 exl-id: a9301ad8-1d4b-49f5-b679-758624928219
 feature: Cache
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -36,7 +36,7 @@ In dit artikel wordt uitgelegd hoe u een composer-patch kunt toepassen voor Adob
    git push origin
    ```
 
-Voor extra informatie over het toepassen van flarden op de projecten van de Wolk, zie [ flarden ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toepassen.
+Voor extra informatie over het toepassen van flarden op de projecten van de Wolk, zie [ flarden ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in onze ontwikkelaarsdocumentatie toepassen.
 
 ### Een componentpatch voor Adobe Commerce op locatie en Magento Open Source toepassen {#commerce}
 

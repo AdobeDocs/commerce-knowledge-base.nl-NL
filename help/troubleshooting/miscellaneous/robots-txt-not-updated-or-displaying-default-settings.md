@@ -4,7 +4,7 @@ description: Het artikel biedt een oplossing voor wanneer u ` robots.txt ` corre
 exl-id: 629b1247-9282-49f9-ada3-a804ddbaa0f5
 feature: Configuration
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -42,8 +42,8 @@ Indexeren door zoekmachines is uitgeschakeld.
 
 ## Oplossing
 
-Indexeren door zoekmachines inschakelen. Zie [ indexeren door onderzoeksmotor ](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine) in onze ontwikkelaarsdocumentatie vormen.
+Indexeren door zoekmachines inschakelen. Zie [ indexeren door onderzoeksmotor ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine) in onze ontwikkelaarsdocumentatie vormen.
 
 ## Gerelateerde lezing
 
-* [ voeg plaatstoewijzing en onderzoekmachine robots ](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) in onze ontwikkelaarsdocumentatie toe.
+* [ voeg plaatstoewijzing en onderzoekmachine robots ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) in onze ontwikkelaarsdocumentatie toe.

@@ -3,7 +3,7 @@ title: De Adobe Commerce-omgeving herstellen op cloudinfrastructuur
 description: In dit artikel worden verschillende scenario's getoond voor het terugdraaien van een omgeving op Adobe Commerce op cloudinfrastructuur.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 598459365cad811966ed529356cb9ab876f49a38
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -55,13 +55,13 @@ Wanneer u dit vergelijkt met het importeren van een lokale [!UICONTROL Database 
 
 ## Scenario 2: Een momentopname herstellen
 
-Lees: [ herstel een momentopname op Adobe Commerce op wolkeninfrastructuur ](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot) in onze ontwikkelaarsdocumentatie.
+Lees: [ herstel een momentopname op Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot) in onze ontwikkelaarsdocumentatie.
 
 >[!NOTE]
 >
 >Het maken van een momentopname moet onze eerste stap zijn nadat u Adobe Commerce hebt benaderd via een account voor de cloud-infrastructuur en voordat u grote wijzigingen aanbrengt. Het is een goede praktijk en hoogst geadviseerd.
 
-Lees: [ creeer een momentopname ](https://devdocs.magento.com/cloud/project/project-webint-snap.html#create-snapshot) in onze ontwikkelaarsdocumentatie.
+Lees: [ creeer een momentopname ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot) in onze ontwikkelaarsdocumentatie.
 
 ## Scenario 3: Geen momentopname, bouwstijl stabiel (beschikbare verbinding SSH)
 

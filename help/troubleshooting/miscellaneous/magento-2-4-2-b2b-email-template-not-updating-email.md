@@ -4,7 +4,7 @@ description: In dit artikel wordt een bekende Adobe Commerce 2.4.2 B2B-uitgave b
 exl-id: 31b7086f-a941-4682-aa07-301ac31d543b
 feature: B2B, Communications
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -45,4 +45,4 @@ Voer handmatig de snijtaak of de consument uit om de nieuwe informatie te verspr
 
 ## Gerelateerde lezing
 
-* [ beheer berichtrijen ](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in onze ontwikkelaarsdocumentatie.
+* [ beheer berichtrijen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) in onze ontwikkelaarsdocumentatie.

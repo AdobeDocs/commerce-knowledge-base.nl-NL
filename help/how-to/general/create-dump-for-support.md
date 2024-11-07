@@ -2,7 +2,7 @@
 title: Hoe te om een "scrubbed"stortplaats te creëren wanneer gevraagd door steunagent
 description: Dit artikel biedt informatie over hoe u een 'scrubbed'-stortplaats (back-up) van uw database en code kunt maken vanuit de Adobe Commerce Admin wanneer u daarom wordt gevraagd om er een te leveren door een Adobe Commerce-ondersteuningsagent. Deze dump sluit uw mediabestanden uit om het proces te versnellen en een veel kleiner bestand te maken. Alle gevoelige gegevens worden gehashed wanneer het maken van de gegevensbestandsteun.
 exl-id: ad088bd2-3f92-416e-89f0-d037d53cd6a9
-source-git-commit: e07ade849a4105b5e499b5282d75cb1b5321b6ea
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Maak een &#39;scrubbed&#39;-dump van de beheerder:
 
 Vervolgens kunt u ondersteuning bieden voor de directe downloadkoppeling naar de dump-bestanden (uw winkeladres en de bestandsnaam zoals deze worden weergegeven).
 
-Als u kwesties hebt die tot dumps van Admin leiden, denk na gebruikend bevelen CLI zoals die in [ worden beschreven in werking stellen de steunnut ](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-spt-util.html) in onze ontwikkelaarsdocumentatie.
+Als u kwesties hebt die tot dumps van Admin leiden, denk na gebruikend bevelen CLI zoals die in [ worden beschreven in werking stellen de steunnut ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/run-support-utilities) in onze ontwikkelaarsdocumentatie.
 
 ## Gerelateerde lezing
 

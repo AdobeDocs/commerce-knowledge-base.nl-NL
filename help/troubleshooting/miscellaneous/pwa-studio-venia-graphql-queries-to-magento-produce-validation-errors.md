@@ -4,7 +4,7 @@ description: Dit artikel bevat aanbevelingen voor het oplossen van het probleem 
 exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
 feature: GraphQL
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -42,9 +42,9 @@ Dit zal een verenigbaarheidsrapport tonen. Als u incompatibiliteiten hebt, moet 
 Verwijs naar de volgende documentatie voor instructies op hoe te om te bevorderen:
 
 * Voor de verbeteringen van de PWA Studio, onderzoek naar &quot;Bevorderend van een vorige versie&quot;sectie van de [ versienota&#39;s van de PWA ](https://github.com/magento/pwa-studio/releases/) voor de versie die u moet bevorderen aan.
-* [ Verbetering Adobe Commerce op versie van de wolkeninfrastructuur ](https://devdocs.magento.com/cloud/project/project-upgrade.html) in onze ontwikkelaarsdocumentatie
-* [ Verbetering Adobe Commerce op-gebouw (geïnstalleerd gebruikend &quot;composer creeer-project&quot;of archief) ](https://devdocs.magento.com/guides/v2.3/comp-mgr/cli/cli-upgrade.html) in onze ontwikkelaarsdocumentatie
-* [ Verbetering Adobe Commerce op-gebouw (die door het klonen van Adobe Commerce repo wordt geïnstalleerd) ](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/dev_update-magento.html) in onze ontwikkelaarsdocumentatie
+* [ Verbetering Adobe Commerce op versie van de wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in onze ontwikkelaarsdocumentatie
+* [ Verbetering Adobe Commerce op-gebouw (geïnstalleerd gebruikend &quot;composer creeer-project&quot;of archief) ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) in onze ontwikkelaarsdocumentatie
+* [ Verbetering Adobe Commerce op-gebouw (die door het klonen van Adobe Commerce repo wordt geïnstalleerd) ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/developer/git-installs) in onze ontwikkelaarsdocumentatie
 
 ## Gerelateerde lezing
 

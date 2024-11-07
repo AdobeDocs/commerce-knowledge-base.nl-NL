@@ -4,7 +4,7 @@ description: Dit artikel biedt een patch, waarmee handelaren die Adobe Commerce 
 exl-id: 4350e83a-495b-41b4-a526-dae5923e9d41
 feature: Orders, Shipping/Delivery, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Commerce 2.4.5, dat in augustus 2022 zal worden uitgebracht, zal de verbet
 ## Reparatie
 
 De patch-id is AC-3022 en is beschikbaar in versie 1.1.16 van het Hulpprogramma voor kwaliteitspatches.
-Verwijs naar het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) > het artikel van het Gebruik ](https://devdocs.magento.com/quality-patches/usage.html) in onze ontwikkelaarsdocumentatie voor informatie over hoe te om QPT te gebruiken en flarden te installeren.
+Verwijs naar het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) > het artikel van het Gebruik ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) in onze ontwikkelaarsdocumentatie voor informatie over hoe te om QPT te gebruiken en flarden te installeren.
 
 De patch is van toepassing op de volgende Adobe Commerce-versies:
 
@@ -38,5 +38,5 @@ De patch is van toepassing op de volgende Adobe Commerce-versies:
 
 ## Gerelateerde lezing
 
-* [ Verschepende Dragers > DHL ](https://docs.magento.com/user-guide/shipping/dhl.html) in onze gebruikersgids
-* [ Methoden van de Levering ](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) in onze gebruikersgids
+* [ Verschepende Dragers > DHL ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) in onze gebruikersgids
+* [ Methoden van de Levering ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/delivery-methods) in onze gebruikersgids

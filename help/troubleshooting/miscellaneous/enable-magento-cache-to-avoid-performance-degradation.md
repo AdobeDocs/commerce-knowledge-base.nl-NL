@@ -4,7 +4,7 @@ description: In dit artikel wordt uitgelegd hoe u een probleem met een trage sit
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Een reden voor prestatievermindering kan zijn dat bepaalde Adobe Commerce-cachet
 
 ## Oplossing
 
-1. Controleer eerst de status van de Adobe Commerce cache om te zien of dit het probleem is. Voor dit, [ SSH aan uw milieu ](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) en stel het volgende bevel in werking:
+1. Controleer eerst de status van de Adobe Commerce cache om te zien of dit het probleem is. Voor dit, [ SSH aan uw milieu ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh) en stel het volgende bevel in werking:
 
    ```bash
    php bin/magento cache:status
@@ -47,8 +47,8 @@ Als er zorgen en/of vragen zijn of een bepaald Adobe Commerce geheim voorgeheuge
 
 Adobe Commerce cache-documentatie in onze ontwikkelaarsdocumentatie:
 
-* [ Adobe Commerce geheim voorgeheugenoverzicht ](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
-* [ beheer het geheime voorgeheugen ](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)
+* [ Adobe Commerce geheim voorgeheugenoverzicht ](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
+* [ beheer het geheime voorgeheugen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 Andere mogelijke redenen voor prestatieproblemen en oplossingen voor deze problemen:
 

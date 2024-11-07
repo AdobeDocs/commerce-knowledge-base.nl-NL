@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het probleem wanneer u de stat
 exl-id: 3cbe1e6c-fc73-4331-add7-1ebcb28a4580
 feature: Data Import/Export, Products
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -50,5 +50,5 @@ De naam van het statuskenmerk van het product is gewijzigd in het CSV-bestand. H
 
 ## Gerelateerde lezing
 
-* [ Werkend met Csv- dossiers ](https://docs.magento.com/user-guide/system/data-csv.html) in onze gebruikersgids.
-* [ Verwijzing van de Attributen van de Uitvoer van het Product ](https://docs.magento.com/user-guide/system/data-attributes-product.html) in onze gebruikersgids.
+* [ Werkend met Csv- dossiers ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv) in onze gebruikersgids.
+* [ Verwijzing van de Attributen van de Uitvoer van het Product ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product) in onze gebruikersgids.

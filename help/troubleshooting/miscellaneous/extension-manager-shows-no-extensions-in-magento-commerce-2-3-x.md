@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor ontbrekende extensies in de Ad
 exl-id: bed8506d-39b9-449a-891b-466d214a0fe8
 feature: Extensions
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Dit artikel biedt een oplossing voor ontbrekende extensies in de Admin Extension
 
 Wanneer u extensies aanschaft via de Commerce Marketplace, kunt u deze niet installeren met de Adobe Commerce-kernExtension Manager. Wanneer u de toegangstoetsen toevoegt en synchroniseert met de Marketplace, ziet de Extension Manager geen extensies.
 
-De **Oplossing** voor de kwestie moet de installatie van de bevellijnAdobe Commerce zoals aangetoond in [ Algemene installatie CLI ](https://devdocs.magento.com/extensions/install/) in onze ontwikkelaarsdocumentatie gebruiken.
+De **Oplossing** voor de kwestie moet de installatie van de bevellijnAdobe Commerce zoals aangetoond in [ Algemene installatie CLI ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) in onze ontwikkelaarsdocumentatie gebruiken.
 
 <u> Stappen om </u> te reproduceren:
 
@@ -44,4 +44,4 @@ De extensie wordt weergegeven in de sectie Extension Manager van Commerce Admin.
 
 ## Workaround
 
-Gebruik de installatie van Adobe Commerce van de bevellijn zoals aangetoond in [ Algemene installatie CLI ](https://devdocs.magento.com/extensions/install/) in onze ontwikkelaarsdocumentatie.
+Gebruik de installatie van Adobe Commerce van de bevellijn zoals aangetoond in [ Algemene installatie CLI ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) in onze ontwikkelaarsdocumentatie.

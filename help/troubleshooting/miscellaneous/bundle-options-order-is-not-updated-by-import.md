@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het probleem wanneer de opties
 exl-id: 7f7bf782-4b35-4067-aa94-417097079f1f
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -29,7 +29,7 @@ U hebt een geldig CSV-bestand met bundelproducten.
 
 <u> Stappen om </u> te reproduceren:
 
-1. Importeer het dossier gebruikend de [ functionaliteit van de Invoer ](https://docs.magento.com/m2/ee/user_guide/system/data-import.html).
+1. Importeer het dossier gebruikend de [ functionaliteit van de Invoer ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import).
 1. Open de productpagina van de bundel.
 
 <u> Verwachte resultaten </u>:
@@ -46,7 +46,7 @@ De positie van de opties is niet expliciet gedeclareerd.
 
 ## Oplossing
 
-1. Declareer expliciet een positie voor elke optie in de parameter `position` van de kolom `bundle_values` in het .csv-bestand. Voor gedetailleerde instructies, zie [ de Gegevens van het Product ](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html#method-2-edit-the-product-data) in onze gebruikersgids uitgeven.
+1. Declareer expliciet een positie voor elke optie in de parameter `position` van de kolom `bundle_values` in het .csv-bestand. Voor gedetailleerde instructies, zie [ de Gegevens van het Product ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products#method-2-edit-the-product-data) in onze gebruikersgids uitgeven.
 1. Herhaal de importbewerking.
 
-Voor algemene informatie bij de Invoer, zie het [ Invoerende Product van de Bundel ](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html) in onze gebruikersgids.
+Voor algemene informatie bij de Invoer, zie het [ Invoerende Product van de Bundel ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products) in onze gebruikersgids.

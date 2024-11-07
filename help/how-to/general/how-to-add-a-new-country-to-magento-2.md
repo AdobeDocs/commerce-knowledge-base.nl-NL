@@ -3,7 +3,7 @@ title: Een nieuw land toevoegen aan Adobe Commerce
 description: In dit artikel wordt uitgelegd hoe u een land toevoegt dat niet aanwezig is in Adobe Commerce en de Landbibliotheek van Zend. Hiervoor zijn code- en databasewijzigingen vereist die klantaanpassingen volgens de toepasselijke bepalingen van de overeenkomst vormen. De voorbeeldmaterialen die in dit artikel zijn opgenomen, worden zonder enige garantie geleverd. Noch Adoben, noch verbonden entiteiten zijn verplicht om deze materialen te onderhouden, te corrigeren, bij te werken, te wijzigen, te wijzigen of anderszins te ondersteunen. Hier zullen we de grondbeginselen beschrijven van wat er gedaan moet worden om dit te bereiken.
 exl-id: af499add-4966-4a3a-972a-62a34c169a1b
 feature: Build, Cache
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -22,10 +22,10 @@ U moet vertrouwd zijn met de ontwikkeling van de Adobe Commerce-module om een ni
 
 Raadpleeg de volgende onderwerpen in de documentatie voor ontwikkelaars voordat u een nieuwe module gaat maken:
 
-* [ PHP Gids van de Ontwikkelaar ](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
-* [ Overzicht van de Module ](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)
-* [ creeer een Nieuwe Module ](https://devdocs.magento.com/videos/fundamentals/create-a-new-module/)
-* [ de configuratiedossiers van de Module ](https://devdocs.magento.com/guides/v2.4/config-guide/config/config-files.html)
+* [ PHP Gids van de Ontwikkelaar ](https://developer.adobe.com/commerce/php/development/)
+* [ Overzicht van de Module ](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
+* [ creeer een Nieuwe Module ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/create-module)
+* [ de configuratiedossiers van de Module ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
 
 ## Vereiste informatie
 
@@ -35,7 +35,7 @@ Een nieuw land moet in heel Adobe Commerce een unieke naam, land-id, ISO2- en IS
 
 In dit voorbeeld gaan we een nieuwe module maken met de naam \&quot;Extracountries\&quot; met de volgende directorystructuur:
 
-(Om meer over de modulestructuur te weten te komen, zie [ Overzicht van de Module ](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html) in onze ontwikkelaarsdocumentatie).
+(Om meer over de modulestructuur te weten te komen, zie [ Overzicht van de Module ](https://developer.adobe.com/commerce/php/architecture/modules/overview/) in onze ontwikkelaarsdocumentatie).
 
 <pre><ExtraCountries>
  |
@@ -97,7 +97,7 @@ Er wordt een nieuwe moduleconfiguratie gedefinieerd in dit XML-bestand. De volge
 </config>
 ```
 
-Voor meer informatie over de dossiers van de moduleconfiguratie, zie [ Gids van de Ontwikkelaar PHP > de dossiers van Configuraties ](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html) in onze ontwikkelaarsdocumentatie bepalen.
+Voor meer informatie over de dossiers van de moduleconfiguratie, zie [ Gids van de Ontwikkelaar PHP > de dossiers van Configuraties ](https://developer.adobe.com/commerce/php/development/build/required-configuration-files/) in onze ontwikkelaarsdocumentatie bepalen.
 
 Deze wijzigingen zijn optioneel en hebben alleen invloed op het standaardlidmaatschap van het nieuwe land op de lijsten &quot;Allow countries&quot;, &quot;Zip/Postal Code is Optional for&quot; en &quot;European Union countries&quot;. Als dit dossier van de modulestructuur wordt overgeslagen, zal een nieuw land nog worden toegevoegd, maar het zal manueel moeten worden gevormd bij **Admin** > **Opslag** > *Montages* > **Configuratie** > **Algemene** > **de montagespagina van de Opties van het Land 11}.**
 
@@ -123,7 +123,7 @@ In ons voorbeeld moeten we een `_TranslatedListsPlugin_` registreren die de nieu
 
 In het dossier van de moduleregistratie moeten wij het gebiedsdeel voor de module &quot;van de Folder van Adobe Commerce&quot;specificeren ervoor zorgen dat de module &quot;Extra Landen&quot;na de module van de Folder zal worden geregistreerd en worden uitgevoerd.
 
-Zie [ het Leiden modulegebiedsdelen ](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies) in onze ontwikkelaarsdocumentatie voor meer informatie over modulegebiedsdelen.
+Zie [ het Leiden modulegebiedsdelen ](https://developer.adobe.com/commerce/php/architecture/modules/dependencies/#managing-module-dependencies) in onze ontwikkelaarsdocumentatie voor meer informatie over modulegebiedsdelen.
 
 `module.xml` voorbeeld
 
@@ -185,7 +185,7 @@ class TranslatedListsPlugin
 
 Deze gegevenspatch wordt uitgevoerd tijdens de installatie/upgrade van Adobe Commerce en voegt een nieuwe landrecord toe aan de database.
 
-Zie [ gegevens en schemapatches ontwikkelen ](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html) in onze ontwikkelaarsdocumentatie voor meer informatie over gegevenspatches.
+Zie [ gegevens en schemapatches ontwikkelen ](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/) in onze ontwikkelaarsdocumentatie voor meer informatie over gegevenspatches.
 
 In het onderstaande voorbeeld ziet u dat de `$data` -array van de methode `apply()` landinstellings-id-, ISO2- en ISO3-code voor het nieuwe land bevat en dat deze gegevens in de database worden ingevoegd.
 
@@ -266,7 +266,7 @@ class AddDataForAbstractCountry implements DataPatchInterface, PatchVersionInter
 
 ### ExtraCountries/registration.php
 
-Dit is een voorbeeld van het bestand registration.php. Om meer over moduleregistratie te weten te komen, zie [ Gids van de Ontwikkelaar PHP > registreer uw component ](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html) in onze ontwikkelaarsdocumentatie.
+Dit is een voorbeeld van het bestand registration.php. Om meer over moduleregistratie te weten te komen, zie [ Gids van de Ontwikkelaar PHP > registreer uw component ](https://developer.adobe.com/commerce/php/development/build/component-registration/) in onze ontwikkelaarsdocumentatie.
 
 ```php
 <?php
@@ -279,7 +279,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 Dit is een voorbeeld van het bestand composer.json.
 
-Om meer over composer.json te weten te komen, zie [ Gids van de Ontwikkelaar PHP > het composer.json- dossier ](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html) in onze ontwikkelaarsdocumentatie.
+Om meer over composer.json te weten te komen, zie [ Gids van de Ontwikkelaar PHP > het composer.json- dossier ](https://developer.adobe.com/commerce/php/development/build/composer-integration/) in onze ontwikkelaarsdocumentatie.
 
 ```json
 {
@@ -310,7 +310,7 @@ Om meer over composer.json te weten te komen, zie [ Gids van de Ontwikkelaar PHP
 
 ## Module-installatie
 
-Om te weten te komen hoe te om de module te installeren, zie {de plaatsen van de 0} Module ](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations) in onze ontwikkelaarsdocumentatie.[
+Om te weten te komen hoe te om de module te installeren, zie {de plaatsen van de 0} Module ](https://developer.adobe.com/commerce/php/architecture/modules/overview/#module-locations) in onze ontwikkelaarsdocumentatie.[
 
 Nadat de moduledirectory op de juiste locatie is geplaatst, voert u `bin/magento setup:upgrade` uit om de gegevenspatches toe te passen en de vertaalinsteekmodule te registreren.
 

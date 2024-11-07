@@ -4,7 +4,7 @@ description: BIJGEWERKT OP 2 april 2019
 exl-id: 9fe73788-5b67-445a-9b0d-86489125d271
 feature: Cache, Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 Nadat u het pakket hebt geïnstalleerd, configureert u Google reCAPTCHA (aanbevolen) of CAPTCHA zoals beschreven in de volgende documenten:
 
-* [ Google reCAPTCHA ](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) in onze gebruikersgids.
-* [ CAPTCHA ](https://docs.magento.com/user-guide/stores/security-captcha.html) in onze gebruikersgids.
+* [ Google reCAPTCHA ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha) in onze gebruikersgids.
+* [ CAPTCHA ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) in onze gebruikersgids.
 
 De nieuwe optie voor het uitcheckformulier is:
 

@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor fouten die kunnen optreden wanne
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### Oorzaak
 
-Een klasse van Adobe Commerce 1 codebase kon niet in Adobe Commerce 2 codebase tijdens de [ EAV migratiestap ](https://devdocs.magento.com/guides/v2.3/migration/migration-tool-internal-spec.html#eav) in onze ontwikkelaarsdocumentatie worden gevonden. In de meeste gevallen, behoort de ontbrekende klasse tot een [ uitbreiding ](https://glossary.magento.com/extension).
+Een klasse van Adobe Commerce 1 codebase kon niet in Adobe Commerce 2 codebase tijdens de [ EAV migratiestap ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) in onze ontwikkelaarsdocumentatie worden gevonden. In de meeste gevallen, behoort de ontbrekende klasse tot een [ uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#extension).
 
 ### Mogelijke oplossingen
 
@@ -125,7 +125,7 @@ De waarde `Target path` in een URL voor herschrijven moet worden opgegeven met e
 
 Schakel de optie `auto_resolve_urlrewrite_duplicates` in het `config.xml` -bestand in.
 
-Deze configuratie voegt een knoeiboel-koord aan de conflicterende verslagen van [ URL ](https://glossary.magento.com/url) toe herschrijft, en toont het resolutieresultaat in uw interface van de bevellijn.
+Deze configuratie voegt een knoeiboel-koord aan de conflicterende verslagen van URL toe herschrijft, en toont het resolutieresultaat in uw interface van de bevellijn.
 
 ## Entiteiten komen niet overeen {#mismatch-of-entities}
 
@@ -155,7 +155,7 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### Oorzaak
 
-Deze fout komt tijdens [ stijgende migratie ](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-delta.html) (in onze ontwikkelaarsdocumentatie) van veranderingen in gegevens voor. Dit betekent dat er geen Deltalog-tabellen (met voorvoegsel `m2_cl_*` ) zijn gevonden in de Adobe Commerce 1-database. Het hulpmiddel installeert deze lijsten tijdens [ gegevensmigratie ](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-data.html) (in onze ontwikkelaarsdocumentatie) evenals gegevensbestandtrekkers die veranderingen volgen en lijstlijsten vullen.
+Deze fout komt tijdens [ stijgende migratie ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/delta) (in onze ontwikkelaarsdocumentatie) van veranderingen in gegevens voor. Dit betekent dat er geen Deltalog-tabellen (met voorvoegsel `m2_cl_*` ) zijn gevonden in de Adobe Commerce 1-database. Het hulpmiddel installeert deze lijsten tijdens [ gegevensmigratie ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/data) (in onze ontwikkelaarsdocumentatie) evenals gegevensbestandtrekkers die veranderingen volgen en lijstlijsten vullen.
 
 Één reden voor de fout zou kunnen zijn dat u probeert om van a *exemplaar* van uw levende Adobe Commerce 1 opslag, niet van de levende opslag zelf te migreren. Wanneer u een kopie maakt van een live Adobe Commerce 1-winkel die nog nooit is gemigreerd, bevat de kopie niet de triggers en extra catalogustabellen die nodig zijn om een delta-migratie te voltooien, zodat de migratie mislukt. Het hulpmiddel van de Migratie van Gegevens maakt GEEN vergelijkingen tussen OB van AC1 en AC2 om de verschillen te migreren. In plaats daarvan gebruikt het gereedschap de triggers en de delta-tabellen die tijdens de eerste migratie zijn geïnstalleerd om volgende deltamigraties uit te voeren. In een dergelijk geval bevat uw exemplaar van de live Adobe Commerce 1 DB niet de triggers en overzichtstabellen die het hulpprogramma voor gegevensmigratie gebruikt om een migratie uit te voeren.
 

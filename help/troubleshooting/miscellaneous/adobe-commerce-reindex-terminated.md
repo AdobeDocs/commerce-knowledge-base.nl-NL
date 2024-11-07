@@ -4,7 +4,7 @@ description: '* Adobe Commerce op cloudinfrastructuur (alle versies)'
 exl-id: 36ed9c9f-8280-41db-9df3-fe842dade4b1
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -37,5 +37,5 @@ De meest algemene reden hiervoor is bijvoorbeeld een groot aantal producten, win
 
 In onze documentatie voor ontwikkelaars:
 
-* [ Pro architectuur > het milieu van de Integratie ](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#cloud-arch-int)
-* [ de architectuur van de Aanzet > het Opvoeren milieu ](https://devdocs.magento.com/cloud/architecture/starter-architecture.html#cloud-arch-stage)
+* [ Pro architectuur > het milieu van de Integratie ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [ de architectuur van de Aanzet > het Opvoeren milieu ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)

@@ -3,7 +3,7 @@ title: Kolomvertakkingen opnieuw rangschikken op Adobe Commerce
 description: In dit artikel worden de stappen beschreven die u kunt uitvoeren om vertakkingen in de cloud opnieuw te rangschikken op Adobe Commerce als deze niet volgens de juiste hiërarchie zijn ingedeeld. Als u de vertakkingen niet in correcte hiërarchie hebt georganiseerd, zult u niet aan de correcte oudertak kunnen samenvoegen - het zal naar de bestaande oudertak gaan.
 exl-id: 4fc0de96-da66-4634-a38a-6a1536855f8f
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Zo rangschikt u vertakkingen in de cloud:
 1. Voer de volgende opdracht uit voor de vertakkingen die moeten worden verplaatst:
    `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
-Opmerking: u kunt de bovenliggende vertakking opgeven wanneer u een nieuwe vertakking maakt. Voor stappen, verwijs naar [ het Beginnen van Begin creërend takken ](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted) in onze ontwikkelaarsdocumentatie.
+Opmerking: u kunt de bovenliggende vertakking opgeven wanneer u een nieuwe vertakking maakt. Voor stappen, verwijs naar [ het Beginnen van Begin creërend takken ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in onze ontwikkelaarsdocumentatie.
 
 U kunt een nieuwe omgevingsvertakking maken met de omgevingsopdracht `branch <environment-name> <parent-environment-ID>` magento-cloud.
 
@@ -42,4 +42,4 @@ Het kan enige extra tijd duren om een nieuwe omgevingsvertakking te maken en te 
 
 ## Gerelateerde lezing
 
-[ beheer takken met  [!DNL CLI] ](https://devdocs.magento.com/cloud/env/environments-start.html) in onze ontwikkelaarsdocumentatie.
+[ beheer takken met  [!DNL CLI] ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in onze ontwikkelaarsdocumentatie.

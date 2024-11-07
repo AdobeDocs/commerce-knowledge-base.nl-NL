@@ -4,7 +4,7 @@ description: 'Dit artikel bevat stappen voor het oplossen van problemen wanneer 
 exl-id: 707e20e0-faba-4bcd-884c-b54568787442
 feature: Cache, Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -29,7 +29,7 @@ U zult een beheerd alarm in New Relic ontvangen als u tot [ Beheerde alarm voor 
 **doe!**
 
 * Abort om het even welke plaatsing die tot dit alarm wordt gepland wordt ontruimd.
-* Zet uw site onmiddellijk in de onderhoudsmodus als uw site helemaal niet reageert of niet meer reageert. Voor stappen verwijzen naar [ Gids van de Installatie > laat of maakt onderhoudswijze ](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten) in onze ontwikkelaarsdocumentatie toe onbruikbaar. Zorg ervoor om uw IP aan de Vrijgestelde IP adreslijst toe te voegen om ervoor te zorgen dat u nog tot uw plaats voor het oplossen van problemen kunt toegang hebben. Voor stappen, verwijs naar [ handhaaf de lijst van vrijgestelde IP adressen ](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt).
+* Zet uw site onmiddellijk in de onderhoudsmodus als uw site helemaal niet reageert of niet meer reageert. Voor stappen verwijzen naar [ Gids van de Installatie > laat of maakt onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) in onze ontwikkelaarsdocumentatie toe onbruikbaar. Zorg ervoor om uw IP aan de Vrijgestelde IP adreslijst toe te voegen om ervoor te zorgen dat u nog tot uw plaats voor het oplossen van problemen kunt toegang hebben. Voor stappen, verwijs naar [ handhaaf de lijst van vrijgestelde IP adressen ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#instgde-cli-maint-exempt).
 * Beëindig alle scripts, zoals import die de oorzaak van de waarschuwing kunnen zijn als de prestaties van de site worden beïnvloed.
 
 **niet!**
@@ -56,7 +56,7 @@ Als u een Kritieke waakzame begin van Vragen DML bij stap ontvangt. Als u een DM
 1. Zoek uit of code optimaliseert, of operationele optimalisaties:
 1. Codeoptimalisaties: kijk hoe u query&#39;s kunt optimaliseren met bulkinvoegingen / updates, het indexgebruik kunt minimaliseren of code kunt vertragen.
 1. Operationele optimalisaties: Verplaats de hulpmiddelintensieve gegevenswijzigingen aan lagere verkeerstijden.
-1. Aanvullende optimalisaties: zorg dat u de nieuwste versie van ECE-Tools gebruikt. Voor stappen, verwijs naar [ Wolk voor Adobe Commerce > update knoop-hulpmiddelen versie ](https://devdocs.magento.com/cloud/project/ece-tools-update.html) in onze ontwikkelaarsdocumentatie.
+1. Aanvullende optimalisaties: zorg dat u de nieuwste versie van ECE-Tools gebruikt. Voor stappen, verwijs naar [ Wolk voor Adobe Commerce > update knoop-hulpmiddelen versie ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) in onze ontwikkelaarsdocumentatie.
 
 ## Verwante lezing
 

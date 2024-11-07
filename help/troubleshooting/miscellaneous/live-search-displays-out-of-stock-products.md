@@ -4,7 +4,7 @@ description: In dit artikel wordt informatie gegeven over het bekende probleem w
 exl-id: 2a351b83-407c-444a-a761-4932b5b88843
 feature: Admin Workspace, Categories, Orders, Products, Search
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -49,4 +49,4 @@ Op dit moment is er geen oplossing voor deze kwestie. Ons team van [!DNL Live Se
 
 ## Gerelateerde lezing
 
-[ installeer  [!DNL Live Search] ](https://docs.magento.com/user-guide/live-search/install.html) in onze gebruikersgids.
+[ installeer  [!DNL Live Search] ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install) in onze gebruikersgids.

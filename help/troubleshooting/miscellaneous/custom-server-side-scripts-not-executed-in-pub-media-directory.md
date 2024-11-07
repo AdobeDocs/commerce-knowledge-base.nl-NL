@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het geval aangepaste serverscr
 exl-id: fcad8a5d-47d6-4729-93a4-2410d7710d69
 feature: Media
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -35,4 +35,4 @@ Sla de serverscripts op in niet-schrijfbare mappen, zoals `./app/code/` of `./pu
 
 ## Gerelateerde documentatie
 
-* [ Wolk voor Adobe Commerce > de structuur van het Project > Schrijfbare folders ](https://devdocs.magento.com/guides/v2.3/cloud/project/project-start.html#write-dir) in onze ontwikkelaarsdocumentatie.
+* [ Wolk voor Adobe Commerce > de structuur van het Project > Schrijfbare folders ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories) in onze ontwikkelaarsdocumentatie.

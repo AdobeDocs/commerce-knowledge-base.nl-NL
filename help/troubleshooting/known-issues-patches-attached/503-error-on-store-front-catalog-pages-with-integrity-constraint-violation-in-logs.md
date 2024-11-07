@@ -4,7 +4,7 @@ description: Dit artikel bevat een patch voor het bekende Adobe Commerce-problee
 exl-id: ad363744-756a-48b9-ae11-58642e0ca6a4
 feature: Catalog Management, Logs
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit artikel biedt een patch als tijdelijke oplossing, maar het probleem is in Adobe Commerce permanent opgelost in de release van versie 2.3.3 van de cloudinfrastructuur en het wordt aanbevolen een upgrade uit te voeren naar versie 2.3.3. Volg de stappen in [ versie van Adobe Commerce van de Verbetering ](https://devdocs.magento.com/cloud/project/project-upgrade.html) in onze ontwikkelaarsdocumentatie.
+>Dit artikel biedt een patch als tijdelijke oplossing, maar het probleem is in Adobe Commerce permanent opgelost in de release van versie 2.3.3 van de cloudinfrastructuur en het wordt aanbevolen een upgrade uit te voeren naar versie 2.3.3. Volg de stappen in [ versie van Adobe Commerce van de Verbetering ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in onze ontwikkelaarsdocumentatie.
 
 Dit artikel biedt een patch voor de bekende Adobe Commerce in de cloud-infrastructuur 2.2.0-kwestie met betrekking tot de ontoegankelijke opslag van voorcataloguspagina&#39;s. Het foutbericht ziet er ongeveer als volgt uit: *schending integriteitsbeperking: 1062 Dubbele vermelding &#39;%entry%&#39; voor sleutel &#39;PRIMARY&#39;, query was: INSERT INTO \&quot;search\_tmp\_%number%*.
 
@@ -78,6 +78,6 @@ Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Ad
 
 * [ plaats van de dossiers van het Logboek voor Adobe Commerce op het planarchitectuur van de Aanzet van de wolkeninfrastructuur ](/help/how-to/general/log-locations-directories-for-starter-plan.md) in onze basis van de steunkennis.
 * [ plaats van de dossiers van het Logboek voor Adobe Commerce op de architectuur van het Pro plan van de wolkeninfrastructuur ](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) in onze basis van de steunkennis.
-* [ plaats van de dossiers van het Logboek voor Adobe Commerce ](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) in onze ontwikkelaarsdocumentatie.
+* [ plaats van de dossiers van het Logboek voor Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) in onze ontwikkelaarsdocumentatie.
 
 ## Bijgevoegde bestanden

@@ -4,9 +4,9 @@ description: Deze functie voor het snel oplossen van problemen voor Adobe Commer
 exl-id: c5c51b89-5a7d-49ba-a0ee-7abbaf78fdad
 feature: Support, Services
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ b. NO - Controleer DNS door in CLI/terminal te lopen: `dig [your website.com] + 
 
 +++**wat gebeurt wanneer u `dig` in werking stelt?**
 
-Wanneer u `dig` in werking stelde het een verslag terugkwam dat aan prod.magentocloud.map.fastly.net of één van de volgende IP adressen richt (zie [ DNS van de Update configuratie met productie plaatsend ](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns) in onze ontwikkelaarsdocumentatie):
+Wanneer u `dig` in werking stelde het een verslag terugkwam dat aan prod.magentocloud.map.fastly.net of één van de volgende IP adressen richt (zie [ DNS van de Update configuratie met productie plaatsend ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) in onze ontwikkelaarsdocumentatie):
 
 * 15.10.1.124
 * 151 101 65 124
@@ -56,7 +56,7 @@ Wanneer u `dig` in werking stelde het een verslag terugkwam dat aan prod.magento
 * 15.10.193.124
 
 a. JA - De kwestie heeft geen DNS betrekking. Ga aan [ Stap 5 ](#step-5) te werk.\
-b. NO - De kwestie heeft waarschijnlijk betrekking op DNS. De klant zou DNS configuratie ](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns "https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns") moeten controleren [ of hun DNS leverancier voor meer informatie contacteren.
+b. NO - De kwestie heeft waarschijnlijk betrekking op DNS. De klant zou DNS configuratie ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) moeten controleren [ of hun DNS leverancier voor meer informatie contacteren.
 
 +++
 
@@ -74,7 +74,7 @@ b. NO - Bezoek [ http://fastly-debug.com ](https://www.fastly-debug.com/) en dee
 +++**is het certificaat verlopen?**
 
 a. JA - U moet uw TLS-certificaat vernieuwen met de certificeringsinstantie (CA).\
-b. NEE - U mag helemaal geen certificaat hebben. Als u Adobe Commerce hebt, raden we u aan een TLS-certificaat aan te schaffen. Als u op Adobe Commerce op cloudinfrastructuur bent, kunt u beschikken over een door domein gevalideerd SSL/TLS-certificaat coderen om snel veilig HTTPS-verkeer te kunnen gebruiken. Zie [ voorziening SSL/TLS certificaten ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) in onze ontwikkelaarsdocumentatie.
+b. NEE - U mag helemaal geen certificaat hebben. Als u Adobe Commerce hebt, raden we u aan een TLS-certificaat aan te schaffen. Als u op Adobe Commerce op cloudinfrastructuur bent, kunt u beschikken over een door domein gevalideerd SSL/TLS-certificaat coderen om snel veilig HTTPS-verkeer te kunnen gebruiken. Zie [ voorziening SSL/TLS certificaten ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates) in onze ontwikkelaarsdocumentatie.
 
 +++
 

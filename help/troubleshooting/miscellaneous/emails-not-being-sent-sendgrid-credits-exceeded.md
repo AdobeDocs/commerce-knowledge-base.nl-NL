@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing als je e-mailberichten niet worden 
 exl-id: 43438890-665b-4408-8034-e61de8fbbd8b
 feature: Communications, Orders
 role: Developer
-source-git-commit: e04bb0b37e795cae3380e1110e6db95be12036b0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -40,4 +40,4 @@ Het aantal toegestane e-mailberichten dat kan worden verzonden, is beperkt.
 
 ## Gerelateerde lezing
 
-* [ SendGrid ](https://devdocs.magento.com/cloud/project/sendgrid.html) in onze ontwikkelaarsdocumentatie.
+* [ SendGrid ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) in onze ontwikkelaarsdocumentatie.

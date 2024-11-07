@@ -3,7 +3,7 @@ title: HTTP omleiden naar HTTPS voor alle pagina's op Adobe Commerce op cloudinf
 description: Activeer de functie **TLS*** van Fastly in Commerce Admin om de globale omleiding van HTTP naar HTTPS voor alle pagina's van uw Adobe Commerce in de opslag van de wolkeninfrastructuur toe te laten.
 exl-id: 71667f52-a99a-47a6-99d8-10532364870f
 feature: Cache, Cloud
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -29,7 +29,7 @@ In deze stap, bepalen wij veilige URLs voor de opslag. Als dat reeds wordt gedaa
 1. Plaats het **Gebruik Veilige URLs op Storefront** en het **Gebruik Veilige URLs op Admin** montages aan **ja**.    ![ magento-admin_base-urls-secure-settings.png ](assets/magento-admin_base-urls-secure-settings.png)
 1. Klik **sparen config** in de hoger-juiste hoek om veranderingen toe te passen.
 
-**Verwante documentatie in onze gebruikersgids:**   [ opslag URLs ](https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html).
+**Verwante documentatie in onze gebruikersgids:**   [ opslag URLs ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls).
 
 ### Stap 2: TLS forceren inschakelen {#step-2-enable-force-tls}
 

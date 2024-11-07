@@ -4,7 +4,7 @@ description: Dit artikel bevat een patch voor het probleem waarbij de CAPTCHA-fu
 exl-id: 46ab7f4d-ee0a-4cc1-96cc-6eb408319e9c
 feature: Checkout, Orders
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -19,13 +19,13 @@ Dit bekende probleem wordt vermeld in onze documentatie voor ontwikkelaars:
 
 <u> voor Adobe Commerce 2.3.6 </u>:
 
-* [ Adobe Commerce 2.3.6 de Nota&#39;s van de Versie: Bekende Kwesties ](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-6.html#known-issues)
-* [ Magento Open Source 2.3.6 de Nota&#39;s van de Versie: Bekende Kwesties ](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
+* [ Adobe Commerce 2.3.6 de Nota&#39;s van de Versie: Bekende Kwesties ](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/commerce-2-3-6.html)
+* [ Magento Open Source 2.3.6 de Nota&#39;s van de Versie: Bekende Kwesties ](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
 
 <u> voor Adobe Commerce 2.4.1 </u>:
 
-* [ Adobe Commerce 2.4.1 de Nota&#39;s van de Versie: Bekende Kwesties ](https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-1.html#known-issues)
-* [ Magento Open Source 2.4.1 de Nota&#39;s van de Versie: Bekende Kwesties ](https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html#known-issues)
+* [ Adobe Commerce 2.4.1 de Nota&#39;s van de Versie: Bekende Kwesties ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-1#known-issues)
+* [ Magento Open Source 2.4.1 de Nota&#39;s van de Versie: Bekende Kwesties ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/magento-open-source/2-4-1#known-issues)
 
 ## Betrokken producten en versies
 
@@ -83,4 +83,4 @@ Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to
 
 <u> het flardtje van de Git </u>
 
-Zie ontwikkelaarsdocumentatie [ Toepassend flarden: De flarden van de Douane ](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) voor flardinstructies van de it voor Adobe Commerce/Magento Open Source.
+Zie ontwikkelaarsdocumentatie [ Toepassend flarden: De flarden van de Douane ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) voor flardinstructies van de it voor Adobe Commerce/Magento Open Source.

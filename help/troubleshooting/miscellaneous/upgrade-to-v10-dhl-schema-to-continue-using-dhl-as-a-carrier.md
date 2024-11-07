@@ -4,7 +4,7 @@ description: Dit artikel verstrekt een oplossing om handelaars toe te staan om D
 exl-id: eed83713-2d6a-4360-bfa1-bebd4d604f2f
 feature: Orders, Shipping/Delivery, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -36,7 +36,7 @@ De patch-id is AC-3023 en is beschikbaar in [!DNL Quality Patches Tool] versie 1
 Raadpleeg de volgende koppelingen voor het gebruik van [!DNL Quality Patches Tool] en het installeren van patches, afhankelijk van uw implementatiemethoden:
 
 * Adobe Commerce op-gebouw en Magento Open Source: [ Hulpmiddelen van de Patches van de Kwaliteit > Gebruik ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
-* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://devdocs.magento.com/cloud/project/project-patch.html) in onze ontwikkelaarsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in onze ontwikkelaarsdocumentatie toe.
 
 **het flard is toepasselijk voor de volgende versies van Adobe Commerce (alle plaatsingsmethodes):**
 

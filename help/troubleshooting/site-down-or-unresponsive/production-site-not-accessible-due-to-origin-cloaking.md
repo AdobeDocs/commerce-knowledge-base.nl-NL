@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het geval dat uw Adobe Commerc
 exl-id: 4412d744-3066-4f78-bc45-8149614ce455
 feature: Products
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Oorspronkelijke camouflage is een beveiligingsfunctie waarmee Adobe Commerce elk
 ## Oplossing
 
 * Schakel over naar https://mydomain.com/ als uw cloudsite actief is.
-* Als u een actieve plaats (niet wolk) hebt, gebruikend het https://mydomain.com/ domein, opstelling een subdomein `mcprod.mydomain.com` en werk uw **Basis URL** aan *https://mcprod.mydomain.com* in plaats daarvan bij, dan [ richt DNS aan Fastly ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
+* Als u een actieve plaats (niet wolk) hebt, gebruikend het https://mydomain.com/ domein, opstelling een subdomein `mcprod.mydomain.com` en werk uw **Basis URL** aan *https://mcprod.mydomain.com* in plaats daarvan bij, dan [ richt DNS aan Fastly ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings).
 
 ## Gerelateerde lezing
 

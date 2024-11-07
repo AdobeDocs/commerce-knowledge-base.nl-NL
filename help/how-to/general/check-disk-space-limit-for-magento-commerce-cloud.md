@@ -3,7 +3,7 @@ title: Limiet schijfruimte controleren voor Adobe Commerce op cloudinfrastructuu
 description: 'Om te controleren hoeveel ruimte u voor elke Adobe Commerce hebt op de omgeving van de cloudinfrastructuur:'
 exl-id: 0dd613e4-161f-403e-95a1-d228303693d3
 feature: Cloud
-source-git-commit: fe258ac6eaa8e0825309cfa1ee5e101a9cbacaa3
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -21,4 +21,4 @@ Om te controleren hoeveel ruimte u voor elke Adobe Commerce hebt op de omgeving 
 
 ## Gerelateerde lezing
 
-[ beheer schijfruimte ](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in onze ontwikkelaarsdocumentatie.
+[ beheer schijfruimte ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) in onze ontwikkelaarsdocumentatie.

@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het probleem waarbij Adobe sto
 exl-id: 84488d87-095f-4739-858f-19a52d6e5822
 feature: Categories, Orders
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -50,4 +50,4 @@ Schrap geüploade beelden van Adobe Stock van de `pub/media` en `pub/media/catal
 
 ## Gerelateerde lezing
 
-* [ Opslag van Media ](https://docs.magento.com/user-guide/v2.3/cms/media-storage.html) in onze gebruikersgids.
+* [ Opslag van Media ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage) in onze gebruikersgids.

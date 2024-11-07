@@ -4,7 +4,7 @@ description: Dit artikel bevat aanbevelingen voor het verbeteren van de prestati
 exl-id: 144df36b-6305-4e57-b813-46bbb0ddedda
 feature: Cache, Categories, Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Als de indexpagina een lage aanraaksnelheid heeft, kunt u deze corrigeren door d
 
 De algemene aanraaksnelheid in cache controleren:
 
-1. [ krijg de Snelle geloofsbrieven ](http://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#cloud-fastly-creds) voor uw Adobe Commerce op het milieu van de wolkeninfrastructuur.
+1. [ krijg de Snelle geloofsbrieven ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration) voor uw Adobe Commerce op het milieu van de wolkeninfrastructuur.
 1. Voer de volgende Linux/macOS-opdracht cURL uit om de snelheden voor uw site in de afgelopen 30 minuten te controleren, waarbij u de waarden voor uw snelste referenties vervangt:
 
    `curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp`
@@ -82,8 +82,8 @@ Een aanraaksnelheid lager dan 0,85 of 85% geeft mogelijk een probleem met de sit
 
 1. Bepaal aan de hand van de statistieken van de aanraaksnelheid per uur en per dag wanneer de aanraaksnelheid begon te dalen. Als het raakpercentage plotseling is gedaald op het moment dat u een wijziging in uw site hebt geïmplementeerd, kunt u de wijziging desgewenst terugdraaien totdat de site is geladen.
 1. Controleer de configuratie in Commerce Admin, onder **Slaat** > **Configuratie** > Geavanceerd > **Systeem** > **Volledige het Geheime voorgeheugen van de Pagina** op. Zorg ervoor dat **TTL voor openbare inhoud** waarde niet te laag wordt geplaatst.
-1. Zorg ervoor u [ hebt geupload de fragmenten VCL ](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
-1. Als u de fragmenten van douaneVCL gebruikt, zuivert hen voor correct gebruik van de &quot;pas&quot;of &quot;pijp&quot;acties: zij zouden zorgvuldig moeten worden gebruikt en op het minst met een voorwaarde van één of andere soort worden gebruikt. Voor meer uiteinden, zie [ de fragmenten van VCL van de Douane de Snelle VCL ](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html) in onze ontwikkelaarsdocumentatie.
+1. Zorg ervoor u [ hebt geupload de fragmenten VCL ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets).
+1. Als u de fragmenten van douaneVCL gebruikt, zuivert hen voor correct gebruik van de &quot;pas&quot;of &quot;pijp&quot;acties: zij zouden zorgvuldig moeten worden gebruikt en op het minst met een voorwaarde van één of andere soort worden gebruikt. Voor meer uiteinden, zie [ de fragmenten van VCL van de Douane de Snelle VCL ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) in onze ontwikkelaarsdocumentatie.
 
 ### Stap 3: Identificeer de websites die de hoge serverlading veroorzaken
 

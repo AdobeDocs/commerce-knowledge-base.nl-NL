@@ -4,7 +4,7 @@ description: In dit artikel wordt gesproken over een aantal veelvoorkomende MySQ
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -80,5 +80,5 @@ Dit zal helpen om te identificeren als de server MySQL levend is en dat er geen 
 
 * [ MySQL toont Syntaxis van Processlist ](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) in dev.mysql.com.
 * [ Syntaxis van de Kill MySQL ](https://dev.mysql.com/doc/refman/8.0/en/kill.html) in dev.mysql.com.
-* [ Veiligheid, Prestaties, en de Behandeling van Gegevens ](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html) in onze ontwikkelaarsdocumentatie.
-* [ Help MySQL ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html) in onze ontwikkelaarsdocumentatie.
+* [ Veiligheid, Prestaties, en de Behandeling van Gegevens ](https://developer.adobe.com/commerce/php/best-practices/extensions/security/) in onze ontwikkelaarsdocumentatie.
+* [ Help MySQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql) in onze ontwikkelaarsdocumentatie.

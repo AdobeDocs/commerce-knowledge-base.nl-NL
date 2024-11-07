@@ -4,7 +4,7 @@ description: "BIJGEWERKT: 29 februari 2019"
 exl-id: aab77407-94e5-42de-92f4-2f0c19e24fa4
 feature: Deploy, Extensions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -54,7 +54,7 @@ De plaatsing zou met de volgende foutenmeldingen kunnen ontbreken:
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
 
-Als u Adobe Commerce op de oplossing van de wolkeninfrastructuur gebruikt, zult u dit foutenbericht in [ zien opstellen logboek ](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html#log-deploy-log). Voor Adobe Commerce op-gebouw, zult u de fout in de bevellijn zien.
+Als u Adobe Commerce op de oplossing van de wolkeninfrastructuur gebruikt, zult u dit foutenbericht in [ zien opstellen logboek ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations). Voor Adobe Commerce op-gebouw, zult u de fout in de bevellijn zien.
 
 ## Oorzaak
 
@@ -70,4 +70,4 @@ Voer hiertoe de volgende stappen uit:
    * als de Fastly-module is opgenomen in het magento-cloud-metapakket:    <pre>composer update magento/magento-cloud-metapack</pre>
    * als de Fastly-module afzonderlijk is geïnstalleerd (bijvoorbeeld als u Adobe Commerce op locatie gebruikt, niet de cloud) <pre>composer-update snel/magento2</pre>
 1. Leg de wijzigingen vast en duw deze op en activeer het implementatieproces als dit niet automatisch gebeurt.
-1. In Admin, [ uploadt nieuwe VCL aan Fastly ](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
+1. In Admin, [ uploadt nieuwe VCL aan Fastly ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets).

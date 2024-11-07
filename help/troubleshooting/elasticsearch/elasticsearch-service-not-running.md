@@ -2,7 +2,7 @@
 title: Elasticsearch-service wordt niet uitgevoerd
 description: Dit artikel biedt oplossingen voor fouten die u kunt ervaren wanneer de service Elasticsearch (ES) niet wordt uitgevoerd (meestal als gevolg van vastlopen). Symptomen kunnen fouten bevatten bij het uitvoeren van gezondheidscontroles met krullen, opnieuw indexeren met behulp van de opdrachtregel, Uitzondering en PHP-fouten en fouten op productpagina's. De tabel bevat fouten en koppelingen naar bronnen die moeten worden opgelost. Eén symptoom kan verschillende oorzaken hebben.
 exl-id: 2c2230de-cb30-4a03-8c3e-d9f44783dbae
-source-git-commit: 3ff881f1c799201ed25ba9737864b1226d283c22
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Dit artikel biedt oplossingen voor fouten die u kunt ervaren wanneer de service 
 
    * v2.2.3+ ondersteunt ES 5.x
    * v2.2.8+ en v2.3.1+ ondersteunen ES 6.x
-   * ES v2.x en v5.x worden niet geadviseerd wegens [ Eind van Leven ](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [ de Elasticsearch veranderen php Cliënt ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
+   * ES v2.x en v5.x worden niet geadviseerd wegens [ Eind van Leven ](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [ de Elasticsearch veranderen php Cliënt ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 
 * Magento Open Source v2.3.0+ ondersteunt ES 5.x en 6.x (maar 6.x wordt aanbevolen).
 
@@ -59,8 +59,8 @@ Elasticsuite-indices worden niet verwijderd.  Zie <a href="https://experiencelea
 <li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">8 tips voor het oplossen van problemen met Linux- en Unix-systemen op de vaste schijf, zoals de schijf vol of kan niet naar de schijf schrijven</a></li>
 <li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfout: df zegt dat de schijf vol is, maar niet</a></li>
 <li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com: Waar is de schijfruimte gebleven voor Linux?</a></li>
-<li>Logbestanden worden niet regelmatig genoeg gearchiveerd. Zie <a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive"> het Archief van het Logboek </a> in onze ontwikkelaardocumentatie vormen.</li>
-<li>Bestandssysteemmappen zijn niet geoptimaliseerd. Zie <a href="https://docs.magento.com/m2/ee/user_guide/system/file-optimization.html"> Optimalisering van het Dossier </a> in onze ontwikkelaarsdocumentatie.</li>
+<li>Logbestanden worden niet regelmatig genoeg gearchiveerd. Zie <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-archive"> het Archief van het Logboek </a> in onze ontwikkelaardocumentatie vormen.</li>
+<li>Bestandssysteemmappen zijn niet geoptimaliseerd. Zie <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/developer-tools#resource-file-optimization"> Optimalisering van het Dossier </a> in onze ontwikkelaarsdocumentatie.</li>
 <li>Als de oplossingen in de bovenstaande documentatie het probleem niet oplossen, kunt u contact opnemen met het accountteam van de Adobe om extra opslagruimte aan te vragen.</li>
 </ul>
 </li>

@@ -3,7 +3,7 @@ title: De Productie van gegevens en dossiers van de synchronisatie aan het Stagi
 description: In dit artikel wordt uitgelegd hoe u uw productieomgeving kunt synchroniseren tot Staging on Adobe Commerce op cloudinfrastructuur. Dit is niet mogelijk.
 exl-id: e3d001d1-1b2a-41b5-9b4a-00e53dc9d001
 feature: Integration, Build
-source-git-commit: ef294ddc9c4a12b06ce7738cb4702253dd892f3b
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -20,7 +20,7 @@ In dit artikel wordt uitgelegd hoe u uw productieomgeving kunt synchroniseren na
 
 ## Gegevens synchroniseren van de ene omgeving naar de andere
 
-Als u de gegevens wilt synchroniseren, moet u de database handmatig uit de bronomgeving dumpen. Om gegevens naar een ander milieu over te brengen, moet u de bronstortplaats aan het doelmilieu dan uploaden en het invoeren. Voor meer informatie, zie [ de Code van Adobe Commerce van de Invoer in een Project van de Wolk > het gegevensbestand van Adobe Commerce van de Invoer ](https://devdocs.magento.com/cloud/setup/first-time-setup-import-import.html) in onze ontwikkelaarsdocumentatie.
+Als u de gegevens wilt synchroniseren, moet u de database handmatig uit de bronomgeving dumpen. Om gegevens naar een ander milieu over te brengen, moet u de bronstortplaats aan het doelmilieu dan uploaden en het invoeren. Voor meer informatie, zie [ de Code van Adobe Commerce van de Invoer in een Project van de Wolk > het gegevensbestand van Adobe Commerce van de Invoer ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) in onze ontwikkelaarsdocumentatie.
 
 Voor Adobe Commerce op cloudinfrastructuur Pro kunt u ook synchroniseren van Staging en Productie naar uw integratiehoofdvertakking. Deze synchronisatie trekt en duwt slechts code, niet gegevens. Om gegevens te synchroniseren, zult u de gegevensbestandgegevens moeten dumpen en het aan het gegevensbestand van een andere milieu duwen.
 
@@ -30,7 +30,7 @@ Voor Adobe Commerce op cloudinfrastructuur Pro kunt u ook synchroniseren van Sta
 
 ## Bestanden synchroniseren van de ene omgeving naar de andere
 
-Gebruik de opdracht `rsync` om bestanden van de ene omgeving naar de andere te synchroniseren. Voor meer informatie, zie [ code opstellen en statische dossiers en gegevens migreren > dossiers migreren gebruikend synchronisatie ](https://devdocs.magento.com/cloud/live/stage-prod-migrate.html#migrate-files-using-rsync) in onze ontwikkelaarsdocumentatie.
+Gebruik de opdracht `rsync` om bestanden van de ene omgeving naar de andere te synchroniseren. Voor meer informatie, zie [ code opstellen en statische dossiers en gegevens migreren > dossiers migreren gebruikend synchronisatie ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production#migrate-files-using-rsync) in onze ontwikkelaarsdocumentatie.
 
 >[!NOTE]
 >

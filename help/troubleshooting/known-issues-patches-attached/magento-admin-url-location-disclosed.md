@@ -4,9 +4,9 @@ description: Dit artikel bevat een patch voor het beveiligingsprobleem van Adobe
 exl-id: fe147ad5-6019-46c1-b48c-6b957b6e1582
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -48,4 +48,4 @@ De Adobe adviseert ook sterk dat de handelaren hulpmiddelen opstellen om hun adm
 * [ 5 Onmiddellijke Acties aan Protect tegen de Aanvallen van de Kracht ](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
 * [ Protect Uw Wachtwoord van de Installatie van het Magento Bezig Nieuwe Update ](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [ Beste praktijken van de Veiligheid ](https://magento.com/security/best-practices/security-best-practices)
-* Toevoegend en Vormend Two-Factor Authentificatie in Adobe Commerce voor [ 2.3.x ](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) en [ 2.4.x ](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)
+* Toevoegend en Vormend Two-Factor Authentificatie in Adobe Commerce voor [ 2.4.x ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)

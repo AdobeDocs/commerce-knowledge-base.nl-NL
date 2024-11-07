@@ -3,7 +3,7 @@ title: De incrementele id wijzigen voor een DB-entiteit (bestelling, factuur, cr
 description: In dit artikel wordt beschreven hoe u de increment-id voor een Adobe Commerce-database-entiteit (order, factuur, creditnota, enz.) wijzigt in een bepaalde Adobe Commerce-winkel met behulp van de SQL-instructie 'ALTER TABLE'.
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -18,7 +18,7 @@ In dit artikel wordt besproken hoe u de verhogings-id voor een Adobe Commerce-da
 
 * Adobe Commerce op locatie: 2.x.x
 * Adobe Commerce op cloud-infrastructuur: 2.x.x
-* MySQL: om het even welke [ gesteunde versie ](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
+* MySQL: om het even welke [ gesteunde versie ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
 
 ## Wanneer moet u de increment-id (gevallen) wijzigen
 
@@ -34,7 +34,7 @@ In de volgende gevallen moet u mogelijk de increment-id wijzigen voor nieuwe DB-
 ## Vereiste stappen
 
 1. Zoek opslagruimten en entiteiten waarvoor de nieuwe verhogings-id moet worden gewijzigd.
-1. [ verbind ](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) met uw OB MySQL. Voor Adobe Commerce op wolkeninfrastructuur, eerst, moet u [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [ verbind ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) met uw OB MySQL. Voor Adobe Commerce op wolkeninfrastructuur, eerst, moet u [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Controleer de huidige auto\_increment waarde voor de lijst van de entiteitopeenvolging gebruikend de volgende vraag:
 
 ```sql
@@ -53,7 +53,7 @@ Als de waarde van de `auto_increment` kolom *1234* is, zal de volgende orde die 
 
 ### Gerelateerde documentatie
 
-* [ Opstelling een verre MySQL gegevensbestandverbinding ](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) in onze ontwikkelaarsdocumentatie.
+* [ Opstelling een verre MySQL gegevensbestandverbinding ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) in onze ontwikkelaarsdocumentatie.
 
 ## Entiteit bijwerken om increment-id te wijzigen
 

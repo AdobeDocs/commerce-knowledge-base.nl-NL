@@ -4,7 +4,7 @@ description: 'Dit artikel biedt een oplossing voor het probleem met de Adobe Com
 exl-id: 7f58591a-5581-46cd-984d-09ac2c0f3903
 feature: Deploy, Routes, Staging
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Om de geblokkeerde plaatsing op te lossen, werk het `routes.yaml` dossier bij om
 
 1. С en duw op uw wijzigingen om uw project opnieuw te implementeren.
 
-Voor gedetailleerde instructies om de routeconfiguratie bij te werken, zie [ Wolk voor Adobe Commerce > routes ](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_routes.html) in onze ontwikkelaarsdocumentatie vormen.
+Voor gedetailleerde instructies om de routeconfiguratie bij te werken, zie [ Wolk voor Adobe Commerce > routes ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml) in onze ontwikkelaarsdocumentatie vormen.
 
 >[!NOTE]
 >

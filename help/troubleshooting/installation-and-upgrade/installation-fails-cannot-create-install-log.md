@@ -4,7 +4,7 @@ description: Dit artikel verstrekt een moeilijke oplossing voor een ontbroken in
 exl-id: ff614018-8e49-4170-a806-8ebdc91ae8a9
 feature: Install, Logs, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Wijzig de waarde van `open_basedir` en start de webserver opnieuw om het problee
 
 Als u niet zeker bent hoe te om deze waarde te veranderen, gebruik de volgende stappen:
 
-1. Als u dit nog niet hebt gedaan, creeer [ phpinfo.php ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo).
+1. Als u dit nog niet hebt gedaan, creeer [ phpinfo.php ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software).
 1. Voer de volgende URL in het adres- of locatieveld van uw browser in: `https://<your web server IP or hostname>/<path to docroot>/phpinfo.php`
 1. Zoek de locatie van `php.ini` .     `php.ini` wordt typisch gespecificeerd als **Geladen Dossier van de Configuratie** in de getoonde resultaten.
 1. Open `php.ini` als gebruiker met rootrechten in een teksteditor.

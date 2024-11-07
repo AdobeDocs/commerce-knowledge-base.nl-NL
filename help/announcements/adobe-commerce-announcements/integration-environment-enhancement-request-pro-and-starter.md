@@ -4,7 +4,7 @@ description: Als u een Adobe Commerce bent op het gebied van cloudinfrastructuur
 exl-id: c49b049b-efb8-412f-b27d-a89f8a758d85
 feature: Integration
 role: Admin
-source-git-commit: fb26b71316e04de31fa6a895b87230bed5c1ca6a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Als u een Adobe Commerce bent op het gebied van cloudinfrastructuur Pro en momen
 1. De handelaar moet [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen die om een Verbetering verzoekt aan Verbeterde Milieu&#39;s van de Integratie, gebruikend de contactreden &quot;*verzoek een verandering van de wolkenconfiguratie*&quot;.
 1. Het team van de Techniek van de Klant van de Adobe bevestigt het aantal milieu&#39;s van de Integratie en begint de verandering.
 1. De handelaar zal in het kaartje op de hoogte worden gebracht wanneer de verbetering volledig is.
-1. De handelaar herstelt de Milieu&#39;s van de Integratie. Volg de stappen in [ een tak ](https://devdocs.magento.com/cloud/env/environments-start.html#merge) in onze ontwikkelaarsdocumentatie samenvoegen. *Nota*: De plaatsing gebeurt automatisch wanneer u in werking stelt: <pre>oorsprong van git-push <branch-name></pre>
+1. De handelaar herstelt de Milieu&#39;s van de Integratie. Volg de stappen in [ een tak ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) in onze ontwikkelaarsdocumentatie samenvoegen. *Nota*: De plaatsing gebeurt automatisch wanneer u in werking stelt: <pre>oorsprong van git-push <branch-name></pre>
 
 De verhoogde prestaties wijzen op een succesvolle verbetering aan Verbeterde Milieu van de Integratie.
 
@@ -43,7 +43,7 @@ De verhoogde prestaties wijzen op een succesvolle verbetering aan Verbeterde Mil
 1. De handelaar moet [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen die om een Verbetering aan Verbeterde Milieu&#39;s van de Integratie verzoekt, gebruikend de contactreden *&quot;verzoek een verandering van de wolkenconfiguratie&quot;* - **uw het Opvoeren milieu is een genoemd Milieu van de Integratie**.
 1. Het team van de Techniek van de Klant van de Adobe bevestigt het aantal milieu&#39;s van de Integratie en begint de verandering.
 1. De handelaar zal in het kaartje op de hoogte worden gebracht wanneer de verbetering volledig is.
-1. De handelaar herstelt de Milieu&#39;s van de Integratie. Volg de stappen in [ een tak ](https://devdocs.magento.com/cloud/env/environments-start.html#merge) in onze ontwikkelaarsdocumentatie samenvoegen. *Nota*: De plaatsing gebeurt automatisch wanneer u in werking stelt: <pre>oorsprong van git-push <branch-name></pre>
+1. De handelaar herstelt de Milieu&#39;s van de Integratie. Volg de stappen in [ een tak ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) in onze ontwikkelaarsdocumentatie samenvoegen. *Nota*: De plaatsing gebeurt automatisch wanneer u in werking stelt: <pre>oorsprong van git-push <branch-name></pre>
 
 De verhoogde prestaties wijzen op een succesvolle verbetering aan Verbeterde Milieu van de Integratie.
 

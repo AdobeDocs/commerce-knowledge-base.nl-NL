@@ -2,7 +2,7 @@
 title: Toegang tot New Relic-services
 description: 'In dit artikel wordt uitgelegd hoe klanten met voldoende licentie/abonnementsmachtiging toegang hebben tot bepaalde New Relic-services:'
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
-source-git-commit: e07ade849a4105b5e499b5282d75cb1b5321b6ea
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -28,8 +28,8 @@ Als sommige klanten e-mail ontvingen die een activeringsverbinding van New Relic
 
 **Adobe Commerce op de klanten van het de planarchitectuur van de infrastructuur van de wolk van de Aanzet die New Relic willen gebruiken:**
 
-Klanten met starterarchitectuur worden niet voorzien van de New Relic Infrastructure-service als onderdeel van hun abonnement. Nochtans, kunnen zij de Controle van de Prestaties van de Toepassing van New Relic (APM) gebruiken als zij een vergunning door de stappen [ verbinden met New Relic ](https://devdocs.magento.com/cloud/project/new-relic.html#connect-to-new-relic) in onze ontwikkelaarsdocumentatie te volgen toevoegen.
+Klanten met starterarchitectuur worden niet voorzien van de New Relic Infrastructure-service als onderdeel van hun abonnement. Nochtans, kunnen zij de Controle van de Prestaties van de Toepassing van New Relic (APM) gebruiken als zij een vergunning door de stappen [ verbinden met New Relic ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie te volgen toevoegen.
 
 ## Verwante lezing
 
-Om over de diensten van New Relic te leren, zie [ Prestaties ](https://devdocs.magento.com/cloud/project/new-relic.html#investigate-performance) in onze ontwikkelaarsdocumentatie onderzoeken. U kunt [ ook herzien problemen oplossen prestaties gebruikend New Relic op Adobe Commerce op wolkeninfrastructuur ](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) in onze basis van steunkennis.
+Om over de diensten van New Relic te leren, zie [ Prestaties ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie onderzoeken. U kunt [ ook herzien problemen oplossen prestaties gebruikend New Relic op Adobe Commerce op wolkeninfrastructuur ](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) in onze basis van steunkennis.

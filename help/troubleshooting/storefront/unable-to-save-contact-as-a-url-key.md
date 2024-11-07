@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het probleem als u *contact* n
 exl-id: eb340813-aba5-43a4-af5d-8fb64c93e021
 feature: CMS, Marketing Tools, Storefront
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Kan *contact* niet opslaan als sleutel URL
 
-Dit artikel verstrekt een tijdelijke oplossing voor de kwestie wanneer u *contact* niet als sleutel URL (b.v., &quot;/contact&quot;) voor producten of CMS pagina&#39;s kunt bewaren.
+Dit artikel verstrekt een tijdelijke oplossing voor de kwestie wanneer u *contact* niet als sleutel URL (b.v., &quot;/contact&quot;) voor producten of de pagina&#39;s van CMS kunt bewaren.
 
 ## Betrokken producten en versies
 
@@ -21,11 +21,11 @@ Adobe Commerce (alle implementatiemethoden) 2.4.x
 
 ## Probleem
 
-U kunt geen product of een pagina opslaan CMS gebruikend de termijn *contact* als sleutel URL. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
+U kunt geen product of een pagina van CMS opslaan gebruikend de termijn *contact* als sleutel URL. Wanneer u de URL-sleutel probeert op te slaan, ontvangt u een fout die aangeeft dat de URL-sleutel een dubbele URL is.
 
 <u> Stappen om </u> te reproduceren:
 
-Creeer een CMS pagina met *contact* als sleutel URL.
+Creeer een pagina van CMS met *contact* als sleutel URL.
 
 <u> Verwacht resultaat </u>:
 
@@ -63,5 +63,5 @@ Voer de volgende stappen uit:
 
 ## Gerelateerde lezing
 
-* [ URL herschrijft ](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in onze gebruikersgids.
-* [ SEO Beste praktijken ](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in onze gebruikersgids.
+* [ URL herschrijft ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) in onze gebruikersgids.
+* [ SEO Beste praktijken ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) in onze gebruikersgids.

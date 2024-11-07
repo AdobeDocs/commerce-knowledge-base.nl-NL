@@ -4,7 +4,7 @@ description: Als u een Adobe Commerce bent voor de klant van de cloudinfrastruct
 exl-id: 4d08eaad-a3ce-4f6c-9c32-58e44e1d6534
 feature: Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 # Beheerde waarschuwingen voor Adobe Commerce
 
 
-We hebben belangrijke dashboards en waarschuwingen ingesteld om u te helpen begrijpen wanneer uw site kritieke opslag- en Apdex-niveaus bereikt (tevredenheid van gebruikers over toepassingen en responstijd van services). Dit kan u helpen actie te ondernemen voordat u langzame reactietijden of een stroomonderbreking opmerkt. U kunt de waarschuwingen met de onderstaande artikelen oplossen. Voordat u de waarschuwingen kunt gebruiken, moet u eerst meldingskanalen instellen. Gelieve te verwijzen naar [ New Relic vormt de Kanalen van het Bericht ](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels) in onze ontwikkelaarsdocumentatie.
+We hebben belangrijke dashboards en waarschuwingen ingesteld om u te helpen begrijpen wanneer uw site kritieke opslag- en Apdex-niveaus bereikt (tevredenheid van gebruikers over toepassingen en responstijd van services). Dit kan u helpen actie te ondernemen voordat u langzame reactietijden of een stroomonderbreking opmerkt. U kunt de waarschuwingen met de onderstaande artikelen oplossen. Voordat u de waarschuwingen kunt gebruiken, moet u eerst meldingskanalen instellen. Gelieve te verwijzen naar [ New Relic vormt de Kanalen van het Bericht ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie.
 
 >[!NOTE]
 >

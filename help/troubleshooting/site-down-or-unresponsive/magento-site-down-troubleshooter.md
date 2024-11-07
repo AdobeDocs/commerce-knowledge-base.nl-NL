@@ -4,7 +4,7 @@ description: Klik op elke vraag om de antwoorddetails in elke stap van de proble
 exl-id: 10a2313e-cc82-4ffc-9247-624884f3e165
 feature: Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -80,7 +80,7 @@ b. NO - ga aan [ Stap 7 ](#step-7) te werk.
 
 +++**hebt u de fouten van de Elasticsearch?**
 
-a. JA - ga met stappen voor [ het controleren Elasticsearch ](https://developer.adobe.com/commerce/php/module-reference/module-elasticsearch/) te werk.\
+a. JA - ga met stappen voor [ het controleren Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine) te werk.
 b. NO - ga aan [ Stap 8 ](#step-8) te werk.
 
 +++
@@ -116,7 +116,7 @@ b. NO - ga aan [ Stap 11 ](#step-11) te werk.
 
 +++**ziet u terugkerende fouten?**
 
-a. JA - ga met stappen te werk om [ te verifiëren  [!DNL Redis]  ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/redis#troubleshooting-redis) loopt en voor [[!DNL Redis]  het oplossen van problemen ](https://redis.io/topics/problems).\
+a. JA - ga met stappen te werk om [ te verifiëren  [!DNL Redis]  ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection) loopt en voor [[!DNL Redis]  het oplossen van problemen ](https://redis.io/topics/problems).\
 b. NO - ga aan [ Stap 12 ](#step-12) te werk.
 
 +++

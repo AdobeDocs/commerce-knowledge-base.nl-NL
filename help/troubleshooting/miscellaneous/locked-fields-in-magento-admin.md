@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het geval dat u geen velden in
 exl-id: 5fe0967a-4241-440b-bb0d-429fa5644bbc
 feature: Admin Workspace
 role: Developer
-source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -52,6 +52,6 @@ Controleer of de configuratie niet is opgeslagen in `app/etc/env.php` of `app/et
 
 ## Verwante lezing
 
-* [ voer de Configuratie ](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings) in onze ontwikkelaarsdocumentatie uit.
-* [ plaats de waarden van de Configuratie ](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set) in onze ontwikkelaarsdocumentatie.
+* [ voer de Configuratie ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration) in onze ontwikkelaarsdocumentatie uit.
+* [ plaats de waarden van de Configuratie ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values) in onze ontwikkelaarsdocumentatie.
 * [ Adobe Commerce op wolkeninfrastructuur: verminder plaatsingsonderbreking met het Beheer van de Configuratie ](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in onze steun kennisbasis.

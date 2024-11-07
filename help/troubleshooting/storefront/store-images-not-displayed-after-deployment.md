@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het geval dat afbeeldingen na 
 exl-id: 7e6bcebd-edff-437a-9103-2743443d2ed9
 feature: Cache, Categories, Deploy, Storefront
 role: Admin
-source-git-commit: c4d586ca3980acbe4f33c5f2616ef7f3051bc7d3
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Als dit gebeurt, kunt u de opdracht Magento gebruiken om de afbeeldingscache opn
 
 Om dit uit te voeren, hebt u de informatie van SSH en opslag URL beschikbaar door de [ Console van de Wolk ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) nodig.
 
-1. SSH aan uw project dat een bron voor de [ gegevensbestandstortplaats ](/help/how-to/general/create-database-dump-on-cloud.md) was, zoals die in [ SSH aan milieu ](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) in onze ontwikkelaarsdocumentatie wordt beschreven.
+1. SSH aan uw project dat een bron voor de [ gegevensbestandstortplaats ](/help/how-to/general/create-database-dump-on-cloud.md) was, zoals die in [ SSH aan milieu ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) in onze ontwikkelaarsdocumentatie wordt beschreven.
 1. De afbeeldingscache opnieuw genereren door uit te voeren:
 
    ```bash

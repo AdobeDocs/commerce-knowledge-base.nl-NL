@@ -3,7 +3,7 @@ title: Geef Adobe Commerce-foutrapportnummer weer in plaats van Fastly 503-fout
 description: 'Standaard worden met Snelheid alle Adobe Commerce-fouten verborgen achter de fout **503 Service niet beschikbaar**. Als u het rapportnummer van het Adobe Commerce-foutenlogboek wilt weergeven (zodat u het kunt vinden in logboeken en de foutdetails kunt zien), opent u de website zonder dat u snel de volgende stappen uitvoert:'
 exl-id: c0a4a9f8-a674-4cef-8088-e844594e6076
 feature: Cache, Cloud
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Door gebrek, verbergt de Fastly alle fouten van Adobe Commerce achter de **503 n
 
 Als u de authentieke Adobe Commerce-fout en het nummer van het foutrapport ziet, worden mogelijk gegevens in het foutrapportbestand weergegeven door de volgende stappen uit te voeren:
 
-1. SSH naar het betrokken milieu. Verwijs naar [ SSH aan een milieu ](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) in onze ontwikkelaarsdocumentatie.
+1. SSH naar het betrokken milieu. Verwijs naar [ SSH aan een milieu ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) in onze ontwikkelaarsdocumentatie.
 1. Zoek het `./var/report/{error_number}` -bestand.
 
 ## Toepassingsdomein en IP-adres toevoegen aan het hostbestand: gedetailleerde stappen

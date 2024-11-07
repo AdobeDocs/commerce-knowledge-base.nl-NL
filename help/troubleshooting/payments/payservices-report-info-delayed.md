@@ -4,7 +4,7 @@ description: In dit artikel wordt uitgelegd waarom de rapportage van gegevens in
 exl-id: 2f3249d1-be12-45bc-aa73-bef9766509ae
 feature: Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Nadat u een bestelling hebt gefactureerd (vastgelegd) of een creditnota voor een
 
 Vereisten: een bestelling wordt geplaatst met behulp van de functionaliteit Betalingsservices.
 
-1. Een orde wordt [ gefactureerd ](https://docs.magento.com/user-guide/sales/invoice-create.html) (of [ geannuleerd ](https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order) of [ die via creditmemo ](https://docs.magento.com/user-guide/sales/credit-memos.html) worden teruggegeven) in [ Admin ](https://docs.magento.com/user-guide/stores/admin.html).
+1. Een orde wordt [ gefactureerd ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) (of [ geannuleerd ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order) of [ die via creditmemo ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) worden teruggegeven) in [ Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin).
 1. Navigeer naar het rapport Betalingsstatus bestellen voor informatie over die bestelling.
 1. De status wordt weergegeven als `AUTHORIZED` . Dit is de status van de bestelling voorafgaand aan het factureren of een andere bestelling.
 
@@ -37,7 +37,7 @@ Vereisten: een bestelling wordt geplaatst met behulp van de functionaliteit Beta
 
 >[!NOTE]
 >
->Dit is slechts één algemeen geval van gebruik. Er kunnen andere gebruiksgevallen zijn wanneer een [ ordeactie ](https://docs.magento.com/user-guide/sales/order-actions.html) voorkomt en het gegeven niet onmiddellijk beschikbaar in het toepasselijke rapport is.
+>Dit is slechts één algemeen geval van gebruik. Er kunnen andere gebruiksgevallen zijn wanneer een [ ordeactie ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders#actions) voorkomt en het gegeven niet onmiddellijk beschikbaar in het toepasselijke rapport is.
 
 <u> Verwacht resultaat </u>:
 Rapportgegevens worden direct ingevuld nadat een handeling op een bestelling is uitgevoerd.

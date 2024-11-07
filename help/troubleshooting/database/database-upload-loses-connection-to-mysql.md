@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het moment dat de databaseuplo
 exl-id: 6051cea1-8292-4a81-8908-eb516cb4a32b
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -42,7 +42,7 @@ web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-U moet meer ruimte toewijzen voor de database in uw `services.yaml` en deze implementeren als u wat ruimte niet gebruikt. Voor stappen, zie {de Ruimte van de Schijf van 0} Dienst ](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).[
+U moet meer ruimte toewijzen voor de database in uw `services.yaml` en deze implementeren als u wat ruimte niet gebruikt. Voor stappen, zie {de Ruimte van de Schijf van 0} Dienst ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space).[
 
 Opmerking: In het Pro-architectuurplan kunt u de toegewezen ruimte op uw partitie controleren met de volgende opdracht: `df -h`
 
@@ -58,4 +58,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## Gerelateerde lezing
 
-[ beheer de Ruimte van de Schijf ](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in onze ontwikkelaarsdocumentatie
+[ beheer de Ruimte van de Schijf ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) in onze ontwikkelaarsdocumentatie

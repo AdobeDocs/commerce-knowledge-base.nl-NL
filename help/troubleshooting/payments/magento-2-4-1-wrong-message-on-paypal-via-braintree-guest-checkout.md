@@ -4,7 +4,7 @@ description: In dit artikel wordt een bekende Adobe Commerce 2.4.1-kwestie besch
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Er wordt een niet-specifieke fout weergegeven wanneer uitchecken door gasten van
 <u> Eerste vereisten </u>:
 
 1. In Commerce Admin, onder **Slaat** > **Configuratie** > **Verkoop** > **Controle**, plaats **Gast Afhandeling** = *Nr* toestaan.
-1. Laat PayPal door Braintree toe zoals die in de [ Braintree ](https://docs.magento.com/user-guide/payment/braintree.html?) in onze gebruikersgids wordt beschreven.
+1. Laat PayPal door Braintree toe zoals die in de [ Braintree ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?) in onze gebruikersgids wordt beschreven.
 
 <u> Stappen om </u> te reproduceren:
 
@@ -55,10 +55,10 @@ De klant wordt omgeleid naar de pagina Winkelwagentje en het volgende bericht wo
 
 ## Workaround
 
-De oplossing voor deze kwestie is dat de klant zich bij een opslag kan aanmelden (de geregistreerde gebruikers gebruiken geen gastcontrole.) waarbij uitchecken door gasten is uitgeschakeld. Dit probleem is opgelost in Adobe Commerce versie 2.4.2.
+De oplossing voor deze kwestie is dat de klant zich bij een opslag kan aanmelden (de geregistreerde gebruikers gebruiken geen uitchecksysteem voor gasten.) waar de gastcontrole wordt onbruikbaar gemaakt. Dit probleem is opgelost in Adobe Commerce versie 2.4.2.
 
 ## Gerelateerde lezing
 
 * [ Beste praktijken voor aantal producten in kar in Adobe Commerce ](https://support.magento.com/hc/en-us/articles/360048550332) in onze basis van steunkennis.
-* [ de verwerkingsleerprogramma van de Orde: Stap 1. Voeg punten aan de kar ](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) in onze ontwikkelaarsdocumentatie toe
-* [ GraphQL checkout leerprogramma: Stap 1. Voeg producten aan de kar ](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) in onze ontwikkelaarsdocumentatie toe
+* [ de verwerkingsleerprogramma van de Orde: Stap 1. Voeg punten aan de kar ](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/) in onze ontwikkelaarsdocumentatie toe
+* [ GraphQL checkout leerprogramma: Stap 1. Voeg producten aan de kar ](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html) in onze ontwikkelaarsdocumentatie toe

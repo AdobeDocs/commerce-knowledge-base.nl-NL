@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor lage prestaties op de site. De
 exl-id: 90a8bd21-1f2c-4cfe-8213-17f877e20de8
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Voor Adobe Commerce op cloudinfrastructuur 2.2.x:
 
 Als u niet de **optie van Banners** onder **Inhoud** > *Elementen* ziet, dan is dit niet het geval, en de aanbevelingen van dit artikel kunnen niet worden toegepast.
 
-Voor Adobe Commerce op wolkeninfrastructuur 2.3.x (de functionaliteit werd [ anders genoemd in v 2.3.x ](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
+Voor Adobe Commerce op wolkeninfrastructuur 2.3.x (de functionaliteit werd [ anders genoemd in v 2.3.x ](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
 
 1. Meld u aan bij de Commerce-beheerder.
 1. Navigeer aan **Inhoud** > *Elementen >* **Dynamische Blokken**.
@@ -56,5 +56,5 @@ Wanneer de module `Magento_Banner` is ingeschakeld, stuurt Adobe Commerce Ajax-a
 >
 >Wij adviseren sterk testende veranderingen op [ het Staging/het milieu van de Integratie ](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) eerst, alvorens het op Productie toe te passen. We raden u ook aan een recente back-up te maken voordat u iets manipuleert.
 
-1. Maak de `Magento_Banner` moduleoutput, zoals die in [ wordt beschreven onbruikbaar moduleoutput ](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) in onze ontwikkelaarsdocumentatie. De modulenaam u moet gebruiken is `Magento_Banner`.
-1. Implementeer uw code. Voor Adobe Commerce op wolkeninfrastructuur, stel zoals die in [ wordt beschreven uw opslag ](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) artikel in onze ontwikkelaarsdocumentatie op.
+1. Maak de `Magento_Banner` moduleoutput, zoals die in [ wordt beschreven onbruikbaar moduleoutput ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output) in onze ontwikkelaarsdocumentatie. De modulenaam u moet gebruiken is `Magento_Banner`.
+1. Implementeer uw code. Voor Adobe Commerce op wolkeninfrastructuur, stel zoals die in [ wordt beschreven uw opslag ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) artikel in onze ontwikkelaarsdocumentatie op.

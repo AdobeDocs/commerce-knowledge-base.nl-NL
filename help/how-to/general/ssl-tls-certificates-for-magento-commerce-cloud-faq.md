@@ -3,7 +3,7 @@ title: SSL-certificaten (TLS) voor Adobe Commerce op cloudinfrastructuur
 description: Dit artikel biedt snelle antwoorden op vragen over het verkrijgen van SSL (TLS)-certificaten voor uw Adobe Commerce-site in onze cloudinfrastructuur.
 exl-id: 5a682d07-e4d7-4e81-a2ad-3232f2d8d9c1
 feature: Cloud, Console
-source-git-commit: 43c3e5f95c4b54e235140cd5b3978d3887af5ee1
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Het domein toevoegen aan de service in [!DNL Fastly] :
 
 Geval 1
 
-Als u nog geen website hebt gelanceerd, hebt u wellicht ACME Challenge CNAME van uw Technische Adviseur van de Klant (CTA) ontvangen. U hebt alleen een ACME-uitdaging nodig als u niet direct uw DNS naar de productie-URL kunt richten en de SSL-certificaten die vooraf zijn gemaakt, moet ophalen.
+Als u nog geen website hebt gestart, hebt u wellicht ACME Challenge CNAME van uw Customer Technical Advisor (CTA) ontvangen. U hebt alleen een ACME-uitdaging nodig als u niet direct uw DNS naar de productie-URL kunt richten en de SSL-certificaten die vooraf zijn gemaakt, moet ophalen.
 
 Zaak 2
 
@@ -67,7 +67,7 @@ Het domein dat op het certificaat wordt getoond is enkel het eerste domein dat a
 
 ## Kan ik wildcard-TLS-certificaten gebruiken?
 
-Jokerteken-TLS-certificaten kunnen alleen worden gebruikt met uw aangepaste certificaat en niet met Adobe Commerce Let&#39;s Encrypt-certificaten. Als onderdeel van onze TLS-optimalisatie beëindigt de Adobe de ondersteuning voor wildcard-TLS-certificaten. Wij identificeren en contacteren handelaren die een vervangingscertificaat met de certificaten van de Encrypt van de Adobe van de Versleuteling gebruiken en in de [!DNL Fastly] console voor Adobe Commerce worden gevormd. Wij vragen dat deze vervangingscertificaten met nauwkeurige domeinen worden vervangen om TLS dekking te verzekeren. Om een vervangingscertificaat te vervangen TLS, gelieve de [ domeinsectie ](https://devdocs.magento.com/cloud/cdn/configure-fastly-customize-cache.html#manage-domains) van de [!DNL Fastly] stop te bezoeken. Van hieruit kunnen exacte domeinen worden toegevoegd en kan het jokerteken worden verwijderd. DNS moet naar [!DNL Fastly] verwijzen voor deze nieuwe domeinen om door de CDN te leiden. Zodra de domeinen worden toegevoegd en DNS wordt bijgewerkt, zal een passend [ 1} certificaat van de Encrypt van A.S. {worden voorzien. ](https://letsencrypt.org/) Als u geen domein verwijdert waarnaar [!DNL Fastly] verwijst met een jokerteken, verwijdert Adobe het gedeelde certificaat. Dit kan in een plaatsafval resulteren als u niet de gevormde URL FQDN en zelfde URL FQDN opstelling in uw DNS hebt. Daarom moet u bevestigen dat de geconfigureerde URL&#39;s ook een-op-een overeenkomst hebben in hun DNS-code die verwijst naar [!DNL Fastly] .
+Jokerteken-TLS-certificaten kunnen alleen worden gebruikt met uw aangepaste certificaat en niet met Adobe Commerce Let&#39;s Encrypt-certificaten. Als onderdeel van onze TLS-optimalisatie beëindigt de Adobe de ondersteuning voor wildcard-TLS-certificaten. Wij identificeren en contacteren handelaren die een vervangingscertificaat met de certificaten van de Encrypt van de Adobe van de Versleuteling gebruiken en in de [!DNL Fastly] console voor Adobe Commerce worden gevormd. Wij vragen dat deze vervangingscertificaten met nauwkeurige domeinen worden vervangen om TLS dekking te verzekeren. Om een vervangingscertificaat te vervangen TLS, gelieve de [ domeinsectie ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains) van de [!DNL Fastly] stop te bezoeken. Van hieruit kunnen exacte domeinen worden toegevoegd en kan het jokerteken worden verwijderd. DNS moet naar [!DNL Fastly] verwijzen voor deze nieuwe domeinen om door de CDN te leiden. Zodra de domeinen worden toegevoegd en DNS wordt bijgewerkt, zal een passend [ 1} certificaat van de Encrypt van A.S. {worden voorzien. ](https://letsencrypt.org/) Als u geen domein verwijdert waarnaar [!DNL Fastly] verwijst met een jokerteken, verwijdert Adobe het gedeelde certificaat. Dit kan in een plaatsafval resulteren als u niet de gevormde URL FQDN en zelfde URL FQDN opstelling in uw DNS hebt. Daarom moet u bevestigen dat de geconfigureerde URL&#39;s ook een-op-een overeenkomst hebben in hun DNS-code die verwijst naar [!DNL Fastly] .
 
 ## Wat moet ik doen als mijn domein niet meer naar Adobe Commerce wijst?
 
@@ -75,4 +75,4 @@ Als uw domein niet meer naar Adobe Commerce verwijst, verwijdert u het van het s
 
 ## Gerelateerde lezing
 
-[ Levering SSL/TLS certificaten ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) in onze ontwikkelaarsdocumentatie
+[ Levering SSL/TLS certificaten ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates) in onze ontwikkelaarsdocumentatie

@@ -4,7 +4,7 @@ description: Dit artikel verstrekt oplossingen voor wanneer u zeer lage ruimte o
 exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 feature: Catalog Management, Categories, Cloud, Paas, Services
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 0%
@@ -78,7 +78,7 @@ De hoeveelheid `/data/mysql` kan vol worden als gevolg van een aantal problemen,
 
 Er is een directe stap die u kunt nemen om [!DNL MySQL] weer op de rails te krijgen (of om te voorkomen dat  vastloopt): maak ruimte vrij door grote tabellen te spoelen.
 
-Maar een oplossing op lange termijn zou meer ruimte en na [ beste praktijken van het Gegevensbestand ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) toewijzen, met inbegrip van het toelaten van de [ Orde/Factuur/het archieffunctionaliteit van het Verzending ](https://docs.magento.com/user-guide/sales/order-archive.html).
+Maar een oplossing op lange termijn zou meer ruimte en na [ beste praktijken van het Gegevensbestand ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) toewijzen, met inbegrip van het toelaten van de [ Orde/Factuur/het archieffunctionaliteit van het Verzending ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
 
 Hieronder vindt u details over zowel snelle als langetermijnoplossingen.
 
@@ -124,7 +124,7 @@ Controleren op groot `ibtmp1` bestand op `/data/mysql` van elk knooppunt: dit be
 
 >[!WARNING]
 >
->We raden u ten zeerste aan een back-up van een database te maken voordat u wijzigingen aanbrengt en deze te vermijden tijdens perioden met veel laadtijd. Zie [ Dump uw gegevensbestand ](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump) in onze ontwikkelaardocumentatie.
+>We raden u ten zeerste aan een back-up van een database te maken voordat u wijzigingen aanbrengt en deze te vermijden tijdens perioden met veel laadtijd. Zie [ Dump uw gegevensbestand ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots) in onze ontwikkelaardocumentatie.
 
 Controleer of er grote tabellen zijn en of een van deze tabellen kan worden verwijderd. Doe dit op het primaire (bron) knooppunt.
 
@@ -132,7 +132,7 @@ Tabellen met rapporten kunnen bijvoorbeeld meestal worden verwijderd. Voor detai
 
 Als er geen grote rapporttabellen zijn, kunt u `_index` -tabellen leegmaken, gewoon om de Adobe Commerce-toepassing weer op schema te krijgen. `index_price` -tabellen zijn de beste kandidaten. Bijvoorbeeld `catalog_category_product_index_storeX` tabellen, waarin X waarden kan hebben van &quot;1&quot; tot het maximale aantal winkels. Onthoud dat u opnieuw moet indexeren om gegevens in deze tabellen te herstellen. In het geval van grote catalogi kan het veel tijd kosten om de gegevens opnieuw te indexeren.
 
-Wacht tot de software volledig is gesynchroniseerd nadat u deze hebt verwijderd. U kunt steunen nu tot stand brengen en belangrijkere stappen nemen om meer ruimte toe te voegen, als het toewijzen van/het kopen van meer ruimte en het toelaten van ](https://docs.magento.com/user-guide/sales/order-archive.html) functionaliteit van het archiefarchief 0} van de Orde/van de Rekening/van de Verzending.[
+Wacht tot de software volledig is gesynchroniseerd nadat u deze hebt verwijderd. U kunt steunen nu tot stand brengen en belangrijkere stappen nemen om meer ruimte toe te voegen, als het toewijzen van/het kopen van meer ruimte en het toelaten van ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive) functionaliteit van het archiefarchief 0} van de Orde/van de Rekening/van de Verzending.[
 
 ### Instellingen voor binaire logboekregistratie controleren
 

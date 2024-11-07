@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor de uitzonderingsfout Reflectie
 exl-id: aed5f297-1339-4171-9392-04b3f93277ee
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Tijdens de installatie wordt een bericht weergegeven dat lijkt op het volgende:
 
 Wis alle mappen en bestanden onder de submap Adobe Commerce `var` en installeer de Adobe Commerce-software opnieuw.
 
-Als [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) of als gebruiker met `root` voorrechten, ga de volgende bevelen in:
+Als [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) of als gebruiker met `root` voorrechten, ga de volgende bevelen in:
 
 ```bash
 $ cd <your Magento install directory>/var

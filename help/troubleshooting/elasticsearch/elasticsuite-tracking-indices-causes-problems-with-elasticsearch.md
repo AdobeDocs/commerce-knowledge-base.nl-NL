@@ -2,7 +2,7 @@
 title: ElasticSuite-volgindices veroorzaken problemen met Elasticsearch
 description: In dit artikel wordt gesproken over het probleem van geheugenproblemen bij Elasticsearch die worden veroorzaakt door het bijhouden van indices die door de insteekmodule ElasticSuite worden geproduceerd.
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
-source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -68,5 +68,5 @@ Maak een uitsnijdtaak om de volgende indexen te verwijderen. Met deze opdracht v
 
 Als u indexen op een vastgestelde tijd-frequentie wilt schrappen, creeer een hulpbaan door naar de volgende artikelen in onze ontwikkelaarsdocumentatie te verwijzen:
 
-* [ vorm een baan van de douanecurn en de cron groep (leerprogramma) ](https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html)
-* [ de banen van de opstelling cron ](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html)
+* [ vorm een baan van de douanecurn en de cron groep (leerprogramma) ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [ de banen van de opstelling cron ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

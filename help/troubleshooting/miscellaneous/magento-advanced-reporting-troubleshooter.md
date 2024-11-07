@@ -4,7 +4,7 @@ description: Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgel
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -19,10 +19,10 @@ Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgelost met dit h
 
 +++**voldoet uw website Geavanceerde Rapportagevereisten?**
 
-U hebt een 404 pagina van de Fout wanneer het gebruiken van Geavanceerde Rapportering. Voldoet uw website [ Geavanceerde het Melden Vereisten ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements)?
+U hebt een 404 pagina van de Fout wanneer het gebruiken van Geavanceerde Rapportering. Voldoet uw website [ Geavanceerde het Melden Vereisten ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)?
 
 a. JA - ga aan [ Stap 2 ](#step-2) te werk.\
-b. NO - voltooi de Geavanceerde Rapportagevereisten voor uw plaats door de stappen in [ Geavanceerde Rapportagevereisten ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements) te volgen. Dan, ga aan [ Stap 2 ](#step-2) te werk.
+b. NO - voltooi de Geavanceerde Rapportagevereisten voor uw plaats door de stappen in [ Geavanceerde Rapportagevereisten ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements) te volgen. Dan, ga aan [ Stap 2 ](#step-2) te werk.
 
 +++
 
@@ -44,7 +44,7 @@ Als er meerdere basisvaluta&#39;s zijn gebruikt, kunt u Geavanceerde rapportage 
 
 +++**gebruikt u gespleten gegevensbestandoplossing?**
 
-Gebruikt u [ gespleten gegevensbestandoplossing ](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)?
+Gebruikt u [ gespleten gegevensbestandoplossing ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)?
 
 a. JA - gebruik het flard **MDVA-26831** in [ Geavanceerde Rapportering 404 fout op gesplitste gegevensbestandoplossing ](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md) en duidelijk geheime voorgeheugen. Wacht 24 uur voordat de taak opnieuw wordt uitgevoerd en probeer het opnieuw.\
 b. NO - ga aan [ Stap 4 ](#step-4) te werk.
@@ -55,10 +55,10 @@ b. NO - ga aan [ Stap 4 ](#step-4) te werk.
 
 +++**wordt Geavanceerde toegelaten Rapportering?**
 
-Controle **Admin** > **Slaat** > **Montages** > **Configuratie** > **Algemeen** > **Geavanceerde het Melden** op. Voor gedetailleerde stappen, overzicht [ Geavanceerde Rapportering: laat Geavanceerde Rapportering ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) toe.
+Controle **Admin** > **Slaat** > **Montages** > **Configuratie** > **Algemeen** > **Geavanceerde het Melden** op. Voor gedetailleerde stappen, overzicht [ Geavanceerde Rapportering: laat Geavanceerde Rapportering ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) toe.
 
 a. JA - ga aan [ Stap 5 ](#step-5) te werk.\
-b. NO - [ laat Geavanceerde Rapportering ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) toe en sparen, en wacht 24 uren op Adobe Commerce en Geavanceerde Rapportering om te synchroniseren. Controleer of uw gegevens nu worden geladen. Als dat het geval is, hebt u het probleem opgelost. Als het niet aan [ Stap 5 ](#step-5) te werk gaat.
+b. NO - [ laat Geavanceerde Rapportering ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) toe en sparen, en wacht 24 uren op Adobe Commerce en Geavanceerde Rapportering om te synchroniseren. Controleer of uw gegevens nu worden geladen. Als dat het geval is, hebt u het probleem opgelost. Als het niet aan [ Stap 5 ](#step-5) te werk gaat.
 
 +++
 
@@ -81,9 +81,9 @@ Controleer de tellerwaarde in de vlaglijst door deze vraag in werking te stellen
 
 a. JA - Voer de volgende stappen uit: 1. Voer de query hieronder uit:\
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``\
-2\. [ onbruikbaar maken en laat Geavanceerde Meldingsmodule ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) in montages toe en [ machtigt het teken ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active) opnieuw.\
+2\. [ onbruikbaar maken en laat Geavanceerde Meldingsmodule ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) in montages toe en [ machtigt het teken ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active) opnieuw.\
 3 Wacht 24 uur op Adobe Commerce en de Geavanceerde Rapporten om te synchroniseren. Als u nog geen gegevens in Geavanceerde Rapportering kunt zien, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. NO - Als de query niets oplevert, voert u de volgende stappen uit: 1. [ onbruikbaar maken en laat Geavanceerde Meldingsmodule ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) in montages toe en [ machtigt het teken ](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active) opnieuw.\
+b. NO - Als de query niets oplevert, voert u de volgende stappen uit: 1. [ onbruikbaar maken en laat Geavanceerde Meldingsmodule ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) in montages toe en [ machtigt het teken ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active) opnieuw.\
 2\. Wacht 24 uur op Adobe Commerce en de Geavanceerde Rapporten om te synchroniseren. Als u nog geen gegevens in Geavanceerde Rapportering kunt zien, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++

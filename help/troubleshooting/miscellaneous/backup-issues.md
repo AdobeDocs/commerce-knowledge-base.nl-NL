@@ -4,7 +4,7 @@ description: Dit artikel bevat een overzicht van de mogelijke oplossingen voor p
 exl-id: 1a6204ad-bd5a-46dc-8a8e-39655a174e09
 feature: Storage, Data Import/Export
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Ga het volgende CLI bevel in:
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-Voor extra informatie over steunen, zie [ file en rol terug het dossiersysteem, media, en gegevensbestand.](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-backup.html)
+Voor extra informatie over steunen, zie [ file en rol terug het dossiersysteem, media, en gegevensbestand.](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup)
 
 ## Onvoldoende schijfruimte {#insufficient-disk-space-trouble-backup-space-}
 
@@ -55,6 +55,6 @@ Helaas, kunnen wij om het even wat specifiek wegens de verscheidenheid van foute
 
 ## Back-up mislukt {#backup-fails-trouble-backup-all-}
 
-Als de steun ontbreekt of als alle reservetests ontbreken, is het mogelijk de [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html) heeft niet voldoende voorrechten en eigendom van het het dossiersysteem van Adobe Commerce. Een andere gebruiker kan bijvoorbeeld eigenaar zijn van de bestanden of de bestanden kunnen alleen-lezen zijn.
+Als de steun ontbreekt of als alle reservetests ontbreken, is het mogelijk de [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) heeft niet voldoende voorrechten en eigendom van het het dossiersysteem van Adobe Commerce. Een andere gebruiker kan bijvoorbeeld eigenaar zijn van de bestanden of de bestanden kunnen alleen-lezen zijn.
 
-Let met name op de machtigingen voor het bestandssysteem en de eigendom van de map `<magento_root>/var` en submappen. Voor meer informatie, zie [ plaats de toestemmingen en de eigendom van het dossiersysteem ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html).
+Let met name op de machtigingen voor het bestandssysteem en de eigendom van de map `<magento_root>/var` en submappen. Voor meer informatie, zie [ plaats de toestemmingen en de eigendom van het dossiersysteem ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions).

@@ -3,7 +3,7 @@ title: Meld u aan bij Fastly-account dat bij Adobe Commerce wordt geleverd voor 
 description: In dit artikel wordt uitgelegd hoe u zich kunt aanmelden bij uw Fastly-account dat bij Adobe Commerce wordt geleverd op cloudinfrastructuur. Voor Adobe Commerce on cloud Infrastructure is geen toegewezen snelaccount of accounteigenaar vereist. U kunt de Snelle diensten van Admin van Commerce vormen en beheren met de unieke Fastly geloofsbrieven (het teken van API en de dienstidentiteitskaart) die van elke het Opvoeren en milieu van de Productie wordt voorzien. Deze gegevens zijn ook nodig om snel API-aanvragen in te dienen.
 exl-id: 456eb8be-c9b8-4ca6-b3f6-14f43aabe15f
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -16,11 +16,11 @@ In dit artikel wordt uitgelegd hoe u zich kunt aanmelden bij uw Fastly-account d
 
 ## Uw snelle referenties bekijken
 
-Gelieve te verwijzen naar [ krijgt de Snelle sectie van Referenties ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar [ krijgt de Snelle sectie van Referenties ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds) in onze ontwikkelaarsdocumentatie.
 
 ## De snelreferenties testen
 
-Gelieve te verwijzen naar de [ Test de Snelle sectie van Referenties ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar de [ Test de Snelle sectie van Referenties ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
 
 ## Gerelateerde lezing
 

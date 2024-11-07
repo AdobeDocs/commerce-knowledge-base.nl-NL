@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het probleem dat nieuwe omgevi
 exl-id: 279cd6d8-fd45-45ba-8456-8b397a01976f
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Dit is geen bug. Voor het plaatsen van een oudertak voor een andere tak, zou de 
 
 ## Oplossing
 
-Een bovenliggende vertakking kan alleen worden ingesteld nadat de handelaar een nieuwe vertakking heeft geduwd en geactiveerd. Verwijs naar [ Adobe Commerce op wolkeninfrastructuur > integratie Bitbucket ](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch) in onze ontwikkelaarsdocumentatie.
+Een bovenliggende vertakking kan alleen worden ingesteld nadat de handelaar een nieuwe vertakking heeft geduwd en geactiveerd. Verwijs naar [ Adobe Commerce op wolkeninfrastructuur > integratie Bitbucket ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch) in onze ontwikkelaarsdocumentatie.
 
 Als u een bovenliggend item voor de bestaande vertakking op de server wilt bijwerken, gebruikt u de opdracht `magento-cloud environment:info` in de magento-cloud-CLI.
 
@@ -59,4 +59,4 @@ Hierdoor wordt de bovenliggende vertakking ingesteld op &quot;Staging&quot; voor
 
 ## Gerelateerde lezing
 
-* [ Adobe Commerce op wolkeninfrastructuur > magento-wolk CLI ](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) in onze ontwikkelaarsdocumentatie.
+* [ Adobe Commerce op wolkeninfrastructuur > magento-wolk CLI ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in onze ontwikkelaarsdocumentatie.

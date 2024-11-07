@@ -4,7 +4,7 @@ description: Dit artikel bevat een oplossing voor het onjuist zijn van de voorra
 exl-id: ae32fbe3-deab-4f31-b427-95f8b54a476f
 feature: Install, Inventory, Orders
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -33,4 +33,4 @@ Wanneer u installeert/bevordert, worden al uw producten toegewezen aan de standa
 
 Als u meerdere websites hebt, moet u deze websites als Sales Channel toevoegen aan de standaardvoorraad of andere aangepaste bestanden.
 
-Zie de [ sectie van de Beeld van de wiki/gebruikershandleiding ](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) in onze gebruikersgids voor details op hoe te om dit te doen.
+Zie de [ sectie van de Beeld van de wiki/gebruikershandleiding ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage) in onze gebruikersgids voor details op hoe te om dit te doen.

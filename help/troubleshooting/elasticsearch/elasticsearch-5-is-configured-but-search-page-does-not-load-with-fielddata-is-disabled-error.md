@@ -3,7 +3,7 @@ title: Elasticsearch 5 is geconfigureerd, maar de zoekpagina wordt niet geladen 
 description: 'Dit onderwerp beschrijft hoe te om de kwestie met Elasticsearch 5 te bevestigen, waar de onderzoekspagina niet laadt, en de uitzondering gelijkend op het volgende wordt geworpen:'
 exl-id: f5fa8144-4e7c-45ce-89d0-a8367e91d6db
 feature: Cache
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Het resultaat zal een lijst van attributen bevatten die voor Gelaagde Navigatie 
 Als u het probleem wilt verhelpen, moet u `is_filterable` (dat wil zeggen gebruikt in gelaagde navigatie) en `filterable_in_search` (dat wil zeggen gebruikt in gelaagde navigatie in zoekresultaten) instellen op 0 (niet gebruikt). Voer hiertoe de volgende stappen uit:
 
 1. Maak een back-up van de database.
-1. Gebruik een gegevensbestandhulpmiddel zoals [ phpMyAdmin ](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), of toegang manueel OB van de bevellijn om de volgende SQL vraag in werking te stellen:
+1. Gebruik een gegevensbestandhulpmiddel zoals [ phpMyAdmin ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin), of toegang manueel OB van de bevellijn om de volgende SQL vraag in werking te stellen:
 
    ```sql
    UPDATE catalog_eav_attribute AS cea

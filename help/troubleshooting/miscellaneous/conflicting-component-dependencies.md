@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor conflicterende componentafhank
 exl-id: 782049c4-b6e1-4ead-a00f-80d2aa8475c9
 feature: Configuration
 role: Developer
-source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -51,14 +51,14 @@ Twee hoofdscenario&#39;s kunnen tot conflicterende componentengebiedsdelen leide
 Als u Adobe Commerce upgradet op een cloudinfrastructuur, probeert u het volgende om conflicterende componentafhankelijkheden op te lossen:
 
 * Controleer de toetsen die worden gebruikt voor een upgrade. Worden de sleutels geproduceerd van de correcte e-mailrekening?
-* Controleer de machtigingen en zorg ervoor dat deze voldoen aan de upgradevereisten voor het Magento. Het overzicht van de Verbetering van het Magento [ > Controlelijst van de Update en van de Verbetering > de Toestemmingen van het Systeem van het Dossier ](https://devdocs.magento.com/guides/v2.3/comp-mgr/prereq/prereq_compman-checklist.html#perms) in onze ontwikkelaarsdocumentatie.
+* Controleer de machtigingen en zorg ervoor dat deze voldoen aan de upgradevereisten voor het Magento. Het overzicht van de Verbetering van het Magento [ > Controlelijst van de Update en van de Verbetering > de Toestemmingen van het Systeem van het Dossier ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites#verify-file-system-permissions) in onze ontwikkelaarsdocumentatie.
 
 ## Incompatibiliteit met modules van derden: {#incompatibility-third-party-modules}
 
 Conflicterende componentengebiedsdelen kunnen ook door derdemodules worden veroorzaakt die van vroegere componenten van Commerce dan degenen afhangen u hebt geïnstalleerd. Probeer het volgende:
 
-1. In het voorafgaande [ voorbeeld ](#issue), kan het geïnstalleerde pakket magento/sample-data versie 0.74.0-beta15 niet aan 1.0.0-bèta worden bevorderd. 0,74,0-bèta15 kan echter worden geüpgraded naar 0,74,0-bèta16 (of andere). Bewerk `composer.json` om deze wijzigingen aan te brengen. Doorgaans worden de versies die uw project aanvraagt, gedefinieerd in de eigenschap `require` of `require-dev` van het object in dat JSON-bestand. Afhankelijk van de opties van de meegeleverde pakketversies, kunnen ze een specifieke versie of een beperking opgeven. Voor algemene begeleiding op hoe te om composer te gebruiken, als u op onze wolkeninfrastructuur bent, kunt u naar [ Wolk voor Adobe Commerce > Technologieën en Vereisten > Composer ](https://devdocs.magento.com/cloud/reference/cloud-composer.html#files) in onze ontwikkelaarsdocumentatie verwijzen. Als u op Adobe Commerce op-gebouw bent, verwijs naar [ Adobe Commerce > de Gids van de Installatie > installeer Adobe Commerce Gebruikend Composer ](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html).
-1. Probeer nu de gereedheidscontrole. Herzie [ het Overzicht van de Verbetering van Adobe Commerce > stel de Manager van de Module > Stap 1 Controle van de Bereidheid ](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-readiness.html) in onze ontwikkelaarsdocumentatie in werking.
+1. In het voorafgaande [ voorbeeld ](#issue), kan het geïnstalleerde pakket magento/sample-data versie 0.74.0-beta15 niet aan 1.0.0-bèta worden bevorderd. 0,74,0-bèta15 kan echter worden geüpgraded naar 0,74,0-bèta16 (of andere). Bewerk `composer.json` om deze wijzigingen aan te brengen. Doorgaans worden de versies die uw project aanvraagt, gedefinieerd in de eigenschap `require` of `require-dev` van het object in dat JSON-bestand. Afhankelijk van de opties van de meegeleverde pakketversies, kunnen ze een specifieke versie of een beperking opgeven. Voor algemene begeleiding op hoe te om composer te gebruiken, als u op onze wolkeninfrastructuur bent, kunt u naar [ Wolk voor Adobe Commerce > Technologieën en Vereisten > Composer ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview#files) in onze ontwikkelaarsdocumentatie verwijzen. Als u op Adobe Commerce op-gebouw bent, verwijs naar [ Adobe Commerce > de Gids van de Installatie > installeer Adobe Commerce Gebruikend Composer ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer).
+1. Probeer nu de gereedheidscontrole. Herzie [ het Overzicht van de Verbetering van Adobe Commerce > stel de Manager van de Module > Stap 1 Controle van de Bereidheid ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview) in onze ontwikkelaarsdocumentatie in werking.
 1. Als de gereedheidscontrole met een ander de mislukkingsbericht van de de gebiedscontrole van de Component ontbreekt, klik op de volgende verbindingen afhankelijk van of u [ Adobe Commerce ](#magento-commerce-magento-commerce-cloud) of [ Magento Open Source ](#opensource) gebruikt om verdere het oplossen van problemenstappen te krijgen.
 
 ## Adobe Commerce {#magento-commerce-magento-commerce-cloud}

@@ -4,7 +4,7 @@ description: Dit artikel bevat een correctie voor het foutbericht "*Er is een fo
 exl-id: 764a550a-3373-483c-843d-d8c848dcee35
 feature: Compliance, Console, Customer Service, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Fout bij plaatsen van volgorde met Authorize.net Sandbox-account (er is een fout opgetreden op de server)
 
-Dit artikel verstrekt een moeilijke situatie voor &quot;*een fout voorkwam op de server*&quot;foutenmelding wanneer het plaatsen van een orde gebruikend Authorize.Net Direct Post.
+Dit artikel verstrekt een moeilijke situatie voor &quot;*een fout voorkwam op de server*&quot;foutenmelding wanneer het plaatsen van een orde gebruikend Authorize.Net Directe Post.
 
 >[!WARNING]
 >
 >**Bericht van de Verdringing**
 >
->Wegens de Richtlijn van de Dienst van de Betaling [ PSD2 ](https://docs.magento.com/user-guide/v2.3/stores/compliance-payment-services-directive.html) en de voortdurende evolutie van vele APIs, is Authorize.Net het risico verouderd te worden en niet meer veiligheid volgzaam in de toekomst. Om deze reden, wordt het nu afgekeurd, en wij adviseren dat u het in uw configuratie van Adobe Commerce en overgang aan de overeenkomstige [ uitbreiding van de Commerce Marketplace ](https://marketplace.magento.com/extensions.html) onbruikbaar maakt.
+>Wegens de Richtlijn van de Dienst van de Betaling [ PSD2 ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive) en de voortdurende evolutie van vele APIs, is Authorize.Net het risico verouderd te worden en niet meer veiligheid volgzaam in de toekomst. Om deze reden, wordt het nu afgekeurd, en wij adviseren dat u het in uw configuratie van Adobe Commerce en overgang aan de overeenkomstige [ uitbreiding van de Commerce Marketplace ](https://marketplace.magento.com/extensions.html) onbruikbaar maakt.
 >
 >**Deze integratie wordt verwijderd uit Adobe Commerce 2.4.0 versie en is afgekeurd van de huidige versies van 2.3.**
 >
@@ -27,7 +27,7 @@ Dit artikel verstrekt een moeilijke situatie voor &quot;*een fout voorkwam op de
 
 ## Probleem
 
-Het plaatsen van een orde gebruikend [ Authorize.Net Directe de rekening van Post ](https://docs.magento.com/user-guide/v2.3/payment/authorize-net-direct-post.html) Sandbox veroorzaakt een foutenmelding:
+Het plaatsen van een orde gebruikend [ Authorize.Net de Directe rekening van de Post ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server) Sandbox veroorzaakt een foutenmelding:
 
 >>
 &quot;Er is een fout opgetreden op de server. Probeer de bestelling opnieuw te plaatsen.&quot;
@@ -38,7 +38,7 @@ Het lijkt niet duidelijk, maar Authorize.net **het Testen Wijze** het plaatsen m
 
 ## Oplossing 1: testmodus uitschakelen
 
-1. Ga naar **Opslag** > **Configuratie** > **Verkoop** > **de Methoden van de Betaling** > **Andere Wijzen van de Betaling** > **Authorize.net Direct Post**.
+1. Ga naar **Opslag** > **Configuratie** > **Verkoop** > **de Methoden van de Betaling** > **Andere Methoden van de Betaling** > **Authorize.net Directe Post**.
 1. Plaats **Wijze van de Test** aan &quot;Nr&quot;(uncheck **systeemwaarde van het Gebruik**, dan uitgezochte &quot;Nr&quot;in het menu).
 1. Klik **sparen Config**.
 

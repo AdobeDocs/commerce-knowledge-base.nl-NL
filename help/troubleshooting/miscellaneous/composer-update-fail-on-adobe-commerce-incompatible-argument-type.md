@@ -4,7 +4,7 @@ description: Dit artikel verstrekt een oplossing voor wanneer de plaatsing wordt
 exl-id: ba2dd229-29f6-43e2-9467-8bd1bf59e6ef
 feature: Console
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Alle 2.3.5+ Adobe Commerce op-gebouw verkopers zouden het volgende CLI bevel moe
 
 **hoe te op Adobe Commerce op wolkeninfrastructuur te bevestigen:**
 
-Voer de bovenstaande opdrachten uit of voer een upgrade uit naar de nieuwste versie van de ECE-gereedschappen (ece-tools: 2002.1.7), die op donderdag 29 juli beschikbaar zal zijn. Voor stappen, verwijs naar [ Wolk voor Adobe Commerce > update knoop-hulpmiddelen versie ](https://devdocs.magento.com/cloud/project/ece-tools-update.html) in onze ontwikkelaarsdocumentatie.
+Voer de bovenstaande opdrachten uit of voer een upgrade uit naar de nieuwste versie van de ECE-gereedschappen (ece-tools: 2002.1.7), die op donderdag 29 juli beschikbaar zal zijn. Voor stappen, verwijs naar [ Wolk voor Adobe Commerce > update knoop-hulpmiddelen versie ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) in onze ontwikkelaarsdocumentatie.
 
 De volledige oplossing wordt vrijgegeven in Adobe Commerce (alle implementatiemethoden) 2.4.4.
 

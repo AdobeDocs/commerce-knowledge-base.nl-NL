@@ -4,7 +4,7 @@ description: 'Dit artikel biedt de mogelijke oplossingen voor het aanmeldingspro
 exl-id: 1c7ffa1c-1fb1-4f69-9534-77d1e119318a
 feature: Admin Workspace, Customer Service
 role: Developer
-source-git-commit: f87263cde5aa001f78abc368c949ce150feecb91
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -37,7 +37,7 @@ U wordt teruggeleid naar het aanmeldingsformulier, met het volgende foutbericht 
 ## Oplossing
 
 1. Maak een back-up van de database.
-1. Gebruik een gegevensbestandhulpmiddel zoals [[!DNL phpMyAdmin] ](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), of toegang manueel OB van de bevellijn. In de `admin_user` gegevensbestandlijst, voor uw admin gebruikersverslag, controleer als `is_active` aan &quot; `1`&quot;wordt geplaatst en `lock_expires` is `NULL`. Stel deze waarden desgewenst opnieuw in.
+1. Gebruik een gegevensbestandhulpmiddel zoals [[!DNL phpMyAdmin] ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin), of toegang manueel OB van de bevellijn. In de `admin_user` gegevensbestandlijst, voor uw admin gebruikersverslag, controleer als `is_active` aan &quot; `1`&quot;wordt geplaatst en `lock_expires` is `NULL`. Stel deze waarden desgewenst opnieuw in.
 
 ## Gerelateerde lezing
 

@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het probleem waarbij een gebru
 exl-id: 02104731-6666-47a6-abc6-215812f09915
 feature: Configuration
 role: Developer
-source-git-commit: 831a928dbe8fd6b37f3fe9ad5dc35ee80e11a578
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -22,11 +22,11 @@ De gebruiker krijgt een fout wanneer het bevestigen van de Snelle geloofsbrieven
 ## Betrokken producten en versies
 
 * Adobe Commerce (alle implementatiemethoden): alle versies
-* Uitbreiding of technologie (snelweg, New Relic, enz.) versie snel
+* Versie van extensie of technologie (Fastly, New Relic, enz.) Snel
 
 ## Oplossing
 
-1. Controleer of u de juiste Fastly Service ID en API-token hebt en probeer opnieuw te valideren. Voor gedetailleerde instructie, verwijs naar [ Test de Snelle geloofsbrieven ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
+1. Controleer of u de juiste Fastly Service ID en API-token hebt en probeer opnieuw te valideren. Voor gedetailleerde instructie, verwijs naar [ Test de Snelle geloofsbrieven ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
 1. Als het verifiëren van de geloofsbrieven ontbreekt, stel het volgende krullbevel in werking om de status van de dienst te bevestigen:
 
    ```curl
@@ -45,6 +45,6 @@ De gebruiker krijgt een fout wanneer het bevestigen van de Snelle geloofsbrieven
 
 ## Verwante lezingen in onze ontwikkelaarsdocumentatie:
 
-* [ Cloud voor Adobe Commerce > Snelst > de dienstrekening en geloofsbrieven van de Snelheid ](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html#fastly-service-account-and-credentials)
+* [ Cloud voor Adobe Commerce > Snelst > de dienstrekening en geloofsbrieven van de Snelheid ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
 
-* [ Wolk voor Adobe Commerce > Opstelling Fastly > Test de Snelle geloofsbrieven ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials)
+* [ Wolk voor Adobe Commerce > Opstelling Fastly > Test de Snelle geloofsbrieven ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)

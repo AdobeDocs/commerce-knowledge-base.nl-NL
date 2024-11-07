@@ -4,7 +4,7 @@ description: Dit artikel biedt oplossingen voor problemen wanneer u probeert de 
 exl-id: cbf54a15-b307-4bfc-90b7-cff98aeb4fce
 feature: Roles/Permissions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Dit zijn de meest voorkomende oorzaken van problemen:
 
 Tijdens de release zijn de releasepakketten beschikbaar op twee locaties:
 
-1. Via Composer op [ magento.com ](https://repo.magento.com/) gebruikend primaire MageID voor de rekening. Voor meer details op hoe te om Composer te gebruiken, gelieve te verwijzen naar [ installeer Adobe Commerce gebruikend Composer ](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) in onze ontwikkelaarsdocumentatie.
+1. Via Composer op [ magento.com ](https://repo.magento.com/) gebruikend primaire MageID voor de rekening. Voor meer details op hoe te om Composer te gebruiken, gelieve te verwijzen naar [ installeer Adobe Commerce gebruikend Composer ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) in onze ontwikkelaarsdocumentatie.
 1. **Mijn Rekening** > **Downloads** op [ account.magento.com ](https://account.magento.com/customer/account/login).
 
 >[!NOTE]

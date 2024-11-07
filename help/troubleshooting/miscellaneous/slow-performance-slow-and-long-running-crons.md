@@ -4,7 +4,7 @@ description: In dit artikel wordt beschreven hoe u problemen met de siteprestati
 exl-id: a78ca3c3-85b4-40a1-a693-4703dd3ef4b5
 feature: Best Practices, Cache, Categories, Catalog Management
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Aangezien bepaalde extensies alleen werken met platte tabellen, is er bij elke Adobe Commerce-versie een risico als u platte tabellen uitschakelt. Als u weet dat u sommige uitbreidingen hebt die de Platte indexeerders van de Catalogus gebruiken, kunt u dat in overweging moeten nemen wanneer het plaatsen van die waarden aan &quot; *Nr* &quot;.
 
-Dit artikel beschrijft hoe te om de kwesties van plaatsprestaties op te lossen en het vertragen van en vastgezette kronen die door [ vlakke lijsten en indexeerders ](https://docs.magento.com/m2/ce/user_guide/catalog/catalog-flat.html) worden veroorzaakt die zijn toegelaten.
+Dit artikel beschrijft hoe te om de kwesties van plaatsprestaties op te lossen en het vertragen van en vastgezette kronen die door [ vlakke lijsten en indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/catalog-flat) worden veroorzaakt die zijn toegelaten.
 
 BETROKKEN PRODUCTEN EN VERSIES
 

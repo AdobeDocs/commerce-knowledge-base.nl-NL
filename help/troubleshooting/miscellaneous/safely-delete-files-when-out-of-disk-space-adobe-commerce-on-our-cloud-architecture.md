@@ -1,10 +1,10 @@
 ---
 title: Bestanden veilig verwijderen wanneer onvoldoende ruimte beschikbaar is op schijf in Adobe Commerce op cloudinfrastructuur
-description: Dit artikel biedt een oplossing voor het geval dat er onvoldoende schijfruimte is en bestanden veilig moeten worden verwijderd. Lees voordat u deze handeling overweegt [Schijfruimte beheren] (https://devdocs.magento.com/cloud/project/manage-disk-space.html#no-space-left) in de ontwikkelaarsdocumentatie. Controleer de stappen in dit artikel als de stappen in dat artikel niet geschikt zijn voor u of als u het probleem niet oplost.
+description: Dit artikel biedt een oplossing voor het geval dat er onvoldoende schijfruimte is en bestanden veilig moeten worden verwijderd. Lees voordat u deze handeling overweegt [Schijfruimte beheren] (https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#no-space-left) in de ontwikkelaarsdocumentatie. Controleer de stappen in dit artikel als de stappen in dat artikel niet geschikt zijn voor u of als u het probleem niet oplost.
 exl-id: 6b0a5c1a-8db4-49d7-a785-b4e0bbaea0df
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 86515936f72bbd0a5778cb81f665993ed91e4707
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -59,4 +59,4 @@ In onze kennisbasis voor ondersteuning:
 
 In onze documentatie voor ontwikkelaars:
 
-* [ beheer schijfruimte ](https://devdocs.magento.com/cloud/project/manage-disk-space.html)
+* [ beheer schijfruimte ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)

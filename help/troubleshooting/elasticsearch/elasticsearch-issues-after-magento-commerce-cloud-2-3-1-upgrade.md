@@ -3,7 +3,7 @@ title: Problemen met Elasticsearch na upgrade naar Adobe Commerce Cloud Infrastr
 description: In dit artikel wordt een oplossing besproken voor problemen tijdens de implementatie na de upgrade naar Adobe Commerce op versie 2.3.1+ van de cloudinfrastructuur, als u werkt met versie 2.x en 5.x van de Elasticsearch.
 exl-id: 6ceeb2ea-528d-4c03-ab2b-c5aed46fd0a2
 feature: Cloud
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->[ MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Verwijs naar [ installeer en vorm Elasticsearch ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+>[ MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Verwijs naar [ installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 
 >[!WARNING]
 >
@@ -29,7 +29,7 @@ In dit artikel wordt een oplossing besproken voor problemen tijdens de implement
 
 ## Oorzaak
 
-Handelaren die een upgrade naar Adobe Commerce hebben uitgevoerd op een cloudinfrastructuur (versie 2.3.1 en hoger) en die een versie van Elasticsearch hebben die ouder is dan 6.x, kunnen fouten ondervinden bij de implementatie. Dit is omdat de versies 2.x en 5.x van de Elasticsearch [ Einde van het Leven ](https://www.elastic.co/support/eol) zijn en niet meer in Adobe Commerce gesteund. De client van de Elasticsearch moet up-to-date zijn of een implementatierisico lopen dat een fout veroorzaakt. Meer leren, verwijs naar [ Verandering de cliënt van de Elasticsearch ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html) in onze ontwikkelaarsdocumentatie.
+Handelaren die een upgrade naar Adobe Commerce hebben uitgevoerd op een cloudinfrastructuur (versie 2.3.1 en hoger) en die een versie van Elasticsearch hebben die ouder is dan 6.x, kunnen fouten ondervinden bij de implementatie. Dit is omdat de versies 2.x en 5.x van de Elasticsearch [ Einde van het Leven ](https://www.elastic.co/support/eol) zijn en niet meer in Adobe Commerce gesteund. De client van de Elasticsearch moet up-to-date zijn of een implementatierisico lopen dat een fout veroorzaakt. Meer leren, verwijs naar [ Verandering de cliënt van de Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search) in onze ontwikkelaarsdocumentatie.
 
 ## Probleem
 
@@ -43,12 +43,12 @@ Wanneer het opstellen van u ziet een foutenmelding gelijkend op het volgende, er
 
 Om dit probleem op te lossen, moeten de de cliëntmodule en dienst van de Elasticsearch van de Elasticsearch op de recentste geadviseerde versies zijn:
 
-1. Volg de instructies om [ de module van de Elasticsearch ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html) in onze ontwikkelaarsdocumentatie te veranderen zodat hebt u de recentste geadviseerde versie van de de cliëntmodule van de Elasticsearch.
+1. Volg de instructies om [ de module van de Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search) in onze ontwikkelaarsdocumentatie te veranderen zodat hebt u de recentste geadviseerde versie van de de cliëntmodule van de Elasticsearch.
 1. [ leg een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor en verzoek een de dienstupdate van de Elasticsearch aan 6.x op het opvoeren en productie. Houd er rekening mee dat het enige tijd kan duren voordat een upgrade naar de service Elasticsearch is voltooid.
 
 ## Gerelateerde lezing
 
-* [ Adobe Commerce 2.3 de vereisten van de technologiestapel ](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements-tech.html) in onze ontwikkelaarsdocumentatie.
-* [ de dienst van de Elasticsearch van de opstelling ](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html) in onze ontwikkelaarsdocumentatie.
-* [ installeer en vorm Elasticsearch ](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in onze ontwikkelaardocumentatie.
+* [ Adobe Commerce 2.3 de vereisten van de technologiestapel ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) in onze ontwikkelaarsdocumentatie.
+* [ de dienst van de Elasticsearch van de opstelling ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch) in onze ontwikkelaarsdocumentatie.
+* [ installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search) in onze ontwikkelaardocumentatie.
 * [ verzeker Elasticsearch behoorlijk ](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md) in onze basis van steunkennis wordt geïnstalleerd.

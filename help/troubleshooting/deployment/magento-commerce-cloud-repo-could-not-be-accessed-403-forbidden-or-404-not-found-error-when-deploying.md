@@ -4,7 +4,7 @@ description: 'In dit artikel wordt beschreven hoe u de Adobe Commerce op een mis
 exl-id: 2f72d80a-05b2-4908-8fa8-61d06885ed07
 feature: Cloud, Deploy, Paas, Variables
 role: Developer
-source-git-commit: 9ca95444aa785191e4c8bf1603773f3430414797
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Als uw vergunning eerder wegens betalingskwesties werd ingetrokken, en u die kwe
 
 ### 2. Voeg de waarde van de toetsen toe aan de variabele env:COMPOSER\_AUTH en controleer of dezelfde toetsen zijn opgegeven in auth.json
 
-Zie de instructies en de verwante informatie in [ uw bestaand systeem ](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) voorbereiden en [ authentificatietoetsen ](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys) in onze ontwikkelaarsdocumentatie toevoegen.
+Zie de instructies en de verwante informatie in [ uw bestaand systeem ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) voorbereiden en [ authentificatietoetsen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) in onze ontwikkelaarsdocumentatie toevoegen.
 
 ### 3. Uth.json bijwerken of verwijderen
 

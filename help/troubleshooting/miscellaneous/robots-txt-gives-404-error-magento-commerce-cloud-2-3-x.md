@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor het probleem wanneer in het be
 exl-id: 6f0b9f47-1901-4c43-88d8-fd992015d70f
 feature: Cloud, Marketing Tools, Paas
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -38,5 +38,5 @@ Als u de zelfbediening hebt ingeschakeld, werkt u ECE-Tools bij naar minimaal 20
 ## Verwante lezing
 
 * [ hoe te om kwaadwillig verkeer voor Magento Commerce Cloud op Fastly niveau ](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) in onze steunkennisbasis te blokkeren.
-* [ voeg plaatstoewijzing en onderzoekmachine robots ](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) in onze ontwikkelaarsdocumentatie toe.
+* [ voeg plaatstoewijzing en onderzoekmachine robots ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) in onze ontwikkelaarsdocumentatie toe.
 * [ Robots van de Motor van het Onderzoek ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots) in onze gebruikersgids.

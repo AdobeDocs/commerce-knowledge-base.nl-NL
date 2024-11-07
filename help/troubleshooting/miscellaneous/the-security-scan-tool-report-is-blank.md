@@ -4,7 +4,7 @@ description: Dit artikel bevat een oplossing voor het probleem waarbij met het g
 exl-id: e5f7f8c6-2dd3-44e3-8d19-f1f38d06dd6c
 feature: Compliance, Security
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Dit artikel bevat een oplossing voor het probleem waarbij met het gereedschap Be
 
 <u> Stappen om </u> te reproduceren:
 
-1. Vorm het Hulpmiddel van het Scannen van de Veiligheid om uw website te controleren, zoals die in [ Scannen van de Veiligheid ](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) in onze gebruikersgids wordt beschreven.
+1. Vorm het Hulpmiddel van het Scannen van de Veiligheid om uw website te controleren, zoals die in [ Scannen van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) in onze gebruikersgids wordt beschreven.
 1. In de kolom van Acties, uitgezochte **Scannen van de Looppas**.
 
 <u> Verwachte resultaten </u>:
@@ -47,5 +47,5 @@ Probeer uw website te openen.
 
 ## Gerelateerde lezing
 
-* [ ga levend en lanceer ](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) in onze ontwikkelaardocumentatie.
-* [ Scannen van de Veiligheid ](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) in onze gebruikersgids.
+* [ ga levend en lanceer ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview) in onze ontwikkelaardocumentatie.
+* [ Scannen van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) in onze gebruikersgids.

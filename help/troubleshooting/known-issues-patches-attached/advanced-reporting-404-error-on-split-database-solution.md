@@ -1,10 +1,10 @@
 ---
 title: Advanced Reporting 404-fout bij gesplitste databaseoplossing
-description: Dit artikel biedt een patch voor Adobe Commerce 2.3.x-gebruikers met de [gesplitste databaseoplossing](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) die een fout van 404 ervaren wanneer ze proberen Geavanceerde rapportage te gebruiken.
+description: Dit artikel biedt een patch voor Adobe Commerce 2.3.x-gebruikers met de [gesplitste databaseoplossing](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master) die een fout van 404 ervaren wanneer ze proberen Geavanceerde rapportage te gebruiken.
 exl-id: b81d4ada-5f38-4882-bc5b-ab4ccd63fc5f
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Advanced Reporting 404-fout bij gesplitste databaseoplossing
 
-Dit artikel verstrekt een flard voor Adobe Commerce 2.3.x gebruikers met de [ gespleten gegevensbestandoplossing ](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) die een fout 404 wanneer het proberen om Geavanceerde Rapportering te gebruiken ervaart.
+Dit artikel verstrekt een flard voor Adobe Commerce 2.3.x gebruikers met de [ gespleten gegevensbestandoplossing ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master) die een fout 404 wanneer het proberen om Geavanceerde Rapportering te gebruiken ervaart.
 
 ## Betrokken producten en versies
 

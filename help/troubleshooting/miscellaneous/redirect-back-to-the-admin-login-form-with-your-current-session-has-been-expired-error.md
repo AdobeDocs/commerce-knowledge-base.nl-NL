@@ -4,7 +4,7 @@ description: 'Dit artikel biedt de mogelijke oplossingen voor het [!UICONTROL Co
 exl-id: 29df2ed2-ff4a-4f1a-bdb7-1160416cda00
 feature: Admin Workspace
 role: Developer
-source-git-commit: 3f205b1d755bda7056f47bf1e1d036feb47ebadd
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Controleer de sessierecord die in de tabel `admin_user_session` is gemaakt. Als 
 
 ### De sessieopslag wijzigen
 
-Wijzig de sessieopslag. Gebruik info van [ hoe te om van uw zittingsdossiers ](https://devdocs.magento.com/guides/v2.3/config-guide/sessions.html) artikel in onze ontwikkelaarsdocumentatie de plaats te bepalen om te weten te komen waar uw zitting wordt opgeslagen, en het te veranderen door het `app/etc/env.php` dossier uit te geven.
+Wijzig de sessieopslag. Gebruik info van [ hoe te om van uw zittingsdossiers ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/session-storage/sessions) artikel in onze ontwikkelaarsdocumentatie de plaats te bepalen om te weten te komen waar uw zitting wordt opgeslagen, en het te veranderen door het `app/etc/env.php` dossier uit te geven.
 
 Als u bijvoorbeeld een sessie wilt opslaan in het bestandssysteem, wijzigt u de sectie `'session'` als volgt:
 
@@ -69,7 +69,7 @@ Voer de opdracht `bin/magento app:config:import` uit om configuratiegegevens te 
 
 ## Gerelateerde lezing
 
-* [ de Gegevens van de Invoer van configuratiedossiers ](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html) in onze ontwikkelaarsdocumentatie
+* [ de Gegevens van de Invoer van configuratiedossiers ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/import-configuration) in onze ontwikkelaarsdocumentatie
 * [ vorm  [!DNL Redis] ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis) in onze ontwikkelaarsdocumentatie
 * [ richt terug naar de [!UICONTROL Commerce Admin] login vorm met &quot;Uw rekening is tijdelijk gehandicapt&quot;fout ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error) in onze basis van de steunkennis
 * [ richt terug naar de login vorm zonder fout, wanneer het proberen om aan [!UICONTROL Commerce Admin] ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin) in onze basis van de steunkennis aan te melden

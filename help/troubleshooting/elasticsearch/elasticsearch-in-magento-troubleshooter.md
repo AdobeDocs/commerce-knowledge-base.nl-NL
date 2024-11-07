@@ -3,7 +3,7 @@ title: Elasticsearch in Adobe Commerce probleemoplosser
 description: Problemen met de Elasticsearch in Adobe Commerce kunnen worden opgelost met het hulpprogramma voor het oplossen van problemen met Elasticsearch. Klik op elke vraag om het antwoord in elke stap van de probleemoplosser te onthullen.
 exl-id: acae0da0-2918-4021-9fbe-c138940c5a72
 feature: Categories
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -100,7 +100,7 @@ b. NO - als het statuut van catalogusonderzoek _vereist opnieuw indexeren_ in CL
 
 +++**`.yaml`bestand onlangs bijgewerkt?**
 
-a. JA - de configuratie van de Elasticsearch van de Controle `.yaml` door naar DevDocs [ Elasticsearch van de Opstelling te verwijzen: Om Elasticsearch ](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=elastic%20search%20yaml) toe te laten.\
+a. JA - de configuratie van de Elasticsearch van de Controle `.yaml` door naar DevDocs [ Elasticsearch van de Opstelling te verwijzen: Om Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch) toe te laten.\
 b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
@@ -131,7 +131,7 @@ b. NO - ga aan [ Stap 12 ](#step-12) te werk.
 
 +++**gebruik van de Opslag > 85%?**
 
-a. JA - U moet de beschikbare opslagruimte verhogen. Verwijs naar DevDocs [ Elasticsearch van de Opstelling: Om Elasticsearch ](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=elastic%20search%20yaml) toe te laten. Voer vervolgens uit: `localhost:9200/_cat/allocation?v` (als u zich op een testomgeving of een productieomgeving met Pro bevindt). Als u zich op een van de integratieomgevingen bevindt (die alle Starter-vertakkingen bevat), voert u het volgende uit: `elasticsearch.internal:9200/_cat/allocation?v`. Ga aan [ Stap 11 ](#step-11) te werk.\
+a. JA - U moet de beschikbare opslagruimte verhogen. Verwijs naar DevDocs [ Elasticsearch van de Opstelling: Om Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch) toe te laten. Voer vervolgens uit: `localhost:9200/_cat/allocation?v` (als u zich op een testomgeving of een productieomgeving met Pro bevindt). Als u zich op een van de integratieomgevingen bevindt (die alle Starter-vertakkingen bevat), voert u het volgende uit: `elasticsearch.internal:9200/_cat/allocation?v`. Ga aan [ Stap 11 ](#step-11) te werk.\
 b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
