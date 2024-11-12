@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: d197baf1644dd734880e6e36d6cf477bad3b1170
+source-git-commit: 03dfb2423e5cdb4e7f87e1e1f05a8261f3b4e602
 workflow-type: tm+mt
-source-wordcount: '9597'
+source-wordcount: '9587'
 ht-degree: 0%
 
 ---
@@ -961,7 +961,6 @@ ht-degree: 0%
       * [Beheerder kan geen bestelling/herschikking maken wanneer betaling via Braintree is ingeschakeld](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
       * [Items in de catalogustabel dupliceren na het bewerken van de einddatum van een planningupdate](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
       * [Adobe Commerce 2.3.5, 2.3.5-p1-patch: probleem met landbetaling](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-      * [Adobe Commerce 2.4.0-patch: retourneert probleem met aanmaak van verzendlabel](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-patch-returns-shipping-label-creation-issue.md)
       * [&quot;500 fout&quot; na het dubbelklikken op Koppeling verwijderen in winkelwagentje](/help/troubleshooting/known-issues-patches-attached/500-error-after-double-clicking-remove-link-in-shopping-cart.md)
       * [Pakketten die na een upgrade zijn gedowngraded van 2.4.4 naar 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Adobe Commerce 2.3.6, 2.4.1 CAPTCHA bij afrekenen werkt niet](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)

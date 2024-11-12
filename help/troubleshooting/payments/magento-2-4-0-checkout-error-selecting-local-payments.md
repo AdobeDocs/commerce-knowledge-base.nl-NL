@@ -4,9 +4,9 @@ description: '''In dit artikel wordt gesproken over een oplossing voor een beken
 exl-id: de2eafb0-d03c-4ff8-9615-0f2676d95848
 feature: B2B, Categories, Checkout, Orders, Payments
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: a8cc7ad0cb9cb111f5b9636ff18aef3b6ed44329
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,5 @@ De oplossing is het weergegeven foutbericht te negeren en de betaling als normaa
 * [Bekende uitgave van Adobe Commerce 2.4.0: onbewerkte weergave van berichtgegevens op winkel](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0: Export Tax Rates werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0: Betalingsmethoden voor Braintree worden niet weergegeven bij de afhandeling van meerdere adressen](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
-* [Bekende uitgave van Adobe Commerce 2.4.0: retourneert bewerkingspagina werkt niet meer bij het maken van een verzendlabel](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-patch-returns-shipping-label-creation-issue.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0: Vernieuwen van activiteiten van de Klant werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
 * [Adobe Commerce 2.4.0 B2B Admin kan geen configureerbaar product toevoegen om te citeren](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
