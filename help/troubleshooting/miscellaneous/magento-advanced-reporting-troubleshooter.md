@@ -4,7 +4,7 @@ description: Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgel
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 3b402728be7a80b62f21319d2cf91a92f1ad4a0c
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Als er meerdere basisvaluta&#39;s zijn gebruikt, kunt u Geavanceerde rapportage 
 
 Gebruikt u [ gespleten gegevensbestandoplossing ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)?
 
-a. JA - gebruik het flard **MDVA-26831** in [ Geavanceerde Rapportering 404 fout op gesplitste gegevensbestandoplossing ](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md) en duidelijk geheime voorgeheugen. Wacht 24 uur voordat de taak opnieuw wordt uitgevoerd en probeer het opnieuw.\
+a. JA - gebruik het flard **MDVA-26831** in Geavanceerde Rapportering 404 fout op gespleten gegevensbestandoplossing en duidelijk geheime voorgeheugen. Wacht 24 uur voordat de taak opnieuw wordt uitgevoerd en probeer het opnieuw.\
 b. NO - ga aan [ Stap 4 ](#step-4) te werk.
 
 +++

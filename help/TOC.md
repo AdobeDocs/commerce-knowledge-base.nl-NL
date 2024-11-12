@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 03dfb2423e5cdb4e7f87e1e1f05a8261f3b4e602
+source-git-commit: 692e665558205301f3b7915ce7eb9f3cf0288aff
 workflow-type: tm+mt
-source-wordcount: '9587'
+source-wordcount: '9579'
 ht-degree: 0%
 
 ---
@@ -965,7 +965,6 @@ ht-degree: 0%
       * [Pakketten die na een upgrade zijn gedowngraded van 2.4.4 naar 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Adobe Commerce 2.3.6, 2.4.1 CAPTCHA bij afrekenen werkt niet](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [E-mailadres bestellen dat is verzonden vanaf het e-mailadres van de server](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-      * [Advanced Reporting 404-fout bij gesplitste databaseoplossing](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)
       * [Prestatieproblemen veroorzaakt door buitensporige Ajax-aanvragen](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)
       * [Als u een gefaseerde update verwijdert, verwijdert u gerelateerde entiteit](/help/troubleshooting/known-issues-patches-attached/removing-staging-update-deletes-related-entity.md)
       * [Googles Analytics volgen geen conversiegegevens](/help/troubleshooting/known-issues-patches-attached/google-analytics-is-not-tracking-conversion-data.md)
