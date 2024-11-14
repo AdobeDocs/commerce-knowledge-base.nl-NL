@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor prestatieproblemen met Adobe C
 exl-id: 68dfca8a-826c-4476-acaf-a139052b5dcc
 feature: Cache
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 3bcdbd0536ec71cb80ffa3afbcd53c4ae385d2e3
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ De hoge productie AJAX verzoeken omvatten die met betrekking tot de privé inhou
 
 Er zijn drie oplossingen:
 
-* [ Verbetering aan versie 2.3.4 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version). Als dit momenteel niet mogelijk is, [ installeert het flard dat de kwestie ](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md) corrigeert.
+* [ Verbetering aan versie 2.3.4 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version).
 * Verzeker lichtere verzoeken (geheim voorgeheugenverzoeken of ga naar privé inhoud van klanten).
 * Verminder het aantal verzoeken.
 
