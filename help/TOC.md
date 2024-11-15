@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: bfbac61b95e895bcea90b6aa2f1190a30de7ba15
+source-git-commit: 63664230a110a4ebf37c058e3bde71f6a359ac13
 workflow-type: tm+mt
-source-wordcount: '9559'
+source-wordcount: '9478'
 ht-degree: 0%
 
 ---
@@ -955,17 +955,10 @@ ht-degree: 0%
       * [Adobe Commerce Admin URL-locatie wordt weergegeven](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
       * [Meerdere snijtaken gepland voor dezelfde periode](/help/troubleshooting/known-issues-patches-attached/multiple-cron-jobs-scheduled-for-the-same-time-period.md)
       * [Configureerbare productstalen die niet worden weergegeven, worden doorgehaald als de voorraad ophoudt](/help/troubleshooting/known-issues-patches-attached/configurable-product-swatches-not-displayed-as-crossed-out-when-out-of-stock.md)
-      * [503-fout op winkelvoorcataloguspagina&#39;s met &quot;schending van integriteitsbeperking&quot; in logboeken](/help/troubleshooting/known-issues-patches-attached/503-error-on-store-front-catalog-pages-with-integrity-constraint-violation-in-logs.md)
-      * [Meer producten zijn verwijderd dan was gestart tijdens massaal verwijderen in Admin](/help/troubleshooting/known-issues-patches-attached/not-selected-rows-are-deleted-during-mass-action-deletion.md)
-      * [Adobe Commerce op cloudinfrastructuur v2.3.5 Invalidatie van GraphQL-caching werkt niet](/help/troubleshooting/known-issues-patches-attached/magento-commerce-cloud-v2-3-5-graphql-caching-invalidation-not-working.md)
       * [Beheerder kan geen bestelling/herschikking maken wanneer betaling via Braintree is ingeschakeld](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
-      * [Items in de catalogustabel dupliceren na het bewerken van de einddatum van een planningupdate](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
-      * [Adobe Commerce 2.3.5, 2.3.5-p1-patch: probleem met landbetaling](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-      * [&quot;500 fout&quot; na het dubbelklikken op Koppeling verwijderen in winkelwagentje](/help/troubleshooting/known-issues-patches-attached/500-error-after-double-clicking-remove-link-in-shopping-cart.md)
       * [Pakketten die na een upgrade zijn gedowngraded van 2.4.4 naar 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Adobe Commerce 2.3.6, 2.4.1 CAPTCHA bij afrekenen werkt niet](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [E-mailadres bestellen dat is verzonden vanaf het e-mailadres van de server](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-      * [Adobe Commerce 2.4.1 en 2.3.6 maken een accountknop met uitgeschakelde hotfix](/help/troubleshooting/known-issues-patches-attached/2-4-1-and-2-3-6-create-an-account-button-disabled-hotfix.md)
       * [Adobe Commerce 2.4.6-fout bij het plaatsen van de volgorde in het deelvenster Beheer](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [[!UICONTROL salesRule] problemen met labels bij upgrades van versies &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
       * [[!DNL JQuery UI] veiligheid kwetsbaarheid  [!DNL CVE-2022-31160]  moeilijke situatie voor 2.4.4, 2.4.5, en 2.4.6 versies](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)

@@ -4,9 +4,9 @@ description: Dit artikel bevat aanbevelingen voor het voorkomen van een bekend p
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b3d39e6b02728f05f046adf7be94ffacbca944d5
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,6 @@ U kunt de moeilijke situatie in GitHub bekijken (gelieve te bedenken, dat de moe
 <p title="Opdrachten voor meerdere verzendingen met een virtueel product worden niet correct verwerkt in Adobe Commerce 2.3.5"><a href="/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md">Opdrachten voor meerdere verzendingen met een virtueel product worden niet correct verwerkt in Adobe Commerce 2.3.5</a></p>
 </li>
 <li><a href="/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md">Bulkactie product count known issue in Adobe Commerce 2.3.5</a></li>
-<li>
-<p title="Probleem met landbetalingsmethode in Adobe Commerce inzake cloudinfrastructuur en Adobe Commerce op locatie 2.3.5 en 2.3.5-p1"><a href="/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md">Probleem met landbetalingsmethode in Adobe Commerce inzake cloudinfrastructuur en Adobe Commerce op locatie 2.3.5 en 2.3.5-p1</a></p>
-</li>
 <li>
 <p title="Probleem met afhandeling van afhandeling voor Amazon Pay in Adobe Commerce 2.3.5-p1"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Probleem met afhandeling van afhandeling voor Amazon Pay in Adobe Commerce 2.3.5-p1</a></p>
 </li>
