@@ -4,9 +4,9 @@ description: Alles wat u moet weten om problemen op te lossen en uw Commerce-win
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
-source-git-commit: 607b835da518536196654734f62d78d095099476
+source-git-commit: 52d07e5a5bb7be492f6799d0e5ad9fd49c3a61ae
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -43,209 +43,137 @@ De informatie in deze Kennisbank wordt ontworpen als aanvulling op [ de Document
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25075"> het Scannen van het Hulpmiddel van het Scannen van de Veiligheid keert "kan niet bepalen als uw server 2FA"gebruikt:</a> om de fout op te lossen, controleer of de <code>Magento_TwoFactorAuth</code> module is onbruikbaar gemaakt. Als u de controle wilt doorstaan, moet deze over het algemeen zijn ingeschakeld.
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25234"> de overdracht van de Vergunning toe te schrijven aan herstructurering:</a> Dit artikel zal u helpen uw Adobe Commerce rekeningseigendom met gemak overschakelen, met inbegrip van alle essentiële stappen die worden vereist om uw diensten te houden die zonder problemen lopen.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60632-address-saved-on-every-order-attempt"> ACSD-60632: Adres dat met elke ordepoging wordt bewaard:</a> het ACSD-60632 flard lost de kwestie op waar een nieuw adres met elke poging van de orderplaatsing wordt bewaard, ongeacht of de orde met succes wordt gecreeerd of niet. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.51 wordt geïnstalleerd.
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25289"> de updates van de Veiligheid beschikbaar voor Adobe Commerce (APSB24-90):</a> Op 12 november 2024, vrijgegeven de Adobe een veiligheidsupdate voor Adobe Commerce (op Wolk en op-gebouw) en Magento Open Source eigenschappen aangedreven door Commerce Services en opgesteld als Software als Dienst. Deze update verhelpt a <a href="https://helpx.adobe.com/security/severity-ratings.html"> kritieke </a> kwetsbaarheid. 
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60326-graphql-query-error-customer-return-status"> ACSD-60326: De vraag van GraphQL op klant geeft status terug geeft een fout:</a> Het ACSD-60326 flard moeilijke situatie waar een fout in de vraag van GraphQL voor klant terugkeert status voorkomt. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.51 wordt geïnstalleerd.
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231"> MageID de rekeningseigenaar kan niet login en een steunkaartje voorleggen:</a> Dit artikel richt de kwestie van Adobe Commerce waar u niet aan login aan uw rekening (MageID) in account.magento.com kunt om een steunkaartje voor te leggen.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59925-sorting-items-in-media-gallery"> ACSD-59925: Het sorteren van punten in de Galerij van Media door positie in GraphQL:</a> ACSD-59925 flardmoeilijke situatie waar de punten in de Galerij van Media niet door positie worden gesorteerd, leidend tot een onjuiste vertoningsorde. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.52 wordt geïnstalleerd.
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25135"> OOTB de uitbreiding van de Braintree voor Adobe Commerce mist steun voor recentste gebieden van Visa 3DS:</a> Dit artikel verklaart hoe te om aan de nieuwe verordeningen van het Visa na te leven aangezien de Adobe Commerce uit-van-de-doos uitbreiding van de Braintree geen steun voor de recentste gebieden van Visa 3DS heeft.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-61322-products-not-assigned-to-shared-catalogue"> ACSD-61322: De producten niet die aan Gedeelde Catalogus worden toegewezen zijn inbegrepen in de Sitemap van XML:</a> het markering ACSD-61322 moeilijke situatie waar de producten/de categorieën niet die aan de Gedeelde Catalogus voor de Standaard (Algemene) groep worden toegewezen nog inbegrepen in de Sitemap van XML zijn. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.52 wordt geïnstalleerd.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-61528-retrieving-roles-using-graphql-returns-no-results"> ACSD-61528: Het terugwinnen van rollen die GraphQL gebruiken keert geen resultaten terug:</a> het ACSD-61528 flard lost de kwestie op waar het terugwinnen van rollen van de beheerder van het bedrijf die GraphQL gebruiken altijd een ongeldig resultaat terugkeert. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.53 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60590-optimized-bestseller-report-generation"> ACSD-60590: Het verbeteren van prestaties van Bestsellers Geaggregeerde Dagelijkse de generatie van het Rapport:</a> het flard ACSD-60590 moeilijke situatie waar het Bestsellers Geaggregeerde Dagelijkse Rapport een significante hoeveelheid tijd vergt om voor een groot volume van geplaatste orden te produceren. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.52 wordt geïnstalleerd.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-48318-environment-emulation-nesting-error-in-system-log"> ACSD-48318: Het nestelen van de wedijver van het milieu fout in system.log:</a> ACSD-48318 herstelt de kwestie waar een foutenmelding <em> main.ERROR:Het nesten van de wedijver van het milieu wordt niet toegestaan </em> verschijnt in <code>system.log</code> telkens als een factuur e-mail wordt verzonden. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.53 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59865-cart-price-rule-fix-for-insufficient-quantity-issue"> ACSD-59865: De Regel van de Prijs van de Kar annuleert vorige regels wegens ontoereikende producthoeveelheid:</a> ACSD-59865 flardfixes de kwestie waar de <em> waarde van de Korting van de Korting van de Korreligheid </em> in <em> Vaste waardekorting </em>, <em> Procent van de korting van de productprijs </em>, en <em> krijgt Y </em> Regels voor winkelwagenprijzen annuleert niet langer de handeling van eerdere regels. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.52 wordt geïnstalleerd.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59366-delete-teams-with-deactivated-users-not-visible-in-the-team-list"> ACSD-59366: Schrap teams met gedeactiveerde gebruikers niet zichtbaar in de teamlijst:</a> ACSD-59366 flardmoeilijke situatie waar een fout voorkomt wanneer u probeert om een team te schrappen dat gedeactiveerde gebruikers bevat die niet zichtbaar in de teamlijst zijn. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.52 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin"> Fout wanneer het filtreren van orden in Admin:</a> Dit artikel verstrekt een flard voor de kwestie van Adobe Commerce waar een fout voorkomt wanneer het proberen om orden in Admin door datum te filtreren, tonend het bericht: <em> schending van de de beperkingsbeperking van de Integriteit: 1052 Kolom "created_at"waar de clausule dubbelzinnig is </em>.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60234-paypal-shows-an-incorrect-amount-when-discount-is-applied"> ACSD-60234: PayPal toont een onjuist bedrag wanneer de korting wordt toegepast:</a> ACSD-60234 herstelt de flard waar [!DNL PayPal] een onjuist bedrag toont wanneer de korting door de betalingsmethode wordt toegepast. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.51 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25030"> Adobe Commerce: De Kwesties van Inline JavaScript op checkout pagina in de beperkte wijze van het Beleid van de Veiligheid van de Inhoud (CSP):</a> Dit artikel verstrekt gedetailleerde verklaringen en oplossingen voor kwesties die met douane JavaScript worden ontmoet die via de Manager van de Markering van Adobe Commerce Admin en van Google in Adobe Commerce 2.4.7 wordt toegevoegd tijdens controle wanneer <strong> CSP beperkte wijze </strong> wordt toegelaten.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60673-cart-price-rule-fix-for-multiple-payment-methods-at-checkout"> ACSD-60673: De kwestie van de Regel van de Prijs van de winkelwagentje die voor veelvoudige betalingsmethodes bij controle wordt bevestigd:</a> ACSD-60673 flardmoeilijke situatie de kwestie waar de kortingen van a [!UICONTROL Cart Price Rule] die een betalingsmethode gebruiken niet altijd in de totalen worden vermeld. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.52 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-61195-empty-cart-on-final-graphql-page"> ACSD-61195: Het verzoek van GraphQL van de Kar ontbreekt om punten op definitieve pagina terug te keren:</a> het markering ACSD-61195 bevestigt de kwestie waar geen wortelpunten op de laatste pagina voor het bevel van GraphQL van de kar zijn teruggekeerd. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.51 wordt geïnstalleerd.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-60584-access-token-created-for-one-website-is-allowed-to-access-information-on-other-websites"> ACSD-60584: Het toegangstoken dat voor één website wordt gecreeerd wordt toegestaan om tot informatie over andere websites toegang te hebben:</a> ACSD-60584 herstelt de kwestie waar het toegangstoken dat voor de gebruiker op één website wordt gecreeerd tot klanteninformatie op andere websites wordt toegelaten of verandert. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.53 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-50/acsd-59514-forms-in-admin-with-page-builder-throw-error-in-browser-console"> ACSD-59514: Forms in Admin met de Bouwer van de Pagina werpen fout in browser console:</a> ACSD-59514 herstelt het flard waar de vormen in Admin met de Bouwer van de Pagina de fout <em> Bouwer van de Pagina teruggeven voor 5 seconden zonder loslaat </em> in de browser console na het voorleggen van de vorm, en de veranderingen kunnen niet worden bewaard. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.50 wordt geïnstalleerd.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60788-fixes-issue-where-custom-scripts-for-google-tag-manager-are-not-executed-due-to-content-security-policy-errors"> ACSD-60788: De manuscripten van de Douane voor de Manager van de Markering van Google worden niet uitgevoerd toe te schrijven aan de fouten van het Beleid van de Veiligheid van de Inhoud:</a> ACSD-60788 herstellen de kwestie waar de douanescripten voor [!DNL Google Tag Manager] niet wegens de fouten van het Beleid van de Veiligheid van de Inhoud worden uitgevoerd. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.52 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60538-if-product-is-disabled-attributes-dont-show"> ACSD-60538: De attributen tonen niet correct als het product in <em> Alle Kijken van de Opslag </em> wordt onbruikbaar gemaakt:</a> ACSD-60538 flardmoeilijke situaties de kwestie waar als een product in <em> Alle Kijken van de Opslag </em> wordt onbruikbaar gemaakt en slechts in specifieke gebieden van de opslagmening wordt toegelaten, tonen de productattributen niet correct in de reactie van GraphQL, waardoor het product niet correct wordt weergegeven. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.51 wordt geïnstalleerd.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-61366-setup-command-fails-with-error"> ACSD-61366: Het <code>bin/magento setup:static-content:deploy --jobs 4</code> bevel ontmoet veelvoudige baanmislukkingen met een fout:</a> ACSD-61366 flardmoeilijke situaties het probleem waar het <code>bin/magento setup:static-content:deploy --jobs 4</code> bevel veelvoudige baanmislukkingen met de <em> Haven ontmoet moet binnen de gastheerparameter </em> fout worden gevormd, ondanks het specificeren van de haven voor de verbinding van DB. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.52 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-50/acsd-58352-return-attribute-labels-for-the-default-store-are-returned-via-graphql-api"> ACSD-58352: De de attributenetiketten van de terugkeer voor de standaardopslag zijn teruggekeerd via GraphQL API:</a> ACSD-58352 flardmoeilijke situatie waar de etiketten van de terugkeerattributen voor de standaardopslag via GraphQL API zijn teruggekeerd wanneer een niet-standaard opslagmening in de verzoekkopbal wordt gespecificeerd. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.50 wordt geïnstalleerd.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60816-newrelic-browser-monitoring-scripts-injected-by-apm-agent-are-not-compliant-with-csp"> ACSD-60816: De browser van New Relic die manuscripten controleren door de agent APM worden ingespoten is niet volgzaam met CSP:</a> het ACSD-60816 flard bevestigt de kwestie waar [!DNL New Relic] browser die manuscripten controleert die door de agent APM worden ingespoten niet volgzaam met het Beleid van de Veiligheid van de Inhoud (CSP) zijn. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.51 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-24983"> het <em> drop-down van de Rekeningen van de Schakelaar </em> mist van uw rekening:</a> Dit artikel verstrekt een oplossing aan de kwestie van Adobe Commerce waar <em> de rekeningen van de Schakelaar </em> dropdown van uw rekening mist, en u hebt toegang verloren om kaartjes namens de handelaar voor te leggen.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59952-error-on-deleting-shared-catalog-with-same-group-id-as-another-shared-catalog"> ACSD-59952: Fout bij het schrappen van gedeelde catalogus met zelfde groepsidentiteitskaart zoals een andere gedeelde catalogus:</a> het flard ACSD-59952 bevestigt de fout die wanneer het schrappen van gedeelde catalogi met het zelfde <code>customer_group_id</code> wordt geworpen als een andere gedeelde catalogus. Bovendien wordt hiermee voorkomen dat gebruikers dergelijke gedeelde catalogi maken. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.52 wordt geïnstalleerd.
     </td>
-    <td>Nieuw artikel</td>
-    <td>17 oktober 2024</td>
-  </tr>
-
-<tr>  
-    <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted"> ACSD-56979: De beelden van het product die na het opvoeren verwijderde update worden verwijderd:</a> ACSD-56979 herstelt de kwestie waar de productbeelden na het schrappen van een het opvoeren update worden verwijderd. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.49 wordt geïnstalleerd.  
-    </td>
-    <td>Nieuw artikel</td>
-    <td>17 oktober 2024</td>
+    <td>Nieuw artikel </td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values"> ACSD-48210: De de meningsspecifieke werkingsgebiedattributen van de opslag treden globale waarden met voeten:</a> het ACSD-48210 flard lost de kwestie op waar wanneer het bijwerken van het attribuut van het Werkingsgebied van de a <em> Website </em> binnen een specifieke opslagmening de attributenwaarden in het globale werkingsgebied met voeten treedt. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.50 wordt geïnstalleerd. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-59786-graphql-returns-an-error-when-fetching-a-quote-id-for-an-expired-quote"> ACSD-59786: GraphQL keert een fout terug wanneer het halen van a <code>quote_id</code> voor een verlopen citaat:</a> het flard ACSD-59786 lost de kwestie op waar een vraag van GraphQL een fout wanneer het halen van a <code>quote_id</code> voor een verlopen citaat terugkeert. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.51 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-59280-fix-for-reflection-union-type-error"> ACSD-59280: De fout van RefCollectionUnionType::getName () in 2.4.4-pX installaties:</a> het flard ACSD-59280 lost de kwestie op waar de vraag aan ongedefinieerde methode <code>ReflectionUnionType::getName()</code> fout tijdens de installatie van 2.4.4-pX versies voorkomt. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.50 wordt geïnstalleerd. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-59967-javascript-error-prevents-google-maps-from-rendering-correctly"> ACSD-59967: De fout van JavaScript verhindert de Kaarten van Google correct terug te geven:</a> ACSD-59967 herstelt de kwestie waar de fout van JavaScript [!DNL Google Maps] verhindert correct terug te geven. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.51 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-54887-customer-shopping-cart-gets-cleared-after-session-expiry"> ACSD-54887: Het winkelwagentje van de klant wordt ontruimd nadat de klantenzitting is verlopen:</a> ACSD-54887 herstelt de flard waar het het winkelwagentje van de klant wordt ontruimd nadat de klantenzitting met <em> Persistent het Winkelen Kart </em> toegelaten is verlopen. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.50 wordt geïnstalleerd. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-59930-improves-performance-of-company-flows"> ACSD-59930: Verbetert prestaties van de stromen van het bedrijf:</a> ACSD-59930 herstelt de kwestie waar de a <em> Onderbreking </em> fout in het admin paneel wanneer het creëren van, het bewaren van, of het schrappen van een bedrijf met admin wordt getoond die 100+ adressen in het adresboek heeft. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.53 wordt geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-60303-admin-order-placement-fix"> ACSD-60303: Het probleem van de orderplaatsing van Admin die met toegelaten HTML minificatie wordt opgelost:</a> ACSD-60303 flardmoeilijke situatie waar een orde van Admin niet kan worden geplaatst als de minificatie van de HTML wordt toegelaten. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.50 wordt geïnstalleerd. 
-    </td>
-    <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-57045-url-rewrites-cause-infinite-page-looping-after-website-root-unchecked-hierarchy"> ACSD-57045: URL herschrijft oorzaak oneindige pagina het van een lus voorzien na <em> Wortel van de Website </em> ongecontroleerd van Hiërarchie:</a> ACSD-57045 flardmoeilijke situatie waar URL opnieuw schrijft oorzaak oneindige pagina het van een lus voorzien nadat <em> Wortel van de Website </em> van Hiërarchie wordt ongecontroleerd. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.49 wordt geïnstalleerd.
-    </td>
-    <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/ascd-58446-deleting-a-team-with-child-users-or-teams-via-graphql-gives-an-uninformative-error-message"> ACSD-58446: Het schrappen van een team met kindgebruikers of teams via GraphQL geeft een uninformatieve foutenmelding:</a> ACSD-58446 flardfixes de kwestie van Adobe Commerce waar het schrappen van een team met kindgebruikers of teams via GraphQL een uninformatief foutenmelding inconsequent met UI terugkeert. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.49 wordt geïnstalleerd. 
-    </td>
-    <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-58375-wrong-youtube-api-key-configuration-causes-an-error-when-adding-a-youtube-video-at-the-store-view-level"> ACSD-58735: De onjuist gevormde sleutel van YouTube API veroorzaakt fout wanneer het toevoegen van video op het niveau van de opslagmening:</a> ACSD-58735 herstelt de flard waar de verkeerde belangrijkste configuratie van YouTube API een fout veroorzaakt wanneer het toevoegen van een video van YouTube op het niveau van de opslagmening. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.49 wordt geïnstalleerd. 
-    </td>
-    <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-57086-orders-placed-from-non-default-websites-with-terms-conditions-processed-incorrectly"> ACSD-57086: De orden van niet-gebrek websites met toegelaten voorwaarden worden verkeerd verwerkt:</a> het flard ACSD-57086 bevestigt de kwestie waar de orden die van niet-gebrek websites met toegelaten voorwaarden worden geplaatst niet correct worden verwerkt. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.49 wordt geïnstalleerd. 
-    </td>
-    <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled"> ACSD-58141: PHPSESSID regenereert op de verzoeken van de POST voor het programma geopende klanten als L2 Redis geheime voorgeheugen wordt toegelaten:</a> ACSD-58141 flardmoeilijke situatie waar PHPSESSID op de verzoeken van de POST voor een het programma geopende klant regenereert als L2 Redis geheime voorgeheugen wordt toegelaten, en de klant wordt bijgewerkt van Admin. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.50 wordt geïnstalleerd. 
-    </td>
-    <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58790-fixes-pinch-to-zoom-functionality-on-the-product-detail-page-images-in-mobile-view-on-chrome"> ACSD-58790: lost knijpfunctionaliteit aan gezoem op de beelden van de productdetailpagina in mobiele mening op Chrome op:</a> het markering ACSD-58790 verhelpt de kwestie van Adobe Commerce waar het beeld in mobiele mening op Chrome niet op het beeld zoals verwacht inzoomde. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.50 wordt geïnstalleerd. 
-    </td>
-    <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58442-fixes-issue-devices-768px-mobile-view-instead-desktop"> ACSD-58442: Verhelpt de kwestie waar de apparaten met 768px breedte die als mobiel worden behandeld, menu en kopbal veroorzaken om in mobiele mening te laden niet Desktop:</a> ACSD-58442 herstelt de flard van Adobe Commerce waar de apparaten met een breedte van 768px als mobiel worden behandeld, veroorzakend het menu en de kopbal in plaats in een mobiele mening te laden van een bureaublad. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.50 wordt geïnstalleerd.
-    </td>
-    <td>Nieuw artikel </td>
-    <td>17 oktober 2024</td>
+    <td>14 november 2024</td>
   </tr>
 </table>
