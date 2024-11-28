@@ -3,9 +3,9 @@ title: Gebruikershandleiding voor ondersteuning van Experiencen League voor Adob
 description: Leer hoe te om een steunkaartje aan de Steun van het Experience League voor te leggen, gedeelde toegang tot rekeningen te verlenen, en de Kennisbank van Adobe Commerce te navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7a70f2c54396f82424e442aca7413c02ebecddb9
+source-git-commit: 7fbedaaf0d4edccc688be24951a7d30a9e774be8
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2782'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Uw ondersteuningszaken zijn die van u:
 
 #### Bekijk je kwesties
 
-U kunt de gevallen die u persoonlijk hebt verzonden, weergeven door op **[!UICONTROL My Cases]** in het linkermenu te klikken.
+U kunt de gevallen die u persoonlijk hebt verzonden, weergeven door op **[!UICONTROL My Cases]** in het linkermenu te klikken. Zorg ervoor dat u de juiste organisatie hebt geselecteerd die eindigt in &quot;(Commerce)&quot;.
 
 ![ mening-steun-gevallen ](assets/view_support_cases.png)
 
