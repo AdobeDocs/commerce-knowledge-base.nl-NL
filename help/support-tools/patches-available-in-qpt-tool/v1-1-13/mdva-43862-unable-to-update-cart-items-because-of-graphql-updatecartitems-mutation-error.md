@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43862: klant kan winkelwagentjes niet bijwerken vanwege een mutatiefout in GraphQL UpdateCartItems"
+title: 'MDVA-43862: klant kan winkelwagentjes niet bijwerken vanwege een mutatiefout in GraphQL UpdateCartItems'
 description: De MDVA-43862-patch lost het probleem op waarbij de klant geen winkelwagentjes kan bijwerken vanwege een GraphQL UpdateCartItems-mutatiefout. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is geïnstalleerd. De patch-id is MDVA-43862. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 5f0a2970-34a8-4a25-baf8-15c007f97084
 feature: GraphQL, Orders, Shopping Cart

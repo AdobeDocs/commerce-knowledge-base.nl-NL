@@ -1,5 +1,5 @@
 ---
-title: 'Bekende uitgave voor Adobe Commerce 2.4.0: knoppen voor nieuwe volgorde ontbreken'
+title: 'Bekende uitgave van Adobe Commerce 2.4.0: knoppen Nieuwe volgorde maken ontbreken'
 description: Dit artikel biedt een oplossing voor een bekend probleem in Commerce Admin voor twee ontbrekende knoppen op de pagina voor het maken van bestellingen. Wanneer u een nieuwe bestelling maakt voor een nieuwe of bestaande klant, is het niet mogelijk om producten aan de bestelling uit de catalogus toe te voegen omdat de knoppen **Producten toevoegen door SKU** en **Producten toevoegen*** ontbreken. Dit wordt veroorzaakt doordat JS-bundeling wordt ingeschakeld. Een oplossing is beschikbaar in Adobe Commerce 2.4.1.
 exl-id: 24ae880e-6d74-4444-9165-2744b12af81a
 feature: B2B

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51041: Prijsindex duurt erg lang om te voltooien'
+title: 'ACSD-51041: Het duurt erg lang om de prijsindex te voltooien'
 description: Pas de ACSD-51041-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de prijsindex lang duurt om te voltooien met een zeer grote productset.
 exl-id: 442f5eae-ca00-4329-be24-68970624928f
 feature: Configuration

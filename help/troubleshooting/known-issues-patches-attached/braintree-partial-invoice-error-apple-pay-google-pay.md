@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.4: Kan geen gedeeltelijke facturen maken"
+title: 'Adobe Commerce 2.4.4: Onbekwaam om gedeeltelijke facturen te creëren'
 description: Dit artikel bevat een hotfix voor het probleem waarbij gebruikers geen gedeeltelijke facturen kunnen maken wanneer ze Apple Pay of Google Pay via Braintree als betalingsmethode gebruiken.
 exl-id: bf78cc07-9dc7-4eb8-bfdf-57ea5131effb
 feature: Invoices, Orders, Payments

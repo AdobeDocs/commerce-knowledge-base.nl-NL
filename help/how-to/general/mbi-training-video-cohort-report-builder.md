@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Commerce Intelligence Training Video: Cohort Report Builder'
+title: 'Adobe Commerce Intelligence Training Video: Report Builder Cohort'
 description: Hebt u ooit willen onderzoeken hoe verschillende subsets van uw gebruikers zich in de loop der tijd gedragen? Bijvoorbeeld, vroeg ooit zich af of de gebruikers die tijdens een bevorderingsperiode registreren een hogere gemiddelde levenopbrengst hebben dan zij die niet? Als het antwoord "Ja!" is, dan is de Report Builder Cohort het perfecte hulpmiddel voor u. Commerce Intelligence is speciaal geoptimaliseerd om deze analyse uit te voeren en relevant te maken voor uw bedrijf.
 exl-id: c3e2415a-7251-46ae-9ddc-a5b86c85602c
 feature: Commerce Intelligence

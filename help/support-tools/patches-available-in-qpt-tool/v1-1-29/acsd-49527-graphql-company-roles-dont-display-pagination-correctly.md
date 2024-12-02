@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49527: De het bedrijfrollen van GraphQL tonen correct paginering niet."
+title: 'ACSD-49527: De het bedrijfrollen van GraphQL tonen correct paginering niet'
 description: Pas de ACSD-49527-patch toe om het Adobe Commerce-probleem op te lossen waarbij de GraphQL-bedrijfsrollen de paginering niet correct weergeven.
 exl-id: e2d50081-8002-490e-9476-a19ba6623bda
 feature: B2B, GraphQL, Companies, Roles/Permissions

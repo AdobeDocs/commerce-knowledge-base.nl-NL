@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39966: Kan geen andere landinstellingen dan en_US implementeren'
+title: 'MDVA-39966: Kan geen andere landinstellingen implementeren dan nl_NL'
 description: De MDVA-39966-patch lost het probleem op waarbij de gebruiker geen andere landinstellingen dan nl_NL kan implementeren. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is geïnstalleerd. De patch-id is MDVA-39966. Het probleem is opgelost in Adobe Commerce versie 2.4.1.
 exl-id: fc0f5ef4-f6be-4f0d-af8d-803b411510a9
 feature: Deploy

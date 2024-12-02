@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.2 B2B: disconto blijft wijziging loonmethode"
+title: 'Adobe Commerce 2.4.2 B2B: disconto blijft wijziging loonmethode'
 description: In dit artikel wordt een bekende Adobe Commerce 2.4.2 B2B-uitgifte beschreven waarbij een aan een betalingsmethode gekoppelde korting blijft bestaan nadat een betalingsmethode bij de kassa is gewijzigd. Er is momenteel geen resolutie beschikbaar.
 exl-id: cd863852-403b-404f-8717-c78c238f5f33
 feature: B2B, Orders, Payments, Personalization

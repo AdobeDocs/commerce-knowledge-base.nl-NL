@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48784: Prijzen van klantensegmenten die onjuist tussen klantengroepen zijn in de cache zijn geplaatst"
+title: 'ACSD-48784: Prijzen van klantensegmenten worden onjuist in cache geplaatst tussen klantengroepen'
 description: Pas de ACSD-48784-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de prijzen van klantensegmenten onjuist tussen klantgroepen worden vastgelegd.
 exl-id: 6be11fd0-5c93-4ac7-8664-7e2a289c9e38
 feature: Admin Workspace, Cache, Customer Service, Orders

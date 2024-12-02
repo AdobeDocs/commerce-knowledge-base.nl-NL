@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40101: Objecten blijven een miniwinkelwagentje na bestelling PayPal Express Checkout'
+title: 'MDVA-40101: Objecten blijven miniwinkelwagentje na bestelling PayPal Express Checkout'
 description: De MDVA-40101-patch verhelpt het probleem dat items niet uit de mini-kar worden verwijderd nadat een bestelling met PayPal Express Checkout is geplaatst. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4 is geïnstalleerd. De patch-id is MDVA-40101. Deze kwestie is opgelost in Adobe Commerce 2.4.0.
 exl-id: d640dfcd-6fb6-4cc6-8817-3ae19aa59bed
 feature: Checkout, Orders, Payments, Shopping Cart

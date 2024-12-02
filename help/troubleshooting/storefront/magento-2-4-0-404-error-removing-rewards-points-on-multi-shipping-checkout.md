@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.0: 404 error removing rewards on multi-Shipping checkout"
+title: 'Adobe Commerce 2.4.0: 404-fout: beloningspunten verwijderen bij afhandeling via meerdere verzendingen'
 description: Dit artikel biedt een oplossing voor een bekende uitgave in Adobe Commerce 2.4.0 voor een fout op de webpagina "*404 Niet gevonden*"" wanneer u beloningspunten verwijdert op een pagina voor multiverzending. Op de pagina voor afhandeling van meerdere verzendingen wordt op dit moment een pagina "*404 Niet gevonden*" weergegeven in plaats van een geslaagde annulering van bonuspunten. Deze pagina is bedoeld om bonuspunten te verwijderen die zijn gebruikt om een bestelling te betalen. Dit probleem wordt opgelost in een Adobe Commerce 2.4.1-patch-release.
 exl-id: 59de4b3d-af28-4ae8-8f55-4ec958e6ee8b
 feature: B2B, Checkout, Orders, Rewards, Shipping/Delivery, Storefront

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54067: Productvideo wordt niet afgespeeld op een mobiel apparaat'
+title: 'ACSD-54067: productvideo wordt niet afgespeeld op een mobiel apparaat'
 description: Pas de ACSD-54067-patch toe om het Adobe Commerce-probleem op te lossen waarbij een productvideo niet op een mobiel apparaat wordt afgespeeld.
 feature: Media, Products
 role: Admin, Developer

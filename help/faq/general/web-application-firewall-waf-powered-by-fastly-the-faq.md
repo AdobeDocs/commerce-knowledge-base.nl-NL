@@ -1,5 +1,5 @@
 ---
-title: 'Web Application Firewall (WAF) aangedreven door Fastly: de veelgestelde vragen'
+title: 'Web Application Firewall (WAF) met snelwerkende kracht: veelgestelde vragen'
 description: De Vuurmuren van de Toepassing van het Web (WAFs) verhinderen kwaadwillig verkeer plaatsen en netwerken in te gaan door verkeer tegen een reeks veiligheidsregels te filtreren. Het verkeer dat om het even welke regels teweegbrengt wordt geblokkeerd alvorens het uw plaatsen of netwerk kan beschadigen.
 exl-id: d977ea68-7d8c-4863-b026-acdc25d8c430
 feature: Cache
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Web Application Firewall (WAF) aangedreven door Fastly: de veelgestelde vragen
+# Web Application Firewall (WAF) met snelwerkende kracht: veelgestelde vragen
 
 ## Hoe werkt Adobe Commerce managed cloud WAF (aangedreven door Fastly)?
 
@@ -18,25 +18,25 @@ De Vuurmuren van de Toepassing van het Web (WAFs) verhinderen [ kwaadwillig verk
 
 Adobe Commerce cloud WAF biedt een WAF-beleid met een regel die is ontworpen om uw Adobe Commerce-webtoepassingen te beschermen tegen een groot aantal aanvallen.
 
-WAF onderzoekt Web en admin verkeer om het even welke verdachte activiteit te identificeren. Het evalueert het verkeer van de GET en van de POST (de vraag van HTTP API) en past de regel toe die wordt geplaatst om te bepalen welk verkeer aan blok. WAF kan een grote verscheidenheid van aanvallen, met inbegrip van SQL injectieaanvallen, dwars-plaats scripting aanvallen, de aanvallen van de gegevensexfiltratie, en de protocolschendingen van HTTP blokkeren.
+WAF onderzoekt het web- en beheerverkeer om verdachte activiteiten te identificeren. Het evalueert het verkeer van de GET en van de POST (de vraag van HTTP API) en past de regel toe die wordt geplaatst om te bepalen welk verkeer aan blok. WAF kan een grote verscheidenheid van aanvallen, met inbegrip van SQL injectieaanvallen, dwars-plaats scripting aanvallen, de aanvallen van de gegevensexfiltratie, en de protocolschendingen van HTTP blokkeren.
 
-Als cloudgebaseerde service vereist de WAF geen hardware of software voor installatie of onderhoud. Ten slotte, een bestaande technologiepartner, verstrekt de software en de deskundigheid. Hun krachtige, altijd-op WAF verblijft in elke geheim voorgeheugenknoop over het globale leveringsnetwerk van Fastly.
+Als cloudservice vereist de WAF geen hardware of software om te installeren of te onderhouden. Ten slotte, een bestaande technologiepartner, verstrekt de software en de deskundigheid. Hun krachtige, altijd-op WAF verblijft in elk geheim voorgeheugenknoop over het globale leveringsnetwerk van Fastly.
 
-## Is WAF beschikbaar voor alle wolkenklanten?
+## Is de WAF beschikbaar voor alle cloudklanten?
 
-Ja, de WAF-service voor de cloud is inbegrepen in uw Adobe Commerce-abonnement voor cloudinfrastructuur voor zowel Adobe Commerce op Starter-planarchitectuur voor de cloud-infrastructuur als Adobe Commerce op de architectuurplannen voor cloudinfrastructuur Pro zonder extra kosten. De WAF-service is beschikbaar in Productie- en Staging-omgevingen.
+Ja, de cloudservice van WAF is inbegrepen in uw Adobe Commerce op een abonnement voor cloudinfrastructuur voor zowel Adobe Commerce op de Starter-planarchitectuur van de cloudinfrastructuur als Adobe Commerce op de architectuurplannen van de cloud Infrastructure Pro zonder extra kosten. De WAF-service is beschikbaar in productie- en testomgevingen.
 
-## Voldoet WAF aan vereisten PCI DSS 6.6?
+## Voldoet WAF aan de vereisten voor PCI DSS 6.6?
 
 Ja.
 
-## Als mijn Adobe Commerce op de rekening van de wolkeninfrastructuur plaatsen op veelvoudige domeinen beheert, is het WAF profiel voor elk domein, of collectief voor alle domeinen wordt afgestemd?
+## Als mijn Adobe Commerce on cloud Infrastructure-account sites beheert op meerdere domeinen, is het WAF-profiel dan afgestemd voor elk domein of voor alle domeinen samen?
 
-De WAF wordt collectief afgestemd voor alle domeinen onder één enkele wolkenrekening.
+De WAF wordt collectief afgestemd voor alle domeinen onder één cloud-account.
 
-## Welke regels worden gebruikt voor de WAF?
+## Welke regels worden er voor de WAF gehanteerd?
 
-De regel die is ingesteld in het WAF-profiel dat op uw Adobe Commerce wordt toegepast voor de productieomgeving van de cloudinfrastructuur, is gebaseerd op de instelling voor de bescherming tegen bedreigingen van de OWASP Top 10, die van toepassing is op algemene misbruiken voor webservices. Het bevat ook Adobe Commerce-specifieke regels die door TrustWave SpiderLabs zijn ontwikkeld. Het team van het Onderzoek van de Veiligheid van Fastly heeft ook regels toegevoegd die uw plaats en netwerk tegen algemeen bekende aanvallen beschermen: slechte IP adressen, slechte gebruikersagenten, en bekende botnetbevel en controleknopen. Wij laten regels op Niveau 3 van de Paranoia van OWASP toe of minder, die hoge veiligheidsdekking verstrekt.
+De regel in het WAF-profiel dat op uw Adobe Commerce wordt toegepast voor de productieomgeving van de cloudinfrastructuur, is gebaseerd op de OWASP Top 10 Threat Protection-regel, die veelvoorkomende misbruiken voor webservices omvat. Het bevat ook Adobe Commerce-specifieke regels die door TrustWave SpiderLabs zijn ontwikkeld. Het team van het Onderzoek van de Veiligheid van Fastly heeft ook regels toegevoegd die uw plaats en netwerk tegen algemeen bekende aanvallen beschermen: slechte IP adressen, slechte gebruikersagenten, en bekende botnetbevel en controleknopen. We maken regels mogelijk op OWASP Paranoia Level 3 of minder, wat een hoge mate van beveiliging biedt.
 
 ## Hoe heb ik toegang tot logboeken?
 
@@ -48,13 +48,13 @@ Een geblokkeerde aanvraag retourneert een pagina van 403 met een aanvraag-id.
 
 U kunt deze pagina aanpassen zolang de aanpassing de aanvraag-id bevat. Neem contact op met uw technische accountmanager voor meer informatie.
 
-## Hoe werken we WAF-regelsets bij? Hoe snel kan een WAF-regel in productie worden gewijzigd of bijgewerkt en wereldwijd worden toegepast?
+## Hoe kunnen we WAF-regelsets bijwerken? Hoe snel kan een WAF-regel in productie worden gewijzigd of bijgewerkt en wereldwijd worden toegepast?
 
-Als onderdeel van de wolkendienst WAF beheert Fastly regelupdates van commerciële derden, Fastly research, en open bronnen. Zij werken gepubliceerde regels zo nodig bij in een beleid of wanneer wijzigingen in de regels beschikbaar zijn uit hun respectieve bronnen. De nieuwe regels die de gepubliceerde klassen van regels aanpassen worden ook opgenomen in de instantie WAF van om het even welke dienst zodra het wordt toegelaten. Dit helpt onmiddellijke dekking voor nieuwe of evoluerende explosies verzekeren. U kunt informatie [ over regelupdates en onderhoud ](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance) op de Fastly documentatieplaats herzien.
+Als onderdeel van de cloud WAF service beheert Fastly regelupdates van commerciële derden, Fastly research en open bronnen. Zij werken gepubliceerde regels zo nodig bij in een beleid of wanneer wijzigingen in de regels beschikbaar zijn uit hun respectieve bronnen. De nieuwe regels die de gepubliceerde klassen van regels aanpassen worden ook opgenomen in de instantie van WAF van om het even welke dienst zodra het wordt toegelaten. Dit helpt onmiddellijke dekking voor nieuwe of evoluerende explosies verzekeren. U kunt informatie [ over regelupdates en onderhoud ](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance) op de Fastly documentatieplaats herzien.
 
-## Hoe verschilt Adobe Commerce cloud WAF van de WAF-oplossing snel aan haar directe klanten?
+## Hoe verschilt Adobe Commerce cloud WAF van de WAF-oplossing die snel aan haar directe klanten wordt aangeboden?
 
-De WAF-oplossing die direct door Fastly wordt verkocht, is een betaalde aanbieding die bredere regelsets en extra functies zoals regelaanpassing en bescherming tegen malware omvat. De Adobe Commerce cloud WAF-oplossing bevat een aantal regels die zijn gericht op de Adobe Commerce-toepassing en bevat slechts één regel die is ingesteld voor de productieomgeving van elke klant.
+De WAF-oplossing die direct door Fastly wordt verkocht, is een betaalbaar aanbod dat bredere regelsets en extra functies zoals regelaanpassing en bescherming tegen malware omvat. De Adobe Commerce cloud WAF-oplossing bevat een aantal regels die zijn gericht op de Adobe Commerce-toepassing en bevat slechts één regel die is ingesteld voor de productieomgeving van elke klant.
 
 ## Welke soorten veiligheidsbedreigingen beschermt WAF tegen?
 
@@ -62,21 +62,21 @@ De WAF-oplossing die direct door Fastly wordt verkocht, is een betaalde aanbiedi
 <tbody>
 <tr>
 <th style="width: 145.5px; text-align: left;">Threat</th>
-<th style="width: 497.5px; text-align: left;">WAF-beveiliging</th>
+<th style="width: 497.5px; text-align: left;">WAF-bescherming</th>
 </tr>
 <tr>
 <td style="width: 145.5px; vertical-align: top;">SQL-injectieaanvallen</td>
-<td style="width: 497.5px;">Zowel bevatten de OWASP ModSecurity Core-regelset als de TrustWave-handelregel specifieke filters voor SQL-injectieaanvallen en de varianten daarvan.</td>
+<td style="width: 497.5px;">Zowel bevatten de OWASP ModSecurity Core-regelset als de TrustWave-handelregel specifieke filters voor SQL-injectieaanvallen en de bijbehorende varianten.</td>
 </tr>
 <tr>
 <td style="width: 145.5px; vertical-align: top;">
 <p>Injectie op andere plaatsen</p>
 </td>
-<td style="width: 497.5px;">De OWASP regelreeks beschermt tegen injectieaanvallen die naar andere sites verwijzen. Maakt snel gebruik van een scoremechanisme voor elke aanvraag die op zoek is naar locatieoverschrijdende injectie en andere bedreigingen voor de oorsprong. Wij scoren elk verzoek tegen de volledige vastgestelde kernregel en bevestigen dat de verzoekscore onder een configureerbare drempel is om het te kunnen overgaan.</td>
+<td style="width: 497.5px;">De OWASP-regel beschermt tegen aanvallen van injectie naar andere plaatsen. Maakt snel gebruik van een scoremechanisme voor elke aanvraag die op zoek is naar locatieoverschrijdende injectie en andere bedreigingen voor de oorsprong. Wij scoren elk verzoek tegen de volledige vastgestelde kernregel en bevestigen dat de verzoekscore onder een configureerbare drempel is om het te kunnen overgaan.</td>
 </tr>
 <tr>
 <td style="width: 145.5px; vertical-align: top;">Aanvallen op brute troepen</td>
-<td style="width: 497.5px;">Wordt gedekt door de regelset OWASP. Blokkeert snel ook brute krachtactiviteit door code te gebruiken VCL die specifieke bronnen, verzoeken, of pogingen erkent om geweld te beteugelen of veiligheidscontroles te overweldigen voorafgaand aan om het even welk verkeer die het oorspronkelijke datacenter bereiken.</td>
+<td style="width: 497.5px;">Wordt gedekt door de OWASP-regelset. Blokkeert snel ook brute krachtactiviteit door code te gebruiken VCL die specifieke bronnen, verzoeken, of pogingen erkent om geweld te beteugelen of veiligheidscontroles te overweldigen voorafgaand aan om het even welk verkeer die het oorspronkelijke datacenter bereiken.</td>
 </tr>
 <tr>
 <td style="width: 145.5px; vertical-align: top;">Netwerkaanvallen</td>
@@ -84,7 +84,7 @@ De WAF-oplossing die direct door Fastly wordt verkocht, is een betaalde aanbiedi
 </tr>
 <tr>
 <td style="width: 145.5px; vertical-align: top;">JavaScript injectie aanvallen</td>
-<td style="width: 497.5px;">De regels van WAF beschermen tegen kwaadwillige code van JavaScript die in cliëntmededelingen met de Webdiensten wordt opgenomen. Veelvoorkomende exploitatiepatronen of scores worden via de WAF gefilterd om de integriteit van de oorspronkelijke service te waarborgen.</td>
+<td style="width: 497.5px;">WAF-regels beschermen zich tegen het invoegen van kwaadaardige JavaScript-code in clientcommunicatie met webservices. Veelvoorkomende exploitatiepatronen of -scores worden door de WAF gefilterd om de integriteit van de oorspronkelijke service te waarborgen.</td>
 </tr>
 </tbody>
 </table>
@@ -108,7 +108,7 @@ Ja, klanten kunnen het blokkeren door land en toegangsbeheerlijst (ACL) van Adob
 
 ## Waar kan ik de operationele status van mijn WAF-dienst controleren?
 
-De algemene de dienstbeschikbaarheid van WAF wordt gemeld op de [ Snelle pagina van de Status ](https://status.fastly.com/). De beschikbaarheidsrapportage voor WAF van individuele klanten wordt niet verstrekt.
+De algemene de dienstbeschikbaarheid van WAF wordt gemeld op de [ Snelle pagina van de Status ](https://status.fastly.com/). De beschikbaarheidsrapportage voor de WAF van individuele klanten wordt niet verstrekt.
 
 ## Biedt Adobe Commerce incidentbeheer voor de WAF-service?
 
@@ -124,21 +124,21 @@ U kunt op Adobe Commerce betrekking hebbende veiligheidsnieuws en updates van he
 
 De Steun van WAF biedt de volgende middelen aan om u bij het verlichten van de de dienstgevolgen van ongewenste of kwaadwillige verzoeken te helpen:
 
-* Onboarding: inschakelen, initiële installatie en beperkte controle van de Fastly-service(s) die de door Adobe Commerce beheerde cloud WAF ondersteunen
-* Voortdurende fout-positieve trilling om instanties te richten waar WAF wettig verkeer blokkeert
-* Configuratie van eventuele nieuwe standaardregels die zijn geïntroduceerd als onderdeel van WAF-versieupgrades
+* Aan boord: inschakelen, initiële installatie en beperkte bewaking van de snelste service(s) die ondersteuning bieden voor de door Adobe Commerce beheerde cloud WAF
+* Voortdurende fout-positieve tribune om gevallen aan te pakken waar de WAF legitiem verkeer blokkeert
+* Configuratie van eventuele nieuwe standaardregels die zijn geïntroduceerd als onderdeel van WAF-upgrades
 
-Zie de ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf) termijnen van SLA van de 0} Wolk {voor extra steuninformatie met inbegrip van ernstdefinities, reactietijden, kanalen, en beschikbaarheid.[
+Zie de ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf) termijnen van SLA van 0} Cloud voor extra steuninformatie met inbegrip van strengheidsdefinities, reactietijden, kanalen, en beschikbaarheid.[
 
-## Als WAF wettig verkeer blokkeert of andere kwesties veroorzaakt, hoe kan ik hulp krijgen?
+## Als de WAF het legale verkeer blokkeert of andere problemen veroorzaakt, hoe kan ik dan hulp krijgen?
 
-[ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) bij het [ Centrum van de Hulp van Adobe Commerce ](https://support.magento.com) voor. Gelieve te omvatten erop wijzen dat het kaartje met de dienst van WAF verwant is en het geblokkeerde verzoekherkenningsteken (identiteitskaart) omvat.
+[ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) bij het [ Centrum van de Hulp van Adobe Commerce ](https://support.magento.com) voor. Gelieve te omvatten erop wijst dat het kaartje met de dienst van WAF verwant is en het geblokkeerde verzoekherkenningsteken (identiteitskaart) omvat.
 
 Het Adobe Commerce-systeem voor kaartverkoop volgt de communicatie tussen onze supporttechnici en het personeel van een klant. Dit systeem verstrekt een tijd-gestempelde transcriptie van mededelingen, en verzendt e-mail naar klant en het personeel van Adobe Commerce aangezien de kaartjes worden bijgewerkt.
 
 Voor alle incidenten die online zijn verzonden, wordt het bewijs van een incident bevestigd via het kaartsysteem van het Adobe Commerce Customer Help Center. Na ontvangst van een naar behoren ingediend incident wordt prioriteit gegeven aan de ondersteuningsdiensten overeenkomstig de hierboven vermelde prioriteitsniveaus.
 
-De volgende lijst vat steunkanalen en beschikbaarheid voor de Steun van WAF samen:
+De volgende tabel geeft een overzicht van de ondersteuningskanalen en de beschikbaarheid voor WAF Support:
 
 <table class="table-basic">
 <tbody>
@@ -169,7 +169,7 @@ De volgende lijst vat steunkanalen en beschikbaarheid voor de Steun van WAF same
 
 ## Hoe worden valse positieven getild?
 
-We hebben een fout-positief triageproces (24x7 beschikbaar) om instanties snel te behandelen en op te lossen waar legitieme verzoeken een WAF-regel hebben geactiveerd. Onjuiste positieve gebeurtenissen worden behandeld als prioriteitsproblemen 1. Als standaardactie, kan ons ondersteuningsteam het beleid van WAF onmiddellijk bijwerken om de regel onbruikbaar te maken die de blokkerende gebeurtenis teweegbracht en het wettige verzoek toestaan om door WAF over te gaan.
+We hebben een fout-positief triageproces (24x7 beschikbaar) om instanties snel te behandelen en op te lossen waar legitieme verzoeken een WAF-regel hebben geactiveerd. Onjuiste positieve gebeurtenissen worden behandeld als prioriteitsproblemen 1. Als standaardactie, kan ons ondersteuningsteam het beleid van WAF onmiddellijk bijwerken om de regel onbruikbaar te maken die de blokkerende gebeurtenis teweegbracht en het wettige verzoek toe te staan om door WAF over te gaan.
 
 ## Wat gebeurt er als het verkeer naar de beheersectie van Adobe Commerce op de website van de cloudinfrastructuur WAF-regels activeert? Zal de Steun van Adobe Commerce kwesties met geblokkeerd adminverkeer oplossen?
 

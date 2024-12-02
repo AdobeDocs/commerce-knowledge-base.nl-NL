@@ -1,6 +1,6 @@
 ---
 title: Toegankelijkheid van webinhoud voor Adobe Commerce
-description: '"We begrijpen het belang van toegankelijkheid op Adobe. Hoewel de verantwoordelijkheid voor toegankelijkheid bij de partner/handelaar ligt, blijven we onze toegankelijkheid verbeteren met elke release die ook zal worden opgenomen in onze plannen voor toegankelijkheidsverbetering voor 2022.  '''
+description: 'We begrijpen het belang van toegankelijkheid bij Adobe. Hoewel de verantwoordelijkheid voor toegankelijkheid bij de partner/handelaar ligt, blijven we onze toegankelijkheid verbeteren met elke release die ook zal worden opgenomen in onze plannen voor toegankelijkheidsverbetering voor 2022.  '
 exl-id: f3b4025e-37ef-44fc-9a18-b0d159994062
 feature: Compliance
 source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8

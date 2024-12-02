@@ -1,6 +1,6 @@
 ---
 title: Implementatiefouten waarbij patches niet zijn gevonden
-description: "Dit artikel biedt een oplossing voor het probleem waarbij een fout *De volgende patches zijn niet gevonden: MDVA-XXXXX, ACSD-XXXXX. Controleer of deze patches beschikbaar zijn voor de huidige versie van het Magento*."
+description: 'Dit artikel biedt een oplossing voor het probleem waarbij een fout *Volgende patches niet zijn gevonden: MDVA-XXXXX, ACSD-XXXXX. Controleer of deze patches beschikbaar zijn voor de huidige versie van het Magento*.'
 exl-id: 5a2fd35a-892a-48af-a41f-f275297b3e2e
 source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
 workflow-type: tm+mt

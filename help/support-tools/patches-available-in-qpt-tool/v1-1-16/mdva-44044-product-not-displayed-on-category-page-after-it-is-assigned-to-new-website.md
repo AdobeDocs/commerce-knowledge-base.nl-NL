@@ -1,5 +1,5 @@
 ---
-title: "MDVA-44044: Product dat niet op een categoriepagina wordt weergegeven nadat het aan een nieuwe website is toegewezen"
+title: 'MDVA-44044: Product wordt niet op categoriepagina weergegeven nadat het aan een nieuwe website is toegewezen'
 description: Met de MDVA-44044-patch wordt het probleem opgelost waarbij een product niet op de categoriepagina wordt weergegeven nadat het aan een nieuwe website is toegewezen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.16 is geïnstalleerd. De patch-id is MDVA-44044. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 exl-id: e3a179ed-243c-4200-a01a-796657bd31ab
 feature: Categories, Products

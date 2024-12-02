@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54111: Afbeelding met productminiaturen wordt niet weergegeven'
+title: 'ACSD-54111: Afbeelding met productminiatuur wordt niet weergegeven'
 description: Pas de ACSD-54111-patch toe om het Adobe Commerce-probleem op te lossen, waarbij alle afbeeldingen worden vervangen door de standaardvoorlopige afbeelding van het product.
 feature: Products
 role: Admin, Developer

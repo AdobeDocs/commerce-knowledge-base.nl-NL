@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47004: BTW niet van toepassing op factuuradres zonder BTW-identificatienummer"
+title: 'ACSD-47004: BTW niet van toepassing op factuuradres zonder BTW-identificatienummer'
 description: Pas de ACSD-47004-patch toe om het Adobe Commerce-probleem op te lossen dat BTW niet wordt geheven op een factuuradres zonder BTW-identificatienummer.
 exl-id: 04706219-be1d-4d9a-a8bf-f5c24b45076d
 feature: Customer Service, Shipping/Delivery, Orders

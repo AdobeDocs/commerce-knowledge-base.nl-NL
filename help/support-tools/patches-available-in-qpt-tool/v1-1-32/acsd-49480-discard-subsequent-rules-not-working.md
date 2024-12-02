@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49480: Verdere regels die niet werken negeren'
+title: 'ACSD-49480: achtereenvolgende regels negeren die niet werken'
 description: Pas de ACSD-49480-patch toe om het Adobe Commerce-probleem op te lossen waarbij [!UICONTROL Cart Price Rule - Discard Subsequent Rules] niet naar behoren werkt.
 exl-id: 8d306a9e-ed1a-4295-8130-81700cbf31a6
 feature: Price Rules

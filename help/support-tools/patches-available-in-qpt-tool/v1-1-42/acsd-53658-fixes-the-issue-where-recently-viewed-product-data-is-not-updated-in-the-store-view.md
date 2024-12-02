@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53658: **[!UICONTROL Recently Viewed Product]** gegevens niet correct bijgewerkt in winkelweergave'
+title: 'ACSD-53658: **[!UICONTROL Recently Viewed Product]** gegevens niet correct bijgewerkt in de winkelweergave'
 description: Pas de ACSD-53658-patch toe om het Adobe Commerce-probleem op te lossen, waarbij **[!UICONTROL Recently Viewed Product]** gegevens niet correct worden bijgewerkt in de winkelweergave.
 feature: CMS, Personalization
 role: Admin, Developer

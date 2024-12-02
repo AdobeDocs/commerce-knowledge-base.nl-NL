@@ -1,9 +1,10 @@
 ---
-title: 'ACSD-59229: Onjuiste toewijzing van gegevens aan klantgroepen vanwege een verouderde waarde voor X-Magento-Variabele.'
+title: 'ACSD-59229: onjuiste toewijzing van gegevens aan de klantengroep als gevolg van een verouderde waarde voor X-Magento-Variabele'
 description: Pas de ACSD-59229-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de groepsgerelateerde informatie van de klant in het verkeerde segment wordt opgeslagen vanwege een verouderde X-Magento-Variabele waarde in het verzoek.
 feature: Customers, Personalization, Marketing Tools
 role: Admin, Developer
-source-git-commit: 41d502a85a0cbb4eb8d186e4c1e1256aec3f8740
+exl-id: 090b674a-5103-48cd-9426-41166bf9272c
+source-git-commit: 06f751e43ef825c0eb29cb9b42eb41f07c308625
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%

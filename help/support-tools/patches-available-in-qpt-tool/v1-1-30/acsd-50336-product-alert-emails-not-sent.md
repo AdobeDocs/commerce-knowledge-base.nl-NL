@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-50336: E-mails met productwaarschuwing niet verzonden'
+title: 'ACSD-50336: e-mails met productwaarschuwing niet verzonden'
 description: Pas de ACSD-50336-patch toe om het Adobe Commerce-probleem op te lossen wanneer de e-mails met productwaarschuwingen niet worden verzonden wanneer een product weer in voorraad is of de prijs wordt gewijzigd.
 exl-id: 0fc51603-e74d-4ce7-9e67-42826ffbfab2
 feature: Communications, Personalization, Products

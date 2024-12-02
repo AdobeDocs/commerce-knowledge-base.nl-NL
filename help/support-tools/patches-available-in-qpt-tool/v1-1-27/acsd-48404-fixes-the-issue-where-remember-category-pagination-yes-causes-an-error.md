@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48404: *[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* veroorzaakt fout wanneer het drukken van browser achterknoop"
+title: 'ACSD-48404: *[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* veroorzaakt fout wanneer het drukken van browser achterknoop'
 description: Pas de ACSD-48404-patch toe om het Adobe Commerce-probleem op te lossen, waarbij *[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* een fout veroorzaakt wanneer op de knop Vorige van de browser wordt gedrukt.
 exl-id: b4b96198-dee6-4b3c-b60a-0983ef8ef7b2
 feature: Categories

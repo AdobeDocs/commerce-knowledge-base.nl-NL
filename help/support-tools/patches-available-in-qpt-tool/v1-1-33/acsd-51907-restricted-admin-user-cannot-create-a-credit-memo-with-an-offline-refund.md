@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51907: gebruikers met beperkte beheerdersrechten kunnen geen creditnota voor offline terugbetaling maken"
+title: 'ACSD-51907: gebruikers met beperkte beheerdersrechten kunnen geen creditnota voor offline restitutie maken'
 description: Pas de ACSD-51907-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de gebruiker met beperkte beheerdersrechten geen creditmemo met een offlinerestitutie kan maken.
 exl-id: 564e8524-f2dc-453c-be78-a920fbd47d71
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

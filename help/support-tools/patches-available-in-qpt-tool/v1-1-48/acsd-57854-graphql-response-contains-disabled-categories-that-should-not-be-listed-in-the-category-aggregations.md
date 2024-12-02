@@ -1,5 +1,5 @@
 ---
-title: "ACSD-57854: *GraphQL* response bevat uitgeschakelde categorieën die niet in de categorieconcentraties mogen worden vermeld"
+title: 'ACSD-57854: *GraphQL* response bevat uitgeschakelde categorieën die niet in de categoriesamenvoegingen moeten worden vermeld'
 description: Pas de ACSD-57854-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de *GraphQL*-respons uitgeschakelde categorieën bevat die niet in de categoriesamenvoegingen moeten worden vermeld.
 feature: GraphQL
 role: Admin, Developer

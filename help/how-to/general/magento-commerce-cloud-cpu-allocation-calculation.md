@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Commerce on cloud Infrastructure: berekening van CPU-toewijzing'
+title: 'Adobe Commerce op cloud-infrastructuur: berekening van CPU-toewijzing'
 promoted: true
 description: Het bijgevoegde artikel bevat gedetailleerde richtlijnen over welke meetgegevens moeten worden gebruikt bij het nemen van beslissingen over CPU-toewijzing en hoe deze moeten worden berekend.
 exl-id: 2fe93b96-f975-4ac6-81d2-e24002ce69db

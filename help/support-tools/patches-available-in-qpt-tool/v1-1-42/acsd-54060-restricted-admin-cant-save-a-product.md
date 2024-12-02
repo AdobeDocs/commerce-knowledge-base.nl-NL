@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54060: Beperkte admin kan product niet opslaan als het kind van een ander product is"
+title: 'ACSD-54060: Beperkte admin kan product niet opslaan als het kind van een ander product is'
 description: Pas de ACSD-54060-patch toe om het Adobe Commerce-probleem op te lossen waarbij een beperkte beheerder een product niet kan opslaan als het een onderliggend product is van een ander product dat is toegewezen aan een ander bereik.
 feature: Admin Workspace, Roles/Permissions, Products
 role: Admin, Developer

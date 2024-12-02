@@ -1,6 +1,6 @@
 ---
-title: 'MDVA-38827: Klanten ontvangen via e-mail een fout met betrekking tot het verzenden van orders'
-description: "De MDVA-38827-patch verhelpt het probleem dat klanten een e-mail met een bestelling ontvangen met het volgende foutbericht: *Er is helaas een fout opgetreden bij het genereren van deze inhoud*. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.0 is geïnstalleerd. De patch-id is MDVA-38827. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4."
+title: 'MDVA-38827: Klanten ontvangen per e-mail een fout bij het verzenden van orders'
+description: 'De MDVA-38827-patch verhelpt het probleem dat klanten een e-mail met een bestelling ontvangen met het volgende foutbericht: *Er is helaas een fout opgetreden bij het genereren van deze inhoud*. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.0 is geïnstalleerd. De patch-id is MDVA-38827. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.'
 exl-id: f2e5aeab-7d46-46be-9631-c3a863d9bf52
 feature: Communications, Marketing Tools, Orders, Shipping/Delivery
 role: Admin

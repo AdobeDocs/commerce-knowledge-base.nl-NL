@@ -1,5 +1,5 @@
 ---
-title: "MDVA-37592: Sorteren op prijs zonder producten met prijs nul"
+title: 'MDVA-37592: Sorteren op prijs die niet werkt voor producten met prijs nul'
 description: De MDVA-37592 Adobe Commerce-patch lost het probleem op dat sorteren op prijs niet correct werkt voor producten met prijs nul die aan een gedeelde catalogus worden toegewezen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.0 is geïnstalleerd. De patch-id is MDVA-37592. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 30ac1e87-c32d-4e79-9ed9-d1861061d760
 feature: B2B, Catalog Management, Categories, Orders, Products

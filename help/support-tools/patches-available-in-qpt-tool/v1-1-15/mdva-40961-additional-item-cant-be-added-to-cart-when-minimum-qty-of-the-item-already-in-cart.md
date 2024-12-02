@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40961: Er kan geen extra item aan het winkelwagentje worden toegevoegd als de minimumhoeveelheid artikel al in het winkelwagentje staat."
+title: 'MDVA-40961: Er kan geen extra item aan het winkelwagentje worden toegevoegd als de minimumhoeveelheid item al in het winkelwagentje staat'
 description: De MDVA-40961-patch verhelpt het probleem dat een extra item niet aan het winkelwagentje kan worden toegevoegd als de minimumhoeveelheid van het item al in het winkelwagentje staat. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15 is geïnstalleerd. De patch-id is MDVA-40961. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: fc90c2b6-f631-49ff-81b0-e41918dd79a7
 feature: Orders, Shopping Cart

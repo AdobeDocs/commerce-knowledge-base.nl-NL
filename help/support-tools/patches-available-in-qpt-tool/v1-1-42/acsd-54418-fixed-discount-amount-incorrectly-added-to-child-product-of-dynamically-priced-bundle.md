@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54418: Vast kortingsbedrag onjuist toegevoegd aan een onderliggend product van dynamisch geprijsde bundel"
+title: 'ACSD-54418: Vast kortingsbedrag onjuist toegevoegd aan onderliggend product van dynamisch geprijsde bundel'
 description: Pas de ACSD-54418-patch toe om het Adobe Commerce-probleem op te lossen waarbij het vaste kortingsbedrag onjuist wordt toegepast op elk onderliggend product van de dynamisch geprijsde bundel.
 feature: Shopping Cart
 role: Admin, Developer

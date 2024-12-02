@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-38393: De regels van de Catalogus werken niet meer voor configureerbaar product als zijn eenvoudig product wordt hernoemd.'
+title: 'MDVA-38393: De regels van de Catalogus werken niet meer voor configureerbaar product als zijn eenvoudig product wordt hernoemd'
 description: De patch MDVA-38393 verhelpt het probleem waarbij de catalogusregels niet meer werken voor een configureerbaar product als het eenvoudige product een andere naam krijgt. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8 is geïnstalleerd. De patch-id is MDVA-38393. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: a20856c4-8aff-427b-a404-7afe706be06f
 feature: Catalog Management, Categories, Configuration, Products

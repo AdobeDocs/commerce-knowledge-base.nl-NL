@@ -1,15 +1,15 @@
 ---
-title: 'ACSD-57045: URL herschrijft zorgt voor oneindige paginering nadat [!UICONTROL Website Root] is uitgeschakeld in [!UICONTROL Hierarchy] '
+title: 'ACSD-57045: URL herschrijft zorgt voor oneindige paginering nadat [!UICONTROL Website Root] is uitgeschakeld in [!UICONTROL Hierarchy]'
 description: Pas de ACSD-57045-patch toe om het Adobe Commerce-probleem op te lossen, waarbij URL-herschrijvingen ertoe leiden dat een oneindige paginarand wordt herhaald nadat [!UICONTROL Website Root] is uitgeschakeld in [!UICONTROL Hierarchy] .
 feature: CMS
 role: Admin, Developer
-source-git-commit: a39e5c857aae398a0b0ba44308ea417525a410d3
+exl-id: 9dca2d1a-3aef-41f0-b140-f3987003a5fd
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-57045: URL herschrijft zorgt voor oneindige paginering nadat [!UICONTROL Website Root] is uitgeschakeld in [!UICONTROL Hierarchy]
 

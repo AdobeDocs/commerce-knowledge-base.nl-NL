@@ -1,5 +1,5 @@
 ---
-title: '"MDVA-44660: Gang accent ["] kan niet worden gebruikt voor de naam van de klant"'
+title: 'MDVA-44660: Grave accentteken [`] kan niet worden gebruikt voor de naam van de klant'
 description: Met de MDVA-44660-patch wordt het probleem opgelost waarbij het accent van het graf (`) niet kan worden gebruikt voor de naam van een klant. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15 is geïnstalleerd. De patch-id is MDVA-44660. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 696f2690-2af5-4770-a4a8-c88c423c6c16
 feature: Variables

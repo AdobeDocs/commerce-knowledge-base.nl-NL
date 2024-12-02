@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52921: Fout bij het aanvragen van gegevens over winkelwagentjes bij GraphQL voor een configureerbaar product dat niet in voorraad is"
+title: 'ACSD-52921: Fout bij het aanvragen van gegevens over winkelwagentjes bij GraphQL voor een configureerbaar product dat niet in voorraad is'
 description: Pas de ACSD-52921-patch toe om het Adobe Commerce-probleem op te lossen wanneer een interne fout optreedt bij het aanvragen van cartdetails van GraphQL voor een product dat uit voorraad kan worden geconfigureerd.
 feature: GraphQL, Configuration, Products, Shopping Cart
 role: Admin

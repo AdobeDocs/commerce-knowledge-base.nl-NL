@@ -1,5 +1,5 @@
 ---
-title: 'Uitgave Adobe Commerce 2.4.0: weergave van onbewerkte berichtgegevens in winkel"'
+title: 'Uitgave Adobe Commerce 2.4.0: weergave van onbewerkte berichtgegevens in winkel'
 description: Dit artikel biedt een oplossing voor het probleem wanneer alle foutberichten op de storefront worden weergegeven met een plusteken (+) in plaats van een spatie. Deze oplossing helpt foutmeldingen leesbaar te blijven.
 exl-id: f44fe434-a320-4e7e-a876-9575921749f3
 feature: Storefront

@@ -1,5 +1,5 @@
 ---
-title: 'Bekende uitgave van Adobe Commerce 2.4.1: fout bij afhandeling met PayPal-Braintree'
+title: 'Bekende Adobe Commerce 2.4.1-probleem: fout bij afhandeling met PayPal-Braintree'
 description: In dit artikel wordt een bekende Adobe Commerce 2.4.1-kwestie beschreven, waarbij een foutbericht verschijnt en verdwijnt in de afhandelingsstap Factureren als betaling via PayPal-Braintree wordt gebruikt en meerdere adressen voor verzending zijn geselecteerd.
 exl-id: db3830b2-4885-4d89-85cd-bdcbd4b396e6
 feature: Checkout, Orders, Payments

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-37897: Onjuiste omleiding bij het toevoegen van producten van Recent Bekeken"
+title: 'MDVA-37897: Onjuiste omleiding bij het toevoegen van producten van Recent Bekeken'
 description: Met de MDVA-37897-patch wordt het probleem van onjuiste omleiding opgelost wanneer gebruikers proberen producten toe te voegen met opties van de onlangs bekeken widget. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1 is geïnstalleerd. De patch-id is MDVA-37897. Het probleem wordt volgens de planning opgelost in Adobe Commerce versie 2.4.4.
 exl-id: f0a86e02-b357-4d2d-8386-e9cc045bcf06
 feature: Products

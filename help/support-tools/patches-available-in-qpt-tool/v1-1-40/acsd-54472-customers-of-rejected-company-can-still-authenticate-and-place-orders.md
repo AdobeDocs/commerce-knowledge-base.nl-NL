@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54472: Klanten van een afgewezen bedrijf kunnen nog steeds worden geverifieerd'
+title: 'ACSD-54472: klanten van een afgewezen bedrijf kunnen nog steeds verifiëren'
 description: Pas de ACSD-54472-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de klanten van een afgewezen bedrijf nog steeds kunnen verifiëren en klanten van een geblokkeerd en afgewezen bedrijf nog steeds orders kunnen plaatsen.
 feature: B2B
 role: Admin, Developer

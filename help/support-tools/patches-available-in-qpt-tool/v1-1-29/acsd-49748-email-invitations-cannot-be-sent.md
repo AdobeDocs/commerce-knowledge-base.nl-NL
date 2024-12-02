@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49748: uitnodigingen via e-mail kunnen niet worden verzonden'
+title: 'ACSD-49748: e-mailuitnodigingen kunnen niet worden verzonden'
 description: Pas de ACSD-49748-patch toe om het Adobe Commerce-probleem op te lossen, waarbij gebruikers geen uitnodigingen via e-mail kunnen verzenden.
 exl-id: 65de8ea9-e65c-463b-8cba-d35767d4343d
 feature: Admin Workspace, Communications, Marketing Tools

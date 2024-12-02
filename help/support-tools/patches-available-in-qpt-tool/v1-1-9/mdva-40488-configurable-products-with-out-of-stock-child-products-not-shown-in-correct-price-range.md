@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40488: configureerbare producten met kinderproducten uit de buitenhandel die niet in de juiste prijsklasse worden getoond"
+title: 'MDVA-40488: configureerbare producten met kinderproducten uit de buitenvoorraad die niet in de juiste prijsklasse worden getoond'
 description: De MDVA-40488-patch lost het probleem op waarbij configureerbare producten met kinderproducten uit de voorraad niet in hun correcte prijswaaier worden getoond. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9 is geïnstalleerd. De patch-id is MDVA-40488. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 0c4b9f5e-ae41-409e-b244-1d7cf948ed6f
 feature: Configuration, Orders, Products

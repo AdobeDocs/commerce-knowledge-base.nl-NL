@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52287: De status van gearchiveerde orders verandert niet"
+title: 'ACSD-52287: De status van gearchiveerde orders verandert niet'
 description: Pas de ACSD-52287-patch toe om het Adobe Commerce-probleem op te lossen waarbij de status van gearchiveerde bestellingen niet verandert van *completed* in *closed* op het raster nadat het creditmemo is verzonden.
 feature: Orders, Checkout
 role: Admin, Developer

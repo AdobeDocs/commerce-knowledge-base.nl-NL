@@ -1,5 +1,5 @@
 ---
-title: '''B2B-2674: Voegt caching vermogen aan de customAttributeMetadata GraphQL query'' toe'
+title: 'B2B-2674: voegt caching vermogen aan de customAttributeMetadata GraphQL vraag toe'
 description: Pas het B2B-2674 flard toe om caching vermogen aan de customAttributeMetadata GraphQL vraag toe te voegen.
 feature: Attributes, B2B, Cache, GraphQL
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52399: Product met een verkoopbare hoeveelheid 0 in voorraad"
+title: 'ACSD-52399: product met verkoopbare hoeveelheid 0 in voorraad'
 description: Pas de ACSD-52399-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de configureerbare productoptie met een verkoopbare hoeveelheid van 0 *In Stock* op de productpagina wordt weergegeven.
 feature: Products, Configuration
 role: Admin, Developer

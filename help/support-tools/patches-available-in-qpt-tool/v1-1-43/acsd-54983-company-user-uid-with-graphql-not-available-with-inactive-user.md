@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-54983: Bedrijfs-gebruikers-UID met GraphQL niet beschikbaar bij inactieve gebruiker'
-description: Pas de ACSD-54983-patch toe om het Adobe Commerce-probleem op te lossen, waarbij het niet mogelijk is om de UID van de bedrijfsgebruiker op te halen met GraphQL-verzoek wanneer de gebruikersstatus is ingesteld op inactief.
+title: 'ACSD-54983: Company user UID met GraphQL niet beschikbaar bij inactieve gebruiker'
+description: Pas de ACSD-54983-patch toe om het Adobe Commerce-probleem op te lossen, waarbij het niet mogelijk is om de aanvraag van UID voor bedrijfsgebruikers met GraphQL op te halen als de gebruikersstatus is ingesteld op inactief.
 feature: GraphQL
 role: Admin, Developer
 exl-id: 57e7b9ca-3421-4b50-86b4-abdf1b3d79d1
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# ACSD-54983: Bedrijfs-UID met GraphQL niet beschikbaar bij inactieve gebruiker
+# ACSD-54983: Company user UID met GraphQL niet beschikbaar bij inactieve gebruiker
 
-De ACSD-54983-patch verhelpt het probleem waarbij het niet mogelijk is om de UID van de bedrijfsgebruiker op te halen bij een GraphQL-aanvraag als de gebruikersstatus is ingesteld op inactief. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 wordt geïnstalleerd. De patch-id is ACSD-54983. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-54983-patch verhelpt het probleem waarbij het niet mogelijk is om een UID-aanvraag van bedrijfsgebruikers op te halen met GraphQL als de gebruikersstatus is ingesteld op inactief. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 wordt geïnstalleerd. De patch-id is ACSD-54983. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
@@ -31,7 +31,7 @@ De ACSD-54983-patch verhelpt het probleem waarbij het niet mogelijk is om de UID
 
 ## Probleem
 
-Kan de UID van de bedrijfsgebruiker niet ophalen met GraphQL-aanvraag als de gebruikersstatus is ingesteld op inactief.
+Kan het bedrijf UID niet ophalen met GraphQL-verzoek als de gebruikersstatus is ingesteld op inactief.
 
 <u> Stappen om </u> te reproduceren:
 
@@ -46,11 +46,11 @@ Kan de UID van de bedrijfsgebruiker niet ophalen met GraphQL-aanvraag als de geb
 
 <u> Verwachte resultaten </u>:
 
-Het is mogelijk om UID van de bedrijfgebruiker te krijgen wanneer de status aan inactief wordt geplaatst.
+Het is mogelijk om de bedrijfgebruiker UID te krijgen wanneer de status aan inactief wordt geplaatst.
 
 <u> Ware resultaten </u>:
 
-De niet-actieve klanten staan niet in de lijst. Kan de UID van de bedrijfsgebruiker niet ophalen wanneer de status is ingesteld op inactief.
+De niet-actieve klanten staan niet in de lijst. Kan UID van bedrijfsgebruiker niet ophalen wanneer de status is ingesteld op inactief.
 
 ## De patch toepassen
 

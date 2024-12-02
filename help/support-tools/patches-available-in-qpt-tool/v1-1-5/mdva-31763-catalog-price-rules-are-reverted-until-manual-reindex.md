@@ -1,5 +1,5 @@
 ---
-title: "MDVA-31763: Catalogusprijsregels worden teruggedraaid totdat ze handmatig opnieuw worden berekend"
+title: 'MDVA-31763: Catalogusprijsregels worden teruggedraaid totdat ze handmatig opnieuw worden berekend'
 description: De patch MDVA-31763 lost het probleem op waarbij de prijsregels voor catalogi worden teruggedraaid tot de redex handmatig wordt uitgevoerd. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5 is geïnstalleerd. De patch-id is MDVA-31763. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: eb2dfd1a-6d12-4676-82c1-bf92c6fa9fda
 feature: Catalog Management, Orders, Price Rules

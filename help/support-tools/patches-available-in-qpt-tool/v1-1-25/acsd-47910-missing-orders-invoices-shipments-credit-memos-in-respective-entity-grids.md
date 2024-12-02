@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47910: ontbrekende orders, facturen, overbrengingen, creditnota's in de respectieve entiteitsnetwerken"
+title: 'ACSD-47910: ontbrekende orders, facturen, overbrengingen, creditnota''s in de respectieve entiteitsnetwerken'
 description: Pas de ACSD-47910-patch toe om het Adobe Commerce-probleem op te lossen wanneer er in de respectievelijke entiteitsnetwerken orders, facturen, verzendingen en creditnota's ontbreken.
 exl-id: 4eb897ec-16e4-420e-89a6-c8f7c8740303
 feature: Admin Workspace, Invoices, Orders, Returns, Shipping/Delivery

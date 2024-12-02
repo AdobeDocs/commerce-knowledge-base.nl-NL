@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45241: Onjuist berekende voorraadhoeveelheid van een virtueel product"
+title: 'ACSD-45241: Onjuist berekende voorraad van virtueel product'
 description: De ACSD-45241-patch verhelpt het probleem waarbij de voorraadhoeveelheid van het virtuele product onjuist wordt berekend nadat een creditmemo is gemaakt. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 is geïnstalleerd. De patch-id is ACSD-45241. De kwestie is opgelost in Adobe Commerce 2.4.4.
 exl-id: 4be97da9-d399-419a-816e-cf65f15cc3be
 feature: Orders, Products

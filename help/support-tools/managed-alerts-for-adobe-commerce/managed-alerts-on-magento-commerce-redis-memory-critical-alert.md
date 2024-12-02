@@ -1,5 +1,5 @@
 ---
-title: "Beheerde waarschuwingen over Adobe Commerce: Redis-waarschuwing voor geheugenkritiek"
+title: 'Beheerde waarschuwingen voor Adobe Commerce: Redis-waarschuwing voor geheugenkritiek'
 description: In dit artikel worden stappen beschreven voor het oplossen van problemen wanneer u een Redis-melding ontvangt voor een belangrijke geheugenwaarschuwing voor Adobe Commerce in New Relic. Er is onmiddellijke actie vereist om het probleem op te lossen. De waarschuwing ziet er ongeveer als volgt uit, afhankelijk van het waarschuwingsberichtkanaal dat u hebt geselecteerd.
 exl-id: 28e1d879-d7ca-4439-8e81-52a1fbf3ecb0
 feature: Cache, Categories, Observability, Services, Support, Tools and External Services, Variables

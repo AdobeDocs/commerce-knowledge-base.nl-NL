@@ -1,5 +1,5 @@
 ---
-title: "Het bestand kan niet worden verwijderd. Waarschuwing! ontkoppelen: Geen dergelijk dossier of folderfout van  [!DNL Admin]"
+title: 'Het bestand kan niet worden verwijderd. Waarschuwing! ontkoppelen: Geen dergelijke dossier of folderfout van  [!DNL Admin]'
 description: Dit artikel biedt een oplossing voor het probleem waarbij een fout *Het bestand kan niet worden verwijderd. Waarschuwing!ontkoppel geen dergelijk dossier of folderfout* van  [!DNL Admin]  wanneer u a  [!DNL Javascript/CSS]  uitlijnt.
 feature: Admin Workspace, Observability
 role: Developer

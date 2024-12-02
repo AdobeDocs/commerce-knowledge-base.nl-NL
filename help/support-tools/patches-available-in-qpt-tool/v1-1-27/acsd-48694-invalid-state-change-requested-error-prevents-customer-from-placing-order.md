@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48694: Door een ongeldige statuswijziging is een fout met betrekking tot de status niet mogelijk dat de klant de order plaatst.'
+title: 'ACSD-48694: Door de aangevraagde fout met betrekking tot een ongeldige statuswijziging kan de klant geen order plaatsen'
 description: Pas de ACSD-48694-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de fout *Ongeldige statuswijziging aangevraagd* een klant belet een bestelling te plaatsen.
 exl-id: edf79424-6c4f-4cfd-ab7e-19f95b9bc685
 feature: Admin Workspace, Orders

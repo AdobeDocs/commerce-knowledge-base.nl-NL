@@ -1,5 +1,5 @@
 ---
-title: '''ACSD-48587: productwidget die niet werkt met SKU''s die HTML-tekens bevatten'''
+title: 'ACSD-48587: productwidget werkt niet met SKU''s die HTML-tekens bevatten'
 description: Pas de ACSD-48587-patch toe om het Adobe Commerce-probleem op te lossen, waarbij speciale HTML-tekens in de widgetovereenkomsten voorkomen dat overeenkomende producten worden weergegeven.
 exl-id: 9f8f436c-f3ef-4510-a941-12f701e7524e
 feature: Admin Workspace, CMS, Orders, Products
@@ -36,12 +36,12 @@ De product widget werkt niet met SKUs die *&quot;&amp;&quot;* symbolen bevatten.
 <u> Stappen om </u> te reproduceren:
 
 1. Creeer een product dat *&quot;&amp;&quot;* in SKU (b.v., s000&amp;01) bevat.
-1. Bewerk de inhoud van een CMS-pagina op de *Page Builder* .
+1. Bewerk de inhoud van een pagina van CMS op de *Bouwer van de Pagina*.
 1. Een widget producten toevoegen.
 1. De widget bewerken en instellen **[!UICONTROL Select Products by]** = **[!UICONTROL SKU]** .
 1. Ga SKU in die *&quot;&amp;&quot;* op het gebied van product SKUs bevat.
 1. Sla de inhoud en de CMS-pagina op.
-1. Controleer de *CMS pagina* inhoud voor de *voorproef van de Bouwer van de Pagina* en productopslag.
+1. Controleer de *pagina van CMS* inhoud voor de *voorproef van de Bouwer van de Pagina* en productopslag.
 
 <u> Verwachte resultaten </u>:
 

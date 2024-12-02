@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51120: GraphQL GET request cache not clear for CMS pages that contain CMS block'
+title: 'ACSD-51120: GraphQL GET request cache is niet gewist voor CMS-pagina''s die CMS-blokken bevatten'
 description: Pas de ACSD-51120-patch toe om het Adobe Commerce-probleem op te lossen waarbij de GraphQL-GET-aanvraagcache niet wordt gewist voor CMS-pagina's die CMS-blokken bevatten.
 exl-id: 22abba89-b697-45d7-972e-bf3233e5e9ec
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # ACSD-51120: GraphQL GET request cache is niet gewist voor CMS-pagina&#39;s die CMS-blokken bevatten
 
-De ACSD-51120-patch verhelpt het probleem waarbij de GraphQL GET request-cache niet wordt gewist voor CMS-pagina&#39;s die CMS-blokken bevatten die via een testupdate worden bijgewerkt. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is geïnstalleerd. De patch-id is ACSD-51120. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-51120-patch verhelpt het probleem dat de GraphQL GET request cache niet wordt gewist voor CMS-pagina&#39;s die CMS-blokken bevatten die via een testupdate worden bijgewerkt. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is geïnstalleerd. De patch-id is ACSD-51120. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
@@ -34,7 +34,7 @@ De GraphQL GET request cache wordt niet gewist voor CMS-pagina&#39;s die CMS-blo
 <u> Stappen om </u> te reproduceren:
 
 1. Maak een CMS-blok.
-1. Neem het CMS-blok op in een CMS-pagina met de [!DNL Page Builder] .
+1. Neem het CMS-blok met de [!DNL Page Builder] op in een CMS-pagina.
 1. Zoek de CMS-pagina met de opgegeven GraphQL-query op een GET-aanvraag:
 
    ```GraphQL
@@ -56,7 +56,7 @@ De GraphQL GET request cache wordt niet gewist voor CMS-pagina&#39;s die CMS-blo
 1. Controleer of de GraphQL-reactie in de cache is opgeslagen in [!DNL Varnish] .
 1. Maak een geplande update voor het blok.
 1. Wacht tot de geplande update is toegepast en voer de uitsnijdtaak uit om de geplande update toe te passen.
-1. Haal de CMS-pagina opnieuw op met de opgegeven GraphQL-query op een GET-verzoek.
+1. Zoek de CMS-pagina opnieuw met de opgegeven GraphQL-query op een GET-verzoek.
 
 <u> Verwachte resultaten </u>:
 

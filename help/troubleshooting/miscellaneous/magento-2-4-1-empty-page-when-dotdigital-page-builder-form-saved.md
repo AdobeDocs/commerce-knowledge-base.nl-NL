@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.1: lege pagina wanneer het formulier dotdigital Page Builder is opgeslagen"
+title: 'Adobe Commerce 2.4.1: lege pagina wanneer digitale pagina Builder-formulier wordt opgeslagen'
 description: Dit artikel biedt een oplossing voor een bekend probleem in Adobe Commerce 2.4.1, waarin u een lege webpagina kunt weergeven nadat u een formulier met een digitale pagina hebt opgeslagen in het deelvenster Beheer wanneer u de Safari-browser gebruikt.
 exl-id: 682eac73-1ad2-4093-acfb-6a8da4c05cf5
 feature: Page Builder

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-45781: Zoekveld voor winkel niet weergegeven op mobiele apparaten'
+title: 'ACSD-45781: Zoekveld voor winkel wordt niet weergegeven op mobiele apparaten'
 description: Met de MDVA-45781-patch wordt het probleem opgelost waarbij het zoekveld voor de winkel niet op mobiele apparaten wordt weergegeven. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.19 is geïnstalleerd. De patch-id is MDVA-45781. De kwestie is opgelost in Adobe Commerce 2.4.3.
 exl-id: 0ae90f6d-1c04-4599-b21d-4d02fd6b36db
 feature: Cache, Native Luma Frontend Development, Search

@@ -1,6 +1,6 @@
 ---
-title: 'Bekende uitgave van Adobe Commerce 2.4.0: weergavefout bestellingen'
-description: '''Dit artikel biedt een oplossing voor een bekende uitgave in Adobe Commerce voor een weergavefout voor bestellingen. Wanneer aangemelde klanten hun bestellingen controleren in het menu **Mijn account** (**Mijn account&gt; Mijn bestellingen**), kan het orderenraster het aantal bestellingen per pagina niet wijzigen van pagina 2 naar 20 als er 11 bestellingen zijn. Ook, als er meer orden zijn dan wordt gevormd om per pagina te tonen, wanneer het navigeren aan de laatste pagina met orden, produceert het veranderen van het aantal orden die per pagina worden getoond het foutenbericht: *U hebt geen orden* geplaatst. Dit probleem wordt opgelost in Adobe Commerce 2.4.1."'
+title: 'Bekende uitgave van Adobe Commerce 2.4.0: weergavefout voor bestellingen'
+description: 'Dit artikel biedt een oplossing voor een bekende uitgave in Adobe Commerce voor een weergavefout voor bestellingen. Wanneer aangemelde klanten hun bestellingen controleren in het menu **Mijn account** (**Mijn account&gt; Mijn bestellingen**), kan het orderenraster het aantal bestellingen per pagina niet wijzigen van pagina 2 naar 20 als er 11 bestellingen zijn. Ook, als er meer orden zijn dan wordt gevormd om per pagina te tonen, wanneer het navigeren aan de laatste pagina met orden, produceert het veranderen van het aantal orden die per pagina worden getoond het foutenbericht: *U hebt geen orden* geplaatst. Dit probleem wordt opgelost in Adobe Commerce 2.4.1.'
 exl-id: a6d300e1-1cbc-42b9-997d-d72f8765517b
 feature: B2B, Categories, Storefront
 role: Admin

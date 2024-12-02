@@ -1,5 +1,5 @@
 ---
-title: '"ACSD-57315: De nieuwe transactie wordt gecreeerd in  [!DNL PayPal Payflow Pro]  telkens als de haalknoop wordt geklikt'''
+title: 'ACSD-57315: De nieuwe transactie wordt gecreeerd in  [!DNL PayPal Payflow Pro]  telkens als de haalknoop wordt geklikt'
 description: Pas ACSD-57315 flard toe om de kwestie van Adobe Commerce te bevestigen waar een nieuwe transactie in  [!DNL PayPal Payflow Pro]  wordt gecreeerd telkens als de haalknoop op het scherm van de meningstransactie in [!UICONTROL Admin] wordt geklikt.
 feature: Payments
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42584: voorraadstatus van configureerbaar product niet automatisch bijgewerkt"
+title: 'MDVA-42584: voorraadstatus van configureerbaar product niet automatisch bijgewerkt'
 description: De MDVA-42584-patch lost het probleem op waarbij de voorraadstatus van het configureerbare product niet automatisch wordt bijgewerkt wanneer het eenvoudige product wordt bijgewerkt. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 is geïnstalleerd. De patch-id is MDVA-42584. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: bf2697a2-8d15-408b-8d59-7b4173537e60
 feature: Configuration, Orders, Products

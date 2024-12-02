@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49822: Updates op pagina met aanvraaglijsten die niet worden weergegeven in de lijst met afdrukaanvragen'
+title: 'ACSD-49822: Updates op pagina met aanvraaglijsten die niet worden weergegeven in de lijst met afdrukverzoeken'
 description: Pas de ACSD-49822-patch toe om het Adobe Commerce-probleem op te lossen, waarbij updates op de pagina met de aanvraaglijst niet worden weergegeven in de lijst met afdrukverzoeken.
 exl-id: 584e3fcd-9153-41aa-8857-cf1fa41269c9
 feature: Admin Workspace, B2B

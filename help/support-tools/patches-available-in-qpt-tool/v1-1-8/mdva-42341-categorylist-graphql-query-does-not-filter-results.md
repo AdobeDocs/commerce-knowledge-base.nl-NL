@@ -1,5 +1,5 @@
 ---
-title: '''MDVA-42341: "categoryList" GraphQL query does not filter results"'
+title: 'MDVA-42341: "categoryList" GraphQL-query filtert resultaten niet'
 description: Met de MDVA-42341-patch wordt het probleem opgelost waarbij de GraphQL-query 'categoryList' niet wordt gefilterd als een aanvraag de Winkelheader heeft. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8 is geïnstalleerd. De patch-id is MDVA-42341. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 34aeb30a-9491-4102-b33e-dcd857b6a1c2
 feature: GraphQL, Categories

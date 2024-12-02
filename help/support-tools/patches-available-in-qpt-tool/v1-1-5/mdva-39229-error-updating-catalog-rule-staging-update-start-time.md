@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39229: Fout na het bijwerken van de Catalogusregel Staging update start time'
+title: 'MDVA-39229: Fout na het bijwerken van de regel van de Catalogus het Staging update begintijd'
 description: De patch MDVA-39229 verhelpt het probleem waarbij gebruikers een fout krijgen na het bijwerken van de begintijd van de update voor het stapelen van catalogusregels. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 is geïnstalleerd. De patch-id is MDVA-39229. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: b9a203af-693d-4253-877b-591ae5f388d3
 feature: Catalog Management, Staging

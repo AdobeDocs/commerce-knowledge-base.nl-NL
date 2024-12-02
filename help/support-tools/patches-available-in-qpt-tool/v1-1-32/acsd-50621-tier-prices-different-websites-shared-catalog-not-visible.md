@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50621: Niveau-prijzen voor verschillende websites in gedeelde catalogus zijn niet zichtbaar"
+title: 'ACSD-50621: Niveau-prijzen voor verschillende websites in gedeelde catalogus zijn niet zichtbaar'
 description: Pas de ACSD-50621-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de prijzen op niveaus voor verschillende websites in de gedeelde catalogus niet zichtbaar zijn wanneer u ze bewerkt in een omgeving met meerdere websites.
 exl-id: 6d6635bc-4f76-4e2f-9bc7-0276cced8ca9
 feature: Catalog Management, Orders

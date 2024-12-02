@@ -1,5 +1,5 @@
 ---
-title: 'Implementatie mislukt: kan MDVA-43395-patch niet toepassen'
+title: 'Implementatie mislukt: kan de MDVA-43395-patch niet toepassen'
 description: Dit artikel biedt een oplossing voor het probleem, waarbij het toepassen van de MDVA-43395-patch resulteert in een mislukte implementatie.
 exl-id: 5341be3a-a9d7-4a4b-9755-8c585c6922a4
 feature: Deploy

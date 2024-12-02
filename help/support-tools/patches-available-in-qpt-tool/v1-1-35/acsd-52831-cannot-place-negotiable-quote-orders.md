@@ -1,5 +1,5 @@
 ---
-title: '"ACSD-52831: Kan onderhandelbare citaatorden niet plaatsen wanneer  [!DNL Google reCAPTCHA v3 Invisible]  toegelaten'''
+title: 'ACSD-52831: Kan onderhandelbare citaatorden niet plaatsen wanneer  [!DNL Google reCAPTCHA v3 Invisible]  toegelaten'
 description: Pas ACSD-52831 flard toe om de kwestie van Adobe Commerce te bevestigen waar u geen verhandelbare citaatorden kunt plaatsen wanneer  [!DNL Google reCAPTCHA v3 Invisible]  wordt toegelaten.
 feature: Quotes, B2B, Checkout
 role: Admin

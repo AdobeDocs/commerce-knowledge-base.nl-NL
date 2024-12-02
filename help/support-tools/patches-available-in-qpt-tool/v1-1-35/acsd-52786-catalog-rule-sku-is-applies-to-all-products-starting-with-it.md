@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52786: De regel van de Catalogus *[!UICONTROL SKU is]* is op alle producten van toepassing die met SKU beginnen"
+title: 'ACSD-52786: De regel van de Catalogus *[!UICONTROL SKU is]* is op alle producten van toepassing die met SKU beginnen'
 description: Pas ACSD-52786 flard toe om de kwestie van Adobe Commerce te bevestigen waar de voorwaarde van de catalogusregel *[!UICONTROL SKU is]* op alle producten van toepassing is die met bepaalde SKU beginnen.
 feature: Price Rules
 role: Admin

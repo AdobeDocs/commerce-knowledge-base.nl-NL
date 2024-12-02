@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50858: Verbeterde prestaties voor het laden van banners'-inhoud"
+title: 'ACSD-50858: Betere prestaties voor het laden van banners''-inhoud'
 description: Pas de ACSD-50858-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de bannerprestaties worden beïnvloed op de winkelwagentje/afhandelingspagina als gevolg van buitensporige DB-query's en een langere laadtijd.
 exl-id: f9526d66-fc0e-44a0-8c72-b9f183004840
 feature: Page Content

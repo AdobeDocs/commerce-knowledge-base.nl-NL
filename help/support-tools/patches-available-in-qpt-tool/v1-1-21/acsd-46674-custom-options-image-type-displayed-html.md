@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-46674: aangepaste opties van afbeeldingstype weergegeven als HTML in e-mails van klanten'
+title: 'ACSD-46674: aangepaste opties voor afbeeldingstype weergegeven als HTML in e-mails van klanten'
 description: Pas de ACSD-46674-patch toe om het Adobe Commerce-probleem op te lossen, waarbij aangepaste opties voor afbeeldingstypen als HTML worden weergegeven in e-mails van klanten.
 exl-id: b4941dd0-bb3a-4805-9631-1d256a92f461
 feature: Communications, Personalization

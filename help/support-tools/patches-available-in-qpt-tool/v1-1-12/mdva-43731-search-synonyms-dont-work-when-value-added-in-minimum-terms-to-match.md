@@ -1,5 +1,5 @@
 ---
-title: '"MDVA-43731: De Synoniemen van het onderzoek werken niet wanneer de waarde in "Minimumtermijnen aan Gelijke"wordt toegevoegd'
+title: 'MDVA-43731: De Synoniemen van het onderzoek werken niet wanneer de waarde in "Minimumtermijnen aan Gelijke"wordt toegevoegd'
 description: De patch MDVA-43731 verhelpt het probleem waarbij Zoeksynoniemen niet meer werken wanneer een waarde wordt toegevoegd in "Minimumvoorwaarden voor overeenkomst". Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 is geïnstalleerd. De patch-id is MDVA-43731. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: b795989c-d10b-443e-aebe-f3859930396a
 feature: Cache, Marketing Tools, Search

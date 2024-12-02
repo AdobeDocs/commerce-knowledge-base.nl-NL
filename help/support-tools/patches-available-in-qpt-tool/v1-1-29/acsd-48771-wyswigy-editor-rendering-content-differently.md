@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-48771: inhoud wordt in de WYSIWYG-editor anders gerenderd'
-description: Pas de ACSD-48771-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de WYSIWYG-editor inhoud anders weergeeft.
+title: 'ACSD-48771: inhoud wordt in de WYSIWYG-editor anders weergegeven'
+description: Pas de ACSD-48771-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de inhoud in de WYSIWYG-editor anders wordt weergegeven.
 exl-id: 6a856fa3-6099-4237-8d1c-e3735b8ca012
 feature: Cache, Page Content
 role: Admin
@@ -31,7 +31,7 @@ De ACSD-48771-patch verhelpt het probleem waarbij de WYSIWYG-editor inhoud ander
 
 ## Probleem
 
-De WYSIWYG-editor geeft de inhoud anders weer.
+In de WYSIWYG-editor wordt inhoud anders weergegeven.
 
 <u> Stappen om </u> te reproduceren:
 

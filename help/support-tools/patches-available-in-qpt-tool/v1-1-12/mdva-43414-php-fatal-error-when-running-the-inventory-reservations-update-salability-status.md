@@ -1,5 +1,5 @@
 ---
-title: '''MDVA-43414: PHP-fout met fatale afloop bij het uitvoeren van "voorraad.reserveringen.updateSalabilityStatus"'
+title: 'MDVA-43414: PHP fatale fout bij het uitvoeren van "voorraad.reserveringen.updateSalabilityStatus"'
 description: De patch MDVA-43414 lost de PHP fatale fout op die voorkomt wanneer het runnen van de ` voorraad.reserveringen.updateSalabilityStatus' rijconsument op numerieke SKUs. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 is geïnstalleerd. De patch-id is MDVA-43414. De kwestie is opgelost in Adobe Commerce 2.4.2.
 exl-id: 197c5db1-36bc-41a7-a5ca-f026600da786
 feature: Inventory, Orders

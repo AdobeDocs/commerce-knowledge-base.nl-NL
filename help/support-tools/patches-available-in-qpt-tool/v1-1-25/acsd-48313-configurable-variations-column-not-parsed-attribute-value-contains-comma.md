@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48313: [!UICONTROL configurable_variations] kolom niet geparseerd als kenmerkwaarde komma bevat'
+title: 'ACSD-48313: [!UICONTROL configurable_variations] kolom niet geparseerd als kenmerkwaarde een komma bevat'
 description: Pas de ACSD-48313-patch toe om het Adobe Commerce-probleem op te lossen waarbij de [!UICONTROL configurable_variations] -kolom niet wordt geparseerd als de kenmerkwaarde een komma bevat.
 exl-id: 0ac3f8da-4da3-4308-bea4-98a5b6926b0d
 feature: Attributes, Configuration

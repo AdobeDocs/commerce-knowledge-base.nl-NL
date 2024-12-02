@@ -1,5 +1,5 @@
 ---
-title: '''Loglocaties (directory''s) voor Pro-plan: integratie, Staging, Productie'''
+title: 'Loglocaties (directory''s) voor Pro-plan: integratie, opslag, productie'
 description: Zie [Logbestanden weergeven en beheren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) in de *Commerce on Cloud Infrastructure Guide* voor informatie over de locatie waar u de logbestanden voor samenstellen en implementeren, toepassingen en services voor uw project kunt vinden.
 exl-id: daa79b73-68c2-4c89-bf5e-51c105762774
 feature: Integration, Logs

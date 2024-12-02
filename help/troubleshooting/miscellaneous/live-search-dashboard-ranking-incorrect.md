@@ -1,9 +1,10 @@
 ---
-title: '[!DNL Live Search] dashboard and search result ranking is incorrect'
+title: '[!DNL Live Search] dashboard- en zoekresultaatpositie zijn onjuist'
 description: Dit artikel verstrekt het oplossen van problemeninformatie als de gegevens in het  [!DNL Live Search]  dashboard onjuist zijn, of als het rangschikken van de onderzoeksresultaten niet is wat u verwacht.
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: 4c1199c31f83d7c2aaf28e259d63473779bf2efe
+exl-id: d4aea1f1-c2c4-45e5-87c8-73069f7c9ffd
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%

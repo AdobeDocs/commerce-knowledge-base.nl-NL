@@ -1,5 +1,5 @@
 ---
-title: "MDVA-30862: Onjuiste besteldatum op gedrukte PDF factuur"
+title: 'MDVA-30862: Onjuiste besteldatum op gedrukte PDF factuur'
 description: De MDVA-30862-patch verhelpt het probleem waarbij een onjuiste datum van de bestelling op de PDF-factuur wordt afgedrukt. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6 is geïnstalleerd. De patch-id is MDVA-30862. Deze kwestie is opgelost in Adobe Commerce 2.4.0.
 exl-id: 695f530e-6abf-4883-972d-5d9c379493a2
 feature: Invoices, Orders

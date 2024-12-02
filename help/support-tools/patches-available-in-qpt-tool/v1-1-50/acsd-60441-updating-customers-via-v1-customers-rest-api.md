@@ -1,15 +1,15 @@
 ---
-title: '"ACSD-60441: Het bijwerken van klanten via V1/klanten  [!DNL REST]  API eindpunt werpt een fout'''
+title: 'ACSD-60441: Het bijwerken van klanten via V1/klanten  [!DNL REST]  API eindpunt werpt een fout'
 description: Pas ACSD-60441 flard toe om de kwestie van Adobe Commerce te bevestigen waar het bijwerken van klanten via V1/klanten  [!DNL REST]  API wanneer het gebruiken van het teken van de integratietoegang dat van backend wordt geproduceerd een fout veroorzaakt.
 feature: REST, Customers
 role: Admin, Developer
-source-git-commit: ea62d2387ab0c04fe44291df431f42d78a0d2f2a
+exl-id: fdc18060-5c6d-4f95-84d3-9ad120fe3a7d
+source-git-commit: 06f751e43ef825c0eb29cb9b42eb41f07c308625
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-60441: Het bijwerken van klanten via het API-eindpunt `V1/customers` [!DNL REST] veroorzaakt een fout
 

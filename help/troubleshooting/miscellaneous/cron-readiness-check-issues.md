@@ -1,6 +1,6 @@
 ---
 title: Problemen met gereedheid voor uitsnijden
-description: '''Dit artikel biedt oplossingen voor problemen met de gereedheid voor uitsnijden. Hieronder volgen de symptomen van problemen met de kron: "'
+description: 'Dit artikel biedt oplossingen voor problemen met gereedheid voor uitsnijden. Hieronder volgen de symptomen van problemen met de borst:'
 exl-id: 1f2cee2c-98ad-4cf5-af16-d736fced2a15
 feature: Configuration
 role: Developer

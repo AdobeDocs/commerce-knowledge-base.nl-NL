@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-38666: Admin user is unable to change configurable product options'
+title: 'MDVA-38666: Admin-gebruiker kan configureerbare productopties niet wijzigen'
 description: Met de MDVA-38666-patch wordt het probleem opgelost waarbij de beheerder de configureerbare productopties in het winkelwagentje van de klant niet kan wijzigen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9 is geïnstalleerd. De patch-id is MDVA-3866. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 72440e47-1deb-41da-a225-d4bc73029ad5
 feature: Admin Workspace, Configuration, Products

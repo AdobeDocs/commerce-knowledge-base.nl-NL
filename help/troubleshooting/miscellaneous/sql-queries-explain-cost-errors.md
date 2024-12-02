@@ -1,5 +1,5 @@
 ---
-title: '''SQL query''s: UITSPELEN van kostenfouten'''
+title: 'SQL-query''s: EXPLAIN-kostenfouten'
 description: Dit artikel biedt oplossingen voor EXPLAIN-kostenfouten bij het uitvoeren van mislukte SQL-query's. PostgreSQL gebruikt iets genoemd [het bevel EXPLAIN] (https://www.postgresql.org/docs/9.5/static/using-explain.html) om de kosten van SQL vragen te bepalen. Wij bouwden de SQL Report Builder om dit bevel ook te gebruiken, betekenend dat als de kosten te hoog worden geacht - de hoeveelheid middelen die worden vereist om de vraag uit te voeren onze drempels overschrijdt - de vraag niet zal lopen en een EXPLAIN bericht zal tonen.
 exl-id: 6f6df66a-665e-46a8-ad4c-842a0270c4eb
 feature: Commerce Intelligence

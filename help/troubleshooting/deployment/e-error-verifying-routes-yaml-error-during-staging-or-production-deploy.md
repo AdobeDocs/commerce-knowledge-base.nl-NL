@@ -1,6 +1,6 @@
 ---
-title: 'E: Fout bij het controleren van routes.yaml-fout tijdens het implementeren van testversies of productieprocessen.'
-description: 'Dit artikel biedt een oplossing voor het probleem met de Adobe Commerce op het gebied van de cloudinfrastructuur, waarbij u de foutmelding *"E: Error while checking routes.yaml"* krijgt wanneer u probeert het project te implementeren in de omgeving van Staging of Production.'
+title: 'E: Fout bij het controleren van routes.yaml-fout tijdens het implementeren van testversies of productieprocessen'
+description: 'Dit artikel biedt een oplossing voor het probleem van de Adobe Commerce met betrekking tot de cloudinfrastructuur, waarbij u het foutbericht *"E: Error while checking routes.yaml"* krijgt wanneer u probeert het project te implementeren in de omgeving van Staging of Production.'
 exl-id: 7f58591a-5581-46cd-984d-09ac2c0f3903
 feature: Deploy, Routes, Staging
 role: Developer

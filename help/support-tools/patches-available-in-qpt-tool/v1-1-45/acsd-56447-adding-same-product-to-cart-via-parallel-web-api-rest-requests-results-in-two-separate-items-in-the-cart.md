@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-56447: Toevoegen van hetzelfde product aan het winkelwagentje via parallelle web REST API resulteert in twee aparte artikelen in het winkelwagentje.'
+title: 'ACSD-56447: Als hetzelfde product via parallelle web REST API aan het winkelwagentje wordt toegevoegd, ontstaan er twee aparte items in het winkelwagentje'
 description: Pas de ACSD-56447-patch toe om het Adobe Commerce-probleem te verhelpen, waarbij het toevoegen van hetzelfde product aan de winkelwagentje via parallel REST API-aanvragen resulteert in twee aparte items in de winkelwagentje.
 feature: Shopping Cart, REST
 role: Admin, Developer

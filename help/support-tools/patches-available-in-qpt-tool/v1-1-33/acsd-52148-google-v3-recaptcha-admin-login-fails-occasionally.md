@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-52148: Google v3 reCAPTCHA-beheerdersaanmelding mislukt af en toe.'
+title: 'ACSD-52148: Google v3 reCAPTCHA-beheerdersaanmelding mislukt af en toe'
 description: Pas de ACSD-52148-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de aanmelding voor de Google v3 reCAPTCHA-beheerder af en toe mislukt.
 feature: Admin Workspace
 role: Admin

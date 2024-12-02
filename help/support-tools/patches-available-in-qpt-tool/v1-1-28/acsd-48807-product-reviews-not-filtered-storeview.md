@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48807: productherzieningen niet gefilterd door storeview"
+title: 'ACSD-48807: productherzieningen niet gefilterd door een storeview'
 description: Pas de ACSD-48807-patch toe om het Adobe Commerce-probleem op te lossen, waarbij productrevisies niet via GraphQL worden gefilterd.
 exl-id: 754ef455-ff06-4832-9eb6-ad8cccec8799
 feature: Admin Workspace, Products

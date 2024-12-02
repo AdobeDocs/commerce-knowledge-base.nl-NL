@@ -1,5 +1,5 @@
 ---
-title: 'Beheerde waarschuwingen over Adobe Commerce: CPU-kritieke waarschuwing'
+title: 'Beheerde waarschuwingen over Adobe Commerce: kritieke CPU-waarschuwing'
 description: Dit artikel bevat stappen voor het oplossen van problemen wanneer u een kritieke waarschuwing voor Adobe Commerce in New Relic ontvangt. Er moet onmiddellijk actie worden ondernomen om dit probleem op te lossen. De waarschuwing ziet er ongeveer als volgt uit, afhankelijk van het waarschuwingsberichtkanaal dat u hebt geselecteerd.
 exl-id: 45b8ced0-b12f-428b-9838-2a9c26b9874b
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services

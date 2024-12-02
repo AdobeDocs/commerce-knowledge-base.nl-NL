@@ -1,6 +1,6 @@
 ---
 title: Fout bij wissen van cache in Commerce Admin
-description: 'Dit artikel legt uit hoe u de oorzaak kunt identificeren van een foutbericht dat optreedt bij het leegmaken van de cache in Commerce Admin. Wanneer u de cache probeert te wissen via de beheerfunctie, ontvangt u het volgende bericht:'
+description: 'In dit artikel wordt uitgelegd hoe u de oorzaak kunt achterhalen van een foutbericht dat optreedt bij het leegmaken van de cache in Commerce Admin. Wanneer u de cache probeert te wissen via de beheerfunctie, ontvangt u het volgende bericht:'
 exl-id: aa414e04-bc6d-46bd-b98f-0446b97bda14
 feature: Admin Workspace, Cache
 role: Developer

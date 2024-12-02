@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.0: uitzondering tijdens installatie B2B 1.2.0"
+title: 'Adobe Commerce 2.4.0: uitzondering tijdens installatie B2B 1.2.0'
 description: Dit artikel biedt een oplossing voor een bekende Adobe Commerce-probleem voor een uitzondering die tijdens de installatie van B2B 1.2.0 wordt gegenereerd.
 exl-id: 2c1dadd9-7754-4b4c-8d37-b75c13beae5c
 feature: B2B, Install, Upgrade

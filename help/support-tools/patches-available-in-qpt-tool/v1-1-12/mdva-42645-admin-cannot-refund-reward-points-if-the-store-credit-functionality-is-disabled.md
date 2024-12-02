@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42645: Admin kan geen bonuspunten terugbetalen voor een creditering van een gehandicapte winkel"
+title: 'MDVA-42645: Admin kan geen bonuspunten terugbetalen voor creditering van winkels met een handicap'
 description: De MDVA-42645-patch lost het probleem op waarbij de beheerder geen bonuspunten kan terugbetalen als de functionaliteit voor winkelkrediet is uitgeschakeld. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 is geïnstalleerd. De patch-id is MDVA-42645. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 8e8f8c07-c1a2-4031-a2fb-cb737165dc2c
 feature: Admin Workspace, Orders, Rewards, Returns

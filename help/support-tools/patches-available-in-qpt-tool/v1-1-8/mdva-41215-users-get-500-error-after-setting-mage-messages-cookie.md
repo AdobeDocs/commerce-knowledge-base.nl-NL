@@ -1,5 +1,5 @@
 ---
-title: '''MDVA-41215: gebruikers krijgen 500 fouten nadat het cookie ''mage-messages'' is ingesteld'
+title: 'MDVA-41215: gebruikers krijgen 500 fouten na het instellen van het cookie ''mage-messages'''
 description: De patch MDVA-41215 verhelpt het probleem waarbij gebruikers een fout van 500 krijgen na het instellen van het cookie 'mage-messages' als dit al bestaat, maar er zijn geen nieuwe berichten. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8 is geïnstalleerd. De patch-id is MDVA-41215. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 93555984-1eed-4866-ab49-5467f9afd124
 feature: Configuration

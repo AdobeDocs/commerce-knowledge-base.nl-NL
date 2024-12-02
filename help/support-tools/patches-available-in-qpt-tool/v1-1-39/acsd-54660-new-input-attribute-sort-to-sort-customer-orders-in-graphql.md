@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54660: Nieuwe soort invoerkenmerk voor het sorteren van klantorders in  [!DNL GraphQL]'
+title: 'ACSD-54660: De nieuwe soort van inputattributen om klantenorden in te sorteren  [!DNL GraphQL]'
 description: Pas ACSD-54660 flard toe om de kwestie van Adobe Commerce te bevestigen waar een nieuw inputattribuut "soort ` wordt toegevoegd aan de orden van de soortklant in  [!DNL GraphQL]  door sort_field ` en ` sort_direction `'.
 feature: GraphQL, Orders
 role: Admin, Developer

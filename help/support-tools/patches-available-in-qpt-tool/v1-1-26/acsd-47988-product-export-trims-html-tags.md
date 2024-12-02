@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47988: product export trims HTML tags from page builder product description"
+title: 'ACSD-47988: product export trims HTML tags from page builder product description'
 description: Pas de ACSD-47988-patch toe om het Adobe Commerce-probleem op te lossen, waarbij het product HTML-tags bij het exporteren bijsnijdt van de productbeschrijving van de paginabuilder.
 exl-id: 96c45ca8-f526-4876-8f2c-39bce07f86eb
 feature: Admin Workspace, Data Import/Export, Page Builder, Products

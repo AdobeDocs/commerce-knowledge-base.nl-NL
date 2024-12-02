@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Fastly] veelgestelde vragen over het camoufleren van oorsprong"
+title: '[!DNL Fastly] veelgestelde vragen over het camoufleren van oorsprong'
 description: Dit FAQ bespreekt gemeenschappelijke vragen over  [!DNL Fastly]  oorsprong het camoufleren enablement in Adobe Commerce (die volledig is uitgevoerd sinds 2021).
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
 source-git-commit: 1021a1ab81481f92e850bd49330f1742fe9a21f2
@@ -19,7 +19,7 @@ Oorspronkelijke camouflage is een beveiligingsfunctie waarmee Adobe Commerce op 
 
 ## Wat zijn de voordelen van het camoufleren van de oorsprong?
 
-Oorsprong het camoufleren wordt ontworpen om verkeer te verhinderen [!DNL Fastly Web Application Firewall] (WAF) te mijden en het te verpletteren door de strikt bepaalde stroom van **[!DNL Fastly]** > **de Balancer van de Lading** > **Instanties**. Met deze implementatie is gegarandeerd dat al het verkeer door de [!DNL Fastly] WAF gaat en de interne WAF die in het taakverdelingsmechanisme is ingebouwd.
+Oorsprong het camoufleren wordt ontworpen om verkeer te verhinderen [!DNL Fastly Web Application Firewall] (WAF) te mijden en het te verpletteren door de strikt bepaalde stroom van **[!DNL Fastly]** > **de Balancer van de Lading** > **Instanties**. Met deze implementatie is gegarandeerd dat al het verkeer door de [!DNL Fastly] WAF en de interne WAF gaat die in het taakverdelingsmechanisme is ingebouwd.
 
 ## Waarom gebeurt deze &#39;oorsprong&#39;-ontmoediging?
 

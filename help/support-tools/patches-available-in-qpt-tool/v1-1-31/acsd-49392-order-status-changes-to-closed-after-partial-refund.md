@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49392: Wijzigingen in de status van bestelling die na gedeeltelijke terugbetaling worden gesloten"
+title: 'ACSD-49392: Wijzigingen in de status van bestellingen die na gedeeltelijke terugbetaling worden gesloten'
 description: Pas de ACSD-49392-patch toe om het Adobe Commerce-probleem op te lossen waarbij de status van de order verandert in gesloten na een gedeeltelijke terugbetaling voor een gebundeld product.
 exl-id: fca6f502-e224-4444-b0d0-f823853c9458
 feature: Orders

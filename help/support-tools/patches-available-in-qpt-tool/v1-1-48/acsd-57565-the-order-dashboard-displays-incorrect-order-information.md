@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-57565: Het dashboard voor bestellingen bevat onjuiste bestelgegevens'
+title: 'ACSD-57565: op het dashboard voor bestellingen worden onjuiste ordegegevens weergegeven'
 description: Pas de ACSD-57565-patch toe om het Adobe Commerce-probleem op te lossen, waarbij op het orderdashboard onjuiste bestelgegevens worden weergegeven, totdat de tijdsperiode is bijgewerkt.
 feature: Roles/Permissions
 role: Admin, Developer

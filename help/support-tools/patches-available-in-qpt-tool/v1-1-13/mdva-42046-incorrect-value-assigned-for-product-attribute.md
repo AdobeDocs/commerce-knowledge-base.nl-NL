@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42046: Onjuiste waarde toegewezen voor productkenmerk"
+title: 'MDVA-42046: Onjuiste waarde toegewezen voor productkenmerk'
 description: De patch MDVA-42046 verhelpt het probleem waarbij een onjuiste waarde wordt toegewezen aan het kenmerk product bij het bijwerken van een product met een invoerveld voor de datum. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is geïnstalleerd. De patch-id is MDVA-42046. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 837f5582-849c-43a3-ae02-87f71fb96061
 feature: Attributes, Products

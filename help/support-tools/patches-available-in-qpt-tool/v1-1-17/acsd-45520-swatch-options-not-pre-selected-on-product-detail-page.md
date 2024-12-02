@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-45520: Staalopties niet geselecteerd op pagina met productdetails'
+title: 'ACSD-45520: Staalopties zijn niet geselecteerd op de pagina met productdetails'
 description: De ACSD-45520-patch verhelpt het probleem dat staalopties niet vooraf zijn geselecteerd op de pagina met productdetails wanneer een gebruiker configureerbare producten bewerkt in het winkelwagentje. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 is geïnstalleerd. De patch-id is ACSD-45520. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 exl-id: 941f4a45-bc3c-44c0-a582-ddfe179fa8c3
 feature: Products

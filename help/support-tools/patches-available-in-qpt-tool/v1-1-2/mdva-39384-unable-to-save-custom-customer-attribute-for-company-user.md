@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39384: Kan aangepast kenmerk van klant niet opslaan voor zakelijke gebruiker'
+title: 'MDVA-39384: Onbekwaam om douanekenmerk van de klant voor bedrijfgebruiker te bewaren'
 description: De patch MDVA-39384 lost de kwestie op waar het attribuut van de douaneklant voor een bedrijfgebruiker niet wordt bewaard. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is geïnstalleerd. De patch-id is MDVA-39384. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: b9864ca6-307b-4649-b764-4512abc503d3
 feature: Attributes, B2B, Companies

@@ -1,5 +1,5 @@
 ---
-title: '''PWA Studio: browser geeft ''Cannot proxy to''error'' weer'
+title: 'PWA Studio: browser geeft "Cannot proxy to"error weer'
 description: Dit onderwerp bespreekt een oplossing wanneer uw Webbrowser "*Kan volmacht aan*"toont en de console toont een
 exl-id: de689633-34b8-4a25-bbd0-a58742c4d03c
 feature: Console

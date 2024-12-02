@@ -1,6 +1,6 @@
 ---
 title: Problemen met gedeelde toegang oplossen
-description: '**Probleem:** U wilt gedeelde toegang verlenen aan uw vertrouwde collega, maar u kunt het tabblad **Gedeelde Toegang*** niet vinden op uw Commerce-accountpagina.'
+description: '**Probleem:** U wilt gedeelde toegang verlenen aan uw vertrouwde collega, maar u kunt het tabblad **Gedeelde Toegang** niet vinden op uw Commerce-accountpagina.'
 exl-id: 9e03c031-2359-42a6-9de4-943451a16456
 feature: Cache
 role: Developer

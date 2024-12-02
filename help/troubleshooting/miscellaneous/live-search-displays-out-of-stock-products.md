@@ -1,5 +1,5 @@
 ---
-title: '"[!DNL Live Search] toont uit-van-voorraadproducten ongeacht de montages van de voorraadstatus in admin.'
+title: '[!DNL Live Search] geeft producten uit de voorraad weer, ongeacht de statusinstellingen van de voorraad in de beheerder'
 description: In dit artikel wordt informatie gegeven over het bekende probleem waarbij op de pagina met productaanbiedingen (PLP) de *We kunnen geen producten vinden die overeenkomen met de fout in de selectie* terwijl de zoekkeuzelijst sommige items retourneert.
 exl-id: 2a351b83-407c-444a-a761-4932b5b88843
 feature: Admin Workspace, Categories, Orders, Products, Search

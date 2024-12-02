@@ -1,5 +1,5 @@
 ---
-title: "PWA Studio: vragen van Venia GraphQL aan Adobe Commerce leiden tot validatiefouten"
+title: 'PWA Studio: vragen van Venia GraphQL aan Adobe Commerce veroorzaken validatiefouten'
 description: Dit artikel bevat aanbevelingen voor het oplossen van het probleem waarbij aanvragen van GraphQL naar Adobe Commerce-instanties in Venia storefront validatiefouten veroorzaken.
 exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
 feature: GraphQL

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-41236: Kan geen nieuwe geplande updates maken of bewerken voor product'
+title: 'MDVA-41236: Kan geen nieuwe geplande updates voor het product maken of bewerken'
 description: De MDVA-41236-patch verhelpt het probleem dat gebruikers geen nieuwe geplande updates voor het product kunnen maken of bewerken als de "Einddatum" eerder is verwijderd. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 is geïnstalleerd. De patch-id is MDVA-41236. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 00d6c0af-f248-49f6-aaa2-3ae3c0294832
 feature: Products, Staging

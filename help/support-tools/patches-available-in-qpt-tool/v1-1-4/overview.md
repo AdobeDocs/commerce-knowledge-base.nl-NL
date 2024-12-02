@@ -27,6 +27,6 @@ QPT v1.1.4 bevat de volgende patches:
 1. **MDVA-40399**: Verhelpt de kwestie waar de gedeeltelijke facturen voor de zelfde orde niet gelijktijdig via REST API kunnen worden tot stand gebracht.
 1. **MDVA-40401**: Verhelpt de kwestie waar de waarde van het coupongebruik verandert zelfs als het plaatsen van een orde ontbreekt.
 1. **MDVA-40435**: Verhelpt de kwestie met een onjuiste korting op bundelproducten met dynamische prijzen wanneer toegepast via GraphQL.
-1. **MDVA-40537**: Verhelpt de kwestie waar de gebruikers een fout krijgen wanneer het creëren van een opslagmening als verscheidene CMS pagina&#39;s met de zelfde sleutel URL bestaan.
+1. **MDVA-40537**: Verhelpt de kwestie waar de gebruikers een fout krijgen wanneer het creëren van een opslagmening als verscheidene pagina&#39;s van CMS met de zelfde sleutel URL bestaan.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.

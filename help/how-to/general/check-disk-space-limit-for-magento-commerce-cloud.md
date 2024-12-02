@@ -1,6 +1,6 @@
 ---
 title: Limiet schijfruimte controleren voor Adobe Commerce op cloudinfrastructuur
-description: 'Om te controleren hoeveel ruimte u voor elke Adobe Commerce hebt op de omgeving van de cloudinfrastructuur:'
+description: 'Om te controleren hoeveel ruimte u voor elke Adobe Commerce hebt op de omgeving van de cloud-infrastructuur:'
 exl-id: 0dd613e4-161f-403e-95a1-d228303693d3
 feature: Cloud
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733

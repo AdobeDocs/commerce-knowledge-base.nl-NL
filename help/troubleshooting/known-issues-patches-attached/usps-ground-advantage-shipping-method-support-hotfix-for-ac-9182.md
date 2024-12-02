@@ -1,5 +1,5 @@
 ---
-title: '[!DNL USPS] Ondersteuning voor hotfix van de verzendmethode voor de grondvoordeel voor AC-9182'
+title: '[!DNL USPS] Ondersteuning voor hotfix van de verzendmethode voor grondvoordeel voor AC-9182'
 promoted: true
 description: Pas een flard toe om de  [!DNL USPS]  het verschepen methodekwestie AC-9182 voor Adobe Commerce 2.4.4 - 2.4.6-p2 te behandelen.
 feature: Shipping/Delivery

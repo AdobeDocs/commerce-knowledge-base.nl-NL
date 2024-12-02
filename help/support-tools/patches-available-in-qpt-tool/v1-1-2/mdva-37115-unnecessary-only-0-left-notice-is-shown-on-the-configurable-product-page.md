@@ -1,5 +1,5 @@
 ---
-title: '"MDVA-37115: Op de productpagina wordt de vermelding "Slechts 0 links" vermeld."'
+title: 'MDVA-37115: Op de productpagina wordt de vermelding "Slechts 0 links" vermeld'
 description: De MDVA-37115-patch lost het probleem op waarbij de onnodige *Only 0 left*-kennisgeving op de configureerbare productpagina wordt weergegeven. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is geïnstalleerd. De patch-id is MDVA-37115. De kwestie is opgelost in Adobe Commerce 2.4.3.
 exl-id: 08aa6ac7-13ae-44c1-9db4-d449c3d8c985
 feature: Configuration, Products, Orders

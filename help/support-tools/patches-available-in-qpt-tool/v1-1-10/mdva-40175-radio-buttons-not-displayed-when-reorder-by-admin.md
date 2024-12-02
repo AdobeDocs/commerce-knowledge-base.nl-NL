@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40175: Keuzerondjes niet weergegeven bij opnieuw ordenen'
+title: 'MDVA-40175: Radio buttons not displayed when reorder'
 description: Met de MDVA-40175-patch wordt het probleem opgelost waarbij de keuzerondjes niet worden weergegeven wanneer gebruikers proberen de volgorde te wijzigen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 is geïnstalleerd. De patch-id is MDVA-40175. De kwestie is opgelost in Adobe Commerce 2.4.3.
 exl-id: 307c450d-9f53-40b7-b2f5-d867850c043a
 feature: Admin Workspace, Orders

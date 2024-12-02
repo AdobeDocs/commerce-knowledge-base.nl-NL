@@ -1,5 +1,5 @@
 ---
-title: '"[!DNL Elasticsearch] wordt getoond als onderzoeksmotor ondanks  [!DNL OpenSearch]  installatie'''
+title: '[!DNL Elasticsearch] wordt getoond als onderzoeksmotor ondanks  [!DNL OpenSearch]  installatie'
 description: Dit artikel verstrekt een oplossing voor de kwestie waar  [!DNL Elasticsearch]  nog als onderzoeksmotor voor Adobe Commerce op wolk na het installeren of het bevorderen aan  [!DNL OpenSearch] wordt getoond.
 exl-id: cdd8a35d-da6f-46d3-b732-65626487c9bb
 feature: Install

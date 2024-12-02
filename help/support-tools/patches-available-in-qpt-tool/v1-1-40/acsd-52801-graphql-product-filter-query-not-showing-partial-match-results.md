@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-52801: query voor GraphQL-productfilter waarbij resultaten van gedeeltelijke overeenkomsten niet worden weergegeven'
+title: 'ACSD-52801: GraphQL-productfilterquery geeft resultaten van gedeeltelijke overeenkomsten niet weer'
 description: Pas de ACSD-52801-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de GraphQL-productfilterquery geen resultaten van gedeeltelijke overeenkomst weergeeft.
 feature: Products
 role: Admin, Developer

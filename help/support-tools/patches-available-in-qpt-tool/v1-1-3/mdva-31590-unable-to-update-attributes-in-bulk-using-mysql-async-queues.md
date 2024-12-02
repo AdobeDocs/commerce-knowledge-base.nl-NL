@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-31590: Kan kenmerken niet bulksgewijs bijwerken met MySQL async-wachtrijen'
+title: 'MDVA-31590: Onbekwaam om attributen in bulk bij te werken gebruikend MySQL async rijen'
 description: De patch MDVA-31590 lost de kwestie op waar de gebruikers attributen in bulk kunnen bijwerken gebruikend MySQL async rijen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3 is geïnstalleerd. De patch-id is MDVA-31590. De kwestie is opgelost in Adobe Commerce 2.4.2.
 exl-id: 57db28dd-a739-4a77-927d-6339af4fa4a6
 feature: Attributes, Services
@@ -60,7 +60,7 @@ Gebruikers kunnen attributen niet bulksgewijs bijwerken met MySQL async.
 1. Nieuwe records worden gemaakt in `queue_message` - en `queue_message_status` -tabellen.
 1. `queue_message_status` table has record with error status (status value &quot;6&quot;).
 1. `system.log` bevat een fout die lijkt op het volgende:
-   *main.CRITICAL: Het bericht is verworpen: SQLSTATE [ 23000 ]: De schending van de integriteitsbeperking: 1048 de Kolom &quot;operation_key&quot;kan ongeldig zijn, de vraag was: TUSSENVOEGSEL IN {{magento_operation}} ({{id}}, {{bulk_uuid}}, {{topic_name}}, {{serialized_data}}, {{result_serialized_data}}, {{status}}, {{error_code}}, {{result_message}}, {{operation_key}}) WAARDEN (?, ?, ?, ?, ?, ?, ?) [][]*
+   *main.CRITICAL: Het bericht is verworpen: SQLSTATE [ 23000 ]: schending van de integriteitsbeperking: 1048 de Kolom &quot;operation_key&quot;kan ongeldig zijn, de vraag was: TUSSENVOEGSEL IN {{magento_operation}} ({{id}}, {{bulk_uuid}}, {{topic_name}}, {{serialized_data}}, {{result_serialized_data}}, {{error_code}}, {{result_message}}, , {{status}} , {{operation_key}} ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) [][]*
 
 ## De patch toepassen
 

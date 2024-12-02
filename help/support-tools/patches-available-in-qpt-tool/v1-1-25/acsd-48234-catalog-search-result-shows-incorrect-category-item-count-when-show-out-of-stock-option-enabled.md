@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48234: zoekresultaat catalogus onjuiste telling categorie-items indien [!UICONTROL Display Out of Stock Products] ingeschakeld'
+title: 'ACSD-48234: zoekresultaat catalogus heeft onjuist aantal categorieën van items als [!UICONTROL Display Out of Stock Products] is ingeschakeld'
 description: Pas de ACSD-48234-patch toe om het Adobe Commerce-probleem op te lossen waarbij het zoekresultaat van de catalogus een onjuist aantal categorieën van items weergeeft wanneer de optie [!UICONTROL Display Out of Stock Products] is ingeschakeld.
 exl-id: 8e70fe73-d550-4e11-b25e-84955e136d12
 feature: Admin Workspace, Categories, Catalog Management, Orders, Products, Search

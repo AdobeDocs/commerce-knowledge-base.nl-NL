@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-47803: configureerbare productstalen die buiten de voorraad worden weergegeven als beschikbaar'
+title: 'ACSD-47803: configureerbare productstalen die uit voorraad worden weergegeven zoals beschikbaar'
 description: Pas de ACSD-47803-patch toe om het Adobe Commerce-probleem op te lossen wanneer stalen van producten die uit voorraad kunnen worden geconfigureerd, worden weergegeven als beschikbaar.
 exl-id: 28b3f378-a790-4af6-9627-5bd8571523fd
 feature: Configuration, Orders, Products

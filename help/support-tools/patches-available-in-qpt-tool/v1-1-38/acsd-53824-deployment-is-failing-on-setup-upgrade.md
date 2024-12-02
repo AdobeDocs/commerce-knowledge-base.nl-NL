@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53824: implementatie mislukt bij installatie-upgrade'
+title: 'ACSD-53824: implementatie mislukt bij upgrade van installatie'
 description: Pas de ACSD-53824-patch toe om het Adobe Commerce-probleem op te lossen dat zich bij de upgrade van de installatie niet voordoet
 feature: Attributes, Upgrade
 role: Admin, Developer

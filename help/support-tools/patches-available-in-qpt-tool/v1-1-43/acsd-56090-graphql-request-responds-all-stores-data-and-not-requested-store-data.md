@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-56090: GraphQL-respons is niet opslagspecifiek'
+title: 'ACSD-56090: GraphQL-respons is niet specifiek opgeslagen'
 description: Pas de ACSD-56090-patch toe om het Adobe Commerce-probleem op te lossen, waarbij het GraphQL-antwoord alle opslaggegevens bevat in plaats van de opslagspecifieke gegevens.
 feature: GraphQL
 role: Admin, Developer

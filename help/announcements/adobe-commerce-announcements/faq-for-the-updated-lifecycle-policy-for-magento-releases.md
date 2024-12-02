@@ -1,6 +1,6 @@
 ---
 title: Veelgestelde vragen over het bijgewerkte levenscyclusbeleid voor Adobe Commerce-releases
-description: '''Adobe Commerce biedt kwaliteitsoplossingen voor een kleine release gedurende minimaal twaalf maanden vanaf de algemene beschikbaarheidsdatum van de volgende secundaire softwarerelease. De manier waarop wij in deze periode kwaliteitscorrecties aanbrengen, verandert:"'
+description: 'Adobe Commerce biedt kwaliteitsoplossingen voor een kleine release gedurende minimaal 12 maanden vanaf de algemene beschikbaarheidsdatum van de volgende secundaire softwarerelease. De manier waarop wij in deze periode kwaliteitscorrecties aanbrengen, is aan het veranderen:'
 exl-id: 4aa601d0-ee1d-4f1f-a684-188772a58dd1
 feature: Compliance, Support
 role: Admin

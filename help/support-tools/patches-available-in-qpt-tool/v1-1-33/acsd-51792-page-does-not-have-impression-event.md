@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51792: Pagina heeft geen impressiegebeurtenis'
+title: 'ACSD-51792: De gebeurtenis Pagina heeft geen indruk'
 description: Pas de ACSD-51792-patch toe om het Adobe Commerce-prestatieprobleem op te lossen wanneer een pagina niet de impliciete gebeurtenis heeft wanneer Google Tag Manager 4 is ingeschakeld.
 exl-id: 59194d4c-c387-4372-a0ff-1cdd74f8c6df
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

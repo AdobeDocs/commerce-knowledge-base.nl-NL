@@ -1,5 +1,5 @@
 ---
-title: "MDVA-32776: voorraadstatus niet bijgewerkt met orderplaatsing"
+title: 'MDVA-32776: voorraadstatus niet bijgewerkt met orderplaatsing'
 description: De MDVA-32776-patch verhelpt het probleem waarbij de voorraadstatus niet wordt bijgewerkt wanneer een bestelling wordt geplaatst, maar niet wordt verzonden. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6 is geïnstalleerd. De patch-id is MDVA-32776. De kwestie is opgelost in Adobe Commerce 2.4.2.
 exl-id: 10e9458f-562a-480b-b813-104a93db4308
 feature: Orders

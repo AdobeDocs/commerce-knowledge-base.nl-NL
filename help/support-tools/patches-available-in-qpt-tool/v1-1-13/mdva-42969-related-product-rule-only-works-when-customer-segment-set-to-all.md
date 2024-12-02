@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-42969: De regel betreffende verwante producten werkt alleen wanneer het klantensegment op alles wordt ingesteld.'
+title: 'MDVA-42969: Verwante productregel werkt alleen wanneer het klantensegment op alle'
 description: De patch MDVA-42969 verhelpt het probleem waarbij de gerelateerde productregel alleen werkt wanneer het klantensegment op iedereen is ingesteld. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is geïnstalleerd. De patch-id is MDVA-42969. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 2877ba7a-2681-4de2-9c37-228de232424f
 feature: Customer Service, Marketing Tools, Products

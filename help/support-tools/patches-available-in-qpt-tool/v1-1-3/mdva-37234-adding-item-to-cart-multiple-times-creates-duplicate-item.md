@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-37234: Als u een item aan een winkelwagentje toevoegt, wordt een dubbel regelitem gemaakt.'
+title: 'MDVA-37234: Als u een item meerdere keren aan het winkelwagentje toevoegt, wordt een dubbel lijstitem gemaakt'
 description: Met de MDVA-37234-patch is het probleem verholpen waarbij een item meerdere keren (parallel verzoek) voor dezelfde SKU aan het winkelwagentje wordt toegevoegd, waardoor een dubbel lijstitem voor dezelfde winkelwagentje-id wordt gemaakt. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.3 is geïnstalleerd. De patch-id is MDVA-37234. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 8f0dc249-10b2-4f2c-abca-1f5b7aea204d
 feature: Orders, Shopping Cart

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51636: Bedrijfsbeheerder kan geen nieuwe gebruikers toevoegen vanuit de sectie voor klantenaccounts"
+title: 'ACSD-51636: Bedrijfsbeheerder kan geen nieuwe gebruikers toevoegen vanuit de sectie voor klantenaccounts'
 description: Pas de ACSD-51636-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de bedrijfsbeheerder geen nieuwe gebruikers kan toevoegen uit de sectie voor de klantenaccount, ondanks dat hij over alle benodigde rollen en machtigingen beschikt.
 feature: Admin Workspace, B2B, Companies, Customer Service
 role: Admin

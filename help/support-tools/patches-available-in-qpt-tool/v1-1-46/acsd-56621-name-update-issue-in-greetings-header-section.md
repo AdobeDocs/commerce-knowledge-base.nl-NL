@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-56621: Bijgewerkte namen worden niet weergegeven in de begroetingkoptekst voor de gebruiker van het bedrijfsbeheer'
+title: 'ACSD-56621: Bijgewerkte namen worden niet weergegeven in de begroetingheader voor de gebruiker van het bedrijfsbeheer'
 description: Pas de ACSD-56621-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de bijgewerkte voornaam en achternaam van de beheerder van het bedrijf niet worden weergegeven in de sectie met begroetingkoppen.
 feature: Companies, B2B, User Account
 role: Admin, Developer

@@ -1,6 +1,6 @@
 ---
 title: Tijdens de installatie, uitzondering SessionHandler::read()
-description: "Dit artikel bevat een oplossing voor een uitzondering **SessionHandler::read()**-fout tijdens de installatie van Adobe Commerce."
+description: Dit artikel bevat een oplossing voor een uitzondering **SessionHandler::read()**-fout tijdens de installatie van Adobe Commerce.
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '218'

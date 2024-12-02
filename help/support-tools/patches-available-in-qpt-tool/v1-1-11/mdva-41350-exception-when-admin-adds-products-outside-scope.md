@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41350: Uitzondering wanneer de beheerder producten toevoegt buiten zijn toegang"
+title: 'MDVA-41350: Uitzondering wanneer admin producten buiten hun toegang toevoegt'
 description: De flard MDVA-41350 lost de kwestie op waar een uitzonderingsfout in plaats van een beperkt toegangsbericht wordt geworpen wanneer een admin gebruiker een product in de orde door SKU toevoegt die buiten hun toegang is. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11 is geïnstalleerd. De patch-id is MDVA-41350. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 3a96d029-5350-4dd6-aad3-2f2cdd5e65ac
 feature: Admin Workspace, Products

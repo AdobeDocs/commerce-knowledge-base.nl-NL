@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-54324: Het verzoek GraphQL requisition_lists overweegt geen pagineringsinstellingen'
+title: 'ACSD-54324: Het verzoek GraphQL requisition_lists overweegt geen pagineringsmontages'
 description: Pas het ACSD-54324 flard toe om de kwestie van Adobe Commerce te bevestigen waar het GraphQL ` requisition_lists' verzoek pagineringsmontages niet overweegt en alle resultaten terugkeert.
 feature: B2B, Customers, GraphQL
 role: Admin, Developer
 exl-id: 85297eae-bedf-4624-9758-0b68452d131b
-source-git-commit: b5894687704594a4e751c230246bdf167b1b6402
+source-git-commit: 9aa6de484b5e5d67a982a5b1ac76846319c60388
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-37984: Visuele Merchandiser werkt niet correct wanneer het opvoeren van updates wordt toegepast'
+title: 'MDVA-37984: Visuele Merchandiser die niet correct werkt wanneer het opvoeren van updates wordt toegepast'
 description: De flard MDVA-37984 lost de kwestie op waar de de "product van de Gelijke Merchandiser door regel"functionaliteit niet correct filtert wanneer de het opvoeren updates worden toegepast. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9 is geïnstalleerd. De patch-id is MDVA-37984. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: d806b94c-3b22-4d4c-8afb-7b57a0ebfe46
 feature: Categories, Merchandising, Products, Staging

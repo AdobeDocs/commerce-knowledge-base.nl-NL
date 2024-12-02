@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48262: producten die niet zichtbaar zijn op de winkel wanneer [!UICONTROL Allow All Products Per Page] is ingesteld [!UICONTROL Yes]'
+title: 'ACSD-48262: producten die niet zichtbaar zijn op de winkel als [!UICONTROL Allow All Products Per Page] is ingesteld [!UICONTROL Yes]'
 description: Pas de ACSD-48262-patch toe om het Adobe Commerce-probleem op te lossen, waarbij producten niet zichtbaar zijn op de winkel wanneer de [!UICONTROL Allow All Products Per Page] -instelling is ingesteld op [!UICONTROL Yes] .
 exl-id: 327cad03-441d-4adb-8a10-802f06d3fcd1
 feature: Admin Workspace, Cache, Categories, Orders, Products, Storefront

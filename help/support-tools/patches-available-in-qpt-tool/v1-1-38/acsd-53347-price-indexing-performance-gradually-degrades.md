@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53347: Prijsindexerende prestaties verminderen de overuren geleidelijk.'
+title: 'ACSD-53347: Prijsindexprestaties verminderen de overuren geleidelijk'
 description: Pas de ACSD-53347-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de prestaties geleidelijk afnemen bij het opnieuw indexeren van prijzen voor een grote productcatalogus.
 feature: Price Indexer
 role: Admin

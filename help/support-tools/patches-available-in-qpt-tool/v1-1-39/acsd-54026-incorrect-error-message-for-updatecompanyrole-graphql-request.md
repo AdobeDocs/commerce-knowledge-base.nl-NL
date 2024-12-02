@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54026: Onjuist foutbericht voor updateCompanyRole GraphQL-verzoek'
+title: 'ACSD-54026: onjuist foutbericht voor GraphQL-verzoek updateCompanyRole'
 description: Pas de ACSD-54026-patch toe om het Adobe Commerce-probleem op te lossen wanneer er een onjuist foutbericht is voor een updateCompanyRole GraphQL-verzoek voor een niet-geautoriseerde gebruiker.
 feature: Roles/Permissions
 role: Admin, Developer

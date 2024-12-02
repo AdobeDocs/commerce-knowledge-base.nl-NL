@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.0, 2.4.1: Enable Braintree Venmo Part Bill"
+title: 'Adobe Commerce 2.4.0, 2.4.1: Braintree Venmo gedeeltelijke factuur toestaan'
 description: In dit artikel wordt een bekende uitgave van Adobe Commerce 2.4.0 en 2.4.1 beschreven, waarbij een gedeeltelijke factuur niet beschikbaar is voor bestellingen die via Braintree via Venmo worden geplaatst.
 exl-id: ef6c8aa4-a2a7-4e07-a957-23173017baf2
 feature: Invoices, Orders, Payments

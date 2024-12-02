@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56546: configureerbare en bundelproducten worden weergegeven als producten die niet in voorraad zijn in de winkel"
+title: 'ACSD-56546: configureerbare en bundelproducten worden weergegeven als producten die niet in voorraad zijn in de winkel'
 description: Pas ACSD-56546 flard toe om de kwestie van Adobe Commerce te bevestigen waar de configureerbare en bundelproducten als uit voorraad op de opslagplaats tonen wanneer de * [!UICONTROL Display Out of Stock Products]* configuratieoptie wordt onbruikbaar gemaakt.
 feature: Storefront, Products
 role: Admin, Developer

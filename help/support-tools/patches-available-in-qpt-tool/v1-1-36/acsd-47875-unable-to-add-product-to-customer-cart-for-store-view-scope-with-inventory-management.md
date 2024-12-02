@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47875: kan geen product aan winkelwagentje toevoegen voor weergavebereik met voorraadbeheer"
+title: 'ACSD-47875: kan geen product aan winkelwagentje toevoegen voor weergavebereik met voorraadbeheer'
 description: Pas de ACSD-47875-patch toe om het Adobe Commerce-probleem op te lossen waarbij een product niet vanuit Admin aan een klantenkar kan worden toegevoegd voor een bepaald weergavebereik in de winkel met voorraadbeheer.
 feature: Inventory, Shopping Cart, Products
 role: Admin, Developer

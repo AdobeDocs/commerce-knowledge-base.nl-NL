@@ -1,5 +1,5 @@
 ---
-title: '"MDVA-43718: "De consument is niet gemachtigd om tot middelen toegang te hebben"fout verschijnt wanneer het toegang tot van gedeelde catalogus"'
+title: 'MDVA-43718: De fout "De consument is niet gemachtigd om tot middelen toegang te hebben"verschijnt wanneer het toegang tot van gedeelde catalogus'
 description: De patch MDVA-43718 lost het probleem op waar de fout *consumer geen toegang heeft tot %resources.* wordt weergegeven wanneer u een gedeelde catalogus opent vanuit een aangepaste integratie. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15 is geïnstalleerd. De patch-id is MDVA-43718. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: fa783ed4-906e-4ee6-b82a-cfe6db5ae89e
 feature: Catalog Management

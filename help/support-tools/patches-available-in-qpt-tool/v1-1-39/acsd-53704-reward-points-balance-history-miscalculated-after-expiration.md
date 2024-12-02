@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53704: historie van de balans van de punten in achterwaartse richting, onjuist berekend na afloop"
+title: 'ACSD-53704: Historische waarde van de balans van de punten in achterwaartse richting onjuist berekend na afloop van de looptijd'
 description: Pas de ACSD-53704-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de geschiedenis van de beloningspunten na de vervaldatum van de bonuspunten onjuist is berekend.
 feature: Rewards
 role: Admin, Developer

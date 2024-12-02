@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45169: Visuele Merchandiser toont onjuiste voorraad en prijs voor configureerbaar product"
+title: 'ACSD-45169: Visuele Merchandiser toont onjuiste voorraad en prijs voor configureerbaar product'
 description: De ACSD-45169 flard moeilijke situatie waar Visuele Merchandiser niet de correcte voorraad en de prijs voor een configureerbaar product na een het opvoeren update wordt toegepast toont. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 is geïnstalleerd. De patch-id is ACSD-45169. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 exl-id: 5a7987c8-f276-4917-98f7-645402f4c454
 feature: Categories, Configuration, Merchandising, Orders, Products

@@ -1,5 +1,5 @@
 ---
-title: 'Beheerde waarschuwingen voor Adobe Commerce: waarschuwing voor geheugenbeschadiging'
+title: 'Beheerde waarschuwingen voor Adobe Commerce: waarschuwing voor opnieuw verzonden geheugen'
 description: 'Dit artikel bevat stappen voor het oplossen van problemen wanneer u een waarschuwingsbericht van Redis voor Adobe Commerce in New Relic ontvangt. Er is onmiddellijke actie vereist om het probleem op te lossen. De waarschuwing ziet er ongeveer als volgt uit, afhankelijk van het waarschuwingsberichtkanaal dat u hebt geselecteerd:'
 exl-id: b7867a42-3817-4cb4-93cf-d69acee33a41
 feature: Categories, Marketing Tools, Observability, Services, Support, Tools and External Services, Variables

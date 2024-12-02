@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53118: Rijregels met coupon werken niet correct"
+title: 'ACSD-53118: Rijregels met coupon werken niet correct'
 description: Pas de ACSD-53118-patch toe om de Adobe Commerce-uitgave te herstellen waar de regel van de winkelwagenprijs wordt toegepast met behulp van een couponcode, terwijl het product in het winkelwagentje een leeg matchingkenmerk heeft.
 feature: Shopping Cart, Price Rules
 role: Admin, Developer

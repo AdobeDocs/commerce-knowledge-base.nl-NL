@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53643: Het totaal van een bestelling is onjuist wanneer een inkooporder wordt geplaatst'
+title: 'ACSD-53643: het totaal van een bestelling is onjuist bij het plaatsen van een inkooporder'
 description: Pas de ACSD-53643-patch toe om het Adobe Commerce-probleem op te lossen waarbij het totaal van de bestelling onjuist is wanneer een inkooporder wordt geplaatst met uitgeschakelde of out-of-stock producten.
 feature: B2B
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.0: Vernieuwen van de activiteiten van de Klant werkt niet"
+title: 'Adobe Commerce 2.4.0: Vernieuwen van de activiteiten van de Klant werkt niet'
 description: Dit artikel biedt een oplossing voor een bekend probleem met Adobe Commerce 2.4.0 wanneer een beheerder een bestelling voor een klant maakt en de vernieuwingsknoppen in het zijpaneel Activiteiten van de klant niet werken.
 exl-id: 50048e9f-6009-4db5-ae4a-c35a84cec265
 feature: Configuration

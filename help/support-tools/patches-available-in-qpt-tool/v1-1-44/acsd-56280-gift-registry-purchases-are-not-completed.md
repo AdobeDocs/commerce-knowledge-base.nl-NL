@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56280: Aankopen van cadeauregisters zijn niet voltooid"
+title: 'ACSD-56280: aankopen van cadeauregisters worden niet voltooid'
 description: Pas de ACSD-56280-patch toe om het Adobe Commerce-probleem op te lossen waarbij de aankopen van het cadeauregister niet zijn voltooid
 feature: Checkout
 role: Admin

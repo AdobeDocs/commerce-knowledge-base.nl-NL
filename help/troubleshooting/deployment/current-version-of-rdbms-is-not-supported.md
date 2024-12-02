@@ -1,6 +1,6 @@
 ---
 title: De fout 'Huidige versie van RDBMS wordt niet ondersteund' bij de implementatie
-description: 'Dit artikel biedt een oplossing voor het geval een implementatie mislukt en u hebt de volgende fout in het implementatielogboek: *current versie van RDBMS wordt niet ondersteund*.'
+description: 'Dit artikel verstrekt een oplossing voor wanneer een plaatsing ontbreekt en u de volgende fout in het opstellen logboek hebt: *current versie van RDBMS wordt niet gesteund*.'
 exl-id: e7300f64-5749-4de8-b4d2-bc4789437282
 feature: Deploy
 role: Developer

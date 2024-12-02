@@ -1,5 +1,5 @@
 ---
-title: 'ERROR: Warming up failed on Adobe Commerce on cloud Infrastructure'
+title: 'FOUT: Opwarmen is mislukt in Adobe Commerce op cloudinfrastructuur'
 description: 'Dit artikel biedt een oplossing voor het opwarmen van de paginacache en het mislukken van een fout:'
 exl-id: 20a88030-b1c9-4fdc-83c1-f344d44cd2e1
 feature: Cache, Cloud, Paas

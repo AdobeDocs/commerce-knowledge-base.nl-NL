@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51845: Kan volgende producten met laagprijzen en verschillende kenmerksets niet bijwerken via asynch bulk  [!DNL API]"
+title: 'ACSD-51845: Kan volgende producten met laagprijzen en verschillende kenmerkreeksen niet bijwerken via asynchrone bulkgoederen  [!DNL API]'
 description: Pas ACSD-51845 flard toe om de kwestie van Adobe Commerce te bevestigen waar u geen verdere producten met laagprijzen en verschillende attributenreeksen via asynchrone bulk  [!DNL REST API] kunt bijwerken.
 feature: REST, Products
 role: Admin

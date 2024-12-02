@@ -1,10 +1,10 @@
 ---
-title: '''MDVA-41631: Fout bij het ophalen van bestelgegevens zonder optionele waarde ''phone'''
+title: 'MDVA-41631: Fout bij het ophalen van bestelgegevens zonder optionele waarde "phone"'
 description: De MDVA-41631-patch verhelpt het probleem waarbij gebruikers een fout krijgen bij het ophalen van bestellingsgegevens zonder optionele "telefoon"-waarde via GraphQL. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7 is geïnstalleerd. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 94b0b918-c1f9-4f5d-8fcd-8b92a9ca8c59
 feature: Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -37,8 +37,8 @@ Gebruikers krijgen via GraphQL een fout bij het ophalen van bestelgegevens zonde
 
 1. Ga naar **Opslag** > **Configuratie** > **Klanten** > **de Configuratie van de Klant** > **Naam en de Opties van het Adres** > **tonen Telefoon** en plaatsen het telefoonaantal als facultatief.
 1. Plaats een bestelling met GraphQL API als aangemelde klant.
-   * Stel het telefoonnummer niet in bij het instellen van het factuuradres en het verzendadres. Volg de instructies die in [ het Leerprogramma van de Controle van GraphQL ](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-customer.html) in onze ontwikkelaarsdocumentatie worden gegeven.
-1. Haal de orde terug gebruikend de GraphQL [ customerOrders vraag ](https://developer.adobe.com/commerce/webapi/graphql/queries/customer-orders.html).
+   * Stel het telefoonnummer niet in bij het instellen van het factuuradres en het verzendadres. Volg de instructies die in [ het Leerprogramma van de Controle van GraphQL ](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/) in onze ontwikkelaarsdocumentatie worden gegeven.
+1. Haal de orde terug gebruikend de GraphQL [ customerOrders vraag ](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/orders/).
 
 <pre>
 <code class="language-graphql">

@@ -1,5 +1,5 @@
 ---
-title: '''ACSD-45168: SEO-vriendelijke URL''s die niet zijn gegenereerd voor producten met overschreven URL_key-kenmerken'''
+title: 'ACSD-45168: SEO-vriendelijke URL''s die niet zijn gegenereerd voor producten met overschreven URL_key-kenmerken'
 description: Pas de ACSD-45168-patch toe om het Adobe Commerce-probleem op te lossen waarbij geen SEO-vriendelijke URL's worden gegenereerd voor producten met URL_key-kenmerken die zijn overschreven op archiefweergaveniveau.
 exl-id: cdba42ac-3c96-439b-befa-f0a13587b5d9
 feature: Attributes, Cache, Categories, Marketing Tools, Products

@@ -1,6 +1,6 @@
 ---
-title: '''Omleiden terug naar het [!UICONTROL Commerce Admin] aanmeldingsformulier met de fout ''Uw huidige sessie is verlopen'''''
-description: 'Dit artikel biedt de mogelijke oplossingen voor het [!UICONTROL Commerce Admin] -aanmeldingsprobleem, waarbij u met het volgende foutbericht terugkeert naar het aanmeldingsformulier: *"Uw huidige sessie is verlopen"*. Tot de oplossingen behoren het controleren op problemen met de instelling van de servertijd en het wijzigen van de opslaginstellingen voor sessies.'
+title: Leid terug naar het [!UICONTROL Commerce Admin] aanmeldingsformulier met de fout "Uw huidige sessie is verlopen"
+description: 'Dit artikel bevat de mogelijke oplossingen voor het [!UICONTROL Commerce Admin] -aanmeldingsprobleem, waarbij u met het volgende foutbericht terugkeert naar het aanmeldingsformulier: *"Uw huidige sessie is verlopen"*. Tot de oplossingen behoren het controleren op problemen met de instelling van de servertijd en het wijzigen van de opslaginstellingen voor sessies.'
 exl-id: 29df2ed2-ff4a-4f1a-bdb7-1160416cda00
 feature: Admin Workspace
 role: Developer

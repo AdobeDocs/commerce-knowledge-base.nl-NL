@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-26005: Kan categorie niet selecteren in boomstructuur voor de voorwaarden van de prijsregel voor winkelwagentjes'
+title: 'MDVA-26005: Kan categorie niet selecteren in structuur voor de regelvoorwaarden voor winkelwagentjes'
 description: Met de MDVA-26005-patch wordt het probleem opgelost waarbij gebruikers geen categorie in de categoriestructuur kunnen selecteren voor de regelvoorwaarden voor winkelwagenprijzen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.4 is geïnstalleerd. De patch-id is MDVA-26005. De kwestie is opgelost in Adobe Commerce 2.3.6.
 exl-id: d3b8efc3-fd0a-4706-8851-4cecb7d3126a
 feature: Categories, Orders, Price Rules, Shopping Cart

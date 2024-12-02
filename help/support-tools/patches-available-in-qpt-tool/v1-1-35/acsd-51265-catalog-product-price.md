@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51265: Herindexering voor gebundelde producten optimaliseren"
+title: 'ACSD-51265: Herindexering optimaliseren voor gebundelde producten'
 description: Pas de ACSD-51265-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de 'catalog_product_price' rendexing-prestaties laag zijn wanneer het systeem te veel gebundelde producten bevat.
 feature: Products, Price Indexer
 role: Admin

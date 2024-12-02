@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-38799: Downloadbare producten die niet zijn opgeslagen na het maken van een gefaseerde update'
+title: 'MDVA-38799: Downloadbare producten die niet zijn opgeslagen na het maken van een testupdate'
 description: Met de MDVA-38799-patch wordt het probleem opgelost waarbij downloadbare producten niet worden opgeslagen na het maken van een testupdate. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.0 is geïnstalleerd. De patch-id is MDVA-38799. Het probleem is opgelost in Adobe Commerce versie 2.4.3.
 exl-id: 306f9ef3-ca3a-41b9-a5d3-42aa4ef59953
 feature: Products, Staging

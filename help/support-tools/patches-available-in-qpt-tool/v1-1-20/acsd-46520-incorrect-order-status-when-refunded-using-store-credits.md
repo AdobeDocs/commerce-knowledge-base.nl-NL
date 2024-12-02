@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-46520: Onjuiste orderstatus bij teruggaaf met gebruik van winkelcredits'
+title: 'ACSD-46520: onjuiste orderstatus bij teruggave via winkelcredits'
 description: Dit artikel biedt een oplossing voor het probleem waarbij gebruikers een onjuiste orderstatus krijgen wanneer ze deze terugbetalen met gebruik van winkelcredits.
 exl-id: 8464df22-0223-4ded-a15f-ce06eacdf77c
 feature: Orders, Returns

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47179: het massaal verwijderen van productoverzichten werkt niet wanneer aangemeld als beperkte gebruikersrol"
+title: 'ACSD-47179: het massaal verwijderen van productoverzichten werkt niet wanneer aangemeld als beperkte gebruikersrol'
 description: Pas de ACSD-47179-patch toe om het Adobe Commerce-probleem op te lossen, waarbij het massaal verwijderen van productoverzichten niet werkt wanneer u bent aangemeld als een beperkte gebruikersrol.
 exl-id: 85d7ce63-7dd6-4df4-b314-278d18e69fbb
 feature: Marketing Tools, Products, Roles/Permissions

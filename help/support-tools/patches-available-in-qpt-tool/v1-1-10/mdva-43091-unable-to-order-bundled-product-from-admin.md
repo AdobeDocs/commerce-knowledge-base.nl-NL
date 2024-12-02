@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43091: Kan gebundeld product niet bestellen bij Admin"
+title: 'MDVA-43091: Kan gebundeld product niet bestellen bij Admin'
 description: De MDVA-43091-patch lost het probleem op waarbij gebruikers geen gebundeld product kunnen bestellen bij de Commerce Admin. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 is geïnstalleerd. De patch-id is MDVA-43091. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 77dff356-4f75-4b06-b62b-5379a4eec273
 feature: Admin Workspace, Orders, Products

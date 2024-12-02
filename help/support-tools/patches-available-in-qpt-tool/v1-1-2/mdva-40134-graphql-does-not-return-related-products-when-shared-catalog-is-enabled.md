@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40134: GraphQL retourneert geen verwante producten als gedeelde catalogus is ingeschakeld.'
+title: 'MDVA-40134: GraphQL retourneert geen verwante producten als gedeelde catalogus is ingeschakeld'
 description: De MDVA-40134-patch verhelpt het probleem dat GraphQL geen verwante producten retourneert wanneer de gedeelde catalogus is ingeschakeld. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is geïnstalleerd. De patch-id is MDVA-40134. De kwestie is opgelost in Adobe Commerce 2.4.3.
 exl-id: 7b14355a-1c14-4c80-9426-6c40505d638b
 feature: B2B, Catalog Management, GraphQL, Products

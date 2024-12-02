@@ -1,6 +1,6 @@
 ---
-title: 'MBI: verschillen in gegevens'
-description: "Ziet de cijfers in een bepaald rapport er onnauwkeurig uit? Ziet u onverwachte NULL-waarden? Als u iets ziet dat niet helemaal juist lijkt, adviseren wij gebruikend deze middelen om u te helpen problemen oplossen:"
+title: 'MBI: gegevensdiscrepanties'
+description: 'Zijn de cijfers in een bepaald rapport onnauwkeurig? Ziet u onverwachte NULL-waarden? Als u iets ziet dat niet behoorlijk correct lijkt, adviseren wij gebruikend deze middelen om u te helpen problemen oplossen:'
 exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 feature: Commerce Intelligence
 role: Developer

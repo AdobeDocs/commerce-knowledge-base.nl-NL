@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 gekend probleem: dotdigital login"
+title: 'Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 gekend probleem: digitale aanmelding'
 description: In dit artikel wordt een bekende uitgave van Adobe Commerce 2.3.6, 2.4.0-p1 en 2.4.1 beschreven, waarbij u zich niet via het deelvenster Beheer kunt aanmelden bij [dotdigital] (https://dotdigital.com/) wanneer de digitale account is ingeschakeld.
 exl-id: 427d895c-8c03-4ced-813a-eeaa67f1d1f0
 feature: Configuration

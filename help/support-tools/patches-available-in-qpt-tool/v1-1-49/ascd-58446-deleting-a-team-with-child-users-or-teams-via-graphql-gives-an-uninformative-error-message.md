@@ -3,7 +3,8 @@ title: 'ACSD-58446: Het verwijderen van een team met onderliggende gebruikers of
 description: Pas de ACSD-58446-patch toe om het Adobe Commerce-probleem te verhelpen, waarbij het verwijderen van een team met onderliggende gebruikers of teams via GraphQL een niet-informatief foutbericht retourneert dat niet overeenkomt met de gebruikersinterface.
 feature: GraphQL
 role: Admin, Developer
-source-git-commit: d64689d83943691883fc853af22631288d4999a8
+exl-id: df9eca9d-4d7a-4d4c-b6aa-59ac538b1aa0
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%

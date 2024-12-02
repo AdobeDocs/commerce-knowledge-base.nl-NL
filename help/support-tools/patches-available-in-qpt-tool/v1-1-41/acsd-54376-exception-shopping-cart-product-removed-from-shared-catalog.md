@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54376: Uitzondering in winkelwagentje wanneer het product uit [!UICONTROL shared catalog] wordt verwijderd."
+title: 'ACSD-54376: Uitzondering in winkelwagentje wanneer product uit [!UICONTROL shared catalog] wordt verwijderd'
 description: Pas de ACSD-54376-patch toe om het Adobe Commerce-probleem op te lossen, waarbij een uitzondering optreedt in het winkelwagentje wanneer een product uit de [!UICONTROL shared catalog] wordt verwijderd nadat het aan het winkelwagentje is toegevoegd.
 feature: Shopping Cart, B2B
 role: Admin, Developer

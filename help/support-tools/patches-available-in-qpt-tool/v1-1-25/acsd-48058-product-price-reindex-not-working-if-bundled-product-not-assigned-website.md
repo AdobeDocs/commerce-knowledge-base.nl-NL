@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48058: productprijsherdex werkt niet als een gebundeld product geen website krijgt toegewezen"
+title: 'ACSD-48058: productprijsherdex werkt niet als een gebundeld product niet aan de website is toegewezen'
 description: Pas de ACSD-48058-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de productprijsherdex niet werkt als het gebundelde product niet aan een website wordt toegewezen.
 exl-id: 691371f1-7f10-4be6-80e4-821e7cf664a6
 feature: Admin Workspace, Orders, Products

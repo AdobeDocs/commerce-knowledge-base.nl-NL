@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-57003: De status van de bestelling wordt gewijzigd in *Complete* in plaats van te worden gewijzigd in *Processing*'
+title: 'ACSD-57003: de statuswijzigingen van bestellingen worden gewijzigd in *Complete* in plaats van te worden gewijzigd in *Processing*'
 description: Pas de ACSD-57003-patch toe om het Adobe Commerce-probleem op te lossen waarbij de status van de bestelling verandert in *Complete* in plaats van te veranderen in *Processing*.
 feature: Orders, Invoices, Shipping/Delivery
 role: Admin, Developer

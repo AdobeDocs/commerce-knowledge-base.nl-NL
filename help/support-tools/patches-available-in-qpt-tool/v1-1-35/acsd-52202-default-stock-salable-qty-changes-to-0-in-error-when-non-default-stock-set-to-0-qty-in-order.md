@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-52202: De standaard verkochte hoeveelheid in voorraad verandert in 0 ten onrechte als de niet-standaard voorraad op 0 qty in volgorde is ingesteld.'
+title: 'ACSD-52202: De standaard verkochte hoeveelheid van de voorraad verandert in 0 ten onrechte als de niet-standaard voorraad op 0 qty wordt ingesteld'
 description: Pas de ACSD-52202-patch toe om het Adobe Commerce-probleem op te lossen waarbij een standaardhoeveelheid die in voorraad kan worden verkocht, verandert in 0 als de niet-standaardvoorraad is ingesteld op 0 in een bestelling.
 feature: Inventory, Products
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48293: samengestelde producten uit voorraad bij de verkoop van in voorraad zijnde kinderproducten"
+title: 'ACSD-48293: samengestelde producten uit voorraad bij de verkoop van in voorraad zijnde kinderproducten'
 description: Pas de ACSD-48293-patch toe om het Adobe Commerce-probleem op te lossen waarbij de samengestelde producten uit voorraad verdwijnen wanneer de verkochte onderliggende producten naar voorraad worden teruggestuurd.
 exl-id: 74ca34fe-e015-4daf-a608-4756c8ab3558
 feature: Admin Workspace, Orders, Products

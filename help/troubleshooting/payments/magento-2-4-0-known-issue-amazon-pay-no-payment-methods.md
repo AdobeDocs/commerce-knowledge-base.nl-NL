@@ -1,5 +1,5 @@
 ---
-title: "Bekende uitgave van Adobe Commerce 2.4.0: Amazon pay, no payment methods"
+title: 'Bekende uitgave van Adobe Commerce 2.4.0: Amazon-betaling, geen betalingsmethoden'
 description: Dit artikel biedt een oplossing voor een bekende Adobe Commerce 2.4.0-probleem waarbij betalingsmethoden ontbreken wanneer klanten **Terug naar standaardafhandeling*** gebruiken nadat ze Amazon hebben ingeschakeld.
 exl-id: efd792c7-8970-4366-b9d1-4bf284ea96db
 feature: B2B, Orders, Payments

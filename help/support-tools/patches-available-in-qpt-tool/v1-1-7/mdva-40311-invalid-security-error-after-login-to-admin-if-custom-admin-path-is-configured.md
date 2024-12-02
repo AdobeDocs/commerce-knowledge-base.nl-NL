@@ -1,6 +1,6 @@
 ---
-title: 'MDVA-40311: Fout "Ongeldige beveiliging of formuliersleutel" na aanmelding bij Admin als aangepast beheerpad is geconfigureerd.'
-description: '''De MDVA-40311-patch verhelpt het probleem waarbij de Admin-gebruiker een foutbericht krijgt: *Ongeldige beveiliging of formuliersleutel. Vernieuw pagina* na aanmelding bij Admin als het aangepaste beheerpad is geconfigureerd en de geheime sleutel is ingeschakeld. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7 is geïnstalleerd. De patch-id is MDVA-40311. Dit probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4. "'
+title: 'MDVA-40311: Fout "Ongeldige beveiliging of formuliersleutel" na aanmelding bij Admin als aangepast beheerpad is geconfigureerd'
+description: 'De MDVA-40311-patch verhelpt het probleem waarbij de Admin-gebruiker een foutbericht krijgt: *Ongeldige beveiliging of formuliersleutel. Vernieuw pagina* na aanmelding bij Admin als het aangepaste beheerpad is geconfigureerd en de geheime sleutel is ingeschakeld. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7 is geïnstalleerd. De patch-id is MDVA-40311. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.'
 exl-id: d4562f09-0aed-438e-8c2e-90557aa2f146
 feature: Admin Workspace, Compliance, Security
 role: Admin

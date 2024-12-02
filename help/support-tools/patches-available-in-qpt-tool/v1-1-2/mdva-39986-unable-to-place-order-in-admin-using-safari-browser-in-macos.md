@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39986: Kan geen bestellingen plaatsen in een Safari-browser in macOS'
+title: 'MDVA-39986: Kan geen bestellingen plaatsen in Safari browser op macOS'
 description: De MDVA-39986-patch verhelpt het probleem dat gebruikers geen orders in de beheerder kunnen plaatsen via de Safari-browser op macOS. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.2 is geïnstalleerd. De patch-id is MDVA-39986. De kwestie is opgelost in Adobe Commerce 2.4.3.
 exl-id: a35b6253-e03f-4bdb-a3a3-fceb70588c6e
 feature: Admin Workspace, Orders

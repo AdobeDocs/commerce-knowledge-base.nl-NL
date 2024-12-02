@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43935: Upselproduct twee keer weergegeven op productpagina"
+title: 'MDVA-43935: Upselproduct wordt twee keer weergegeven op de productpagina'
 description: De MDVA-43935-patch verhelpt het probleem waarbij het upselproduct tweemaal op de productpagina wordt weergegeven. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is geïnstalleerd. De patch-id is MDVA-43935. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 4ca531b8-12c1-4fa1-b036-5531d11b0f1d
 feature: Products

@@ -23,7 +23,7 @@ QPT v1.1.43 omvat de volgende flarden:
 1. **ACSD-55610**: Verhelpt de kwestie waar een gedeeltelijk geannuleerde orde een onjuist kortingsbedrag heeft.
 1. **ACSD-55334**: Bevestigt vertalingen voor etiketten door Vertaalwoordenboeken in de reactie van GraphQL.
 1. **ACSD-54739**: Verhelpt de kwestie waar de de statusvoorwaarde van het productdossier niet wordt toegepast op verwante productregels.
-1. **ACSD-53925**: Verhelpt de kwestie waar admin het blok CMS met productcarrousel niet kan bewaren wanneer `catalog_product_price` afmetingen-wijze aan *website* wordt geplaatst.
+1. **ACSD-53925**: Verhelpt de kwestie waar admin het blok van CMS met productcarrousel niet kan bewaren wanneer `catalog_product_price` afmetingen-wijze aan *website* wordt geplaatst.
 1. **ACSD-52714**: Verhelpt de kwestie waar de datumfilter niet in het adminnet werkt wanneer het datumformaat als *y-m-d* wordt geplaatst.
 1. **ACSD-53790**: Verhelpt de kwestie waar Meerdere RMAs voor één enkel product via REST API kan worden gecreeerd.
 1. **ACSD-56090**: Verhelpt de kwestie waar het verzoek van GraphQL met alle gegevens van opslag eerder dan de specifiek gevraagde opslaggegevens antwoordt.

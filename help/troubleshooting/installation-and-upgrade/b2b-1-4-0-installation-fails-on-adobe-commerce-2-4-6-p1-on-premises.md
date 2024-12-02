@@ -1,5 +1,5 @@
 ---
-title: '[!DNL B2B] 1.4.0-installatie mislukt op Adobe Commerce 2.4.6-p1 op locatie'
+title: De installatie van [!DNL B2B] 1.4.0 mislukt op Adobe Commerce 2.4.6-p1 in bedrijven
 description: Dit artikel verstrekt een oplossing voor Adobe Commerce 2.4.6-p1 op-gebouw kwestie waar  [!DNL B2B]  versie 1.4.0 installatie ontbreekt.
 feature: Install, Upgrade, B2B
 role: Developer

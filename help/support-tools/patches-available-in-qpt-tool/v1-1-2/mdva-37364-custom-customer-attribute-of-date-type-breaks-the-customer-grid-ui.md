@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-37364: Aangepast kenmerk van datumtype verbreekt raster UI'
+title: 'MDVA-37364: Aangepast kenmerk van datumtype verbreekt raster UI voor klant'
 description: De patch MDVA-37364 lost het probleem op waar het attribuut van de douaneklanker van datumtype de UI van het Net van de Klant breekt. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is geïnstalleerd. De patch-id is MDVA-37364. Het probleem wordt volgens de planning opgelost in Adobe Commerce versie 2.4.4.
 exl-id: d25baabf-45eb-403c-9f88-9c2448cc7b49
 feature: Attributes, Cache

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43167: Massa van beheerdersorderraster is niet van toepassing op meerdere pagina's"
+title: 'MDVA-43167: Massa van beheerdersraster is niet van toepassing op meerdere pagina''s'
 description: De patch MDVA-43167 verhelpt het probleem waarbij de massaactie van het beheerderordaster niet van toepassing is op meerdere pagina's wanneer de beheerder alle bestellingen selecteert. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.16 is geïnstalleerd. De patch-id is MDVA-43167. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 exl-id: 58a126db-8a4f-4e20-8fe5-3ce2e25edf7e
 feature: Admin Workspace, Orders

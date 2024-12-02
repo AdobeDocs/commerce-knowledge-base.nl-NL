@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-50512: Fout bij het bijwerken van de begindatum voor een downloadbare product-staging-update'
+title: 'ACSD-50512: Fout bij het bijwerken van de begindatum voor een downloadbare update voor productfasering'
 description: Pas de ACSD-51892-patch toe om het probleem met de Adobe Commerce-prestaties op te lossen wanneer de fout *De downloadbare koppeling is niet gerelateerd aan het product.Controleer de koppeling en probeer het opnieuw*, en dit gebeurt bij het bijwerken van de begindatum voor een downloadbare product-staging-update.
 feature: Products, Staging
 role: Admin

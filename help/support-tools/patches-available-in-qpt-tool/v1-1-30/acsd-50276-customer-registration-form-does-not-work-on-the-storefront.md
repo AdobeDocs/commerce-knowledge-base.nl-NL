@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50276: registratieformulier voor klanten werkt niet bij opslag als een kenmerk voor meerdere klanten wordt gemaakt."
+title: 'ACSD-50276: registratieformulier voor klanten werkt niet bij opslag als een kenmerk voor meerdere klanten is gemaakt'
 description: Pas de ACSD-50276-patch toe om het Adobe Commerce-probleem op te lossen waarbij het registratieformulier van de klant niet werkt op de winkel als een kenmerk van een klant met meerdere selecties wordt gemaakt.
 exl-id: 542eb93a-3719-4e2d-bb1b-87817f0812b4
 feature: Attributes, Storefront

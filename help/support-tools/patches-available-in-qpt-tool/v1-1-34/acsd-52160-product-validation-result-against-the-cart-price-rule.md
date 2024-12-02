@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52160: Resultaat van de productvalidering volgens de kartonprijsregel"
+title: 'ACSD-52160: Resultaat van de productvalidering volgens de kartonprijsregel'
 description: Pas de ACSD-52160-patch toe om het Adobe Commerce-probleem op te lossen, waarbij het resultaat van de productvalidatie op basis van de regel voor de prijs van het winkelwagentje niet correct wordt geëvalueerd op basis van de regelvoorwaarde *[!UICONTROL If an item is FOUND/NOT FOUND in the cart with All/Any of these conditions true]*.
 exl-id: a371c539-4440-4c84-baa4-774c32f66e41
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

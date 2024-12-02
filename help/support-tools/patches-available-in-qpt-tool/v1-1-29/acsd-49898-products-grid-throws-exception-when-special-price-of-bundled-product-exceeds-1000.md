@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49898: Het raster Producten genereert een uitzondering'
+title: 'ACSD-49898: Het raster van producten werpt een uitzondering'
 description: Pas de ACSD-49898-patch toe om het Adobe Commerce-probleem op te lossen, waarbij het productraster een uitzondering genereert wanneer een gebundeld product een speciale prijs heeft die hoger is dan 1000.
 exl-id: 16a0ec90-7577-46ef-aeb3-a7e9658cf64b
 feature: Admin Workspace, Orders, Products

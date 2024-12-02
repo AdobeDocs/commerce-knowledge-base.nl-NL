@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-56635: Geïmporteerde klanten worden gedupliceerd wanneer het delen van een account is ingesteld op  [!DNL Global]'
+title: 'ACSD-56635: Geïmporteerde klanten worden gedupliceerd wanneer het delen van accounts is ingesteld op  [!DNL Global]'
 description: Pas de ACSD-56635-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de geïmporteerde klant hetzelfde e-mailadres krijgt wanneer het importeren wordt gebruikt en account delen is ingesteld op  [!DNL Global] .
 feature: Customers, Attributes
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-41046: Eenvoudige producten met aangepaste opties niet beschikbaar voor toewijzing'
+title: 'MDVA-41046: eenvoudige producten met aangepaste opties die niet beschikbaar zijn voor toewijzing'
 description: De patch MDVA-41046 lost het probleem op waar de eenvoudige producten met douaneopties niet beschikbaar voor het toewijzen aan configureerbaar/gegroepeerd product zijn. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5 is geïnstalleerd. De patch-id is MDVA-41046. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 01229a69-c72a-4189-9be5-1761073b74ee
 feature: Products

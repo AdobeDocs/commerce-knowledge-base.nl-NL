@@ -18,7 +18,7 @@ Deze subsectie bevat een gedetailleerde beschrijving van de problemen die zijn o
 QPT v1.1.3 omvat de volgende flarden:
 
 1. **MDVA-31590**: Verhelpt de kwestie waar de gebruikers geen attributen in massa kunnen bijwerken gebruikend MySQL async rijen.
-1. **MDVA-33606**: Verhelpt de kwestie waar de gebruikers a *Unieke fout van de beperkingsschending* wanneer het opslaan van een CMS pagina die aan een hiërarchie wordt toegewezen krijgen.
+1. **MDVA-33606**: Verhelpt de kwestie waar de gebruikers a *Unieke fout van de beperkingsschending* wanneer het opslaan van een pagina van CMS die aan een hiërarchie wordt toegewezen krijgen.
 1. **MDVA-36309**: Verhelpt de kwestie waar het productonderzoek door attributen langzaam in de adminnetten is.
 1. **MDVA-37234**: Bevestigt de kwestie waar het toevoegen van een punt aan de kar veelvoudige tijden (parallel verzoek) voor zelfde SKU tot een dubbel lijnpunt voor zelfde wortelidentiteitskaart leidt
 1. **MDVA-40262**: Verhelpt de kwestie waar de het onderzoeksvragen van GraphQL niet in populaire onderzoekstermijnen in Admin worden getoond.

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51853: gekopieerde tekststijlen worden niet toegepast met behulp van de paginaontwikkelaar"
+title: 'ACSD-51853: gekopieerde tekststijlen worden niet toegepast met behulp van de paginaontwikkelaar'
 description: Pas de ACSD-51853-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de gekopieerde tekststijlen niet worden toegepast wanneer de paginaontwikkelaar wordt gebruikt.
 feature: Page Builder
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: 'Bekende uitgave van Adobe Commerce 2.4.0: blanco pagina''s voor onsite berichten van Klarna'
+title: 'Bekende uitgave van Adobe Commerce 2.4.0: Klarna On-Site Messaging-blanco pagina''s'
 description: In dit artikel wordt een bekende Adobe Commerce 2.4.0-uitgave met de betaalmethode Klarna beschreven. Als u een onsite berichtgeving van Klarna inschakelt zonder een ontwerpthema op te geven, worden productpagina's niet correct weergegeven op de winkel (productpagina's worden leeg weergegeven).
 exl-id: f0f9edfc-eaad-4947-9200-41e217bfbe84
 feature: Orders, Payments

@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Cron] -taak is vastgelopen in de status **running**"
+title: '[!DNL Cron] -taak is vastgelopen in de status **running**'
 description: Dit artikel verstrekt oplossingen voor wanneer de banen van Adobe Commerce  [!DNL cron]  niet voltooien uitvoerend en in een "lopende"status voortzetten, die andere  [!DNL cron]  banen verhindert te lopen. Dit kan om een aantal redenen, zoals netwerkkwesties, toepassingsneerstortingen, re-plaatsingskwesties gebeuren.
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration

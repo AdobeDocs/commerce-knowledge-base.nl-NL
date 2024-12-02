@@ -1,5 +1,5 @@
 ---
-title: 'MC-42528: GraphQL query of categoryList toont alle categorieën'
+title: 'MC-42528: De vraag van GraphQL van categoryList toont alle categorieën'
 description: De flard MC-42528 lost de kwestie op waar de vraag van GraphQL van ` categoryList' zowel toegewezen als niet toegewezen categorieën terugkeert wanneer de het doorbladeren Categorie van een bepaalde categorie aan "ontkent"wordt geplaatst. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.4 is geïnstalleerd. De patch-id is MC-42528. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 8bb29f43-92ae-4f37-b147-7121b55c185b
 feature: Catalog Management, Categories, GraphQL, Customer Service

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51036: Ongelijke omstandigheden tijdens gelijktijdige REST API-aanroepen resulteren in een overschrijvingen van de verzendstatus'
+title: 'ACSD-51036: Onjuiste omstandigheden tijdens gelijktijdige REST API-aanroepen leiden tot een overschrijving van de verzendstatus'
 description: Pas de ACSD-51036-patch toe om het Adobe Commerce-probleem op te lossen waarbij er rasvoorwaarden zijn tijdens gelijktijdige REST API-aanroepen die leiden tot het overschrijven van de verzendstatus in de tabel met items die zijn besteld.
 exl-id: 12d90de7-fe5c-4fcc-b84a-d420dcd871ca
 feature: REST, Orders, Shipping/Delivery

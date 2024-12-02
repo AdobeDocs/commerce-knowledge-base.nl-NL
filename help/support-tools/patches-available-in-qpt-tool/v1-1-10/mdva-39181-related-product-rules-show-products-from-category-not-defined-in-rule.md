@@ -1,5 +1,5 @@
 ---
-title: '"MDVA-39181: producten van categorie "niet gedefinieerd in regel"'
+title: 'MDVA-39181: producten uit categorie "niet gedefinieerd" in regel worden in de desbetreffende productregels vermeld'
 description: Met de MDVA-39181-patch wordt het probleem opgelost waarbij gerelateerde productregels producten uit een categorie weergeven die niet in de regel is gedefinieerd. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 is geïnstalleerd. De patch-id is MDVA-39181. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: b6364d1c-2480-483a-9a83-ac91feeb14b9
 feature: Categories, Products

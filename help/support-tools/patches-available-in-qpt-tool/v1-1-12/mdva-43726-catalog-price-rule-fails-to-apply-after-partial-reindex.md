@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43726: Catalogusprijsregel is niet van toepassing na gedeeltelijke herindexering"
+title: 'MDVA-43726: Catalogusprijsregel is niet van toepassing na gedeeltelijke herindexering'
 description: De patch MDVA-43726 verhelpt het probleem waarbij de regel voor catalogusprijzen die is gebaseerd op kenmerkovereenkomsten op archiefniveau niet van toepassing is na gedeeltelijke herindex. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 is geïnstalleerd. De patch-id is MDVA-43726. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 70e7e1d2-e601-4fed-9274-a1a619de29e1
 feature: Catalog Management, Categories, Orders, Price Rules

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-44851: Categorie met subcategorieën die niet kunnen worden geopend of uitgebreid"
+title: 'ACSD-44851: Categorie met subcategorieën die niet kunnen worden geopend of uitgebreid'
 description: Dit artikel biedt een oplossing voor het probleem waarbij de gebruiker een categorie met subcategorieën niet kan openen of uitbreiden.
 exl-id: 46ad9f9d-ed66-44df-b66d-ab9ff3923c36
 feature: Categories

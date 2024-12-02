@@ -1,6 +1,6 @@
 ---
 title: 'MBI: Geavanceerde berekende kolommen maken en bewerken'
-description: "[Admin users](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) hebben de capaciteit om bepaalde berekende kolommen in de Manager van de Data Warehouse tot stand te brengen en uit te geven. Deze berekende kolommen geven u de capaciteit om rapportering op te zetten u zoekt om zeer belangrijke bedrijfsvragen te beantwoorden. "
+description: '[Admin-gebruikers](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) hebben de mogelijkheid om bepaalde berekende kolommen te maken en te bewerken in Beheer Data Warehouse. Deze berekende kolommen geven u de capaciteit aan opstelling het rapport u zoekt om zeer belangrijke bedrijfsvragen te beantwoorden.'
 exl-id: 713a5593-8103-4d74-be5e-0102678d0f97
 feature: Commerce Intelligence
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733

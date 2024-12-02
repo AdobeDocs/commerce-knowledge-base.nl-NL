@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51700: Fout bij het schakelen tussen winkelweergaven op downloadbare pagina voor productbewerking.'
+title: 'ACSD-51700: fout bij het schakelen tussen winkelweergaven op de downloadbare pagina voor productbewerking'
 description: Pas de ACSD-51700-patch toe om het Adobe Commerce-probleem op te lossen, waarbij een fout optreedt bij het schakelen tussen de winkelweergaven op een downloadbare productbewerkingspagina in de beheerder.
 feature: Products
 role: Admin

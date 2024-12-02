@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Admin] aanmelden werkt niet - toegestane maximale sessiegrootte overschreden'
+title: '[!DNL Admin] aanmelden werkt niet - toegestane sessiegrootte is overschreden'
 description: Los de kwestie op wanneer u aan login aan uw  [!DNL Admin]  paneel en de vormvernieuwingen probeert en u kunt niet login.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
 source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1

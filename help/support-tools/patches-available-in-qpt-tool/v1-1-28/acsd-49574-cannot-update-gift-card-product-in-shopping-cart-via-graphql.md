@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49574: Kan cadeaukaartproduct in winkelwagentje niet bijwerken via GraphQL"
+title: 'ACSD-49574: Kan cadeaukaartproduct in winkelwagentje niet bijwerken via GraphQL'
 description: Pas de ACSD-49574-patch toe om het Adobe Commerce-probleem op te lossen waarbij een cadeaukaartproduct niet via GraphQL in het winkelwagentje kan worden bijgewerkt.
 exl-id: e446128f-c991-4c3c-8d1c-bbff6230e448
 feature: Admin Workspace, Gift, GraphQL, Orders, Products, Shopping Cart

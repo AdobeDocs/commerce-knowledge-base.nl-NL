@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51294: Prijs, hoeveelheid, belasting, verschepen, opbrengst die als koord wordt verzonden naar  [!DNL Google Analytics]  en GTM"
+title: 'ACSD-51294: Prijs, hoeveelheid, belasting, verschepen, opbrengst die als koord wordt verzonden naar  [!DNL Google Analytics]  en GTM'
 description: Pas ACSD-51294 flard toe om de kwestie van Adobe Commerce te bevestigen waar de prijs, de hoeveelheid, de belasting, de scheepvaart, en de opbrengst als koord aan  [!DNL Google Analytics]  en GTM worden verzonden.
 feature: Orders, Shipping/Delivery, Variables
 role: Admin

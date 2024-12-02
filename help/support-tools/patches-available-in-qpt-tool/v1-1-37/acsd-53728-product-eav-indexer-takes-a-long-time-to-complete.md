@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53728: Het voltooien van de EAV-indexeerfunctie van het product duurt lang."
+title: 'ACSD-53728: Het duurt lang voordat de EAV-indexeerfunctie van het product is voltooid'
 description: Pas de ACSD-53728-patch toe om het Adobe Commerce-probleem op te lossen, waarbij het voltooien van de product EAV-indexeerder veel tijd in beslag neemt.
 feature: Products, Attributes
 role: Admin, Developer

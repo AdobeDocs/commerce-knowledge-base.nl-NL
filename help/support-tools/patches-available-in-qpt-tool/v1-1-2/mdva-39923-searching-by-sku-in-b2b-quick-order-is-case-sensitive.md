@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39923: Search by SKU in B2B quick order functionaliteit is case-sensitive'
+title: 'MDVA-39923: Onderzoek door SKU in B2B snelle orde functionaliteit is case-sensitive'
 description: De patch MDVA-39923 verhelpt het probleem waarbij klanten een fout krijgen wanneer ze de bestelling via SKU doorzoeken in de functie voor snelle bestelling van B2B met een ander geval dan het geval waarin de naam wordt opgeslagen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is geïnstalleerd. De patch-id is MDVA-39923. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 52e435df-28a7-49be-a257-7e5801601d57
 feature: B2B, Catalog Management, Orders, Search

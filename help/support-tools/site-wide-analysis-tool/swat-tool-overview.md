@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Site-Wide Analysis Tool] op Adobe: overview'
+title: '[!DNL Site-Wide Analysis Tool] op Adobe: overzicht'
 description: ' [!DNL Site-Wide Analysis Tool]  is een pro-actief zelfbedieningshulpmiddel en een centrale bewaarplaats die gedetailleerde systeeminzichten en aanbevelingen omvat om de veiligheid en de operabiliteit van uw installatie van Adobe Commerce te verzekeren. Alle informatie over de klantlocatie met betrekking tot tools wordt elke drie uur tot eenmaal per dag verzameld op vooraf bepaalde planningen. Dit betekent dat SWAT constant de gegevens van de klantenplaats voor Bevindingen analyseert.'
 exl-id: cfb51926-4293-410b-aad4-724344c7f24a
 feature: Support, Tools and External Services

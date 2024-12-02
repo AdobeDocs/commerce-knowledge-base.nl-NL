@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49389: klaar voor het ophalen van e-mail verzonden door API wanneer niet gereed voor ophalen'
+title: 'ACSD-49389: klaar voor het ophalen van e-mail verzonden door API wanneer niet klaar voor ophalen'
 description: Pas de ACSD-49389-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de API een e-mailbericht verstuurt dat gereed is voor ophalen wanneer de bestelling niet klaar is voor ophalen.
 exl-id: a1baae06-cf36-448b-bda4-aff1e5ca68db
 feature: REST, Communications
@@ -43,7 +43,7 @@ De API stuurt een e-mailbericht dat u kunt ophalen wanneer de bestelling nog nie
 1. Bekijk het product dat u in stap 4 hebt gemaakt met de methode *[!UICONTROL In-Store Delivery]* uit de winkel.
 1. Maak een factuur voor de bestelling.
 1. Plaats de hoeveelheid van het product aan *0* en maak het uit voorraad.
-1. Post de volgende API-aanvraag:
+1. Plaats de volgende API-aanvraag:
 
 ```
 {

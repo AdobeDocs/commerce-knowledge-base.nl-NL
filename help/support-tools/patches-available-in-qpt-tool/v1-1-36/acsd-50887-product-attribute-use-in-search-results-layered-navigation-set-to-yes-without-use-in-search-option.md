@@ -1,5 +1,5 @@
 ---
-title: '"ACSD-50887: *[!UICONTROL Use in Search Results Layered Navigation]* wordt geplaatst aan ja zonder de *[!UICONTROL Use in Search] * optie'''
+title: 'ACSD-50887: *[!UICONTROL Use in Search Results Layered Navigation]* wordt geplaatst aan ja zonder de *[!UICONTROL Use in Search] * optie'
 description: Pas ACSD-50887 flard toe om de kwestie van Adobe Commerce te bevestigen waar het bezit van het productkenmerk * [!UICONTROL Use in Search Results Layered Navigation]* kan worden geplaatst aan *Yes* zonder de * [!UICONTROL Use in Search] * optie ook wordt geplaatst aan *Yes*.
 feature: Attributes, Products, Search, Storefront
 role: Admin, Developer

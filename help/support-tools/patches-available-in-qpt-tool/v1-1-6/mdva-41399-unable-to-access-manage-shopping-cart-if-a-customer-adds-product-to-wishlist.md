@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-41399: Kan geen toegang krijgen tot het winkelwagentje beheren als een klant een product aan de wenslijst toevoegt.'
+title: 'MDVA-41399: Kan geen toegang krijgen tot het winkelwagentje beheren als een klant een product aan de wenslijst toevoegt'
 description: Met de MDVA-41399-patch wordt het probleem opgelost waarbij beheerders geen toegang hebben tot de pagina Winkelwagentje beheren als een klant een product aan de wenslijst toevoegt. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.6 is geïnstalleerd. De patch-id is MDVA-41399. De kwestie is opgelost in Adobe Commerce 2.4.2.
 exl-id: 227653c6-2d20-4475-b973-b9fa58db815b
 feature: Orders, Products, Shopping Cart

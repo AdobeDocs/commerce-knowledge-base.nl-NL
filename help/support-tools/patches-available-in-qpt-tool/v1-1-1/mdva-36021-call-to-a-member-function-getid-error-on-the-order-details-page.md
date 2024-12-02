@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-36021: Gebruikers ontvangen een foutbericht bij het openen van ordergegevens'
+title: 'MDVA-36021: Gebruikers ontvangen een foutbericht wanneer ze de ordergegevens openen'
 description: De patch MDVA-36021 lost het probleem op waar de gebruikers *Call aan een lidfunctie krijgen getId ()* foutenmelding wanneer het proberen om orddetails te openen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1 is geïnstalleerd. De patch-id is MDVA-36021. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 73b1f3c6-5dc4-48e4-8f3f-681be84f7638
 feature: Orders

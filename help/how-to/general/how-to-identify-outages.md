@@ -1,7 +1,7 @@
 ---
 title: Onderkennen en meten van uitvallen voor Adobe Commerce op cloudinfrastructuur
 promoted: true
-description: '''Een handelaar (of iedereen die geïnteresseerd is in de gezondheid van de site) kan op verschillende manieren indowns van sites herkennen, ook wel uitval van sites genoemd. Een site-down is de tijdsperiode waarin de locatie van de handelaar niet adequaat kan reageren op de verzoeken van de klant. De definitie van uitval en de effecten ervan op sites is ruim. In het bijgevoegde artikel wordt het volgende beschreven: "'
+description: 'Er zijn veelvoudige manieren voor een handelaar (of iedereen die in de gezondheid van de plaats geinteresseerd) kan plaats-verduisteringen identificeren, die ook als plaatsstroomonderbrekingen worden bekend. Een site-down is de tijdsperiode waarin de locatie van de handelaar niet adequaat kan reageren op de verzoeken van de klant. De definitie van uitval en de effecten ervan op sites is ruim. In het bijgevoegde artikel wordt het volgende beschreven:'
 exl-id: 204910b0-49d5-43df-921b-8c0c7a42524e
 feature: Cloud
 source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8

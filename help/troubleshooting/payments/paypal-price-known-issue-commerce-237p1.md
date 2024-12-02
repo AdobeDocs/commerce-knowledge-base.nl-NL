@@ -1,6 +1,6 @@
 ---
-title: 'Bekende uitgave bij ''Adobe Commerce 2.3.7-p1: totaal van verouderde bestellingen voor PayPal'''
-description: 'Dit artikel biedt een patch voor een bekend probleem in Adobe Commerce 2.3.7-p1: wanneer je PayPal-afhandeling meerdere keren gebruikt, krijgen klanten het eerder bestelde product in winkelwagentje in plaats van het nieuwe product dat ze proberen te bestellen.'
+title: 'Bekende uitgave van Adobe Commerce 2.3.7-p1: totaal van verouderde bestellingen voor PayPal'
+description: 'Dit artikel bevat een patch voor een bekend probleem in Adobe Commerce 2.3.7-p1: wanneer je PayPal-afhandeling meerdere keren gebruikt, krijgen klanten het eerder bestelde product in winkelwagentje in plaats van het nieuwe product dat ze proberen te bestellen.'
 exl-id: ceb8f7ad-0cf7-4d42-aded-25d1dd947f5b
 feature: Orders, Payments
 role: Developer

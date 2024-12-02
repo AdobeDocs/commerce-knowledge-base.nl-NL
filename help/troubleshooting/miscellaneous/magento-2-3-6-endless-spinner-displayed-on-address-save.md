@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.3.6: eindeloze spinner getoond op adres sparen"
+title: 'Adobe Commerce 2.3.6: eindeloze spinner die op adres wordt getoond sparen'
 description: In dit artikel wordt een bekende Adobe Commerce 2.3.6-uitgave beschreven, waarbij de wachtende spinner oneindig wordt weergegeven wanneer een adres wordt opgeslagen in Mijn account op de winkel.
 exl-id: 63841114-167e-4915-b6ed-ee0ef4eae36e
 feature: Shipping/Delivery, Orders, Checkout

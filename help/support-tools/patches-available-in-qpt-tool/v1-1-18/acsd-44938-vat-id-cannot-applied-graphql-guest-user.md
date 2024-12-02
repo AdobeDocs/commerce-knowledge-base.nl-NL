@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-44938: VAT_ID kan niet worden toegepast in GraphQL-aanvraag voor gastgebruiker'
+title: 'ACSD-44938: VAT_ID kan niet worden toegepast in GraphQL-verzoek voor gastgebruiker'
 description: De ACSD-44938-patch verhelpt het probleem dat de VAT_ID niet kan worden toegepast in een GraphQL-aanvraag voor een gastgebruiker. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 is geïnstalleerd. De patch-id is ACSD-44938. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 exl-id: 18b3dfa5-b666-491e-a067-526a53294f39
 feature: Admin Workspace, GraphQL
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -35,12 +35,12 @@ VAT_ID kan niet worden toegepast in een GraphQL-aanvraag voor een gastgebruiker.
 
 <u> Stappen om </u> te reproduceren:
 
-1. Volg de stappen in de [ zelfstudie van GraphQL ](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-shopping-cart.html) in onze ontwikkelaarsdocumentatie worden vermeld om een gastkarretje tot stand te brengen die.
+1. Volg de stappen in de [ zelfstudie van GraphQL ](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/) in onze ontwikkelaarsdocumentatie worden vermeld om een gastkarretje tot stand te brengen die.
 1. Probeer met GraphQL BTW-ID toe te passen op de gastgebruiker.
 
 <u> Verwachte resultaten </u>:
 
-VAT_ID kan op dezelfde manier worden toegepast als voor een geregistreerde klant. Zie [ createCustomerAddress mutation ](https://developer.adobe.com/commerce/webapi/graphql/mutations/create-customer-address.html) artikel in onze ontwikkelaarsdocumentatie.
+VAT_ID kan op dezelfde manier worden toegepast als voor een geregistreerde klant. Zie [ createCustomerAddress mutation ](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-address/) artikel in onze ontwikkelaarsdocumentatie.
 
 <u> Ware resultaten </u>:
 

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51528: verschillend gedrag bij slang_case-opmaak'
+title: 'ACSD-51528: verschillende gedragingen bij slang_case-opmaak'
 description: Pas de ACSD-51528-patch toe om het Adobe Commerce-probleem op te lossen, waarbij er verschillende gedragingen optreden voor slang_case-opmaak.
 exl-id: dd878321-8032-41f3-8dcd-acb0cc023b44
 feature: Variables

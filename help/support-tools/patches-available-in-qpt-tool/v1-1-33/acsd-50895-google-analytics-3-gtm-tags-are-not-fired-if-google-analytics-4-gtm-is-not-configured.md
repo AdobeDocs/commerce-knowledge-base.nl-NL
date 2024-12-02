@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50895: [!DNL Google Analytics]  3 GTM de markeringen worden niet in brand gestoken als  [!DNL Google Analytics]  4 GTM niet wordt gevormd"
+title: 'ACSD-50895: [!DNL Google Analytics]  3 GTM de markeringen worden niet in brand gestoken als  [!DNL Google Analytics]  4 GTM niet wordt gevormd'
 description: Pas ACSD-50895 flard toe om de kwestie van Adobe Commerce te bevestigen waar  [!DNL Google Analytics]  3 GTM de markeringen niet in brand worden gestoken als  [!DNL Google Analytics]  4 GTM niet wordt gevormd.
 role: Admin
 exl-id: da48f6f1-a68b-4a9c-a79a-d7bd01b65dc2

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-44703: Het totaal van de bestellingen in het orderrapport is onjuist berekend"
+title: 'MDVA-44703: Het totaal van de bestellingen in het orderrapport is onjuist berekend'
 description: De patch MDVA-44703 verhelpt het probleem waarbij de ordertotalen in het orderrapport onjuist worden berekend voor de beperkte beheerder. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.16 is geïnstalleerd. De patch-id is MDVA-44703. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 exl-id: d8c31e47-ace6-4dba-a57c-941e722a6aad
 feature: Orders

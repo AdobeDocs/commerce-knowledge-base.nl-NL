@@ -21,7 +21,7 @@ QPT v1.1.6 bevat de volgende patches:
 1. **MDVA-37748**: Verhelpt de kwestie waar een vraag van GraphQL producten terugkeert die niet aan een gedeelde catalogus worden toegewezen.
 1. **mvdr-39229**: Verhelpt de kwestie die de volgende fout veroorzaakt om na het bijwerken van de begintijd van de Update van de Regels van de Catalogus te verschijnen: *het Taakstaging_synchronize_entities_period heeft een fout: De actieve update kan niet worden geschrapt.*
 1. **MDVA-40545**: Verhelpt de kwestie waar slechts de eerste knoop voor een pagina werd teruggewonnen zelfs als er meer dan één knoop voor de zelfde pagina was.
-1. **MDVA-40619**: Verhelpt de kwestie waar de veranderingen in CMS paginahiërarchie een 500 fout veroorzaken wanneer het proberen om gealigneerd het uitgeven op een CMS pagina te doen.
+1. **MDVA-40619**: Verhelpt de kwestie waar de veranderingen in de paginahiërarchie van CMS een 500 fout veroorzaken wanneer het proberen om gealigneerd uit te geven op een pagina van CMS.
 1. **MDVA-41046**: Verhelpt de kwestie waar de eenvoudige producten met douaneopties beschikbaar zijn voor het toewijzen aan configureerbare/gegroepeerde producten.
 1. **MDVA-41061**: Verhelpt de kwestie waar de voorraadstatus aan verkoopbaar terugstelt wanneer een product van Admin wordt bewaard.
 1. **MDVA-41164**: Verhelpt de kwestie waar een admin gebruiker een Bedrijf met een dossier of een attribuut van de beeldtype douane niet kan opslaan of uitgeven.

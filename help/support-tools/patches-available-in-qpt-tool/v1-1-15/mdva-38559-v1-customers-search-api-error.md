@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-38559: /V1/customer/search API returns error'
+title: 'MDVA-38559: /V1/customer/search API retourneert een fout'
 description: De patch MDVA-38559 verhelpt het probleem waarbij de API `/V1/customer/search` een fout retourneert voor klanten met meer dan één abonnement. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15 is geïnstalleerd. De patch-id is MDVA-38559. De kwestie is opgelost in Adobe Commerce 2.4.3.
 exl-id: 434fe78c-c384-4fa8-b26a-cb00007e490e
 feature: REST, Search

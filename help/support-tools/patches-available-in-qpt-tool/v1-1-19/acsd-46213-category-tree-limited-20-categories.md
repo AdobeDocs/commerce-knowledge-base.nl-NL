@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46213: aanvraag voor een boomcategorie beperkt tot 20 categorieën"
+title: 'ACSD-46213: aanvraag voor een boomcategorie beperkt tot 20 categorieën'
 description: 'De ACSD-46213-patch verhelpt het probleem waarbij de aanvraag voor de categoriestructuur beperkt is tot 20 categorieën. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.19 is geïnstalleerd. De patch-id is ACSD-46213. '
 exl-id: 27a18871-8552-4ecd-9e03-0dc38d037ea0
 feature: Categories

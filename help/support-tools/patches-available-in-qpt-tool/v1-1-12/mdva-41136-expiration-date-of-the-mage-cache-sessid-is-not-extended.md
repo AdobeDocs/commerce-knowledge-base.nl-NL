@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41136: Vervaldatum van de mage-cache-sessie wordt niet verlengd"
+title: 'MDVA-41136: Vervaldatum van mage-cache-sessie wordt niet verlengd'
 description: De patch MDVA-41136 lost het probleem op waar de vervaldatum van het "beeld-geheim voorgeheugen-zitting"koekje niet wordt uitgebreid, resulterend in klantengegevensschoonmaakbeurt. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 is geïnstalleerd. De patch-id is MDVA-41136. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 7673d084-1ed2-4f1d-8525-e665b971baf2
 feature: Cache

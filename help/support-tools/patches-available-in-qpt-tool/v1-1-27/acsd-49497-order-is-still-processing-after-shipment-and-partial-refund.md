@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49497: bestelling die na verzending nog wordt verwerkt en gedeeltelijke terugbetaling"
+title: 'ACSD-49497: nog te verwerken order na verzending en gedeeltelijke terugbetaling'
 description: Pas de ACSD-49497-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de status van de bestelling na verzending behouden blijft en een gedeeltelijke terugbetaling wordt toegepast.
 exl-id: d195bcf4-bb8b-4373-8aad-a5b953b07443
 feature: Admin Workspace, Orders, Shipping/Delivery

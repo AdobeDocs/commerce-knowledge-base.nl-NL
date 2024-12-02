@@ -3,7 +3,8 @@ title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.49'
 description: Deze subsectie biedt een gedetailleerde beschrijving van de problemen die zijn opgelost door de patches die beschikbaar zijn in  [!DNL Quality Patches Tool]  (QPT) v1.1.49.
 feature: Tools and External Services
 role: Admin, Developer
-source-git-commit: d7a17283c736dae37ec3960f47f1500fc70af691
+exl-id: 212f68b7-d43c-468d-a935-931b2bccb5b5
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -29,4 +30,3 @@ QPT v1.1.49 omvat de volgende flarden:
 1. **ACSD-58163**: Verhelpt de kwestie waar a *[!UICONTROL Cart Price Rule]* geen korting voor een gastklant van de passende *[!UICONTROL Customer Segment]* kar zonder een couponcode toepast.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.
-

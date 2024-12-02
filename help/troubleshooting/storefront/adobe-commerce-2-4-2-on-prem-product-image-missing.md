@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce on-premisse 2.4.2: product image missing"
+title: 'Adobe Commerce op locatie 2.4.2: afbeelding van product ontbreekt'
 description: In dit artikel wordt een bekende Adobe Commerce-uitgave (2.4.2) beschreven waarbij de productafbeelding niet naar de productpagina wordt geüpload. Dit probleem zal in een toekomstige versie na versie 2.4.3 worden opgelost. Er is momenteel geen oplossing beschikbaar, maar als tijdelijke oplossing kunt u Nginx uitschakelen om de grootte van afbeeldingen te wijzigen.
 exl-id: c4d9240e-5df5-4eab-bb4e-1f06f9bd3a1e
 feature: Iaas, Products, Storefront

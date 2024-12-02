@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43102: Aankoopbare hoeveelheid niet correct bijgewerkt"
+title: 'MDVA-43102: verkoopbare hoeveelheid niet correct bijgewerkt'
 description: De MDVA-43102-patch verhelpt het probleem dat de verkoopbare hoeveelheid niet correct wordt bijgewerkt wanneer de restitutie via REST API wordt uitgevoerd. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 is geïnstalleerd. De patch-id is MDVA-43102. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: c51bc45b-a7e0-4581-a318-9c4736e6661c
 feature: Variables

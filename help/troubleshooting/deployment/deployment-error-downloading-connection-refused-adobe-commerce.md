@@ -1,6 +1,6 @@
 ---
 title: 'Implementatiefout: *fout 7 tijdens het downloaden.. poort 443: verbinding geweigerd*'
-description: 'Dit artikel biedt een oplossing voor de implementatiefout: *"fout 7 tijdens het downloaden van ... poort 443: verbinding geweigerd"*.'
+description: 'Dit artikel biedt een oplossing voor de implementatiefout: *"error 7 while downloading ... port 443: Connection weigerde"*.'
 exl-id: 520cf50f-3682-441d-87a7-8e05301a2b0c
 feature: Cache, Deploy
 role: Developer

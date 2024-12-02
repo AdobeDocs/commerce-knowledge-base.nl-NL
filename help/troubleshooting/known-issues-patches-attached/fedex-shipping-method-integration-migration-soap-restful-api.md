@@ -1,5 +1,5 @@
 ---
-title: '[!DNL FedEx] de migratie van de de verzendingsmethode integratie van SOAP aan RESTful API'
+title: '[!DNL FedEx] migratie van SOAP naar RESTful-API voor verzendmethoden'
 promoted: true
 description: Pas een flard toe om de  [!DNL FedEx]  verschepende migratie van de methodeintegratie van SOAP aan RESTful API voor Adobe Commerce 2.4.4-p4 - 2.4.6-pX te behandelen.
 feature: Shipping/Delivery

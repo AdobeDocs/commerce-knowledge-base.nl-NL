@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51230: Cadeaucreditcardaccount wordt verwijderd"
+title: 'ACSD-51230: Cadeaukaartaccount is verwijderd'
 description: Pas de ACSD-51230-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de rekening van de cadeaukaart wordt verwijderd wanneer de gedeeltelijke terugbetaling van een eenvoudig product wordt verwerkt op basis van een bestelling.
 exl-id: 4322a175-3641-468a-8a0f-fcbad90c758f
 feature: Customer Service, Gift, Marketing Tools

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41061: Voorraadstatus kan opnieuw worden verkocht wanneer het product wordt opgeslagen bij Admin"
+title: 'MDVA-41061: Voorraadstatus kan opnieuw worden verkocht wanneer het product wordt opgeslagen bij Admin'
 description: De MDVA-41061-patch verhelpt het probleem waarbij de status van de voorraad wordt hersteld naar de verkoopbaarheid wanneer het product wordt opgeslagen bij de Admin. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 is geïnstalleerd. De patch-id is MDVA-41061. De nieuwste patchversie is beschikbaar in QPT 1.1.15 met MDVA-41061-V3 patch-id. De kwestie is opgelost in Adobe Commerce 2.4.4.
 exl-id: fd71d3e5-685f-4987-b7e7-bfd86810d865
 feature: Admin Workspace, Orders, Products

@@ -1,6 +1,6 @@
 ---
 title: Fout bij snel leegmaken van cache op Cloud (de aanvraag voor leegmaken is niet verwerkt)
-description: 'Dit artikel bevat een oplossing voor het gebruik van een optie voor snel leegmaken en u ontvangt de fout: *De aanvraag voor leegmaken is niet verwerkt*. De snelst is een CDN en het in het voorgeheugen onderbrengen dienst inbegrepen met Adobe Commerce op de plannen en de implementaties van de wolkeninfrastructuur. Als u een optie voor snel leegmaken probeert te gebruiken en deze niet wordt verwerkt, hebt u mogelijk onjuiste gegevens in de omgeving of een probleem aangetroffen.'
+description: 'Dit artikel bevat een oplossing voor het gebruik van een optie voor snel leegmaken en u ontvangt de fout: *De aanvraag voor leegmaken is niet verwerkt*. De snelst is een CDN en het in het voorgeheugen onderbrengen dienst inbegrepen met Adobe Commerce op de plannen en de implementaties van de wolkeninfrastructuur. Als u een optie voor het snel leegmaken probeert te gebruiken en deze niet verwerkt, hebt u mogelijk onjuiste gegevens in de omgeving of een probleem aangetroffen.'
 exl-id: 568b1f4c-2ccb-4740-a6e4-d227a55fcfe6
 feature: Cache, Cloud, Paas
 role: Developer

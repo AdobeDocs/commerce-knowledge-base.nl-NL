@@ -1,6 +1,6 @@
 ---
 title: Problemen met de eCommerce-omzet in Google opsporen
-description: '"Dit artikel biedt oplossingen voor verschillen tussen Google en Magento Business Intelligence (MBI). Het volgen van de eCommerce van Google brengt macht aan zowel uw rekening van Googles Analytics als uw dashboards MBI, maar het resulteert in vele cliënten die ons vragen: Moeten beide hulpmiddelen het zelfde bedrag van **orders* en **opbrengst** melden?'''
+description: 'Dit artikel biedt oplossingen voor verschillen tussen Google en Magento Business Intelligence (MBI). Het volgen van de eCommerce van Google brengt macht aan zowel uw rekening van Googles Analytics als uw dashboards MBI, maar het resulteert in vele cliënten die ons vragen: Moeten beide hulpmiddelen het zelfde bedrag van **orders* en **opbrengst** melden?'
 exl-id: b2e43e70-d234-4338-ae81-fa401416be5a
 feature: Commerce Intelligence
 role: Developer

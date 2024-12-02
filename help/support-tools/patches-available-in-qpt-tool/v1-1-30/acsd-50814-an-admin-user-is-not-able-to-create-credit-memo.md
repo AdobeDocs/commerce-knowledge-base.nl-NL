@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-50814: Admin user not able to create credit memo'
+title: 'ACSD-50814: Admin-gebruiker kan geen creditmemo maken'
 description: Pas de ACSD-50814-patch toe om het Adobe Commerce-probleem op te lossen waarbij een beheerder geen creditmemo kan maken.
 exl-id: bda374cf-6fb7-479f-8130-213ce3cc553e
 feature: Admin Workspace, Orders, Returns

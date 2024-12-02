@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40435: Korting op een bundelproduct wordt niet correct toegepast via GraphQL"
+title: 'MDVA-40435: Korting op een bundelproduct wordt niet correct toegepast via GraphQL'
 description: De MDVA-40435-patch lost het probleem op dat de korting op een gebundeld product niet correct via GraphQL wordt toegepast. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.4 is geïnstalleerd. De patch-id is MDVA-40435. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 939ba940-35b5-4ab0-81fe-38981246e389
 feature: GraphQL, Orders, Personalization, Products

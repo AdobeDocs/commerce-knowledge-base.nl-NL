@@ -1,6 +1,6 @@
 ---
 title: Basisprijswijziging is van invloed op de prijs van een gedeelde catalogus
-description: "Dit artikel beantwoordt de vraag: als een product in een gedeelde catalogus een aangepaste prijs heeft en de basisprijs van het product verandert (bijvoorbeeld na een geplande update), welke prijs van toepassing is in de gedeelde catalogus?"
+description: 'In dit artikel wordt de vraag beantwoord: als een product in een gedeelde catalogus een aangepaste prijs heeft en de basisprijs van het product wijzigt (bijvoorbeeld na een geplande update), welke prijs geldt dan in de gedeelde catalogus?'
 exl-id: 916678c1-ada6-4f23-af16-b107cb83ff16
 feature: Catalog Management
 source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0

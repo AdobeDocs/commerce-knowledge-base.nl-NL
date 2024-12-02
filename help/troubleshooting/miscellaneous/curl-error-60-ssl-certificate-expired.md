@@ -1,6 +1,6 @@
 ---
-title: 'cURL error 60: SSL certificate expired'
-description: 'Dit artikel laat zien hoe u kunt controleren wanneer de laatste keer dat een vertakking werd geïmplementeerd na ontvangst van een cURL-fout 60: SSL-certificaat verlopen in de vertakkingen Master of Integration op Adobe Commerce op een cloudinfrastructuur.'
+title: 'cURL-fout 60: SSL-certificaat verlopen'
+description: 'Dit artikel laat zien hoe u kunt controleren wanneer een vertakking voor het laatst is geïmplementeerd na ontvangst van een cURL-fout 60: SSL-certificaat verlopen in de vertakkingen Master of Integratie op Adobe Commerce op de cloudinfrastructuur.'
 exl-id: 74f1db7e-ee2b-4e27-8fcc-fe462a9e72c3
 feature: Configuration
 role: Developer

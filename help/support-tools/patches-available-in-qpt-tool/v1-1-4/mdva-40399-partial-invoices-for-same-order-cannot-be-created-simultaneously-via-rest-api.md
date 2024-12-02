@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40399: Gedeeltelijke facturen voor dezelfde bestelling kunnen niet gelijktijdig worden gemaakt via de API"
+title: 'MDVA-40399: Gedeeltelijke facturen voor dezelfde bestelling kunnen niet gelijktijdig worden gemaakt via de API'
 description: De patch MDVA-40399 verhelpt het probleem waarbij gedeeltelijke facturen voor dezelfde volgorde niet gelijktijdig via de Rest API kunnen worden gemaakt. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4 is geïnstalleerd. De patch-id is MDVA-40399. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 2444ba57-b30b-4fdf-9e5d-988cf7fa8dd1
 feature: REST, Invoices, Orders

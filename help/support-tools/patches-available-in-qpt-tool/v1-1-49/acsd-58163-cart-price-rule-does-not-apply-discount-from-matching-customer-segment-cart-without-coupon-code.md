@@ -1,15 +1,15 @@
 ---
-title: 'ACSD-58163: [!UICONTROL Cart Price Rule] past geen korting toe op overeenkomende [!UICONTROL Customer Segment] winkelwagentje zonder couponcode'
+title: 'ACSD-58163: [!UICONTROL Cart Price Rule] past geen korting toe op overeenkomende [!UICONTROL Customer Segment] -winkelwagentje zonder couponcode'
 description: Pas de ACSD-58163-patch toe om het Adobe Commerce-probleem op te lossen, waarbij [!UICONTROL Cart Price Rule] geen korting toepast voor een gast van de overeenkomende [!UICONTROL Customer Segment] -winkelwagen zonder couponcode.
 feature: Products
 role: Admin, Developer
-source-git-commit: 7603a482953dc0ac0784ab6e6d3b22e4245e3e75
+exl-id: bc8587be-076c-4210-902c-6ecb69f581e2
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-58163: [!UICONTROL Cart Price Rule] past geen korting toe op overeenkomende [!UICONTROL Customer Segment] -winkelwagentje zonder couponcode
 

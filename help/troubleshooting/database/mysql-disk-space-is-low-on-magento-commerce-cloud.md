@@ -1,5 +1,5 @@
 ---
-title: '[!DNL MySQL] schijfruimte is laag in Adobe Commerce op cloudinfrastructuur.'
+title: '[!DNL MySQL] er is weinig schijfruimte beschikbaar op Adobe Commerce in de cloud-infrastructuur'
 description: Dit artikel verstrekt oplossingen voor wanneer u zeer lage ruimte of geen ruimte voor  [!DNL MySQL]  op Adobe Commerce op wolkeninfrastructuur ervaart. Symptomen kunnen plaatsstroomonderbrekingen omvatten, klanten kunnen geen producten aan de kar toevoegen, die niet met het gegevensbestand kunnen verbinden, tot het gegevensbestand ver toegang hebben, die niet SSH in knoop kunnen. Symptomen zijn onder andere Galera, Omgevingssync, PHP, Database en Implementatiefouten, zoals hieronder vermeld. Klik [Oplossing] (https://support.magento.com/hc/en-us/articles/360058472572#solution) om rechtstreeks aan de oplossingssectie te springen.
 exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 feature: Catalog Management, Categories, Cloud, Paas, Services

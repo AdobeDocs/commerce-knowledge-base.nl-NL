@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48910: gebundeld product met meerdere bronnen verlaat de voorraad na factuur en verzending."
+title: 'ACSD-48910: Gebundeld product met meerdere bronnen heeft geen voorraad na factuur en verzending'
 description: Pas de ACSD-48910-patch toe om het Adobe Commerce-probleem op te lossen waarbij het gebundelde product dat aan meerdere bronnen is toegewezen, uit voorraad raakt nadat een bestelling is gefactureerd en verzonden, zelfs als het nog steeds een hoeveelheid heeft die niet gelijk is aan nul.
 feature: Products, Inventory
 role: Admin, Developer

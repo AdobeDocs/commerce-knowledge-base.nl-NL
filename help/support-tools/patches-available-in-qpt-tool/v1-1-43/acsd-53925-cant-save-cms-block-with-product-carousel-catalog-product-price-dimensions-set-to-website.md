@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-53925: Kan CMS-blok niet opslaan met [!UICONTROL Product Carousel]'
-description: Pas de ACSD-53925-patch toe om het Adobe Commerce-probleem op te lossen waarbij de beheerder een CMS-blok niet kan opslaan met Product Carousel wanneer de dimensiemodus voor 'catalog_product_price' is ingesteld op de website.
+description: Pas de ACSD-53925-patch toe om het Adobe Commerce-probleem op te lossen waarbij de beheerder een CMS-blok niet kan opslaan met Product Carousel wanneer de dimensiemodus voor catalog_product_price op de website is ingesteld.
 feature: CMS, Page Builder, Price Indexer, Products
 role: Admin, Developer
 exl-id: 6ef6d8ff-4ebb-4adb-9fb7-0d4a81a25f50
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ACSD-53925: Kan CMS-blok niet opslaan met *[!UICONTROL Product Carousel]*
 
-De ACSD-53925-patch verhelpt het probleem waarbij de beheerder een CMS-blok niet kan opslaan met *[!UICONTROL Product Carousel]* als de dimensiemodus voor `catalog_product_price` is ingesteld op website. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.43 wordt geïnstalleerd. De patch-id is ACSD-53925. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-53925-patch verhelpt het probleem dat de beheerder een CMS-blok niet kan opslaan met *[!UICONTROL Product Carousel]* als de dimensiemodus voor `catalog_product_price` is ingesteld op website. Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.43 wordt geïnstalleerd. De patch-id is ACSD-53925. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 

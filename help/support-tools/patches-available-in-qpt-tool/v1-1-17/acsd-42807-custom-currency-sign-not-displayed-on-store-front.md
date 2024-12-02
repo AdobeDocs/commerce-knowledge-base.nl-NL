@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-42807: Aangepast valutasymbool niet weergegeven op de winkel'
+title: 'ACSD-42807: Aangepast valutateken niet weergegeven op de winkel'
 description: De ACSD-42807-patch verhelpt het probleem waarbij het aangepaste valutasymbool niet op de winkel wordt weergegeven. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 is geïnstalleerd. De patch-id is ACSD-42807. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 exl-id: 21bd17b4-d9d8-4c40-8f89-d6f7b930b475
 feature: Storefront

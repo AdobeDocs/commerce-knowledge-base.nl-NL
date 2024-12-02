@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53979: JS-fout treedt op de startpagina op.'
+title: 'ACSD-53979: JS-fout treedt op de startpagina op'
 description: Pas de ACSD-53979-patch toe om het Adobe Commerce-probleem op te lossen waarbij een JavaScript-fout optreedt op de startpagina als het welkomstbericht één enkel aanhalingsteken bevat.
 feature: Page Content
 role: Admin, Developer

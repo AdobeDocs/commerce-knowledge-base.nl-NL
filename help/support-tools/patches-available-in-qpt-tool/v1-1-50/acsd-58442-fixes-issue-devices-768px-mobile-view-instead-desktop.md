@@ -1,15 +1,15 @@
 ---
-title: '''ACSD-58442: Het probleem is opgelost waarbij apparaten met een breedte van 768 px als mobiel worden behandeld, waardoor menu''s en kopteksten in de mobiele weergave niet als desktopapparaten worden geladen.'''
+title: 'ACSD-58442: Het probleem waarbij apparaten met een breedte van 768 px als mobiel worden behandeld, waardoor menu''s en kopteksten in de mobiele weergave niet als bureaublad worden geladen'
 description: Pas de ACSD-58442-patch toe om het Adobe Commerce-probleem op te lossen, waarbij apparaten met een breedte van 768 px als mobiel worden beschouwd, waardoor het menu en de koptekst in een mobiele weergave in plaats van op het bureaublad worden geladen.
 feature: Storefront
 role: Admin, Developer
-source-git-commit: e1e2983f529b12002b801045ceee7264ff77d87b
+exl-id: 05d812b9-c5f5-4397-9755-bed2424e70b3
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-58442: Het probleem waarbij apparaten met een breedte van 768 px als mobiel worden behandeld, waardoor menu&#39;s en kopteksten in de mobiele weergave niet als bureaublad worden geladen
 
@@ -61,5 +61,3 @@ Meer informatie over [!DNL Quality Patches Tool] vindt u in:
 * [ Controle als het flard voor uw kwestie van Adobe Commerce beschikbaar is gebruikend  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
 
 Voor informatie over andere flarden beschikbaar in QPT, verwijs naar [[!DNL Quality Patches Tool]: Onderzoek naar flarden ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de [!DNL Quality Patches Tool] gids.
-
-

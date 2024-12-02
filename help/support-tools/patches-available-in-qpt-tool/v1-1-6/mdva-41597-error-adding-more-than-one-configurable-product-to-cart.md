@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-41597: Fout bij het toevoegen van meerdere configureerbare producten aan winkelwagentje.'
+title: 'MDVA-41597: Fout bij het toevoegen van meer dan één configureerbaar product aan winkelwagentje'
 description: Met de MDVA-41597-patch wordt het probleem opgelost waarbij gebruikers een fout krijgen wanneer ze meer dan één configureerbaar product met GraphQL aan het winkelwagentje toevoegen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6 is geïnstalleerd. De patch-id is MDVA-41597. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 777e0f9c-80e3-4cfb-9328-c20eb038f74a
 feature: Configuration, Orders, Products, Shopping Cart

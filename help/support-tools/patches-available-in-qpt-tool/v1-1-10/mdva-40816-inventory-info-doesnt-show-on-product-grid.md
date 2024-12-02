@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40816: inventarisgegevens niet op het productnet vermeld"
+title: 'MDVA-40816: Inventarisgegevens niet weergegeven op het productnet'
 description: Met de MDVA-40816-patch wordt het probleem opgelost waarbij geen inventarisinformatie wordt weergegeven op het productraster als een product-SKU speciale tekens bevat. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 is geïnstalleerd. De patch-id is MDVA-40816. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 88c05c88-33be-4d72-a302-23a1510c401c
 feature: Admin Workspace, Inventory, Orders, Products

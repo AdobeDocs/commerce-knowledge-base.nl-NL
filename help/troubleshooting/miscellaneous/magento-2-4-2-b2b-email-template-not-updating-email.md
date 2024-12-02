@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.2 B2B: e-mailsjabloon niet bijwerken e-mail"
+title: 'Adobe Commerce 2.4.2 B2B: e-mailsjabloon werkt e-mail niet bij'
 description: In dit artikel wordt een bekende Adobe Commerce 2.4.2 B2B-uitgave beschreven waarbij het bijwerken van bepaalde gegevens in een e-mailsjabloon niet in e-mailberichten wordt bijgewerkt. Dit probleem is van invloed op e-mailinhoud zoals klantgegevens, wisselkoersen, valutasymbool, wijziging van e-mailsjabloon, enzovoort. Er is momenteel geen oplossing beschikbaar, maar onderaan dit artikel vindt u een oplossing.
 exl-id: 31b7086f-a941-4682-aa07-301ac31d543b
 feature: B2B, Communications

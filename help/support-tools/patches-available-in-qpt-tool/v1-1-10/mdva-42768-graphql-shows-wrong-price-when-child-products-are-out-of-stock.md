@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42768: GraphQL heeft een verkeerde prijs wanneer kinderproducten uit voorraad zijn"
+title: 'MDVA-42768: GraphQL heeft een verkeerde prijs wanneer kinderproducten uit voorraad zijn'
 description: De MDVA-42768-patch verhelpt het probleem dat GraphQL de verkeerde prijs laat zien wanneer de onderliggende producten van een configureerbaar product uit voorraad zijn. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 is geïnstalleerd. De patch-id is MDVA-42768. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 012e7e21-e508-4449-98a6-4bdb41284c3a
 feature: GraphQL, Orders, Products

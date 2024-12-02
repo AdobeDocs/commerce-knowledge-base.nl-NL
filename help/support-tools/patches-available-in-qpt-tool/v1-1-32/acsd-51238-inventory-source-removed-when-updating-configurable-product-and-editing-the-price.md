@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51238: inventarisbron wordt verwijderd wanneer een configureerbaar product wordt bijgewerkt en de prijs wordt bewerkt"
+title: 'ACSD-51238: de inventarisbron wordt verwijderd wanneer een configureerbaar product wordt bijgewerkt en de prijs wordt bewerkt'
 description: Pas de ACSD-51238-patch toe om het Adobe Commerce-probleem op te lossen waarbij de inventarisbron wordt verwijderd tijdens het bijwerken van een configureerbaar product en het bewerken van de prijs.
 exl-id: ab2f60fd-5da3-45f7-a489-6f4f9d34e1f1
 feature: Configuration, Inventory, Orders, Products

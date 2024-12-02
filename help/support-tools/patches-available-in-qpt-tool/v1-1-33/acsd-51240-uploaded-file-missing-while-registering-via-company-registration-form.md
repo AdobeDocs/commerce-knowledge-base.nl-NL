@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51240: Geüploade bestand ontbreekt bij registratie via bedrijfsregistratieformulier"
+title: 'ACSD-51240: Geüploade bestand ontbreekt bij registratie via bedrijfsregistratieformulier'
 description: Pas de ACSD-51240-patch toe om het Adobe Commerce-probleem op te lossen waarbij het geüploade bestand ontbreekt tijdens de registratie via het bedrijfsregistratieformulier.
 exl-id: e5822c54-4e77-46b0-84b6-5e25c3845974
 source-git-commit: e1fe8936c56f422ae591c6424d8a72621093db81

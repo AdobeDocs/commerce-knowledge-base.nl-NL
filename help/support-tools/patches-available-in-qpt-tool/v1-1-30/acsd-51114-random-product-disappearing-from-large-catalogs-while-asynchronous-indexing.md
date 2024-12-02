@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51114: Willekeurige producten verdwijnen uit grote catalogi wanneer asynchrone indexering is ingeschakeld.'
+title: 'ACSD-51114: Willekeurige producten verdwijnen uit grote catalogi wanneer asynchrone indexering is ingeschakeld'
 description: Pas het ACSD-51114-patch toe om de Adobe Commerce-uitgave te corrigeren. Willekeurige producten verdwijnen uit grote catalogi wanneer asynchrone indexering is ingeschakeld.
 exl-id: 6ea7de32-1d30-4c4a-af6e-6a0931396846
 feature: Catalog Management, Categories, Products

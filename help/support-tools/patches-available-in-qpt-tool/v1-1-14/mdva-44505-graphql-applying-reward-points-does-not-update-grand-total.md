@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-44505: GraphQL query for cart applying pay-points biedt geen update van het totaal-generaal'
+title: 'MDVA-44505: GraphQL-query voor winkelwagen met bonuspunten werkt het totaal-generaal niet bij'
 description: Met de MDVA-44505-patch wordt het probleem opgelost dat de GraphQL-query voor een winkelwagen die beloningspunten toepast, geen rekening houdt met de bonuspunten en een onjuist totaal retourneert. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 is geïnstalleerd. De patch-id is MDVA-44505. De kwestie is opgelost in Adobe Commerce 2.4.3.
 exl-id: 724273ba-b020-4dba-88ae-94968bbd83de
 feature: GraphQL, Orders, Rewards, Shopping Cart

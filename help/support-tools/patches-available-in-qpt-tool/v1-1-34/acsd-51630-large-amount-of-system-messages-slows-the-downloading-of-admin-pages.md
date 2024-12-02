@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51630: veel systeemberichten vertragen het downloaden van Admin Pages'
+title: 'ACSD-51630: veel systeemberichten vertragen het downloaden van beheerpagina''s'
 description: Pas de ACSD-51630-patch toe om het Adobe Commerce-prestatieprobleem te verhelpen, waarbij het downloaden van Admin Pages wordt vertraagd door een grote hoeveelheid systeemberichten.
 feature: Admin Workspace, System
 role: Admin

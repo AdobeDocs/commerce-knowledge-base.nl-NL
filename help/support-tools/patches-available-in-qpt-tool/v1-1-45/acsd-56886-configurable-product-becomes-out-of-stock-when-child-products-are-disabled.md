@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56886: configureerbaar product komt uit voorraad wanneer kinderproducten uitgeschakeld zijn"
+title: 'ACSD-56886: configureerbaar product is niet meer beschikbaar als onderliggende producten zijn uitgeschakeld'
 description: Pas de ACSD-56886-patch toe om het Adobe Commerce-probleem op te lossen waarbij het configureerbare product uit voorraad komt te zitten wanneer de producten worden uitgeschakeld.
 feature: Products
 role: Admin, Developer

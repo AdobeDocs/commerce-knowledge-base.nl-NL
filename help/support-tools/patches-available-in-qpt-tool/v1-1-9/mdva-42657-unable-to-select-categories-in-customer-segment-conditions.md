@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42657: Kan geen categorieën selecteren in de omstandigheden van het klantensegment"
+title: 'MDVA-42657: Kan geen categorieën selecteren in de omstandigheden van het klantensegment'
 description: Met de MDVA-42657-patch wordt het probleem opgelost waarbij de beheerder geen categorieën kan selecteren onder de voorwaarden van het klantensegment. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9 is geïnstalleerd. De patch-id is MDVA-42657. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 9c810dcd-b39b-4456-a362-5452ada4dc53
 feature: Categories, Console, Customer Service

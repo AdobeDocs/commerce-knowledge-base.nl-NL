@@ -1,6 +1,6 @@
 ---
 title: Geef Adobe Commerce-foutrapportnummer weer in plaats van Fastly 503-fout
-description: 'Standaard worden met Snelheid alle Adobe Commerce-fouten verborgen achter de fout **503 Service niet beschikbaar**. Als u het rapportnummer van het Adobe Commerce-foutenlogboek wilt weergeven (zodat u het kunt vinden in logboeken en de foutdetails kunt zien), opent u de website zonder dat u snel de volgende stappen uitvoert:'
+description: 'Standaard worden met Fastly alle Adobe Commerce-fouten verborgen achter de fout **503 Service niet beschikbaar**. Als u het rapportnummer van het Adobe Commerce-foutenlogboek wilt weergeven (zodat u het kunt vinden in logboeken en de foutdetails kunt zien), opent u de website zonder dat u snel de volgende stappen uitvoert:'
 exl-id: c0a4a9f8-a674-4cef-8088-e844594e6076
 feature: Cache, Cloud
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733

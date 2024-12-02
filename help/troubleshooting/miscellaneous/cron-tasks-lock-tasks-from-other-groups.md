@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Cron] taken vergrendelen taken van andere groepen'
+title: '[!DNL Cron] taken vergrendelen taken uit andere groepen'
 description: Dit artikel verstrekt een oplossing voor Adobe Commerce op de kwestie van de wolkeninfrastructuur met betrekking tot bepaalde lange looppas  [!DNL cron]  banen die andere  [!DNL cron]  banen blokkeren.
 exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 feature: Configuration

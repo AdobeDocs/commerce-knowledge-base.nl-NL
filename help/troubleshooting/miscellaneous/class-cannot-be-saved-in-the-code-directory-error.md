@@ -1,5 +1,5 @@
 ---
-title: '"Klasse kan niet in de codedirectory worden opgeslagen"-fout'
+title: 'Fout: "Klasse kan niet worden opgeslagen in de codedirectory"'
 description: In dit artikel wordt beschreven hoe u het probleem kunt verhelpen waarbij de manier waarop u afhankelijkheden hebt opgegeven, voorkomt dat klassen automatisch worden gegenereerd tijdens het uitvoeren van de functie. Bovendien wordt het foutbericht *"Klasse kan niet worden opgeslagen in de gegenereerde/codedirectory"* weergegeven.
 exl-id: e2c00d4d-31c3-4446-a317-a8ac92c707d5
 feature: Configuration

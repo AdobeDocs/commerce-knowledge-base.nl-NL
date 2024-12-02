@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52398: Gevraagde hoeveelheid is niet beschikbaar wanneer wordt geprobeerd de hoeveelheid gebundeld product bij te werken"
+title: 'ACSD-52398: Gevraagde hoeveelheid is niet beschikbaar wanneer wordt geprobeerd de hoeveelheid gebundeld product bij te werken'
 description: Pas de ACSD-52398-patch toe om het Adobe Commerce-probleem op te lossen wanneer de gevraagde hoeveelheid niet beschikbaar is wanneer wordt geprobeerd de hoeveelheid van een gebundeld product in het winkelwagentje bij te werken.
 feature: Shopping Cart, Quotes, Products
 role: Admin

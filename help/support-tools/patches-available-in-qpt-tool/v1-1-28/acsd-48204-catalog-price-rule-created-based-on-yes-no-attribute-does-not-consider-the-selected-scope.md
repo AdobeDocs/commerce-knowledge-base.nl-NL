@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48204: Catalogusprijsregel gemaakt op basis van *Yes/No*-kenmerk houdt geen rekening met geselecteerd bereik"
+title: 'ACSD-48204: Catalogusprijsregel gemaakt op basis van *Yes/No*-kenmerk houdt geen rekening met het geselecteerde bereik'
 description: Pas de ACSD-48204-patch toe om het Adobe Commerce-probleem op te lossen waarbij de regel voor catalogusprijzen die is gemaakt op basis van het kenmerk *Yes/No*, geen rekening houdt met het geselecteerde bereik.
 exl-id: 9b0b4d62-c4c5-40d7-a279-52f59ee7ac42
 feature: Admin Workspace, Attributes, Catalog Management, Orders, Price Rules

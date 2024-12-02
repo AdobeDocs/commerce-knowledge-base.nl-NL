@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-42507: Cache van volledige pagina wordt schoongemaakt na het toepassen van een update voor de cartregel.'
+title: 'MDVA-42507: De cache van volledige pagina wordt gereinigd nadat een testupdate voor de kartelregel is toegepast'
 description: Met de MDVA-42507-patch wordt het probleem opgelost waarbij de cache van de volledige pagina wordt opgeschoond nadat een testupdate voor de kartelregel is toegepast. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9 is geïnstalleerd. De patch-id is MDVA-42507. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 9303d488-428b-4565-b9ea-469c34856dce
 feature: Cache, Categories, Orders, Shopping Cart, Staging

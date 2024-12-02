@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-38346: Datumfilters werken niet wanneer Adobe Commerce-tijdzone anders is dan lokaal'
+title: 'MDVA-38346: Datumfilters werken niet wanneer de Adobe Commerce-tijdzone afwijkt van de lokale tijdzone'
 description: Met de MDVA-38346-patch wordt het probleem opgelost waarbij datumfilters niet goed werken wanneer de tijdzone van Adobe Commerce afwijkt van de tijdzone van de lokale omgeving. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9 is geïnstalleerd. De patch-id is MDVA-38346. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 221ac249-add3-46e9-b0da-688eacdb753e
 feature: Configuration

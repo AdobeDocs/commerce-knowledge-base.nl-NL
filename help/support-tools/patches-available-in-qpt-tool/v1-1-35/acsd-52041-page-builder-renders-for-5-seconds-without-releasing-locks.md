@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52041: Bij het renderen van Page Builder worden geen vergrendelingen vrijgegeven."
+title: 'ACSD-52041: Bij het renderen van Page Builder worden geen vergrendelingen vrijgegeven'
 description: Pas de ACSD-52041-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de Page Builder vijf seconden lang wordt weergegeven zonder vergrendelingen vrij te geven.
 feature: Page Builder
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: Fout "'Gebiedscode is niet ingesteld'' bij het uitvoeren van setup:upgrade'
+title: Fout 'Gebiedscode is niet ingesteld' bij uitvoeren van instelling:upgrade
 description: Dit artikel bevat een patch voor het bekende Adobe Commerce-probleem met de cloudinfrastructuur 2.2.3 met betrekking tot de *Area-code is niet ingesteld*-fout wanneer de opdracht setup:upgrade wordt uitgevoerd.
 exl-id: ace92331-6022-49fa-a776-d06d841b3b32
 feature: Install, Upgrade

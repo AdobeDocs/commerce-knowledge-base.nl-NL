@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49737: coupon wordt onjuist gemarkeerd als gebruikt na een mislukte kaartbetaling.'
+title: 'ACSD-49737: coupon wordt onjuist gemarkeerd als gebruikt na een mislukte kaartbetaling'
 description: Pas de ACSD-49737-patch toe om de Adobe Commerce-uitgave te corrigeren waarbij de coupon onjuist is gemarkeerd als gebruikt na een mislukte kaartbetaling.
 exl-id: 77b5ec9c-3c4c-4da3-ba7e-8be3ccea04d0
 feature: Orders, Payments

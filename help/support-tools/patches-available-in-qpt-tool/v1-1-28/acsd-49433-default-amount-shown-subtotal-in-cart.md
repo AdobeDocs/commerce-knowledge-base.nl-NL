@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49433: Standaardbedrag weergegeven als subtotaal in winkelwagentje voor cadeaukaart"
+title: 'ACSD-49433: Standaardbedrag weergegeven als subtotaal in winkelwagentje voor cadeaukaart"'
 description: Pas de ACSD-49433-patch toe om het Adobe Commerce-probleem op te lossen, waarbij het standaardbedrag als subtotaal wordt weergegeven in het winkelwagentje voor cadeaukaart met een open bedrag.
 exl-id: e2a887bb-c15a-43a6-a145-b295deef399b
 feature: Admin Workspace, Gift, Orders, Shopping Cart

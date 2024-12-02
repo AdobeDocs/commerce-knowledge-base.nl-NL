@@ -1,6 +1,6 @@
 ---
-title: '''MDVA-43824: De annuleringsactie van de bestelling is mislukt met de fout "U hebt het item niet geannuleerd""'
-description: 'De MDVA-43824-patch lost het probleem op waarbij de annuleringsactie van de bestelling is mislukt met de fout: *U hebt het item niet geannuleerd*. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is geïnstalleerd. De patch-id is MDVA-43824. De kwestie wordt volgens de planning opgelost in Adobe Commerce 2.4.5.'
+title: 'MDVA-43824: De annuleringsactie van de orde is mislukt met fout "U hebt het punt niet geannuleerd"'
+description: 'Met de MDVA-43824-patch wordt het probleem opgelost waarbij de annuleringsactie van de bestelling is mislukt door de fout: *U hebt het item niet geannuleerd*. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is geïnstalleerd. De patch-id is MDVA-43824. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.'
 exl-id: e4d839d6-84ed-4157-80a1-fd482fef897c
 feature: Orders
 role: Admin

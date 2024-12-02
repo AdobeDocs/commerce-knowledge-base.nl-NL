@@ -1,5 +1,5 @@
 ---
-title: '***[!UICONTROL salesRules]** geeft problemen met labels wanneer u een upgrade uitvoert van een versie < 2.4.5'
+title: '**[!UICONTROL salesRules]** geeft problemen met labels bij upgrades vanaf versies < 2.4.5'
 description: Pas een patch toe om de **[!UICONTROL salesRules]** problemen op te lossen wanneer u een upgrade uitvoert vanaf Adobe Commerce-versies < 2.4.5.
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt

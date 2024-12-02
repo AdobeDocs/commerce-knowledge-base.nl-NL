@@ -1,5 +1,5 @@
 ---
-title: "ACSD-57074: *Yes/No* custom attribute with ` price_*` prefix in ` attribute_code` attribute does not work with indexing"
+title: 'ACSD-57074: *Yes/No*, aangepast kenmerk met prefix ` price_*` in ` attribute_code` kenmerk werkt niet met indexeren'
 description: Pas het ACSD-57074 flard toe om de kwestie van Adobe Commerce te bevestigen waar het *Yes/No* douanekenmerk met ` price_* ` prefix in ` attribuut_code ` niet met indexeren werkt.
 feature: Products, Categories, Catalog Management
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: '''ACSD-54972: Canonical category URL don''t update'''
+title: 'ACSD-54972: URL van canonieke categorie wordt niet bijgewerkt'
 description: Pas de ACSD-54972-patch toe om het Adobe Commerce-probleem op te lossen waarbij de canonieke categorie-URL niet wordt bijgewerkt nadat de categorie-URL is gewijzigd.
 feature: Catalog Management, Products, Categories
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40619: Hiërarchiewijzigingen veranderen inline bewerking van CMS-pagina en genereren 500 fout'
+title: 'MDVA-40619: Hiërarchiewijzigingen breken CMS pagina inline uit bewerken en genereren 500 fouten'
 description: De MDVA-40619-patch lost het probleem op waarbij de wijzigingen in de CMS-paginahiërarchie inline bewerken van CMS-pagina's afbreken en "500 error" genereren. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5 is geïnstalleerd. De patch-id is MDVA-40619. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: c003d845-1ba0-49c0-9f1a-a4b0ec00f30c
 feature: CMS

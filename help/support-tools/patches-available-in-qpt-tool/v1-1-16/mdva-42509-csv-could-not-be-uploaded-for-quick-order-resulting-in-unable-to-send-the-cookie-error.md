@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42509: CSV kan niet worden geüpload voor snelle bestelling, waardoor de fout 'Kan het cookie niet verzenden' optreedt."
+title: 'MDVA-42509: CSV kan niet worden geüpload voor snelle bestelling, waardoor de fout ''Kan het cookie niet verzenden'' optreedt'
 description: De MDVA-42509-patch lost het probleem op waarbij een CSV niet kon worden geüpload voor snelle bestelling, wat resulteert in *Kan de cookie*-fout niet verzenden. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.16 is geïnstalleerd. De patch-id is MDVA-42509. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 7aa0e710-9a28-4531-b9cb-c82f654487f4
 feature: B2B, Orders

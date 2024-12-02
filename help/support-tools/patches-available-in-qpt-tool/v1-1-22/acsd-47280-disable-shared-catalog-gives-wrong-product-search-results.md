@@ -1,5 +1,5 @@
 ---
-title: '[!DNL ACSD-47280]: Uitschakelen van gedeelde catalogus geeft onjuiste resultaten bij het zoeken van producten'
+title: '[!DNL ACSD-47280]: wanneer u de gedeelde catalogus uitschakelt, krijgt u onjuiste zoekresultaten voor het product'
 description: Pas het  [!DNL ACSD-47280]  flard toe om het tonen van de correcte onderzoeksresultaten te bevestigen wanneer de gedeelde cataloguseigenschap gehandicapt is.
 exl-id: 98bbae42-fd68-4b54-823d-189d742cc35f
 source-git-commit: 975f5b5c95ad488128a5dbb3488b8d54f7b73b59

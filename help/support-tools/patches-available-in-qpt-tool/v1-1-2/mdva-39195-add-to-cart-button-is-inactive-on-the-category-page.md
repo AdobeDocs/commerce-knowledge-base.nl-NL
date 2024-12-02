@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39195: Add to Cart is inactive on Categorie Page'
+title: 'MDVA-39195: Toevoegen aan winkelwagentje is niet actief op de pagina Categorie'
 description: Met de MDVA-39195-patch wordt het probleem opgelost waarbij de knop **Toevoegen aan winkelwagentje** niet actief is op de categoriepagina als de omleiding naar winkelwagentje is ingeschakeld. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is geïnstalleerd. De patch-id is MDVA-39195. De kwestie is opgelost in Adobe Commerce 2.4.3.
 exl-id: de434908-e13a-4ab5-abb1-570bcc59c83d
 feature: Categories, Orders, Shopping Cart

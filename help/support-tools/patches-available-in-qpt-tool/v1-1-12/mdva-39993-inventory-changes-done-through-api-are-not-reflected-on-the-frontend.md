@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39993: inventariswijzigingen via API worden niet weerspiegeld in de winkel.'
+title: 'MDVA-39993: inventariswijzigingen via API worden niet weerspiegeld in de winkel'
 description: De MDVA-39993-patch lost het probleem op waarbij de inventariswijzigingen die via de API worden uitgevoerd, niet in de winkel worden doorgevoerd. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 is geïnstalleerd. De patch-id is MDVA-3993. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 2d49b9b7-8a70-44f3-80bf-4460bb2e61d5
 feature: REST, Inventory, Orders, Storefront

@@ -1,5 +1,5 @@
 ---
-title: "[!DNL UPS] het verschepen migratie van de methodeintegratie van  [!DNL SOAP]  aan  [!DNL RESTful API] "
+title: '[!DNL UPS] het verschepen migratie van de methodeintegratie van  [!DNL SOAP]  aan  [!DNL RESTful API]'
 promoted: true
 description: Pas een flard toe om de  [!DNL UPS]  verschepende migratie van de methodeintegratie van  [!DNL SOAP]  aan  [!DNL RESTful API]  voor Adobe Commerce 2.4.4 - 2.4.6-pX te behandelen.
 feature: Shipping/Delivery

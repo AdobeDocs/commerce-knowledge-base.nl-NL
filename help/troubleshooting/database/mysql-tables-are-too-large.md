@@ -1,5 +1,5 @@
 ---
-title: '''[!DNL MySQL] tabellen zijn te groot.'
+title: '[!DNL MySQL] tabellen zijn te groot'
 description: Dit artikel bespreekt waarom het een kwestie is wanneer om het even welke  [!DNL MySQL]  lijst groter wordt dan 1 GB en hoe te om dit te verhinderen.
 exl-id: 43f74e3b-7f2e-428c-9964-56d2ce98a34d
 feature: Services

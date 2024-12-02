@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52824: Uitgeschakelde betalingsmethoden weergegeven voor zakelijke klanten"
+title: 'ACSD-52824: Uitgeschakelde betalingsmethoden weergegeven voor zakelijke klanten'
 description: Pas ACSD-52824 flard toe om de kwestie van Adobe Commerce te bevestigen waar  [!DNL PayPal Express], [!DNL Google Pay], and [!DNL Apple Pay]  betalingsmethodes voor bedrijfklanten ondanks het worden onbruikbaar gemaakt in de bedrijfmontages verschijnen.
 feature: Payments, B2B, Shopping Cart
 role: Admin, Developer

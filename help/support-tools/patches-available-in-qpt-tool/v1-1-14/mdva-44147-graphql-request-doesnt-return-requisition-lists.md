@@ -1,10 +1,10 @@
 ---
-title: "MDVA-44147: GraphQL request does not return Requisition Lists"
+title: 'MDVA-44147: GraphQL request does not return Requisition Lists'
 description: De patch MDVA-44147 verhelpt het probleem waarbij GraphQL request not return Requisition Lists. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 is geïnstalleerd. De patch-id is MDVA-44147. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: c7a526f2-638c-4172-8750-aa076724851a
 feature: B2B, GraphQL
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -52,7 +52,7 @@ GraphQL request does not return Requisition List.
       </code>
       </pre>
 
-1. Gebruik de volgende vraag om alle Lijsten van de Verzoek van de klant terug te winnen. Gebruik de **kopbal van de Vergunning** met de waarde `Bearer <customer_token>`. Verwijs naar het [ artikel van de Vraag van de Klant ](https://developer.adobe.com/commerce/webapi/graphql/queries/customer.html) in onze ontwikkelaardocumentatie voor meer informatie.
+1. Gebruik de volgende vraag om alle Lijsten van de Verzoek van de klant terug te winnen. Gebruik de **kopbal van de Vergunning** met de waarde `Bearer <customer_token>`. Verwijs naar het [ artikel van de Vraag van de Klant ](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/customer/) in onze ontwikkelaardocumentatie voor meer informatie.
 
    Verzoek:
 

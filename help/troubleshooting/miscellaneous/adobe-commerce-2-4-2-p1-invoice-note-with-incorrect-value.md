@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.2-p1: factuur met een onjuiste waarde"
+title: 'Adobe Commerce 2.4.2-p1: factuur met een onjuiste waarde'
 description: In dit artikel wordt een bekende Adobe Commerce 2.4.2-p1-uitgave beschreven waarbij een factuuropmerking met een onjuiste waarde wordt gegenereerd wanneer de klantengroep tijdens het maken van de order wordt gewijzigd. Dit probleem is opgelost in versie 2.4.3.
 exl-id: bde90251-625f-4c9d-8e5a-9a2019656125
 feature: Customer Service, Invoices

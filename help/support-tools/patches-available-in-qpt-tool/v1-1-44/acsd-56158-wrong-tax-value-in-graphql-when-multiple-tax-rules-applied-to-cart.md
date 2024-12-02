@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56158: Onjuiste belastingwaarde in GraphQL-antwoord wanneer meerdere belastingregels van toepassing zijn op winkelwagentjes"
+title: 'ACSD-56158: Verkeerde fiscale waarde in GraphQL-reactie wanneer meerdere belastingregels van toepassing waren op winkelwagentjes'
 description: Pas de ACSD-56158-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de belastingwaarde die in het GraphQL-antwoord wordt gegenereerd, onjuist is wanneer meerdere belastingregels op de winkelwagen worden toegepast.
 feature: GraphQL, Taxes
 role: Admin, Developer

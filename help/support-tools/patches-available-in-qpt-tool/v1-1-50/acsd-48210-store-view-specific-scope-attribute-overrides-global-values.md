@@ -1,9 +1,10 @@
 ---
-title: 'ACSD-48210: Het kenmerk voor een winkelweergave heeft voorrang op algemene waarden'
+title: 'ACSD-48210: Het kenmerk voor een specifiek bereik van de winkelweergave heeft voorrang op algemene waarden'
 description: Pas ACSD-48210 flard toe om de kwestie van Adobe Commerce te bevestigen om a * [!UICONTROL Website Scope]* attributen in een specifieke opslagmening bij te werken treedt de attributenwaarden in het globale werkingsgebied met voeten.
 feature: Products, Attributes
 role: Admin, Developer
-source-git-commit: 0fb14710d126aa4b4d6f5b6d0c70b190dcae81ae
+exl-id: e279df44-0916-4f2e-99f2-76e123895125
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%

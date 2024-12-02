@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-41164: Kan bedrijf met aangepaste klantkenmerken niet opslaan of bewerken'
+title: 'MDVA-41164: Kan bedrijf met de attributen van de douaneklanten niet opslaan of uitgeven'
 description: Met de MDVA-41164-patch wordt het probleem opgelost waarbij de beheerder een bedrijf met aangepaste klantkenmerken van bestanden of afbeeldingen van een willekeurig type niet kan opslaan of bewerken. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5 is geïnstalleerd. De patch-id is MDVA-41164. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 24338895-68b4-404c-bedd-46cfc7e983a0
 feature: Admin Workspace, Attributes, B2B, Companies

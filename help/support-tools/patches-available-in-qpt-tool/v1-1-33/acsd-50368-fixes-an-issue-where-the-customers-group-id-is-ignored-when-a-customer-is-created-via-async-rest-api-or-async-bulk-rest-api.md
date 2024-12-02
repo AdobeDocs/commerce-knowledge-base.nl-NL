@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-50368: Customers group_id wordt genegeerd wanneer een klant wordt gemaakt via Async REST API of Async Bulk REST API'
+title: 'ACSD-50368: Klantengroep_id wordt genegeerd wanneer een klant wordt gemaakt via de Async REST API of de Async Bulk REST API'
 description: Pas de ACSD-50368-patch toe om het Adobe Commerce-probleem op te lossen waarbij group_id van de klant wordt genegeerd wanneer een klant wordt gemaakt via de Async REST API of de Async Bulk REST API.
 feature: REST
 role: Admin

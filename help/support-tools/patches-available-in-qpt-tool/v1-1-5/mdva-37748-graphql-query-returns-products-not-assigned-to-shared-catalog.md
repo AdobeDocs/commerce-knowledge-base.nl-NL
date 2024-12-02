@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-37748: GraphQL query retourneert producten die niet aan de gedeelde catalogus zijn toegewezen'
+title: 'MDVA-37748: De vraag van GraphQL keert producten terug die niet aan gedeelde catalogus worden toegewezen'
 description: De patch MDVA-37748 verhelpt het probleem waarbij een GraphQL-query producten retourneert die niet zijn toegewezen aan een gedeelde catalogus. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 is geïnstalleerd. De patch-id is MDVA-37748. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 1f441882-dc14-433c-aa03-ff22483ce5a7
 feature: B2B, GraphQL, Catalog Management, Categories, Products

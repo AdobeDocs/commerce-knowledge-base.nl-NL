@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53098: Producten in de gedeelde catalogus weerspiegelen zich niet op frontend"
+title: 'ACSD-53098: Producten in gedeelde catalogus weerspiegelen zich niet op frontend'
 description: Pas de ACSD-53098-patch toe om het Adobe Commerce-probleem op te lossen waarbij producten die aan een gedeelde catalogus zijn toegewezen, niet op de voorgrond worden weerspiegeld bij het uitvoeren van een gedeeltelijke index.
 feature: B2B, Catalog Management, Categories, Products
 role: Admin, Developer

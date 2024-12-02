@@ -1,5 +1,5 @@
 ---
-title: 'Bekende uitgave van ''Adobe Commerce 2.4.0: ontbrekend label ''Refund'' in Klarna'
+title: 'Bekende uitgave van Adobe Commerce 2.4.0: ontbrekend label "Resund" in Klarna'
 description: Dit artikel biedt een oplossing voor een bekend probleem in Admin voor een ontbrekend **Refund**-label in Klarna VBE (Bundled Extension van leverancier). Wanneer in het portaal Klarna een restitutie wordt uitgevoerd, wordt het label **Resund** niet weergegeven naast het product uit de bundel dat is terugbetaald.
 exl-id: f08039b2-7f8b-481e-8ec8-1659e227744f
 feature: B2B, Orders, Payments

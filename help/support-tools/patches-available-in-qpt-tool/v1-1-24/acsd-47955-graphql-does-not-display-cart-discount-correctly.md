@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-47955: GraphQL geeft de kaartkorting niet correct weer.'
+title: 'ACSD-47955: GraphQL geeft de kaartkorting niet correct weer'
 description: Pas de ACSD-47955-patch toe om het Adobe Commerce-probleem op te lossen, waarbij GraphQL de kaartkorting niet correct weergeeft.
 exl-id: 76b64f1c-9b69-4e8d-a93a-d6a355284105
 feature: GraphQL, Marketing Tools, Orders, Personalization, Shopping Cart

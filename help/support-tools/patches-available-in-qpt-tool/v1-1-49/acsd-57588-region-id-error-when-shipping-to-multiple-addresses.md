@@ -3,7 +3,8 @@ title: 'ACSD-57588: Fout bij verwerken van regio-id bij verzending naar meerdere
 description: Pas de ACSD-57588-patch toe om het Adobe Commerce-probleem te verhelpen, waarbij het verzenden van een bestelling naar meerdere adressen een fout veroorzaakt tijdens de verwerking van de regio-id.
 feature: Orders, Shipping/Delivery
 role: Admin, Developer
-source-git-commit: 1899e4601d292a8543d1c34e622251a7f6aed124
+exl-id: 01a33db3-fdbe-4acd-a617-45fb3aee6f3d
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%

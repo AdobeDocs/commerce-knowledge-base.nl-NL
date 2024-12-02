@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47106: nieuw aangepast kenmerk op pagina voor het maken van bedrijven niet opgeslagen"
+title: 'ACSD-47106: nieuw aangepast kenmerk op pagina voor het maken van bedrijven niet opgeslagen'
 description: Pas de ACSD-47106-patch toe om het Adobe Commerce-probleem op te lossen, waarbij een waarde niet kan worden opgeslagen in een nieuw aangepast kenmerk op een pagina voor het maken van bedrijven.
 exl-id: 941d6d8f-36eb-4b50-980f-e4afe6bf33df
 feature: Attributes, B2B, Companies

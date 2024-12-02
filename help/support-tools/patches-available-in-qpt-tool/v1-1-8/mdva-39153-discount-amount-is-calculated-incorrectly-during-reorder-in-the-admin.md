@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39153: Het kortingsbedrag wordt onjuist berekend tijdens de herschikking in de Admin."
+title: 'MDVA-39153: Het kortingsbedrag wordt onjuist berekend tijdens de herschikking in de Admin'
 description: De patch MDVA-39153 verhelpt het probleem waarbij het kortingsbedrag onjuist wordt berekend tijdens het opnieuw ordenen in de Admin. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8 is geïnstalleerd. De patch-id is MDVA-39153. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: d4d11bea-a528-4eb5-8a57-8a7330975e4a
 feature: Admin Workspace, Orders, Personalization, Payments

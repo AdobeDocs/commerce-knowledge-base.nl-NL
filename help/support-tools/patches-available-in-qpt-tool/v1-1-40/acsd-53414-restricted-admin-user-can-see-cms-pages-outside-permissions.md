@@ -1,6 +1,6 @@
 ---
-title: '''ACSD-53414: gebruikers met beperkte beheerdersrechten kunnen CMS-pagina''s zien die buiten het bereik van hun machtigingen vallen'''
-description: Pas de ACSD-53414-patch toe om het Adobe Commerce-probleem op te lossen, waarbij een gebruiker met beperkte beheerdersrechten CMS-pagina's kan zien die buiten het bereik van zijn bevoegdheden vallen.
+title: 'ACSD-53414: gebruikers met beperkte beheerdersrechten kunnen CMS-pagina''s zien die buiten het bereik van hun machtigingen vallen'
+description: Pas de ACSD-53414-patch toe om het Adobe Commerce-probleem op te lossen, waarbij een gebruiker met beperkte bevoegdheden CMS-pagina's kan zien die buiten het bereik van zijn bevoegdheden vallen.
 feature: CMS
 role: Admin, Developer
 exl-id: f8540d52-a3bb-49bb-8868-7b1db03e571b
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ACSD-53414: gebruikers met beperkte beheerdersrechten kunnen CMS-pagina&#39;s zien die buiten het bereik van hun machtigingen vallen
 
-De ACSD-53414-patch verhelpt het probleem waarbij een beperkte gebruiker CMS-pagina&#39;s kan zien die buiten het bereik van zijn bevoegdheden vallen. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 wordt geïnstalleerd. De patch-id is ACSD-53414. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
+De ACSD-53414-patch verhelpt het probleem waarbij een gebruiker met beperkte beheerdersrechten CMS-pagina&#39;s kan zien die buiten het bereik van hun bevoegdheden vallen. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 wordt geïnstalleerd. De patch-id is ACSD-53414. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.7.
 
 ## Betrokken producten en versies
 
@@ -31,7 +31,7 @@ De ACSD-53414-patch verhelpt het probleem waarbij een beperkte gebruiker CMS-pag
 
 ## Probleem
 
-Beperkte admin-gebruikers kunnen CMS-pagina&#39;s zien die buiten het bereik van hun machtigingen vallen.
+Beperkte beheerders kunnen CMS-pagina&#39;s buiten het bereik van hun machtigingen weergeven.
 
 <u> Stappen om </u> te reproduceren:
 

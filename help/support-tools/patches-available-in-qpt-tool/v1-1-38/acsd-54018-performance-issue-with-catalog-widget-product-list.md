@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54018: Prestatieprobleem met de productlijst van de widget voor de catalogus'
+title: 'ACSD-54018: Prestatieprobleem met de productlijst van de widget voor catalogi'
 description: Pas de ACSD-54018-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de pagina langzaam wordt geladen wanneer een productlijst van een cataloguswidget met voorwaarde- en kenmerktype Boolean wordt toegevoegd.
 feature: Attributes, Catalog Management, Page Builder, Page Content, Storefront
 role: Admin, Developer

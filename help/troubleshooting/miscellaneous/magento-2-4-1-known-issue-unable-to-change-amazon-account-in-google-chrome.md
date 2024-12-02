@@ -1,5 +1,5 @@
 ---
-title: 'Uitgave Adobe Commerce 2.4.1: Amazon-account in Chrome kan niet worden gewijzigd.'
+title: 'Uitgave Adobe Commerce 2.4.1: Amazon-account kan niet worden gewijzigd in Chrome'
 description: In dit artikel wordt een bekende Adobe Commerce 2.4.1-kwestie beschreven waarbij klanten zich aanmelden bij eerder gebruikte Amazon-accounts in plaats van te worden voorgesteld zich aan te melden wanneer ze Amazon Pay gebruiken tijdens het afrekenen.
 exl-id: 8acffe99-b3ec-4b45-9434-61b66e963838
 feature: Customer Service

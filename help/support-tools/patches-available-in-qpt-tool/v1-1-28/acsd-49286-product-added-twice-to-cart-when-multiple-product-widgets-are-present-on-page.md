@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49286: product dat twee keer aan het winkelwagentje wordt toegevoegd wanneer er meerdere producten-widgets aanwezig zijn"
+title: 'ACSD-49286: product dat tweemaal aan het winkelwagentje wordt toegevoegd als er meerdere product-widgets aanwezig zijn'
 description: Pas de ACSD-49286-patch toe om het Adobe Commerce-probleem op te lossen, waarbij het product tweemaal aan een winkelwagentje wordt toegevoegd wanneer er meerdere producten op de pagina aanwezig zijn.
 exl-id: b1764943-945d-4ef9-9bbe-3f3c8383b5b1
 feature: Admin Workspace, Orders, Products, Shopping Cart

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49960: Filteren op datum werkt niet voor het orderraster van de klant"
+title: 'ACSD-49960: Filteren op datum werkt niet voor het orderraster van de klant'
 description: Pas de ACSD-49960-patch toe om het Adobe Commerce-probleem op te lossen dat het filteren op datum niet werkt voor het orderraster van de klant.
 exl-id: 483479f4-2688-4ff5-bbf3-bfd577a0c641
 feature: Admin Workspace, Orders

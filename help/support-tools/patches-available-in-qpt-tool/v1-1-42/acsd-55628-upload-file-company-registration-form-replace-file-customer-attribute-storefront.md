@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55628: Bestand uploaden op bedrijfsregistratieformulier; bestand vervangen voor klantkenmerk op winkel"
+title: 'ACSD-55628: Bestand uploaden op bedrijfsregistratieformulier; bestand vervangen voor klantkenmerk op winkel'
 description: Pas de ACSD-55628-patch toe om het Adobe Commerce-probleem te verhelpen door een bestand op het bedrijfsregistratieformulier te uploaden en een bestand voor een klantkenmerk in de winkel te vervangen.
 feature: Storefront, Attributes, B2B, Customers
 role: Admin, Developer

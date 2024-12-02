@@ -1,5 +1,5 @@
 ---
-title: 'Beheerde waarschuwingen voor Adobe Commerce: kritische waarschuwing van de Apdex'
+title: 'Beheerde waarschuwingen voor Adobe Commerce: kritische waarschuwing van Apdex'
 description: Dit artikel bevat stappen voor het oplossen van problemen wanneer u een kritieke waarschuwing van Apdex voor Adobe Commerce in New Relic ontvangt. Met de Apdex-score wordt gemeten of gebruikers tevreden zijn met de responstijd van webtoepassingen en -services. Er moet onmiddellijk actie worden ondernomen om dit probleem op te lossen. De waarschuwing ziet er ongeveer als volgt uit, afhankelijk van het waarschuwingsberichtkanaal dat u hebt geselecteerd.
 exl-id: b6d3d4f3-4abb-4285-8071-2b9fb06bfa3c
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-43887: onjuiste gegevens weergegeven op de betalingspagina voor afhandeling"
+title: 'ACSD-43887: onjuiste gegevens weergegeven op de betalingspagina voor afhandeling'
 description: De ACSD-43887-patch verhelpt het probleem dat onjuiste gegevens worden weergegeven op de pagina voor afhandelingsuitkeringen wanneer Purchase Orders voor bedrijven zijn ingeschakeld. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 is geïnstalleerd. De patch-id is ACSD-4387. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 exl-id: 07b17f96-5236-43a7-aeaf-6bfe36c551cf
 feature: B2B, Checkout, Orders, Payments, User Account

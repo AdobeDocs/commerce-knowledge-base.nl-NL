@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45255: Uitzondering op de pagina met een rapport over een laag bestand voor gebruikers met beperkte beheerdersrechten"
+title: 'ACSD-45255: Uitzondering op de pagina met een rapport over een laag bestand voor gebruikers met beperkte beheerdersrechten'
 description: Met de ACSD-45255-patch wordt het probleem opgelost waarbij een uitzondering wordt gegenereerd op de pagina Rapport voor lage bestanden voor een beperkte beheerder. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 is geïnstalleerd. De patch-id is ACSD-45255. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 exl-id: 4b08500a-384e-4d5b-9563-3f9d1b984349
 feature: Admin Workspace, Orders

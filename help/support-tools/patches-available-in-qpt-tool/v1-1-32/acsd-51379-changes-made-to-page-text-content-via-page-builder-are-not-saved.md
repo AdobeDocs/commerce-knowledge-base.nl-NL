@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51379: De veranderingen in de tekstinhoud van de pagina via  [!DNL Page Builder]  worden niet bewaard"
+title: 'ACSD-51379: De veranderingen in de tekstinhoud van de pagina via  [!DNL Page Builder]  worden niet bewaard'
 description: Pas ACSD-51379 flard toe om de kwestie van Adobe Commerce te bevestigen waar de veranderingen die aan de tekstinhoud van een pagina via  [!DNL Page Builder]  worden aangebracht niet worden bewaard.
 exl-id: e274ca03-b675-4ded-9820-1d60978685d0
 feature: Page Builder, Page Content

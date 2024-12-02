@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-56023: inhoud van widget wordt niet bijgewerkt op de CMS-pagina'
+title: 'ACSD-56023: Widget-inhoud wordt niet bijgewerkt op de CMS-pagina'
 description: Pas de ACSD-56023-patch toe om het Adobe Commerce-probleem op te lossen waarbij de widgetinhoud niet wordt bijgewerkt op de CMS-pagina
 feature: CMS
 role: Admin, Developer
@@ -45,7 +45,7 @@ Widget-inhoud wordt niet bijgewerkt op de CMS-pagina.
 1. Open de gemaakte pagina in de winkel. Zorg ervoor dat u de sjabloon in de cache plaatst.
 1. Open vanuit Beheer **[!UICONTROL Catalog]** > **[!UICONTROL Products]** .
 1. Kies om het even welk product voor uitgeven en schakelaar **[!UICONTROL Set Product as New]** aan *ja*.
-1. Ga opnieuw naar de gecreeerde *CMS pagina* op de storefront.
+1. Ga opnieuw naar de gecreeerde *pagina van CMS* op de storefront.
 
 <u> Verwachte resultaten </u>:
 

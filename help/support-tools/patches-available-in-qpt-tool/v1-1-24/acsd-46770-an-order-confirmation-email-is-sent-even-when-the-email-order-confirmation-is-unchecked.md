@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-46770: bevestiging-e-mail voor bestelling wordt verzonden, zelfs als [!UICONTROL Email Order Confirmation] is uitgeschakeld'
+title: 'ACSD-46770: bevestiging-e-mail voor bestelling wordt verzonden, zelfs als [!UICONTROL Email Order Confirmation] niet is ingeschakeld'
 description: Pas de ACSD-46770-patch toe om het Adobe Commerce-probleem op te lossen, waarbij e-mails ter bevestiging van de bestelling worden verzonden, zelfs als [!UICONTROL Email Order Confirmation] niet is geselecteerd.
 exl-id: 9cbf3a57-1f59-4030-b432-0e6cad410a27
 feature: Communications, Orders

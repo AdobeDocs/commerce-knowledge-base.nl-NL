@@ -1,5 +1,5 @@
 ---
-title: '"MDVA-42520: tweemaal toegepast belastingtarief wanneer "grensoverschrijdende handel inschakelen" wordt gebruikt"'
+title: 'MDVA-42520: tweemaal toegepast belastingtarief bij gebruik van "Enable Cross Border Trade"'
 description: De MDVA-42520-patch voorziet in de mogelijkheid dat het belastingtarief tweemaal wordt toegepast wanneer het **Grensoverschrijdende handel inschakelen* wordt gebruikt. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11 is geïnstalleerd. De patch-id is MDVA-42520. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: c1ca44eb-fe92-4f28-807a-3a4563433386
 feature: Catalog Management, Orders, Taxes

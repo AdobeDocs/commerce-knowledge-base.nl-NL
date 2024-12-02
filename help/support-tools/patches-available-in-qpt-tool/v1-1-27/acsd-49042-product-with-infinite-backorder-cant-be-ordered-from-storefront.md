@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49042: Product met een oneindige backorder kan niet van opslagront worden bevolen"
+title: 'ACSD-49042: product met oneindige backorder kan niet van opslagront worden bevolen'
 description: Pas de ACSD-49042-patch toe om het Adobe Commerce-probleem op te lossen, waarbij een product met een oneindige backorder niet van de winkel kan worden besteld.
 exl-id: b9227296-f300-447c-a241-30ccc0691c9a
 feature: Admin Workspace, Orders, Products, Storefront

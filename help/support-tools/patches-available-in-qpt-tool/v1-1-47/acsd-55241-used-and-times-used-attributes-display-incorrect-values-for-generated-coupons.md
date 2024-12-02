@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-55241: **Gebruikte** en **Gebruikte** kenmerken voor Times Used* geven onjuiste waarden weer voor gegenereerde coupons'
+title: 'De kenmerken ACSD-55241: **Gebruikte** en **Gebruikte*** voor het weergeven van onjuiste waarden voor gegenereerde coupons'
 description: Pas de ACSD-55241-patch toe om het Adobe Commerce-probleem op te lossen waarbij de kenmerken **Used** en **Times Used** onjuiste waarden weergeven voor gegenereerde coupons
 feature: Price Rules
 role: Admin, Developer

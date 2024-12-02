@@ -1,5 +1,5 @@
 ---
-title: '"ACSD-55031: Fout van type "gemengd" kan niet nietig zijn" tijdens compilatie.'
+title: 'ACSD-55031: Fout van type "gemengd"kan niet nullable"tijdens compilatie zijn'
 description: Pas de ACSD-55031-patch toe om het Adobe Commerce-probleem op te lossen, waarbij de fout *Type "gemengd" niet kan worden geannuleerd* tijdens het compileren na het installeren van een aangepaste extensie.
 feature: Extensions
 role: Admin, Developer

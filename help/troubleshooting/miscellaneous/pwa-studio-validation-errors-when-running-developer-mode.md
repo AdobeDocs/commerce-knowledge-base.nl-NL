@@ -1,6 +1,6 @@
 ---
 title: 'PWA Studio: validatiefouten bij het uitvoeren van de ontwikkelaarsmodus'
-description: Dit onderwerp bespreekt een oplossing voor wanneer de bevestigingsfouten voorkomen wanneer het runnen van ontwikkelaarswijze in Progressieve Studio van de Web App (PWA) voor Adobe Commerce als resultaat van eerder niet creërend venia-concept (Venia is een PWA storefront.) omgevingsbestand. Dit bestand bevat de variabelen voor uw lokale ontwikkelomgeving.
+description: Dit onderwerp bespreekt een oplossing voor wanneer de bevestigingsfouten voorkomen wanneer het runnen van ontwikkelaarswijze in de Progressieve Studio van de Web App (PWA) voor Adobe Commerce als resultaat van niet eerder creërend venia-concept (Venia is een PWA storefront.) milieudossier. Dit bestand bevat de variabelen voor uw lokale ontwikkelomgeving.
 exl-id: 97d042ef-88e6-4eda-a834-2cff4de276e2
 feature: Configuration
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: validatiefouten bij het uitvoeren van de ontwikkelaarsmodus
 
-Dit onderwerp bespreekt een oplossing voor wanneer de bevestigingsfouten voorkomen wanneer het runnen van ontwikkelaarswijze in Progressieve Studio van de Web App (PWA) voor Adobe Commerce als resultaat van eerder niet creërend venia-concept (Venia is een PWA storefront.) omgevingsbestand. Dit bestand bevat de variabelen voor uw lokale ontwikkelomgeving.
+Dit onderwerp bespreekt een oplossing voor wanneer de bevestigingsfouten voorkomen wanneer het runnen van ontwikkelaarswijze in de Progressieve Studio van de Web App (PWA) voor Adobe Commerce als resultaat van niet eerder creërend venia-concept (Venia is een PWA storefront.) milieudossier. Dit bestand bevat de variabelen voor uw lokale ontwikkelomgeving.
 
 ## Betrokken producten en versies
 

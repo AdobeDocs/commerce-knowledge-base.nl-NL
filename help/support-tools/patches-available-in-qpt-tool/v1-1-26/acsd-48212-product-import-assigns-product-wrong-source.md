@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48212: product import wijst product aan verkeerde bron toe"
+title: 'ACSD-48212: bij het importeren van producten wordt een product aan de verkeerde bron toegewezen'
 description: Pas de ACSD-48212-patch toe om het Adobe Commerce-probleem op te lossen, waarbij het product door het importeren aan de verkeerde bron wordt toegewezen.
 exl-id: b3426f62-f73a-4b76-8e0e-544a9133720f
 feature: Admin Workspace, Data Import/Export, Products

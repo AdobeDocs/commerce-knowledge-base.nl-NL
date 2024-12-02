@@ -1,5 +1,5 @@
 ---
-title: 'Beheerde waarschuwingen voor Adobe Commerce: waarschuwing voor het geheugengebruik'
+title: 'Beheerde waarschuwingen voor Adobe Commerce: waarschuwing voor geheugenmeldingen'
 description: In dit artikel worden stappen beschreven voor het oplossen van problemen wanneer u een waarschuwing ontvangt voor Adobe Commerce in New Relic. Er moet onmiddellijk actie worden ondernomen om dit probleem op te lossen. De waarschuwing ziet er ongeveer als volgt uit, afhankelijk van het waarschuwingsberichtkanaal dat u hebt geselecteerd.
 exl-id: bb5eb3f4-b162-4737-93d5-4037f2844bb1
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services

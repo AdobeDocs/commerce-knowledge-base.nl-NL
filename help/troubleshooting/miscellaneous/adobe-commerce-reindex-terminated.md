@@ -1,5 +1,5 @@
 ---
-title: '"Adobe Commerce cloud: redex wordt afgesloten met een "Killed" message'
+title: 'Adobe Commerce cloud: opnieuw indexeren wordt afgesloten met een ''Killed''-bericht'
 description: '* Adobe Commerce op cloudinfrastructuur (alle versies)'
 exl-id: 36ed9c9f-8280-41db-9df3-fe842dade4b1
 feature: Cloud, Paas

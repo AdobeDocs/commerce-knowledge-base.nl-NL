@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor het probleem waarbij er meerde
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
 exl-id: 09d5c321-9c45-4041-b6f6-831efca0977e
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -68,5 +68,4 @@ Dit is het verwachte gedrag en leidt alleen tot problemen als er verschillen tus
 ## Gerelateerde lezing
 
 * [ de Veranderingen in categorieën worden niet bewaard ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html) in onze basis van de steunkennis
-* [ dubbele ingangen in de lijst van de catalogusregel na het uitgeven van de einddatum van een programmaupdate ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html) in onze basis van de steunkennis
 * [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

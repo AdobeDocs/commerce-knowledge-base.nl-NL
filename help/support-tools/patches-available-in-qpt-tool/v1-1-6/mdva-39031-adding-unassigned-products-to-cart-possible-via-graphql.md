@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39031: Toevoegen van niet-toegewezen producten aan het karretje mogelijk via GraphQL"
+title: 'MDVA-39031: Toevoegen van niet-toegewezen producten aan het karretje via GraphQL'
 description: De MDVA-39031-patch lost het probleem op dat het via GraphQL toevoegen van een product aan het winkelwagentje mogelijk is, zelfs als het niet aan de doelwebsite is toegewezen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.6 is geïnstalleerd. De patch-id is MDVA-39031. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 5bbd64d1-06ae-4cab-a20e-0e5e5807742b
 feature: GraphQL, Orders, Products, Shopping Cart

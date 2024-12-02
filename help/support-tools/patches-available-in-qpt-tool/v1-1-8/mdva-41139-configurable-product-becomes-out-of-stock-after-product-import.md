@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41139: configureerbaar product komt uit voorraad na import van product"
+title: 'MDVA-41139: configureerbaar product komt uit voorraad na import van product'
 description: De MDVA-41139-patch verhelpt het probleem waarbij het configureerbare product na het importeren van het product uit voorraad raakt wanneer het eenvoudige product qty = 0 voor een van de bronnen is. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8 is geïnstalleerd. De patch-id is MDVA-41139. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: e90ab578-50b9-4bc4-baf9-de4182e700ae
 feature: Data Import/Export, Configuration, Orders, Products

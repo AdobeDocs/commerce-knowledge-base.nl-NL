@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55334: Labels die niet zijn vertaald via vertaalwoordenboeken in GraphQL-reactie"
+title: 'ACSD-55334: Labels die in GraphQL niet zijn vertaald via vertaalwoordenboeken'
 description: Pas de ACSD-55334-patch toe om het Adobe Commerce-probleem op te lossen, waarbij labels in het GraphQL-antwoord niet via vertaalwoordenboeken worden vertaald.
 feature: Categories, GraphQL
 role: Admin, Developer

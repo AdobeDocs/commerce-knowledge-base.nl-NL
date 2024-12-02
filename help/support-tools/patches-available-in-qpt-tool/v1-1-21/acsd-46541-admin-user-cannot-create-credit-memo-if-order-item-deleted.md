@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46541: Een beheerder kan geen creditmemo maken als een orderitem wordt verwijderd."
+title: 'ACSD-46541: Een beheerder kan geen creditmemo maken als een orderitem wordt verwijderd'
 description: Pas de ACSD-46541-patch toe om het Adobe Commerce-probleem op te lossen. Als een product eenmaal is verwijderd, kunt u geen creditmemo maken in Adobe Commerce Admin.
 exl-id: ff3f8f21-76c1-41b5-bf02-349403a46fc1
 feature: Admin Workspace, Orders, Returns

@@ -22,7 +22,7 @@ QPT v1.1.44 bevat de volgende patches:
 1. **ACSD-55231**: Verhelpt de kwestie waar een *niet gevonden SKU* fout voorkomt terwijl het gebruiken van snelle ordefunctionaliteit.
 1. **ACSD-55427**: Verhelpt de kwestie waar een admin gebruiker een product van een gedeelde catalogus van een productpagina in het achtereind niet kan unassign.
 1. **ACSD-56158**: Verhelpt de kwestie waar een verkeerde belastingwaarde op de opslagplaats wordt teruggegeven wanneer de veelvoudige belastingregels op de kar worden toegepast.
-1. **ACSD-56023**: Verhelpt de kwestie waar de widgetinhoud niet op de CMS pagina bijwerkt.
+1. **ACSD-56023**: Verhelpt de kwestie waar de widgetinhoud niet op de pagina van CMS bijwerkt.
 1. **ACSD-56790**: Verhelpt de kwestie waar het sorteren van producten met *[!UICONTROL Move out of Stock to bottom]* niet behoorlijk werkt.
 1. **ACSD-56193**: Verhelpt de kwestie waar het [!DNL Fastly] geheime voorgeheugen niet voor de update van de inhoudstaging wordt ontruimd.
 1. **ACSD-56280**: Verhelpt de kwestie waar een fout voorkomt wanneer het proberen om een orde van een geschenkregister te plaatsen, verhinderend de voltooiing van de aankoop.

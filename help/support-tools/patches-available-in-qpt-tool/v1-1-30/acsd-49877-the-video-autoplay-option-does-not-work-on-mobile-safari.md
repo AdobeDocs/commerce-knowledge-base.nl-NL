@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49877: Video autoplay werkt niet op mobile  [!DNL Safari]'
+title: 'ACSD-49877: Video autoplay werkt niet op mobiele apparaten  [!DNL Safari]'
 description: Pas ACSD-49877 flard toe om de kwestie van Adobe Commerce te bevestigen waar de video autoplay optie niet op mobiele  [!DNL Safari]  werkt wanneer de video direct met een ver videodossier wordt verbonden.
 exl-id: 454f7cec-29b9-485b-93be-2a4f2eb77da7
 feature: CMS

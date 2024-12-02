@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51739: Error on request ` structure_id` in ` CompanyTeam` GraphQL request"
+title: 'ACSD-51739: Fout bij het aanvragen van ` structure_id` in ` CompanyTeam` GraphQL request'
 description: Pas ACSD-51739 flard toe om de kwestie van Adobe Commerce te bevestigen waar een fout is teruggekeerd wanneer ` structure_id ` in een ` CompanyTeam ` GraphQL verzoek wordt gevraagd.
 exl-id: 31c085e0-c8be-4709-9620-80ff360dca9a
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

@@ -3,7 +3,8 @@ title: 'Overzicht: [!DNL Quality Patches Tool]  (QPT) v1.1.50'
 description: Deze subsectie verstrekt een gedetailleerde beschrijving van de kwesties die door de flarden beschikbaar in  [!DNL Quality Patches Tool]  (QPT) v1.1.50 worden bevestigd.
 feature: Tools and External Services
 role: Admin, Developer
-source-git-commit: f62cf4284d7bb99a1ab58df676dfff726c34d327
+exl-id: 2bda5e91-a213-434a-b4e4-0dffeb222cae
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -33,4 +34,3 @@ QPT v1.1.50 omvat de volgende flarden:
 1. **ACSD-60441**: Verhelpt de kwestie met het bijwerken van klanten via `V1/customers REST API` eindpunt wanneer het gebruiken van het teken van de integratietoegang dat van het achterste wordt geproduceerd.
 
 Gebruik het menu links om naar een specifieke patchpagina te navigeren.
-

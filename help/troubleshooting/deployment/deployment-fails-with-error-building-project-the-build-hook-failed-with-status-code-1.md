@@ -1,6 +1,6 @@
 ---
-title: 'De "Plaatsing ontbreekt met "Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1"'
-description: 'In dit artikel wordt gesproken over de oorzaken en oplossingen voor de Adobe Commerce met betrekking tot de cloudinfrastructuur, waar de constructiefase van het implementatieproces mislukt, en de foutmelding wordt samengevat met: *"Fout bij het bouwen van project: De bouwhaak is mislukt met statuscode 1"*."'
+title: 'De plaatsing ontbreekt met "Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1'
+description: 'In dit artikel wordt gesproken over de oorzaken en oplossingen voor de Adobe Commerce met betrekking tot de cloudinfrastructuur, waarbij de constructiefase van het implementatieproces mislukt en de foutmelding wordt samengevat met: *"Fout bij het bouwen van project: De bouwhaak is mislukt met statuscode 1"*.'
 exl-id: add1cdac-dbcb-4c55-8bc2-c1f27e24aadb
 feature: Build, Deploy
 role: Developer

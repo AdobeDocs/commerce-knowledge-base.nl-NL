@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56193: [!DNL Fastly]  het geheime voorgeheugen wordt niet ontruimd voor inhoud die update opvoeren"
+title: 'ACSD-56193: [!DNL Fastly]  het geheime voorgeheugen wordt niet ontruimd voor inhoud die update opneemt'
 description: Pas ACSD-56193 flard toe om de kwestie van Adobe Commerce te bevestigen waar het  [!DNL Fastly]  geheime voorgeheugen niet voor inhoud het opvoeren update wordt ontruimd.
 feature: Cache, GraphQL, Staging
 role: Admin, Developer

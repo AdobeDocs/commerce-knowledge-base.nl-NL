@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 2.4.0-installatie mislukt met verouderde opslagcache
-description: "Dit artikel biedt een oplossing voor het probleem waarbij de Adobe Commerce 2.4.0-installatie mislukt met het foutbericht: *De standaardwebsite is niet gedefinieerd. Stel de website in en probeer het opnieuw.* weergegeven in de console."
+description: 'Dit artikel biedt een oplossing voor het probleem waarbij de Adobe Commerce 2.4.0-installatie mislukt met het foutbericht: *De standaardwebsite is niet gedefinieerd. Stel de website in en probeer het opnieuw.* weergegeven in de console.'
 exl-id: 0680199b-7e47-4a8c-91fe-9f6c32839a0e
 feature: B2B, Cache, Console, Install, Upgrade
 role: Developer

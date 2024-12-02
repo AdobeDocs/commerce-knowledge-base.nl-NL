@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46618: widget productlijst toont onjuiste caching prijzen voor het programma geopende klant"
+title: 'ACSD-46618: widget productlijst toont onjuiste caching prijzen voor het programma geopende klant'
 description: Pas een patch toe om het Adobe Commerce-probleem op te lossen, waarbij in de productlijst van de widget onjuiste cacheprijzen worden weergegeven voor een aangemelde klant.
 exl-id: 8b182822-1d3d-4793-871b-cdf4565d0712
 feature: Cache, Orders, Products

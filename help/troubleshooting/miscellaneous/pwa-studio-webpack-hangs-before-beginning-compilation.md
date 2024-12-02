@@ -1,5 +1,5 @@
 ---
-title: 'PWA Studio: Webpack loopt vast voor compilatie'
+title: 'PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart'
 description: Dit artikel spreekt over een voorgestelde oplossing aan wanneer een javascript [Webpack] (https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) lang alvorens met compilatie in de Progressieve Studio van de Web App (PWA Studio) te beginnen hangt.
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration

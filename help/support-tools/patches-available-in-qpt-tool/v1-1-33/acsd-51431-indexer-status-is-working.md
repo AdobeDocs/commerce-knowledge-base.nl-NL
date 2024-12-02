@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51431: De status van de indexeerder is *[!UICONTROL Working]* alhoewel er geen ingangen in de changelog zijn"
+title: 'ACSD-51431: De status van de indexeerder is *[!UICONTROL Working]* alhoewel er geen ingangen in het kanaal zijn'
 description: Pas ACSD-51431 flard toe om de kwestie van Adobe Commerce te bevestigen waar de indexeerstatus * [!UICONTROL Working]* is alhoewel er geen ingangen in de verandering zijn.
 feature: Logs, Price Indexer
 role: Admin

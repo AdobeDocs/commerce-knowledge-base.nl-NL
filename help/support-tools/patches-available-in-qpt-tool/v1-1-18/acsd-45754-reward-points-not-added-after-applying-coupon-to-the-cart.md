@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45754: Achterwaartse punten niet toegevoegd na het toepassen van coupon op winkelwagentje"
+title: 'ACSD-45754: Achterwaartse punten niet toegevoegd na het toepassen van coupon op winkelwagentje'
 description: De ACSD-45754-patch lost de kwestie op waarbij geen bonuspunten worden toegevoegd nadat een coupon op de wagen is aangebracht. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 is geïnstalleerd. De patch-id is ACSD-45754. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 exl-id: 957713c0-3e2e-4dc9-8924-2ae84c817e47
 feature: Orders, Rewards, Shopping Cart

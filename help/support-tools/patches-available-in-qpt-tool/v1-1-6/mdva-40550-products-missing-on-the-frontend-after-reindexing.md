@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40550: Producten die aan de voorzijde ontbreken na herindexering"
+title: 'MDVA-40550: Producten die aan de voorzijde ontbreken na redexering'
 description: Met de MDVA-40550-patch wordt het probleem opgelost waarbij opnieuw indexeren leidt tot enkele of alle ontbrekende producten in de winkelcategorieën. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.6 is geïnstalleerd. De patch-id is MDVA-40550. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 0aca6eb2-6eb2-4ac4-8ae1-052f671c14e5
 feature: Categories, Console, Products
