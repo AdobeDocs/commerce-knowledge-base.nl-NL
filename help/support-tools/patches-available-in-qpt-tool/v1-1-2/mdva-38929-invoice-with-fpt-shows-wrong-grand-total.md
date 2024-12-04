@@ -1,5 +1,5 @@
 ---
-title: "MDVA-38929: FPT heeft een onjuist totaal"
+title: 'MDVA-38929: FPT toont onjuist totaal'
 description: De patch MDVA-38929 lost het probleem op waarbij de factuur met FPT een onjuist totaal geeft wanneer de bestelling wordt betaald met winkelkrediet. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is geïnstalleerd. De patch-id is MDVA-38929. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 1ed0e311-f4a5-4dc0-98fc-fc1cc9458516
 feature: Invoices, Orders

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46856: Verbetert de prestaties bij het bijwerken van de prijzen op lagen"
+title: 'ACSD-46856: Verbetert de prestaties bij het bijwerken van prijzen op niveaus'
 description: Pas de ACSD-46856-patch toe om de prestaties te verbeteren bij het bijwerken van de laagprijzen via System&gt; Configuratie&gt; Import&gt; Geavanceerde prijzen.
 exl-id: c08560ef-94fa-4be4-9c59-d4b1b5e4186f
 feature: Orders

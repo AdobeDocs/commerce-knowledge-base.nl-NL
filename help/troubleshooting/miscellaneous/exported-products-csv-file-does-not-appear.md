@@ -1,19 +1,19 @@
 ---
 title: Het CSV-bestand met geëxporteerde producten wordt niet weergegeven
-description: Dit artikel bevat een oplossing voor het probleem waarbij u probeert producten te exporteren naar een CSV-bestand in Commerce Admin, maar het bestand wordt niet weergegeven.
+description: Dit artikel biedt een oplossing voor het probleem waarbij u probeert het gewenste eenheidstype te exporteren naar een CSV-bestand in Commerce Admin, maar het bestand wordt niet weergegeven.
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: d55702ab97f3770d0ec71322f6c24448f0169ad4
+source-git-commit: b6f1222918b027eaecda42b767e6f83b2cf0f5d0
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 # Het CSV-bestand met geëxporteerde producten wordt niet weergegeven
 
-Dit artikel bevat een oplossing voor het probleem waarbij u probeert producten te exporteren naar een CSV-bestand in Commerce Admin, maar het bestand wordt niet weergegeven.
+Dit artikel biedt een oplossing voor het probleem waarbij het exporteren van het gewenste eenheidstype naar een CSV-bestand in Commerce Admin ertoe leidt dat het bestand niet wordt weergegeven.
 
 ## Betrokken producten en versies
 
@@ -30,7 +30,7 @@ Eerste vereisten: **voeg Geheime Sleutel aan URLs** optie toe wordt geplaatst aa
    ![ magento_export_products_2.3.4.png ](assets/magento_export_products_2.3.4.png)
 
 1. Selecteren
-   * **Type van Entiteit**: *Producten*
+   * **Type van Entiteit**: De entiteit u wenst om uit te voeren
    * **Formaat van het Dossier van de Uitvoer**: *CSV*
    * **de Bijlage van het Gebied**: verlaten ongecontroleerd.
 1. Klik **verdergaan**.
@@ -38,11 +38,11 @@ Eerste vereisten: **voeg Geheime Sleutel aan URLs** optie toe wordt geplaatst aa
 
 <u> Verwacht resultaat </u>
 
-Het .csv-bestand met de geëxporteerde producten wordt binnen een paar minuten in het raster weergegeven.
+Het CSV-bestand met het geëxporteerde gewenste eenheidstype wordt binnen een paar minuten weergegeven in het raster.
 
 <u> Werkelijk resultaat </u>
 
-Het CSV-bestand met de geëxporteerde producten wordt niet binnen 10 minuten of langer weergegeven in het raster.
+Het .csv-bestand met het geëxporteerde gewenste eenheidstype wordt niet binnen 10 minuten of langer weergegeven in het raster.
 
 ## Oorzaak
 

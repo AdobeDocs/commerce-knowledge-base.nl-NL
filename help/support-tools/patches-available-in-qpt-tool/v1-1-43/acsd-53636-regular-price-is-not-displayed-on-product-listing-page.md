@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53636: De normale prijs wordt niet weergegeven op de [!UICONTROL Product Listing] pagina'
+title: 'ACSD-53636: De normale prijs wordt niet weergegeven op de pagina [!UICONTROL Product Listing]'
 description: Pas ACSD-53636 flard toe om de kwestie van Adobe Commerce te bevestigen waar de regelmatige prijs niet op * [!UICONTROL Product Listing] * pagina's voor configureerbare producten wordt getoond die kindproducten met speciale prijzen hebben.
 feature: Catalog Management, Products
 role: Admin, Developer

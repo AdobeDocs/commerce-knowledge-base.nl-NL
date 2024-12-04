@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-43983: Producten die zijn ingesteld als "Niet afzonderlijk zichtbaar" worden weergegeven in zoekresultaten.'
+title: 'MDVA-43983: De producten die als "Niet afzonderlijk zichtbaar"worden geplaatst verschijnen in onderzoeksresultaten'
 description: Met de MDVA-43983-patch wordt het probleem opgelost waarbij de producten die als "Niet afzonderlijk zichtbaar" zijn ingesteld, nog steeds in de geavanceerde zoekresultaten van de catalogus worden weergegeven. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 is geïnstalleerd. De patch-id is MDVA-43983. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 2599fb6c-5b27-461b-9740-f586ae7df9f5
 feature: Catalog Management, Products, Search

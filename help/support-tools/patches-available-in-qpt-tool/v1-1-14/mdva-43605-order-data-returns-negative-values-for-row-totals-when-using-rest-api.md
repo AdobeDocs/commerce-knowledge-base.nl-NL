@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-43605: De gegevens van de orde keert negatieve waarden voor rijtotalen terug wanneer het gebruiken van Rest API'
+title: 'MDVA-43605: De gegevens van de orde keren negatieve waarden voor rijtotalen terug wanneer het gebruiken van Rest API'
 description: De patch MDVA-43605 verhelpt het probleem waarbij de ordergegevens negatieve waarden voor rijtotalen retourneren bij gebruik van de Rest API. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 is geïnstalleerd. De patch-id is MDVA-43605. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.5.
 exl-id: 8a679e85-1681-42c3-b072-18797198bdc4
 feature: REST, Orders
