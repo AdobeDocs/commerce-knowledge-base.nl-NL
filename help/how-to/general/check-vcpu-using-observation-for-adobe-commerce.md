@@ -3,9 +3,9 @@ title: OmgevingsvCPU-laag in uw cluster weergeven op Adobe Commerce
 promoted: true
 description: In dit artikel wordt uitgelegd hoe u de toewijzing van de vCPU-lagen kunt controleren met behulp van het tabblad New Relic Infra op Observation for Adobe Commerce. Waarneming voor Adobe Commerce is een New Relic-nerdlet die de status van uw Adobe Commerce-site, de huidige en de vorige tijdweergave toont.
 exl-id: a0332e7e-d38d-47d3-b3da-293902f45edc
-source-git-commit: 309fda5284de3b8be54e95bf2bfd8ff1777b6c90
+source-git-commit: ffb7b597d38eaed4b66e23ea533c275746e7181a
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,3 @@ Ga als volgt te werk om toegang te krijgen tot en u aan te melden bij de New Rel
    * De eerste grafiek toont **vCPU rijmening over chronologie GREATER 2 weken (U zult een chronologie GROTER dan 2 weken moeten selecteren). OPMERKING: de samplefrequentie is per dag. Als de cluster zich op een dag upsize/downsizes voorkomt, zal de beëindigende lijstgrootte op de volgende dag** worden getoond.
    * De tweede grafiek toont **vCPU rijmening over chronologie (behoefte om een chronologie te selecteren GROTER dan 24 uur maar niet groter dan 2 weken)**.
    * De derde grafiek toont de **vCPU rijmening over chronologie DOOR NODE, zou chronologie minder dan 24 uren** moeten bekijken.
-
-## Gerelateerde lezing
-
-* [ Waarneming voor het overzicht van Adobe Commerce ](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md) in onze basis van steunkennis.
