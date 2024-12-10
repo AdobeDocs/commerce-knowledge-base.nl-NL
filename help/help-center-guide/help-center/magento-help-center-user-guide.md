@@ -3,9 +3,9 @@ title: Gebruikershandleiding voor ondersteuning van Experiencen League voor Adob
 description: Leer hoe te om een steunkaartje aan de Steun van het Experience League voor te leggen, gedeelde toegang tot rekeningen te verlenen, en de Kennisbank van Adobe Commerce te navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7fbedaaf0d4edccc688be24951a7d30a9e774be8
+source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2934'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,18 @@ Voer de volgende stappen uit om u aan te melden bij Adobe Experience League Supp
 ### Een ondersteuningskwestie indienen {#support-case}
 
 Zodra u bent aangemeld als eigenaar van de account of als gebruiker van Gedeelde toegang, kunt u een ondersteuningskwestie indienen via de Adobe Experience League-homepage, uw Adobe Commerce-accountpagina en uw Adobe Commerce Cloud-accountpagina.
+
+>[!NOTE]
+>
+>Ondersteuningsverzoeken voor het Adobe Commerce Marketplace-team kunnen niet via Experience League worden ingediend, omdat hun supportsysteem werkt op een apart platform dat niet met Experience League is geïntegreerd.
+>
+>U kunt uw steungeval voorleggen als de volgende verklaringen waar zijn:
+>
+>* De organisatie in kwestie wordt genoemd in de linkerkolom en eindigt binnen ([!DNL Commerce]). Uw probleem heeft betrekking op die organisatie of een account die eraan is gekoppeld.
+>* Uw probleem is dat u zich niet kunt aanmelden bij de Marketplace-account of dat u een vraag hebt over het implementeren van een extensie.
+>* Het gaat niet alleen om het aanvragen van een terugbetaling voor je aankoop(en) op de markt.
+>
+>Voor kwesties met betrekking tot het publiceren van uw uitbreiding, het hebben van problemen het kopen, of het vragen van een terugbetaling op [ Adobe Commerce Marketplace ](https://commercemarketplace.adobe.com/), moet u het [!DNL Commerce Marketplace] team rechtstreeks contacteren door https://commercemarketplace.adobe.com/ te bezoeken. Navigeer naar de onderkant van de pagina en klik op **[!UICONTROL Contact Us]** . Hiermee wordt een formulier geopend voor het verzenden van een ondersteuningsticket voor Marketplace.
 
 #### Adobe Experience League-startpagina {#experience-league-start-page}
 
