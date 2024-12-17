@@ -4,9 +4,9 @@ description: Implementaties en mislukte implementaties op Adobe Commerce kunnen 
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: 6177863da268f43cc30119cef6f718a04c46b3e6
+source-git-commit: 7f4f24c596eac96dc8fef40589a827eb9aa0c468
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ b. NO - Onderhoud of mondiale uitvallen. Controleren op geschatte duur en update
 
 +++**zijn er plaatsingen in andere milieu&#39;s die de plaatsing in het bestaande milieu blokkeren?**
 
-Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende bevel in werking gebruikend magento-cloud CLI (als u slechts aan één wolkenproject bent toegevoegd):
+Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende bevel in werking gebruikend magento-wolk CLI (als u slechts aan één wolkenproject bent toegevoegd). **Nota**: Controle u bent op de recentste versie van magento-wolk CLI. Voor stappen, verwijs naar [ Update CLI ](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview#update-the-cli) in Commerce op de gids van de Infrastructuur van de Wolk.
 
 ```bash
 magento-cloud --state=in_progress
@@ -199,7 +199,7 @@ b. NO - ga aan [ Stap 18 ](#step-18) te werk.
 
 ## Stap 18 - Controleren op een storing van de posthaken {#step-18}
 
-+++**Post haken mislukking/hang?**
++++**de hakenmislukking/hang van het Post?**
 
 a. JA - Gegevensbestand: [ vrije schijfruimte ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), corruptie, onvolledige/bedorven lijsten.\
 b. NO - ga aan [ Stap 19 ](#step-19) te werk.
