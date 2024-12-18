@@ -3,9 +3,9 @@ title: Veelgestelde vragen voor de Adobe Commerce-releasestrategie en het beleid
 description: Om aan de opdracht-kritieke behoeften van de klanten van Adobe Commerce te voldoen, breiden wij ons steunvenster voor Adobe Commerce 2.4.4 en recentere versies aan **3 jaar van de versie  [!DNL GA]  date* uit. De steun omvat **zowel veiligheids als kwaliteitspatches**. Raadpleeg onze nieuwe [releasekalender] (https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) voor informatie over de timing.
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
-source-git-commit: 81dd81ecbb0a208dbac5d3cbdc4c994556661fb0
+source-git-commit: 216e3c6c7f4db605b39ef365356bc18c76ea034e
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Het langere supportvenster herkent de complexiteit waarmee onze klanten worden g
 
 Het [ Beleid van de Levenscyclus van de Software van Adobe Commerce ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) is online beschikbaar.
 
-### Wanneer zullen de klanten op 2.4.4, 2.4.5, en 2.4.6 eind-van-steun onder dit nieuwe beleid bereiken?
+### Wanneer zullen de klanten op 2.4.4, 2.4.5, 2.4.6 en 2.4.7 eind-van-steun onder dit nieuwe beleid bereiken?
 
 Klanten met Adobe Commerce 2.4.4+ ontvangen een correctie voor beveiliging en kwaliteit gedurende 3 jaar vanaf de datum van versie [!DNL GA], zoals weergegeven in de onderstaande tijdlijn. Zie de [ Vrijgegeven Versies ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html) pagina op [!DNL Experience League] voor specifieke eind-van-steundata.
 
@@ -34,7 +34,7 @@ Klanten met Adobe Commerce 2.4.4+ ontvangen een correctie voor beveiliging en kw
 
 ### Hoe verandert het Adobe Commerce-releaseschema?
 
-Om de innovatie te versnellen en de totale eigendomskosten te verlagen, wordt er één centrale patch per jaar uitgebracht, met nieuwe mogelijkheden die worden geleverd als composable [!DNL SaaS] -services die op elk moment kunnen worden toegevoegd. Het aantal beveiligingspatchreleases dat voor dit jaar is gepland, neemt ook toe van drie naar vier om klanten te helpen veiliger te blijven. Dit jaar worden ook aanvullende [!DNL beta] releases voor de patchrelease van 2024-kerntoepassingen (2.4.7) beschikbaar gesteld om partners en klanten te helpen zich voor te bereiden op de volgende release.
+Om de innovatie te versnellen en de totale eigendomskosten te verlagen, wordt er één centrale patch per jaar uitgebracht, met nieuwe mogelijkheden die worden geleverd als composable [!DNL SaaS] -services die op elk moment kunnen worden toegevoegd.
 
 ### Hoe komt het nieuwe releaseschema ten goede aan klanten?
 
@@ -72,16 +72,160 @@ Beschikbare bronnen zijn onder andere een uitgebreide 2.4-upgradehandleiding, ee
 
 Managed Services-klanten kunnen met ons Customer Engineering-team samenwerken voor hulp met verschillende onderdelen van het upgradeproces, zoals analyse, upgrade van cloudservices, test op kwaliteit en acceptatie door de gebruiker ([!DNL QA] en [!DNL UAT] ) en het starten van de productie.
 
+<table style="table-layout:auto">
+<thead>
+  <tr>
+    <th colspan="1"></th>
+    <th colspan="4">2022</th>
+    <th colspan="4">2023</th>
+    <th colspan="4">2024</th>
+    <th colspan="4">2025</th>
+    <th colspan="4">2026</th>
+    <th colspan="4">2027</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Commerce</td>
+    <td>V1</td>
+    <td>V2</td>
+    <td>V3</td>
+    <td>V4</td>
+    <td>V1</td>
+    <td>V2</td>
+    <td>V3</td>
+    <td>V4</td>
+    <td>V1</td>
+    <td>V2</td>
+    <td>V3</td>
+    <td>V4</td>
+    <td>V1</td>
+    <td>V2</td>
+    <td>V3</td>
+    <td>V4</td>
+    <td>V1</td>
+    <td>V2</td>
+    <td>V3</td>
+    <td>V4</td>
+    <td>V1</td>
+    <td>V2</td>
+    <td>V3</td>
+    <td>V4</td>
+  </tr>
+  <tr>
+    <td>2.4.4.</td>
+    <td></td>
+    <td colspan="13" style="background-color:#67ac68;"></td>
+    <td colspan="4" style="background-color:#ffd700;"></td>
+    <td colspan="6"></td>
+  </tr>
+  <tr>
+    <td>2.4.5.</td>
+    <td colspan="2"></td>
+    <td colspan="13" style="background-color:#67ac68;"></td>
+    <td colspan="4" style="background-color:#ffd700;"></td>
+    <td colspan="6"></td>
+  </tr>
+  <tr>
+    <td>2.4.6.</td>
+    <td colspan="4"></td>
+    <td colspan="15" style="background-color:#67ac68;"></td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td>2.4.7.</td>
+    <td colspan="9"></td>
+    <td colspan="13" style="background-color:#67ac68;"></td>
+    <td colspan="2"></td>
+  </tr>
+</tbody>
+</table>
+
+**Sleutel**
+
+<table style="table-layout:auto">
+ <tbody>
+  <tr>
+   <td style="background-color:#67ac68;"></td>
+   <td>Regelmatige ondersteuning</td>
+  </tr>
+  <tr>
+   <td style="background-color:#ffd700;"></td>
+   <td>Uitgebreide ondersteuning</td>
+  </tr>
+ </tbody>
+</table>
+
 ## Uitgebreide ondersteuningsopties
 
-### Zijn er uitgebreide steunopties voor klanten op versies 2.3.7 en 2.4.0-2.4.3?
+### Zijn er uitgebreide steunopties voor klanten op versies 2.4.4 en 2.4.5?
 
-Terwijl klanten worden aangemoedigd om zo snel mogelijk een upgrade uit te voeren, zijn betaalde uitgebreide supportplannen beschikbaar voor versies die zijn gebaseerd op [!DNL PHP] 7.4 (klanten op 2.3.7 en 2.4.0-2.4.3). Deze plannen bevatten zowel kwaliteits- als beveiligingspatches voor de kerntoepassing en [!DNL PHP] voor maximaal een jaar.
+Terwijl klanten worden aangemoedigd om zo snel mogelijk een upgrade uit te voeren, wordt een verlenging van de 1 jaar support zonder extra kosten aangeboden aan alle Adobe Commerce-klanten op versie 2.4.4 en 2.4.5 om hen meer flexibiliteit te bieden om hun upgradeplannen af te stemmen op hun bedrijfsbehoeften.
 
-* De verlengde ondersteuning voor 2.3.7 begon op 8 september 2022 en kan tot 8 september 2023 worden ontvangen.
-* De uitgebreide ondersteuning voor 2.4.0-2.4.3 is op 28 november 2022 gestart en kan tot 28 november 2023 worden ontvangen.
+Deze plannen omvatten zowel kwaliteits- als beveiligingspatches voor de kerntoepassing gedurende maximaal één jaar.
+
+<table style="height: 144px; width: 632.2px;">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 132px;"><strong>Releaseversie</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 96px;"><strong>Releasedatum</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 144px;"><strong>Einde van reguliere ondersteuning en Open Source-ondersteuning</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 140.2px;"><strong>Einde van uitgebreide ondersteuning</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 132px;">2.4.4.</td>
+<td style="width: 96px;">12 april 2022</td>
+<td style="width: 144px;">8 april 2025</td>
+<td style="width: 140.2px;">14 april 2026</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 132px;">2.4.5.</td>
+<td style="width: 96px;">9 augustus 2022</td>
+<td style="width: 144px;">12 augustus 2025</td>
+<td style="width: 140.2px;">11 augustus 2026</td>
+</tr>
+</tbody>
+</table>
 
 ### Zorgt uitgebreide ondersteuning voor [!DNL PCI] compatibiliteit?
 
-Onder uitgebreide steun, zal ons team van de Techniek van de Klant de zelfde kwaliteit en veiligheidspatches blijven verstrekken zoals gebruikelijk, zonder enige gebiedsdegradatie. Klanten zullen echter aanvullende maatregelen moeten nemen om [!DNL PCI] -compatibel te blijven als onderliggende technologieën van derden, zoals [!DNL MySQL], het einde van de ondersteuning bereiken. De Adobe verleent geen steun voor derdetechnologieën die eind-van-steun **behalve [!DNL PHP] steun voor versies van [!DNL PHP] hebben bereikt die door versies van Adobe Commerce worden gebruikt die voor de steundiensten of uitgebreide steun** verkiesbaar zijn. De Adobe adviseert dat de klanten met hun [ adviseur PCI ](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors) werken om naleving te verzekeren. Verwijs naar [ Vereisten van het Systeem van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) voor een volledige lijst van geteste en gesteunde derdetechnologieën.
+Onder uitgebreide steun, zal ons team van de Techniek van de Klant de zelfde kwaliteit en veiligheidspatches blijven verstrekken zoals gebruikelijk, zonder enige gebiedsdegradatie. Klanten zullen echter aanvullende maatregelen moeten nemen om [!DNL PCI] -compatibel te blijven als onderliggende technologieën van derden, zoals [!DNL MariaDB], het einde van de ondersteuning bereiken.
 
+Adobe biedt geen ondersteuning voor technologieën van derden die het einde van de support hebben bereikt. De Adobe adviseert dat de klanten met hun [[!DNL PCI]  beoordelaar ](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors/) werken om naleving te verzekeren. Verwijs naar [ Vereisten van het Systeem van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements) voor een volledige lijst van geteste en gesteunde derdetechnologieën.
+
+<table style="height: 444px; width: 632.2px;">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 48px;"><strong>Versie</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 72px;"><strong>Ondersteunde [!DNL PHP] versie, EOS</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 96px;"><strong>Ondersteunde [!DNL MariaDB] versie, EOS</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 108px;"><strong>Ondersteunde [!DNL Composer] versie, EOS</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 126px;"><strong>Ondersteunde [!DNL OpenSearch] versie, EOS</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 86.2px;"><strong>Ondersteunde [!DNL Redis] versie, EOS</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 96px;"><strong>Ondersteunde [!DNL RabbitMQ] versie, EOS</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 48px;"><strong>2.4.4.</strong></td>
+<td style="width: 72px;">[!DNL PHP] 8.1, EOS - <strong> December 31, 2025 <sup> 1 </sup> </strong></td>
+<td style="width: 96px;">[!DNL MariaDB] 10.6, EOS - Juli, 2026 <sup> 2 </sup></td>
+<td style="width: 108px;">[!DNL Composer] 2.8, EOS - verwacht in 2026 <sup> 3 </sup></td>
+<td style="width: 126px;">[!DNL OpenSearch] 1.3, EOS verwacht in 2025 - [!DNL OpenSearch] 2, EOS verwacht in 2026 <sup> 4 </sup></td>
+<td style="width: 86.2px;">[!DNL Redis] 7.2, EOS - verwacht in 2026</td>
+<td style="width: 96px;">[!DNL RabbitMQ] 3.9. EOL</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 48px;"><strong>2.4.5.</strong></td>
+<td style="width: 72px;">[!DNL PHP] 8.1, EOS - <strong> December 31, 2025 <sup> 1 </sup> </strong></td>
+<td style="width: 96px;">[!DNL MariaDB] 10.6, EOS - Juli, 2026 <sup> 2 </sup></td>
+<td style="width: 108px;">[!DNL Composer] 2.8, EOS - verwacht in 2026 <sup> 3 </sup></td>
+<td style="width: 126px;">[!DNL OpenSearch] 1.3, EOS verwacht in 2025 - [!DNL OpenSearch] 2, EOS verwacht in 2026 <sup> 4 </sup></td>
+<td style="width: 86.2px;">[!DNL Redis] 7.2, EOS - verwacht in 2026</td>
+<td style="width: 96px;">[!DNL RabbitMQ] 3.13 EOS - 30 december 2027</td>
+</tr>
+</tbody>
+</table>
+
+* <sup> 1 </sup> Adobe Commerce 2.4.4 en 2.4.5 de klanten van de Wolk zullen niet door [!DNL PHP] 8.1 EOS datum tijdens de uitgebreide steun worden beïnvloed, aangezien de Adobe automatisch levenslange steun [!DNL PHP] 8.1 veiligheidsmoeilijke situaties op hun infrastructuur zal toepassen. Adobe Commerce 2.4.4 en 2.4.5 Klanten op locatie moeten contact opnemen met de ondersteuning van Adoben om, indien nodig, een beveiligingspatch voor de [!DNL PHP] 8.1-levenslange ondersteuning te vereisen.
+* <sup> 2 </sup> Verenigbaarheid met [!DNL MariaDB] 10.6 voor Adobe Commerce 2.4.4 en 2.4.5 wordt gepland om in werkingsgebied van April 2025 veiligheid-enige flarden vrij te geven.
+* <sup> 3 </sup> Verenigbaarheid met [!DNL Composer] 2.8 voor Adobe Commerce 2.4.4 en 2.4.5 wordt gepland om in werkingsgebied van April 2025 veiligheid-enige flarden worden vrijgegeven.
+* <sup> 4 </sup> Verenigbaarheid met [!DNL OpenSearch] 2 voor Adobe Commerce 2.4.4 en 2.4.5 wordt gepland om in werkingsgebied van April 2025 veiligheid-enige flarden worden vrijgegeven.
