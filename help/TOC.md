@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 80b0dc119058ec7533124919d5917cdd219552fe
+source-git-commit: ace01511b6a3f3b406b25d563d892351a5f6cf7d
 workflow-type: tm+mt
-source-wordcount: '9469'
+source-wordcount: '9409'
 ht-degree: 0%
 
 ---
@@ -947,15 +947,9 @@ ht-degree: 0%
       * [Geavanceerd zoeken geeft niet de meest relevante resultaten weer](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [Fout bij het filteren van orders in Admin](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [Gebruikers die geen product aan winkelwagentje kunnen toevoegen als er niets is geselecteerd in Allow countries](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
-      * [Orders worden niet weergegeven in het raster Orders in Beheer](/help/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.md)
-      * [Kan btw-nummer niet valideren - Adobe Commerce op cloudinfrastructuur](/help/troubleshooting/known-issues-patches-attached/unable-to-validate-vat-number-magento-commerce-cloud.md)
-      * [Pagina&#39;s die niet worden geladen uitchecken wanneer de functie voor het blokkeren van advertenties is ingeschakeld](/help/troubleshooting/known-issues-patches-attached/checkout-pages-not-loading-when-ad-blocker-is-enabled.md)
       * [Adobe Commerce Admin URL-locatie wordt weergegeven](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
-      * [Meerdere snijtaken gepland voor dezelfde periode](/help/troubleshooting/known-issues-patches-attached/multiple-cron-jobs-scheduled-for-the-same-time-period.md)
-      * [Configureerbare productstalen die niet worden weergegeven, worden doorgehaald als de voorraad ophoudt](/help/troubleshooting/known-issues-patches-attached/configurable-product-swatches-not-displayed-as-crossed-out-when-out-of-stock.md)
       * [Beheerder kan geen bestelling/herschikking maken wanneer betaling via Braintree is ingeschakeld](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
       * [Pakketten die na een upgrade zijn gedowngraded van 2.4.4 naar 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
-      * [Adobe Commerce 2.3.6, 2.4.1 CAPTCHA bij afrekenen werkt niet](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [E-mailadres bestellen dat is verzonden vanaf het e-mailadres van de server](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
       * [Adobe Commerce 2.4.6-fout bij het plaatsen van de volgorde in het deelvenster Beheer](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [[!UICONTROL salesRule] problemen met labels bij upgrades van versies &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
@@ -992,7 +986,7 @@ ht-degree: 0%
    * [Een nieuw land toevoegen aan Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [Ontwerpconfiguratie aanpassen in Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
    * [Schijfruimte vergroten voor integratieomgeving in de cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)
-   * [Adobe Commerce op cloud-infrastructuur: berekening van CPU-toewijzing](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
+   * [Adobe Commerce over cloudinfrastructuur: berekening van de CPU-toewijzing](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [Prijzen van gedeelde catalogi bijwerken met REST API](/help/how-to/general/update-shared-catalog-prices-using-rest-api.md)
    * [Grote MySQL-tabellen zoeken](/help/how-to/general/find-large-mysql-tables.md)
    * [De Productie van gegevens en dossiers van de synchronisatie aan het Staging of het Staging aan Integratie](/help/how-to/general/sync-data-and-files-from-production-to-staging-or-staging-to-integration.md)
@@ -1026,7 +1020,7 @@ ht-degree: 0%
    * [Beheerderswachtwoord wijzigen in Adobe Commerce op cloudinfrastructuur](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [Tijdelijke Adobe Commerce aanvragen voor uitgebreide cloudinfrastructuur](/help/how-to/general/how-to-request-temporary-magento-upsize.md)
    * [OmgevingsvCPU-laag in uw cluster weergeven op Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
-   * [Adobe Commerce on cloud-infrastructuur: CPU-configuratie van host controleren](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
+   * [Adobe Commerce on cloud Infrastructure: controleer de CPU-configuratie van de host](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
    * [Accounteigenaar wijzigen (toegangsgegevens via API-tokens) voor Fastly op Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md)
    * [Adobe Commerce on cloud: verificatietoetsen wijzigen en opnieuw implementeren](/help/how-to/general/redeploy-with-another-key.md)
    * [Hoe te om een &quot;scrubbed&quot;stortplaats te creëren wanneer gevraagd door steunagent](/help/how-to/general/create-dump-for-support.md)
