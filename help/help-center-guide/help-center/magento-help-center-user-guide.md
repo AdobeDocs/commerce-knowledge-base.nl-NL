@@ -3,9 +3,9 @@ title: Gebruikershandleiding voor ondersteuning van Experiencen League voor Adob
 description: Leer hoe te om een steunkaartje aan de Steun van het Experience League voor te leggen, gedeelde toegang tot rekeningen te verlenen, en de Kennisbank van Adobe Commerce te navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
+source-git-commit: 16511a9bcc0e229297916f5c48ee8b606e10edbe
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '2935'
 ht-degree: 0%
 
 ---
@@ -339,13 +339,15 @@ Na het verstrekken van gedeelde toegang voor een nieuwe gebruiker, is de verwant
 
 <u> Oorzaak </u>
 
-Als u een Adobe Commerce Cloud-project hebt of had gehad en een gebruiker aan het project had toegevoegd, zou automatisch Gedeelde Toegang op de MAGE-id van de eigenaar van het project zijn verleend. Dit zou normaal in de **[!UICONTROL Share Name]** kolom worden vermeld, tonend *Wolk Gedeelde Toegang van MAG [ XYZ]*.
+Als u een Adobe Commerce Cloud-project hebt of had en een gebruiker aan het project hebt toegevoegd, zou aan deze gebruikers automatisch Gedeelde Toegang op de MAGE-id van de eigenaar van het project zijn verleend. Dit zou normaal in de **[!UICONTROL Share Name]** kolom worden vermeld, tonend *Wolk Gedeelde Toegang van MAG [ XYZ]*.
 
-Als de verbinding van DELETE ontbreekt, betekent dat dat de Gedeelde Toegang automatisch door Commerce Cloud werd verleend.
+>[!NOTE]
+>
+>Als de verbinding van DELETE ontbreekt, betekent dat dat de Gedeelde Toegang automatisch door Commerce Cloud werd verleend.
 
 <u> Oplossing </u>
 
-Het is niet mogelijk om de lijst van de Gedeelde gebruikers van de Toegang met de Naam van het Aandeel van *Wolk Gedeelde Toegang van MAG [ XYZ]* te schrappen als de Gedeelde Toegang niet op deze pagina werd toegevoegd/gegeven. Deze worden ter informatie/audit bewaard.
+Het is niet mogelijk om de lijst van de Gedeelde gebruikers van de Toegang met de Naam van het Aandeel van *Wolk Gedeelde Toegang van MAG [ XYZ]* te schrappen als de Gedeelde Toegang niet [ op deze pagina ](https://account.magento.com/grantor/manage/) werd toegevoegd/gegeven. Deze worden ter informatie/audit bewaard.
 
 Nochtans, zodra u de toestemmingen voor die Gedeelde gebruikers van de Toegang hebt ingetrokken, zullen zij niet meer die toegang hebben.
 
