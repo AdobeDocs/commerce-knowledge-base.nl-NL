@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor slechte prestaties als gevolg 
 exl-id: 4f20a862-cf54-4196-8a88-101f0c80f8f1
 feature: Best Practices
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 72ee49a8667f575a58e0cf1b3d5c9df936cc628b
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -59,3 +59,4 @@ Voer alleen indien nodig opnieuw indexeren uit. Voor stappen, herzie [ Indexers 
 
 * [ Indexerend Overzicht: Hoe te om ](https://developer.adobe.com/commerce/php/development/components/indexing/#how-to-reindex) in onze ontwikkelaarsdocumentatie opnieuw te indexeren.
 * [ ongeldig geheim voorgeheugen veroorzaakt verslechtering van de reactietijd ](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) in onze basis van de steunkennis.
+
