@@ -3,9 +3,9 @@ title: Meld u aan bij Fastly-account dat bij Adobe Commerce wordt geleverd voor 
 description: In dit artikel wordt uitgelegd hoe u zich kunt aanmelden bij uw Fastly-account dat bij Adobe Commerce wordt geleverd op cloudinfrastructuur. Voor Adobe Commerce on cloud Infrastructure is geen toegewezen snelaccount of accounteigenaar vereist. U kunt de Snelle diensten van Admin van Commerce vormen en beheren met de unieke Fastly geloofsbrieven (het teken van API en de dienstidentiteitskaart) die van elke het Opvoeren en milieu van de Productie wordt voorzien. Deze gegevens zijn ook nodig om snel API-aanvragen in te dienen.
 exl-id: 456eb8be-c9b8-4ca6-b3f6-14f43aabe15f
 feature: Cloud
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: c46d29aa11b9cbbcccbf1765b4ae972e14ac80ac
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,3 @@ Gelieve te verwijzen naar [ krijgt de Snelle sectie van Referenties ](https://ex
 
 Gelieve te verwijzen naar de [ Test de Snelle sectie van Referenties ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
 
-## Gerelateerde lezing
-
-[ de rekeningseigenaar van de Verandering (toegangsgeloofsbrieven via API tokens) voor Fastly op Wolk ](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md) in onze basis van de steunkennis.
