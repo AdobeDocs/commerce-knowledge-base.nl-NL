@@ -4,7 +4,7 @@ description: De patch MDVA-44147 verhelpt het probleem waarbij GraphQL request n
 exl-id: c7a526f2-638c-4172-8750-aa076724851a
 feature: B2B, GraphQL
 role: Admin
-source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
+source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -37,7 +37,7 @@ GraphQL request does not return Requisition List.
 
 1. Ga naar **Opslag** > **Montages** > **Configuratie** > **Algemeen** > **B2B Eigenschappen** en laat de Lijst van de Vereiste toe.
 1. Login als klant en voeg een product aan de [ Lijst van de Aanvraag ](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/requisition-lists) toe.
-1. Creeer het Symbolische van de a [ Klant ](https://developer.adobe.com/commerce/webapi/graphql/mutations/generate-customer-token.html).
+1. Creeer het Symbolische van de a [ Klant ](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/generate-token/).
 
    <pre>
     <code class="language-graphql">

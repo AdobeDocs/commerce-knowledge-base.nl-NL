@@ -4,7 +4,7 @@ description: Dit artikel biedt een oplossing voor blokkers die op Adobe Commerce
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
+source-git-commit: df966df6a85057b26d53a870d038269ebdcc2b32
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Probleem: statische middelen worden langzaam aangeboden, zodat uw site slecht pr
 
 Aanbeveling: Om mogelijke oorzaken van slechte prestaties te identificeren denk na gebruikend [ Toolkit van de Prestaties van Adobe Commerce ](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit) voor prestaties het testen. U zou deze derdehulpmiddelen ook kunnen overwegen:
 
-* [ Siege ](https://www.joedog.org/siege-home/): lading-test en benchmarking van HTTP nut; steunt basisauthentificatie, koekjes, HTTP, HTTPS en de protocollen van FTP.
+* [ Siege ](https://www.joedog.org/siege-home): lading-test en benchmarking van HTTP nut; steunt basisauthentificatie, koekjes, HTTP, HTTPS en de protocollen van FTP.
 * [ Jmeter ](https://jmeter.apache.org/): Een reputatie lading-test en prestaties die hulpmiddel meten. Helpt de prestaties te meten voor verrijkt verkeer, bijvoorbeeld voor flitsverkoop.
 * [ New Relic ](https://support.newrelic.com/): van processen en gebieden van de plaats die langzame prestaties met bijgehouden tijd veroorzaken die per actie wordt doorgebracht, zoals het overbrengen van gegevens, vragen, Redis, enz.
 * [ WebPageTest ](https://www.webpagetest.org/) (vrij) en [ (betaald) VK ](https://www.pingdom.com/): De analyse in real time van uw plaatspagina&#39;s laadt tijd met verschillende oorsprongsplaatsen.

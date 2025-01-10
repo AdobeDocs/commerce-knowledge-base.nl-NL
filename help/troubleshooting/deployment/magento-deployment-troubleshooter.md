@@ -4,7 +4,7 @@ description: Implementaties en mislukte implementaties op Adobe Commerce kunnen 
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: 7f4f24c596eac96dc8fef40589a827eb9aa0c468
+source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -30,7 +30,7 @@ b. NO - Onderhoud of mondiale uitvallen. Controleren op geschatte duur en update
 
 +++**zijn er plaatsingen in andere milieu&#39;s die de plaatsing in het bestaande milieu blokkeren?**
 
-Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende bevel in werking gebruikend magento-wolk CLI (als u slechts aan één wolkenproject bent toegevoegd). **Nota**: Controle u bent op de recentste versie van magento-wolk CLI. Voor stappen, verwijs naar [ Update CLI ](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview#update-the-cli) in Commerce op de gids van de Infrastructuur van de Wolk.
+Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende bevel in werking gebruikend magento-wolk CLI (als u slechts aan één wolkenproject bent toegevoegd). **Nota**: Controle u bent op de recentste versie van magento-wolk CLI. Voor stappen, verwijs naar [ Update CLI ](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in Commerce op de gids van de Infrastructuur van de Wolk.
 
 ```bash
 magento-cloud --state=in_progress
