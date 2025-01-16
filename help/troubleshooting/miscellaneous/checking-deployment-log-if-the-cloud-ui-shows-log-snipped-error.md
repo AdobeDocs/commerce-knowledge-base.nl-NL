@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor het probleem waarbij de gebrui
 exl-id: 04d28741-72c1-4722-be46-425fe136b9a6
 feature: Cloud, Deploy, Logs, Paas
 role: Developer
-source-git-commit: 71bec5b99063d771982f6dcab111b9e5a4aaec69
+source-git-commit: 846df05668b357b9088bcaf605a75c45ab10f1ae
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,17 @@ Merk op dat het logboek dat in UI wordt getoond niet als bron van waarheid zou m
 ## Oplossing
 
 1. Zorg ervoor dat u [ CLI van de Wolk van het Magento ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) geïnstalleerd in uw lokale milieu hebt.
-1. Voer de volgende opdracht uit:
+1. U kunt een van de volgende opdrachten uitvoeren:
 
    ```bash
-   magento-cloud activity -p <project id> -e <environment>
+   magento-cloud act -p <project id> -e <environment>
    ```
 
-1. De uitvoer wordt als volgt weergegeven:
+   ```bash
+   magento-cloud activity:list -p <project id> -e <environment>
+   ```
+
+1. Zij zullen een output gelijkend op het volgende terugkeren:
 
    ```bash
    Activities on the project <project name> (project id), environment <environment>:
