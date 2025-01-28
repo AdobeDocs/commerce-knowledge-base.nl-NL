@@ -4,7 +4,7 @@ description: Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgel
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 3b402728be7a80b62f21319d2cf91a92f1ad4a0c
+source-git-commit: aed14781c6a7b43d0a719ac89c2965d5044d8c22
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -138,7 +138,7 @@ b. NO - ga aan [ Stap 10 ](#step-10) te werk.
 
 +++**is er een foutenmelding die door de cron baan wordt geworpen?**
 
-Voorbeeld: In de `core_config_data` lijst ziet u de fout *&quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a000850c0 dossier kan niet worden geschrapt*. Waarschuwing!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a000850c0?lang=en): Geen dergelijk bestand of deze map*
+Voorbeeld: In de `cron_schedule` lijst ziet u de fout *&quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a000850c0 dossier kan niet worden geschrapt*. Waarschuwing!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a000850c0?lang=en): Geen dergelijk bestand of deze map*
 
 a. JA - gebruik het ACSD-50165 flard in [ het dossier kan niet worden geschrapt. Waarschuwing!unlink: Geen dergelijk dossier of folderfout van Admin ](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md), wacht 24 uur op de baan om opnieuw te lopen en dan opnieuw te proberen.\
 b. NO - ga aan [ Stap 11 ](#step-11) te werk.
