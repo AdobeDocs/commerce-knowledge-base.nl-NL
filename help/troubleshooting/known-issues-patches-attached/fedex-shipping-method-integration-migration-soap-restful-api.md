@@ -5,18 +5,29 @@ description: Pas een flard toe om de  [!DNL FedEx]  verschepende migratie van de
 feature: Shipping/Delivery
 role: Developer
 exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
-source-git-commit: 7c468583883789a6bc6e41d1a787a356ea3205c4
+source-git-commit: 7a54e992e365238ec7c764225a31cd3b6b8ad019
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # [!DNL FedEx] migratie van SOAP naar RESTful-API voor verzendmethoden
 
+>[!WARNING]
+>
+>Gebruik de ACSD-61622-patch uit de [!DNL Quality Patches Tool] (QPT) 1.1.57-release in plaats van de eerder geleverde patch. De nieuwe patch is compatibel met Adobe Commerce-versies (alle implementatiemethoden) 2.4.6-p1 - 2.4.6-p8. Het kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies.
+>
+>Voor meer informatie, verwijs naar [ ACSD-61622 flardartikel ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response) in onze gids van de Hulpmiddelen van Adobe Commerce.
+
+>[!WARNING]
+>
+>Voordat u de nieuwe patch kunt installeren, moet u de vorige patch in dit artikel verwijderen. Voor instructies bij het verwijderen van flarden, verwijs naar [ terugkeren een Reparatie van de Douane ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch) in onze gebruikersgids.
+
+
 Dit artikel bevat een patch voor het oplossen van problemen met de integratiemigratie van SOAP naar RESTful-API voor Adobe Commerce 2.4.4-p4 - 2.4.6-pX voor de verzendmethode. [!DNL FedEx]
 
-[!DNL FedEx Web Services] tracking, Address Validation en Validate Postal Codes Web Services Definition Languages (WSDLS) worden op 15 mei 2024 afgesloten. Het SOAP [!DNL FedEx Web Services] bevindt zich in ontwikkelingsbeperking en is vervangen door [!DNL FedEx] RESTFUL API&#39;s. Raadpleeg [[!DNL FedEx Web Services] ](https://www.fedex.com/en-us/developer/web-services.html) voor meer informatie.
+[!DNL FedEx Web Services] tracking, Address Validation en Validate Postal Codes Web Services Definition Languages (WSDLS) zijn op 15 mei 2024 afgebroken. Het SOAP [!DNL FedEx Web Services] bevindt zich in ontwikkelingsbeperking en is vervangen door [!DNL FedEx] RESTFUL API&#39;s. Raadpleeg [[!DNL FedEx Web Services] ](https://www.fedex.com/en-us/developer/web-services.html) voor meer informatie.
 
 Deze wijziging is van invloed op onze huidige implementatie van de [!DNL FedEx] -verzendmethode in Adobe Commerce. Hiervoor is het nodig dat we onze huidige implementatie herstellen en overstappen van verouderde SOAP API&#39;s naar de nieuwste [!DNL FedEx] RESTFUL API&#39;s.
 
