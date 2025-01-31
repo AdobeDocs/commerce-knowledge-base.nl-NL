@@ -3,9 +3,9 @@ title: Gebruikershandleiding voor ondersteuning van Experiencen League voor Adob
 description: Leer hoe te om een steunkaartje aan de Steun van het Experience League voor te leggen, gedeelde toegang tot rekeningen te verlenen, en de Kennisbank van Adobe Commerce te navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 6321dfa57f694a53f4b9b1c1e93182d60fa63c7b
+source-git-commit: c287b45c3cea99f6d536d6ed4d90a5e19d9fa71c
 workflow-type: tm+mt
-source-wordcount: '2939'
+source-wordcount: '2963'
 ht-degree: 0%
 
 ---
@@ -309,6 +309,10 @@ Gebruikers die gedeelde toegang hebben gekregen, kunnen dergelijke toegang niet 
 ### Gedeelde toegang bieden {#provide-shared-access}
 
 Zie [ een Commerce rekening ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) sectie van Adobe Commerce delen Begonnen Gids voor gedetailleerde stappen bij vestiging een gedeelde rekening.
+
+>[!NOTE]
+>
+>De gebruiker moet een bestaande rekening hebben alvorens zij Gedeelde Toegang kunnen worden verleend - verwijs naar [ een rekening van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) voor meer details creëren.
 
 Na het verstrekken van gedeelde toegang voor een nieuwe gebruiker, is de verwante informatie beschikbaar in **Gedeelde Toegang** > **leidt Toestemmingen** van uw de rekeningspagina van Adobe Commerce.
 
