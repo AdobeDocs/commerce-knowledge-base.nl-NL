@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor het Adobe Commerce-probleem waar
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 96e5bfc677949fb5f925040b95f951ca518fa71a
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Dit artikel biedt oplossingen voor het Adobe Commerce-probleem waarbij de catalo
 
 ## Probleem
 
-De catalogusgegevens zijn niet correct gesynchroniseerd of er is een nieuw product toegevoegd, maar dit wordt niet weergegeven in de zoekresultaten.
+De catalogusgegevens zijn niet correct gesynchroniseerd of er is een nieuw product toegevoegd, maar dit wordt niet weergegeven in de zoekresultaten. U kunt ook de volgende fout in `var/log/exception.log` krijgen:
+
+`Magento_LiveSearch: An error occurred in search backend. {"result":{"errors":[{"message":"Exception while fetching data (/productSearch) : No index was found for this request"}]}}`
 
 >[!NOTE]
 >
@@ -134,6 +136,22 @@ Als u de juiste gegevens ziet in `cde_product_attributes_feed` :
 bin/magento saas:resync --feed products
 bin/magento saas:resync --feed productattributes
 ```
+
+Voer de volgende opdrachten uit om de feeds opnieuw te synchroniseren:
+
+```
+bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed products --cleanup-feed
+bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
+bin/magento saas:resync --feed scopesWebsite --cleanup-feed
+bin/magento saas:resync --feed prices --cleanup-feed
+bin/magento saas:resync --feed productOverrides --cleanup-feed
+bin/magento saas:resync --feed variants --cleanup-feed
+bin/magento saas:resync --feed categories --cleanup-feed
+bin/magento saas:resync --feed categoryPermissions --cleanup-feed
+```
+
+[ leg een steunverzoek ](https://experienceleague.adobe.com/home?support-tab=home#support) voor om herdex van de Levende index van het Onderzoek te verzoeken. Neem in de beschrijving van de uitgave de ID Gegevensruimte/Omgeving op in het deelvenster Beheer onder **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** .
 
 ## Gerelateerde lezing
 
