@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor het Adobe Commerce-probleem waar
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 96e5bfc677949fb5f925040b95f951ca518fa71a
+source-git-commit: 54f6fb60adca6f639cd315b3d070c7b93aa45bab
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,13 @@ Als uw productgegevens niet correct voor een specifieke SKU worden gesynchronise
 1. Gebruik de volgende [!DNL SQL] -query en controleer of u de gegevens hebt die u verwacht in de `feed_data` -kolom. Noteer ook de tijdstempel van `modified_at` .
 
    ```sql
-   select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+   SELECT * FROM cde_products_feed WHERE json_extract(feed_data, '$.sku') = '<your_sku>' AND json_extract(feed_data, '$.storeViewCode') = '<your_ store_view_code>';
+   ```
+
+   Bijvoorbeeld:
+
+   ```sql
+   SELECT * FROM cde_products_feed WHERE json_extract(feed_data, '$.sku') = '24-MB04' AND json_extract(feed_data, '$.storeViewCode') = 'default';
    ```
 
 1. Als u de juiste gegevens niet ziet, probeert u deze opnieuw te indexeren met de volgende opdracht en voert u de query [!DNL SQL] opnieuw uit in stap 1 om de gegevens te verifiëren:
