@@ -4,7 +4,7 @@ description: In dit artikel vindt u een overzicht van het gereedschap Kwaliteits
 exl-id: 43393708-3939-449f-a764-b2ac6326165f
 feature: Tools and External Services
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: ce9c69e12d64b4b4a8e6129783d9b15e95eff867
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -22,7 +22,7 @@ In dit artikel vindt u een overzicht van het gereedschap Kwaliteitspatches (QPT)
 
 ## Wat is het gereedschap Kwaliteitspatches
 
-Het [ Hulpmiddel van de Patches van de Kwaliteit ](https://github.com/magento/quality-patches) (QPT) zijn individuele die flarden door Adobe en de gemeenschap van de Magento Open Source worden ontwikkeld.
+Het [ Hulpmiddel van de Patches van de Kwaliteit ](https://github.com/magento/quality-patches) (QPT) zijn individuele die flarden door Adobe en de gemeenschap van Magento Open Source worden ontwikkeld.
 
 Zo kunt u:
 
@@ -38,7 +38,7 @@ Het gereedschap is bedoeld om u in staat te stellen zelf te dienen met patches v
 
 >[!NOTE]
 >
->QPT is alleen voor kwaliteitspatches. De flarden van de veiligheid zijn beschikbaar in het [ Centrum van de Veiligheid van de Magento ](https://magento.com/security/patches).
+>QPT is alleen voor kwaliteitspatches. De flarden van de veiligheid zijn beschikbaar in het [ Centrum van de Veiligheid van Magento ](https://magento.com/security/patches).
 
 ## Patches beschikbaar in het gereedschap Kwaliteitspatches
 
@@ -60,3 +60,4 @@ Gelieve te verwijzen naar [ Wolk voor Adobe Commerce > pas flarden ](https://exp
 
 * [ de versienota&#39;s van het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes) in onze ontwikkelaarsdocumentatie.
 * [ hoe te om componentenflarden toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis worden verstrekt.
+
