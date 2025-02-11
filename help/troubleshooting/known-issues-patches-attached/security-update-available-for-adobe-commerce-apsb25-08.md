@@ -1,12 +1,13 @@
 ---
 title: Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB25-08]
 promoted: true
-description: Pas een Geïsoleerd flard toe om  [!DNL critical, important, and moderate vulnerabilities]  voor zowel Adobe Commerce als Magento Open Source 2.4.7-beta1, 2.4.7-p3, 2.4.6-p8, 2.4.5-p10, 2.4.4-p11, en vroegere versies te verhelpen.
+description: Pas een Geïsoleerd flard toe om  [!DNL critical, important, and moderate vulnerabilities]  voor Adobe Commerce 2.4.8-beta1, 2.4.7-p3, 2.4.6-p8, 2.4.5-p10, 2.4.4-p11, en vroegere versies te verhelpen.
 feature: Compliance, Security
 role: Developer
-source-git-commit: 45c6486dea10b37aa8114467bbd7be0c7f9f86f6
+exl-id: 567e6ad2-704e-461f-a54d-75f6bd96e996
+source-git-commit: f0c4bfae30d462d160e8096f0c4cee703f6f24e5
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Op 11 februari 2025 heeft Adobe een regelmatig geplande beveiligingsupdate uitge
 
 Adobe Commerce op Cloud-infrastructuur, Adobe Commerce op locatie en Magento Open Source:
 
-* 2.4.7-bèta1 en lager
+* 2.4.8-bèta1 en lager
 * 2.4.7-p3 en eerdere versies
 * 2.4.6-p8 en eerder
 * 2.4.5-p10 en eerder
@@ -37,13 +38,32 @@ Adobe Commerce op Cloud-infrastructuur, Adobe Commerce op locatie en Magento Ope
 
 ## Oplossing voor Adobe Commerce on Cloud en Adobe Commerce on-premisse software
 
-Om de kwetsbaarheid voor de betrokken producten en versies te helpen oplossen, moet u de [!DNL CVE-2025-24434] geïsoleerde patch toepassen.
+Om de kwetsbaarheid voor de betrokken producten en versies te helpen oplossen, moet u de [!DNL CVE-2025-24434] Geïsoleerde patch toepassen, afhankelijk van uw Adobe Commerce/Magento Open Source-versie.
 
 ## Geïsoleerde patchdetails
 
-Gebruik de volgende bijgevoegde geïsoleerde pleister:
+Gebruik de volgende gekoppelde, geïsoleerde patches, afhankelijk van uw Adobe Commerce/Magento Open Source-versie:
 
-[vuln-28982-composer-patch.zip](assets/vuln-28982-composer-patch.zip)
+### Voor versie 2.4.8-bèta1:
+
+* [vuln-28982-2-4-8x-v2-composer-patch.zip](assets/vuln-28982-2-4-8x-v2-composer-patch.zip)
+
+### Voor versies 2.4.7, 2.4.7-p1, 2.4.7-p2, 2.4.7-p3:
+
+* [vuln-28982-2-4-7x-v2-composer-patch.zip](assets/vuln-28982-2-4-7x-v2-composer-patch.zip)
+
+### Voor versies 2.4.6, 2.4.6-p1, 2.4.6-p2, 2.4.6-p3, 2.4.6-p4, 2.4.6-p5, 2.4.6-p6, 2.4.6-p7, 2.4.6-p8:
+
+* [vuln-28982-2-4-6x-v2-composer-patch.zip](assets/vuln-28982-2-4-6x-v2-composer-patch.zip)
+
+### Voor de versies 2.4.5, 2.4.5-p1, 2.4.5-p2, 2.4.5-p3, 2.4.5-p4, 2.4.5-p5, 2.4.5-p6, 2.4.5-p7, 2.4.5-p8, 2.4.5-p9, 2.4.5-p10:
+
+* [vuln-28982-2-4-5x-v2-composer-patch.zip](assets/vuln-28982-2-4-5x-v2-composer-patch.zip)
+
+### Voor versies 2.4.4, 2.4.4-p1, 2.4.4-p2, 2.4.4-p3, 2.4.4-p4, 2.4.4-p5, 2.4.4-p6, 2.4.4-p7, 2.4.4-p8, 2.4.4-p9, 2.4.4-p1 0, 2.4.4-p11:
+
+* [vuln-28982-2-4-4x-v2-composer-patch.zip](assets/vuln-28982-2-4-4x-v2-composer-patch.zip)
+
 
 ## Hoe wordt de geïsoleerde pleister aangebracht
 
@@ -77,4 +97,4 @@ Aangezien het niet mogelijk is om eenvoudig te controleren of de uitgave is gere
 Beveiligingsupdates beschikbaar voor Adobe Commerce:
 
 * [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-08]) ](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [ De recentste updates van de Veiligheid beschikbaar voor Adobe Commerce ](https://helpx.adobe.com/security/products/magento.html)
+* [ de recentste updates van de Veiligheid beschikbaar voor Adobe Commerce) ](https://helpx.adobe.com/security/products/magento.html)
