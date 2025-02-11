@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 229ae54f21cef7d8fe488bfacf5aaec8942a5fc2
+source-git-commit: 83b57cde528c8f581d243553006cf0eb97aed138
 workflow-type: tm+mt
-source-wordcount: '9386'
+source-wordcount: '9380'
 ht-degree: 0%
 
 ---
@@ -773,7 +773,6 @@ ht-degree: 0%
       * [Meld u opnieuw aan bij Commerce Admin om u aan te melden](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [Problemen met coderingssleutel oplossen](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
       * [Fout &quot;Updater application is not available&quot;](/help/troubleshooting/miscellaneous/updater-application-is-not-available-error.md)
-      * [Kan het correcte wolkenproject niet openen](/help/troubleshooting/miscellaneous/cannot-access-the-correct-cloud-project.md)
       * [PWA Studio: GraphQL vraagt naar Adobe Commerce om validatiefouten te veroorzaken](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
       * [Stock status is onjuist na Inventory management-installatie](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
       * [Bekende uitgave van Adobe Commerce 2.3.5: bestellingen van meerdere bestellingen voor virtuele producten](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
