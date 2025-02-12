@@ -5,9 +5,9 @@ description: Pas een Geïsoleerd flard toe om  [!DNL critical, important, and mo
 feature: Compliance, Security
 role: Developer
 exl-id: 567e6ad2-704e-461f-a54d-75f6bd96e996
-source-git-commit: f0c4bfae30d462d160e8096f0c4cee703f6f24e5
+source-git-commit: f4a7a6ac538cf1199aea32875215709fcd165a08
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Adobe Commerce op Cloud-infrastructuur, Adobe Commerce op locatie en Magento Ope
 * 2.4.5-p10 en eerder
 * 2.4.4-p11 en eerder
 
-## Oplossing voor Adobe Commerce on Cloud en Adobe Commerce on-premisse software
+## ## Oplossing voor Adobe Commerce op Cloud, Adobe Commerce op locatie en Magento Open Source-software
 
 Om de kwetsbaarheid voor de betrokken producten en versies te helpen oplossen, moet u de [!DNL CVE-2025-24434] Geïsoleerde patch toepassen, afhankelijk van uw Adobe Commerce/Magento Open Source-versie.
 
