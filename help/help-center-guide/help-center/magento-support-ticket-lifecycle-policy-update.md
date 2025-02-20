@@ -2,16 +2,16 @@
 title: Beleidsupdate voor Adobe Commerce Support-beleid voor de levenscyclus van tickets
 description: Dit artikel bevat informatie over de beleidsupdate voor de levenscyclus van tickets van Adobe Commerce Support.
 exl-id: c3fbcb4a-107f-48b3-afed-b9a0c5d0425c
-source-git-commit: 5d291a221509c35c8bc34fd0957534c24342c59c
+source-git-commit: b882fcc3a890fa0eb06c17f877d7d315be66e294
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 # Beleidsupdate voor Adobe Commerce Support-beleid voor de levenscyclus van tickets
 
-In deze documentatie worden verbeteringen in de levenscyclus van de DX Support-Adobe beschreven, met als doel de communicatie te verbeteren en zo snel mogelijk oplossingen voor klanten te bieden om het succes van de klant te helpen garanderen. Dit kan ook in [ Overzicht van de Abonnementen van het Succes van de Adobe worden gevonden: De Levenscyclus van het Geval van de steun ](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
+In deze documentatie worden verbeteringen in de levenscyclus van de Adobe DX Support-case beschreven met als doel de communicatie te verbeteren en zo snel mogelijk oplossingen voor klanten te bieden om het succes van de klant te helpen garanderen. Dit kan ook in [ het Overzicht van de Abonnementen van het Succes van Adobe worden gevonden: De Levenscyclus van het Geval van de steun ](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
 Hieronder ziet u de tijdlijnen en meldingen voor verschillende scenario&#39;s die tijdens het ondersteuningsproces worden aangetroffen:
 
 ## Herinneringen voor follow-up van kwestie
@@ -33,7 +33,7 @@ In dit scenario, wanneer de extra informatie van een klant wordt vereist, worden
 * Op de eerste, derde en vijfde dag nadat de status is ingesteld op &quot;Reactie in behandeling&quot;, worden vervolgmeldingen verzonden naar de klant die om de aanvullende informatie verzoekt.
 * Als de klant zes dagen nadat de status is ingesteld op &quot;Reactie in behandeling&quot; geen antwoord heeft gegeven, wordt de zaak gesloten en wordt een melding van afsluiting verzonden.
 
-Klanten kunnen een gesloten kwestie binnen 14 dagen opnieuw openen om verder te gaan met de communicatie. Na 14 dagen kan een nieuwe steunzaak worden geopend om de communicatie over een eerder gesloten zaak voort te zetten.
+Klanten kunnen binnen 14 dagen een gesloten kwestie op Experience League opnieuw openen om door te gaan met de communicatie. Na 14 dagen kan een nieuwe steunzaak worden geopend om de communicatie over een eerder gesloten zaak voort te zetten. Let op: het beantwoorden van een e-mail met betrekking tot een gesloten ticket zal het niet opnieuw openen.
 
 ### Wanneer een technicus een oplossing biedt
 
@@ -50,4 +50,4 @@ Klanten kunnen een gesloten kwestie binnen 14 dagen opnieuw openen om verder te 
 * [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
 * [ De koppeling Een ticket verzenden wordt niet weergegeven op de startpagina van Adobe Commerce Help Center ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
 * [ de voorleggingsvorm van het Ticket: de handelaar wordt niet getoond in drop-down Organisatie ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
-* [ Overzicht van de Abonnementen van het Succes van de Adobe: De Levenscyclus van het Geval van de steun ](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
+* [ Overzicht van de Succesplannen van Adobe: De Levenscyclus van het Geval van de steun ](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
