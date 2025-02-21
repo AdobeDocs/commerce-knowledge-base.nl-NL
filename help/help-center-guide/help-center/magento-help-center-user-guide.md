@@ -1,41 +1,41 @@
 ---
-title: Gebruikershandleiding voor ondersteuning van Experiencen League voor Adobe Commerce
-description: Leer hoe te om een steunkaartje aan de Steun van het Experience League voor te leggen, gedeelde toegang tot rekeningen te verlenen, en de Kennisbank van Adobe Commerce te navigeren.
+title: Experience League Support-gebruikershandleiding voor Adobe Commerce
+description: Leer hoe u een ondersteuningsticket naar Experience League Support kunt verzenden, gedeelde toegang tot accounts kunt bieden en door de Adobe Commerce Knowledge Base kunt navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c287b45c3cea99f6d536d6ed4d90a5e19d9fa71c
+source-git-commit: c578bdc5684705283bb1d3eb4c42edb62ad769f9
 workflow-type: tm+mt
-source-wordcount: '2963'
+source-wordcount: '3072'
 ht-degree: 0%
 
 ---
 
-# Gebruikershandleiding voor ondersteuning van Experiencen League voor Adobe Commerce
+# Experience League Support-gebruikershandleiding voor Adobe Commerce
 
-In deze gids, leer hoe te om een steunkaartje aan [ Steun van het Experience League ](https://experienceleague.adobe.com/home#support) voor te leggen en gedeelde toegang tot de rekeningen van Adobe Commerce te verlenen.
-
->[!NOTE]
->
->Adobe Commerce-ondersteuning is gemigreerd van Adobe Commerce Help Center naar Experience League. Gebruik de hier beschreven stroom van de de gevalvorm van het Experience League [ ](#what-is-experience-support) om steungevallen voor te leggen.
+In deze gids, leer hoe te om een steunkaartje aan [ Steun van Experience League ](https://experienceleague.adobe.com/home#support) voor te leggen en gedeelde toegang tot de rekeningen van Adobe Commerce te verlenen.
 
 >[!NOTE]
 >
->Op dit moment moet u naar https://support.magento.com/hc/en-us/requests gaan om uw eerder ingediende zaken te bekijken in het Adobe Commerce Help Center, aangezien deze gevallen niet naar het nieuwe systeem voor het plaatsen van ondersteuningstickets zijn gemigreerd. Het Centrum van de Hulp is nu read-only; om steun voor de originele kwestie te blijven ontvangen, zult u een follow-up kaartje aan [ de Steun van het Experience League ](https://experienceleague.adobe.com/home#support) moeten voorleggen.
+>Adobe Commerce-ondersteuning is gemigreerd van Adobe Commerce Help Center naar Experience League. Gebruik de hier beschreven de gevalsstroom van de Experience League vorm [ ](#what-is-experience-support) om steungevallen voor te leggen.
 
 >[!NOTE]
 >
->Het gedeelte Knowledge Base van het Adobe Commerce Help Center is naar het Adobe Experience League-portaal gemigreerd. Wanneer u een ondersteuningsticket maakt, worden de bijbehorende artikelen in de Knowledge Base samen met andere relevante Adobe Commerce-documentatie van Adobe Experience League aan u voorgesteld.
+>Op dit moment moet u naar https://support.magento.com/hc/en-us/requests gaan om uw eerder ingediende zaken te bekijken in het Adobe Commerce Help Center, aangezien deze gevallen niet naar het nieuwe systeem voor het plaatsen van ondersteuningstickets zijn gemigreerd. Het Centrum van de Hulp is nu read-only; om steun voor de originele kwestie te blijven ontvangen, zult u een follow-up kaartje aan [ Steun van Experience League ](https://experienceleague.adobe.com/home#support) moeten voorleggen.
+
+>[!NOTE]
+>
+>Het gedeelte Knowledge Base van het Adobe Commerce Help Center is naar het Adobe Experience League-portaal gemigreerd. Wanneer u een ondersteuningsticket maakt, worden de desbetreffende Knowledge Base-artikelen samen met andere relevante Adobe Commerce-documentatie van Adobe Experience League aan u voorgesteld.
 
 **Belangrijke Update:** 29 juli, 2024
 
-**[WAT IS DE STEUN VAN HET EXPERIENCE LEAGUE?](#what-is-experience-support)**
+**[WAT IS DE STEUN VAN EXPERIENCE LEAGUE?](#what-is-experience-support)**
 
 **[STEUNGEVALLEN](#support-cases)**
 
-* [Aanmelden bij Experience League Support](#sign-in-experience-support)
+* [Aanmelden bij Experience League-ondersteuning](#sign-in-experience-support)
 * [Een ondersteuningskwestie indienen](#submit-case)
 
-   * [Adobe Experience League-startpagina](#experience-league-start-page)
+   * [Startpagina van Adobe Experience League](#experience-league-start-page)
    * [Adobe Commerce-accountpagina](#submit-case-adobe-commerce-account-page)
    * [*Verifieer uw e-mailadres*](#verify-email-address-error)
 
@@ -61,28 +61,28 @@ In deze gids, leer hoe te om een steunkaartje aan [ Steun van het Experience Lea
 **[HET VERPLETTEREN VEELGESTELDE VEELHEID VOOR ADOBE COMMERCE](#billing-faq)**
 
 
-## WAT ONDERSTEUNT EXPERIENCE LEAGUE? {#what-is-experience-support}
+## WAT IS EXPERIENCE LEAGUE-ONDERSTEUNING? {#what-is-experience-support}
 
-De Steun van het Experience League is een steunportaal voor Adobe waar de in aanmerking komende klanten van Adobe Commerce steunkaartjes kunnen voorleggen en beheren. Dit is ook de locatie waar u artikelen voor het oplossen van problemen kunt bekijken.
+Experience League Support is een ondersteuningsportaal voor Adobe waar in aanmerking komende Adobe Commerce-klanten ondersteuningstickets kunnen indienen en beheren. Dit is ook de locatie waar u artikelen voor het oplossen van problemen kunt bekijken.
 
 ## ONDERSTEUNINGSGEVALLEN {#support-cases}
 
-Met Adobe Experience League Support Case Management kunt u voor alle Adobe Commerce-producten waarvoor een contract is gesloten, met ondersteuning werken door middel van gevallen om specifieke problemen op te lossen die zijn opgetreden bij het gebruik van Adobe producten, waaronder Adobe Commerce.
+Met de Support Case Management van Adobe Experience League kunt u met ondersteuning werken door middel van gevallen om specifieke problemen op te lossen die zich voordoen bij het gebruik van Adobe-producten, waaronder Adobe Commerce, voor alle Adobe Commerce-producten waarvoor een contract is gesloten.
 
-## AANMELDEN BIJ ONDERSTEUNING VAN EXPERIENCE LEAGUE {#sign-in-experience-support}
+## AANMELDEN BIJ EXPERIENCE LEAGUE-ONDERSTEUNING {#sign-in-experience-support}
 
 Door in te loggen kunt u vragen van medewerkers op ondersteuningstickets indienen, bijwerken en beantwoorden.
 
-Voer de volgende stappen uit om u aan te melden bij Adobe Experience League Support:
+Voer de volgende stappen uit om u aan te melden bij de Adobe Experience League Support:
 
 1. Navigeer aan [ Experience.adobe.com ](https://experienceleague.adobe.com/).
-1. Meld u aan met uw aanmeldingsgegevens voor de Adobe.
+1. Meld u aan met uw aanmeldingsgegevens voor Adobe.
 
 ![ teken-in-ervaring-liga ](assets/experience_league_sign_in.png)
 
 ### Een ondersteuningskwestie indienen {#support-case}
 
-Zodra u bent aangemeld als eigenaar van de account of als gebruiker van Gedeelde toegang, kunt u een ondersteuningskwestie indienen via de Adobe Experience League-homepage, uw Adobe Commerce-accountpagina en uw Adobe Commerce Cloud-accountpagina.
+Zodra u bent aangemeld als eigenaar van de account of als gebruiker van Gedeelde toegang, kunt u een ondersteuningszaak indienen via de startpagina van de Adobe Experience League, uw Adobe Commerce-accountpagina en uw Adobe Commerce Cloud-accountpagina.
 
 >[!NOTE]
 >
@@ -96,21 +96,21 @@ Zodra u bent aangemeld als eigenaar van de account of als gebruiker van Gedeelde
 >
 >Voor kwesties met betrekking tot het publiceren van uw uitbreiding, het hebben van problemen het kopen, of het vragen van een terugbetaling op [ Adobe Commerce Marketplace ](https://commercemarketplace.adobe.com/), moet u het [!DNL Commerce Marketplace] team rechtstreeks contacteren door https://commercemarketplace.adobe.com/ te bezoeken. Navigeer naar de onderkant van de pagina en klik op **[!UICONTROL Contact Us]** . Hiermee wordt een formulier geopend voor het verzenden van een ondersteuningsticket voor Marketplace.
 
-#### Adobe Experience League-startpagina {#experience-league-start-page}
+#### Startpagina van Adobe Experience League {#experience-league-start-page}
 
-Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met de startpagina van Adobe Experience League:
+Voer de volgende stappen uit om een nieuwe ondersteuningskwestie in te dienen met behulp van de startpagina van Adobe Experience League:
 
 >[!INFO]
 >
 >1. Als u een kwestie wilt indienen, moet u aanspraak kunnen maken op ondersteuning voor het desbetreffende product (bijvoorbeeld Adobe Commerce, Adobe Commerce Intelligence, Experience Platform, enz.). Als u niet gerechtigd bent om te steunen, zal een bar bij de bovenkant van de pagina verschijnen die u deelt dat u geen steun-gerechtigde gebruiker in de organisatie bent.
->1. Als u tot veelvoudige organisaties behoort of er veelvoudige organisaties met gelijkaardige-kijkt namen zijn (elk zal om het even welke andere producten van de Adobe vertegenwoordigen de organisatie abonnementen aan), zult u de aangewezen organisatie van dropdown in de linkerkolom eerst moeten selecteren die in &quot;(Commerce)&quot;beëindigt.
+>1. Als u tot veelvoudige organisaties behoort of er veelvoudige organisaties met gelijkaardige blik namen zijn (elk zal om het even welke andere producten vertegenwoordigen van Adobe de organisatie abonnementen aan), zult u de aangewezen organisatie van dropdown in de linkerkolom eerst moeten selecteren die in &quot;(Commerce)&quot;beëindigt.
 >1. Als u een kwestie wilt indienen, moet u aanspraak kunnen maken op ondersteuning voor het juiste product (bijvoorbeeld Adobe Commerce, Adobe Commerce Reporting, Adobe Commerce Payment Services, Experience Platform, enz.). Als u niet gerechtigd bent om te steunen, zal een bar bij de bovenkant van de pagina verschijnen die u deelt dat u geen steun-gerechtigde gebruiker in de organisatie bent. Als u een kwestie voor Commerce-gerelateerde problemen wilt verzenden, moet u eerst de juiste organisatienaam selecteren die eindigt in *[!DNL (Commerce)]* .
->1. Als u tot veelvoudige organisaties behoort of er veelvoudige organisaties met gelijkaardige-kijkt namen zijn (elk zal om het even welke andere producten van de Adobe vertegenwoordigen de organisatie abonnementen aan), zult u de aangewezen organisatie van dropdown eerst moeten selecteren.
+>1. Als u tot veelvoudige organisaties behoort of er veelvoudige organisaties met gelijkaardige-kijkt namen zijn (elk zal om het even welke andere producten van Adobe vertegenwoordigen de organisatie abonnementen aan), zult u de aangewezen organisatie van dropdown eerst moeten selecteren.
 >1. Als u geen Adobe Commerce in [!UICONTROL Select a product] dropdown ziet, moet u [ Gedeelde Toegang ](#shared-access) van de Eigenaar van de Rekening van Commerce eerst verkrijgen. Zodra u Gedeelde Toegang hebt gekregen, zult u uw rekening [ moeten synchroniseren ](#switch-accounts) om het proces te voltooien alvorens u een geval kunt voorleggen.
 
 >[!NOTE]
 >
->Zorg ervoor dat u de juiste organisatie hebt geselecteerd voordat u de zaak indient en dat de door u geselecteerde organisatie over de juiste rechten beschikt voor het product waarvoor u ondersteuning aanvraagt. Bijvoorbeeld, als uw kwestie met Adobe Commerce verwant is, maar u had Experience Platform geselecteerd aangezien het product en de zaak met succes werd voorgelegd, kan dit tot misroutering van uw geval en vertragingen in reactietijden leiden.
+>Zorg ervoor dat u de juiste organisatie hebt geselecteerd voordat u de zaak indient en dat de door u geselecteerde organisatie over de juiste rechten beschikt voor het product waarvoor u ondersteuning aanvraagt. Als uw probleem bijvoorbeeld met Adobe Commerce te maken heeft, maar u Adobe Commerce Intelligence of Adobe Experience Platform als product hebt geselecteerd en de kwestie met succes is verzonden, kan dit leiden tot een onjuiste verzending van uw zaak en vertragingen in de antwoordtijden.
 >
 >Als de verkeerde organisatie was geselecteerd op het moment dat de zaak werd ingediend, kan uw team de zaak niet bekijken onder [!UICONTROL My Cases] voor de juiste/correcte organisatie. Het Adobe Commerce-ondersteuningsteam beschikt niet over de mogelijkheid om de organisatie van de zaak te wijzigen. Om dit probleem aan te pakken, moet u het bestaande geval sluiten en een nieuw geval indienen met de juiste details die zijn opgegeven of geselecteerd.
 
@@ -126,11 +126,16 @@ Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met d
 
    ![ open-steun-geval ](assets/open_support_case.png)
 
-1. Selecteer een product in het vervolgkeuzemenu en geef een titel en beschrijving op. OPMERKING: als in de vervolgkeuzelijst geen producten worden weergegeven of als Commerce geen beschikbare optie is, probeert u in de linkerkolom van de module naar de gewenste organisatie te gaan en controleert u het opnieuw.
+1. Selecteer een product in het keuzemenu en geef een titel en beschrijving op. NOTA: Als drop-down geen producten toont of [!DNL Commerce] geen beschikbare optie is, probeer veranderend [!UICONTROL Organization] in de linkerkolom, en controleer opnieuw.
 
    ![ select_product ](assets/support_case_product.png)
 
-1. Adobe Experience League zal artikelen en tips en trucs voorstellen die je kunnen helpen je kwestie op te lossen. Als u nog steeds directe ondersteuning nodig hebt, moet u aanvullende informatie opgeven voordat u de kwestie kunt indienen.
+>[!NOTE]
+>
+>Als u een kaartje met &quot;**[!DNL Commerce]op wolkeninfrastructuur**&quot;indient die als product wordt geselecteerd, en de organisatie heeft veelvoudige vermelde projecten, zult u worden ertoe aangezet om aangewezen [!UICONTROL Project ID] te selecteren. Als u het gewenste [!UICONTROL Project ID] niet kunt vinden, zorg ervoor om een nota op het kaartje toe te voegen dat u hulp met een verschillend &quot;project X&quot;zoekt.<br> als u van plan bent om een &quot;**[!DNL Commerce]op Managed Services**&quot;kaartje voor te leggen, en **[!DNL Commerce]op wolkeninfrastructuur** zijn, maar zie **[!DNL Commerce]op wolkeninfrastructuur** niet als beschikbaar product:<br> 1. Voer in **[!UICONTROL Case title]** een onderwerp voor uw uitgave in.<br> 2. Voer een beschrijving van uw uitgave in **[!UICONTROL Case description]** in.<br> 3. Nadat u beide items hebt ingevoerd, wordt het onderstaande veld **[!UICONTROL Cloud Project URL]** weergegeven.
+
+
+1. Adobe Experience League zal artikelen en tips en trucs voorstellen die u kunnen helpen uw kwestie op te lossen. Als u nog steeds directe ondersteuning nodig hebt, moet u aanvullende informatie opgeven voordat u de kwestie kunt indienen.
 
    ![ direct_support_required ](assets/direct_support.png)
 
@@ -140,7 +145,7 @@ Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met d
 >
 >Als u uw organisatie niet kunt zien in het dropdown menu van de organisatie wanneer u zich bij experienceleague.adobe.com aanmeldt, kunt u uw profiel moeten synchroniseren met accounts.magento.com alvorens om steun te verzoeken of een bestaand steungeval te beheren.   
 >
->1. Navigeer naar accounts.magento.com en meld u aan met hetzelfde profiel (bedrijf, school of persoonlijk) dat u gebruikt om ondersteuningsgevallen in Adobe Experience League te beheren. 
+>1. Navigeer naar accounts.magento.com en meld u aan met hetzelfde profiel (bedrijf, school of persoonlijk) als u ondersteuningsgevallen in Adobe Experience League wilt beheren. 
 >1. Nadat u zich hebt aangemeld bij uw accounts.magento.com-profiel, navigeert u terug naar experienceleague.adobe.com en meldt u zich aan. 
 >1. Selecteer uw organisatie in het keuzemenu voor de organisatie. 
 >1. Als uw organisatie nog steeds niet wordt weergegeven, neemt u contact op met uw Commerce-beheerder om rechten voor ondersteuningsgemachtigden te verkrijgen. Voor extra informatie, zie het ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) hulpartikel van het Aandeel van de Rekening 0} Commerce. [
@@ -149,7 +154,7 @@ Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met d
 >
 >Waarom de organisatie/het product van belang is
 >
->**Voorbeeld A**: U hebt toegang tot slechts één bedrijf gedeeld en dat bedrijf heeft rechten voor twee producten van de Adobe: Product1 en Product2.
+>**Voorbeeld A**: U hebt toegang tot slechts één bedrijf gedeeld en dat bedrijf heeft rechten voor twee producten van Adobe: Product1 en Product2.
 >1. Aangezien elke organisatie één product vertegenwoordigt, zult u twee organisaties in dropdown zien, bijvoorbeeld, OrgA-Product1 en OrgB-Product2.
 >1. Als u Product = Product1 selecteerde maar uw kwestie met Product2 verwant is, zal de zaak aan Product2 steun worden verpletterd en er zal vertragingen zijn wanneer het overbrengen van de zaak naar Product1 steun.
 >1. Als u de zaak voor OrgA-Product1 indiende en [!UICONTROL My Cases] in de toekomst voor die Organisatie wilt herzien, zult u het niet zien als u OrgA-Product2 als Organisatie selecteert (u zou enkel de andere Organisatie moeten selecteren, in vergelijking met Voorbeeld B).
@@ -158,7 +163,7 @@ Ga als volgt te werk als u een nieuwe ondersteuningskwestie wilt verzenden met d
 >1. Als u de zaak voor OrgA indiende maar het probleem feitelijk OrgB beïnvloedt, zullen leden van OrgB deze zaak in de toekomst niet onder [!UICONTROL My Cases] kunnen zien.
 >1. Daarnaast kunnen leden van OrgA gevallen onder [!UICONTROL My Cases] zien die eigenlijk bedoeld zijn voor OrgB, wat kan leiden tot privacyproblemen.
 
-U moet over een account op zowel https://account.adobe.com als https://account.magento.com beschikken om u aan te melden bij het Experience League om een ondersteuningskwestie in te dienen. U kunt pas een ondersteuningskwestie verzenden nadat u bent aangemeld.
+U moet een account hebben op zowel https://account.adobe.com als https://account.magento.com om u aan te melden bij de Experience League om een ondersteuningskwestie te kunnen indienen. U kunt pas een ondersteuningskwestie verzenden nadat u bent aangemeld.
 
 >[!NOTE]
 >
@@ -177,7 +182,7 @@ Ga als volgt te werk als u een nieuw ondersteuningsticket wilt verzenden via uw 
 
    ![ magento_account_support_tab ](assets/magento_account_support_tab.png){width="800"}
 
-1. De Adobe Experience League-ondersteuningspagina wordt voor u geladen.
+1. De ondersteuningspagina van de Adobe Experience League wordt voor u geladen.
 1. Selecteer **[!UICONTROL Open Ticket]** in het linkermenu.
 1. Vul de velden in.
 1. Klik **voorleggen**.
@@ -343,11 +348,11 @@ Na het verstrekken van gedeelde toegang voor een nieuwe gebruiker, is de verwant
 
 <u> Oorzaak </u>
 
-Als u een Adobe Commerce Cloud-project hebt of had en een gebruiker aan het project hebt toegevoegd, zou aan deze gebruikers automatisch Gedeelde Toegang op de MAGE-id van de eigenaar van het project zijn verleend. Dit zou normaal in de **[!UICONTROL Share Name]** kolom worden vermeld, tonend *Wolk Gedeelde Toegang van MAG [ XYZ]*.
+Als u een project van de Wolk van de Handel van Adobe en een gebruiker aan het project hebt toegevoegd hebt/gehad, zouden zij kunnen automatisch Gedeelde Toegang op identiteitskaart van de MAGE van de Eigenaar van het Project zijn verleend. Dit zou normaal in de **[!UICONTROL Share Name]** kolom worden vermeld, tonend *Wolk Gedeelde Toegang van MAG [ XYZ]*.
 
 >[!NOTE]
 >
->Als de verbinding van DELETE ontbreekt, betekent dat dat de Gedeelde Toegang automatisch door Commerce Cloud werd verleend.
+>Als de DELETE-koppeling ontbreekt, betekent dit dat Gedeelde toegang automatisch is verleend via Commerce Cloud.
 
 <u> Oplossing </u>
 
