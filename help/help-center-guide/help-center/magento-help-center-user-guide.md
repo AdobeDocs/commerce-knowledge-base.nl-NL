@@ -3,7 +3,7 @@ title: Experience League Support-gebruikershandleiding voor Adobe Commerce
 description: Leer hoe u een ondersteuningsticket naar Experience League Support kunt verzenden, gedeelde toegang tot accounts kunt bieden en door de Adobe Commerce Knowledge Base kunt navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c578bdc5684705283bb1d3eb4c42edb62ad769f9
+source-git-commit: cb0d3b47c7b9693c83c6f1e85fa41cce57972c9f
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
@@ -130,9 +130,9 @@ Voer de volgende stappen uit om een nieuwe ondersteuningskwestie in te dienen me
 
    ![ select_product ](assets/support_case_product.png)
 
->[!NOTE]
->
->Als u een kaartje met &quot;**[!DNL Commerce]op wolkeninfrastructuur**&quot;indient die als product wordt geselecteerd, en de organisatie heeft veelvoudige vermelde projecten, zult u worden ertoe aangezet om aangewezen [!UICONTROL Project ID] te selecteren. Als u het gewenste [!UICONTROL Project ID] niet kunt vinden, zorg ervoor om een nota op het kaartje toe te voegen dat u hulp met een verschillend &quot;project X&quot;zoekt.<br> als u van plan bent om een &quot;**[!DNL Commerce]op Managed Services**&quot;kaartje voor te leggen, en **[!DNL Commerce]op wolkeninfrastructuur** zijn, maar zie **[!DNL Commerce]op wolkeninfrastructuur** niet als beschikbaar product:<br> 1. Voer in **[!UICONTROL Case title]** een onderwerp voor uw uitgave in.<br> 2. Voer een beschrijving van uw uitgave in **[!UICONTROL Case description]** in.<br> 3. Nadat u beide items hebt ingevoerd, wordt het onderstaande veld **[!UICONTROL Cloud Project URL]** weergegeven.
+   >[!NOTE]
+   >
+   >Als u een kaartje met &quot;**[!DNL Commerce]op wolkeninfrastructuur**&quot;indient die als product wordt geselecteerd, en de organisatie heeft veelvoudige vermelde projecten, zult u worden ertoe aangezet om aangewezen [!UICONTROL Project ID] te selecteren. Als u het gewenste [!UICONTROL Project ID] niet kunt vinden, zorg ervoor om een nota op het kaartje toe te voegen dat u hulp met een verschillend &quot;project X&quot;zoekt.<br> als u van plan bent om een &quot;**[!DNL Commerce]op Managed Services**&quot;kaartje voor te leggen, en **[!DNL Commerce]op wolkeninfrastructuur** zijn, maar zie **[!DNL Commerce]op wolkeninfrastructuur** niet als beschikbaar product:<br> 1. Voer in **[!UICONTROL Case title]** een onderwerp voor uw uitgave in.<br> 2. Voer een beschrijving van uw uitgave in **[!UICONTROL Case description]** in.<br> 3. Nadat u beide items hebt ingevoerd, wordt het onderstaande veld **[!UICONTROL Cloud Project URL]** weergegeven.
 
 
 1. Adobe Experience League zal artikelen en tips en trucs voorstellen die u kunnen helpen uw kwestie op te lossen. Als u nog steeds directe ondersteuning nodig hebt, moet u aanvullende informatie opgeven voordat u de kwestie kunt indienen.
@@ -143,23 +143,25 @@ Voer de volgende stappen uit om een nieuwe ondersteuningskwestie in te dienen me
 
 >[!IMPORTANT]
 >
->Als u uw organisatie niet kunt zien in het dropdown menu van de organisatie wanneer u zich bij experienceleague.adobe.com aanmeldt, kunt u uw profiel moeten synchroniseren met accounts.magento.com alvorens om steun te verzoeken of een bestaand steungeval te beheren.   
+>Als u uw organisatie niet kunt zien in het dropdown menu van de organisatie wanneer u zich bij experienceleague.adobe.com aanmeldt, kunt u uw profiel moeten synchroniseren met accounts.magento.com alvorens om steun te verzoeken of een bestaand steungeval te beheren.
 >
->1. Navigeer naar accounts.magento.com en meld u aan met hetzelfde profiel (bedrijf, school of persoonlijk) als u ondersteuningsgevallen in Adobe Experience League wilt beheren. 
->1. Nadat u zich hebt aangemeld bij uw accounts.magento.com-profiel, navigeert u terug naar experienceleague.adobe.com en meldt u zich aan. 
->1. Selecteer uw organisatie in het keuzemenu voor de organisatie. 
->1. Als uw organisatie nog steeds niet wordt weergegeven, neemt u contact op met uw Commerce-beheerder om rechten voor ondersteuningsgemachtigden te verkrijgen. Voor extra informatie, zie het ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) hulpartikel van het Aandeel van de Rekening 0} Commerce. [
+>1. Navigeer naar accounts.magento.com en meld u aan met hetzelfde profiel (bedrijf, school of persoonlijk) als u ondersteuningsgevallen in Adobe Experience League wilt beheren.
+>1. Nadat u zich hebt aangemeld bij uw accounts.magento.com-profiel, navigeert u terug naar experienceleague.adobe.com en meldt u zich aan.
+>1. Selecteer uw organisatie in het keuzemenu voor de organisatie.
+>1. Als uw organisatie nog steeds niet wordt weergegeven, neemt u contact op met uw Commerce-beheerder om rechten voor ondersteuningsgemachtigden te verkrijgen. Voor extra informatie, zie het ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) hulpartikel van het Aandeel van de Rekening 0} Commerce.[
 
 >[!NOTE]
 >
 >Waarom de organisatie/het product van belang is
 >
 >**Voorbeeld A**: U hebt toegang tot slechts één bedrijf gedeeld en dat bedrijf heeft rechten voor twee producten van Adobe: Product1 en Product2.
+>
 >1. Aangezien elke organisatie één product vertegenwoordigt, zult u twee organisaties in dropdown zien, bijvoorbeeld, OrgA-Product1 en OrgB-Product2.
 >1. Als u Product = Product1 selecteerde maar uw kwestie met Product2 verwant is, zal de zaak aan Product2 steun worden verpletterd en er zal vertragingen zijn wanneer het overbrengen van de zaak naar Product1 steun.
 >1. Als u de zaak voor OrgA-Product1 indiende en [!UICONTROL My Cases] in de toekomst voor die Organisatie wilt herzien, zult u het niet zien als u OrgA-Product2 als Organisatie selecteert (u zou enkel de andere Organisatie moeten selecteren, in vergelijking met Voorbeeld B).
 >
 >**Voorbeeld B**: U hebt Gedeelde Toegang tot twee bedrijven, en elk bedrijf heeft slechts rechten voor Adobe Commerce.
+>
 >1. Als u de zaak voor OrgA indiende maar het probleem feitelijk OrgB beïnvloedt, zullen leden van OrgB deze zaak in de toekomst niet onder [!UICONTROL My Cases] kunnen zien.
 >1. Daarnaast kunnen leden van OrgA gevallen onder [!UICONTROL My Cases] zien die eigenlijk bedoeld zijn voor OrgB, wat kan leiden tot privacyproblemen.
 
@@ -170,6 +172,7 @@ U moet een account hebben op zowel https://account.adobe.com als https://account
 >Als u al een account hebt op https://account.magento.com maar u niet kunt aanmelden, hebt u zich mogelijk niet geregistreerd voor een account op https://account.adobe.com, dat vanaf augustus 2022 vereist is.
 >
 >Dit probleem oplossen:
+>
 >1. Maak een account op https://account.adobe.com met hetzelfde e-mailadres op je MAG-id.
 >1. Ga naar https://account.magento.com om uw Adobe ID te koppelen aan de MAG-id.
 
