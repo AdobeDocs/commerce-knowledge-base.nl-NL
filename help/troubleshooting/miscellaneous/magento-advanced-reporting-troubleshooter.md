@@ -4,9 +4,9 @@ description: Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgel
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: aed14781c6a7b43d0a719ac89c2965d5044d8c22
+source-git-commit: 207fd4cd11f76a5076e98cda8b6776b2d68ef937
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,14 @@ ls -ltr pub/media/analytics/
 
 Om te controleren dat er verslagen in access.logs zijn, stel dit bevel in werking:
 
-```
-zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
-```
+* Op Commerce Cloud:
+
+  ```
+  {{zgrep -i analytics /var/log/platform/*/access.log* | grep MagentoBI}}
+  ```
+
+* Vervang bij Op locatie het bestandspad dienovereenkomstig:
+  `zgrep -i analytics <your web server's log path>/access.log* | grep MagentoBI`
 
 a. JA - als het dossier `data.tgz` aanwezig is en er verslagen in de toegangslogboeken zijn, maar u hebt nog een fout 404, moet u [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen.\
 b. NO - ga aan [ Stap 10 ](#step-10) te werk.

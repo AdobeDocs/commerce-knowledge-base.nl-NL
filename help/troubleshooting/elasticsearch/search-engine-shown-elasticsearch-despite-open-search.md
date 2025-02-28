@@ -3,9 +3,9 @@ title: '[!DNL Elasticsearch] wordt getoond als onderzoeksmotor ondanks  [!DNL Op
 description: Dit artikel verstrekt een oplossing voor de kwestie waar  [!DNL Elasticsearch]  nog als onderzoeksmotor voor Adobe Commerce op wolk na het installeren of het bevorderen aan  [!DNL OpenSearch] wordt getoond.
 exl-id: cdd8a35d-da6f-46d3-b732-65626487c9bb
 feature: Install
-source-git-commit: 1f053f76ae56edc06bfe82e55210244c8ec4b8eb
+source-git-commit: b3f68e43ce3c4fdea001db1d8ba2774900db7dba
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Dit artikel biedt een oplossing voor het probleem waarbij [!DNL Elasticsearch] n
 
 ## Betrokken versies
 
-Adobe Commerce op cloud 2.4.3-p2 - 2.4.5-p6
+Adobe Commerce op cloud 2.4.4 - 2.4.5-p11
 
 >[!NOTE]
 >
@@ -33,9 +33,9 @@ Adobe Commerce op cloud 2.4.3-p2 - 2.4.5-p6
 
 ## Oorzaak
 
-Adobe Commerce heeft een vaste code om [!DNL Elasticsearch7] op te geven als zoekengine.
+[!DNL Elasticsearch7] is in Adobe Commerce gecodeerd als zoekprogramma dat in deze versies wordt gebruikt.
 
-Dit mag niet worden verward met de geïnstalleerde versie van de service. De toepassing herkent [!DNL Elasticsearch7] alleen als de zoekengine, maar niet [!DNL OpenSearch] , ook al wordt de onderliggende [!DNL OpenSearch] -service gebruikt als de engine op de achtergrond.
+Dit mag niet worden verward met de geïnstalleerde versie van de service. Hoewel er geen [!DNL Opensearch] -module in de code is opgenomen, kan Adobe Commerce gebruikmaken van de onderliggende [!DNL Opensearch] -service.
 
 ## Oplossing
 
@@ -70,7 +70,7 @@ $ curl 127.0.0.1:9200
 
 **Methode 2**:
 
-* Gebruik de volgende opdracht voor de CLI Magento-cloud: `magento-cloud relationships -p <project_id>`. Zoek [!DNL OpenSearch] nadat u de opdracht hebt gebruikt.
+* Gebruik de volgende opdracht op de CLI Magento-cloud: `magento-cloud relationships -p <project_id>`. Zoek [!DNL OpenSearch] nadat u de opdracht hebt gebruikt.
 
 ## Gerelateerde lezing
 

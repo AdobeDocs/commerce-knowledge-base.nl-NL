@@ -2,9 +2,9 @@
 title: Procedure voor ophalen en toepassen [!UICONTROL security patch]
 description: Dit artikel bevat instructies voor het ophalen en toepassen van een vrijgegeven [!UICONTROL security patch] , maar instructies zijn niet beschikbaar.
 exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
-source-git-commit: b15a1d008b6cc2bdce797768e6ee7029a747e6da
+source-git-commit: 06bc239cb5b1a894d2a60236a9b32b2b0c4eba80
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,11 @@ Als een fysiek patchbestand/hotfix wordt vermeld in de opmerkingen bij de releas
 
 **beveats:**
 
-Als u op een oudere versie van Adobe Commerce werkt en Extended Support hebt aangeschaft, moet uw versie een van de volgende opties zijn om de beveiligingspatches toe te passen:
+Als u op een oudere versie van Adobe Commerce (2.4.4) werkt, hebt u automatisch Extended Support ontvangen. Uw versie moet een van de volgende niet-ondersteunde versies zijn om de nieuwste beschikbare beveiligingspatches toe te passen:
 
-* 2.4.2-p2
-* 2.4.3-p3
+2.4.4 - 2.4.4-p11
+
+Niet-ondersteunde versies (2.3.x, 2.4.0 - 2.4.3) komen niet in aanmerking voor ondersteuning en u moet eerst een upgrade uitvoeren naar een ondersteunde versie om te profiteren van de meest recente beveiligingsoplossingen.
 
 Als u geen uitgebreide ondersteuning hebt, kunt u ondersteuning vragen om de patches met u te delen, maar deze kunnen geen problemen/fouten oplossen die u bij het toepassen van de patches kunt tegenkomen.
 
@@ -55,5 +56,5 @@ Als een fysiek patchbestand/hotfix niet wordt vermeld in de opmerkingen bij de r
 
 ## Gerelateerde lezing
 
-* Zie {de nota&#39;s van de Versie voor de Reeks van Hulpmiddelen van de Commerce Cloud ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk*.[
+* Zie [ de nota&#39;s van de Versie voor de Reeks van Commerce Cloud Tools ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk*.
 * Zie [ de versie van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk* bevorderen.
