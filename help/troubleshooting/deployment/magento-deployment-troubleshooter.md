@@ -4,9 +4,9 @@ description: Implementaties en mislukte implementaties op Adobe Commerce kunnen 
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
+source-git-commit: 4704446d043e3175b5af27c068908e58bfb7a9ff
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Implementaties en mislukte implementaties op Adobe Commerce kunnen worden opgelo
 
 +++**is Adobe Commerce op de dienst van de wolkeninfrastructuur omhoog?**
 
-Implementatie van opslagplaatsen - Is Adobe Commerce op de service voor cloudinfrastructuur opgestart? Controle [ Adobe Commerce Cloud ](https://status.adobe.com/products/3350/).
+Implementatie van opslagplaatsen - Is Adobe Commerce op de service voor cloudinfrastructuur opgestart? Controle [ de Wolk van de Handel van Adobe ](https://status.adobe.com/products/3350/).
 
 a. JA - ga aan [ Stap 2 ](#step-2) te werk.\
 b. NO - Onderhoud of mondiale uitvallen. Controleren op geschatte duur en updates.
@@ -30,7 +30,7 @@ b. NO - Onderhoud of mondiale uitvallen. Controleren op geschatte duur en update
 
 +++**zijn er plaatsingen in andere milieu&#39;s die de plaatsing in het bestaande milieu blokkeren?**
 
-Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende bevel in werking gebruikend magento-wolk CLI (als u slechts aan één wolkenproject bent toegevoegd). **Nota**: Controle u bent op de recentste versie van magento-wolk CLI. Voor stappen, verwijs naar [ Update CLI ](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in Commerce op de gids van de Infrastructuur van de Wolk.
+Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende bevel in werking gebruikend magento-wolk CLI (als u slechts aan één wolkenproject bent toegevoegd). **Nota**: Controle u bent op de recentste versie van magento-wolk CLI. Voor stappen, verwijs naar [ Update CLI ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in Commerce op de gids van de Infrastructuur van de Wolk.
 
 ```bash
 magento-cloud --state=in_progress
@@ -42,7 +42,7 @@ Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende be
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-Om informatie over een bestaande plaatsingsactiviteit te vinden (verwijs naar [ Controlerend plaatsingslogboek als de Wolk UI &quot;logboek &quot;gesnipte&quot;fout ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html) heeft
+Om informatie over een bestaande plaatsingsactiviteit te vinden (verwijs naar [ Controlerend plaatsingslogboek als de Wolk UI &quot;logboek &quot;gesnipte&quot;fout ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) heeft
 voor details) kunt u dit bevel in werking stellen om een lopend logboek van die activiteit te verkrijgen:
 
 ```bash
@@ -79,7 +79,7 @@ b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magent
 +++**Gebruikend Bitbucket?**
 
 a. JA - controleer [ status.bitbucket.com ](https://bitbucket.status.atlassian.com/).\
-b. NO - de fouten van het plaatsingslogboek van de controle in [ bouwt en stelt logboeken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) op. Ga aan [ Stap 6 ](#step-6) te werk.
+b. NO - de fouten van het plaatsingslogboek van de controle in [ bouwt en stelt logboeken ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations) op. Ga aan [ Stap 6 ](#step-6) te werk.
 
 +++
 
@@ -124,7 +124,7 @@ b. NO - ga aan [ Stap 11 ](#step-11) te werk.
 +++**Beschikbare opslag oké?**
 
 a. JA - ga met [ Stap 11 ](#step-11) te werk.\
-b. NO - het Overzicht [ beheert schijfruimte ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html).
+b. NO - het Overzicht [ beheert schijfruimte ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
 
 +++
 
@@ -146,11 +146,11 @@ b. NO - ga met [ Stap 8 ](#step-8) te werk.
 
 +++
 
-## Stap 13 - de Controle voor de verbetering van de Elasticsearch ontbreekt {#step-13}
+## Stap 13 - Controleren of Elasticsearch-upgrade mislukt {#step-13}
 
 +++**Elasticsearch die wordt bevorderd of wordt opgesteld?**
 
-a. JA - upgradestappen voor Elasticsearch mislukt. Verwijs naar [ de softwareverenigbaarheid van de Elasticsearch ](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). Als de verbetering van de Elasticsearch nog niet werkt, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Nota**: Op Adobe Commerce op wolkeninfrastructuur, gelieve zich ervan bewust te zijn dat de dienstverbeteringen niet aan het productiemilieu zonder 48 bedrijfsuren&#39; bericht aan ons infrastructuurteam kunnen worden geduwd. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen het gewenste tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailerend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.\
+a. JA - Elasticsearch heeft de upgrade niet uitgevoerd. Verwijs naar [ de softwareverenigbaarheid van Elasticsearch ](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). Als de verbetering van Elasticsearch nog niet werkt, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Nota**: Op Adobe Commerce op wolkeninfrastructuur, gelieve zich ervan bewust te zijn dat de dienstverbeteringen niet aan het productiemilieu zonder 48 bedrijfsuren&#39; bericht aan ons infrastructuurteam kunnen worden geduwd. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen het gewenste tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailerend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.\
 b. NO - ga aan [ Stap 14 ](#step-14) te werk.
 
 +++
@@ -164,7 +164,7 @@ b. NO - ga aan [ Stap 15 ](#step-15) te werk.
 
 +++
 
-## Stap 15 - versiefout Elasticsearch {#step-15}
+## Stap 15 - Elasticsearch-versiefout {#step-15}
 
 +++**Fout over Elasticseach versies?**
 
@@ -210,7 +210,7 @@ b. NO - ga aan [ Stap 19 ](#step-19) te werk.
 
 +++**Gebruikend derdextensies?**
 
-a. JA - probeer [ onbruikbaar makend de derdextensies ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) en in werking stellend de plaatsing (om te zien of zijn zij de oorzaak van het probleem), vooral als er uitbreidingsnamen in om het even welke fouten zijn.\
+a. JA - probeer [ onbruikbaar makend de derdextensies ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions) en in werking stellend de plaatsing (om te zien of zijn zij de oorzaak van het probleem), vooral als er uitbreidingsnamen in om het even welke fouten zijn.\
 b. NO - ga aan [ Stap 20 ](#step-20) te werk.
 
 +++
@@ -226,9 +226,9 @@ b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magent
 
 +++
 
-## Stap 21 - Versie Elasticsearch downgraden {#step-21}
+## Stap 21 - Elasticsearch-versie downgraden {#step-21}
 
-+++**de versies van de Elasticsearch degraderen?**
++++**de versies van Elasticsearch degraderen?**
 
 a. JA - Kan niet door configuratie worden gedaan. [ leg een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor.\
 b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
