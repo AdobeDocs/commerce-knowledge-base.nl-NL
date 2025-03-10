@@ -1,12 +1,12 @@
 ---
 title: Prestaties oplossen met New Relic op Adobe Commerce
-description: 'Dit artikel bevat stappen voor het oplossen van problemen met Adobe Commerce over de prestaties van cloudinfrastructuur met behulp van New Relic. Het biedt ook middelen voor verdere informatie. Hier volgt een lijst met problemen. Klik om het oplossen van problemenstappen in onze steun kennisbank te zien:'
+description: 'In dit artikel worden stappen beschreven voor het oplossen van problemen met Adobe Commerce over de prestaties van cloudinfrastructuren met New Relic. Het biedt ook middelen voor verdere informatie. Hier volgt een lijst met problemen. Klik om het oplossen van problemenstappen in onze steun kennisbank te zien:'
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer
-source-git-commit: 324cce66df1e4ab7ec4ef8fb6512c3acbabdf3ab
+source-git-commit: 27fed162416c619a08d757279a3405f1fa72e976
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,13 @@ In dit artikel worden stappen beschreven voor het oplossen van problemen met Ado
 </ol>
 </td>
 <td>
-<p>Meer over de score van de Apdex van New Relic leren, verwijs naar <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction"> Documentatie van New Relic &gt; de Apdex van APM &gt; de gebruikerstevredenheid van de Meetlat </a>. U kunt ook naar <a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md"> Beheerde alarm voor Adobe Commerce verwijzen: De waarschuwingsalarm van de Index </a> in onze basis van de steunkennis.</p>
+<p>Meer over de score van de Apdex van New Relic leren, verwijs naar <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction"> Documentatie van New Relic &gt; de Apdex van APM &gt; de gebruikerstevredenheid van de Meetlat </a>. U kunt ook naar <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert"> Beheerde alarm voor Adobe Commerce verwijzen: De waarschuwingsalarm van de Index </a> in onze basis van de steunkennis.</p>
 </td>
 </tr>
 <tr>
 <td>
 <p>Hoog CPU-gebruik:</p>
-<p>Het hoge gebruik van cpu kan erop wijzen dat er een bijzonder drukke dienst, zoals MySQL, Redis, enz. is.</p>
+<p>Het hoge gebruik van CPU kan erop wijzen dat er een bijzonder drukke dienst, zoals MySQL, Redis, enz. is.</p>
 </td>
 <td>
 <ol>
@@ -75,7 +75,7 @@ In dit artikel worden stappen beschreven voor het oplossen van problemen met Ado
 </ol>
 </td>
 <td>
-<p>Meer over prestatiesmetriek, in het bijzonder het percentage van cpu, I/O bytes, en geheugengebruik voor individu of groepen processen leren, verwijs naar <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes"> Documentatie van New Relic &gt; de pagina van UI van de Infrastructuur &gt; de pagina van de Gastheer van de Infrastructuur &gt; het lusje van Processen </a>.</p>
+<p>Meer over prestatiesmetriek, in het bijzonder CPU percentage, I/O bytes, en geheugengebruik voor individu of groepen processen leren, verwijs naar <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes"> Documentatie van New Relic &gt; de pagina van UI van de Infrastructuur &gt; de pagina van de Gastheer van de Infrastructuur &gt; het lusje van Processen </a>.</p>
 </td>
 </tr>
 <tr>
