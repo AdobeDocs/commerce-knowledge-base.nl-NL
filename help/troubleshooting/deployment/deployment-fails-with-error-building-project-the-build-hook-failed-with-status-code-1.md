@@ -4,9 +4,9 @@ description: 'In dit artikel wordt gesproken over de oorzaken en oplossingen voo
 exl-id: add1cdac-dbcb-4c55-8bc2-c1f27e24aadb
 feature: Build, Deploy
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 6a880a57c6cafb34fa51706f7bab1e23310bcef7
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,17 @@ Voor details op hoe te om schijfruimte te verhogen als u op Adobe Commerce op he
 
    Gebruik de [ Verbetering aan artikel-hulpmiddelen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) artikel voor verwijzing.
 
-1. Zorg ervoor dat het pakket ECE-tools aanwezig is in het `composer.lock` -bestand door de volgende opdracht uit te voeren:    <pre><code class="language-bash"> grep &quot;<code class="language-yaml"> &quot;naam&quot;: &quot;magento/ece-tools&quot;</code>&#39; composer.lock</code></pre>    Als ze worden opgegeven, ziet het antwoord er als volgt uit:    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
+1. Zorg ervoor dat het pakket ECE-tools aanwezig is in het `composer.lock` -bestand door de volgende opdracht uit te voeren:
+
+   ```bash
+   grep '"name": "magento/ece-tools"' composer.lock
+   ```
+
+   Als ze worden opgegeven, ziet het antwoord er als volgt uit:
+
+   ```bash
+   "name": "magento/ece-tools", "version": "2002.0.20",
+   ```
 
 Zie [ Verbetering aan artikel-hulpmiddelen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) artikel voor verwijzing.
 
