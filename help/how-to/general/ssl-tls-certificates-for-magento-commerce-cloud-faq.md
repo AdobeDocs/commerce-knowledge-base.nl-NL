@@ -3,9 +3,9 @@ title: SSL-certificaten (TLS) voor Adobe Commerce op cloudinfrastructuur
 description: Dit artikel biedt snelle antwoorden op vragen over het verkrijgen van SSL (TLS)-certificaten voor uw Adobe Commerce-site in onze cloudinfrastructuur.
 exl-id: 5a682d07-e4d7-4e81-a2ad-3232f2d8d9c1
 feature: Cloud, Console
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 7694e6cb739d73a28c902e95d324b1317f4daaf6
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Dit artikel biedt snelle antwoorden op vragen over het verkrijgen van SSL (TLS)-certificaten voor uw Adobe Commerce-site in onze cloudinfrastructuur.
 
-## Welk SSL/TLS-certificaat biedt Adobe?
+## Welk SSL/TLS-certificaat verschaft Adobe?
 
-De Adobe verstrekt een domein-Gevalideerd [ laat SSL/TLS certificaat ](https://letsencrypt.org/) coderen om veilig verkeer HTTPS van [!DNL Fastly] te dienen. Adobe biedt één certificaat voor elke Adobe Commerce voor de architectuur, het Staging en de Adobe Commerce op de Starter-planarchitectuur van de cloudinfrastructuur van de cloudinfrastructuur om alle domeinen in die omgeving te beveiligen.
+Adobe verstrekt een domein-Gevalideerd [ laat SSL/TLS certificaat ](https://letsencrypt.org/) coderen om veilig verkeer HTTPS van [!DNL Fastly] te dienen. Adobe biedt één certificaat voor elke Adobe Commerce op het gebied van de architectuur van de cloudinfrastructuur Pro, Staging en Adobe Commerce op de Starter-planarchitectuuromgeving van de cloud-infrastructuur om alle domeinen in die omgeving te beveiligen.
 
 ## Wat dekt een certificaat?
 
@@ -43,7 +43,7 @@ Als uw site al live is en/of u kunt verwijzen naar de URL&#39;s die meteen voor 
 
 ## Kan ik mijn eigen SSL/TLS-certificaat gebruiken?
 
-U kunt uw eigen SSL/TLS- certificaat in plaats van het gebruiken van [ verstrekken laat certificaat ](https://letsencrypt.org/) coderen dat door Adobe wordt verstrekt.
+U kunt uw eigen SSL/TLS- certificaat in plaats van het gebruiken van [ verstrekken van de Versleuteling van certificaat ](https://letsencrypt.org/) door Adobe.
 
 Dit proces vereist echter extra werk om op te zetten en te onderhouden. U moet eerst een CSR (Certificate Signing Request) voor de domeinnaam van de website (of algemene naam) genereren en deze aan uw SSL-leverancier doorgeven om een SSL-certificaat op te geven.
 
@@ -54,8 +54,8 @@ Zodra u het SSL certificaat hebt, leg een [ kaartje van de Steun van Adobe Comme
 
 >[!WARNING]
 >
->Het is belangrijk dat u de certificaatbestanden niet rechtstreeks uploadt naar het ticket. Anders worden de certificaten als gecompromitteerd beschouwd en moet de Adobe een nieuw certificaat aanvragen.
->De bestanden moeten via SFTP naar de server worden geüpload. Gebruik geen andere methoden, zoals het toewijzen van de bestanden aan uw opslagplaats (deze moeten alleen worden uitgevoerd voor onveranderlijke bestanden die geen vertrouwelijke gegevens bevatten.)
+>Het is belangrijk dat u de certificaatbestanden niet rechtstreeks uploadt naar het ticket. Anders worden de certificaten als gecompromitteerd beschouwd en moet Adobe een nieuw certificaat aanvragen.
+>De bestanden moeten via SFTP naar de server worden geüpload naar een map van uw keuze, bijvoorbeeld `var/ssl` , `/tmp/ssl` , enz. - gebruik geen andere methoden zoals het toewijzen van bestanden aan uw opslagplaats (die alleen moeten worden uitgevoerd voor onveranderlijke bestanden die geen gevoelige gegevens bevatten).
 
 ## De naam van uw certificaat
 
@@ -67,7 +67,7 @@ Het domein dat op het certificaat wordt getoond is enkel het eerste domein dat a
 
 ## Kan ik wildcard-TLS-certificaten gebruiken?
 
-Jokerteken-TLS-certificaten kunnen alleen worden gebruikt met uw aangepaste certificaat en niet met Adobe Commerce Let&#39;s Encrypt-certificaten. Als onderdeel van onze TLS-optimalisatie beëindigt de Adobe de ondersteuning voor wildcard-TLS-certificaten. Wij identificeren en contacteren handelaren die een vervangingscertificaat met de certificaten van de Encrypt van de Adobe van de Versleuteling gebruiken en in de [!DNL Fastly] console voor Adobe Commerce worden gevormd. Wij vragen dat deze vervangingscertificaten met nauwkeurige domeinen worden vervangen om TLS dekking te verzekeren. Om een vervangingscertificaat te vervangen TLS, gelieve de [ domeinsectie ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains) van de [!DNL Fastly] stop te bezoeken. Van hieruit kunnen exacte domeinen worden toegevoegd en kan het jokerteken worden verwijderd. DNS moet naar [!DNL Fastly] verwijzen voor deze nieuwe domeinen om door de CDN te leiden. Zodra de domeinen worden toegevoegd en DNS wordt bijgewerkt, zal een passend [ 1} certificaat van de Encrypt van A.S. {worden voorzien. ](https://letsencrypt.org/) Als u geen domein verwijdert waarnaar [!DNL Fastly] verwijst met een jokerteken, verwijdert Adobe het gedeelde certificaat. Dit kan in een plaatsafval resulteren als u niet de gevormde URL FQDN en zelfde URL FQDN opstelling in uw DNS hebt. Daarom moet u bevestigen dat de geconfigureerde URL&#39;s ook een-op-een overeenkomst hebben in hun DNS-code die verwijst naar [!DNL Fastly] .
+Jokerteken-TLS-certificaten kunnen alleen worden gebruikt met uw aangepaste certificaat en niet met Adobe Commerce Let&#39;s Encrypt-certificaten. Als onderdeel van onze TLS-optimalisatie beëindigt Adobe de ondersteuning voor TLS-certificaten met jokertekens. We identificeren en nemen contact op met handelaren die een jokertekencertificaat gebruiken met de certificaten van Adobe Let&#39;s Encrypt en die zijn geconfigureerd in de [!DNL Fastly] -console voor Adobe Commerce. Wij vragen dat deze vervangingscertificaten met nauwkeurige domeinen worden vervangen om TLS dekking te verzekeren. Om een vervangingscertificaat te vervangen TLS, gelieve de [ domeinsectie ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains) van de [!DNL Fastly] stop te bezoeken. Van hieruit kunnen exacte domeinen worden toegevoegd en kan het jokerteken worden verwijderd. DNS moet naar [!DNL Fastly] verwijzen voor deze nieuwe domeinen om door de CDN te leiden. Zodra de domeinen worden toegevoegd en DNS wordt bijgewerkt, zal een passend [ 1} certificaat van de Encrypt van A.S. {worden voorzien. ](https://letsencrypt.org/) Als u geen domein verwijdert waarnaar [!DNL Fastly] verwijst met een jokerteken, verwijdert Adobe het gedeelde certificaat. Dit kan in een plaatsafval resulteren als u niet de gevormde URL FQDN en zelfde URL FQDN opstelling in uw DNS hebt. Daarom moet u bevestigen dat de geconfigureerde URL&#39;s ook een-op-een overeenkomst hebben in hun DNS-code die verwijst naar [!DNL Fastly] .
 
 ## Wat moet ik doen als mijn domein niet meer naar Adobe Commerce wijst?
 
