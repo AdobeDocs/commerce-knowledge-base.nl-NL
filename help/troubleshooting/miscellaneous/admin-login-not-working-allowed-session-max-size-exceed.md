@@ -1,17 +1,18 @@
 ---
-title: '[!DNL Admin] aanmelden werkt niet - toegestane sessiegrootte is overschreden'
-description: Los de kwestie op wanneer u aan login aan uw  [!DNL Admin]  paneel en de vormvernieuwingen probeert en u kunt niet login.
+title: '[!UICONTROL Admin] aanmelden werkt niet - toegestane sessiegrootte is overschreden'
+description: Los het probleem op wanneer u zich probeert aan te melden bij het deelvenster [!UICONTROL Admin] en het formulier wordt vernieuwd en u zich niet kunt aanmelden.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1
+source-git-commit: fe4a48581bdfe24da5082b69fb26a8032bd77334
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# [!DNL Admin] aanmelden werkt niet - toegestane sessiegrootte is overschreden
+# [!UICONTROL Admin] aanmelden werkt niet - toegestane sessiegrootte is overschreden
 
-Dit artikel bevat een oplossing voor het aanmelden in het deelvenster [!DNL Admin] , maar het formulier wordt vernieuwd en u kunt zich niet aanmelden. De reden hiervoor is dat de sessiegrootte van [!DNL Admin] is overschreden.
+Dit artikel bevat een oplossing voor het aanmelden in het deelvenster [!UICONTROL Admin] , maar het formulier wordt vernieuwd en u kunt zich niet aanmelden, of u voert bepaalde handelingen uit in het deelvenster [!UICONTROL Admin] en wordt automatisch afgemeld.
+Dit wordt veroorzaakt doordat [!UICONTROL Admin] [!UICONTROL Session Size] is overschreden.
 
 ## Betrokken versies
 
@@ -20,7 +21,10 @@ Dit artikel bevat een oplossing voor het aanmelden in het deelvenster [!DNL Admi
 
 ## Probleem
 
-U kunt zich niet aanmelden bij de [!DNL Admin] omdat het formulier steeds opnieuw wordt geladen.
+U ervaart een van de volgende symptomen op de [!UICONTROL Admin] :
+
+1. U kunt zich niet aanmelden bij de [!UICONTROL Admin] omdat het formulier steeds opnieuw wordt geladen.
+1. U wordt automatisch afgemeld wanneer u probeert om een actie uit te voeren.
 
 ## Oorzaak
 
@@ -41,7 +45,7 @@ Als u deze fouten ziet, zou de oplossing zijn:
 
 <u> Adobe Commerce op wolkeninfrastructuur </u>:
 
-(Deze instelling is alleen toegankelijk in de [!DNL Admin] als de modus voor distributie/bewerking standaard of ontwikkelaar is. In de cloud-omgeving is echter alleen de implementatiemodus Productie toegestaan.)
+(Dit het plaatsen is slechts toegankelijk op [!UICONTROL Admin] wanneer de plaatsing/verrichtingswijze *gebrek* of *ontwikkelaar* is. In de cloudomgeving is echter alleen de implementatiemodus Productie toegestaan.)
 
 Om deze waarde te verhogen, stel dit bevel in de terminal (SSH) in werking:
 
@@ -53,6 +57,6 @@ U kunt aan hoger plaatsen dan *500000* afhankelijk van de bestaande max. grootte
 
 ## Verwante lezing
 
-* [ grootte van de Zitting ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) in de Gids van Systemen Admin.
-* [ wijze van de Verrichting ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) in de Gids van de Configuratie.
-* [ Veilige verbindingen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) in Commerce op de Gids van de Infrastructuur van de Wolk.
+* [ grootte van de Zitting ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) in de Gids van Systemen Admin
+* [ wijze van de Verrichting ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) in de Gids van de Configuratie
+* [ Veilige verbindingen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) in Commerce op de Gids van de Infrastructuur van de Wolk
