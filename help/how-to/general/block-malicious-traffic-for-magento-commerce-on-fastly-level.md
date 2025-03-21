@@ -3,9 +3,9 @@ title: Blokkeren van kwaadwillig verkeer voor Adobe Commerce op snelniveau
 description: Dit artikel bevat de stappen die u kunt nemen om kwaadaardig verkeer te blokkeren wanneer u vermoedt dat er een DDoS-aanval plaatsvindt in uw Adobe Commerce on cloud Infrastructure Store.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b58e182c64b3fad508145d9078619ddbe0e2b887
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,7 @@ Zie voor algemene informatie en aanbevelingen over `robots.txt`:
 
 Werk met uw ontwikkelaar en/of SEO-expert om te bepalen welke Gebruikersagenten u wilt toestaan of welke u wilt weigeren.
 
-## Verwante lezing
+## Gerelateerde lezing
 
-[ Product-Specifieke het Vergunningstermijnen voor Adobe Commerce op Wolk ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* [ Product-Specifieke het Vergunningstermijnen voor Adobe Commerce op Wolk ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* [ Douane VCL voor het blokkeren van verzoeken ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in Commerce op de Gids van de Wolk

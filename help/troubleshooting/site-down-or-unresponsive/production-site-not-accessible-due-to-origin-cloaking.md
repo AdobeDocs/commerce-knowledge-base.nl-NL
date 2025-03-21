@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor het geval dat uw Adobe Commerc
 exl-id: 4412d744-3066-4f78-bc45-8149614ce455
 feature: Products
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b58e182c64b3fad508145d9078619ddbe0e2b887
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -51,4 +51,5 @@ Oorspronkelijke camouflage is een beveiligingsfunctie waarmee Adobe Commerce elk
 
 ## Gerelateerde lezing
 
-[ Snelle oorsprong het camoufleren FAQ ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) in onze basis van steunkennis.
+* [ Snelle oorsprong het camoufleren van enablement FAQ ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) in onze basis van de steunkennis
+* [ Checklist voor vestiging een nieuw domein ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain) in onze basis van de steunkennis
