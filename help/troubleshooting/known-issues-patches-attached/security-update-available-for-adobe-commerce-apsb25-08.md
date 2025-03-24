@@ -5,9 +5,9 @@ description: Pas een Geïsoleerd flard toe om  [!DNL critical, important, and mo
 feature: Compliance, Security
 role: Developer
 exl-id: 567e6ad2-704e-461f-a54d-75f6bd96e996
-source-git-commit: d669c097767b5855c6bd747a0ab11b3520f405a0
+source-git-commit: aba9548c0b5a06ffd0cddce630e53e5664bb9aac
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Adobe Commerce op Cloud-infrastructuur, Adobe Commerce op locatie en Magento Ope
 * 2.4.4-p11 en eerder
 
 ## Oplossing voor Adobe Commerce op Cloud, Adobe Commerce op locatie en Magento Open Source-software
+
+>[!NOTE]
+>
+>Dit probleem wordt opgelost door de [ recentste wolk-flarden update ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest). Als u probeert de geïsoleerde patch toe te passen terwijl de oplossing al is geïmplementeerd vanuit de update van de cloud-patches, kan dit leiden tot installatiefouten.
 
 Om de kwetsbaarheid voor de betrokken producten en versies te helpen oplossen, moet u de [!DNL CVE-2025-24434] Geïsoleerde patch toepassen, afhankelijk van uw Adobe Commerce/Magento Open Source-versie.
 
@@ -97,4 +101,4 @@ Aangezien het niet mogelijk is om eenvoudig te controleren of de uitgave is gere
 Beveiligingsupdates beschikbaar voor Adobe Commerce:
 
 * [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-08]) ](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [ de recentste updates van de Veiligheid beschikbaar voor Adobe Commerce) ](https://helpx.adobe.com/security/products/magento.html)
+* [ De recentste updates van de Veiligheid beschikbaar voor Adobe Commerce ](https://helpx.adobe.com/security/products/magento.html)
