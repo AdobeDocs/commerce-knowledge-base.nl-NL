@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor Adobe Commerce voor e-mailberi
 exl-id: b2535f66-8aec-4ddf-9a69-60879a0a1939
 feature: Cloud, Communications, Paas
 role: Developer
-source-git-commit: 0017d43e221ef3023630f714c34aa65b368e214f
+source-git-commit: bd199fac6d8f33491b9fa0f508b2bb52d56b46a5
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 0%
 # Oude teamleden ontvangen e-mailberichten over de cloud van Adobe Commerce
 
 Dit artikel biedt een oplossing voor het verwijderen van gebruikers uit de lijst met meldingen van ontvangers die zijn:
+
 * Oude teamleden die niet meer bij uw project horen.
 * Huidige teamleden die de meldingen niet moeten ontvangen.
 
@@ -22,6 +23,10 @@ Dit artikel biedt een oplossing voor het verwijderen van gebruikers uit de lijst
 Uw team heeft een bericht ontvangen over een gedetecteerd probleem of een belangrijk probleem met betrekking tot het cloudproject of de cloudomgeving. Hieronder bevinden zich leden die niet langer bij uw project horen, zoals externe ontwikkelaars/ontwikkelaars van agentschappen of systeemintegrators. U wilt dat deze gebruikers geen meldingen meer ontvangen.
 
 ## Oplossing
+
+>[!NOTE]
+>
+>Als u een externe ontwikkelaar of systeemintegrator bent en niet meer bij het project bent betrokken, moet u de projecteigenaar of de projectbeheerder voor dat project om hulp vragen.
 
 Er zijn twee manieren om de meldingen te stoppen door de gebruiker(s) uit uw project te verwijderen:
 
@@ -32,5 +37,5 @@ Als dit al is gedaan en de e-mailmeldingen deze gebruikers toch blijven bevatten
 
 ## Gerelateerde lezing
 
-* [ Mening de het projectrol van een gebruiker ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user) in Commerce op de gids van de wolkeninfrastructuur.
+* [ Mening de het projectrol van een gebruiker ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user&#39;s-project-role) in Commerce op de gids van de wolkeninfrastructuur.
 * [ hoe te om een teamlid in de berichten van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html) in Commerce KB te omvatten.
