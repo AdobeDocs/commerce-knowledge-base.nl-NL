@@ -4,7 +4,7 @@ description: Dit artikel biedt oplossingen voor het Adobe Commerce-probleem waar
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 54f6fb60adca6f639cd315b3d070c7b93aa45bab
+source-git-commit: b0d4b2e541c42095d6d09b91ba6f390064c89af6
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -38,7 +38,7 @@ De catalogusgegevens zijn niet correct gesynchroniseerd of er is een nieuw produ
 of
 
 1. Voeg een nieuw product toe aan de catalogus.
-1. Probeer een zoekquery uit te voeren met de productnaam of andere doorzoekbare kenmerken na 15-20 minuten van de tijd dat Magento indexer + cron zijn uitgevoerd om gegevens te synchroniseren naar back-endservice.
+1. Probeer een zoekquery uit te voeren met de productnaam of andere doorzoekbare kenmerken na 15-20 minuten vanaf het moment dat Magento indexer + cron wordt uitgevoerd om gegevens te synchroniseren naar de back-endservice.
 
 <u> Verwacht resultaat </u>
 
@@ -56,7 +56,7 @@ Er zijn verschillende dingen die u kunt doen om de synchronisatieproblemen met d
 
 ### Wacht op toe te passen wijzigingen
 
-Zodra u vormt en verbindt, kan het meer dan 30 minuten voor de te creëren index in ES (Elasticsearch) en onderzoeksresultaten duren om terug te keren. Volgende eenmalige productupdates zullen naar verwachting binnen een paar minuten worden geïndexeerd.
+Nadat u de configuratie en verbinding hebt gemaakt, kan het meer dan 30 minuten duren voordat de index in ES (Elasticsearch) is gemaakt en de zoekresultaten zijn geretourneerd. Volgende eenmalige productupdates zullen naar verwachting binnen een paar minuten worden geïndexeerd.
 
 ### Productgegevens synchroniseren voor een specifieke SKU
 
@@ -146,7 +146,7 @@ bin/magento saas:resync --feed productattributes
 Voer de volgende opdrachten uit om de feeds opnieuw te synchroniseren:
 
 ```
-bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed productattributes --cleanup-feed
 bin/magento saas:resync --feed products --cleanup-feed
 bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
 bin/magento saas:resync --feed scopesWebsite --cleanup-feed
