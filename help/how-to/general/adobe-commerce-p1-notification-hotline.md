@@ -3,7 +3,7 @@ title: Hotline voor meldingen in Adobe Commerce P1
 description: Dit artikel verstrekt de P1 bericht hotline aantallen voor Adobe Commerce die kunnen worden gebruikt wanneer het proberen om een P1 incident te melden en verklaart welke informatie te verstrekken.
 feature: Communications
 exl-id: 48c4fe93-676e-4c69-a96c-8fb3e6872973
-source-git-commit: c5e94c6407394cd905ea470628d28db2c2c6c0ed
+source-git-commit: 8c0c128f2469086c44dcea0e9edc87f934578a69
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Dit artikel verstrekt de P1 bericht hotline aantallen voor Adobe Commerce die ku
 
 ## P1-incidentdefinitie
 
-Zoals bepaald in [ de Voorwaarden en de Voorwaarden van de Diensten van de Steun van Adobe Commerce ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf): &quot;Een P1 incident is een catastrofaal productieincident binnen de Dienst dat ernstige gevolgen voor de Plaats van de Klant heeft, die de plaats ertoe brengt om van het werken of het goedkeuren van orden te ophouden, of omdat de Plaats van de Klant volledig of niet functioneert, of dat in een verlies van productiegegevens en geen oplossing resulteert. P1 Incidenten moeten op het gratis P1-telefoonnummer van de Adobe worden gemeld om de oplossing te versnellen. De Adobe zal zich voortdurend inspannen, met passende escalatie naar het hoger management, om een oplossing voor een P1-incident te bieden zodra dit commercieel redelijk is.&quot;
+Zoals bepaald in [ de Voorwaarden en de Voorwaarden van de Diensten van de Steun van Adobe Commerce ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf): &quot;Een P1 incident is een catastrofaal productieincident binnen de Dienst dat ernstige gevolgen voor de Plaats van de Klant heeft, die de plaats ertoe brengt om van het werken of het goedkeuren van orden te ophouden, of omdat de Plaats van de Klant volledig of niet functioneert, of dat in een verlies van productiegegevens en geen oplossing resulteert. P1 Incidenten moeten op het Adobe gratis P1-telefoonnummer worden vermeld om de oplossing te versnellen. Adobe zal zich voortdurend inspannen, met passende escalatie naar het hoger management, om een oplossing voor een P1-incident te bieden zodra dit commercieel redelijk is.&quot;
 
 ## P1-meldingsbeleid voor telefonische telefonische hulpdiensten
 
@@ -40,7 +40,7 @@ Nota: Als u audio-messagerie om het even welke reden bereikt, gelieve uw informa
    * Italië: (+39) 0269 682 818 (Druk in het eerste menu op 6 voor de Adobe Commerce P1-hotline)
    * Zweden: (+46) 0200 810 330 (Druk in het eerste menu op 6 voor de Adobe Commerce P1-hotline)
 * APAC
-   * Australië: (+61) 1 800 358 683 (druk op 6 voor de Adobe Commerce P1-hotline in het eerste menu)
+   * Australië: (+61) 1 800 358 683 (druk op 3 voor de Adobe Commerce P1-hotline in het eerste menu)
    * Singapore: (+65) 1 800 818 5220 (druk op 6 voor de Adobe Commerce P1-hotline in het eerste menu)
    * Filipijnen (tol): (+63) 1 800 1441 0660 (druk op 6 voor de Adobe Commerce P1-hotline in het eerste menu)
    * Nieuw-Zeeland (tolgeld): (+64) 050 861 4264 (druk op 6 voor de Adobe Commerce P1-hotline in het eerste menu)
