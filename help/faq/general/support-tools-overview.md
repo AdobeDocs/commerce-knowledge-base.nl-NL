@@ -1,10 +1,10 @@
 ---
 title: Adobe Commerce-ondersteuningsprogramma's in één oogopslag
-description: Adobe Commerce biedt een groot aantal ondersteuningsmiddelen die u helpen en in staat stellen de e-commerce-winkel te verbeteren.
+description: Adobe Commerce biedt een verscheidenheid aan ondersteuningstools die je helpen en in staat stellen om de e-commercewinkelervaring te verbeteren.
 exl-id: 5364ff2b-07ea-4b42-8756-adec85f4efca
-source-git-commit: f2e4dbeeade5006e253beba9ff808e6571647ef4
+source-git-commit: 6ccebaec7f0a228b646737a2f48fe6d087ea2861
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Lees [[!DNL Observation for Adobe Commerce]  > Inleiding ](https://experiencelea
 
 Beheerde waarschuwingen voor Adobe Commerce op cloudinfrastructuur zorgen voor kant-en-klare [!DNL New Relic] waarschuwingen met aanwijzingen voor volgende stappen voor het oplossen van problemen.
 
-We hebben belangrijke dashboards en waarschuwingen ingesteld om u te helpen begrijpen wanneer uw site kritieke opslag- en Apdex-niveaus bereikt (tevredenheid van gebruikers over toepassingen en responstijd van services). Dit kan u helpen actie te ondernemen voordat u langzame reactietijden of een stroomonderbreking opmerkt. U zult de alarm met de artikelen kunnen problemen oplossen die in onze steun kennisbank worden verstrekt. Klik [ Beheerde alarm voor Adobe Commerce ](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) om meer over beheerde alarm te leren.
+We hebben belangrijke dashboards en waarschuwingen ingesteld om u te helpen begrijpen wanneer uw site kritieke opslag- en Apdex-niveaus bereikt (de tevredenheid van gebruikers over de responstijd van applicaties en services). Dit kan u helpen actie te ondernemen voordat u langzame reactietijden of een stroomonderbreking opmerkt. U zult de alarm met de artikelen kunnen problemen oplossen die in onze steun kennisbank worden verstrekt. Klik [ Beheerde alarm voor Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce) om meer over beheerde alarm te leren.
 
 
 ## [!DNL Site-Wide Analysis Tool] - Geef prestatieaanbevelingen op gebaseerd op een site-scan {#site-wide-analysis-tool}
@@ -41,6 +41,6 @@ Om meer over [!DNL Site-Wide Analysis Tool] te weten te komen, verwijs naar de [
 
 ## [!DNL Quality Patches Tool] - alle beschikbare patches voor uw Adobe Commerce-versie ophalen {#quality-patches-tool}
 
-De [!DNL Quality Patches Tool] (QPT) levert afzonderlijke patches die zijn ontwikkeld door Adobe en de Magento Open Source gemeenschap. Hiermee kunt u algemene informatie over alle afzonderlijke patches die beschikbaar zijn voor de geïnstalleerde versie van Adobe Commerce of Magento Open Source, toepassen, herstellen en bekijken.
+De [!DNL Quality Patches Tool] (QPT) levert afzonderlijke patches die zijn ontwikkeld door Adobe en de Magento Open Source-gemeenschap. Hiermee kunt u algemene informatie over alle afzonderlijke patches die beschikbaar zijn voor de geïnstalleerde versie van Adobe Commerce of Magento Open Source, toepassen, herstellen en bekijken.
 
-In QPT worden alleen de beschikbare patches voor de geïnstalleerde versie weergegeven, met categorisering en eenvoudige toepassing/verwijdering. Meer leren, verwijs naar [ het flard van de Controle voor de kwestie van Adobe Commerce met  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in onze basis van de steunkennis.
+In QPT worden alleen de beschikbare patches voor de geïnstalleerde versie weergegeven, met categorisering en eenvoudige toepassing/verwijdering. Raadpleeg voor meer informatie [Patch controleren op Adobe Commerce-probleem in [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) onze kennisbank voor ondersteuning.
