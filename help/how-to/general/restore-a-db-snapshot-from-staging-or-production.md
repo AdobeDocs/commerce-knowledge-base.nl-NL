@@ -2,9 +2,9 @@
 title: Een DB-momentopname herstellen uit Staging of Productie
 description: In dit artikel wordt getoond hoe u een DB-momentopname van Staging of Production op Adobe Commerce op cloudinfrastructuur kunt herstellen.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: c8cd2bf97681527a32a403a413c5fa823d07abed
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,12 @@ De stappen zijn:
 
    ```sql
    drop database <cluster ID_stg>;
+   ```
+
+1. Nadat u de database hebt neergezet, maakt u de database opnieuw:
+
+   ```mysql
+   create database [database_name];
    ```
 
 1. Voer de volgende opdracht in om de [!DNL snapshot] te importeren:
