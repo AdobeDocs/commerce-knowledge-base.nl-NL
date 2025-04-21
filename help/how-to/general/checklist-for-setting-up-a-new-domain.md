@@ -3,16 +3,16 @@ title: Checklist voor vestiging een nieuw  [!DNL domain]
 description: Dit is een controlelijst van hoe te opstelling a nieuw  [!DNL domain]  in Adobe Commerce op wolkeninfrastructuur.
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
-source-git-commit: 625ed2c7ab79f7bca9a979903e97c44c875e607c
+source-git-commit: f7b246088e3580922bd3389b2992e5dd8f97ff7a
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 # Controlelijst voor het instellen van een nieuwe versie [!DNL domain]
 
-Dit is een controlelijst voor het instellen van een nieuwe [!DNL domain] in Adobe Commerce op cloudinfrastructuur. Het is van toepassing, ongeacht of u een nieuw domein wilt toevoegen of het huidige domein wilt vervangen door een nieuw domein.
+In deze checklist wordt uitgelegd hoe u een nieuwe [!DNL domain] -versie instelt in Adobe Commerce op cloudinfrastructuur. Het is van toepassing of u een nieuw domein toevoegt of huidige vervangt. Het is ook van toepassing na het krijgen van een nieuwe het Staging milieu (zie Stap 4).
 
 ## Betrokken producten en versies
 
@@ -65,3 +65,4 @@ Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://www.a
 ## Gerelateerde lezing
 
 * [ Opstelling veelvoudige websites of opslag: voeg Nieuw  [!DNL Domains] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) in onze gebruikersgids toe.
+* [ Plaats niet toegankelijk toe te schrijven aan oorsprong het camoufleren ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking)
