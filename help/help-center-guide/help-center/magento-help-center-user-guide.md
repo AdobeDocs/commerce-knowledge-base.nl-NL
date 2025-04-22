@@ -3,9 +3,9 @@ title: Experience League Support-gebruikershandleiding voor Adobe Commerce
 description: Leer hoe u een ondersteuningsticket naar Experience League Support kunt verzenden, gedeelde toegang tot accounts kunt bieden en door de Adobe Commerce Knowledge Base kunt navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c9468428b9d230121fb1da354d138439a04d070d
+source-git-commit: 46c19ec1185aa176beff9e5039a324a1f11b9aa1
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '2966'
 ht-degree: 0%
 
 ---
@@ -321,6 +321,10 @@ Zie [ een Commerce rekening ](https://experienceleague.adobe.com/en/docs/commerc
 >De gebruiker moet een bestaande rekening hebben alvorens zij Gedeelde Toegang kunnen worden verleend - verwijs naar [ een rekening van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) voor meer details creëren.
 
 Na het verstrekken van gedeelde toegang voor een nieuwe gebruiker, is de verwante informatie beschikbaar in **Gedeelde Toegang** > **leidt Toestemmingen** van uw de rekeningspagina van Adobe Commerce.
+
+>[!NOTE]
+>
+>Via gedeelde toegang wordt niet automatisch toegang tot de Commerce Cloud-console verleend. U moet [ de gebruiker afzonderlijk aan het Project van de Wolk ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access#add-a-user-to-the-project) toevoegen.
 
 ![ magento-account-shared-manage-permissions ](assets/magento_account_shared_manage_permissions.png)
 
