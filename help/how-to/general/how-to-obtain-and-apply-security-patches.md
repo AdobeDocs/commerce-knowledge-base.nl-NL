@@ -2,14 +2,17 @@
 title: Procedure voor ophalen en toepassen [!UICONTROL security patch]
 description: Dit artikel bevat instructies voor het ophalen en toepassen van een vrijgegeven [!UICONTROL security patch] , maar instructies zijn niet beschikbaar.
 exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
-source-git-commit: 06bc239cb5b1a894d2a60236a9b32b2b0c4eba80
+source-git-commit: 43c8308c6539c53f60fb6457047898a2edd46532
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # Een [!UICONTROL security patch] ophalen en toepassen
+
+>[!NOTE]
+>Als u een installatie op locatie hebt en geen versiebeheersystemen zoals [!DNL CVS] of [!DNL GitHub] gebruikt om uw code te beheren, kan uw webhost u mogelijk helpen bij het toepassen van de patch. Voel u vrij om hen te bereiken voor steun
 
 Dit artikel bevat instructies voor het ophalen en toepassen van een vrijgegeven [!UICONTROL security patch] , maar instructies zijn niet beschikbaar.
 
@@ -17,18 +20,17 @@ Dit artikel bevat instructies voor het ophalen en toepassen van een vrijgegeven 
 
 Adobe Commerce On-Premise en Cloud - Alle versies
 
+
 ## Oorzaak
 
-De meeste [!UICONTROL Security Patches] worden vrijgegeven zonder fysieke bestanden of hotfix die moeten worden toegepast.
+De meeste [!UICONTROL Security Patches] worden vrijgegeven zonder afzonderlijke patch of hotfix en moeten worden bijgewerkt naar de release van [!UICONTROL Security Patch] .
 
 ## Oplossing
 
 
 ### Zaak I:
 
-Als een fysiek patchbestand/hotfix wordt vermeld in de opmerkingen bij de release:
-
-* Download het dossier van de downloadsectie van [ https://account.magento.com ](https://account.magento.com/downloads/view/). (Gebruikers met gedeelde toegang moeten eerst downloadrechten krijgen van de accounteigenaar/licentiehouder.)
+* Als een geïsoleerd flarddossier/hotfix in de [ Nota&#39;s van de Versie ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) wordt vermeld download het dossier van de downloadsectie van [ https://account.magento.com ](https://account.magento.com/downloads/view/). Gebruikers met gedeelde toegang moeten eerst downloadrechten krijgen van de eigenaar/licentiehouder van de account.
 
 **beveats:**
 
@@ -42,7 +44,9 @@ Als u geen uitgebreide ondersteuning hebt, kunt u ondersteuning vragen om de pat
 
 ### Zaak II:
 
-Als een fysiek patchbestand/hotfix niet wordt vermeld in de opmerkingen bij de release:
+Geïsoleerde patches worden alleen in uitzonderlijke gevallen geleverd, en het is niet de voorkeursvorm voor het implementeren van beveiligingsoplossingen.
+
+Als een afzonderlijk patchbestand/hotfix niet wordt vermeld in de opmerkingen bij de release:
 
 * **Wolk:**
 
@@ -51,8 +55,8 @@ Als een fysiek patchbestand/hotfix niet wordt vermeld in de opmerkingen bij de r
 
 * **Wolk of op-Premise:**
 
-* Als een fysiek flarddossier/hotfix niet beschikbaar is, [ bevorder de versie van Adobe Commerce op Wolk ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X aan recentste flardversie 2.4.X-pY.
-* Als een fysiek flarddossier/hotfix niet beschikbaar is, [ bevorder de versie van Adobe Commerce On-Premise ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X aan recentste flardversie 2.4.X-pY.
+* Als een geïsoleerd flarddossier/hotfix niet beschikbaar is, [ bevorder de versie van Adobe Commerce op Wolk ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X aan recentste flardversie 2.4.X-pY.
+* Als een geïsoleerd flarddossier/hotfix niet beschikbaar is, [ bevorder de versie van Adobe Commerce On-Premise ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X aan recentste flardversie 2.4.X-pY.
 
 ## Gerelateerde lezing
 
