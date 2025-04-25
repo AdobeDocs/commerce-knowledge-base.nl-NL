@@ -3,7 +3,7 @@ title: Experience League Support-gebruikershandleiding voor Adobe Commerce
 description: Leer hoe u een ondersteuningsticket naar Experience League Support kunt verzenden, gedeelde toegang tot accounts kunt bieden en door de Adobe Commerce Knowledge Base kunt navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 46c19ec1185aa176beff9e5039a324a1f11b9aa1
+source-git-commit: 145fc1dfc197cde39d55ceac4d02ecee6c641459
 workflow-type: tm+mt
 source-wordcount: '2966'
 ht-degree: 0%
@@ -185,7 +185,7 @@ Ga als volgt te werk als u een nieuw ondersteuningsticket wilt verzenden via uw 
 
 1. De ondersteuningspagina van de Adobe Experience League wordt voor u geladen.
 1. Selecteer **[!UICONTROL Open Ticket]** in het linkermenu.
-1. Vul de velden in.
+1. Vul de [ gebieden ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions) in.
 1. Klik **voorleggen**.
 
 #### *Gelieve te verifiëren uw e-mailadres* fout op de pagina van de Rekening van Adobe Commerce {#verify-email-address-error}
@@ -279,8 +279,7 @@ Voer de volgende stappen uit om een nieuw ondersteuningsticket te verzenden met 
 1. Selecteer **[!UICONTROL Support]** in het gebruikersmenu.
 1. De pagina **[!UICONTROL My Tickets]** wordt geladen.
 1. Klik op **[!UICONTROL Submit a ticket]** in de rechterbovenhoek.
-1. Vul de velden in.
-1. Klik **voorleggen**.
+1. Vul de [ gebieden ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions) in.
 1. Klik op **[!UICONTROL Submit]**.
 
 ### Adobe Commerce P1-hotline {#P1-hotline}
