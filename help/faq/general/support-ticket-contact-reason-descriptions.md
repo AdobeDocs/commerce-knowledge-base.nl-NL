@@ -2,7 +2,7 @@
 title: Beschrijvingen van oorzaken van problemen met ondersteuningsticket
 description: In dit artikel worden de opties voor het ondersteuningsticket **Reden van uitgave** vermeld en worden gedetailleerde beschrijvingen van elke optie gegeven.
 exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
-source-git-commit: d3523be967f16a3e65025917fa6ac65097214100
+source-git-commit: e1f13098e3e0894b1d3acf9ad38fb49f6a5a54f6
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Dit artikel maakt een lijst van de het steunkaartje **gebiedsopties van de Reden
   </tr>
   <tr>
     <td>Infrastructuurincident</td>
-    <td>U hebt hulp nodig met uw Adobe Commerce op cloudinfrastructuur, zoals geplakte implementaties, [!DNL New Relic] toegang, SSH/sFTP-toegang, serviceupgrades ([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ] , maar niet inclusief PHP), SSL-certificaten, enzovoort. **(Niet van toepassing op [!DNL Live Search])**</td>
+    <td>U hebt hulp nodig met uw Adobe Commerce op cloudinfrastructuur, zoals geplakte implementaties, [!DNL New Relic] toegang, SSH/sFTP-toegang, serviceupgrades ([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ] , maar niet inclusief PHP), SSL-certificaten, enzovoort.<strong> (is niet van toepassing op [!DNL Live Search]) </strong>.</td>
   </tr>  
 </tbody>
 </table>
