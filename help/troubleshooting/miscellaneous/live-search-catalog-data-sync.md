@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor het Adobe Commerce-probleem waar
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: b0d4b2e541c42095d6d09b91ba6f390064c89af6
+source-git-commit: fec99ebd6b03f2dc1b70c0ea388935dc5e60ad57
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -136,14 +136,7 @@ Als u de juiste gegevens ziet in `cde_product_attributes_feed` :
 
 ### Synchroniseren na wijziging van API-configuratie
 
-(Bekend probleem) Als u de API-configuratie hebt gewijzigd, wat leidt tot een wijziging in de Data Space ID en tot de bevinding dat de wijzigingen in de catalogus niet meer worden gesynchroniseerd, voert u de volgende opdrachten uit:
-
-```bash
-bin/magento saas:resync --feed products
-bin/magento saas:resync --feed productattributes
-```
-
-Voer de volgende opdrachten uit om de feeds opnieuw te synchroniseren:
+(Bekend probleem) Als u uw API-configuratie hebt gewijzigd, wat resulteert in een wijziging in uw Data Space ID en als u constateert dat de wijzigingen in de catalogus niet meer worden gesynchroniseerd, voert u de volgende opdrachten uit om de feeds opnieuw te synchroniseren:
 
 ```
 bin/magento saas:resync --feed productattributes --cleanup-feed
@@ -158,6 +151,9 @@ bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
 [ leg een steunverzoek ](https://experienceleague.adobe.com/home?support-tab=home#support) voor om herdex van de Levende index van het Onderzoek te verzoeken. Neem in de beschrijving van de uitgave de ID Gegevensruimte/Omgeving op in het deelvenster Beheer onder **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** .
+
+>[!IMPORTANT]
+>Gebruik de optie `--cleanup-feed` alleen als u de API-configuratie hebt bijgewerkt of als u de opdracht `saas:resync` uitvoert met de optie [ -dry-run ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) . In andere gevallen leidt het gebruik van de optie `--cleanup-feed` tot problemen met verloren gegevens en gegevenssynchronisatie.
 
 ## Gerelateerde lezing
 
