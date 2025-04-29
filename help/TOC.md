@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 41948c702d5c4e37847ab18ca2a93798e70a8e98
+source-git-commit: 1f9b11e38ed11fc022a5afa9132130ea2a266616
 workflow-type: tm+mt
-source-wordcount: '9315'
+source-wordcount: '9326'
 ht-degree: 0%
 
 ---
@@ -708,6 +708,7 @@ ht-degree: 0%
       * [Fouten met upgradecompatibiliteitsgereedschappen oplossen](/help/troubleshooting/installation-and-upgrade/uct-segmentation-fault-error.md)
       * [Onvoldoende geheugen tijdens installatie of upgrade](/help/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade.md)
       * [Upgrade naar B2B 1.5.2 mislukt vanwege SQL-syntaxisfout bij ontbrekende functie REGEXP_LIKE](/help/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function.md)
+      * [Prestatiekwestie in de Magento_Company-module-upgrade na B2B 1.5.2-update](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)
    * Site ingedrukt of reageert niet {#site-down-or-unresponsive}
       * [Site is niet toegankelijk vanwege camouflage van oorsprong](/help/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking.md)
       * [503-fout Adobe Commerce openen in webbrowser](/help/troubleshooting/site-down-or-unresponsive/503-error-accessing-magento-in-web-browser.md)
