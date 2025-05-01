@@ -2,7 +2,7 @@
 title: Procedure voor ophalen en toepassen [!UICONTROL security patch]
 description: Dit artikel bevat instructies voor het ophalen en toepassen van een vrijgegeven [!UICONTROL security patch] , maar instructies zijn niet beschikbaar.
 exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
-source-git-commit: 43c8308c6539c53f60fb6457047898a2edd46532
+source-git-commit: 3c7234b52e5e4465d95c95345e1c070c28600dfb
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Een [!UICONTROL security patch] ophalen en toepassen
 
 >[!NOTE]
->Als u een installatie op locatie hebt en geen versiebeheersystemen zoals [!DNL CVS] of [!DNL GitHub] gebruikt om uw code te beheren, kan uw webhost u mogelijk helpen bij het toepassen van de patch. Voel u vrij om hen te bereiken voor steun
+>Als u een installatie op locatie hebt en geen versiebeheersystemen zoals [!DNL CVS] of [!DNL GitHub] gebruikt om uw code te beheren, kan uw webhost u mogelijk helpen bij het toepassen van de patch. Voel je vrij om hen te bereiken voor steun.
 
 Dit artikel bevat instructies voor het ophalen en toepassen van een vrijgegeven [!UICONTROL security patch] , maar instructies zijn niet beschikbaar.
 
