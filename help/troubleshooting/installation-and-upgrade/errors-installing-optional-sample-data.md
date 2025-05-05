@@ -34,11 +34,11 @@ Deze uitzonderingen zijn het gevolg van de machtigingsinstellingen van het besta
 
 ### Oplossing
 
-[ plaats opnieuw bezit en toestemmingen van het dossiersysteem ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) als gebruiker met `root` voorrechten.
+[ plaats opnieuw bezit en toestemmingen van het dossiersysteem ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html?lang=nl-NL) als gebruiker met `root` voorrechten.
 
 ## Symptom (productiemodus)
 
-Als u momenteel voor [ productiemodus ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html) wordt geplaatst, ontbreekt de installatie van steekproefgegevens als u [ magento sampledata gebruikt:stel ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) bevel op:
+Als u momenteel voor [ productiemodus ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=nl-NL) wordt geplaatst, ontbreekt de installatie van steekproefgegevens als u [ magento sampledata gebruikt:stel ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html?lang=nl-NL) bevel op:
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -48,7 +48,7 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 Installeer geen voorbeeldgegevens in de productiemodus. Schakel over naar de modus Ontwikkelaar, wis enkele mappen van `var` en probeer het opnieuw.
 
-Ga de volgende bevelen in de orde in die als [ wordt getoond eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html):
+Ga de volgende bevelen in de orde in die als [ wordt getoond eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html?lang=nl-NL):
 
 ```php
 cd <magento_root>

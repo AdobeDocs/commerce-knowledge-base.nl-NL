@@ -16,7 +16,7 @@ Dit artikel biedt oplossingen voor het opnieuw autoriseren van een integratie om
 
 ## Database- en SaaS-integratie
 
-Voor lijsten van Gegevensbestand en integratie SaaS, verwijs naar [ het Verbinden van Externe Gegevens die een Integratie gebruiken ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations) in onze ontwikkelaarsdocumentatie. (Gebruik voor navigatie de inhoudsopgave links bij het openen van de pagina.)
+Voor lijsten van Gegevensbestand en integratie SaaS, verwijs naar [ het Verbinden van Externe Gegevens die een Integratie gebruiken ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/saas/integrations) in onze ontwikkelaarsdocumentatie. (Gebruik voor navigatie de inhoudsopgave links bij het openen van de pagina.)
 
 ## Hebt u verbindingsproblemen?
 

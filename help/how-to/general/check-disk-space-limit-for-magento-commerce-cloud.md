@@ -21,4 +21,4 @@ Om te controleren hoeveel ruimte u voor elke Adobe Commerce hebt op de omgeving 
 
 ## Gerelateerde lezing
 
-[ beheer schijfruimte ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) in onze ontwikkelaarsdocumentatie.
+[ beheer schijfruimte ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) in onze ontwikkelaarsdocumentatie.

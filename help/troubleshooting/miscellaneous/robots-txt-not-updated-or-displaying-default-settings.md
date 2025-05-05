@@ -42,8 +42,8 @@ Indexeren door zoekmachines is uitgeschakeld.
 
 ## Oplossing
 
-Indexeren door zoekmachines inschakelen. Zie [ indexeren door onderzoeksmotor ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine) in onze ontwikkelaarsdocumentatie vormen.
+Indexeren door zoekmachines inschakelen. Zie [ indexeren door onderzoeksmotor ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine) in onze ontwikkelaarsdocumentatie vormen.
 
 ## Gerelateerde lezing
 
-* [ voeg plaatstoewijzing en onderzoekmachine robots ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) in onze ontwikkelaarsdocumentatie toe.
+* [ voeg plaatstoewijzing en onderzoekmachine robots ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) in onze ontwikkelaarsdocumentatie toe.

@@ -338,11 +338,11 @@ ht-degree: 0%
       * [Aanbevolen procedures voor het omzetten van cachegrootte in paden](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [CSS- en JS-bestanden optimaliseren in Adobe Commerce](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
    * Database {#database}
-      * [ Adobe Commerce 2.3.5 verbetering: compact aan dynamische lijsten ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
+      * [ Adobe Commerce 2.3.5 verbetering: compact aan dynamische lijsten ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=nl-NL)
       * [Aanbevolen werkwijze voor triggergebruik](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [ gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+      * [ gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=nl-NL)
       * [Adobe Commerce on cloud Infrastructure best practices voor MySQL slave-verbinding](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
-      * [ beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+      * [ beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=nl-NL)
    * Algemeen {#general}
       * [_isScopePrivate in blokken met persoonlijke inhoud vertraagt de Adobe Commerce-prestaties](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
       * [Aanbevolen procedures voor het oplossen van problemen voor Adobe Commerce met cloudinfrastructuur](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
@@ -370,7 +370,7 @@ ht-degree: 0%
       * [Aanbevolen procedures voor afbeeldingen in Adobe Commerce op cloudinfrastructuur](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
       * [Tips en trucs voor Adobe Commerce: kritieke acties uitvoeren in Admin](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
       * [Tips en trucs voor Adobe Commerce: klik op Rapporten uitschakelen als u dit niet doet](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-      * [ Indexers &quot;Update op Programma&quot;optimaliseert de prestaties van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
+      * [ Indexers &quot;Update op Programma&quot;optimaliseert de prestaties van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html?lang=nl-NL)
       * [Aanbevolen Adobe Commerce-productvariaties](/help/best-practices/performance/best-practice-magento-product-variations.md)
       * [Aanbevolen procedures voor plaatsing van Adobe Commerce-orders](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
       * [Tips en trucs voor Adobe Commerce: asynchrone orderverwerking inschakelen](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)

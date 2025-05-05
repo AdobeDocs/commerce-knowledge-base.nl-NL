@@ -59,7 +59,7 @@ Let er ook op dat met ondersteuning de database niet wordt teruggedraaid of hers
 
 ## Een omgevingsmomentopname herstellen
 
-Om een bestaande momentopname (op het gesteunde milieu te herstellen: Integratie, het Opvoeren, Productie op het Plan van de Aanzet of Integratie op Pro plan), volg de stappen in [ Reservemanagement: Herstel een handsteun ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) in onze Commerce op de Gids van de Infrastructuur van de Wolk.
+Om een bestaande momentopname (op het gesteunde milieu te herstellen: Integratie, het Opvoeren, Productie op het Plan van de Aanzet of Integratie op Pro plan), volg de stappen in [ Reservemanagement: Herstel een handsteun ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) in onze Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ## Back-up van database (DB)
 

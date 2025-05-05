@@ -42,9 +42,9 @@ Dit zal een verenigbaarheidsrapport tonen. Als u incompatibiliteiten hebt, moet 
 Verwijs naar de volgende documentatie voor instructies op hoe te om te bevorderen:
 
 * Voor de verbeteringen van de PWA Studio, onderzoek naar &quot;Bevorderend van een vorige versie&quot;sectie van de [ versienota&#39;s van de PWA ](https://github.com/magento/pwa-studio/releases/) voor de versie die u moet bevorderen aan.
-* [ Verbetering Adobe Commerce op versie van de wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in onze ontwikkelaarsdocumentatie
-* [ Verbetering Adobe Commerce op-gebouw (geïnstalleerd gebruikend &quot;composer creeer-project&quot;of archief) ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) in onze ontwikkelaarsdocumentatie
-* [ Verbetering Adobe Commerce op-gebouw (die door het klonen van Adobe Commerce repo wordt geïnstalleerd) ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/developer/git-installs) in onze ontwikkelaarsdocumentatie
+* [ Verbetering Adobe Commerce op versie van de wolkeninfrastructuur ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in onze ontwikkelaarsdocumentatie
+* [ Verbetering Adobe Commerce op-gebouw (geïnstalleerd gebruikend &quot;composer creeer-project&quot;of archief) ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) in onze ontwikkelaarsdocumentatie
+* [ Verbetering Adobe Commerce op-gebouw (die door het klonen van Adobe Commerce repo wordt geïnstalleerd) ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/developer/git-installs) in onze ontwikkelaarsdocumentatie
 
 ## Gerelateerde lezing
 

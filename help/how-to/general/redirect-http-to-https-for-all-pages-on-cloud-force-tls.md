@@ -29,7 +29,7 @@ In deze stap, bepalen wij veilige URLs voor de opslag. Als dat reeds wordt gedaa
 1. Plaats het **Gebruik Veilige URLs op Storefront** en het **Gebruik Veilige URLs op Admin** montages aan **ja**.    ![ magento-admin_base-urls-secure-settings.png ](assets/magento-admin_base-urls-secure-settings.png)
 1. Klik **sparen config** in de hoger-juiste hoek om veranderingen toe te passen.
 
-**Verwante documentatie in onze gebruikersgids:**   [ opslag URLs ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls).
+**Verwante documentatie in onze gebruikersgids:**   [ opslag URLs ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/site-store/store-urls).
 
 ### Stap 2: TLS forceren inschakelen {#step-2-enable-force-tls}
 

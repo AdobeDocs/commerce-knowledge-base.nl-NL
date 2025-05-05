@@ -36,7 +36,7 @@ Adobe Commerce-klanten.
 
 ## Upgrade Compatibility Tool 1.1.0 installeren
 
-Voor installatiestappen, verwijs naar Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering > installeert ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run) in onze ontwikkelaarsdocumentatie. Voor eerste vereisten om het hulpmiddel te gebruiken, verwijs naar Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/prerequisites) in onze ontwikkelaarsdocumentatie.
+Voor installatiestappen, verwijs naar Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering > installeert ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run) in onze ontwikkelaarsdocumentatie. Voor eerste vereisten om het hulpmiddel te gebruiken, verwijs naar Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/prerequisites) in onze ontwikkelaarsdocumentatie.
 
 ## Wat is het aantal naast elke kwestie?
 
@@ -47,7 +47,7 @@ De foutberichten van het gereedschap Compatibiliteit bijwerken zijn gecategorise
 * Foutcode: de door Adobe Commerce toegewezen id voor het foutbericht.
 * Foutbeschrijving: een beschrijving die de oorzaak van de fout samenvat.
 * Fout gesuggereerde actie: Indien van toepassing, verstrekt raad om de fout problemen op te lossen en op te lossen.
-* De codes zijn vermeld en beschreven op de [ pagina van de het berichtverwijzing van de Fout ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/reporting/error-messages).
+* De codes zijn vermeld en beschreven op de [ pagina van de het berichtverwijzing van de Fout ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/reporting/error-messages).
 
 ## Waar kan ik feedback over het gereedschap delen?
 
@@ -56,4 +56,4 @@ U kunt het UCT team op ons [ #upgrade-verenigbaarheid-hulpmiddel ](https://magen
 ## Verwante lezing
 
 * Adobe Commerce Blog: [ Introducerend het Hulpmiddel van de Verenigbaarheid van de Verbetering (Alpha) ](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
-* Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview) in onze ontwikkelaarsdocumentatie.
+* Adobe Commerce: [ het Hulpmiddel van de Verenigbaarheid van de Verbetering ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview) in onze ontwikkelaarsdocumentatie.

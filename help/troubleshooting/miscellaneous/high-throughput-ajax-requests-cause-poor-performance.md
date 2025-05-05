@@ -36,7 +36,7 @@ De hoge productie AJAX verzoeken omvatten die met betrekking tot de privé inhou
 
 Er zijn drie oplossingen:
 
-* [ Verbetering aan versie 2.3.4 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version).
+* [ Verbetering aan versie 2.3.4 ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version).
 * Verzeker lichtere verzoeken (geheim voorgeheugenverzoeken of ga naar privé inhoud van klanten).
 * Verminder het aantal verzoeken.
 
@@ -46,7 +46,7 @@ Als er derde AJAX verzoeken zijn die op elke pagina worden teweeggebracht, probe
 
 <u> verminder het aantal verzoeken </u>
 
-* Schakel het hardnekkige winkelwagentje uit, omdat hierdoor het aantal `customer/section/load` -aanvragen kan toenemen. Volg de stappen in [ Persistent het winkelen de wegen van het winkelwagentje ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/paths/config-reference-general) in onze ontwikkelaarsdocumentatie om te zien of wordt de blijvende het winkelwagentje toegelaten.
+* Schakel het hardnekkige winkelwagentje uit, omdat hierdoor het aantal `customer/section/load` -aanvragen kan toenemen. Volg de stappen in [ Persistent het winkelen de wegen van het winkelwagentje ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/paths/config-reference-general) in onze ontwikkelaarsdocumentatie om te zien of wordt de blijvende het winkelwagentje toegelaten.
 * Als u inhoud in `sections.xml` moet opnieuw laden of ongeldig maken volg de stappen in [ Privé inhoud: bevestig privé inhoud ](https://developer.adobe.com/commerce/php/development/cache/page/private-content/#invalidate-private-content) in onze ontwikkelaarsdocumentatie. Zorg ervoor dat u de methode `customerData.reload()` niet rechtstreeks in uw aanpassingen gebruikt.
 * Controleer andere POST AJAX verzoeken op dezelfde pagina. Open Google Chrome Developer Tool in Google Chrome browser. Klik op het **lusje van het Netwerk** en dan het **XHR** lusje, en er zal de lijst van alle AJAX verzoeken van de bepaalde pagina zijn. Klik vervolgens op elke aanvraag en in het veld Aanvraagmethode moeten de aanvragen van de GET zijn. Opmerking: Google Chrome wordt als voorbeeld gebruikt en dit is ook mogelijk in andere browsers.
 * Controleer de GTM-functionaliteit (Google Tag Manager) die een specifieke AJAX is. De gebruiker kan deze AJAX verwijderen en de aanpassing ervan voorzien van een privéfunctie om het totale aantal aanvragen bij de server te beperken.

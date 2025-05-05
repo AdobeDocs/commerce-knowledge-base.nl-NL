@@ -29,7 +29,7 @@ Dit is een beoogde functie om ervoor te zorgen dat ontwikkelaarsgegevens en -int
 
 ## Oplossing
 
-Als u altijd toegelaten Googles Analytics wilt hebben, plaats veranderlijk opstellen `ENABLE_GOOGLE_ANALYTICS = true`, zoals die in [ wordt beschreven stelt variabelen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics) in onze ontwikkelaarsdocumentatie op.
+Als u altijd toegelaten Googles Analytics wilt hebben, plaats veranderlijk opstellen `ENABLE_GOOGLE_ANALYTICS = true`, zoals die in [ wordt beschreven stelt variabelen ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics) in onze ontwikkelaarsdocumentatie op.
 
 >[!NOTE]
 >

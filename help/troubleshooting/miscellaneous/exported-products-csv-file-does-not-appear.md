@@ -95,7 +95,7 @@ Als u het proces optioneel als een snijtaak wilt toevoegen, moet u de variabele 
 
 >[!TIP]
 >
->[ YAML dossiers ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) zijn gevoelig geval en staan geen lusjes toe. Wees voorzichtig met het gebruik van consistente inspringing in het .magento.env.yaml-bestand, anders werkt de configuratie mogelijk niet naar behoren. De voorbeelden in de documentatie en in het voorbeeldbestand gebruiken een inspringing met twee spaties. Gebruik de Griekenland-hulpmiddelen bevestigen bevel om uw configuratie te controleren.
+>[ YAML dossiers ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=nl-NL) zijn gevoelig geval en staan geen lusjes toe. Wees voorzichtig met het gebruik van consistente inspringing in het .magento.env.yaml-bestand, anders werkt de configuratie mogelijk niet naar behoren. De voorbeelden in de documentatie en in het voorbeeldbestand gebruiken een inspringing met twee spaties. Gebruik de Griekenland-hulpmiddelen bevestigen bevel om uw configuratie te controleren.
 
 >[!NOTE]
 >

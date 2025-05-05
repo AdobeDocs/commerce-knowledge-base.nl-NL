@@ -67,7 +67,7 @@ Als er een tijdelijke oplossing is, geeft u deze hieronder op als een aparte sec
 
 ## Gerelateerde lezing
 
-* [ onderwerp van het Artikel ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home) in onze gebruikersgids.
+* [ onderwerp van het Artikel ](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home) in onze gebruikersgids.
 * [ onderwerp van het Artikel ](https://developer.adobe.com/commerce/docs/) in onze ontwikkelaarsdocumentatie. U kunt ook zeggen om tussen instructies in apparaten voor wolk vs op-gebouw gebruikers te onderscheiden: &quot;[ het onderwerp van het Artikel ](https://developer.adobe.com/commerce/docs/) in onze ontwikkelaarsdocumentatie voor Adobe Commerce op wolkeninfrastructuur.&quot; vs &quot;[ onderwerp van het Artikel ](https://developer.adobe.com/commerce/docs/) in onze ontwikkelaarsdocumentatie voor Adobe Commerce op-gebouw.&quot;
 * [ onderwerp van het Artikel ](https://support.magento.com/hc/en-us) in onze basis van steunkennis.
 * Alle gerelateerde bronnen (blogs, forums, StackOverflow, enz.)

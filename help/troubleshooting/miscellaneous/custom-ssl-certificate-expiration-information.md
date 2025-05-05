@@ -46,6 +46,6 @@ Als u in een situatie bent waar uw douaneSSL door uw interne SSL werd vervangen 
 ## Gerelateerde lezing
 
 * [ SSL (TLS) certificaten voor Magento Commerce Cloud: Veelgestelde vragen ](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) in onze basis van de steunkennis.
-* [ bevel-lijn hulpmiddelen verwijzing: magento-wolk certificaat:voeg ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd) in onze ontwikkelaarsdocumentatie toe.
-* [ checklist van de Lancering ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist) in onze ontwikkelaarsdocumentatie.
-* [ Toegang plaats-brede het Hulpmiddel van de Analyse ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool) in onze gebruikersgids.
+* [ bevel-lijn hulpmiddelen verwijzing: magento-wolk certificaat:voeg ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd) in onze ontwikkelaarsdocumentatie toe.
+* [ checklist van de Lancering ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/launch/checklist) in onze ontwikkelaarsdocumentatie.
+* [ Toegang plaats-brede het Hulpmiddel van de Analyse ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool) in onze gebruikersgids.

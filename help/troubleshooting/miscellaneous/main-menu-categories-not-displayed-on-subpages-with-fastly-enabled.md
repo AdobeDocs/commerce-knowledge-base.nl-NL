@@ -1,6 +1,6 @@
 ---
 title: Hoofdmenu (Categorieën) wordt niet weergegeven op subpagina's waarvoor Snelheid is ingeschakeld
-description: Dit artikel biedt een oplossing voor het feit dat het hoofdmenu (of het [menu Navigatie boven aan categorie] (https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in de gebruikershandleiding) niet wordt weergegeven in de winkel voor subpagina's (bijvoorbeeld *blog/pagina*) wanneer Fastly of Varnish is ingeschakeld.
+description: Dit artikel biedt een oplossing voor het feit dat het hoofdmenu (of het [menu Navigatie boven aan categorie] (https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=nl-NL) in de gebruikershandleiding) niet wordt weergegeven in de winkel voor subpagina's (bijvoorbeeld *blog/pagina*) wanneer Fastly of Varnish is ingeschakeld.
 exl-id: 7c54791d-8aa6-4f01-a28b-a7aecdb8ff74
 feature: Categories, Marketing Tools
 role: Developer

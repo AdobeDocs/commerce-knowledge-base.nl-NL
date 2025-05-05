@@ -52,5 +52,5 @@ U kunt als volgt rondom de achtergrond werken:
    * Upgrade Composer naar een versie die ouder is dan 26 november 2015: `composer self-update` .
 
 1. Verwijder de Adobe Commerce-map en -submappen.
-1. Probeer de download opnieuw met `[composer create-project](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)` of `[git clone](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/)` .
+1. Probeer de download opnieuw met `[composer create-project](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/composer)` of `[git clone](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/)` .
 1. Werk de Composer bij nadat het downloaden van de Adobe Commerce-software is voltooid: `composer self-update`.

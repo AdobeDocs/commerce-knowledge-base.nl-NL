@@ -27,7 +27,7 @@ Maak een &#39;scrubbed&#39;-dump van de beheerder:
 
 Vervolgens kunt u ondersteuning bieden voor de directe downloadkoppeling naar de dump-bestanden (uw winkeladres en de bestandsnaam zoals deze worden weergegeven).
 
-Als u kwesties hebt die tot dumps van Admin leiden, denk na gebruikend bevelen CLI zoals die in [ worden beschreven in werking stellen de steunnut ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/run-support-utilities) in onze ontwikkelaarsdocumentatie.
+Als u kwesties hebt die tot dumps van Admin leiden, denk na gebruikend bevelen CLI zoals die in [ worden beschreven in werking stellen de steunnut ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/run-support-utilities) in onze ontwikkelaarsdocumentatie.
 
 ## Gerelateerde lezing
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [ MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Verwijs naar [ installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
+> [ MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Verwijs naar [ installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
 
 Het artikel verstrekt een moeilijke situatie voor wanneer de Status van de Index van de Elasticsearch niet &quot;*groen*&quot;is. &quot;*geel*&quot;wijst op normaal, en &quot;*rood*&quot;wijst op slecht. De status &#39;geel&#39; of &#39;rood&#39; kan voorkomen in combinatie met ontbrekende producten of de weergave van oude productinformatie.
 

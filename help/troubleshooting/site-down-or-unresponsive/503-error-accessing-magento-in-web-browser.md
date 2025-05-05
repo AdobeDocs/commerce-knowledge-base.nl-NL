@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u> Stappen om te reproduceren </u>
 
-(Eerste vereisten: zorg ervoor de opslag niet op [ onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show) is).
+(Eerste vereisten: zorg ervoor de opslag niet op [ onderhoudswijze ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show) is).
 
 Navigeer in een webbrowser naar uw Commerce-beheerder of -winkel.
 

@@ -40,5 +40,5 @@ inhoud:
 
 ## Gerelateerde lezing
 
-* [ Firewall van de Toepassing van het Web (WAF) ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service) in Commerce op de gids van de Infrastructuur van de Wolk.
-* [ Begonnen het worden met douane VCL ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) in Commerce op de gids van de Infrastructuur van de Wolk.
+* [ Firewall van de Toepassing van het Web (WAF) ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service) in Commerce op de gids van de Infrastructuur van de Wolk.
+* [ Begonnen het worden met douane VCL ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) in Commerce op de gids van de Infrastructuur van de Wolk.

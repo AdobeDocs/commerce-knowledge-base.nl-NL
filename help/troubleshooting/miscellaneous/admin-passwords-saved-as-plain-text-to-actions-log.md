@@ -45,5 +45,5 @@ Nadat u de beveiligingsupdate hebt geïnstalleerd, wordt het wachtwoord gecodeer
 ## Meer informatie {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
 
 * [ Adobe Commerce 2.0.16 en 2.1.9 pagina van de Update van de Veiligheid ](https://magento.com/security/patches/magento-2016-and-219-security-update) in ons veiligheidscentrum
-* [ bevorder de toepassing en de componenten van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) in onze ontwikkelaarsdocumentatie
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ bevorder de toepassing en de componenten van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

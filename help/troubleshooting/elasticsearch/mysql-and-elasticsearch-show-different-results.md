@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [ MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheer opstelling en gevormd hebben alvorens versie 2.4.0 te installeren. Verwijs naar [ installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search) in onze ontwikkelaarsdocumentatie.
+> [ MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheer opstelling en gevormd hebben alvorens versie 2.4.0 te installeren. Verwijs naar [ installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search) in onze ontwikkelaarsdocumentatie.
 
 Dit artikel biedt een patch voor het bekende Adobe Commerce-probleem met cloudinfrastructuur 2.2.3 met betrekking tot het ophalen van verschillende zoekresultaten voor dezelfde zoekquery met MySQL en Elasticsearch.
 

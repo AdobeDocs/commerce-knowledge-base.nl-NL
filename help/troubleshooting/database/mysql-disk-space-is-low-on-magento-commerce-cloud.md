@@ -78,7 +78,7 @@ De hoeveelheid `/data/mysql` kan vol worden als gevolg van een aantal problemen,
 
 Er is een directe stap die u kunt nemen om [!DNL MySQL] weer op de rails te krijgen (of om te voorkomen dat  vastloopt): maak ruimte vrij door grote tabellen te spoelen.
 
-Maar een oplossing op lange termijn zou meer ruimte en na [ beste praktijken van het Gegevensbestand ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) toewijzen, met inbegrip van het toelaten van de [ Orde/Factuur/het archieffunctionaliteit van het Verzending ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
+Maar een oplossing op lange termijn zou meer ruimte en na [ beste praktijken van het Gegevensbestand ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=nl-NL) toewijzen, met inbegrip van het toelaten van de [ Orde/Factuur/het archieffunctionaliteit van het Verzending ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
 
 Hieronder vindt u details over zowel snelle als langetermijnoplossingen.
 
@@ -124,7 +124,7 @@ Controleren op groot `ibtmp1` bestand op `/data/mysql` van elk knooppunt: dit be
 
 >[!WARNING]
 >
->We raden u ten zeerste aan een back-up van een database te maken voordat u wijzigingen aanbrengt en deze te vermijden tijdens perioden met veel laadtijd. Zie [ Dump uw gegevensbestand ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots) in onze ontwikkelaardocumentatie.
+>We raden u ten zeerste aan een back-up van een database te maken voordat u wijzigingen aanbrengt en deze te vermijden tijdens perioden met veel laadtijd. Zie [ Dump uw gegevensbestand ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots) in onze ontwikkelaardocumentatie.
 
 Controleer of er grote tabellen zijn en of een van deze tabellen kan worden verwijderd. Doe dit op het primaire (bron) knooppunt.
 
@@ -132,7 +132,7 @@ Tabellen met rapporten kunnen bijvoorbeeld meestal worden verwijderd. Voor detai
 
 Als er geen grote rapporttabellen zijn, kunt u `_index` -tabellen leegmaken, gewoon om de Adobe Commerce-toepassing weer op schema te krijgen. `index_price` -tabellen zijn de beste kandidaten. Bijvoorbeeld `catalog_category_product_index_storeX` tabellen, waarin X waarden kan hebben van &quot;1&quot; tot het maximale aantal winkels. Onthoud dat u opnieuw moet indexeren om gegevens in deze tabellen te herstellen. In het geval van grote catalogi kan het veel tijd kosten om de gegevens opnieuw te indexeren.
 
-Wacht tot de software volledig is gesynchroniseerd nadat u deze hebt verwijderd. U kunt steunen nu tot stand brengen en belangrijkere stappen nemen om meer ruimte toe te voegen, als het toewijzen van/het kopen van meer ruimte en het toelaten van [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive) functionaliteit van het archiefarchief 0&rbrace; van de Orde/van de Rekening/van de Verzending.
+Wacht tot de software volledig is gesynchroniseerd nadat u deze hebt verwijderd. U kunt steunen nu tot stand brengen en belangrijkere stappen nemen om meer ruimte toe te voegen, als het toewijzen van/het kopen van meer ruimte en het toelaten van [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-archive) functionaliteit van het archiefarchief 0&rbrace; van de Orde/van de Rekening/van de Verzending.
 
 ### Instellingen voor binaire logboekregistratie controleren
 
@@ -151,4 +151,4 @@ Als u uw ruimtelimiet hebt bereikt en nog steeds weinig ruimte hebt, kunt u over
 
 ## Gerelateerde lezing
 
-[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

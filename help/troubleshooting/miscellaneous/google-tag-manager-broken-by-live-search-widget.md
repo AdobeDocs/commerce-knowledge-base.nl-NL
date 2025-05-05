@@ -31,6 +31,6 @@ U doet dit door de widget uit te schakelen in Beheer. [!DNL Live Search] dan bli
 
 ## Gerelateerde lezing
 
-* [[!DNL Live Search]  Overzicht van de Gids ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html) in onze Documentatie van het Onderzoek van Adobe Commerce Live
+* [[!DNL Live Search]  Overzicht van de Gids ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html?lang=nl-NL) in onze Documentatie van het Onderzoek van Adobe Commerce Live
 
-* [ Installerend  [!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) in onze Documentatie van het Onderzoek van Adobe Commerce Live
+* [ Installerend  [!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL) in onze Documentatie van het Onderzoek van Adobe Commerce Live

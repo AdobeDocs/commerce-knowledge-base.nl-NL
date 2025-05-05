@@ -34,7 +34,7 @@ Het e-mailadres wijzigen voor een gebruiker met een eigen account op <https://ac
 
 <u> Oplossing </u>
 
-1. [ leg een steunverzoek ](https://experienceleague.adobe.com/home#support) in https://experienceleague.adobe.com/home#support voor die het volgende verklaren:
+1. [ leg een steunverzoek ](https://experienceleague.adobe.com/home?lang=nl-NL#support) in https://experienceleague.adobe.com/home?lang=nl-NL#support voor die het volgende verklaren:
 
    * Bestaand e-mailadres dat moet worden bijgewerkt
    * Nieuw e-mailadres
@@ -48,7 +48,7 @@ Het e-mailadres wijzigen van een gebruiker die momenteel geen eigen account heef
 
 <u> Oplossing </u>
 
-Als u toegang tot de brievenbus van de [ huidige eigenaar e-mail ] hebt, stel het wachtwoord voor de e-mail van de huidige eigenaar na het [ Terugstellen terug of verander uw gids van het het wachtwoord van de Adobe ](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in de Gids van de Gebruiker van het Creative Cloud.
+Als u toegang tot de brievenbus van de [ huidige eigenaar e-mail ] hebt, stel het wachtwoord voor de e-mail van de huidige eigenaar na het [ Terugstellen terug of verander uw gids van het het wachtwoord van de Adobe ](https://helpx.adobe.com/nl/manage-account/using/change-or-reset-password.html) in de Gids van de Gebruiker van het Creative Cloud.
 
 1. Zoek de koppeling voor het opnieuw instellen van wachtwoorden die naar de postbus van de huidige eigenaar is verzonden met instructies.
 1. Plaats een nieuw wachtwoord, en verander e-mail in [ nieuwe eigenaar e-mail ].
@@ -62,5 +62,5 @@ Nochtans, als u geen toegang tot e-mail hebt die naar [ wordt verzonden huidige 
 
 ## Gerelateerde lezing
 
-[ het vergeten wachtwoord van het Terugstellen ](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in de Gids van de Gebruiker van het Creative Cloud.
-[ werk uw rekeningsprofiel ](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html) in de Gids van de Gebruiker van het Creative Cloud bij.
+[ het vergeten wachtwoord van het Terugstellen ](https://helpx.adobe.com/nl/manage-account/using/change-or-reset-password.html) in de Gids van de Gebruiker van het Creative Cloud.
+[ werk uw rekeningsprofiel ](https://helpx.adobe.com/nl/manage-account/using/edit-adobe-account-personal-profile.html) in de Gids van de Gebruiker van het Creative Cloud bij.

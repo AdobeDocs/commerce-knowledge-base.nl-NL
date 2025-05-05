@@ -51,7 +51,7 @@ Controleer de sessierecord die in de tabel `admin_user_session` is gemaakt. Als 
 
 ### De sessieopslag wijzigen
 
-Wijzig de sessieopslag. Gebruik info van [ hoe te om van uw zittingsdossiers ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/session-storage/sessions) artikel in onze ontwikkelaarsdocumentatie de plaats te bepalen om te weten te komen waar uw zitting wordt opgeslagen, en het te veranderen door het `app/etc/env.php` dossier uit te geven.
+Wijzig de sessieopslag. Gebruik info van [ hoe te om van uw zittingsdossiers ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/storage/session-storage/sessions) artikel in onze ontwikkelaarsdocumentatie de plaats te bepalen om te weten te komen waar uw zitting wordt opgeslagen, en het te veranderen door het `app/etc/env.php` dossier uit te geven.
 
 Als u bijvoorbeeld een sessie wilt opslaan in het bestandssysteem, wijzigt u de sectie `'session'` als volgt:
 
@@ -69,9 +69,9 @@ Voer de opdracht `bin/magento app:config:import` uit om configuratiegegevens te 
 
 ## Gerelateerde lezing
 
-* [ de Gegevens van de Invoer van configuratiedossiers ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/import-configuration) in onze ontwikkelaarsdocumentatie
-* [ vorm  [!DNL Redis] ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis) in onze ontwikkelaarsdocumentatie
-* [ richt terug naar de [!UICONTROL Commerce Admin] login vorm met &quot;Uw rekening is tijdelijk gehandicapt&quot;fout ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error) in onze basis van de steunkennis
-* [ richt terug naar de login vorm zonder fout, wanneer het proberen om aan [!UICONTROL Commerce Admin] ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin) in onze basis van de steunkennis aan te melden
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ de Gegevens van de Invoer van configuratiedossiers ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/configuration-management/import-configuration) in onze ontwikkelaarsdocumentatie
+* [ vorm  [!DNL Redis] ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cache/redis/config-redis) in onze ontwikkelaarsdocumentatie
+* [ richt terug naar de [!UICONTROL Commerce Admin] login vorm met &quot;Uw rekening is tijdelijk gehandicapt&quot;fout ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error) in onze basis van de steunkennis
+* [ richt terug naar de login vorm zonder fout, wanneer het proberen om aan [!UICONTROL Commerce Admin] ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin) in onze basis van de steunkennis aan te melden
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
 

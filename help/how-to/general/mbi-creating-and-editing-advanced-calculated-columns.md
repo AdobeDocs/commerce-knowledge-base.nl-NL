@@ -1,6 +1,6 @@
 ---
 title: 'MBI: Geavanceerde berekende kolommen maken en bewerken'
-description: '[Admin-gebruikers](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) hebben de mogelijkheid om bepaalde berekende kolommen te maken en te bewerken in Beheer Data Warehouse. Deze berekende kolommen geven u de capaciteit aan opstelling het rapport u zoekt om zeer belangrijke bedrijfsvragen te beantwoorden.'
+description: '[Admin-gebruikers](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) hebben de mogelijkheid om bepaalde berekende kolommen te maken en te bewerken in Beheer Data Warehouse. Deze berekende kolommen geven u de capaciteit aan opstelling het rapport u zoekt om zeer belangrijke bedrijfsvragen te beantwoorden.'
 exl-id: 713a5593-8103-4d74-be5e-0102678d0f97
 feature: Commerce Intelligence
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # MBI: Geavanceerde berekende kolommen maken en bewerken
 
-[ Admin gebruikers ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) hebben de capaciteit om bepaalde berekende kolommen in de Manager van de Data Warehouse tot stand te brengen en uit te geven. Deze berekende kolommen geven u de capaciteit aan opstelling het rapport u zoekt om zeer belangrijke bedrijfsvragen te beantwoorden.
+[ Admin gebruikers ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) hebben de capaciteit om bepaalde berekende kolommen in de Manager van de Data Warehouse tot stand te brengen en uit te geven. Deze berekende kolommen geven u de capaciteit aan opstelling het rapport u zoekt om zeer belangrijke bedrijfsvragen te beantwoorden.
 
 Voor de lijst van berekende kolommen die u in de Manager van de Data Warehouse kunt tot stand brengen, evenals begeleiding om u te verzekeren opstelling correct, controleer de volgende artikelen in onze gebruikersgids:
 
-* [ Creërend berekende kolommen ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/creating-calculated-columns)
-* [ Berekende kolomtypes ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/calc-column-types)
-* [ Begrijpend en evaluerend lijstverhoudingen ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/table-relationships)
-* [ Creërend wegen voor berekende kolommen ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/create-paths-calc-columns)
+* [ Creërend berekende kolommen ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/creating-calculated-columns)
+* [ Berekende kolomtypes ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/calc-column-types)
+* [ Begrijpend en evaluerend lijstverhoudingen ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/table-relationships)
+* [ Creërend wegen voor berekende kolommen ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/create-paths-calc-columns)
 
 ## Ik heb nog steeds hulp nodig!
 
@@ -35,7 +35,7 @@ Als je niet zeker weet hoe je een van deze vragen moet beantwoorden, maak je dan
 
 ## Gerelateerde lezing
 
-* [ MBI Gids van de Gebruiker ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview)
+* [ MBI Gids van de Gebruiker ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/guide-overview)
 * [MBI: gegevensdiscrepanties](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
-* [ MBI: Analyst van gegevens ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/data-analyst)
-* [ MBI: Het krijgen van Hulp met Magento BI ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/start/sign-in)
+* [ MBI: Analyst van gegevens ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/data-analyst)
+* [ MBI: Het krijgen van Hulp met Magento BI ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/start/sign-in)

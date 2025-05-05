@@ -52,6 +52,6 @@ Controleer of de configuratie niet is opgeslagen in `app/etc/env.php` of `app/et
 
 ## Verwante lezing
 
-* [ voer de Configuratie ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration) in onze ontwikkelaarsdocumentatie uit.
-* [ plaats de waarden van de Configuratie ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values) in onze ontwikkelaarsdocumentatie.
+* [ voer de Configuratie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration) in onze ontwikkelaarsdocumentatie uit.
+* [ plaats de waarden van de Configuratie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values) in onze ontwikkelaarsdocumentatie.
 * [ Adobe Commerce op wolkeninfrastructuur: verminder plaatsingsonderbreking met het Beheer van de Configuratie ](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in onze steun kennisbasis.

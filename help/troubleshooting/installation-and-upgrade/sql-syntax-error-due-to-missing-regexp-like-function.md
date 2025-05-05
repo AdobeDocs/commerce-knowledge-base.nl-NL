@@ -38,7 +38,7 @@ De upgrade naar B2B versie 1.5.2 mislukt door een SQL-syntaxisfout vanwege de on
 
 <u> Stappen om </u> te reproduceren:
 
-1. Wijs een bedrijf aan een moederbedrijf toe om bedrijfshiërarchie te vestigen. Verwijs naar [ leiden de Hiërarchie van het Bedrijf ](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) in de gids van Adobe Commerce B2B voor meer informatie.
+1. Wijs een bedrijf aan een moederbedrijf toe om bedrijfshiërarchie te vestigen. Verwijs naar [ leiden de Hiërarchie van het Bedrijf ](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) in de gids van Adobe Commerce B2B voor meer informatie.
 1. Upgrade B2B naar versie 1.5.2.
 
 <u> Verwachte resultaten </u>:
@@ -78,4 +78,4 @@ Volg onderstaande stappen voor Adobe Commerce on Cloud-infrastructuur:
    composer update magento/magento-cloud-patches
    ```
 
-1. Leg de wijzigingen vast en duw deze om opnieuw te implementeren. Verwijs naar [ passen flarden ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) in onze gids Adobe Commerce op de Wolk voor instructies toe.
+1. Leg de wijzigingen vast en duw deze om opnieuw te implementeren. Verwijs naar [ passen flarden ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) in onze gids Adobe Commerce op de Wolk voor instructies toe.

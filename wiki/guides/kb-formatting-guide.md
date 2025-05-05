@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ## Auteur in markeringen
 
-Over het algemeen, gebruiken wij [ Gids van de Stijl van de Syntaxis van de Markering van Adobe Experience League ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), maar er zijn sommige verschillen en uitzonderingen. Bovendien zijn bepaalde HTML-tags in bepaalde gevallen vereist.
+Over het algemeen, gebruiken wij [ Gids van de Stijl van de Syntaxis van de Markering van Adobe Experience League ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=nl-NL), maar er zijn sommige verschillen en uitzonderingen. Bovendien zijn bepaalde HTML-tags in bepaalde gevallen vereist.
 
 Hier volgen voorbeelden van de opmaak Markering die het meest wordt gebruikt in onze reactie.
 

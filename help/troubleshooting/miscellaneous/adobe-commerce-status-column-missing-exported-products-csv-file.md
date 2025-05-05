@@ -50,5 +50,5 @@ De naam van het statuskenmerk van het product is gewijzigd in het CSV-bestand. H
 
 ## Gerelateerde lezing
 
-* [ Werkend met Csv- dossiers ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv) in onze gebruikersgids.
-* [ Verwijzing van de Attributen van de Uitvoer van het Product ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product) in onze gebruikersgids.
+* [ Werkend met Csv- dossiers ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-csv) in onze gebruikersgids.
+* [ Verwijzing van de Attributen van de Uitvoer van het Product ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-attributes-product) in onze gebruikersgids.

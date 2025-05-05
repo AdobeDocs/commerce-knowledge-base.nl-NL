@@ -58,4 +58,4 @@ Controleer de map Spam voor de e-mail. Als e-mail daar verscheen, [ voorlegt een
 
 ## Gerelateerde lezing
 
-* [ SendGrid ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) in onze ontwikkelaarsdocumentatie.
+* [ SendGrid ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/project/sendgrid) in onze ontwikkelaarsdocumentatie.

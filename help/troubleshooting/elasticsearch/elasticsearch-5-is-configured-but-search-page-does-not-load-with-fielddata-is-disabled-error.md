@@ -56,7 +56,7 @@ Het resultaat zal een lijst van attributen bevatten die voor Gelaagde Navigatie 
 Als u het probleem wilt verhelpen, moet u `is_filterable` (dat wil zeggen gebruikt in gelaagde navigatie) en `filterable_in_search` (dat wil zeggen gebruikt in gelaagde navigatie in zoekresultaten) instellen op 0 (niet gebruikt). Voer hiertoe de volgende stappen uit:
 
 1. Maak een back-up van de database.
-1. Gebruik een gegevensbestandhulpmiddel zoals [ phpMyAdmin ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin), of toegang manueel OB van de bevellijn om de volgende SQL vraag in werking te stellen:
+1. Gebruik een gegevensbestandhulpmiddel zoals [ phpMyAdmin ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin), of toegang manueel OB van de bevellijn om de volgende SQL vraag in werking te stellen:
 
    ```sql
    UPDATE catalog_eav_attribute AS cea

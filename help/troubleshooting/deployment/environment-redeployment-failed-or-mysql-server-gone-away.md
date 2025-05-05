@@ -30,13 +30,13 @@ De meest waarschijnlijke oorzaak van de kwesties is het MySQL gegevensbestand to
 
 ### Controleer of er voldoende ruimte is voor MySQL
 
-Voor alle Adobe Commerce op de milieu&#39;s van de het planarchitectuur van de infrastructuur van de wolkeninfrastructuur, en [ het milieu van de Integratie ](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) van Adobe Commerce op de architectuur van het plan van de wolkeninfrastructuur Pro, [ SSH aan het milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) en stel het bevel in werking:
+Voor alle Adobe Commerce op de milieu&#39;s van de het planarchitectuur van de infrastructuur van de wolkeninfrastructuur, en [ het milieu van de Integratie ](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) van Adobe Commerce op de architectuur van het plan van de wolkeninfrastructuur Pro, [ SSH aan het milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL) en stel het bevel in werking:
 
 ```bash
 magento-cloud db:size
 ```
 
-Voor het Staging of het milieu van de Productie van de Pro architectuur, [ SSH aan het milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html), en stel `df -h` in werking   `| grep mysql` . Het resultaat ziet er ongeveer als volgt uit:
+Voor het Staging of het milieu van de Productie van de Pro architectuur, [ SSH aan het milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL), en stel `df -h` in werking   `| grep mysql` . Het resultaat ziet er ongeveer als volgt uit:
 
 ```bash
 sxpe7gigd5ok2@i-00baa9e24f31dba41:~$ df -h | grep mysql
@@ -55,7 +55,7 @@ mysql:
     disk: 2048
 ```
 
-Zie de [ dienst MySQL van de Opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html) artikel voor verwijzing.
+Zie de [ dienst MySQL van de Opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html?lang=nl-NL) artikel voor verwijzing.
 
 Om deze veranderingen voor het Opvoeren of het milieu van de Productie van de Pro architectuur aan te brengen, moet u a [ kaartje van de Steun ](https://support.magento.com) tot stand brengen. Maar doorgaans hoeft u dit niet te doen bij het opslaan/produceren van de Pro-architectuur, aangezien Adobe Commerce deze parameters voor u controleert en u waarschuwt en/of acties uitvoert volgens het contract.
 

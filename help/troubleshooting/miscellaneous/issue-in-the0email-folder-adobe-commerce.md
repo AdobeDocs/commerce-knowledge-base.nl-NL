@@ -67,4 +67,4 @@ chmod 777 -R var/export/
 
 ## Gerelateerde lezing
 
-* [ Uitvoer ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-export) in onze gebruikersgids.
+* [ Uitvoer ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-export) in onze gebruikersgids.

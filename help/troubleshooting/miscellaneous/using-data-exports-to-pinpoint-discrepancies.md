@@ -1,6 +1,6 @@
 ---
 title: Gegevens exporteren gebruiken om discrepanties vast te stellen
-description: Dit artikel verstrekt oplossingen voor het oplossen van problemendiscrepanties in uw gegevens van Magento BI. De Uitvoer van gegevens is een nuttig hulpmiddel om uw gegevens van MagentoBI aan uw brongegevens te vergelijken om gegevensdiscrepanties in uw rapporten te identificeren, vooral als [de kenmerkende controlelijst van de discrepantie van de gegevensdiscrepantie] (https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) u niet hielp het probleem te identificeren. Dit artikel zal u door een echt voorbeeld van lopen hoe de gegevensdiscrepanties kunnen worden gespeld gebruikend de Uitvoer van Gegevens.
+description: Dit artikel verstrekt oplossingen voor het oplossen van problemendiscrepanties in uw gegevens van Magento BI. De Uitvoer van gegevens is een nuttig hulpmiddel om uw gegevens van MagentoBI aan uw brongegevens te vergelijken om gegevensdiscrepanties in uw rapporten te identificeren, vooral als [de kenmerkende controlelijst van de discrepantie van de gegevensdiscrepantie] (https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) u niet hielp het probleem te identificeren. Dit artikel zal u door een echt voorbeeld van lopen hoe de gegevensdiscrepanties kunnen worden gespeld gebruikend de Uitvoer van Gegevens.
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gegevens exporteren gebruiken om discrepanties vast te stellen
 
-Dit artikel verstrekt oplossingen voor het oplossen van problemendiscrepanties in uw gegevens van Magento BI. De Uitvoer van gegevens is een nuttig hulpmiddel om uw gegevens van MagentoBI aan uw brongegevens te vergelijken om gegevensdiscrepanties in uw rapporten te identificeren, vooral als de [ kenmerkende controlelijst van de gegevensdiscrepantie ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) u niet hielp te identificeren het probleem. Dit artikel zal u door een echt voorbeeld van lopen hoe de gegevensdiscrepanties kunnen worden gespeld gebruikend de Uitvoer van Gegevens.
+Dit artikel verstrekt oplossingen voor het oplossen van problemendiscrepanties in uw gegevens van Magento BI. De Uitvoer van gegevens is een nuttig hulpmiddel om uw gegevens van MagentoBI aan uw brongegevens te vergelijken om gegevensdiscrepanties in uw rapporten te identificeren, vooral als de [ kenmerkende controlelijst van de gegevensdiscrepantie ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) u niet hielp te identificeren het probleem. Dit artikel zal u door een echt voorbeeld van lopen hoe de gegevensdiscrepanties kunnen worden gespeld gebruikend de Uitvoer van Gegevens.
 
 Neem deze analyse, bijvoorbeeld:
 
@@ -51,7 +51,7 @@ Nu alle gegevens op één plaats zijn, kunnen we zoeken naar de bron van de disc
 
 Als beide systemen de zelfde rijtelling hebben en **metrische Inkomsten** niet de brongegevens aanpassen, dan moet **orde \_total** ergens weg zijn. Het is mogelijk dat het **orde \_total** gebied in uw brongegevensbestand is bijgewerkt en Magento BI niet deze veranderingen opneemt.
 
-Om dit te bevestigen, neem een blik bij al dan niet de **orde \_total** kolom opnieuw wordt gecontroleerd. Ga naar Data Warehouse Manager en klik op de tabel **`orders`** . U zult [ recheck frequentie ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) zien die in &quot;Veranderingen wordt vermeld?&quot; kolom. Het **orde \_total** gebied zou moeten worden geplaatst om zo vaak opnieuw te controleren aangezien het wordt verwacht om te veranderen; als het niet is, ga door en plaats het aan uw gewenste recheck frequentie.
+Om dit te bevestigen, neem een blik bij al dan niet de **orde \_total** kolom opnieuw wordt gecontroleerd. Ga naar Data Warehouse Manager en klik op de tabel **`orders`** . U zult [ recheck frequentie ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=nl-NL) zien die in &quot;Veranderingen wordt vermeld?&quot; kolom. Het **orde \_total** gebied zou moeten worden geplaatst om zo vaak opnieuw te controleren aangezien het wordt verwacht om te veranderen; als het niet is, ga door en plaats het aan uw gewenste recheck frequentie.
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -69,7 +69,7 @@ Navigeer naar de pagina Verbindingen en bekijk de status van de gegevensbron die
 
 ## De brondatabase heeft MINDER rijen dan Magento BI {#lessrows}
 
-Als het brongegevensbestand minder rijen dan Magento BI heeft, dan is het mogelijk dat de rijen uit het brongegevensbestand worden geschrapt en Magento BI niet deze schrappingen opneemt. **&#x200B; [ het Schrappen van gegevens ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html) kan tot discrepanties, langere updatetijden, en een stroom van logistieke hoofdpijnen** leiden, zodat adviseren wij u nooit gegevens zult schrappen tenzij het echt noodzakelijk is.
+Als het brongegevensbestand minder rijen dan Magento BI heeft, dan is het mogelijk dat de rijen uit het brongegevensbestand worden geschrapt en Magento BI niet deze schrappingen opneemt. **&#x200B; [ het Schrappen van gegevens ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=nl-NL) kan tot discrepanties, langere updatetijden, en een stroom van logistieke hoofdpijnen** leiden, zodat adviseren wij u nooit gegevens zult schrappen tenzij het echt noodzakelijk is.
 
 Als rijen echter uit de tabel worden verwijderd, bekijkt u de frequentie voor het opnieuw controleren van de primaire sleutel. Als u de primaire sleutel opnieuw controleert, wordt de tabel gecontroleerd op verwijderde rijen.
 
@@ -89,7 +89,7 @@ Als u niet de bron van het probleem kunt bepalen, zult u in Steun RJ moeten herh
 
 ## Gerelateerde lezing
 
-* [ kenmerkende controlelijst van de discrepantie van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
-* [ Beleid van de Dienst van Adobe Commerce Intelligence ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ kenmerkende controlelijst van de discrepantie van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [ Beleid van de Dienst van Adobe Commerce Intelligence ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
 

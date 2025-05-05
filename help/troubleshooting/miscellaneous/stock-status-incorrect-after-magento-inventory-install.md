@@ -33,4 +33,4 @@ Wanneer u installeert/bevordert, worden al uw producten toegewezen aan de standa
 
 Als u meerdere websites hebt, moet u deze websites als Sales Channel toevoegen aan de standaardvoorraad of andere aangepaste bestanden.
 
-Zie de [ sectie van de Beeld van de wiki/gebruikershandleiding ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage) in onze gebruikersgids voor details op hoe te om dit te doen.
+Zie de [ sectie van de Beeld van de wiki/gebruikershandleiding ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/stocks/stocks-manage) in onze gebruikersgids voor details op hoe te om dit te doen.

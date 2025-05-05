@@ -23,7 +23,7 @@ In dit artikel wordt gesproken over oplossingen voor problemen die worden veroor
 * Adobe Commerce op locatie en Adobe Commerce op cloudinfrastructuur:
    * v2.2.3+ ondersteunt ES 5.x
    * v2.2.8+ en v2.3.1+ ondersteunen ES 6.x
-   * ES v2.x en v5.x worden niet geadviseerd wegens [ Eind van Leven ](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [ de Elasticsearch veranderen php Cliënt ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
+   * ES v2.x en v5.x worden niet geadviseerd wegens [ Eind van Leven ](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [ de Elasticsearch veranderen php Cliënt ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
 * Magento Open Source v2.3.0+ ondersteunt ES 5.x en 6.x (maar 6.x wordt aanbevolen).
 
 ## Probleem
@@ -56,8 +56,8 @@ Elasticsearch is niet correct geïnstalleerd. Dit kan te wijten zijn aan:
 
 Elasticsearch correct instellen:
 
-* De handelaren op Adobe Commerce op wolkeninfrastructuur kunnen de stappen in onze ontwikkelaardocumentatie volgen: [ de dienst van de Elasticsearch van de opstelling ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
-* De handelaren op Adobe Commerce op-gebouw en de Magento Open Source kunnen de stappen in onze ontwikkelaarsdocumentatie volgen: [ installeren en vormen Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
+* De handelaren op Adobe Commerce op wolkeninfrastructuur kunnen de stappen in onze ontwikkelaardocumentatie volgen: [ de dienst van de Elasticsearch van de opstelling ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+* De handelaren op Adobe Commerce op-gebouw en de Magento Open Source kunnen de stappen in onze ontwikkelaarsdocumentatie volgen: [ installeren en vormen Elasticsearch ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
 
 Nadat u opstelling Elasticsearch hebt, controleer dat het correct is gevormd:
 

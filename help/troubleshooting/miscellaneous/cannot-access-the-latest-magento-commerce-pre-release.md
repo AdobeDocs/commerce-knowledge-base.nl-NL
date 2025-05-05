@@ -40,7 +40,7 @@ Dit zijn de meest voorkomende oorzaken van problemen:
 
 Tijdens de release zijn de releasepakketten beschikbaar op twee locaties:
 
-1. Via Composer op [ magento.com ](https://repo.magento.com/) gebruikend primaire MageID voor de rekening. Voor meer details op hoe te om Composer te gebruiken, gelieve te verwijzen naar [ installeer Adobe Commerce gebruikend Composer ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) in onze ontwikkelaarsdocumentatie.
+1. Via Composer op [ magento.com ](https://repo.magento.com/) gebruikend primaire MageID voor de rekening. Voor meer details op hoe te om Composer te gebruiken, gelieve te verwijzen naar [ installeer Adobe Commerce gebruikend Composer ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/composer) in onze ontwikkelaarsdocumentatie.
 1. **Mijn Rekening** > **Downloads** op [ account.magento.com ](https://account.magento.com/customer/account/login).
 
 >[!NOTE]

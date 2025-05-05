@@ -99,5 +99,5 @@ U kunt ook de opdracht `setup:static-content:deploy` uitvoeren, gevolgd door het
 
 In onze documentatie voor ontwikkelaars:
 
-* [ vormen Redis ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/config-redis.html)
-* [ bevel-lijn verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)
+* [ vormen Redis ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/config-redis.html?lang=nl-NL)
+* [ bevel-lijn verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=nl-NL)

@@ -30,7 +30,7 @@ Tijdens de ontwikkeling van Adobe Commerce (alle implementaties) en Magento Open
 
 Als u het winkelthema opnieuw moet instellen, maar geen toegang hebt tot het deelvenster Beheer, kunt u het als volgt opnieuw instellen in de database:
 
-1. Gebruik een gegevensbestandhulpmiddel zoals [ phpMyAdmin ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) of toegang manueel OB van de bevellijn om de volgende SQL vraag uit te voeren: `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
+1. Gebruik een gegevensbestandhulpmiddel zoals [ phpMyAdmin ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) of toegang manueel OB van de bevellijn om de volgende SQL vraag uit te voeren: `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
 1. Wis de volgende directory&#39;s:
    * `pub/static/frontend`
    * `var/view_preprocessing`

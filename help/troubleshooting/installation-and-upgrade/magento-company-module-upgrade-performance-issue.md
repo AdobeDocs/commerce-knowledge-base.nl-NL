@@ -32,7 +32,7 @@ Het bijwerken van de module `Magento_Company` na het bijwerken naar B2B 1.5.2 du
 
 <u> Stappen om </u> te reproduceren:
 
-1. Wijs een bedrijf aan een moederbedrijf toe om bedrijfshiërarchie te vestigen. Verwijs naar [ leiden de Hiërarchie van het Bedrijf ](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) in de gids van Adobe Commerce B2B voor meer informatie.
+1. Wijs een bedrijf aan een moederbedrijf toe om bedrijfshiërarchie te vestigen. Verwijs naar [ leiden de Hiërarchie van het Bedrijf ](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) in de gids van Adobe Commerce B2B voor meer informatie.
 1. Upgrade B2B naar versie 1.5.2.
 
 <u> Verwachte resultaten </u>:
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om het probleem op te lossen:
 
 ### Hoe de pleister aanbrengen
 
-Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) in onze basis van steunkennis voor instructies wordt verstrekt.
+Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ### Een patch toepassen met gebruik van Cloud Patches
 
@@ -80,8 +80,8 @@ Voor Adobe Commerce on Cloud-winkeliers voert u de volgende stappen uit:
    ```
 
 1. Voeg de patch ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.2 toe aan de map `m2-hotfixes` .
-1. Leg de wijzigingen vast en duw deze om herimplementatie en `bin/magento setup:upgrade` te starten. Verwijs naar [ passen flarden ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) in onze gids Adobe Commerce op de Wolk voor instructies toe.
+1. Leg de wijzigingen vast en duw deze om herimplementatie en `bin/magento setup:upgrade` te starten. Verwijs naar [ passen flarden ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) in onze gids Adobe Commerce op de Wolk voor instructies toe.
 
 ## Gerelateerde lezing
 
-* [ Verbetering aan B2B 1.5.2 ontbreekt met SQL syntaxisfout toe te schrijven aan het ontbreken van functie REGEXP_LIKE ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)
+* [ Verbetering aan B2B 1.5.2 ontbreekt met SQL syntaxisfout toe te schrijven aan het ontbreken van functie REGEXP_LIKE ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)

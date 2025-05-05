@@ -24,7 +24,7 @@ In dit artikel wordt een bekende Adobe Commerce 2.4.1-kwestie beschreven waarbij
 
 Vereisten:
 
-Laat **Reiniging van het Adres van de top** toe. Voor stappen, verwijs naar [ het Vormen het Schoonmaken van het Adres Storefront ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html) in onze gebruikersgids.
+Laat **Reiniging van het Adres van de top** toe. Voor stappen, verwijs naar [ het Vormen het Schoonmaken van het Adres Storefront ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html?lang=nl-NL) in onze gebruikersgids.
 
 <u> Stappen om te reproduceren:</u>
 

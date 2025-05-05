@@ -36,11 +36,11 @@ De reden voor het verwijderen van MySQL zoekmachine is dat Elasticsearch betere 
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">MySQL</td>
-<td style="width: 478.2px;">U moet Elasticsearch installeren. Zie <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search"> Elasticsearch </a> in onze ontwikkelaarsdocumentatie installeren en vormen.</td>
+<td style="width: 478.2px;">U moet Elasticsearch installeren. Zie <a href="https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search"> Elasticsearch </a> in onze ontwikkelaarsdocumentatie installeren en vormen.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch (zonder vermelde versie)</td>
-<td style="width: 478.2px;">U gebruikt Elasticsearch 2 en moet bijwerken naar Elasticsearch 7 (voorkeur) of 6. Zie <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search#es-upgrade6"> Bevorderend Elasticsearch </a> en <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine"> vormen Commerce om Elasticsearch </a> in onze ontwikkelaarsdocumentatie voor details te gebruiken.</td>
+<td style="width: 478.2px;">U gebruikt Elasticsearch 2 en moet bijwerken naar Elasticsearch 7 (voorkeur) of 6. Zie <a href="https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search#es-upgrade6"> Bevorderend Elasticsearch </a> en <a href="https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/configure-search-engine"> vormen Commerce om Elasticsearch </a> in onze ontwikkelaarsdocumentatie voor details te gebruiken.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">ELASTICSEARCH 5</td>
@@ -59,7 +59,7 @@ De reden voor het verwijderen van MySQL zoekmachine is dat Elasticsearch betere 
 
 ## Installatie:
 
-Wanneer Adobe Commerce op-gebouw en Magento Open Source 2.4.0 wordt vrijgegeven, zal de Elasticsearch een vereiste component zijn, zodat moet u een de gastheeropstelling hebben van de Elasticsearch en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Zie [ installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search) in onze ontwikkelaarsdocumentatie.
+Wanneer Adobe Commerce op-gebouw en Magento Open Source 2.4.0 wordt vrijgegeven, zal de Elasticsearch een vereiste component zijn, zodat moet u een de gastheeropstelling hebben van de Elasticsearch en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Zie [ installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search) in onze ontwikkelaarsdocumentatie.
 
 Standaard gebruikt Adobe Commerce search Elasticsearch 7 als zoekengine en probeert het verbinding te maken met een server op localhost:9200. Elasticsearch 6.x wordt ook ondersteund. Als uw configuratie niet de gebreken aanpast, kunt u deze montages vormen gebruikend argumenten die tot `setup:install` worden overgegaan, op ongeveer de zelfde manier de gegevensbestandverbinding wordt gevormd.
 

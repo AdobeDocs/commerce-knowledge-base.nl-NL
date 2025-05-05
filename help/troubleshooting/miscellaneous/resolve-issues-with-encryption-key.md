@@ -33,7 +33,7 @@ U moet de encryptiesleutel van het bronmilieu kopiëren en het toevoegen aan het
 
 De coderingssleutel kopiëren:
 
-1. SSH aan uw project dat de bron voor de gegevensbestandstortplaats was, zoals die in [ SSH aan milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in onze ontwikkelaarsdocumentatie wordt beschreven.
+1. SSH aan uw project dat de bron voor de gegevensbestandstortplaats was, zoals die in [ SSH aan milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie wordt beschreven.
 1. Open `app/etc/env.php` in een teksteditor.
 1. Kopieer de waarde van `key` for `crypt` .
 
@@ -44,7 +44,7 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 Om de belangrijkste waarde voor het bestemmingsproject te plaatsen:
 
 1. Open de [ Console van de Wolk ](https://console.adobecommerce.com) en bepaal de plaats van uw project.
-1. Plaats de waarde van [ CRYPT \_KEY ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) (in onze ontwikkelaarsdocumentatie) variabele, zoals die in [ wordt beschreven uw project ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) in onze ontwikkelaarsdocumentatie vormt. Hierdoor wordt het implementatieproces geactiveerd en wordt `CRYPT_KEY` bij elke implementatie overschreven in het `app/etc/env.php` -bestand.
+1. Plaats de waarde van [ CRYPT \_KEY ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=nl-NL) (in onze ontwikkelaarsdocumentatie) variabele, zoals die in [ wordt beschreven uw project ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie vormt. Hierdoor wordt het implementatieproces geactiveerd en wordt `CRYPT_KEY` bij elke implementatie overschreven in het `app/etc/env.php` -bestand.
 
 U kunt desgewenst de coderingssleutel in het `app/etc/env.php` -bestand handmatig overschrijven:
 

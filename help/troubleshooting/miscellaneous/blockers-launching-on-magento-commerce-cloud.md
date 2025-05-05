@@ -23,26 +23,26 @@ Dit artikel biedt een oplossing voor blokkers die op Adobe Commerce kunnen start
 >
 >Als FPC (Full Page Cache) is ingeschakeld, werkt de website anders. Zorg ervoor dat u de toepassing test voordat u live gaat.
 
-Het proces van Fastly configuratie wordt gedocumenteerd in detail in het [ Snelle onderwerp van de Opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in onze gebruikersgids. Hieronder staan de belangrijke stappen.
+Het proces van Fastly configuratie wordt gedocumenteerd in detail in het [ Snelle onderwerp van de Opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) in onze gebruikersgids. Hieronder staan de belangrijke stappen.
 
 ### 1 bis. Controleer of u de meest recente versie van de module Snelheid hebt geïnstalleerd
 
-Zorg ervoor dat de meest recente versie van de module Snelheid is geïnstalleerd voor de nieuwste functies en verbeteringen. Om te controleren als u de recentste versie van Fastly hebt, herzie [ Verbetering de Fastly module ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module) in onze gebruikersgids. Voor meer details, herzie [ Opstelling Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in onze gebruikersgids.
+Zorg ervoor dat de meest recente versie van de module Snelheid is geïnstalleerd voor de nieuwste functies en verbeteringen. Om te controleren als u de recentste versie van Fastly hebt, herzie [ Verbetering de Fastly module ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL#upgrade-the-fastly-module) in onze gebruikersgids. Voor meer details, herzie [ Opstelling Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) in onze gebruikersgids.
 
 ### 1 ter. Snel inschakelen en configureren met Commerce Admin
 
-Voor meer details, revisie [ krijgt uw Fastly geloofsbrieven ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#get-fastly-credentials) in onze gebruikersgids.
+Voor meer details, revisie [ krijgt uw Fastly geloofsbrieven ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL#get-fastly-credentials) in onze gebruikersgids.
 
 ### 1 quater. VCL-fragmenten snel uploaden
 
-Voor meer details, zie [ VCL aan Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in onze gebruikersgids uploaden.
+Voor meer details, zie [ VCL aan Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) in onze gebruikersgids uploaden.
 
-U kunt ook [ tot stand brengen en eigen fragmenten van douaneVCL toevoegen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html).
+U kunt ook [ tot stand brengen en eigen fragmenten van douaneVCL toevoegen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=nl-NL).
 
 ### 1 quinquies. DNS snel configureren
 
 
-Verwijs naar dit artikel voor gedetailleerde stappen: [ Opstelling Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings) in onze gebruikersgids.
+Verwijs naar dit artikel voor gedetailleerde stappen: [ Opstelling Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL#update-dns-configuration-with-development-settings) in onze gebruikersgids.
 
 ### Verwante Fastartikelen in onze basis van supportkennis
 
@@ -68,9 +68,9 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
 **Verwante artikelen:**
 
-* [ richt zich door routes.yaml ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html) in onze gebruikersgids opnieuw.
-* [ richt zich door de Console van de Wolk ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) in onze gebruikersgids opnieuw.
-* [ URL herschrijft ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html) in onze gebruikersgids.
+* [ richt zich door routes.yaml ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html?lang=nl-NL) in onze gebruikersgids opnieuw.
+* [ richt zich door de Console van de Wolk ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=nl-NL) in onze gebruikersgids opnieuw.
+* [ URL herschrijft ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html?lang=nl-NL) in onze gebruikersgids.
 
 ## 4. Prestaties van activa
 
@@ -83,8 +83,8 @@ Aanbeveling: Om mogelijke oorzaken van slechte prestaties te identificeren denk 
 * [ New Relic ](https://support.newrelic.com/): van processen en gebieden van de plaats die langzame prestaties met bijgehouden tijd veroorzaken die per actie wordt doorgebracht, zoals het overbrengen van gegevens, vragen, Redis, enz.
 * [ WebPageTest ](https://www.webpagetest.org/) (vrij) en [ (betaald) VK ](https://www.pingdom.com/): De analyse in real time van uw plaatspagina&#39;s laadt tijd met verschillende oorsprongsplaatsen.
 
-U kunt [ minificatie ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) voor CSS, JavaScript, en HTML ook overwegen.
+U kunt [ minificatie ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=nl-NL) voor CSS, JavaScript, en HTML ook overwegen.
 
 **Verwante artikelen:**
 
-* [ plaatsing van de Test ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html) in onze ontwikkelaarsdocumentatie.
+* [ plaatsing van de Test ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.

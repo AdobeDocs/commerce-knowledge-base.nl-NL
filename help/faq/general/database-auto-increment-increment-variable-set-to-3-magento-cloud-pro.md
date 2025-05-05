@@ -31,5 +31,5 @@ Als de geselecteerde hoofd bijvoorbeeld knooppunt 1 is waar `auto_increment_offs
 
 Zie in onze documentatie voor ontwikkelaars:
 
-* [ Cloud voor Adobe Commerce > Pro architectuur > Steun en rampenterugwinning ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [ Wolk voor Adobe Commerce > installeer eerste vereisten: gegevensbestand ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)
+* [ Cloud voor Adobe Commerce > Pro architectuur > Steun en rampenterugwinning ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [ Wolk voor Adobe Commerce > installeer eerste vereisten: gegevensbestand ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/overview)

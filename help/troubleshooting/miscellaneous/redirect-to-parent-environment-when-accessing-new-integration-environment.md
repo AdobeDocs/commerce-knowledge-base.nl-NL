@@ -59,7 +59,7 @@ update core_config_data set value = %your_new_environment_secure_url% where path
 
 #### Corrigeer de database met Adobe Commerce CLI (beschikbaar voor versies 2.2.X)
 
-1. Login als, of schakelaar aan, de [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html).
+1. Login als, of schakelaar aan, de [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=nl-NL).
 1. Voer de volgende opdrachten uit:
 
 ```bash
@@ -87,4 +87,4 @@ php <your_magento_install_dir>/bin/magento cache:clean config
 
 ## Verwante artikelen in onze documentatie voor ontwikkelaars:
 
-[ stelt variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) op
+[ stelt variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=nl-NL) op

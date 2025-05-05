@@ -30,4 +30,4 @@ Als de basisprijs van het product verandert en minder dan de overeenkomstige ged
 
 ## Gerelateerde lezing
 
-[ Vastgestelde Prijsbepaling en Structuur voor een Gedeelde Catalogus ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) in onze gebruikersgids.
+[ Vastgestelde Prijsbepaling en Structuur voor een Gedeelde Catalogus ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=nl-NL) in onze gebruikersgids.

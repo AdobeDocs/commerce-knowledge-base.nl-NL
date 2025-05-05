@@ -27,7 +27,7 @@ Tijdens de installatie wordt een bericht weergegeven dat lijkt op het volgende:
 
 Wis alle mappen en bestanden onder de submap Adobe Commerce `var` en installeer de Adobe Commerce-software opnieuw.
 
-Als [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) of als gebruiker met `root` voorrechten, ga de volgende bevelen in:
+Als [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) of als gebruiker met `root` voorrechten, ga de volgende bevelen in:
 
 ```bash
 $ cd <your Magento install directory>/var

@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## Verwante lezing
 
-Leren wanneer om onderhoudswijze te gebruiken, verwijs naar [ toelaten of onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) in onze ontwikkelaarsdocumentatie onbruikbaar maken.
+Leren wanneer om onderhoudswijze te gebruiken, verwijs naar [ toelaten of onderhoudswijze ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) in onze ontwikkelaarsdocumentatie onbruikbaar maken.

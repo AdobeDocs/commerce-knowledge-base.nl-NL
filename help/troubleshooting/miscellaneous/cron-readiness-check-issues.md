@@ -29,7 +29,7 @@ In deze sectie wordt besproken hoe u kunt zien of de uitsnede momenteel wordt ui
 
 Om te controleren of uw tab is ingesteld:
 
-1. Login aan uw server van Commerce als, of schakelaar aan, de [ eigenaar van het het dossiersysteem van het Magento ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview).
+1. Login aan uw server van Commerce als, of schakelaar aan, de [ eigenaar van het het dossiersysteem van het Magento ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/file-system/overview).
 1. Controleer of het volgende bestand bestaat: `$ ls -al <magento_root>/var/.setup_cronjob_status` . Als het bestand bestaat, is het uitsnijden in het verleden gelukt. Als het dossier *niet* bestaat, of hebt u nog niet Adobe Commerce geïnstalleerd of bouwt loopt niet. Ga in beide gevallen verder met de volgende stap.
 1. Meer informatie over uitsnijden. Als gebruiker met `root` bevoegdheden voert u de volgende opdracht in: `$ crontab -u <Magento file system owner name> -l` . Bijvoorbeeld op CentOS `$ crontab -u magento_user -l` . Als er geen tab voor de gebruiker is ingesteld, wordt het volgende bericht weergegeven:    `no crontab for magento_user`. Uw tab geeft het volgende weer:
    * Wat gebruikt PHP binair u (in sommige gevallen, hebt u meer dan één)
@@ -40,17 +40,17 @@ Om te controleren of uw tab is ingesteld:
 
 ## Oplossing: crontab niet ingesteld {#solution-crontab-not-set-up}
 
-Om uw kroonbanen te verifiëren worden opstelling behoorlijk, zie [ banen van de opstelling cron ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration) in onze ontwikkelaarsdocumentatie.
+Om uw kroonbanen te verifiëren worden opstelling behoorlijk, zie [ banen van de opstelling cron ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/next-steps/configuration) in onze ontwikkelaarsdocumentatie.
 
 ## Oplossing: uit onjuist binair PHP-bestand doorsnijden {#solution-cron-running-from-incorrect-php-binary}
 
 Als uw uitsnijdtaak een binair PHP-bestand gebruikt dat afwijkt van de insteekmodule voor de webserver, kunnen fouten in de PHP-instellingen worden weergegeven. Om dit probleem op te lossen, stelt u identieke PHP-instellingen in voor zowel de PHP opdrachtregel als de PHP webserver plug-in.
 
-Voor meer informatie over PHP montages, zie [ Vereiste PHP montages ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings) in onze ontwikkelaarsdocumentatie.
+Voor meer informatie over PHP montages, zie [ Vereiste PHP montages ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/php-settings) in onze ontwikkelaarsdocumentatie.
 
 ## Oplossing: fout bij uitvoeren {#solution-cron-running-with-errors}
 
-Probeer elke opdracht handmatig uit te voeren, omdat de opdracht nuttige foutberichten kan weergeven. Zie [ de banen van de opstelling cron ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration) in onze ontwikkelaarsdocumentatie.
+Probeer elke opdracht handmatig uit te voeren, omdat de opdracht nuttige foutberichten kan weergeven. Zie [ de banen van de opstelling cron ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/next-steps/configuration) in onze ontwikkelaarsdocumentatie.
 
 >[!NOTE]
 >

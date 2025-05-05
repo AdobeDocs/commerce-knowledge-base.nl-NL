@@ -48,7 +48,7 @@ Als u Configuration Management wilt uitschakelen, moet u ervoor zorgen dat de ma
 
 Ga als volgt te werk om het configuratiebestand te verwijderen:
 
-1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
 1. Verwijder het configuratiebestand:
    * Voor Adobe Commerce 2.4:
 
@@ -65,18 +65,18 @@ Ga als volgt te werk om het configuratiebestand te verwijderen:
 Meer informatie over Configuratiebeheer door te controleren:
 
 * [ vermindert plaatsingsonderbreking op Adobe Commerce op wolkeninfrastructuur ](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in onze basis van steunkennis.
-* [ het beheer van de Configuratie voor opslagmontages ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) in onze ontwikkelaarsdocumentatie.
+* [ het beheer van de Configuratie voor opslagmontages ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
 
 ### Stap 1: De Adobe Commerce-software verwijderen met de opdracht Setup:verwijderen {#setup-uninstall}
 
 
 Als u de Adobe Commerce-software verwijdert, wordt de database neergezet en hersteld, wordt de implementatieconfiguratie verwijderd en worden mappen onder `var` gewist.
 
-Het overzicht [ desinstalleert de software van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html) in onze ontwikkelaarsdocumentatie.
+Het overzicht [ desinstalleert de software van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
 
 Voer de volgende stappen uit om de Adobe Commerce-software te verwijderen:
 
-1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
 1. Uitvoeren `setup:uninstall` :
 
    ```php
@@ -147,7 +147,7 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 Als het uitvoeren van de opdracht `setup:uninstall` mislukt met een fout en niet kan worden voltooid, wordt de DB mogelijk handmatig gewist met de volgende stappen:
 
-1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
 1. Verbinding maken met de MySQL-database:
 
    ```sql
@@ -168,15 +168,15 @@ Als het uitvoeren van de opdracht `setup:uninstall` mislukt met een fout en niet
 
 1. Verwijder de volgende configuratiebestanden: `config.php`, `config.php` `.bak` , `env.php` en `env.php.bak` .
 
-Na het terugstellen van OB, [ maak een git duw aan het milieu om opnieuw op te stellen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#git-commands) en Adobe Commerce aan nieuw gecreeerd OB te installeren. Of [ stel het redistribueren bevel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands) in werking.
+Na het terugstellen van OB, [ maak een git duw aan het milieu om opnieuw op te stellen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=nl-NL#git-commands) en Adobe Commerce aan nieuw gecreeerd OB te installeren. Of [ stel het redistribueren bevel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=nl-NL#environment-commands) in werking.
 
 ## Gerelateerde lezing
 
 In onze documentatie voor ontwikkelaars:
 
-* [ herstel een momentopname op Wolk ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
-* [ creeer een momentopname ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
-* [ Momentopnamen en reservebeheer ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [ beheer takken met de Console van de Wolk - de logboeken van de Mening ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=en#view-logs)
-* [ de mislukte plaatsing van de Component ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html)
-* [ beheer uw project ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html#configure-the-project)
+* [ herstel een momentopname op Wolk ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+* [ creeer een momentopname ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
+* [ Momentopnamen en reservebeheer ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [ beheer takken met de Console van de Wolk - de logboeken van de Mening ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=nl-NL#view-logs)
+* [ de mislukte plaatsing van de Component ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html?lang=nl-NL)
+* [ beheer uw project ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=nl-NL#configure-the-project)

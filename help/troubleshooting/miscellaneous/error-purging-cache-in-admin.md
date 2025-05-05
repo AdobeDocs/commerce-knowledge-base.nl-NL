@@ -60,4 +60,4 @@ Nochtans, als de output toont dat de dossiers nog in het geheime voorgeheugen zi
 
 ## Verwante lezing
 
-* [ Beheer van het Geheime voorgeheugen ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management) in onze ontwikkelaarsdocumentatie.
+* [ Beheer van het Geheime voorgeheugen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management) in onze ontwikkelaarsdocumentatie.

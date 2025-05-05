@@ -53,7 +53,7 @@ Controleer of voor de hierboven opgegeven bestanden de instelling `cacheable="fa
 
 >[!NOTE]
 >
->Voor Adobe Commerce op wolkeninfrastructuur 2.4.1 en recenter, kunt u het [ Plaats-brede Hulpmiddel van de Analyse ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access) gebruiken om automatisch te controleren als uw Volledig Geheime voorgeheugen van de Pagina niet correct wordt gevormd.
+>Voor Adobe Commerce op wolkeninfrastructuur 2.4.1 en recenter, kunt u het [ Plaats-brede Hulpmiddel van de Analyse ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/site-wide-analysis-tool/access) gebruiken om automatisch te controleren als uw Volledig Geheime voorgeheugen van de Pagina niet correct wordt gevormd.
 
 ### Verwante lezing
 

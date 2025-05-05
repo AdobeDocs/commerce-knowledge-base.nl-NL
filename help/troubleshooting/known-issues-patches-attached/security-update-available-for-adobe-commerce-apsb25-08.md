@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB25-08]
 
-Op 11 februari 2025 heeft Adobe een regelmatig geplande beveiligingsupdate uitgebracht voor Adobe Commerce en Magento Open Source. Deze update verhelpt [[!DNL critical, important], en  [!DNL moderate] ](https://helpx.adobe.com/security/severity-ratings.html) kwetsbaarheid. Een succesvolle benutting van deze kwetsbaarheden kan leiden tot het uitvoeren van willekeurige code, het omzeilen van beveiligingsfuncties en het doorverwijzen van bevoegdheden. Meer informatie kan in het [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-08]) hier ](https://helpx.adobe.com/security/products/magento/apsb25-08.html) worden gevonden.
+Op 11 februari 2025 heeft Adobe een regelmatig geplande beveiligingsupdate uitgebracht voor Adobe Commerce en Magento Open Source. Deze update verhelpt [[!DNL critical, important], en  [!DNL moderate] ](https://helpx.adobe.com/nl/security/severity-ratings.html) kwetsbaarheid. Een succesvolle benutting van deze kwetsbaarheden kan leiden tot het uitvoeren van willekeurige code, het omzeilen van beveiligingsfuncties en het doorverwijzen van bevoegdheden. Meer informatie kan in het [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-08]) hier ](https://helpx.adobe.com/nl/security/products/magento/apsb25-08.html) worden gevonden.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Adobe Commerce op Cloud-infrastructuur, Adobe Commerce op locatie en Magento Ope
 
 >[!NOTE]
 >
->Dit probleem wordt opgelost door de [ recentste wolk-flarden update ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest). Als u probeert de geïsoleerde patch toe te passen terwijl de oplossing al is geïmplementeerd vanuit de update van de cloud-patches, kan dit leiden tot installatiefouten.
+>Dit probleem wordt opgelost door de [ recentste wolk-flarden update ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest). Als u probeert de geïsoleerde patch toe te passen terwijl de oplossing al is geïmplementeerd vanuit de update van de cloud-patches, kan dit leiden tot installatiefouten.
 
 Om de kwetsbaarheid voor de betrokken producten en versies te helpen oplossen, moet u de [!DNL CVE-2025-24434] Geïsoleerde patch toepassen, afhankelijk van uw Adobe Commerce/Magento Open Source-versie.
 
@@ -71,7 +71,7 @@ Gebruik de volgende gekoppelde, geïsoleerde patches, afhankelijk van uw Adobe C
 
 ## Hoe wordt de geïsoleerde pleister aangebracht
 
-Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) in onze basis van steunkennis voor instructies wordt verstrekt.
+Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=nl-NL) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ## Alleen voor Adobe Commerce op Cloud-handelaren - Hoe kan ik zien of de geïsoleerde patches zijn aangebracht?
 
@@ -81,7 +81,7 @@ Aangezien het niet mogelijk is om eenvoudig te controleren of de uitgave is gere
 >
 ><u> u kunt dit doen door de volgende stappen te nemen, gebruikend het dossier `VULN-27015-2.4.7_COMPOSER.patch` **als voorbeeld**</u>:
 
-1. [ installeer het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [ installeer het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=nl-NL).
 1. Voer de opdracht uit:<br>
    ![ cve-2024-34102-tell-if-patch-applied-code ](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. U zou output gelijkend op dit moeten zien, waar VULN-27015 de *Toegepaste* status terugkeert:
@@ -100,5 +100,5 @@ Aangezien het niet mogelijk is om eenvoudig te controleren of de uitgave is gere
 
 Beveiligingsupdates beschikbaar voor Adobe Commerce:
 
-* [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-08]) ](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [ De recentste updates van de Veiligheid beschikbaar voor Adobe Commerce ](https://helpx.adobe.com/security/products/magento.html)
+* [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-08]) ](https://helpx.adobe.com/nl/security/products/magento/apsb25-08.html)
+* [ De recentste updates van de Veiligheid beschikbaar voor Adobe Commerce ](https://helpx.adobe.com/nl/security/products/magento.html)

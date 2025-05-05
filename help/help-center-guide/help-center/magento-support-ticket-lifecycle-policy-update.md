@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Beleidsupdate voor Adobe Commerce Support-beleid voor de levenscyclus van tickets
 
-In deze documentatie worden verbeteringen in de levenscyclus van de Adobe DX Support-case beschreven met als doel de communicatie te verbeteren en zo snel mogelijk oplossingen voor klanten te bieden om het succes van de klant te helpen garanderen. Dit kan ook in [ het Overzicht van de Abonnementen van het Succes van Adobe worden gevonden: De Levenscyclus van het Geval van de steun ](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
+In deze documentatie worden verbeteringen in de levenscyclus van de Adobe DX Support-case beschreven met als doel de communicatie te verbeteren en zo snel mogelijk oplossingen voor klanten te bieden om het succes van de klant te helpen garanderen. Dit kan ook in [ het Overzicht van de Abonnementen van het Succes van Adobe worden gevonden: De Levenscyclus van het Geval van de steun ](https://experienceleague.adobe.com/nl/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
 Hieronder ziet u de tijdlijnen en meldingen voor verschillende scenario&#39;s die tijdens het ondersteuningsproces worden aangetroffen:
 
 ## Herinneringen voor follow-up van kwestie
@@ -47,7 +47,7 @@ Klanten kunnen een gesloten kwestie binnen 14 dagen opnieuw openen om verder te 
 
 ## Gerelateerde lezing
 
-* [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
-* [ De koppeling Een ticket verzenden wordt niet weergegeven op de startpagina van Adobe Commerce Help Center ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
-* [ de voorleggingsvorm van het Ticket: de handelaar wordt niet getoond in drop-down Organisatie ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
-* [ Overzicht van de Succesplannen van Adobe: De Levenscyclus van het Geval van de steun ](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
+* [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
+* [ De koppeling Een ticket verzenden wordt niet weergegeven op de startpagina van Adobe Commerce Help Center ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
+* [ de voorleggingsvorm van het Ticket: de handelaar wordt niet getoond in drop-down Organisatie ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
+* [ Overzicht van de Succesplannen van Adobe: De Levenscyclus van het Geval van de steun ](https://experienceleague.adobe.com/nl/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)

@@ -42,4 +42,4 @@ Het wijzigen van dit veld is afhankelijk van uw individuele omstandigheden.
 
 Als u de eigendom van uw huidige account wilt overdragen aan een nieuwe eigenaar of een ander e-mailadres, moet u de primaire e-mail voor de gebruiker die aan het account is gekoppeld, bijwerken.
 
-Verwijs naar: [ https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)
+Verwijs naar: [ https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=nl-NL](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=nl-NL)

@@ -80,6 +80,6 @@ Nadat u de patch met de fix hebt toegepast, is de tijdelijke oplossing niet meer
 
 ## Adobe Commerce on cloud Infrastructure 2.2.0: gebruik ECE-Tools v2002.0.8 of hoger {#h_64593789291526919876198}
 
-Het [ ECE-Hulpmiddelen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) pakket van het plaatsingsmanuscript met versies 2002.0.3 - 2002.0.7 [ past ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) automatisch de tijdelijke oplossing toe, die `disable_locking` aan `1` plaatst. Hierdoor wordt het mechanisme voor sessievergrendeling uitgeschakeld voor Adobe Commerce 2.2.0, waarop het oorspronkelijke probleem zich niet voordoet.
+Het [ ECE-Hulpmiddelen ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) pakket van het plaatsingsmanuscript met versies 2002.0.3 - 2002.0.7 [ past ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=nl-NL) automatisch de tijdelijke oplossing toe, die `disable_locking` aan `1` plaatst. Hierdoor wordt het mechanisme voor sessievergrendeling uitgeschakeld voor Adobe Commerce 2.2.0, waarop het oorspronkelijke probleem zich niet voordoet.
 
 Als u Adobe Commerce uitvoert op cloudinfrastructuur 2.2.0, moet u ECE-Tools upgraden naar versie 2002.0.8 of hoger. U kunt ook overwegen om uw Adobe Commerce op cloudinfrastructuur te upgraden naar versie 2.2.2 of hoger.

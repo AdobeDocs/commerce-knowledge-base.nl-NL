@@ -33,10 +33,10 @@ De oplossing is het uitschakelen van de regel Nginx die `/robots.txt` -aanvragen
 
 Als u niet de toegelaten zelfbediening hebt (of niet zeker als het) toeliet, [ voorlegt een kaartje van de Steun van het Magento ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) verzoekend schrapping van de Nginx omleidingsregel van `/robots.txt` verzoeken aan `/media/robots.txt`.
 
-Als u de zelfbediening hebt ingeschakeld, werkt u ECE-Tools bij naar minimaal 2002.0.12 en verwijdert u de Nginx-omleidingsregel in uw `.magento.app.yaml` -bestand. U kunt naar [ verwijzen voeg plaatstoewijzing en onderzoekmachine robots ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) in onze ontwikkelaarsdocumentatie voor meer informatie toe.
+Als u de zelfbediening hebt ingeschakeld, werkt u ECE-Tools bij naar minimaal 2002.0.12 en verwijdert u de Nginx-omleidingsregel in uw `.magento.app.yaml` -bestand. U kunt naar [ verwijzen voeg plaatstoewijzing en onderzoekmachine robots ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie voor meer informatie toe.
 
 ## Verwante lezing
 
 * [ hoe te om kwaadwillig verkeer voor Magento Commerce Cloud op Fastly niveau ](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) in onze steunkennisbasis te blokkeren.
-* [ voeg plaatstoewijzing en onderzoekmachine robots ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) in onze ontwikkelaarsdocumentatie toe.
-* [ Robots van de Motor van het Onderzoek ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots) in onze gebruikersgids.
+* [ voeg plaatstoewijzing en onderzoekmachine robots ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) in onze ontwikkelaarsdocumentatie toe.
+* [ Robots van de Motor van het Onderzoek ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html?lang=nl-NL#search-engine-robots) in onze gebruikersgids.

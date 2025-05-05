@@ -34,7 +34,7 @@ Dit artikel bevat bronnen voor het oplossen van problemen met New Relic op Adobe
 <p>In die gevallen, moet een admin gebruiker u aan het project toevoegen.</p>
 </td>
 <td>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html"> Toegang tot de diensten van New Relic </a> in onze basis van de steunkennis.</p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html?lang=nl-NL"> Toegang tot de diensten van New Relic </a> in onze basis van de steunkennis.</p>
 </td>
 </tr>
 <tr>

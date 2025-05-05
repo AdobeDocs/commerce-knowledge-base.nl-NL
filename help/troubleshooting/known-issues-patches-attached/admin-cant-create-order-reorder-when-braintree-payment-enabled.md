@@ -58,7 +58,7 @@ De patch is aan dit artikel gekoppeld. Klik op de volgende koppeling om deze te 
 
 >[!NOTE]
 >
->Daarnaast voor Adobe Commerce op producten met cloudinfrastructuur: Adobe heeft de oplossing opgenomen in de cloudpatches voor Commerce versie 1.0.18. Gelieve te verwijzen naar [ de versienota&#39;s van de Huur van de Wolk voor de versie van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches) in onze ontwikkelaarsdocumentatie om instructies te vinden bij het toepassen van het recentste pakket.
+>Daarnaast voor Adobe Commerce op producten met cloudinfrastructuur: Adobe heeft de oplossing opgenomen in de cloudpatches voor Commerce versie 1.0.18. Gelieve te verwijzen naar [ de versienota&#39;s van de Huur van de Wolk voor de versie van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches) in onze ontwikkelaarsdocumentatie om instructies te vinden bij het toepassen van het recentste pakket.
 
 ### Compatibele Adobe Commerce-versies:
 

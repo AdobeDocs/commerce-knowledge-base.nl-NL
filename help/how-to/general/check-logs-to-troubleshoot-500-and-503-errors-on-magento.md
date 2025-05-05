@@ -20,17 +20,17 @@ Bob - not in TOC
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html).
+* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=nl-NL).
 
 Als u logboeken voor deze serverfouten wilt weergeven, controleert u de `access.log` op de webserver, bijvoorbeeld `<ip address>` `<timestamp>` `<request uri>` `<response code>` `<referer url>`
 
 Verwante logbestanden controleren:
 
 1. Voer het volgende bevel in CLI uit als het op de huidige dag (voor Adobe Commerce op de architectuur van het de planplan van de wolkeninfrastructuur Pro) is. Of tot een bepaald punt in het verleden (voor Adobe Commerce op de architectuur van het Plan van de Aanzet van de wolkeninfrastructuur), aangezien de duur van de logboekdekking beperkt is, en logboekomwenteling niet beschikbaar is: `grep -r "\" [50[0-9]" /path/to/access.log` als de fout in het verleden is voorgekomen stel het volgende bevel in CLI (Pro architectuur slechts): `zgrep "\" 50[0-9]" /path/to/access.log.<rotation ID>.gz`
-1. Dan controleer `exception.log` en `error.log` of het gelijkwaardige [ geroteerde logboek ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html#log-rotation) (logboeken die automatisch worden geroteerd en worden samengeperst wanneer zij een bepaalde dossiergrootte) voor zelfde timestamp bereiken om van de potentiële fout de plaats te bepalen en te zien wat zou kunnen voorkomen om het te veroorzaken. Opmerking: als u de opdrachten `exception.log` en `error.log` hierboven in de CLI wilt controleren, maar `access.log` wilt vervangen door `exception.log` of `error.log` .
+1. Dan controleer `exception.log` en `error.log` of het gelijkwaardige [ geroteerde logboek ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=nl-NL#log-rotation) (logboeken die automatisch worden geroteerd en worden samengeperst wanneer zij een bepaalde dossiergrootte) voor zelfde timestamp bereiken om van de potentiële fout de plaats te bepalen en te zien wat zou kunnen voorkomen om het te veroorzaken. Opmerking: als u de opdrachten `exception.log` en `error.log` hierboven in de CLI wilt controleren, maar `access.log` wilt vervangen door `exception.log` of `error.log` .
 
 ## Gerelateerde lezing
 
-* Zie [ Logboeken van de Mening en beheer ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk*.
+* Zie [ Logboeken van de Mening en beheer ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=nl-NL) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk*.
 * Zie [ het Oplossen van problemen 503 fouten ](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md) in onze basis van de steunkennis.
 * Zie [ Troubleshooter van de Plaats van het Magento neer ](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md) in onze basis van de steunkennis.

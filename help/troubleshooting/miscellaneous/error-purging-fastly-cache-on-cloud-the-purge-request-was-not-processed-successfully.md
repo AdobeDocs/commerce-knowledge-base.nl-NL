@@ -49,12 +49,12 @@ Als de geloofsbrieven correct zijn, kunt u problemen met uw VCLs hebben. Om van 
 curl -X GET -s https://api.fastly.com/service/<Service ID>/version/<Editable Version #>/snippet -H "Fastly-Key:FASTLY_API_TOKEN"
 ```
 
-Controleer de lijst met VCL&#39;s. Als u kwesties met het gebrek VCLs van Fastly hebt, kunt u opnieuw uploaden of de inhoud per [ snel gebrek VCLs ](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets) verifiëren. Voor het uitgeven van uw douane VCLs, zie [ VCL fragmenten van de Douane VCL ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) in Commerce op de Gids van de Infrastructuur van de Wolk.
+Controleer de lijst met VCL&#39;s. Als u kwesties met het gebrek VCLs van Fastly hebt, kunt u opnieuw uploaden of de inhoud per [ snel gebrek VCLs ](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets) verifiëren. Voor het uitgeven van uw douane VCLs, zie [ VCL fragmenten van de Douane VCL ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=nl-NL) in Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ## Meer informatie
 
 In onze documentatie voor ontwikkelaars:
 
-* [ Ongeveer snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [ Opstelling snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [ de fragmenten van VCL van de Douane de Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [ Ongeveer snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=nl-NL)
+* [ Opstelling snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL)
+* [ de fragmenten van VCL van de Douane de Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=nl-NL)

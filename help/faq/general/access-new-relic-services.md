@@ -28,8 +28,8 @@ Als sommige klanten e-mail ontvingen die een activeringsverbinding van New Relic
 
 **Adobe Commerce op de klanten van het de planarchitectuur van de infrastructuur van de wolk van de Aanzet die New Relic willen gebruiken:**
 
-Klanten met starterarchitectuur worden niet voorzien van de New Relic Infrastructure-service als onderdeel van hun abonnement. Nochtans, kunnen zij de Controle van de Prestaties van de Toepassing van New Relic (APM) gebruiken als zij een vergunning door de stappen [ verbinden met New Relic ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie te volgen toevoegen.
+Klanten met starterarchitectuur worden niet voorzien van de New Relic Infrastructure-service als onderdeel van hun abonnement. Nochtans, kunnen zij de Controle van de Prestaties van de Toepassing van New Relic (APM) gebruiken als zij een vergunning door de stappen [ verbinden met New Relic ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie te volgen toevoegen.
 
 ## Verwante lezing
 
-Om over de diensten van New Relic te leren, zie [ Prestaties ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie onderzoeken. U kunt [ ook herzien problemen oplossen prestaties gebruikend New Relic op Adobe Commerce op wolkeninfrastructuur ](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) in onze basis van steunkennis.
+Om over de diensten van New Relic te leren, zie [ Prestaties ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie onderzoeken. U kunt [ ook herzien problemen oplossen prestaties gebruikend New Relic op Adobe Commerce op wolkeninfrastructuur ](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) in onze basis van steunkennis.

@@ -48,4 +48,4 @@ De Adobe adviseert ook sterk dat de handelaren hulpmiddelen opstellen om hun adm
 * [ 5 Onmiddellijke Acties aan Protect tegen de Aanvallen van de Kracht ](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
 * [ Protect Uw Wachtwoord van de Installatie van het Magento Bezig Nieuwe Update ](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [ Beste praktijken van de Veiligheid ](https://magento.com/security/best-practices/security-best-practices)
-* Toevoegend en Vormend Two-Factor Authentificatie in Adobe Commerce voor [ 2.4.x ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)
+* Toevoegend en Vormend Two-Factor Authentificatie in Adobe Commerce voor [ 2.4.x ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)

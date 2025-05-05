@@ -52,9 +52,9 @@ Staging2:
 ## Workaround
 
 * Gebruik geen bijlagen die groter zijn dan 6Mb of 10Mb.
-* Overweeg het gebruik van een externe SMTP-server op uw Adobe Commerce-instantie. Voor stappen, verwijs naar [ E-mailmededelingen ](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html) in onze Gids van Systemen Admin vormen.
+* Overweeg het gebruik van een externe SMTP-server op uw Adobe Commerce-instantie. Voor stappen, verwijs naar [ E-mailmededelingen ](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html?lang=nl-NL) in onze Gids van Systemen Admin vormen.
 * Configureer de server opnieuw zodat bestanden in uw module kunnen worden opgeslagen en koppel de koppeling vervolgens aan de bestanden in de e-mails.
 
 ## Gerelateerde lezing
 
-* [[!DNL SendGrid]  e-maildienst ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html) in onze Commerce op de Gids van de Infrastructuur van de Wolk.
+* [[!DNL SendGrid]  e-maildienst ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=nl-NL) in onze Commerce op de Gids van de Infrastructuur van de Wolk.

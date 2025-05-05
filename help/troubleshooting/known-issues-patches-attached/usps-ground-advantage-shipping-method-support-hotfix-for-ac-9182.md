@@ -65,7 +65,7 @@ De patch is aan dit artikel gekoppeld. Klik op de volgende koppeling om deze te 
 
 ## Hoe de pleister aanbrengen
 
-Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) in onze basis van steunkennis voor instructies wordt verstrekt.
+Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=nl-NL) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ## Hoe te om te bepalen of de pleisters zijn aangebracht
 
@@ -73,7 +73,7 @@ Aangezien het niet mogelijk is om gemakkelijk te controleren of de kwestie werd 
 
 <u> u kunt dit doen door de volgende stappen te nemen </u>:
 
-1. [ installeer  [!DNL Quality Patches Tool] ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [ installeer  [!DNL Quality Patches Tool] ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=nl-NL).
 1. Voer de opdracht uit:
 
    ```bash

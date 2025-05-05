@@ -30,7 +30,7 @@ b. NO - Onderhoud of mondiale uitvallen. Controleren op geschatte duur en update
 
 +++**zijn er plaatsingen in andere milieu&#39;s die de plaatsing in het bestaande milieu blokkeren?**
 
-Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende bevel in werking gebruikend magento-wolk CLI (als u slechts aan één wolkenproject bent toegevoegd). **Nota**: Controle u bent op de recentste versie van magento-wolk CLI. Voor stappen, verwijs naar [ Update CLI ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in Commerce op de gids van de Infrastructuur van de Wolk.
+Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende bevel in werking gebruikend magento-wolk CLI (als u slechts aan één wolkenproject bent toegevoegd). **Nota**: Controle u bent op de recentste versie van magento-wolk CLI. Voor stappen, verwijs naar [ Update CLI ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in Commerce op de gids van de Infrastructuur van de Wolk.
 
 ```bash
 magento-cloud --state=in_progress
@@ -42,7 +42,7 @@ Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende be
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-Om informatie over een bestaande plaatsingsactiviteit te vinden (verwijs naar [ Controlerend plaatsingslogboek als de Wolk UI &quot;logboek &quot;gesnipte&quot;fout ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) heeft
+Om informatie over een bestaande plaatsingsactiviteit te vinden (verwijs naar [ Controlerend plaatsingslogboek als de Wolk UI &quot;logboek &quot;gesnipte&quot;fout ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) heeft
 voor details) kunt u dit bevel in werking stellen om een lopend logboek van die activiteit te verkrijgen:
 
 ```bash
@@ -79,7 +79,7 @@ b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magent
 +++**Gebruikend Bitbucket?**
 
 a. JA - controleer [ status.bitbucket.com ](https://bitbucket.status.atlassian.com/).\
-b. NO - de fouten van het plaatsingslogboek van de controle in [ bouwt en stelt logboeken ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations) op. Ga aan [ Stap 6 ](#step-6) te werk.
+b. NO - de fouten van het plaatsingslogboek van de controle in [ bouwt en stelt logboeken ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/test/log-locations) op. Ga aan [ Stap 6 ](#step-6) te werk.
 
 +++
 
@@ -124,7 +124,7 @@ b. NO - ga aan [ Stap 11 ](#step-11) te werk.
 +++**Beschikbare opslag oké?**
 
 a. JA - ga met [ Stap 11 ](#step-11) te werk.\
-b. NO - het Overzicht [ beheert schijfruimte ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
+b. NO - het Overzicht [ beheert schijfruimte ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
 
 +++
 
@@ -132,7 +132,7 @@ b. NO - het Overzicht [ beheert schijfruimte ](https://experienceleague.adobe.co
 
 +++**_dossier kon geen Waarschuwing _worden geschreven?**
 
-a. JA - gelieve [ de schijfwaarde in .magento.app.yaml ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) te verhogen en opnieuw op te stellen. Als dit niet werkt, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+a. JA - gelieve [ de schijfwaarde in .magento.app.yaml ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=nl-NL#application-disk-space) te verhogen en opnieuw op te stellen. Als dit niet werkt, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NO - ga met [ Stap 12 ](#step-12) te werk.
 
 +++
@@ -159,7 +159,7 @@ b. NO - ga aan [ Stap 14 ](#step-14) te werk.
 
 +++**systeem van het Dossier uit inodes of ruimte?**
 
-a. JA - zie [ schijfruimte beheren ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space).\
+a. JA - zie [ schijfruimte beheren ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=nl-NL#application-disk-space).\
 b. NO - ga aan [ Stap 15 ](#step-15) te werk.
 
 +++
@@ -201,7 +201,7 @@ b. NO - ga aan [ Stap 18 ](#step-18) te werk.
 
 +++**de hakenmislukking/hang van het Post?**
 
-a. JA - Gegevensbestand: [ vrije schijfruimte ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), corruptie, onvolledige/bedorven lijsten.\
+a. JA - Gegevensbestand: [ vrije schijfruimte ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=nl-NL#allocate-disk-space), corruptie, onvolledige/bedorven lijsten.\
 b. NO - ga aan [ Stap 19 ](#step-19) te werk.
 
 +++
@@ -210,7 +210,7 @@ b. NO - ga aan [ Stap 19 ](#step-19) te werk.
 
 +++**Gebruikend derdextensies?**
 
-a. JA - probeer [ onbruikbaar makend de derdextensies ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions) en in werking stellend de plaatsing (om te zien of zijn zij de oorzaak van het probleem), vooral als er uitbreidingsnamen in om het even welke fouten zijn.\
+a. JA - probeer [ onbruikbaar makend de derdextensies ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure-store/extensions) en in werking stellend de plaatsing (om te zien of zijn zij de oorzaak van het probleem), vooral als er uitbreidingsnamen in om het even welke fouten zijn.\
 b. NO - ga aan [ Stap 20 ](#step-20) te werk.
 
 +++

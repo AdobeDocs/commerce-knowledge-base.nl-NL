@@ -51,7 +51,7 @@ De mogelijke redenen voor deze kwestie zijn:
 
 Om de kwesties op te lossen, moet u een extra configuratie van Varnish uitvoeren en Varnish opnieuw beginnen.
 
-1. Als gebruiker met `root` voorrechten, open uw Vanish configuratiedossier in een tekstredacteur. Zie [ wijzigen wijzigt de het systeemconfiguratie van Varnish ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server) in onze ontwikkelaarsdocumentatie voor info over waar dit dossier voor verschillende werkende systemen zou kunnen worden gevestigd.
+1. Als gebruiker met `root` voorrechten, open uw Vanish configuratiedossier in een tekstredacteur. Zie [ wijzigen wijzigt de het systeemconfiguratie van Varnish ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cache/config-varnish-server) in onze ontwikkelaarsdocumentatie voor info over waar dit dossier voor verschillende werkende systemen zou kunnen worden gevestigd.
 1. Voeg in de lus `DAEMON_OPTS variable` `-p feature=+esi_ignore_https` , `-p  feature=+esi_ignore_other_elements` , `-p  feature=+esi_disable_xml_check` toe. Dit ziet er als volgt uit:
 
    ```bash
@@ -64,5 +64,5 @@ Om de kwesties op te lossen, moet u een extra configuratie van Varnish uitvoeren
 
 ## Gerelateerde lezing
 
-* [ vorm Varnish en uw Webserver ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server) in onze ontwikkelaarsdocumentatie.
+* [ vorm Varnish en uw Webserver ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cache/config-varnish-server) in onze ontwikkelaarsdocumentatie.
 * [ de documentatie van Varnish ](https://varnish-cache.org/docs/5.1/reference/index.html)

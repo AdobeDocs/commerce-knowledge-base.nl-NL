@@ -32,7 +32,7 @@ De controle mislukt omdat je een niet-ondersteunde PHP versie gebruikt.
 
 ### Oplossing
 
-Om deze kwestie op te lossen, gebruik één van de gesteunde versies die in onze ontwikkelaarsdocumentatie [ worden vermeld 2.3.x de Vereisten van het Systeem ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements) en [ 2.2.x de Vereisten van het Systeem ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements).
+Om deze kwestie op te lossen, gebruik één van de gesteunde versies die in onze ontwikkelaarsdocumentatie [ worden vermeld 2.3.x de Vereisten van het Systeem ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements) en [ 2.2.x de Vereisten van het Systeem ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements).
 
 ## Controle van gereedheid voor PHP wordt niet weergegeven
 
@@ -43,7 +43,7 @@ De PHP gereedheidscontrole geeft de PHP versie niet weer zoals de volgende afbee
 
 ### Oplossing
 
-Dit is een symptoom van een onjuiste installatie van de snijtaak. Voor meer informatie, zie [ banen van de opstelling cron ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration) in onze ontwikkelaarsdocumentatie.
+Dit is een symptoom van een onjuiste installatie van de snijtaak. Voor meer informatie, zie [ banen van de opstelling cron ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/next-steps/configuration) in onze ontwikkelaarsdocumentatie.
 
 ## Onjuiste PHP-versie
 
@@ -62,7 +62,7 @@ Ga als volgt te werk om het probleem op te lossen:
 * Start de webserver of php-fm opnieuw.
 * Controleer de omgevingsvariabele `$PATH` voor meerdere paden naar PHP.
 * Gebruik de opdracht `which php` om het eerste uitvoerbare PHP-bestand op te zoeken in uw pad. Als dit niet juist is, verwijdert u het of maakt u een symlink naar de juiste PHP-versie.
-* Gebruik een [`phpinfo.php` ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software) pagina om meer informatie te verzamelen.
+* Gebruik een [`phpinfo.php` ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/optional-software) pagina om meer informatie te verzamelen.
 * Zorg ervoor dat u een ondersteunde PHP-versie gebruikt volgens onze systeemvereisten, in de documentatie voor ontwikkelaars:
-   * [ Vereisten van het Systeem van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
-* Plaats de zelfde PHP montages voor zowel PHP bevellijn als PHP Webserver stop-binnen zoals die in [ PHP configuratieopties ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements#php-settings) in onze ontwikkelaarsdocumentatie wordt besproken.
+   * [ Vereisten van het Systeem van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements)
+* Plaats de zelfde PHP montages voor zowel PHP bevellijn als PHP Webserver stop-binnen zoals die in [ PHP configuratieopties ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements#php-settings) in onze ontwikkelaarsdocumentatie wordt besproken.

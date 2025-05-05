@@ -79,4 +79,4 @@ Als u nog niet tot het Plaats-brede Hulpmiddel van de Analyse kunt toegang hebbe
 
 ## Gerelateerde lezing
 
-* [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html) de gids van het Hulpmiddel van de Analyse van 0&rbrace; plaats-brede
+* [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=nl-NL) de gids van het Hulpmiddel van de Analyse van 0&rbrace; plaats-brede

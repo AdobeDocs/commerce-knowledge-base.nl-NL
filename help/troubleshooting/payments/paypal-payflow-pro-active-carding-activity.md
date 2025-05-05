@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 Nadat u het pakket hebt geïnstalleerd, configureert u Google reCAPTCHA (aanbevolen) of CAPTCHA zoals beschreven in de volgende documenten:
 
-* [ Google reCAPTCHA ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha) in onze gebruikersgids.
-* [ CAPTCHA ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) in onze gebruikersgids.
+* [ Google reCAPTCHA ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/captcha/security-google-recaptcha) in onze gebruikersgids.
+* [ CAPTCHA ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/captcha/security-captcha) in onze gebruikersgids.
 
 De nieuwe optie voor het uitcheckformulier is:
 

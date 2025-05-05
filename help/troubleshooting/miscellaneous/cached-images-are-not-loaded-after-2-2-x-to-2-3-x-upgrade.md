@@ -45,6 +45,6 @@ Het probleem wordt veroorzaakt door de onjuiste Nginx-configuratie die is ingest
    * Integratie: corrigeer het bestand zelf en duw op de wijzigingen.
    * Het opvoeren en de Productie: verbeter het dossier zelf, duw de veranderingen, en creeer een [ de steunkaartje van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om het toe te passen te hebben.
 
-1. Optimalisatie van snel renderen van afbeeldingen in Commerce-beheer inschakelen (eerst snel configureren), zoals beschreven in <https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization> .
+1. Optimalisatie van snel renderen van afbeeldingen in Commerce-beheer inschakelen (eerst snel configureren), zoals beschreven in <https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization> .
 
 Als de configuratie correct is, maar u ervaart nog de kwestie, vervolg het onderzoek of contacteer [ de Steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

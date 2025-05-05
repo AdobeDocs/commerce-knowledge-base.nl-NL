@@ -23,7 +23,7 @@ Dit artikel bevat een oplossing voor het probleem waarbij met het gereedschap Be
 
 <u> Stappen om </u> te reproduceren:
 
-1. Vorm het Hulpmiddel van het Scannen van de Veiligheid om uw website te controleren, zoals die in [ Scannen van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) in onze gebruikersgids wordt beschreven.
+1. Vorm het Hulpmiddel van het Scannen van de Veiligheid om uw website te controleren, zoals die in [ Scannen van de Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-scan) in onze gebruikersgids wordt beschreven.
 1. In de kolom van Acties, uitgezochte **Scannen van de Looppas**.
 
 <u> Verwachte resultaten </u>:
@@ -47,5 +47,5 @@ Probeer uw website te openen.
 
 ## Gerelateerde lezing
 
-* [ ga levend en lanceer ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview) in onze ontwikkelaardocumentatie.
-* [ Scannen van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) in onze gebruikersgids.
+* [ ga levend en lanceer ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/launch/overview) in onze ontwikkelaardocumentatie.
+* [ Scannen van de Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-scan) in onze gebruikersgids.

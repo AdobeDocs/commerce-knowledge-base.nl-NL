@@ -16,8 +16,8 @@ Voor versies van Adobe Commerce onder 2.4.7, kunt u veelvoudige couponcodes vorm
 
 Om meer dan één couponcode in de kar gelijktijdig te gebruiken, kunt u overwegen gebruikend een overeenkomstige uitbreiding in [ Commerce Marketplace ](https://marketplace.magento.com/).
 
-Nochtans, van versie 2.4.7 van Adobe Commerce, wordt u toegestaan om **meer dan één couponcode in de kar gelijktijdig te vormen en te gebruiken**. Om het toe te laten, verwijs naar [ Multicoupon Montages ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales#multicoupon-settings).
+Nochtans, van versie 2.4.7 van Adobe Commerce, wordt u toegestaan om **meer dan één couponcode in de kar gelijktijdig te vormen en te gebruiken**. Om het toe te laten, verwijs naar [ Multicoupon Montages ](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/sales/sales#multicoupon-settings).
 
 ## Meer informatie
 
-[ Codes van de Coupon ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html) in onze gebruikersgids.
+[ Codes van de Coupon ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html?lang=nl-NL) in onze gebruikersgids.

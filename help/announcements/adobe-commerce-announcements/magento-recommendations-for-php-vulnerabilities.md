@@ -28,7 +28,7 @@ Als u Adobe Commerce gebruikt voor cloudinfrastructuur, werkt u samen met uw tec
 Aanvullende opmerkingen over het opnieuw implementeren van uw Cloud-site voor deze update:
 
 * Als uw site nog steeds PHP versie 7.0 gebruikt, moet u eerst een upgrade uitvoeren naar een ondersteunde PHP versie voordat u de site opnieuw implementeert om te kunnen profiteren van deze beveiligingsupdates.
-* Voor 2.1.x/2.2.x, kan meer informatie over bevordering PHP [ hier ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html) worden gevonden.
+* Voor 2.1.x/2.2.x, kan meer informatie over bevordering PHP [ hier ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=nl-NL) worden gevonden.
 
 \* *Vorige versies van dit artikel en ons overseinen verklaarde 19 September, maar onze teams hebben hun werk voorafgaand aan programma gebeëindigd.*
 

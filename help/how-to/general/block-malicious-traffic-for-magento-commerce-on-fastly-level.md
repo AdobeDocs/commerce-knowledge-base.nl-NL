@@ -24,7 +24,7 @@ In dit artikel veronderstellen wij dat u reeds kwaadwillige IPs en/of hun land e
 
 Als uw website door DDoS wordt overbelast, kunt u zich mogelijk niet aanmelden bij uw Commerce Admin (en alle stappen uitvoeren die verder in dit artikel worden beschreven).
 
-Om toegang tot Admin te krijgen, zet uw website in onderhoudswijze zoals die in [ wordt beschreven laat of maakt onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) toe onbruikbaar en whitelist uw IP adres. Schakel de onderhoudsmodus uit nadat u dit hebt gedaan.
+Om toegang tot Admin te krijgen, zet uw website in onderhoudswijze zoals die in [ wordt beschreven laat of maakt onderhoudswijze ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) toe onbruikbaar en whitelist uw IP adres. Schakel de onderhoudsmodus uit nadat u dit hebt gedaan.
 
 ## Het verkeer van het blok door IP
 
@@ -74,7 +74,7 @@ Er zijn twee belangrijke overwegingen wanneer u `robots.txt` gebruikt:
 * Robots kunnen uw `robots.txt` negeren. Vooral malware-robots, die het web scannen op kwetsbaarheden op het gebied van beveiliging, en e-mailadressen die door spammers worden gebruikt, zullen geen aandacht besteden.
 * Het bestand `robots.txt` is een openbaar beschikbaar bestand. Iedereen kan zien welke gedeelten van uw server u niet wilt gebruiken voor robots.
 
-De basisinformatie en standaardAdobe Commerce `robots.txt` configuratie kunnen in het [ artikel van de Motor van het Onderzoek van de Motor Robots ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) in onze ontwikkelaarsdocumentatie worden gevonden.
+De basisinformatie en standaardAdobe Commerce `robots.txt` configuratie kunnen in het [ artikel van de Motor van het Onderzoek van de Motor Robots ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) in onze ontwikkelaarsdocumentatie worden gevonden.
 
 Zie voor algemene informatie en aanbevelingen over `robots.txt`:
 
@@ -86,4 +86,4 @@ Werk met uw ontwikkelaar en/of SEO-expert om te bepalen welke Gebruikersagenten 
 ## Gerelateerde lezing
 
 * [ Product-Specifieke het Vergunningstermijnen voor Adobe Commerce op Wolk ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
-* [ Douane VCL voor het blokkeren van verzoeken ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in Commerce op de Gids van de Wolk
+* [ Douane VCL voor het blokkeren van verzoeken ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in Commerce op de Gids van de Wolk

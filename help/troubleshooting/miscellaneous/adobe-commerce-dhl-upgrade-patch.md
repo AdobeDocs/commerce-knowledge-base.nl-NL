@@ -29,7 +29,7 @@ Adobe Commerce 2.4.5, dat in augustus 2022 zal worden uitgebracht, zal de verbet
 ## Reparatie
 
 De patch-id is AC-3022 en is beschikbaar in versie 1.1.16 van het Hulpprogramma voor kwaliteitspatches.
-Verwijs naar het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) > het artikel van het Gebruik ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) in onze ontwikkelaarsdocumentatie voor informatie over hoe te om QPT te gebruiken en flarden te installeren.
+Verwijs naar het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) > het artikel van het Gebruik ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/usage) in onze ontwikkelaarsdocumentatie voor informatie over hoe te om QPT te gebruiken en flarden te installeren.
 
 De patch is van toepassing op de volgende Adobe Commerce-versies:
 
@@ -38,5 +38,5 @@ De patch is van toepassing op de volgende Adobe Commerce-versies:
 
 ## Gerelateerde lezing
 
-* [ Verschepende Dragers > DHL ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) in onze gebruikersgids
-* [ Methoden van de Levering ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/delivery-methods) in onze gebruikersgids
+* [ Verschepende Dragers > DHL ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) in onze gebruikersgids
+* [ Methoden van de Levering ](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/sales/delivery-methods) in onze gebruikersgids

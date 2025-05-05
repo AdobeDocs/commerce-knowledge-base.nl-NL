@@ -26,7 +26,7 @@ De gebruiker krijgt een fout wanneer het bevestigen van de Snelle geloofsbrieven
 
 ## Oplossing
 
-1. Controleer of u de juiste Fastly Service ID en API-token hebt en probeer opnieuw te valideren. Voor gedetailleerde instructie, verwijs naar [ Test de Snelle geloofsbrieven ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
+1. Controleer of u de juiste Fastly Service ID en API-token hebt en probeer opnieuw te valideren. Voor gedetailleerde instructie, verwijs naar [ Test de Snelle geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
 1. Als het verifiëren van de geloofsbrieven ontbreekt, stel het volgende krullbevel in werking om de status van de dienst te bevestigen:
 
    ```curl
@@ -45,6 +45,6 @@ De gebruiker krijgt een fout wanneer het bevestigen van de Snelle geloofsbrieven
 
 ## Verwante lezingen in onze ontwikkelaarsdocumentatie:
 
-* [ Cloud voor Adobe Commerce > Snelst > de dienstrekening en geloofsbrieven van de Snelheid ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
+* [ Cloud voor Adobe Commerce > Snelst > de dienstrekening en geloofsbrieven van de Snelheid ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
 
-* [ Wolk voor Adobe Commerce > Opstelling Fastly > Test de Snelle geloofsbrieven ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)
+* [ Wolk voor Adobe Commerce > Opstelling Fastly > Test de Snelle geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)

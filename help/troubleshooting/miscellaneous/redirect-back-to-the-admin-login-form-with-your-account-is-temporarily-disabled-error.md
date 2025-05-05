@@ -37,9 +37,9 @@ U wordt teruggeleid naar het aanmeldingsformulier, met het volgende foutbericht 
 ## Oplossing
 
 1. Maak een back-up van de database.
-1. Gebruik een gegevensbestandhulpmiddel zoals [[!DNL phpMyAdmin] ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin), of toegang manueel OB van de bevellijn. In de `admin_user` gegevensbestandlijst, voor uw admin gebruikersverslag, controleer als `is_active` aan &quot; `1`&quot;wordt geplaatst en `lock_expires` is `NULL`. Stel deze waarden desgewenst opnieuw in.
+1. Gebruik een gegevensbestandhulpmiddel zoals [[!DNL phpMyAdmin] ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin), of toegang manueel OB van de bevellijn. In de `admin_user` gegevensbestandlijst, voor uw admin gebruikersverslag, controleer als `is_active` aan &quot; `1`&quot;wordt geplaatst en `lock_expires` is `NULL`. Stel deze waarden desgewenst opnieuw in.
 
 ## Gerelateerde lezing
 
-* [ richt terug naar de login vorm zonder fout, wanneer het proberen om aan [!UICONTROL Commerce Admin] ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin) aan te melden
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ richt terug naar de login vorm zonder fout, wanneer het proberen om aan [!UICONTROL Commerce Admin] ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin) aan te melden
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

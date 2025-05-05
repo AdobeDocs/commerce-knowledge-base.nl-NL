@@ -29,4 +29,4 @@ Het volgende bericht wordt weergegeven bij de gereedheidscontrole:
 
 ## Oplossing
 
-Zie of er een map `<magento_root>/update` is die bestanden en submappen bevat om dit probleem op te lossen. Anders, zie [ Opstelling updater ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error) in onze ontwikkelaarsdocumentatie.
+Zie of er een map `<magento_root>/update` is die bestanden en submappen bevat om dit probleem op te lossen. Anders, zie [ Opstelling updater ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error) in onze ontwikkelaarsdocumentatie.

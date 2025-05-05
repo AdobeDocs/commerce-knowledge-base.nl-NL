@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 >Gebruik de ACSD-61622-patch uit de [!DNL Quality Patches Tool] (QPT) 1.1.57-release in plaats van de eerder geleverde patch. De nieuwe patch is compatibel met Adobe Commerce-versies (alle implementatiemethoden) 2.4.6-p1 - 2.4.6-p8. Het kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies.
 >
->Voor meer informatie, verwijs naar [ ACSD-61622 flardartikel ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response) in onze gids van de Hulpmiddelen van Adobe Commerce.
+>Voor meer informatie, verwijs naar [ ACSD-61622 flardartikel ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response) in onze gids van de Hulpmiddelen van Adobe Commerce.
 
 >[!WARNING]
 >
->Voordat u de nieuwe patch kunt installeren, moet u de vorige patch in dit artikel verwijderen. Voor instructies bij het verwijderen van flarden, verwijs naar [ terugkeren een Reparatie van de Douane ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch) in onze gebruikersgids.
+>Voordat u de nieuwe patch kunt installeren, moet u de vorige patch in dit artikel verwijderen. Voor instructies bij het verwijderen van flarden, verwijs naar [ terugkeren een Reparatie van de Douane ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch) in onze gebruikersgids.
 
 
 Dit artikel bevat een patch voor het oplossen van problemen met de integratiemigratie van SOAP naar RESTful-API voor Adobe Commerce 2.4.4-p4 - 2.4.6-pX voor de verzendmethode. [!DNL FedEx]
@@ -75,7 +75,7 @@ Gebruik de volgende bijgevoegde patches, afhankelijk van uw Adobe Commerce/Magen
 
 ## Hoe de pleister aanbrengen
 
-Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) in onze basis van steunkennis voor instructies wordt verstrekt.
+Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=nl-NL) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ## Hoe te om te bepalen of de pleisters zijn aangebracht
 
@@ -83,7 +83,7 @@ Aangezien het niet mogelijk is om gemakkelijk te controleren of de kwestie werd 
 
 <u> u kunt dit doen door de volgende stappen te nemen </u>:
 
-1. [ installeer  [!DNL Quality Patches Tool] ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [ installeer  [!DNL Quality Patches Tool] ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=nl-NL).
 1. Voer de opdracht uit:
 
    ```bash

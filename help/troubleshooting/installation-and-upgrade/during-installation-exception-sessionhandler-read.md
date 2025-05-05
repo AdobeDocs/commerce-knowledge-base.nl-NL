@@ -25,7 +25,7 @@ in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 
 >[!NOTE]
 >
->Deze fout treedt alleen op in codeversies ouder dan 28 september 2015. Als u code van 29 september of later installeert, zou deze fout niet moeten voorkomen. Voor meer informatie over configuratieopties voor Redis, zie [ Redis ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis) in onze ontwikkelaarsdocumentatie vormen. Voor meer informatie over het specificeren van Redis gebruikend het bevel-lijn installatieprogramma, zie het [ installatieonderwerp ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced) of het [ onderwerp van de plaatsingsconfiguratie ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/deployment) in onze ontwikkelaarsdocumentatie.
+>Deze fout treedt alleen op in codeversies ouder dan 28 september 2015. Als u code van 29 september of later installeert, zou deze fout niet moeten voorkomen. Voor meer informatie over configuratieopties voor Redis, zie [ Redis ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cache/redis/config-redis) in onze ontwikkelaarsdocumentatie vormen. Voor meer informatie over het specificeren van Redis gebruikend het bevel-lijn installatieprogramma, zie het [ installatieonderwerp ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/advanced) of het [ onderwerp van de plaatsingsconfiguratie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/deployment) in onze ontwikkelaarsdocumentatie.
 
 ## Oorzaak
 
@@ -33,7 +33,7 @@ Dit gebeurt wanneer uw `session.save_handler` PHP-parameter is ingesteld op een 
 
 ## Oplossingen:
 
-* Upgrade uw Adobe Commerce-code. Verwijs naar [ Gids van de Installatie > werk de software van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall) in onze ontwikkelaarsdocumentatie bij.
+* Upgrade uw Adobe Commerce-code. Verwijs naar [ Gids van de Installatie > werk de software van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/uninstall) in onze ontwikkelaarsdocumentatie bij.
 * Gebruik de volgende tijdelijke oplossing met bestaande code:
 
 ## Zoeken `php.ini` {#locate-php-ini}

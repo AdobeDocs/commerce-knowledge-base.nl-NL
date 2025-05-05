@@ -33,15 +33,15 @@ De snelste extensie is bijgewerkt (samen met een gebundelde VCL-configuratie en 
 
 ## Oplossing
 
-1. Controle dat u recentste ECE-Hulpmiddelen hebt geïnstalleerd en bij de [ huidige versie ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite.html) in onze ontwikkelaarsdocumentatie. ECE-Tools heeft een versie van het pakket Fastly in zijn afhankelijkheden.
+1. Controle dat u recentste ECE-Hulpmiddelen hebt geïnstalleerd en bij de [ huidige versie ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie. ECE-Tools heeft een versie van het pakket Fastly in zijn afhankelijkheden.
 
    Dit is mogelijk niet de nieuwste versie van de snelplug-in, maar het is waarschijnlijk een nieuwere versie dan de versie die u momenteel hebt geïnstalleerd. Het is aan te raden de nieuwste ECE-tools te installeren.
 
-1. Als u niet op de huidige versie van ECE-Hulpmiddelen bent, volg deze stappen aan [ verbetering ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) in onze ontwikkelaarsdocumentatie.
+1. Als u niet op de huidige versie van ECE-Hulpmiddelen bent, volg deze stappen aan [ verbetering ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
 1. Nadat u ECE-Hulpmiddelen hebt bevorderd, controleer als u nu een huidige versie van de [ Snelle geïnstalleerde stop ](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets) hebt.
-1. Als de Snelle stop niet de huidige versie is, volg deze stappen aan [ verbetering de stop aan de huidigste versie ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module) in onze ontwikkelaarsdocumentatie.
+1. Als de Snelle stop niet de huidige versie is, volg deze stappen aan [ verbetering de stop aan de huidigste versie ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL#upgrade-the-fastly-module) in onze ontwikkelaarsdocumentatie.
 
 ## Gerelateerde lezing
 
-* Voor informatie over vestiging en het vormen snel, zie [ de Snelle diensten ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) in onze ontwikkelaarsdocumentatie vormen.
+* Voor informatie over vestiging en het vormen snel, zie [ de Snelle diensten ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie vormen.
 * Voor algemene informatie over Fastly, zie [ faals.com ](https://www.fastly.com/).

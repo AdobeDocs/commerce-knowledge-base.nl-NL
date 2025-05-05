@@ -21,7 +21,7 @@ Dit artikel bevat stappen voor het oplossen van problemen als de gegevens van uw
 
 ## Probleem
 
-U hebt geïnstalleerd en gevormd de [[!DNL Data Connection] ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) uitbreiding en hebt de gegevens van het klantenprofiel om naar het Experience Platform toegelaten worden verzonden, maar dat profielgegeven verschijnt niet in het Experience Platform.
+U hebt geïnstalleerd en gevormd de [[!DNL Data Connection] ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/data-connection/overview) uitbreiding en hebt de gegevens van het klantenprofiel om naar het Experience Platform toegelaten worden verzonden, maar dat profielgegeven verschijnt niet in het Experience Platform.
 
 ## Oplossing
 
@@ -31,7 +31,7 @@ Controleer het volgende als er geen gegevens over het klantprofiel in het Experi
 
 Controleer of u de nieuwste versie van de extensie `experience-platform-connector` hebt geïnstalleerd.
 
-Zie de [[!DNL Data Connection]  nota&#39;s van de uitbreidingsversie ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/release-notes) voor informatie over de recentste versie.
+Zie de [[!DNL Data Connection]  nota&#39;s van de uitbreidingsversie ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/data-connection/release-notes) voor informatie over de recentste versie.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Bevestig dat de module `customers-connector` is geconfigureerd op basis van het 
 
 #### Adobe Commerce on Cloud-infrastructuur
 
-1. Schakel de globale variabele `ENABLE_EVENTING` in `.magento.env.yaml` in. [ leer meer ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global).
+1. Schakel de globale variabele `ENABLE_EVENTING` in `.magento.env.yaml` in. [ leer meer ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global).
 
    ```bash
        stage:
@@ -116,14 +116,14 @@ select * from event_data_saas;
    "error_code": "403003" } } }
    ```
 
-1. Ga naar de pagina *[!UICONTROL Commerce Services Connector]* in Admin en controleer of de opgegeven toetsen van [!UICONTROL sandbox/production] correct zijn geconfigureerd. Controleer ook of de instellingen van de Commerce-account [!UICONTROL sandbox/production] overeenkomen met die in [!UICONTROL Commerce Services Connector] . Leer [ meer ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey).
+1. Ga naar de pagina *[!UICONTROL Commerce Services Connector]* in Admin en controleer of de opgegeven toetsen van [!UICONTROL sandbox/production] correct zijn geconfigureerd. Controleer ook of de instellingen van de Commerce-account [!UICONTROL sandbox/production] overeenkomen met die in [!UICONTROL Commerce Services Connector] . Leer [ meer ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey).
 
 ### Controleer of de service-id in de lijst van gewenste personen staat en bevestig deze met Adobe Commerce-ondersteuning
 
 1. Controleer of [!UICONTROL Commerce Services Connector] `serviceId` wordt weergegeven in de lijst van gewenste personen in Adobe Commerce.
-1. De steun van Adobe Commerce van het contact [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) om de status van de lijst van gewenste personen te bevestigen.
+1. De steun van Adobe Commerce van het contact [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) om de status van de lijst van gewenste personen te bevestigen.
 
 ## Gerelateerde lezing
 
-* [[!DNL Data Connection] ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) -extensie in de gebruikershandleiding van Commerce Services
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [[!DNL Data Connection] ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/data-connection/overview) -extensie in de gebruikershandleiding van Commerce Services
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

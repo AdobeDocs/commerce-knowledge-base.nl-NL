@@ -60,7 +60,7 @@ Klik op de volgende koppeling om deze te downloaden:
 
 ## Hoe de pleister aanbrengen
 
-Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) in onze basis van steunkennis voor instructies wordt verstrekt.
+Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=nl-NL) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ## Alleen voor Adobe Commerce op Cloud-handelaren - Hoe kan ik zien of er patches zijn aangebracht?
 
@@ -68,7 +68,7 @@ Aangezien het niet mogelijk is om gemakkelijk te controleren of de kwestie werd 
 
 <u> u kunt dit doen door de volgende stappen te nemen, gebruikend het steekproefdossier `VULN-27015-2.4.7_COMPOSER.patch` **als voorbeeld</u>**:
 
-1. [ installeer  [!DNL Quality Patches Tool] ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [ installeer  [!DNL Quality Patches Tool] ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=nl-NL).
 1. Voer de opdracht uit:<br>
    ![ ac-13283-tell-if-patch-applied-code ](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. U zou output gelijkend op dit moeten zien, waar VULN-27015 de *Toegepaste* status terugkeert:

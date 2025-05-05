@@ -56,5 +56,5 @@ Wanneer de module `Magento_Banner` is ingeschakeld, stuurt Adobe Commerce Ajax-a
 >
 >Wij adviseren sterk testende veranderingen op [ het Staging/het milieu van de Integratie ](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) eerst, alvorens het op Productie toe te passen. We raden u ook aan een recente back-up te maken voordat u iets manipuleert.
 
-1. Maak de `Magento_Banner` moduleoutput, zoals die in [ wordt beschreven onbruikbaar moduleoutput ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output) in onze ontwikkelaarsdocumentatie. De modulenaam u moet gebruiken is `Magento_Banner`.
-1. Implementeer uw code. Voor Adobe Commerce op wolkeninfrastructuur, stel zoals die in [ wordt beschreven uw opslag ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) artikel in onze ontwikkelaarsdocumentatie op.
+1. Maak de `Magento_Banner` moduleoutput, zoals die in [ wordt beschreven onbruikbaar moduleoutput ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/files/disable-module-output) in onze ontwikkelaarsdocumentatie. De modulenaam u moet gebruiken is `Magento_Banner`.
+1. Implementeer uw code. Voor Adobe Commerce op wolkeninfrastructuur, stel zoals die in [ wordt beschreven uw opslag ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) artikel in onze ontwikkelaarsdocumentatie op.

@@ -64,4 +64,4 @@ Als u toegang hebt tot het Marketplace-account dat aan de oude toets is gekoppel
 
 ## Gerelateerde lezing
 
-* [ krijgt uw authentificatietoetsen ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) in onze ontwikkelaarsdocumentatie.
+* [ krijgt uw authentificatietoetsen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) in onze ontwikkelaarsdocumentatie.

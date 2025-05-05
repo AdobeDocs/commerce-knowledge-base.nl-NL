@@ -29,5 +29,5 @@ Nadat u het gereedschap hebt geïnstalleerd, kunt u controleren op beschikbare p
 
 Raadpleeg de documentatie van onze ontwikkelaar voor meer informatie:
 
-* [ Patches beschikbaar in het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-* [ de versienota&#39;s van het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [ Patches beschikbaar in het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=nl-NL)
+* [ de versienota&#39;s van het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/release-notes)

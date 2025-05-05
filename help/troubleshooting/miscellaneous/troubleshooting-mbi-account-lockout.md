@@ -70,6 +70,6 @@ Maak je geen zorgen! Een nieuw ondersteuningsticket indienen (neem het e-mailadr
 
 ## Verwante onderwerpen in onze basis van steunkennis:
 
-* [ Toevoegend een nieuwe gebruiker en plaatsend toestemmingen ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html)
-* [ Hoe werk ik mijn e-mailadres of wachtwoord bij?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html)
-* [ hoe ik mijn wachtwoord terugstel?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html)
+* [ Toevoegend een nieuwe gebruiker en plaatsend toestemmingen ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html?lang=nl-NL)
+* [ Hoe werk ik mijn e-mailadres of wachtwoord bij?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html?lang=nl-NL)
+* [ hoe ik mijn wachtwoord terugstel?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html?lang=nl-NL)

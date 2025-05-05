@@ -80,7 +80,7 @@ Om de geblokkeerde plaatsing op te lossen, werk het `routes.yaml` dossier bij om
 
 1. С en duw op uw wijzigingen om uw project opnieuw te implementeren.
 
-Voor gedetailleerde instructies om de routeconfiguratie bij te werken, zie [ Wolk voor Adobe Commerce > routes ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml) in onze ontwikkelaarsdocumentatie vormen.
+Voor gedetailleerde instructies om de routeconfiguratie bij te werken, zie [ Wolk voor Adobe Commerce > routes ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml) in onze ontwikkelaarsdocumentatie vormen.
 
 >[!NOTE]
 >

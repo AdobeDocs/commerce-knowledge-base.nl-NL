@@ -60,7 +60,7 @@ In dit artikel worden stappen beschreven voor het oplossen van problemen met Ado
 </ol>
 </td>
 <td>
-<p>Meer over de score van de Apdex van New Relic leren, verwijs naar <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction"> Documentatie van New Relic &gt; de Apdex van APM &gt; de gebruikerstevredenheid van de Meetlat </a>. U kunt ook naar <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert"> Beheerde alarm voor Adobe Commerce verwijzen: De waarschuwingsalarm van de Index </a> in onze basis van de steunkennis.</p>
+<p>Meer over de score van de Apdex van New Relic leren, verwijs naar <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction"> Documentatie van New Relic &gt; de Apdex van APM &gt; de gebruikerstevredenheid van de Meetlat </a>. U kunt ook naar <a href="https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert"> Beheerde alarm voor Adobe Commerce verwijzen: De waarschuwingsalarm van de Index </a> in onze basis van de steunkennis.</p>
 </td>
 </tr>
 <tr>

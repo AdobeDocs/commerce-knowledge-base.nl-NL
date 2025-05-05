@@ -1,6 +1,6 @@
 ---
 title: Bekende kwestie in Adobe Commerce 2.3.5 voor de vergelijking van producten
-description: Dit artikel bevat aanbevelingen voor het voorkomen van een bekend probleem met [productvergelijking] (https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare) in Adobe Commerce op locatie 2.3.5 en Adobe Commerce op cloudinfrastructuur 2.3.5.
+description: Dit artikel bevat aanbevelingen voor het voorkomen van een bekend probleem met [productvergelijking] (https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/product-compare) in Adobe Commerce op locatie 2.3.5 en Adobe Commerce op cloudinfrastructuur 2.3.5.
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Bekende kwestie in Adobe Commerce 2.3.5 voor de vergelijking van producten
 
-Dit artikel verstrekt aanbevelingen op hoe te om een bekende [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare) kwestie van de 0&rbrace; productvergelijking &lbrace;in Adobe Commerce op-gebouw 2.3.5 en Adobe Commerce op wolkeninfrastructuur 2.3.5 te vermijden.
+Dit artikel verstrekt aanbevelingen op hoe te om een bekende [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/product-compare) kwestie van de 0&rbrace; productvergelijking &lbrace;in Adobe Commerce op-gebouw 2.3.5 en Adobe Commerce op wolkeninfrastructuur 2.3.5 te vermijden.
 
 ## Betrokken producten en versies
 
@@ -30,7 +30,7 @@ Geef niet-lege waarden op voor vergelijkbare productkenmerken of gebruik de stan
 
 >[!NOTE]
 >
->De attributen van het product worden geplaatst om voor vergelijking worden gebruikt gebruikend **Vergelijkbaar op configuratie het plaatsen van de Configuratie Storefront**. Voor meer informatie, verwijs naar [ Creërend de Attributen van het Product ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create#step-4-describe-the-storefront-properties) in onze gebruikersgids.
+>De attributen van het product worden geplaatst om voor vergelijking worden gebruikt gebruikend **Vergelijkbaar op configuratie het plaatsen van de Configuratie Storefront**. Voor meer informatie, verwijs naar [ Creërend de Attributen van het Product ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create#step-4-describe-the-storefront-properties) in onze gebruikersgids.
 
 Een oplossing is beschikbaar in Adobe Commerce 2.3.6, dat volgens de planning in het vierde kwartaal van 2020 zal worden uitgebracht.
 

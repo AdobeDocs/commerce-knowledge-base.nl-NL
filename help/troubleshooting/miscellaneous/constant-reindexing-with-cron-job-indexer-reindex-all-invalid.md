@@ -55,7 +55,7 @@ U kunt zien hoe lang een periode door loopt wordt geregistreerd:
 SELECT executed_at FROM cron_schedule WHERE job_code = 'indexer_reindex_all_invalid' AND executed_at IS NOT NULL ORDER BY executed_at ASC LIMIT 1;
 ```
 
-Als dit u niet lang genoeg geeft om een juiste beoordeling te maken, dan kunt u de tijd verhogen een succesvol `cron` proces in het logboek na deze [[!DNL Cron]  wordt gehouden (geplande taken) ](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) gids en het verhogen van de **[!DNL Success History Lifetime]** waarde (het gebrek is slechts 60 minuten).
+Als dit u niet lang genoeg geeft om een juiste beoordeling te maken, dan kunt u de tijd verhogen een succesvol `cron` proces in het logboek na deze [[!DNL Cron]  wordt gehouden (geplande taken) ](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html?lang=nl-NL) gids en het verhogen van de **[!DNL Success History Lifetime]** waarde (het gebrek is slechts 60 minuten).
 
 
 ## Oplossing
@@ -77,4 +77,4 @@ Hierbij is `ENTITY_CODE` de waarde die wordt gebruikt voor de parameter entiteit
 
 ## Gerelateerde lezing
 
-[ vormt  [!DNL cron]  banen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) in de Gids van de Configuratie van de Verrichtingen van Adobe Commerce.
+[ vormt  [!DNL cron]  banen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL) in de Gids van de Configuratie van de Verrichtingen van Adobe Commerce.

@@ -41,7 +41,7 @@ Adobe Commerce voegt je selecties niet toe aan mijn winkelwagentje.
 
 ## Gerelateerde lezing
 
-* [ MerchDocs het Leiden een het Winkelen Kart ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage) in onze gebruikersgids.
+* [ MerchDocs het Leiden een het Winkelen Kart ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage) in onze gebruikersgids.
 * [ Adobe Commerce 2.4.0 gekende kwestie: de ruwe vertoning van berichtgegevens op opslag ](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md) in onze basis van steunkennis.
 * [ Adobe Commerce 2.4.0 gekende kwestie: De Tarieven van de Belasting van de uitvoer werken niet ](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md) in onze steunkennisbasis.
 * [ Adobe Commerce 2.4.0 gekende kwestie: De betalingsmethodes van de Braintree verschijnen niet in Veelvoudige Controle van Adressen ](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md) in onze basis van de steunkennis.

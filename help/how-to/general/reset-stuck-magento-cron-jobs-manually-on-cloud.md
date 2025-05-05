@@ -14,15 +14,15 @@ ht-degree: 0%
 
 Adobe Commerce op cloudinfrastructuur is niet klaar met uitvoeren, zit vast en voorkomt dat andere cron-taken worden uitgevoerd. Dit artikel laat zien hoe u de vastgezette uitsnijdtaken handmatig opnieuw kunt instellen.
 
-Wees voorzichtig met deze opdracht! Wij adviseren lezend het [ Uitsnijdbanen van het Terugstellen ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html) artikel in onze basis van steunkennis voor meer details.
+Wees voorzichtig met deze opdracht! Wij adviseren lezend het [ Uitsnijdbanen van het Terugstellen ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=nl-NL) artikel in onze basis van steunkennis voor meer details.
 
 ## Stappen
 
 >[!INFO]
 >
->Van [ ECE-Hulpmiddelen v2002.0.4 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html#v2002.0.4) kunt u vastgezette bouwbanen manueel terugstellen gebruikend een CLI bevel via de toegang van SSH.
+>Van [ ECE-Hulpmiddelen v2002.0.4 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html?lang=nl-NL#v2002.0.4) kunt u vastgezette bouwbanen manueel terugstellen gebruikend een CLI bevel via de toegang van SSH.
 
-1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
 1. Deze opdracht uitvoeren: `./vendor/bin/ece-tools cron:unlock`
 
 ## Waarschuwingen
@@ -32,4 +32,4 @@ Wees voorzichtig met deze opdracht! Wij adviseren lezend het [ Uitsnijdbanen van
 
 ## Lees dit in onze kennisbasis voor support:
 
-[ de banen van het Terugstellen cron ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+[ de banen van het Terugstellen cron ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=nl-NL)

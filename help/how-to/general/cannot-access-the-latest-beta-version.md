@@ -33,7 +33,7 @@ Dit zijn de meest voorkomende oorzaken van problemen:
 
 ### Locatie van code voor vroege toegang
 
-Tijdens bètatoegangsperioden, zijn de versiepakketten slechts beschikbaar via Composer op [ repo.magento.com ](https://repo.magento.com/). De pakketten van de versie zijn niet beschikbaar op portals GitHub en Adobe Commerce tijdens deze periode, en wij zullen hen aan deze plaatsen op de datum GA publiceren. Voor meer details op hoe te om Composer te gebruiken, gelieve [ hier ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) te klikken.
+Tijdens bètatoegangsperioden, zijn de versiepakketten slechts beschikbaar via Composer op [ repo.magento.com ](https://repo.magento.com/). De pakketten van de versie zijn niet beschikbaar op portals GitHub en Adobe Commerce tijdens deze periode, en wij zullen hen aan deze plaatsen op de datum GA publiceren. Voor meer details op hoe te om Composer te gebruiken, gelieve [ hier ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/composer) te klikken.
 
 ### MageID die u moet gebruiken
 

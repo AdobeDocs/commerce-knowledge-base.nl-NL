@@ -23,7 +23,7 @@ Alle Adobe Commerce-storefront-facetten worden alfabetisch gesorteerd met opties
 
 ## Workaround
 
-Nochtans, in bepaalde randgevallen, zouden de facetten niet alfabetisch zoals opstelling in de [[!DNL Live Search]  Facetterende werkruimte ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace) kunnen sorteren.
+Nochtans, in bepaalde randgevallen, zouden de facetten niet alfabetisch zoals opstelling in de [[!DNL Live Search]  Facetterende werkruimte ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace) kunnen sorteren.
 
 Als tijdelijke oplossing kunt u productkenmerken sorteren in de sectie [!UICONTROL Admin] Kenmerken.
 

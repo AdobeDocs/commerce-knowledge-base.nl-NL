@@ -50,4 +50,4 @@ Schrap geüploade beelden van Adobe Stock van de `pub/media` en `pub/media/catal
 
 ## Gerelateerde lezing
 
-* [ Opslag van Media ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage) in onze gebruikersgids.
+* [ Opslag van Media ](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/wysiwyg/storage/media-storage) in onze gebruikersgids.

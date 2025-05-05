@@ -114,5 +114,5 @@ Met succes installeren of bevorderen aan [!DNL B2B] versie 1.4.0 op Adobe Commer
 
 1. Voltooi het installatie- of upgradeproces.
 
-   * [ installeer  [!DNL B2B]  op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
-   * [ installeer op-gebouw ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html)
+   * [ installeer  [!DNL B2B]  op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html?lang=nl-NL)
+   * [ installeer op-gebouw ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html?lang=nl-NL)

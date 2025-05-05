@@ -17,7 +17,7 @@ In dit artikel worden de fouten uitgelegd die u kunt ervaren tijdens het gebruik
 
 ## Betrokken producten en versies
 
-* [ het Hulpmiddel van de Verenigbaarheid van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) is compatibel met de versies van Adobe Commerce vanaf 2.3.0.
+* [ het Hulpmiddel van de Verenigbaarheid van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=nl-NL) is compatibel met de versies van Adobe Commerce vanaf 2.3.0.
 
 ## Fout in segmentfout
 
@@ -82,4 +82,4 @@ Met deze opdrachtoptie kan het gereedschap Compatibiliteit upgraden ook een map 
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/
 ```
 
-Zie [ in werking stellen het hulpmiddel in een bevel-lijn interface ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) pagina voor meer informatie over bevel-lijn interfaceopties.
+Zie [ in werking stellen het hulpmiddel in een bevel-lijn interface ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html?lang=nl-NL) pagina voor meer informatie over bevel-lijn interfaceopties.

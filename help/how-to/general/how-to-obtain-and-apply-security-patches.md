@@ -30,7 +30,7 @@ De meeste [!UICONTROL Security Patches] worden vrijgegeven zonder afzonderlijke 
 
 ### Zaak I:
 
-* Als een geïsoleerd flarddossier/hotfix in de [ Nota&#39;s van de Versie ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) wordt vermeld download het dossier van de downloadsectie van [ https://account.magento.com ](https://account.magento.com/downloads/view/). Gebruikers met gedeelde toegang moeten eerst downloadrechten krijgen van de eigenaar/licentiehouder van de account.
+* Als een geïsoleerd flarddossier/hotfix in de [ Nota&#39;s van de Versie ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) wordt vermeld download het dossier van de downloadsectie van [ https://account.magento.com ](https://account.magento.com/downloads/view/). Gebruikers met gedeelde toegang moeten eerst downloadrechten krijgen van de eigenaar/licentiehouder van de account.
 
 **beveats:**
 
@@ -50,15 +50,15 @@ Als een afzonderlijk patchbestand/hotfix niet wordt vermeld in de opmerkingen bi
 
 * **Wolk:**
 
-1. Sommige [!UICONTROL Security Patches] zouden in de recentste versie van de Reeks van Hulpmiddelen van de Wolk (ECE Hulpmiddelen) onder de Patches van de Wolk voor Commerce kunnen worden omvat/worden vrijgegeven - controleer de [ Nota&#39;s van de Versie ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite), en als een veiligheidsmoeilijke situatie in de versie wordt vermeld, bevorder het pakket aan die versie.
+1. Sommige [!UICONTROL Security Patches] zouden in de recentste versie van de Reeks van Hulpmiddelen van de Wolk (ECE Hulpmiddelen) onder de Patches van de Wolk voor Commerce kunnen worden omvat/worden vrijgegeven - controleer de [ Nota&#39;s van de Versie ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite), en als een veiligheidsmoeilijke situatie in de versie wordt vermeld, bevorder het pakket aan die versie.
 1. Als in de opmerkingen bij de release geen melding wordt gemaakt van een beveiligingscorrectie, gaat u verder met lezen.
 
 * **Wolk of op-Premise:**
 
-* Als een geïsoleerd flarddossier/hotfix niet beschikbaar is, [ bevorder de versie van Adobe Commerce op Wolk ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X aan recentste flardversie 2.4.X-pY.
-* Als een geïsoleerd flarddossier/hotfix niet beschikbaar is, [ bevorder de versie van Adobe Commerce On-Premise ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X aan recentste flardversie 2.4.X-pY.
+* Als een geïsoleerd flarddossier/hotfix niet beschikbaar is, [ bevorder de versie van Adobe Commerce op Wolk ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X aan recentste flardversie 2.4.X-pY.
+* Als een geïsoleerd flarddossier/hotfix niet beschikbaar is, [ bevorder de versie van Adobe Commerce On-Premise ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X aan recentste flardversie 2.4.X-pY.
 
 ## Gerelateerde lezing
 
-* Zie [ de nota&#39;s van de Versie voor de Reeks van Commerce Cloud Tools ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk*.
-* Zie [ de versie van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk* bevorderen.
+* Zie [ de nota&#39;s van de Versie voor de Reeks van Commerce Cloud Tools ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk*.
+* Zie [ de versie van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk* bevorderen.

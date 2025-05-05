@@ -45,6 +45,6 @@ De oplossing is een alternatieve browser te gebruiken voor Safari. Het probleem 
 ## Gerelateerde lezing
 
 * [ wat is de Bouwer van de Pagina?](https://developer.adobe.com/commerce/frontend-core/page-builder/) in de documentatie voor ontwikkelaars.
-* [ Opstelling van de Bouwer van de Pagina ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html) in onze ontwikkelaarsdocumentatie.
-* [ Bouwer van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/introduction) in onze gebruikersgids.
-* [ de Bouwer van de Pagina - Elementen ](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace#elements) in onze gebruikersgids.
+* [ Opstelling van de Bouwer van de Pagina ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
+* [ Bouwer van de Pagina ](https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/introduction) in onze gebruikersgids.
+* [ de Bouwer van de Pagina - Elementen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/workspace#elements) in onze gebruikersgids.

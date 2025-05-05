@@ -122,5 +122,5 @@ Bovendien vermijd het gebruiken van deze sleutelwoorden die als *gereserveerde* 
 
 ## Gerelateerde lezing
 
-* [ URL herschrijft ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) in onze Gids van de Gebruiker van Merchandising en van Bevorderingen.
-* {de Beste praktijken van 0} SEO [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) in onze Gids van de Gebruiker van Merchandising en van Bevorderingen.
+* [ URL herschrijft ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) in onze Gids van de Gebruiker van Merchandising en van Bevorderingen.
+* {de Beste praktijken van 0} SEO [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/seo-overview) in onze Gids van de Gebruiker van Merchandising en van Bevorderingen.

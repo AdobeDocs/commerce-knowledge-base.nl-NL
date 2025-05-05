@@ -25,7 +25,7 @@ Ik ben bezig met de ontwikkeling van een eindeloze uitvoering van Adobe Commerce
 Nee, dat doe je niet. In deze situatie kunt u snel overslaan, tenminste in het begin van de ontwikkeling.
 
 De enige situatie u niet kunt willen toelaten is voor een headless plaatsing.
-Zie [ Wolk voor Adobe Commerce > snel ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly) in onze ontwikkelaarsdocumentatie.
+Zie [ Wolk voor Adobe Commerce > snel ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/fastly) in onze ontwikkelaarsdocumentatie.
 
 Maar hoogstwaarschijnlijk hebt u het SSL-certificaat snel nodig.
 
@@ -34,4 +34,4 @@ Alle Adobe Commerce-klanten met cloudinfrastructuur krijgen van Fastly een gedee
 ## Meer informatie
 
 * [ Hoofdloze Websites: Wat is de Grote Overeenkomst met Ontkoppelde Architectuur?](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture) door [ Josh Koenig ](https://pantheon.io/team/josh-koenig).
-* [ snel ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly) in onze ontwikkelaarsdocumentatie.
+* [ snel ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/fastly) in onze ontwikkelaarsdocumentatie.

@@ -67,4 +67,4 @@ Gewoonlijk wordt de cache ongeldig vanwege het volgende:
 ## Aanbeveling
 
 1. Vermijd het leegmaken van de cache van de Commerce CLI.
-1. Vorm indexeerders aan **Update door programma** in plaats van **Update op sparen wijze** omdat laatstgenoemde volledige het opnieuw indexeren teweegbrengt. Voor verwijzing, zie [ de indexen beheren > indexen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) in onze ontwikkelaarsdocumentatie vormen.
+1. Vorm indexeerders aan **Update door programma** in plaats van **Update op sparen wijze** omdat laatstgenoemde volledige het opnieuw indexeren teweegbrengt. Voor verwijzing, zie [ de indexen beheren > indexen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) in onze ontwikkelaarsdocumentatie vormen.

@@ -25,7 +25,7 @@ Gebruik de volgende bijgevoegde patch:
 
 ## Hoe de pleister aanbrengen
 
-1. Volg de stappen in [ een verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) in de gids van Commerce uitvoeren.
+1. Volg de stappen in [ een verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=nl-NL) in de gids van Commerce uitvoeren.
 1. Pas de bijgevoegde patch toe vóór de **[!UICONTROL Update metadata]** -fase.
 (U kunt de patch ook toepassen nadat u de **[!UICONTROL Update metadata]** -fase hebt voltooid, maar dan moet u `bin/magento setup:upgrade` opnieuw uitvoeren.)
-1. Ga met de rest stappen in [ te werk voeren een verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) uit.
+1. Ga met de rest stappen in [ te werk voeren een verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=nl-NL) uit.

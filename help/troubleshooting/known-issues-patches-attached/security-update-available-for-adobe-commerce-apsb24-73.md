@@ -14,7 +14,7 @@ ht-degree: 0%
 # Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-73]
 
 Op 8 oktober 2024 heeft Adobe een regelmatig geplande beveiligingsupdate uitgebracht voor Adobe Commerce en [!DNL Adobe Commerce Webhooks Plugin] .
-Deze update verhelpt [[!DNL critical, important], en  [!DNL moderate] ](https://helpx.adobe.com/security/severity-ratings.html) kwetsbaarheid. Succesvolle uitbuiting kan leiden tot willekeurige code-uitvoering, willekeurig lezen in een bestandssysteem, het omzeilen van beveiligingsfuncties en escalatie van bevoegdheden. Het bulletin is [ Bulletin van de Veiligheid van de Adobe ([!DNL APSB24-73]) ](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
+Deze update verhelpt [[!DNL critical, important], en  [!DNL moderate] ](https://helpx.adobe.com/nl/security/severity-ratings.html) kwetsbaarheid. Succesvolle uitbuiting kan leiden tot willekeurige code-uitvoering, willekeurig lezen in een bestandssysteem, het omzeilen van beveiligingsfuncties en escalatie van bevoegdheden. Het bulletin is [ Bulletin van de Veiligheid van de Adobe ([!DNL APSB24-73]) ](https://helpx.adobe.com/nl/security/products/magento/apsb24-73.html).
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Gebruik de volgende bijgevoegde geïsoleerde pleister:
 
 ## Hoe wordt de geïsoleerde pleister aangebracht
 
-Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) in onze basis van steunkennis voor instructies wordt verstrekt.
+Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=nl-NL) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ## Alleen voor Adobe Commerce op Cloud-handelaren - Hoe kan ik zien of de geïsoleerde patches zijn aangebracht?
 
@@ -63,7 +63,7 @@ Aangezien het niet mogelijk is om eenvoudig te controleren of de uitgave is gere
 
 <u> u kunt dit doen door de volgende stappen te nemen, gebruikend het dossier `VULN-27015-2.4.7_COMPOSER.patch` **als voorbeeld**</u>:
 
-1. [ installeer het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [ installeer het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=nl-NL).
 1. Voer de opdracht uit:<br>
    ![ cve-2024-34102-tell-if-patch-applied-code ](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. U zou output gelijkend op dit moeten zien, waar VULN-27015 de *Toegepaste* status terugkeert:
@@ -82,4 +82,4 @@ Aangezien het niet mogelijk is om eenvoudig te controleren of de uitgave is gere
 
 Beveiligingsupdates beschikbaar voor Adobe Commerce:
 
-* [ Bulletin van de Veiligheid van de Adobe ([!DNL APSB24-73]) ](https://helpx.adobe.com/security/products/magento/apsb24-73.html)
+* [ Bulletin van de Veiligheid van de Adobe ([!DNL APSB24-73]) ](https://helpx.adobe.com/nl/security/products/magento/apsb24-73.html)

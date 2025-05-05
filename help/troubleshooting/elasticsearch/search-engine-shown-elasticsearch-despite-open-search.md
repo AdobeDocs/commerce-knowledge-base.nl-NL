@@ -74,4 +74,4 @@ $ curl 127.0.0.1:9200
 
 ## Gerelateerde lezing
 
-[ de dienst van OpenSearch van de Opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) in Commerce op de gids van de Infrastructuur van de Wolk.
+[ de dienst van OpenSearch van de Opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=nl-NL) in Commerce op de gids van de Infrastructuur van de Wolk.

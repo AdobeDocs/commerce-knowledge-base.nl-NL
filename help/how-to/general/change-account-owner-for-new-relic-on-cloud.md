@@ -20,4 +20,4 @@ Als iemand als gebruiker moet worden toegevoegd, maar geen bestaande Eigenaar of
 
 ## Gerelateerde lezing
 
-* [ de diensten van New Relic ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie.
+* [ de diensten van New Relic ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie.

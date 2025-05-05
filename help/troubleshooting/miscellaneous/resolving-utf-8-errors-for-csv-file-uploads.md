@@ -23,4 +23,4 @@ Wij adviseren gebruikend [ Sublime Tekst ](https://www.sublimetext.com/2) om het
 1. Klik &#x200B; **Dossier** > **sparen als** &#x200B; &#x200B; en kies de &#x200B; &#x200B; **komma gescheiden waarden (.csv)** formaat om het dossier te bewaren.
 1. Open het CSV-bestand in Sublime Text.
 1. In Sublime Tekst, navigeer aan &#x200B; **Dossier** > **sparen met het Coderen** > **UTF-8 \* &#x200B;**. Hiermee slaat u het CSV-bestand op met UTF-8-codering.    ![ csv_file_UTF-8_sublime_3.2.2_magento_BI.png ](assets/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)
-1. [ upload de gegevens ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader) (in onze gebruikersgids) aan een nieuwe lijst in Magento BI.
+1. [ upload de gegevens ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader) (in onze gebruikersgids) aan een nieuwe lijst in Magento BI.

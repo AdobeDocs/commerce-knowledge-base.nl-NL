@@ -51,7 +51,7 @@ U kunt zich aanmelden bij de account met:
 - Een bestaande zakelijke/persoonlijke account van een Adobe.
 - Als u geen Adobe-account hebt, maakt u een account met hetzelfde e-mailadres.
 
-Voor stappen verwijzen naar [ Manager van de Identiteit van Commerce ](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html) in Adobe Experience League.
+Voor stappen verwijzen naar [ Manager van de Identiteit van Commerce ](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=nl-NL) in Adobe Experience League.
 
 ## Gerelateerde lezing
 

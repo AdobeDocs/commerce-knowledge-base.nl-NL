@@ -30,11 +30,11 @@ Wanneer het proberen om het plaatsingslogboek op het wolkenproject UI te bekijke
 
 ## Oorzaak
 
-Merk op dat het logboek dat in UI wordt getoond niet als bron van waarheid zou moeten worden behandeld, vooral als u vindt dat de plaats niet of behoorlijk werkt nadat de plaatsing met een status van Succes werd vermeld. U moet ook controleren met de logboeken op de server. Verwijs naar [ Mening en beheer logboeken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) in onze ontwikkelaarsdocumentatie.
+Merk op dat het logboek dat in UI wordt getoond niet als bron van waarheid zou moeten worden behandeld, vooral als u vindt dat de plaats niet of behoorlijk werkt nadat de plaatsing met een status van Succes werd vermeld. U moet ook controleren met de logboeken op de server. Verwijs naar [ Mening en beheer logboeken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
 
 ## Oplossing
 
-1. Zorg ervoor dat u [ CLI van de Wolk van het Magento ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) geïnstalleerd in uw lokale milieu hebt.
+1. Zorg ervoor dat u [ CLI van de Wolk van het Magento ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=nl-NL) geïnstalleerd in uw lokale milieu hebt.
 1. U kunt een van de volgende opdrachten uitvoeren:
 
    ```bash
@@ -70,5 +70,5 @@ Merk op dat het logboek dat in UI wordt getoond niet als bron van waarheid zou m
 
 ## Verwante lezingen in onze ontwikkelaarsdocumentatie:
 
-* [ Adobe Commerce op wolkeninfrastructuur > bouwt en stelt ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) op
-* [ Adobe Commerce op wolkeninfrastructuur > Logboeken van de Mening en van het beheer ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+* [ Adobe Commerce op wolkeninfrastructuur > bouwt en stelt ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=nl-NL) op
+* [ Adobe Commerce op wolkeninfrastructuur > Logboeken van de Mening en van het beheer ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=nl-NL)

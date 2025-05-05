@@ -68,4 +68,4 @@ Voer de volgende [!DNL SQL] -instructie in de CLI uit, die alle records in de `m
 ## Verwante lezing
 
 * OMS Docs [ Zelfstudie van de Opstelling van de Schakelaar OMS ](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/)
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

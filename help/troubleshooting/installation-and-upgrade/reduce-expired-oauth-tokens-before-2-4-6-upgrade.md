@@ -36,6 +36,6 @@ Voer de volgende handelingen uit om de [`CleanExpiredTokens.php` ](https://githu
 
 ## Gerelateerde lezing
 
-* [ de Diensten >  [!DNL OAuth] ](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) in de gids van de Verwijzing van de Configuratie van Commerce
+* [ de Diensten >  [!DNL OAuth] ](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html?lang=nl-NL) in de gids van de Verwijzing van de Configuratie van Commerce
 * [ Gids van de Authentificatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/) in de gids van Adobe Developer
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

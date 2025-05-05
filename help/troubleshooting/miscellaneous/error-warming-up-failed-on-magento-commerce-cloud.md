@@ -47,5 +47,5 @@ Zorg ervoor dat u geen toegelaten toegangsbeheer hebt: ga naar de specifieke tak
 
 ## Gerelateerde lezing
 
-* [ de Gids van de Gebruiker van Adobe Commerce > het Geheime voorgeheugen van de Volledige Pagina ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) in onze gebruikersgids.
+* [ de Gids van de Gebruiker van Adobe Commerce > het Geheime voorgeheugen van de Volledige Pagina ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management#full-page-caching) in onze gebruikersgids.
 * [ Geheime voorgeheugen opwarmt en plaats niet beschikbaar op Adobe Commerce ](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) in onze basis van de steunkennis.

@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-Zie de [ dienst MySQL van de Opstelling ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql) artikel voor verwijzing.
+Zie de [ dienst MySQL van de Opstelling ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/mysql) artikel voor verwijzing.
 
 Nadat u het `.magento/services.yaml` -bestand hebt gewijzigd, moet u de wijzigingen doorvoeren en doorvoeren, zodat deze kunnen worden toegepast. De duw zal het plaatsingsproces teweegbrengen.
 

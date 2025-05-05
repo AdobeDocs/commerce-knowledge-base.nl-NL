@@ -40,7 +40,7 @@ kan ook op de opdrachtregel worden weergegeven.
 
 ## Oplossing {#solution}
 
-Wij adviseren u [ 2 GB van geheugen aan PHP ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings) in onze ontwikkelaarsdocumentatie toewijst om uw installatie of verbetering te verzekeren slagen.
+Wij adviseren u [ 2 GB van geheugen aan PHP ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/php-settings) in onze ontwikkelaarsdocumentatie toewijst om uw installatie of verbetering te verzekeren slagen.
 
 Als u dat al hebt gedaan, maakt u een wisselbestand op uw computer. Een machine van Linux gebruikt *ruilmiddel* als het meer geheugenmiddelen en RAM volledig vereist. De wisselruimte wordt gebruikt voor inactieve pagina&#39;s in het geheugen.
 

@@ -47,9 +47,9 @@ Oorspronkelijke camouflage is een beveiligingsfunctie waarmee Adobe Commerce elk
 ## Oplossing
 
 * Schakel over naar https://mydomain.com/ als uw cloudsite actief is.
-* Als u een actieve plaats (niet wolk) hebt, gebruikend het https://mydomain.com/ domein, opstelling een subdomein `mcprod.mydomain.com` en werk uw **Basis URL** aan *https://mcprod.mydomain.com* in plaats daarvan bij, dan [ richt DNS aan Fastly ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings).
+* Als u een actieve plaats (niet wolk) hebt, gebruikend het https://mydomain.com/ domein, opstelling een subdomein `mcprod.mydomain.com` en werk uw **Basis URL** aan *https://mcprod.mydomain.com* in plaats daarvan bij, dan [ richt DNS aan Fastly ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings).
 
 ## Gerelateerde lezing
 
 * [ Snelle oorsprong het camoufleren van enablement FAQ ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) in onze basis van de steunkennis
-* [ Checklist voor vestiging een nieuw domein ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain) in onze basis van de steunkennis
+* [ Checklist voor vestiging een nieuw domein ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain) in onze basis van de steunkennis

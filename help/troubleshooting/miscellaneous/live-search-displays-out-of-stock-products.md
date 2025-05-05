@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit probleem is opgelost in [[!DNL Live Search]  [2.0.4] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html). Om de recentste versie te installeren, verwijs naar [ Bijwerkend  [!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#update) in de gebruikersgids.
+>Dit probleem is opgelost in [[!DNL Live Search]  [2.0.4] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html?lang=nl-NL). Om de recentste versie te installeren, verwijs naar [ Bijwerkend  [!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL#update) in de gebruikersgids.
 
 Dit artikel verstrekt informatie over de bekende kwestie waar het Product van de Lijst van de Pagina (PLP) *toont wij geen producten kunnen vinden die de selectie* fout aanpassen terwijl onderzoekspopover sommige punten terugkeert.
 
@@ -49,4 +49,4 @@ Op dit moment is er geen oplossing voor deze kwestie. Ons team van [!DNL Live Se
 
 ## Gerelateerde lezing
 
-[ installeer  [!DNL Live Search] ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install) in onze gebruikersgids.
+[ installeer  [!DNL Live Search] ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/live-search/install) in onze gebruikersgids.

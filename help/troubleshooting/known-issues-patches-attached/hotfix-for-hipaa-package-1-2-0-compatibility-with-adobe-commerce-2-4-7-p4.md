@@ -22,8 +22,8 @@ Adobe Commerce on Cloud Infrastructure 2.4.7-p4 en eerdere versies
 
 ## Vereisten
 
-* Adobe heeft uw Adobe Commerce-account ingericht voor toegang tot de extensie **[!DNL HIPAA Ready]** . Zie [[!DNL HIPAA]  bereidheid op Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) voor meer details in onze **Adobe Commerce: Begonnen Gids** krijgen.
-* Toegang tot [ repo.magento.com ](https://repo.magento.com) om de uitbreiding te installeren. Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) in onze **Adobe Commerce krijgen: De Gids van de Installatie**.
+* Adobe heeft uw Adobe Commerce-account ingericht voor toegang tot de extensie **[!DNL HIPAA Ready]** . Zie [[!DNL HIPAA]  bereidheid op Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) voor meer details in onze **Adobe Commerce: Begonnen Gids** krijgen.
+* Toegang tot [ repo.magento.com ](https://repo.magento.com) om de uitbreiding te installeren. Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) in onze **Adobe Commerce krijgen: De Gids van de Installatie**.
 
 ## Probleem
 
@@ -43,7 +43,7 @@ Als u het probleem voor Adobe Commerce op Cloud Infrastructure 2.4.7-p4 wilt ver
 
 ## Hoe de pleister aanbrengen
 
-Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) in onze basis van steunkennis voor instructies wordt verstrekt.
+Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=nl-NL) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ## Alleen voor Adobe Commerce op Cloud-handelaren - Hoe weet u of de patch is toegepast
 
@@ -53,7 +53,7 @@ Aangezien het niet mogelijk is om gemakkelijk te controleren of de kwestie werd 
 >
 ><u> u kunt dit doen door deze stappen te volgen, gebruikend het dossier `VULN-27015-2.4.7_COMPOSER.patch` **als Voorbeeld**</u>:
 
-1. [ installeer het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [ installeer het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=nl-NL).
 1. Voer de opdracht uit:<br>
    ![ cve-2024-34102-tell-if-patch-applied-code ](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. U zou output gelijkend op dit moeten zien, **<u>waar het hier gebruikte Voorbeeld, VULN-27015</u>**, de *Toegepaste* status terugkeert:

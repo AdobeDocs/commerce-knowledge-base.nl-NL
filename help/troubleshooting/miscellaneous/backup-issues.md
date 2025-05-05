@@ -35,7 +35,7 @@ Ga het volgende CLI bevel in:
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-Voor extra informatie over steunen, zie [ file en rol terug het dossiersysteem, media, en gegevensbestand.](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup)
+Voor extra informatie over steunen, zie [ file en rol terug het dossiersysteem, media, en gegevensbestand.](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/backup)
 
 ## Onvoldoende schijfruimte {#insufficient-disk-space-trouble-backup-space-}
 
@@ -55,6 +55,6 @@ Helaas, kunnen wij om het even wat specifiek wegens de verscheidenheid van foute
 
 ## Back-up mislukt {#backup-fails-trouble-backup-all-}
 
-Als de steun ontbreekt of als alle reservetests ontbreken, is het mogelijk de [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) heeft niet voldoende voorrechten en eigendom van het het dossiersysteem van Adobe Commerce. Een andere gebruiker kan bijvoorbeeld eigenaar zijn van de bestanden of de bestanden kunnen alleen-lezen zijn.
+Als de steun ontbreekt of als alle reservetests ontbreken, is het mogelijk de [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) heeft niet voldoende voorrechten en eigendom van het het dossiersysteem van Adobe Commerce. Een andere gebruiker kan bijvoorbeeld eigenaar zijn van de bestanden of de bestanden kunnen alleen-lezen zijn.
 
-Let met name op de machtigingen voor het bestandssysteem en de eigendom van de map `<magento_root>/var` en submappen. Voor meer informatie, zie [ plaats de toestemmingen en de eigendom van het dossiersysteem ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions).
+Let met name op de machtigingen voor het bestandssysteem en de eigendom van de map `<magento_root>/var` en submappen. Voor meer informatie, zie [ plaats de toestemmingen en de eigendom van het dossiersysteem ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions).

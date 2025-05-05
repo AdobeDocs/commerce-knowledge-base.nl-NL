@@ -65,4 +65,4 @@ Zie [ hoe te om een componentenflard toe te passen die door Adobe Commerce ](/he
 
 ## Nuttige koppelingen
 
-[ pas douaneflarden op Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in onze ontwikkelaardocumentatie toe.
+[ pas douaneflarden op Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in onze ontwikkelaardocumentatie toe.

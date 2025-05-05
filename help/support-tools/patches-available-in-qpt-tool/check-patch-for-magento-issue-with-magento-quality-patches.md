@@ -42,7 +42,7 @@ Het gereedschap is bedoeld om u in staat te stellen zelf te dienen met patches v
 
 ## Patches beschikbaar in het gereedschap Kwaliteitspatches
 
-Gelieve te verwijzen naar [ Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in onze ontwikkelaarsdocumentatie voor de lijst van beschikbare flarden.
+Gelieve te verwijzen naar [ Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie voor de lijst van beschikbare flarden.
 
 ## Het gereedschap Kwaliteitspatches installeren en gebruiken
 
@@ -50,14 +50,14 @@ De installatie- en gebruiksopdrachten verschillen voor Adobe Commerce op locatie
 
 ### QPT voor Adobe Commerce installeren en gebruiken op locatie
 
-Gelieve te verwijzen naar [ Gids van de Update van de Software > het Patching ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) in onze ontwikkelaarsdocumentatie voor details op hoe te om QPT voor het toepassen van en het terugkeren van flarden te installeren en te gebruiken.
+Gelieve te verwijzen naar [ Gids van de Update van de Software > het Patching ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/usage) in onze ontwikkelaarsdocumentatie voor details op hoe te om QPT voor het toepassen van en het terugkeren van flarden te installeren en te gebruiken.
 
 ### QPT voor Adobe Commerce installeren en gebruiken op cloudinfrastructuur
 
-Gelieve te verwijzen naar [ Wolk voor Adobe Commerce > pas flarden ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in onze ontwikkelaarsdocumentatie voor details op om QPT voor het toepassen en het terugkeren van flarden op Adobe Commerce op wolkeninfrastructuur te installeren en te gebruiken.
+Gelieve te verwijzen naar [ Wolk voor Adobe Commerce > pas flarden ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in onze ontwikkelaarsdocumentatie voor details op om QPT voor het toepassen en het terugkeren van flarden op Adobe Commerce op wolkeninfrastructuur te installeren en te gebruiken.
 
 ## Gerelateerde lezing
 
-* [ de versienota&#39;s van het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes) in onze ontwikkelaarsdocumentatie.
+* [ de versienota&#39;s van het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/release-notes) in onze ontwikkelaarsdocumentatie.
 * [ hoe te om componentenflarden toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis worden verstrekt.
 

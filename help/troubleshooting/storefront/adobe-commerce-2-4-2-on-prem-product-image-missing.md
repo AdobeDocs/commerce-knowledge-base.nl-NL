@@ -33,7 +33,7 @@ Adobe Commerce geïnstalleerd met Nginx.
 <u> Stappen om </u> te reproduceren:
 
 1. Configureer Adobe Commerce om AWS `s3` te gebruiken als media-opslag.
-1. Configureer Nginx met behulp van het `nginx.conf.sample` -configuratiebestand in de Adobe Commerce-installatiemap en een Nginx-virtuele host. Zie [ Nginx ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx) in onze ontwikkelaarsdocumentatie vormen.
+1. Configureer Nginx met behulp van het `nginx.conf.sample` -configuratiebestand in de Adobe Commerce-installatiemap en een Nginx-virtuele host. Zie [ Nginx ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx) in onze ontwikkelaarsdocumentatie vormen.
 1. Maak een eenvoudig product met één productafbeelding.
 1. Nginx heeft een configuratie zonder opmerkingen voor het wijzigen van de grootte van afbeeldingen in `nginx.conf.sample` , vergelijkbaar met:
 

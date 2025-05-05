@@ -48,11 +48,11 @@ Door het subdomein te gebruiken, kunt u in de toekomst een &quot;zachte opstart&
 
 In onze kennisbasis voor ondersteuning:
 
-* [ vorm snel DNS montages op het Opvoeren en de milieu&#39;s van de Productie ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
-* [ Opstelling snel voor het plan van de Aanzet op wolk ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
-* [ Potentiële blokkers voor lancering op Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* [ vorm snel DNS montages op het Opvoeren en de milieu&#39;s van de Productie ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=nl-NL)
+* [ Opstelling snel voor het plan van de Aanzet op wolk ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html?lang=nl-NL)
+* [ Potentiële blokkers voor lancering op Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=nl-NL)
 
 In onze documentatie voor ontwikkelaars:
 
-* [ Snelle Overzicht ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [ ga levende checklist: DNS configuraties voor Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [ Snelle Overzicht ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=nl-NL)
+* [ ga levende checklist: DNS configuraties voor Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=nl-NL)

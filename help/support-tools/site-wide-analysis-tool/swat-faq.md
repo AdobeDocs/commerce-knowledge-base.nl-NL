@@ -21,7 +21,7 @@ Dit artikel bevat een beschrijving van het [!DNL Site-Wide Analysis Tool] Report
 
 >[!NOTE]
 >
->In Adobe Commerce op cloudinfrastructuur v2.4.1 en hoger is [!DNL Site-Wide Analysis Tool] beschikbaar via het deelvenster Commerce Admin. Daarom kunnen [!DNL Site-Wide Analysis Tool] -rapporten rechtstreeks door de klant worden uitgevoerd. Voor toegangsdetails, gelieve te verwijzen naar de [[!DNL Site-Wide Analysis Tool]  gids ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html).
+>In Adobe Commerce op cloudinfrastructuur v2.4.1 en hoger is [!DNL Site-Wide Analysis Tool] beschikbaar via het deelvenster Commerce Admin. Daarom kunnen [!DNL Site-Wide Analysis Tool] -rapporten rechtstreeks door de klant worden uitgevoerd. Voor toegangsdetails, gelieve te verwijzen naar de [[!DNL Site-Wide Analysis Tool]  gids ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=nl-NL).
 
 ## Wat is [!DNL Site-Wide Analysis Tool]?
 

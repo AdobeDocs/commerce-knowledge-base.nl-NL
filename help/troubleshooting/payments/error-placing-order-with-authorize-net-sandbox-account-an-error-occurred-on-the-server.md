@@ -19,7 +19,7 @@ Dit artikel verstrekt een moeilijke situatie voor &quot;*een fout voorkwam op de
 >
 >**Bericht van de Verdringing**
 >
->Wegens de Richtlijn van de Dienst van de Betaling [ PSD2 ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive) en de voortdurende evolutie van vele APIs, is Authorize.Net het risico verouderd te worden en niet meer veiligheid volgzaam in de toekomst. Om deze reden, wordt het nu afgekeurd, en wij adviseren dat u het in uw configuratie van Adobe Commerce en overgang aan de overeenkomstige [ uitbreiding van de Commerce Marketplace ](https://marketplace.magento.com/extensions.html) onbruikbaar maakt.
+>Wegens de Richtlijn van de Dienst van de Betaling [ PSD2 ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive) en de voortdurende evolutie van vele APIs, is Authorize.Net het risico verouderd te worden en niet meer veiligheid volgzaam in de toekomst. Om deze reden, wordt het nu afgekeurd, en wij adviseren dat u het in uw configuratie van Adobe Commerce en overgang aan de overeenkomstige [ uitbreiding van de Commerce Marketplace ](https://marketplace.magento.com/extensions.html) onbruikbaar maakt.
 >
 >**Deze integratie wordt verwijderd uit Adobe Commerce 2.4.0 versie en is afgekeurd van de huidige versies van 2.3.**
 >
@@ -27,7 +27,7 @@ Dit artikel verstrekt een moeilijke situatie voor &quot;*een fout voorkwam op de
 
 ## Probleem
 
-Het plaatsen van een orde gebruikend [ Authorize.Net de Directe rekening van de Post ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server) Sandbox veroorzaakt een foutenmelding:
+Het plaatsen van een orde gebruikend [ Authorize.Net de Directe rekening van de Post ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server) Sandbox veroorzaakt een foutenmelding:
 
 &#x200B;>>
 &quot;Er is een fout opgetreden op de server. Probeer de bestelling opnieuw te plaatsen.&quot;

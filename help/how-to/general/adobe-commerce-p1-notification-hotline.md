@@ -21,7 +21,7 @@ Zoals bepaald in [ de Voorwaarden en de Voorwaarden van de Diensten van de Steun
 ## P1-meldingsbeleid voor telefonische telefonische hulpdiensten
 
 * P1 meldings hotline is beschikbaar om P1-vlakke kwesties te melden. (Zie de definitie van het P1-incident in de vorige sectie).
-* [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) voorafgaand aan het roepen van het P1 van Adobe Commerce meldingshotline voor.
+* [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) voorafgaand aan het roepen van het P1 van Adobe Commerce meldingshotline voor.
 * Het onderzoek, het oplossen van problemen, en de mededeling zullen uitsluitend binnen het steunkaartje plaatsvinden.
 * Voeg alle extra informatie die u over de kwestie kunt hebben direct aan het kaartje toe, voorafgaand aan het roepen.
 * Wanneer het roepen, ben zeker om het kaartaantal te hebben.

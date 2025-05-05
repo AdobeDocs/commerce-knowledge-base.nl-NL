@@ -53,21 +53,21 @@ Zie een van de volgende secties voor een oplossing van uw probleem.
 
 ### Oplossing voor gemiste [!DNL OpCache] -instellingen {#solution-missed-opcache-settings}
 
-Zie [[!DNL Cron]  gestopt toe te schrijven aan misconfigured of ontbrekende  [!DNL OpCache]  montages ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings) in onze de kennisbasis van Commerce.
+Zie [[!DNL Cron]  gestopt toe te schrijven aan misconfigured of ontbrekende  [!DNL OpCache]  montages ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings) in onze de kennisbasis van Commerce.
 
 ### Oplossing voor gehandicapten door het infrastructuurteam {#solution-disabled-by-infrastructure-team}
 
 1. Controleer uw vorige ondersteuningstickets waarin uw site niet beschikbaar was of waarin niet werd gereageerd.
 1. Controleer vervolgens of het infrastructuurteam heeft aangegeven het uit te schakelen.
 1. Controleer of u de problemen/zorgen hebt opgelost die door het infrastructuurteam naar voren zijn gebracht.
-1. Verzend het verzoek van de a [ Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) als u verdere hulp nodig hebt om [!DNL cron] re-toe te laten en te verklaren hoe u de kwesties hebt gericht die het team van de Infrastructuur verwees.
+1. Verzend het verzoek van de a [ Steun ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) als u verdere hulp nodig hebt om [!DNL cron] re-toe te laten en te verklaren hoe u de kwesties hebt gericht die het team van de Infrastructuur verwees.
 
 ### Oplossing voor implementatie mislukt {#solution-deployment-failed}
 
 Controleer de implementatielogboeken:
 
-* [ Mening en beheer logboeken ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) in onze Commerce op de Gids van de Infrastructuur van de Wolk.
-* [ Controlerend plaatsingslogboek als de UI van de Wolk *`log snipped`* fout ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) in onze kennisbasis van Commerce heeft.
+* [ Mening en beheer logboeken ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/test/log-locations) in onze Commerce op de Gids van de Infrastructuur van de Wolk.
+* [ Controlerend plaatsingslogboek als de UI van de Wolk *`log snipped`* fout ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) in onze kennisbasis van Commerce heeft.
 
 1. Als de implementatie tijdens de stap `setup:upgrade` is mislukt, is [!DNL cron] niet opnieuw ingeschakeld.
 Bijvoorbeeld: u ziet deze lijn in het plaatsingslogboek:
@@ -80,4 +80,4 @@ Bijvoorbeeld: u ziet deze lijn in het plaatsingslogboek:
 ... <br>
    ```  [2024-02-07T10:50:09.579005+00:00] INFO: Enable cron```
 
-**leg het verzoek van de a [ Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) voor als u verdere hulp nodig hebt.**
+**leg het verzoek van de a [ Steun ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) voor als u verdere hulp nodig hebt.**

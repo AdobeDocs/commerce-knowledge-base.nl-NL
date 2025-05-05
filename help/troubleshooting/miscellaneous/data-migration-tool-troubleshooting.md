@@ -83,7 +83,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### Oorzaak
 
-Een klasse van Adobe Commerce 1 codebase kon niet in Adobe Commerce 2 codebase tijdens de [ EAV migratiestap ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) in onze ontwikkelaarsdocumentatie worden gevonden. In de meeste gevallen, behoort de ontbrekende klasse tot een [ uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#extension).
+Een klasse van Adobe Commerce 1 codebase kon niet in Adobe Commerce 2 codebase tijdens de [ EAV migratiestap ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/data-migration/basics/technical-specification) in onze ontwikkelaarsdocumentatie worden gevonden. In de meeste gevallen, behoort de ontbrekende klasse tot een [ uitbreiding ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/glossary#extension).
 
 ### Mogelijke oplossingen
 
@@ -155,7 +155,7 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### Oorzaak
 
-Deze fout komt tijdens [ stijgende migratie ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/delta) (in onze ontwikkelaarsdocumentatie) van veranderingen in gegevens voor. Dit betekent dat er geen Deltalog-tabellen (met voorvoegsel `m2_cl_*` ) zijn gevonden in de Adobe Commerce 1-database. Het hulpmiddel installeert deze lijsten tijdens [ gegevensmigratie ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/data) (in onze ontwikkelaarsdocumentatie) evenals gegevensbestandtrekkers die veranderingen volgen en lijstlijsten vullen.
+Deze fout komt tijdens [ stijgende migratie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/data-migration/migrate-data/delta) (in onze ontwikkelaarsdocumentatie) van veranderingen in gegevens voor. Dit betekent dat er geen Deltalog-tabellen (met voorvoegsel `m2_cl_*` ) zijn gevonden in de Adobe Commerce 1-database. Het hulpmiddel installeert deze lijsten tijdens [ gegevensmigratie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/data-migration/migrate-data/data) (in onze ontwikkelaarsdocumentatie) evenals gegevensbestandtrekkers die veranderingen volgen en lijstlijsten vullen.
 
 Één reden voor de fout zou kunnen zijn dat u probeert om van a *exemplaar* van uw levende Adobe Commerce 1 opslag, niet van de levende opslag zelf te migreren. Wanneer u een kopie maakt van een live Adobe Commerce 1-winkel die nog nooit is gemigreerd, bevat de kopie niet de triggers en extra catalogustabellen die nodig zijn om een delta-migratie te voltooien, zodat de migratie mislukt. Het hulpmiddel van de Migratie van Gegevens maakt GEEN vergelijkingen tussen OB van AC1 en AC2 om de verschillen te migreren. In plaats daarvan gebruikt het gereedschap de triggers en de delta-tabellen die tijdens de eerste migratie zijn geïnstalleerd om volgende deltamigraties uit te voeren. In een dergelijk geval bevat uw exemplaar van de live Adobe Commerce 1 DB niet de triggers en overzichtstabellen die het hulpprogramma voor gegevensmigratie gebruikt om een migratie uit te voeren.
 
@@ -165,5 +165,5 @@ We raden u aan het migratieproces te testen vanuit een kopie van uw Adobe Commer
 
 ## Gerelateerde lezing
 
-[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
 

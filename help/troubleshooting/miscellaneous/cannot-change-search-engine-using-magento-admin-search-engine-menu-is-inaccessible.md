@@ -18,9 +18,9 @@ ht-degree: 0%
 > [ MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd.
 > 
 > Zie:
-> [Installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
-> [Openssearch installeren en configureren ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
-> [Live zoeken installeren en configureren ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
+> [Installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+> [Openssearch installeren en configureren ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
+> [Live zoeken installeren en configureren ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/live-search/install)
 
 Dit artikel verstrekt een oplossing om de Motor van het Onderzoek van Adobe Commerce te veranderen gebruikend Commerce Admin als het **gebied van de Motor van het Onderzoek** niet wordt getoond of het **het systeemwaarde** checkbox van het Gebruik uit grayed en niet toegankelijk is.
 
@@ -74,7 +74,7 @@ De zoekmachine is een algemene configuratie die is ingesteld op toepassingsnivea
 
 ![ change_store_view.png ](assets/change_store_view.png)
 
-**Verwante documentatie:** [ Veranderend Toepassingsgebied ](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#set-the-scope) in onze gebruikersgids.
+**Verwante documentatie:** [ Veranderend Toepassingsgebied ](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html?lang=nl-NL#set-the-scope) in onze gebruikersgids.
 
 ### Uitgave 2: Kan &quot;Systeemwaarde gebruiken&quot; niet uitschakelen
 
@@ -108,7 +108,7 @@ Verwijder de sectie met de standaardconfiguratie van de zoekmachine uit de `app/
 
 ### Verwante artikelen in onze ontwikkelaarsdocumentatie
 
-[ de configuratiedossiers van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/deployment-files.html) in de Gids van de Configuratie van Adobe Commerce
+[ de configuratiedossiers van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/deployment-files.html?lang=nl-NL) in de Gids van de Configuratie van Adobe Commerce
 
 ## Adobe Commerce over cloudinfrastructuur
 
@@ -137,7 +137,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-Als u aan [ OpenSearch (in 2.4.6 en later,) ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search) schakelt zou de variabele ZOEKEN \_CONFIGURATION in het resulterende `.magento.env.yaml` dossier als volgt kunnen kijken:
+Als u aan [ OpenSearch (in 2.4.6 en later,) ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search) schakelt zou de variabele ZOEKEN \_CONFIGURATION in het resulterende `.magento.env.yaml` dossier als volgt kunnen kijken:
 
 ```yaml
 stage:
@@ -150,7 +150,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-Als u [ overschakelt naar Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch), zou de variabele ZOEKEN \_CONFIGURATION in het resulterende `.magento.env.yaml` dossier als volgt kunnen kijken:
+Als u [ overschakelt naar Levend Onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch), zou de variabele ZOEKEN \_CONFIGURATION in het resulterende `.magento.env.yaml` dossier als volgt kunnen kijken:
 
 ```yaml
 stage:
@@ -167,8 +167,8 @@ stage:
 
 #### Documentatie voor ontwikkelaars
 
-* [ de dienst van de Elasticsearch van de opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html)
-* [ bouwt en stelt ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) (documentatie over het `.magento.env.yaml` configuratiedossier op)
-* [ stelt variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) op ([ ZOEKEN \_CONFIGURATION sectie ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#search_configuration))
-* [ de Diensten ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html) (documentatie over het `.magento/services.yaml` configuratiedossier)
-* [ Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
+* [ de dienst van de Elasticsearch van de opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=nl-NL)
+* [ bouwt en stelt ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=nl-NL) (documentatie over het `.magento.env.yaml` configuratiedossier op)
+* [ stelt variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=nl-NL) op ([ ZOEKEN \_CONFIGURATION sectie ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=nl-NL#search_configuration))
+* [ de Diensten ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html?lang=nl-NL) (documentatie over het `.magento/services.yaml` configuratiedossier)
+* [ Levend Onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/live-search/overview)

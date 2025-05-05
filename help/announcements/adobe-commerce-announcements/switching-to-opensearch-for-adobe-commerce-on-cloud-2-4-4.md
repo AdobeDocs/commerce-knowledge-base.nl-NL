@@ -47,10 +47,10 @@ Voordat het upgradeproces naar Adobe Commerce 2.4.4 wordt gestart, moeten handel
 
 Als de kernversie van Adobe Commerce deze versie ondersteunt, kan Elasticsearch 7.10 worden gebruikt.
 
-De Vereisten van het Systeem van het overzicht [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) in onze ontwikkelaarsdocumentatie voor versiecompatibiliteit.
+De Vereisten van het Systeem van het overzicht [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie voor versiecompatibiliteit.
 
 >[!NOTE]
 >
 >Het wordt aanbevolen zo spoedig mogelijk een upgrade naar Adobe Commerce 2.4.4 uit te voeren, omdat Elasticsearch 7.10 in mei 2022 EOL zal zijn.
 
-De partners van de Adobe kunnen omhoog voor ons bètaprogramma [ hier ](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html) ondertekenen om toegang tot onze recentste bèta4 code te krijgen die tegen Elasticsearch 7.16.1 en OpenSearch 1.1 is getest.
+De partners van de Adobe kunnen omhoog voor ons bètaprogramma [ hier ](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html?lang=nl-NL) ondertekenen om toegang tot onze recentste bèta4 code te krijgen die tegen Elasticsearch 7.16.1 en OpenSearch 1.1 is getest.

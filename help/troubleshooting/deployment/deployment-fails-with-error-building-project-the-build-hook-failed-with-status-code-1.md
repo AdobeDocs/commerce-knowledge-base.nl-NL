@@ -78,7 +78,7 @@ Voor details op hoe te om schijfruimte te verhogen als u op Adobe Commerce op he
        php ./vendor/bin/ece-tools deploy
    ```
 
-   Gebruik de [ Verbetering aan artikel-hulpmiddelen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) artikel voor verwijzing.
+   Gebruik de [ Verbetering aan artikel-hulpmiddelen ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) artikel voor verwijzing.
 
 1. Zorg ervoor dat het pakket ECE-tools aanwezig is in het `composer.lock` -bestand door de volgende opdracht uit te voeren:
 
@@ -92,7 +92,7 @@ Voor details op hoe te om schijfruimte te verhogen als u op Adobe Commerce op he
    "name": "magento/ece-tools", "version": "2002.0.20",
    ```
 
-Zie [ Verbetering aan artikel-hulpmiddelen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) artikel voor verwijzing.
+Zie [ Verbetering aan artikel-hulpmiddelen ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) artikel voor verwijzing.
 
 ### Veroorzaakt de pleister het probleem?
 

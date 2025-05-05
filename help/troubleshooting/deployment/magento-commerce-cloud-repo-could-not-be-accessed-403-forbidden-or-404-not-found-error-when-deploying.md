@@ -66,11 +66,11 @@ Ga als volgt te werk om het probleem op te lossen met de machtigingstoetsen (zie
 
 Als u de sleutels gebruikte die onder de gedeelde rekening worden gecreeerd, moet u de de vergunningseigenaar van Adobe Commerce contacteren die u toegang verleent en verzoekt zij hen produceren de sleutels voor u.
 
-Als uw vergunning eerder wegens betalingskwesties werd ingetrokken, en u die kwesties hebt opgelost en uw vergunning werd vernieuwd, moet u [ de nieuwe authentificatietoetsen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) produceren.
+Als uw vergunning eerder wegens betalingskwesties werd ingetrokken, en u die kwesties hebt opgelost en uw vergunning werd vernieuwd, moet u [ de nieuwe authentificatietoetsen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=nl-NL) produceren.
 
 ### 2. Voeg de waarde van de toetsen toe aan de variabele env:COMPOSER\_AUTH en controleer of dezelfde toetsen zijn opgegeven in auth.json
 
-Zie de instructies en de verwante informatie in [ uw bestaand systeem ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) voorbereiden en [ authentificatietoetsen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) in onze ontwikkelaarsdocumentatie toevoegen.
+Zie de instructies en de verwante informatie in [ uw bestaand systeem ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/project/overview) voorbereiden en [ authentificatietoetsen ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/project/overview) in onze ontwikkelaarsdocumentatie toevoegen.
 
 ### 3. Uth.json bijwerken of verwijderen
 

@@ -34,5 +34,5 @@ Houd rekening met de volgende opties om een afname van de prestaties te voorkome
 
 ## Gerelateerde lezing
 
-* [ de Overmaatse lijsten van het veranderingslogboek die vertragingen in entiteiten updates ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront) in onze basis van de steunkennis veroorzaken
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ de Overmaatse lijsten van het veranderingslogboek die vertragingen in entiteiten updates ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront) in onze basis van de steunkennis veroorzaken
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

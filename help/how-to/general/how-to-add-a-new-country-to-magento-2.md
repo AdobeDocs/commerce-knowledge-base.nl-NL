@@ -24,8 +24,8 @@ Raadpleeg de volgende onderwerpen in de documentatie voor ontwikkelaars voordat 
 
 * [ PHP Gids van de Ontwikkelaar ](https://developer.adobe.com/commerce/php/development/)
 * [ Overzicht van de Module ](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
-* [ creeer een Nieuwe Module ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/create-module)
-* [ de configuratiedossiers van de Module ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
+* [ creeer een Nieuwe Module ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/backend-development/create-module)
+* [ de configuratiedossiers van de Module ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/files/module-files)
 
 ## Vereiste informatie
 

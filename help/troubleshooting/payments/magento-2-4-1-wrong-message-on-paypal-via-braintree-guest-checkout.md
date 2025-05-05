@@ -27,7 +27,7 @@ Er wordt een niet-specifieke fout weergegeven wanneer uitchecken door gasten van
 <u> Eerste vereisten </u>:
 
 1. In Commerce Admin, onder **Slaat** > **Configuratie** > **Verkoop** > **Controle**, plaats **Gast Afhandeling** = *Nr* toestaan.
-1. Laat PayPal door Braintree toe zoals die in de [ Braintree ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?) in onze gebruikersgids wordt beschreven.
+1. Laat PayPal door Braintree toe zoals die in de [ Braintree ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/payments/braintree?) in onze gebruikersgids wordt beschreven.
 
 <u> Stappen om </u> te reproduceren:
 

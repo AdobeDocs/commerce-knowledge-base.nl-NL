@@ -45,7 +45,7 @@ Oplossingsopties:
 * Reinig de map `var` .
 * Stel een uitsnijdtaak in om de grootte van de map `var` bij te houden en te opschonen.
 * Wijs meer schijfruimte toe als u wat ongebruikte hebt. (Zie de onderstaande sectie voor informatie over hoe u kunt controleren wat uw limiet is voor ruimte.)
-   * Voor het plan van de Aanzet, kunnen alle milieu&#39;s, en Pro de milieu&#39;s van de Integratie, u de schijfruimte toewijzen als u wat ongebruikt hebt, zoals die in [ wordt beschreven beheert schijfruimte: Het toewijzen van schijfruimte ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
+   * Voor het plan van de Aanzet, kunnen alle milieu&#39;s, en Pro de milieu&#39;s van de Integratie, u de schijfruimte toewijzen als u wat ongebruikt hebt, zoals die in [ wordt beschreven beheert schijfruimte: Het toewijzen van schijfruimte ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
    * Voor de milieu&#39;s van het Staging en van de Productie van het Pro Plan, contacteer steun om meer schijfruimte toe te wijzen als u wat ongebruikt hebt.
 * Als u uw ruimtelimiet hebt bereikt en nog steeds weinig ruimte hebt, kunt u overwegen meer schijfruimte te kopen. Neem contact op met het accountteam van de Adobe voor meer informatie.
 

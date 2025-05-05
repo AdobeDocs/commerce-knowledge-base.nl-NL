@@ -35,4 +35,4 @@ Sla de serverscripts op in niet-schrijfbare mappen, zoals `./app/code/` of `./pu
 
 ## Gerelateerde documentatie
 
-* [ Wolk voor Adobe Commerce > de structuur van het Project > Schrijfbare folders ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories) in onze ontwikkelaarsdocumentatie.
+* [ Wolk voor Adobe Commerce > de structuur van het Project > Schrijfbare folders ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories) in onze ontwikkelaarsdocumentatie.

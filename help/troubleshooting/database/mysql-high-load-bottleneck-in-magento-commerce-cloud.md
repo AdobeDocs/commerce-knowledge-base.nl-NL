@@ -24,7 +24,7 @@ Dit onderwerp bespreekt een oplossing wanneer de hoge lading van MySQL een prest
 * ECE Tools versie 2002.0.16 en hoger
 * De dienst van New Relic APM (**Uw Adobe Commerce op de rekening van de wolkeninfrastructuur omvat de software voor de dienst van New Relic APM** samen met een vergunningssleutel.)
 
-Voor meer informatie over de dienst van New Relic APM en zijn opstelling met uw Adobe Commerce op de rekening van de wolkeninfrastructuur, ga naar [ de Diensten van New Relic ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) en [ Inleiding aan New Relic APM ](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/).
+Voor meer informatie over de dienst van New Relic APM en zijn opstelling met uw Adobe Commerce op de rekening van de wolkeninfrastructuur, ga naar [ de Diensten van New Relic ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) en [ Inleiding aan New Relic APM ](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/).
 
 ## Probleem
 
@@ -61,7 +61,7 @@ Adobe Commerce kan meerdere databases of Redis asynchroon lezen. Het bijwerken v
 
    ![ KB-372_image004.png ](assets/KB-372_image004.png)
 
-   U kunt meer details in [ vinden stelt Variabelen in DevDocs ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection) op.
+   U kunt meer details in [ vinden stelt Variabelen in DevDocs ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection) op.
 
 1. Leg de wijzigingen vast en duw op de wijzigingen.
 1. Het duwen van veranderingen zal een nieuw plaatsingsproces in werking stellen. Nadat de implementatie is voltooid, moet de Adobe Commerce op de cloudinframinstallatie nu zijn geconfigureerd voor gebruik van slave-verbindingen.
@@ -70,7 +70,7 @@ Adobe Commerce kan meerdere databases of Redis asynchroon lezen. Het bijwerken v
 
 Hieronder volgen de veelgestelde vragen die u kunt stellen wanneer u overweegt de functionaliteit voor slave-verbindingen te gebruiken voor uw Adobe Commerce in de cloud-infrastructuurwinkel.
 
-* Zijn er bekende problemen of beperkingen bij het gebruik van slave-verbindingen? **wij hebben geen bekende kwesties van het gebruiken van de Verbindingen van de slave. Zorg gewoon dat u het meest recente bijgewerkte pakket met gereedschappen gebruikt. De instructies zijn hier op [ hoe te om uw kind-hulpmiddelen pakket ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) bij te werken.**
+* Zijn er bekende problemen of beperkingen bij het gebruik van slave-verbindingen? **wij hebben geen bekende kwesties van het gebruiken van de Verbindingen van de slave. Zorg gewoon dat u het meest recente bijgewerkte pakket met gereedschappen gebruikt. De instructies zijn hier op [ hoe te om uw kind-hulpmiddelen pakket ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) bij te werken.**
 * Is er een extra latentie door de Verbindingen van de Slave te gebruiken? *ja, dwars-AZ (cross-Availability Zones) latentie is hoger en vermindert prestaties van een Adobe Commerce op de instantie van de wolkeninfrastructuur in het geval als de instantie niet overbelast is en de volledige lading kan dragen. Maar duidelijk, als de instantie wordt overbelast - master-slave zal met prestaties helpen door de lading op het Gegevensbestand MySQL of Redis over verschillende knopen te spreiden.*
 
   **op niet-overbelaste clusters** - **de Verbindingen van de Slave zullen prestaties door 10-15%** vertragen, die één van de redenen is het niet gebrek.
@@ -82,9 +82,9 @@ Hieronder volgen de veelgestelde vragen die u kunt stellen wanneer u overweegt d
 
 In onze documentatie voor ontwikkelaars:
 
-* [ stelt variabelen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy) op.
-* [ de facultatieve opstellings gegevensbestandreplicatie ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master-replication).
-* [ knoop-hulpmiddelen pakket ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview).
+* [ stelt variabelen ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy) op.
+* [ de facultatieve opstellings gegevensbestandreplicatie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/storage/split-db/multi-master-replication).
+* [ knoop-hulpmiddelen pakket ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview).
 
 >[!NOTE]
 >

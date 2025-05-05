@@ -42,7 +42,7 @@ web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-U moet meer ruimte toewijzen voor de database in uw `services.yaml` en deze implementeren als u wat ruimte niet gebruikt. Voor stappen, zie {de Ruimte van de Schijf van 0} Dienst [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space).
+U moet meer ruimte toewijzen voor de database in uw `services.yaml` en deze implementeren als u wat ruimte niet gebruikt. Voor stappen, zie {de Ruimte van de Schijf van 0} Dienst [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space).
 
 Opmerking: In het Pro-architectuurplan kunt u de toegewezen ruimte op uw partitie controleren met de volgende opdracht: `df -h`
 
@@ -58,4 +58,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## Gerelateerde lezing
 
-[ beheer de Ruimte van de Schijf ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) in onze ontwikkelaarsdocumentatie
+[ beheer de Ruimte van de Schijf ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) in onze ontwikkelaarsdocumentatie

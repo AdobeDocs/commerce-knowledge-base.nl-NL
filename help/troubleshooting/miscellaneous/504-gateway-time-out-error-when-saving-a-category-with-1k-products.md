@@ -64,4 +64,4 @@ Nu kunt u doorgaan met het toevoegen van producten aan categorieën of het verpl
 
 ## Gerelateerde lezing
 
-[ Automatische Omleiding van het Product ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic) in onze gebruikersgids.
+[ Automatische Omleiding van het Product ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic) in onze gebruikersgids.

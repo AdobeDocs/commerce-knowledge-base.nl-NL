@@ -49,7 +49,7 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 Voor Adobe Commerce op-gebouwhandelaren: Pas [ hotfix toe, ](https://magento.com/tech-resources/download#download2353) die van de sectie van Downloads op [ magento.com ](https://magento.com) portaal in Mijn rekening beschikbaar is.
 
-Voor Adobe Commerce op producten met cloudinfrastructuur: Adobe heeft de oplossing opgenomen in de cloudpatches voor Commerce v1.0.2. Gelieve te verwijzen naar [ de versienota&#39;s van de Huur van de Wolk voor de versie van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) in onze ontwikkelaarsdocumentatie om instructies te vinden bij het toepassen van het recentste pakket.
+Voor Adobe Commerce op producten met cloudinfrastructuur: Adobe heeft de oplossing opgenomen in de cloudpatches voor Commerce v1.0.2. Gelieve te verwijzen naar [ de versienota&#39;s van de Huur van de Wolk voor de versie van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) in onze ontwikkelaarsdocumentatie om instructies te vinden bij het toepassen van het recentste pakket.
 
 ## Hoe de pleister moet worden aangebracht
 

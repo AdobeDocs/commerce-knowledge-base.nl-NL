@@ -57,4 +57,4 @@ Adobe Commerce op-gebouw: Pas ACSD-50165 toe gebruikend [ Hulpmiddelen van de Pa
 ## Gerelateerde lezing
 
 * [[!DNL Quality Patches Tool]  > Opmerkingen bij de release ](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) in de handleiding voor Commerce-gereedschappen.
-* [[!DNL Quality Patches Tool]: zoek naar patches ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in de handleiding voor Commerce Tools.
+* [[!DNL Quality Patches Tool]: zoek naar patches ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=nl-NL) in de handleiding voor Commerce Tools.

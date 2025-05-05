@@ -18,7 +18,7 @@ Zijn de cijfers in een bepaald rapport onnauwkeurig? Ziet u onverwachte NULL-waa
 * [Checklist voor diagnostische gegevensdiscrepantie](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [Exporteren gebruiken om verschillen in gegevens vast te stellen](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-Wij adviseren ook dat u de correcte [ replicatiemethodes ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) verzekert en [ opnieuw controleert ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) is geplaatst voor de lijsten en de kolommen betrokken bij de discrepantie. Houd er rekening mee dat u beheerdersmachtigingen nodig hebt voor toegang tot de replicatiemethode en voor het opnieuw controleren van gegevens.
+Wij adviseren ook dat u de correcte [ replicatiemethodes ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) verzekert en [ opnieuw controleert ](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) is geplaatst voor de lijsten en de kolommen betrokken bij de discrepantie. Houd er rekening mee dat u beheerdersmachtigingen nodig hebt voor toegang tot de replicatiemethode en voor het opnieuw controleren van gegevens.
 
 ## Ik heb nog steeds hulp nodig!
 
@@ -32,4 +32,4 @@ Als het rapport nog steeds onnauwkeurig is, maak je dan geen zorgen - ons onders
 ## Gerelateerde lezing
 
 * [Berekende kolommen](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
-* [ Structurele gegevensbestandveranderingen ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)
+* [ Structurele gegevensbestandveranderingen ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html?lang=nl-NL)

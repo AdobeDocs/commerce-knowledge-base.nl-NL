@@ -62,8 +62,8 @@ Voeg de `sales.rule.update.coupon.usage` consumer aan het `app/etc/env.php` doss
 ...
 ```
 
-Voor gedetailleerde stappen, verwijs naar [ beheer berichtrijen > Configuratie ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration) in onze ontwikkelaarsdocumentatie.
+Voor gedetailleerde stappen, verwijs naar [ beheer berichtrijen > Configuratie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration) in onze ontwikkelaarsdocumentatie.
 
 ## Gerelateerde lezing
 
-[ het Overzicht van de Rijen van het Bericht ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework) in onze ontwikkelaarsdocumentatie.
+[ het Overzicht van de Rijen van het Bericht ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework) in onze ontwikkelaarsdocumentatie.

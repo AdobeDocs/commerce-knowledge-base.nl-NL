@@ -1,6 +1,6 @@
 ---
 title: Grote MySQL-tabellen zoeken
-description: 'Om de grote lijsten te identificeren, verbind met het gegevensbestand zoals die in [verbindt met het gegevensbestand] (https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql#connect-to-the-database) artikel wordt beschreven, en stel het volgende bevel in werking, waar project_id uw het projectidentiteitskaart van de Wolk is:'
+description: 'Om de grote lijsten te identificeren, verbind met het gegevensbestand zoals die in [verbindt met het gegevensbestand] (https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/mysql#connect-to-the-database) artikel wordt beschreven, en stel het volgende bevel in werking, waar project_id uw het projectidentiteitskaart van de Wolk is:'
 exl-id: dc5019bc-ab6c-4568-986f-0a294a0f3ac3
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Grote MySQL-tabellen zoeken
 
-Om de grote lijsten te identificeren, verbind met het gegevensbestand zoals die in [ wordt beschreven verbind met het gegevensbestand ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql#connect-to-the-database) artikel, en stel het volgende bevel in werking, waar `project_id` uw het projectidentiteitskaart van de Wolk is:
+Om de grote lijsten te identificeren, verbind met het gegevensbestand zoals die in [ wordt beschreven verbind met het gegevensbestand ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/mysql#connect-to-the-database) artikel, en stel het volgende bevel in werking, waar `project_id` uw het projectidentiteitskaart van de Wolk is:
 
 ```sql
 SELECT TABLE_NAME AS `Table`,
@@ -25,4 +25,4 @@ Dit zou de volledige lijst van lijsten en hun grootte tonen. U kunt door de lijs
 
 ## Gerelateerde lezing
 
-[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

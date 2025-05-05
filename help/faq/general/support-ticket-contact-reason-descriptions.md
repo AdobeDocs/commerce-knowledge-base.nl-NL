@@ -56,4 +56,4 @@ Dit artikel maakt een lijst van de het steunkaartje **gebiedsopties van de Reden
 
 ## Gerelateerde lezing
 
-* [ leg een steungeval ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) in de Gids van de Gebruiker van de Steun van Experience League voor Adobe Commerce voor.
+* [ leg een steungeval ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) in de Gids van de Gebruiker van de Steun van Experience League voor Adobe Commerce voor.

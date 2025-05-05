@@ -32,7 +32,7 @@ Stel alle volgende opties naar wens in.
 
 ### Alle webservers en Varnish {#all-web-servers-and-varnish}
 
-1. Zoek uw `php.ini` gebruikend een [`phpinfo.php` ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software) dossier.
+1. Zoek uw `php.ini` gebruikend een [`phpinfo.php` ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/optional-software) dossier.
 1. Als gebruiker met `root` rechten, opent u `php.ini` in een teksteditor.
 1. Zoek de instelling `max_execution_time` .
 1. Wijzig de waarde in `18000` .

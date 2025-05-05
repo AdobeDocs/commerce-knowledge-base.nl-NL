@@ -35,4 +35,4 @@ De officiële extensies afzonderlijk installeren/aanschaffen. Deze zijn beschikb
 
 ## Gerelateerde lezing
 
-[ leverancier-Gebundelde Uitbreidingen ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions) in de Documentatie van Adobe Commerce > de Informatie van de Versie > de versienota&#39;s van Adobe Commerce 2.4.4.
+[ leverancier-Gebundelde Uitbreidingen ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?lang=nl-NL&#vendor-bundled-extensions) in de Documentatie van Adobe Commerce > de Informatie van de Versie > de versienota&#39;s van Adobe Commerce 2.4.4.

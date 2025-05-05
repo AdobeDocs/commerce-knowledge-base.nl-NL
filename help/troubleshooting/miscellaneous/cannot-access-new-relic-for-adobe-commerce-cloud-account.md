@@ -33,4 +33,4 @@ Neem contact op met de New Relic-rekeninghouder en vraag of deze u aan zijn acco
 
 ## Gerelateerde lezing
 
-[ beheert  [!DNL New Relic]  rekening ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie.
+[ beheert  [!DNL New Relic]  rekening ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie.

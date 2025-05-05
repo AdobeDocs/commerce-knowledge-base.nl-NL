@@ -54,4 +54,4 @@ De wijzigingen worden van kracht nadat u het bijgewerkte YAML-bestand in de omge
 
 ## Gerelateerde documentatie
 
-* [ configuratie van de Toepassing: haken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) in onze Adobe Commerce op de Gids van de Infrastructuur van de Wolk.
+* [ configuratie van de Toepassing: haken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=nl-NL) in onze Adobe Commerce op de Gids van de Infrastructuur van de Wolk.

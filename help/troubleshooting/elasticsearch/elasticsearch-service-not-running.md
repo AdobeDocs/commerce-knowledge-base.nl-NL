@@ -19,7 +19,7 @@ Dit artikel biedt oplossingen voor fouten die u kunt ervaren wanneer de service 
 
    * v2.2.3+ ondersteunt ES 5.x
    * v2.2.8+ en v2.3.1+ ondersteunen ES 6.x
-   * ES v2.x en v5.x worden niet geadviseerd wegens [ Eind van Leven ](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [ de Elasticsearch veranderen php Cliënt ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
+   * ES v2.x en v5.x worden niet geadviseerd wegens [ Eind van Leven ](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [ de Elasticsearch veranderen php Cliënt ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
 
 * Magento Open Source v2.3.0+ ondersteunt ES 5.x en 6.x (maar 6.x wordt aanbevolen).
 
@@ -37,7 +37,7 @@ Dit artikel biedt oplossingen voor fouten die u kunt ervaren wanneer de service 
 <code>&lbrace;"0":"&lbrace;\"error\":&lbrace;\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"Fielddata is disabled on text fields by default. Set fielddata=true on [%attribute_code%]] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.\"}&rbrack;</code>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled...-error.html"> Elasticsearch 5 wordt gevormd, maar de onderzoekspagina laadt niet met "de gegevens van het Gebied is gehandicapt..."fout </a> in onze basis van de steunkennis.
+<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled...-error.html?lang=nl-NL"> Elasticsearch 5 wordt gevormd, maar de onderzoekspagina laadt niet met "de gegevens van het Gebied is gehandicapt..."fout </a> in onze basis van de steunkennis.
 </td>
 </tr>
 <tr>
@@ -45,7 +45,7 @@ Dit artikel biedt oplossingen voor fouten die u kunt ervaren wanneer de service 
 <code>Elasticsearch\Common\Exceptions\NoNodesAvailableException: Noticed exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51</code>
 </td>
 <td>
-Elasticsuite-indices worden niet verwijderd.  Zie <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html"> ElasticSuite die indexen volgen veroorzaakt problemen met Elasticsearch </a> in onze basis van de steunkennis.
+Elasticsuite-indices worden niet verwijderd.  Zie <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html?lang=nl-NL"> ElasticSuite die indexen volgen veroorzaakt problemen met Elasticsearch </a> in onze basis van de steunkennis.
  </td>
 </tr>
 <tr>
@@ -59,15 +59,15 @@ Elasticsuite-indices worden niet verwijderd.  Zie <a href="https://experiencelea
 <li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">8 tips voor het oplossen van problemen met Linux- en Unix-systemen op de vaste schijf, zoals de schijf vol of kan niet naar de schijf schrijven</a></li>
 <li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfout: df zegt dat de schijf vol is, maar niet</a></li>
 <li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com: Waar is de schijfruimte gebleven voor Linux?</a></li>
-<li>Logbestanden worden niet regelmatig genoeg gearchiveerd. Zie <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-archive"> het Archief van het Logboek </a> in onze ontwikkelaardocumentatie vormen.</li>
-<li>Bestandssysteemmappen zijn niet geoptimaliseerd. Zie <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/developer-tools#resource-file-optimization"> Optimalisering van het Dossier </a> in onze ontwikkelaarsdocumentatie.</li>
+<li>Logbestanden worden niet regelmatig genoeg gearchiveerd. Zie <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/action-logs/action-log-archive"> het Archief van het Logboek </a> in onze ontwikkelaardocumentatie vormen.</li>
+<li>Bestandssysteemmappen zijn niet geoptimaliseerd. Zie <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/developer-tools#resource-file-optimization"> Optimalisering van het Dossier </a> in onze ontwikkelaarsdocumentatie.</li>
 <li>Als de oplossingen in de bovenstaande documentatie het probleem niet oplossen, kunt u contact opnemen met het accountteam van de Adobe om extra opslagruimte aan te vragen.</li>
 </ul>
 </li>
 <li>Als uw schijf niet uit opslag maar u nog de foutenmeldingen in de linkerkolom heeft gekregen, <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket"> een steunkaartje </a> voorleggen.</li>
 </ul>
 <ul>
-<li>Zie <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html"> ElasticSuite die indexen volgen veroorzaakt problemen met Elasticsearch </a> in onze basis van de steunkennis.
+<li>Zie <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html?lang=nl-NL"> ElasticSuite die indexen volgen veroorzaakt problemen met Elasticsearch </a> in onze basis van de steunkennis.
 </li>
 </ul>
 </td>

@@ -19,7 +19,7 @@ Er zijn enkele redenen waarom dit zou kunnen gebeuren. Hier zijn de berichten u 
 
 ## Kan query niet uitvoeren. De EXPLAIN-kostenwaarde van \[xxx\] is te hoog om deze query uit te voeren.
 
-Als dit bericht wordt weergegeven, betekent dit dat de query te duur werd geacht om te worden uitgevoerd. Wij hebben twee aanbevelingen voor deze situatie: één moet om het even welke ORDER DOOR clausules van uw vraag elimineren, aangezien zij dure verrichtingen zijn. De tweede moet de uiteinden in ons [ optimaliseringsartikel ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html) volgen om uw vraag te tweken.
+Als dit bericht wordt weergegeven, betekent dit dat de query te duur werd geacht om te worden uitgevoerd. Wij hebben twee aanbevelingen voor deze situatie: één moet om het even welke ORDER DOOR clausules van uw vraag elimineren, aangezien zij dure verrichtingen zijn. De tweede moet de uiteinden in ons [ optimaliseringsartikel ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html?lang=nl-NL) volgen om uw vraag te tweken.
 
 ## Kan query niet uitvoeren. Deze query retourneert \[xxx\] rijen die onze limiet van 10.000 overschrijden
 

@@ -72,4 +72,4 @@ Deze kwestie zal permanent in het werkingsgebied van de veiligheid-enige flardve
 
 ## Verwante lezing
 
-[ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) wordt verstrekt
+[ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) wordt verstrekt

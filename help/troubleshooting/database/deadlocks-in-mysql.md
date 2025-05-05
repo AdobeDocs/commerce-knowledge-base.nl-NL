@@ -35,10 +35,10 @@ Als voorbeeld, is het beste praktijken om een geplakt MySQL gegevensbestandinvoe
 ## Oplossing
 
 1. Controleer uw toepassing, plaatsing, of Logboeken MySQL voor vastzettingsfouten:
-   * [ Adobe Commerce en het logboekplaatsen van de Magento Open Source ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
-   * [ Adobe Commerce op de logboekplaatsen van de wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+   * [ Adobe Commerce en het logboekplaatsen van de Magento Open Source ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html?lang=nl-NL)
+   * [ Adobe Commerce op de logboekplaatsen van de wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=nl-NL)
 1. Controleer uw MySQL proceslijst voor het runnen van processen met het bevel `mysql -e 'show full processlist';`
-1. Controleer of MySQL-slave is ingeschakeld in Adobe Commerce op cloudinfrastructuur. Raadpleeg dit artikel: [ stelt variabelen (MYSQL\_USE\_SLAVE\_CONNECTION) op ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection).
+1. Controleer of MySQL-slave is ingeschakeld in Adobe Commerce op cloudinfrastructuur. Raadpleeg dit artikel: [ stelt variabelen (MYSQL\_USE\_SLAVE\_CONNECTION) op ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=nl-NL#mysql_use_slave_connection).
 1. Afhankelijk van de betrokken fouten, kan de oplossing zich voorstellen, of u kunt uw nuttige logboekinformatie moeten omvatten als u a [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) moet openen.
 
 ## Gerelateerde lezing

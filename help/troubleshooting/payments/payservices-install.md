@@ -25,14 +25,14 @@ Wanneer u de extensie Betalingsservices installeert, wordt mogelijk een foutberi
 
 <u> Stappen om </u> te reproduceren:
 
-1. Poging om de Diensten van de Betaling [&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) te installeren 0&rbrace;.
+1. Poging om de Diensten van de Betaling [&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=nl-NL) te installeren 0&rbrace;.
 1. Zie de volgende fout:
 
    *Kon geen passende versie van pakketmagento/betaling-diensten vinden. Controleer de pakketspelling, uw versiebeperking en dat het pakket in een stabiliteit beschikbaar is die uw minimum-stabiliteit (stabiel) aanpast.*
 
 <u> Verwacht resultaat </u>:
 
-U kunt deze [ installatieinstructies ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) in onze ontwikkelaarsdocumentatie volgen om de Diensten van de Betaling met succes te installeren.
+U kunt deze [ installatieinstructies ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie volgen om de Diensten van de Betaling met succes te installeren.
 
 <u> Werkelijk resultaat </u>:
 
@@ -44,7 +44,7 @@ Tijdens de installatie hebt u onjuiste Composer-toetsen gebruikt.
 
 ### Oplossing
 
-Verifieer dat [ uw sleutels Composer met identiteitskaart van het Magento ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#incorrect-composer-keys) verbonden zijn die tijdens de registratie van de Diensten van de Betaling wordt gebruikt.
+Verifieer dat [ uw sleutels Composer met identiteitskaart van het Magento ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=nl-NL#incorrect-composer-keys) verbonden zijn die tijdens de registratie van de Diensten van de Betaling wordt gebruikt.
 
 ## Probleem - het gebruiken van zelfde gegevensruimte over veelvoudige instanties
 
@@ -59,7 +59,7 @@ Wanneer u een SaaS-project maakt, genereert Commerce een of meer SaaS-gegevensru
 * Adobe Commerce - Eén productiedeswitruimte; twee testgegevensruimten
 * Magento Open Source - Eén gegevensruimte voor productie; geen gegevensruimten voor tests
 
-Volg instructies in [ Commerce API sleutel en privé sleutel ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#obtain-api-credentials) om uw uitbreiding van de Diensten van de Betaling met succes te vormen.
+Volg instructies in [ Commerce API sleutel en privé sleutel ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html?lang=nl-NL#obtain-api-credentials) om uw uitbreiding van de Diensten van de Betaling met succes te vormen.
 
 ## Probleem - onvoldoende geheugen voor PHP
 
@@ -67,14 +67,14 @@ Wanneer u de extensie Betalingsservices installeert, wordt mogelijk een foutberi
 
 <u> Stappen om </u> te reproduceren:
 
-1. Poging om de Diensten van de Betaling [&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) te installeren 0&rbrace;.
+1. Poging om de Diensten van de Betaling [&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=nl-NL) te installeren 0&rbrace;.
 1. Zie de volgende fout, of gelijkaardig:
 
    *Fatale fout: Toegestane geheugengrootte van 2146435072 bytes uitgeput (geprobeerd om 4096 bytes toe te wijzen) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php op lijn 52*
 
 <u> Verwacht resultaat </u>:
 
-U kunt deze [ installatieinstructies ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) in onze ontwikkelaarsdocumentatie volgen om de Diensten van de Betaling met succes te installeren.
+U kunt deze [ installatieinstructies ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie volgen om de Diensten van de Betaling met succes te installeren.
 
 <u> Werkelijk resultaat </u>:
 
@@ -86,4 +86,4 @@ De limiet voor PHP op je omgeving is niet ingesteld op een hoog genoeg niveau.
 
 ### Oplossing
 
-[ verhoog de geheugengrens voor PHP ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php) op uw milieu in `php.ini`.
+[ verhoog de geheugengrens voor PHP ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=nl-NL#not-enough-memory-for-php) op uw milieu in `php.ini`.

@@ -37,5 +37,5 @@ De meest algemene reden hiervoor is bijvoorbeeld een groot aantal producten, win
 
 In onze documentatie voor ontwikkelaars:
 
-* [ Pro architectuur > het milieu van de Integratie ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [ de architectuur van de Aanzet > het Opvoeren milieu ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
+* [ Pro architectuur > het milieu van de Integratie ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [ de architectuur van de Aanzet > het Opvoeren milieu ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)

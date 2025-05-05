@@ -29,15 +29,15 @@ Dit gebeurt wanneer de Variabelen niet worden bijgewerkt nadat een nieuw domein 
 
 ## Oplossing
 
-1. Als het domein binnen het zelfde milieu opnieuw richt, zorg ervoor dat u de [ Variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables) hebt gevormd.
+1. Als het domein binnen het zelfde milieu opnieuw richt, zorg ervoor dat u de [ Variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=nl-NL#modify-variables) hebt gevormd.
 1. Als het domein naar een andere omgeving omleidt, controleert u of u de juiste [!DNL Fastly] -service hebt geconfigureerd door de volgende opdracht uit te voeren: `bin/magento fastly:conf:get -s`
 
 >[!NOTE]
 >
->U kunt de [!DNL Fastly] API-referenties vinden door u aan te melden bij elke omgeving (Staging/Productie) en het `/mnt/shared/fastly_tokens.txt` -bestand te controleren. Voor meer informatie, zie [  [!DNL Fastly]  de diensten ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in Commerce op de Gids van de Infrastructuur van de Wolk vormen.
+>U kunt de [!DNL Fastly] API-referenties vinden door u aan te melden bij elke omgeving (Staging/Productie) en het `/mnt/shared/fastly_tokens.txt` -bestand te controleren. Voor meer informatie, zie [  [!DNL Fastly]  de diensten ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) in Commerce op de Gids van de Infrastructuur van de Wolk vormen.
 
 Als beide bovenstaande configuraties correct zijn, dient u een ondersteuningsticket in.
 
 ## Gerelateerde lezing
 
-* [ Checklist voor vestiging een nieuw domein ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html) in onze basis van de steunkennis.
+* [ Checklist voor vestiging een nieuw domein ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html?lang=nl-NL) in onze basis van de steunkennis.

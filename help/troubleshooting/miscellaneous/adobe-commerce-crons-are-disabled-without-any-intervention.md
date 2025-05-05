@@ -39,10 +39,10 @@ Een probleem met de [!DNL OPcache] -instellingen.
 
 ## Oplossing
 
-Bevorder [!DNL ECE Tools] aan de recentste versie [ 2002.1.13 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113).
+Bevorder [!DNL ECE Tools] aan de recentste versie [ 2002.1.13 ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113).
 
 ## Gerelateerde lezing
 
-* [ Trage prestaties, langzaam en lang lopend  [!DNL crons] ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html) in onze basis van de steunkennis.
-* [[!DNL Cron]  taken vergrendelen taken van andere groepen ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=en) in onze basis van steunkennis.
-* [[!DNL Cron]  baan is geplakt in &quot;lopende&quot;status ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=en) in onze basis van steunkennis.
+* [ Trage prestaties, langzaam en lang lopend  [!DNL crons] ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=nl-NL) in onze basis van de steunkennis.
+* [[!DNL Cron]  taken vergrendelen taken van andere groepen ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=nl-NL) in onze basis van steunkennis.
+* [[!DNL Cron]  baan is geplakt in &quot;lopende&quot;status ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=nl-NL) in onze basis van steunkennis.

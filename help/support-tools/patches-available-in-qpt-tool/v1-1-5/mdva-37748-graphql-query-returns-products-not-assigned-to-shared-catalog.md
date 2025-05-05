@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-37748: De vraag van GraphQL keert producten terug die niet aan gedeelde catalogus worden toegewezen'
-description: De patch MDVA-37748 verhelpt het probleem waarbij een GraphQL-query producten retourneert die niet zijn toegewezen aan een gedeelde catalogus. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 is geïnstalleerd. De patch-id is MDVA-37748. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
+description: De patch MDVA-37748 verhelpt het probleem waarbij een GraphQL-query producten retourneert die niet zijn toegewezen aan een gedeelde catalogus. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 is geïnstalleerd. De patch-id is MDVA-37748. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 exl-id: 1f441882-dc14-433c-aa03-ff22483ce5a7
 feature: B2B, GraphQL, Catalog Management, Categories, Products
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-37748: De vraag van GraphQL keert producten terug die niet aan gedeelde catalogus worden toegewezen
 
-De patch MDVA-37748 verhelpt het probleem waarbij een GraphQL-query producten retourneert die niet zijn toegewezen aan een gedeelde catalogus. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 geïnstalleerd is. De patch-id is MDVA-37748. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
+De patch MDVA-37748 verhelpt het probleem waarbij een GraphQL-query producten retourneert die niet zijn toegewezen aan een gedeelde catalogus. Dit flard is beschikbaar wanneer het [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 geïnstalleerd is. De patch-id is MDVA-37748. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.4.
 
 ## Betrokken producten en versies
 
@@ -27,7 +27,7 @@ Adobe Commerce (alle implementatiemethoden) 2.4.2 - 2.4.2-p2
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe versies van het Hulpprogramma voor kwaliteitspatches. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het `magento/quality-patches` -pakket bij naar de meest recente versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool] : zoek naar patches op de pagina ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=nl-NL) . Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 
@@ -320,8 +320,8 @@ Alleen &quot;Product 2&quot; wordt geretourneerd, maar `total_count` geeft er tw
 
 Om individuele flarden toe te passen, gebruik de volgende verbindingen afhankelijk van uw plaatsingsmethode:
 
-* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) in onze ontwikkelingsdocumentatie toe.
-* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in onze ontwikkelaarsdocumentatie toe.
+* Adobe Commerce of Magento Open Source op-gebouw: [ Gids van de Update van de Software > pas Patches ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/usage) in onze ontwikkelingsdocumentatie toe.
+* Adobe Commerce op wolkeninfrastructuur: [ Verbeteringen en Patches > Pas Patches ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in onze ontwikkelaarsdocumentatie toe.
 
 ## Gerelateerde lezing
 

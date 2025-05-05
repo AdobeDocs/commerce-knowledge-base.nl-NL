@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Live Search] dashboard- en zoekresultaatpositie zijn onjuist
 
-Als u opmerkt dat de gegevens die in het [!DNL Live Search] dashboard worden getoond onjuist zijn, of als [ het rangschikken van de onderzoeksresultaten ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies) niet zijn wat u verwacht, zie het volgende om mogelijke redenen:
+Als u opmerkt dat de gegevens die in het [!DNL Live Search] dashboard worden getoond onjuist zijn, of als [ het rangschikken van de onderzoeksresultaten ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies) niet zijn wat u verwacht, zie het volgende om mogelijke redenen:
 
 * Het veld `topLevelSku` van de productcontext in `productView` -gebeurtenissen ontbreekt. Dit veroorzaakt lege omzettingen en andere onverwachte metriek.
 

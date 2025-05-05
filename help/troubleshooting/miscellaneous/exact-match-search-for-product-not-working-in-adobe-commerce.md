@@ -46,6 +46,6 @@ De native zoekfunctionaliteit van Adobe Commerce die in 2.3.x wordt gebruikt, bi
 
 ## Verwante lezing
 
-[ installeer Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) in onze gebruikersgids.
+[ installeer Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL) in onze gebruikersgids.
 
-[ Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) in onze ontwikkelaarsdocumentatie.
+[ Levend Onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/live-search/overview) in onze ontwikkelaarsdocumentatie.

@@ -20,7 +20,7 @@ Door gebrek, verbergt de Fastly alle fouten van Adobe Commerce achter de **503 n
 
 Als u de authentieke Adobe Commerce-fout en het nummer van het foutrapport ziet, worden mogelijk gegevens in het foutrapportbestand weergegeven door de volgende stappen uit te voeren:
 
-1. SSH naar het betrokken milieu. Verwijs naar [ SSH aan een milieu ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) in onze ontwikkelaarsdocumentatie.
+1. SSH naar het betrokken milieu. Verwijs naar [ SSH aan een milieu ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections) in onze ontwikkelaarsdocumentatie.
 1. Zoek het `./var/report/{error_number}` -bestand.
 
 ## Toepassingsdomein en IP-adres toevoegen aan het hostbestand: gedetailleerde stappen

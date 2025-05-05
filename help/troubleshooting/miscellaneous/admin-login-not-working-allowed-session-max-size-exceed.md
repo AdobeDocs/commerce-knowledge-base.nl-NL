@@ -57,6 +57,6 @@ U kunt aan hoger plaatsen dan *500000* afhankelijk van de bestaande max. grootte
 
 ## Verwante lezing
 
-* [ grootte van de Zitting ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) in de Gids van Systemen Admin
-* [ wijze van de Verrichting ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) in de Gids van de Configuratie
-* [ Veilige verbindingen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) in Commerce op de Gids van de Infrastructuur van de Wolk
+* [ grootte van de Zitting ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-session-management#admin-sessions) in de Gids van Systemen Admin
+* [ wijze van de Verrichting ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/set-mode) in de Gids van de Configuratie
+* [ Veilige verbindingen ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections) in Commerce op de Gids van de Infrastructuur van de Wolk

@@ -29,7 +29,7 @@ Nadat u een bestelling hebt gefactureerd (vastgelegd) of een creditnota voor een
 
 Vereisten: een bestelling wordt geplaatst met behulp van de functionaliteit Betalingsservices.
 
-1. Een orde wordt [ gefactureerd ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) (of [ geannuleerd ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order) of [ die via creditmemo ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) worden teruggegeven) in [ Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin).
+1. Een orde wordt [ gefactureerd ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) (of [ geannuleerd ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order) of [ die via creditmemo ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) worden teruggegeven) in [ Admin ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/admin/admin).
 1. Navigeer naar het rapport Betalingsstatus bestellen voor informatie over die bestelling.
 1. De status wordt weergegeven als `AUTHORIZED` . Dit is de status van de bestelling voorafgaand aan het factureren of een andere bestelling.
 
@@ -37,7 +37,7 @@ Vereisten: een bestelling wordt geplaatst met behulp van de functionaliteit Beta
 
 >[!NOTE]
 >
->Dit is slechts één algemeen geval van gebruik. Er kunnen andere gebruiksgevallen zijn wanneer een [ ordeactie ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders#actions) voorkomt en het gegeven niet onmiddellijk beschikbaar in het toepasselijke rapport is.
+>Dit is slechts één algemeen geval van gebruik. Er kunnen andere gebruiksgevallen zijn wanneer een [ ordeactie ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/orders#actions) voorkomt en het gegeven niet onmiddellijk beschikbaar in het toepasselijke rapport is.
 
 <u> Verwacht resultaat </u>:
 Rapportgegevens worden direct ingevuld nadat een handeling op een bestelling is uitgevoerd.
@@ -49,7 +49,7 @@ Er kan een vertraging optreden in zichtbare rapportgegevens voor zojuist voltooi
 
 Er zijn twee factoren die deze vertraging in de zichtbare gegevens in de Admin beïnvloeden:
 
-* Hoe vaak u verkiest om (de uitvoer en voorhoudt) gegevens van Commerce, via [ configuratie in Admin ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html) te synchroniseren.
+* Hoe vaak u verkiest om (de uitvoer en voorhoudt) gegevens van Commerce, via [ configuratie in Admin ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html?lang=nl-NL) te synchroniseren.
 * Tijdschema waarin PayPal rapportgegevens publiceert.
 
 ## Oplossing

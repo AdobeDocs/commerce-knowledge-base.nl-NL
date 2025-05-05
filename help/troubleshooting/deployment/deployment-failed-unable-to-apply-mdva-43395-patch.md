@@ -25,7 +25,7 @@ U kunt de MDVA-43395-pleister niet aanbrengen.
 
 ## Oorzaak
 
-De kooplieden van de wolk hoeven niet om het flard MDVA-43395 afzonderlijk toe te passen als zij [ magento/magento-cloud-patches 1.0.16 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016) geïnstalleerd hebben, die reeds het flard omvat.
+De kooplieden van de wolk hoeven niet om het flard MDVA-43395 afzonderlijk toe te passen als zij [ magento/magento-cloud-patches 1.0.16 ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016) geïnstalleerd hebben, die reeds het flard omvat.
 
 ## Oplossing
 
@@ -45,4 +45,4 @@ $ vendor/bin/magento-patches -n status |grep 43443
 ## Gerelateerde lezing
 
 * [ hoe te om een componentenflard toe te passen dat door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
-* [ de Patches van de Wolk voor Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016) in onze ontwikkelaarsdocumentatie.
+* [ de Patches van de Wolk voor Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016) in onze ontwikkelaarsdocumentatie.

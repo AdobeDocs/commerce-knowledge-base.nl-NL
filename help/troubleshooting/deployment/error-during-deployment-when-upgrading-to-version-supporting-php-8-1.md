@@ -45,4 +45,4 @@ Verwijder JSON uit **Runtime** > **de sectie van Uitbreidingen** in `.magento.ap
 
 ## Gerelateerde lezing
 
-[ PHP toepassing ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) in onze ontwikkelaarsdocumentatie.
+[ PHP toepassing ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/app/php-settings) in onze ontwikkelaarsdocumentatie.

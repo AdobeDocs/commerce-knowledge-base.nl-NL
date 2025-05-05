@@ -53,4 +53,4 @@ Voer de volgende stappen uit als u nog steeds geen sites kunt toevoegen:
 
 ## Gerelateerde lezing
 
-* [ Scannen van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) in onze gebruikersgids.
+* [ Scannen van de Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-scan) in onze gebruikersgids.

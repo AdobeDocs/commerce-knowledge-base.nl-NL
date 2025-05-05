@@ -17,7 +17,7 @@ Dit artikel bevat een oplossing voor het probleem wanneer in Adobe Commerce-wink
 
 ## Probleem
 
-Geplande updates voor een opslaginhoudselement (pagina, product, blok, enz.) niet direct na de begintijd van de update worden weergegeven in de winkel. Dit gebeurt wanneer de updates gebruikend de [ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) functionaliteit zijn gepland.
+Geplande updates voor een opslaginhoudselement (pagina, product, blok, enz.) niet direct na de begintijd van de update worden weergegeven in de winkel. Dit gebeurt wanneer de updates gebruikend de [ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=nl-NL) functionaliteit zijn gepland.
 
 ## Oorzaak
 
@@ -45,6 +45,6 @@ Als het serveren van verouderde inhoud zelfs voor het eerste verzoek onacceptabe
 
 ## Gerelateerde documentatie
 
-* [ vormt zuiveringsopties ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in Commerce op de Gids van de Infrastructuur van de Wolk.
-* [ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) in de documentatie van de Inhoud en van het Ontwerp.
+* [ vormt zuiveringsopties ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) in Commerce op de Gids van de Infrastructuur van de Wolk.
+* [ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=nl-NL) in de documentatie van de Inhoud en van het Ontwerp.
 * [ het dienen van waliteit inhoud ](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) in Snelle documentatie.

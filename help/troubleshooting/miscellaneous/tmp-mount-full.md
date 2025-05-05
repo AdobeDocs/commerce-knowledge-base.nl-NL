@@ -120,7 +120,7 @@ Controleer `/tmp` op `.sql` - of `.sql.gz` -bestanden en pas deze op. Deze zijn 
 
 Volg de onderstaande aanbevelingen om problemen met `/tmp` als vol te voorkomen:
 
-* Gebruik MySQL niet voor zoekopdrachten. Elasticsearch voor onderzoek elimineert gewoonlijk de behoefte aan de meeste zware tijdlijstverwezenlijking. Zie [ Adobe Commerce vormen om Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine) in onze ontwikkelaarsdocumentatie te gebruiken.
+* Gebruik MySQL niet voor zoekopdrachten. Elasticsearch voor onderzoek elimineert gewoonlijk de behoefte aan de meeste zware tijdlijstverwezenlijking. Zie [ Adobe Commerce vormen om Elasticsearch ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/configure-search-engine) in onze ontwikkelaarsdocumentatie te gebruiken.
 * Vermijd het uitvoeren van de query `SELECT` op kolommen zonder indexen aangezien dit een grote hoeveelheid tijdelijke schijfruimte gebruikt. U kunt ook de indexen toevoegen.
 * Maak een uitsnede om op te schonen `/tmp` door de volgende opdracht in de CLI uit te voeren:
 
