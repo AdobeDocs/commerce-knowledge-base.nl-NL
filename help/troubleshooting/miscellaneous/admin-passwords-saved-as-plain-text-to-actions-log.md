@@ -1,6 +1,6 @@
 ---
 title: Wachtwoorden voor beheerders die zijn opgeslagen als onbewerkte tekst in het logboek Handelingen
-description: Dit artikel verstrekt een moeilijke situatie voor wanneer een Beheerder van Commerce tot een nieuwe gebruiker met de voorrechten van de Beheerder leidt en het wachtwoord wordt bewaard als gewone tekst in de ` magento_logging_event_changes' gegevensbestandlijst.
+description: Dit artikel verstrekt een moeilijke situatie voor wanneer een Beheerder van Commerce tot een nieuwe gebruiker met de voorrechten van de Beheerder leidt en het wachtwoord wordt bewaard als gewone tekst in de &grave; magento_logging_event_changes' gegevensbestandlijst.
 exl-id: 0e91198e-66b9-456a-9b75-5986369ed8e6
 feature: Admin Workspace, Logs
 role: Developer

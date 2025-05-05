@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-58141: PHPSESSID regenereert op de verzoeken van de POST voor geregistreerde klanten met L2 toegelaten geheime voorgeheugen Redis'
-description: Pas ACSD-58141 flard toe om de kwestie van Adobe Commerce te bevestigen waar ` PHPSESSID ` op de verzoeken van de POST op het gebied van de Storefront voor een het programma geopende klant met L2 Redis toegelaten geheime voorgeheugen regenereert, en de klant wordt bijgewerkt van Admin.
+description: Pas ACSD-58141 flard toe om de kwestie van Adobe Commerce te bevestigen waar &grave; PHPSESSID &grave; op de verzoeken van de POST op het gebied van de Storefront voor een het programma geopende klant met L2 Redis toegelaten geheime voorgeheugen regenereert, en de klant wordt bijgewerkt van Admin.
 feature: Customers, Cache
 role: Admin, Developer
 exl-id: 72ae2ed4-bbac-472b-b257-3234f86000f4

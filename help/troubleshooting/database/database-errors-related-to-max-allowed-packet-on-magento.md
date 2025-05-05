@@ -1,6 +1,6 @@
 ---
 title: Databasefouten met betrekking tot max_allowed_packet op Adobe Commerce
-description: Dit artikel verstrekt een oplossing voor de fouten van de gegevensbestandverbinding in ` var/log/exception.log ` die kunnen voorkomen wanneer het invoeren van een groot aantal producten of het uitvoeren van een andere taak die de server dwingt om grotere pakketten te behandelen dan die in \ max_allowed_packet"worden geplaatst die groter is dan het gebrek, 16MB.
+description: Dit artikel verstrekt een oplossing voor de fouten van de gegevensbestandverbinding in &grave; var/log/exception.log &grave; die kunnen voorkomen wanneer het invoeren van een groot aantal producten of het uitvoeren van een andere taak die de server dwingt om grotere pakketten te behandelen dan die in  max_allowed_packet"worden geplaatst die groter is dan het gebrek, 16MB.
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer

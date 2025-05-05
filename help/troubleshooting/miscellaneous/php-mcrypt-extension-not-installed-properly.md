@@ -51,7 +51,7 @@ Als gevolg hiervan kan het Adobe Commerce-installatieprogramma de extensie niet 
 
 Bepaal of de cryptextensie op een van de volgende manieren is geladen:
 
-* Opstelling a {](http://kb.mediatemple.net/questions/764/How+can+I+create+a+phpinfo.php+page%3F#gs) dossier 0} phpinfo.php in de wortelfolder van de Webserver en onderzoek de output in Webbrowser.[
+* Opstelling a {[&#128279;](http://kb.mediatemple.net/questions/764/How+can+I+create+a+phpinfo.php+page%3F#gs) dossier 0} phpinfo.php in de wortelfolder van de Webserver en onderzoek de output in Webbrowser.
 * Voer de volgende opdracht uit:    `$ php -r "phpinfo();" | grep mcrypt`
 
 Als crypt *niet* geïnstalleerd is, berichten gelijkend op de volgende vertoning:

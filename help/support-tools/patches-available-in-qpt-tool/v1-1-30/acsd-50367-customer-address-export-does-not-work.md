@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-50367: Exporteren van klantadres werkt niet met kenmerk voor meerdere selecties'
-description: Pas de ACSD-50367-patch toe om het Adobe Commerce-probleem op te lossen waarbij het exporteren van het klantadres niet werkt wanneer een multi-select **'kenmerk Customer Address`** zonder waarden wordt gemaakt.
+description: Pas de ACSD-50367-patch toe om het Adobe Commerce-probleem op te lossen waarbij het exporteren van het klantadres niet werkt wanneer een multi-select **'kenmerk Customer Address&grave;** zonder waarden wordt gemaakt.
 exl-id: 688831d4-b49e-48fa-b4db-1328cda09a2b
 feature: Admin Workspace, Attributes, Data Import/Export, Shipping/Delivery
 role: Admin

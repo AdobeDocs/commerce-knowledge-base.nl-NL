@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Voordat de oplossing in dit artikel wordt geïmplementeerd (`INT` tot `BIGINT` schema-update), moeten handelaren altijd controleren of het veld dat zij gaan wijzigen GEEN relaties met een andere tabel met een externe sleutel heeft. Als het veld geen relaties met externe sleutels heeft met een andere tabel, zullen er problemen optreden omdat het verwante veld nog steeds `INT` is. Zij kunnen de volgende vraag gebruiken om dit te verifiëren. Deze vraag maakt een lijst van de buitenlands-zeer belangrijke verhoudingen beschikbaar in het gegevensbestand voor het bepaalde lijstgebied:
 >
-```mysql
+>```mysql
 >SELECT 
 >     TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
 >FROM

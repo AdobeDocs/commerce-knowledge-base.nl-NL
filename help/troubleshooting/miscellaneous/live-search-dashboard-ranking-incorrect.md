@@ -19,6 +19,6 @@ Als u opmerkt dat de gegevens die in het [!DNL Live Search] dashboard worden get
 
 * Voor de gebeurtenis `add-to-cart` is het veld `productContext` niet ingesteld en gevuld.
 
-* Het omgevingstype is onjuist. Als de omgeving bijvoorbeeld is ingesteld op *[!UICONTROL Testing]* in plaats van op *[!UICONTROL Production]* . Zie {de context van 0} Storefront ](https://github.com/adobe/commerce-events/blob/main/examples/events/example-contexts/mock-storefront-context.md) voor meer informatie.[
+* Het omgevingstype is onjuist. Als de omgeving bijvoorbeeld is ingesteld op *[!UICONTROL Testing]* in plaats van op *[!UICONTROL Production]* . Zie {de context van 0} Storefront [&#128279;](https://github.com/adobe/commerce-events/blob/main/examples/events/example-contexts/mock-storefront-context.md) voor meer informatie.
 
 * De context van onderzoeksresultaten mist van [ onderzoek-product-klik ](https://github.com/adobe/commerce-events/blob/main/examples/events/search-product-click.md) gebeurtenis.

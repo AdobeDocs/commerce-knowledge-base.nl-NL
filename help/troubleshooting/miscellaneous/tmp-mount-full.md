@@ -1,6 +1,6 @@
 ---
 title: 'Problemen met /tmp-montage oplossen: vol voor Adobe Commerce'
-description: Dit artikel biedt een oplossing voor het geval de `-/tmp'-montage vol is, de site mogelijk is ingedrukt en u geen SSH in een knooppunt kunt plaatsen.
+description: Dit artikel biedt een oplossing voor het geval de &grave;-/tmp'-montage vol is, de site mogelijk is ingedrukt en u geen SSH in een knooppunt kunt plaatsen.
 exl-id: e72d0f99-0060-474b-bb1c-2851896e1e43
 feature: Storage
 role: Developer

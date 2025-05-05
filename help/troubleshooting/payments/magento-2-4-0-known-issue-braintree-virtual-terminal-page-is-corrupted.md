@@ -30,7 +30,7 @@ In Commerce Admin, ga naar **Verkoop** > **de Virtuele Terminal van de Braintree
 
 <u> Verwacht resultaat:</u>
 
-De **Virtuele Eind van de Braintree {** pagina laadt met juiste UI.
+De **Virtuele Eind van de Braintree &lbrace;** pagina laadt met juiste UI.
 
 <u> Ware resultaat:</u>
 
@@ -44,7 +44,7 @@ In Commerce Admin, ga naar **Verkoop** > **de Virtuele Terminal van de Braintree
 
 <u> Verwacht resultaat:</u>
 
-De **Virtuele Eind van de Braintree {** pagina laadt met juiste UI en een waarschuwing wordt getoond informerend dat de Braintree nog niet wordt gevormd.
+De **Virtuele Eind van de Braintree &lbrace;** pagina laadt met juiste UI en een waarschuwing wordt getoond informerend dat de Braintree nog niet wordt gevormd.
 
 <u> Ware resultaat:</u>
 

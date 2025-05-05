@@ -71,7 +71,7 @@ De patch is van toepassing op Adobe Commerce op cloudinfrastructuur versie 2.4.1
 
 ### Response not JSON
 
-Als de responsuitvoer niet JSON is, kan dit te wijten zijn aan PWA/Headless-implementatie. Als u de implementatie zonder kop gebruikt, werkt u de UPWARD-configuratie bij om aanvragen naar Adobe Commerce Origin te omzeilen. Om dit, in Adobe Commerce te doen Admin, onder **Slaat** > **Configuratie** > **Algemeen** > **Web** > **de Configuratie van de PWA van de UPWARD** > **Lijst van gewenste personen van de Voornaam 11}, voeg *wat* toe.**
+Als de responsuitvoer niet JSON is, kan dit te wijten zijn aan PWA/Headless-implementatie. Als u de implementatie zonder kop gebruikt, werkt u de UPWARD-configuratie bij om aanvragen naar Adobe Commerce Origin te omzeilen. Om dit, in Adobe Commerce te doen Admin, onder **Slaat** > **Configuratie** > **Algemeen** > **Web** > **de Configuratie van de PWA van de UPWARD** > **Lijst van gewenste personen van de Voornaam 11&rbrace;, voeg *wat* toe.**
 
 ![ Upward_configuration ](assets/upward_pwa.png)
 
@@ -79,4 +79,4 @@ Als u nog niet tot het Plaats-brede Hulpmiddel van de Analyse kunt toegang hebbe
 
 ## Gerelateerde lezing
 
-* ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html) de gids van het Hulpmiddel van de Analyse van 0} plaats-brede[
+* [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html) de gids van het Hulpmiddel van de Analyse van 0&rbrace; plaats-brede

@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Elasticsearch inschakelen in cloud
 
-Gelieve te verwijzen naar het ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch) artikel van de Dienst van de Elasticsearch van de Opstelling [ in onze ontwikkelaarsdocumentatie voor informatie over vestiging Elasticsearch voor Adobe Commerce op wolkeninfrastructuur.
+Gelieve te verwijzen naar het [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch) artikel van de Dienst van de Elasticsearch van de Opstelling  in onze ontwikkelaarsdocumentatie voor informatie over vestiging Elasticsearch voor Adobe Commerce op wolkeninfrastructuur.

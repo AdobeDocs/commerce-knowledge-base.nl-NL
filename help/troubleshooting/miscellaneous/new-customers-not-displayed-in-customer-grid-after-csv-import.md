@@ -1,6 +1,6 @@
 ---
 title: Nieuwe klanten die na CSV-import niet worden weergegeven in het klantenraster
-description: Dit artikel bevat een oplossing voor het probleem wanneer u geen nieuwe klanten ziet onder **Klanten**** amp;gt; **Alle klanten*** na het importeren uit een `.csv`-bestand. De oplossing moet de ` customer_grid' indexer aan "Update op sparen"wijze plaatsen en manueel het klantennet opnieuw indexeren.
+description: Dit artikel bevat een oplossing voor het probleem wanneer u geen nieuwe klanten ziet onder **Klanten**** amp;gt; **Alle klanten*** na het importeren uit een &grave;.csv&grave;-bestand. De oplossing moet de &grave; customer_grid' indexer aan "Update op sparen"wijze plaatsen en manueel het klantennet opnieuw indexeren.
 exl-id: e4d9d60a-a0d1-4602-924e-a338e56de61d
 feature: Data Import/Export
 role: Developer

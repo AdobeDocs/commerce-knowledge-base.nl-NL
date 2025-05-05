@@ -128,7 +128,7 @@ De Steun van WAF biedt de volgende middelen aan om u bij het verlichten van de d
 * Voortdurende fout-positieve tribune om gevallen aan te pakken waar de WAF legitiem verkeer blokkeert
 * Configuratie van eventuele nieuwe standaardregels die zijn geïntroduceerd als onderdeel van WAF-upgrades
 
-Zie de ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf) termijnen van SLA van 0} Cloud voor extra steuninformatie met inbegrip van strengheidsdefinities, reactietijden, kanalen, en beschikbaarheid.[
+Zie de [&#128279;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf) termijnen van SLA van 0&rbrace; Cloud voor extra steuninformatie met inbegrip van strengheidsdefinities, reactietijden, kanalen, en beschikbaarheid.
 
 ## Als de WAF het legale verkeer blokkeert of andere problemen veroorzaakt, hoe kan ik dan hulp krijgen?
 

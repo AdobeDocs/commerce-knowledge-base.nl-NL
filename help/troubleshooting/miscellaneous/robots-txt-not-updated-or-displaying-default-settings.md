@@ -1,6 +1,6 @@
 ---
 title: robots.txt niet bijgewerkt of standaardinstellingen weergeven
-description: Het artikel biedt een oplossing voor wanneer u ` robots.txt ` correct hebt gevormd, bijvoorbeeld per [Beste praktijken voor Adobe Commerce robots.txt](https://support.magento.com/hc/en-us/articles/360048754931) maar ` robots.txt ` wordt niet bijgewerkt of toont de standaardinstellingen.
+description: Het artikel biedt een oplossing voor wanneer u &grave; robots.txt &grave; correct hebt gevormd, bijvoorbeeld per [Beste praktijken voor Adobe Commerce robots.txt](https://support.magento.com/hc/en-us/articles/360048754931) maar &grave; robots.txt &grave; wordt niet bijgewerkt of toont de standaardinstellingen.
 exl-id: 629b1247-9282-49f9-ada3-a804ddbaa0f5
 feature: Configuration
 role: Developer

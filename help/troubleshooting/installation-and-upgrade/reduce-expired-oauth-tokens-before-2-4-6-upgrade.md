@@ -1,6 +1,6 @@
 ---
 title: Verliesde "oauth_tokens"verminderen vóór 2.4.6 verbetering
-description: Dit artikel verstrekt een oplossing voor de kwestie waar u een groot aantal ` oauth_tokens ` in uw lijst ` oauth_token ` ziet, die een lange vertraging in verbetering tot versie 2.4.6 kan veroorzaken. Het wordt aanbevolen de tabel ` oauth_token` te verkleinen met CleanExpiredTokens.php.
+description: Dit artikel verstrekt een oplossing voor de kwestie waar u een groot aantal &grave; oauth_tokens &grave; in uw lijst &grave; oauth_token &grave; ziet, die een lange vertraging in verbetering tot versie 2.4.6 kan veroorzaken. Het wordt aanbevolen de tabel &grave; oauth_token&grave; te verkleinen met CleanExpiredTokens.php.
 feature: Variables, Upgrade
 role: Developer
 exl-id: 92d1d15a-04da-4ba4-b6b8-5c491af9c4c1

@@ -57,12 +57,12 @@ Verzend a [ Ticket van de Steun bij het Centrum van de Steun van Adobe Commerce 
 
 >[!NOTE]
 >
->De *keus van het Verzoek van de Vakantiedruk 0} is slechts een optie tussen de maanden van Oktober en van December.*
+>De *keus van het Verzoek van de Vakantiedruk 0&rbrace; is slechts een optie tussen de maanden van Oktober en van December.*
 
 1. Selecteer het Adobe Commerce-product waarvoor u ondersteuning zoekt.
 1. Vul de eerste vier velden (Product, Organisatie, Type implementatie, Onderwerp) in.
 1. Selecteer *de wolkeninfrastructuur van Adobe Commerce* in de **drop-down Reden van het Contact**.
-1. Selecteer *Verzoek van de Capaciteit van de Vakantieduur van 0} {in de **3} drop-down opties van de Reden van het Contact van de Infrastructuur van Adobe Commerce.*** Klik **O.K.** op het pop-up bericht vragend 48 bedrijfsuren&#39; bericht voor tijdelijke extra verzoeken van de wolkencapaciteit.
+1. Selecteer *Verzoek van de Capaciteit van de Vakantieduur van 0&rbrace; {in de **3} drop-down opties van de Reden van het Contact van de Infrastructuur van Adobe Commerce.*** Klik **O.K.** op het pop-up bericht vragend 48 bedrijfsuren&#39; bericht voor tijdelijke extra verzoeken van de wolkencapaciteit.
 1. Selecteer data voor de verplichte gebieden **Resize Datum van het Begin** en **Resize Datum van het Eind**. De aangewezen **Resize Tijd van het Begin** is ook een verplicht gebied.
 1. Vul de volgende vier velden in.
 1. Op het **gebied van de Beschrijving**, als u extra informatie over grootte hebt, verstrek het hier. Als er geen specifieke grotere capaciteit wordt gevraagd, wordt u verhoogd tot de volgende grotere capaciteit van de omgeving. De verzoeken van de vloedgolf zullen aan de volgende grotere grootte van uw huidige grootte in gebreke blijven. Als u extra capaciteit vereist, gelieve erop te wijzen dat op het **gebied van de Beschrijving**. Verhoogde capaciteit wordt afgetrokken van uw contractueel vastgelegde piekdagen of vCPU-dagen. Het typische venster van de capaciteitsverhoging is vijf dagen, maar als u meer of minder dagen nodig hebt, gelieve dit in uw [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) te wijzen.

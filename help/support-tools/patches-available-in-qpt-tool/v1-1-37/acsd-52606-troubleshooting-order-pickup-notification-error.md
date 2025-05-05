@@ -44,7 +44,7 @@ De inventarismodules worden geïnstalleerd.
 1. Wijs de nieuwe bron toe aan de standaardwebsite.
 1. Ophaallocatie inschakelen voor de nieuwe bron.
 1. Ga naar **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Delivery Methods]** > **[!UICONTROL In-Store Delivery]** en schakel **[!UICONTROL In-Store Delivery]** in.
-1. Creeer a *in het 1} eenvoudige product van de Voorraad {met* QTY=0 *voor alle aandelen en *[!UICONTROL Manage Stock = No]*en wijs het aan beide bronnen toe.*
+1. Creeer a *in het 1&rbrace; eenvoudige product van de Voorraad &lbrace;met* QTY=0 *voor alle aandelen en *[!UICONTROL Manage Stock = No]*&#x200B;en wijs het aan beide bronnen toe.*
 1. Maak een bestelling van de voorzijde met het product dat u in de vorige stap hebt gemaakt en kies *[!UICONTROL In-Store Pickup]* als de leveringsmethode.
 1. Ga in Beheer naar **[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Invoice that order]** .
 1. Klik op **[!UICONTROL Notify order is ready for pickup]**.

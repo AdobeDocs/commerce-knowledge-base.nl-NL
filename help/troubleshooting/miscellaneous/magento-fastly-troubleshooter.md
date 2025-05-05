@@ -56,7 +56,7 @@ Wanneer u `dig` in werking stelde het een verslag terugkwam dat aan prod.magento
 * 15.10.193.124
 
 a. JA - De kwestie heeft geen DNS betrekking. Ga aan [ Stap 5 ](#step-5) te werk.\
-b. NO - De kwestie heeft waarschijnlijk betrekking op DNS. De klant zou DNS configuratie ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) moeten controleren [ of hun DNS leverancier voor meer informatie contacteren.
+b. NO - De kwestie heeft waarschijnlijk betrekking op DNS. De klant zou DNS configuratie [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) moeten controleren  of hun DNS leverancier voor meer informatie contacteren.
 
 +++
 

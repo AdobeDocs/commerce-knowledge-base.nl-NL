@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# ACSD-57337: De gebruiker van Admin met toegangsbeperkingen kon alle bedrijven in het *net van 0} Bedrijven bekijken {*
+# ACSD-57337: De gebruiker van Admin met toegangsbeperkingen kon alle bedrijven in het *net van 0&rbrace; Bedrijven bekijken &lbrace;*
 
 Het ACSD-57337 flard lost de kwestie op waar een admin gebruiker met toegangsbeperkingen aan specifieke websites bedrijven van alle websites in het *Bedrijven* net kon bekijken. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 wordt geïnstalleerd. De patch-id is ACSD-57337. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.5.0.
 
@@ -48,7 +48,7 @@ De bedrijven die aan de extra website zijn toegewezen zijn zichtbaar in het *net
 
 <u> Ware resultaten </u>:
 
-Alle bedrijven zijn zichtbaar in het *net van 0} Bedrijven {.*
+Alle bedrijven zijn zichtbaar in het *net van 0&rbrace; Bedrijven &lbrace;.*
 
 ## De patch toepassen
 

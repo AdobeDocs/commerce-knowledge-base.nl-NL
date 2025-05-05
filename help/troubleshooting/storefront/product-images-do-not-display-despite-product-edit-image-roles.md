@@ -28,7 +28,7 @@ Dit artikel biedt een oplossing voor het feit dat productafbeeldingen niet worde
 
 Afbeeldingen van producten worden mogelijk niet weergegeven op de winkelpagina, hoewel de afbeeldingsrollen (Basis, Klein, Miniatuur, Staal) juist zijn ingesteld op de productpagina van het beheerpaneel.
 
-Wanneer u de pagina van het Product met **de Mening van de Opslag** {aan **Al opslagmeningen** controleert, heeft het beeld de rollen die op het **Gedetailleerde** scherm van het Beeld worden geplaatst.
+Wanneer u de pagina van het Product met **de Mening van de Opslag** &lbrace;aan **Al opslagmeningen** controleert, heeft het beeld de rollen die op het **Gedetailleerde** scherm van het Beeld worden geplaatst.
 
 ![ all_store_views.png ](assets/all_store_views.png)
 

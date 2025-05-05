@@ -1,6 +1,6 @@
 ---
 title: De onderzoekmachine van de fout  [!DNL opensearch]  bestaat niet. Bezig met terugvallen naar  [!DNL livesearch] .
-description: Dit artikel verstrekt een oplossing aan de kwestie waar u de fout ziet, ` fout -  [!DNL opensearch]  onderzoeksmotor bestaat niet. Terugvallen naar  [!DNL livesearch].`, in Adobe Commerce op wolkeninfrastructuur.
+description: Dit artikel verstrekt een oplossing aan de kwestie waar u de fout ziet, &grave; fout -  [!DNL opensearch]  onderzoeksmotor bestaat niet. Terugvallen naar  [!DNL livesearch].&grave;, in Adobe Commerce op wolkeninfrastructuur.
 feature: Deploy, Search
 role: Developer
 exl-id: a6cc981d-b8f0-402d-8771-60d2f21f09f8

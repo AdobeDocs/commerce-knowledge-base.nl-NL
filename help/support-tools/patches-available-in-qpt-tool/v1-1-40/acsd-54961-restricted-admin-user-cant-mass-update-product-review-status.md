@@ -38,7 +38,7 @@ Een gebruiker met beperkte beheerdersrechten kan geen massale update uitvoeren [
 1. Maak een aanvullende website-, opslag- en winkelweergave.
 1. Voeg een product toe aan de tweede winkel en voeg vervolgens een revisie toe.
 1. Creeer een beperkte admin gebruiker met toegang tot slechts de tweede opslag.
-1. Login als beperkte admin gebruiker, ga dan naar **[!UICONTROL  Marketings]** > **[!UICONTROL Reviews]** > **[!UICONTROL Mass Update]**, en plaats de **Status** aan *Goedgekeurd* of *Hangende*.
+1. Login als beperkte admin gebruiker, ga dan naar **[!UICONTROL &#x200B; Marketings]** > **[!UICONTROL Reviews]** > **[!UICONTROL Mass Update]**, en plaats de **Status** aan *Goedgekeurd* of *Hangende*.
 
 <u> Verwachte resultaten </u>:
 

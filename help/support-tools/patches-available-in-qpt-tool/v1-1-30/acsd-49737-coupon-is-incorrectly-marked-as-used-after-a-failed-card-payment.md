@@ -36,7 +36,7 @@ De coupon wordt verkeerd gemerkt zoals *gebruikt* na een ontbroken kaartbetaling
 <u> Eerste vereisten </u>:
 
 1. Configureer de methode **[!UICONTROL Braintree sandbox payment]** .
-1. Zorg ervoor de {*](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/consumers.html?lang=en) consument 0} sales.rule.update.coupon.usage opstelling en lopend is.[*
+1. Zorg ervoor de {*[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/consumers.html?lang=en) consument 0} sales.rule.update.coupon.usage opstelling en lopend is.*
 
 <u> Stappen om </u> te reproduceren:
 

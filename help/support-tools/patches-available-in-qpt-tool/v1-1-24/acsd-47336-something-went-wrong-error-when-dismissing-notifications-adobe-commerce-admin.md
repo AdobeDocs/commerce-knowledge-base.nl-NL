@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# ACSD-47336: _[!UICONTROL Something went wrong]_fout bij het negeren van berichten in Adobe Commerce Admin
+# ACSD-47336: _[!UICONTROL Something went wrong]_&#x200B;fout bij het negeren van berichten in Adobe Commerce Admin
 
 De ACSD-47336-patch verhelpt het probleem waarbij de gebruiker de _[!UICONTROL Something went wrong]_-fout ziet bij het negeren van meldingen in [!DNL Commerce] Admin. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is geïnstalleerd. De patch-id is ACSD-47336. Het probleem wordt volgens de planning opgelost in Adobe Commerce 2.4.6.
 
@@ -31,7 +31,7 @@ De ACSD-47336-patch verhelpt het probleem waarbij de gebruiker de _[!UICONTROL S
 
 ## Probleem
 
-De gebruiker krijgt _[!UICONTROL Something went wrong]_foutbericht te zien wanneer hij of zij meldingen in [!DNL Commerce] Admin verwijdert.
+De gebruiker krijgt _[!UICONTROL Something went wrong]_&#x200B;foutbericht te zien wanneer hij of zij meldingen in [!DNL Commerce] Admin verwijdert.
 
 <u> Stappen om </u> te reproduceren:
 
@@ -41,11 +41,11 @@ De gebruiker krijgt _[!UICONTROL Something went wrong]_foutbericht te zien wanne
 
 <u> Verwachte resultaten </u>:
 
-De fout _[!UICONTROL Something went wrong]_wordt niet weergegeven wanneer u de voltooide taken wist.
+De fout _[!UICONTROL Something went wrong]_&#x200B;wordt niet weergegeven wanneer u de voltooide taken wist.
 
 <u> Ware resultaten </u>:
 
-De fout _[!UICONTROL Something went wrong]_wordt weergegeven.
+De fout _[!UICONTROL Something went wrong]_&#x200B;wordt weergegeven.
 
 ## De patch toepassen
 

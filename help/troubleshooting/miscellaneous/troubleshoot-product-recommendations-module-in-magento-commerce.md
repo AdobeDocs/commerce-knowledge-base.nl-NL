@@ -49,7 +49,7 @@ correct, (Controle [[!UICONTROL Product Recommendations - Install and Configure]
 
 >[!NOTE]
 >
->Als [**[!UICONTROL Cookie Restriction Mode]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) (in onze gebruikersgids) ** wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de winkelinstemming. Als **[!UICONTROL Cookie Restriction Mode]**** gehandicapt is, verzamelt Adobe Commerce gedragsgegevens door gebrek.
+>Als [**[!UICONTROL Cookie Restriction Mode]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) (in onze gebruikersgids) **&#x200B; wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de winkelinstemming. Als &#x200B;** [!UICONTROL Cookie Restriction Mode]&#x200B;**&#x200B;** gehandicapt is, verzamelt Adobe Commerce gedragsgegevens door gebrek.
 
 ## Catalogus [!DNL SaaS] Exportmodule
 

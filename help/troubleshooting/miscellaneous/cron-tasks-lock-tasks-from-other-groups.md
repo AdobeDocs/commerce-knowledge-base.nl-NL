@@ -36,7 +36,7 @@ Eerder, in onze wolkenomgeving, werd de server Jenkins gebruikt om [!DNL cron] b
 
 ## Oplossing
 
-1. De steun van Adobe Commerce van het contact [ ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om zelf-geleid [!DNL crons] toegelaten te hebben.
+1. De steun van Adobe Commerce van het contact [&#128279;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om zelf-geleid [!DNL crons] toegelaten te hebben.
 1. Bewerk het `.magento.app.yaml` -bestand in de hoofdmap van de code voor Adobe Commerce in de [!DNL Git] -vertakking. Voeg het volgende toe:
 
    ```yaml
@@ -71,5 +71,5 @@ Als u wilt controleren of de zelfbeheerde [!DNL cron] is ingeschakeld, voert u d
 
 ## Gerelateerde lezing
 
-*  [!DNL cron]  de banen van de opstelling ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) in onze ontwikkelaarsdocumentatie[
+* [!DNL cron]  de banen van de opstelling [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) in onze ontwikkelaarsdocumentatie
 * [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

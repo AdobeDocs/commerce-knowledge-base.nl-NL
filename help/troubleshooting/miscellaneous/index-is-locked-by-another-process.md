@@ -82,7 +82,7 @@ In onze gebruikershandleiding:
 In onze documentatie voor ontwikkelaars:
 
 * [ Indexerend Overzicht ](https://developer.adobe.com/commerce/php/development/components/indexing/)
-* ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration) de Beste praktijken van 0} Indexers[
+* [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration) de Beste praktijken van 0&rbrace; Indexers
 * [ vorm en looppas uitsnede ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
 * [ beheer de indexen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)
 * [ Optimalisering van de Indexer ](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)

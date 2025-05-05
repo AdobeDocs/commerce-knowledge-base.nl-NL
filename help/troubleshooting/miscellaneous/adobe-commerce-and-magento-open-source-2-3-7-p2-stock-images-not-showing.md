@@ -1,6 +1,6 @@
 ---
 title: Stock images not displayed, Adobe Commerce and Magento Open Source 2.3.7-p2
-description: Dit artikel biedt een oplossing voor het probleem waarbij Adobe stock images die zijn geüpload naar de bestandssysteemdirectory's ` pub/media` of 'pub/media/catalog' niet worden weergegeven in de gebruikersinterface van de medialerie. De reden hiervoor is dat de afbeeldingen zich buiten de toegestane directory's van de mediagalerie bevinden. Als u deze afbeeldingen wilt weergeven, moet u de afbeeldingen op het bestandssysteem verwijderen en opnieuw uploaden naar een toegestane map in de Medialerie.
+description: Dit artikel biedt een oplossing voor het probleem waarbij Adobe stock images die zijn geüpload naar de bestandssysteemdirectory's &grave; pub/media&grave; of 'pub/media/catalog' niet worden weergegeven in de gebruikersinterface van de medialerie. De reden hiervoor is dat de afbeeldingen zich buiten de toegestane directory's van de mediagalerie bevinden. Als u deze afbeeldingen wilt weergeven, moet u de afbeeldingen op het bestandssysteem verwijderen en opnieuw uploaden naar een toegestane map in de Medialerie.
 exl-id: 84488d87-095f-4739-858f-19a52d6e5822
 feature: Categories, Orders
 role: Developer
@@ -45,7 +45,7 @@ Afbeeldingen kunnen via Adobe Stock worden geüpload naar de Opslagmap voor medi
 
 ## Oplossing
 
-Selecteer om het even welke subdirectory van de Wortel van de Opslag van de Galerij van Media (exclusief **de Wortel van de Opslag van de 0} Opslag >** Catalogus **) alvorens een beeld van Adobe Stock te uploaden.**
+Selecteer om het even welke subdirectory van de Wortel van de Opslag van de Galerij van Media (exclusief **de Wortel van de Opslag van de 0&rbrace; Opslag >** Catalogus **) alvorens een beeld van Adobe Stock te uploaden.**
 Schrap geüploade beelden van Adobe Stock van de `pub/media` en `pub/media/catalog` omslagen op het het dossiersysteem van Adobe Commerce en upload beelden in om het even welke toegestane subdirectories van de Root van de Opslag van de Galerij van Media in plaats daarvan (exclusief **Wortel van de Opslag** > **Catalogus**).
 
 ## Gerelateerde lezing

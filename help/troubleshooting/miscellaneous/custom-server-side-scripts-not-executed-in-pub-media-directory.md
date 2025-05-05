@@ -1,6 +1,6 @@
 ---
 title: Aangepaste serverscripts worden niet uitgevoerd in de mediamap van de publicatie
-description: Dit artikel biedt een oplossing voor het geval aangepaste serverscripts niet worden uitgevoerd als ze in de ` worden geplaatst./pub/media/` directory van uw Adobe Commerce-toepassing op cloudinfrastructuur. Dit is een verwachte veiligheidsbeperking, sinds `.De map /pub/media/` kan worden geschreven. Als u scripts uitvoerbaar wilt maken, plaatst u ze in niet-schrijfbare mappen, zoals './app/code/` of `./pub/".
+description: Dit artikel biedt een oplossing voor het geval aangepaste serverscripts niet worden uitgevoerd als ze in de &grave; worden geplaatst./pub/media/&grave; directory van uw Adobe Commerce-toepassing op cloudinfrastructuur. Dit is een verwachte veiligheidsbeperking, sinds &grave;.De map /pub/media/&grave; kan worden geschreven. Als u scripts uitvoerbaar wilt maken, plaatst u ze in niet-schrijfbare mappen, zoals './app/code/&grave; of &grave;./pub/".
 exl-id: fcad8a5d-47d6-4729-93a4-2410d7710d69
 feature: Media
 role: Developer

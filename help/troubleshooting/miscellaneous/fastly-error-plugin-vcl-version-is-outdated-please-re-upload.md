@@ -18,7 +18,7 @@ Dit artikel verstrekt een oplossing voor wanneer u het bericht &quot;*de versie 
 ## Betrokken producten en versies
 
 Adobe Commerce op cloudinfrastructuur 2.2.x., 2.3.x <br>
-Kortom: deze fout kan van invloed zijn op alle versies van de module Snelheid, behalve op de meest recente. Voor informatie over de recentste versie, zie {de nota&#39;s van de versie van 0} de snelste versie ](https://github.com/fastly/fastly-magento2/releases) op GitHub.[
+Kortom: deze fout kan van invloed zijn op alle versies van de module Snelheid, behalve op de meest recente. Voor informatie over de recentste versie, zie {de nota&#39;s van de versie van 0} de snelste versie [&#128279;](https://github.com/fastly/fastly-magento2/releases) op GitHub.
 
 ## Probleem
 

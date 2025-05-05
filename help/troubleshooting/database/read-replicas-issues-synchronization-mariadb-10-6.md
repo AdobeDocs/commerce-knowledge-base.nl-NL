@@ -30,7 +30,7 @@ Niet-kritische leesbewerkingen geven onjuiste informatie weer.
 
 ## Oplossing
 
-1. Controle dat de `slave_parallel_mode` parameter aan *conservatief* wordt geplaatst (u zult een steunkaartje ](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) moeten opheffen als de waarde niet als *conservatief* toont). [ Voer de volgende opdracht uit om te controleren:
+1. Controle dat de `slave_parallel_mode` parameter aan *conservatief* wordt geplaatst (u zult een steunkaartje [&#128279;](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) moeten opheffen als de waarde niet als *conservatief* toont).  Voer de volgende opdracht uit om te controleren:
 
    ```
     MariaDB [main]> show variables like 'slave_parallel_mode';

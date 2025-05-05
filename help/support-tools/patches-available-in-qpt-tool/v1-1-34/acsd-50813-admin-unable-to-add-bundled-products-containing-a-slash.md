@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-50813: Admin kan geen gebundelde producten met een schuine streep toevoegen'
-description: Pas de ACSD-50813-patch toe om het Adobe Commerce-prestatieprobleem op te lossen waarbij de beheerder geen gebundelde producten met een schuine streep (`/`) in de SKU kan toevoegen met de functie *Producten door SKU* toevoegen aan de beheervolgorde.
+description: Pas de ACSD-50813-patch toe om het Adobe Commerce-prestatieprobleem op te lossen waarbij de beheerder geen gebundelde producten met een schuine streep (&grave;/&grave;) in de SKU kan toevoegen met de functie *Producten door SKU* toevoegen aan de beheervolgorde.
 exl-id: 80dfe877-9dfd-44a9-9bf0-37e929642fc0
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt

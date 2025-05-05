@@ -1,6 +1,6 @@
 ---
 title: Bekende kwesties die xdebug installatie beïnvloeden
-description: Dit artikel biedt een oplossing voor het gebruik van de optionele PHP extensie ` xdebug` als je een uitzonderingsfout ervaart.
+description: Dit artikel biedt een oplossing voor het gebruik van de optionele PHP extensie &grave; xdebug&grave; als je een uitzonderingsfout ervaart.
 exl-id: 5090ea99-e0c3-436a-809b-109701740927
 feature: Install
 role: Developer

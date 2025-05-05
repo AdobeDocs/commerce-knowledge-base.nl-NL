@@ -35,7 +35,7 @@ Voer de volgende stappen uit om deze velden te wijzigen:
 ## Wat kan niet worden gewijzigd?
 
 1. **[!UICONTROL Password]** :
-Om uw wachtwoord te veranderen, bezoek {het terugstellen van het wachtwoord van de Adobe 1} ](https://account.adobe.com/), aangezien dit profiel met uw rekening/e-mailadres daar wordt verbonden.[
+Om uw wachtwoord te veranderen, bezoek {het terugstellen van het wachtwoord van de Adobe 1} [&#128279;](https://account.adobe.com/), aangezien dit profiel met uw rekening/e-mailadres daar wordt verbonden.
 
 1. **[!UICONTROL Email Address]** :
 Het wijzigen van dit veld is afhankelijk van uw individuele omstandigheden.

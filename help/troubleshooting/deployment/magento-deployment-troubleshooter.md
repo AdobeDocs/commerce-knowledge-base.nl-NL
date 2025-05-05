@@ -178,7 +178,7 @@ b. NO - ga aan [ Stap 21 ](#step-21) te werk.
 +++**Conposer config correct?**
 
 a. JA - ga aan [ Stap 10 ](#step-10) te werk.\
-b. NO - de Webpagina van de Troubleshooter van de Samensteller van het Overzicht [ ](https://getcomposer.org/doc/articles/troubleshooting.md).
+b. NO - de Webpagina van de Troubleshooter van de Samensteller van het Overzicht [&#128279;](https://getcomposer.org/doc/articles/troubleshooting.md).
 
 +++
 

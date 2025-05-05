@@ -47,7 +47,7 @@ Voordat het upgradeproces naar Adobe Commerce 2.4.4 wordt gestart, moeten handel
 
 Als de kernversie van Adobe Commerce deze versie ondersteunt, kan Elasticsearch 7.10 worden gebruikt.
 
-De Vereisten van het Systeem van het overzicht [ ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) in onze ontwikkelaarsdocumentatie voor versiecompatibiliteit.
+De Vereisten van het Systeem van het overzicht [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) in onze ontwikkelaarsdocumentatie voor versiecompatibiliteit.
 
 >[!NOTE]
 >

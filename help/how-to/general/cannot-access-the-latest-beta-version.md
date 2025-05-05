@@ -54,7 +54,7 @@ Ga als volgt te werk om te weten te komen of uw MageID primair is:
 Als u de primaire eigenaar van MageID bent en toegang moet geven tot een ontwikkelaar in uw team, voert u de volgende stappen uit:
 
 1. Heb de primaire eigenaar MageID login in [ account.magento.com ](https://account.magento.com/customer/account/login).
-1. Selecteer het **lusje van de Marketplace van 0} {en klik dan** Sleutels van de Toegang **.**
+1. Selecteer het **lusje van de Marketplace van 0&rbrace; &lbrace;en klik dan** Sleutels van de Toegang **.**
 1. Selecteer **creeer een Nieuwe sleutel van de Toegang** en noem het.
 1. Verzend de sleutels naar uw ontwikkelaar.
 

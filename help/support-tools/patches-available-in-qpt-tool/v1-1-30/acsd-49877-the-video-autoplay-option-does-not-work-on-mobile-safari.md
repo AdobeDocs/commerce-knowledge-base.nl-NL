@@ -27,7 +27,7 @@ ACSD-49877 verhelpt het probleem dat de optie Automatisch afspelen op mobiele ap
 
 >[!NOTE]
 >
->De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het pakket [!magento/quality-patches ] bij naar de nieuwste versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool]: zoek naar patches]. Gebruik de patch-id als een zoekwoord om de patch te zoeken.
+>De patch kan van toepassing worden op andere versies met nieuwe [!DNL Quality Patches Tool] versies. Om te controleren of de patch compatibel is met uw Adobe Commerce-versie, werkt u het pakket [ !magento/quality-patches ] bij naar de nieuwste versie en controleert u de compatibiliteit op de [[!DNL Quality Patches Tool]: zoek naar patches]. Gebruik de patch-id als een zoekwoord om de patch te zoeken.
 
 ## Probleem
 

@@ -1,6 +1,6 @@
 ---
 title: 'PWA Studio: browser kan de .local.pwadev-site niet oplossen'
-description: Dit artikel biedt een oplossing voor het tijdstip waarop een ander programma of proces uw [hostbestand] (https://en.wikipedia.org/wiki/Hosts_(file\) heeft bewerkt en de vermelding voor uw projectdomein heeft verwijderd.
+description: Dit artikel biedt een oplossing voor het tijdstip waarop een ander programma of proces uw [hostbestand] (https://en.wikipedia.org/wiki/Hosts_(file) heeft bewerkt en de vermelding voor uw projectdomein heeft verwijderd.
 exl-id: a1606016-906a-433f-9e40-9faa5f9bd790
 feature: Configuration
 role: Developer

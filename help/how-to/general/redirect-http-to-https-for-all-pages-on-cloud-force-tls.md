@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # HTTP omleiden naar HTTPS voor alle pagina&#39;s op Adobe Commerce op cloudinfrastructuur (TLS afdwingen)
 
-Activeer de {**functionaliteit 0} van TLS van de Fastly {in Commerce Admin om globale HTTP aan HTTPS toe te laten voor alle pagina&#39;s van uw Adobe Commerce op de opslag van de wolkeninfrastructuur opnieuw richten.**
+Activeer de {**functionaliteit 0} van TLS van de Fastly &lbrace;in Commerce Admin om globale HTTP aan HTTPS toe te laten voor alle pagina&#39;s van uw Adobe Commerce op de opslag van de wolkeninfrastructuur opnieuw richten.**
 
 Dit artikel verstrekt gedetailleerde [ stappen ](#steps), een snel overzicht van de eigenschap van de Kracht TLS, beïnvloede versies, en verbindingen aan verwante documentatie.
 
@@ -47,7 +47,7 @@ TLS (Transport Layer Security) is een protocol voor veilige HTTP-verbindingen da
 
 Met de TLS-functionaliteit van Fastly forceert u alle binnenkomende ongecodeerde aanvragen voor uw sitepagina&#39;s naar TLS.
 
->>
+&#x200B;>>
 Het werkt door a *301 terug te keren die permanent* wordt bewogen reactie op om het even welk niet gecodeerd verzoek, dat aan het equivalent TLS opnieuw richt. Bijvoorbeeld, die een verzoek om *http://www.example.com/foo.jpeg* maken zou aan *https://www.example.com/foo.jpeg* opnieuw richten.
 
 [ het Beveiligen van mededelingen ](https://docs.fastly.com/guides/securing-communications/) (Snelle documentatie)

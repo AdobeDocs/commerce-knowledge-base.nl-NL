@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-54890: ` aggregate_sales_report_bestsellers_data ` veroorzaakt  [!DNL MySQL]  fouten'
-description: Pas ACSD-54890 flard toe om de kwestie van Adobe Commerce te bevestigen waar ` aggregate_sales_report_bestsellers_data `  [!DNL MySQL]  fouten toe te schrijven aan `/tmpdisk ` die uit ruimte zijn veroorzaakt.
+title: 'ACSD-54890: &grave; aggregate_sales_report_bestsellers_data &grave; veroorzaakt  [!DNL MySQL]  fouten'
+description: Pas ACSD-54890 flard toe om de kwestie van Adobe Commerce te bevestigen waar &grave; aggregate_sales_report_bestsellers_data &grave;  [!DNL MySQL]  fouten toe te schrijven aan &grave;/tmpdisk &grave; die uit ruimte zijn veroorzaakt.
 feature: Attributes
 role: Admin, Developer
 exl-id: 21a675dc-0750-4dc6-8cce-33e301f601bd

@@ -1,6 +1,6 @@
 ---
 title: Admin-URL wijzigen in Adobe Commerce op cloudinfrastructuur
-description: Standaard is de URL [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin) ingesteld op *&lt;domain\_name&gt;/admin*. In dit artikel wordt weergegeven hoe u de URL kunt wijzigen.
+description: Standaard is de URL [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin) ingesteld op *&lt;domain_name&gt;/admin*. In dit artikel wordt weergegeven hoe u de URL kunt wijzigen.
 exl-id: 6236370c-e0a2-45a6-a38f-12e219c540af
 feature: Admin Workspace, Cloud
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
@@ -43,4 +43,4 @@ U kunt de ADMIN\_URL-variabele toevoegen met de volgende Cloud CLI-opdracht (voo
 
 Voor meer gedetailleerde instructies, verwijs naar [ Verandering Admin URL ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#change-the-admin-url) in het Admin veranderingenonderwerp in Commerce op de Gids van de Infrastructuur van de Wolk.
 
-Houd er rekening mee dat het gebruik van de Cloud CLI om de ADMIN\_URL-variabele te wijzigen, leidt tot een herimplementatie van de omgeving. Variabelen kunnen standaard worden overgeërfd. Om overerving te voorkomen, gebruikt u de opdrachtopties van Cloud CLI om aan te geven dat u niet wilt dat de waarde van de variabele door onderliggende omgevingen wordt overgenomen. Verwijs naar het [ 1} onderwerp van de Zichtbaarheid {in Variabele niveaus in Commerce op de Gids van de Infrastructuur van de Wolk.](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/variable-levels.html#visibility)
+Houd er rekening mee dat het gebruik van de Cloud CLI om de ADMIN\_URL-variabele te wijzigen, leidt tot een herimplementatie van de omgeving. Variabelen kunnen standaard worden overgeërfd. Om overerving te voorkomen, gebruikt u de opdrachtopties van Cloud CLI om aan te geven dat u niet wilt dat de waarde van de variabele door onderliggende omgevingen wordt overgenomen. Verwijs naar het [ 1&rbrace; onderwerp van de Zichtbaarheid &lbrace;in Variabele niveaus in Commerce op de Gids van de Infrastructuur van de Wolk.](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/variable-levels.html#visibility)

@@ -129,7 +129,7 @@ De nieuwe optie voor het uitcheckformulier is:
 
 ## PayPal-ondersteuning en contactpersonen
 
-Neem contact op met PayPal Payflow Merchant Support voor meer informatie over de services voor fraudebescherming. U kunt het team van de Steun van PayPal verzoeken om ](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) filters van de Bescherming van de Fraude toe te laten Basis om de strengste controle mogelijk over betalingen te verstrekken zodat u automatisch betalingen kunt ontkennen die waarschijnlijk in frauduleuze transacties zullen resulteren en betalingen goedkeuren die geen typisch probleem zijn. [ Houd er rekening mee dat transacties na het inschakelen van de filters van PayPal Fraud Protection Services maximaal twee uur kunnen duren.
+Neem contact op met PayPal Payflow Merchant Support voor meer informatie over de services voor fraudebescherming. U kunt het team van de Steun van PayPal verzoeken om [&#128279;](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) filters van de Bescherming van de Fraude toe te laten Basis om de strengste controle mogelijk over betalingen te verstrekken zodat u automatisch betalingen kunt ontkennen die waarschijnlijk in frauduleuze transacties zullen resulteren en betalingen goedkeuren die geen typisch probleem zijn.  Houd er rekening mee dat transacties na het inschakelen van de filters van PayPal Fraud Protection Services maximaal twee uur kunnen duren.
 
 >[!NOTE]
 >

@@ -39,7 +39,7 @@ Installeer [!DNL B2B] modules.
 
 <u> Stappen om </u> te reproduceren:
 
-1. Laat bedrijf toe en verlaat [!UICONTROL **Order Approval Configuration]** > ** [!UICONTROL Purchase Order**] = *Nr*.
+1. Laat bedrijf toe en verlaat [!UICONTROL **Order Approval Configuration]** > **&#x200B; [!UICONTROL Purchase Order**] = *Nr*.
 1. Maak een eenvoudig product met een prijs van 100.
 1. Maak een nieuw bedrijf via de beheerder.
 1. Plaats [!UICONTROL **laat de Orden van de Aankoop toe**] aan *ja*.

@@ -37,27 +37,27 @@ In dit voorbeeld gaan we een nieuwe module maken met de naam \&quot;Extracountri
 
 (Om meer over de modulestructuur te weten te komen, zie [ Overzicht van de Module ](https://developer.adobe.com/commerce/php/architecture/modules/overview/) in onze ontwikkelaarsdocumentatie).
 
-<pre><ExtraCountries>
+<pre>&lt;ExtraCountries>
  |
- <etc>
+ &lt;etc>
  | |
  | config.xml
  | di.xml
  | module.xml
  |
- <Plugin>
+ &lt;Plugin>
  | |
- | <Framework>
+ | &lt;Framework>
  |   |
- |   <Locale>
+ |   &lt;Locale>
  |     |
  |     TranslatedListsPlugin.php
  |
- <Setup>
+ &lt;Setup>
  | |
- | <Patch>
+ | &lt;Patch>
  |   |
- |   <Data>
+ |   &lt;Data>
  |     |
  |     AddDataForAbstractCountry.php
  |
@@ -99,7 +99,7 @@ Er wordt een nieuwe moduleconfiguratie gedefinieerd in dit XML-bestand. De volge
 
 Voor meer informatie over de dossiers van de moduleconfiguratie, zie [ Gids van de Ontwikkelaar PHP > de dossiers van Configuraties ](https://developer.adobe.com/commerce/php/development/build/required-configuration-files/) in onze ontwikkelaarsdocumentatie bepalen.
 
-Deze wijzigingen zijn optioneel en hebben alleen invloed op het standaardlidmaatschap van het nieuwe land op de lijsten &quot;Allow countries&quot;, &quot;Zip/Postal Code is Optional for&quot; en &quot;European Union countries&quot;. Als dit dossier van de modulestructuur wordt overgeslagen, zal een nieuw land nog worden toegevoegd, maar het zal manueel moeten worden gevormd bij **Admin** > **Opslag** > *Montages* > **Configuratie** > **Algemene** > **de montagespagina van de Opties van het Land 11}.**
+Deze wijzigingen zijn optioneel en hebben alleen invloed op het standaardlidmaatschap van het nieuwe land op de lijsten &quot;Allow countries&quot;, &quot;Zip/Postal Code is Optional for&quot; en &quot;European Union countries&quot;. Als dit dossier van de modulestructuur wordt overgeslagen, zal een nieuw land nog worden toegevoegd, maar het zal manueel moeten worden gevormd bij **Admin** > **Opslag** > *Montages* > **Configuratie** > **Algemene** > **de montagespagina van de Opties van het Land 11&rbrace;.**
 
 ### ExtraCountries/etc/di.xml
 
@@ -310,7 +310,7 @@ Om meer over composer.json te weten te komen, zie [ Gids van de Ontwikkelaar PHP
 
 ## Module-installatie
 
-Om te weten te komen hoe te om de module te installeren, zie {de plaatsen van de 0} Module ](https://developer.adobe.com/commerce/php/architecture/modules/overview/#module-locations) in onze ontwikkelaarsdocumentatie.[
+Om te weten te komen hoe te om de module te installeren, zie {de plaatsen van de 0} Module [&#128279;](https://developer.adobe.com/commerce/php/architecture/modules/overview/#module-locations) in onze ontwikkelaarsdocumentatie.
 
 Nadat de moduledirectory op de juiste locatie is geplaatst, voert u `bin/magento setup:upgrade` uit om de gegevenspatches toe te passen en de vertaalinsteekmodule te registreren.
 

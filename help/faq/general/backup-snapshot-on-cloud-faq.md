@@ -65,7 +65,7 @@ Om een bestaande momentopname (op het gesteunde milieu te herstellen: Integratie
 
 Back-up van database maakt deel uit van een Cloud-momentopname:
 
->>
+&#x200B;>>
 Een momentopname is een volledige steun van een milieu dat alle blijvende gegevens van alle lopende diensten (bijvoorbeeld, **uw gegevensbestand MySQL**, Redis, etc.) en om het even welke dossiers omvat die op de opgezette volumes worden opgeslagen.
 
 >[!NOTE]

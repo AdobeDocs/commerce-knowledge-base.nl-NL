@@ -35,7 +35,7 @@ Voor meer informatie over de dienst van New Relic APM en zijn opstelling met uw 
    ![ KB-372_image002.png ](assets/KB-372_image002.png)
 
    U ziet hoe de rode onderbroken lijn in de afbeelding een waarneembare opwaartse trend in de tijd van de MySQL-webtransacties laat zien en vervolgens op nog hogere niveaus piekt.
-1. Van hier kunt u dan naar het uw **1} scherm van het Gegevensbestand {gaan waar u de tweede aanwijzing van hoge productie of langzame `SELECT` vragen in MySQL kunt zien, en in het hieronder steekproefbeeld kunt u zien wanneer het sorteren door** Meest tijdrovend **, uw opslag, in dit voorbeeld, is langzaam op `SELECT` vragen MySQL.**
+1. Van hier kunt u dan naar het uw **1&rbrace; scherm van het Gegevensbestand &lbrace;gaan waar u de tweede aanwijzing van hoge productie of langzame `SELECT` vragen in MySQL kunt zien, en in het hieronder steekproefbeeld kunt u zien wanneer het sorteren door** Meest tijdrovend **, uw opslag, in dit voorbeeld, is langzaam op `SELECT` vragen MySQL.**
 
    ![ KB-372_image003_BlurredExtension.png ](assets/KB-372_image003_BlurredExtension.png)
 
@@ -76,7 +76,7 @@ Hieronder volgen de veelgestelde vragen die u kunt stellen wanneer u overweegt d
   **op niet-overbelaste clusters** - **de Verbindingen van de Slave zullen prestaties door 10-15%** vertragen, die één van de redenen is het niet gebrek.
 
   *maar op overbelaste clusters, is er een prestatiesverhoging omdat deze 10-15% door lading door verkeer te verminderen worden verlicht.*
-* Moet ik deze instellingen voor mijn winkel inschakelen? *als u hoge lading hebt of hoge lading op het Gegevensbestand MySQL of Redis verwacht, moet u zeker de Verbindingen van de Slave toelaten. Voor een regelmatige klant met gemiddeld verkeer, is dit **niet**het optimale plaatsen om worden toegelaten.*
+* Moet ik deze instellingen voor mijn winkel inschakelen? *als u hoge lading hebt of hoge lading op het Gegevensbestand MySQL of Redis verwacht, moet u zeker de Verbindingen van de Slave toelaten. Voor een regelmatige klant met gemiddeld verkeer, is dit **niet**&#x200B;het optimale plaatsen om worden toegelaten.*
 
 ## Gerelateerde lezing
 

@@ -37,7 +37,8 @@ De knop **[!UICONTROL Continue to Checkout]** wordt grijs weergegeven, zelfs als
 
 1. Ga naar Adobe Commerce Admin > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Minimum Order Amount]** en stel het volgende in:
    * [!UICONTROL Enable]: *[!UICONTROL Yes]*
-   * 
+   * &#x200B;
+
      [!UICONTROL Minimum Amount]: *2*
 
 1. Maak een [!UICONTROL Cart Price Rule] .
@@ -45,7 +46,8 @@ De knop **[!UICONTROL Continue to Checkout]** wordt grijs weergegeven, zelfs als
    * [!UICONTROL Conditions]: *[!UICONTROL Keep empty]*
    * [!UICONTROL Actions]:
       * [!UICONTROL Apply]: *[!UICONTROL Percent of product price discount]*
-      * 
+      * &#x200B;
+
         [!UICONTROL Discount Amount]: *92*
       * [!UICONTROL Apply to Shipping Amount]: *[!UICONTROL Yes]*
 1. Maak een product met een prijs van $25.

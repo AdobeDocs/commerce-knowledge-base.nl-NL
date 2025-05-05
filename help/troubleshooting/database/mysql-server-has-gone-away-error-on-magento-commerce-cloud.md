@@ -1,6 +1,6 @@
 ---
 title: MySQL Server is weggegaan ​ fout op Adobe Commerce in cloud
-description: In dit artikel wordt gesproken over de oplossing voor het probleem waarbij een foutbericht " *SQL server has away*" in het bestand ` cron.log` wordt weergegeven. Er kan een reeks symptomen optreden, waaronder problemen met het importeren van afbeeldingsbestanden of een mislukte implementatie.
+description: In dit artikel wordt gesproken over de oplossing voor het probleem waarbij een foutbericht " *SQL server has away*" in het bestand &grave; cron.log&grave; wordt weergegeven. Er kan een reeks symptomen optreden, waaronder problemen met het importeren van afbeeldingsbestanden of een mislukte implementatie.
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 feature: Cloud, Paas, Services, Variables
 role: Developer

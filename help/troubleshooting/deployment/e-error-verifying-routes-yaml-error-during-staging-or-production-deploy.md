@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # E: Fout bij het controleren van routes.yaml-fout tijdens het implementeren van testversies of productieprocessen
 
-Dit artikel verstrekt een oplossing voor de Adobe Commerce op de kwestie van de wolkeninfrastructuur, waar u *&quot;E: Fout terwijl het verifiëren van* foutenmelding {bij het proberen om het project aan het het Opvoeren of milieu van de Productie op te stellen krijgt.
+Dit artikel verstrekt een oplossing voor de Adobe Commerce op de kwestie van de wolkeninfrastructuur, waar u *&quot;E: Fout terwijl het verifiëren van* foutenmelding &lbrace;bij het proberen om het project aan het het Opvoeren of milieu van de Productie op te stellen krijgt.
 
 ## Betrokken versies
 
@@ -36,9 +36,9 @@ De plaatsing wordt geblokkeerd en het volgende foutenbericht wordt getoond in he
 <pre>Het opstellen van toepassingen die configuratie E verifiëren: Fout terwijl het verifiëren van routes.yaml.
 De volgende domeinen worden gevormd voor uw cluster, maar hebben geen routes die in uw routes.yaml- dossier worden bepaald:
 
-- store1.example.com
-- store2.example.com
-- test-store.example.com
+&#x200B;- store1.example.com
+&#x200B;- store2.example.com
+&#x200B;- test-store.example.com
 
 Met uw huidige configuratie routes.yaml,
   Deze domeinen zouden NIET worden gediend!

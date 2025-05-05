@@ -39,7 +39,7 @@ Couponrapporten geven alleen de standaardbasisvaluta weer.
 1. Stel een andere valuta in voor deze nieuwe website. Bijvoorbeeld Euro.
 1. Ga naar **Opslag** > **Wisselkoersen** en vorm munttarieven aan **Euro**.
 1. Creeer de Regel van de Prijs van de a **Kar** met een specifieke coupon - **Test**.
-1. Ga naar frontend en plaats een orde met de **1} coupon van de Test {op de nieuwe website.**
+1. Ga naar frontend en plaats een orde met de **1&rbrace; coupon van de Test &lbrace;op de nieuwe website.**
 1. Ga naar **Rapporten** > **Verkoop** > **Coupons**.
 1. Selecteer de nieuwe website in de vervolgkeuzelijst Bereik.
 1. Vernieuw statistieken en voer rapporten uit.

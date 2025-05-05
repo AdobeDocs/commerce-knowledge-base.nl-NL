@@ -38,7 +38,7 @@ De voorwaarde van de catalogusregel *[!UICONTROL SKU is]* is op alle producten v
 1. Maak twee producten, een met SKU &quot;24&quot; en een ander met SKU &quot;24-MB01&quot;.
 1. Navigeer naar **[!UICONTROL Marketing]** > **[!UICONTROL Catalog Price Rule]** > **[!UICONTROL Add New Rule]** .
 1. Pas de volgende voorwaarde toe:
-   * *[!UICONTROL If ** ALLE **van deze voorwaarden is WAAR** **]*: *[!UICONTROL SKU is 24]*
+   * *[!UICONTROL If **&#x200B; ALLE &#x200B;** van deze voorwaarden is WAAR **&#x200B; **]*: *[!UICONTROL SKU is 24]*
 1. Stel een kortingsbedrag in in handelingen.
 1. Klik op **[!UICONTROL Save and Apply]**.
 1. Cachegeheugen leegmaken.

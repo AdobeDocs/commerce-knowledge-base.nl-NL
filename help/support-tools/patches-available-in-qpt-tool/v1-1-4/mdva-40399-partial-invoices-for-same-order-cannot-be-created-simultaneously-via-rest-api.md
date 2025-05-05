@@ -53,7 +53,7 @@ Een configureerbaar product met ten minste twee variaties.
 
 * Beide facturen zijn gemaakt.
 * `qty_invoiced` wordt niet bijgewerkt op basis van een van de facturen in de `sales_order_item` -tabel.
-* In de pagina van de Mening van de Orde van Admin ****, wordt de factuurhoeveelheid getoond slechts voor één product.
+* In de pagina van de Mening van de Orde van Admin **&#x200B;**, wordt de factuurhoeveelheid getoond slechts voor één product.
 
 ## De patch toepassen
 

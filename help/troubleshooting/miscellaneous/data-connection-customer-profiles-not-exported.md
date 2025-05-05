@@ -121,7 +121,7 @@ select * from event_data_saas;
 ### Controleer of de service-id in de lijst van gewenste personen staat en bevestig deze met Adobe Commerce-ondersteuning
 
 1. Controleer of [!UICONTROL Commerce Services Connector] `serviceId` wordt weergegeven in de lijst van gewenste personen in Adobe Commerce.
-1. De steun van Adobe Commerce van het contact [ ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) om de status van de lijst van gewenste personen te bevestigen.
+1. De steun van Adobe Commerce van het contact [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) om de status van de lijst van gewenste personen te bevestigen.
 
 ## Gerelateerde lezing
 

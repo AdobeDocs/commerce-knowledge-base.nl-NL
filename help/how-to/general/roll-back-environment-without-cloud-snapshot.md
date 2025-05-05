@@ -131,7 +131,7 @@ In dit scenario moet u eerst de werkstatus van uw Adobe Commerce-toepassing hers
 
 [3. Verwijder de Adobe Commerce-software.](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 
-4&amp;punt; Opnieuw distribueren forceren.
+4&punt; Opnieuw distribueren forceren.
 
 Na het uitvoeren van deze stappen, zult u de zelfde resultaten hebben zoals in Scenario 1.
 

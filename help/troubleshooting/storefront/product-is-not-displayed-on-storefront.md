@@ -49,7 +49,7 @@ Elk van de volgende punten zou de kwestie kunnen oplossen.
 
 * Controleer de productinstellingen in Admin. Ga naar **Catalogus** > **Producten**, open de productpagina en zorg ervoor de volgende gebieden correct worden gevormd:
    * **laat Product** toe = *ja.*
-   * **Status van de Beeld**: *in Voorraad*. Of als *uit Voorraad* de correcte waarde is, zorg ervoor dat **Vertoning uit de Producten van de Voorraad** (**STORES** > **Montages** > **Configuratie** > **CATALOGUS** > **Voorraad** > **Opties van de Voorraad** 6} Vertoning uit de Producten van de Voorraad **) wordt geplaatst aan *ja* (gevormd op globaal niveau).**
+   * **Status van de Beeld**: *in Voorraad*. Of als *uit Voorraad* de correcte waarde is, zorg ervoor dat **Vertoning uit de Producten van de Voorraad** (**STORES** > **Montages** > **Configuratie** > **CATALOGUS** > **Voorraad** > **Opties van de Voorraad** 6&rbrace; Vertoning uit de Producten van de Voorraad **) wordt geplaatst aan *ja* (gevormd op globaal niveau).**
    * **Categorieën**: Als u probeert om het product op een categoriepagina te vinden, verifieer dat het product aan de categorie wordt toegewezen. Om het oplossen van problemen te vereenvoudigen, creeer een nieuwe categorie van de huidige pagina en wijs een product aan het toe.
    * **Zichtbaarheid** = *Catalogus, Onderzoek.*
    * In het **Product in Websites** sectie, zorg ervoor het product aan de correcte website wordt toegewezen.

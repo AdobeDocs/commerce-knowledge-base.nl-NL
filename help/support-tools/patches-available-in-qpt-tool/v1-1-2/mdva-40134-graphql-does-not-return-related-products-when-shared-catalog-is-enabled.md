@@ -46,16 +46,16 @@ Het exemplaar moet schoon zijn met alleen de monstergegevens.
 1. Onder **Verwante Producten**, voeg de twee Dubbele zakken (identiteitskaart 7 en 13) toe.
 1. Verzend a **Post** verzoek:
 
-<pre>{
-  products(filter: {sku: {eq: "24-MB01"}, sort: {name: ASC}) {
-    items {
-      related_products {
+<pre>&lbrace;
+  products(filter: &lbrace;sku: {eq: "24-MB01"}, sort: {name: ASC}) &lbrace;
+    items &lbrace;
+      related_products &lbrace;
         uid
         name
-      }
-    }
-  }
-}</pre>
+      &rbrace;
+    &rbrace;
+  &rbrace;
+&rbrace;</pre>
 
 <u> Verwachte resultaten </u>:
 
@@ -65,7 +65,7 @@ Verwante producten worden weergegeven in de reactie van GraphQL.
 
 Gebruikers krijgen de volgende fout:
 
-<pre>Retourwaarde van Magento\CatalogPermissionsGraphQl\Model\Store\StoreProcessor::getStoreId() moet van het type int zijn, null geretourneerd {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Retourwaarde van Magento\\CatalogPermissionsGraphQl\\Model\\Store\\StoreProcessor::getStoreId() moet van het type int zijn, null geretourneerd </pre>
+<pre>Retourwaarde van Magento\CatalogPermissionsGraphQl\Model\Store\StoreProcessor::getStoreId() moet van het type int zijn, null geretourneerd &lbrace;"exception":"[object] (GraphQL\\Error\\Error(code: 0): Retourwaarde van Magento\\CatalogPermissionsGraphQl\\Model\\Store\\StoreProcessor::getStoreId() moet van het type int zijn, null geretourneerd </pre>
 
 ## De patch toepassen
 

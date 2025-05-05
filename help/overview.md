@@ -75,7 +75,7 @@ De informatie in deze Kennisbank wordt ontworpen als aanvulling op [ de Document
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-54/acsd-61199-cms-page-hierarchy-tab-doesnt-display-proper-tree-structure"> ACSD-61199: Het 1} lusje van de pagina van CMS toont geen juiste boomstructuur:</a> het markering ACSD-61199 bevestigt de kwestie waar het 3} lusje van de pagina van CMS geen juiste boomstructuur toont wanneer het uitgeven van een pagina van CMS met een bestaande Hiërarchie. [!UICONTROL Hierarchy][!UICONTROL Hierarchy] Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.54 is geïnstalleerd.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-54/acsd-61199-cms-page-hierarchy-tab-doesnt-display-proper-tree-structure"> ACSD-61199: Het 1&rbrace; lusje van de pagina van CMS toont geen juiste boomstructuur:</a> het markering ACSD-61199 bevestigt de kwestie waar het 3&rbrace; lusje van de pagina van CMS geen juiste boomstructuur toont wanneer het uitgeven van een pagina van CMS met een bestaande Hiërarchie. [!UICONTROL Hierarchy][!UICONTROL Hierarchy] Deze patch is beschikbaar wanneer [!DNL Quality Patches Tool (QPT)] 1.1.54 is geïnstalleerd.
     </td>
     <td>Nieuw artikel </td>
     <td>5 december 2024</td>

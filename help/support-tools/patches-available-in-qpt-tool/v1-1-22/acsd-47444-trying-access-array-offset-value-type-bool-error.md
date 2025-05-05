@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# ACSD-47444: _[!UICONTROL Trying to access array offset on value of type bool]_fout bij het openen van bepaalde niet-bestaande categoriepaden voor bekende producten op PHP 7.4
+# ACSD-47444: _[!UICONTROL Trying to access array offset on value of type bool]_&#x200B;fout bij het openen van bepaalde niet-bestaande categoriepaden voor bekende producten op PHP 7.4
 
-De ACSD-47444-patch lost het probleem op waarbij _[!UICONTROL Trying to access array offset on value of type bool]_error optreedt wanneer je bepaalde niet-bestaande categoriepaden opent voor bekende producten op PHP 7.4. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22 wordt geïnstalleerd.
+De ACSD-47444-patch lost het probleem op waarbij _[!UICONTROL Trying to access array offset on value of type bool]_&#x200B;error optreedt wanneer je bepaalde niet-bestaande categoriepaden opent voor bekende producten op PHP 7.4. Deze patch is beschikbaar wanneer [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22 wordt geïnstalleerd.
 
 ## Betrokken producten en versies
 
@@ -29,7 +29,7 @@ De ACSD-47444-patch lost het probleem op waarbij _[!UICONTROL Trying to access a
 
 ## Probleem
 
-De volgende fout treedt op: _[!UICONTROL Trying to access array offset on value of type bool]_wanneer u bepaalde niet-bestaande categoriepaden opent voor bekende producten, gaat u naar PHP 7.4.
+De volgende fout treedt op: _[!UICONTROL Trying to access array offset on value of type bool]_&#x200B;wanneer u bepaalde niet-bestaande categoriepaden opent voor bekende producten, gaat u naar PHP 7.4.
 
 <u> Eerste vereisten </u>:
 

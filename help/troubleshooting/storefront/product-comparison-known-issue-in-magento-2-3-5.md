@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Bekende kwestie in Adobe Commerce 2.3.5 voor de vergelijking van producten
 
-Dit artikel verstrekt aanbevelingen op hoe te om een bekende ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare) kwestie van de 0} productvergelijking {in Adobe Commerce op-gebouw 2.3.5 en Adobe Commerce op wolkeninfrastructuur 2.3.5 te vermijden.[
+Dit artikel verstrekt aanbevelingen op hoe te om een bekende [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare) kwestie van de 0&rbrace; productvergelijking &lbrace;in Adobe Commerce op-gebouw 2.3.5 en Adobe Commerce op wolkeninfrastructuur 2.3.5 te vermijden.
 
 ## Betrokken producten en versies
 

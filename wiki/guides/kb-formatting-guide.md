@@ -60,7 +60,7 @@ FROM information_schema.TABLES
 WHERE TABLE_SCHEMA = &quot;%project_id%&quot;
 ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
 
-\``\``\`
+\``\` `\`
 
 Dit wordt weergegeven als:
 

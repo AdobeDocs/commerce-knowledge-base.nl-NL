@@ -57,7 +57,7 @@ De klantgegevens worden bijgewerkt.
 De volgende fout treedt op:
 
      &quot;json 
-     {
+     &lbrace;
      &quot;bericht&quot;: &quot;Een klant met het zelfde e-mailadres bestaat reeds in een bijbehorende website.&quot;, 
      &quot;spoor&quot;: ... 
      

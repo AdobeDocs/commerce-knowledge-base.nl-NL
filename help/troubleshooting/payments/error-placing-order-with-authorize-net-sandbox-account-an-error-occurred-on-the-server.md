@@ -29,7 +29,7 @@ Dit artikel verstrekt een moeilijke situatie voor &quot;*een fout voorkwam op de
 
 Het plaatsen van een orde gebruikend [ Authorize.Net de Directe rekening van de Post ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server) Sandbox veroorzaakt een foutenmelding:
 
->>
+&#x200B;>>
 &quot;Er is een fout opgetreden op de server. Probeer de bestelling opnieuw te plaatsen.&quot;
 
 ## Oorzaak 1: Testmodus is ingeschakeld
@@ -63,5 +63,5 @@ Als het plaatsen van een orde met Authorize.net met een niet-informatieve *&quot
 Voor het geval `debug.log` leeg is, controleer de **transact.dll** reactie in de console van uw Webbrowser:
 
 1. Open de console.
-1. Alvorens een orde te plaatsen, ga naar het **1} lusje van het Netwerk en selecteer** Logboek **behouden.**    ![ web-console_network_preserve-log.png ](assets/web-console_network_preserve-log.png)
+1. Alvorens een orde te plaatsen, ga naar het **1&rbrace; lusje van het Netwerk en selecteer** Logboek **behouden.**    ![ web-console_network_preserve-log.png ](assets/web-console_network_preserve-log.png)
 1. De reacties van de filter door **transact.dll** om een reactiebericht met een mogelijke fout te zien.    ![ transact-dll_web-console_response.png ](assets/transact-dll_web-console_response.png)

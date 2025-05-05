@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Link Magento.com and accounts.magento.cloud account logins
 
-Vanaf 1 April, 2020, zal Adobe Commerce vereisen dat de gebruikers die een rekening bij [ accounts.magento.cloud ](https://accounts.magento.cloud/) hebben om deze rekening met hun {](https://account.magento.com/customer/account/login/) rekening 2} Magento.com te verbinden. [ Dit zal tot [ Magento.com ](https://account.magento.com/customer/account/login/) rekeningslogin de primaire login methode voor zowel rekeningen maken en veiligheid voor gebruikers verbeteren.
+Vanaf 1 April, 2020, zal Adobe Commerce vereisen dat de gebruikers die een rekening bij [ accounts.magento.cloud ](https://accounts.magento.cloud/) hebben om deze rekening met hun {[&#128279;](https://account.magento.com/customer/account/login/) rekening 2} Magento.com te verbinden.  Dit zal tot [ Magento.com ](https://account.magento.com/customer/account/login/) rekeningslogin de primaire login methode voor zowel rekeningen maken en veiligheid voor gebruikers verbeteren.
 
 De gebruikers bij [ accounts.magento.cloud ](https://accounts.magento.cloud/) kunnen deze rekeningen via één van twee methodes verbinden:
 

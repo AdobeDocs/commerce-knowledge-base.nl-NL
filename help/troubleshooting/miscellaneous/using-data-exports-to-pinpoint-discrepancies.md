@@ -29,7 +29,7 @@ Klik om aan de slag te gaan in de rechterbovenhoek van het diagram en klik vervo
 
 In het **Ruwe menu van de Uitvoer van Gegevens**, kunt u de lijst selecteren om van samen met de kolommen uit te voeren om in de uitvoer te omvatten. Filters kunnen ook op de resultatenset worden toegepast.
 
-In ons voorbeeld, gebruikt metrisch van de Inkomsten **op dit rapport** orde \_total **gebied dat op de **`orders`**lijst wordt bepaald, gebruikend de** datum **als zijn timestamp.** In onze uitvoer, willen wij alle **orde \_id** waarden voor November 2014 en hun **orde \_total** omvatten. De **metrische Inkomsten** gebruikt geen filters, maar wij zullen een filter aan de uitvoer toevoegen om het resultaat te beperken dat aan enkel November 2014 wordt geplaatst.
+In ons voorbeeld, gebruikt metrisch van de Inkomsten **op dit rapport** orde \_total **gebied dat op de &#x200B;**`orders`**lijst wordt bepaald, gebruikend de** datum **als zijn timestamp.** In onze uitvoer, willen wij alle **orde \_id** waarden voor November 2014 en hun **orde \_total** omvatten. De **metrische Inkomsten** gebruikt geen filters, maar wij zullen een filter aan de uitvoer toevoegen om het resultaat te beperken dat aan enkel November 2014 wordt geplaatst.
 
 Zo ziet het menu Raw-gegevensuitvoer er in dit voorbeeld uit:
 
@@ -69,7 +69,7 @@ Navigeer naar de pagina Verbindingen en bekijk de status van de gegevensbron die
 
 ## De brondatabase heeft MINDER rijen dan Magento BI {#lessrows}
 
-Als het brongegevensbestand minder rijen dan Magento BI heeft, dan is het mogelijk dat de rijen uit het brongegevensbestand worden geschrapt en Magento BI niet deze schrappingen opneemt. ** [ het Schrappen van gegevens ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html) kan tot discrepanties, langere updatetijden, en een stroom van logistieke hoofdpijnen** leiden, zodat adviseren wij u nooit gegevens zult schrappen tenzij het echt noodzakelijk is.
+Als het brongegevensbestand minder rijen dan Magento BI heeft, dan is het mogelijk dat de rijen uit het brongegevensbestand worden geschrapt en Magento BI niet deze schrappingen opneemt. **&#x200B; [ het Schrappen van gegevens ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html) kan tot discrepanties, langere updatetijden, en een stroom van logistieke hoofdpijnen** leiden, zodat adviseren wij u nooit gegevens zult schrappen tenzij het echt noodzakelijk is.
 
 Als rijen echter uit de tabel worden verwijderd, bekijkt u de frequentie voor het opnieuw controleren van de primaire sleutel. Als u de primaire sleutel opnieuw controleert, wordt de tabel gecontroleerd op verwijderde rijen.
 

@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-45817: mutatie in GraphQL-producten biedt alle configureerbare varianten'
-description: De ACSD-45817-patch verhelpt het probleem waarbij een GraphQL ` products'-mutatie voor een specifieke winkel alle configureerbare varianten retourneert, inclusief die welke niet aan de gevraagde winkel zijn toegewezen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 is geïnstalleerd. De patch-id is ACSD-45817. De kwestie is opgelost in Adobe Commerce 2.4.4.
+description: De ACSD-45817-patch verhelpt het probleem waarbij een GraphQL &grave; products'-mutatie voor een specifieke winkel alle configureerbare varianten retourneert, inclusief die welke niet aan de gevraagde winkel zijn toegewezen. Deze patch is beschikbaar wanneer [Quality Patches Tool (QPT)] (/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 is geïnstalleerd. De patch-id is ACSD-45817. De kwestie is opgelost in Adobe Commerce 2.4.4.
 exl-id: 3d61d1aa-36b5-471d-929b-7df8ce65c791
 feature: GraphQL, Configuration, Products
 role: Admin

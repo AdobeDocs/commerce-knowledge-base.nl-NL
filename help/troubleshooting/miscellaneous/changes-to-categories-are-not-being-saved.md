@@ -1,6 +1,6 @@
 ---
 title: Wijzigingen in categorieën worden niet opgeslagen
-description: Dit artikel bevat een oplossing voor het bijwerken van productcategorieën via Commerce Admin. De wijzigingen worden niet weergegeven op de beheerdersinterface en de winkel. Het probleem wordt veroorzaakt door de bedorven gegevens in ` catalog_category_entity lijst `. U lost het probleem op door de updaterecords voor problematische categorieën in de tabel te corrigeren of te verwijderen. Daarna kunt u de productcategorieën bijwerken met de Admin.
+description: Dit artikel bevat een oplossing voor het bijwerken van productcategorieën via Commerce Admin. De wijzigingen worden niet weergegeven op de beheerdersinterface en de winkel. Het probleem wordt veroorzaakt door de bedorven gegevens in &grave; catalog_category_entity lijst &grave;. U lost het probleem op door de updaterecords voor problematische categorieën in de tabel te corrigeren of te verwijderen. Daarna kunt u de productcategorieën bijwerken met de Admin.
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer

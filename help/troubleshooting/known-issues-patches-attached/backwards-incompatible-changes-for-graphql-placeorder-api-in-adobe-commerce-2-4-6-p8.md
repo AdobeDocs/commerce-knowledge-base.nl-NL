@@ -1,7 +1,7 @@
 ---
 title: '"Achterwaarts onverenigbare veranderingen voor  [!DNL GraphQL]  "placeOrder" [!DNL API]  in Adobe Commerce 2.4.6-p8"'
 promoted: true
-description: Dit artikel verstrekt een flard voor bekende versie 2.4.6-p8 van Adobe Commerce Cloud en op-gebouw kwestie waar ` placeOrder'  [!DNL GraphQL API]  geen verwachte foutenreactie terugkeert, zoals gezien in vorige 2.4.6 flardversies. Dit kan tot een gebroken controleervaring voor verkopers leiden die PWA storefront of een andere  [!DNL GraphQL API] gebaseerde opslagplaats voor hun opslag gebruiken.
+description: Dit artikel verstrekt een flard voor bekende versie 2.4.6-p8 van Adobe Commerce Cloud en op-gebouw kwestie waar &grave; placeOrder'  [!DNL GraphQL API]  geen verwachte foutenreactie terugkeert, zoals gezien in vorige 2.4.6 flardversies. Dit kan tot een gebroken controleervaring voor verkopers leiden die PWA storefront of een andere  [!DNL GraphQL API] gebaseerde opslagplaats voor hun opslag gebruiken.
 feature: Checkout, REST, GraphQL
 role: Developer
 source-git-commit: 01b79c75df34de20f1ff50ab40c0a8d608ffa779

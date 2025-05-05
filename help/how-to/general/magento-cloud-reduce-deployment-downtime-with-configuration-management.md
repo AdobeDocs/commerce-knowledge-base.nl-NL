@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Implementatiedowntime in Adobe Commerce op cloudinfrastructuur verminderen
 
-Om onderhoud onderbreking drastisch te verminderen en efficiënte configuratie van uw opslag over milieu&#39;s te verstrekken, verstrekt Adobe Commerce op wolkeninfrastructuur de **eigenschap van het Beheer van de Configuratie 0} {.** Voor Adobe Commerce op cloudinfrastructuur 2.2.x en latere implementaties ondersteunt deze functie concepten en opties voor de implementatie van de pijplijn met beperkte stappen.
+Om onderhoud onderbreking drastisch te verminderen en efficiënte configuratie van uw opslag over milieu&#39;s te verstrekken, verstrekt Adobe Commerce op wolkeninfrastructuur de **eigenschap van het Beheer van de Configuratie 0&rbrace; &lbrace;.** Voor Adobe Commerce op cloudinfrastructuur 2.2.x en latere implementaties ondersteunt deze functie concepten en opties voor de implementatie van de pijplijn met beperkte stappen.
 
 ## Overzicht
 

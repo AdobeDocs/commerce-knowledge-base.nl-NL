@@ -25,7 +25,7 @@ Wanneer u de extensie Betalingsservices installeert, wordt mogelijk een foutberi
 
 <u> Stappen om </u> te reproduceren:
 
-1. Poging om de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) te installeren 0}.[
+1. Poging om de Diensten van de Betaling [&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) te installeren 0&rbrace;.
 1. Zie de volgende fout:
 
    *Kon geen passende versie van pakketmagento/betaling-diensten vinden. Controleer de pakketspelling, uw versiebeperking en dat het pakket in een stabiliteit beschikbaar is die uw minimum-stabiliteit (stabiel) aanpast.*
@@ -67,7 +67,7 @@ Wanneer u de extensie Betalingsservices installeert, wordt mogelijk een foutberi
 
 <u> Stappen om </u> te reproduceren:
 
-1. Poging om de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) te installeren 0}.[
+1. Poging om de Diensten van de Betaling [&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) te installeren 0&rbrace;.
 1. Zie de volgende fout, of gelijkaardig:
 
    *Fatale fout: Toegestane geheugengrootte van 2146435072 bytes uitgeput (geprobeerd om 4096 bytes toe te wijzen) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php op lijn 52*

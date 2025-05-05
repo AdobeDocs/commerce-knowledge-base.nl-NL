@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Als u om het even welke drie die flarden van dit artikel vóór **10 Oktober, 2023** uploadde, zou u één van deze flarden opnieuw moeten toepassen nu in dit artikel voor uw 2.4.4+/2.4.5+/2.4.6+ versie van Adobe Commerce/Magento Open Source wordt gepubliceerd, omdat anders u niet specifieke [!DNL UPS] het verschepen methodes in {3 kunt selecteren en vormen en u moet ze allemaal inschakelen. **[!DNL Admin configuration]** Deze nieuwe patches zijn compatibel met de eerder vrijgegeven patches.
+>Als u om het even welke drie die flarden van dit artikel vóór **10 Oktober, 2023** uploadde, zou u één van deze flarden opnieuw moeten toepassen nu in dit artikel voor uw 2.4.4+/2.4.5+/2.4.6+ versie van Adobe Commerce/Magento Open Source wordt gepubliceerd, omdat anders u niet specifieke [!DNL UPS] het verschepen methodes in &lbrace;3 kunt selecteren en vormen en u moet ze allemaal inschakelen. **[!DNL Admin configuration]** Deze nieuwe patches zijn compatibel met de eerder vrijgegeven patches.
 
 Dit artikel bevat een patch voor het oplossen van problemen met de integratiemigratie van [!DNL SOAP] naar [!DNL RESTful API] voor Adobe Commerce 2.4.4 - 2.4.6-pX naar de verzendmethode.[!DNL United Parcel Service (UPS)]
 

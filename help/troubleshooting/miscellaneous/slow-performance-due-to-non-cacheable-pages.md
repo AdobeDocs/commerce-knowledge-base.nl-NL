@@ -36,7 +36,7 @@ Deze pagina&#39;s zijn:
 
 In cache plaatsen en niet in cache plaatsen zijn termen die worden gebruikt om aan te geven of een pagina al dan niet in cache moet worden geplaatst. Standaard zijn alle pagina&#39;s in cache geplaatst. Als een blok in een lay-out echter als niet-cacheable is aangewezen, is de gehele pagina niet-cacheable.
 
-In de onderstaande schermafbeelding ziet u een blok met de instelling `cacheable="false"` ** *** waarmee een oncachebare pagina wordt gemaakt.
+In de onderstaande schermafbeelding ziet u een blok met de instelling `cacheable="false"` **&#x200B; *** waarmee een oncachebare pagina wordt gemaakt.
 
 ![ non_cacheable_kb.png ](assets/non_cacheable_kb.png)
 

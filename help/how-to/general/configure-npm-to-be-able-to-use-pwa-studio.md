@@ -1,6 +1,6 @@
 ---
 title: Vorm NPM om PWA Studio te kunnen gebruiken
-description: '[Progressieve Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) is een nieuw project beschikbaar voor Adobe Commerce op wolkeninfrastructuur 2.3.x of later. Om PWA Studio te kunnen gebruiken en installeren, moet u de versie van het NPM pakketbeheer aan 5.x of recenter plaatsen om steun voor Node.js 8.x te krijgen. Dit wordt gedaan in de sectie ` haks:build'' van het `.magento.app.yaml `- configuratiedossier.'
+description: '[Progressieve Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) is een nieuw project beschikbaar voor Adobe Commerce op wolkeninfrastructuur 2.3.x of later. Om PWA Studio te kunnen gebruiken en installeren, moet u de versie van het NPM pakketbeheer aan 5.x of recenter plaatsen om steun voor Node.js 8.x te krijgen. Dit wordt gedaan in de sectie &grave; haks:build'' van het &grave;.magento.app.yaml &grave;- configuratiedossier.'
 exl-id: 3854fc94-e8ad-45d8-bf3e-73462364220d
 source-git-commit: 37ac9cca1f876a48092467aa38f2f2f013c83dd9
 workflow-type: tm+mt
@@ -40,7 +40,7 @@ Als u de benodigde NPM-versie wilt instellen, geeft u deze op in het configurati
    >
    >Als u Node.JS in uw toepassing en niet alleen in uw bouwstijl wilt in werking stellen, te voegen gelieve de volgende bevelen toe om uw bouwstijlhaak te veranderen:
    > 
-   ```
+   > ```
    > echo 'unset NPM_CONFIG_PREFIX' >> .environment
    > echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
    > echo 'export NVM_DIR="$MAGENTO_CLOUD_DIR/.nvm"' >> .environment

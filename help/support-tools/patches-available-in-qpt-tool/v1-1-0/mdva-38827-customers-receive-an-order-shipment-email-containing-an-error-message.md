@@ -36,7 +36,7 @@ Wanneer de Notify Klanten door de optie E-mail voor verzending wordt geselecteer
 <u> Stappen om </u> te reproduceren:
 
 1. Ga naar **de Marketing** > **Mededelingen** > **E-mailMalplaatjes** en selecteer **Nieuw Malplaatje** toevoegen.
-   * Selecteer **de Verkoop van het Magento 0}** Nieuwe Verzending **.**
+   * Selecteer **de Verkoop van het Magento 0&rbrace;** Nieuwe Verzending **.**
    * Klik op **Malplaatje van de Lading**.
    * Voeg een malplaatjenaam (b.v., de Verzendmalplaatje van de Kern) toe en klik **sparen**.
 1. Ga naar **Opslag** > Montages > **Configuratie** > **Verkoop** > **E-mail van de Verkoop**:

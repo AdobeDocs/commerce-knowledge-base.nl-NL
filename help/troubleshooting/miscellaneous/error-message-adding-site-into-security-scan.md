@@ -33,7 +33,7 @@ De gebruiker kan geen plaatsen in het [ Scannen van de Veiligheid van Commerce ]
 
 1. De bevestigingscode is tijdgevoelig. Als meer dan 30 minuten zijn overgegaan nadat **plaats** verbinding werd geklikt toevoegt, is de code waarschijnlijk verlopen.
 1. Vergeet niet cache op te schonen en ervoor te zorgen dat de validatiecode in de brontekst van de startpagina wordt weergegeven. De bevestigingscode moet worden geïnjecteerd volgens de HTML-opmaakspecificaties: HTML-commentaar kan in de hoofdtekst van de pagina worden geïnjecteerd (we raden aan het in de voettekstsectie te plaatsen); de META-tag mag alleen in de hoofdsectie staan.
-1. Alvorens **te klikken verifieer de code van de Bevestiging**, open de de ontwikkelaarsconsole van browser, klik het **3} lusje van het Netwerk {en controleer de reactie van magento.com.** De waarde moet HTTP 200 (OK) zijn en de hoofdtekst van de reactie moet een JSON-object bevatten.
+1. Alvorens **te klikken verifieer de code van de Bevestiging**, open de de ontwikkelaarsconsole van browser, klik het **3&rbrace; lusje van het Netwerk &lbrace;en controleer de reactie van magento.com.** De waarde moet HTTP 200 (OK) zijn en de hoofdtekst van de reactie moet een JSON-object bevatten.
 1. Wanneer de antwoordcode HTTP 200 is en de hoofdtekst van de reactie een JSON-object is en de waarde van de eigenschap `verified` `false` is, betekent dit dat de code niet op de pagina wordt gevonden. De eigenschapwaarde `details` moet de uitleg bevatten. Als de winkel bijvoorbeeld een zelfondertekend SSL-certificaat gebruikt, treedt er waarschijnlijk een verbindingsfout op.
 
 Voer de volgende stappen uit als u nog steeds geen sites kunt toevoegen:

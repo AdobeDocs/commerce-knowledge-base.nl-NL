@@ -1,6 +1,6 @@
 ---
 title: Uitvoer van Adobe Commerce Banner uitschakelen om de prestaties van de site te verbeteren
-description: Dit artikel biedt een oplossing voor lage prestaties op de site. De lage plaatsprestaties kunnen worden veroorzaakt door de module ` Magento_Banner' die wordt toegelaten maar niet wordt gebruikt. Als u de uitvoer van de module uitschakelt, kunnen de prestaties van de site verbeteren. Controleer het artikel voor resolutiestappen.
+description: Dit artikel biedt een oplossing voor lage prestaties op de site. De lage plaatsprestaties kunnen worden veroorzaakt door de module &grave; Magento_Banner' die wordt toegelaten maar niet wordt gebruikt. Als u de uitvoer van de module uitschakelt, kunnen de prestaties van de site verbeteren. Controleer het artikel voor resolutiestappen.
 exl-id: 90a8bd21-1f2c-4cfe-8213-17f877e20de8
 feature: Configuration
 role: Developer

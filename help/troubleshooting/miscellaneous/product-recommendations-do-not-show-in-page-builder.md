@@ -32,7 +32,7 @@ Er is geen optie in de Bouwer van de Pagina om Product Recommendations toe te vo
 1. Controleer of u de module afzonderlijk hebt geïnstalleerd door de opdracht uit te voeren: `composer show magento/module-page-builder-product-recommendations`
 1. Als het het volgende bericht terugkeert: *Pakket magento/module-page-builder-product-aanbevelingen niet gevonden*, zult u het moeten installeren door het bevel in werking te stellen: `composer require magento/module-page-builder-product-recommendations`
 
-Door Product Recommendations in de Bouwer van de Pagina toe te laten, zult u een aanbeveling eenheid ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) aan om het even welke inhoud kunnen toevoegen die in de Bouwer van de Pagina wordt gecreeerd.[
+Door Product Recommendations in de Bouwer van de Pagina toe te laten, zult u een aanbeveling eenheid [&#128279;](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) aan om het even welke inhoud kunnen toevoegen die in de Bouwer van de Pagina wordt gecreeerd.
 
 ## Gerelateerde lezing
 

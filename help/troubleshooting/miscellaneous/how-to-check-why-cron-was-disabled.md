@@ -32,7 +32,7 @@ U ziet bijvoorbeeld de volgende regels in het `app/etc/env.php` -bestand:
   ),
 ```
 
-Een lege serie zou betekenen dat [!DNL cron] **** wordt toegelaten:
+Een lege serie zou betekenen dat [!DNL cron] **&#x200B;**&#x200B;wordt toegelaten:
 
 ```'cron' =>
   array (

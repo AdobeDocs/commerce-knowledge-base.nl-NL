@@ -35,8 +35,8 @@ Herschrijvingen op winkelniveau [!DNL URL] worden tijdens het importeren onjuist
 
 <u> Stappen om </u> te reproduceren:
 
-1. Creeer een product met `url_key = key_default` op het **Alle 2} werkingsgebied van de Mening van de Opslag {.**
-1. Plaats `url_key = key_store` in het **Standaard2} werkingsgebied van de Mening van de Opslag {.**
+1. Creeer een product met `url_key = key_default` op het **Alle 2&rbrace; werkingsgebied van de Mening van de Opslag &lbrace;.**
+1. Plaats `url_key = key_store` in het **Standaard2&rbrace; werkingsgebied van de Mening van de Opslag &lbrace;.**
 1. Het product exporteren.
 1. Importeer een [!DNL CSV] -bestand voor dit product met de volgende gegevens erin:
    * `store_view_code` de kolom wordt geplaatst aan *leeg* zodat het voor het **Alle werkingsgebied van de Kijken van de Opslag** van toepassing is.

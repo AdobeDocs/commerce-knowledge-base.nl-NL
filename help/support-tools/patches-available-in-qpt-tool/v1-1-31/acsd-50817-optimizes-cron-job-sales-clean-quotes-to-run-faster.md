@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-50817: optimaliseert verkoopmogelijkheden voor snijtaken_clean_quotes om sneller te werken'
-description: Pas ACSD-50817 flard toe om de cron baan ` sales_clean_quotes' te optimaliseren om sneller te lopen door een samengestelde index op ` store_id ` en ` update_at' kolommen in de citaatlijst toe te voegen.
+description: Pas ACSD-50817 flard toe om de cron baan &grave; sales_clean_quotes' te optimaliseren om sneller te lopen door een samengestelde index op &grave; store_id &grave; en &grave; update_at' kolommen in de citaatlijst toe te voegen.
 exl-id: b08b12ff-37ac-4a7d-bce2-2a27e4f916f0
 feature: Quotes
 role: Admin
