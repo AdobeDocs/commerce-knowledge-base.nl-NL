@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: a4a913c9159e9267ca20da99b9d690c85667c7db
+source-git-commit: 75bf72db367c120efe650d42fe0cf0bc9d51109b
 workflow-type: tm+mt
-source-wordcount: '9340'
+source-wordcount: '9350'
 ht-degree: 0%
 
 ---
@@ -488,7 +488,7 @@ ht-degree: 0%
          * [ASCD-54040: [!UICONTROL Created] veld is leeg in de orderdetails wanneer B2B-modules zijn ingeschakeld](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54040-created-field-is-blank-in-order-details-page.md)
          * [ACSD-52801: GraphQL-productfilterquery geeft resultaten van gedeeltelijke overeenkomsten niet weer](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52801-graphql-product-filter-query-not-showing-partial-match-results.md)
          * [ACSD-54961: Gebruikers met beperkte beheerdersrechten kunnen geen massaupdate uitvoeren  [!DNL Product Review status]](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.md)
-         * [ ACSD-55031: &quot;Het type &quot;gemengd&quot;kan niet nullable&quot;fout tijdens compilatie  zijn](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.md)
+         * [ ACSD-55031: &quot;Het type &quot;gemengd&quot;kan niet nullable&quot;fout tijdens compilatie ](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.md) zijn
          * [ACSD-54319: De prijs van het product staat nul in het [!UICONTROL Products in Carts] -rapport](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54319-product-price-shows-zero-in-product-in-cart-report.md)
          * [ACSD-54989: Bedrijfsbeheer kan geen bestelling uitvoeren als [!UICONTROL Enable Purchase Orders] is ingesteld op Ja en [!UICONTROL Purchase Order] is ingesteld op Nee](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54989-order-placement-restrictions-in-company-admin-settings.md)
          * [ACSD-53378: Verbeterde uitcheckervaring voor klanten met uitgebreide adresboeken](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53378-swift-checkout-for-users-with-extensive-address-books.md)
@@ -946,6 +946,7 @@ ht-degree: 0%
       * [[!DNL FedEx] Integratie van verzendmethoden van SOAP naar RESTful-API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
       * [Fout bij maximum aantal cookies in Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/maximum-number-of-cookies-would-be-exceeded-error.md)
       * [Verhoogde uitvoeringstijd voor alle bulkasynchrone webeindpunten na APSB25-08-beveiligingspatch](/help/troubleshooting/known-issues-patches-attached/increased-execution-time-for-bulk-asynchronous-web-endpoints-post-apsb25-08-security-patch.md)
+      * [Klantgroepnamen, segmenten en informatie over de promotieregel die via  [!DNL GraphQL] wordt weergegeven](/help/troubleshooting/known-issues-patches-attached/hotfix-for-exposed-customer-group-segments-promo-rules-information.md)
    * Elasticsearch {#elasticsearch}
       * [Het vallen terug naar  [!DNL Elasticsearch7]  wanneer de onderzoeksmotor aan  [!DNL Opensearch] wordt geplaatst](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Elasticsearch-problemen na Adobe Commerce Cloud Infrastructure 2.3.1+-upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
