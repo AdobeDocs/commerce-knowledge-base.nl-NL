@@ -31,9 +31,9 @@ De catalogusgegevens zijn niet correct gesynchroniseerd of er is een nieuw produ
 
 <u> Stappen om te reproduceren </u>
 
-1. Vorm en verbind Levende Onderzoek voor uw instantie van Adobe Commerce zoals die in [ wordt beschreven installeer Levende Onderzoek > vormen API sleutels ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) in onze gebruikersdocumentatie.
-1. Na 30 minuten, verifieer de uitgevoerde catalogusgegevens zoals die in [ worden beschreven installeer Levende Onderzoek > verifieer de uitvoer ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) in onze gebruikersdocumentatie.
-1. Na 30 minuten, test de verbinding zoals die in [ wordt beschreven installeer Levende Onderzoek > test de verbinding ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) in onze gebruikersdocumentatie.
+1. Vorm en verbind Levende Onderzoek voor uw instantie van Adobe Commerce zoals die in [ wordt beschreven installeer Levende Onderzoek > vormen API sleutels ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL#configure-api-keys) in onze gebruikersdocumentatie.
+1. Na 30 minuten, verifieer de uitgevoerde catalogusgegevens zoals die in [ worden beschreven installeer Levende Onderzoek > verifieer de uitvoer ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL#verify-export) in onze gebruikersdocumentatie.
+1. Na 30 minuten, test de verbinding zoals die in [ wordt beschreven installeer Levende Onderzoek > test de verbinding ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL#test-connection) in onze gebruikersdocumentatie.
 
 of
 
@@ -150,13 +150,13 @@ bin/magento saas:resync --feed categories --cleanup-feed
 bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
-[ leg een steunverzoek ](https://experienceleague.adobe.com/home?support-tab=home#support) voor om herdex van de Levende index van het Onderzoek te verzoeken. Neem in de beschrijving van de uitgave de ID Gegevensruimte/Omgeving op in het deelvenster Beheer onder **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** .
+[ leg een steunverzoek ](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support) voor om herdex van de Levende index van het Onderzoek te verzoeken. Neem in de beschrijving van de uitgave de ID Gegevensruimte/Omgeving op in het deelvenster Beheer onder **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** .
 
 >[!IMPORTANT]
->Als u in andere gevallen de optie `--cleanup-feed` gebruikt, kunnen er problemen met gegevensverlies en gegevenssynchronisatie optreden.  Gebruik het slechts wanneer u een nieuw, leeg milieu hebt, nadat het team van Adobe een opschoonverrichting van de gegevensruimte heeft voltooid, of wanneer u het `saas:resync` bevel met [ - droog-looppas ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) optie in werking stelt. Als u in andere gevallen de optie `--cleanup-feed` gebruikt, kunnen er problemen met gegevensverlies en gegevenssynchronisatie optreden.
+>Als u in andere gevallen de optie `--cleanup-feed` gebruikt, kunnen er problemen met gegevensverlies en gegevenssynchronisatie optreden.  Gebruik het slechts wanneer u een nieuw, leeg milieu hebt, nadat het team van Adobe een opschoonverrichting van de gegevensruimte heeft voltooid, of wanneer u het `saas:resync` bevel met [ - droog-looppas ](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) optie in werking stelt. Als u in andere gevallen de optie `--cleanup-feed` gebruikt, kunnen er problemen met gegevensverlies en gegevenssynchronisatie optreden.
 
 ## Gerelateerde lezing
 
-* [ Levend Onderzoek van de Bord ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) in onze gebruikersdocumentatie
-* [ Logboeken van het Overzicht en los de gegevensuitvoer en synchronisatie van Adobe Commerce SaaS ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in de Gids van de Uitvoer van Gegevens van Adobe Commerce SaaS problemen op
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ Levend Onderzoek van de Bord ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=nl-NL) in onze gebruikersdocumentatie
+* [ Logboeken van het Overzicht en los de gegevensuitvoer en synchronisatie van Adobe Commerce SaaS ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in de Gids van de Uitvoer van Gegevens van Adobe Commerce SaaS problemen op
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
