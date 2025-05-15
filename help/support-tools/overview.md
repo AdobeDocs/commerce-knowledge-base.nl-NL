@@ -21,7 +21,7 @@ Adobe Commerce biedt een groot aantal ondersteuningsmiddelen die u helpen en in 
 
 * [!DNL Quality Patches Tool] (QPT)
 
-   * [ Patches beschikbaar in QPT hulpmiddeloverzicht ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/patches-available-in-qpt-tool-overview)
+   * [ Patches beschikbaar in QPT hulpmiddeloverzicht ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/patches-available-in-qpt-tool-overview)
 
      [[!DNL Quality Patches Tool] ](https://github.com/magento/quality-patches) (QPT) is een hulpmiddel dat u toestaat om individuele kwaliteitspatches toe te passen die door Adobe en de gemeenschap van Magento Open Source worden ontwikkeld.
 
@@ -35,20 +35,20 @@ Adobe Commerce biedt een groot aantal ondersteuningsmiddelen die u helpen en in 
 
 * Waarneming voor Adobe Commerce
 
-   * [ Waarneming voor het overzicht van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/observation-for-adobe-commerce/intro)
+   * [ Waarneming voor het overzicht van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/observation-for-adobe-commerce/intro)
 
 * Beheerde berichten over Adobe Commerce
-   * [ Beheerd alarm op Adobe Commerce: Redis geheugen kritieke alarm ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert)
-   * [ Beheerde alarm voor Adobe Commerce: de alarm van de schijfwaarschuwing ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)
-   * [ Beheerde alarm voor Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce)
-   * [ Beheerde alarm voor Adobe Commerce: schijf kritieke alarm ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert)
-   * [ Beheerde alarm op Adobe Commerce: Redis alarm van de geheugenwaarschuwing ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert)
-   * [ Beheerde alarm voor Adobe Commerce: alarm van de geheugenwaarschuwing ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert)
-   * [ Beheerd alarm op Adobe Commerce: Kritieke alarm van CPU ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert)
-   * [ Beheerde alarm op Adobe Commerce: geheugen kritieke alarm ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert)
-   * [ Beheerde alarm voor Adobe Commerce: Kritieke alarm van de Index ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert)
-   * [ Beheerd alarm op Adobe Commerce: MariaDB alarm ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts)
-   * [ Beheerde alarm voor Adobe Commerce: De waarschuwingsalarm van de Index ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert)
-   * [ Beheerde alarm voor Adobe Commerce: De waarschuwingsalarm van CPU ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert)
+   * [ Beheerd alarm op Adobe Commerce: Redis geheugen kritieke alarm ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert)
+   * [ Beheerde alarm voor Adobe Commerce: de alarm van de schijfwaarschuwing ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)
+   * [ Beheerde alarm voor Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce)
+   * [ Beheerde alarm voor Adobe Commerce: schijf kritieke alarm ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert)
+   * [ Beheerde alarm op Adobe Commerce: Redis alarm van de geheugenwaarschuwing ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert)
+   * [ Beheerde alarm voor Adobe Commerce: alarm van de geheugenwaarschuwing ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert)
+   * [ Beheerd alarm op Adobe Commerce: Kritieke alarm van CPU ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert)
+   * [ Beheerde alarm op Adobe Commerce: geheugen kritieke alarm ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert)
+   * [ Beheerde alarm voor Adobe Commerce: Kritieke alarm van de Index ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert)
+   * [ Beheerd alarm op Adobe Commerce: MariaDB alarm ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts)
+   * [ Beheerde alarm voor Adobe Commerce: De waarschuwingsalarm van de Index ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert)
+   * [ Beheerde alarm voor Adobe Commerce: De waarschuwingsalarm van CPU ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert)
 * Commerce Site Assessment
-   * [ de plaatsbeoordeling van Commerce ](https://experienceleague.adobe.com/tools/commerce-site-assessment/index.html)
+   * [ de plaatsbeoordeling van Commerce ](https://experienceleague.adobe.com/tools/commerce-site-assessment/index.html?lang=nl-NL)
