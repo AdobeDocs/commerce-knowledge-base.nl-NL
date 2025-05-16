@@ -33,4 +33,4 @@ De gebruikers bij [ accounts.magento.cloud ](https://accounts.magento.cloud/) ku
 ## Gerelateerde lezing
 
 * [Kan niet aanmelden bij Adobe Commerce-ondersteuning of cloudaccount](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-* [ MageID de rekeningseigenaar kan niet login en een steunkaartje voorleggen ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)
+* [ MageID de rekeningseigenaar kan niet login en een steunkaartje voorleggen ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-25231)
