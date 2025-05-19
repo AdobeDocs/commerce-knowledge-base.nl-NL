@@ -41,7 +41,7 @@ b. NO - als u [[!DNL Fastly]  Status ](https://status.fastly.com/) controleerde 
 
 +++**controleer uw website in Webbrowser. Krijgt u een 200 (O.K.) code?**
 
-Om foutencodes in **Firefox** te controleren: Klik het **Open pictogram van het Menu** > **Ontwikkelaar van het Web** > **Hulpmiddelen van de knevel** > **9} lusje van het Netwerk** allen **filter >** van de Status **kolom.** Om foutencodes in **Chrome** te controleren: Klik het **Open pictogram van het Menu** > **Meer Hulpmiddelen** > **Hulpmiddelen van de Ontwikkelaar** > **lusje van het Netwerk** > **Alle** filter > **van de Status** kolom.
+Om foutencodes in **Firefox** te controleren: Klik het **Open pictogram van het Menu** > **Ontwikkelaar van het Web** > **Hulpmiddelen van de knevel** > **9&rbrace; lusje van het Netwerk** allen **filter >** van de Status **kolom.** Om foutencodes in **Chrome** te controleren: Klik het **Open pictogram van het Menu** > **Meer Hulpmiddelen** > **Hulpmiddelen van de Ontwikkelaar** > **lusje van het Netwerk** > **Alle** filter > **van de Status** kolom.
 
 a. JA - Open a [ Ticket van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) voor verder onderzoek.\
 b. NO - ga aan [ Stap 4 ](#step-4) te werk.
