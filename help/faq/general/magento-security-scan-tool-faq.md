@@ -3,9 +3,9 @@ title: Veelgestelde vragen over Adobe Commerce Security Scan
 description: In dit artikel wordt een aantal veelgestelde vragen (FAQ) over het Adobe Commerce Security Scan Tool beantwoord.
 exl-id: 380ce617-e3d9-491b-b425-8489abd3c541
 feature: Compliance
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: cff17a83648e10e85d95a5895acd8d1916a8eef9
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Het hulpmiddel van de Scannen van de Veiligheid is een vrij hulpmiddel beschikba
 
 ## Is het hulpprogramma voor beveiligingsscan beschikbaar voor alle Adobe Commerce-handelaren? {#is-magento-security-scan-tool-available-to-all-magento-merchants}
 
-Ja, het hulpprogramma voor beveiligingsscan is beschikbaar voor alle verkopers van Adobe Commerce en Magento Open Sourcen.
+Ja, het hulpprogramma voor beveiligingsscan is beschikbaar voor alle Adobe Commerce- en Magento Open Source-handelaren.
 
 ## Kan iemand mijn site scannen met het hulpprogramma voor beveiligingsscan? {#can-anyone-scan-my-site-with-the-magento-security-scan-tool}
 
@@ -48,6 +48,6 @@ De handelaren kunnen registreren om het Hulpmiddel van het Scannen van de Veilig
 
 ## Wat moet ik doen als ik een vals positief beeld tegenkom in het scantapport? {#what-do-i-do-if-i-come-across-a-false-positive-in-the-scan-report}
 
-We raden onze handelaren aan alle mislukte scans te onderzoeken en passende stappen te ondernemen om dergelijke problemen op te lossen. Als handelaren na onderzoek een scantesultaat zien dat een fout-positief resultaat lijkt, verzoeken wij de handelaar de Adobe op de hoogte te stellen van passende maatregelen.
+We raden onze handelaren aan alle mislukte scans te onderzoeken en passende stappen te ondernemen om dergelijke problemen op te lossen. Als handelaren na onderzoek een scantesultaat tegenkomen dat een fout-positief resultaat lijkt, verzoeken wij de handelaar Adobe op de hoogte te stellen van passende maatregelen.
 
-Als u een fout-positief rapport wilt indienen, voert u een ticket in met ondersteuning van Adobe Commerce-handelaren, zodat we de fout-positief kunnen beoordelen, de noodzakelijke wijzigingen kunnen aanbrengen en/of aanbevelingen kunnen doen om dergelijke meldingen in de toekomst te voorkomen. De handelaren kunnen vals positief ook melden door ons in [ securityscan@magento.com ](mailto:securityscan@magento.com) te e-mailen.
+Als u een fout-positief rapport wilt indienen, voert u een ticket in met ondersteuning van Adobe Commerce-handelaren, zodat we de fout-positief kunnen beoordelen, de noodzakelijke wijzigingen kunnen aanbrengen en/of aanbevelingen kunnen doen om dergelijke meldingen in de toekomst te voorkomen.
