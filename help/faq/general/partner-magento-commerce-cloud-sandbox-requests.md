@@ -3,9 +3,9 @@ title: Partner Adobe Commerce op verzoek van cloud-infrastructuursandbox
 description: Dit artikel in veelgestelde vragen bevat koppelingen naar nuttige bronnen voor Adobe Commerce over sandboxverzoeken voor cloudinfrastructuur.
 exl-id: 3ec1cbc0-1a71-4753-8fc5-51c5f1928f12
 feature: Cloud
-source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
+source-git-commit: 4ed280478e1c3eb9d10eb4d62f71f7dd3bef6d6c
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -28,5 +28,11 @@ Verwijs naar de [ Kennisbank van de Steun van Adobe Commerce ](https://support.m
 
 ## Waar/hoe stellen de oplossingspartners of de technologiepartners een steunverzoek voor? {#wherehow-do-solution-partners-or-tech-partners-submit-a-support-request}
 
-* De partners van de oplossing kunnen een kaartje voor zandbak-verwante kwesties voorleggen door een e-mail naar [ SPPHelp@adobe.com ](mailto:SPPHelp@adobe.com) te verzenden en het zal aan het partner technische steunteam door:sturen.
-* De partners van de techniek kunnen [ de Steun van de Marketplace van het contact ](mailto:commercemarketplacesupport@adobe.com).
+Partners met een Sandbox Cloud-project voor partners kunnen geen tickets verzenden voor problemen met sandboxen via Experience League. Gebruik geen rekening van een handelaar om deze kaartjes in te dienen, aangezien het voor hun rekening kan worden ingediend en verwarring kan veroorzaken.
+
+Als u een kaartje indient namens een handelaar die geen Gedeelde Toegang is verleend, gelieve toegang van de rekeningeigenaar te verzoeken. Voor stappen op hoe te om toegang te verzoeken, verwijs naar [ Gedeelde Toegang: Rechten van de subsidie voor andere gebruikers om tot uw rekening ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access) toegang te hebben.
+
+* De Partners van de oplossing zouden sandbox-verwante steunverzoeken door [ SPPHelp@adobe.com ](mailto:SPPHelp@adobe.com) per e-mail te verzenden moeten voorleggen. Deze verzoeken zullen aan het team van de Technische Steun van de Partner worden verpletterd.
+* De Partners van de techniek zouden [ Steun van de Marketplace ](mailto:commercemarketplacesupport@adobe.com) moeten contacteren.
+
+
