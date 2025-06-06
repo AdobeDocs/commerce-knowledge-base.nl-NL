@@ -62,7 +62,7 @@ De stappen zijn:
    ```
 
 1. Kopieer de database [!DNL dump file] (bijvoorbeeld `<cluster ID>.sql.gz` for [!DNL Production] of `<cluster ID_stg>.sql.gz` for [!DNL Staging] ) naar uw lokale computer.
-1. Zorg ervoor u opstelling [!DNL SSH tunnel] om met het gegevensbestand ver hebt te verbinden: [[!DNL SSH]  en  [!DNL sFTP]: [!DNL SSH tunneling] ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) in onze ontwikkelaarsdocumentatie.
+1. Zorg ervoor u opstelling [!DNL SSH tunnel] om met het gegevensbestand ver hebt te verbinden: [[!DNL SSH]  en  [!DNL sFTP]: [!DNL SSH tunneling] ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) in onze ontwikkelaarsdocumentatie.
 1. Maak verbinding met de database.
 
    ```sql
@@ -158,6 +158,6 @@ De stappen zijn:
 
 In onze documentatie voor ontwikkelaars:
 
-* [ de code van de Invoer: Invoer het gegevensbestand ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots]  en  [!DNL backup]  beheer: [!DNL Dump]  uw gegevensbestand ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [ Steun (momentopname) op Wolk: Veelgestelde vragen ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [ de code van de Invoer: Invoer het gegevensbestand ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots]  en  [!DNL backup]  beheer: [!DNL Dump]  uw gegevensbestand ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [ Steun (momentopname) op Wolk: Veelgestelde vragen ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
