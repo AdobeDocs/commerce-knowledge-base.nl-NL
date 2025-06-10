@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB25-50]
 
-Op 10 juni 2025 heeft Adobe een regelmatig geplande beveiligingsupdate uitgebracht voor Adobe Commerce en Magento Open Source. Deze update verhelpt [[!DNL critical]  en  [!DNL important] ](https://helpx.adobe.com/security/severity-ratings.html) kwetsbaarheid. Een succesvolle benutting van deze kwetsbaarheden kan leiden tot het omzeilen van beveiligingsfuncties, escalatie van bevoegdheden en het uitvoeren van willekeurige code.
+Op 10 juni 2025 heeft Adobe een regelmatig geplande beveiligingsupdate uitgebracht voor Adobe Commerce en Magento Open Source. Deze update verhelpt [[!DNL critical]  en  [!DNL important] ](https://helpx.adobe.com/nl/security/severity-ratings.html) kwetsbaarheid. Een succesvolle benutting van deze kwetsbaarheden kan leiden tot het omzeilen van beveiligingsfuncties, escalatie van bevoegdheden en het uitvoeren van willekeurige code.
 
 Meer informatie kan in het [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-50]) hier ](https://helpx.adobe.com/security/products/magento/apsb25-50.html) worden gevonden.
 
@@ -33,7 +33,7 @@ U kunt meer over [ lezen ons geïsoleerde proces van de flardplaatsing hier.](ht
 >
 >Neem contact op met de ondersteuningsservices als u problemen ondervindt bij het toepassen van de beveiligingspatch/de geïsoleerde patch.
 
-Als herinnering, kunt u [ de recentste updates van de Veiligheid hier vinden beschikbaar voor Adobe Commerce.](https://helpx.adobe.com/security/products/magento.html)
+Als herinnering, kunt u [ de recentste updates van de Veiligheid hier vinden beschikbaar voor Adobe Commerce.](https://helpx.adobe.com/nl/security/products/magento.html)
 
 ## Betrokken producten en versies
 
@@ -93,7 +93,7 @@ Voor Adobe Commerce-versies:
 
 ## Hoe wordt de geïsoleerde pleister aangebracht
 
-Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) in onze basis van steunkennis voor instructies wordt verstrekt.
+Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=nl-NL) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ## Alleen voor Adobe Commerce op Cloud-handelaren - Hoe kan ik zien of de geïsoleerde patches zijn aangebracht?
 
@@ -103,7 +103,7 @@ Aangezien het niet mogelijk is om eenvoudig te controleren of de uitgave is gere
 >
 ><u> u kunt dit doen door de volgende stappen te nemen, gebruikend het dossier `VULN-27015-2.4.7_COMPOSER.patch` **als VOORBEELD**</u>:
 
-1. [ installeer het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [ installeer het Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=nl-NL).
 1. Voer de opdracht uit:<br>
    ![ cve-2024-34102-tell-if-patch-applied-code ](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. U zou output gelijkend op dit moeten zien, waar VULN-27015 de *Toegepaste* status terugkeert:
@@ -123,4 +123,4 @@ Aangezien het niet mogelijk is om eenvoudig te controleren of de uitgave is gere
 Beveiligingsupdates beschikbaar voor Adobe Commerce:
 
 * [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-50]) ](https://helpx.adobe.com/security/products/magento/apsb25-50.html)
-* [ De recentste updates van de Veiligheid beschikbaar voor Adobe Commerce ](https://helpx.adobe.com/security/products/magento.html)
+* [ De recentste updates van de Veiligheid beschikbaar voor Adobe Commerce ](https://helpx.adobe.com/nl/security/products/magento.html)
