@@ -29,7 +29,7 @@ De stappen die in dit artikel worden beschreven, zijn ook van toepassing als u u
 
 ## Oplossing
 
-1. Controleer of u de juiste service-id en API-token voor [!DNL Fastly] hebt en probeer opnieuw te valideren. Voor gedetailleerde instructie, verwijs naar [ Test de  [!DNL Fastly]  geloofsbrieven ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
+1. Controleer of u de juiste service-id en API-token voor [!DNL Fastly] hebt en probeer opnieuw te valideren. Voor gedetailleerde instructie, verwijs naar [ Test de  [!DNL Fastly]  geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
 1. Als het verifiëren van de geloofsbrieven ontbreekt, stel het volgende krullbevel in werking om de status van de dienst te bevestigen:
 
    ```curl
@@ -50,6 +50,6 @@ De stappen die in dit artikel worden beschreven, zijn ook van toepassing als u u
 
 ## Verwante lezingen in onze ontwikkelaarsdocumentatie:
 
-* [ Wolk voor Adobe Commerce >  [!DNL Fastly] >  [!DNL Fastly]  de dienstrekening en geloofsbrieven ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
+* [ Wolk voor Adobe Commerce >  [!DNL Fastly] >  [!DNL Fastly]  de dienstrekening en geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
 
-* [ Wolk voor Adobe Commerce > Opstelling  [!DNL Fastly] > Test de  [!DNL Fastly]  geloofsbrieven ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
+* [ Wolk voor Adobe Commerce > Opstelling  [!DNL Fastly] > Test de  [!DNL Fastly]  geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
