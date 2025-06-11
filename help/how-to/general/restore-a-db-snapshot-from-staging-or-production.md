@@ -17,7 +17,7 @@ In dit artikel wordt weergegeven hoe u een database [!DNL snapshot] vanaf [!DNL 
 >[!NOTE]
 >
 >Deze methodes zullen de **volledige momentopname** herstellen.
->>Als u de momentopname **gedeeltelijk** - voor voorbeeld moet herstellen, slechts het herstellen van de cataloguslijsten terwijl het verlaten van de ordetabellen intact-u moet met uw ontwikkelaar of DBA raadplegen.
+>&#x200B;>Als u de momentopname **gedeeltelijk** - voor voorbeeld moet herstellen, slechts het herstellen van de cataloguslijsten terwijl het verlaten van de ordetabellen intact-u moet met uw ontwikkelaar of DBA raadplegen.
 
 
 ## Betrokken producten en versies
