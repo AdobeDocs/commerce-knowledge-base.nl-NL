@@ -1,9 +1,9 @@
 ---
 title: Veelgestelde vragen voor de Adobe Commerce-releasestrategie en het beleid voor de levenscyclus van 2024 en 2023
-description: Om aan de opdracht-kritieke behoeften van de klanten van Adobe Commerce te voldoen, breiden wij ons steunvenster voor Adobe Commerce 2.4.4 en recentere versies aan **3 jaar van de versie  [!DNL GA]  date* uit. De steun omvat **zowel veiligheids als kwaliteitspatches**. Raadpleeg onze nieuwe [releasekalender] (https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=nl-NL) voor informatie over de timing.
+description: Om aan de opdracht-kritieke behoeften van de klanten van Adobe Commerce te voldoen, breiden wij ons steunvenster voor Adobe Commerce 2.4.4 en recentere versies aan **3 jaar van de versie  [!DNL GA]  date* uit. De steun omvat **zowel veiligheids als kwaliteitspatches**. Raadpleeg onze nieuwe [releasekalender] (https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) voor informatie over de timing.
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
-source-git-commit: 216e3c6c7f4db605b39ef365356bc18c76ea034e
+source-git-commit: 68587ca3e861ef326e006a7ab086d197f37ae9b3
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Het [ Beleid van de Levenscyclus van de Software van Adobe Commerce ](https://ww
 
 ### Wanneer zullen de klanten op 2.4.4, 2.4.5, 2.4.6 en 2.4.7 eind-van-steun onder dit nieuwe beleid bereiken?
 
-Klanten met Adobe Commerce 2.4.4+ ontvangen een correctie voor beveiliging en kwaliteit gedurende 3 jaar vanaf de datum van versie [!DNL GA], zoals weergegeven in de onderstaande tijdlijn. Zie de [ Vrijgegeven Versies ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=nl-NL) pagina op [!DNL Experience League] voor specifieke eind-van-steundata.
+Klanten met Adobe Commerce 2.4.4+ ontvangen een correctie voor beveiliging en kwaliteit gedurende 3 jaar vanaf de datum van versie [!DNL GA], zoals weergegeven in de onderstaande tijdlijn. Zie de [ Vrijgegeven Versies ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html) pagina op [!DNL Experience League] voor specifieke eind-van-steundata.
 
 ![ Grafiek 1 ](assets/MSKB-1978-1.jpg)
 
@@ -44,14 +44,14 @@ Het leveren van nieuwe mogelijkheden als composable [!DNL SaaS] diensten verleen
 
 In 2023 kunnen klanten ongeveer twee weken voor de algemene beschikbaarheid toegang krijgen tot Adobe Commerce-patchreleases.
 
-Vanaf 2024 biedt Adobe geen &quot;pre-release&quot;-toegang meer tot patches. In plaats daarvan, voor 2.4.7 en later, kunnen de klanten [ bètaversies ](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html?lang=nl-NL) gebruiken om tot pre-algemene beschikbaarheidscode voor het testen en ontwikkelingsdoeleinden toegang te hebben. De toegang van de pre-versie is nog gepland voor de volgende 2023 versies:
+Vanaf 2024 biedt Adobe geen &quot;pre-release&quot;-toegang meer tot patches. In plaats daarvan, voor 2.4.7 en later, kunnen de klanten [ bètaversies ](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html) gebruiken om tot pre-algemene beschikbaarheidscode voor het testen en ontwikkelingsdoeleinden toegang te hebben. De toegang van de pre-versie is nog gepland voor de volgende 2023 versies:
 
 * 8 augustus 2023 is de pre-release toegang 25 juli 2023
 * Op 10 oktober 2023 is de pre-release toegang 26 september 2023
 
 ### Waar wordt het Adobe Commerce-releaseschema geplaatst?
 
-Controle uit het [ de versieschema van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=nl-NL) op [!DNL Experience League] voor meer details.
+Controle uit het [ de versieschema van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) op [!DNL Experience League] voor meer details.
 
 ### Wat zijn de verschillende soorten versies inbegrepen in het programma?
 
@@ -62,11 +62,11 @@ Controle uit het [ de versieschema van Adobe Commerce ](https://experienceleague
 
 ### Waar gaan klanten om kwaliteitspatches te krijgen?
 
-Met kwaliteitspatches kunt u oplossingen distribueren voor afzonderlijke kwaliteitsproblemen. Klanten kunnen contact opnemen met Adobe Support of [[!DNL Quality Patch Tool] ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html?lang=nl-NL) gebruiken om kwaliteitspatches te zoeken.
+Met kwaliteitspatches kunt u oplossingen distribueren voor afzonderlijke kwaliteitsproblemen. Klanten kunnen contact opnemen met Adobe Support of [[!DNL Quality Patch Tool] ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) gebruiken om kwaliteitspatches te zoeken.
 
 ### Welke middelen zijn beschikbaar om met planning, begroting, en verbeteringen in het algemeen te helpen?
 
-Beschikbare bronnen zijn onder andere een uitgebreide 2.4-upgradehandleiding, een technische upgrade voor de Workshop-opname en de [!DNL Upgrade Compatibility Tool] . Een uitvoerige lijst van middelen kan op [ Experience League ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/resources/recommended-reading.html?lang=nl-NL) worden gevonden.
+Beschikbare bronnen zijn onder andere een uitgebreide 2.4-upgradehandleiding, een technische upgrade voor de Workshop-opname en de [!DNL Upgrade Compatibility Tool] . Een uitvoerige lijst van middelen kan op [ Experience League ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/resources/recommended-reading.html) worden gevonden.
 
 ### Hoe kan Customer Engineering mij als Managed Services-klant helpen bij de upgrade naar 2.4.4+?
 
@@ -191,7 +191,7 @@ Deze plannen omvatten zowel kwaliteits- als beveiligingspatches voor de kerntoep
 
 Onder uitgebreide steun, zal ons team van de Techniek van de Klant de zelfde kwaliteit en veiligheidspatches blijven verstrekken zoals gebruikelijk, zonder enige gebiedsdegradatie. Klanten zullen echter aanvullende maatregelen moeten nemen om [!DNL PCI] -compatibel te blijven als onderliggende technologieën van derden, zoals [!DNL MariaDB], het einde van de ondersteuning bereiken.
 
-Adobe biedt geen ondersteuning voor technologieën van derden die het einde van de support hebben bereikt. De Adobe adviseert dat de klanten met hun [[!DNL PCI]  beoordelaar ](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors/) werken om naleving te verzekeren. Verwijs naar [ Vereisten van het Systeem van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements) voor een volledige lijst van geteste en gesteunde derdetechnologieën.
+Adobe biedt geen ondersteuning voor technologieën van derden die het einde van de support hebben bereikt. Adobe adviseert dat de klanten met hun [[!DNL PCI]  beoordelaar ](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors/) werken om naleving te verzekeren. Verwijs naar [ Vereisten van het Systeem van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements) voor een volledige lijst van geteste en gesteunde derdetechnologieën.
 
 <table style="height: 444px; width: 632.2px;">
 <tbody>
@@ -225,7 +225,7 @@ Adobe biedt geen ondersteuning voor technologieën van derden die het einde van 
 </tbody>
 </table>
 
-* <sup> 1 </sup> Adobe Commerce 2.4.4 en 2.4.5 de klanten van de Wolk zullen niet door [!DNL PHP] 8.1 EOS datum tijdens de uitgebreide steun worden beïnvloed, aangezien de Adobe automatisch levenslange steun [!DNL PHP] 8.1 veiligheidsmoeilijke situaties op hun infrastructuur zal toepassen. Adobe Commerce 2.4.4 en 2.4.5 Klanten op locatie moeten contact opnemen met de ondersteuning van Adoben om, indien nodig, een beveiligingspatch voor de [!DNL PHP] 8.1-levenslange ondersteuning te vereisen.
+* <sup> 1 </sup> Adobe Commerce 2.4.4 en 2.4.5 de klanten van de Wolk zullen niet door [!DNL PHP] 8.1 EOS datum tijdens de uitgebreide steun worden beïnvloed, aangezien Adobe automatisch levenslange steun [!DNL PHP] 8.1 veiligheidsmoeilijke situaties op hun infrastructuur zal toepassen. Adobe Commerce 2.4.4 en 2.4.5 Klanten die op locatie zijn, moeten contact opnemen met de ondersteuning van Adobe om, indien nodig, een beveiligingspatch voor de [!DNL PHP] 8.1-levenslange ondersteuning te vereisen.
 * <sup> 2 </sup> Verenigbaarheid met [!DNL MariaDB] 10.6 voor Adobe Commerce 2.4.4 en 2.4.5 wordt gepland om in werkingsgebied van April 2025 veiligheid-enige flarden vrij te geven.
 * <sup> 3 </sup> Verenigbaarheid met [!DNL Composer] 2.8 voor Adobe Commerce 2.4.4 en 2.4.5 wordt gepland om in werkingsgebied van April 2025 veiligheid-enige flarden worden vrijgegeven.
 * <sup> 4 </sup> Verenigbaarheid met [!DNL OpenSearch] 2 voor Adobe Commerce 2.4.4 en 2.4.5 wordt gepland om in werkingsgebied van April 2025 veiligheid-enige flarden worden vrijgegeven.
