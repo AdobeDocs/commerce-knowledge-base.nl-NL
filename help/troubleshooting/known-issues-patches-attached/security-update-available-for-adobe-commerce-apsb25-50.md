@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op 10 juni 2025 heeft Adobe een regelmatig geplande beveiligingsupdate uitgebracht voor Adobe Commerce en Magento Open Source. Deze update verhelpt [[!DNL critical]  en  [!DNL important] ](https://helpx.adobe.com/nl/security/severity-ratings.html) kwetsbaarheid. Een succesvolle benutting van deze kwetsbaarheden kan leiden tot het omzeilen van beveiligingsfuncties, escalatie van bevoegdheden en het uitvoeren van willekeurige code.
 
-Meer informatie kan in het [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-50]) hier ](https://helpx.adobe.com/security/products/magento/apsb25-50.html) worden gevonden.
+Meer informatie kan in het [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-50]) hier ](https://helpx.adobe.com/nl/security/products/magento/apsb25-50.html) worden gevonden.
 
 >[!NOTE]
 >
@@ -122,5 +122,5 @@ Aangezien het niet mogelijk is om eenvoudig te controleren of de uitgave is gere
 
 Beveiligingsupdates beschikbaar voor Adobe Commerce:
 
-* [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-50]) ](https://helpx.adobe.com/security/products/magento/apsb25-50.html)
+* [ Bulletin van de Veiligheid van Adobe ([!DNL APSB25-50]) ](https://helpx.adobe.com/nl/security/products/magento/apsb25-50.html)
 * [ De recentste updates van de Veiligheid beschikbaar voor Adobe Commerce ](https://helpx.adobe.com/nl/security/products/magento.html)

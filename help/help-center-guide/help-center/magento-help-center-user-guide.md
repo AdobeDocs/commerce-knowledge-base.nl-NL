@@ -75,7 +75,7 @@ Door in te loggen kunt u vragen van medewerkers op ondersteuningstickets indiene
 
 Voer de volgende stappen uit om u aan te melden bij de Adobe Experience League Support:
 
-1. Navigeer aan [ Experience.adobe.com ](https://experienceleague.adobe.com/).
+1. Navigeer aan [ Experience.adobe.com ](https://experienceleague.adobe.com/nl).
 1. Meld u aan met uw aanmeldingsgegevens voor Adobe.
 
 ![ teken-in-ervaring-liga ](assets/experience_league_sign_in.png)
@@ -178,7 +178,7 @@ U moet een account hebben op zowel https://account.adobe.com als https://account
 
 Ga als volgt te werk als u een nieuw ondersteuningsticket wilt verzenden via uw Adobe Commerce-accountpagina:
 
-1. Meld u aan bij uw Adobe Commerce-account. Zie [ gedetailleerde instructies ](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) in onze gebruikersgids.
+1. Meld u aan bij uw Adobe Commerce-account. Zie [ gedetailleerde instructies ](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=nl-NL#create-a-commerce-account) in onze gebruikersgids.
 1. Klik de **Steun** tabel.
 
    ![ magento_account_support_tab ](assets/magento_account_support_tab.png){width="800"}
