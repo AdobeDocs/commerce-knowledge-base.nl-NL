@@ -3,7 +3,7 @@ title: Hotline voor meldingen in Adobe Commerce P1
 description: Dit artikel verstrekt de P1 bericht hotline aantallen voor Adobe Commerce die kunnen worden gebruikt wanneer het proberen om een P1 incident te melden en verklaart welke informatie te verstrekken.
 feature: Communications
 exl-id: 48c4fe93-676e-4c69-a96c-8fb3e6872973
-source-git-commit: 8c0c128f2469086c44dcea0e9edc87f934578a69
+source-git-commit: bbff778a020a05953b82b452cdede7c46f20c990
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Zoals bepaald in [ de Voorwaarden en de Voorwaarden van de Diensten van de Steun
 ## P1-meldingsbeleid voor telefonische telefonische hulpdiensten
 
 * P1 meldings hotline is beschikbaar om P1-vlakke kwesties te melden. (Zie de definitie van het P1-incident in de vorige sectie).
-* [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) voorafgaand aan het roepen van het P1 van Adobe Commerce meldingshotline voor.
+* [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) voorafgaand aan het roepen van het P1 van Adobe Commerce meldingshotline voor.
 * Het onderzoek, het oplossen van problemen, en de mededeling zullen uitsluitend binnen het steunkaartje plaatsvinden.
 * Voeg alle extra informatie die u over de kwestie kunt hebben direct aan het kaartje toe, voorafgaand aan het roepen.
 * Wanneer het roepen, ben zeker om het kaartaantal te hebben.
@@ -32,7 +32,7 @@ Zoals bepaald in [ de Voorwaarden en de Voorwaarden van de Diensten van de Steun
 Nota: Als u audio-messagerie om het even welke reden bereikt, gelieve uw informatie te verlaten: Volledige Naam, Bedrijf, Telefoon #, en Ticket #. De lijnen worden gecontroleerd en een ingenieur zal uw vraag zo spoedig mogelijk terugkeren.
 
 * VS
-   * Gratis: (+1) 800 497 0335 (druk in het eerste menu op 6 voor de Adobe Commerce P1-hotline)
+   * Gratis: (+1) 800 497 0335 (druk in het eerste menu op 3 voor de Adobe Commerce P1-hotline)
 * EMEA
    * VK: (+44) 800 169 0454 (Druk in het eerste menu op 6 voor de Adobe Commerce P1-hotline)
    * Denemarken: (+45) 80206017 (druk in het eerste menu op 6 voor de Adobe Commerce P1-hotline)
