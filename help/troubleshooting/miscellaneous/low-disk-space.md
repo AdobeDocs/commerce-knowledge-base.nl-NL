@@ -4,9 +4,9 @@ description: In dit artikel worden oplossingen voorgesteld voor de situatie waar
 exl-id: 1b2c25d3-ca1b-4409-8d6b-378aa0952f94
 feature: Storage, Observability
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 842c329b5d8bacf72ac689412fde5a5d76d16e85
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ In dit artikel worden oplossingen voorgesteld voor de situatie waarin er onvoldo
 
 ## Probleem
 
-Er is onvoldoende schijfruimte op de schijf met beschrijfbare mappen. Één symptoom kan [ geplakte plaatsing ](/help/troubleshooting/deployment/deployment-stuck-with-unable-to-upload-the-application-to-the-remote-cluster-error.md) zijn.
+Er is onvoldoende schijfruimte op de schijf met beschrijfbare mappen. Één symptoom kan [ geplakte plaatsing ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26878) zijn.
 
 Voer de volgende opdracht uit om het schijfgebruik te controleren:
 
@@ -45,9 +45,9 @@ Oplossingsopties:
 * Reinig de map `var` .
 * Stel een uitsnijdtaak in om de grootte van de map `var` bij te houden en te opschonen.
 * Wijs meer schijfruimte toe als u wat ongebruikte hebt. (Zie de onderstaande sectie voor informatie over hoe u kunt controleren wat uw limiet is voor ruimte.)
-   * Voor het plan van de Aanzet, kunnen alle milieu&#39;s, en Pro de milieu&#39;s van de Integratie, u de schijfruimte toewijzen als u wat ongebruikt hebt, zoals die in [ wordt beschreven beheert schijfruimte: Het toewijzen van schijfruimte ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
+   * Voor het plan van de Aanzet, kunnen alle milieu&#39;s, en Pro de milieu&#39;s van de Integratie, u de schijfruimte toewijzen als u wat ongebruikt hebt, zoals die in [ wordt beschreven beheert schijfruimte: Het toewijzen van schijfruimte ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
    * Voor de milieu&#39;s van het Staging en van de Productie van het Pro Plan, contacteer steun om meer schijfruimte toe te wijzen als u wat ongebruikt hebt.
-* Als u uw ruimtelimiet hebt bereikt en nog steeds weinig ruimte hebt, kunt u overwegen meer schijfruimte te kopen. Neem contact op met het accountteam van de Adobe voor meer informatie.
+* Als u uw ruimtelimiet hebt bereikt en nog steeds weinig ruimte hebt, kunt u overwegen meer schijfruimte te kopen. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
 ### Limiet schijfruimte controleren
 
