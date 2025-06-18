@@ -104,7 +104,7 @@ U kunt de vorige 10 rapporten van uw eind produceren. Neem contact op met de ond
 
 ### Welke informatie is nodig wanneer het voorleggen van een steunkaartje?
 
-Gelieve te verstrekken precies de domeinnaam aangezien het voor [ veiligheidsaftasten ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID, en Cloud Project_ID wordt voorgelegd. Merk op dat Cloud Project_ID niet voor Adobe Commerce op-gebouw wordt vereist.
+Gelieve te verstrekken precies de domeinnaam aangezien het voor [ veiligheidsaftasten ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID, en Cloud Project_ID wordt voorgelegd. Merk op dat Cloud Project_ID niet voor Adobe Commerce op-gebouw wordt vereist.
 
 ### Wat gebeurt er als ik mijn winkel verwijder van scannen met hulpprogramma&#39;s?
 
