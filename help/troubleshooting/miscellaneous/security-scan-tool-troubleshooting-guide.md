@@ -4,9 +4,9 @@ description: Leer hoe u de verschillende problemen kunt oplossen met het hulppro
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: 525352027bfa4a8728bdbbfe61af3dca5dbb18f9
+source-git-commit: c6e338fb33477ab107fe4de382b485339b57275a
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Leer hoe u de verschillende problemen kunt oplossen met het hulpprogramma Securi
 
 ## Uitgave: kan de site niet verzenden
 
-Voor het hulpprogramma Beveiligingsscan moet u aantonen dat u de site in eigendom hebt voordat het domein aan het hulpprogramma Beveiligingsscan kan worden toegevoegd. U kunt dit doen door een bevestigingscode aan uw site toe te voegen met een HTML-opmerking of de `<meta>` -tag. De opmerking HTML moet binnen de tag `<body>` worden geplaatst, bijvoorbeeld in de voettekstsectie. De tag `<meta>` moet in de `<head>` -sectie van de pagina worden geplaatst.
+Voor het hulpprogramma Beveiligingsscan moet u aantonen dat u de site in eigendom hebt voordat het domein aan het hulpprogramma Beveiligingsscan kan worden toegevoegd. U kunt dit doen door een bevestigingscode aan uw site toe te voegen met een HTML-opmerking of de `<meta>` -tag. De HTML-opmerking moet binnen de `<body>` -tag worden geplaatst, bijvoorbeeld in de voettekstsectie. De tag `<meta>` moet in de `<head>` -sectie van de pagina worden geplaatst.
 
 Handelaren hebben vaak te maken met het probleem dat de Beveiligingsscan Tool de eigendom van de site van de handelaar niet kan bevestigen.
 
@@ -25,11 +25,11 @@ Als u een fout krijgt en uw plaats voor het aftasten niet kunt voorleggen, verwi
 
 ## Probleem: lege rapporten die zijn gegenereerd door het gereedschap Beveiligingsscan
 
-U krijgt lege aftastenrapporten van het hulpmiddel van het Scannen van de Veiligheid of krijgt rapporten die slechts één fout bevatten zoals *het hulpmiddel van de Veiligheid niet kon basis URL* bereiken of *de installatie van het Magento wordt niet gevonden op verstrekte URL*.
+U krijgt lege aftastenrapporten van het hulpmiddel van het Scannen van de Veiligheid of krijgt rapporten die slechts één fout bevatten zoals *het hulpmiddel van de Veiligheid niet kon de basis URL* bereiken of *de installatie van Magento wordt niet gevonden op verstrekte URL*.
 
 ### Oplossing
 
-1. Controleer of IP&#39;s van 52.87.98.44, 34.196.167.176 en 3.218.25.102 niet worden geblokkeerd bij 80 en 443 poorten.
+1. Controleer of 52.87.98.44 , 34.196.167.176 en 3.218.25.102 IP&#39;s niet zijn geblokkeerd op 80 en 443 poorten.
 1. Controleer de verzonden URL op omleidingen (bijvoorbeeld `https://mystore.com` wordt omgeleid naar `https://www.mystore.com` of andersom of wordt omgeleid naar andere domeinnamen).
 1. Bekijk WAF/webserver-toegangslogbestanden voor afgewezen of niet-uitgevoerde aanvragen. HTTP 403 `Forbidden` en HTTP 500 `Internal server error` zijn de gemeenschappelijke serverreacties die lege rapportgeneratie veroorzaken. Hier is een voorbeeld van de bevestigingscode die verzoeken door gebruikersagenten blokkeert:
 
@@ -57,7 +57,7 @@ De volgende statussen kunnen bij controles worden weergegeven:
 
 1. **pas** over: Het hulpmiddel van het Scannen van de Veiligheid heeft uw bijgewerkte gegevens gescand en de veranderingen goedgekeurd.
 1. **Onbekend**: Het hulpmiddel van het Scannen van de Veiligheid heeft nog geen gegevens over uw domein; wacht op de volgende synchronisatiecyclus.
-1. **Gebrek**: Als de status toont ontbreken, zult u de kwestie moeten bevestigen (laat 2FA toe, verander admin URL, enz.) en wacht op de volgende synchronisatiecyclus.
+1. **Gebrek**: Als de status toont ontbreken, zult u de kwestie (toelaat 2FA, veranderings admin URL, enz.) moeten bevestigen en op de volgende synchronisatiecyclus wachten.
 
 Als 24 uren zijn overgegaan aangezien de veranderingen aan de instantie werden aangebracht en zij niet in het Scanrapport van de Veiligheid worden weerspiegeld, kunt u [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen. Geef de URL van de winkel op wanneer u het ticket verzendt.
 
@@ -104,8 +104,8 @@ U kunt de vorige 10 rapporten van uw eind produceren. Neem contact op met de ond
 
 ### Welke informatie is nodig wanneer het voorleggen van een steunkaartje?
 
-Geef de domeinnaam op.
+Gelieve te verstrekken precies de domeinnaam aangezien het voor [ veiligheidsaftasten ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID, en Cloud Project_ID wordt voorgelegd. Merk op dat Cloud Project_ID niet voor Adobe Commerce op-gebouw wordt vereist.
 
 ### Wat gebeurt er als ik mijn winkel verwijder van scannen met hulpprogramma&#39;s?
 
-Als u de archiefverzending verwijdert, worden alle verwante gegevens, inclusief scanrapporten, verwijderd. Deze bewerking is onomkeerbaar. De verzending van het opslagdomein na het schrapping leidt tot een NIEUWE voorlegging.
+Als u de archiefverzending verwijdert, worden alle verwante gegevens, inclusief scanrapporten, verwijderd. Deze bewerking is onomkeerbaar. De verzending van het opslagdomein na de verwijdering ervan leidt tot een NIEUWE voorlegging.
