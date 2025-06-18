@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 4f4d516ab4250249928c676d9451a1efe041c207
+source-git-commit: 2ed731574bb25c31d0fcb800fcf8f98b85ff0bc2
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3459'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,6 @@ ht-degree: 0%
       * [Gereviseerde patches voor Google Maps-toegangsverlies op alle Adobe Commerce-versies](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * Overige {#miscellaneous}
       * [Repareren gegevens niet bijgewerkt in  [!DNL Commerce Data Exporter]  voer en  [!DNL cron]  logboekfouten met veranderingslijst bestaan niet](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
-      * [Hoe te om te controleren waarom  [!DNL cron]  gehandicapt was](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
       * [De onderzoekmachine van de fout  [!DNL opensearch]  bestaat niet. Bezig met terugvallen naar  [!DNL livesearch] .](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [E-mail met de mededeling dat de exportopslag bijna vol is](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [Geïndexeerde indexen en &#39;indexer_rendex_all_invalid&#39; worden constant uitgevoerd](/help/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.md)
@@ -165,7 +164,6 @@ ht-degree: 0%
       * [Leeg pagina- of omleidingsfout bij toegang tot winkel of Commerce-beheerder](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
       * [Adobe Commerce 2.4.1 Vertex Bericht voor validatie van hoekpunt Bericht na adresupdate](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md)
       * [Extension Manager geeft geen extensies weer in Adobe Commerce 2.3.x](/help/troubleshooting/miscellaneous/extension-manager-shows-no-extensions-in-magento-commerce-2-3-x.md)
-      * [Pas een patch toe om DHL als scheepvaartmaatschappij te blijven aanbieden](/help/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.md)
       * [Meld u opnieuw aan bij Commerce Admin om u aan te melden](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [Problemen met coderingssleutel oplossen](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
       * [Fout &quot;Updater application is not available&quot;](/help/troubleshooting/miscellaneous/updater-application-is-not-available-error.md)
@@ -195,7 +193,6 @@ ht-degree: 0%
       * [Het rapport Beveiligingsscan Tool is leeg](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
       * [Adobe Commerce 2.4.2-p1: factuur met een onjuiste waarde](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
       * [Kan de nieuwste Adobe Commerce-pre-release niet openen](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
-      * [Wachtwoorden voor beheerders die zijn opgeslagen als onbewerkte tekst in het logboek Handelingen](/help/troubleshooting/miscellaneous/admin-passwords-saved-as-plain-text-to-actions-log.md)
       * [Index is vergrendeld door een ander proces](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
       * [Een gegevensdiscrepantie diagnosticeren](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
       * [E-mailberichten voor Admin 2FA worden niet ontvangen](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
@@ -206,7 +203,6 @@ ht-degree: 0%
       * [Blockers die op Adobe Commerce starten op cloudinfrastructuur](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
       * [Fouten in PHP-instellingen](/help/troubleshooting/miscellaneous/php-settings-errors.md)
       * [Uitgave opnieuw vertragen Aanmelden bij Commerce Admin of uitchecken](/help/troubleshooting/miscellaneous/redis-issue-delay-magento-admin-login-or-checkout.md)
-      * [Problemen met Composer-plug-ins bij de upgrade naar Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/adobe-commerce-244-update-composer.md)
       * [PHP-coderingsextensie is niet correct geïnstalleerd](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
       * [Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 gekend probleem: digitale aanmelding](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
       * [Cron job zit vast in status &quot;running&quot;](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
@@ -214,7 +210,6 @@ ht-degree: 0%
       * [Problemen na het uitschakelen van een module](/help/troubleshooting/miscellaneous/issues-after-disabling-a-module.md)
       * [Offload niet-regex herleidt naar Fastly in plaats van Nginx (routes)](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
       * [Bekende uitgave van Adobe Commerce 2.4.0: knoppen Nieuwe volgorde maken ontbreken](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
-      * [403 fouten bij de toegang tot Site-brede Analyse Tool op Adobe Commerce](/help/troubleshooting/miscellaneous/403-errors-when-accessing-site-wide-analysis-tool-on-magento.md)
       * [Advanced Reporting troubleshooter voor Adobe Commerce](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
       * [Veelvoorkomende fatale fouten en oplossingen in PHP](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
       * [Composer-update mislukt op Adobe Commerce: niet-compatibel argumenttype](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
@@ -304,15 +299,12 @@ ht-degree: 0%
       * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
-      * [Implementatie mislukt: kan de MDVA-43395-patch niet toepassen](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
-      * [Implementatiefouten die voortvloeien uit het inschakelen van de vroege alfakalermodule](/help/troubleshooting/deployment/deployment-errors-from-enabling-early-alpha-baler-javascript-bundling-build.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
       * [Implementatie mislukt snel incompatibele Adobe Commerce-versie](/help/troubleshooting/deployment/deployment-fails-fastly-module-incompatible-magento-version.md)
       * [Implementatiefout: SQLSTATE[HY000]](/help/troubleshooting/deployment/deployment-error-sql-hy000.md)
       * [Implementatieproblemen met betrekking tot accountmachtigingen en toegangssleutels](/help/troubleshooting/deployment/deployment-issues-relating-to-account-permissions-and-access-keys.md)
       * [Adobe Commerce-probleemoplossing voor implementatie](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md)
       * [Fout tijdens implementatie bij upgrade naar versie die PHP 8.1 ondersteunt](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
-      * [De plaatsing ontbreekt met &quot;Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1](/help/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.md)
       * [Implementatiefout: &quot;fout 7 tijdens het downloaden ... poort 443: verbinding geweigerd&quot;](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [Implementatiefouten bij het uitvoeren van onjuiste bestanden](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [Implementatiefouten waarbij patches niet zijn gevonden](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
