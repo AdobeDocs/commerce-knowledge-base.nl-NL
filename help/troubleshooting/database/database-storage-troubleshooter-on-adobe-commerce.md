@@ -4,9 +4,9 @@ description: Dit artikel is een hulpprogramma voor het oplossen van problemen vo
 exl-id: f7b09023-7129-4fd0-9bb5-02a2228bc148
 feature: Observability, Services, Storage, Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Als u een van de hierboven beschreven symptomen heeft, controleert u de toestand
 
 Is IUse% > 90%?
 
-a. JA - Dit wordt veroorzaakt door te veel bestanden. Herzie de stappen om dossiers veilig in [ te verwijderen schrap veilig dossiers wanneer uit schijfruimte, Adobe Commerce op wolkeninfrastructuur ](/help/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md). Ga aan [ Stap 2 ](#step-2) te werk nadat u deze stappen hebt voltooid. Als u meer ruimte wilt verzoeken, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+a. JA - Dit wordt veroorzaakt door te veel bestanden. Herzie de stappen om dossiers veilig in [ te verwijderen schrap veilig dossiers wanneer uit schijfruimte, Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889). Ga aan [ Stap 2 ](#step-2) te werk nadat u deze stappen hebt voltooid. Als u meer ruimte wilt verzoeken, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NO. - Ruimte controleren. Voer `df -h | grep mysql` en vervolgens `df -h | grep tmp` uit in de CLI/Terminal om het gebruik van schijfruimte in de mappen `/tmp` en `/data/mysql` te controleren. Ga aan [ Stap 3 ](#step-3) te werk.
 
 +++
@@ -93,4 +93,4 @@ b. NO - [ legt een steunkaartje ](/help/help-center-guide/help-center/magento-he
 
 ## Gerelateerde lezing
 
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

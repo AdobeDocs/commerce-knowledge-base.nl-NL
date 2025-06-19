@@ -4,7 +4,7 @@ description: Dit artikel biedt oplossingen om vertragingen of onderbrekingen in 
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Wijzigingen die u aanbrengt in de database, worden niet doorgevoerd in de winkel
 
 ## Oorzaak
 
-Als uw indexeerders [ worden gevormd om door programma ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) bij te werken, zou de kwestie door één of meerdere lijsten met veranderingslogboeken kunnen worden veroorzaakt die te groot zijn of trekkers MySQL die niet opstelling zijn.
+Als uw indexeerders [ worden gevormd om door programma ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) bij te werken, zou de kwestie door één of meerdere lijsten met veranderingslogboeken kunnen worden veroorzaakt die te groot zijn of trekkers MySQL die niet opstelling zijn.
 
 ### Te grote logtabellen voor wijzigingen
 
@@ -71,7 +71,7 @@ Gebruik de volgende opdracht om deze bewerking uit te voeren.
 
 >[!WARNING]
 >
->Alvorens de wijzen van de omschakelingsindexeerder, adviseren wij het zetten van uw website in [ onderhoud ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=nl-NL#maintenance-mode) wijze en [ bouwbanen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=nl-NL#disable-cron-jobs) onbruikbaar maken om gegevensbestandsloten te vermijden.
+>Alvorens de wijzen van de omschakelingsindexeerder, adviseren wij het zetten van uw website in [ onderhoud ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode) wijze en [ bouwbanen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs) onbruikbaar maken om gegevensbestandsloten te vermijden.
 
 ```bash
 php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
@@ -83,6 +83,6 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## Gerelateerde lezing
 
-* [[!DNL MySQL]  de lijsten zijn te groot ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/database/mysql-tables-are-too-large) in onze basis van de steunkennis
+* [[!DNL MySQL]  de lijsten zijn te groot ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945) in onze basis van de steunkennis
 * [ Indexeren: [!DNL Mview] ](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) in onze ontwikkelaarsdocumentatie
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
