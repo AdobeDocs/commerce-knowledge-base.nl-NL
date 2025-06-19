@@ -42,4 +42,4 @@ De configuratie van de zoekmachine is vergrendeld in het `app/etc/env.php` -best
 
 ## Gerelateerde lezing
 
-* [ Vergrendelde (grijs uit) gebieden in Commerce Admin ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26879) in Commerce op de Gids van de Infrastructuur van de Wolk.
+* [ Vergrendelde (grijs uit) gebieden in Commerce Admin ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26879) in Commerce op de Gids van de Infrastructuur van de Wolk.

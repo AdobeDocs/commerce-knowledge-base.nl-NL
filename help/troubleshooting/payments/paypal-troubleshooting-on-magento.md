@@ -41,7 +41,7 @@ Als uw PayPal-betalingsmethode API&#39;s met factureringsovereenkomsten en refer
 
 Zie de volgende artikelen:
 
-* [ PayPal gateway verworpen verzoek - dubbele factuurkwestie ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838) in onze basis van de steunkennis.
+* [ PayPal gateway verworpen verzoek - dubbele factuurkwestie ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26838) in onze basis van de steunkennis.
 * [ verhogingsidentiteitskaart van de Verandering voor nieuwe opslagentiteit ](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md) in onze basis van de steunkennis.
 
 ## Contact opnemen met de ondersteuningsafdeling om geavanceerde betalingslogboeken te verzamelen

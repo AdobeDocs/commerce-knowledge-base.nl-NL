@@ -30,7 +30,7 @@ Als u een van de hierboven beschreven symptomen heeft, controleert u de toestand
 
 Is IUse% > 90%?
 
-a. JA - Dit wordt veroorzaakt door te veel bestanden. Herzie de stappen om dossiers veilig in [ te verwijderen schrap veilig dossiers wanneer uit schijfruimte, Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889). Ga aan [ Stap 2 ](#step-2) te werk nadat u deze stappen hebt voltooid. Als u meer ruimte wilt verzoeken, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+a. JA - Dit wordt veroorzaakt door te veel bestanden. Herzie de stappen om dossiers veilig in [ te verwijderen schrap veilig dossiers wanneer uit schijfruimte, Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26889). Ga aan [ Stap 2 ](#step-2) te werk nadat u deze stappen hebt voltooid. Als u meer ruimte wilt verzoeken, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NO. - Ruimte controleren. Voer `df -h | grep mysql` en vervolgens `df -h | grep tmp` uit in de CLI/Terminal om het gebruik van schijfruimte in de mappen `/tmp` en `/data/mysql` te controleren. Ga aan [ Stap 3 ](#step-3) te werk.
 
 +++
@@ -93,4 +93,4 @@ b. NO - [ legt een steunkaartje ](/help/help-center-guide/help-center/magento-he
 
 ## Gerelateerde lezing
 
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
