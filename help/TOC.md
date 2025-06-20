@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: dc2149f886d46826610f2f74b48ef9060a4ff376
+source-git-commit: 9defec16bbe62e13320d20fcbd0b5e65e946d9f7
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3257'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,6 @@ ht-degree: 0%
       * [Nieuwe omgevingen die onder productie worden geplaatst wanneer ze van Git worden geduwd](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
       * [Fout na aanmelden bij Commerce Admin](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
       * [Magento Order Management System (OMS) voor Adobe Commerce-time-out](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
-      * [Verzending neerhalen onjuist adres](/help/troubleshooting/miscellaneous/drop-shipping-picks-up-wrong-address.md)
       * [Fout bij wissen van cache in Commerce Admin](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
       * [Adobe Commerce 2.4.1: lege pagina wanneer digitale pagina Builder-formulier wordt opgeslagen](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Adobe Commerce-cloud: opnieuw indexeren wordt afgesloten met een bericht Met verlies](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
