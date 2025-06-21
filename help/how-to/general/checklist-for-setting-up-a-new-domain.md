@@ -159,4 +159,4 @@ Als de nieuwe winkel of website die u hebt gemaakt, niet wordt weergegeven in he
 ## Gerelateerde lezing
 
 * [ Opstelling veelvoudige websites of opslag: voeg Nieuw  [!DNL Domains] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=nl-NL#add-new-domains) in onze gebruikersgids toe.
-* [ Plaats niet toegankelijk toe te schrijven aan oorsprong het camoufleren ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26856)
+* [ Plaats niet toegankelijk toe te schrijven aan oorsprong het camoufleren ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26856)

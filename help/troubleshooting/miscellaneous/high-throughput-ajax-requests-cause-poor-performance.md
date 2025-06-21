@@ -50,7 +50,7 @@ Als er AJAX-verzoeken van derden zijn die op elke pagina worden geactiveerd, pro
 * Als u inhoud in `sections.xml` moet opnieuw laden of ongeldig maken volg de stappen in [ Privé inhoud: bevestig privé inhoud ](https://developer.adobe.com/commerce/php/development/cache/page/private-content/#invalidate-private-content) in onze ontwikkelaarsdocumentatie. Zorg ervoor dat u de methode `customerData.reload()` niet rechtstreeks in uw aanpassingen gebruikt.
 * Controleer andere POST AJAX-aanvragen op dezelfde pagina. Open Google Chrome Developer Tool in Google Chrome browser. Klik op het **lusje van het Netwerk** en dan het **XHR** lusje, en er zal de lijst van alle verzoeken van AJAX van de bepaalde pagina zijn. Klik vervolgens op elke aanvraag en in het veld Aanvraagmethode moeten de GET-aanvragen worden vermeld. Opmerking: Google Chrome wordt als voorbeeld gebruikt en dit is ook mogelijk in andere browsers.
 * Controleer de GTM-functionaliteit (Google Tag Manager) die een specifieke AJAX-aanvraag is. De gebruiker kan deze AJAX verwijderen en de aanpassing ervan voorzien van een privéfunctie om het totale aantal aanvragen bij de server te beperken.
-* Controleer of de Adobe Commerce Banner is ingeschakeld maar niet wordt gebruikt. U zou [ de output van de Banner van Adobe Commerce kunnen moeten onbruikbaar maken om plaatsprestaties ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909) te verbeteren.
+* Controleer of de Adobe Commerce Banner is ingeschakeld maar niet wordt gebruikt. U zou [ de output van de Banner van Adobe Commerce kunnen moeten onbruikbaar maken om plaatsprestaties ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26909) te verbeteren.
 
 ### Verwante lezing
 

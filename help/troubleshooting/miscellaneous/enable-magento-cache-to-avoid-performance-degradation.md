@@ -52,7 +52,7 @@ Adobe Commerce cache-documentatie in onze ontwikkelaarsdocumentatie:
 
 Andere mogelijke redenen voor prestatieproblemen en oplossingen voor deze problemen:
 
-* [ maak de output van de Banner van Adobe Commerce onbruikbaar om plaatsprestaties te verbeteren ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909)
+* [ maak de output van de Banner van Adobe Commerce onbruikbaar om plaatsprestaties te verbeteren ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26909)
 * [ MySQL de lijsten zijn te groot ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26945)
 * [Trage prestaties, langzame en langlopende bekers](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
 * [Beperkte toegang tot beheerder leidt tot prestatieproblemen](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
