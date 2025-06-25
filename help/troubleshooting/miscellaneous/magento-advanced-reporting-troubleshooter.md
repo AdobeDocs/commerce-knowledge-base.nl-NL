@@ -4,9 +4,9 @@ description: Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgel
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 842c329b5d8bacf72ac689412fde5a5d76d16e85
+source-git-commit: 50262a7b98091d4388668c984cfd8237bd534bad
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,10 @@ Geavanceerde rapportproblemen op Adobe Commerce kunnen worden opgelost met dit h
 
 +++**voldoet uw website Geavanceerde Rapportagevereisten?**
 
-U hebt een 404 pagina van de Fout wanneer het gebruiken van Geavanceerde Rapportering. Voldoet uw website [ Geavanceerde het Melden Vereisten ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)?
+U hebt een 404 pagina van de Fout wanneer het gebruiken van Geavanceerde Rapportering. Voldoet uw website [ Geavanceerde het Melden Vereisten ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)?
 
 a. JA - ga aan [ Stap 2 ](#step-2) te werk.\
-b. NO - voltooi de Geavanceerde Rapportagevereisten voor uw plaats door de stappen in [ Geavanceerde Rapportagevereisten ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements) te volgen. Dan, ga aan [ Stap 2 ](#step-2) te werk.
+b. NO - voltooi de Geavanceerde Rapportagevereisten voor uw plaats door de stappen in [ Geavanceerde Rapportagevereisten ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements) te volgen. Dan, ga aan [ Stap 2 ](#step-2) te werk.
 
 +++
 
@@ -32,7 +32,7 @@ b. NO - voltooi de Geavanceerde Rapportagevereisten voor uw plaats door de stapp
 
 Worden meerdere basisvaluta&#39;s gebruikt (in orders en in configuratie)? Voer deze [!DNL SQL] -opdracht uit om de huidige configuratie te verkrijgen: `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` .
 
-a. JA - als er veelvoudige rijen door de vraag zijn teruggekeerd, kunt u Geavanceerde Rapportering niet gebruiken, aangezien wij slechts één munt steunen.\
+a. JA - Als de query meerdere rijen retourneert, kunt u **[!UICONTROL Advanced Reporting]** niet gebruiken omdat we slechts één valuta ondersteunen. U zult [ Adobe Commerce Intelligence ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview) moeten gebruiken. Neem contact op met uw accountteam om dit in te stellen.
 b. NO - Output toont slechts één valuta. Voorbeeld: `USD` . Zijn er ooit meerdere basisvaluta&#39;s gebruikt (in orders)? Voer deze opdracht [!DNL SQL] uit om historische ordergegevens te verkrijgen:\
 `SELECT DISTINCT base_currency_code FROM sales_order;`.
 **NOTA: Dit bevel vereist een volledig lijstaftasten, zodat voor lijsten met hoge aantallen verslagen, dit een prestatieseffect zou kunnen hebben terwijl de vraag** uitvoert om historische ordegegevens te verkrijgen.
@@ -44,7 +44,7 @@ Als er meerdere basisvaluta&#39;s zijn gebruikt, kunt u Geavanceerde rapportage 
 
 +++**gebruikt u gespleten gegevensbestandoplossing?**
 
-Gebruikt u [ gespleten gegevensbestandoplossing ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)?
+Gebruikt u [ gespleten gegevensbestandoplossing ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)?
 
 a. JA - gebruik het flard **MDVA-26831** in Geavanceerde Rapportering 404 fout op gespleten gegevensbestandoplossing en duidelijk geheime voorgeheugen. Wacht 24 uur voordat de taak opnieuw wordt uitgevoerd en probeer het opnieuw.\
 b. NO - ga aan [ Stap 4 ](#step-4) te werk.
@@ -55,10 +55,10 @@ b. NO - ga aan [ Stap 4 ](#step-4) te werk.
 
 +++**wordt Geavanceerde toegelaten Rapportering?**
 
-Controle **Admin** > **Slaat** > **Montages** > **Configuratie** > **Algemeen** > **Geavanceerde het Melden** op. Voor gedetailleerde stappen, overzicht [ Geavanceerde Rapportering: laat Geavanceerde Rapportering ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) toe.
+Controle **Admin** > **Slaat** > **Montages** > **Configuratie** > **Algemeen** > **Geavanceerde het Melden** op. Voor gedetailleerde stappen, overzicht [ Geavanceerde Rapportering: laat Geavanceerde Rapportering ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) toe.
 
 a. JA - ga aan [ Stap 5 ](#step-5) te werk.\
-b. NO - [ laat Geavanceerde Rapportering ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) toe en sparen, en wacht 24 uren op Adobe Commerce en Geavanceerde Rapportering om te synchroniseren. Controleer of uw gegevens nu worden geladen. Als dat het geval is, hebt u het probleem opgelost. Als het niet aan [ Stap 5 ](#step-5) te werk gaat.
+b. NO - [ laat Geavanceerde Rapportering ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) toe en sparen, en wacht 24 uren op Adobe Commerce en Geavanceerde Rapportering om te synchroniseren. Controleer of uw gegevens nu worden geladen. Als dat het geval is, hebt u het probleem opgelost. Als het niet aan [ Stap 5 ](#step-5) te werk gaat.
 
 +++
 
@@ -81,9 +81,9 @@ Controleer de tellerwaarde in de vlaglijst door deze vraag in werking te stellen
 
 a. JA - Voer de volgende stappen uit: 1. Voer de query hieronder uit:\
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``\
-2\. [ onbruikbaar maken en laat Geavanceerde Meldingsmodule ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) in montages toe en [ machtigt het teken ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active) opnieuw.\
+2\. [ onbruikbaar maken en laat Geavanceerde Meldingsmodule ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) in montages toe en [ machtigt het teken ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active) opnieuw.\
 3 Wacht 24 uur op Adobe Commerce en de Geavanceerde Rapporten om te synchroniseren. Als u nog geen gegevens in Geavanceerde Rapportering kunt zien, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. NO - Als de query niets oplevert, voert u de volgende stappen uit: 1. [ onbruikbaar maken en laat Geavanceerde Meldingsmodule ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) in montages toe en [ machtigt het teken ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active) opnieuw.\
+b. NO - Als de query niets oplevert, voert u de volgende stappen uit: 1. [ onbruikbaar maken en laat Geavanceerde Meldingsmodule ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) in montages toe en [ machtigt het teken ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active) opnieuw.\
 2\. Wacht 24 uur op Adobe Commerce en de Geavanceerde Rapporten om te synchroniseren. Als u nog geen gegevens in Geavanceerde Rapportering kunt zien, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
@@ -145,7 +145,7 @@ b. NO - ga aan [ Stap 10 ](#step-10) te werk.
 
 Voorbeeld: In de `cron_schedule` lijst ziet u de fout *&quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a000850c0 dossier kan niet worden geschrapt*. Waarschuwing!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a000850c0?lang=en): Geen dergelijk bestand of deze map*
 
-a. JA - gebruik het ACSD-50165 flard in [ het dossier kan niet worden geschrapt. Waarschuwing!unlink: Geen dergelijk dossier of folderfout van Admin ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26887), wacht 24 uur op de baan om opnieuw te lopen en dan opnieuw te proberen.\
+a. JA - gebruik het ACSD-50165 flard in [ het dossier kan niet worden geschrapt. Waarschuwing!unlink: Geen dergelijk dossier of folderfout van Admin ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26887), wacht 24 uur op de baan om opnieuw te lopen en dan opnieuw te proberen.\
 b. NO - ga aan [ Stap 11 ](#step-11) te werk.
 
 +++
@@ -165,4 +165,4 @@ b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magent
 
 ## Gerelateerde lezing
 
-[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
