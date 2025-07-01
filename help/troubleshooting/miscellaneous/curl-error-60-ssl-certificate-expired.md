@@ -44,7 +44,7 @@ Twee methodes om te controleren wanneer de laatste plaatsing werd uitgevoerd:
 
 Als de implementatie is voltooid, wordt [!DNL SSL certificate] automatisch vernieuwd.
 
-Als de plaatsing ontbreekt en u hulp nodig die het oplossen, [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) oplost.
+Als de plaatsing ontbreekt en u hulp nodig die het oplossen, [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) oplost.
 
 ### Methode 1: [!DNL magento-cloud] CLI gebruiken {#meth2}
 
@@ -59,9 +59,9 @@ Ga bijvoorbeeld naar: `https://demo.magento.cloud/#/projects/<project>/environme
 In onze documentatie voor ontwikkelaars:
 
 * [ Cloud Manager API: SSLCcertificates ](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#tag/SSLCertificates)
-* [ Opstelling snel: Verlening SSL/TLS certificaten ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
+* [ Opstelling snel: Verlening SSL/TLS certificaten ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
 
 In onze kennisbasis voor ondersteuning:
 
-* [ de informatie van de het certificaatvervaldatum van de Douane SSL ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html)
-* [ SSL (TLS) certificaten voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html)
+* [ de informatie van de het certificaatvervaldatum van de Douane SSL ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html?lang=nl-NL)
+* [ SSL (TLS) certificaten voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html?lang=nl-NL)
