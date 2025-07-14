@@ -18,7 +18,7 @@ ht-degree: 0%
 Adobe Commerce biedt kwaliteitsoplossingen voor een kleine release gedurende minimaal 12 maanden vanaf de algemene beschikbaarheidsdatum van de volgende secundaire softwarerelease. De manier waarop wij in deze periode kwaliteitscorrecties aanbrengen, is aan het veranderen:
 
 * **Voorafgaand beleid:** momenteel bevestigt de kwaliteit aan de vorige lijn die in het venster van 12 maanden EOS is door onze driemaandelijkse flardversie wordt geleverd, vandaar het maken van de driemaandelijkse flarden een combinatie veiligheid + kwaliteit.
-* **Nieuw beleid:** Beginnend met 2.4 als huidigste minder belangrijke versielijn, de flarden van de versie voor de vorige gesteunde lijn (2.3) zullen zich aan veiligheid-slechts bewegen. Wij zullen nog kwaliteitsmoeilijke situaties voor de vorige gesteunde lijn tijdens het 12 maandenvenster na versie van een minder belangrijk (als 2.4) en verdere nieuwe minder belangrijke versielijnen leveren; maar die zullen door [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) beschikbaar worden gemaakt en slechts op kritieke kwesties worden geconcentreerd.
+* **Nieuw beleid:** Beginnend met 2.4 als huidigste minder belangrijke versielijn, de flarden van de versie voor de vorige gesteunde lijn (2.3) zullen zich aan veiligheid-slechts bewegen. Wij zullen nog kwaliteitsmoeilijke situaties voor de vorige gesteunde lijn tijdens het 12 maandenvenster na versie van een minder belangrijk (als 2.4) en verdere nieuwe minder belangrijke versielijnen leveren; maar die zullen door [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) beschikbaar worden gemaakt en slechts op kritieke kwesties worden geconcentreerd.
 
 ## Wanneer wordt dit beleid van kracht?
 
@@ -38,7 +38,7 @@ Adobe zal ook voor de meest recente releaselijn alleen nog maar beveiligingsrele
 
 ## Wat is het gereedschap Kwaliteitspatches?
 
-Gelieve te verwijzen naar het [ vrijgegeven Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitsflarden ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) in onze steunkennisbasis zelf-te dienen.
+Gelieve te verwijzen naar het [ vrijgegeven Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitsflarden ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) in onze steunkennisbasis zelf-te dienen.
 
 ## Wie zou dit nieuwe beleid moeten gebruiken?
 
@@ -50,7 +50,7 @@ Uiteindelijk moeten alle handelaren prioriteit geven aan de planning om de nieuw
 
 ## Hoe zal ik kwaliteitsmoeilijke situaties op gesteunde minder belangrijke versies krijgen die niet de recentste lijn zijn?
 
-De moeilijke situaties zullen beschikbaar via het [ Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) worden gemaakt.
+De moeilijke situaties zullen beschikbaar via het [ Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) worden gemaakt.
 
 ## Hoe krijg ik correcties voor kwaliteit op de meest recente regel?
 
