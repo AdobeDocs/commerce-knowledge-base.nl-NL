@@ -3,9 +3,10 @@ title: Verhoogde uitvoeringstijd voor bulkasynchrone webeindpunten na APSB25-08-
 description: Dit artikel biedt een hotfix voor het probleem waarbij POST-rusten/all/async/bulk/V1/products-aanvragen voor 1000+-items na het toepassen van de APSB25-08-beveiligingspatch aanzienlijk meer uitvoeringstijd hebben.
 feature: Security, Cache, REST, Products, Customers
 role: Admin, Developer
-source-git-commit: fce7f860b9fddd694b311ffc4acd56a48c06e14b
+exl-id: 784a48cb-1ef1-432b-b09f-ebcbb9bebf01
+source-git-commit: f0c2e20e0bd6dab713be59c1c686ee2948445bd4
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -55,8 +56,8 @@ Om de kwestie op te lossen, pas [ AC-14078-2-4x-composer-patch.zip ](assets/AC-1
 
 ## Hoe de pleister aanbrengen
 
-Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=nl-NL) in onze basis van steunkennis voor instructies wordt verstrekt.
+Pak het dossier uit en zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) in onze basis van steunkennis voor instructies wordt verstrekt.
 
 ## Gerelateerde lezing
 
-* [Beveiligingsupdate beschikbaar voor Adobe Commerce - APSB25-08](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
+* [ de update van de Veiligheid beschikbaar voor Adobe Commerce - APSB25-08 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)
