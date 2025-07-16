@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 9defec16bbe62e13320d20fcbd0b5e65e946d9f7
+source-git-commit: 86fcde85e7e751125c47f3bc3693b8155d1e972f
 workflow-type: tm+mt
-source-wordcount: '3257'
+source-wordcount: '3220'
 ht-degree: 0%
 
 ---
@@ -294,10 +294,6 @@ ht-degree: 0%
       * [Rotatie coderingssleutel voor probleemoplossing: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
       * [Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-40] Gereviseerd om geïsoleerde patch op te nemen voor  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
       * [[!DNL UPS] het verschepen migratie van de methodeintegratie van  [!DNL SOAP]  aan  [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
-      * [[!DNL USPS] Ondersteuning voor hotfix van de verzendmethode voor grondvoordeel voor AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
-      * [Adobe Commerce 2.4.3-p2 - 2.4.5 beveiligingshotfix voor CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
-      * [Adobe Commerce 2.4.4: Onbekwaam om gedeeltelijke facturen te creëren](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
-      * [Geavanceerd zoeken geeft niet de meest relevante resultaten weer](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [Fout bij het filteren van orders in Admin](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [Gebruikers die geen product aan winkelwagentje kunnen toevoegen als er niets is geselecteerd in Allow countries](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
       * [Adobe Commerce Admin URL-locatie wordt weergegeven](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
