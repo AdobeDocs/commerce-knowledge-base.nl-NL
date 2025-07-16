@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: f0c2e20e0bd6dab713be59c1c686ee2948445bd4
+source-git-commit: 4d3f571c55feb4752037429b9708e71dcf2c571b
 workflow-type: tm+mt
-source-wordcount: '3192'
+source-wordcount: '3164'
 ht-degree: 0%
 
 ---
@@ -286,10 +286,6 @@ ht-degree: 0%
       * [Implementatie mislukt bij leegmaken van cache: &quot;Er zijn geen opdrachten gedefinieerd in de fout &#39;cache&#39; namespace](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * Bekende problemen {#known-issues-patches-attached}
       * [Richtlijnen voor het beveiligen van uw winkel en het roteren van coderingssleutels: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
-      * [Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
-      * [Rotatie coderingssleutel voor probleemoplossing: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
-      * [Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-40] Gereviseerd om geïsoleerde patch op te nemen voor  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
-      * [[!DNL UPS] het verschepen migratie van de methodeintegratie van  [!DNL SOAP]  aan  [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [Fout bij het filteren van orders in Admin](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [Gebruikers die geen product aan winkelwagentje kunnen toevoegen als er niets is geselecteerd in Allow countries](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
       * [Adobe Commerce Admin URL-locatie wordt weergegeven](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
