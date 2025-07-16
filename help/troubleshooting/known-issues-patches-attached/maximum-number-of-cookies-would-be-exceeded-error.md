@@ -19,9 +19,9 @@ Dit artikel verstrekt flarden om de fout op te lossen die *Maximum aantal koekje
 
 Adobe Commerce (alle implementatiemethoden) 2.4.4 - 2.4.7, met een van de volgende patches:
 
-* MDVA-12304-patch toegepast met de [[!DNL Quality Patches Tool (QPT)] ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
-* [ de update van de Veiligheid beschikbaar voor Adobe Commerce - APSB25-08 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)
-* [ de Patches van de Wolk voor  [!DNL Commerce]  1.1.4 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)
+* MDVA-12304-patch toegepast met de [[!DNL Quality Patches Tool (QPT)] ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [ de update van de Veiligheid beschikbaar voor Adobe Commerce - APSB25-08 ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27149)
+* [ de Patches van de Wolk voor  [!DNL Commerce]  1.1.4 ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)
 
 ## Probleem
 
@@ -50,6 +50,6 @@ De kwestie komt voor omdat het maximumaantal toegestane koekjes aan *50* wordt g
 
 ### Gerelateerde lezing
 
-* [ past flarden ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/apply) in de gids van de Verbetering van Adobe Commerce toe
-* [ Beste praktijken voor het verspreiden van de flarden van Adobe Commerce bij schaal ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) in het Playbook van de Implementatie van Adobe Commerce
-* [ de nota&#39;s van de Versie voor Commerce Cloud Tools Suite ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) in Commerce op de Gids van de Wolk.
+* [ past flarden ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/patches/apply) in de gids van de Verbetering van Adobe Commerce toe
+* [ Beste praktijken voor het verspreiden van de flarden van Adobe Commerce bij schaal ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) in het Playbook van de Implementatie van Adobe Commerce
+* [ de nota&#39;s van de Versie voor Commerce Cloud Tools Suite ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) in Commerce op de Gids van de Wolk.
