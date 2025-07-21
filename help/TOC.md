@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 2d9b1c0934e7f2646462a73a786e126ab29719b0
+source-git-commit: 3ac35387a6ccf5b8ee721f1cc3777f20adb919f0
 workflow-type: tm+mt
-source-wordcount: '3193'
+source-wordcount: '3128'
 ht-degree: 0%
 
 ---
@@ -286,14 +286,6 @@ ht-degree: 0%
       * [Implementatie mislukt bij leegmaken van cache: &quot;Er zijn geen opdrachten gedefinieerd in de fout &#39;cache&#39; namespace](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * Bekende problemen {#known-issues-patches-attached}
       * [Richtlijnen voor het beveiligen van uw winkel en het roteren van coderingssleutels: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
-      * [Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
-      * [Rotatie coderingssleutel voor probleemoplossing: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
-      * [Beveiligingsupdate beschikbaar voor Adobe Commerce - [!DNL APSB24-40] Gereviseerd om geïsoleerde patch op te nemen voor  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
-      * [[!DNL UPS] het verschepen migratie van de methodeintegratie van  [!DNL SOAP]  aan  [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
-      * [[!DNL USPS] Ondersteuning voor hotfix van de verzendmethode voor grondvoordeel voor AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
-      * [Adobe Commerce 2.4.3-p2 - 2.4.5 beveiligingshotfix voor CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
-      * [Adobe Commerce 2.4.4: Onbekwaam om gedeeltelijke facturen te creëren](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
-      * [Geavanceerd zoeken geeft niet de meest relevante resultaten weer](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [Pakketten die na een upgrade zijn gedowngraded van 2.4.4 naar 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [E-mailadres bestellen dat is verzonden vanaf het e-mailadres van de server](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
       * [Adobe Commerce 2.4.6-fout bij het plaatsen van de volgorde in het deelvenster Beheer](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
