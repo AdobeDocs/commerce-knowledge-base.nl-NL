@@ -4,7 +4,7 @@ description: Dit artikel verstrekt oplossingen voor wanneer u zeer lage ruimte o
 exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 feature: Catalog Management, Categories, Cloud, Paas, Services
 role: Developer
-source-git-commit: 80343c834563e7550569d225979edfa6a997bcfc
+source-git-commit: 660c463850abc145a22c34174aff45ac5ede6707
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 0%
@@ -78,7 +78,7 @@ De hoeveelheid `/data/mysql` kan vol worden als gevolg van een aantal problemen,
 
 Er is een directe stap die u kunt nemen om [!DNL MySQL] weer op de rails te krijgen (of om te voorkomen dat  vastloopt): maak ruimte vrij door grote tabellen te spoelen.
 
-Maar een oplossing op lange termijn zou meer ruimte en na [ beste praktijken van het Gegevensbestand ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=nl-NL) toewijzen, met inbegrip van het toelaten van de [ Orde/Factuur/het archieffunctionaliteit van het Verzending ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
+Maar een oplossing op lange termijn zou meer ruimte en na [ beste praktijken van het Gegevensbestand ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) toewijzen, met inbegrip van het toelaten van de [ Orde/Factuur/het archieffunctionaliteit van het Verzending ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
 
 Hieronder vindt u details over zowel snelle als langetermijnoplossingen.
 
@@ -124,7 +124,7 @@ Controleren op groot `ibtmp1` bestand op `/data/mysql` van elk knooppunt: dit be
 
 >[!WARNING]
 >
->We raden u ten zeerste aan een back-up van een database te maken voordat u wijzigingen aanbrengt en deze te vermijden tijdens perioden met veel laadtijd. Zie [ Dump uw gegevensbestand ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots) in onze ontwikkelaardocumentatie.
+>We raden u ten zeerste aan een back-up van een database te maken voordat u wijzigingen aanbrengt en deze te vermijden tijdens perioden met veel laadtijd. Zie [ Dump uw gegevensbestand ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots) in onze ontwikkelaardocumentatie.
 
 Controleer of er grote tabellen zijn en of een van deze tabellen kan worden verwijderd. Doe dit op het primaire (bron) knooppunt.
 
@@ -132,7 +132,7 @@ Tabellen met rapporten kunnen bijvoorbeeld meestal worden verwijderd. Voor detai
 
 Als er geen grote rapporttabellen zijn, kunt u `_index` -tabellen leegmaken, gewoon om de Adobe Commerce-toepassing weer op schema te krijgen. `index_price` -tabellen zijn de beste kandidaten. Bijvoorbeeld `catalog_category_product_index_storeX` tabellen, waarin X waarden kan hebben van &quot;1&quot; tot het maximale aantal winkels. Onthoud dat u opnieuw moet indexeren om gegevens in deze tabellen te herstellen. In het geval van grote catalogi kan het veel tijd kosten om de gegevens opnieuw te indexeren.
 
-Wacht tot de software volledig is gesynchroniseerd nadat u deze hebt verwijderd. U kunt steunen nu tot stand brengen en belangrijkere stappen nemen om meer ruimte toe te voegen, als het toewijzen van/het kopen van meer ruimte en het toelaten van [ functionaliteit van het archiefarchief 0&rbrace; van de Orde/van de Rekening/van de Verzending.](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-archive)
+Wacht tot de software volledig is gesynchroniseerd nadat u deze hebt verwijderd. U kunt steunen nu tot stand brengen en belangrijkere stappen nemen om meer ruimte toe te voegen, als het toewijzen van/het kopen van meer ruimte en het toelaten van [ functionaliteit van het archiefarchief 0} van de Orde/van de Rekening/van de Verzending.](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)
 
 ### Instellingen voor binaire logboekregistratie controleren
 
@@ -148,7 +148,7 @@ Als u geen toegang hebt tot [!DNL MySQL] -serverinstellingen, vraagt u om onders
    mysql -h127.0.0.1 -p`php -r "echo (include('app/etc/env.php'))['db']['connection']['default']['password'];"` -u`whoami` `whoami`
    ```
 
-   Voor gedetailleerde stappen, verwijs naar [ verbinden en stel vragen tegen het gegevensbestand van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries) in werking.
+   Voor gedetailleerde stappen, verwijs naar [ verbinden en stel vragen tegen het gegevensbestand van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries) in werking.
 
 1. Controleren op ongebruikte ruimte:
 
@@ -161,17 +161,17 @@ Als u geen toegang hebt tot [!DNL MySQL] -serverinstellingen, vraagt u om onders
 
    | table_name | size_MB | Toegewezen_maar_ongebruikt |
    |----------------------|----------|--------------------------|
-   | vertex_taxrequest | 28145,20 | 14943,00 |
+   | sales_order_grid | 28145,20 | 14943,00 |
 
 
    Controleer de uitvoer om te zien of er geheugen is toegewezen maar dat niet wordt gebruikt. Dit gebeurt wanneer gegevens uit een tabel zijn verwijderd, maar het geheugen nog steeds aan die tabel is toegewezen.
 
 
-1. Plaats uw site in de onderhoudsmodus en stop de taken voor uitsnijden zodat er geen interactie plaatsvindt in de database. Voor stappen, verwijs naar [ toelaten of onbruikbaar maken onderhoudswijze ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) en [ maak kanonnen banen ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs) onbruikbaar.
+1. Plaats uw site in de onderhoudsmodus en stop de taken voor uitsnijden zodat er geen interactie plaatsvindt in de database. Voor stappen, verwijs naar [ toelaten of onbruikbaar maken onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) en [ maak kanonnen banen ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs) onbruikbaar.
 1. Wis die ruimte door de tabel opnieuw te maken met de volgende opdracht (gebruik de bovenstaande tabel met de meest ongebruikte ruimte):
 
    ```sql
-   ALTER TABLE vertex_taxrequest Engine = "INNODB";
+   ALTER TABLE sales_order_grid Engine = "INNODB";
    ```
 
 1. Voer de volgende query uit om te controleren op niet-toegewezen ruimte voor elke tabel met een hoge waarde in de kolom **[!UICONTROL Allocated_but_unused]** .
@@ -182,7 +182,7 @@ Als u geen toegang hebt tot [!DNL MySQL] -serverinstellingen, vraagt u om onders
    ```
 
 
-1. Nu [ maak onderhoudswijze ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1) onbruikbaar en [ laat kanonnen banen ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs) toe.
+1. Nu [ maak onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1) onbruikbaar en [ laat kanonnen banen ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs) toe.
 
 
 ### Meer ruimte toewijzen/kopen
@@ -196,4 +196,4 @@ Als u uw ruimtelimiet hebt bereikt en nog steeds weinig ruimte hebt, kunt u over
 
 ## Gerelateerde lezing
 
-[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
