@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 3ac35387a6ccf5b8ee721f1cc3777f20adb919f0
+source-git-commit: acc2baf6066204bb8a4babf18fce9d595b011394
 workflow-type: tm+mt
-source-wordcount: '3128'
+source-wordcount: '3081'
 ht-degree: 0%
 
 ---
@@ -286,11 +286,6 @@ ht-degree: 0%
       * [Implementatie mislukt bij leegmaken van cache: &quot;Er zijn geen opdrachten gedefinieerd in de fout &#39;cache&#39; namespace](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * Bekende problemen {#known-issues-patches-attached}
       * [Richtlijnen voor het beveiligen van uw winkel en het roteren van coderingssleutels: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
-      * [Pakketten die na een upgrade zijn gedowngraded van 2.4.4 naar 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
-      * [E-mailadres bestellen dat is verzonden vanaf het e-mailadres van de server](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-      * [Adobe Commerce 2.4.6-fout bij het plaatsen van de volgorde in het deelvenster Beheer](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
-      * [[!UICONTROL salesRule] problemen met labels bij upgrades van versies &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
-      * [[!DNL JQuery UI] veiligheid kwetsbaarheid  [!DNL CVE-2022-31160]  moeilijke situatie voor 2.4.4, 2.4.5, en 2.4.6 versies](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
       * [[!DNL FedEx] Integratie van verzendmethoden van SOAP naar RESTful-API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
       * [Fout bij maximum aantal cookies in Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/maximum-number-of-cookies-would-be-exceeded-error.md)
       * [Verhoogde uitvoeringstijd voor alle bulkasynchrone webeindpunten na APSB25-08-beveiligingspatch](/help/troubleshooting/known-issues-patches-attached/increased-execution-time-for-bulk-asynchronous-web-endpoints-post-apsb25-08-security-patch.md)
