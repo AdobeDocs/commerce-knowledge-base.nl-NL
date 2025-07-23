@@ -132,7 +132,7 @@ Tabellen met rapporten kunnen bijvoorbeeld meestal worden verwijderd. Voor detai
 
 Als er geen grote rapporttabellen zijn, kunt u `_index` -tabellen leegmaken, gewoon om de Adobe Commerce-toepassing weer op schema te krijgen. `index_price` -tabellen zijn de beste kandidaten. Bijvoorbeeld `catalog_category_product_index_storeX` tabellen, waarin X waarden kan hebben van &quot;1&quot; tot het maximale aantal winkels. Onthoud dat u opnieuw moet indexeren om gegevens in deze tabellen te herstellen. In het geval van grote catalogi kan het veel tijd kosten om de gegevens opnieuw te indexeren.
 
-Wacht tot de software volledig is gesynchroniseerd nadat u deze hebt verwijderd. U kunt steunen nu tot stand brengen en belangrijkere stappen nemen om meer ruimte toe te voegen, als het toewijzen van/het kopen van meer ruimte en het toelaten van [ functionaliteit van het archiefarchief 0} van de Orde/van de Rekening/van de Verzending.](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)
+Wacht tot de software volledig is gesynchroniseerd nadat u deze hebt verwijderd. U kunt steunen nu tot stand brengen en belangrijkere stappen nemen om meer ruimte toe te voegen, als het toewijzen van/het kopen van meer ruimte en het toelaten van [ functionaliteit van het archiefarchief 0&rbrace; van de Orde/van de Rekening/van de Verzending.](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)
 
 ### Instellingen voor binaire logboekregistratie controleren
 
