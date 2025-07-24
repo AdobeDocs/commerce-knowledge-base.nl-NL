@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: acc2baf6066204bb8a4babf18fce9d595b011394
+source-git-commit: 15d38d9b0cb18536326c0afbb12b8a21eaee596c
 workflow-type: tm+mt
-source-wordcount: '3081'
+source-wordcount: '3029'
 ht-degree: 0%
 
 ---
@@ -286,11 +286,6 @@ ht-degree: 0%
       * [Implementatie mislukt bij leegmaken van cache: &quot;Er zijn geen opdrachten gedefinieerd in de fout &#39;cache&#39; namespace](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * Bekende problemen {#known-issues-patches-attached}
       * [Richtlijnen voor het beveiligen van uw winkel en het roteren van coderingssleutels: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
-      * [[!DNL FedEx] Integratie van verzendmethoden van SOAP naar RESTful-API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
-      * [Fout bij maximum aantal cookies in Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/maximum-number-of-cookies-would-be-exceeded-error.md)
-      * [Verhoogde uitvoeringstijd voor alle bulkasynchrone webeindpunten na APSB25-08-beveiligingspatch](/help/troubleshooting/known-issues-patches-attached/increased-execution-time-for-bulk-asynchronous-web-endpoints-post-apsb25-08-security-patch.md)
-      * [Klantgroepnamen, segmenten en informatie over de promotieregel die via  [!DNL GraphQL] wordt weergegeven](/help/troubleshooting/known-issues-patches-attached/hotfix-for-exposed-customer-group-segments-promo-rules-information.md)
-      * [Beveiligingsupdate beschikbaar voor Adobe Commerce - APSB25-50](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-50.md)
    * Elasticsearch {#elasticsearch}
       * [Het vallen terug naar  [!DNL Elasticsearch7]  wanneer de onderzoeksmotor aan  [!DNL Opensearch] wordt geplaatst](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Elasticsearch-problemen na Adobe Commerce Cloud Infrastructure 2.3.1+-upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
