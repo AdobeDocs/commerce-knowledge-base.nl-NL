@@ -16,7 +16,7 @@ In deze gids, leer hoe te om een steunkaartje aan [ Steun van Experience League 
 
 >[!NOTE]
 >
->Adobe Commerce-ondersteuning is gemigreerd van Adobe Commerce Help Center naar Experience League. Gebruik de hier beschreven de gevalsstroom van de Experience League vorm [ ](#what-is-experience-support) om steungevallen voor te leggen.
+>Adobe Commerce-ondersteuning is gemigreerd van Adobe Commerce Help Center naar Experience League. Gebruik de hier beschreven de gevalsstroom van de Experience League vorm [&#128279;](#what-is-experience-support) om steungevallen voor te leggen.
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ Voer de volgende stappen uit om een nieuwe ondersteuningskwestie in te dienen me
 >1. Navigeer naar accounts.magento.com en meld u aan met hetzelfde profiel (bedrijf, school of persoonlijk) als u ondersteuningsgevallen in Adobe Experience League wilt beheren.
 >1. Nadat u zich hebt aangemeld bij uw accounts.magento.com-profiel, navigeert u terug naar experienceleague.adobe.com en meldt u zich aan.
 >1. Selecteer uw organisatie in het keuzemenu voor de organisatie.
->1. Als uw organisatie nog steeds niet wordt weergegeven, neemt u contact op met uw Commerce-beheerder om rechten voor ondersteuningsgemachtigden te verkrijgen. Voor extra informatie, zie het [ hulpartikel van het Aandeel van de Rekening 0} Commerce.](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)
+>1. Als uw organisatie nog steeds niet wordt weergegeven, neemt u contact op met uw Commerce-beheerder om rechten voor ondersteuningsgemachtigden te verkrijgen. Voor extra informatie, zie het [ hulpartikel van het Aandeel van de Rekening 0&rbrace; Commerce.](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)
 
 >[!NOTE]
 >
