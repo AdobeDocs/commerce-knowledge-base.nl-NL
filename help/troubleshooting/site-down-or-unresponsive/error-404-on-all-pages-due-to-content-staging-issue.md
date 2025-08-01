@@ -4,7 +4,7 @@ description: Dit artikel bevat een oplossing voor het probleem met de Adobe Comm
 exl-id: 62d8ba6e-8550-4e1e-8e8d-8f319c92778a
 feature: CMS, Catalog Management, Categories, Page Content, Staging
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 48f06a90108842e00745b75db2f56a320704faf5
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -24,9 +24,9 @@ Dit artikel bevat een oplossing voor het probleem met de Adobe Commerce-infrastr
 
 >[!NOTE]
 >
->Dit artikel is niet op de situatie van toepassing waarin u een fout 404 wanneer het proberen om [ voorproef de het opvoeren update ](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change) krijgt. Als u in die kwestie loopt, te openen gelieve a [ steunkaartje ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
+>Dit artikel is niet op de situatie van toepassing waarin u een fout 404 wanneer het proberen om [ voorproef de het opvoeren update ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change) krijgt. Als u in die kwestie loopt, te openen gelieve a [ steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
 
-De toegang tot van om het even welke storefront pagina of Admin resulteert in de 404 fout (de &quot;Wiops, onze slechte...&quot;pagina) na het uitvoeren van verrichtingen met geplande updates voor de activa van de opslaginhoud gebruikend [ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=nl-NL) (updates voor de activa van de opslaginhoud die gebruikend de [ Magento \_Staging module ](https://developer.adobe.com/commerce/php/module-reference/) worden gepland). U hebt bijvoorbeeld een product met een geplande update verwijderd of de einddatum voor de geplande update verwijderd.
+De toegang tot van om het even welke storefront pagina of Admin resulteert in de 404 fout (de &quot;Wiops, onze slechte...&quot;pagina) na het uitvoeren van verrichtingen met geplande updates voor de activa van de opslaginhoud gebruikend [ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (updates voor de activa van de opslaginhoud die gebruikend de [ Magento \_Staging module ](https://developer.adobe.com/commerce/php/module-reference/) worden gepland). U hebt bijvoorbeeld een product met een geplande update verwijderd of de einddatum voor de geplande update verwijderd.
 
 Een opslaginhoudselement bevat:
 
@@ -76,7 +76,7 @@ Als de query een tabel retourneert waarvan de `update_exists` -waarde &quot;1&qu
 
 ![ updates_exist_1.png ](assets/updates_exist_1.png)
 
-In dit geval, zou u naar de [ Plaats neer Troubleshooter ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter) voor het oplossen van problemenideeën kunnen verwijzen.
+In dit geval, zou u naar de [ Plaats neer Troubleshooter ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27152) voor het oplossen van problemenideeën kunnen verwijzen.
 
 ## Oplossing
 
@@ -88,8 +88,8 @@ In dit geval, zou u naar de [ Plaats neer Troubleshooter ](https://experiencelea
 
 1. Wacht tot de [!DNL cron] -taak is uitgevoerd (kan maximaal vijf minuten worden uitgevoerd als de instelling correct is ingesteld) of voer de taak handmatig uit als u [!DNL cron] niet hebt ingesteld.
 
-Het probleem moet direct worden opgelost nadat de ongeldige koppeling is hersteld. Als het probleem voortduurt, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
+Het probleem moet direct worden opgelost nadat de ongeldige koppeling is hersteld. Als het probleem voortduurt, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
 
 ## Gerelateerde lezing
 
-[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
