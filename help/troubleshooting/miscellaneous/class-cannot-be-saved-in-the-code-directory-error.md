@@ -4,9 +4,9 @@ description: In dit artikel wordt beschreven hoe u het probleem kunt verhelpen w
 exl-id: e2c00d4d-31c3-4446-a317-a8ac92c707d5
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Dit artikel beschrijft hoe te om de kwestie te bevestigen waar de manier u gebie
 1. In uw lokale milieu, schrijf een douaneklasse met een afhankelijkheid van de auto-geproduceerde klasse.
 1. Voer het scenario uit, waarbij de aangepaste klasse wordt geactiveerd, en zie hoe het werkt.
 1. Leg uw wijzigingen vast en duw op de integratieomgeving. Dit zou het plaatsingsproces teweegbrengen. Implementatie is geslaagd.
-1. In het [ integratiemilieu ](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), stel het scenario in werking waar uw douaneklasse wordt teweeggebracht.
+1. In het [ integratiemilieu ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242), stel het scenario in werking waar uw douaneklasse wordt teweeggebracht.
 
 <u> Verwacht resultaat </u>
 
