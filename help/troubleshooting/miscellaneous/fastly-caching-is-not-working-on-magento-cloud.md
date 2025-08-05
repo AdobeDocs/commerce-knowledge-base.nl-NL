@@ -170,13 +170,13 @@ Als u wilt controleren of Fastly is ingeschakeld in Staging en Productie, contro
    "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
    ```
 
-1. Als u het Beheer van de Configuratie gebruikt, zou u een configuratiedossier moeten hebben. Bewerk het bestand app/etc/config.app.php (2.0, 2.1) of app/etc/config.php (2.2) en controleer of de instelling `'Fastly_Cdn' => 1` juist is. De instelling moet niet `'Fastly_Cdn' => 0` (uitgeschakeld) zijn. Als u de optie Snelst hebt ingeschakeld, verwijdert u het configuratiebestand en voert u de opdracht bin/magento magento-cloud :scd-dump uit om bij te werken. Voor een looppas-door van dit dossier, zie [ Voorbeeld van het beheren van systeem-specifieke montages ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration) in de Gids van de Configuratie.
+1. Als u het Beheer van de Configuratie gebruikt, zou u een configuratiedossier moeten hebben. Bewerk het bestand app/etc/config.app.php (2.0, 2.1) of app/etc/config.php (2.2) en controleer of de instelling `'Fastly_Cdn' => 1` juist is. De instelling moet niet `'Fastly_Cdn' => 0` (uitgeschakeld) zijn. Als u de optie Snelst hebt ingeschakeld, verwijdert u het configuratiebestand en voert u de opdracht bin/magento magento-cloud :scd-dump uit om bij te werken. Voor een looppas-door van dit dossier, zie [ Voorbeeld van het beheren van systeem-specifieke montages ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html?lang=nl-NL#manage-the-system-specific-configuration) in de Gids van de Configuratie.
 
-Als de module niet geïnstalleerd is, moet u in een [ milieu van de Integratie ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) tak installeren en aan het Staging en Productie worden opgesteld. Zie [ Opstelling snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) voor instructies in Commerce op de Gids van de Infrastructuur van de Wolk.
+Als de module niet geïnstalleerd is, moet u in een [ milieu van de Integratie ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27242) tak installeren en aan het Staging en Productie worden opgesteld. Zie [ Opstelling snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) voor instructies in Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ### Fastly-Magento-VCL-Uploaded is niet aanwezig
 
-Tijdens installatie en configuratie, zou u Fastly VCL moeten uploaden. Dit zijn de basisVCL fragmenten die door de Fastly module worden verstrekt, niet de fragmenten van douaneVCL u creeert. Voor instructies, zie [ snel VCL fragmenten ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly) in Commerce op de Gids van de Infrastructuur van de Wolk uploaden.
+Tijdens installatie en configuratie, zou u Fastly VCL moeten uploaden. Dit zijn de basisVCL fragmenten die door de Fastly module worden verstrekt, niet de fragmenten van douaneVCL u creeert. Voor instructies, zie [ snel VCL fragmenten ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL#upload-vcl-to-fastly) in Commerce op de Gids van de Infrastructuur van de Wolk uploaden.
 
 ### X-cache bevat MISS
 
@@ -190,7 +190,7 @@ Als u hetzelfde resultaat krijgt, gebruikt u de krullopdrachten en controleert u
 
 Als het probleem zich blijft voordoen, worden deze headers waarschijnlijk opnieuw ingesteld door een andere extensie. Herhaal de volgende procedure in Staging om extensies uit te schakelen om te zoeken welke procedure de kwestie veroorzaakt. Nadat u de extensie(s) hebt gevonden die het probleem veroorzaakt, moet u de extensie(s) in Production uitschakelen.
 
-1. Om de uitbreidingen onbruikbaar te maken, volg de stappen die in [ worden gegeven leiden de sectie van Uitbreidingen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) van Commerce op de gids van de Infrastructuur van de Wolk.
+1. Om de uitbreidingen onbruikbaar te maken, volg de stappen die in [ worden gegeven leiden de sectie van Uitbreidingen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=nl-NL#manage-extensions) van Commerce op de gids van de Infrastructuur van de Wolk.
 1. Nadat u de extensies hebt uitgeschakeld, gaat u naar **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]** .
 1. Klik op **[!UICONTROL Flush Magento Cache]**.
 1. Schakel nu één extensie tegelijk in en sla de configuratie op en spoel de cache op.
@@ -201,6 +201,6 @@ Wanneer u de extensie isoleert die de sneltoetsen opnieuw instelt, neemt u conta
 
 ## Meer informatie in onze ontwikkelaarsdocumentatie:
 
-* [ Ongeveer snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [ Opstelling snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [ de fragmenten van VCL van de Douane de Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [ Ongeveer snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=nl-NL)
+* [ Opstelling snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL)
+* [ de fragmenten van VCL van de Douane de Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=nl-NL)

@@ -31,10 +31,10 @@ Afhankelijk van de grootte van uw catalogus/gegevens of de vereisten van uw exte
 
 Om prestatieskwesties te behandelen, zorg ervoor dat u de beste praktijken voor beste prestaties in het integratiemilieu volgt. Mogelijk moet u ook een upgrade van de omgevingen aanvragen om de integratie te verbeteren.
 
-Eerst, bepaal als uw milieu op de [ Verbeterde configuratie van de Integratie ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) is.
+Eerst, bepaal als uw milieu op de [ Verbeterde configuratie van de Integratie ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27242) is.
 
-* [ ProArchitectuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [ Architectuur van de Aanzet ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [ ProArchitectuur ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [ Architectuur van de Aanzet ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 Controleer het plaatsingslogboek gebruikend één van deze methodes.
 
@@ -59,10 +59,10 @@ opensearch (type: opensearch:2, size: L, disk: 1024)
 rabbitmq (type: rabbitmq:3.12, size: L, disk: 1024)
 ```
 
-Als u niet op de Verbeterde configuratie van de Integratie bent, kunt u [ om de verbetering/verbetering ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) verzoeken.
+Als u niet op de Verbeterde configuratie van de Integratie bent, kunt u [ om de verbetering/verbetering ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27242) verzoeken.
 Als u reeds op de Verbeterde configuratie van de Integratie bent of u nog prestatieskwesties na de verbetering ontmoet, zorg ervoor om de beste praktijken voor optimale prestaties in het integratiemilieu te volgen:
 
-* [ ProArchitectuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [ Architectuur van de Aanzet ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [ ProArchitectuur ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [ Architectuur van de Aanzet ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
-Als u de bovengenoemde aanbevelingen hebt voldaan, [ voorlegt een steunverzoek ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) voor extra hulp.
+Als u de bovengenoemde aanbevelingen hebt voldaan, [ voorlegt een steunverzoek ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) voor extra hulp.

@@ -48,10 +48,10 @@ Als u de benodigde NPM-versie wilt instellen, geeft u deze op in het configurati
    > ```
 
 1. Sla de wijzigingen op in het bestand.
-1. Git duw het uitgegeven dossier aan uw [ integratiemilieu ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242).
+1. Git duw het uitgegeven dossier aan uw [ integratiemilieu ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27242).
 
 De wijzigingen worden van kracht nadat u het bijgewerkte YAML-bestand in de omgeving hebt geplaatst.
 
 ## Gerelateerde documentatie
 
-* [ configuratie van de Toepassing: haken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) in onze Adobe Commerce op de Gids van de Infrastructuur van de Wolk.
+* [ configuratie van de Toepassing: haken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=nl-NL) in onze Adobe Commerce op de Gids van de Infrastructuur van de Wolk.
