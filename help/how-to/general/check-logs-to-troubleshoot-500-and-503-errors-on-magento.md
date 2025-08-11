@@ -1,6 +1,6 @@
 ---
 title: Logboeken controleren om 500- en 503-fouten op Adobe Commerce op te lossen
-description: Dit artikel verklaart hoe te om ` access.log ` en verwante logboeken te controleren om 503 en 500 fouten problemen op te lossen, die door verkeer of ontoereikende servermiddelen kunnen worden veroorzaakt. Door het bestand "access.log" en de bijbehorende logboeken te bekijken, kunt u informatie vinden over wat problemen met Adobe Commerce kan veroorzaken op het gebied van cloudinfrastructuur.
+description: Dit artikel verklaart hoe te om &grave; access.log &grave; en verwante logboeken te controleren om 503 en 500 fouten problemen op te lossen, die door verkeer of ontoereikende servermiddelen kunnen worden veroorzaakt. Door het bestand "access.log" en de bijbehorende logboeken te bekijken, kunt u informatie vinden over wat problemen met Adobe Commerce kan veroorzaken op het gebied van cloudinfrastructuur.
 exl-id: 47d7de6b-3e12-4e79-a5c1-c27a9196b99c
 feature: Cloud, Logs
 source-git-commit: 66ac9de94e9a4a1eccdb5aac1875ecf0a0637e90
