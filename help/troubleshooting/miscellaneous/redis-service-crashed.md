@@ -43,7 +43,7 @@ redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_pe
 >
 >U kunt Redis gastheeradres en havenaantal ook terugwinnen door dit CLI bevel in werking te stellen:
 >   
-```bash
+>   ```bash
 >   echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp
 >   ```
 
