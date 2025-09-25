@@ -3,16 +3,18 @@ title: Blokkeren van kwaadwillig verkeer voor Adobe Commerce op snelniveau
 description: Dit artikel bevat de stappen die u kunt nemen om kwaadaardig verkeer te blokkeren wanneer u vermoedt dat er een DDoS-aanval plaatsvindt in uw Adobe Commerce on cloud Infrastructure Store.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: b58e182c64b3fad508145d9078619ddbe0e2b887
+source-git-commit: 2555fbdb8a7a53d41c746df6414a7b0bad2de5d9
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
 
 # Blokkeren van kwaadwillig verkeer voor Adobe Commerce op snelniveau
 
-Dit artikel bevat de stappen die u kunt nemen om kwaadaardig verkeer te blokkeren wanneer u vermoedt dat er een DDoS-aanval plaatsvindt in uw Adobe Commerce on cloud Infrastructure Store.
+Dit artikel verklaart hoe te om ongewenst verkeer aan uw opslag te blokkeren, niet alleen in reactie op kwaadwillige bedreigingen, maar ook als methode van geografisch filtreren.
+
+Adobe Commerce op wolkeninfrastructuur (en Fastly CDN) verstrekt hulpmiddelen om verkeer aan uw opslag in antwoord op kwaadwillige bedreigingen zoals aanvallen te beheren DDoS. Bovendien, staat het u toe om verzoeken van specifieke landen of regio&#39;s te blokkeren, zelfs als geen kwaadwillige bedoeling wordt ontdekt, om aan bedrijfsbeleid, regelgevende vereisten, of andere operationele behoeften te voldoen.
 
 ## Betrokken producten en versies:
 
@@ -24,7 +26,7 @@ In dit artikel veronderstellen wij dat u reeds kwaadwillige IPs en/of hun land e
 
 Als uw website door DDoS wordt overbelast, kunt u zich mogelijk niet aanmelden bij uw Commerce Admin (en alle stappen uitvoeren die verder in dit artikel worden beschreven).
 
-Om toegang tot Admin te krijgen, zet uw website in onderhoudswijze zoals die in [ wordt beschreven laat of maakt onderhoudswijze ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) toe onbruikbaar en whitelist uw IP adres. Schakel de onderhoudsmodus uit nadat u dit hebt gedaan.
+Om toegang tot Admin te krijgen, zet uw website in onderhoudswijze zoals die in [ wordt beschreven laat of maakt onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) toe onbruikbaar en whitelist uw IP adres. Schakel de onderhoudsmodus uit nadat u dit hebt gedaan.
 
 ## Het verkeer van het blok door IP
 
@@ -74,7 +76,7 @@ Er zijn twee belangrijke overwegingen wanneer u `robots.txt` gebruikt:
 * Robots kunnen uw `robots.txt` negeren. Vooral malware-robots, die het web scannen op kwetsbaarheden op het gebied van beveiliging, en e-mailadressen die door spammers worden gebruikt, zullen geen aandacht besteden.
 * Het bestand `robots.txt` is een openbaar beschikbaar bestand. Iedereen kan zien welke gedeelten van uw server u niet wilt gebruiken voor robots.
 
-De basisinformatie en standaardAdobe Commerce `robots.txt` configuratie kunnen in het [ artikel van de Motor van het Onderzoek van de Motor Robots ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) in onze ontwikkelaarsdocumentatie worden gevonden.
+De basisinformatie en standaardAdobe Commerce `robots.txt` configuratie kunnen in het [ artikel van de Motor van het Onderzoek van de Motor Robots ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) in onze ontwikkelaarsdocumentatie worden gevonden.
 
 Zie voor algemene informatie en aanbevelingen over `robots.txt`:
 
@@ -86,4 +88,4 @@ Werk met uw ontwikkelaar en/of SEO-expert om te bepalen welke Gebruikersagenten 
 ## Gerelateerde lezing
 
 * [ Product-Specifieke het Vergunningstermijnen voor Adobe Commerce op Wolk ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
-* [ Douane VCL voor het blokkeren van verzoeken ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in Commerce op de Gids van de Wolk
+* [ Douane VCL voor het blokkeren van verzoeken ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in Commerce op de Gids van de Wolk
