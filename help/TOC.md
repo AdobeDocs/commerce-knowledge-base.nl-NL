@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 446b3f6d49a5534187bb8706d5cf6068d8f40fec
+source-git-commit: 2b12aeb9227944fc80da50d50fbc5668f4622269
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 0%
       * [Het controleren van langzame vragen en verwerkt MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
       * [Uploaden database verliest verbinding met MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
       * [Wijzigingen in de database worden niet weerspiegeld in de winkel](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)
-      * [Deadlocks in MySQL](/help/troubleshooting/database/deadlocks-in-mysql.md)
       * [MySQL-knelpunt voor hoge belasting in Adobe Commerce op cloudinfrastructuur](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md)
       * [MySQL Server is weggegaan &#x200B; fout op Adobe Commerce in cloud](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
       * [MySQL-schijfruimte is te klein voor Adobe Commerce op cloudinfrastructuur](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)
@@ -56,8 +55,6 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.0 Braintree Virtual Terminal is beschadigd](/help/troubleshooting/payments/magento-2-4-0-known-issue-braintree-virtual-terminal-page-is-corrupted.md)
       * [Cyberbronbetaling van Admin en front op verschillende domeinen die niet zijn verwerkt](/help/troubleshooting/payments/cybersource-payment-from-admin-and-front-on-different-domains-not-processed.md)
       * [Bekende uitgave van Adobe Commerce 2.4.0: Amazon-betaling, geen betalingsmethoden](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
-      * [Bekende uitgave van Adobe Commerce 2.3.7-p1: totaal van verouderde bestellingen voor PayPal](/help/troubleshooting/payments/paypal-price-known-issue-commerce-237p1.md)
-      * [Probleem met afhandeling van afhandeling voor Amazon Pay in Adobe Commerce 2.3.5-p1](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
       * [Adobe Commerce 2.4.0: Afhandelingsfout bij het selecteren van lokale betalingen](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
       * [PayPal Payflow Pro actieve carding-activiteiten](/help/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.md)
       * [Problemen met PayPal op Adobe Commerce oplossen](/help/troubleshooting/payments/paypal-troubleshooting-on-magento.md)
@@ -65,18 +62,11 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.2 B2B: disconto blijft wijziging loonmethode](/help/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change.md)
       * [Adobe Commerce 2.4.2: Braintree Venmo-betaling werkt niet](/help/troubleshooting/payments/magento-2-4-2-braintree-venmo-payment-does-not-work.md)
       * [Betalingsmethoden worden niet weergegeven bij afrekenen met meerdere adressen](/help/troubleshooting/payments/payment-methods-not-displayed-on-checkout-with-multiple-addresses.md)
-      * [EU-klanten kunnen betalingen niet voltooien](/help/troubleshooting/payments/eu-customers-cannot-complete-payments.md)
       * [Bekende uitgave van Adobe Commerce 2.4.0: Klarna On-Site Messaging-blanco pagina&#39;s](/help/troubleshooting/payments/magento-2-4-0-known-issue-klarna-on-site-messaging-blank-pages.md)
    * Storefront {#storefront}
-      * [Bekende uitgave van Adobe Commerce 2.4.0: weergavefout voor bestellingen](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
       * [Adobe Commerce op locatie 2.4.2: afbeelding van product ontbreekt](/help/troubleshooting/storefront/adobe-commerce-2-4-2-on-prem-product-image-missing.md)
-      * [Na de installatie worden afbeeldingen en opmaakmodellen niet geladen. Alleen tekstweergaven, geen afbeeldingen](/help/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.md)
       * [Het product wordt niet weergegeven op de winkel](/help/troubleshooting/storefront/product-is-not-displayed-on-storefront.md)
-      * [Uitgave Adobe Commerce 2.4.0: weergave van onbewerkte berichtgegevens in winkel](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
-      * [Probleem met winkelcreditering tijdens afhandeling in Adobe Commerce 2.3.5](/help/troubleshooting/storefront/store-credit-issue-during-checkout-in-magento-2-3-5.md)
       * [Afbeeldingen opslaan die niet worden weergegeven na implementatie](/help/troubleshooting/storefront/store-images-not-displayed-after-deployment.md)
-      * [Bekende kwestie in Adobe Commerce 2.3.5 voor de vergelijking van producten](/help/troubleshooting/storefront/product-comparison-known-issue-in-magento-2-3-5.md)
-      * [Adobe Commerce 2.4.0: 404-fout: beloningspunten verwijderen bij afhandeling via meerdere verzendingen](/help/troubleshooting/storefront/magento-2-4-0-404-error-removing-rewards-points-on-multi-shipping-checkout.md)
       * [Klanten worden afgemeld of krijgen inhoud van winkelwagentje kwijt in Adobe Commerce](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
       * [Kan contactpersoon niet opslaan als URL-sleutel](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
    * Installatie en upgrade {#installation-and-upgrade}

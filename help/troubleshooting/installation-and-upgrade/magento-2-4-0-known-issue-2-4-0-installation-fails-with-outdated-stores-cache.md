@@ -4,9 +4,9 @@ description: 'Dit artikel biedt een oplossing voor het probleem waarbij de Adobe
 exl-id: 0680199b-7e47-4a8c-91fe-9f6c32839a0e
 feature: B2B, Cache, Console, Install, Upgrade
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Een derdeuitbreiding met gebiedsdelen op APIs voor de module van de Opslag in CL
 
 ## Oorzaak
 
-De kwestie verschijnt voor de derdeuitbreidingen die van opslag in hun CLI bevelen afhankelijk zijn. Eén is Amazon-Sales Channel.
+De kwestie verschijnt voor de derdeuitbreidingen die van opslag in hun CLI bevelen afhankelijk zijn. Eén is Amazon Sales Channel.
 
 ## Oplossing
 
@@ -43,14 +43,12 @@ De kwestie zal in het toepassingsgebied van 2.4.1 versie worden bepaald.
 
 * [Bekende uitgave van Adobe Commerce 2.4.0: ontbrekend label &quot;Resund&quot; in Klarna](/help/troubleshooting/payments/magento-2-4-0-known-issue-missing-refund-label-in-klarna.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0: er ontbreken twee knoppen op de pagina Nieuwe bestelling maken in Admin](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
-* [Adobe Commerce 2.4.0, 2.4.1: Enable Braintree Venmo PartCelling Issue](/help/troubleshooting/payments/magento-2-4-0-2-4-1-enable-braintree-venmo-partial-invoice-issue.md)
+* [Adobe Commerce 2.4.0, 2.4.1: Enable Braintree Venmo Part Celling Issue](/help/troubleshooting/payments/magento-2-4-0-2-4-1-enable-braintree-venmo-partial-invoice-issue.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0: Foutbericht dat lokale betalingsmethode selecteert die in sommige landen wordt weergegeven tijdens het afrekenen](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0: Amazon Pay ingeschakeld, betalingsmethoden ontbreken wanneer Terug naar standaardafhandeling wordt gebruikt](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
-* [Bekende uitgave van Adobe Commerce 2.4.0: 404-fout bij het verwijderen van beloningspunten bij afhandeling via meerdere verzendingen](/help/troubleshooting/storefront/magento-2-4-0-404-error-removing-rewards-points-on-multi-shipping-checkout.md)
-* [Bekende uitgave van Adobe Commerce 2.4.0: weergavefout voor bestellingen](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
 * [Adobe Commerce 2.4.0 B2B Admin kan geen configureerbaar product toevoegen om te citeren](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
-* [Bekende uitgave van Adobe Commerce 2.4.0: Betalingsmethoden voor Braintree worden niet weergegeven bij de afhandeling van meerdere adressen](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
+* [Bekende uitgave van Adobe Commerce 2.4.0: Betalingsmethoden van Braintree worden niet weergegeven bij de afhandeling van meerdere adressen](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0 - Vernieuwen van de activiteiten van de Klant werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0 - Export Tax Rates werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0: &quot;Selecties toevoegen aan mijn winkelwagentje&quot; werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
-* [Bekende uitgave van Adobe Commerce 2.4.0: onbewerkte weergave van berichtgegevens op winkel](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
+

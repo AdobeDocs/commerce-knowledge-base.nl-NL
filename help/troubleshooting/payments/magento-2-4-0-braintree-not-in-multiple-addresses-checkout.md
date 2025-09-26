@@ -1,21 +1,21 @@
 ---
-title: 'Adobe Commerce 2.4.0: Braintree niet in Multiple Addressen uitchecken'
-description: Dit artikel biedt een oplossing voor een bekende Adobe Commerce 2.4.0-probleem waarbij betalingsmethoden voor Braintreeën niet zijn inbegrepen bij het werken met de afhandeling Meerdere adressen. De kwestie is opgelost in Adobe Commerce 2.4.1.
+title: 'Adobe Commerce 2.4.0: Braintree niet in Multiple Address-uitchecken'
+description: Dit artikel biedt een oplossing voor een bekende Adobe Commerce 2.4.0-probleem waarbij Braintree-betalingsmethoden niet zijn inbegrepen bij het werken met het afrekenen van meerdere adressen. De kwestie is opgelost in Adobe Commerce 2.4.1.
 exl-id: efde0bba-fd4a-490b-becb-856cb9ea58a5
 feature: Checkout, Compliance, Orders, Payments, Shipping/Delivery
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce 2.4.0: Braintree niet in Multiple Addressen uitchecken
+# Adobe Commerce 2.4.0: Braintree niet in Multiple Address-uitchecken
 
-Dit artikel biedt een oplossing voor een bekende Adobe Commerce 2.4.0-probleem waarbij betalingsmethoden voor Braintreeën niet zijn inbegrepen bij het werken met de afhandeling Meerdere adressen. De kwestie is opgelost in Adobe Commerce 2.4.1.
+Dit artikel biedt een oplossing voor een bekende Adobe Commerce 2.4.0-probleem waarbij Braintree-betalingsmethoden niet zijn inbegrepen bij het werken met het afrekenen van meerdere adressen. De kwestie is opgelost in Adobe Commerce 2.4.1.
 
-Nota: Adobe Commerce adviseert gebruikend de [ uitbreiding van de Braintree van de Commerce Marketplace ](https://marketplace.magento.com/paypal-module-braintree.html) voor versies 2.3 en later om PSD naleving te houden. De extensie biedt geen functionaliteit voor het afrekenen van meerdere adressen.
+Nota: Adobe Commerce adviseert gebruikend de [ uitbreiding van Braintree van Commerce Marketplace ](https://marketplace.magento.com/paypal-module-braintree.html) voor versies 2.3 en later om de naleving van PSD te houden. De extensie biedt geen functionaliteit voor het afrekenen van meerdere adressen.
 
 ## Betrokken producten en versies
 
@@ -26,7 +26,7 @@ Nota: Adobe Commerce adviseert gebruikend de [ uitbreiding van de Braintree van 
 
 <u> Eerste vereisten </u>:
 
-De belangrijkste integratie van de Braintree wordt gebruikt.
+De kernintegratie van Braintree wordt gebruikt.
 
 <u> Stappen om </u> te reproduceren:
 
@@ -49,11 +49,10 @@ Braintree is niet beschikbaar als betalingsmethode.
 
 ## Workaround
 
-Schakel opties voor meerdere adressen niet in als u Braintree gebruikt in Adobe Commerce 2.4.0. Dit probleem is opgelost in Adobe Commerce 2.4.1.
+Schakel opties voor meerdere adressen niet in als u Braintree in Adobe Commerce 2.4.0 gebruikt. Dit probleem is opgelost in Adobe Commerce 2.4.1.
 
 ## Gerelateerde lezing in onze kennisbasis voor support
 
 * [Bekende uitgave van Adobe Commerce 2.4.0 - Vernieuwen van de activiteiten van de Klant werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Bekende uitgave van Adobe Commerce 2.4.0: onbewerkte weergave van berichtgegevens op winkel](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0 - Export Tax Rates werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Bekende uitgave van Adobe Commerce 2.4.0: &quot;Selecties toevoegen aan mijn winkelwagentje&quot; werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
