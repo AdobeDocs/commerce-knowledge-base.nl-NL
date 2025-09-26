@@ -44,12 +44,12 @@ Dit artikel spreekt over een bekende kwestie in Commerce Admin wanneer het beher
 
 <u> Verwachte resultaten </u>
 
-* De **Producten die niet aan het 1} net van het Citaat {worden toegevoegd, die de naam en** SKU **van het gecreeerde product bevatten, verschijnt zoals verwacht.**
+* De **Producten die niet aan het 1&rbrace; net van het Citaat &lbrace;worden toegevoegd, die de naam en** SKU **van het gecreeerde product bevatten, verschijnt zoals verwacht.**
 * Nadat het product wordt gevormd, kan Admin het aan het **Citaat** toevoegen door **te klikken voegt Producten aan Citaat** knoop toe, zoals verwacht.
 
 <u> Ware resultaten </u>
 
-* De **Producten die niet aan het 1} net van het Citaat {worden toegevoegd, die de naam en** SKU **van het gecreeerde product bevatten, verschijnen niet.**
+* De **Producten die niet aan het 1&rbrace; net van het Citaat &lbrace;worden toegevoegd, die de naam en** SKU **van het gecreeerde product bevatten, verschijnen niet.**
 * De **Citaat** pagina wordt geplakt ladend.
 
 ## Aanbeveling
