@@ -19,7 +19,7 @@ ht-degree: 3%
 
 ![&#x200B; homepage van de Kennisbank &#x200B;](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
-De informatie in deze Kennisbank wordt ontworpen als aanvulling op [&#x200B; de Documentatie van de Ontwikkelaar van Adobe Commerce &#x200B;](https://developer.adobe.com/commerce/docs), en [&#x200B; Handleiding van de Merchant van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html), en andere publicaties van Adobe Commerce. Het behandelt het oplossen van problemen en beste praktijken, gastheeraankondigingen, antwoorden FAQs, en benadrukt specifieke scenario&#39;s die (om het even welke reden) niet vermeld in de officiële documentatie zijn.
+De informatie in deze Kennisbank wordt ontworpen als aanvulling op [&#x200B; de Documentatie van de Ontwikkelaar van Adobe Commerce &#x200B;](https://developer.adobe.com/commerce/docs), en [&#x200B; Handleiding van de Merchant van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL), en andere publicaties van Adobe Commerce. Het behandelt het oplossen van problemen en beste praktijken, gastheeraankondigingen, antwoorden FAQs, en benadrukt specifieke scenario&#39;s die (om het even welke reden) niet vermeld in de officiële documentatie zijn.
 
 ## Wat staat er in deze Knowledge Base?
 
