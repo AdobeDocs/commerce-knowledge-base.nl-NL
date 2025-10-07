@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: d1a9f509bdf4a4c75220145069810e55eddcc43e
+source-git-commit: 4ba5d701280fa41bea1102fa1ca46e1e3cc35256
 workflow-type: tm+mt
-source-wordcount: '2881'
+source-wordcount: '2860'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,8 @@ ht-degree: 0%
    * Database {#database}
       * [Het controleren van langzame vragen en verwerkt MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
       * [Uploaden database verliest verbinding met MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
-      * [Wijzigingen in de database worden niet weerspiegeld in de winkel](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)
       * [MySQL-knelpunt voor hoge belasting in Adobe Commerce op cloudinfrastructuur](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md)
       * [MySQL Server is weggegaan &#x200B; fout op Adobe Commerce in cloud](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
-      * [MySQL-schijfruimte is te klein voor Adobe Commerce op cloudinfrastructuur](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)
       * [Problemen met opslagproblemen voor databases op Adobe Commerce oplossen](/help/troubleshooting/database/database-storage-troubleshooter-on-adobe-commerce.md)
       * [Databasefouten met betrekking tot max_allowed_packet op Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
       * [Het gegevensbestand van Adobe Commerce numerieke waarde uit waaier,  [!DNL INT]  aan  [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
@@ -252,7 +250,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
