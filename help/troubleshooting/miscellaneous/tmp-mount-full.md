@@ -92,7 +92,7 @@ Er zijn verschillende services die bestanden kunnen opslaan in `/tmp` .
 
 #### MySQL-ruimte inchecken en vrijmaken
 
-Volg de instructies in [&#x200B; MySQL schijfruimte is laag op Adobe Commerce op de infrastructuur van de wolk > Controle en bevrijd opslagruimte &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806#check-and-free-up-storage-space) in onze basis van de steunkennis.
+Volg de instructies in [&#x200B; MySQL schijfruimte is laag op Adobe Commerce op de infrastructuur van de wolk > Controle en bevrijd opslagruimte &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27806#check-and-free-up-storage-space) in onze basis van de steunkennis.
 
 #### Elasticsearch-heapdumps opvragen
 
@@ -120,7 +120,7 @@ Controleer `/tmp` op `.sql` - of `.sql.gz` -bestanden en pas deze op. Deze zijn 
 
 Volg de onderstaande aanbevelingen om problemen met `/tmp` als vol te voorkomen:
 
-* Gebruik MySQL niet voor zoekopdrachten. Elasticsearch for search elimineert meestal de noodzaak van de meeste &#39;temp table&#39;-ontwerpen. Zie [&#x200B; Adobe Commerce vormen om Elasticsearch &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine) in onze ontwikkelaarsdocumentatie te gebruiken.
+* Gebruik MySQL niet voor zoekopdrachten. Elasticsearch for search elimineert meestal de noodzaak van de meeste &#39;temp table&#39;-ontwerpen. Zie [&#x200B; Adobe Commerce vormen om Elasticsearch &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/configure-search-engine) in onze ontwikkelaarsdocumentatie te gebruiken.
 * Vermijd het uitvoeren van de query `SELECT` op kolommen zonder indexen aangezien dit een grote hoeveelheid tijdelijke schijfruimte gebruikt. U kunt ook de indexen toevoegen.
 * Maak een uitsnede om op te schonen `/tmp` door de volgende opdracht in de CLI uit te voeren:
 
@@ -130,4 +130,4 @@ Volg de onderstaande aanbevelingen om problemen met `/tmp` als vol te voorkomen:
 
 ## Gerelateerde lezing
 
-[&#x200B; MySQL schijfruimte is laag op Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806) in onze basis van steunkennis.
+[&#x200B; MySQL schijfruimte is laag op Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27806) in onze basis van steunkennis.
