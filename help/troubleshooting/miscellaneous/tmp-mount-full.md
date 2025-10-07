@@ -1,6 +1,6 @@
 ---
 title: 'Problemen met /tmp-montage oplossen: vol voor Adobe Commerce'
-description: Dit artikel biedt een oplossing voor het geval de `-/tmp'-montage vol is, de site mogelijk is ingedrukt en u geen SSH in een knooppunt kunt plaatsen.
+description: Dit artikel biedt een oplossing voor het geval de &grave;-/tmp'-montage vol is, de site mogelijk is ingedrukt en u geen SSH in een knooppunt kunt plaatsen.
 exl-id: e72d0f99-0060-474b-bb1c-2851896e1e43
 feature: Storage
 role: Developer
@@ -92,7 +92,7 @@ Er zijn verschillende services die bestanden kunnen opslaan in `/tmp` .
 
 #### MySQL-ruimte inchecken en vrijmaken
 
-Volg de instructies in [ MySQL schijfruimte is laag op Adobe Commerce op de infrastructuur van de wolk > Controle en bevrijd opslagruimte ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806#check-and-free-up-storage-space) in onze basis van de steunkennis.
+Volg de instructies in [&#x200B; MySQL schijfruimte is laag op Adobe Commerce op de infrastructuur van de wolk > Controle en bevrijd opslagruimte &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806#check-and-free-up-storage-space) in onze basis van de steunkennis.
 
 #### Elasticsearch-heapdumps opvragen
 
@@ -106,7 +106,7 @@ Verwijder heapdumps (`*.hprof`) met behulp van systeemshell:
 find /tmp/*.hprof -type f -delete
 ```
 
-Als u geen toestemmingen hebt om dossiers te schrappen die door een andere gebruiker (in dit geval, Elasticsearch) worden gecreeerd, maar u ziet dat de dossiers groot zijn, te creëren gelieve [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om hen te behandelen.
+Als u geen toestemmingen hebt om dossiers te schrappen die door een andere gebruiker (in dit geval, Elasticsearch) worden gecreeerd, maar u ziet dat de dossiers groot zijn, te creëren gelieve [&#x200B; een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om hen te behandelen.
 
 #### Database-dumps/back-ups controleren
 
@@ -120,7 +120,7 @@ Controleer `/tmp` op `.sql` - of `.sql.gz` -bestanden en pas deze op. Deze zijn 
 
 Volg de onderstaande aanbevelingen om problemen met `/tmp` als vol te voorkomen:
 
-* Gebruik MySQL niet voor zoekopdrachten. Elasticsearch for search elimineert meestal de noodzaak van de meeste &#39;temp table&#39;-ontwerpen. Zie [ Adobe Commerce vormen om Elasticsearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine) in onze ontwikkelaarsdocumentatie te gebruiken.
+* Gebruik MySQL niet voor zoekopdrachten. Elasticsearch for search elimineert meestal de noodzaak van de meeste &#39;temp table&#39;-ontwerpen. Zie [&#x200B; Adobe Commerce vormen om Elasticsearch &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine) in onze ontwikkelaarsdocumentatie te gebruiken.
 * Vermijd het uitvoeren van de query `SELECT` op kolommen zonder indexen aangezien dit een grote hoeveelheid tijdelijke schijfruimte gebruikt. U kunt ook de indexen toevoegen.
 * Maak een uitsnede om op te schonen `/tmp` door de volgende opdracht in de CLI uit te voeren:
 
@@ -130,4 +130,4 @@ Volg de onderstaande aanbevelingen om problemen met `/tmp` als vol te voorkomen:
 
 ## Gerelateerde lezing
 
-[ MySQL schijfruimte is laag op Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806) in onze basis van steunkennis.
+[&#x200B; MySQL schijfruimte is laag op Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806) in onze basis van steunkennis.
