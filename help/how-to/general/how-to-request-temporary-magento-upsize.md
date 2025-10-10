@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Tijdelijke Adobe Commerce aanvragen voor uitgebreide cloudinfrastructuur
 
-Als uw organisatie een online gebeurtenis plant waarin u hoog verkeer verwacht, of u plotseling uw plaats vindt om een hoge verkeersgebeurtenis te ondergaan, kunt u a [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) indienen om tijdelijke extra wolkencapaciteit voor uw Adobe Commerce op de opslag van de wolkeninfrastructuur te verzoeken.
+Als uw organisatie een online gebeurtenis plant waarin u hoog verkeer verwacht, of u plotseling uw plaats vindt om een hoge verkeersgebeurtenis te ondergaan, kunt u a [&#x200B; Ticket van de Steun &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) indienen om tijdelijke extra wolkencapaciteit voor uw Adobe Commerce op de opslag van de wolkeninfrastructuur te verzoeken.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ Als uw organisatie een online gebeurtenis plant waarin u hoog verkeer verwacht, 
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* Adobe Commerce op wolkeninfrastructuur, alle [&#x200B; gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
 
 ## Hoe te om hoge verkeersgebeurtenissen te identificeren
 
@@ -33,29 +33,29 @@ Waarschuwing bij basislijn is handig voor het maken van waarschuwingsvoorwaarden
 
 Bovendien werkt basislijnwaarschuwingen goed met nieuwe toepassingen wanneer u nog geen bekend gedrag hebt.
 
-Volg deze verbinding om meer over New Relic [ Anomaly opsporing met toegepaste Intelligentie ](https://docs.newrelic.com/docs/alerts-applied-intelligence/applied-intelligence/anomaly-detection/anomaly-detection-applied-intelligence/) te leren.
+Volg deze verbinding om meer over New Relic [&#x200B; Anomaly opsporing met toegepaste Intelligentie &#x200B;](https://docs.newrelic.com/docs/alerts-applied-intelligence/applied-intelligence/anomaly-detection/anomaly-detection-applied-intelligence/) te leren.
 
-Als u een waakzaam bericht ontvangt dat een hoge verkeersgebeurtenis voorstelt kunt u [ overwegen die een Bestelwagen van de Steun ](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) voorleggen om extra capaciteit te vragen. Voer de onderstaande stappen uit.
+Als u een waakzaam bericht ontvangt dat een hoge verkeersgebeurtenis voorstelt kunt u [&#x200B; overwegen die een Bestelwagen van de Steun &#x200B;](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) voorleggen om extra capaciteit te vragen. Voer de onderstaande stappen uit.
 
 ## De prestaties van uw site controleren
 
 Adobe biedt een reeks New Relic-waarschuwingsbeleid voor Adobe Commerce op het gebied van cloudinfrastructuur Pro-planningsarchitectuur en Adobe Commerce op het gebied van de Starter-planningsarchitectuur van de cloud om de volgende prestatiekernwaarden bij te houden:
 
-* [ score van de Index ](https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction)
+* [&#x200B; score van de Index &#x200B;](https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction)
 * Foutfrequentie
 * Schijfruimte (alleen beschikbaar in productieomgevingen van Pro-architectuur)
 
 Op basis van best practices uit de branche worden in dit beleid drempelwaarden voor waarschuwingen en kritieke omstandigheden vastgesteld die van invloed zijn op de prestaties. Als er op uw site een infrastructuur- of toepassingsprobleem optreedt dat een waarschuwingsdrempel activeert, stuurt New Relic waarschuwingsberichten zodat u het probleem proactief kunt verhelpen. Om dit beleid te gebruiken, moet u berichtkanalen vormen om de waakzame berichten te ontvangen.
 
-Volg deze verbinding om te leren hoe te [ op prestaties-gebaseerde alarm ](/docs/commerce-cloud-service/user-guide/monitor/new-relic.html#monitor-performance-with-managed-alerts) vormen.
+Volg deze verbinding om te leren hoe te [&#x200B; op prestaties-gebaseerde alarm &#x200B;](/docs/commerce-cloud-service/user-guide/monitor/new-relic.html#monitor-performance-with-managed-alerts) vormen.
 
 ## Stappen om tijdelijke upgrade aan te vragen
 
-Om tijdelijke extra wolkencapaciteit aan te vragen, leg het Ticket van de a [ Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) bij het Centrum van de Steun van Adobe Commerce met de volgende informatie voor:
+Om tijdelijke extra wolkencapaciteit aan te vragen, leg het Ticket van de a [&#x200B; Steun &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) bij het Centrum van de Steun van Adobe Commerce met de volgende informatie voor:
 
 >[!NOTE]
 >
->De *keus van het Verzoek van de Vakantiedruk 0} is slechts een optie tussen de maanden van Oktober en van December.*
+>De *keus van het Verzoek van de Vakantiedruk 0&rbrace; is slechts een optie tussen de maanden van Oktober en van December.*
 
 1. Selecteer het [!DNL Adobe Commerce] product dat u wilt ondersteunen voor:
    * [!DNL Commerce Cloud]
@@ -101,7 +101,7 @@ Om tijdelijke extra wolkencapaciteit aan te vragen, leg het Ticket van de a [ St
 
 >[!NOTE]
 >
->Wanneer de upgrade is gepland, past een geautomatiseerd systeem de grootte van uw cloudinstantie aan. U kunt geen kaartmelding ontvangen wanneer de procedure is voltooid. U kunt de Waarneming voor het hulpmiddel van Adobe Commerce gebruiken om uw AWS of Azure instantietypes te bekijken om [ de verandering ](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md) te verifiëren.
+>Wanneer de upgrade is gepland, past een geautomatiseerd systeem de grootte van uw cloudinstantie aan. U kunt geen kaartmelding ontvangen wanneer de procedure is voltooid. U kunt de Waarneming voor het hulpmiddel van Adobe Commerce gebruiken om uw AWS of Azure instantietypes te bekijken om [&#x200B; de verandering &#x200B;](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md) te verifiëren.
 
 ## De geschiedenis van uw upformaten weergeven
 
@@ -121,7 +121,7 @@ De volgende informatie is beschikbaar voor elk resize verzoek:
    * [CPU-toewijzingsberekening voor Adobe Commerce in cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
    * [Controleren of de host moet worden bijgewerkt voor Adobe Commerce in de cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
    * [CPU-configuratie van host controleren op Adobe Commerce in cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
-* Voor informatie over hoe te om stroomonderbrekingen te identificeren, verwijs naar [ uitvallen voor Adobe Commerce op wolk ](/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) in onze basis van de steunkennis identificeren en meten.
+* Voor informatie over hoe te om stroomonderbrekingen te identificeren, verwijs naar [&#x200B; uitvallen voor Adobe Commerce op wolk &#x200B;](/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) in onze basis van de steunkennis identificeren en meten.
 * Raadpleeg de volgende artikelen in de documentatie voor ontwikkelaars voor informatie over het verbeteren van de prestaties van de site om te voorkomen dat u een capaciteitsuitbreiding moet gebruiken:
    * [Afbeeldingsgrootte](/docs/commerce-admin/catalog/products/digital-assets/product-image-config.html#product-image-resizing)
    * [In cache plaatsen van volledige pagina](/docs/commerce-admin/systems/tools/cache-management.html#full-page-caching)
