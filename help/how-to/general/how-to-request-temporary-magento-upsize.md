@@ -3,9 +3,9 @@ title: Tijdelijke Adobe Commerce aanvragen voor uitgebreide cloudinfrastructuur
 description: Als uw organisatie een online gebeurtenis plant waarin u veel verkeer verwacht, of u plotseling vindt dat uw site een gebeurtenis met veel verkeer ondergaat, kunt u een [Support Ticket] (/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) indienen om tijdelijke extra cloudcapaciteit voor uw Adobe Commerce in de cloudinfrastructuur aan te vragen.
 exl-id: 561e2bdd-718a-45c1-8b6c-a0e3a6c8ad04
 feature: Cloud, Iaas
-source-git-commit: 357e0acb1c849079ff0fe9f53fe386f60475c7f9
+source-git-commit: e59335b67e1f33e138e34cab93ce593836d14b48
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -51,21 +51,53 @@ Volg deze verbinding om te leren hoe te [ op prestaties-gebaseerde alarm ](/docs
 
 ## Stappen om tijdelijke upgrade aan te vragen
 
-Volg de stappen hieronder om a [ Ticket van de Steun ](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) voor te leggen om tijdelijke extra wolkencapaciteit te verzoeken:
-
-Verzend a [ Ticket van de Steun bij het Centrum van de Steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), na het invoeren van de volgende informatie:
+Om tijdelijke extra wolkencapaciteit aan te vragen, leg het Ticket van de a [ Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) bij het Centrum van de Steun van Adobe Commerce met de volgende informatie voor:
 
 >[!NOTE]
 >
->De *keus van het Verzoek van de Vakantiedruk 0&rbrace; is slechts een optie tussen de maanden van Oktober en van December.*
+>De *keus van het Verzoek van de Vakantiedruk 0} is slechts een optie tussen de maanden van Oktober en van December.*
 
-1. Selecteer het Adobe Commerce-product waarvoor u ondersteuning zoekt.
-1. Vul de eerste vier velden (Product, Organisatie, Type implementatie, Onderwerp) in.
-1. Selecteer *de wolkeninfrastructuur van Adobe Commerce* in de **drop-down Reden van het Contact**.
-1. Selecteer *Verzoek van de Capaciteit van de Vakantieduur van 0&rbrace; {in de **3} drop-down opties van de Reden van het Contact van de Infrastructuur van Adobe Commerce.*** Klik **O.K.** op het pop-up bericht vragend 48 bedrijfsuren&#39; bericht voor tijdelijke extra verzoeken van de wolkencapaciteit.
-1. Selecteer data voor de verplichte gebieden **Resize Datum van het Begin** en **Resize Datum van het Eind**. De aangewezen **Resize Tijd van het Begin** is ook een verplicht gebied.
-1. Vul de volgende vier velden in.
-1. Op het **gebied van de Beschrijving**, als u extra informatie over grootte hebt, verstrek het hier. Als er geen specifieke grotere capaciteit wordt gevraagd, wordt u verhoogd tot de volgende grotere capaciteit van de omgeving. De verzoeken van de vloedgolf zullen aan de volgende grotere grootte van uw huidige grootte in gebreke blijven. Als u extra capaciteit vereist, gelieve erop te wijzen dat op het **gebied van de Beschrijving**. Verhoogde capaciteit wordt afgetrokken van uw contractueel vastgelegde piekdagen of vCPU-dagen. Het typische venster van de capaciteitsverhoging is vijf dagen, maar als u meer of minder dagen nodig hebt, gelieve dit in uw [ Ticket van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) te wijzen.
+1. Selecteer het [!DNL Adobe Commerce] product dat u wilt ondersteunen voor:
+   * [!DNL Commerce Cloud]
+   * [!DNL Commerce on Managed Service]
+
+1. Vul de volgende velden in:
+   * **[!UICONTROL Case Title]**
+   * **[!UICONTROL Case Description]** *(zorg ervoor deze duidelijk de kwestie en de context beschrijven.)*
+
+1. Selecteer *Verzoek van de Verandering van de Infrastructuur* van het **[!UICONTROL Issue Reason]** dropdown menu.
+
+1. Kies de **[!UICONTROL Environment]** in het vervolgkeuzemenu.
+
+1. Selecteer de juiste **[!UICONTROL Product Version]** in het vervolgkeuzemenu.
+
+1. Kies *het Project van de Wolk Resize (vCPU)* van het **[!UICONTROL Which Infra Change you would like to do today]** dropdown menu.
+
+1. **selecteer[!UICONTROL Architecture]**:
+   * *StandaardArchitectuur:* Uitgezochte *Volgende Beschikbare Grootte* van **selecteer de Grootte** dropdown menu.
+   * *Schaalde Architectuur:* wanneer geselecteerd, verandert het scherm om twee extra gebieden te tonen:
+      * *Grootte voor de Knoop van het Web*
+      * *Grootte voor de Knoop van de Dienst* *(ga de gewenste grootten voor elke knoop in.)*
+
+1. Voer de **[!UICONTROL From Date]** in UTC-indeling (datum en tijd) in.
+
+1. Voer de **[!UICONTROL To Date]** in UTC-indeling (datum en tijd) in.
+
+1. Verstrek **[!UICONTROL Project URL]** *(die onder https://accounts.magento.cloud/, typisch in het formaat `https://[REGION].magento.cloud/projects/PROJECT_ID` wordt gevonden)*
+
+1. Voer de **[!UICONTROL Project ID]** in.
+
+1. Geef **[!UICONTROL Affected URL]** *op (moet beginnen met `http://` of `https://`.)*
+
+1. Selecteer **[!UICONTROL Priority]** .
+
+1. Selecteer **[!UICONTROL Business Impact]** .
+
+1. Bevestigen **[!UICONTROL Time Zone]** *(bijv., `(UTC-5:00) Indiana (East)`)*
+
+1. Enter **[!UICONTROL Phone Number]** *(bijv., `+12015550123`)*
+
+1. Klik op **[!UICONTROL Submit]** om de kwestie van de ondersteuning te voltooien.
 
 >[!NOTE]
 >
@@ -86,7 +118,7 @@ De volgende informatie is beschikbaar voor elk resize verzoek:
 ## Gerelateerde lezing
 
 * Voor inzichten, methodes, en voorbeelden van om plaatsprestaties te meten en te verbeteren, verwijs naar de volgende diepgaande artikelen in onze steun kennisbasis:
-   * [Berekening van CPU-toewijzing voor Adobe Commerce in cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
+   * [CPU-toewijzingsberekening voor Adobe Commerce in cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
    * [Controleren of de host moet worden bijgewerkt voor Adobe Commerce in de cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
    * [CPU-configuratie van host controleren op Adobe Commerce in cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
 * Voor informatie over hoe te om stroomonderbrekingen te identificeren, verwijs naar [ uitvallen voor Adobe Commerce op wolk ](/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) in onze basis van de steunkennis identificeren en meten.
