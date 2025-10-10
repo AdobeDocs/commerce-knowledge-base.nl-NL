@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor problemen wanneer u geen e-mail 
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
 feature: Admin Workspace, Communications
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 9eaea028886e74fc06c9516801919cd7f650f98c
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,24 @@ Aangezien u geen toegang tot admin hebt, zult u de configuratie in het gegevensb
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-Controleer de map Spam voor de e-mail. Als e-mail daar verscheen, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) om het domein te verzoeken om wit-geëtiketteerd in SendGrid zijn.
+Controleer de map Spam voor de e-mail.
+
+Als het e-mailbericht in uw map Spam werd weergegeven, is de e-mailverificatie van uw domein mogelijk niet volledig geconfigureerd voor uitgaande levering via SendGrid.
+
+Als u de dienst SendGrid gebruikt die door Adobe wordt beheerd:
+
+[ legt een steunkaartje ](https://experienceleague.adobe.com/home?support-tab=home#support) voor het verzoeken dat uw verzendend domein (soms genoemd *wit-geëtiketteerd*) met SendGrid voor authentiek wordt verklaard.
+Dit proces omvat het toevoegen van DNS verslagen (DKIM en SPF) om SendGrid toe te staan om e-mails namens uw domein te verzenden, wat de waarschijnlijkheid verhoogt dat uw e-mails aan inbox in plaats van de omslag Spam zullen worden geleverd.
+
+Als u uw eigen SendGrid-account gebruikt:
+
+U bent verantwoordelijk voor het rechtstreeks beheer van de instellingen voor domeinverificatie in het dashboard van uw SendGrid-account. Verwijs naar [ hoe te de Authentificatie van het Domein van de Opstelling ](https://www.twilio.com/docs/sendgrid/ui/account-and-settings/how-to-set-up-domain-authentication) in documentatie SendGrid voor details.
+
+>[!NOTE]
+>
+>Sommige klanten zouden kunnen verkiezen om de afzonderlijk provisioned dienst te gebruiken SendGrid voor volledige controle over e-maillevering en naleving (b.v., vereisten HIPAA). Zorg ervoor dat u de juiste stappen voor probleemoplossing volgt op basis van het type SendGrid-service (Adobe-managed versus zelfbeheerd) dat u gebruikt.
+
 
 ## Gerelateerde lezing
 
-* [ SendGrid ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/project/sendgrid) in onze ontwikkelaarsdocumentatie.
+* [ SendGrid ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) in onze ontwikkelaarsdocumentatie.
