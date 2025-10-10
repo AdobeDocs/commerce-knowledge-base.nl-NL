@@ -60,12 +60,12 @@ Als het e-mailbericht in uw map Spam werd weergegeven, is de e-mailverificatie v
 
 Als u de dienst SendGrid gebruikt die door Adobe wordt beheerd:
 
-[ legt een steunkaartje ](https://experienceleague.adobe.com/home?support-tab=home#support) voor het verzoeken dat uw verzendend domein (soms genoemd *wit-geëtiketteerd*) met SendGrid voor authentiek wordt verklaard.
+[&#x200B; legt een steunkaartje &#x200B;](https://experienceleague.adobe.com/home?support-tab=home#support) voor het verzoeken dat uw verzendend domein (soms genoemd *wit-geëtiketteerd*) met SendGrid voor authentiek wordt verklaard.
 Dit proces omvat het toevoegen van DNS verslagen (DKIM en SPF) om SendGrid toe te staan om e-mails namens uw domein te verzenden, wat de waarschijnlijkheid verhoogt dat uw e-mails aan inbox in plaats van de omslag Spam zullen worden geleverd.
 
 Als u uw eigen SendGrid-account gebruikt:
 
-U bent verantwoordelijk voor het rechtstreeks beheer van de instellingen voor domeinverificatie in het dashboard van uw SendGrid-account. Verwijs naar [ hoe te de Authentificatie van het Domein van de Opstelling ](https://www.twilio.com/docs/sendgrid/ui/account-and-settings/how-to-set-up-domain-authentication) in documentatie SendGrid voor details.
+U bent verantwoordelijk voor het rechtstreeks beheer van de instellingen voor domeinverificatie in het dashboard van uw SendGrid-account. Verwijs naar [&#x200B; hoe te de Authentificatie van het Domein van de Opstelling &#x200B;](https://www.twilio.com/docs/sendgrid/ui/account-and-settings/how-to-set-up-domain-authentication) in documentatie SendGrid voor details.
 
 >[!NOTE]
 >
@@ -74,4 +74,4 @@ U bent verantwoordelijk voor het rechtstreeks beheer van de instellingen voor do
 
 ## Gerelateerde lezing
 
-* [ SendGrid ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; SendGrid &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) in onze ontwikkelaarsdocumentatie.
