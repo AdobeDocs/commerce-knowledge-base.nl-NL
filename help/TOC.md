@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 4b92294b26082da2ac5984b729cea2a49663f4b2
+source-git-commit: 5c4d76b3dbaf34b2ded10b520297087562fcaad2
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2834'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,6 @@ ht-degree: 0%
       * [Upgrade naar B2B 1.5.2 mislukt vanwege SQL-syntaxisfout bij ontbrekende functie REGEXP_LIKE](/help/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function.md)
       * [Prestatiekwestie in de Magento_Company-module-upgrade na B2B 1.5.2-update](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)
    * Site ingedrukt of reageert niet {#site-down-or-unresponsive}
-      * [503-fout Adobe Commerce openen in webbrowser](/help/troubleshooting/site-down-or-unresponsive/503-error-accessing-magento-in-web-browser.md)
-      * [Site kan niet worden geladen omdat de onderhoudsmodus ingeschakeld blijft](/help/troubleshooting/site-down-or-unresponsive/site-fails-to-load-due-to-maintenance-mode-left-enabled.md)
       * [Als u een patch toepast, wordt uw site uitgeschakeld](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [Gereviseerde patches voor Google Maps-toegangsverlies op alle Adobe Commerce-versies](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * Overige {#miscellaneous}
@@ -249,7 +247,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
