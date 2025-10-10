@@ -60,7 +60,7 @@ Als het e-mailbericht in uw map Spam werd weergegeven, is de e-mailverificatie v
 
 Als u de dienst SendGrid gebruikt die door Adobe wordt beheerd:
 
-[&#x200B; legt een steunkaartje &#x200B;](https://experienceleague.adobe.com/home?support-tab=home#support) voor het verzoeken dat uw verzendend domein (soms genoemd *wit-geëtiketteerd*) met SendGrid voor authentiek wordt verklaard.
+[&#x200B; legt een steunkaartje &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support) voor het verzoeken dat uw verzendend domein (soms genoemd *wit-geëtiketteerd*) met SendGrid voor authentiek wordt verklaard.
 Dit proces omvat het toevoegen van DNS verslagen (DKIM en SPF) om SendGrid toe te staan om e-mails namens uw domein te verzenden, wat de waarschijnlijkheid verhoogt dat uw e-mails aan inbox in plaats van de omslag Spam zullen worden geleverd.
 
 Als u uw eigen SendGrid-account gebruikt:
@@ -74,4 +74,4 @@ U bent verantwoordelijk voor het rechtstreeks beheer van de instellingen voor do
 
 ## Gerelateerde lezing
 
-* [&#x200B; SendGrid &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; SendGrid &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/project/sendgrid) in onze ontwikkelaarsdocumentatie.
