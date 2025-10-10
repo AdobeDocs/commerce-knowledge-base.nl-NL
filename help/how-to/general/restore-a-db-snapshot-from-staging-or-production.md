@@ -17,21 +17,21 @@ In dit artikel wordt weergegeven hoe u een database [!DNL snapshot] vanaf [!DNL 
 >[!NOTE]
 >
 >Deze methodes zullen de **volledige momentopname** herstellen.
->>Als u de momentopname **gedeeltelijk** - voor voorbeeld moet herstellen, slechts het herstellen van de cataloguslijsten terwijl het verlaten van de ordetabellen intact-u moet met uw ontwikkelaar of DBA raadplegen.
+>&#x200B;>Als u de momentopname **gedeeltelijk** - voor voorbeeld moet herstellen, slechts het herstellen van de cataloguslijsten terwijl het verlaten van de ordetabellen intact-u moet met uw ontwikkelaar of DBA raadplegen.
 
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, [&#x200B; alle gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 Kies de meest geschikte optie voor uw kwestie:
 
 >[!NOTE]
 >
-> Als u een momentopname in een integratiemilieu invoert, houd rekening met de gegevensbestandgrootte. Grote databases kunnen na het importeren prestatieverlies veroorzaken. U wordt aangeraden de momentopname eerst te importeren in een testomgeving of een lokale omgeving om de grootte te controleren en te reduceren voordat u deze overbrengt naar integratie. Daarnaast kunt u overwegen om snijtaken in de integratiesector uit te schakelen als zich na de import prestatieproblemen voordoen. Voor meer informatie, zie [ milieu van de Integratie ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment) in Commerce op de gids van de Infrastructuur van de Wolk.
+> Als u een momentopname in een integratiemilieu invoert, houd rekening met de gegevensbestandgrootte. Grote databases kunnen na het importeren prestatieverlies veroorzaken. U wordt aangeraden de momentopname eerst te importeren in een testomgeving of een lokale omgeving om de grootte te controleren en te reduceren voordat u deze overbrengt naar integratie. Daarnaast kunt u overwegen om snijtaken in de integratiesector uit te schakelen als zich na de import prestatieproblemen voordoen. Voor meer informatie, zie [&#x200B; milieu van de Integratie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment) in Commerce op de gids van de Infrastructuur van de Wolk.
 
-* [ Methode 1: Breng het gegevensbestand  [!DNL dump]  over aan uw lokale machine en voer het ](#meth2) in.
-* [ Methode 2: Importeer het gegevensbestand  [!DNL dump]  direct van de server ](#meth3).
+* [&#x200B; Methode 1: Breng het gegevensbestand  [!DNL dump]  over aan uw lokale machine en voer het &#x200B;](#meth2) in.
+* [&#x200B; Methode 2: Importeer het gegevensbestand  [!DNL dump]  direct van de server &#x200B;](#meth3).
 
 ## Methode 1: Breng de database [!DNL dump] over naar de lokale computer en importeer deze. {#meth2}
 
@@ -83,7 +83,7 @@ De stappen zijn:
    ```
 
 1. Kopieer de database [!DNL dump file] (bijvoorbeeld `<cluster ID>.sql.gz` for [!DNL Production] of `<cluster ID_stg>.sql.gz` for [!DNL Staging] ) naar uw lokale computer.
-1. Zorg ervoor u opstelling [!DNL SSH tunnel] om met het gegevensbestand ver hebt te verbinden: [[!DNL SSH]  en  [!DNL sFTP]: [!DNL SSH tunneling] ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) in onze ontwikkelaarsdocumentatie.
+1. Zorg ervoor u opstelling [!DNL SSH tunnel] om met het gegevensbestand ver hebt te verbinden: [[!DNL SSH]  en  [!DNL sFTP]: [!DNL SSH tunneling] &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) in onze ontwikkelaarsdocumentatie.
 1. Maak verbinding met de database.
 
    ```bash
@@ -179,6 +179,6 @@ De stappen zijn:
 
 In onze documentatie voor ontwikkelaars:
 
-* [ de code van de Invoer: Invoer het gegevensbestand ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots]  en  [!DNL backup]  beheer: [!DNL Dump]  uw gegevensbestand ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [ Steun (momentopname) op Wolk: Veelgestelde vragen ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [&#x200B; de code van de Invoer: Invoer het gegevensbestand &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots]  en  [!DNL backup]  beheer: [!DNL Dump]  uw gegevensbestand &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [&#x200B; Steun (momentopname) op Wolk: Veelgestelde vragen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
