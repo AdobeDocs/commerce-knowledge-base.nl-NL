@@ -29,7 +29,7 @@ Probeer elk van de volgende opties een voor een opnieuw en probeer de installati
 
 1. Voer de wizard Webinstellingen uit. De modules worden vermeld in **Geavanceerde Configuraties van Modules**. Om de **Magento\_BundleSampleData** module onbruikbaar te maken, ontruim **Magento \_BundleSampleData** checkbox zoals het volgende cijfer toont.
 
-   ![ tshoot_bundlesampledata.png ](assets/tshoot_bundlesampledata.png)
+   ![&#x200B; tshoot_bundlesampledata.png &#x200B;](assets/tshoot_bundlesampledata.png)
 
 1. Wis alle browsergeschiedenis en gegevens uit uw webbrowser.
 1. Als u Chrome hebt, wist u alle browsergegevens die betrekking hebben op uw site.  Ga naar **Montages** > **Geavanceerde opties** > **Privacy** > **Montages van de Inhoud** > **Alle koekjes en plaatsgegevens**. In de kolom van de Plaats, klik het adres van uw server van Adobe Commerce en klik **verwijdert allen**.

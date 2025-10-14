@@ -23,7 +23,7 @@ Dit artikel biedt een oplossing voor ontbrekende extensies in de Admin Extension
 
 Wanneer u extensies aanschaft via de Commerce Marketplace, kunt u deze niet installeren met de Adobe Commerce-kernExtension Manager. Wanneer u de toegangstoetsen toevoegt en synchroniseert met de Marketplace, ziet de Extension Manager geen extensies.
 
-De **Oplossing** voor de kwestie moet de installatie van de bevellijnAdobe Commerce zoals aangetoond in [ Algemene installatie CLI ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions) in onze ontwikkelaarsdocumentatie gebruiken.
+De **Oplossing** voor de kwestie moet de installatie van de bevellijnAdobe Commerce zoals aangetoond in [&#x200B; Algemene installatie CLI &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions) in onze ontwikkelaarsdocumentatie gebruiken.
 
 <u> Stappen om </u> te reproduceren:
 
@@ -40,8 +40,8 @@ De extensie wordt weergegeven in de sectie Extension Manager van Commerce Admin.
 **geen uitbreiding verschijnt op de sectie van de Extension Manager van Commerce Admin, gelijkend op het hieronder beeld:**
 
 
-![ KB-607_Image_1.png ](assets/KB-607_Image_1.png)
+![&#x200B; KB-607_Image_1.png &#x200B;](assets/KB-607_Image_1.png)
 
 ## Workaround
 
-Gebruik de installatie van Adobe Commerce van de bevellijn zoals aangetoond in [ Algemene installatie CLI ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions) in onze ontwikkelaarsdocumentatie.
+Gebruik de installatie van Adobe Commerce van de bevellijn zoals aangetoond in [&#x200B; Algemene installatie CLI &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions) in onze ontwikkelaarsdocumentatie.

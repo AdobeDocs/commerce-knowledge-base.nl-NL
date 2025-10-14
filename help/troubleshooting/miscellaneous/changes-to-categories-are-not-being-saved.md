@@ -31,7 +31,7 @@ Nadat u wijzigingen hebt aangebracht in een productcategorie in Beheer en deze h
 
 Het probleem wordt veroorzaakt door dezelfde waarden in de kolom `created_in` van de categorierecords in de database (DB) die hierdoor worden beïnvloed.
 
-![ Beschadigde gegevens in de catalog_category_entity lijst ](assets/catalog_category_entity.png)
+![&#x200B; Beschadigde gegevens in de catalog_category_entity lijst &#x200B;](assets/catalog_category_entity.png)
 
 Details:
 
@@ -62,7 +62,7 @@ De `catalog_category_entity` -tabel moet meerdere records voor de desbetreffende
 1. Entiteiten filteren op entiteit\_id, met entiteit\_id die de desbetreffende categorie identificeert.
 1. Als de waarden in de kolom created\_in gelijk zijn voor verschillende items met dezelfde entiteit\_id, is dat onze zaak. Normaal gesproken zijn de `created_in` -waarden verschillend voor elke record.
 
-![ Beschadigde gegevens in de catalog_category_entity lijst ](assets/catalog_category_entity.png)
+![&#x200B; Beschadigde gegevens in de catalog_category_entity lijst &#x200B;](assets/catalog_category_entity.png)
 
 ## Oplossing
 
@@ -87,9 +87,9 @@ Voer de volgende stappen uit:
 
 1. Zoek de categorierecords met dezelfde `entity_id` en dezelfde `created_in` -waarde.
 1. Selecteer de record waar `row_id` = `entity_id` en kopieer de `updated_in` -waarde.
-1. Selecteer de record waarin `row_id` niet gelijk is aan `entity_id` en plak de gekopieerde `updated_in` waarde als de `created_in` waarde. Zie de onderstaande schermafbeelding als illustratie.    ![ het Kopiëren van created_in value.png ](assets/copy_created-in_value.png)
+1. Selecteer de record waarin `row_id` niet gelijk is aan `entity_id` en plak de gekopieerde `updated_in` waarde als de `created_in` waarde. Zie de onderstaande schermafbeelding als illustratie.    ![&#x200B; het Kopiëren van created_in value.png &#x200B;](assets/copy_created-in_value.png)
 1. Controleer of de update-record voor de categorie, waarvan u de `created_in` -waarde hebt bijgewerkt (in stap 3), bestaat in de `staging_update` -tabel. *bijvoorbeeld:* ALS de gekopieerde `created_in` waarde 1509281953 is, DAN moet de entiteit met `row_id` = 1509281953 in de `staging_update` lijst bestaan.
 
 ## Gerelateerde lezing
 
-[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+[&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

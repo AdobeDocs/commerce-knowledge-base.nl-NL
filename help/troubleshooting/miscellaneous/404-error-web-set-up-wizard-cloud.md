@@ -43,9 +43,9 @@ De wizard Web Setup is voor alle Adobe Commerce uitgeschakeld op instanties van 
 
 Deze functie is uitgeschakeld in Adobe Commerce op cloudinfrastructuur.
 
-Zie [ installeren, beheren, en verbetert uitbreidingen ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/extensions) in onze ontwikkelaarsdocumentatie voor informatie over hoe te om updates uit te voeren of externe modules voor Adobe Commerce op onze wolkeninfrastructuur te installeren.
-Zie [ Snel begin installeert ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/composer) in onze ontwikkelaarsdocumentatie voor informatie over hoe te om updates uit te voeren of externe modules voor Adobe Commerce op-gebouw te installeren.
+Zie [&#x200B; installeren, beheren, en verbetert uitbreidingen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/extensions) in onze ontwikkelaarsdocumentatie voor informatie over hoe te om updates uit te voeren of externe modules voor Adobe Commerce op onze wolkeninfrastructuur te installeren.
+Zie [&#x200B; Snel begin installeert &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/composer) in onze ontwikkelaarsdocumentatie voor informatie over hoe te om updates uit te voeren of externe modules voor Adobe Commerce op-gebouw te installeren.
 
 ## Gerelateerde lezing
 
-* Zie [ een uitbreiding ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension) in onze ontwikkelaarsdocumentatie installeren.
+* Zie [&#x200B; een uitbreiding &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension) in onze ontwikkelaarsdocumentatie installeren.

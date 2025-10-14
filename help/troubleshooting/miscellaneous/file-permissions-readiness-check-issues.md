@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat een oplossing voor problemen met de gereedheidscontrole voor bestandsmachtigingen. Mappen in het Adobe Commerce-bestandssysteem moeten kunnen worden geschreven door de gebruiker van de webserver en, indien van toepassing, door de eigenaar van het Adobe Commerce-bestandssysteem. Een fout gelijkend op de volgende vertoningen in de Tovenaar van de Opstelling van het Web als uw toestemmingen niet behoorlijk worden geplaatst:
 
-![ install_rc_file-perms.png ](assets/install_rc_file-perms.png)
+![&#x200B; install_rc_file-perms.png &#x200B;](assets/install_rc_file-perms.png)
 
 De manier waarop u het probleem verhelpt, hangt af van het feit of u een installatie voor één gebruiker of voor twee gebruikers hebt:
 

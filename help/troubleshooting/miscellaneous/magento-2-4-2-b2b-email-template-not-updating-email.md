@@ -45,4 +45,4 @@ Voer handmatig de snijtaak of de consument uit om de nieuwe informatie te verspr
 
 ## Gerelateerde lezing
 
-* [ beheer berichtrijen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; beheer berichtrijen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) in onze ontwikkelaarsdocumentatie.

@@ -49,7 +49,7 @@ De volgende alinea&#39;s bevatten meer details voor elke stap.
 
 De eerste stap aan het bevestigen van een plaats die door zwaar verkeer wordt samengeperst is ervoor te zorgen de pagina&#39;s met het zwaarste verkeer, zoals de homepage van de winkel en de top-level categoriepagina&#39;s, behoorlijk in het voorgeheugen onder worden gebracht.
 
-U kunt de tarieven van de geheim voorgeheugentreffelijkheid voor deze pagina&#39;s ontdekken door de `X-Cache` kopballen van HTTP te herzien gebruikend cURL, zoals die in [ wordt beschreven die geheime voorgeheugen gebruikend cURL ](https://docs.fastly.com/guides/debugging/checking-cache#using-curl) in de Snelle documentatie. Of controleer de zelfde kopballen gebruikend het netwerklusje in de ontwikkelaartoolbar van uw favoriete Webbrowser.
+U kunt de tarieven van de geheim voorgeheugentreffelijkheid voor deze pagina&#39;s ontdekken door de `X-Cache` kopballen van HTTP te herzien gebruikend cURL, zoals die in [&#x200B; wordt beschreven die geheime voorgeheugen gebruikend cURL &#x200B;](https://docs.fastly.com/guides/debugging/checking-cache#using-curl) in de Snelle documentatie. Of controleer de zelfde kopballen gebruikend het netwerklusje in de ontwikkelaartoolbar van uw favoriete Webbrowser.
 
 In het algemeen worden de antwoordheaders die afkomstig zijn van de toepassing, snel gerespecteerd. Als alle kopteksten echter zijn ingesteld op &quot;niet in cache plaatsen&quot; en voor de pagina &quot;in het verleden verlopen&quot;, kan de pagina snel niet in het cachegeheugen worden opgeslagen.
 
@@ -65,12 +65,12 @@ Als de indexpagina een lage aanraaksnelheid heeft, kunt u deze corrigeren door d
 
 De algemene aanraaksnelheid in cache controleren:
 
-1. [ krijg de Snelle geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration) voor uw Adobe Commerce op het milieu van de wolkeninfrastructuur.
+1. [&#x200B; krijg de Snelle geloofsbrieven &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration) voor uw Adobe Commerce op het milieu van de wolkeninfrastructuur.
 1. Voer de volgende Linux/macOS-opdracht cURL uit om de snelheden voor uw site in de afgelopen 30 minuten te controleren, waarbij u de waarden voor uw snelste referenties vervangt:
 
    `curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp`
 
-   U kunt ook de historische hit-snelheden van de laatste dag of maand controleren door de zoekoptie voor het tijdbereik te wijzigen van `?by=minute` in `?by=hour` of `?by=day` . Voor meer informatie bij het krijgen van Fastly geheim voorgeheugenstatistieken, zie [ Opties van de Vraag ](https://docs.fastly.com/api/stats#Query) in de Snelle documentatie.
+   U kunt ook de historische hit-snelheden van de laatste dag of maand controleren door de zoekoptie voor het tijdbereik te wijzigen van `?by=minute` in `?by=hour` of `?by=day` . Voor meer informatie bij het krijgen van Fastly geheim voorgeheugenstatistieken, zie [&#x200B; Opties van de Vraag &#x200B;](https://docs.fastly.com/api/stats#Query) in de Snelle documentatie.
 
    Met de optie `| json_pp` wordt de JSON-responsuitvoer vrij afgedrukt met het hulpprogramma `json_pp` . Als a_&#39;json\_pp not found&#39;_ error, installeert u het hulpprogramma `json_pp` of gebruikt u een ander opdrachtregelprogramma voor JSON-vrij afdrukken. U kunt ook de parameter `| json_pp` verwijderen en de opdracht opnieuw uitvoeren. De uitvoer van de JSON-reactie is niet opgemaakt, maar u kunt deze uitvoeren via een JSON-verfijnen om de uitvoer op te schonen.
 
@@ -82,8 +82,8 @@ Een aanraaksnelheid lager dan 0,85 of 85% geeft mogelijk een probleem met de sit
 
 1. Bepaal aan de hand van de statistieken van de aanraaksnelheid per uur en per dag wanneer de aanraaksnelheid begon te dalen. Als het raakpercentage plotseling is gedaald op het moment dat u een wijziging in uw site hebt geïmplementeerd, kunt u de wijziging desgewenst terugdraaien totdat de site is geladen.
 1. Controleer de configuratie in Commerce Admin, onder **Slaat** > **Configuratie** > Geavanceerd > **Systeem** > **Volledige het Geheime voorgeheugen van de Pagina** op. Zorg ervoor dat **TTL voor openbare inhoud** waarde niet te laag wordt geplaatst.
-1. Zorg ervoor u [ hebt geupload de fragmenten VCL ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets).
-1. Als u de fragmenten van douaneVCL gebruikt, zuivert hen voor correct gebruik van de &quot;pas&quot;of &quot;pijp&quot;acties: zij zouden zorgvuldig moeten worden gebruikt en op het minst met een voorwaarde van één of andere soort worden gebruikt. Voor meer uiteinden, zie [ de fragmenten van VCL van de Douane de Snelle VCL ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) in onze ontwikkelaarsdocumentatie.
+1. Zorg ervoor u [&#x200B; hebt geupload de fragmenten VCL &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets).
+1. Als u de fragmenten van douaneVCL gebruikt, zuivert hen voor correct gebruik van de &quot;pas&quot;of &quot;pijp&quot;acties: zij zouden zorgvuldig moeten worden gebruikt en op het minst met een voorwaarde van één of andere soort worden gebruikt. Voor meer uiteinden, zie [&#x200B; de fragmenten van VCL van de Douane de Snelle VCL &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) in onze ontwikkelaarsdocumentatie.
 
 ### Stap 3: Identificeer de websites die de hoge serverlading veroorzaken
 
@@ -131,7 +131,7 @@ Nadat u de IP adressen identificeert die zware serverlading veroorzaken, kunt u 
 
 Als u vanwege de hoge belasting geen toegang hebt tot uw beheerder, kunt u de snelheids-API gebruiken om de blokkeringsregels in te stellen:
 
-1. Creeer ACL zoals die in [ wordt beschreven Werkend met ACLs die API ](https://docs.fastly.com/guides/access-control-lists/working-with-acls-using-the-api) snel doc. gebruikt.
+1. Creeer ACL zoals die in [&#x200B; wordt beschreven Werkend met ACLs die API &#x200B;](https://docs.fastly.com/guides/access-control-lists/working-with-acls-using-the-api) snel doc. gebruikt.
 1. In de `recv` sectie, creeer een fragment VCL met de volgende inhoud, die ACL\_NAME\_GOES\_HERE met de naam van ACL vervangen die in de vorige stap werd gecreeerd:
 
    ```
@@ -140,4 +140,4 @@ Als u vanwege de hoge belasting geen toegang hebt tot uw beheerder, kunt u de sn
    }
    ```
 
-Voor meer informatie bij het blokkeren van IP adressen, zie de [ snelst de modulegids van Adobe Commerce ](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) in GitHub.
+Voor meer informatie bij het blokkeren van IP adressen, zie de [&#x200B; snelst de modulegids van Adobe Commerce &#x200B;](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) in GitHub.

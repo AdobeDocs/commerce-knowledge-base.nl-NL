@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 Nadat u het pakket hebt geïnstalleerd, configureert u Google reCAPTCHA (aanbevolen) of CAPTCHA zoals beschreven in de volgende documenten:
 
-* [ Google reCAPTCHA ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/captcha/security-google-recaptcha) in onze gebruikersgids.
-* [ CAPTCHA ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/captcha/security-captcha) in onze gebruikersgids.
+* [&#x200B; Google reCAPTCHA &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/captcha/security-google-recaptcha) in onze gebruikersgids.
+* [&#x200B; CAPTCHA &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/captcha/security-captcha) in onze gebruikersgids.
 
 De nieuwe optie voor het uitcheckformulier is:
 
@@ -133,7 +133,7 @@ Neem contact op met PayPal Payflow Merchant Support voor meer informatie over de
 
 >[!NOTE]
 >
->Zie voor meer informatie de KB [ van PayPal&#39;s &quot;Adobe heeft contact met me opgenomen over mijn Payflow Pro-integratie. Wat moet ik doen?&quot;](https://www.paypal.com/us/smarthelp/article/ts2242).
+>Zie voor meer informatie de KB [&#x200B; van PayPal&#39;s &quot;Adobe heeft contact met me opgenomen over mijn Payflow Pro-integratie. Wat moet ik doen?&quot;](https://www.paypal.com/us/smarthelp/article/ts2242).
 
 **PayPal de Informatie van de Steun van de Betalingsindustrie van de Betalingsverkeer**
 
@@ -141,10 +141,10 @@ De kantooruren van de Steun van de koophandel zijn van maandag tot vrijdag van 7
 
 * Telefoon: 1-888-883-9770 (Selecteer vraag 2)
 * Internationale klanten: 1-408-967-0191
-* E-mail: [ payflow-support@paypal.com](mailto:payflow-support@paypal.com)
+* E-mail: [&#x200B; payflow-support@paypal.com](mailto:payflow-support@paypal.com)
 
 Australische ondersteuning
 
 * Maandag - vrijdag 8:00 - 19:00 uur (AU-tijd)
 * Telefoon: +61 2 8288 0198
-* E-mail: [ gateway-ausupport@paypal.com](mailto:gateway-ausupport@paypal.com)
+* E-mail: [&#x200B; gateway-ausupport@paypal.com](mailto:gateway-ausupport@paypal.com)

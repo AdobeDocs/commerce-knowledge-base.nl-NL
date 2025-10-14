@@ -25,9 +25,9 @@ Modifier/AdvancedInventory.php on line 87
 
 ## Detail
 
-Adobe Commerce 2.1 en hoger gebruiken PHP-codeopmerkingen in de `getDocComment` validatieaanroep in de [`getExtensionAttributes` ](https://github.com/magento/magento2/blob/2.3/lib/internal/Magento/Framework/Api/ExtensionAttributesFactory.php#L64-L73) -methode in `Magento\Framework\Api\ExtensionAttributesFactory.php` .
+Adobe Commerce 2.1 en hoger gebruiken PHP-codeopmerkingen in de `getDocComment` validatieaanroep in de [`getExtensionAttributes` &#x200B;](https://github.com/magento/magento2/blob/2.3/lib/internal/Magento/Framework/Api/ExtensionAttributesFactory.php#L64-L73) -methode in `Magento\Framework\Api\ExtensionAttributesFactory.php` .
 
-Als u de PHP OPcache (die we aanbevelen) hebt ingeschakeld, wordt deze fout weergegeven omdat standaard de OPcache-instelling [`opcache.save_comments` ](http://php.net/manual/en/opcache.configuration.php#ini.opcache.save_comments) is uitgeschakeld.
+Als u de PHP OPcache (die we aanbevelen) hebt ingeschakeld, wordt deze fout weergegeven omdat standaard de OPcache-instelling [`opcache.save_comments` &#x200B;](http://php.net/manual/en/opcache.configuration.php#ini.opcache.save_comments) is uitgeschakeld.
 
 ## Workaround
 

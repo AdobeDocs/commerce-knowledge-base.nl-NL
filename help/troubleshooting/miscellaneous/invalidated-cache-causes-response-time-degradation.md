@@ -57,7 +57,7 @@ Dit doet u als volgt:
 
 Hier volgt een voorbeeld van een `debug.log` met records waarin de cache `cat_p` en `category_product_15044` is verwijderd:
 
-![ steekproef van de inhoud debug.log ](assets/debug_log_sample.png)
+![&#x200B; steekproef van de inhoud debug.log &#x200B;](assets/debug_log_sample.png)
 
 Gewoonlijk wordt de cache ongeldig vanwege het volgende:
 
@@ -67,4 +67,4 @@ Gewoonlijk wordt de cache ongeldig vanwege het volgende:
 ## Aanbeveling
 
 1. Vermijd het leegmaken van de cache van de Commerce CLI.
-1. Vorm indexeerders aan **Update door programma** in plaats van **Update op sparen wijze** omdat laatstgenoemde volledige het opnieuw indexeren teweegbrengt. Voor verwijzing, zie [ de indexen beheren > indexen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) in onze ontwikkelaarsdocumentatie vormen.
+1. Vorm indexeerders aan **Update door programma** in plaats van **Update op sparen wijze** omdat laatstgenoemde volledige het opnieuw indexeren teweegbrengt. Voor verwijzing, zie [&#x200B; de indexen beheren > indexen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) in onze ontwikkelaarsdocumentatie vormen.

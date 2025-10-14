@@ -68,5 +68,5 @@ Maak een uitsnijdtaak om de volgende indexen te verwijderen. Met deze opdracht v
 
 Als u indexen op een vastgestelde tijd-frequentie wilt schrappen, creeer een hulpbaan door naar de volgende artikelen in onze ontwikkelaarsdocumentatie te verwijzen:
 
-* [ vorm een baan van de douanecurn en de cron groep (leerprogramma) ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [ de banen van de opstelling cron ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [&#x200B; vorm een baan van de douanecurn en de cron groep (leerprogramma) &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [&#x200B; de banen van de opstelling cron &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

@@ -17,7 +17,7 @@ In dit artikel wordt getoond hoe u kunt controleren wanneer de laatste keer dat 
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, [&#x200B; alle gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Oorzaak
 
@@ -39,12 +39,12 @@ Controle toen de laatste tijd de tak werd opgesteld. Als over de drempel van 30 
 
 Twee methodes om te controleren wanneer de laatste plaatsing werd uitgevoerd:
 
-* [ Methode 1: Gebruik  [!DNL magento-cloud]  CLI ](#meth2).
-* [ Methode 2: Open  [!DNL Project URL]](#meth3).
+* [&#x200B; Methode 1: Gebruik  [!DNL magento-cloud]  CLI &#x200B;](#meth2).
+* [&#x200B; Methode 2: Open  [!DNL Project URL]](#meth3).
 
 Als de implementatie is voltooid, wordt [!DNL SSL certificate] automatisch vernieuwd.
 
-Als de plaatsing ontbreekt en u hulp nodig die het oplossen, [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) oplost.
+Als de plaatsing ontbreekt en u hulp nodig die het oplossen, [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) oplost.
 
 ### Methode 1: [!DNL magento-cloud] CLI gebruiken {#meth2}
 
@@ -58,10 +58,10 @@ Ga bijvoorbeeld naar: `https://demo.magento.cloud/#/projects/<project>/environme
 
 In onze documentatie voor ontwikkelaars:
 
-* [ Cloud Manager API: SSLCcertificates ](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#tag/SSLCertificates)
-* [ Opstelling snel: Verlening SSL/TLS certificaten ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
+* [&#x200B; Cloud Manager API: SSLCcertificates &#x200B;](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#tag/SSLCertificates)
+* [&#x200B; Opstelling snel: Verlening SSL/TLS certificaten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
 
 In onze kennisbasis voor ondersteuning:
 
-* [ de informatie van de het certificaatvervaldatum van de Douane SSL ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html?lang=nl-NL)
-* [ SSL (TLS) certificaten voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html?lang=nl-NL)
+* [&#x200B; de informatie van de het certificaatvervaldatum van de Douane SSL &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html?lang=nl-NL)
+* [&#x200B; SSL (TLS) certificaten voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html?lang=nl-NL)

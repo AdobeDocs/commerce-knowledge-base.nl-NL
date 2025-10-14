@@ -21,4 +21,4 @@ Adobe Commerce op cloud-infrastructuur 2.3.x, 2.4.x.
 
 ## Bijgevoegde bestanden
 
-Klik op het [ in bijlage .pdf ](assets/CPU_Allocation.pdf) dossier om het artikel te downloaden.
+Klik op het [&#x200B; in bijlage .pdf &#x200B;](assets/CPU_Allocation.pdf) dossier om het artikel te downloaden.

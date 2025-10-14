@@ -219,9 +219,9 @@ Het bericht van de fout: __ging iets fout.__
 
 ## Toegankelijkheid
 
-* Alle niet-tekstuele of grafische elementen hebben tekstuele equivalenten of Alt-tekst. Voorbeeld: ![ example_image ](/url " alt_text_for_this_image ").
+* Alle niet-tekstuele of grafische elementen hebben tekstuele equivalenten of Alt-tekst. Voorbeeld: ![&#x200B; example_image &#x200B;](/url " alt_text_for_this_image ").
 
-* Alle koppelingen beschrijven de bestemming van de koppeling. Voorbeeld [ verbinding ](/uri "doel_van_de_koppeling").
+* Alle koppelingen beschrijven de bestemming van de koppeling. Voorbeeld [&#x200B; verbinding &#x200B;](/uri "doel_van_de_koppeling").
 
 
 <!--
@@ -253,7 +253,7 @@ Een lijst met gespecialiseerde koppelingen, ook wel een lijst met opnamen genoem
 
 ### Koppelingen naar externe websites
 
-Gebruik gewone URLs eerder dan goURLs om met pagina&#39;s buiten [ Adobe.com ](http://Adobe.com) te verbinden.
+Gebruik gewone URLs eerder dan goURLs om met pagina&#39;s buiten [&#x200B; Adobe.com &#x200B;](http://Adobe.com) te verbinden.
 
 
 ## Kommels
@@ -276,4 +276,4 @@ In het algemeen volgt u de aanbevelingen in de Chicago Manual of Style voor lees
 
 ## Branding
 
-* Magento Commerce is nu Adobe Commerce. Gelieve te verwijzen naar de [ termen van Rebrand ](https://github.com/magento/knowledge-base/wiki) wiki voor meer informatie over hoe te om bijgewerkte brandingstaal te gebruiken.
+* Magento Commerce is nu Adobe Commerce. Gelieve te verwijzen naar de [&#x200B; termen van Rebrand &#x200B;](https://github.com/magento/knowledge-base/wiki) wiki voor meer informatie over hoe te om bijgewerkte brandingstaal te gebruiken.

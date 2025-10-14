@@ -54,8 +54,8 @@ Om het probleem voor 2.3.7-p1 op te lossen, moeten Adobe Commerce (alle implemen
 
 ## Hoe de pleister moet worden aangebracht
 
-Zie [ hoe te om een componentenflard toe te passen die door Magento ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
+Zie [&#x200B; hoe te om een componentenflard toe te passen die door Magento &#x200B;](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Verwante lezing
 
-GitHub [ Niet gestaafd PHP 8 bevel in Magento 2.4.3 EE #33680 ](https://github.com/magento/magento2/issues/33680)
+GitHub [&#x200B; Niet gestaafd PHP 8 bevel in Magento 2.4.3 EE #33680 &#x200B;](https://github.com/magento/magento2/issues/33680)

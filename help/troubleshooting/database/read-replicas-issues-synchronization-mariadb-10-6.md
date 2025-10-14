@@ -54,10 +54,10 @@ Niet-kritische leesbewerkingen geven onjuiste informatie weer.
 
 
 
-Voor stappen bij het bijwerken van de gegevensbestandconfiguratie, verwijs naar [ DATABASE_CONFIGURATION ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=nl-NL#database_configuration) in het Deploy variabelen onderwerp in Commerce op de Gids van de Infrastructuur van de Wolk.
+Voor stappen bij het bijwerken van de gegevensbestandconfiguratie, verwijs naar [&#x200B; DATABASE_CONFIGURATION &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=nl-NL#database_configuration) in het Deploy variabelen onderwerp in Commerce op de Gids van de Infrastructuur van de Wolk.
 
 
 ## Gerelateerde lezing
 
-* [ vorm milieuvariabelen voor plaatsing ](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) in Commerce op de Gids van de Infrastructuur van de Wolk.
-* [ Beste praktijken voor gegevensbestandconfiguratie ](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in het Playbook van de Implementatie.
+* [&#x200B; vorm milieuvariabelen voor plaatsing &#x200B;](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) in Commerce op de Gids van de Infrastructuur van de Wolk.
+* [&#x200B; Beste praktijken voor gegevensbestandconfiguratie &#x200B;](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in het Playbook van de Implementatie.

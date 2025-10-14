@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gegevens exporteren gebruiken om discrepanties vast te stellen
 
-Dit artikel verstrekt oplossingen voor het oplossen van problemendiscrepanties in uw gegevens van Magento BI. De Uitvoer van gegevens is een nuttig hulpmiddel om uw gegevens van MagentoBI aan uw brongegevens te vergelijken om gegevensdiscrepanties in uw rapporten te identificeren, vooral als de [ kenmerkende controlelijst van de gegevensdiscrepantie ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) u niet hielp te identificeren het probleem. Dit artikel zal u door een echt voorbeeld van lopen hoe de gegevensdiscrepanties kunnen worden gespeld gebruikend de Uitvoer van Gegevens.
+Dit artikel verstrekt oplossingen voor het oplossen van problemendiscrepanties in uw gegevens van Magento BI. De Uitvoer van gegevens is een nuttig hulpmiddel om uw gegevens van MagentoBI aan uw brongegevens te vergelijken om gegevensdiscrepanties in uw rapporten te identificeren, vooral als de [&#x200B; kenmerkende controlelijst van de gegevensdiscrepantie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) u niet hielp te identificeren het probleem. Dit artikel zal u door een echt voorbeeld van lopen hoe de gegevensdiscrepanties kunnen worden gespeld gebruikend de Uitvoer van Gegevens.
 
 Neem deze analyse, bijvoorbeeld:
 
@@ -51,11 +51,11 @@ Nu alle gegevens op één plaats zijn, kunnen we zoeken naar de bron van de disc
 
 Als beide systemen de zelfde rijtelling hebben en **metrische Inkomsten** niet de brongegevens aanpassen, dan moet **orde \_total** ergens weg zijn. Het is mogelijk dat het **orde \_total** gebied in uw brongegevensbestand is bijgewerkt en Magento BI niet deze veranderingen opneemt.
 
-Om dit te bevestigen, neem een blik bij al dan niet de **orde \_total** kolom opnieuw wordt gecontroleerd. Ga naar Data Warehouse Manager en klik op de tabel **`orders`** . U zult [ recheck frequentie ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=nl-NL) zien die in &quot;Veranderingen wordt vermeld?&quot; kolom. Het **orde \_total** gebied zou moeten worden geplaatst om zo vaak opnieuw te controleren aangezien het wordt verwacht om te veranderen; als het niet is, ga door en plaats het aan uw gewenste recheck frequentie.
+Om dit te bevestigen, neem een blik bij al dan niet de **orde \_total** kolom opnieuw wordt gecontroleerd. Ga naar Data Warehouse Manager en klik op de tabel **`orders`** . U zult [&#x200B; recheck frequentie &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=nl-NL) zien die in &quot;Veranderingen wordt vermeld?&quot; kolom. Het **orde \_total** gebied zou moeten worden geplaatst om zo vaak opnieuw te controleren aangezien het wordt verwacht om te veranderen; als het niet is, ga door en plaats het aan uw gewenste recheck frequentie.
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
-Als de frequentie voor opnieuw controleren al correct is ingesteld, is er iets anders mis. Verwijs naar de [ Contactpersoon sectie van de Steun ](#support) aan het eind van dit artikel voor volgende stappen.
+Als de frequentie voor opnieuw controleren al correct is ingesteld, is er iets anders mis. Verwijs naar de [&#x200B; Contactpersoon sectie van de Steun &#x200B;](#support) aan het eind van dit artikel voor volgende stappen.
 
 ## De brondatabase heeft meer rijen dan Magento BI {#morerows}
 
@@ -64,12 +64,12 @@ Als de brondatabase meer rijen heeft dan Magento BI en de tussenruimte groter is
 Navigeer naar de pagina Verbindingen en bekijk de status van de gegevensbron die de tabel `order` bevat:
 
 1. **als de status re-auth** is, gebruikt de verbinding niet de correcte geloofsbrieven. Klik in de verbinding, voer de juiste gegevens in en probeer het opnieuw.
-1. **als het statuut** ontbroken is, kan de verbinding niet behoorlijk op de serverzijde worden opgesteld. Mislukte verbindingen komen gewoonlijk voort uit een onjuiste gastheernaam of de doelserver die geen verbindingen op de gespecificeerde haven goedkeurt.Klik in de verbinding en controleer de spelling van hostname tweemaal en dat de correcte haven is ingegaan. Aan de serverzijde, zorg ervoor dat de haven verbindingen kan goedkeuren en dat uw firewall het Magento BI IP adres (54.88.76.97/32) zoals toegestaan heeft. **als de verbinding** blijft ontbreken, verwijs naar de [ Contactpersoon sectie van de Steun ](#support) aan het eind van dit artikel voor volgende stappen.
-1. **als de status Succes** is, dan is de verbinding niet het probleem en de steun RJ moet betrokken worden. Verwijs naar de [ Contactpersoon sectie van de Steun ](#support) aan het eind van dit artikel voor volgende stappen.
+1. **als het statuut** ontbroken is, kan de verbinding niet behoorlijk op de serverzijde worden opgesteld. Mislukte verbindingen komen gewoonlijk voort uit een onjuiste gastheernaam of de doelserver die geen verbindingen op de gespecificeerde haven goedkeurt.Klik in de verbinding en controleer de spelling van hostname tweemaal en dat de correcte haven is ingegaan. Aan de serverzijde, zorg ervoor dat de haven verbindingen kan goedkeuren en dat uw firewall het Magento BI IP adres (54.88.76.97/32) zoals toegestaan heeft. **als de verbinding** blijft ontbreken, verwijs naar de [&#x200B; Contactpersoon sectie van de Steun &#x200B;](#support) aan het eind van dit artikel voor volgende stappen.
+1. **als de status Succes** is, dan is de verbinding niet het probleem en de steun RJ moet betrokken worden. Verwijs naar de [&#x200B; Contactpersoon sectie van de Steun &#x200B;](#support) aan het eind van dit artikel voor volgende stappen.
 
 ## De brondatabase heeft MINDER rijen dan Magento BI {#lessrows}
 
-Als het brongegevensbestand minder rijen dan Magento BI heeft, dan is het mogelijk dat de rijen uit het brongegevensbestand worden geschrapt en Magento BI niet deze schrappingen opneemt. **&#x200B; [ het Schrappen van gegevens ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=nl-NL) kan tot discrepanties, langere updatetijden, en een stroom van logistieke hoofdpijnen** leiden, zodat adviseren wij u nooit gegevens zult schrappen tenzij het echt noodzakelijk is.
+Als het brongegevensbestand minder rijen dan Magento BI heeft, dan is het mogelijk dat de rijen uit het brongegevensbestand worden geschrapt en Magento BI niet deze schrappingen opneemt. **&#x200B; [&#x200B; het Schrappen van gegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=nl-NL) kan tot discrepanties, langere updatetijden, en een stroom van logistieke hoofdpijnen** leiden, zodat adviseren wij u nooit gegevens zult schrappen tenzij het echt noodzakelijk is.
 
 Als rijen echter uit de tabel worden verwijderd, bekijkt u de frequentie voor het opnieuw controleren van de primaire sleutel. Als u de primaire sleutel opnieuw controleert, wordt de tabel gecontroleerd op verwijderde rijen.
 
@@ -89,7 +89,7 @@ Als u niet de bron van het probleem kunt bepalen, zult u in Steun RJ moeten herh
 
 ## Gerelateerde lezing
 
-* [ kenmerkende controlelijst van de discrepantie van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
-* [ Beleid van de Dienst van Adobe Commerce Intelligence ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [&#x200B; kenmerkende controlelijst van de discrepantie van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [&#x200B; Beleid van de Dienst van Adobe Commerce Intelligence &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
 

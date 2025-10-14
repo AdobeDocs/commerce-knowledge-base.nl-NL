@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # De cache-TTL instellen voor afbeeldingen en andere statische inhoud
 
-Gelieve te verwijzen naar het [ Vastgestelde geheime voorgeheugen voor statische dossiers ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html?lang=nl-NL) in onze gebruikersgids.
+Gelieve te verwijzen naar het [&#x200B; Vastgestelde geheime voorgeheugen voor statische dossiers &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html?lang=nl-NL) in onze gebruikersgids.

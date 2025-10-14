@@ -18,10 +18,10 @@ De Adobe Commerce-ondersteuningskennisbasis biedt oplossingen voor het oplossen 
 
 Er zijn ook afzonderlijke bronnen voor probleemoplossing voor:
 
-* Adobe Commerce leren: [ https://learning.adobe.com/products-resources/contact-us.html](https://learning.adobe.com/products-resources/contact-us.html)
-* De Partners van de oplossing: [ https://solutionpartners.adobe.com/](https://solutionpartners.adobe.com/)
-* Tech Partners: [ https://partners.adobe.com/exchangeprogram/experiencecloud.html](https://solutionpartners.adobe.com/)
-* Commerce Marketplace: [ https://commercemarketplace.adobe.com](https://commercemarketplace.adobe.com)
+* Adobe Commerce leren: [&#x200B; https://learning.adobe.com/products-resources/contact-us.html](https://learning.adobe.com/products-resources/contact-us.html)
+* De Partners van de oplossing: [&#x200B; https://solutionpartners.adobe.com/](https://solutionpartners.adobe.com/)
+* Tech Partners: [&#x200B; https://partners.adobe.com/exchangeprogram/experiencecloud.html](https://solutionpartners.adobe.com/)
+* Commerce Marketplace: [&#x200B; https://commercemarketplace.adobe.com](https://commercemarketplace.adobe.com)
 
 Gebruik een van de volgende koppelingen als u technische documentatie of documentatie voor eindgebruikers zoekt:
 
@@ -101,6 +101,6 @@ Adobe Commerce over cloudinfrastructuur</td>
 
 ## Blogs en communicatie
 
-* Het Centrum van het Vertrouwen van de Adobe (veiligheidsupdates en flarden): [ https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
-* Adobe Commerce Community Developer Blog (Hoe kan ik-onderwerpen, best practices en technisch nieuws van de gemeenschap): [ https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
-* Adobe Commerce Blog (high level e-commerce):[ https://business.adobe.com/blog/](https://business.adobe.com/blog/)
+* Het Centrum van het Vertrouwen van de Adobe (veiligheidsupdates en flarden): [&#x200B; https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
+* Adobe Commerce Community Developer Blog (Hoe kan ik-onderwerpen, best practices en technisch nieuws van de gemeenschap): [&#x200B; https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
+* Adobe Commerce Blog (high level e-commerce):[&#x200B; https://business.adobe.com/blog/](https://business.adobe.com/blog/)

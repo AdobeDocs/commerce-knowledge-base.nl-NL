@@ -23,7 +23,7 @@ De verhogings-id die in clusters wordt gebruikt, wordt niet altijd met 3 geschei
 Elk van de drie servers beheert zijn eigen ruimte van identiteitskaart, en de toename die afhangt van welke MySQL belangrijkste gegevensbestandserver (afhankelijk van de relatieve lading) is - vandaar de variërende hiaten.
 Als u SSH aan elke knoop verbindt en met de lokale instantie MySQL verbindt die op die knoop gebruikend haven 3307 loopt (in plaats van proxied aan &quot;hoofd&quot;op de standaardhaven 3306), zult u het volgende beeld zien:
 
-![ auto_increment ](assets/auto_increment_id.png)
+![&#x200B; auto_increment &#x200B;](assets/auto_increment_id.png)
 
 Als de geselecteerde hoofd bijvoorbeeld knooppunt 1 is waar `auto_increment_offset = 1` staat, wordt de id verhoogd met 1. Als een nieuw hoofdknooppunt later wordt geselecteerd, bijvoorbeeld knooppunt 3 waar `auto_increment_offset = 3` , wordt het in plaats daarvan met 3 verhoogd.
 
@@ -31,5 +31,5 @@ Als de geselecteerde hoofd bijvoorbeeld knooppunt 1 is waar `auto_increment_offs
 
 Zie in onze documentatie voor ontwikkelaars:
 
-* [ Cloud voor Adobe Commerce > Pro architectuur > Steun en rampenterugwinning ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [ Wolk voor Adobe Commerce > installeer eerste vereisten: gegevensbestand ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/overview)
+* [&#x200B; Cloud voor Adobe Commerce > Pro architectuur > Steun en rampenterugwinning &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [&#x200B; Wolk voor Adobe Commerce > installeer eerste vereisten: gegevensbestand &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/overview)

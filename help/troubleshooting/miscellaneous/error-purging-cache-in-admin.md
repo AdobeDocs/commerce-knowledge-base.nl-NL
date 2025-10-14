@@ -56,8 +56,8 @@ ls: cannot access 'pub/media/catalog/product/cache/directory/filename/': No such
 ```
 
 er is geprobeerd de bestanden te wissen toen de bewerking al was voltooid. Dit is geen insect; het is een kwestie van de overseinensgelijktijdig die naar verwachting soms zal gebeuren. Er is geen probleem om problemen op te lossen.
-Nochtans, als de output toont dat de dossiers nog in het geheime voorgeheugen zijn, moet u [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen.
+Nochtans, als de output toont dat de dossiers nog in het geheime voorgeheugen zijn, moet u [&#x200B; een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen.
 
 ## Verwante lezing
 
-* [ Beheer van het Geheime voorgeheugen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; Beheer van het Geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management) in onze ontwikkelaarsdocumentatie.

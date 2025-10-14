@@ -23,13 +23,13 @@ Dit artikel biedt een oplossing voor Adobe Commerce-handelaren die niet compatib
 
 Op *14 Juni, 2024* [!DNL Google Maps] versie *3.53* bereikte het eind van leven en werd uitgezet door [!DNL Google].
 
-Zie [[!DNL Google Maps Platform: Maps JavaScript API] ](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions) voor meer informatie.
+Zie [[!DNL Google Maps Platform: Maps JavaScript API] &#x200B;](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions) voor meer informatie.
 
 Adobe Commerce was niet compatibel met recente [!DNL &#x200B; Google Maps] -versies van 3.54+.
 
 De incompatibiliteit werd veroorzaakt door verouderde `prototype.js script` , die via `lib/web/legacy-build.min.js` wordt geladen en native Array.from overschrijft, wat leidt tot een direct conflict met de [!DNL &#x200B; Google Maps] API.
 
-Zie [[!DNL Google Maps: JS Best Practices] ](https://developers.google.com/maps/documentation/javascript/best-practices).
+Zie [[!DNL Google Maps: JS Best Practices] &#x200B;](https://developers.google.com/maps/documentation/javascript/best-practices).
 
 <u> Stappen om </u> te reproduceren:
 
@@ -54,16 +54,16 @@ Als u het blok Kaarten inhoud van het menu **[!DNL PageBuilder]** naar de pagina
 Gebruik de volgende bijgevoegde patches, afhankelijk van de Adobe Commerce-versie:
 
 **voor versies 2.4.4:**
-[ ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip ](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
+[&#x200B; ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip &#x200B;](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
 **voor versies 2.4.5:**
-[ ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip ](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
+[&#x200B; ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip &#x200B;](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
 **voor versies 2.4.6:**
-[ ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip ](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
+[&#x200B; ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip &#x200B;](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
 **voor versies 2.4.7:**
-[ ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip ](assets/ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip)
+[&#x200B; ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip &#x200B;](assets/ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip)
 
 **gelieve nota te nemen**
 
@@ -72,4 +72,4 @@ Deze kwestie zal permanent in het werkingsgebied van de veiligheid-enige flardve
 
 ## Verwante lezing
 
-[ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) wordt verstrekt
+[&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) wordt verstrekt

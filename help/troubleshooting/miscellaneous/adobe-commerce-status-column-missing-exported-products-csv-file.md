@@ -17,7 +17,7 @@ Dit artikel biedt een oplossing voor het probleem wanneer u de statuskolom niet 
 
 ## Betrokken producten en versies
 
-Adobe Commerce (alle plaatsingsmethodes) alle [ gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce (alle plaatsingsmethodes) alle [&#x200B; gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Probleem
 
@@ -50,5 +50,5 @@ De naam van het statuskenmerk van het product is gewijzigd in het CSV-bestand. H
 
 ## Gerelateerde lezing
 
-* [ Werkend met Csv- dossiers ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-csv) in onze gebruikersgids.
-* [ Verwijzing van de Attributen van de Uitvoer van het Product ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-attributes-product) in onze gebruikersgids.
+* [&#x200B; Werkend met Csv- dossiers &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-csv) in onze gebruikersgids.
+* [&#x200B; Verwijzing van de Attributen van de Uitvoer van het Product &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-attributes-product) in onze gebruikersgids.

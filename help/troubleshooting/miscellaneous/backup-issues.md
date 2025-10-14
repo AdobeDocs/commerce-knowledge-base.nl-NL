@@ -35,26 +35,26 @@ Ga het volgende CLI bevel in:
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-Voor extra informatie over steunen, zie [ file en rol terug het dossiersysteem, media, en gegevensbestand.](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/backup)
+Voor extra informatie over steunen, zie [&#x200B; file en rol terug het dossiersysteem, media, en gegevensbestand.](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/backup)
 
 ## Onvoldoende schijfruimte {#insufficient-disk-space-trouble-backup-space-}
 
 Als de reservekopie is mislukt als gevolg van onvoldoende schijfruimte, moet u doorgaans schijfruimte vrijmaken door sommige bestanden naar een ander opslagapparaat of station te verplaatsen. Er kunnen echter andere manieren zijn om dit probleem op te lossen. Zie een van de volgende bronnen voor tips:
 
-* [ 8 Uiteinden om de Problemen van de Schijf van Linux &amp; van Unix van Systemen zoals volledige Schijf op te lossen of kan niet aan de Schijf ](https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk) schrijven
-* [ serverfout: df zegt schijf volledig is, maar het is niet ](https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not)
-* [ unix.stackexchange.com: Het volgen neer waar de schijfruimte op Linux is gegaan?](https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux)
+* [&#x200B; 8 Uiteinden om de Problemen van de Schijf van Linux &amp; van Unix van Systemen zoals volledige Schijf op te lossen of kan niet aan de Schijf &#x200B;](https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk) schrijven
+* [&#x200B; serverfout: df zegt schijf volledig is, maar het is niet &#x200B;](https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not)
+* [&#x200B; unix.stackexchange.com: Het volgen neer waar de schijfruimte op Linux is gegaan?](https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux)
 
 ## Fout besturingssysteem {#operating-system-error-trouble-backup-os-}
 
 Helaas, kunnen wij om het even wat specifiek wegens de verscheidenheid van fouten niet adviseren u zou kunnen ontmoeten. Wij kunnen u echter voorstellen:
 
 * Neem contact op met de systeembeheerder.
-* De openbare forums van het onderzoek zoals [ Uitwisseling van het Stapel ](https://unix.stackexchange.com) of [ Overloop van de Stapel ](https://stackoverflow.com)
-* Open a [ GitHub kwestie ](https://github.com/magento/magento2/issues) en wij zullen proberen om te helpen.
+* De openbare forums van het onderzoek zoals [&#x200B; Uitwisseling van het Stapel &#x200B;](https://unix.stackexchange.com) of [&#x200B; Overloop van de Stapel &#x200B;](https://stackoverflow.com)
+* Open a [&#x200B; GitHub kwestie &#x200B;](https://github.com/magento/magento2/issues) en wij zullen proberen om te helpen.
 
 ## Back-up mislukt {#backup-fails-trouble-backup-all-}
 
-Als de steun ontbreekt of als alle reservetests ontbreken, is het mogelijk de [ eigenaar van het het dossiersysteem van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) heeft niet voldoende voorrechten en eigendom van het het dossiersysteem van Adobe Commerce. Een andere gebruiker kan bijvoorbeeld eigenaar zijn van de bestanden of de bestanden kunnen alleen-lezen zijn.
+Als de steun ontbreekt of als alle reservetests ontbreken, is het mogelijk de [&#x200B; eigenaar van het het dossiersysteem van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) heeft niet voldoende voorrechten en eigendom van het het dossiersysteem van Adobe Commerce. Een andere gebruiker kan bijvoorbeeld eigenaar zijn van de bestanden of de bestanden kunnen alleen-lezen zijn.
 
-Let met name op de machtigingen voor het bestandssysteem en de eigendom van de map `<magento_root>/var` en submappen. Voor meer informatie, zie [ plaats de toestemmingen en de eigendom van het dossiersysteem ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions).
+Let met name op de machtigingen voor het bestandssysteem en de eigendom van de map `<magento_root>/var` en submappen. Voor meer informatie, zie [&#x200B; plaats de toestemmingen en de eigendom van het dossiersysteem &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions).

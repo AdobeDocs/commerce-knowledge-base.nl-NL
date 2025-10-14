@@ -27,7 +27,7 @@ Fatal error: Maximum function nesting level of '100' reached, aborting!
 U kunt dit probleem als volgt oplossen:
 
 * Schakel de extensie `xdebug` uit.
-* Stel de waarde van `xdebug.max_nesting_level` in op een waarde van 200 of meer. Voor meer informatie, zie [ xdebug documentatie ](http://xdebug.org/docs/basic#max_nesting_level).
+* Stel de waarde van `xdebug.max_nesting_level` in op een waarde van 200 of meer. Voor meer informatie, zie [&#x200B; xdebug documentatie &#x200B;](http://xdebug.org/docs/basic#max_nesting_level).
 
 Nadat u de configuratie van `xdebug` hebt gewijzigd of uitgeschakeld, start u Apache opnieuw:
 

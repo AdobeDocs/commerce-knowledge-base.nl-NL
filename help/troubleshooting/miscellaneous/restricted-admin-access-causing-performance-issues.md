@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Beperkte toegang tot beheerder leidt tot prestatieproblemen
 
-Dit artikel verstrekt oplossingen voor wanneer de prestaties negatief worden beïnvloed door [ rollen Admin met rolwerkingsgebied te gebruiken dat door website ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources) in onze gebruikersgids wordt beperkt.
+Dit artikel verstrekt oplossingen voor wanneer de prestaties negatief worden beïnvloed door [&#x200B; rollen Admin met rolwerkingsgebied te gebruiken dat door website &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources) in onze gebruikersgids wordt beperkt.
 
 ## Betrokken producten en versies
 
@@ -30,10 +30,10 @@ Het probleem is opgelost in Adobe Commerce 2.2.10 en 2.3.3.
 
 Hieronder vindt u opties om dit probleem te voorkomen:
 
-* Voer een upgrade uit van de Adobe Commerce-toepassingsversie naar 2.2.10 of 2.3.3. (voor instructies, zie de [ Verbetering Adobe Commerce op versie van de wolkeninfrastructuur ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in onze ontwikkelaarsdocumentatie).
+* Voer een upgrade uit van de Adobe Commerce-toepassingsversie naar 2.2.10 of 2.3.3. (voor instructies, zie de [&#x200B; Verbetering Adobe Commerce op versie van de wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in onze ontwikkelaarsdocumentatie).
 * Beperk indien mogelijk het bereik van de beheerdersrol niet per website.
-* [ leg een kaartje van de Steun van het Magento ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor, om een flard te verzoeken, als het beschikbaar is.
+* [&#x200B; leg een kaartje van de Steun van het Magento &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor, om een flard te verzoeken, als het beschikbaar is.
 
 ## Gerelateerde lezing
 
-* [ de rollen van de Gebruiker ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/user-accounts/permissions-user-roles) in onze gebruikersgids.
+* [&#x200B; de rollen van de Gebruiker &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/user-accounts/permissions-user-roles) in onze gebruikersgids.

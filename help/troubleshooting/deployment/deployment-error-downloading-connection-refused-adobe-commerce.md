@@ -25,7 +25,7 @@ W:    refused
 
 ## Betrokken versies
 
-Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce op wolkeninfrastructuur, [&#x200B; alle gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Probleem
 
@@ -55,10 +55,10 @@ Vraag een Super Gebruiker op het project om dit bevel in werking te stellen:
 magento-cloud project:clear-build-cache -p <project ID>
 ```
 
-Om te controleren wie op het project een Super Gebruiker is, verwijs naar [ Mening de het projectrol van een gebruiker ](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) in Commerce op de Gids van de Infrastructuur van de Wolk.
+Om te controleren wie op het project een Super Gebruiker is, verwijs naar [&#x200B; Mening de het projectrol van een gebruiker &#x200B;](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) in Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ## Aanbevolen lezen
 
-* [ de plaatsingsproblemen van Adobe Commerce ](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html).
-* [ Adobe Commerce op wolkenrepo kon niet worden betreden: 403 Verboden of 404 niet Gevonden fout toen het opstellen van ](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
-* [ de Plaatsing ontbreekt met &quot;Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
+* [&#x200B; de plaatsingsproblemen van Adobe Commerce &#x200B;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html).
+* [&#x200B; Adobe Commerce op wolkenrepo kon niet worden betreden: 403 Verboden of 404 niet Gevonden fout toen het opstellen van &#x200B;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
+* [&#x200B; de Plaatsing ontbreekt met &quot;Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).

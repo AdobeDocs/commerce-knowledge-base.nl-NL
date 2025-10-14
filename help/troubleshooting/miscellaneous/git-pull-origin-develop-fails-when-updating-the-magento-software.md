@@ -44,7 +44,7 @@ Uw oplossing hangt af van het feit of u opzettelijk bestanden hebt gewijzigd in 
 
 #### U hebt bestanden met opzet gewijzigd
 
-Los de conflicten handmatig op de gebruikelijke manier op. Als u niet zeker bent wat te doen, raadpleeg [ hulp GitHub ](https://help.github.com/).
+Los de conflicten handmatig op de gebruikelijke manier op. Als u niet zeker bent wat te doen, raadpleeg [&#x200B; hulp GitHub &#x200B;](https://help.github.com/).
 
 #### Bestanden zijn niet opzettelijk gewijzigd
 
@@ -71,6 +71,6 @@ Probeer een van de volgende handelingen uit:
 
   >[!NOTE]
   >
-  >De Adobe adviseert of bevestigt geen bepaalde GitHub configuratiemontages. Het voorgaande is alleen suggesties. Voor meer informatie, raadpleeg [ hulp GitHub ](https://help.github.com/).
+  >De Adobe adviseert of bevestigt geen bepaalde GitHub configuratiemontages. Het voorgaande is alleen suggesties. Voor meer informatie, raadpleeg [&#x200B; hulp GitHub &#x200B;](https://help.github.com/).
 
   Ga door waar je bent gebleven met je Adobe Commerce-update.

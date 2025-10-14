@@ -21,7 +21,7 @@ Dit artikel biedt een oplossing voor het probleem waarbij wijzigingen in het `.m
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur (alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)).
+* Adobe Commerce op wolkeninfrastructuur (alle [&#x200B; gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)).
 
 ## Probleem
 
@@ -29,7 +29,7 @@ Wijzigingen die u aanbrengt in het `.magento.env.yaml` -bestand hebben geen invl
 
 <u> Stappen om te reproduceren:</u>
 
-Wijzig elke waarde in `.magento.env.yaml` en druk naar de server, waar deze de configuratie (en implementatie-instellingen) voor de momenteel uitgecheckte omgeving moet definiëren. Voor stappen, zie [ Variabelen van het Milieu > Variabelen opstelt ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy) in onze ontwikkelaarsdocumentatie.
+Wijzig elke waarde in `.magento.env.yaml` en druk naar de server, waar deze de configuratie (en implementatie-instellingen) voor de momenteel uitgecheckte omgeving moet definiëren. Voor stappen, zie [&#x200B; Variabelen van het Milieu > Variabelen opstelt &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy) in onze ontwikkelaarsdocumentatie.
 
 <u> Verwacht resultaat:</u>
 
@@ -45,11 +45,11 @@ Het probleem kan worden veroorzaakt door de onjuiste waarde van de parameter `op
 
 ## Oplossing
 
-1. Controleer dat het systeem volgens [ Beste praktijken van de Prestaties van Adobe Commerce > de aanbevelingen van de Software ](https://experienceleague.adobe.com/nl/docs/commerce-operations/performance-best-practices/software) wordt gevormd.
+1. Controleer dat het systeem volgens [&#x200B; Beste praktijken van de Prestaties van Adobe Commerce > de aanbevelingen van de Software &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/performance-best-practices/software) wordt gevormd.
 1. Controleer of de aanwijzing `opcache.enable_cli` in `php.ini` is ingesteld op `0` door het volgende uit te voeren: `php -i | grep opcache.enable_cli`
 1. Als de uitvoer er als `opcache.enable_cli=1` uitziet, bewerkt u het `php.ini` -bestand in de hoofdmap van het project en wijzigt u `opcache.enable_cli=1` in `opcache.enable_cli=0`
 1. Implementeer het project opnieuw.
 
 ## Gerelateerde lezing
 
-* [ Wolk voor Adobe Commerce > bouwt en stelt ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml) op.
+* [&#x200B; Wolk voor Adobe Commerce > bouwt en stelt &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml) op.

@@ -57,10 +57,10 @@ Alle 2.3.5+ Adobe Commerce op-gebouw verkopers zouden het volgende CLI bevel moe
 
 **hoe te op Adobe Commerce op wolkeninfrastructuur te bevestigen:**
 
-Voer de bovenstaande opdrachten uit of voer een upgrade uit naar de nieuwste versie van de ECE-gereedschappen (ece-tools: 2002.1.7), die op donderdag 29 juli beschikbaar zal zijn. Voor stappen, verwijs naar [ Wolk voor Adobe Commerce > update knoop-hulpmiddelen versie ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) in onze ontwikkelaarsdocumentatie.
+Voer de bovenstaande opdrachten uit of voer een upgrade uit naar de nieuwste versie van de ECE-gereedschappen (ece-tools: 2002.1.7), die op donderdag 29 juli beschikbaar zal zijn. Voor stappen, verwijs naar [&#x200B; Wolk voor Adobe Commerce > update knoop-hulpmiddelen versie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) in onze ontwikkelaarsdocumentatie.
 
 De volledige oplossing wordt vrijgegeven in Adobe Commerce (alle implementatiemethoden) 2.4.4.
 
 ## Gerelateerde lezing
 
-* Github: [ 2021-07-27 de update van Composer Incompatibel argumenttype: Vereist type: int. Werkelijk type: tekenreeks ](https://github.com/magento/magento2/issues/33595)
+* Github: [&#x200B; 2021-07-27 de update van Composer Incompatibel argumenttype: Vereist type: int. Werkelijk type: tekenreeks &#x200B;](https://github.com/magento/magento2/issues/33595)

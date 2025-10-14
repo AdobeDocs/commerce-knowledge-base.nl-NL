@@ -51,6 +51,6 @@ De patch is ook compatibel (maar lost het probleem mogelijk niet op) met de volg
 
 ## Hoe de pleister aanbrengen
 
-Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
+Voor instructies, zie [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Bijgevoegde bestanden

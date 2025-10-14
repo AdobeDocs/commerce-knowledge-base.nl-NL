@@ -30,8 +30,8 @@ De kwestie zou wegens ACL beperkingen kunnen verschijnen die voor de instantie v
 
 ## Oplossing voor onjuiste productstatus
 
-Plaats een dynamische voorkeur van DI voor `Magento\Framework\Authorization\PolicyInterface`, zoals die in het [ wordt beschreven ObjectManager>Programmatic product werkt ](https://developer.adobe.com/commerce/php/development/components/object-manager/) onderwerp in onze ontwikkelaarsdocumentatie bij.
+Plaats een dynamische voorkeur van DI voor `Magento\Framework\Authorization\PolicyInterface`, zoals die in het [&#x200B; wordt beschreven ObjectManager>Programmatic product werkt &#x200B;](https://developer.adobe.com/commerce/php/development/components/object-manager/) onderwerp in onze ontwikkelaarsdocumentatie bij.
 
 ## Gerelateerde lezing
 
-* [ Github: Kan productstatus niet veranderen die het product met productRepository ](https://github.com/magento/magento2/issues/5664) werd gecreeerd
+* [&#x200B; Github: Kan productstatus niet veranderen die het product met productRepository &#x200B;](https://github.com/magento/magento2/issues/5664) werd gecreeerd

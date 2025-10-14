@@ -31,4 +31,4 @@ If you are using the sample nginx configuration, please go to http://ce.mtf03.bc
 
 ### Workaround
 
-Installeer de software van Adobe Commerce gebruikend de [ bevellijn ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/advanced).
+Installeer de software van Adobe Commerce gebruikend de [&#x200B; bevellijn &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/advanced).

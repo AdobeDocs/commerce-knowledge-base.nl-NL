@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 gekend probleem: digitale aanmelding
 
-Dit artikel beschrijft Adobe Commerce 2.3.6, 2.4.0-p1, en 2.4.1 bekende kwestie waar het onmogelijk is om aan [ dotdigital ](https://dotdigital.com/) via het Comité te registreren Admin wanneer de dotdigital rekening wordt toegelaten.
+Dit artikel beschrijft Adobe Commerce 2.3.6, 2.4.0-p1, en 2.4.1 bekende kwestie waar het onmogelijk is om aan [&#x200B; dotdigital &#x200B;](https://dotdigital.com/) via het Comité te registreren Admin wanneer de dotdigital rekening wordt toegelaten.
 
 ## Betrokken producten en versies
 
@@ -47,4 +47,4 @@ Oplossing: gebruik voor deze specifieke situatie een andere browser dan Safari.
 
 ## Verwante lezing
 
-[ Adobe Commerce 2.4.1 Bekende Uitgave - het adres van de top die niet met verschillende het verschepen/het factureren adressen ](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) in onze basis van de steunkennis bevestigt.
+[&#x200B; Adobe Commerce 2.4.1 Bekende Uitgave - het adres van de top die niet met verschillende het verschepen/het factureren adressen &#x200B;](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) in onze basis van de steunkennis bevestigt.

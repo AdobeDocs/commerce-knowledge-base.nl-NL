@@ -27,7 +27,7 @@ Dit artikel biedt oplossingen voor het gebruik van producten die niet in de wink
 1. Meld u aan bij de Commerce-beheerder.
 1. Ga naar **Catalogus** > **Producten**.
 
-   ![ open_product_page_magento_2.4.1.png ](assets/open_product_page_magento_2.4.1.png)
+   ![&#x200B; open_product_page_magento_2.4.1.png &#x200B;](assets/open_product_page_magento_2.4.1.png)
 
 1. Klik **toevoegen Product** en ga door het proces van de productverwezenlijking. Of importeer producten uit een CSV-bestand.
 

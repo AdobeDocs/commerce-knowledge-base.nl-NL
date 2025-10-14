@@ -18,7 +18,7 @@ De volgende FAQ is bedoeld om handelaren, ontwikkelaars, en partners te helpen d
 
 ### Waar vind ik de data van de softwaresteun voor alle versies van Adobe Commerce?
 
-U kunt het de softwarelevenscyclusbeleid en data van de softwaresteun van Adobe Commerce in het [ Beleid van de Levenscyclus van de Software van Adobe Commerce ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) vinden. Wij publiceren ook eind van steun (EOS) data op onze [ pagina van de ontwikkelaarsdocumentatie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/versions).
+U kunt het de softwarelevenscyclusbeleid en data van de softwaresteun van Adobe Commerce in het [&#x200B; Beleid van de Levenscyclus van de Software van Adobe Commerce &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) vinden. Wij publiceren ook eind van steun (EOS) data op onze [&#x200B; pagina van de ontwikkelaarsdocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/versions).
 
 ### Wat betekent het wanneer de Adobe steun voor een versie van de software van Adobe Commerce beëindigt?
 
@@ -38,7 +38,7 @@ Als u besluit software te blijven gebruiken die de ondersteuning heeft beëindig
 **Verstrekkend veilige het winkelen ervaringen:**
 
 * U zult middelen moeten uitgeven om derde verkopers te evalueren en in dienst te nemen om veiligheidssteun, moeilijke situaties, en updates te verstrekken.
-* Zodra een versie van de software van Adobe Commerce niet meer wordt gesteund, is die versie niet meer [ volgzame PCI ](https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security). Wanneer dit gebeurt, kunt u worden onderworpen aan boetes, het wegnemen van de verwerkingscapaciteit van creditcards, of andere sancties als gevolg daarvan.
+* Zodra een versie van de software van Adobe Commerce niet meer wordt gesteund, is die versie niet meer [&#x200B; volgzame PCI &#x200B;](https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security). Wanneer dit gebeurt, kunt u worden onderworpen aan boetes, het wegnemen van de verwerkingscapaciteit van creditcards, of andere sancties als gevolg daarvan.
 * Aangezien de meeste exploitaties neigen om installaties te richten die niet met de recentste veiligheidsupdates bijgewerkt zijn, adviseren wij altijd dat de handelaren hun software bijgewerkt houden en veiligheidsupdates installeren zodra zij beschikbaar worden. Het is aan de handelaar om hun online opslag veilig te houden met adequate waarborgen en veiligheidscontroles om hun website en de persoonsgegevens van hun klanten te beschermen. Een van de beste manieren om dit te doen is om de nieuwste patches, oplossingen en software-updates te installeren en uw site en beheerconsole voortdurend te controleren op ongebruikelijke activiteiten.
 
 **efficiënt werkend en effectief**
@@ -68,7 +68,7 @@ Er zijn verschillende manieren waarop u veel kunt profiteren van uw Adobe Commer
 
 Uw handelsplatform is een belangrijk bedrijfssysteem voor uw bedrijf en het blijven bijgewerkt en huidig is een kritieke aan de gang zijnde investering in de zaken. De nieuwste technologie- en beveiligingsupdates voor uw digitale winkel zijn op vele niveaus belangrijk en kunnen bijdragen aan het verbeteren van innovaties en groei.
 
-Als u naar de nieuwste versie van de Adobe Commerce-software gaat, kan het enige tijd en tijd duren voordat de middelen goed worden uitgevoerd. Het is aan te raden zo lang mogelijk voor het einde van de supportdatum te plannen, zodat u over de juiste tijd en middelen beschikt om uw strategische doelstellingen binnen de gestelde termijnen en binnen de begroting te verwezenlijken. Om u met uw volgende verbetering te helpen, heeft de Adobe de [ 2.4 Gids van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf?lang=nl-NL) gepubliceerd die de beste praktijken en technische stappen omvat te volgen, evenals de hulpmiddelen en de middelen om te gebruiken wanneer het uitvoeren van uw verbetering.
+Als u naar de nieuwste versie van de Adobe Commerce-software gaat, kan het enige tijd en tijd duren voordat de middelen goed worden uitgevoerd. Het is aan te raden zo lang mogelijk voor het einde van de supportdatum te plannen, zodat u over de juiste tijd en middelen beschikt om uw strategische doelstellingen binnen de gestelde termijnen en binnen de begroting te verwezenlijken. Om u met uw volgende verbetering te helpen, heeft de Adobe de [&#x200B; 2.4 Gids van de Verbetering &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf?lang=nl-NL) gepubliceerd die de beste praktijken en technische stappen omvat te volgen, evenals de hulpmiddelen en de middelen om te gebruiken wanneer het uitvoeren van uw verbetering.
 
 Een andere belangrijke overweging is om ontwikkelaars en partnermiddelen zo vroeg mogelijk te reserveren. De tijd en de middelen van de partner worden vaak geboekt ruim vóór het eind van steundatum, resulterend in beduidend minder middelen om met migratieprojecten te helpen. U wordt aangeraden een voortschrijdend driejarenplan te hebben dat u minstens eenmaal per jaar bespreekt en ervoor te zorgen dat het volgende jaar wordt gepland en begroot. De de versiekalender van de Adobe van het gebruik [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/planning/schedule) om spoor van versiedata te houden.
 
@@ -102,7 +102,7 @@ Nee, Adobe wijzigt de prioriteit van ondersteuningstickets niet op basis van de 
 
 ### Is er een waarschuwing voor de toegangskaarten die VÓÓR het einde van de steundatum zijn geopend, om handelaren te herinneren aan het komende einde van de steun?
 
-Nee, er zijn geen herinneringswaarschuwingen die gebruikers van steunkaartjes op de hoogte brengen van het aanstaande eind van steundata. Het is de verantwoordelijkheid van de ticketopener om het eind van steundata voor de versie van Adobe Commerce te kennen die zij zijn, die op ons [ beleid van de Levenscyclus van de Software van Adobe Commerce ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) kan worden gevonden.
+Nee, er zijn geen herinneringswaarschuwingen die gebruikers van steunkaartjes op de hoogte brengen van het aanstaande eind van steundata. Het is de verantwoordelijkheid van de ticketopener om het eind van steundata voor de versie van Adobe Commerce te kennen die zij zijn, die op ons [&#x200B; beleid van de Levenscyclus van de Software van Adobe Commerce &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) kan worden gevonden.
 
 ### Als er na het einde van de supportdatum voor die versie een ondersteuningsticket voor een softwareversie wordt geopend, wordt er dan nog aan de oplossing gewerkt?
 

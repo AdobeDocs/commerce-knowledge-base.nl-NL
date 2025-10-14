@@ -26,7 +26,7 @@ Dit artikel beschrijft hoe te om de kwestie te bevestigen waar de manier u gebie
 1. In uw lokale milieu, schrijf een douaneklasse met een afhankelijkheid van de auto-geproduceerde klasse.
 1. Voer het scenario uit, waarbij de aangepaste klasse wordt geactiveerd, en zie hoe het werkt.
 1. Leg uw wijzigingen vast en duw op de integratieomgeving. Dit zou het plaatsingsproces teweegbrengen. Implementatie is geslaagd.
-1. In het [ integratiemilieu ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27242), stel het scenario in werking waar uw douaneklasse wordt teweeggebracht.
+1. In het [&#x200B; integratiemilieu &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27242), stel het scenario in werking waar uw douaneklasse wordt teweeggebracht.
 
 <u> Verwacht resultaat </u>
 
@@ -170,4 +170,4 @@ class YourClass
 
 ## Gerelateerde lezing
 
-* [ generatie van de Code ](https://developer.adobe.com/commerce/php/development/components/code-generation/) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; generatie van de Code &#x200B;](https://developer.adobe.com/commerce/php/development/components/code-generation/) in onze ontwikkelaarsdocumentatie.

@@ -69,6 +69,6 @@ De patch is gemaakt voor:
 
 ## Hoe de pleister aanbrengen
 
-Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
+Zie [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

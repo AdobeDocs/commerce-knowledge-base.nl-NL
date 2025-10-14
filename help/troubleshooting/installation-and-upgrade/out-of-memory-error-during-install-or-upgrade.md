@@ -40,7 +40,7 @@ kan ook op de opdrachtregel worden weergegeven.
 
 ## Oplossing {#solution}
 
-Wij adviseren u [ 2 GB van geheugen aan PHP ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/php-settings) in onze ontwikkelaarsdocumentatie toewijst om uw installatie of verbetering te verzekeren slagen.
+Wij adviseren u [&#x200B; 2 GB van geheugen aan PHP &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/php-settings) in onze ontwikkelaarsdocumentatie toewijst om uw installatie of verbetering te verzekeren slagen.
 
 Als u dat al hebt gedaan, maakt u een wisselbestand op uw computer. Een machine van Linux gebruikt *ruilmiddel* als het meer geheugenmiddelen en RAM volledig vereist. De wisselruimte wordt gebruikt voor inactieve pagina&#39;s in het geheugen.
 
@@ -50,14 +50,14 @@ Hieronder vindt u alleen suggesties; mogelijk zijn andere opties beschikbaar. Ra
 
 Gebruik de opdracht `fallocate` zoals beschreven in deze verwijzingen:
 
-* [ hoe te om Wisselen op Ubuntu 14.04 (Digitalocean) toe te voegen ](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
-* [ hoe te om Ruimte van de Wisseling op Ubuntu 16.04 (Digitalocean) toe te voegen ](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
-* [ SwapFaq (help.ubuntu.com) ](https://help.ubuntu.com/community/SwapFaq)
+* [&#x200B; hoe te om Wisselen op Ubuntu 14.04 (Digitalocean) toe te voegen &#x200B;](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
+* [&#x200B; hoe te om Ruimte van de Wisseling op Ubuntu 16.04 (Digitalocean) toe te voegen &#x200B;](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
+* [&#x200B; SwapFaq (help.ubuntu.com) &#x200B;](https://help.ubuntu.com/community/SwapFaq)
 
 ### Bestand wisselen op CentOS {#swap-file-on-centos}
 
 Gebruik de opdracht `mkswap` zoals beschreven in deze verwijzingen:
 
-* [ hoe te om Wisselen op CentOS 6 (Digitalocean) toe te voegen ](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
-* [ hoe te om Wisselen op CentOS 7 (Digitalocean) toe te voegen ](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
-* [ Ruimte van het Wisselen (klantenportaal RedHat) ](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)
+* [&#x200B; hoe te om Wisselen op CentOS 6 (Digitalocean) toe te voegen &#x200B;](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
+* [&#x200B; hoe te om Wisselen op CentOS 7 (Digitalocean) toe te voegen &#x200B;](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
+* [&#x200B; Ruimte van het Wisselen (klantenportaal RedHat) &#x200B;](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)

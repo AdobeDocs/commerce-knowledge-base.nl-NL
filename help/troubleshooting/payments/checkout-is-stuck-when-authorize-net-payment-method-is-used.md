@@ -21,7 +21,7 @@ Dit artikel verstrekt een verklaring en moeilijke situatie voor de Adobe Commerc
 
 >[!NOTE]
 >
->De belangrijkste integratie van Adobe Commerce Authorize.Net voor betalingen is afgekeurd sinds 2.3.4 en is volledig verwijderd in 2.4.0. Gebruik een uitbreiding die uw behoeften van [ Adobe Commerce  [!DNL Marketplace] ](https://commercemarketplace.adobe.com/) in plaats daarvan aanpast.
+>De belangrijkste integratie van Adobe Commerce Authorize.Net voor betalingen is afgekeurd sinds 2.3.4 en is volledig verwijderd in 2.4.0. Gebruik een uitbreiding die uw behoeften van [&#x200B; Adobe Commerce  [!DNL Marketplace] &#x200B;](https://commercemarketplace.adobe.com/) in plaats daarvan aanpast.
 
 ## Probleem
 

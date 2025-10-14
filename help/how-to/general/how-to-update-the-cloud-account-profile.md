@@ -25,7 +25,7 @@ Wanneer u een profiel op de cloudaccount wijzigt, kunnen de volgende velden word
 
 Voer de volgende stappen uit om deze velden te wijzigen:
 
-1. Heb toegang tot uw rekening bij [ login van de de rekeningsrekening van de Adobe ](https://accounts.magento.cloud).
+1. Heb toegang tot uw rekening bij [&#x200B; login van de de rekeningsrekening van de Adobe &#x200B;](https://accounts.magento.cloud).
 1. Klik op de tab **[!UICONTROL Account Settings]** .
 1. Selecteer *creeer nieuw wachtwoord* checkbox.
 1. Breng de noodzakelijke veranderingen aan en klik *sparen*.
@@ -42,4 +42,4 @@ Het wijzigen van dit veld is afhankelijk van uw individuele omstandigheden.
 
 Als u de eigendom van uw huidige account wilt overdragen aan een nieuwe eigenaar of een ander e-mailadres, moet u de primaire e-mail voor de gebruiker die aan het account is gekoppeld, bijwerken.
 
-Verwijs naar: [ https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=nl-NL](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=nl-NL)
+Verwijs naar: [&#x200B; https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=nl-NL](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=nl-NL)

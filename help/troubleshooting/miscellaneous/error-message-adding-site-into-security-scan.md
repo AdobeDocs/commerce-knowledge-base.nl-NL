@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Foutbericht bij het toevoegen van sites aan Beveiligingsscan
 
-Dit artikel verstrekt mogelijke oplossingen voor de kwestie wanneer een gebruiker geen plaatsen in het [ Scannen van de Veiligheid van Commerce ](https://account.magento.com/scanner/dashboard/) kan toevoegen.
+Dit artikel verstrekt mogelijke oplossingen voor de kwestie wanneer een gebruiker geen plaatsen in het [&#x200B; Scannen van de Veiligheid van Commerce &#x200B;](https://account.magento.com/scanner/dashboard/) kan toevoegen.
 
 ## Betrokken producten en versies
 
@@ -22,7 +22,7 @@ Dit artikel verstrekt mogelijke oplossingen voor de kwestie wanneer een gebruike
 
 ## Probleem
 
-De gebruiker kan geen plaatsen in het [ Scannen van de Veiligheid van Commerce ](https://account.magento.com/scanner/dashboard/) toevoegen. Het volgende foutenbericht verschijnt wanneer het proberen om een plaats toe te voegen: *kan geen plaats voor het aftasten voorleggen.*
+De gebruiker kan geen plaatsen in het [&#x200B; Scannen van de Veiligheid van Commerce &#x200B;](https://account.magento.com/scanner/dashboard/) toevoegen. Het volgende foutenbericht verschijnt wanneer het proberen om een plaats toe te voegen: *kan geen plaats voor het aftasten voorleggen.*
 
 ## Oplossing
 
@@ -53,4 +53,4 @@ Voer de volgende stappen uit als u nog steeds geen sites kunt toevoegen:
 
 ## Gerelateerde lezing
 
-* [ Scannen van de Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-scan) in onze gebruikersgids.
+* [&#x200B; Scannen van de Veiligheid &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-scan) in onze gebruikersgids.

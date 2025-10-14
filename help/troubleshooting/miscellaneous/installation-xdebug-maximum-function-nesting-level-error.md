@@ -27,4 +27,4 @@ U wordt ten zeerste aangeraden `xdebug` NIET TE GEBRUIKEN in een productieomgevi
 
 Er is een bekend probleem met `xdebug` dat invloed kan hebben op Adobe Commerce-installaties of op de toegang tot de winkel of Commerce Admin na de installatie.
 
-Voor details, zie [ Bekende kwestie met xdebug ](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md) in onze basis van de steunkennis.
+Voor details, zie [&#x200B; Bekende kwestie met xdebug &#x200B;](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md) in onze basis van de steunkennis.

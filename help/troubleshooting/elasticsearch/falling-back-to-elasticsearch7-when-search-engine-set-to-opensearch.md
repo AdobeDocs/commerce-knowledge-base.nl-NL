@@ -52,4 +52,4 @@ Werk `SEARCH_CONFIGURATION` variabele in het `.magento.env.yaml` dossier bij, en
 
 ## Gerelateerde lezing
 
-[ de dienst van OpenSearch van de Opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=nl-NL) in Commerce op de gids van de Infrastructuur van de Wolk.
+[&#x200B; de dienst van OpenSearch van de Opstelling &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=nl-NL) in Commerce op de gids van de Infrastructuur van de Wolk.

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Gegevens corrigeren die niet zijn bijgewerkt in [!DNL Commerce Data Exporter] feeds en [!DNL cron] -logfouten met een wijzigingstabel bestaan niet
 
-Dit artikel verstrekt een oplossing om de kwesties van de gegevenssynchronisatie te bevestigen die door verkeerde meningsidentiteitskaart in het [!DNL Data Exporter] [[!DNL Mview] worden veroorzaakt ](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) abonnement te gebruiken. Het abonnement van [!DNL Mview] wordt gebruikt om wijzigingen voor databasetabellen bij te houden.
+Dit artikel verstrekt een oplossing om de kwesties van de gegevenssynchronisatie te bevestigen die door verkeerde meningsidentiteitskaart in het [!DNL Data Exporter] [[!DNL Mview] worden veroorzaakt &#x200B;](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) abonnement te gebruiken. Het abonnement van [!DNL Mview] wordt gebruikt om wijzigingen voor databasetabellen bij te houden.
 
 ## Betrokken producten en versies
 
-Adobe Commerce-instanties waarbij aangepaste code is toegepast op de functie voor het exporteren van gegevens ( `commerce-data-exporter` of `saas-exporter` ). De fout komt voor als de geïnstalleerde [[!DNL SaaS]  versie van de Uitvoer van Gegevens 103.3.0 ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/release-notes#release-6) of recenter is, en de code verwijst direct naar de `catalog_data_exporter_products` index.
+Adobe Commerce-instanties waarbij aangepaste code is toegepast op de functie voor het exporteren van gegevens ( `commerce-data-exporter` of `saas-exporter` ). De fout komt voor als de geïnstalleerde [[!DNL SaaS]  versie van de Uitvoer van Gegevens 103.3.0 &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/release-notes#release-6) of recenter is, en de code verwijst direct naar de `catalog_data_exporter_products` index.
 
 ## Probleem
 
@@ -29,7 +29,7 @@ Merchants kunnen vaststellen dat er in de tabellen met catalogusinvoer [!DNL Dat
 
 ## Oorzaak
 
-Als gevolg van naamveranderingen in voederlijsten, indexen, en de lijsten van het veranderingslogboek in [!DNL Commerce Data Export] [ versie 103.3.0 ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/release-notes#release-9) versie, [!DNL Mview] abonnementen in douaneuitbreidingen die [!DNL Commerce Data Export] uitbreidingen gebruiken kunnen niet behoorlijk werken.
+Als gevolg van naamveranderingen in voederlijsten, indexen, en de lijsten van het veranderingslogboek in [!DNL Commerce Data Export] [&#x200B; versie 103.3.0 &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/release-notes#release-9) versie, [!DNL Mview] abonnementen in douaneuitbreidingen die [!DNL Commerce Data Export] uitbreidingen gebruiken kunnen niet behoorlijk werken.
 
 In dit geval, bestaat de *lijst niet* fout omdat de `catalog_data_exporter` lijstnaam in `cde_products_feed` werd veranderd, en u hebt douanecode die verwijzingen de oude naam in het [!DNL Data Exporter Mview] abonnement.
 
@@ -49,5 +49,5 @@ In het volgende voorbeeld ziet u de code die de tabellen opgeeft die worden bijg
 
 ## Gerelateerde lezing
 
-* [[!DNL SaaS]  de Nota&#39;s van de Versie van de Uitbreiding van de Gegevens van de Uitvoer van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/release-notes) in de Gids van de Uitvoer van Gegevens van Adobe Commerce voor [!DNL SaaS] de Diensten
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [[!DNL SaaS]  de Nota&#39;s van de Versie van de Uitbreiding van de Gegevens van de Uitvoer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/release-notes) in de Gids van de Uitvoer van Gegevens van Adobe Commerce voor [!DNL SaaS] de Diensten
+* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Prijzen van gedeelde catalogi bijwerken met REST API
 
-Om prijzen in Gedeelde Catalogi met API toe te voegen of bij te werken, adviseren wij het gebruiken van de `TierPriceStorageInterface` dienst, die in [ wordt beschreven beheert laagprijzen ](https://developer.adobe.com/commerce/webapi/rest/modules/catalog/catalog-pricing/#manage-tier-prices) REST API Verwijzing in onze ontwikkelaarsdocumentatie. Voor gedeelde catalogusprijzen gebruiken we de Tier-prijs en de Klantengroep.
+Om prijzen in Gedeelde Catalogi met API toe te voegen of bij te werken, adviseren wij het gebruiken van de `TierPriceStorageInterface` dienst, die in [&#x200B; wordt beschreven beheert laagprijzen &#x200B;](https://developer.adobe.com/commerce/webapi/rest/modules/catalog/catalog-pricing/#manage-tier-prices) REST API Verwijzing in onze ontwikkelaarsdocumentatie. Voor gedeelde catalogusprijzen gebruiken we de Tier-prijs en de Klantengroep.

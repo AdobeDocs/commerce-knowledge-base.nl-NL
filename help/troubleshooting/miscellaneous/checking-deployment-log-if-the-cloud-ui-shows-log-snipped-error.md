@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Het controleren plaatsingslogboek als de wolk UI *logboek heeft dat* fout knipte
 
-Dit artikel verstrekt een oplossing voor de kwestie waar Adobe Commerce op de interface van de wolkeninfrastructuur het *ontsponnen logboek toont omdat het* foutenbericht te lang was toen het proberen om het plaatsingslogboek op het wolkenproject UI te bekijken. (Is niet op de [ Console van Adobe Commerce Cloud ](https://console.adobecommerce.com/) van toepassing.)
+Dit artikel verstrekt een oplossing voor de kwestie waar Adobe Commerce op de interface van de wolkeninfrastructuur het *ontsponnen logboek toont omdat het* foutenbericht te lang was toen het proberen om het plaatsingslogboek op het wolkenproject UI te bekijken. (Is niet op de [&#x200B; Console van Adobe Commerce Cloud &#x200B;](https://console.adobecommerce.com/) van toepassing.)
 
 ## Betrokken producten
 
@@ -30,11 +30,11 @@ Wanneer het proberen om het plaatsingslogboek op het wolkenproject UI te bekijke
 
 ## Oorzaak
 
-Merk op dat het logboek dat in UI wordt getoond niet als bron van waarheid zou moeten worden behandeld, vooral als u vindt dat de plaats niet of behoorlijk werkt nadat de plaatsing met een status van Succes werd vermeld. U moet ook controleren met de logboeken op de server. Verwijs naar [ Mening en beheer logboeken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
+Merk op dat het logboek dat in UI wordt getoond niet als bron van waarheid zou moeten worden behandeld, vooral als u vindt dat de plaats niet of behoorlijk werkt nadat de plaatsing met een status van Succes werd vermeld. U moet ook controleren met de logboeken op de server. Verwijs naar [&#x200B; Mening en beheer logboeken &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
 
 ## Oplossing
 
-1. Zorg ervoor dat u [ CLI van de Wolk van het Magento ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=nl-NL) geïnstalleerd in uw lokale milieu hebt.
+1. Zorg ervoor dat u [&#x200B; CLI van de Wolk van het Magento &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=nl-NL) geïnstalleerd in uw lokale milieu hebt.
 1. U kunt een van de volgende opdrachten uitvoeren:
 
    ```bash
@@ -70,5 +70,5 @@ Merk op dat het logboek dat in UI wordt getoond niet als bron van waarheid zou m
 
 ## Verwante lezingen in onze ontwikkelaarsdocumentatie:
 
-* [ Adobe Commerce op wolkeninfrastructuur > bouwt en stelt ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=nl-NL) op
-* [ Adobe Commerce op wolkeninfrastructuur > Logboeken van de Mening en van het beheer ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=nl-NL)
+* [&#x200B; Adobe Commerce op wolkeninfrastructuur > bouwt en stelt &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=nl-NL) op
+* [&#x200B; Adobe Commerce op wolkeninfrastructuur > Logboeken van de Mening en van het beheer &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=nl-NL)

@@ -46,5 +46,5 @@ We raden u ook aan de indexeerfunctie van `customer_grid` handmatig opnieuw te i
 
 Koppelingen naar verwante onderwerpen in onze documentatie voor ontwikkelaars:
 
-* [ Indexerend overzicht ](https://developer.adobe.com/commerce/php/development/components/indexing/)
-* [ beheer de indexen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [&#x200B; Indexerend overzicht &#x200B;](https://developer.adobe.com/commerce/php/development/components/indexing/)
+* [&#x200B; beheer de indexen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers)

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart
 
-Dit artikel spreekt over een voorgestelde oplossing aan wanneer een javascript [ Webpack ](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) lange tijd alvorens met compilatie in de Progressieve Studio van de Web App (PWA Studio) te beginnen hangt.
+Dit artikel spreekt over een voorgestelde oplossing aan wanneer een javascript [&#x200B; Webpack &#x200B;](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) lange tijd alvorens met compilatie in de Progressieve Studio van de Web App (PWA Studio) te beginnen hangt.
 
 ## Betrokken producten en versies
 
@@ -21,7 +21,7 @@ Dit artikel spreekt over een voorgestelde oplossing aan wanneer een javascript [
 
 ## Probleem
 
-[ Controle wat de recentste versie van pwa-buildpack is ](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack), en
+[&#x200B; Controle wat de recentste versie van pwa-buildpack is &#x200B;](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack), en
 
 ```yaml
 pwa-buildpack
@@ -88,12 +88,12 @@ openssl version
 
 De versie moet 1.0 of hoger zijn (of LibreSSL 2, in het geval van OSX High Sierra.).
 
-U kunt hogere versies van OpenSSL met [ Homebrew ](https://brew.sh/) op OSX, [ Chocolade ](https://chocolatey.org/) op Vensters, of uw het pakketmanager van de distributie van Linux installeren.
+U kunt hogere versies van OpenSSL met [&#x200B; Homebrew &#x200B;](https://brew.sh/) op OSX, [&#x200B; Chocolade &#x200B;](https://chocolatey.org/) op Vensters, of uw het pakketmanager van de distributie van Linux installeren.
 
 ## Gerelateerde lezing
 
-* [ JavaScript Webpack: Concepten ](https://webpack.js.org/concepts/)
-* [ Venia storefront opstelling ](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
-* [ PWA Buildpack ](https://magento.github.io/pwa-studio/pwa-buildpack/)
-* [ bouwdpack Interface van de Lijn van het Bevel ](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
-* [ Hulpmiddelen en bibliotheken: bouwstijlpak ](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
+* [&#x200B; JavaScript Webpack: Concepten &#x200B;](https://webpack.js.org/concepts/)
+* [&#x200B; Venia storefront opstelling &#x200B;](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
+* [&#x200B; PWA Buildpack &#x200B;](https://magento.github.io/pwa-studio/pwa-buildpack/)
+* [&#x200B; bouwdpack Interface van de Lijn van het Bevel &#x200B;](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
+* [&#x200B; Hulpmiddelen en bibliotheken: bouwstijlpak &#x200B;](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)

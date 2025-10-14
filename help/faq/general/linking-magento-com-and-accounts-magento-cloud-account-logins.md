@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # Link Magento.com and accounts.magento.cloud account logins
 
-Vanaf 1 April, 2020, zal Adobe Commerce vereisen dat de gebruikers die een rekening bij [ accounts.magento.cloud ](https://accounts.magento.cloud/) hebben om deze rekening met hun [ Magento.com ](https://account.magento.com/customer/account/login/) rekening te verbinden. Dit zal tot [ Magento.com ](https://account.magento.com/customer/account/login/) rekeningslogin de primaire login methode voor zowel rekeningen maken en veiligheid voor gebruikers verbeteren.
+Vanaf 1 April, 2020, zal Adobe Commerce vereisen dat de gebruikers die een rekening bij [&#x200B; accounts.magento.cloud &#x200B;](https://accounts.magento.cloud/) hebben om deze rekening met hun [&#x200B; Magento.com &#x200B;](https://account.magento.com/customer/account/login/) rekening te verbinden. Dit zal tot [&#x200B; Magento.com &#x200B;](https://account.magento.com/customer/account/login/) rekeningslogin de primaire login methode voor zowel rekeningen maken en veiligheid voor gebruikers verbeteren.
 
-De gebruikers bij [ accounts.magento.cloud ](https://accounts.magento.cloud/) kunnen deze rekeningen via één van twee methodes verbinden:
+De gebruikers bij [&#x200B; accounts.magento.cloud &#x200B;](https://accounts.magento.cloud/) kunnen deze rekeningen via één van twee methodes verbinden:
 
 ## Methode 1
 
-1. Ga naar **Montages van de Rekening** in [ https://accounts.magento.cloud/user ](https://accounts.magento.cloud/user) na het programma openen met uw aangewezen methode.
+1. Ga naar **Montages van de Rekening** in [&#x200B; https://accounts.magento.cloud/user &#x200B;](https://accounts.magento.cloud/user) na het programma openen met uw aangewezen methode.
 1. Open de **Enige Sign-On** sectie van de pagina.
 1. Als de **Leverancier: Magento.com** &quot;Status niet Verbonden&quot;meldt, selecteer **verbindt met Magento.com** knoop.
-1. U zult aan [ https://account.magento.com/applications/customer/login/ ](https://account.magento.com/applications/customer/login/) opnieuw worden gericht.
+1. U zult aan [&#x200B; https://account.magento.com/applications/customer/login/ &#x200B;](https://account.magento.com/applications/customer/login/) opnieuw worden gericht.
 1. Vanaf dat moment kunt u een Adobe Commerce-account maken of u aanmelden bij een bestaande account.
 
 ## Methode 2
 
-1. Login aan [ https://account.magento.com ](https://account.magento.com/).
-1. Navigeer aan een afzonderlijk lusje aan [ https://accounts.magento.cloud/user ](https://accounts.magento.cloud/user).
-1. Klik &quot;verbinden met [ Magento.com ](https://account.magento.com/customer/account/login/)&quot;.
+1. Login aan [&#x200B; https://account.magento.com &#x200B;](https://account.magento.com/).
+1. Navigeer aan een afzonderlijk lusje aan [&#x200B; https://accounts.magento.cloud/user &#x200B;](https://accounts.magento.cloud/user).
+1. Klik &quot;verbinden met [&#x200B; Magento.com &#x200B;](https://account.magento.com/customer/account/login/)&quot;.
 
 ## Gerelateerde lezing
 
 * [Kan niet aanmelden bij Adobe Commerce-ondersteuning of cloudaccount](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-* [ MageID de rekeningseigenaar kan niet login en een steunkaartje voorleggen ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-25231)
+* [&#x200B; MageID de rekeningseigenaar kan niet login en een steunkaartje voorleggen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-25231)

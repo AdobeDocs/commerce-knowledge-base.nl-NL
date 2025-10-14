@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2024-releaseplanning
 
-In [ 2023 hebben wij onze versiestrategie ](https://business.adobe.com/blog/the-latest/adobe-announces-expanded-support) bijgewerkt om het steunvenster uit te breiden, meer veiligheidsupdates te verstrekken, en innovatiegoedkeuring te versnellen. Kop in 2024, zetten wij onze inspanningen voort om betere steun voor opdracht kritieke klantenbehoeften te verlenen en hebben ons [ versieschema ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=nl-NL) gepubliceerd om onze klanten tijd te verstrekken om en begrotingsmiddelen voor het komende jaar te plannen. Om de veranderingen samen te vatten, kijken we naar de 2023- en 2024-strategie om te bepalen wat er blijft en wat er verandert.
+In [&#x200B; 2023 hebben wij onze versiestrategie &#x200B;](https://business.adobe.com/blog/the-latest/adobe-announces-expanded-support) bijgewerkt om het steunvenster uit te breiden, meer veiligheidsupdates te verstrekken, en innovatiegoedkeuring te versnellen. Kop in 2024, zetten wij onze inspanningen voort om betere steun voor opdracht kritieke klantenbehoeften te verlenen en hebben ons [&#x200B; versieschema &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=nl-NL) gepubliceerd om onze klanten tijd te verstrekken om en begrotingsmiddelen voor het komende jaar te plannen. Om de veranderingen samen te vatten, kijken we naar de 2023- en 2024-strategie om te bepalen wat er blijft en wat er verandert.
 
 ## Wat blijft ongewijzigd
 
@@ -27,6 +27,6 @@ In [ 2023 hebben wij onze versiestrategie ](https://business.adobe.com/blog/the-
 * Voor 2024 verhogen wij tot vijf veiligheid-enige flardversies, voor alle momenteel gesteunde versies van Adobe Commerce om uw zaken veilig en volgzaam te houden.
 * We zullen onze periode van twee weken vóór de release verwijderen om eerdere toegang tot de nieuwste versie van het platform te bieden via bètareleases tot zes maanden van tevoren.
 
-Opnemend deze strategieveranderingen, omvat onze 2024 versiekalender vijf versies die op ons [ Programma van de Versie ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=nl-NL) op Adobe Experience League kunnen worden herzien.
+Opnemend deze strategieveranderingen, omvat onze 2024 versiekalender vijf versies die op ons [&#x200B; Programma van de Versie &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=nl-NL) op Adobe Experience League kunnen worden herzien.
 
-Wij hopen u dit programma in uw jaarlijkse planningscycli gebruikt om middelen beter voor te bereiden en toe te wijzen rond deze versievensters. Voor meer verbetering planningsmiddelen, bezoek ons [ Overzicht van het verbeteringsproces ](/docs/commerce-operations/upgrade-guide/overview.html) in onze Gids van de Verbetering.
+Wij hopen u dit programma in uw jaarlijkse planningscycli gebruikt om middelen beter voor te bereiden en toe te wijzen rond deze versievensters. Voor meer verbetering planningsmiddelen, bezoek ons [&#x200B; Overzicht van het verbeteringsproces &#x200B;](/docs/commerce-operations/upgrade-guide/overview.html) in onze Gids van de Verbetering.

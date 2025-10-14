@@ -8,7 +8,7 @@ ht-degree: 0%
 # Handleiding KB-labels
 
 Dit document bevat richtlijnen voor het toevoegen van labels aan artikelen in de Adobe Commerce Support Knowledge Base.
-De etiketten (ook genoemd markeringen) verbeteren het zoeken ervaring in de [ Kennisbank van de Steun van Adobe Commerce ](https://support.magento.com/hc/en-us).
+De etiketten (ook genoemd markeringen) verbeteren het zoeken ervaring in de [&#x200B; Kennisbank van de Steun van Adobe Commerce &#x200B;](https://support.magento.com/hc/en-us).
 Labels worden toegevoegd in het veld &quot;labels&quot; in de metagegevenssectie van een artikelbestand, gescheiden door komma&#39;s, zonder ruimte tussen een komma en het volgende label.
 Zie [../../.github/CONTRIBUTING.md#metadata ] voor meer informatie.
 

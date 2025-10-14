@@ -17,7 +17,7 @@ Dit artikel biedt een oplossing voor het moment dat een aangepast SSL-certificaa
 
 ## Betrokken producten en versies
 
-Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+Adobe Commerce op wolkeninfrastructuur, [&#x200B; alle gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 
@@ -41,11 +41,11 @@ Adobe Commerce werkt een certificaat bij als dit 30 dagen is verlopen.
 
 Wanneer een handelaar verkiest om hun eigen douaneSSL certificaat te gebruiken, moet het meer dan 30 dagen vóór de certificaatvervaldatum worden bijgewerkt om ervoor te zorgen dat het niet door een intern SSL van Adobe Commerce SSL certificaat zal worden vervangen.
 
-Als u in een situatie bent waar uw douaneSSL door uw interne SSL werd vervangen en u het met uw bijgewerkt douaneSSL certificaat wilt vervangen, gelieve [ een steunverzoek ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) met de plaats voorleggen u uw nieuwe certificaatdossiers uploadde. Neem de begindatum van de nieuwe SSL op. Zodra wij deze informatie hebben, kunnen wij met de installatie van het nieuwe SSL certificaat verdergaan.
+Als u in een situatie bent waar uw douaneSSL door uw interne SSL werd vervangen en u het met uw bijgewerkt douaneSSL certificaat wilt vervangen, gelieve [&#x200B; een steunverzoek &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) met de plaats voorleggen u uw nieuwe certificaatdossiers uploadde. Neem de begindatum van de nieuwe SSL op. Zodra wij deze informatie hebben, kunnen wij met de installatie van het nieuwe SSL certificaat verdergaan.
 
 ## Gerelateerde lezing
 
-* [ SSL (TLS) certificaten voor Magento Commerce Cloud: Veelgestelde vragen ](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) in onze basis van de steunkennis.
-* [ bevel-lijn hulpmiddelen verwijzing: magento-wolk certificaat:voeg ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd) in onze ontwikkelaarsdocumentatie toe.
-* [ checklist van de Lancering ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/launch/checklist) in onze ontwikkelaarsdocumentatie.
-* [ Toegang plaats-brede het Hulpmiddel van de Analyse ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool) in onze gebruikersgids.
+* [&#x200B; SSL (TLS) certificaten voor Magento Commerce Cloud: Veelgestelde vragen &#x200B;](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) in onze basis van de steunkennis.
+* [&#x200B; bevel-lijn hulpmiddelen verwijzing: magento-wolk certificaat:voeg &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd) in onze ontwikkelaarsdocumentatie toe.
+* [&#x200B; checklist van de Lancering &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/launch/checklist) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; Toegang plaats-brede het Hulpmiddel van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool) in onze gebruikersgids.

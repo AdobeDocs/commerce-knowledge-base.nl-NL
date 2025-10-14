@@ -23,7 +23,7 @@ Dit artikel biedt oplossingen voor het vergrendelen van Commerce Intelligence-ac
 
 Controleer uw e-mailadres om te controleren of het e-mailadres dat u wilt gebruiken om u aan te melden, aan een bestaande Commerce Intelligence-account is gekoppeld. Mogelijk moet u een accountbeheerder vragen om te bevestigen dat het e-mailadres geen typos bevat.
 
-Zodra u hebt bevestigd dat het e-mailadres correct is, probeer opnieuw login gebruikend [ deze verbinding ](https://dashboard.rjmetrics.com/v2/session/create#/).
+Zodra u hebt bevestigd dat het e-mailadres correct is, probeer opnieuw login gebruikend [&#x200B; deze verbinding &#x200B;](https://dashboard.rjmetrics.com/v2/session/create#/).
 
 ## Probeer het wachtwoord opnieuw in te stellen
 
@@ -44,7 +44,7 @@ Als u nog steeds vergrendeld bent, controleert u of uw e-mailadres juist is en g
 
 Als u nog steeds geen toegang hebt tot uw account, raden we u aan te controleren op fouten en een ticket naar ons ondersteuningsteam te verzenden. Hoe kan je dit doen? Door de de ontwikkelaarshulpmiddelen van uw browser te openen en een het schermschot te nemen van om het even welke die fouten in de console, of venster van het plaatslogboek worden getoond. In het onderstaande GIF open ik de tools voor ontwikkelaars voor Google Chrome:
 
-![ het Openen van Chrome ontwikkelaarshulpmiddelen.](assets/Opening_Chrome_dev_tools.gif)
+![&#x200B; het Openen van Chrome ontwikkelaarshulpmiddelen.](assets/Opening_Chrome_dev_tools.gif)
 
 In het bovenstaande voorbeeld, gebruikten wij de gemeenschappelijkste methode (**klik** met de rechtermuisknop aan > **Inspect**) om de console te openen. Als uw browser deze methode niet heeft of u hulp nodig hebt, gebruik de documentatiekoppelingen hieronder voor Webbrowser u gebruikt:
 
@@ -70,6 +70,6 @@ Maak je geen zorgen! Een nieuw ondersteuningsticket indienen (neem het e-mailadr
 
 ## Verwante onderwerpen in onze basis van steunkennis:
 
-* [ Toevoegend een nieuwe gebruiker en plaatsend toestemmingen ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html?lang=nl-NL)
-* [ Hoe werk ik mijn e-mailadres of wachtwoord bij?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html?lang=nl-NL)
-* [ hoe ik mijn wachtwoord terugstel?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html?lang=nl-NL)
+* [&#x200B; Toevoegend een nieuwe gebruiker en plaatsend toestemmingen &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html?lang=nl-NL)
+* [&#x200B; Hoe werk ik mijn e-mailadres of wachtwoord bij?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html?lang=nl-NL)
+* [&#x200B; hoe ik mijn wachtwoord terugstel?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html?lang=nl-NL)

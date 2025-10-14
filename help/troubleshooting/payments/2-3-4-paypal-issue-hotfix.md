@@ -47,14 +47,14 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 ## Oplossing
 
-Voor Adobe Commerce op-gebouwhandelaren: Pas [ hotfix toe, ](https://magento.com/tech-resources/download#download2353) die van de sectie van Downloads op [ magento.com ](https://magento.com) portaal in Mijn rekening beschikbaar is.
+Voor Adobe Commerce op-gebouwhandelaren: Pas [&#x200B; hotfix toe, &#x200B;](https://magento.com/tech-resources/download#download2353) die van de sectie van Downloads op [&#x200B; magento.com &#x200B;](https://magento.com) portaal in Mijn rekening beschikbaar is.
 
-Voor Adobe Commerce op producten met cloudinfrastructuur: Adobe heeft de oplossing opgenomen in de cloudpatches voor Commerce v1.0.2. Gelieve te verwijzen naar [ de versienota&#39;s van de Huur van de Wolk voor de versie van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) in onze ontwikkelaarsdocumentatie om instructies te vinden bij het toepassen van het recentste pakket.
+Voor Adobe Commerce op producten met cloudinfrastructuur: Adobe heeft de oplossing opgenomen in de cloudpatches voor Commerce v1.0.2. Gelieve te verwijzen naar [&#x200B; de versienota&#39;s van de Huur van de Wolk voor de versie van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche) in onze ontwikkelaarsdocumentatie om instructies te vinden bij het toepassen van het recentste pakket.
 
 ## Hoe de pleister moet worden aangebracht
 
-Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
+Voor instructies, zie [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Verwante lezing
 
-* [ de informatie van de Versie > de Nota&#39;s van de Versie van Adobe Commerce 2.3.4 > pas de Uitdrukkelijke kwestie van de Afhandeling van PayPal met gebiedspatch voor Adobe Commerce 2.3.4 toe om een kritieke Uitdrukkelijke kwestie van de Afhandeling van PayPal ](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) in onze ontwikkelaarsdocumentatie te richten.
+* [&#x200B; de informatie van de Versie > de Nota&#39;s van de Versie van Adobe Commerce 2.3.4 > pas de Uitdrukkelijke kwestie van de Afhandeling van PayPal met gebiedspatch voor Adobe Commerce 2.3.4 toe om een kritieke Uitdrukkelijke kwestie van de Afhandeling van PayPal &#x200B;](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) in onze ontwikkelaarsdocumentatie te richten.

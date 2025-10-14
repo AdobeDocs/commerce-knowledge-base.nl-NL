@@ -35,8 +35,8 @@ Nogmaals is het belangrijk om op te merken dat het gebruiken van software die sp
 ## Oplossingsstappen
 
 1. Controleer uw Adobe Commerce logboeken om te zien of iets anders naast een aanval DDoS voorkomt. Raadpleeg de volgende artikelen in de documentatie voor ontwikkelaars voor meer informatie:
-   * [ Adobe Commerce en Magento Open Source logboeken plaatsen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/enable-logging)
-   * [ Adobe Commerce op de logboekplaatsen van de wolkeninfrastructuur ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/test/log-locations)
+   * [&#x200B; Adobe Commerce en Magento Open Source logboeken plaatsen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/enable-logging)
+   * [&#x200B; Adobe Commerce op de logboekplaatsen van de wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/test/log-locations)
 1. Gebruik de CLI om al uw huidige internetverbindingen te controleren met de opdracht `netstat` : `netstat -na` . Hiermee worden alle actieve verbindingen met de server weergegeven. Hier zou u teveel verbindingen kunnen opmerken die van het zelfde IP adres komen.
 1. Gebruik de volgende opdracht om uw bestaande verbindingen verder te beperken tot verbindingen die alleen tot verbinding maken met poort 80 (de http-poort voor uw website), zodat u te veel verbindingen van één IP-adres of groep IP-adressen kunt sorteren en herkennen. `netstat -an | grep :80 | sort` U kunt dezelfde opdracht herhalen voor https op poort 443: `netstat -an | grep :443 | sort` . Een andere mogelijkheid is om de oorspronkelijke opdracht uit te breiden naar zowel poort 80 als poort 443: `netstat -an | egrep ":80|:443" | sort` .
 1. Als u wilt zien of er veel actieve `SYNC_REC` op de server voorkomen, gebruikt u de opdracht:     `netstat -n -p|grep SYN_REC | wc -l`     Dit is gewoonlijk minder dan 5, maar het zou veel hoger voor een aanval kunnen zijn DDoS, hoewel voor sommige servers een hoger aantal een normale voorwaarde zou kunnen zijn.
@@ -53,6 +53,6 @@ Als u vindt dat u onder aanval DDoS bent, kunt de stappen u afhangen van uw netw
 
 ## Verwante lezingen in onze ontwikkelaarsdocumentatie:
 
-* [ bescherming DDoS ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/fastly#ddos-protection)
-* [ Gebruikend CLI bevelen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli)
-* [ CLI van de Wolk voor Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)
+* [&#x200B; bescherming DDoS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/fastly#ddos-protection)
+* [&#x200B; Gebruikend CLI bevelen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli)
+* [&#x200B; CLI van de Wolk voor Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)

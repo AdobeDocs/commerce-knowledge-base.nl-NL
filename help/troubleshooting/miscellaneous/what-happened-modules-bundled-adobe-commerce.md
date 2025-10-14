@@ -17,7 +17,7 @@ Dit artikel biedt een oplossing voor het geval modules die zijn opgenomen in eer
 
 ## Betrokken producten en versies
 
-* Adobe Commerce (alle plaatsingsmethodes) alle [ gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Adobe Commerce (alle plaatsingsmethodes) alle [&#x200B; gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Probleem
 
@@ -31,8 +31,8 @@ Dit wordt verwacht aangezien de leverancier-Gebundelde Uitbreidingen uit de code
 
 ## Oplossing
 
-De officiële extensies afzonderlijk installeren/aanschaffen. Deze zijn beschikbaar op de [ Commerce Marketplace ](https://marketplace.magento.com/extensions.html).
+De officiële extensies afzonderlijk installeren/aanschaffen. Deze zijn beschikbaar op de [&#x200B; Commerce Marketplace &#x200B;](https://marketplace.magento.com/extensions.html).
 
 ## Gerelateerde lezing
 
-[ leverancier-Gebundelde Uitbreidingen ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?lang=nl-NL&#vendor-bundled-extensions) in de Documentatie van Adobe Commerce > de Informatie van de Versie > de versienota&#39;s van Adobe Commerce 2.4.4.
+[&#x200B; leverancier-Gebundelde Uitbreidingen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?lang=nl-NL&#vendor-bundled-extensions) in de Documentatie van Adobe Commerce > de Informatie van de Versie > de versienota&#39;s van Adobe Commerce 2.4.4.

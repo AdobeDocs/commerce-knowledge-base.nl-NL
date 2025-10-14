@@ -48,4 +48,4 @@ $bin/magento oms:orders:sync
 
 ## Gerelateerde lezing
 
-[ Magento Order Management technische documentatie ](https://commerce-docs.github.io/oms-documentation-archive/)
+[&#x200B; Magento Order Management technische documentatie &#x200B;](https://commerce-docs.github.io/oms-documentation-archive/)

@@ -36,7 +36,7 @@ In dit artikel wordt uitgelegd hoe u een composer-patch kunt toepassen voor Adob
    git push origin
    ```
 
-Voor extra informatie over het toepassen van flarden op de projecten van de Wolk, zie [ flarden ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in onze ontwikkelaarsdocumentatie toepassen.
+Voor extra informatie over het toepassen van flarden op de projecten van de Wolk, zie [&#x200B; flarden &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in onze ontwikkelaarsdocumentatie toepassen.
 
 ### Een componentpatch voor Adobe Commerce op locatie en Magento Open Source toepassen {#commerce}
 

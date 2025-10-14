@@ -27,7 +27,7 @@ Er wordt een niet-specifieke fout weergegeven wanneer uitchecken door gasten van
 <u> Eerste vereisten </u>:
 
 1. In Commerce Admin, onder **Slaat** > **Configuratie** > **Verkoop** > **Controle**, plaats **Gast Afhandeling** = *Nr* toestaan.
-1. Laat PayPal door Braintree toe zoals die in de [ Braintree ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/payments/braintree?) in onze gebruikersgids wordt beschreven.
+1. Laat PayPal door Braintree toe zoals die in de [&#x200B; Braintree &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/payments/braintree?) in onze gebruikersgids wordt beschreven.
 
 <u> Stappen om </u> te reproduceren:
 
@@ -59,6 +59,6 @@ De oplossing voor deze kwestie is dat de klant zich bij een opslag kan aanmelden
 
 ## Gerelateerde lezing
 
-* [ Beste praktijken voor aantal producten in kar in Adobe Commerce ](https://support.magento.com/hc/en-us/articles/360048550332) in onze basis van steunkennis.
-* [ de verwerkingsleerprogramma van de Orde: Stap 1. Voeg punten aan de kar ](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/) in onze ontwikkelaarsdocumentatie toe
-* [ GraphQL checkout leerprogramma: Stap 1. Voeg producten aan de kar ](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/add-product-to-cart/) in onze ontwikkelaarsdocumentatie toe
+* [&#x200B; Beste praktijken voor aantal producten in kar in Adobe Commerce &#x200B;](https://support.magento.com/hc/en-us/articles/360048550332) in onze basis van steunkennis.
+* [&#x200B; de verwerkingsleerprogramma van de Orde: Stap 1. Voeg punten aan de kar &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/) in onze ontwikkelaarsdocumentatie toe
+* [&#x200B; GraphQL checkout leerprogramma: Stap 1. Voeg producten aan de kar &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/add-product-to-cart/) in onze ontwikkelaarsdocumentatie toe

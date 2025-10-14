@@ -57,8 +57,8 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 In onze documentatie voor ontwikkelaars:
 
-* [ Adobe Commerce op de gids van de wolkeninfrastructuur ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/overview)
-* [ Adobe Commerce op wolkeninfrastructuur - de versie van Adobe Commerce van de Verbetering ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
-* [ Adobe Commerce op-gebouw en Magento Open Source - bevorder de toepassing en de modules van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/overview)
-* [ het punt van de Wijze lijst vormt pagina ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts/#wishlist-item-configure-page)
-* [ Modules die geavanceerde rapportering verstrekken ](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)
+* [&#x200B; Adobe Commerce op de gids van de wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/overview)
+* [&#x200B; Adobe Commerce op wolkeninfrastructuur - de versie van Adobe Commerce van de Verbetering &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* [&#x200B; Adobe Commerce op-gebouw en Magento Open Source - bevorder de toepassing en de modules van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/overview)
+* [&#x200B; het punt van de Wijze lijst vormt pagina &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts/#wishlist-item-configure-page)
+* [&#x200B; Modules die geavanceerde rapportering verstrekken &#x200B;](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)

@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Aangezien bepaalde extensies alleen werken met platte tabellen, is er bij elke Adobe Commerce-versie een risico als u platte tabellen uitschakelt. Als u weet dat u sommige uitbreidingen hebt die de Platte indexeerders van de Catalogus gebruiken, kunt u dat in overweging moeten nemen wanneer het plaatsen van die waarden aan &quot; *Nr* &quot;.
 
-Dit artikel beschrijft hoe te om de kwesties van plaatsprestaties op te lossen en het vertragen van en vastgezette kronen die door [ vlakke lijsten en indexeerders ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/catalog-flat) worden veroorzaakt die zijn toegelaten.
+Dit artikel beschrijft hoe te om de kwesties van plaatsprestaties op te lossen en het vertragen van en vastgezette kronen die door [&#x200B; vlakke lijsten en indexeerders &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/catalog-flat) worden veroorzaakt die zijn toegelaten.
 
 BETROKKEN PRODUCTEN EN VERSIES
 
@@ -58,4 +58,4 @@ Als u niet de **Vlakke Categorie van de Catalogus van het Gebruik** kunt verande
 
 ## Gerelateerde informatie
 
-[ het Terugstellen vastgezette banen van Adobe Commerce cron manueel op Wolk ](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md) in onze basis van steunkennis.
+[&#x200B; het Terugstellen vastgezette banen van Adobe Commerce cron manueel op Wolk &#x200B;](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md) in onze basis van steunkennis.

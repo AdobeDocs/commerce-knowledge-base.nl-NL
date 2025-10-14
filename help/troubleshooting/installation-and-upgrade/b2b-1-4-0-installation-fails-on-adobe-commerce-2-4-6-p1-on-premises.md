@@ -61,7 +61,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ## Workaround
 
-Met succes installeren of bevorderen aan [!DNL B2B] versie 1.4.0 op Adobe Commerce 2.4.6-p1 door handgebiedsdelen voor het [!DNL B2B] veiligheidspakket met a [ stabiliteitmarkering ](https://getcomposer.org/doc/04-schema.md#package-links) toe te voegen.
+Met succes installeren of bevorderen aan [!DNL B2B] versie 1.4.0 op Adobe Commerce 2.4.6-p1 door handgebiedsdelen voor het [!DNL B2B] veiligheidspakket met a [&#x200B; stabiliteitmarkering &#x200B;](https://getcomposer.org/doc/04-schema.md#package-links) toe te voegen.
 
 1. Werk `composer.json` vanuit de installatiemap van Adobe Commerce bij met de vereiste afhankelijkheden:
 
@@ -114,5 +114,5 @@ Met succes installeren of bevorderen aan [!DNL B2B] versie 1.4.0 op Adobe Commer
 
 1. Voltooi het installatie- of upgradeproces.
 
-   * [ installeer  [!DNL B2B]  op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html?lang=nl-NL)
-   * [ installeer op-gebouw ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html?lang=nl-NL)
+   * [&#x200B; installeer  [!DNL B2B]  op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html?lang=nl-NL)
+   * [&#x200B; installeer op-gebouw &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html?lang=nl-NL)

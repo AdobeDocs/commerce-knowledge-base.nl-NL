@@ -48,4 +48,4 @@ In onze kennisbasis voor ondersteuning:
 
 In onze documentatie voor ontwikkelaars:
 
-* [ Adobe Commerce 2.3.5 de Nota&#39;s van de Versie ](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
+* [&#x200B; Adobe Commerce 2.3.5 de Nota&#39;s van de Versie &#x200B;](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)

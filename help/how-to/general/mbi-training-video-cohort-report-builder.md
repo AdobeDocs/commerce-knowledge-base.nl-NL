@@ -20,8 +20,8 @@ In deze video leert u:
 * Waarom het belangrijk is
 * Uw eigen cohortanalyse maken in Magento BI
 
-Om op de video te letten, ga naar [ Commerce Intelligence - de Report Builder van Cohort ](/docs/commerce-learn/tutorials/business-intelligence/cohort-report-builder.html) in Adobe Experience League.
+Om op de video te letten, ga naar [&#x200B; Commerce Intelligence - de Report Builder van Cohort &#x200B;](/docs/commerce-learn/tutorials/business-intelligence/cohort-report-builder.html) in Adobe Experience League.
 
-**wil volgen?** Controle uit ons [ leerprogramma van de Report Builder van het Cohort ](/docs/commerce-business-intelligence/mbi/analyze/sql/cohort-rpt-bldr.html) voor geschreven instructies.
+**wil volgen?** Controle uit ons [&#x200B; leerprogramma van de Report Builder van het Cohort &#x200B;](/docs/commerce-business-intelligence/mbi/analyze/sql/cohort-rpt-bldr.html) voor geschreven instructies.
 
-Nadat u comfortabel het gebruiken van de Report Builder van de Cohort bent, waarom niet het creëren van a **kwalitatieve** cohortanalyse onderzoeken? Controle uit [ Creërend een kwalitatieve zelfstudie van de cohortanalyse ](/docs/commerce-business-intelligence/mbi/analyze/sql/create-qual-cohort-analysis.html?lang=en) voor meer info!
+Nadat u comfortabel het gebruiken van de Report Builder van de Cohort bent, waarom niet het creëren van a **kwalitatieve** cohortanalyse onderzoeken? Controle uit [&#x200B; Creërend een kwalitatieve zelfstudie van de cohortanalyse &#x200B;](/docs/commerce-business-intelligence/mbi/analyze/sql/create-qual-cohort-analysis.html?lang=en) voor meer info!

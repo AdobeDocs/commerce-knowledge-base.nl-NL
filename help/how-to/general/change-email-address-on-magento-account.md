@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hoe wijzigt u het e-mailadres op magento.com-account wanneer het veld grijs wordt weergegeven?
 
-Dit artikel verklaart hoe te om het e-mailadres op uw [ Magento.com ](https://account.magento.com) rekening te veranderen wanneer het gebied uit onder omstandigheden zoals wordt grijs:
+Dit artikel verklaart hoe te om het e-mailadres op uw [&#x200B; Magento.com &#x200B;](https://account.magento.com) rekening te veranderen wanneer het gebied uit onder omstandigheden zoals wordt grijs:
 
 * U of de oorspronkelijke gebruiker heeft het bedrijf verlaten.
 * Uw bedrijf is gemigreerd naar een nieuw e-maildomein.
@@ -24,7 +24,7 @@ Dit artikel verklaart hoe te om het e-mailadres op uw [ Magento.com ](https://ac
 
 ## Oorzaak
 
-Het e-mailadres op uw [ Magento.com ](https://account.magento.com) rekening is verbonden met uw rekening van de Adobe in <https://account.adobe.com> en zal daar moeten worden bijgewerkt.
+Het e-mailadres op uw [&#x200B; Magento.com &#x200B;](https://account.magento.com) rekening is verbonden met uw rekening van de Adobe in <https://account.adobe.com> en zal daar moeten worden bijgewerkt.
 
 ## Stappen om het e-mailadres te wijzigen
 
@@ -34,7 +34,7 @@ Het e-mailadres wijzigen voor een gebruiker met een eigen account op <https://ac
 
 <u> Oplossing </u>
 
-1. [ leg een steunverzoek ](https://experienceleague.adobe.com/home?lang=nl-NL#support) in https://experienceleague.adobe.com/home?lang=nl-NL#support voor die het volgende verklaren:
+1. [&#x200B; leg een steunverzoek &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL#support) in https://experienceleague.adobe.com/home?lang=nl-NL#support voor die het volgende verklaren:
 
    * Bestaand e-mailadres dat moet worden bijgewerkt
    * Nieuw e-mailadres
@@ -48,12 +48,12 @@ Het e-mailadres wijzigen van een gebruiker die momenteel geen eigen account heef
 
 <u> Oplossing </u>
 
-Als u toegang tot de brievenbus van de [ huidige eigenaar e-mail ] hebt, stel het wachtwoord voor de e-mail van de huidige eigenaar na het [ Terugstellen terug of verander uw gids van het het wachtwoord van de Adobe ](https://helpx.adobe.com/nl/manage-account/using/change-or-reset-password.html) in de Gids van de Gebruiker van het Creative Cloud.
+Als u toegang tot de brievenbus van de [ huidige eigenaar e-mail ] hebt, stel het wachtwoord voor de e-mail van de huidige eigenaar na het [&#x200B; Terugstellen terug of verander uw gids van het het wachtwoord van de Adobe &#x200B;](https://helpx.adobe.com/nl/manage-account/using/change-or-reset-password.html) in de Gids van de Gebruiker van het Creative Cloud.
 
 1. Zoek de koppeling voor het opnieuw instellen van wachtwoorden die naar de postbus van de huidige eigenaar is verzonden met instructies.
 1. Plaats een nieuw wachtwoord, en verander e-mail in [ nieuwe eigenaar e-mail ].
-1. Navigeer aan de [ Rekening IMS ](https://account.adobe.com/) aan login met nieuwe e-mail, en verander het wachtwoord.
-1. Na het veranderen van het e-mailadres en wachtwoord, navigeer aan [ Magento.com ](https://account.magento.com) aan login gebruikend [ nieuwe eigenaar e-mail ].
+1. Navigeer aan de [&#x200B; Rekening IMS &#x200B;](https://account.adobe.com/) aan login met nieuwe e-mail, en verander het wachtwoord.
+1. Na het veranderen van het e-mailadres en wachtwoord, navigeer aan [&#x200B; Magento.com &#x200B;](https://account.magento.com) aan login gebruikend [ nieuwe eigenaar e-mail ].
 
 Nochtans, als u geen toegang tot e-mail hebt die naar [ wordt verzonden huidige eigenaar e-mail ], volg deze stappen:
 
@@ -62,5 +62,5 @@ Nochtans, als u geen toegang tot e-mail hebt die naar [ wordt verzonden huidige 
 
 ## Gerelateerde lezing
 
-[ het vergeten wachtwoord van het Terugstellen ](https://helpx.adobe.com/nl/manage-account/using/change-or-reset-password.html) in de Gids van de Gebruiker van het Creative Cloud.
-[ werk uw rekeningsprofiel ](https://helpx.adobe.com/nl/manage-account/using/edit-adobe-account-personal-profile.html) in de Gids van de Gebruiker van het Creative Cloud bij.
+[&#x200B; het vergeten wachtwoord van het Terugstellen &#x200B;](https://helpx.adobe.com/nl/manage-account/using/change-or-reset-password.html) in de Gids van de Gebruiker van het Creative Cloud.
+[&#x200B; werk uw rekeningsprofiel &#x200B;](https://helpx.adobe.com/nl/manage-account/using/edit-adobe-account-personal-profile.html) in de Gids van de Gebruiker van het Creative Cloud bij.

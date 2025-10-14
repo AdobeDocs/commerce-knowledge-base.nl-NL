@@ -39,11 +39,11 @@ In de volgende stappen wordt beschreven hoe u omleidingen kunt plaatsen op [!DNL
 
 1. Maak een Edge-woordenboek.
 
-   Eerst, kunt u [[!DNL VCL]  fragmenten in Adobe Commerce ](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) gebruiken om een randwoordenboek te bepalen. Dit bevat de omleidingen.
+   Eerst, kunt u [[!DNL VCL]  fragmenten in Adobe Commerce &#x200B;](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) gebruiken om een randwoordenboek te bepalen. Dit bevat de omleidingen.
 
    Enkele kanttekeningen:
 
-   * [!DNL Fastly] kan [!DNL regex] niet toepassen op woordenboekitems. Het is maar een exacte overeenkomst. Zie de documenten van [[!DNL Fastly] over de beperkingen van het randwoordenboek ](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations) voor meer informatie over deze beperkingen.
+   * [!DNL Fastly] kan [!DNL regex] niet toepassen op woordenboekitems. Het is maar een exacte overeenkomst. Zie de documenten van [[!DNL Fastly] over de beperkingen van het randwoordenboek &#x200B;](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations) voor meer informatie over deze beperkingen.
    * [!DNL Fastly] heeft een limiet van 1000 items in één woordenboek. [!DNL Fastly] kan deze limiet uitbreiden, maar dat leidt tot het derde voorbehoud.
    * Telkens wanneer u de items bijwerkt en dat bijgewerkte [!DNL VCL] naar alle knooppunten implementeert, is er een geometrische toename van de laadtijd met uitbreidende woordenboeken. Dit betekent dat een 2000-ingangswoordenboek 3x-4x langzamer wordt geladen dan een 1000-ingangswoordenboek. Maar dat is alleen van belang wanneer u [!DNL VCL] implementeert (het woordenboek bijwerkt of de functiecode [!DNL VCL] wijzigt).
 
@@ -99,8 +99,8 @@ Als u geen Adobe Commerce-testomgeving wilt gebruiken, maar wilt zien hoe deze o
 
 ## Gerelateerde lezing
 
-* [[!DNL Fastly VCL]  verwijzing ](https://docs.fastly.com/vcl/)
-* [ vorm routes ](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) in onze ontwikkelaarsdocumentatie
-* [ Opstelling  [!DNL Fastly]](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in onze ontwikkelingsdocumentatie
-* [[!DNL VCL]  regelmatige uitdrukkingsbedriegblad ](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) in onze ontwikkelaarsdocumentatie
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [[!DNL Fastly VCL]  verwijzing &#x200B;](https://docs.fastly.com/vcl/)
+* [&#x200B; vorm routes &#x200B;](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) in onze ontwikkelaarsdocumentatie
+* [&#x200B; Opstelling  [!DNL Fastly]](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in onze ontwikkelingsdocumentatie
+* [[!DNL VCL]  regelmatige uitdrukkingsbedriegblad &#x200B;](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) in onze ontwikkelaarsdocumentatie
+* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

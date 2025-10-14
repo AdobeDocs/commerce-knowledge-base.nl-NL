@@ -33,8 +33,8 @@ Afbeeldingen zijn niet geoptimaliseerd om de prestaties in evenwicht te brengen 
 
 Voordat u afbeeldingen uploadt, optimaliseert en comprimeert u deze om de prestaties in evenwicht te brengen met de weergavekwaliteit. Hierdoor neemt de ruimte toe en nemen de laadtijden van de pagina af. PNG-bestanden geven kleinere afmetingen voor afbeeldingen met grote gebieden met effen kleuren. JPEG geven kleinere grootten voor alle andere zaken. Gebruik de hoogste compressie (zonder merkbare verslechtering). Dit is meestal 60-80%.
 
-Het gebruik [ snelst beeldoptimalisering ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization.html?lang=nl-NL) om opslag efficiëntere beelden te produceren.
+Het gebruik [&#x200B; snelst beeldoptimalisering &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization.html?lang=nl-NL) om opslag efficiëntere beelden te produceren.
 
 ## Gerelateerde lezing
 
-Om over het beheren van uw schijfruimte (als u op Adobe Commerce op wolkeninfrastructuur) bent te leren zie [ schijfruimte in Adobe Commerce beheren ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=nl-NL) in Commerce op de Gids van de Infrastructuur van de Wolk.
+Om over het beheren van uw schijfruimte (als u op Adobe Commerce op wolkeninfrastructuur) bent te leren zie [&#x200B; schijfruimte in Adobe Commerce beheren &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=nl-NL) in Commerce op de Gids van de Infrastructuur van de Wolk.

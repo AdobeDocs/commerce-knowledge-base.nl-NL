@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Live Search] dashboard- en zoekresultaatpositie zijn onjuist
 
-Als u opmerkt dat de gegevens die in het [!DNL Live Search] dashboard worden getoond onjuist zijn, of als [ het rangschikken van de onderzoeksresultaten ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies) niet zijn wat u verwacht, zie het volgende om mogelijke redenen:
+Als u opmerkt dat de gegevens die in het [!DNL Live Search] dashboard worden getoond onjuist zijn, of als [&#x200B; het rangschikken van de onderzoeksresultaten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies) niet zijn wat u verwacht, zie het volgende om mogelijke redenen:
 
 * Het veld `topLevelSku` van de productcontext in `productView` -gebeurtenissen ontbreekt. Dit veroorzaakt lege omzettingen en andere onverwachte metriek.
 
@@ -21,4 +21,4 @@ Als u opmerkt dat de gegevens die in het [!DNL Live Search] dashboard worden get
 
 * Het omgevingstype is onjuist. Als de omgeving bijvoorbeeld is ingesteld op *[!UICONTROL Testing]* in plaats van op *[!UICONTROL Production]* . Zie {de context van 0} Storefront [&#128279;](https://github.com/adobe/commerce-events/blob/main/examples/events/example-contexts/mock-storefront-context.md) voor meer informatie.
 
-* De context van onderzoeksresultaten mist van [ onderzoek-product-klik ](https://github.com/adobe/commerce-events/blob/main/examples/events/search-product-click.md) gebeurtenis.
+* De context van onderzoeksresultaten mist van [&#x200B; onderzoek-product-klik &#x200B;](https://github.com/adobe/commerce-events/blob/main/examples/events/search-product-click.md) gebeurtenis.

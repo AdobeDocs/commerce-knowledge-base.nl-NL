@@ -15,4 +15,4 @@ ht-degree: 0%
 
 Dit het oplossen van problemendiagram van de plaats van Adobe Commerce kan worden gebruikt om oorzaken van een plaats neer te identificeren en op te lossen.
 
-![ plaats onderaan het oplossen van problemendiagram beeld ](assets/updated_site_down_1.jpeg)
+![&#x200B; plaats onderaan het oplossen van problemendiagram beeld &#x200B;](assets/updated_site_down_1.jpeg)

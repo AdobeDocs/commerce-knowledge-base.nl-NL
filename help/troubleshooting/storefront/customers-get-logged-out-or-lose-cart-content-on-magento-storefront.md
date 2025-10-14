@@ -17,8 +17,8 @@ Dit artikel biedt een oplossing voor het probleem, waarbij klanten hun product u
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op-gebouw, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op-gebouw, [&#x200B; alle gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, [&#x200B; alle gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 
@@ -46,4 +46,4 @@ Om de kwestie op te lossen, contacteer de derdedienstverlener en verzoek hun ont
 
 ## Gerelateerde lezing
 
-[ update Chrome SameSite ](https://www.chromestatus.com/feature/5088147346030592)
+[&#x200B; update Chrome SameSite &#x200B;](https://www.chromestatus.com/feature/5088147346030592)

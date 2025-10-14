@@ -29,4 +29,4 @@ Mogelijk is de site nog niet live. Er zijn processen om de site vooraf te laden 
 
 ## Oplossing
 
-Creeer het kaartje van de a [ Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) en verzoek beeldoptimalisering.
+Creeer het kaartje van de a [&#x200B; Steun &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) en verzoek beeldoptimalisering.

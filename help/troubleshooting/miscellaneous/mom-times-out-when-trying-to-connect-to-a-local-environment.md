@@ -23,7 +23,7 @@ Dit artikel verstrekt een oplossing voor de kwestie waar het Systeem van het Mag
 
 >[!WARNING]
 >
->Disclaimer: Adobe Commerce beveelt geen specifiek instrument aan of bekrachtigt geen specifiek instrument voor het aanleggen van tunnels. Het voorgaande is alleen suggesties. Voor meer informatie, raadpleeg de [ documentatie van het Ingrok ](https://ngrok.com/docs).
+>Disclaimer: Adobe Commerce beveelt geen specifiek instrument aan of bekrachtigt geen specifiek instrument voor het aanleggen van tunnels. Het voorgaande is alleen suggesties. Voor meer informatie, raadpleeg de [&#x200B; documentatie van het Ingrok &#x200B;](https://ngrok.com/docs).
 
 ## Probleem
 
@@ -31,7 +31,7 @@ Dit artikel verstrekt een oplossing voor de kwestie waar het Systeem van het Mag
 
 1. Installeer Adobe Commerce in uw lokale omgeving.
 1. Stel een naam in om een tunnel te maken om uw lokale server toegankelijk te maken.
-1. Probeer [ verbindend met OMS ](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/).
+1. Probeer [&#x200B; verbindend met OMS &#x200B;](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/).
 
 <u> Verwacht resultaat </u>
 
@@ -53,4 +53,4 @@ Voeg een parameter toe die het gebied aangeeft wanneer u het notitieankerpunt st
 ./ngrok http 80 -region eu
 ```
 
-Het standaardgebied is US. Zie [ alle mogelijke waarden ](https://ngrok.com/docs#config_region).
+Het standaardgebied is US. Zie [&#x200B; alle mogelijke waarden &#x200B;](https://ngrok.com/docs#config_region).

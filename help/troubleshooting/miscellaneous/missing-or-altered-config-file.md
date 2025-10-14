@@ -36,7 +36,7 @@ De BAK-bestanden zijn een product van het implementatieproces. Als u na de imple
 
 U kunt als volgt de configuratiebestanden herstellen:
 
-1. Login aan uw verre bewaarplaats gebruikend [ SSH ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh).
+1. Login aan uw verre bewaarplaats gebruikend [&#x200B; SSH &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh).
 1. Maak een lijst met de beschikbare back-upbestanden.
 
    ```

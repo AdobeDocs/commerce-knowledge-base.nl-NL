@@ -79,7 +79,7 @@ Command php ./bin/magento setup:static-content:deploy --jobs=3  en_US  returned 
 
 Het probleem wordt veroorzaakt door parallelle storende processen op de Redis-verbinding.
 
-In dit geval verwachtte een proces in `App/Config/Type/System.php` een reactie voor `system_defaultweb` , maar ontving het een reactie voor `system_cache_exists` die door een ander proces werd gemaakt. Zie de gedetailleerde verklaring in [ Jason Woods&#39; post ](https://github.com/magento/magento2/issues/9287#issuecomment-302362283).
+In dit geval verwachtte een proces in `App/Config/Type/System.php` een reactie voor `system_defaultweb` , maar ontving het een reactie voor `system_cache_exists` die door een ander proces werd gemaakt. Zie de gedetailleerde verklaring in [&#x200B; Jason Woods&#39; post &#x200B;](https://github.com/magento/magento2/issues/9287#issuecomment-302362283).
 
 ## Oplossing
 
@@ -99,5 +99,5 @@ U kunt ook de opdracht `setup:static-content:deploy` uitvoeren, gevolgd door het
 
 In onze documentatie voor ontwikkelaars:
 
-* [ vormen Redis ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/config-redis.html?lang=nl-NL)
-* [ bevel-lijn verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=nl-NL)
+* [&#x200B; vormen Redis &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/config-redis.html?lang=nl-NL)
+* [&#x200B; bevel-lijn verbetering &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=nl-NL)

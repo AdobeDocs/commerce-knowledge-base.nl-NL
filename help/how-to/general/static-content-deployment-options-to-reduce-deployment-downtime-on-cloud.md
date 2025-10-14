@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Statische implementatieopties voor inhoud om downtime bij implementatie op Cloud te reduceren
 
-Gelieve te verwijzen naar de [ Statische strategieën van de inhoudsplaatsing ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/static-content) in onze ontwikkelaarsdocumentatie voor details over de Statische opties van de Plaatsing van de Inhoud (SCD) die helpen om het plaatsingsproces te versnellen en de onderhoudsonderbreking op Adobe Commerce op wolkeninfrastructuur te verminderen.
+Gelieve te verwijzen naar de [&#x200B; Statische strategieën van de inhoudsplaatsing &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/static-content) in onze ontwikkelaarsdocumentatie voor details over de Statische opties van de Plaatsing van de Inhoud (SCD) die helpen om het plaatsingsproces te versnellen en de onderhoudsonderbreking op Adobe Commerce op wolkeninfrastructuur te verminderen.

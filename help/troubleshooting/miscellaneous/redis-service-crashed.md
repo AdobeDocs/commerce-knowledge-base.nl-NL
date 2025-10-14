@@ -48,8 +48,8 @@ redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_pe
 >   ```
 
 
-Als de output van het runnen van de bovengenoemde vraag toont dat het percentage van vrij geheugen minder dan 40% is, [ een kaartje aan de steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen die om een verhoging van `maxmemory` verzoekt die in de Server Redis plaatst. Als de geëlimineerde sleutelwaarde niet &quot;0&quot;is of Redis omhoog tijd in dagen evenaart 0 (erop wijzend Redis vandaag) is gekrompen, zou u ook [ een kaartje aan de steun van Adobe Commerce ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) moeten voorleggen die om een onderzoek en een moeilijke situatie voor deze kwestie verzoekt.
+Als de output van het runnen van de bovengenoemde vraag toont dat het percentage van vrij geheugen minder dan 40% is, [&#x200B; een kaartje aan de steun van Adobe Commerce &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen die om een verhoging van `maxmemory` verzoekt die in de Server Redis plaatst. Als de geëlimineerde sleutelwaarde niet &quot;0&quot;is of Redis omhoog tijd in dagen evenaart 0 (erop wijzend Redis vandaag) is gekrompen, zou u ook [&#x200B; een kaartje aan de steun van Adobe Commerce &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) moeten voorleggen die om een onderzoek en een moeilijke situatie voor deze kwestie verzoekt.
 
 ## Verwante lezing
 
-Meer over Redis geheugen leren verwijs naar [ Redis Optimalisering van het Geheugen ](https://redis.io/topics/memory-optimization).
+Meer over Redis geheugen leren verwijs naar [&#x200B; Redis Optimalisering van het Geheugen &#x200B;](https://redis.io/topics/memory-optimization).

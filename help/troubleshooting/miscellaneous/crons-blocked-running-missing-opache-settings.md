@@ -17,7 +17,7 @@ Dit artikel biedt een oplossing voor het geval dat de uitsnede stopt met werken 
 
 ## Betrokken producten en versies
 
-Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+Adobe Commerce op wolkeninfrastructuur, [&#x200B; alle gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Probleem
 
@@ -25,7 +25,7 @@ De kroon werkte niet meer.
 
 ## Oorzaak
 
-De module [!DNL OpCache] is bijgewerkt naar een nieuwere versie die een [!DNL GraphQL] -plug-in introduceert die de `env.php` in runtime herschrijft en de instelling voor uitsnijden kan overschrijven, wat de uitgave kan hebben veroorzaakt. De [!DNL OpCache] configuratie moet worden bijgewerkt om om het even welke kwesties met `env.php file` te vermijden, en dat werd opgelost in [ versie 2002.1.13 ](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) van het [!DNL ECE Tools] pakket.
+De module [!DNL OpCache] is bijgewerkt naar een nieuwere versie die een [!DNL GraphQL] -plug-in introduceert die de `env.php` in runtime herschrijft en de instelling voor uitsnijden kan overschrijven, wat de uitgave kan hebben veroorzaakt. De [!DNL OpCache] configuratie moet worden bijgewerkt om om het even welke kwesties met `env.php file` te vermijden, en dat werd opgelost in [&#x200B; versie 2002.1.13 &#x200B;](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) van het [!DNL ECE Tools] pakket.
 
 ## Oplossing
 

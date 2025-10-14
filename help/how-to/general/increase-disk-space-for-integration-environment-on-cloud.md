@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Schijfruimte vergroten voor integratieomgeving in de cloud
 
-Gelieve te verwijzen naar [ beheer schijfruimte ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) in onze gids van de Infrastructuur van de Wolk Commerce op.
+Gelieve te verwijzen naar [&#x200B; beheer schijfruimte &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) in onze gids van de Infrastructuur van de Wolk Commerce op.

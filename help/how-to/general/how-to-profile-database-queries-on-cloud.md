@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Databasequery&#39;s in Adobe Commerce profileren op cloudinfrastructuur
 
-Gelieve te verwijzen naar de [ het gegevensbestandvragen van het Profiel ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/profile-database-queries) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar de [&#x200B; het gegevensbestandvragen van het Profiel &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/profile-database-queries) in onze ontwikkelaarsdocumentatie.

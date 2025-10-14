@@ -18,8 +18,8 @@ De bijgevoegde pdf biedt tips over hoe u uw infrastructuur kunt voorbereiden op 
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* Adobe Commerce op wolkeninfrastructuur, alle [&#x200B; gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
 
 ## De pdf downloaden
 
-Klik [ uiteinden van Tech voor Commerce vakantie readiness.pdf ](assets/tech-tips-for-commerce-holiday-readiness.pdf) om pdf te downloaden.
+Klik [&#x200B; uiteinden van Tech voor Commerce vakantie readiness.pdf &#x200B;](assets/tech-tips-for-commerce-holiday-readiness.pdf) om pdf te downloaden.

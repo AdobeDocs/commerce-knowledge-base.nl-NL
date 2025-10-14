@@ -18,4 +18,4 @@ Er zijn veelvoudige manieren voor een handelaar (of iedereen die in de gezondhei
 * de algemene stappen om een probleem aan te wijzen dat een probleem kan zijn
 * hoe te om te identificeren of de kwestie werkelijk een stroomonderbreking, een kleinschalige stroomonderbreking, of een tijdelijke belemmering is
 
-Om het artikel te downloaden, klik [ Outages_how_to_identify_and_measurement_effect_Adobe_Commerce.pdf ](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)
+Om het artikel te downloaden, klik [&#x200B; Outages_how_to_identify_and_measurement_effect_Adobe_Commerce.pdf &#x200B;](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)

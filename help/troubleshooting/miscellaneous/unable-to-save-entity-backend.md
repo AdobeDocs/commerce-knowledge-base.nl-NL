@@ -44,7 +44,7 @@ De regel is ingesteld op inactief.
 
 ## Oorzaak
 
-Dit probleem houdt verband met de nieuwe functionaliteit die onlangs is geïntroduceerd en die invloed heeft gehad op de maximale sessiegrootte. Zie [ beheer van de Zitting ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-session-management) in onze ontwikkelaarsdocumentatie.
+Dit probleem houdt verband met de nieuwe functionaliteit die onlangs is geïntroduceerd en die invloed heeft gehad op de maximale sessiegrootte. Zie [&#x200B; beheer van de Zitting &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-session-management) in onze ontwikkelaarsdocumentatie.
 
 ## Oplossing
 
@@ -52,4 +52,4 @@ Verhoog de &quot;Max waarde van de Grootte van de Zitting&quot;in (**opslag** > 
 
 ## Gerelateerde lezing
 
-* [ het In de handel brengen Menu ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/marketing-menu) in onze gebruikersgids.
+* [&#x200B; het In de handel brengen Menu &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/marketing-menu) in onze gebruikersgids.

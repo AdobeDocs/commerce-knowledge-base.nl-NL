@@ -39,43 +39,43 @@ Voer de volgende stappen uit:
 
 1. Je Adobe Commerce Intelligence-account maken:
 
-   * Ga naar [ accounts.magento.com/customer/account/login ](https://account.magento.com/customer/account/login).
+   * Ga naar [&#x200B; accounts.magento.com/customer/account/login &#x200B;](https://account.magento.com/customer/account/login).
    * Ga naar **[!UICONTROL My Account]** > **[!UICONTROL My MBI Instances]**.
    * Klik op **[!UICONTROL Create Instance]** . Als u deze knoop niet ziet, contacteer uw Manager van het Succes van de Klant of Technische Adviseur van de Klant.
    * Selecteer uw Cloud Starter-abonnement. Als u alleen een Cloud Starter-abonnement hebt, wordt dit automatisch geselecteerd.
    * Klik op **[!UICONTROL Continue]**.
    * Voer uw gegevens in om uw account te maken.
 
-   ![ creeer MBI rekening ](/help/troubleshooting/miscellaneous/assets/create_mbi_account.png)
+   ![&#x200B; creeer MBI rekening &#x200B;](/help/troubleshooting/miscellaneous/assets/create_mbi_account.png)
 
    * Ga naar je postvak IN en verifieer het e-mailadres.
 
-   ![ verifieer e-mailadres ](/help/troubleshooting/miscellaneous/assets/verify_email_address_mbi.png)
+   ![&#x200B; verifieer e-mailadres &#x200B;](/help/troubleshooting/miscellaneous/assets/verify_email_address_mbi.png)
 
    * Maak een wachtwoord.
 
-   ![ creeer een wachtwoord ](/help/troubleshooting/miscellaneous/assets/create_password_mbi.png)
+   ![&#x200B; creeer een wachtwoord &#x200B;](/help/troubleshooting/miscellaneous/assets/create_password_mbi.png)
 
    * Nadat u uw account hebt gemaakt, kunt u gebruikers toevoegen aan uw nieuwe account. Technische beheerders kunnen nu worden toegevoegd om de volgende stappen uit te voeren.
 
-   ![ voeg gebruikers ](/help/troubleshooting/miscellaneous/assets/add_users_mbi.png) toe
+   ![&#x200B; voeg gebruikers &#x200B;](/help/troubleshooting/miscellaneous/assets/add_users_mbi.png) toe
 
 1. Voer gegevens in over de winkel om uw voorkeuren in te stellen.
 
-   ![ voegt opslaginformatie ](/help/troubleshooting/miscellaneous/assets/add_store_info_mbi.png) toe
+   ![&#x200B; voegt opslaginformatie &#x200B;](/help/troubleshooting/miscellaneous/assets/add_store_info_mbi.png) toe
 
    Er is wat informatie u zult moeten verzamelen alvorens u uw gegevensbestand voor de derde stap in de instapkaartstroom kunt verbinden. In stap 9 vult u de pagina *[!UICONTROL Connect your database]* in.
 
 1. Maak een speciale Commerce Intelligence-gebruiker.
 
-   * Creeer een nieuwe gebruiker op [ account.adobe.com ](https://account.adobe.com/).
-   * Ga naar [ https://accounts.magento.com/customer/account/ ](https://accounts.magento.com/customer/account/) om uw rekening van Adobe Commerce te produceren.
+   * Creeer een nieuwe gebruiker op [&#x200B; account.adobe.com &#x200B;](https://account.adobe.com/).
+   * Ga naar [&#x200B; https://accounts.magento.com/customer/account/ &#x200B;](https://accounts.magento.com/customer/account/) om uw rekening van Adobe Commerce te produceren.
    * Waarom een nieuwe gebruiker? Adobe Commerce Intelligence heeft een gebruiker nodig die aan het project wordt toegevoegd om onophoudelijk nieuwe gegevens te halen die naar het de gegevenspakhuis van Commerce Intelligence van de rekening moeten worden overgebracht. Deze gebruiker zal als die verbinding dienen. Het toevoegen van deze gebruiker aan het project zal in stap 4 komen.
    * De reden voor een speciale Commerce Intelligence-gebruiker is om te voorkomen dat de toegevoegde gebruiker per ongeluk wordt gedeactiveerd of verwijderd en de Commerce Intelligence-verbinding wordt gestopt.
 
 1. Voeg de pas gecreëerde gebruiker aan het primaire milieu van het project als a *Medewerker* toe.
 
-   ![ voeg gebruiker als Medewerker ](/help/troubleshooting/miscellaneous/assets/contributor_user_mbi.png) toe
+   ![&#x200B; voeg gebruiker als Medewerker &#x200B;](/help/troubleshooting/miscellaneous/assets/contributor_user_mbi.png) toe
 
 1. Haal de Commerce Intelligence SSH-toetsen op.
 
@@ -83,18 +83,18 @@ Voer de volgende stappen uit:
    * Kies **[!UICONTROL SSH Tunnel]** voor het veld **[!UICONTROL Encryption Type]** .
    * Van dropdown, kunt u de verstrekte Openbare Sleutel van de Hoofdzaak van de Hoofdzaak van Magento kopiëren en kleven BI.
 
-   ![ de montages van de Encryptie ](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
+   ![&#x200B; de montages van de Encryptie &#x200B;](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
 
 1. Voeg uw nieuwe Openbare sleutel van de Hoofdzaak van Magento BI aan de gebruiker van Commerce Intelligence toe die in stap 5 wordt gecreeerd.
 
-   * Ga naar [ accounts.magento.com/customer/account/login ](https://account.magento.com/customer/account/login). Meld u aan met uw aanmeldingsgegevens voor uw account voor de nieuwe Commerce Intelligence-gebruiker. Ga vervolgens naar de tab **[!UICONTROL Account Settings]** .
+   * Ga naar [&#x200B; accounts.magento.com/customer/account/login &#x200B;](https://account.magento.com/customer/account/login). Meld u aan met uw aanmeldingsgegevens voor uw account voor de nieuwe Commerce Intelligence-gebruiker. Ga vervolgens naar de tab **[!UICONTROL Account Settings]** .
    * Schuif omlaag op de pagina en vouw de vervolgkeuzelijst voor SSH-toetsen uit. Klik vervolgens op **[!UICONTROL Add a public key]** .
 
-   ![ voeg een openbare sleutel ](/help/troubleshooting/miscellaneous/assets/add_public_key_mbi.png) toe
+   ![&#x200B; voeg een openbare sleutel &#x200B;](/help/troubleshooting/miscellaneous/assets/add_public_key_mbi.png) toe
 
    * Voeg de Openbare Sleutel van SSH van de Hoofdzaak van Magento MBI van bovenaf toe.
 
-   ![ voeg Openbare Sleutel SSH toe ](/help/troubleshooting/miscellaneous/assets/add_ssh_key_mbi.png)
+   ![&#x200B; voeg Openbare Sleutel SSH toe &#x200B;](/help/troubleshooting/miscellaneous/assets/add_ssh_key_mbi.png)
 
 1. Geef Business Intelligence Essentials [!DNL MySQL] gebruikersgegevens op.
 
@@ -156,7 +156,7 @@ Voer de volgende stappen uit:
 
 1. Verbind uw Adobe Commerce-database.
 
-   ![ verbind uw Gegevensbestand van Adobe Commerce ](/help/troubleshooting/miscellaneous/assets/connect_magento_database_mbi.png)
+   ![&#x200B; verbind uw Gegevensbestand van Adobe Commerce &#x200B;](/help/troubleshooting/miscellaneous/assets/connect_magento_database_mbi.png)
 
    *Inputs*:
 
@@ -170,7 +170,7 @@ Voer de volgende stappen uit:
 
 1. Stel de [!UICONTROL Timezone Settings] in.
 
-   ![ montages van de Tijdzone ](/help/troubleshooting/miscellaneous/assets/timezone_settings_mbi.png)
+   ![&#x200B; montages van de Tijdzone &#x200B;](/help/troubleshooting/miscellaneous/assets/timezone_settings_mbi.png)
 
    *Ingangen*
 
@@ -181,11 +181,11 @@ Voer de volgende stappen uit:
 
    * Het project UI verstrekt een SSH toegangstekenreeks. Deze tekenreeks kan worden gebruikt voor het verzamelen van de informatie die nodig is voor het externe adres en de gebruikersnaam bij het instellen van uw **[!UICONTROL Encryption settings]** . Selecteer **[!UICONTROL SSH]** om uw Gebruikersnaam en Verre Adres te zien. Het tekstkoord vóór *@* is uw Gebruikersnaam en het tekstkoord na *@* is uw Verre Adres.
 
-   ![ de plaatsmeester van de Toegang ](/help/troubleshooting/miscellaneous/assets/access_site_mbi.png)
+   ![&#x200B; de plaatsmeester van de Toegang &#x200B;](/help/troubleshooting/miscellaneous/assets/access_site_mbi.png)
 
 1. Voer gegevens in voor uw [!UICONTROL Encryption Settings] .
 
-   ![ de montages van de Encryptie ](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
+   ![&#x200B; de montages van de Encryptie &#x200B;](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
 
    *Ingangen*
 
@@ -200,4 +200,4 @@ Voer de volgende stappen uit:
 
 ## Gerelateerde lezing
 
-[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+[&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

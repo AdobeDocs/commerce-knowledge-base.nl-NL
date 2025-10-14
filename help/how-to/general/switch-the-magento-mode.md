@@ -13,5 +13,5 @@ ht-degree: 0%
 
 Raadpleeg de volgende artikelen in de documentatie voor ontwikkelaars:
 
-* Adobe Commerce 2.3: [ plaats de verrichtingswijze ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/set-mode)
-* Adobe Commerce 2.4: [ plaats de verrichtingswijze ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Adobe Commerce 2.3: [&#x200B; plaats de verrichtingswijze &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Adobe Commerce 2.4: [&#x200B; plaats de verrichtingswijze &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/set-mode)

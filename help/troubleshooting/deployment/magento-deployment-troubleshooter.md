@@ -19,9 +19,9 @@ Implementaties en mislukte implementaties op Adobe Commerce kunnen worden opgelo
 
 +++**is Adobe Commerce op de dienst van de wolkeninfrastructuur omhoog?**
 
-Implementatie van opslagplaatsen - Is Adobe Commerce op de service voor cloudinfrastructuur opgestart? Controle [ de Wolk van de Handel van Adobe ](https://status.adobe.com/products/3350/).
+Implementatie van opslagplaatsen - Is Adobe Commerce op de service voor cloudinfrastructuur opgestart? Controle [&#x200B; de Wolk van de Handel van Adobe &#x200B;](https://status.adobe.com/products/3350/).
 
-a. JA - ga aan [ Stap 2 ](#step-2) te werk.\
+a. JA - ga aan [&#x200B; Stap 2 &#x200B;](#step-2) te werk.\
 b. NO - Onderhoud of mondiale uitvallen. Controleren op geschatte duur en updates.
 
 +++
@@ -30,7 +30,7 @@ b. NO - Onderhoud of mondiale uitvallen. Controleren op geschatte duur en update
 
 +++**zijn er plaatsingen in andere milieu&#39;s die de plaatsing in het bestaande milieu blokkeren?**
 
-Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende bevel in werking gebruikend magento-wolk CLI (als u slechts aan één wolkenproject bent toegevoegd). **Nota**: Controle u bent op de recentste versie van magento-wolk CLI. Voor stappen, verwijs naar [ Update CLI ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in Commerce op de gids van de Infrastructuur van de Wolk.
+Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende bevel in werking gebruikend magento-wolk CLI (als u slechts aan één wolkenproject bent toegevoegd). **Nota**: Controle u bent op de recentste versie van magento-wolk CLI. Voor stappen, verwijs naar [&#x200B; Update CLI &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in Commerce op de gids van de Infrastructuur van de Wolk.
 
 ```bash
 magento-cloud --state=in_progress
@@ -42,16 +42,16 @@ Om een lijst van aan de gang zijnde activiteiten te krijgen stel het volgende be
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-Om informatie over een bestaande plaatsingsactiviteit te vinden (verwijs naar [ Controlerend plaatsingslogboek als de Wolk UI &quot;logboek &quot;gesnipte&quot;fout ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) heeft
+Om informatie over een bestaande plaatsingsactiviteit te vinden (verwijs naar [&#x200B; Controlerend plaatsingslogboek als de Wolk UI &quot;logboek &quot;gesnipte&quot;fout &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) heeft
 voor details) kunt u dit bevel in werking stellen om een lopend logboek van die activiteit te verkrijgen:
 
 ```bash
 magento-cloud activity:log <activity-id> [OPTIONAL: <-p project-id or project-url>]
 ```
 
-a. JA - Los de andere omgeving problemen op die implementatie in de bestaande omgeving blokkeren. Ga aan [ Stap 3 ](#step-3) te werk.
+a. JA - Los de andere omgeving problemen op die implementatie in de bestaande omgeving blokkeren. Ga aan [&#x200B; Stap 3 &#x200B;](#step-3) te werk.
 
-b. NO - Problemen met de huidige omgeving oplossen. Ga aan [ Stap 3 ](#step-3) te werk.
+b. NO - Problemen met de huidige omgeving oplossen. Ga aan [&#x200B; Stap 3 &#x200B;](#step-3) te werk.
 
 +++
 
@@ -60,8 +60,8 @@ b. NO - Problemen met de huidige omgeving oplossen. Ga aan [ Stap 3 ](#step-3) t
 
 +++**SSH succesvol aan alle knopen?**
 
-a. JA - ga aan [ Stap 4 ](#step-4) te werk.\
-b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. JA - ga aan [&#x200B; Stap 4 &#x200B;](#step-4) te werk.\
+b. NO - [&#x200B; voorlegt een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
@@ -69,8 +69,8 @@ b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magent
 
 +++**Alle diensten die lopen?**
 
-a. JA - ga aan [ Stap 5 ](#step-5) te werk.\
-b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. JA - ga aan [&#x200B; Stap 5 &#x200B;](#step-5) te werk.\
+b. NO - [&#x200B; voorlegt een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
@@ -78,8 +78,8 @@ b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magent
 
 +++**Gebruikend Bitbucket?**
 
-a. JA - controleer [ status.bitbucket.com ](https://bitbucket.status.atlassian.com/).\
-b. NO - de fouten van het plaatsingslogboek van de controle in [ bouwt en stelt logboeken ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/test/log-locations) op. Ga aan [ Stap 6 ](#step-6) te werk.
+a. JA - controleer [&#x200B; status.bitbucket.com &#x200B;](https://bitbucket.status.atlassian.com/).\
+b. NO - de fouten van het plaatsingslogboek van de controle in [&#x200B; bouwt en stelt logboeken &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/test/log-locations) op. Ga aan [&#x200B; Stap 6 &#x200B;](#step-6) te werk.
 
 +++
 
@@ -87,8 +87,8 @@ b. NO - de fouten van het plaatsingslogboek van de controle in [ bouwt en stelt 
 
 +++**gemelde code van de Fout?**
 
-a. JA - ga aan [ Stap 7 ](#step-7) te werk.\
-b. NO - ga aan [ Stap 8 ](#step-8) te werk.
+a. JA - ga aan [&#x200B; Stap 7 &#x200B;](#step-7) te werk.\
+b. NO - ga aan [&#x200B; Stap 8 &#x200B;](#step-8) te werk.
 
 +++
 
@@ -96,8 +96,8 @@ b. NO - ga aan [ Stap 8 ](#step-8) te werk.
 
 +++**403 Verboden?**
 
-a. JA - ga aan [ Stap 16 ](#step-16) te werk.
-b. NO - ga aan [ Stap 9 ](#step-9) te werk.
+a. JA - ga aan [&#x200B; Stap 16 &#x200B;](#step-16) te werk.
+b. NO - ga aan [&#x200B; Stap 9 &#x200B;](#step-9) te werk.
 
 +++
 
@@ -106,7 +106,7 @@ b. NO - ga aan [ Stap 9 ](#step-9) te werk.
 +++**Worden de cron banen momenteel lopend?** Log in door ssh op de vertakking en voer `ps aufxx |grep cron` uit.
 
 a. JA - Log in door ssh op de betrokken vertakking (bijvoorbeeld primair). Kill en ontgrendel banen. Dit zal kroonbanen doden en de status terugstellen. Voer `php vendor/bin/ece-tools cron:kill` uit en vervolgens `php vendor/bin/ece-tools cron:unlock` . Als u bezig was om één milieu in een andere samen te voegen, controleer beide milieu&#39;s op lopende mannetjes.\
-b. NO - ga aan [ Stap 17 ](#step-17) te werk.
+b. NO - ga aan [&#x200B; Stap 17 &#x200B;](#step-17) te werk.
 
 +++
 
@@ -114,8 +114,8 @@ b. NO - ga aan [ Stap 17 ](#step-17) te werk.
 
 +++**Onbekwaam om toepassing aan de verre clusterfout te uploaden?**
 
-a. JA - ga aan [ Stap 10 ](#step-10) te werk.\
-b. NO - ga aan [ Stap 11 ](#step-11) te werk.
+a. JA - ga aan [&#x200B; Stap 10 &#x200B;](#step-10) te werk.\
+b. NO - ga aan [&#x200B; Stap 11 &#x200B;](#step-11) te werk.
 
 +++
 
@@ -123,11 +123,11 @@ b. NO - ga aan [ Stap 11 ](#step-11) te werk.
 
 +++**Beschikbare opslag oké?**
 
-* [ Controle voor het milieu van de Integratie/van de Aanzet ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-integration-environment)
-* [ Controle voor het Pro Staging/het milieu van de Productie ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-dedicated-clusters)
+* [&#x200B; Controle voor het milieu van de Integratie/van de Aanzet &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-integration-environment)
+* [&#x200B; Controle voor het Pro Staging/het milieu van de Productie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-dedicated-clusters)
 
-a. JA - ga met [ Stap 11 ](#step-11) te werk.\
-b. NO - het Overzicht [ beheert schijfruimte ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
+a. JA - ga met [&#x200B; Stap 11 &#x200B;](#step-11) te werk.\
+b. NO - het Overzicht [&#x200B; beheert schijfruimte &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
 
 +++
 
@@ -139,7 +139,7 @@ a. JA
 
 * Voor integratie-/starteromgevingen:
 
-   * Gelieve te verhogen [ de schijfwaarde in .magento.app.yaml ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=nl-NL#application-disk-space) en herstelt. Als dit niet werkt, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+   * Gelieve te verhogen [&#x200B; de schijfwaarde in .magento.app.yaml &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=nl-NL#application-disk-space) en herstelt. Als dit niet werkt, [&#x200B; voorlegt een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
    * U kunt ook de map `var/log` controleren en eventuele logbestanden van meer dan 1 MB verwijderen. Voer deze opdracht uit om de bestandsgrootte te controleren:
 
      ```bash
@@ -150,7 +150,7 @@ a. JA
 
    1. Verzend een ondersteuningsticket om opslag toe te voegen.
 
-b. NO - ga met [ Stap 12 ](#step-12) te werk.
+b. NO - ga met [&#x200B; Stap 12 &#x200B;](#step-12) te werk.
 
 +++
 
@@ -158,8 +158,8 @@ b. NO - ga met [ Stap 12 ](#step-12) te werk.
 
 +++**Ontbroken fout van de Herplaatsing van het Milieu?**
 
-a. JA - ga met [ Stap 13 ](#step-13) te werk.\
-b. NO - ga met [ Stap 8 ](#step-8) te werk.
+a. JA - ga met [&#x200B; Stap 13 &#x200B;](#step-13) te werk.\
+b. NO - ga met [&#x200B; Stap 8 &#x200B;](#step-8) te werk.
 
 +++
 
@@ -167,8 +167,8 @@ b. NO - ga met [ Stap 8 ](#step-8) te werk.
 
 +++**Elasticsearch die wordt bevorderd of wordt opgesteld?**
 
-a. JA - Elasticsearch heeft de upgrade niet uitgevoerd. Verwijs naar [ de softwareverenigbaarheid van Elasticsearch ](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). Als de verbetering van Elasticsearch nog niet werkt, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Nota**: Op Adobe Commerce op wolkeninfrastructuur, gelieve zich ervan bewust te zijn dat de dienstverbeteringen niet aan het productiemilieu zonder 48 bedrijfsuren&#39; bericht aan ons infrastructuurteam kunnen worden geduwd. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen het gewenste tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailerend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.\
-b. NO - ga aan [ Stap 14 ](#step-14) te werk.
+a. JA - Elasticsearch heeft de upgrade niet uitgevoerd. Verwijs naar [&#x200B; de softwareverenigbaarheid van Elasticsearch &#x200B;](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). Als de verbetering van Elasticsearch nog niet werkt, [&#x200B; voorlegt een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Nota**: Op Adobe Commerce op wolkeninfrastructuur, gelieve zich ervan bewust te zijn dat de dienstverbeteringen niet aan het productiemilieu zonder 48 bedrijfsuren&#39; bericht aan ons infrastructuurteam kunnen worden geduwd. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen het gewenste tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn, [&#x200B; voorlegt een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailerend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.\
+b. NO - ga aan [&#x200B; Stap 14 &#x200B;](#step-14) te werk.
 
 +++
 
@@ -176,8 +176,8 @@ b. NO - ga aan [ Stap 14 ](#step-14) te werk.
 
 +++**systeem van het Dossier uit inodes of ruimte?**
 
-a. JA - zie [ schijfruimte beheren ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=nl-NL#application-disk-space).\
-b. NO - ga aan [ Stap 15 ](#step-15) te werk.
+a. JA - zie [&#x200B; schijfruimte beheren &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=nl-NL#application-disk-space).\
+b. NO - ga aan [&#x200B; Stap 15 &#x200B;](#step-15) te werk.
 
 +++
 
@@ -185,8 +185,8 @@ b. NO - ga aan [ Stap 15 ](#step-15) te werk.
 
 +++**Fout over Elasticseach versies?**
 
-a. JA - ga aan [ Stap 16 ](#step-16) te werk.\
-b. NO - ga aan [ Stap 21 ](#step-21) te werk.
+a. JA - ga aan [&#x200B; Stap 16 &#x200B;](#step-16) te werk.\
+b. NO - ga aan [&#x200B; Stap 21 &#x200B;](#step-21) te werk.
 
 +++
 
@@ -194,7 +194,7 @@ b. NO - ga aan [ Stap 21 ](#step-21) te werk.
 
 +++**Conposer config correct?**
 
-a. JA - ga aan [ Stap 10 ](#step-10) te werk.\
+a. JA - ga aan [&#x200B; Stap 10 &#x200B;](#step-10) te werk.\
 b. NO - de Webpagina van de Troubleshooter van de Samensteller van het Overzicht [&#128279;](https://getcomposer.org/doc/articles/troubleshooting.md).
 
 +++
@@ -210,7 +210,7 @@ a. JA - Identificeer lange lopende processen en dan doodt processen:
 
 Implementaties bewaken voor opnieuw optreden.
 
-b. NO - ga aan [ Stap 18 ](#step-18) te werk.
+b. NO - ga aan [&#x200B; Stap 18 &#x200B;](#step-18) te werk.
 
 +++
 
@@ -218,8 +218,8 @@ b. NO - ga aan [ Stap 18 ](#step-18) te werk.
 
 +++**de hakenmislukking/hang van het Post?**
 
-a. JA - Gegevensbestand: [ vrije schijfruimte ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=nl-NL#allocate-disk-space), corruptie, onvolledige/bedorven lijsten.\
-b. NO - ga aan [ Stap 19 ](#step-19) te werk.
+a. JA - Gegevensbestand: [&#x200B; vrije schijfruimte &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=nl-NL#allocate-disk-space), corruptie, onvolledige/bedorven lijsten.\
+b. NO - ga aan [&#x200B; Stap 19 &#x200B;](#step-19) te werk.
 
 +++
 
@@ -227,8 +227,8 @@ b. NO - ga aan [ Stap 19 ](#step-19) te werk.
 
 +++**Gebruikend derdextensies?**
 
-a. JA - probeer [ onbruikbaar makend de derdextensies ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure-store/extensions) en in werking stellend de plaatsing (om te zien of zijn zij de oorzaak van het probleem), vooral als er uitbreidingsnamen in om het even welke fouten zijn.\
-b. NO - ga aan [ Stap 20 ](#step-20) te werk.
+a. JA - probeer [&#x200B; onbruikbaar makend de derdextensies &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure-store/extensions) en in werking stellend de plaatsing (om te zien of zijn zij de oorzaak van het probleem), vooral als er uitbreidingsnamen in om het even welke fouten zijn.\
+b. NO - ga aan [&#x200B; Stap 20 &#x200B;](#step-20) te werk.
 
 +++
 
@@ -236,10 +236,10 @@ b. NO - ga aan [ Stap 20 ](#step-20) te werk.
 
 +++**Lange lopende vragen?**
 
-[ de langzame vraaglogboek van de Controle en MySQL tonen proceslijst ](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md).
+[&#x200B; de langzame vraaglogboek van de Controle en MySQL tonen proceslijst &#x200B;](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md).
 
-a. JA - Vernietig alle slepende vragen. Herzie [ Syntaxis van de Kill MySQL.](https://dev.mysql.com/doc/refman/8.0/en/kill.html)\
-b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. JA - Vernietig alle slepende vragen. Herzie [&#x200B; Syntaxis van de Kill MySQL.](https://dev.mysql.com/doc/refman/8.0/en/kill.html)\
+b. NO - [&#x200B; voorlegt een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
@@ -247,8 +247,8 @@ b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magent
 
 +++**de versies van Elasticsearch degraderen?**
 
-a. JA - Kan niet door configuratie worden gedaan. [ leg een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor.\
-b. NO - [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. JA - Kan niet door configuratie worden gedaan. [&#x200B; leg een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor.\
+b. NO - [&#x200B; voorlegt een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 

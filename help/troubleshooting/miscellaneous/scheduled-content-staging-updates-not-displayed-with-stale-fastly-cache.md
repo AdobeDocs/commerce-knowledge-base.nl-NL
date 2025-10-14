@@ -17,7 +17,7 @@ Dit artikel bevat een oplossing voor het probleem wanneer in Adobe Commerce-wink
 
 ## Probleem
 
-Geplande updates voor een opslaginhoudselement (pagina, product, blok, enz.) niet direct na de begintijd van de update worden weergegeven in de winkel. Dit gebeurt wanneer de updates gebruikend de [ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=nl-NL) functionaliteit zijn gepland.
+Geplande updates voor een opslaginhoudselement (pagina, product, blok, enz.) niet direct na de begintijd van de update worden weergegeven in de winkel. Dit gebeurt wanneer de updates gebruikend de [&#x200B; Inhoud het Opvoeren &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=nl-NL) functionaliteit zijn gepland.
 
 ## Oorzaak
 
@@ -41,10 +41,10 @@ Als het serveren van verouderde inhoud zelfs voor het eerste verzoek onacceptabe
 1. Klik **sparen Config** bij de bovenkant van de pagina.
 
 
-![ purge_options.png ](assets/purge_options.png)
+![&#x200B; purge_options.png &#x200B;](assets/purge_options.png)
 
 ## Gerelateerde documentatie
 
-* [ vormt zuiveringsopties ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) in Commerce op de Gids van de Infrastructuur van de Wolk.
-* [ Inhoud het Opvoeren ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=nl-NL) in de documentatie van de Inhoud en van het Ontwerp.
-* [ het dienen van waliteit inhoud ](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) in Snelle documentatie.
+* [&#x200B; vormt zuiveringsopties &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) in Commerce op de Gids van de Infrastructuur van de Wolk.
+* [&#x200B; Inhoud het Opvoeren &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=nl-NL) in de documentatie van de Inhoud en van het Ontwerp.
+* [&#x200B; het dienen van waliteit inhoud &#x200B;](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) in Snelle documentatie.

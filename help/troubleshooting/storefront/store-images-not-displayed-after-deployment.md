@@ -31,9 +31,9 @@ Dit kan gebeuren als de afbeeldingen uit de cache worden geladen.
 
 Als dit gebeurt, kunt u de opdracht Magento gebruiken om de afbeeldingscache opnieuw te genereren en de afbeeldingen correct weer te geven.
 
-Om dit uit te voeren, hebt u de informatie van SSH en opslag URL beschikbaar door de [ Console van de Wolk ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=nl-NL) nodig.
+Om dit uit te voeren, hebt u de informatie van SSH en opslag URL beschikbaar door de [&#x200B; Console van de Wolk &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=nl-NL) nodig.
 
-1. SSH aan uw project dat een bron voor de [ gegevensbestandstortplaats ](/help/how-to/general/create-database-dump-on-cloud.md) was, zoals die in [ SSH aan milieu ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections) in onze ontwikkelaarsdocumentatie wordt beschreven.
+1. SSH aan uw project dat een bron voor de [&#x200B; gegevensbestandstortplaats &#x200B;](/help/how-to/general/create-database-dump-on-cloud.md) was, zoals die in [&#x200B; SSH aan milieu &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections) in onze ontwikkelaarsdocumentatie wordt beschreven.
 1. De afbeeldingscache opnieuw genereren door uit te voeren:
 
    ```bash

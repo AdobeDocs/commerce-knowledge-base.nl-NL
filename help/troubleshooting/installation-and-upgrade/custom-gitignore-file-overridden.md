@@ -84,4 +84,4 @@ Als u de aangepaste versie `.gitignore file` wilt behouden, moet u deze negeren 
 
 ## Gerelateerde lezing
 
-* [ het Getraceerde.gitignore- dossier wordt met voeten getreden door composer!](https://github.com/magento/magento2/issues/32888) in Magento2 GitHub.
+* [&#x200B; het Getraceerde.gitignore- dossier wordt met voeten getreden door composer!](https://github.com/magento/magento2/issues/32888) in Magento2 GitHub.

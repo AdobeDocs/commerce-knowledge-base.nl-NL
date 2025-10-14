@@ -16,8 +16,8 @@ Dit wordt veroorzaakt doordat [!UICONTROL Admin] [!UICONTROL Session Size] is ov
 
 ## Betrokken versies
 
-* Adobe Commerce op-gebouw, [ alle gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
-* Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Adobe Commerce op-gebouw, [&#x200B; alle gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, [&#x200B; alle gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Probleem
 
@@ -57,6 +57,6 @@ U kunt aan hoger plaatsen dan *500000* afhankelijk van de bestaande max. grootte
 
 ## Verwante lezing
 
-* [ grootte van de Zitting ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-session-management#admin-sessions) in de Gids van Systemen Admin
-* [ wijze van de Verrichting ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/set-mode) in de Gids van de Configuratie
-* [ Veilige verbindingen ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections) in Commerce op de Gids van de Infrastructuur van de Wolk
+* [&#x200B; grootte van de Zitting &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-session-management#admin-sessions) in de Gids van Systemen Admin
+* [&#x200B; wijze van de Verrichting &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/set-mode) in de Gids van de Configuratie
+* [&#x200B; Veilige verbindingen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections) in Commerce op de Gids van de Infrastructuur van de Wolk

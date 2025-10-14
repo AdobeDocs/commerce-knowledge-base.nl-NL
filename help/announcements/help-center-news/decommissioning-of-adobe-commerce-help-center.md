@@ -14,11 +14,11 @@ ht-degree: 0%
 # Buiten bedrijf stellen van Adobe Commerce Help Center
 
 Om beter te kunnen worden verbonden met de Adobe familie van oplossingen, heeft Adobe Commerce ons supportinnameproces van Adobe Commerce Help Center naar Adobe Experience League gemigreerd.
-Op 29 juli 2024, werd het Centrum van de Hulp van Adobe Commerce geplaatst in een read-only status, en alle nieuwe steungevallen worden nu voorgelegd door [ Adobe Experience League ](https://experienceleague.adobe.com/nl).
+Op 29 juli 2024, werd het Centrum van de Hulp van Adobe Commerce geplaatst in een read-only status, en alle nieuwe steungevallen worden nu voorgelegd door [&#x200B; Adobe Experience League &#x200B;](https://experienceleague.adobe.com/nl).
 
 >[!NOTE]
 >
->**Gebruik de Experience League gevalde stroom van de gevalsvorm [ hier ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#what-is-experience-support) om steungevallen voor te leggen.**
+>**Gebruik de Experience League gevalde stroom van de gevalsvorm [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#what-is-experience-support) om steungevallen voor te leggen.**
 
 ## Historische gevallen weergeven in Adobe Commerce Help Center
 
@@ -34,4 +34,4 @@ Als u de historische steungevallen wilt herzien die na 1 mei 2025 in het Centrum
 
 >[!NOTE]
 >
->Het deel van de Kennisbank van het Centrum van de Hulp van Adobe Commerce heeft ook gemigreerd aan het [ portaal van Adobe Experience League ](https://experienceleague.adobe.com/nl). Wanneer u een ondersteuningsticket maakt, worden de bijbehorende artikelen in de Knowledge Base samen met andere relevante Adobe Commerce-documentatie van Adobe Experience League aan u voorgesteld.
+>Het deel van de Kennisbank van het Centrum van de Hulp van Adobe Commerce heeft ook gemigreerd aan het [&#x200B; portaal van Adobe Experience League &#x200B;](https://experienceleague.adobe.com/nl). Wanneer u een ondersteuningsticket maakt, worden de bijbehorende artikelen in de Knowledge Base samen met andere relevante Adobe Commerce-documentatie van Adobe Experience League aan u voorgesteld.

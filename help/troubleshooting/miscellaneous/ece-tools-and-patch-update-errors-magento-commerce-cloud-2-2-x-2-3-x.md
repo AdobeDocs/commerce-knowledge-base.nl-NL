@@ -82,4 +82,4 @@ Wijzig de extra sectie zodat deze overeenkomt met de onderstaande sectie en prob
 
 ## Gerelateerde lezing
 
-* [ Verbeteringen en flarden ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/best-practices) in onze ontwikkelaardocumentatie.
+* [&#x200B; Verbeteringen en flarden &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/best-practices) in onze ontwikkelaardocumentatie.

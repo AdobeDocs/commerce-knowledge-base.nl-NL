@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Ontwerpconfiguratie aanpassen in Commerce Admin
 
-Voor de meest bijgewerkte informatie over het aanpassen van ontwerpconfiguratie in Commerce Admin, gelieve te verwijzen naar [ aanpassen Adobe Commerce Admin ontwerp ](https://developer.adobe.com/commerce/php/tutorials/admin/custom-admin-design/) in onze ontwikkelaarsdocumentatie.
+Voor de meest bijgewerkte informatie over het aanpassen van ontwerpconfiguratie in Commerce Admin, gelieve te verwijzen naar [&#x200B; aanpassen Adobe Commerce Admin ontwerp &#x200B;](https://developer.adobe.com/commerce/php/tutorials/admin/custom-admin-design/) in onze ontwikkelaarsdocumentatie.

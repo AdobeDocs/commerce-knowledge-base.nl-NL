@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [ MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 ](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Verwijs naar [ installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
+> [&#x200B; MySQL de motor van het catalogusonderzoek zal in Adobe Commerce 2.4.0 &#x200B;](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) worden verwijderd. U moet de Elasticsearch gastheeropstelling hebben en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Verwijs naar [&#x200B; installeer en vorm Elasticsearch &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
 
 Het artikel verstrekt een moeilijke situatie voor wanneer de Status van de Index van de Elasticsearch niet &quot;*groen*&quot;is. &quot;*geel*&quot;wijst op normaal, en &quot;*rood*&quot;wijst op slecht. De status &#39;geel&#39; of &#39;rood&#39; kan voorkomen in combinatie met ontbrekende producten of de weergave van oude productinformatie.
 
@@ -55,8 +55,8 @@ Creeer een nieuwe mysql stortplaats alvorens deze stappen te volgen en hen buite
    curl --silent -X GET localhost:9200/_cat/indices?v
    ```
 
-Als deze stappen niet werken, [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen.
+Als deze stappen niet werken, [&#x200B; een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen.
 
 ## Gerelateerde lezing
 
-Meer leren, verwijs naar [ gezondheid API van de Cluster van de Elasticsearch ](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html).
+Meer leren, verwijs naar [&#x200B; gezondheid API van de Cluster van de Elasticsearch &#x200B;](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html).

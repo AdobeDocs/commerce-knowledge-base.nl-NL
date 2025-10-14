@@ -16,7 +16,7 @@ Dit artikel verklaart hoe te om een plaatsingsfout te onderzoeken: *post-stelt w
 
 ## Betrokken producten en versies
 
-Adobe Commerce op wolkeninfrastructuur [ alle gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce op wolkeninfrastructuur [&#x200B; alle gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Probleem
 

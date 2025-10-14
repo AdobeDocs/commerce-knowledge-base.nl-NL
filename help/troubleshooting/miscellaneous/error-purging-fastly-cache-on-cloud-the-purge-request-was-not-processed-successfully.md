@@ -37,7 +37,7 @@ U hebt mogelijk onjuiste referenties ingesteld in uw omgeving of u moet VCL-frag
 Controleer of u over de juiste snelste service-id en API-token in uw omgeving beschikt. Als u het Staging geloofsbrieven in Productie hebt, kunnen de zuiveringen niet verkeerd verwerken of verwerken.
 
 1. Meld u als beheerder aan bij uw lokale Commerce-beheerder.
-1. Klik **Slaat** op > Montages > **Configuratie** > **Geavanceerd** > **Systeem** en breid **het Volledige Geheime voorgeheugen van de Pagina** uit.    ![ magento_full_page_cache_2.4.1.png ](assets/magento_full_page_cache_2.4.1.png)
+1. Klik **Slaat** op > Montages > **Configuratie** > **Geavanceerd** > **Systeem** en breid **het Volledige Geheime voorgeheugen van de Pagina** uit.    ![&#x200B; magento_full_page_cache_2.4.1.png &#x200B;](assets/magento_full_page_cache_2.4.1.png)
 1. Vouw de configuratie snel uit en controleer de snelste service-id en API-token voor uw omgeving.
 1. Als u de waarden wijzigt, klikt u op Referenties testen.
 
@@ -49,12 +49,12 @@ Als de geloofsbrieven correct zijn, kunt u problemen met uw VCLs hebben. Om van 
 curl -X GET -s https://api.fastly.com/service/<Service ID>/version/<Editable Version #>/snippet -H "Fastly-Key:FASTLY_API_TOKEN"
 ```
 
-Controleer de lijst met VCL&#39;s. Als u kwesties met het gebrek VCLs van Fastly hebt, kunt u opnieuw uploaden of de inhoud per [ snel gebrek VCLs ](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets) verifiëren. Voor het uitgeven van uw douane VCLs, zie [ VCL fragmenten van de Douane VCL ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=nl-NL) in Commerce op de Gids van de Infrastructuur van de Wolk.
+Controleer de lijst met VCL&#39;s. Als u kwesties met het gebrek VCLs van Fastly hebt, kunt u opnieuw uploaden of de inhoud per [&#x200B; snel gebrek VCLs &#x200B;](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets) verifiëren. Voor het uitgeven van uw douane VCLs, zie [&#x200B; VCL fragmenten van de Douane VCL &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=nl-NL) in Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ## Meer informatie
 
 In onze documentatie voor ontwikkelaars:
 
-* [ Ongeveer snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=nl-NL)
-* [ Opstelling snel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL)
-* [ de fragmenten van VCL van de Douane de Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=nl-NL)
+* [&#x200B; Ongeveer snel &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=nl-NL)
+* [&#x200B; Opstelling snel &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL)
+* [&#x200B; de fragmenten van VCL van de Douane de Fastly &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=nl-NL)

@@ -51,9 +51,9 @@ NodeJS kan de hostnaam van uw Adobe Commerce-winkel niet oplossen.
 ## Oplossing
 
 1. Zorg ervoor dat de Adobe Commerce-winkel in meerdere webbrowsers wordt geladen.
-1. Als u een lokale DNS server of VPN in werking stelt, voeg een ingang aan uw hostfile (die in `/etc/hosts` wordt gevestigd) toe en kaart manueel dit domein ([ Algemene instructies op hostfile het uitgeven ](https://linuxize.com/post/how-to-edit-your-hosts-file/)) toe zodat NodeJS het kan oplossen.
+1. Als u een lokale DNS server of VPN in werking stelt, voeg een ingang aan uw hostfile (die in `/etc/hosts` wordt gevestigd) toe en kaart manueel dit domein ([&#x200B; Algemene instructies op hostfile het uitgeven &#x200B;](https://linuxize.com/post/how-to-edit-your-hosts-file/)) toe zodat NodeJS het kan oplossen.
 
 ## Gerelateerde lezing
 
-* [ PWA Studio voor de Documentatie van Adobe Commerce ](https://magento.github.io/pwa-studio/)
-* [ Hulpmiddelen en bibliotheken ](https://magento.github.io/pwa-studio/technologies/tools-libraries/)
+* [&#x200B; PWA Studio voor de Documentatie van Adobe Commerce &#x200B;](https://magento.github.io/pwa-studio/)
+* [&#x200B; Hulpmiddelen en bibliotheken &#x200B;](https://magento.github.io/pwa-studio/technologies/tools-libraries/)

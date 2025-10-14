@@ -31,11 +31,11 @@ De meest algemene reden hiervoor is bijvoorbeeld een groot aantal producten, win
 1. Verminder het aantal producten (en klantgroepen en winkels, indien van toepassing).
 1. Gebruik beperken tot een of twee gelijktijdige gebruikers.
 1. Schakel de taken voor uitsnijden uit en voer indien nodig handmatig uit.
-1. Als dit niet eerder is gedaan, verzoek om een verbetering aan de Verbeterde milieu&#39;s van de Integratie - neem nota van de beperking op het aantal milieu&#39;s u tot beperkt zou zijn zodra de verbetering is uitgevoerd. Verwijs naar het [ verzoek van de Verbetering van het Milieu van de Integratie - Pro en 1&rbrace; artikel van de Aanzet in onze basis van steunkennis voor details.](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27242)
+1. Als dit niet eerder is gedaan, verzoek om een verbetering aan de Verbeterde milieu&#39;s van de Integratie - neem nota van de beperking op het aantal milieu&#39;s u tot beperkt zou zijn zodra de verbetering is uitgevoerd. Verwijs naar het [&#x200B; verzoek van de Verbetering van het Milieu van de Integratie - Pro en 1&rbrace; artikel van de Aanzet in onze basis van steunkennis voor details.](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27242)
 
 ## Gerelateerde lezing:
 
 In onze documentatie voor ontwikkelaars:
 
-* [ Pro architectuur > het milieu van de Integratie ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [ de architectuur van de Aanzet > het Opvoeren milieu ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
+* [&#x200B; Pro architectuur > het milieu van de Integratie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [&#x200B; de architectuur van de Aanzet > het Opvoeren milieu &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)

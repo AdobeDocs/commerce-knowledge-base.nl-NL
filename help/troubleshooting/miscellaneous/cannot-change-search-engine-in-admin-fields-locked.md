@@ -15,7 +15,7 @@ Dit artikel biedt een oplossing voor het probleem waarbij u probeert de configur
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, [&#x200B; alle gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 
@@ -42,4 +42,4 @@ De configuratie van de zoekmachine is vergrendeld in het `app/etc/env.php` -best
 
 ## Gerelateerde lezing
 
-* [ Vergrendelde (grijs uit) gebieden in Commerce Admin ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26879) in Commerce op de Gids van de Infrastructuur van de Wolk.
+* [&#x200B; Vergrendelde (grijs uit) gebieden in Commerce Admin &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26879) in Commerce op de Gids van de Infrastructuur van de Wolk.

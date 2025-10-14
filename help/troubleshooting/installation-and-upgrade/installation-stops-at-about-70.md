@@ -23,7 +23,7 @@ Tijdens installatie die de Tovenaar van de Opstelling gebruikt, houdt het proces
 
 Veelvoorkomende oorzaken van dit probleem zijn:
 
-* De instelling PHP voor [`max_execution_time` ](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)
+* De instelling PHP voor [`max_execution_time` &#x200B;](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)
 * Tijdlijnwaarden voor nginx en Varnish
 
 ## Oplossing:
@@ -32,7 +32,7 @@ Stel alle volgende opties naar wens in.
 
 ### Alle webservers en Varnish {#all-web-servers-and-varnish}
 
-1. Zoek uw `php.ini` gebruikend een [`phpinfo.php` ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/optional-software) dossier.
+1. Zoek uw `php.ini` gebruikend een [`phpinfo.php` &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/optional-software) dossier.
 1. Als gebruiker met `root` rechten, opent u `php.ini` in een teksteditor.
 1. Zoek de instelling `max_execution_time` .
 1. Wijzig de waarde in `18000` .

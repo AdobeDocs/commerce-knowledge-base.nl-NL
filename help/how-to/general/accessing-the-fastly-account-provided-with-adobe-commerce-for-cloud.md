@@ -16,9 +16,9 @@ In dit artikel wordt uitgelegd hoe u zich kunt aanmelden bij uw Fastly-account d
 
 ## Uw snelle referenties bekijken
 
-Gelieve te verwijzen naar [ krijgt de Snelle sectie van Referenties ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar [&#x200B; krijgt de Snelle sectie van Referenties &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds) in onze ontwikkelaarsdocumentatie.
 
 ## De snelreferenties testen
 
-Gelieve te verwijzen naar de [ Test de Snelle sectie van Referenties ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar de [&#x200B; Test de Snelle sectie van Referenties &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
 

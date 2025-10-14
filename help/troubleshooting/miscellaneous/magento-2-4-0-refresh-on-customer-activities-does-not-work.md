@@ -52,7 +52,7 @@ De pagina wordt omhoog geschoven telkens als a **verfrist** knoop wordt geklikt.
 
 Een alternerende actie is de gebruiker Admin kan de Activiteiten van **Klant** bijwerken door de **knoop van de Veranderingen van de Update** bij de bodem van sidebar te klikken. Het probleem wordt opgelost in de Adobe Commerce 2.4.1-patch.
 
-![ mceclip0.png ](assets/mceclip0.png)
+![&#x200B; mceclip0.png &#x200B;](assets/mceclip0.png)
 
 ## Gerelateerde lezing
 

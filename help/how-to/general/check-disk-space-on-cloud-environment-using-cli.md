@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Schijfruimte controleren met CLI op Adobe Commerce in een cloud-infrastructuuromgeving
 
-Gelieve te verwijzen naar het [ beheer schijfruimte ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) artikel in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar het [&#x200B; beheer schijfruimte &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) artikel in onze ontwikkelaarsdocumentatie.

@@ -27,4 +27,4 @@ fatal: The remote end hung up unexpectedly
 
 ## Oplossing {#solution}
 
-Upload uw sleutel van SSH aan GitHub zoals die in [ wordt besproken GitHub hulppagina ](https://help.github.com/articles/generating-ssh-keys).
+Upload uw sleutel van SSH aan GitHub zoals die in [&#x200B; wordt besproken GitHub hulppagina &#x200B;](https://help.github.com/articles/generating-ssh-keys).

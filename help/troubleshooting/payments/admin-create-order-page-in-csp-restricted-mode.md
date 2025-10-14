@@ -54,7 +54,7 @@ Gebruikers zien mogelijk browserfouten omdat bepaalde scripts zijn geblokkeerd d
 
 <u> om deze kwestie te bevestigen, moet u één van beide </u>:
 
-1. [[!DNL Whitelist] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde manuscripten die de `SecureHtmlRenderer` klasse gebruiken.
+1. [[!DNL Whitelist] &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde manuscripten die de `SecureHtmlRenderer` klasse gebruiken.
 1. Gebruik de klasse `CSPNonceProvider` om toe te staan dat scripts worden uitgevoerd.
 Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] -provider om het genereren van unieke [!DNL nonce] -tekenreeksen voor elke aanvraag te vergemakkelijken. Deze [!DNL nonce] -tekenreeksen worden vervolgens aan de [!UICONTROL CSP] -koptekst gekoppeld.
 
@@ -91,7 +91,7 @@ Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL 
    }
    ```
 
-1. [ voeg a  [!DNL hash] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) aan het dossier van uw module `csp_whitelist.xml` toe.
+1. [&#x200B; voeg a  [!DNL hash] &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) aan het dossier van uw module `csp_whitelist.xml` toe.
 
 ## Uitgave - Betalingsmethode ontbreekt of werkt niet
 
@@ -127,7 +127,7 @@ Gebruikers zien mogelijk browserfouten omdat bepaalde scripts zijn geblokkeerd d
 
 <u> om deze kwestie te bevestigen, moet u één van beide </u>:
 
-1. [[!DNL Whitelist] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde manuscripten die de `SecureHtmlRenderer` klasse gebruiken.
+1. [[!DNL Whitelist] &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde manuscripten die de `SecureHtmlRenderer` klasse gebruiken.
 1. Gebruik de klasse `CSPNonceProvider` om toe te staan dat scripts worden uitgevoerd.
 Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] -provider om het genereren van unieke [!DNL nonce] -tekenreeksen voor elke aanvraag te vergemakkelijken. Deze [!DNL nonce] -tekenreeksen worden vervolgens aan de [!UICONTROL CSP] -koptekst gekoppeld.
 
@@ -164,7 +164,7 @@ Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL 
    }
    ```
 
-1. [ voeg a  [!DNL hash] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) aan het dossier van uw module `csp_whitelist.xml` toe.
+1. [&#x200B; voeg a  [!DNL hash] &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) aan het dossier van uw module `csp_whitelist.xml` toe.
 
 ## Probleem - Admin kan geen bestelling plaatsen
 
@@ -201,7 +201,7 @@ Gebruikers zien mogelijk browserfouten omdat bepaalde scripts zijn geblokkeerd d
 
 <u> om deze kwestie te bevestigen, moet u één van beide </u>:
 
-1. [[!DNL Whitelist] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde manuscripten die de `SecureHtmlRenderer` klasse gebruiken.
+1. [[!DNL Whitelist] &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) de geblokkeerde manuscripten die de `SecureHtmlRenderer` klasse gebruiken.
 1. Gebruik de klasse `CSPNonceProvider` om toe te staan dat scripts worden uitgevoerd.
 Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] -provider om het genereren van unieke [!DNL nonce] -tekenreeksen voor elke aanvraag te vergemakkelijken. Deze [!DNL nonce] -tekenreeksen worden vervolgens aan de [!UICONTROL CSP] -koptekst gekoppeld.
 
@@ -238,4 +238,4 @@ Adobe Commerce en Magento Open Source 2.4.7 en hoger bevatten een **[!UICONTROL 
    }
    ```
 
-1. [ voeg a  [!DNL hash] ](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) aan het dossier van uw module `csp_whitelist.xml` toe.
+1. [&#x200B; voeg a  [!DNL hash] &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) aan het dossier van uw module `csp_whitelist.xml` toe.

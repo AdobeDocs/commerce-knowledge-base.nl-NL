@@ -22,10 +22,10 @@ In dit artikel wordt uitgelegd hoe Adobe Commerce Intelligence Essentials-client
 
 Commerce Intelligence Essentials-klanten kunnen hun abonnementen alleen annuleren of hun betalingsmethoden bijwerken als ze de primaire rekeninghouder voor de Magento account zijn. De stappen zijn:
 
-1. Navigeer aan [ account.magento.com ](https://account.magento.com) en login.
+1. Navigeer aan [&#x200B; account.magento.com &#x200B;](https://account.magento.com) en login.
 1. Klik op Magento > Mijn producten en services > Magento Business Intelligence en klik op Details tonen naast de licentie die u wilt bijwerken.
 1. Selecteer Betalingsmethode bijwerken of Licentie annuleren.
 
 ## Gerelateerde lezing
 
-* [ de Gids van de Gebruiker van Commerce Intelligence ](/docs/commerce-business-intelligence/mbi/guide-overview.html).
+* [&#x200B; de Gids van de Gebruiker van Commerce Intelligence &#x200B;](/docs/commerce-business-intelligence/mbi/guide-overview.html).

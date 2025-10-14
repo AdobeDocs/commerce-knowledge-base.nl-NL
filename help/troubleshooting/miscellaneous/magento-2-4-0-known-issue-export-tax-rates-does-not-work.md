@@ -28,7 +28,7 @@ Dit artikel verstrekt een oplossing voor een bekende kwestie van Adobe Commerce 
 1. Klik **toevoegen Nieuwe knoop van de Regel van de Belasting**.
 1. Klik op de tekst van de **knoop van de Tarieven van de Uitvoer**.
 
-   ![ magento_export_tax_rates.png ](assets/mceclip0.png)
+   ![&#x200B; magento_export_tax_rates.png &#x200B;](assets/mceclip0.png)
 
 <u> Verwacht resultaat </u>:
 
@@ -44,7 +44,7 @@ Oplossing:
 
 Klik op de bodem linkerrand van de **knoop van de Tarieven van de Uitvoer van de Belasting** om het `tax_rates.csv` dossier uit te voeren.
 
-![ magento_export_tax_rates.png ](assets/mceclip1.png)
+![&#x200B; magento_export_tax_rates.png &#x200B;](assets/mceclip1.png)
 
 Het probleem wordt opgelost in een 2.4.1-patch.
 
@@ -52,6 +52,6 @@ Het probleem wordt opgelost in een 2.4.1-patch.
 
 In onze kennisbasis voor ondersteuning:
 
-* [ Adobe Commerce 2.4.0 gekende kwestie: De betalingsmethodes van Braintree verschijnen niet in Veelvoudige Controle van Adressen ](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md).
-* [ Adobe Commerce 2.4.0 gekende kwestie - verfrist zich op de Activiteiten van de Klant werkt niet ](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md).
-* [ Adobe Commerce 2.4.0 bekende kwestie: &quot;voeg selecties aan mijn wortel&quot;knoop toe werkt niet ](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md).
+* [&#x200B; Adobe Commerce 2.4.0 gekende kwestie: De betalingsmethodes van Braintree verschijnen niet in Veelvoudige Controle van Adressen &#x200B;](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md).
+* [&#x200B; Adobe Commerce 2.4.0 gekende kwestie - verfrist zich op de Activiteiten van de Klant werkt niet &#x200B;](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md).
+* [&#x200B; Adobe Commerce 2.4.0 bekende kwestie: &quot;voeg selecties aan mijn wortel&quot;knoop toe werkt niet &#x200B;](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md).

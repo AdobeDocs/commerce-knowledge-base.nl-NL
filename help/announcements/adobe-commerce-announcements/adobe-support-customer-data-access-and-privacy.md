@@ -21,12 +21,12 @@ Voor technische ondersteuning van de Adobe is mogelijk toegang tot uw Adobe Comm
 
 Toegang toestaan:
 
-1. [ Login ](https://account.magento.com/customer/account/login) als steun gerechtigde primaire gebruiker.
-1. Voor **[!UICONTROL My Account]** pagina > **[!UICONTROL Account Settings]**, zorg ervoor dat u uw [ rekeningsprofiel ](https://account.magento.com/customer/account/edit) hebt voltooid en **[!UICONTROL Save]** klikt.
+1. [&#x200B; Login &#x200B;](https://account.magento.com/customer/account/login) als steun gerechtigde primaire gebruiker.
+1. Voor **[!UICONTROL My Account]** pagina > **[!UICONTROL Account Settings]**, zorg ervoor dat u uw [&#x200B; rekeningsprofiel &#x200B;](https://account.magento.com/customer/account/edit) hebt voltooid en **[!UICONTROL Save]** klikt.
 1. Op de **[!UICONTROL My Account]** pagina > **[!UICONTROL Account Settings]** > **[!UICONTROL Privacy Settings]** . U zult een toestemmingsvorm zien om het personeel van de technische steun van de Adobe toegang tot uw gegevens te verlenen.
 1. Na het herzien van de informatie over privacymontages kiezen of om checkbox naast **te controleren geef ik de toegang van mijn gegevens voor de volgende duur toe:**.
 1. Selecteer in de vervolgkeuzelijst Duur de periode waarover het personeel van de technische ondersteuning van de Adobe toegang moet hebben tot de klantgegevens. U kunt 7 dagen, 30 dagen, één jaar of voor onbepaalde tijd selecteren.
 1. Klik op **[!UICONTROL Save]**. Dit zal de begin en einddatum bij de bodem van de pagina onder **bijwerken U toestemming voor de volgende duur** (het schermschot) hebt gegeven. Nadat toestemming is verleend, ziet de bevoegde primaire gebruiker de optie om toestemming onder aan het scherm in te trekken.
-   ![ magento-account-privacy-settings.png ](assets/magento-account-privacy-settings.png)
+   ![&#x200B; magento-account-privacy-settings.png &#x200B;](assets/magento-account-privacy-settings.png)
 
 U kunt **klikken terugtrekt Stem** op elk ogenblik om uw toestemming voor het ondersteuningspersoneel van de Adobe terug te trekken om toegang tot uw gegevens te hebben.

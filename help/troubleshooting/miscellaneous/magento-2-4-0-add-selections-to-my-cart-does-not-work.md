@@ -41,6 +41,6 @@ Adobe Commerce voegt je selecties niet toe aan mijn winkelwagentje.
 
 ## Gerelateerde lezing
 
-* [ MerchDocs het Leiden een het Winkelen Kart ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage) in onze gebruikersgids.
-* [ Adobe Commerce 2.4.0 gekende kwestie: De Tarieven van de Belasting van de uitvoer werken niet ](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md) in onze steunkennisbasis.
-* [ Adobe Commerce 2.4.0 gekende kwestie: De betalingsmethodes van Braintree verschijnen niet in Veelvoudige Controle van Adressen ](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md) in onze basis van de steunkennis.
+* [&#x200B; MerchDocs het Leiden een het Winkelen Kart &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage) in onze gebruikersgids.
+* [&#x200B; Adobe Commerce 2.4.0 gekende kwestie: De Tarieven van de Belasting van de uitvoer werken niet &#x200B;](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md) in onze steunkennisbasis.
+* [&#x200B; Adobe Commerce 2.4.0 gekende kwestie: De betalingsmethodes van Braintree verschijnen niet in Veelvoudige Controle van Adressen &#x200B;](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md) in onze basis van de steunkennis.

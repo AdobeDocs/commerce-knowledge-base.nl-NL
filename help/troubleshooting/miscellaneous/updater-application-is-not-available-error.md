@@ -19,7 +19,7 @@ Dit artikel spreekt over de oplossing voor de &quot;updater toepassing is niet b
 
 Het volgende bericht wordt weergegeven bij de gereedheidscontrole:
 
-![ Screen_Shot_2019-08-29_at_1.39.12_PM.png ](assets/Screen_Shot_2019-08-29_at_1.39.12_PM.png)
+![&#x200B; Screen_Shot_2019-08-29_at_1.39.12_PM.png &#x200B;](assets/Screen_Shot_2019-08-29_at_1.39.12_PM.png)
 
 ## Betrokken producten/versies
 
@@ -29,4 +29,4 @@ Het volgende bericht wordt weergegeven bij de gereedheidscontrole:
 
 ## Oplossing
 
-Zie of er een map `<magento_root>/update` is die bestanden en submappen bevat om dit probleem op te lossen. Anders, zie [ Opstelling updater ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error) in onze ontwikkelaarsdocumentatie.
+Zie of er een map `<magento_root>/update` is die bestanden en submappen bevat om dit probleem op te lossen. Anders, zie [&#x200B; Opstelling updater &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error) in onze ontwikkelaarsdocumentatie.

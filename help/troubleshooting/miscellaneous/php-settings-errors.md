@@ -48,11 +48,11 @@ Configuraties met een groot aantal weergaven, producten, kenmerken of opties kun
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
-Er is geen &#39;juiste&#39; waarde voor `max-input-vars`; deze is afhankelijk van de grootte en complexiteit van uw configuratie. Wijzig desgewenst de waarde in het `php.ini` -bestand. Zie [ Vereiste PHP montages ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/php-settings).
+Er is geen &#39;juiste&#39; waarde voor `max-input-vars`; deze is afhankelijk van de grootte en complexiteit van uw configuratie. Wijzig desgewenst de waarde in het `php.ini` -bestand. Zie [&#x200B; Vereiste PHP montages &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/php-settings).
 
 ## fout bij nesten van maximale functie xdebug
 
-Zie [ tijdens installatie, xdebug maximumfunctie die niveaufout ](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md) nest.
+Zie [&#x200B; tijdens installatie, xdebug maximumfunctie die niveaufout &#x200B;](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md) nest.
 
 ## Fouten worden weergegeven wanneer u een PHTML-sjabloon opent
 
@@ -64,7 +64,7 @@ Parse error: syntax error, unexpected 'data' (T_STRING)
 
 ### Oplossing: stel `asp_tags = off` in php.ini in
 
-De veelvoudige malplaatjes hebben syntaxis voor steun abstract niveau op malplaatjes (gebruik verschillende malplaatjemotoren zoals Twig) verpakt in `<% %>` markeringen, als dit [ malplaatje ](https://github.com/magento/magento2/blob/2.0/app/code/Magento/Catalog/view/adminhtml/templates/product/edit/base_image.phtml) voor het tonen van een productbeeld:
+De veelvoudige malplaatjes hebben syntaxis voor steun abstract niveau op malplaatjes (gebruik verschillende malplaatjemotoren zoals Twig) verpakt in `<% %>` markeringen, als dit [&#x200B; malplaatje &#x200B;](https://github.com/magento/magento2/blob/2.0/app/code/Magento/Catalog/view/adminhtml/templates/product/edit/base_image.phtml) voor het tonen van een productbeeld:
 
 ```php
 <img
@@ -74,6 +74,6 @@ De veelvoudige malplaatjes hebben syntaxis voor steun abstract niveau op malplaa
     alt="<%- data.label %>" />
 ```
 
-Meer informatie over [ asp\_tags ](http://php.net/manual/en/ini.core.php#ini.asp-tags).
+Meer informatie over [&#x200B; asp\_tags &#x200B;](http://php.net/manual/en/ini.core.php#ini.asp-tags).
 
-Bewerken `php.ini` en instellen `asp_tags = off` . Voor meer informatie, zie [ Vereiste PHP montages ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/php-settings).
+Bewerken `php.ini` en instellen `asp_tags = off` . Voor meer informatie, zie [&#x200B; Vereiste PHP montages &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/php-settings).

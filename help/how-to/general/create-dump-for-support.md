@@ -27,8 +27,8 @@ Maak een &#39;scrubbed&#39;-dump van de beheerder:
 
 Vervolgens kunt u ondersteuning bieden voor de directe downloadkoppeling naar de dump-bestanden (uw winkeladres en de bestandsnaam zoals deze worden weergegeven).
 
-Als u kwesties hebt die tot dumps van Admin leiden, denk na gebruikend bevelen CLI zoals die in [ worden beschreven in werking stellen de steunnut ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/run-support-utilities) in onze ontwikkelaarsdocumentatie.
+Als u kwesties hebt die tot dumps van Admin leiden, denk na gebruikend bevelen CLI zoals die in [&#x200B; worden beschreven in werking stellen de steunnut &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/run-support-utilities) in onze ontwikkelaarsdocumentatie.
 
 ## Gerelateerde lezing
 
-* [ creeer volledige gegevensbestandsteun voor Adobe Commerce op wolkeninfrastructuur ](/help/how-to/general/create-database-dump-on-cloud.md) in onze basis van steunkennis.
+* [&#x200B; creeer volledige gegevensbestandsteun voor Adobe Commerce op wolkeninfrastructuur &#x200B;](/help/how-to/general/create-database-dump-on-cloud.md) in onze basis van steunkennis.

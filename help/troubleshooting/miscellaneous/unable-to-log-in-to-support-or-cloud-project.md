@@ -17,17 +17,17 @@ Dit artikel biedt een oplossing voor het aanmelden bij Adobe Commerce-ondersteun
 
 ## Betrokken producten en versies
 
-Adobe Commerce (alle plaatsingsmethodes) alle [ gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce (alle plaatsingsmethodes) alle [&#x200B; gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Probleem
 
-Wanneer u naar [ https://account.magento.com/customer/account/login/ ](https://account.magento.com/customer/account/login/) of [ https://accounts.magento.cloud/user ](https://accounts.magento.cloud/user) gaat zou u kunnen opmerken dat er nu een verenigd login vorm is en u kunt niet meer uw geloofsbrieven ingaan zoals u eerder hebt.
+Wanneer u naar [&#x200B; https://account.magento.com/customer/account/login/ &#x200B;](https://account.magento.com/customer/account/login/) of [&#x200B; https://accounts.magento.cloud/user &#x200B;](https://accounts.magento.cloud/user) gaat zou u kunnen opmerken dat er nu een verenigd login vorm is en u kunt niet meer uw geloofsbrieven ingaan zoals u eerder hebt.
 
 <u> Stappen om </u> te reproduceren:
 
 Meld u aan bij uw Commerce-account.
 
-![ adobe-login-one ](assets/adobe-login-one.png)
+![&#x200B; adobe-login-one &#x200B;](assets/adobe-login-one.png)
 
 <u> Verwacht resultaat </u>:
 
@@ -37,7 +37,7 @@ Aanmelden is gelukt.
 
 Word omgeleid naar een pagina om u aan te melden met een Adobe-account en de gegevens werken niet.
 
-![ adobe-login-two ](assets/adobe-login-two.png)
+![&#x200B; adobe-login-two &#x200B;](assets/adobe-login-two.png)
 
 
 ## Oorzaak
@@ -51,7 +51,7 @@ U kunt zich aanmelden bij de account met:
 - Een bestaande zakelijke/persoonlijke account van een Adobe.
 - Als u geen Adobe-account hebt, maakt u een account met hetzelfde e-mailadres.
 
-Voor stappen verwijzen naar [ Manager van de Identiteit van Commerce ](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=nl-NL) in Adobe Experience League.
+Voor stappen verwijzen naar [&#x200B; Manager van de Identiteit van Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=nl-NL) in Adobe Experience League.
 
 ## Gerelateerde lezing
 

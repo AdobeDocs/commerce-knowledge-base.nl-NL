@@ -15,7 +15,7 @@ Dit artikel biedt een oplossing voor het geval [!DNL crons] zonder tussenkomst w
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* Adobe Commerce op wolkeninfrastructuur, alle [&#x200B; gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
 
 ## Probleem
 
@@ -39,10 +39,10 @@ Een probleem met de [!DNL OPcache] -instellingen.
 
 ## Oplossing
 
-Bevorder [!DNL ECE Tools] aan de recentste versie [ 2002.1.13 ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113).
+Bevorder [!DNL ECE Tools] aan de recentste versie [&#x200B; 2002.1.13 &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113).
 
 ## Gerelateerde lezing
 
-* [ Trage prestaties, langzaam en lang lopend  [!DNL crons] ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=nl-NL) in onze basis van de steunkennis.
-* [[!DNL Cron]  taken vergrendelen taken van andere groepen ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=nl-NL) in onze basis van steunkennis.
-* [[!DNL Cron]  baan is geplakt in &quot;lopende&quot;status ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=nl-NL) in onze basis van steunkennis.
+* [&#x200B; Trage prestaties, langzaam en lang lopend  [!DNL crons] &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=nl-NL) in onze basis van de steunkennis.
+* [[!DNL Cron]  taken vergrendelen taken van andere groepen &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=nl-NL) in onze basis van steunkennis.
+* [[!DNL Cron]  baan is geplakt in &quot;lopende&quot;status &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=nl-NL) in onze basis van steunkennis.

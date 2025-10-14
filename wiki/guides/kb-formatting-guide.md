@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ## Auteur in markeringen
 
-Over het algemeen, gebruiken wij [ Gids van de Stijl van de Syntaxis van de Markering van Adobe Experience League ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=nl-NL), maar er zijn sommige verschillen en uitzonderingen. Bovendien zijn bepaalde HTML-tags in bepaalde gevallen vereist.
+Over het algemeen, gebruiken wij [&#x200B; Gids van de Stijl van de Syntaxis van de Markering van Adobe Experience League &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=nl-NL), maar er zijn sommige verschillen en uitzonderingen. Bovendien zijn bepaalde HTML-tags in bepaalde gevallen vereist.
 
 Hier volgen voorbeelden van de opmaak Markering die het meest wordt gebruikt in onze reactie.
 
@@ -84,7 +84,7 @@ your code here
 </pre></code>
 ```
 
-Waar ``%language-code%`` de codes zijn die door [ worden bepaald Prism.js gesteunde talen ](https://prismjs.com/#supported-languages).
+Waar ``%language-code%`` de codes zijn die door [&#x200B; worden bepaald Prism.js gesteunde talen &#x200B;](https://prismjs.com/#supported-languages).
 
 ## Lijsten
 
@@ -165,17 +165,17 @@ Dit is een koppeling naar deze header:
 [this is link to the anchor in the same article](#this-is-header)
 ```
 
-Als u een element buiten kopbal moet van verwijzingen voorzien, gebruik HTML om het element te bepalen om het [ attribuut van identiteitskaart ](https://www.w3schools.com/html/html_id.asp) toe te voegen. Vervolgens kunt u Markdown of HTML gebruiken om naar deze ID te verwijzen.
+Als u een element buiten kopbal moet van verwijzingen voorzien, gebruik HTML om het element te bepalen om het [&#x200B; attribuut van identiteitskaart &#x200B;](https://www.w3schools.com/html/html_id.asp) toe te voegen. Vervolgens kunt u Markdown of HTML gebruiken om naar deze ID te verwijzen.
 
 ### Relatieve koppelingen en koppelingen naar andere artikelen
 
-Gebruik geen relatieve koppelingen om te verwijzen naar onze artikelen in de basis van supportkennis. Die verbindingen zullen niet werken wanneer uw artikel in het [ Centrum van de Hulp van Adobe Commerce ](https://support.magento.com/hc/en-us) wordt gepubliceerd.
-Gelieve te gebruiken volledige hyperlinks van het [ Centrum van de Hulp van Adobe Commerce ](https://support.magento.com/hc/en-us).
+Gebruik geen relatieve koppelingen om te verwijzen naar onze artikelen in de basis van supportkennis. Die verbindingen zullen niet werken wanneer uw artikel in het [&#x200B; Centrum van de Hulp van Adobe Commerce &#x200B;](https://support.magento.com/hc/en-us) wordt gepubliceerd.
+Gelieve te gebruiken volledige hyperlinks van het [&#x200B; Centrum van de Hulp van Adobe Commerce &#x200B;](https://support.magento.com/hc/en-us).
 
 
 ## Tabellen
 
-Gebruik [ HTML het formatteren voor lijsten ](https://www.w3schools.com/html/html_tables.asp).
+Gebruik [&#x200B; HTML het formatteren voor lijsten &#x200B;](https://www.w3schools.com/html/html_tables.asp).
 
 
 ## Waarschuwingen en infoblokken

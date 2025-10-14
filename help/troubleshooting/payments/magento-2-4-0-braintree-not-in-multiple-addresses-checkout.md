@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel biedt een oplossing voor een bekende Adobe Commerce 2.4.0-probleem waarbij Braintree-betalingsmethoden niet zijn inbegrepen bij het werken met het afrekenen van meerdere adressen. De kwestie is opgelost in Adobe Commerce 2.4.1.
 
-Nota: Adobe Commerce adviseert gebruikend de [ uitbreiding van Braintree van Commerce Marketplace ](https://marketplace.magento.com/paypal-module-braintree.html) voor versies 2.3 en later om de naleving van PSD te houden. De extensie biedt geen functionaliteit voor het afrekenen van meerdere adressen.
+Nota: Adobe Commerce adviseert gebruikend de [&#x200B; uitbreiding van Braintree van Commerce Marketplace &#x200B;](https://marketplace.magento.com/paypal-module-braintree.html) voor versies 2.3 en later om de naleving van PSD te houden. De extensie biedt geen functionaliteit voor het afrekenen van meerdere adressen.
 
 ## Betrokken producten en versies
 

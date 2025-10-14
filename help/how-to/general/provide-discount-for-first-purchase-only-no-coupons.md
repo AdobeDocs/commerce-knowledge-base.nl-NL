@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Alleen korting geven voor eerste aankoop (geen coupons)
 
-Gelieve te verwijzen naar het [ Korting met Eerste artikel van de Aankoop ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/cart-rules/price-rule-discount-first-purchase) in onze gebruikersgids.
+Gelieve te verwijzen naar het [&#x200B; Korting met Eerste artikel van de Aankoop &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/cart-rules/price-rule-discount-first-purchase) in onze gebruikersgids.

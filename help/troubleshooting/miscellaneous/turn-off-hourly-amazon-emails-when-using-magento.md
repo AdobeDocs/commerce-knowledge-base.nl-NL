@@ -23,4 +23,4 @@ Ja, om de systemen voortdurend te synchroniseren, haalt Adobe Commerce rapporten
 
 ## Je kunt deze e-mails als volgt uitschakelen:
 
-Volg deze instructies voor [ het Bijwerken van de Voorkeur van het Bericht op de plaats van Amazon ](https://sellercentral.amazon.com/gp/help/external/G871).
+Volg deze instructies voor [&#x200B; het Bijwerken van de Voorkeur van het Bericht op de plaats van Amazon &#x200B;](https://sellercentral.amazon.com/gp/help/external/G871).

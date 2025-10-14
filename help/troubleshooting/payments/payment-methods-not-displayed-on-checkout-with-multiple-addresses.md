@@ -22,7 +22,7 @@ In dit artikel wordt uitgelegd dat de meeste betalingsmethoden niet worden weerg
 
 >[!NOTE]
 >
->De belangrijkste integratie van Adobe Commerce Cybersource-betalingen is sinds 2.3.3 verouderd en zal in 2.4.0 volledig worden verwijderd. Gebruik in plaats hiervan de [ officiële uitbreiding ](https://marketplace.magento.com/cybersource-global-payment-management.html) van Marketplace.
+>De belangrijkste integratie van Adobe Commerce Cybersource-betalingen is sinds 2.3.3 verouderd en zal in 2.4.0 volledig worden verwijderd. Gebruik in plaats hiervan de [&#x200B; officiële uitbreiding &#x200B;](https://marketplace.magento.com/cybersource-global-payment-management.html) van Marketplace.
 
 ## Probleem
 

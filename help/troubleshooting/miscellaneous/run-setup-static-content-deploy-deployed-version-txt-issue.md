@@ -17,7 +17,7 @@ Dit artikel bevat een correctie voor `deployed_version.txt` . Dit is geen beschr
 
 ## Probleem
 
-Als u Adobe Commerce op de aanbevelingen van de wolkeninfrastructuur volgt om [ Beheer van de Configuratie ](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) te gebruiken (en statische activa te bewegen produceren aan het bouwstijlstadium om website onderbreking tijdens plaatsing te verminderen), kunt u de volgende fout zien wanneer het in werking stellen van het `setup:static-content:deploy` bevel manueel:
+Als u Adobe Commerce op de aanbevelingen van de wolkeninfrastructuur volgt om [&#x200B; Beheer van de Configuratie &#x200B;](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) te gebruiken (en statische activa te bewegen produceren aan het bouwstijlstadium om website onderbreking tijdens plaatsing te verminderen), kunt u de volgende fout zien wanneer het in werking stellen van het `setup:static-content:deploy` bevel manueel:
 
 ```
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy

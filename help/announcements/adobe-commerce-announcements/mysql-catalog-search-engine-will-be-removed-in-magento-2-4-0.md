@@ -17,7 +17,7 @@ Adobe Commerce op locatie, Adobe Commerce op cloudinfrastructuur en Magento Open
 
 >[!WARNING]
 >
->Als u Elasticsearch 6/7 niet installeert/configureert voordat u probeert een upgrade uit te voeren, kunnen er ernstige problemen optreden met Adobe Commerce. Houd er rekening mee dat serviceupgrades op Adobe Commerce op cloudinfrastructuur niet naar de productieomgeving kunnen worden verplaatst zonder dat het infrastructuurteam hiervan 48 kantooruren op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen detailend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
+>Als u Elasticsearch 6/7 niet installeert/configureert voordat u probeert een upgrade uit te voeren, kunnen er ernstige problemen optreden met Adobe Commerce. Houd er rekening mee dat serviceupgrades op Adobe Commerce op cloudinfrastructuur niet naar de productieomgeving kunnen worden verplaatst zonder dat het infrastructuurteam hiervan 48 kantooruren op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn [&#x200B; een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen detailend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
 
 De reden voor het verwijderen van MySQL zoekmachine is dat Elasticsearch betere zoekmogelijkheden biedt en optimaliseert de catalogusprestaties.
 
@@ -59,7 +59,7 @@ De reden voor het verwijderen van MySQL zoekmachine is dat Elasticsearch betere 
 
 ## Installatie:
 
-Wanneer Adobe Commerce op-gebouw en Magento Open Source 2.4.0 wordt vrijgegeven, zal de Elasticsearch een vereiste component zijn, zodat moet u een de gastheeropstelling hebben van de Elasticsearch en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Zie [ installeer en vorm Elasticsearch ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search) in onze ontwikkelaarsdocumentatie.
+Wanneer Adobe Commerce op-gebouw en Magento Open Source 2.4.0 wordt vrijgegeven, zal de Elasticsearch een vereiste component zijn, zodat moet u een de gastheeropstelling hebben van de Elasticsearch en voorafgaand aan het installeren van versie 2.4.0 worden gevormd. Zie [&#x200B; installeer en vorm Elasticsearch &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search) in onze ontwikkelaarsdocumentatie.
 
 Standaard gebruikt Adobe Commerce search Elasticsearch 7 als zoekengine en probeert het verbinding te maken met een server op localhost:9200. Elasticsearch 6.x wordt ook ondersteund. Als uw configuratie niet de gebreken aanpast, kunt u deze montages vormen gebruikend argumenten die tot `setup:install` worden overgegaan, op ongeveer de zelfde manier de gegevensbestandverbinding wordt gevormd.
 

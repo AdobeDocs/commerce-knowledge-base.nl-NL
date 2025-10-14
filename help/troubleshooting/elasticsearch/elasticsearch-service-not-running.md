@@ -19,7 +19,7 @@ Dit artikel biedt oplossingen voor fouten die u kunt ervaren wanneer de service 
 
    * v2.2.3+ ondersteunt ES 5.x
    * v2.2.8+ en v2.3.1+ ondersteunen ES 6.x
-   * ES v2.x en v5.x worden niet geadviseerd wegens [ Eind van Leven ](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [ de Elasticsearch veranderen php Cliënt ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
+   * ES v2.x en v5.x worden niet geadviseerd wegens [&#x200B; Eind van Leven &#x200B;](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [&#x200B; de Elasticsearch veranderen php Cliënt &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
 
 * Magento Open Source v2.3.0+ ondersteunt ES 5.x en 6.x (maar 6.x wordt aanbevolen).
 

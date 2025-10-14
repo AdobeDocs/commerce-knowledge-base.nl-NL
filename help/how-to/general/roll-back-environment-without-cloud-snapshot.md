@@ -16,12 +16,12 @@ Dit artikel bevat twee oplossingen om een omgeving terug te draaien zonder een m
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, [&#x200B; alle gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 Kies de meest geschikte optie voor uw kwestie:
 
-* Als u een stabiele bouwstijl hebt, maar geen geldige momentopname - [ Scenario 1: Geen momentopname, bouwt stabiel (de verbinding van SSH beschikbaar) ](#scen2).
-* Als de bouwstijl gebroken is en u geen geldige momentopname hebt - [ Scenario 2: Geen momentopname; bouwt gebroken (geen verbinding SSH) ](#scen3).
+* Als u een stabiele bouwstijl hebt, maar geen geldige momentopname - [&#x200B; Scenario 1: Geen momentopname, bouwt stabiel (de verbinding van SSH beschikbaar) &#x200B;](#scen2).
+* Als de bouwstijl gebroken is en u geen geldige momentopname hebt - [&#x200B; Scenario 2: Geen momentopname; bouwt gebroken (geen verbinding SSH) &#x200B;](#scen3).
 
 ## Scenario 1: Geen momentopname, bouwstijl stabiel (beschikbare verbinding SSH) {#scen2}
 
@@ -48,7 +48,7 @@ Als u Configuration Management wilt uitschakelen, moet u ervoor zorgen dat de ma
 
 Ga als volgt te werk om het configuratiebestand te verwijderen:
 
-1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
+1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
 1. Verwijder het configuratiebestand:
    * Voor Adobe Commerce 2.4:
 
@@ -64,19 +64,19 @@ Ga als volgt te werk om het configuratiebestand te verwijderen:
 
 Meer informatie over Configuratiebeheer door te controleren:
 
-* [ vermindert plaatsingsonderbreking op Adobe Commerce op wolkeninfrastructuur ](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in onze basis van steunkennis.
-* [ het beheer van de Configuratie voor opslagmontages ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; vermindert plaatsingsonderbreking op Adobe Commerce op wolkeninfrastructuur &#x200B;](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in onze basis van steunkennis.
+* [&#x200B; het beheer van de Configuratie voor opslagmontages &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
 
 ### Stap 1: De Adobe Commerce-software verwijderen met de opdracht Setup:verwijderen {#setup-uninstall}
 
 
 Als u de Adobe Commerce-software verwijdert, wordt de database neergezet en hersteld, wordt de implementatieconfiguratie verwijderd en worden mappen onder `var` gewist.
 
-Het overzicht [ desinstalleert de software van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
+Het overzicht [&#x200B; desinstalleert de software van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
 
 Voer de volgende stappen uit om de Adobe Commerce-software te verwijderen:
 
-1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
+1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
 1. Uitvoeren `setup:uninstall` :
 
    ```php
@@ -97,14 +97,14 @@ Dit betekent dat we onze Adobe Commerce-installatie (inclusief DB) hebben terugg
 
 Met het terugstellen van de it, keren wij de code aan de gewenste staat in het verleden terug.
 
-1. De omgeving klonen naar uw lokale ontwikkelomgeving. U kunt de opdracht kopiëren in de Cloud Console:    ![ copy_git_clone.png ](assets/copy_git_clone.png)
+1. De omgeving klonen naar uw lokale ontwikkelomgeving. U kunt de opdracht kopiëren in de Cloud Console:    ![&#x200B; copy_git_clone.png &#x200B;](assets/copy_git_clone.png)
 1. Open de geschiedenis van uw verplichtingen. Gebruik `--reverse` om de historie in omgekeerde volgorde weer te geven voor meer gemak:
 
    ```git
      git log --reverse
    ```
 
-1. Selecteer de commit hash waarop u goed bent geweest. Om code aan zijn authentiek staat (Vanilla) terug te stellen, vind zeer eerste begaan die uw tak (milieu) creeerde.    ![ Selecterend begaan hash in git console ](assets/select_commit_hash.png)
+1. Selecteer de commit hash waarop u goed bent geweest. Om code aan zijn authentiek staat (Vanilla) terug te stellen, vind zeer eerste begaan die uw tak (milieu) creeerde.    ![&#x200B; Selecterend begaan hash in git console &#x200B;](assets/select_commit_hash.png)
 1. Voorinstelling voor hard git toepassen:
 
    ```git
@@ -127,7 +127,7 @@ In dit scenario moet u eerst de werkstatus van uw Adobe Commerce-toepassing hers
 
 [1. Herstel de git-vertakking.](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
 
-[ 2. Schakel Configuratiebeheer uit.](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)
+[&#x200B; 2. Schakel Configuratiebeheer uit.](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)
 
 [3. Verwijder de Adobe Commerce-software.](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 
@@ -147,7 +147,7 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 Als het uitvoeren van de opdracht `setup:uninstall` mislukt met een fout en niet kan worden voltooid, wordt de DB mogelijk handmatig gewist met de volgende stappen:
 
-1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
+1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
 1. Verbinding maken met de MySQL-database:
 
    ```sql
@@ -168,15 +168,15 @@ Als het uitvoeren van de opdracht `setup:uninstall` mislukt met een fout en niet
 
 1. Verwijder de volgende configuratiebestanden: `config.php`, `config.php` `.bak` , `env.php` en `env.php.bak` .
 
-Na het terugstellen van OB, [ maak een git duw aan het milieu om opnieuw op te stellen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=nl-NL#git-commands) en Adobe Commerce aan nieuw gecreeerd OB te installeren. Of [ stel het redistribueren bevel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=nl-NL#environment-commands) in werking.
+Na het terugstellen van OB, [&#x200B; maak een git duw aan het milieu om opnieuw op te stellen &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=nl-NL#git-commands) en Adobe Commerce aan nieuw gecreeerd OB te installeren. Of [&#x200B; stel het redistribueren bevel &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=nl-NL#environment-commands) in werking.
 
 ## Gerelateerde lezing
 
 In onze documentatie voor ontwikkelaars:
 
-* [ herstel een momentopname op Wolk ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
-* [ creeer een momentopname ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
-* [ Momentopnamen en reservebeheer ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [ beheer takken met de Console van de Wolk - de logboeken van de Mening ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=nl-NL#view-logs)
-* [ de mislukte plaatsing van de Component ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html?lang=nl-NL)
-* [ beheer uw project ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=nl-NL#configure-the-project)
+* [&#x200B; herstel een momentopname op Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+* [&#x200B; creeer een momentopname &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
+* [&#x200B; Momentopnamen en reservebeheer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [&#x200B; beheer takken met de Console van de Wolk - de logboeken van de Mening &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=nl-NL#view-logs)
+* [&#x200B; de mislukte plaatsing van de Component &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html?lang=nl-NL)
+* [&#x200B; beheer uw project &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=nl-NL#configure-the-project)

@@ -37,7 +37,7 @@ Symptomen van [!DNL cron] -taken die opnieuw moeten worden ingesteld zijn:
 
 U kunt dit probleem oplossen door de [!DNL cron] taak(en) opnieuw in te stellen met de opdracht `cron:unlock` . Met deze opdracht wijzigt u de status van de [!DNL cron] -taak in de database, waardoor de taak gedwongen wordt om andere geplande taken te laten doorgaan.
 
-1. Open een terminal en gebruik uw [ sleutels van SSH ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections) om met het beïnvloede milieu te verbinden.
+1. Open een terminal en gebruik uw [&#x200B; sleutels van SSH &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections) om met het beïnvloede milieu te verbinden.
 1. Krijg de MySQL gegevensbestandgeloofsbrieven:    ```shell    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp    ```
 1. Verbind met het gegevensbestand gebruikend `mysql`:    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
 1. Selecteer de `main` -database:    ```shell    use main    ```
@@ -47,7 +47,7 @@ U kunt dit probleem oplossen door de [!DNL cron] taak(en) opnieuw in te stellen 
 
 ### Oplossing voor het stoppen van één oplossing [!DNL cron] {#solution-stop-a-single-cron}
 
-1. Open een terminal en gebruik uw [ sleutels van SSH ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections) om met het beïnvloede milieu te verbinden.
+1. Open een terminal en gebruik uw [&#x200B; sleutels van SSH &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections) om met het beïnvloede milieu te verbinden.
 1. Controleer lange lopende taken door het volgende bevel te gebruiken:
 
    ```date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'```

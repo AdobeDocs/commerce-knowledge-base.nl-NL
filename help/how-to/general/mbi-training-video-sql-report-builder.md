@@ -17,9 +17,9 @@ Herinner me, **u toestemmingen Admin nodig hebt om tot de SQL Report Builder toe
 In deze video leert u:
 
 * Een SQL-query uitvoeren
-* Hoe te [ visualiseren uw resultaten ](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) <!-- Link fails-->
+* Hoe te [&#x200B; visualiseren uw resultaten &#x200B;](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) <!-- Link fails-->
 * Hoe te om het rapport aan een dashboard te bewaren
 
-Om op de video te letten, ga naar [ Commerce Intelligence - SQL Report Builder ](/docs/commerce-learn/tutorials/business-intelligence/sql-report-builder.html) in Adobe Experience League.
+Om op de video te letten, ga naar [&#x200B; Commerce Intelligence - SQL Report Builder &#x200B;](/docs/commerce-learn/tutorials/business-intelligence/sql-report-builder.html) in Adobe Experience League.
 
-**wil volgen?** Controle uit ons [ SQL leerprogramma van de Report Builder ](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) voor geschreven instructies.
+**wil volgen?** Controle uit ons [&#x200B; SQL leerprogramma van de Report Builder &#x200B;](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) voor geschreven instructies.

@@ -41,8 +41,8 @@ De typische plaatsen waar de dossieropslag waarschijnlijk zal worden gevuld zijn
 
 `du -shc` */path/to/folder*
 
-Als het gebruik van de media schijf een groot deel van de totale schijfruimte uitmaakt, kunt u overwegen toelatend [ Vast Deep Optimalisering van het Beeld ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization), en dan de dossiers in de *pub/media/catalogus/product/geheime voorgeheugen* omslag op de server manueel schrappen.
+Als het gebruik van de media schijf een groot deel van de totale schijfruimte uitmaakt, kunt u overwegen toelatend [&#x200B; Vast Deep Optimalisering van het Beeld &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization), en dan de dossiers in de *pub/media/catalogus/product/geheime voorgeheugen* omslag op de server manueel schrappen.
 
 ## Verwante lezing
 
-[ Controle specifieke clusters ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters) in onze basis van steunkennis.
+[&#x200B; Controle specifieke clusters &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters) in onze basis van steunkennis.

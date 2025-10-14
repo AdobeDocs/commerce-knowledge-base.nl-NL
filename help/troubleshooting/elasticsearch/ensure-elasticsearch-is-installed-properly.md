@@ -16,14 +16,14 @@ In dit artikel wordt gesproken over oplossingen voor problemen die worden veroor
 
 >[!WARNING]
 >
->Op Adobe Commerce over cloudinfrastructuur dient u te weten dat serviceupgrades niet naar de productieomgeving kunnen worden doorgevoerd zonder dat ons infrastructuurteam hiervan 48 uur op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn, [ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailerend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
+>Op Adobe Commerce over cloudinfrastructuur dient u te weten dat serviceupgrades niet naar de productieomgeving kunnen worden doorgevoerd zonder dat ons infrastructuurteam hiervan 48 uur op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn, [&#x200B; voorlegt een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailerend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
 
 ## Elasticsearch versiecompatibiliteit met Adobe Commerce
 
 * Adobe Commerce op locatie en Adobe Commerce op cloudinfrastructuur:
    * v2.2.3+ ondersteunt ES 5.x
    * v2.2.8+ en v2.3.1+ ondersteunen ES 6.x
-   * ES v2.x en v5.x worden niet geadviseerd wegens [ Eind van Leven ](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [ de Elasticsearch veranderen php Cliënt ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
+   * ES v2.x en v5.x worden niet geadviseerd wegens [&#x200B; Eind van Leven &#x200B;](https://www.elastic.co/support/eol). Nochtans, als u Adobe Commerce v2.3.1 hebt en ES 2.x of ES 5.x wilt gebruiken, moet u [&#x200B; de Elasticsearch veranderen php Cliënt &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
 * Magento Open Source v2.3.0+ ondersteunt ES 5.x en 6.x (maar 6.x wordt aanbevolen).
 
 ## Probleem
@@ -56,8 +56,8 @@ Elasticsearch is niet correct geïnstalleerd. Dit kan te wijten zijn aan:
 
 Elasticsearch correct instellen:
 
-* De handelaren op Adobe Commerce op wolkeninfrastructuur kunnen de stappen in onze ontwikkelaardocumentatie volgen: [ de dienst van de Elasticsearch van de opstelling ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
-* De handelaren op Adobe Commerce op-gebouw en de Magento Open Source kunnen de stappen in onze ontwikkelaarsdocumentatie volgen: [ installeren en vormen Elasticsearch ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
+* De handelaren op Adobe Commerce op wolkeninfrastructuur kunnen de stappen in onze ontwikkelaardocumentatie volgen: [&#x200B; de dienst van de Elasticsearch van de opstelling &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+* De handelaren op Adobe Commerce op-gebouw en de Magento Open Source kunnen de stappen in onze ontwikkelaarsdocumentatie volgen: [&#x200B; installeren en vormen Elasticsearch &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/search/overview-search).
 
 Nadat u opstelling Elasticsearch hebt, controleer dat het correct is gevormd:
 

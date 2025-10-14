@@ -45,7 +45,7 @@ Als uw Adobe Commerce-project wordt geïmplementeerd op Pro-architectuur, kunt u
 
 1. Voer de opdracht `pt-query-digest --type=slowlog` uit op basis van MySQL langzame querylogs.
    * Om de plaats van de langzame vraaglogboeken te vinden, zie **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=nl-NL)** in onze ontwikkelaarsdocumentatie.
-   * Zie de documentatie [[!DNL Percona Toolkit] > pt-query-digest ](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) .
+   * Zie de documentatie [[!DNL Percona Toolkit] > pt-query-digest &#x200B;](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) .
 1. Gebaseerd op de gevonden kwesties, onderneem stappen om de vraag te bevestigen, zodat loopt het sneller.
 
 ## MySQL &quot;process list&quot; controleren
@@ -78,7 +78,7 @@ Dit zal helpen om te identificeren als de server MySQL levend is en dat er geen 
 
 ## Gerelateerde lezing
 
-* [ MySQL toont Syntaxis van Processlist ](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) in dev.mysql.com.
-* [ Syntaxis van de Kill MySQL ](https://dev.mysql.com/doc/refman/8.0/en/kill.html) in dev.mysql.com.
-* [ Veiligheid, Prestaties, en de Behandeling van Gegevens ](https://developer.adobe.com/commerce/php/best-practices/extensions/security/) in onze ontwikkelaarsdocumentatie.
-* [ Help MySQL ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; MySQL toont Syntaxis van Processlist &#x200B;](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) in dev.mysql.com.
+* [&#x200B; Syntaxis van de Kill MySQL &#x200B;](https://dev.mysql.com/doc/refman/8.0/en/kill.html) in dev.mysql.com.
+* [&#x200B; Veiligheid, Prestaties, en de Behandeling van Gegevens &#x200B;](https://developer.adobe.com/commerce/php/best-practices/extensions/security/) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; Help MySQL &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql) in onze ontwikkelaarsdocumentatie.

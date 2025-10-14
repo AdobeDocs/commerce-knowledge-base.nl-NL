@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Hoe werkt Adobe Commerce managed cloud WAF (aangedreven door Fastly)?
 
-De Vuurmuren van de Toepassing van het Web (WAFs) verhinderen [ kwaadwillig verkeer ](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) plaatsen en netwerken in te gaan door verkeer tegen een reeks veiligheidsregels te filtreren. Het verkeer dat om het even welke regels teweegbrengt wordt geblokkeerd alvorens het uw plaatsen of netwerk kan beschadigen.
+De Vuurmuren van de Toepassing van het Web (WAFs) verhinderen [&#x200B; kwaadwillig verkeer &#x200B;](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) plaatsen en netwerken in te gaan door verkeer tegen een reeks veiligheidsregels te filtreren. Het verkeer dat om het even welke regels teweegbrengt wordt geblokkeerd alvorens het uw plaatsen of netwerk kan beschadigen.
 
 Adobe Commerce cloud WAF biedt een WAF-beleid met een regel die is ontworpen om uw Adobe Commerce-webtoepassingen te beschermen tegen een groot aantal aanvallen.
 
@@ -50,7 +50,7 @@ U kunt deze pagina aanpassen zolang de aanpassing de aanvraag-id bevat. Neem con
 
 ## Hoe kunnen we WAF-regelsets bijwerken? Hoe snel kan een WAF-regel in productie worden gewijzigd of bijgewerkt en wereldwijd worden toegepast?
 
-Als onderdeel van de cloud WAF service beheert Fastly regelupdates van commerciële derden, Fastly research en open bronnen. Zij werken gepubliceerde regels zo nodig bij in een beleid of wanneer wijzigingen in de regels beschikbaar zijn uit hun respectieve bronnen. De nieuwe regels die de gepubliceerde klassen van regels aanpassen worden ook opgenomen in de instantie van WAF van om het even welke dienst zodra het wordt toegelaten. Dit helpt onmiddellijke dekking voor nieuwe of evoluerende explosies verzekeren. U kunt informatie [ over regelupdates en onderhoud ](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance) op de Fastly documentatieplaats herzien.
+Als onderdeel van de cloud WAF service beheert Fastly regelupdates van commerciële derden, Fastly research en open bronnen. Zij werken gepubliceerde regels zo nodig bij in een beleid of wanneer wijzigingen in de regels beschikbaar zijn uit hun respectieve bronnen. De nieuwe regels die de gepubliceerde klassen van regels aanpassen worden ook opgenomen in de instantie van WAF van om het even welke dienst zodra het wordt toegelaten. Dit helpt onmiddellijke dekking voor nieuwe of evoluerende explosies verzekeren. U kunt informatie [&#x200B; over regelupdates en onderhoud &#x200B;](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance) op de Fastly documentatieplaats herzien.
 
 ## Hoe verschilt Adobe Commerce cloud WAF van de WAF-oplossing die snel aan haar directe klanten wordt aangeboden?
 
@@ -104,11 +104,11 @@ Er wordt naar schatting 1,5 milliseconden (ms) tot 20 ms latentie toegevoegd aan
 
 ## Kunnen de klanten IP zwarte lijsten tot stand brengen en wijzigen om verkeer te blokkeren?
 
-Ja, klanten kunnen het blokkeren door land en toegangsbeheerlijst (ACL) van Adobe Commerce op Admin UI van de cloudinfrastructuur toelaten. Gebruik deze eigenschappen in gevallen waar u toegang voor bezoekers wilt blokkeren die uit specifieke landen of bepaalde IPs of IP waaiers komen. Als u wilt dat geblokkeerde bezoekers een aangepaste pagina zien in plaats van een foutcode, kunt u een aangepaste foutpagina maken door HTML te uploaden in het menu Snelconfiguratie. Zie [ een douane fout/onderhoudspagina ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie creëren.
+Ja, klanten kunnen het blokkeren door land en toegangsbeheerlijst (ACL) van Adobe Commerce op Admin UI van de cloudinfrastructuur toelaten. Gebruik deze eigenschappen in gevallen waar u toegang voor bezoekers wilt blokkeren die uit specifieke landen of bepaalde IPs of IP waaiers komen. Als u wilt dat geblokkeerde bezoekers een aangepaste pagina zien in plaats van een foutcode, kunt u een aangepaste foutpagina maken door HTML te uploaden in het menu Snelconfiguratie. Zie [&#x200B; een douane fout/onderhoudspagina &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie creëren.
 
 ## Waar kan ik de operationele status van mijn WAF-dienst controleren?
 
-De algemene de dienstbeschikbaarheid van WAF wordt gemeld op de [ Snelle pagina van de Status ](https://status.fastly.com/). De beschikbaarheidsrapportage voor de WAF van individuele klanten wordt niet verstrekt.
+De algemene de dienstbeschikbaarheid van WAF wordt gemeld op de [&#x200B; Snelle pagina van de Status &#x200B;](https://status.fastly.com/). De beschikbaarheidsrapportage voor de WAF van individuele klanten wordt niet verstrekt.
 
 ## Biedt Adobe Commerce incidentbeheer voor de WAF-service?
 
@@ -118,7 +118,7 @@ Op dit moment wordt geen incidentbeheer aangeboden.
 
 Hoewel Adobe Commerce geen Centrum van de Verrichtingen van de Veiligheid heeft, hebben wij een proces van de veiligheidsverrichtingen dat ons toestaat om de juiste middelen in dienst te nemen om op veiligheidsincidenten in real time te antwoorden. We bieden ook 24-7-365 follow-up aan.
 
-U kunt op Adobe Commerce betrekking hebbende veiligheidsnieuws en updates van het [ Centrum van de Veiligheid ](https://helpx.adobe.com/nl/security.html) ook krijgen.
+U kunt op Adobe Commerce betrekking hebbende veiligheidsnieuws en updates van het [&#x200B; Centrum van de Veiligheid &#x200B;](https://helpx.adobe.com/nl/security.html) ook krijgen.
 
 ## Welke ondersteuning is beschikbaar?
 
@@ -132,7 +132,7 @@ Zie de [&#128279;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterpris
 
 ## Als de WAF het legale verkeer blokkeert of andere problemen veroorzaakt, hoe kan ik dan hulp krijgen?
 
-[ voorlegt een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) bij het [ Centrum van de Hulp van Adobe Commerce ](https://support.magento.com) voor. Gelieve te omvatten erop wijst dat het kaartje met de dienst van WAF verwant is en het geblokkeerde verzoekherkenningsteken (identiteitskaart) omvat.
+[&#x200B; voorlegt een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) bij het [&#x200B; Centrum van de Hulp van Adobe Commerce &#x200B;](https://support.magento.com) voor. Gelieve te omvatten erop wijst dat het kaartje met de dienst van WAF verwant is en het geblokkeerde verzoekherkenningsteken (identiteitskaart) omvat.
 
 Het Adobe Commerce-systeem voor kaartverkoop volgt de communicatie tussen onze supporttechnici en het personeel van een klant. Dit systeem verstrekt een tijd-gestempelde transcriptie van mededelingen, en verzendt e-mail naar klant en het personeel van Adobe Commerce aangezien de kaartjes worden bijgewerkt.
 

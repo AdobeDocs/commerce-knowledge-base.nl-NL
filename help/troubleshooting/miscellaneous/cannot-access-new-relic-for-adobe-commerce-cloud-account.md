@@ -17,7 +17,7 @@ Dit artikel biedt een oplossing voor het geval dat u [!DNL New Relic] niet kunt 
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur alle [ gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur alle [&#x200B; gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Probleem
 
@@ -33,4 +33,4 @@ Neem contact op met de New Relic-rekeninghouder en vraag of deze u aan zijn acco
 
 ## Gerelateerde lezing
 
-[ beheert  [!DNL New Relic]  rekening ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie.
+[&#x200B; beheert  [!DNL New Relic]  rekening &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in onze ontwikkelaarsdocumentatie.

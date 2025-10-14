@@ -63,4 +63,4 @@ Omdat Admin via Varnish wordt benaderd, kunt u zich niet aanmelden bij Admin om 
 $ bin/magento cache:enable
 ```
 
-Voor meer informatie over het gebruiken van de bevellijn, zie [ begonnen met bevel-lijn configuratie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/config-cli) worden.
+Voor meer informatie over het gebruiken van de bevellijn, zie [&#x200B; begonnen met bevel-lijn configuratie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/config-cli) worden.

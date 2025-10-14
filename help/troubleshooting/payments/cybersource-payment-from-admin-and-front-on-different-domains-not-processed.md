@@ -17,7 +17,7 @@ Dit artikel biedt een patch voor de bekende Adobe Commerce 2.3.0-beperking die v
 
 >[!NOTE]
 >
->De belangrijkste integratie van Adobe Commerce Cybersource-betalingen is sinds 2.3.3 verouderd en zal in 2.4.0 volledig worden verwijderd. Gebruik in plaats hiervan de [ officiële uitbreiding ](https://marketplace.magento.com/cybersource-global-payment-management.html) van Marketplace.
+>De belangrijkste integratie van Adobe Commerce Cybersource-betalingen is sinds 2.3.3 verouderd en zal in 2.4.0 volledig worden verwijderd. Gebruik in plaats hiervan de [&#x200B; officiële uitbreiding &#x200B;](https://marketplace.magento.com/cybersource-global-payment-management.html) van Marketplace.
 
 ## Probleem
 
@@ -69,6 +69,6 @@ De patches zijn ook compatibel met de volgende versies:
 
 ## Hoe een pleister aanbrengen
 
-Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
+Voor instructies, zie [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
 
 ## Bijgevoegde bestanden

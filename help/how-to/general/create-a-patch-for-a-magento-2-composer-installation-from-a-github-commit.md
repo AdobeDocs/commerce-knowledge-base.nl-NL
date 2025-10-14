@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Creeer een flard voor de installatie van Composer van Adobe Commerce van GitHub begaat
 
-Gelieve te verwijzen naar [ de sectie van de flarden van de Douane van de Toepassende flarden ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar [&#x200B; de sectie van de flarden van de Douane van de Toepassende flarden &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) in onze ontwikkelaarsdocumentatie.

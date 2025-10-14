@@ -17,11 +17,11 @@ In dit artikel worden oplossingen voorgesteld voor de situatie waarin er onvoldo
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, alle [&#x200B; gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 
-Er is onvoldoende schijfruimte op de schijf met beschrijfbare mappen. Één symptoom kan [ geplakte plaatsing ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26878) zijn.
+Er is onvoldoende schijfruimte op de schijf met beschrijfbare mappen. Één symptoom kan [&#x200B; geplakte plaatsing &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26878) zijn.
 
 Voer de volgende opdracht uit om het schijfgebruik te controleren:
 
@@ -45,7 +45,7 @@ Oplossingsopties:
 * Reinig de map `var` .
 * Stel een uitsnijdtaak in om de grootte van de map `var` bij te houden en te opschonen.
 * Wijs meer schijfruimte toe als u wat ongebruikte hebt. (Zie de onderstaande sectie voor informatie over hoe u kunt controleren wat uw limiet is voor ruimte.)
-   * Voor het plan van de Aanzet, kunnen alle milieu&#39;s, en Pro de milieu&#39;s van de Integratie, u de schijfruimte toewijzen als u wat ongebruikt hebt, zoals die in [ wordt beschreven beheert schijfruimte: Het toewijzen van schijfruimte ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
+   * Voor het plan van de Aanzet, kunnen alle milieu&#39;s, en Pro de milieu&#39;s van de Integratie, u de schijfruimte toewijzen als u wat ongebruikt hebt, zoals die in [&#x200B; wordt beschreven beheert schijfruimte: Het toewijzen van schijfruimte &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
    * Voor de milieu&#39;s van het Staging en van de Productie van het Pro Plan, contacteer steun om meer schijfruimte toe te wijzen als u wat ongebruikt hebt.
 * Als u uw ruimtelimiet hebt bereikt en nog steeds weinig ruimte hebt, kunt u overwegen meer schijfruimte te kopen. Neem contact op met uw Adobe-accountteam voor meer informatie.
 
@@ -53,7 +53,7 @@ Oplossingsopties:
 
 Om te controleren hoeveel ruimte u voor elke Adobe Commerce hebt op de omgeving van de cloud-infrastructuur:
 
-1. Login aan de [ Console van de Wolk ](https://console.adobecommerce.com).
+1. Login aan de [&#x200B; Console van de Wolk &#x200B;](https://console.adobecommerce.com).
 1. Selecteer het desbetreffende project op het dashboard van **[!UICONTROL All projects]** . In de linkerhoek ziet u de beschikbaarheid van schijfruimte.
 
-   ![ project_space.png ](/help/troubleshooting/miscellaneous/assets/project_space.png)
+   ![&#x200B; project_space.png &#x200B;](/help/troubleshooting/miscellaneous/assets/project_space.png)

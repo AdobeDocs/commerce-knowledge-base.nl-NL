@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Snel instellen voor starterabonnement op cloud
 
-Gelieve te verwijzen naar [ Opstelling snel ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar [&#x200B; Opstelling snel &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration) in onze ontwikkelaarsdocumentatie.

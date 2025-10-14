@@ -21,6 +21,6 @@ In deze video leert u:
 * Een filter toepassen op metrisch
 * Hoe te om een filter toe te passen dat op een berekende gegevensdimensie wordt geplaatst
 
-Om op de video te letten, ga naar [ Commerce Intelligence - de Reeksen van de Filter ](/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) in Adobe Experience League.
+Om op de video te letten, ga naar [&#x200B; Commerce Intelligence - de Reeksen van de Filter &#x200B;](/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) in Adobe Experience League.
 
-**wil volgen?** Controle uit ons [ Creërend filterreeksen voor metriek leerprogramma ](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) voor geschreven instructies.
+**wil volgen?** Controle uit ons [&#x200B; Creërend filterreeksen voor metriek leerprogramma &#x200B;](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) voor geschreven instructies.

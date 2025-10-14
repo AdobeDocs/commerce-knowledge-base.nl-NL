@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # NPM configureren om PWA Studio te kunnen gebruiken
 
-[ Progressieve de Studio van het Web Apps (PWA) ](https://magento.github.io/pwa-studio/) is een nieuw project beschikbaar voor Adobe Commerce op wolkeninfrastructuur 2.3.x of later. Als u PWA Studio wilt kunnen gebruiken en installeren, moet u de NPM-pakketbeheerversie instellen op 5.x of hoger om ondersteuning voor Node.js 8.x te krijgen. Dit wordt gedaan in de `hooks:build` sectie van het `.magento.app.yaml` configuratiedossier.
+[&#x200B; Progressieve de Studio van het Web Apps (PWA) &#x200B;](https://magento.github.io/pwa-studio/) is een nieuw project beschikbaar voor Adobe Commerce op wolkeninfrastructuur 2.3.x of later. Als u PWA Studio wilt kunnen gebruiken en installeren, moet u de NPM-pakketbeheerversie instellen op 5.x of hoger om ondersteuning voor Node.js 8.x te krijgen. Dit wordt gedaan in de `hooks:build` sectie van het `.magento.app.yaml` configuratiedossier.
 
 ## Milieu en technologieën
 
@@ -48,10 +48,10 @@ Als u de benodigde NPM-versie wilt instellen, geeft u deze op in het configurati
    > ```
 
 1. Sla de wijzigingen op in het bestand.
-1. Git duw het uitgegeven dossier aan uw [ integratiemilieu ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27242).
+1. Git duw het uitgegeven dossier aan uw [&#x200B; integratiemilieu &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27242).
 
 De wijzigingen worden van kracht nadat u het bijgewerkte YAML-bestand in de omgeving hebt geplaatst.
 
 ## Gerelateerde documentatie
 
-* [ configuratie van de Toepassing: haken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=nl-NL) in onze Adobe Commerce op de Gids van de Infrastructuur van de Wolk.
+* [&#x200B; configuratie van de Toepassing: haken &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=nl-NL) in onze Adobe Commerce op de Gids van de Infrastructuur van de Wolk.

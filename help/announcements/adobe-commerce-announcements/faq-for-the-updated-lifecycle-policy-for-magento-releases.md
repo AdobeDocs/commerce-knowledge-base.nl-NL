@@ -18,7 +18,7 @@ ht-degree: 0%
 Adobe Commerce biedt kwaliteitsoplossingen voor een kleine release gedurende minimaal 12 maanden vanaf de algemene beschikbaarheidsdatum van de volgende secundaire softwarerelease. De manier waarop wij in deze periode kwaliteitscorrecties aanbrengen, is aan het veranderen:
 
 * **Voorafgaand beleid:** momenteel bevestigt de kwaliteit aan de vorige lijn die in het venster van 12 maanden EOS is door onze driemaandelijkse flardversie wordt geleverd, vandaar het maken van de driemaandelijkse flarden een combinatie veiligheid + kwaliteit.
-* **Nieuw beleid:** Beginnend met 2.4 als huidigste minder belangrijke versielijn, de flarden van de versie voor de vorige gesteunde lijn (2.3) zullen zich aan veiligheid-slechts bewegen. Wij zullen nog kwaliteitsmoeilijke situaties voor de vorige gesteunde lijn tijdens het 12 maandenvenster na versie van een minder belangrijk (als 2.4) en verdere nieuwe minder belangrijke versielijnen leveren; maar die zullen door [ Hulpmiddel van de Patches van de Kwaliteit (QPT) ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) beschikbaar worden gemaakt en slechts op kritieke kwesties worden geconcentreerd.
+* **Nieuw beleid:** Beginnend met 2.4 als huidigste minder belangrijke versielijn, de flarden van de versie voor de vorige gesteunde lijn (2.3) zullen zich aan veiligheid-slechts bewegen. Wij zullen nog kwaliteitsmoeilijke situaties voor de vorige gesteunde lijn tijdens het 12 maandenvenster na versie van een minder belangrijk (als 2.4) en verdere nieuwe minder belangrijke versielijnen leveren; maar die zullen door [&#x200B; Hulpmiddel van de Patches van de Kwaliteit (QPT) &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) beschikbaar worden gemaakt en slechts op kritieke kwesties worden geconcentreerd.
 
 ## Wanneer wordt dit beleid van kracht?
 
@@ -26,7 +26,7 @@ Adobe Commerce 2.3.6 zal naar verwachting op 15 oktober 2020 worden uitgebracht 
 
 >[!NOTE]
 >
->De enige keer dat we een volledige versie van 2.3 uitbrengen, is of we onze technologiestapel moeten handhaven, zoals voor PHP of Elasticsearch. Dit gebeurt in het tweede kwartaal van 2021 met een verplichte update van PHP 7.4. We verhogen de lijn naar 2.3.7. Voor details, verwijs naar [ PHP 7.4 steun voor Adobe Commerce 2.3.x versielijn ](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post.
+>De enige keer dat we een volledige versie van 2.3 uitbrengen, is of we onze technologiestapel moeten handhaven, zoals voor PHP of Elasticsearch. Dit gebeurt in het tweede kwartaal van 2021 met een verplichte update van PHP 7.4. We verhogen de lijn naar 2.3.7. Voor details, verwijs naar [&#x200B; PHP 7.4 steun voor Adobe Commerce 2.3.x versielijn &#x200B;](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post.
 
 ## Wat is een veiligheid-slechts versie?
 
@@ -34,11 +34,11 @@ Beveiligingsreleases bevatten alleen beveiligingsoplossingen en er is geen kwali
 
 ## Zal er nog een beveiligingsuitgave zijn voor de laatste regel (vanaf de publicatie, 2.4)?
 
-Adobe zal ook voor de meest recente releaselijn alleen nog maar beveiligingsreleases hebben. Het proces voor deze wordt geschetst in [ Introducerend de Nieuwe veiligheid-slechts post DevBlog van de Versie van het Patch ](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287).
+Adobe zal ook voor de meest recente releaselijn alleen nog maar beveiligingsreleases hebben. Het proces voor deze wordt geschetst in [&#x200B; Introducerend de Nieuwe veiligheid-slechts post DevBlog van de Versie van het Patch &#x200B;](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287).
 
 ## Wat is het gereedschap Kwaliteitspatches?
 
-Gelieve te verwijzen naar het [ vrijgegeven Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitsflarden ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) in onze steunkennisbasis zelf-te dienen.
+Gelieve te verwijzen naar het [&#x200B; vrijgegeven Hulpmiddel van de Patches van de Kwaliteit: een nieuw hulpmiddel om kwaliteitsflarden &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) in onze steunkennisbasis zelf-te dienen.
 
 ## Wie zou dit nieuwe beleid moeten gebruiken?
 
@@ -50,7 +50,7 @@ Uiteindelijk moeten alle handelaren prioriteit geven aan de planning om de nieuw
 
 ## Hoe zal ik kwaliteitsmoeilijke situaties op gesteunde minder belangrijke versies krijgen die niet de recentste lijn zijn?
 
-De moeilijke situaties zullen beschikbaar via het [ Hulpmiddel van de Patches van de Kwaliteit ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) worden gemaakt.
+De moeilijke situaties zullen beschikbaar via het [&#x200B; Hulpmiddel van de Patches van de Kwaliteit &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) worden gemaakt.
 
 ## Hoe krijg ik correcties voor kwaliteit op de meest recente regel?
 
@@ -86,4 +86,4 @@ Door het toepassen van vele individuele kwaliteitsmoeilijke situaties maakt u uw
 
 Tijdens de levensduur van een releaselijn zijn er updates voor verschillende technologiestapels zoals PHP of Elasticsearch die moeten worden bijgewerkt om compatibel te blijven. We zullen onze handelaren zo veel mogelijk op de hoogte stellen van het feit dat deze komen.
 
-Opmerking: in het tweede kwartaal van 2021 moeten PHP en Redis op de 2.3.x regel worden bijgewerkt om compatibel te blijven. Hierdoor wordt de lijn tot 2.3.7 verhoogd. Voor details, verwijs naar [ PHP 7.4 steun voor Adobe Commerce 2.3.x versielijn ](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post.
+Opmerking: in het tweede kwartaal van 2021 moeten PHP en Redis op de 2.3.x regel worden bijgewerkt om compatibel te blijven. Hierdoor wordt de lijn tot 2.3.7 verhoogd. Voor details, verwijs naar [&#x200B; PHP 7.4 steun voor Adobe Commerce 2.3.x versielijn &#x200B;](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post.

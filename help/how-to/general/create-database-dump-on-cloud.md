@@ -18,7 +18,7 @@ U hoeft slechts één variant (optie) te gebruiken om uw database te dumpen. Dez
 
 ## Vereiste: SSH voor uw omgeving
 
-Om uw OB op Adobe Commerce op wolkeninfrastructuur met om het even welke die variant te dumpen in dit artikel wordt besproken, moet u eerst [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
+Om uw OB op Adobe Commerce op wolkeninfrastructuur met om het even welke die variant te dumpen in dit artikel wordt besproken, moet u eerst [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
 
 >[!WARNING]
 >
@@ -26,7 +26,7 @@ Om uw OB op Adobe Commerce op wolkeninfrastructuur met om het even welke die var
 
 ## Optie 1: db-stortplaats (**knoop-hulpmiddelen; geadviseerd**)
 
-U kunt uw OB dumpen gebruikend het [ ECE-Hulpmiddelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=nl-NL) bevel:
+U kunt uw OB dumpen gebruikend het [&#x200B; ECE-Hulpmiddelen &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=nl-NL) bevel:
 
 ```php
 vendor/bin/ece-tools db-dump
@@ -34,7 +34,7 @@ vendor/bin/ece-tools db-dump
 
 Dit is de aanbevolen en veiligste optie.
 
-Zie [ Dump uw gegevensbestand (ECE-Hulpmiddelen) ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html?lang=nl-NL) in onze Commerce op de Gids van de Infrastructuur van de Wolk.
+Zie [&#x200B; Dump uw gegevensbestand (ECE-Hulpmiddelen) &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html?lang=nl-NL) in onze Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ## Optie 2: mysqldump
 
@@ -60,5 +60,5 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 
 **Verwante documentatie:**
 
-* [ mysqldump - een Reservekopieprogramma van het Gegevensbestand ](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) in officiële documentatie MySQL.
-* [ wolkenspecifieke variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html?lang=nl-NL) (zie `MAGENTO_CLOUD_RELATIONSHIPS`) in onze Commerce op de Gids van de Infrastructuur van de Wolk.
+* [&#x200B; mysqldump - een Reservekopieprogramma van het Gegevensbestand &#x200B;](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) in officiële documentatie MySQL.
+* [&#x200B; wolkenspecifieke variabelen &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html?lang=nl-NL) (zie `MAGENTO_CLOUD_RELATIONSHIPS`) in onze Commerce op de Gids van de Infrastructuur van de Wolk.

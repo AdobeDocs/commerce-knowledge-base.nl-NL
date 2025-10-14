@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Grote MySQL-tabellen zoeken
 
-Om de grote lijsten te identificeren, verbind met het gegevensbestand zoals die in [ wordt beschreven verbind met het gegevensbestand ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/mysql#connect-to-the-database) artikel, en stel het volgende bevel in werking, waar `project_id` uw het projectidentiteitskaart van de Wolk is:
+Om de grote lijsten te identificeren, verbind met het gegevensbestand zoals die in [&#x200B; wordt beschreven verbind met het gegevensbestand &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/mysql#connect-to-the-database) artikel, en stel het volgende bevel in werking, waar `project_id` uw het projectidentiteitskaart van de Wolk is:
 
 ```sql
 SELECT TABLE_NAME AS `Table`,
@@ -25,4 +25,4 @@ Dit zou de volledige lijst van lijsten en hun grootte tonen. U kunt door de lijs
 
 ## Gerelateerde lezing
 
-[ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+[&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

@@ -22,8 +22,8 @@ Als u tegelijkertijd Adobe Commerce-processen uitvoert, kunnen er problemen optr
 ## Oorzaak
 
 Installatie-mislukt-kan-create-install.log
-Controleer de instelling voor `open_basedir` in `php.ini` . De tovenaar van de Opstelling gebruikt [ sys\_get\_temp\_dir ( void ) ](https://php.net/manual/en/function.sys-get-temp-dir.php) PHP vraag om de waarde van de tijdelijke folder te krijgen. Als [ open \_basedir ](http://php.net/manual/en/ini.core.php#ini.open-basedir) wordt geplaatst om verbindingen aan een folder te weigeren die door `sys_get_temp_dir` wordt gespecificeerd, ontbreekt de installatie.
-Controleer de instelling voor `open_basedir` in `php.ini` . De tovenaar van de Opstelling gebruikt [ sys\_get\_temp\_dir ( void ) ](https://php.net/manual/en/function.sys-get-temp-dir.php) PHP vraag om de waarde van de tijdelijke folder te krijgen. Als [ open \_basedir ](https://php.net/manual/en/ini.core.php#ini.open-basedir) wordt geplaatst om verbindingen aan een folder te weigeren die door `sys_get_temp_dir` wordt gespecificeerd, ontbreekt de installatie.
+Controleer de instelling voor `open_basedir` in `php.ini` . De tovenaar van de Opstelling gebruikt [&#x200B; sys\_get\_temp\_dir ( void ) &#x200B;](https://php.net/manual/en/function.sys-get-temp-dir.php) PHP vraag om de waarde van de tijdelijke folder te krijgen. Als [&#x200B; open \_basedir &#x200B;](http://php.net/manual/en/ini.core.php#ini.open-basedir) wordt geplaatst om verbindingen aan een folder te weigeren die door `sys_get_temp_dir` wordt gespecificeerd, ontbreekt de installatie.
+Controleer de instelling voor `open_basedir` in `php.ini` . De tovenaar van de Opstelling gebruikt [&#x200B; sys\_get\_temp\_dir ( void ) &#x200B;](https://php.net/manual/en/function.sys-get-temp-dir.php) PHP vraag om de waarde van de tijdelijke folder te krijgen. Als [&#x200B; open \_basedir &#x200B;](https://php.net/manual/en/ini.core.php#ini.open-basedir) wordt geplaatst om verbindingen aan een folder te weigeren die door `sys_get_temp_dir` wordt gespecificeerd, ontbreekt de installatie.
 
 
 ## Oplossing
@@ -32,7 +32,7 @@ Wijzig de waarde van `open_basedir` en start de webserver opnieuw om het problee
 
 Als u niet zeker bent hoe te om deze waarde te veranderen, gebruik de volgende stappen:
 
-1. Als u dit nog niet hebt gedaan, creeer [ phpinfo.php ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/optional-software).
+1. Als u dit nog niet hebt gedaan, creeer [&#x200B; phpinfo.php &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/optional-software).
 1. Voer de volgende URL in het adres- of locatieveld van uw browser in: `https://<your web server IP or hostname>/<path to docroot>/phpinfo.php`
 1. Zoek de locatie van `php.ini` .     `php.ini` wordt typisch gespecificeerd als **Geladen Dossier van de Configuratie** in de getoonde resultaten.
 1. Open `php.ini` als gebruiker met rootrechten in een teksteditor.

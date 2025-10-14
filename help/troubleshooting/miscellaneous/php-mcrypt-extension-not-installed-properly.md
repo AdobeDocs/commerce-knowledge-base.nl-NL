@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->GELIEVE NOTA TE NEMEN: De crypt bibliotheekeigenschap was [ afgekeurd van PHP 7.1 en werd verwijderd uit PHP 7.2 ](https://www.php.net/manual/en/intro.mcrypt.php).
+>GELIEVE NOTA TE NEMEN: De crypt bibliotheekeigenschap was [&#x200B; afgekeurd van PHP 7.1 en werd verwijderd uit PHP 7.2 &#x200B;](https://www.php.net/manual/en/intro.mcrypt.php).
 
 ## Detail
 
@@ -60,4 +60,4 @@ Als crypt *niet* geïnstalleerd is, berichten gelijkend op de volgende vertoning
 PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory in Unknown on line 0
 ```
 
-In sommige gevallen, zou u de software van Adobe Commerce van de [ bevellijn ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/advanced) kunnen moeten installeren en de volledige weg aan de stapel specificeren van de LAMP die geïnstalleerde crypt heeft.
+In sommige gevallen, zou u de software van Adobe Commerce van de [&#x200B; bevellijn &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/advanced) kunnen moeten installeren en de volledige weg aan de stapel specificeren van de LAMP die geïnstalleerde crypt heeft.

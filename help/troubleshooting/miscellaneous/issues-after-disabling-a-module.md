@@ -30,6 +30,6 @@ Het onbruikbaar maken van een moduleoutput onder **Slaat** > **Montages** > **Co
 
 ## Oplossing
 
-Als u modulefunctionaliteit moet onbruikbaar maken, maak de module zoals die in [ wordt beschreven toe of onbruikbaar maakt modules ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/manage-modules) in onze ontwikkelaarsdocumentatie.
+Als u modulefunctionaliteit moet onbruikbaar maken, maak de module zoals die in [&#x200B; wordt beschreven toe of onbruikbaar maakt modules &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/manage-modules) in onze ontwikkelaarsdocumentatie.
 
 De functie voor het uitschakelen van de module-uitvoer is verwijderd vanaf versie 2.2.0.

@@ -17,7 +17,7 @@ Tijdens het hoogtepunt van de vakantieverkoop (ongeveer half-november door half-
 
 **Planning en het Schatten van Verkeer**
 
-Wij adviseren dat alle verkopers van Adobe Commerce op onze wolkeninfrastructuur [ deze reeks aanbevelingen op gebruiken hoe te om piekseizoensverkeer ](https://business.adobe.com/blog/how-to/the-5-ps-of-peak-season-performance-a-guide-to-preparing-your-infrastructure-for-high-traffic) voor het piekvakantieverkoopseizoen elk jaar te schatten.
+Wij adviseren dat alle verkopers van Adobe Commerce op onze wolkeninfrastructuur [&#x200B; deze reeks aanbevelingen op gebruiken hoe te om piekseizoensverkeer &#x200B;](https://business.adobe.com/blog/how-to/the-5-ps-of-peak-season-performance-a-guide-to-preparing-your-infrastructure-for-high-traffic) voor het piekvakantieverkoopseizoen elk jaar te schatten.
 
 Als u de aanbevolen schatting hebt voltooid en uw team datums heeft vastgesteld waarvoor u extra capaciteit nodig hebt, gaat u verder naar de volgende stap voor informatie over hoe u om piekcapaciteit kunt vragen.
 
@@ -34,20 +34,20 @@ De volgende informatie is beschikbaar voor elk resize verzoek:
 
 **het verzoeken van de Capaciteit van de Opstuwing**
 
-De handelaren van Adobe Commerce op onze wolkeninfrastructuur die een behoefte aan extra capaciteit tijdens het vakantieseizoen voorzien [ een Ticket van de Steun van de Capaciteit van de Opkomst ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html?lang=nl-NL) via ons [ Centrum van de Hulp ](/help/overview.md), die op de data en de verwachte capaciteitsbehoeften binnen het kaartje wijzen. Houd er rekening mee dat voor een verhoogde capaciteit gebruik moet worden gemaakt van uw gelicentieerde overcapaciteit.
+De handelaren van Adobe Commerce op onze wolkeninfrastructuur die een behoefte aan extra capaciteit tijdens het vakantieseizoen voorzien [&#x200B; een Ticket van de Steun van de Capaciteit van de Opkomst &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html?lang=nl-NL) via ons [&#x200B; Centrum van de Hulp &#x200B;](/help/overview.md), die op de data en de verwachte capaciteitsbehoeften binnen het kaartje wijzen. Houd er rekening mee dat voor een verhoogde capaciteit gebruik moet worden gemaakt van uw gelicentieerde overcapaciteit.
 
 **wij adviseren het voorleggen van deze kaartjes minstens 48 bedrijfsuren voorafgaand aan wanneer de capaciteit nodig is; en adviseren daarnaast dat de verzoeken om de zwarte vrijdag/de periode van Cyber Maandag zo ver mogelijk worden geplaatst, aangezien de capaciteit tijdens deze periode beperkt is.**
 
 
 **Meer Hulp?**
 
-Hebt u meer begeleiding nodig bij de voorbereiding op piekverkeer? Adobe Commerce-verkopers op onze cloudinfrastructuur kunnen contact opnemen met hun accountteam voor Adobe voor hulp, strategie en planningstips voor het voorbereiden van een succesvol piekseizoen. Wij adviseren ook controlerend het [ Blog van het Magento ](https://magento.com/blog) voor strategieuiteinden jaar-rond.
+Hebt u meer begeleiding nodig bij de voorbereiding op piekverkeer? Adobe Commerce-verkopers op onze cloudinfrastructuur kunnen contact opnemen met hun accountteam voor Adobe voor hulp, strategie en planningstips voor het voorbereiden van een succesvol piekseizoen. Wij adviseren ook controlerend het [&#x200B; Blog van het Magento &#x200B;](https://magento.com/blog) voor strategieuiteinden jaar-rond.
 
 ## Bronnen voor het evalueren van uw capaciteit
 
 In onze kennisbasis voor ondersteuning:
 
-* [ de toewijzingsberekening van cpu voor Adobe Commerce op wolk ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html?lang=nl-NL)
-* [ Controle als de upsize voor de instanties van de gastheer voor Adobe Commerce op wolk ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html?lang=nl-NL) nodig is
-* [ de configuratie van cpu van de controlegastheer voor Adobe Commerce op wolk ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html?lang=nl-NL)
-* [ identificeer en meet stroomonderbrekingen voor Adobe Commerce op wolk ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html?lang=nl-NL)
+* [&#x200B; de toewijzingsberekening van cpu voor Adobe Commerce op wolk &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html?lang=nl-NL)
+* [&#x200B; Controle als de upsize voor de instanties van de gastheer voor Adobe Commerce op wolk &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html?lang=nl-NL) nodig is
+* [&#x200B; de configuratie van cpu van de controlegastheer voor Adobe Commerce op wolk &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html?lang=nl-NL)
+* [&#x200B; identificeer en meet stroomonderbrekingen voor Adobe Commerce op wolk &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html?lang=nl-NL)

@@ -19,7 +19,7 @@ Dit artikel biedt een oplossing voor het opwarmen van de paginacache en het misl
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op wolkeninfrastructuur, alle [&#x200B; gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 
@@ -47,5 +47,5 @@ Zorg ervoor dat u geen toegelaten toegangsbeheer hebt: ga naar de specifieke tak
 
 ## Gerelateerde lezing
 
-* [ de Gids van de Gebruiker van Adobe Commerce > het Geheime voorgeheugen van de Volledige Pagina ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management#full-page-caching) in onze gebruikersgids.
-* [ Geheime voorgeheugen opwarmt en plaats niet beschikbaar op Adobe Commerce ](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) in onze basis van de steunkennis.
+* [&#x200B; de Gids van de Gebruiker van Adobe Commerce > het Geheime voorgeheugen van de Volledige Pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management#full-page-caching) in onze gebruikersgids.
+* [&#x200B; Geheime voorgeheugen opwarmt en plaats niet beschikbaar op Adobe Commerce &#x200B;](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) in onze basis van de steunkennis.

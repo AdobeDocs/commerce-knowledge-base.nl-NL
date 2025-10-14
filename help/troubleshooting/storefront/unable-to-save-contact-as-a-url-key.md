@@ -63,5 +63,5 @@ Voer de volgende stappen uit:
 
 ## Gerelateerde lezing
 
-* [ URL herschrijft ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) in onze gebruikersgids.
-* [ SEO Beste praktijken ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/seo-overview) in onze gebruikersgids.
+* [&#x200B; URL herschrijft &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) in onze gebruikersgids.
+* [&#x200B; SEO Beste praktijken &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/seo-overview) in onze gebruikersgids.

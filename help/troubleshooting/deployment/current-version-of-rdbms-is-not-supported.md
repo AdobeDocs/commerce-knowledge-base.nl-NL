@@ -45,12 +45,12 @@ Uw versie van MariaDB is niet compatibel met de versie van Adobe Commerce waarna
 U moet de MariaDB-service upgraden naar een compatibele versie voordat u de toepassing upgradet.
 
 
-Voor de integratietak op Adobe Commerce op de architectuur van het plan van de wolkeninfrastructuur Pro (en alle takken in de architectuur van de Aanzet) te volgen gelieve [ de Dienst ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/services-yaml) in onze ontwikkelaarsdocumentatie te vormen.
+Voor de integratietak op Adobe Commerce op de architectuur van het plan van de wolkeninfrastructuur Pro (en alle takken in de architectuur van de Aanzet) te volgen gelieve [&#x200B; de Dienst &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/services-yaml) in onze ontwikkelaarsdocumentatie te vormen.
 
-Voor het Staging en de Productie op Adobe Commerce op de architectuur van het Pro plan van de wolkeninfrastructuur, gelieve [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor te leggen om te verzoeken dat de diensten worden bevorderd alvorens u de versie van Adobe Commerce opstelt.
+Voor het Staging en de Productie op Adobe Commerce op de architectuur van het Pro plan van de wolkeninfrastructuur, gelieve [&#x200B; een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voor te leggen om te verzoeken dat de diensten worden bevorderd alvorens u de versie van Adobe Commerce opstelt.
 
 
 ## Gerelateerde lezing
 
-* [ Beste praktijken voor bouwt en plaatsing ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices) in onze ontwikkelaarsdocumentatie.
-* [ Adobe Commerce 2.3.5 verbetering: compact aan dynamische lijsten ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=nl-NL) in onze steun knowlegde basis.
+* [&#x200B; Beste praktijken voor bouwt en plaatsing &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; Adobe Commerce 2.3.5 verbetering: compact aan dynamische lijsten &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=nl-NL) in onze steun knowlegde basis.

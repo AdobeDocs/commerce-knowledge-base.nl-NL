@@ -17,7 +17,7 @@ Dit artikel biedt een oplossing voor het probleem dat nieuwe omgevingen onder de
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce op wolkeninfrastructuur, [&#x200B; alle gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Probleem
 
@@ -47,7 +47,7 @@ Dit is geen bug. Voor het plaatsen van een oudertak voor een andere tak, zou de 
 
 ## Oplossing
 
-Een bovenliggende vertakking kan alleen worden ingesteld nadat de handelaar een nieuwe vertakking heeft geduwd en geactiveerd. Verwijs naar [ Adobe Commerce op wolkeninfrastructuur > integratie Bitbucket ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch) in onze ontwikkelaarsdocumentatie.
+Een bovenliggende vertakking kan alleen worden ingesteld nadat de handelaar een nieuwe vertakking heeft geduwd en geactiveerd. Verwijs naar [&#x200B; Adobe Commerce op wolkeninfrastructuur > integratie Bitbucket &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch) in onze ontwikkelaarsdocumentatie.
 
 Als u een bovenliggend item voor de bestaande vertakking op de server wilt bijwerken, gebruikt u de opdracht `magento-cloud environment:info` in de magento-cloud-CLI.
 
@@ -59,4 +59,4 @@ Hierdoor wordt de bovenliggende vertakking ingesteld op &quot;Staging&quot; voor
 
 ## Gerelateerde lezing
 
-* [ Adobe Commerce op wolkeninfrastructuur > magento-wolk CLI ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; Adobe Commerce op wolkeninfrastructuur > magento-wolk CLI &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in onze ontwikkelaarsdocumentatie.

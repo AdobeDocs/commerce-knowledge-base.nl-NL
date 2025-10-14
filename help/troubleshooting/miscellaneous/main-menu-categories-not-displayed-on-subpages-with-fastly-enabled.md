@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Hoofdmenu (Categorieën) wordt niet weergegeven op subpagina&#39;s waarvoor Snelheid is ingeschakeld
 
-Dit artikel verstrekt een moeilijke situatie voor wanneer het Belangrijkste Menu (of het [ menu van de Navigatie van de Categorie Hoogste ](/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in onze gebruikersgids) niet op opslag voor subpagina&#39;s (bijvoorbeeld, *blog/pagina*) wordt getoond wanneer de Fastly of Varnish wordt toegelaten.
+Dit artikel verstrekt een moeilijke situatie voor wanneer het Belangrijkste Menu (of het [&#x200B; menu van de Navigatie van de Categorie Hoogste &#x200B;](/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in onze gebruikersgids) niet op opslag voor subpagina&#39;s (bijvoorbeeld, *blog/pagina*) wordt getoond wanneer de Fastly of Varnish wordt toegelaten.
 
 **Oorzaak:** het niet-toegelaten `/` karakter (schuine streep) in de *Zeer belangrijke URL* parameter van de pagina (de montages van de Optimalisering van de Motor van het Onderzoek). Het karakter wordt gewoonlijk toegevoegd wanneer *Weg URL* (met volledige paginalocatie) incorrect in plaats van *Sleutel URL* wordt gespecificeerd: bijvoorbeeld, *blog/pagina\_name* in plaats van enkel *pagina\_name*.
 
@@ -27,7 +27,7 @@ Dit artikel verstrekt een moeilijke situatie voor wanneer het Belangrijkste Menu
 
 ## Probleem
 
-Het Belangrijkste Menu (die ook als het [ Belangrijkste menu van de Navigatie van de Categorie ](/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in onze gebruikersgids wordt bedoeld) wordt niet getoond op opslag voor subpages wanneer de Fastly of andere op varens-Gebaseerde diensten worden toegelaten.
+Het Belangrijkste Menu (die ook als het [&#x200B; Belangrijkste menu van de Navigatie van de Categorie &#x200B;](/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in onze gebruikersgids wordt bedoeld) wordt niet getoond op opslag voor subpages wanneer de Fastly of andere op varens-Gebaseerde diensten worden toegelaten.
 
 ## Oorzaak
 
@@ -35,7 +35,7 @@ De kwestie wordt veroorzaakt door het niet-toegelaten `/` karakter (schuine stre
 
 Het karakter wordt gewoonlijk toegevoegd wanneer *Weg URL* (met volledige paginalocatie, met inbegrip van het oudermiddel/de folder van de pagina) incorrect in plaats van *Sleutel URL* wordt gespecificeerd: bijvoorbeeld, *blog/pagina\_name* in plaats van enkel *pagina \_name*.
 
-![ Zeer belangrijke parameter URL voor montages SEO ](assets/seo_url_key.png)
+![&#x200B; Zeer belangrijke parameter URL voor montages SEO &#x200B;](assets/seo_url_key.png)
 
 ## Oplossing
 
@@ -47,7 +47,7 @@ Met andere woorden, gebruik *Sleutel URL* in plaats van *Weg URL*: vermeld enkel
 
 Om de paginahiërarchie te plaatsen, gebruik de **sectie van de Hiërarchie** van het Edit menu van de Pagina.
 
-![ de montages van de Hiërarchie ](assets/hierarchy_hr.png)
+![&#x200B; de montages van de Hiërarchie &#x200B;](assets/hierarchy_hr.png)
 
 U kunt ook de **Inhoud** > **Elementen** > **Hiërarchie** menu - voor complexere hiërarchieoplossingen gebruiken.
 

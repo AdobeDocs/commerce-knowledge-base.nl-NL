@@ -31,9 +31,9 @@ De catalogusgegevens zijn niet correct gesynchroniseerd of er is een nieuw produ
 
 <u> Stappen om te reproduceren </u>
 
-1. Vorm en verbind Levende Onderzoek voor uw instantie van Adobe Commerce zoals die in [ wordt beschreven installeer Levende Onderzoek > vormen API sleutels ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL#configure-api-keys) in onze gebruikersdocumentatie.
-1. Na 30 minuten, verifieer de uitgevoerde catalogusgegevens zoals die in [ worden beschreven installeer Levende Onderzoek > verifieer de uitvoer ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL#verify-export) in onze gebruikersdocumentatie.
-1. Na 30 minuten, test de verbinding zoals die in [ wordt beschreven installeer Levende Onderzoek > test de verbinding ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL#test-connection) in onze gebruikersdocumentatie.
+1. Vorm en verbind Levende Onderzoek voor uw instantie van Adobe Commerce zoals die in [&#x200B; wordt beschreven installeer Levende Onderzoek > vormen API sleutels &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL#configure-api-keys) in onze gebruikersdocumentatie.
+1. Na 30 minuten, verifieer de uitgevoerde catalogusgegevens zoals die in [&#x200B; worden beschreven installeer Levende Onderzoek > verifieer de uitvoer &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL#verify-export) in onze gebruikersdocumentatie.
+1. Na 30 minuten, test de verbinding zoals die in [&#x200B; wordt beschreven installeer Levende Onderzoek > test de verbinding &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL#test-connection) in onze gebruikersdocumentatie.
 
 of
 
@@ -80,7 +80,7 @@ Als uw productgegevens niet correct voor een specifieke SKU worden gesynchronise
    bin/magento indexer:reindex cde_products_feed
    ```
 
-1. Als u nog niet de correcte gegevens ziet, [ creeer een kaartje van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Als u nog niet de correcte gegevens ziet, [&#x200B; creeer een kaartje van de Steun &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Tijdstempel controleren van laatste export van product
 
@@ -96,7 +96,7 @@ Als uw productgegevens niet correct voor een specifieke SKU worden gesynchronise
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. Wacht op `<>` tijd (tijd voor stijgende updates). Als u nog niet uw gegevens ziet, [ creeer een kaartje van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Wacht op `<>` tijd (tijd voor stijgende updates). Als u nog niet uw gegevens ziet, [&#x200B; creeer een kaartje van de Steun &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Specifieke kenmerkcode synchroniseren
 
@@ -114,7 +114,7 @@ Als de gegevens van uw productkenmerk niet correct zijn gesynchroniseerd voor ee
    bin/magento indexer:reindex cde_product_attributes_feed
    ```
 
-1. Als u nog niet de correcte gegevens ziet, [ creeer een kaartje van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Als u nog niet de correcte gegevens ziet, [&#x200B; creeer een kaartje van de Steun &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Tijdstempel controleren van laatste export van productkenmerk
 
@@ -132,7 +132,7 @@ Als u de juiste gegevens ziet in `cde_product_attributes_feed` :
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. Wacht 15-20 minuten (tijd voor incrementele updates). Als u nog niet uw gegevens ziet, gelieve [ een kaartje van de Steun ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) creëren.
+1. Wacht 15-20 minuten (tijd voor incrementele updates). Als u nog niet uw gegevens ziet, gelieve [&#x200B; een kaartje van de Steun &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) creëren.
 
 ### Synchroniseren na wijziging van API-configuratie
 
@@ -150,13 +150,13 @@ bin/magento saas:resync --feed categories --cleanup-feed
 bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
-[ leg een steunverzoek ](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support) voor om herdex van de Levende index van het Onderzoek te verzoeken. Neem in de beschrijving van de uitgave de ID Gegevensruimte/Omgeving op in het deelvenster Beheer onder **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** .
+[&#x200B; leg een steunverzoek &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support) voor om herdex van de Levende index van het Onderzoek te verzoeken. Neem in de beschrijving van de uitgave de ID Gegevensruimte/Omgeving op in het deelvenster Beheer onder **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** .
 
 >[!IMPORTANT]
->Als u in andere gevallen de optie `--cleanup-feed` gebruikt, kunnen er problemen met gegevensverlies en gegevenssynchronisatie optreden.  Gebruik het slechts wanneer u een nieuw, leeg milieu hebt, nadat het team van Adobe een opschoonverrichting van de gegevensruimte heeft voltooid, of wanneer u het `saas:resync` bevel met [ - droog-looppas ](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) optie in werking stelt. Als u in andere gevallen de optie `--cleanup-feed` gebruikt, kunnen er problemen met gegevensverlies en gegevenssynchronisatie optreden.
+>Als u in andere gevallen de optie `--cleanup-feed` gebruikt, kunnen er problemen met gegevensverlies en gegevenssynchronisatie optreden.  Gebruik het slechts wanneer u een nieuw, leeg milieu hebt, nadat het team van Adobe een opschoonverrichting van de gegevensruimte heeft voltooid, of wanneer u het `saas:resync` bevel met [&#x200B; - droog-looppas &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) optie in werking stelt. Als u in andere gevallen de optie `--cleanup-feed` gebruikt, kunnen er problemen met gegevensverlies en gegevenssynchronisatie optreden.
 
 ## Gerelateerde lezing
 
-* [ Levend Onderzoek van de Bord ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=nl-NL) in onze gebruikersdocumentatie
-* [ Logboeken van het Overzicht en los de gegevensuitvoer en synchronisatie van Adobe Commerce SaaS ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in de Gids van de Uitvoer van Gegevens van Adobe Commerce SaaS problemen op
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [&#x200B; Levend Onderzoek van de Bord &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=nl-NL) in onze gebruikersdocumentatie
+* [&#x200B; Logboeken van het Overzicht en los de gegevensuitvoer en synchronisatie van Adobe Commerce SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in de Gids van de Uitvoer van Gegevens van Adobe Commerce SaaS problemen op
+* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

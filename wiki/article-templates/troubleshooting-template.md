@@ -14,7 +14,7 @@ ht-degree: 0%
 In de titel wordt het probleem kort beschreven. Maximaal 70 tekens hebben de voorkeur.<br/>
 (Voorbeeld: &quot;Onvoldoende geheugen tijdens installatie of upgrade&quot;.)
 
-Zie [ het Bijdragen > Meta-gegevens ](../../CONTRIBUTING.md#metadata) voor extra informatie over meta-gegevens.
+Zie [&#x200B; het Bijdragen > Meta-gegevens &#x200B;](../../CONTRIBUTING.md#metadata) voor extra informatie over meta-gegevens.
 
 Paragraaf of twee alinea&#39;s beginnen: een kort overzicht van de kwestie. De eerste 140 tekens zijn belangrijk voor SEO-doeleinden.
 
@@ -67,7 +67,7 @@ Als er een tijdelijke oplossing is, geeft u deze hieronder op als een aparte sec
 
 ## Gerelateerde lezing
 
-* [ onderwerp van het Artikel ](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home) in onze gebruikersgids.
-* [ onderwerp van het Artikel ](https://developer.adobe.com/commerce/docs/) in onze ontwikkelaarsdocumentatie. U kunt ook zeggen om tussen instructies in apparaten voor wolk vs op-gebouw gebruikers te onderscheiden: &quot;[ het onderwerp van het Artikel ](https://developer.adobe.com/commerce/docs/) in onze ontwikkelaarsdocumentatie voor Adobe Commerce op wolkeninfrastructuur.&quot; vs &quot;[ onderwerp van het Artikel ](https://developer.adobe.com/commerce/docs/) in onze ontwikkelaarsdocumentatie voor Adobe Commerce op-gebouw.&quot;
-* [ onderwerp van het Artikel ](https://support.magento.com/hc/en-us) in onze basis van steunkennis.
+* [&#x200B; onderwerp van het Artikel &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home) in onze gebruikersgids.
+* [&#x200B; onderwerp van het Artikel &#x200B;](https://developer.adobe.com/commerce/docs/) in onze ontwikkelaarsdocumentatie. U kunt ook zeggen om tussen instructies in apparaten voor wolk vs op-gebouw gebruikers te onderscheiden: &quot;[&#x200B; het onderwerp van het Artikel &#x200B;](https://developer.adobe.com/commerce/docs/) in onze ontwikkelaarsdocumentatie voor Adobe Commerce op wolkeninfrastructuur.&quot; vs &quot;[&#x200B; onderwerp van het Artikel &#x200B;](https://developer.adobe.com/commerce/docs/) in onze ontwikkelaarsdocumentatie voor Adobe Commerce op-gebouw.&quot;
+* [&#x200B; onderwerp van het Artikel &#x200B;](https://support.magento.com/hc/en-us) in onze basis van steunkennis.
 * Alle gerelateerde bronnen (blogs, forums, StackOverflow, enz.)

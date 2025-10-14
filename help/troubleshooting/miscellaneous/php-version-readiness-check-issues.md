@@ -17,7 +17,7 @@ In dit artikel wordt gesproken over de oplossingen voor de PHP-versieproblemen d
 
 >[!WARNING]
 >
->In Adobe Commerce op cloudinfrastructuur kan een upgrade van de service niet naar de productieomgeving worden uitgevoerd zonder dat het infrastructuurteam hiervan 48 kantooruren op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn [ een steunkaartje ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen detailend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
+>In Adobe Commerce op cloudinfrastructuur kan een upgrade van de service niet naar de productieomgeving worden uitgevoerd zonder dat het infrastructuurteam hiervan 48 kantooruren op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn [&#x200B; een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen detailend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
 
 ## Betrokken producten en versies
 
@@ -32,18 +32,18 @@ De controle mislukt omdat je een niet-ondersteunde PHP versie gebruikt.
 
 ### Oplossing
 
-Om deze kwestie op te lossen, gebruik één van de gesteunde versies die in onze ontwikkelaarsdocumentatie [ worden vermeld 2.3.x de Vereisten van het Systeem ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements) en [ 2.2.x de Vereisten van het Systeem ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements).
+Om deze kwestie op te lossen, gebruik één van de gesteunde versies die in onze ontwikkelaarsdocumentatie [&#x200B; worden vermeld 2.3.x de Vereisten van het Systeem &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements) en [&#x200B; 2.2.x de Vereisten van het Systeem &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements).
 
 ## Controle van gereedheid voor PHP wordt niet weergegeven
 
 ### Probleem
 
 De PHP gereedheidscontrole geeft de PHP versie niet weer zoals de volgende afbeelding laat zien.
-![ upgr-tshoot-no-cron.png ](assets/upgr-tshoot-no-cron.png)
+![&#x200B; upgr-tshoot-no-cron.png &#x200B;](assets/upgr-tshoot-no-cron.png)
 
 ### Oplossing
 
-Dit is een symptoom van een onjuiste installatie van de snijtaak. Voor meer informatie, zie [ banen van de opstelling cron ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/next-steps/configuration) in onze ontwikkelaarsdocumentatie.
+Dit is een symptoom van een onjuiste installatie van de snijtaak. Voor meer informatie, zie [&#x200B; banen van de opstelling cron &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/next-steps/configuration) in onze ontwikkelaarsdocumentatie.
 
 ## Onjuiste PHP-versie
 
@@ -62,7 +62,7 @@ Ga als volgt te werk om het probleem op te lossen:
 * Start de webserver of php-fm opnieuw.
 * Controleer de omgevingsvariabele `$PATH` voor meerdere paden naar PHP.
 * Gebruik de opdracht `which php` om het eerste uitvoerbare PHP-bestand op te zoeken in uw pad. Als dit niet juist is, verwijdert u het of maakt u een symlink naar de juiste PHP-versie.
-* Gebruik een [`phpinfo.php` ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/optional-software) pagina om meer informatie te verzamelen.
+* Gebruik een [`phpinfo.php` &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/optional-software) pagina om meer informatie te verzamelen.
 * Zorg ervoor dat u een ondersteunde PHP-versie gebruikt volgens onze systeemvereisten, in de documentatie voor ontwikkelaars:
-   * [ Vereisten van het Systeem van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements)
-* Plaats de zelfde PHP montages voor zowel PHP bevellijn als PHP Webserver stop-binnen zoals die in [ PHP configuratieopties ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements#php-settings) in onze ontwikkelaarsdocumentatie wordt besproken.
+   * [&#x200B; Vereisten van het Systeem van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements)
+* Plaats de zelfde PHP montages voor zowel PHP bevellijn als PHP Webserver stop-binnen zoals die in [&#x200B; PHP configuratieopties &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/system-requirements#php-settings) in onze ontwikkelaarsdocumentatie wordt besproken.

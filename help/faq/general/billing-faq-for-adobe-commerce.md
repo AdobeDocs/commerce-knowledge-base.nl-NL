@@ -28,7 +28,7 @@ We weten dat er soms factureringsproblemen ontstaan, en wanneer dat gebeurt, is 
 
 Deze betalingsmethode geldt voor handelaren met een vergunning op locatie en/of driemaandelijkse facturering, halfjaarlijkse facturering en jaarlijkse facturering. Als u in een van deze categorieën valt, volgt u de onderstaande instructies:
 
-1. Klik [ hier ](https://account.magento.com/customer/account/login) aan login.
+1. Klik [&#x200B; hier &#x200B;](https://account.magento.com/customer/account/login) aan login.
 
 1. Gebruik uw referenties om toegang te krijgen tot uw account. **slechts kan de primaire rekeninghouder tot de betalingssectie van uw rekening toegang hebben.**
 
@@ -40,7 +40,7 @@ Deze betalingsmethode geldt voor handelaren met een vergunning op locatie en/of 
    >
    >Wij aanvaarden gedeeltelijke creditcard of PayPal geen betalingen-door de **eigenschap van het nu betalen van het Betalen** te gebruiken, gaat u ermee akkoord om voor de volledige factuurhoeveelheid(en) worden in rekening gebracht.
 
-1. Als u een fout ontmoet of om het even welke vragen betreffende **betaal nu** eigenschap, gelieve contact [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com) voor verdere hulp.
+1. Als u een fout ontmoet of om het even welke vragen betreffende **betaal nu** eigenschap, gelieve contact [&#x200B; magentocreditcollections@adobe.com &#x200B;](mailto:magentocreditcollections@adobe.com) voor verdere hulp.
 
 ### Autopay-up {#cc-autopay}
 
@@ -50,7 +50,7 @@ Deze betalingsmethode geldt voor handelaren met maandelijkse facturering (behalv
 >
 >Als u momenteel het **betalen** bezit gebruikt en een terugkomende betaling via de automatische incasso zou willen opzetten, gelieve uw Team van de Rekening van de Adobe voor verdere hulp te contacteren.
 
-1. Klik [ hier ](https://account.magento.com/customer/account/login) aan login.
+1. Klik [&#x200B; hier &#x200B;](https://account.magento.com/customer/account/login) aan login.
 
 1. Gebruik uw referenties om toegang te krijgen tot uw account. Alleen de primaire rekeninghouder kan toegang krijgen tot de betalingssectie van uw account.
 
@@ -64,7 +64,7 @@ Deze betalingsmethode geldt voor handelaren met maandelijkse facturering (behalv
    >
    >Zodra u **sparen** klikt zullen alle open/onbetaalde facturen volledig in rekening worden gebracht.
 
-1. Als u een fout ontmoet of om het even welke vragen betreffende de **Autopay** eigenschap hebt, gelieve contact [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com) voor verdere hulp.
+1. Als u een fout ontmoet of om het even welke vragen betreffende de **Autopay** eigenschap hebt, gelieve contact [&#x200B; magentocreditcollections@adobe.com &#x200B;](mailto:magentocreditcollections@adobe.com) voor verdere hulp.
 
 ### Veelgestelde vragen
 
@@ -86,7 +86,7 @@ Deze betalingsmethode geldt voor handelaren met maandelijkse facturering (behalv
 **Q:** ik heb een kaartopstelling voor de automatische peiling, maar het is verlopen. Hoe kan ik een nieuwe automatische betaalkaart toevoegen?<br>
 **A:** om een nieuwe kaart toe te voegen, gelieve door de hierboven vermelde opstellingsstappen van de automatische slachting te gaan. Deze stappen voor het werk voor eerste opstelling en voor het toevoegen van nieuwe kaarten.
 
-Als u door deze instructies bent gegaan, maar geen last op uw kaart/rekening binnen 30 minuten hebt gezien, gelieve te contacteren: [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com).
+Als u door deze instructies bent gegaan, maar geen last op uw kaart/rekening binnen 30 minuten hebt gezien, gelieve te contacteren: [&#x200B; magentocreditcollections@adobe.com &#x200B;](mailto:magentocreditcollections@adobe.com).
 
 
 ## Rechten
@@ -95,26 +95,26 @@ Met rechten kunt u tickets verzenden, modules downloaden en toegang krijgen tot 
 
 Hier volgen de stappen om te controleren of uw betalingen up-to-date zijn:
 
-1. Heb het Primaire Logboek van de Eigenaar van de Rekening in rekening [ https://account.magento.com ](https://account.magento.com) en navigeer aan de factuursectie.
+1. Heb het Primaire Logboek van de Eigenaar van de Rekening in rekening [&#x200B; https://account.magento.com &#x200B;](https://account.magento.com) en navigeer aan de factuursectie.
 1. Controleer of er geen openstaande facturen zijn. Zodra een factuur één dag achterstallig is, worden de rechten tijdelijk uitgeschakeld totdat alle facturen zijn betaald.
 1. Als je een onbetaalde factuur hebt, moet je deze zo snel mogelijk betalen. Dit gebeurt snel via een CC en er wordt gecontroleerd of een CC is ingesteld op het bestand. Zodra de Adobe de betaling heeft ontvangen, komen uw rechten terug op dezelfde dag als waarop de betaling is ontvangen.
-1. Als u onzeker bent of zijn uw facturen betaald, of u hebt betaling verzonden, en onzeker bent of is het ontvangen, gelieve de Inzamelingen van de Krediet van het Magento [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com) te e-mailen.
+1. Als u onzeker bent of zijn uw facturen betaald, of u hebt betaling verzonden, en onzeker bent of is het ontvangen, gelieve de Inzamelingen van de Krediet van het Magento [&#x200B; magentocreditcollections@adobe.com &#x200B;](mailto:magentocreditcollections@adobe.com) te e-mailen.
 
-**als u geen onbetaalde facturen hebt, gelieve een steunkaartje tot stand te brengen door [ helpcenterloginissues@magento.com ](mailto:helpcenterloginissues@magento.com) te e-mailen en zeker te zijn om [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com) in CC te zetten: lijn.**
+**als u geen onbetaalde facturen hebt, gelieve een steunkaartje tot stand te brengen door [&#x200B; helpcenterloginissues@magento.com &#x200B;](mailto:helpcenterloginissues@magento.com) te e-mailen en zeker te zijn om [&#x200B; magentocreditcollections@adobe.com &#x200B;](mailto:magentocreditcollections@adobe.com) in CC te zetten: lijn.**
 
 ## Toegang/betaling van facturen
 
 Alleen de primaire rekeninghouder kan toegang krijgen tot het gedeelte betaling/factuur van zijn rekening.
-Login aan [ https://account.magento.com ](https://account.magento.com), dan kies de **Producten en de Diensten** > *Uw Specifiek Gekochte Product* > kiezen **nu** naast de juiste factuur betalen, of kies de factuur.
+Login aan [&#x200B; https://account.magento.com &#x200B;](https://account.magento.com), dan kies de **Producten en de Diensten** > *Uw Specifiek Gekochte Product* > kiezen **nu** naast de juiste factuur betalen, of kies de factuur.
 
-De eerste stap is het herzien van uw contract. De meeste van deze gegevens zijn opgenomen in uw contract. Als u vragen hebt die niet in uw contract staan, kunt u betalingen/facturen controleren bij onze factureringsteams.  E-mail: [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com), en zij zullen bereid zijn om te verduidelijken en bij te staan.
+De eerste stap is het herzien van uw contract. De meeste van deze gegevens zijn opgenomen in uw contract. Als u vragen hebt die niet in uw contract staan, kunt u betalingen/facturen controleren bij onze factureringsteams.  E-mail: [&#x200B; magentocreditcollections@adobe.com &#x200B;](mailto:magentocreditcollections@adobe.com), en zij zullen bereid zijn om te verduidelijken en bij te staan.
 
 **Terugbetaling van de Betaling**, is het altijd op de bodem van uw factuur.
 
 * We kunnen alleen creditcardbetalingen accepteren van minder dan 75.000 dollar.
-* **Merchants op maandelijkse facturering moeten via creditcard op automatische incasso betalen.** [ zie de sectie van de Autobus van CC ](#cc-autopay).
+* **Merchants op maandelijkse facturering moeten via creditcard op automatische incasso betalen.** [&#x200B; zie de sectie van de Autobus van CC &#x200B;](#cc-autopay).
 * Handelaren op kwartaal-, halfjaarlijks en jaarbasis kunnen betalen via een creditcard, maar dit moet handmatig gebeuren door de handelaar.
 
 ## Aanvullende factureringscontactpersonen
 
-Als u een andere het factureren contactopstelling nodig hebt, te bereiken gelieve uit aan de Inzamelingen van de Krediet van het Magento [ magentocreditcollections@adobe.com ](mailto:magentocreditcollections@adobe.com), en hen te vertellen de naam en e-mail van de contacten die moeten worden toegevoegd.
+Als u een andere het factureren contactopstelling nodig hebt, te bereiken gelieve uit aan de Inzamelingen van de Krediet van het Magento [&#x200B; magentocreditcollections@adobe.com &#x200B;](mailto:magentocreditcollections@adobe.com), en hen te vertellen de naam en e-mail van de contacten die moeten worden toegevoegd.

@@ -25,7 +25,7 @@ Adobe Commerce op locatie voegt ondersteuning toe voor Elasticsearch 7.16 en Ope
 
 ## Wat is OpenSearch?
 
-OpenSearch is een vork in Elasticsearch en Kibana. Het wordt onderhouden door AWS in plaats van Elastic.co. Om meer te leren, herzie GitHub [ openssearch-project/OpenSearch ](https://github.com/opensearch-project/OpenSearch).
+OpenSearch is een vork in Elasticsearch en Kibana. Het wordt onderhouden door AWS in plaats van Elastic.co. Om meer te leren, herzie GitHub [&#x200B; openssearch-project/OpenSearch &#x200B;](https://github.com/opensearch-project/OpenSearch).
 
 **Verenigbaarheid over versies:**
 
@@ -53,4 +53,4 @@ De Vereisten van het Systeem van het overzicht [&#128279;](https://experiencelea
 >
 >Het wordt aanbevolen zo spoedig mogelijk een upgrade naar Adobe Commerce 2.4.4 uit te voeren, omdat Elasticsearch 7.10 in mei 2022 EOL zal zijn.
 
-De partners van de Adobe kunnen omhoog voor ons bètaprogramma [ hier ](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html?lang=nl-NL) ondertekenen om toegang tot onze recentste bèta4 code te krijgen die tegen Elasticsearch 7.16.1 en OpenSearch 1.1 is getest.
+De partners van de Adobe kunnen omhoog voor ons bètaprogramma [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html?lang=nl-NL) ondertekenen om toegang tot onze recentste bèta4 code te krijgen die tegen Elasticsearch 7.16.1 en OpenSearch 1.1 is getest.

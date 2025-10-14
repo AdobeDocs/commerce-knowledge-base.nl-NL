@@ -36,6 +36,6 @@ Door Product Recommendations in de Bouwer van de Pagina toe te laten, zult u een
 
 ## Gerelateerde lezing
 
-* [ voeg Inhoud toe - product Recommendations ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=nl-NL) in onze gebruikersgids.
-* [ installeer en vorm Recommendations van het Product ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) in onze ontwikkelaarsdocumentatie.
-* [ de Gids van de Gebruiker van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)
+* [&#x200B; voeg Inhoud toe - product Recommendations &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=nl-NL) in onze gebruikersgids.
+* [&#x200B; installeer en vorm Recommendations van het Product &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; de Gids van de Gebruiker van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)

@@ -17,7 +17,7 @@ Dit artikel verstrekt een oplossing voor de kwestie waar de plaatsing wegens de 
 
 ## Betrokken producten en versies
 
-* Adobe Commerce, [ alle plaatsingsmethodes ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce, [&#x200B; alle plaatsingsmethodes &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 

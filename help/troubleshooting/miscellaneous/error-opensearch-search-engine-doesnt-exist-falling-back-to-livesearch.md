@@ -43,4 +43,4 @@ Het volgende bericht wordt weergegeven in de logboeken (en kan worden waargenome
 
 ## Gerelateerde lezing
 
-* [ installeer  [!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL) in onze Levende Gids van het Onderzoek
+* [&#x200B; installeer  [!DNL Live Search] &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=nl-NL) in onze Levende Gids van het Onderzoek

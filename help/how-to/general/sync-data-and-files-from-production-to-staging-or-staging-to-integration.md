@@ -20,7 +20,7 @@ In dit artikel wordt uitgelegd hoe u uw productieomgeving kunt synchroniseren na
 
 ## Gegevens synchroniseren van de ene omgeving naar de andere
 
-Als u de gegevens wilt synchroniseren, moet u de database handmatig uit de bronomgeving dumpen. Om gegevens naar een ander milieu over te brengen, moet u de bronstortplaats aan het doelmilieu dan uploaden en het invoeren. Voor meer informatie, zie [ de Code van Adobe Commerce van de Invoer in een Project van de Wolk > het gegevensbestand van Adobe Commerce van de Invoer ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) in onze ontwikkelaarsdocumentatie.
+Als u de gegevens wilt synchroniseren, moet u de database handmatig uit de bronomgeving dumpen. Om gegevens naar een ander milieu over te brengen, moet u de bronstortplaats aan het doelmilieu dan uploaden en het invoeren. Voor meer informatie, zie [&#x200B; de Code van Adobe Commerce van de Invoer in een Project van de Wolk > het gegevensbestand van Adobe Commerce van de Invoer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) in onze ontwikkelaarsdocumentatie.
 
 Voor Adobe Commerce op cloudinfrastructuur Pro kunt u ook synchroniseren van Staging en Productie naar uw integratiehoofdvertakking. Deze synchronisatie trekt en duwt slechts code, niet gegevens. Om gegevens te synchroniseren, zult u de gegevensbestandgegevens moeten dumpen en het aan het gegevensbestand van een andere milieu duwen.
 
@@ -30,8 +30,8 @@ Voor Adobe Commerce op cloudinfrastructuur Pro kunt u ook synchroniseren van Sta
 
 ## Bestanden synchroniseren van de ene omgeving naar de andere
 
-Gebruik de opdracht `rsync` om bestanden van de ene omgeving naar de andere te synchroniseren. Voor meer informatie, zie [ code opstellen en statische dossiers en gegevens migreren > dossiers migreren gebruikend synchronisatie ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production#migrate-files-using-rsync) in onze ontwikkelaarsdocumentatie.
+Gebruik de opdracht `rsync` om bestanden van de ene omgeving naar de andere te synchroniseren. Voor meer informatie, zie [&#x200B; code opstellen en statische dossiers en gegevens migreren > dossiers migreren gebruikend synchronisatie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production#migrate-files-using-rsync) in onze ontwikkelaarsdocumentatie.
 
 >[!NOTE]
 >
->Als u de code van Integratie aan het Opvoeren wilt synchroniseren, moet u het van de tak van de Integratie doen. Voor stappen, zie [ Synchronisatie van de ouder van het milieu ](/docs/commerce-cloud-service/user-guide/project/console-branches.html#sync-an-environment) in onze ontwikkelaarsdocumentatie.
+>Als u de code van Integratie aan het Opvoeren wilt synchroniseren, moet u het van de tak van de Integratie doen. Voor stappen, zie [&#x200B; Synchronisatie van de ouder van het milieu &#x200B;](/docs/commerce-cloud-service/user-guide/project/console-branches.html#sync-an-environment) in onze ontwikkelaarsdocumentatie.

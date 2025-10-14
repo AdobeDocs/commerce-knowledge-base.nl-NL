@@ -13,4 +13,4 @@ ht-degree: 0%
 
 # Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies niet compatibel
 
-Gelieve te verwijzen naar de [ Dienst van de Elasticsearch van de Opstelling > de softwareverenigbaarheid van de Elasticsearch ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch) in onze ontwikkelaarsdocumentatie.
+Gelieve te verwijzen naar de [&#x200B; Dienst van de Elasticsearch van de Opstelling > de softwareverenigbaarheid van de Elasticsearch &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch) in onze ontwikkelaarsdocumentatie.
