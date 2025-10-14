@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 5c4d76b3dbaf34b2ded10b520297087562fcaad2
+source-git-commit: 3f0eb749d5f704af3584178187fa0907b9c81d83
 workflow-type: tm+mt
-source-wordcount: '2834'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -264,13 +264,7 @@ ht-degree: 0%
       * [Richtlijnen voor het beveiligen van uw winkel en het roteren van coderingssleutels: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
    * Elasticsearch {#elasticsearch}
       * [Het vallen terug naar  [!DNL Elasticsearch7]  wanneer de onderzoeksmotor aan  [!DNL Opensearch] wordt geplaatst](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
-      * [Elasticsearch-problemen na Adobe Commerce Cloud Infrastructure 2.3.1+-upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
       * [ElasticSuite-volgindices veroorzaken problemen met Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
-      * [Controleer of Elasticsearch correct is geïnstalleerd](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md)
-      * [Elasticsearch 5 is geconfigureerd, maar de zoekpagina wordt niet geladen met de fout &quot;Veldgegevens is uitgeschakeld...&quot;](/help/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled-error.md)
-      * [Elasticsearch Index Status is &#39;yellow&#39; of &#39;red&#39;](/help/troubleshooting/elasticsearch/elasticsearch-index-status-is-yellow-or-red.md)
-      * [Elasticsearch-service wordt niet uitgevoerd](/help/troubleshooting/elasticsearch/elasticsearch-service-not-running.md)
-      * [MySQL en Elasticsearch geven verschillende resultaten](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
 * Handleiding voor Help Center {#help-center-guide}
    * [Experience League Support-gebruikershandleiding voor Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
    * [Beleidsupdate voor Adobe Commerce Support-beleid voor de levenscyclus van tickets](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
