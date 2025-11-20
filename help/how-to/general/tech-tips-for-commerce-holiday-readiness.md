@@ -16,12 +16,12 @@ ht-degree: 0%
 
 De bijgevoegde pdf biedt tips over hoe u uw infrastructuur kunt voorbereiden op intensief verkeer, downtime kunt voorkomen en de prestaties in de vakantieperiode kunt optimaliseren.
 
-Voor extra dwars-oplossingsbegeleiding bij het voorbereiden van uw organisatie, infrastructuur, en teams voor piekseizoen, zie de [ Verenigde Gids van de Bereidheid van de Vakantie van Adobe DX Oplossingen ](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness).
+Voor extra dwars-oplossingsbegeleiding bij het voorbereiden van uw organisatie, infrastructuur, en teams voor piekseizoen, zie de [&#x200B; Verenigde Gids van de Bereidheid van de Vakantie van Adobe DX Oplossingen &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness).
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* Adobe Commerce op wolkeninfrastructuur, alle [&#x200B; gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
 
 ## De pdf downloaden
 
-Klik [ uiteinden van Tech voor Commerce vakantie readiness.pdf ](assets/tech-tips-for-commerce-holiday-readiness.pdf) om pdf te downloaden.
+Klik [&#x200B; uiteinden van Tech voor Commerce vakantie readiness.pdf &#x200B;](assets/tech-tips-for-commerce-holiday-readiness.pdf) om pdf te downloaden.
