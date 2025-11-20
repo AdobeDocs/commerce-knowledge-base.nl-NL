@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De bijgevoegde pdf biedt tips over hoe u uw infrastructuur kunt voorbereiden op intensief verkeer, downtime kunt voorkomen en de prestaties in de vakantieperiode kunt optimaliseren.
 
-Voor extra dwars-oplossingsbegeleiding bij het voorbereiden van uw organisatie, infrastructuur, en teams voor piekseizoen, zie de [&#x200B; Verenigde Gids van de Bereidheid van de Vakantie van Adobe DX Oplossingen &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness).
+Voor extra dwars-oplossingsbegeleiding bij het voorbereiden van uw organisatie, infrastructuur, en teams voor piekseizoen, zie de [&#x200B; Verenigde Gids van de Bereidheid van de Vakantie van Adobe DX Oplossingen &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/data-sheets/unified-holiday-readiness).
 
 ## Betrokken producten en versies
 
