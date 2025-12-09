@@ -30,7 +30,7 @@ Een reden voor prestatievermindering kan zijn dat bepaalde Adobe Commerce-cachet
 
 ## Oplossing
 
-1. Controleer eerst de status van de Adobe Commerce cache om te zien of dit het probleem is. Voor dit, [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh) en stel het volgende bevel in werking:
+1. Controleer eerst de status van de Adobe Commerce cache om te zien of dit het probleem is. Voor dit, [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh) en stel het volgende bevel in werking:
 
    ```bash
    php bin/magento cache:status
@@ -48,10 +48,10 @@ Als er zorgen en/of vragen zijn of een bepaald Adobe Commerce geheim voorgeheuge
 Adobe Commerce cache-documentatie in onze ontwikkelaarsdocumentatie:
 
 * [&#x200B; Adobe Commerce geheim voorgeheugenoverzicht &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
-* [&#x200B; beheer het geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
+* [&#x200B; beheer het geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 Andere mogelijke redenen voor prestatieproblemen en oplossingen voor deze problemen:
 
-* [&#x200B; maak de output van de Banner van Adobe Commerce onbruikbaar om plaatsprestaties te verbeteren &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909)
-* [&#x200B; MySQL de lijsten zijn te groot &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945)
+* [&#x200B; maak de output van de Banner van Adobe Commerce onbruikbaar om plaatsprestaties te verbeteren &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26909)
+* [&#x200B; MySQL de lijsten zijn te groot &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26945)
 * [Trage prestaties, langzame en langlopende bekers](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
