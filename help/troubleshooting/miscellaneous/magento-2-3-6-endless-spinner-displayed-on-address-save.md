@@ -31,4 +31,4 @@ Het probleem is opgelost in Adobe Commerce 2.3.1.
 
 ## Gerelateerde lezing
 
-* [ Adobe Commerce 2.4.1 het bericht van de bevestiging van het Adres van de top van het Adres postadres update ](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) in onze basis van de steunkennis.
+* [&#x200B; Adobe Commerce 2.4.1 het bericht van de bevestiging van het Adres van de top van het Adres postadres update &#x200B;](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) in onze basis van de steunkennis.
