@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: ed116b8fddfb6f5e22c2da2fdad5d0d0d2b4a377
+source-git-commit: 3a482f7e5ddc872ddaf9634da8ca4f41a3b46ab4
 workflow-type: tm+mt
-source-wordcount: '2769'
+source-wordcount: '2763'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,6 @@ ht-degree: 0%
       * [Cyberbronbetaling van Admin en front op verschillende domeinen die niet zijn verwerkt](/help/troubleshooting/payments/cybersource-payment-from-admin-and-front-on-different-domains-not-processed.md)
       * [Bekende uitgave van Adobe Commerce 2.4.0: Amazon-betaling, geen betalingsmethoden](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
       * [Adobe Commerce 2.4.0: Afhandelingsfout bij het selecteren van lokale betalingen](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
-      * [PayPal Payflow Pro actieve carding-activiteiten](/help/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.md)
       * [Problemen met PayPal op Adobe Commerce oplossen](/help/troubleshooting/payments/paypal-troubleshooting-on-magento.md)
       * [Adobe Commerce 2.4.0, 2.4.1: Braintree Venmo gedeeltelijke factuur toestaan](/help/troubleshooting/payments/magento-2-4-0-2-4-1-enable-braintree-venmo-partial-invoice-issue.md)
       * [Adobe Commerce 2.4.2 B2B: disconto blijft wijziging loonmethode](/help/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change.md)
@@ -245,7 +244,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
