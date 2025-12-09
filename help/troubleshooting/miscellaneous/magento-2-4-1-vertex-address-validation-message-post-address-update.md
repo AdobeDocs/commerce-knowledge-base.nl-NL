@@ -4,9 +4,9 @@ description: In dit artikel wordt een bekende Adobe Commerce 2.4.1-kwestie besch
 exl-id: c2abeb96-e837-4d16-92dd-82fea5661dd9
 feature: Shipping/Delivery
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: ce377064efabaf09d3856da7c6c5c742a9fdcc2f
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,6 @@ In dit artikel wordt een bekende Adobe Commerce 2.4.1-kwestie beschreven waarbij
 
 ## Probleem
 
-Vereisten:
-
-Laat **Reiniging van het Adres van de top** toe. Voor stappen, verwijs naar [&#x200B; het Vormen het Schoonmaken van het Adres Storefront &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html?lang=nl-NL) in onze gebruikersgids.
 
 <u> Stappen om te reproduceren:</u>
 
@@ -37,7 +34,7 @@ Laat **Reiniging van het Adres van de top** toe. Voor stappen, verwijs naar [&#x
 
 <u> Eerste scenario:</u>
 
-Volg [&#x200B; boven zes stappen &#x200B;](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) en toen:
+Volg [ boven zes stappen ](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) en toen:
 
 1. Voer een nieuw geldig factureringsadres in.
 1. Klik op de **knoop van de Update**. Het zal het bericht/de suggestie als het volgende tonen: *het adres is ongeldig.* dit zal met een adressuggestie als volgen: *Postcode: XXXXX- XXXX Street: XXX de straat van de Stad*
@@ -56,7 +53,7 @@ Het bevestigingsbericht/de suggestie *&quot;wij vonden geen geldig adres Postcod
 
 <u> Tweede scenario:</u>
 
-Volg [&#x200B; boven zes stappen &#x200B;](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) en toen:
+Volg [ boven zes stappen ](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) en toen:
 
 1. Vul het adresformulier met een geldig adres.
 1. Klik op de **knoop van de Update**. Het zal het bericht/de suggestie als het volgende tonen: *het adres is ongeldig.* dit zal met een adressuggestie als volgen: *Postcode: XXXXX-XXXX Straat: XXX de straat XXX van de Stad*.

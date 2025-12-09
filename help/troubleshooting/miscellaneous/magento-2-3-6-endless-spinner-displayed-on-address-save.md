@@ -4,9 +4,9 @@ description: In dit artikel wordt een bekende Adobe Commerce 2.3.6-uitgave besch
 exl-id: 63841114-167e-4915-b6ed-ee0ef4eae36e
 feature: Shipping/Delivery, Orders, Checkout
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: ce377064efabaf09d3856da7c6c5c742a9fdcc2f
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -31,5 +31,4 @@ Het probleem is opgelost in Adobe Commerce 2.3.1.
 
 ## Gerelateerde lezing
 
-* [&#x200B; Verschillende adressen niet toegestaan wanneer het unselecting &quot;Mijn het factureren en het verschepen adres zijn het zelfde&quot;gebruikend Reiniging VertexAddress &#x200B;](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md) in onze basis van steunkennis.
-* [&#x200B; Adobe Commerce 2.4.1 het bericht van de bevestiging van het Adres van de top van het Adres postadres update &#x200B;](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) in onze basis van de steunkennis.
+* [ Adobe Commerce 2.4.1 het bericht van de bevestiging van het Adres van de top van het Adres postadres update ](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) in onze basis van de steunkennis.

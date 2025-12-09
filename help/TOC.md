@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 3a482f7e5ddc872ddaf9634da8ca4f41a3b46ab4
+source-git-commit: 96ec7b44bd913c5976f0a8e3ce8355f7686622ad
 workflow-type: tm+mt
-source-wordcount: '2763'
+source-wordcount: '2736'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,6 @@ ht-degree: 0%
       * [Extension Manager geeft geen extensies weer in Adobe Commerce 2.3.x](/help/troubleshooting/miscellaneous/extension-manager-shows-no-extensions-in-magento-commerce-2-3-x.md)
       * [Meld u opnieuw aan bij Commerce Admin om u aan te melden](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [Problemen met coderingssleutel oplossen](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
-      * [Fout &quot;Updater application is not available&quot;](/help/troubleshooting/miscellaneous/updater-application-is-not-available-error.md)
       * [PWA Studio: GraphQL vraagt naar Adobe Commerce om validatiefouten te veroorzaken](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
       * [Stock status is onjuist na Inventory management-installatie](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
       * [Bekende uitgave van Adobe Commerce 2.3.5: bestellingen van meerdere bestellingen voor virtuele producten](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
@@ -133,7 +132,6 @@ ht-degree: 0%
       * [Problemen met het hulpprogramma voor gegevensmigratie oplossen](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
       * [Problemen met gereedheid voor componentafhankelijkheid](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
       * [Kan Adobe Commerce niet openen op interface van cloudinfrasinfrastructuur](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
-      * [Vertexadres opschonen: verschillende adressen niet toegestaan](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md)
       * [Wijzigingen in categorieën worden niet opgeslagen](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
       * [Bekende uitgave van Adobe Commerce 2.4.0 - Export Tax Rates werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
       * [Magento Order Management System (OMS) voor Adobe Commerce-verwerkingsfout](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
@@ -157,7 +155,6 @@ ht-degree: 0%
       * [git pull origin develop failed when update the Adobe Commerce software](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
       * [Blockers die op Adobe Commerce starten op cloudinfrastructuur](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
       * [Fouten in PHP-instellingen](/help/troubleshooting/miscellaneous/php-settings-errors.md)
-      * [Uitgave opnieuw vertragen Aanmelden bij Commerce Admin of uitchecken](/help/troubleshooting/miscellaneous/redis-issue-delay-magento-admin-login-or-checkout.md)
       * [PHP-coderingsextensie is niet correct geïnstalleerd](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
       * [Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 gekend probleem: digitale aanmelding](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
       * [Cron job zit vast in status &quot;running&quot;](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
@@ -173,7 +170,6 @@ ht-degree: 0%
       * [Het handmatig exporteren van bestellingen naar MOM mislukt. De knop Exportvolgorde retourneert de HTTP 404-fout](/help/troubleshooting/miscellaneous/manual-order-export-to-mom-fails-the-export-order-button-returns-http-404-error.md)
       * [PWA Studio: browser vertrouwt gegenereerd SSL-certificaat niet](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
       * [Het oplossen van problemen 503 fout die door noodzaak wordt veroorzaakt om standaardVersige montages te veranderen](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
-      * [Beperkte toegang tot beheerder leidt tot prestatieproblemen](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
       * [Taken uitsnijden vergrendelen taken uit andere groepen](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
       * [Fout bij installatie xdebug van maximumnestniveau van functie](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
       * [Kan entiteit Adobe Commerce-backend niet opslaan](/help/troubleshooting/miscellaneous/unable-to-save-entity-backend.md)
@@ -244,7 +240,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
