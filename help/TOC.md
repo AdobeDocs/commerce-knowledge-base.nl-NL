@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 9c17f1a10303f91ac95813171191983471d345a1
+source-git-commit: ed116b8fddfb6f5e22c2da2fdad5d0d0d2b4a377
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -203,7 +203,6 @@ ht-degree: 0%
       * [Geplande updates voor het bijhouden van inhoud worden niet weergegeven met een verouderde snelcache](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [Uitsnijding oplossen](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
       * [Het CSV-bestand met geëxporteerde producten wordt niet weergegeven](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
-      * [Fout: &quot;Klasse kan niet worden opgeslagen in de codedirectory&quot;](/help/troubleshooting/miscellaneous/class-cannot-be-saved-in-the-code-directory-error.md)
       * [Implementatielogbestand controleren als in de gebruikersinterface van Cloud een fout met een &#39;log snipped&#39; is opgetreden](/help/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.md)
       * [Downloaden mislukt vanwege wijzigingen in Composer](/help/troubleshooting/miscellaneous/download-fails-because-of-changes-in-composer.md)
       * [FOUT: Opwarmen is mislukt in Adobe Commerce op cloudinfrastructuur](/help/troubleshooting/miscellaneous/error-warming-up-failed-on-magento-commerce-cloud.md)
@@ -246,7 +245,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
