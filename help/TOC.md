@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 0c5164641f171a92612417dbc8586b6b6ed442b1
+source-git-commit: 898424645c2ef0435c1a75604a47b7d5713670d8
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2669'
 ht-degree: 0%
 
 ---
@@ -178,7 +178,6 @@ ht-degree: 0%
       * [Aangepaste SSL-certificaatvervalgegevens](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
       * [PWA Studio: Validatiefouten bij uitvoering van ontwikkelaarsmodus](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
       * [Amazon-e-mailberichten om uur uitschakelen bij gebruik van Adobe Commerce](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
-      * [Ingevalideerde cache veroorzaakt vertraging van responstijd](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md)
       * [Uitgave van token en Composer-sleutelprocedures](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
       * [Uitgave Adobe Commerce 2.4.1: Amazon-account kan niet worden gewijzigd in Chrome](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
       * [ECE-tools en patchupdatefouten Adobe Commerce cloud Infrastructure 2.2.x, 2.3.x](/help/troubleshooting/miscellaneous/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
@@ -202,7 +201,6 @@ ht-degree: 0%
       * [Klantprofielen die niet in Experience Platform worden weergegeven](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
       * [PWA Studio: browser kan de .local.pwadev-site niet oplossen](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
       * [Productaanbevelingen niet weergegeven in Page Builder](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
-      * [Adobe Commerce-probleemoplosser](/help/troubleshooting/miscellaneous/magento-fastly-troubleshooter.md)
       * [AJAX-verzoeken met hoge doorvoer leveren slechte prestaties op](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)
       * [PWA Studio: in Browser wordt de fout &#39;&#39;Kan proxy niet aan&#39;&#39; weergegeven](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
       * [looppas opstelling :static-content: opstellen opstellen_version.txt kwestie](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed-version-txt-issue.md)
@@ -234,7 +232,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
