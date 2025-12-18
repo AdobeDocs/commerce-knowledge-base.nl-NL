@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 898424645c2ef0435c1a75604a47b7d5713670d8
+source-git-commit: de5dd9b057f2dbe79f9c931ef6d3473d809aedab
 workflow-type: tm+mt
-source-wordcount: '2669'
+source-wordcount: '2663'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ ht-degree: 0%
       * [Het controleren van langzame vragen en verwerkt MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
       * [Uploaden database verliest verbinding met MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
       * [MySQL Server is weggegaan &#x200B; fout op Adobe Commerce in cloud](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
-      * [Problemen met opslagproblemen voor databases op Adobe Commerce oplossen](/help/troubleshooting/database/database-storage-troubleshooter-on-adobe-commerce.md)
       * [Databasefouten met betrekking tot max_allowed_packet op Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
       * [Het gegevensbestand van Adobe Commerce numerieke waarde uit waaier,  [!DNL INT]  aan  [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
       * [Lees de problemen met replica&#39;s over Adobe Commerce Cloud 2.4.6 met MariaDB 10.6](/help/troubleshooting/database/read-replicas-issues-synchronization-mariadb-10-6.md)
@@ -232,7 +231,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
