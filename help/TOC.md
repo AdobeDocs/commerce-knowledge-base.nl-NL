@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 9a2dadfbb5ca0a2c04d4e86454a1145b97924f61
+source-git-commit: 1374f09d481ffd79014d00952c734cf83504df6b
 workflow-type: tm+mt
-source-wordcount: '2656'
+source-wordcount: '2628'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,6 @@ ht-degree: 0%
       * [Ontbrekend of gewijzigd configuratiebestand](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
       * [cURL-fout 60: SSL-certificaat verlopen](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
       * [Problemen met productaanbevelingen oplossen in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
-      * [Problemen met /tmp-montage oplossen: vol voor Adobe Commerce](/help/troubleshooting/miscellaneous/tmp-mount-full.md)
       * [Onbekende module Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
       * [Problemen met gereedheid voor uitsnijden](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
       * [Redis-service vastgelopen](/help/troubleshooting/miscellaneous/redis-service-crashed.md)
@@ -103,7 +102,6 @@ ht-degree: 0%
       * [Cache inschakelen om prestatievermindering te voorkomen](/help/troubleshooting/miscellaneous/enable-magento-cache-to-avoid-performance-degradation.md)
       * [Handleiding voor het oplossen van problemen met Adobe Commerce Security Scan](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
       * [Gereedheidscontrole voor bestandsmachtigingen](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
-      * [Snel caching werkt niet op Adobe Commerce op cloudinfrastructuur](/help/troubleshooting/miscellaneous/fastly-caching-is-not-working-on-magento-cloud.md)
       * [Problemen met de eCommerce-omzet in Google opsporen](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
       * [Ik heb API sleutels voor Sensei gevormd maar slechts één SaaS gegevensruimte zien](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
       * [Hoofdmenu (Categorieën) wordt niet weergegeven op subpagina&#39;s waarvoor Snelheid is ingeschakeld](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
@@ -137,7 +135,6 @@ ht-degree: 0%
       * [Problemen met gedeelde toegang oplossen](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
       * [Trage prestaties, langzame en langlopende bekers](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
       * [Fout bij valideren van snelle referenties](/help/troubleshooting/miscellaneous/error-when-validating-fastly-credentials.md)
-      * [Nieuwe klanten die na CSV-import niet worden weergegeven in het klantenraster](/help/troubleshooting/miscellaneous/new-customers-not-displayed-in-customer-grid-after-csv-import.md)
       * [Het rapport Beveiligingsscan Tool is leeg](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
       * [Adobe Commerce 2.4.2-p1: factuur met een onjuiste waarde](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
       * [Kan de nieuwste Adobe Commerce-pre-release niet openen](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
@@ -230,7 +227,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
