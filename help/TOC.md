@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: d1fe74501ffcb908e9434a0988087ae6c9e73088
+source-git-commit: 557cfbab3dd2c612255c177848d9faf98024a04b
 workflow-type: tm+mt
-source-wordcount: '2617'
+source-wordcount: '2612'
 ht-degree: 0%
 
 ---
@@ -226,7 +226,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -330,7 +330,6 @@ ht-degree: 0%
    * [Kan ik toepassingen van derden installeren op mijn cloudexemplaar?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
    * [Link Magento.com and accounts.magento.cloud account logins](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
    * [Veelgestelde vragen over het snel camoufleren van oorsprong](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
-   * [Veelgestelde vragen over facturering voor Adobe Commerce](/help/faq/general/billing-faq-for-adobe-commerce.md)
    * [Database auto_increment increment variabele ingesteld op &quot;3&quot; Adobe Commerce op onze cloud pro architectuur](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
    * [Monitoringoverzicht voor Adobe Commerce over cloud pro-infrastructuur](/help/faq/general/monitoring-whitepaper.md)
    * [Toegang tot New Relic-services](/help/faq/general/access-new-relic-services.md)
