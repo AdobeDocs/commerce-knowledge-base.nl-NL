@@ -16,12 +16,12 @@ We begrijpen het belang van toegankelijkheid in Adobe. Hoewel de verantwoordelij
 
 Adobe Commerce is zeer aanpasbaar en onze klanten kunnen het thema Luma uitbreiden, hun toegankelijkheidsmodules maken en naar onze Commerce Marketplace gaan om extensies te zoeken die aan hun toegankelijkheidsvereisten voldoen.
 
-Vele van onze klanten gebruiken de [ Normen van de Toegankelijkheid W3C ](https://www.w3.org/WAI/standards-guidelines/) en gebruiken het [ Rapport van de Conformiteit van de Toegankelijkheid van Adobe voor Adobe Commerce ](https://www.adobe.com/accessibility/compliance/adobe-commerce-2021-acr.html).
+Vele van onze klanten gebruiken de [&#x200B; Normen van de Toegankelijkheid W3C &#x200B;](https://www.w3.org/WAI/standards-guidelines/) en gebruiken het [&#x200B; Rapport van de Conformiteit van de Toegankelijkheid van Adobe voor Adobe Commerce &#x200B;](https://www.adobe.com/accessibility/compliance/adobe-commerce-2021-acr.html).
 
 Met industriestandaard ontwikkelaarsgereedschappen kunt u werken met een belangrijke toegankelijkheidspartner of extensies implementeren vanuit de Commerce Marketplace op basis van specifieke klantvereisten of/en het Adobe-compatibiliteitsrapport.
 
-De oplossingen kunnen in [ Commerce Marketplace ](https://marketplace.magento.com/) worden gevonden.
+De oplossingen kunnen in [&#x200B; Commerce Marketplace &#x200B;](https://marketplace.magento.com/) worden gevonden.
 
 ## Gerelateerde lezing
 
-* [ Toegankelijkheid van Adobe ](https://www.adobe.com/trust/accessibility.html)
+* [&#x200B; Toegankelijkheid van Adobe &#x200B;](https://www.adobe.com/trust/accessibility.html)
