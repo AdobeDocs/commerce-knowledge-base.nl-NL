@@ -20,7 +20,7 @@ Zie [&#x200B; milieu van het Terugstellen op Wolk &#x200B;](/help/how-to/general
 
 ## Wat doe ik met een vastgelopen implementatie? {#what-do-i-do-with-a-stuck-deployment}
 
-Zie [&#x200B; de probleemoplosser van de Plaatsing &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640) in onze basis van de steunkennis.
+Zie [&#x200B; de probleemoplosser van de Plaatsing &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-29640) in onze basis van de steunkennis.
 
 ## Waar/hoe krijg ik hulp wanneer nodig? {#wherehow-do-i-get-help-when-needed}
 
@@ -30,7 +30,7 @@ Verwijs naar de [&#x200B; Kennisbank van de Steun van Adobe Commerce &#x200B;](h
 
 Partners met een Sandbox Cloud-project voor partners kunnen geen tickets verzenden voor problemen met sandboxen via Experience League. Gebruik geen rekening van een handelaar om deze kaartjes in te dienen, aangezien het voor hun rekening kan worden ingediend en verwarring kan veroorzaken.
 
-Als u een kaartje indient namens een handelaar die geen Gedeelde Toegang is verleend, gelieve toegang van de rekeningeigenaar te verzoeken. Voor stappen op hoe te om toegang te verzoeken, verwijs naar [&#x200B; Gedeelde Toegang: Rechten van de subsidie voor andere gebruikers om tot uw rekening &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access) toegang te hebben.
+Als u een kaartje indient namens een handelaar die geen Gedeelde Toegang is verleend, gelieve toegang van de rekeningeigenaar te verzoeken. Voor stappen op hoe te om toegang te verzoeken, verwijs naar [&#x200B; Gedeelde Toegang: Rechten van de subsidie voor andere gebruikers om tot uw rekening &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access) toegang te hebben.
 
 * De Partners van de oplossing zouden sandbox-verwante steunverzoeken door [&#x200B; SPPHelp@adobe.com &#x200B;](mailto:SPPHelp@adobe.com) per e-mail te verzenden moeten voorleggen. Deze verzoeken zullen aan het team van de Technische Steun van de Partner worden verpletterd.
 * De Partners van de techniek zouden [&#x200B; Steun van de Marketplace &#x200B;](mailto:commercemarketplacesupport@adobe.com) moeten contacteren.
