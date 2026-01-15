@@ -69,8 +69,8 @@ Zie [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200
 
 <u> Git patch </u>
 
-* Zie [&#x200B; flarden &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in ontwikkelaarsdocumentatie voor het flardinstructies van de it voor Adobe Commerce op wolkeninfrastructuur toepassen.
-* Zie [&#x200B; Toepassend flarden: De flarden van de Douane &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) in ontwikkelaarsdocumentatie voor de instructies van het git flardflard voor Adobe Commerce.
+* Zie [&#x200B; flarden &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in ontwikkelaarsdocumentatie voor het flardinstructies van de it voor Adobe Commerce op wolkeninfrastructuur toepassen.
+* Zie [&#x200B; Toepassend flarden: De flarden van de Douane &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) in ontwikkelaarsdocumentatie voor de instructies van het git flardflard voor Adobe Commerce.
 
 ## Gerelateerde lezing
 
