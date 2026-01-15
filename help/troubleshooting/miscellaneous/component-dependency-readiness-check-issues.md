@@ -49,7 +49,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-Zorg ervoor u de toestemmingen van het dossiersysteem zoals besproken in het artikel [ Overzicht van eigendom en toestemmingen ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) in onze ontwikkelaarsdocumentatie plaatst.
+Zorg ervoor u de toestemmingen van het dossiersysteem zoals besproken in het artikel [&#x200B; Overzicht van eigendom en toestemmingen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) in onze ontwikkelaarsdocumentatie plaatst.
 
 ## De status van Componentafhankelijke controle verandert nooit {#trouble-depend-state}
 

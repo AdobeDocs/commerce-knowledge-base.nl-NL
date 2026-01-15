@@ -65,12 +65,12 @@ Als u het bestand wilt downloaden, schuift u omlaag naar het einde van het artik
 
 <u> Composer-patch </u>
 
-Zie [ hoe te om een componentenflard toe te passen die door Adobe ](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor composer flardinstructies wordt verstrekt.
+Zie [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor composer flardinstructies wordt verstrekt.
 
 <u> Git patch </u>
 
-* Zie [ flarden ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in ontwikkelaarsdocumentatie voor het flardinstructies van de it voor Adobe Commerce op wolkeninfrastructuur toepassen.
-* Zie [ Toepassend flarden: De flarden van de Douane ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) in ontwikkelaarsdocumentatie voor de instructies van het git flardflard voor Adobe Commerce.
+* Zie [&#x200B; flarden &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in ontwikkelaarsdocumentatie voor het flardinstructies van de it voor Adobe Commerce op wolkeninfrastructuur toepassen.
+* Zie [&#x200B; Toepassend flarden: De flarden van de Douane &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) in ontwikkelaarsdocumentatie voor de instructies van het git flardflard voor Adobe Commerce.
 
 ## Gerelateerde lezing
 
