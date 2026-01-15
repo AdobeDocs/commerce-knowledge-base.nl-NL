@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 466435b0f73d1fb26ce492c0063104b1dd932e2d
+source-git-commit: 881fdb528850471fcf34dbdf94c7980fff0f248b
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2417'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,6 @@ ht-degree: 0%
       * [Redis-service vastgelopen](/help/troubleshooting/miscellaneous/redis-service-crashed.md)
       * [SQL-query&#39;s: EXPLAIN-kostenfouten](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
       * [Adobe Commerce 2.4.0 B2B Admin kan geen configureerbaar product toevoegen om te citeren](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
-      * [Adobe Commerce 2.3.6: eindeloze spinner die op adres wordt getoond sparen](/help/troubleshooting/miscellaneous/magento-2-3-6-endless-spinner-displayed-on-address-save.md)
       * [Problemen met New Relic op Adobe Commerce op cloudinfrastructuur oplossen](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
       * [Cache inschakelen om prestatievermindering te voorkomen](/help/troubleshooting/miscellaneous/enable-magento-cache-to-avoid-performance-degradation.md)
       * [Handleiding voor het oplossen van problemen met Adobe Commerce Security Scan](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
@@ -124,7 +123,6 @@ ht-degree: 0%
       * [Problemen met gereedheid voor componentafhankelijkheid](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
       * [Kan Adobe Commerce niet openen op interface van cloudinfrasinfrastructuur](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
       * [Wijzigingen in categorieën worden niet opgeslagen](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
-      * [Bekende uitgave van Adobe Commerce 2.4.0 - Export Tax Rates werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
       * [Magento Order Management System (OMS) voor Adobe Commerce-verwerkingsfout](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
       * [Afbeeldingen in de cache worden niet geladen na een upgrade van 2.2.X naar 2.3.X](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
       * [Foutbericht bij het toevoegen van sites aan Beveiligingsscan](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
@@ -146,37 +144,24 @@ ht-degree: 0%
       * [PHP-coderingsextensie is niet correct geïnstalleerd](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
       * [Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 gekend probleem: digitale aanmelding](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
       * [Cron job zit vast in status &quot;running&quot;](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
-      * [.magento.env.yaml veranderingen niet getoond in env.php na opstelling](/help/troubleshooting/miscellaneous/magento-env-yaml-changes-not-shown-in-env-php-after-deploy.md)
-      * [Problemen na het uitschakelen van een module](/help/troubleshooting/miscellaneous/issues-after-disabling-a-module.md)
       * [Offload niet-regex herleidt naar Fastly in plaats van Nginx (routes)](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
-      * [Bekende uitgave van Adobe Commerce 2.4.0: knoppen Nieuwe volgorde maken ontbreken](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
       * [Advanced Reporting troubleshooter voor Adobe Commerce](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
       * [Veelvoorkomende fatale fouten en oplossingen in PHP](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
-      * [Composer-update mislukt op Adobe Commerce: niet-compatibel argumenttype](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
       * [Adobe Commerce 2.4.2 B2B: e-mailsjabloon werkt e-mail niet bij](/help/troubleshooting/miscellaneous/magento-2-4-2-b2b-email-template-not-updating-email.md)
       * [PWA Studio: browser vertrouwt gegenereerd SSL-certificaat niet](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
       * [Het oplossen van problemen 503 fout die door noodzaak wordt veroorzaakt om standaardVersige montages te veranderen](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
       * [Taken uitsnijden vergrendelen taken uit andere groepen](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
       * [Fout bij installatie xdebug van maximumnestniveau van functie](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
-      * [PHP-versiefout of 404-fout bij toegang tot Adobe Commerce in browser](/help/troubleshooting/miscellaneous/php-version-error-or-404-error-when-accessing-magento-in-browser.md)
-      * [Volgorde van bundelopties wordt niet bijgewerkt door importeren](/help/troubleshooting/miscellaneous/bundle-options-order-is-not-updated-by-import.md)
-      * [Adobe Commerce 2.4.0: Selecties toevoegen aan mijn winkelwagentje werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
       * [MBI: gegevensdiscrepanties](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
       * [Aangepaste serverscripts worden niet uitgevoerd in de mediamap van de publicatie](/help/troubleshooting/miscellaneous/custom-server-side-scripts-not-executed-in-pub-media-directory.md)
-      * [Problemen met gereedheid voor PHP-versie](/help/troubleshooting/miscellaneous/php-version-readiness-check-issues.md)
       * [Cloudsite is traag](/help/troubleshooting/miscellaneous/cloud-site-is-slow.md)
       * [Aangepaste SSL-certificaatvervalgegevens](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
       * [PWA Studio: Validatiefouten bij uitvoering van ontwikkelaarsmodus](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
       * [Amazon-e-mailberichten om uur uitschakelen bij gebruik van Adobe Commerce](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
       * [Uitgave van token en Composer-sleutelprocedures](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
-      * [Uitgave Adobe Commerce 2.4.1: Amazon-account kan niet worden gewijzigd in Chrome](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
-      * [ECE-tools en patchupdatefouten Adobe Commerce cloud Infrastructure 2.2.x, 2.3.x](/help/troubleshooting/miscellaneous/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
       * [PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
-      * [Nieuwste patches installeren om Adobe Commerce Redis-problemen op te lossen](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
       * [Een ongeldige verschuivingsfout oplossen](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
       * [De productstatus is onjuist bij het programmeren](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
-      * [Fastly Error: Plugin VCL version is verouderd! Please re-Upload](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md)
-      * [Adobe Commerce 2.4.0: Vernieuwen van de activiteiten van de Klant werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
       * [De verlening van machtigingen voor var-/exportmappen geeft Adobe Commerce in de cloud weer](/help/troubleshooting/miscellaneous/issue-in-the0email-folder-adobe-commerce.md)
       * [Geplande updates voor het bijhouden van inhoud worden niet weergegeven met een verouderde snelcache](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [Uitsnijding oplossen](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
@@ -199,12 +184,10 @@ ht-degree: 0%
       * [Problemen met vergrendeling van Adobe Commerce Intelligence-account oplossen](/help/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.md)
       * [Bekende kwesties die xdebug installatie beïnvloeden](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md)
       * [Kan niet aanmelden bij Adobe Commerce-ondersteuning of cloudaccount](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-      * [Conflicterende componentafhankelijkheden](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)
       * [Adobe Commerce Intelligence-servicebeleid](/help/troubleshooting/miscellaneous/mbi-service-policies.md)
       * [Nieuwe omgevingen die onder productie worden geplaatst wanneer ze van Git worden geduwd](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
       * [Fout na aanmelden bij Commerce Admin](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
       * [Magento Order Management System (OMS) voor Adobe Commerce-time-out](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
-      * [Fout bij wissen van cache in Commerce Admin](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
       * [Adobe Commerce 2.4.1: lege pagina wanneer digitale pagina Builder-formulier wordt opgeslagen](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Adobe Commerce-cloud: opnieuw indexeren wordt afgesloten met een bericht Met verlies](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
       * [Adobe Commerce-statuskolom ontbrekende geëxporteerde producten CSV-bestand](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
@@ -222,7 +205,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)

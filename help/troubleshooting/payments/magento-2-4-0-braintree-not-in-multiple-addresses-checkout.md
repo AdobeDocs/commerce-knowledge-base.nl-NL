@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor een bekende Adobe Commerce 2.4
 exl-id: efde0bba-fd4a-490b-becb-856cb9ea58a5
 feature: Checkout, Compliance, Orders, Payments, Shipping/Delivery
 role: Developer
-source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel biedt een oplossing voor een bekende Adobe Commerce 2.4.0-probleem waarbij Braintree-betalingsmethoden niet zijn inbegrepen bij het werken met het afrekenen van meerdere adressen. De kwestie is opgelost in Adobe Commerce 2.4.1.
 
-Nota: Adobe Commerce adviseert gebruikend de [&#x200B; uitbreiding van Braintree van Commerce Marketplace &#x200B;](https://marketplace.magento.com/paypal-module-braintree.html) voor versies 2.3 en later om de naleving van PSD te houden. De extensie biedt geen functionaliteit voor het afrekenen van meerdere adressen.
+Nota: Adobe Commerce adviseert gebruikend de [ uitbreiding van Braintree van Commerce Marketplace ](https://marketplace.magento.com/paypal-module-braintree.html) voor versies 2.3 en later om de naleving van PSD te houden. De extensie biedt geen functionaliteit voor het afrekenen van meerdere adressen.
 
 ## Betrokken producten en versies
 
@@ -50,9 +50,3 @@ Braintree is niet beschikbaar als betalingsmethode.
 ## Workaround
 
 Schakel opties voor meerdere adressen niet in als u Braintree in Adobe Commerce 2.4.0 gebruikt. Dit probleem is opgelost in Adobe Commerce 2.4.1.
-
-## Gerelateerde lezing in onze kennisbasis voor support
-
-* [Bekende uitgave van Adobe Commerce 2.4.0 - Vernieuwen van de activiteiten van de Klant werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Bekende uitgave van Adobe Commerce 2.4.0 - Export Tax Rates werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
-* [Bekende uitgave van Adobe Commerce 2.4.0: &quot;Selecties toevoegen aan mijn winkelwagentje&quot; werkt niet](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)

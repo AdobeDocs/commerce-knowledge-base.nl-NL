@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor conflicten met componentafhankel
 exl-id: e0865226-2aaf-4bdd-8c28-28f32f38ce0c
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ We found conflicting component dependencies.
 >
 >Het bericht dat u ziet, zal waarschijnlijk anders zijn.
 
-Verwijs naar [&#x200B; Conflicterende componentengebiedsdelen voor een oplossing &#x200B;](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md) in onze basis van steunkennis.
-
 ## Problemen met bestandssysteemmachtigingen {#trouble-depend-permission}
 
 Als de eigenaar van het Adobe Commerce-bestandssysteem niet de machtigingen heeft om naar mappen in het Adobe Commerce-bestandssysteem te schrijven, wordt een bericht weergegeven dat lijkt op het volgende:
@@ -51,7 +49,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-Zorg ervoor u de toestemmingen van het dossiersysteem zoals besproken in het artikel [&#x200B; Overzicht van eigendom en toestemmingen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) in onze ontwikkelaarsdocumentatie plaatst.
+Zorg ervoor u de toestemmingen van het dossiersysteem zoals besproken in het artikel [ Overzicht van eigendom en toestemmingen ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) in onze ontwikkelaarsdocumentatie plaatst.
 
 ## De status van Componentafhankelijke controle verandert nooit {#trouble-depend-state}
 
