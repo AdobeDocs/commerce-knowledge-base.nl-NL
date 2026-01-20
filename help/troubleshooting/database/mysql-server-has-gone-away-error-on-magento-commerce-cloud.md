@@ -1,6 +1,6 @@
 ---
 title: MySQL Server is weggegaan ​ fout op Adobe Commerce in cloud
-description: In dit artikel wordt gesproken over de oplossing voor het probleem waarbij een foutbericht " *SQL server has away*" in het bestand ` cron.log` wordt weergegeven. Er kan een reeks symptomen optreden, waaronder problemen met het importeren van afbeeldingsbestanden of een mislukte implementatie.
+description: In dit artikel wordt gesproken over de oplossing voor het probleem waarbij een foutbericht " *SQL server has away*" in het bestand &grave; cron.log&grave; wordt weergegeven. Er kan een reeks symptomen optreden, waaronder problemen met het importeren van afbeeldingsbestanden of een mislukte implementatie.
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 feature: Cloud, Paas, Services, Variables
 role: Developer
@@ -17,7 +17,7 @@ Dit artikel praat over de oplossing voor de kwestie waar u &quot; *SQL server he
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce op wolkeninfrastructuur, alle [&#x200B; gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Probleem
 
@@ -47,5 +47,5 @@ De waarde `default_socket_timeout` is te laag ingesteld. Dit wordt veroorzaakt d
 
 ## Gerelateerde lezing
 
-* [ beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
-* [ gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+* [&#x200B; beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+* [&#x200B; gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
