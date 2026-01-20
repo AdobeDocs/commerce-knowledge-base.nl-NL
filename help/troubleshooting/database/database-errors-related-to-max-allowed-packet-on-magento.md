@@ -45,7 +45,7 @@ De standaardwaarde van 16 MB voor de instelling [!DNL MySQL] `max_allowed_packet
 
 ## Gerelateerde lezing
 
-* [&#x200B; op-gebouw installatieoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) in onze ontwikkelaarsdocumentatie.
-* [&#x200B; beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in onze basis van steunkennis.
-* [&#x200B; Beste praktijken om de kwesties van gegevensbestandprestaties &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) in onze basis van de steunkennis op te lossen.
-* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [&#x200B; op-gebouw installatieoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/overview) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=nl-NL) in onze basis van steunkennis.
+* [&#x200B; Beste praktijken om de kwesties van gegevensbestandprestaties &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=nl-NL) in onze basis van de steunkennis op te lossen.
+* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

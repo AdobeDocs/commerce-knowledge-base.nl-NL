@@ -47,5 +47,5 @@ De waarde `default_socket_timeout` is te laag ingesteld. Dit wordt veroorzaakt d
 
 ## Gerelateerde lezing
 
-* [&#x200B; beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
-* [&#x200B; gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+* [&#x200B; beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=nl-NL)
+* [&#x200B; gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=nl-NL)

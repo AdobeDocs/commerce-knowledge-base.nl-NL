@@ -56,7 +56,7 @@ Als `max(value_id)` lager is dan `max int(11) [ 4294967296 ]`, en `[ AUTO_INCREM
 
 >[!WARNING]
 >
->Voer een gegevensbestandsteun uit alvorens de lijsten te veranderen. Ook, zet de plaats in [&#x200B; onderhoudswijze &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode). Daarnaast wordt ook aangeraden de opdracht [!DNL MySQL] optimaliseren uit te voeren in de databasetabellen (alleen naar tabellen waarin wijzigingen zijn aangebracht) nadat de wijzigingen zijn aangebracht.
+>Voer een gegevensbestandsteun uit alvorens de lijsten te veranderen. Ook, zet de plaats in [&#x200B; onderhoudswijze &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=nl-NL#maintenance-mode). Daarnaast wordt ook aangeraden de opdracht [!DNL MySQL] optimaliseren uit te voeren in de databasetabellen (alleen naar tabellen waarin wijzigingen zijn aangebracht) nadat de wijzigingen zijn aangebracht.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Daartoe:
 
 ## Gerelateerde lezing
 
-* [&#x200B; Algemene  [!DNL MySQL]  richtlijnen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) in de Gids van de Installatie van Commerce
-* [&#x200B; beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html) in onze basis van de steunkennis
-* [&#x200B; gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) in onze basis van de steunkennis
-* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [&#x200B; Algemene  [!DNL MySQL]  richtlijnen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html?lang=nl-NL) in de Gids van de Installatie van Commerce
+* [&#x200B; beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html?lang=nl-NL) in onze basis van de steunkennis
+* [&#x200B; gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html?lang=nl-NL) in onze basis van de steunkennis
+* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
