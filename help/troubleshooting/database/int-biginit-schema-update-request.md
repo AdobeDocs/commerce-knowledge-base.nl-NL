@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen als u een productupdate niet kunt ops
 exl-id: e2a00371-9032-4e81-b60e-5456ba35be94
 feature: Services
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Voordat de oplossing in dit artikel wordt geïmplementeerd (`INT` tot `BIGINT` schema-update), moeten handelaren altijd controleren of het veld dat zij gaan wijzigen GEEN relaties met een andere tabel met een externe sleutel heeft. Als het veld geen relaties met externe sleutels heeft met een andere tabel, zullen er problemen optreden omdat het verwante veld nog steeds `INT` is. Zij kunnen de volgende vraag gebruiken om dit te verifiëren. Deze vraag maakt een lijst van de buitenlands-zeer belangrijke verhoudingen beschikbaar in het gegevensbestand voor het bepaalde lijstgebied:
 >
->```mysql
+```mysql
 >SELECT 
 >     TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
 >FROM
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## Betrokken producten en versies
 
-* Adobe Commerce (alle plaatsingsmethodes) alle [&#x200B; gesteunde versies &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Adobe Commerce (alle plaatsingsmethodes) alle [ gesteunde versies ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 Dit artikel biedt oplossingen als u een productupdate niet kunt opslaan, zoals een prijswijziging, of een product kunt verwijderen en dupliceren.
 U kunt het foutenbericht *zien het voorraadpunt kon niet worden bewaard. Probeer het opnieuw.* Mogelijk kunt u niet implementeren na een productupdate. Het volgende [!DNL MySQL] foutbericht wordt ook weergegeven wanneer u `php bin/magento setup:upgrade` uitvoert (in Adobe Commerce op de cloud-infrastructuur wordt deze fout weergegeven in de implementatielogboeken):
@@ -50,13 +50,13 @@ Welke oplossing u gebruikt hangt van af wat de kwestie heeft veroorzaakt. Raadpl
 
 Controleer de hoogste waarde van de primaire sleutel door de volgende opdracht in de terminal uit te voeren: `SELECT MAX(value_id) FROM catalog_product_entity_int;`
 
-Als `max(value_id)` lager is dan `max int(11) [ 4294967296 ]`, en `[ AUTO_INCREMENT ]` een waarde groter dan of gelijk aan `max int(11) [ 4294967296 ]` heeft, dan denk na [&#x200B; bijwerkt `[ AUTO_INCREMENT ]` aan de volgende waarde van de lijst &#x200B;](#update-the-auto-increment-to-the-next-value-from-the-table). Anders, overweeg a [`INT` aan `BIGINT` schemaupdate &#x200B;](#int_to_bigint_schema_update).
+Als `max(value_id)` lager is dan `max int(11) [ 4294967296 ]`, en `[ AUTO_INCREMENT ]` een waarde groter dan of gelijk aan `max int(11) [ 4294967296 ]` heeft, dan denk na [ bijwerkt `[ AUTO_INCREMENT ]` aan de volgende waarde van de lijst ](#update-the-auto-increment-to-the-next-value-from-the-table). Anders, overweeg a [`INT` aan `BIGINT` schemaupdate ](#int_to_bigint_schema_update).
 
 ## De `AUTO_INCREMENT` bijwerken naar de volgende waarde in de tabel {#update-the-auto-increment-to-the-next-value-from-the-table}
 
 >[!WARNING]
 >
->Voer een gegevensbestandsteun uit alvorens de lijsten te veranderen. Ook, zet de plaats in [&#x200B; onderhoudswijze &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=nl-NL#maintenance-mode). Daarnaast wordt ook aangeraden de opdracht [!DNL MySQL] optimaliseren uit te voeren in de databasetabellen (alleen naar tabellen waarin wijzigingen zijn aangebracht) nadat de wijzigingen zijn aangebracht.
+>Voer een gegevensbestandsteun uit alvorens de lijsten te veranderen. Ook, zet de plaats in [ onderhoudswijze ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode). Daarnaast wordt ook aangeraden de opdracht [!DNL MySQL] optimaliseren uit te voeren in de databasetabellen (alleen naar tabellen waarin wijzigingen zijn aangebracht) nadat de wijzigingen zijn aangebracht.
 
 >[!NOTE]
 >
@@ -111,8 +111,7 @@ Daartoe:
 
 ## Gerelateerde lezing
 
-* [&#x200B; Algemene  [!DNL MySQL]  richtlijnen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html?lang=nl-NL) in de Gids van de Installatie van Commerce
-* [&#x200B; uploadt het Gegevensbestand verliest verbinding aan  [!DNL MySQL] &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html?lang=nl-NL) in onze basis van de steunkennis
-* [&#x200B; beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html?lang=nl-NL) in onze basis van de steunkennis
-* [&#x200B; gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html?lang=nl-NL) in onze basis van de steunkennis
-* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ Algemene  [!DNL MySQL]  richtlijnen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) in de Gids van de Installatie van Commerce
+* [ beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html) in onze basis van de steunkennis
+* [ gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) in onze basis van de steunkennis
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

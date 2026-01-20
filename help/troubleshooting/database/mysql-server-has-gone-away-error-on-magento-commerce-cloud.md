@@ -1,12 +1,12 @@
 ---
 title: MySQL Server is weggegaan ​ fout op Adobe Commerce in cloud
-description: In dit artikel wordt gesproken over de oplossing voor het probleem waarbij een foutbericht " *SQL server has away*" in het bestand &grave; cron.log&grave; wordt weergegeven. Er kan een reeks symptomen optreden, waaronder problemen met het importeren van afbeeldingsbestanden of een mislukte implementatie.
+description: In dit artikel wordt gesproken over de oplossing voor het probleem waarbij een foutbericht " *SQL server has away*" in het bestand ` cron.log` wordt weergegeven. Er kan een reeks symptomen optreden, waaronder problemen met het importeren van afbeeldingsbestanden of een mislukte implementatie.
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 feature: Cloud, Paas, Services, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Dit artikel praat over de oplossing voor de kwestie waar u &quot; *SQL server he
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, alle [&#x200B; gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Probleem
 
@@ -33,7 +33,7 @@ Succesvolle implementatie.
 
 <u> Werkelijk resultaat </u>
 
-Het bericht van de fout in `cron.log` :&quot; *SQLSTATE \ [HY000 \] \ [2006 \] MySQL server is weggegaan at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144&quot;*
+Het bericht van de fout in `cron.log` :&quot; *SQLSTATE \ [HY000 \] \ [2006 \] MySQL server is weggegaan at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php :144&quot;*
 
 ## Oorzaak
 
@@ -47,6 +47,5 @@ De waarde `default_socket_timeout` is te laag ingesteld. Dit wordt veroorzaakt d
 
 ## Gerelateerde lezing
 
-* [Uploaden database verliest verbinding met MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
-* [&#x200B; beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=nl-NL)
-* [&#x200B; gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=nl-NL)
+* [ beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+* [ gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
