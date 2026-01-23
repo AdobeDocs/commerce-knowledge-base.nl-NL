@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
+source-git-commit: 2118d569e032293f0609becaf10ba4e903ae4b5d
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -204,7 +204,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -223,7 +223,6 @@ ht-degree: 0%
       * [ElasticSuite-volgindices veroorzaken problemen met Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * Handleiding voor Help Center {#help-center-guide}
    * [Experience League Support-gebruikershandleiding voor Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
-   * [Beleidsupdate voor Adobe Commerce Support-beleid voor de levenscyclus van tickets](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * Hoe kan ik {#how-to}
    * [Hoe kan ik-overzicht](/help/how-to/overview.md)
    * [Hoe te om een teamlid in de berichten van de Steun te omvatten](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
