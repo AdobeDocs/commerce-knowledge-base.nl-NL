@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowldge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: d9985fecdafa63882f8411b32e296cc47583c93d
+source-git-commit: 27b0836380c3040b26076b9cb81b9328cb2c9ff2
 workflow-type: tm+mt
-source-wordcount: '9207'
+source-wordcount: '9208'
 ht-degree: 0%
 
 ---
@@ -338,11 +338,11 @@ ht-degree: 0%
       * [Aanbevolen procedures voor het omzetten van cachegrootte in paden](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [CSS- en JS-bestanden optimaliseren in Adobe Commerce](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
    * Database {#database}
-      * [&#x200B; Adobe Commerce 2.3.5 verbetering: compact aan dynamische lijsten &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=nl-NL)
+      * [ Adobe Commerce 2.3.5 verbetering: compact aan dynamische lijsten ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
       * [Aanbevolen werkwijze voor triggergebruik](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [&#x200B; gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=nl-NL)
+      * [ gemeenschappelijkste gegevensbestandkwesties in Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
       * [Adobe Commerce on cloud Infrastructure best practices voor MySQL slave-verbinding](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
-      * [&#x200B; beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=nl-NL)
+      * [ beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
    * Algemeen {#general}
       * [_isScopePrivate in blokken met persoonlijke inhoud vertraagt de Adobe Commerce-prestaties](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
       * [Aanbevolen procedures voor het oplossen van problemen voor Adobe Commerce met cloudinfrastructuur](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
@@ -370,7 +370,7 @@ ht-degree: 0%
       * [Aanbevolen procedures voor afbeeldingen in Adobe Commerce op cloudinfrastructuur](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
       * [Tips en trucs voor Adobe Commerce: kritieke acties uitvoeren in Admin](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
       * [Tips en trucs voor Adobe Commerce: klik op Rapporten uitschakelen als u dit niet doet](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-      * [&#x200B; Indexers &quot;Update op Programma&quot;optimaliseert de prestaties van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html?lang=nl-NL)
+      * [ Indexers &quot;Update op Programma&quot;optimaliseert de prestaties van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
       * [Aanbevolen Adobe Commerce-productvariaties](/help/best-practices/performance/best-practice-magento-product-variations.md)
       * [Aanbevolen procedures voor plaatsing van Adobe Commerce-orders](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
       * [Tips en trucs voor Adobe Commerce: asynchrone orderverwerking inschakelen](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)
@@ -471,7 +471,7 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.2-p1: factuur met een onjuiste waarde](/help/troubleshooting/general/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
       * [Kan de nieuwste Adobe Commerce-pre-release niet openen](/help/troubleshooting/general/cannot-access-the-latest-magento-commerce-pre-release.md)
       * [Wachtwoorden voor beheerders die zijn opgeslagen als onbewerkte tekst in het logboek Handelingen](/help/troubleshooting/general/admin-passwords-saved-as-plain-text-to-actions-log.md)
-      * [Fout bij uitvoeren van &#x200B;](/help/troubleshooting/general/error-running-the-setup-di-compile-command-manually.md)
+      * [Fout bij uitvoeren van ](/help/troubleshooting/general/error-running-the-setup-di-compile-command-manually.md)
       * [Index is vergrendeld door een ander proces](/help/troubleshooting/general/index-is-locked-by-another-process.md)
       * [Een gegevensdiscrepantie diagnosticeren](/help/troubleshooting/general/diagnosing-a-data-discrepancy.md)
       * [Implementatiefout: SQLSTATE[HY000]](/help/troubleshooting/general/deployment-error-sql-hy000.md)
@@ -855,7 +855,7 @@ ht-degree: 0%
    * [Gereedheidscontrole voor bestandsmachtigingen](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
    * [Snel caching werkt niet op Adobe Commerce op cloudinfrastructuur](/help/troubleshooting/miscellaneous/fastly-caching-is-not-working-on-magento-cloud.md)
    * [Problemen met de eCommerce-omzet in Google opsporen](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
-   * [Ik heb API sleutels voor Sensei gevormd maar slechts één SaaS gegevensruimte zien](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
+   * [Ik heb API sleutels voor Adobe AI gevormd maar slechts één SaaS gegevensruimte zien](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
    * [Hoofdmenu (Categorieën) wordt niet weergegeven op subpagina&#39;s waarvoor Snelheid is ingeschakeld](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
    * [Bestandsopslag laag, specifieke pagina&#39;s worden traag geladen](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
    * [Trage prestaties als gevolg van volledige re-indexering](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
@@ -902,12 +902,12 @@ ht-degree: 0%
    * [Adobe Commerce 2.4.2-p1: factuur met een onjuiste waarde](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
    * [Kan de nieuwste Adobe Commerce-pre-release niet openen](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
    * [Wachtwoorden voor beheerders die zijn opgeslagen als onbewerkte tekst in het logboek Handelingen](/help/troubleshooting/miscellaneous/admin-passwords-saved-as-plain-text-to-actions-log.md)
-   * [Fout bij uitvoeren van &#x200B;](/help/troubleshooting/miscellaneous/error-running-the-setup-di-compile-command-manually.md)
+   * [Fout bij uitvoeren van ](/help/troubleshooting/miscellaneous/error-running-the-setup-di-compile-command-manually.md)
    * [Index is vergrendeld door een ander proces](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
    * [Een gegevensdiscrepantie diagnosticeren](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
    * [E-mailberichten voor Admin 2FA worden niet ontvangen](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
    * [Omleiden naar het aanmeldingsformulier voor Commerce Admin met de fout &quot;Uw huidige sessie is verlopen&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
-   * [Fout bij ongedaan maken van Redis &#x200B;](/help/troubleshooting/miscellaneous/redis-unserialize-error-setup-static-content-deploy.md)
+   * [Fout bij ongedaan maken van Redis ](/help/troubleshooting/miscellaneous/redis-unserialize-error-setup-static-content-deploy.md)
    * [Site in onderhoudsmodus maar beschikbaar voor klanten](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
    * [git pull origin develop failed when update the Adobe Commerce software](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
    * [Blockers die op Adobe Commerce starten op cloudinfrastructuur](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
@@ -976,7 +976,7 @@ ht-degree: 0%
    * [Adobe Commerce-probleemoplosser](/help/troubleshooting/miscellaneous/magento-fastly-troubleshooter.md)
    * [AJAX-verzoeken met hoge doorvoer leveren slechte prestaties op](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)
    * [PWA Studio: in Browser wordt de fout &#39;&#39;Kan proxy niet aan&#39;&#39; weergegeven](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
-   * [run &#x200B;](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed_version.txt-issue.md)
+   * [run ](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed_version.txt-issue.md)
    * [Coupon voor eenmalig gebruik wordt meerdere keren gebruikt, Adobe Commerce](/help/troubleshooting/miscellaneous/coupon-code-used-more-than-once-adobe-commerce.md)
    * [Omleiden naar het aanmeldingsformulier voor Commerce Admin met de fout &quot;Uw account is tijdelijk uitgeschakeld&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
    * [Google Analytics wordt uitgeschakeld na implementatie](/help/troubleshooting/miscellaneous/google-analytics-gets-disabled-after-deployment.md)
@@ -992,7 +992,7 @@ ht-degree: 0%
    * [Fout bij wissen van cache in Commerce Admin](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
    * [E-mails niet verzonden wanneer SendGrid-credits op Adobe Commerce worden overschreden](/help/troubleshooting/miscellaneous/emails-not-being-sent-sendgrid-credits-exceeded.md)
    * [Adobe Commerce 2.4.1: lege pagina wanneer digitale pagina Builder-formulier wordt opgeslagen](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
-   * [Adobe Commerce-cloud: opnieuw indexeren wordt beëindigd met &#x200B;](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
+   * [Adobe Commerce-cloud: opnieuw indexeren wordt beëindigd met ](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
    * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
    * [Implementatie mislukt: kan de MDVA-43395-patch niet toepassen](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
    * [Implementatiefouten die voortvloeien uit het inschakelen van de vroege alfakalermodule](/help/troubleshooting/deployment/deployment-errors-from-enabling-early-alpha-baler-javascript-bundling-build.md)

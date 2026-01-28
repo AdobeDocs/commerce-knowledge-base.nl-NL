@@ -1,29 +1,29 @@
 ---
-title: Ik heb API sleutels voor Sensei gevormd maar slechts één SaaS gegevensruimte zien
-description: Dit artikel biedt een oplossing voor de problemen waarbij slechts één SaaS-gegevensruimte wordt weergegeven nadat u de API-sleutels voor Sensei hebt geconfigureerd.
+title: Ik heb API sleutels voor Adobe AI gevormd maar slechts één SaaS gegevensruimte zien
+description: Dit artikel biedt een oplossing voor de problemen waarbij slechts één SaaS-gegevensruimte wordt weergegeven nadat u de API-sleutels voor Adobe AI hebt geconfigureerd.
 exl-id: e13041da-b122-4684-8287-42132931f47a
 feature: REST, Saas, Observability
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 27b0836380c3040b26076b9cb81b9328cb2c9ff2
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
-# Ik heb API sleutels voor Sensei gevormd maar slechts één SaaS gegevensruimte zien
+# Ik heb API sleutels voor Adobe AI gevormd maar slechts één SaaS gegevensruimte zien
 
-Dit artikel biedt een oplossing voor de problemen waarbij slechts één SaaS-gegevensruimte wordt weergegeven nadat u de API-sleutels voor Sensei hebt geconfigureerd.
+Dit artikel biedt een oplossing voor de problemen waarbij slechts één SaaS-gegevensruimte wordt weergegeven nadat u de API-sleutels voor Adobe AI hebt geconfigureerd.
 
 ## Betrokken producten en versies
 
 * Adobe Commerce (alle implementatiemethoden): alle versies
 * Magento Open Source: alle versies
-* Extensie of technologie (Fastly, New Relic, enz.), Adobe Sensei (Product Recommendations/Live Search)
+* Extensie of technologie (snel, New Relic, enz.), Adobe AI (productaanbevelingen/Live zoeken)
 
 ## Probleem
 
-Ik heb de API sleutels voor Sensei gevormd, maar ik zie slechts één SaaS gegevensruimte.
+Ik heb de API sleutels voor Adobe AI gevormd, maar ik zie slechts één SaaS gegevensruimte.
 
 ## Oorzaak
 
