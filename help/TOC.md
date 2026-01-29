@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 12e17359c84e3a71425fce1b378cb57ed7fca86d
+source-git-commit: 6e47f604af3a498f4f9e10c0175875766ebd7e2a
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2360'
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -315,5 +315,4 @@ ht-degree: 0%
    * [Back-up (momentopname) op Cloud: Veelgestelde vragen](/help/faq/general/backup-snapshot-on-cloud-faq.md)
    * [Veelgestelde vragen voor de Adobe Commerce-releasestrategie en het beleid voor de levenscyclus van 2024 en 2023](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
    * [Kan ik updates voor het opslaan van inhoud plannen voor prijzen in een gedeelde catalogus?](/help/faq/general/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.md)
-   * [Veelgestelde vragen over einde Adobe Commerce-software](/help/faq/general/adobe-commerce-eos-policy-faq.md)
    * [Heb ik Fastly nodig voor een Adobe Commerce-site zonder Headless?](/help/faq/general/do-i-need-fastly-for-a-headless-magento-site.md)
