@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 6e47f604af3a498f4f9e10c0175875766ebd7e2a
+source-git-commit: 7f7e26f07e921577b1dd7686f5dace396888aa60
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2340'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,6 @@ ht-degree: 0%
       * [PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
       * [Een ongeldige verschuivingsfout oplossen](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
       * [De productstatus is onjuist bij het programmeren](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
-      * [De verlening van machtigingen voor var-/exportmappen geeft Adobe Commerce in de cloud weer](/help/troubleshooting/miscellaneous/issue-in-the0email-folder-adobe-commerce.md)
       * [Geplande updates voor het bijhouden van inhoud worden niet weergegeven met een verouderde snelcache](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [Uitsnijding oplossen](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
       * [Het CSV-bestand met geëxporteerde producten wordt niet weergegeven](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
@@ -201,7 +200,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -302,7 +301,6 @@ ht-degree: 0%
    * [Link Magento.com and accounts.magento.cloud account logins](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
    * [Veelgestelde vragen over het snel camoufleren van oorsprong](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
    * [Database auto_increment increment variabele ingesteld op &quot;3&quot; Adobe Commerce op onze cloud pro architectuur](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
-   * [Monitoringoverzicht voor Adobe Commerce over cloud pro-infrastructuur](/help/faq/general/monitoring-whitepaper.md)
    * [Toegang tot New Relic-services](/help/faq/general/access-new-relic-services.md)
    * [Toegankelijkheid van webinhoud voor Adobe Commerce](/help/faq/general/accessibility.md)
    * [Hoeveel coupons kan een klant in Adobe Commerce gebruiken?](/help/faq/general/how-many-coupons-can-a-customer-use-in-magento-2.md)
