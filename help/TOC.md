@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 7f7e26f07e921577b1dd7686f5dace396888aa60
+source-git-commit: 49dd77f7cb185d771f5f1db823692ede72748634
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -200,7 +200,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -309,7 +309,6 @@ ht-degree: 0%
    * [Adobe Commerce GDPR-bronnen](/help/faq/general/magento-gdpr-resources.md)
    * [Basisprijswijziging is van invloed op de prijs van een gedeelde catalogus](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md)
    * [Verificatie in twee factoren in het deelvenster Beheer op veelgestelde vragen voor Adobe Commerce](/help/faq/general/two-factor-authentication-in-admin-panel-on-magento-faq.md)
-   * [Adobe Commerce-ondersteuningsprogramma&#39;s in één oogopslag](/help/faq/general/support-tools-overview.md)
    * [Back-up (momentopname) op Cloud: Veelgestelde vragen](/help/faq/general/backup-snapshot-on-cloud-faq.md)
    * [Veelgestelde vragen voor de Adobe Commerce-releasestrategie en het beleid voor de levenscyclus van 2024 en 2023](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
    * [Kan ik updates voor het opslaan van inhoud plannen voor prijzen in een gedeelde catalogus?](/help/faq/general/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.md)
