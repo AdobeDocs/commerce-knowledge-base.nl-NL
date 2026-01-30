@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 85d91886a6656b28da91fb3aa40016a800ecd53f
+source-git-commit: 3786fde60a4161a155da798a9deda0184e6d1e6a
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2317'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,6 @@ ht-degree: 0%
       * [PHP-coderingsextensie is niet correct geïnstalleerd](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
       * [Cron job zit vast in status &quot;running&quot;](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
       * [Offload niet-regex herleidt naar Fastly in plaats van Nginx (routes)](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
-      * [Advanced Reporting troubleshooter voor Adobe Commerce](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
       * [Veelvoorkomende fatale fouten en oplossingen in PHP](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
       * [Adobe Commerce 2.4.2 B2B: e-mailsjabloon werkt e-mail niet bij](/help/troubleshooting/miscellaneous/magento-2-4-2-b2b-email-template-not-updating-email.md)
       * [PWA Studio: browser vertrouwt gegenereerd SSL-certificaat niet](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
@@ -199,7 +198,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
