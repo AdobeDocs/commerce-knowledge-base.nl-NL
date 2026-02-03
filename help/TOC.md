@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 5e179296b668aec143c309dd56a7561fe0ccbd09
+source-git-commit: 038d6e68093742a0ef7d6bd76996f416559ba5c0
 workflow-type: tm+mt
-source-wordcount: '2291'
+source-wordcount: '2286'
 ht-degree: 0%
 
 ---
@@ -196,7 +196,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -299,7 +299,6 @@ ht-degree: 0%
    * [Toegang tot New Relic-services](/help/faq/general/access-new-relic-services.md)
    * [Toegankelijkheid van webinhoud voor Adobe Commerce](/help/faq/general/accessibility.md)
    * [Hoeveel coupons kan een klant in Adobe Commerce gebruiken?](/help/faq/general/how-many-coupons-can-a-customer-use-in-magento-2.md)
-   * [Beschrijvingen van contactreden voor ondersteuningsticket](/help/faq/general/support-ticket-contact-reason-descriptions.md)
    * [Partner Adobe Commerce op verzoek van cloud-infrastructuursandbox](/help/faq/general/partner-magento-commerce-cloud-sandbox-requests.md)
    * [Adobe Commerce GDPR-bronnen](/help/faq/general/magento-gdpr-resources.md)
    * [Basisprijswijziging is van invloed op de prijs van een gedeelde catalogus](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md)
