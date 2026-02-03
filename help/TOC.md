@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 981d62e0bd2c61ae516777579757eaff505b8719
+source-git-commit: 5e179296b668aec143c309dd56a7561fe0ccbd09
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2291'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,6 @@ ht-degree: 0%
       * [Meld u opnieuw aan bij Commerce Admin om u aan te melden](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [Problemen met coderingssleutel oplossen](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
       * [PWA Studio: GraphQL vraagt naar Adobe Commerce om validatiefouten te veroorzaken](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
-      * [Stock status is onjuist na Inventory management-installatie](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
       * [Gegevens exporteren gebruiken om discrepanties vast te stellen](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
       * [Problemen met het hulpprogramma voor gegevensmigratie oplossen](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
       * [Problemen met gereedheid voor componentafhankelijkheid](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
@@ -197,7 +196,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
