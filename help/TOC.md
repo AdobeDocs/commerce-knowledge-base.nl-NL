@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 038d6e68093742a0ef7d6bd76996f416559ba5c0
+source-git-commit: db498cd9d256e542c7b2db7ee383c296f782800b
 workflow-type: tm+mt
-source-wordcount: '2286'
+source-wordcount: '2276'
 ht-degree: 0%
 
 ---
@@ -189,14 +189,13 @@ ht-degree: 0%
       * [Kan gebruiker niet toevoegen aan Adobe Commerce Cloud Project](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
       * [De einden van de uitsnede toe te schrijven aan misconfigured of mist  [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
       * [[!DNL Admin] aanmelden werkt niet - toegestane sessiegrootte is overschreden](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
-      * [Adobe Commerce Intelligence-verbinding configureren voor bestaande startprojecten voor cloud](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
       * [[!DNL Google Tag Manager] wordt afgebroken door de widget Live zoeken](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
       * [De kwetsbaarheid die door derdeveiligheidsscans wordt gevonden zou moeten gaan  [!DNL HackerOne]](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
       * [Duizenden zoekresultaten ophalen na de upgrade van 2.4.2 naar 2.4.5-p3](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
