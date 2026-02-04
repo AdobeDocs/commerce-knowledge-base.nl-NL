@@ -3,24 +3,24 @@ title: Experience League Support-gebruikershandleiding voor Adobe Commerce
 description: Leer hoe u een ondersteuningsticket naar Experience League Support kunt verzenden, gedeelde toegang tot accounts kunt bieden en door de Adobe Commerce Knowledge Base kunt navigeren.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: be3f8d0b9c6ef46d2ba7105b32a7ce1ab957ae14
+source-git-commit: 307252b30091f2ba397cba09e840050a86f610b5
 workflow-type: tm+mt
-source-wordcount: '3121'
+source-wordcount: '3345'
 ht-degree: 0%
 
 ---
 
 # Experience League Support-gebruikershandleiding voor Adobe Commerce
 
-In deze gids, leer hoe te om een steunkaartje aan [&#x200B; Steun van Experience League &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL#support) voor te leggen en gedeelde toegang tot de rekeningen van Adobe Commerce te verlenen.
+In deze gids, leer hoe te om een steunkaartje aan [ Steun van Experience League ](https://experienceleague.adobe.com/home#support) voor te leggen en gedeelde toegang tot de rekeningen van Adobe Commerce te verlenen.
 
 >[!NOTE]
 >
->Adobe Commerce-ondersteuning is gemigreerd van Adobe Commerce Help Center naar Experience League. Gebruik de hier beschreven de gevalsstroom van de Experience League vorm [&#x200B; &#x200B;](#what-is-experience-support) om steungevallen voor te leggen.
+>Adobe Commerce-ondersteuning is gemigreerd van Adobe Commerce Help Center naar Experience League. Gebruik de hier beschreven de gevalsstroom van de Experience League vorm [ ](#what-is-experience-support) om steungevallen voor te leggen.
 
 >[!NOTE]
 >
->Op dit moment moet u naar https://support.magento.com/hc/en-us/requests gaan om uw eerder ingediende zaken te bekijken in het Adobe Commerce Help Center, aangezien deze gevallen niet naar het nieuwe systeem voor het plaatsen van ondersteuningstickets zijn gemigreerd. Het Centrum van de Hulp is nu read-only; om steun voor de originele kwestie te blijven ontvangen, zult u een follow-up kaartje aan [&#x200B; Steun van Experience League &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL#support) moeten voorleggen.
+>Op dit moment moet u naar https://support.magento.com/hc/en-us/requests gaan om uw eerder ingediende zaken te bekijken in het Adobe Commerce Help Center, aangezien deze gevallen niet naar het nieuwe systeem voor het plaatsen van ondersteuningstickets zijn gemigreerd. Het Centrum van de Hulp is nu read-only; om steun voor de originele kwestie te blijven ontvangen, zult u een follow-up kaartje aan [ Steun van Experience League ](https://experienceleague.adobe.com/home#support) moeten voorleggen.
 
 >[!NOTE]
 >
@@ -75,10 +75,10 @@ Door in te loggen kunt u vragen van medewerkers op ondersteuningstickets indiene
 
 Voer de volgende stappen uit om u aan te melden bij de Adobe Experience League Support:
 
-1. Navigeer aan [&#x200B; Experience.adobe.com &#x200B;](https://experienceleague.adobe.com/nl).
+1. Navigeer aan [ Experience.adobe.com ](https://experienceleague.adobe.com/).
 1. Meld u aan met uw aanmeldingsgegevens voor Adobe.
 
-![&#x200B; teken-in-ervaring-liga &#x200B;](assets/experience_league_sign_in.png)
+![ teken-in-ervaring-liga ](assets/experience_league_sign_in.png)
 
 ### Een ondersteuningskwestie indienen {#support-case}
 
@@ -94,7 +94,7 @@ Zodra u bent aangemeld als eigenaar van de account of als gebruiker van Gedeelde
 >* Uw probleem is dat u zich niet kunt aanmelden bij de Marketplace-account of dat u een vraag hebt over het implementeren van een extensie.
 >* Het gaat niet alleen om het aanvragen van een terugbetaling voor je aankoop(en) op de markt.
 >
->Voor kwesties met betrekking tot het publiceren van uw uitbreiding, het hebben van problemen het kopen, of het vragen van een terugbetaling op [&#x200B; Adobe Commerce Marketplace &#x200B;](https://commercemarketplace.adobe.com/), moet u het [!DNL Commerce Marketplace] team rechtstreeks contacteren door https://commercemarketplace.adobe.com/ te bezoeken. Navigeer naar de onderkant van de pagina en klik op **[!UICONTROL Contact Us]** . Hiermee wordt een formulier geopend voor het verzenden van een ondersteuningsticket voor Marketplace.
+>Voor kwesties met betrekking tot het publiceren van uw uitbreiding, het hebben van problemen het kopen, of het vragen van een terugbetaling op [ Adobe Commerce Marketplace ](https://commercemarketplace.adobe.com/), moet u het [!DNL Commerce Marketplace] team rechtstreeks contacteren door https://commercemarketplace.adobe.com/ te bezoeken. Navigeer naar de onderkant van de pagina en klik op **[!UICONTROL Contact Us]** . Hiermee wordt een formulier geopend voor het verzenden van een ondersteuningsticket voor Marketplace.
 
 #### Startpagina van Adobe Experience League {#experience-league-start-page}
 
@@ -104,7 +104,7 @@ Voer de volgende stappen uit om een nieuwe ondersteuningskwestie in te dienen me
 >
 >1. Als u een kwestie wilt indienen, moet u aanspraak kunnen maken op ondersteuning voor het juiste product (bijvoorbeeld Adobe Commerce, Adobe Commerce Intelligence, Adobe Commerce Payment Services, Experience Platform, enz.). Als u niet gerechtigd bent om te steunen, zal een bar bij de bovenkant van de pagina verschijnen die u deelt dat u geen steun-gerechtigde gebruiker in de organisatie bent.
 >1. Als u tot veelvoudige organisaties behoort of er veelvoudige organisaties met gelijkaardige-kijkt namen zijn (elk zal om het even welke andere producten van Adobe vertegenwoordigen de organisatie abonnementen aan), zult u de aangewezen organisatie van dropdown in de linkerkolom eerst moeten selecteren die in *[!DNL (Commerce)]* beëindigt.
->1. Als het vervolgkeuzemenu **[!UICONTROL Select a product]** leeg is wanneer u een kwestie indient, gebruikt u waarschijnlijk een Adobe Commerce Partner-account. Slechts kunnen de gebruikers met [&#x200B; Gedeelde Toegang &#x200B;](#shared-access) van een handelaar met steunrechten kaartjes voorleggen. Voor commerciële kwesties, verzoek Gedeelde Toegang. Neem voor partnerproblemen contact op met spphelp@adobe.com.
+>1. Als het vervolgkeuzemenu **[!UICONTROL Select a product]** leeg is wanneer u een kwestie indient, gebruikt u waarschijnlijk een Adobe Commerce Partner-account. Slechts kunnen de gebruikers met [ Gedeelde Toegang ](#shared-access) van een handelaar met steunrechten kaartjes voorleggen. Voor commerciële kwesties, verzoek Gedeelde Toegang. Neem voor partnerproblemen contact op met spphelp@adobe.com.
 
 >[!NOTE]
 >
@@ -114,19 +114,19 @@ Voer de volgende stappen uit om een nieuwe ondersteuningskwestie in te dienen me
 
 1. Klik op **Steun** in de kopbal. Het zal de homepage van de Steun openen.
 
-   ![&#x200B; open-steun-pagina &#x200B;](assets/commerce_support_homepage.png)
+   ![ open-steun-pagina ](assets/commerce_support_homepage.png)
 
 1. Zorg ervoor dat u de juiste organisatie hebt geselecteerd in de vervolgkeuzelijst Organisatie (indien zichtbaar) om het supportinnameproces te starten. Als u een case voor Adobe Commerce wilt verzenden, selecteert u de naam van de organisatie die eindigt in *[!DNL Commerce]* .
 
-   ![&#x200B; select_appropriate_org &#x200B;](assets/select_appropriate_org.png)
+   ![ select_appropriate_org ](assets/select_appropriate_org.png)
 
 1. Klik op **[!UICONTROL Open Ticket]** in het linkermenu of klik op **[!UICONTROL Get Started]** op de kaart *[!UICONTROL Open a support ticket]* .
 
-   ![&#x200B; open-steun-geval &#x200B;](assets/open_support_case.png)
+   ![ open-steun-geval ](assets/open_support_case.png)
 
 1. Selecteer een product in het keuzemenu en geef een titel en beschrijving op. NOTA: Als drop-down geen producten toont of [!DNL Commerce] geen beschikbare optie is, probeer veranderend [!UICONTROL Organization] in de linkerkolom, en controleer opnieuw.
 
-   ![&#x200B; select_product &#x200B;](assets/support_case_product.png)
+   ![ select_product ](assets/support_case_product.png)
 
    >[!NOTE]
    >
@@ -135,7 +135,7 @@ Voer de volgende stappen uit om een nieuwe ondersteuningskwestie in te dienen me
 
 1. Adobe Experience League zal artikelen en tips en trucs voorstellen die u kunnen helpen uw kwestie op te lossen. Als u nog steeds directe ondersteuning nodig hebt, moet u aanvullende informatie opgeven voordat u de kwestie kunt indienen.
 
-   ![&#x200B; direct_support_required &#x200B;](assets/direct_support.png)
+   ![ direct_support_required ](assets/direct_support.png)
 
 1. Klik op **[!UICONTROL Submit case]** als u alle vereiste gegevens hebt ingevuld.
 
@@ -146,7 +146,7 @@ Voer de volgende stappen uit om een nieuwe ondersteuningskwestie in te dienen me
 >1. Navigeer naar accounts.magento.com en meld u aan met hetzelfde profiel (bedrijf, school of persoonlijk) als u ondersteuningsgevallen in Adobe Experience League wilt beheren.
 >1. Nadat u zich hebt aangemeld bij uw accounts.magento.com-profiel, navigeert u terug naar experienceleague.adobe.com en meldt u zich aan.
 >1. Selecteer uw organisatie in het keuzemenu voor de organisatie.
->1. Als uw organisatie nog steeds niet wordt weergegeven, neemt u contact op met uw Commerce-beheerder om rechten voor ondersteuningsgemachtigden te verkrijgen. Voor extra informatie, zie het [&#x200B; hulpartikel van het Aandeel van de Rekening 0&rbrace; Commerce.](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/commerce-account/commerce-account-share)
+>1. Als uw organisatie nog steeds niet wordt weergegeven, neemt u contact op met uw Commerce-beheerder om rechten voor ondersteuningsgemachtigden te verkrijgen. Voor extra informatie, zie het [ hulpartikel van het Aandeel van de Rekening 0} Commerce.](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)
 
 >[!NOTE]
 >
@@ -163,6 +163,25 @@ Voer de volgende stappen uit om een nieuwe ondersteuningskwestie in te dienen me
 >1. Als u de zaak voor OrgA indiende maar het probleem feitelijk OrgB beïnvloedt, zullen leden van OrgB deze zaak in de toekomst niet onder [!UICONTROL My Cases] kunnen zien.
 >1. Daarnaast kunnen leden van OrgA gevallen onder [!UICONTROL My Cases] zien die eigenlijk bedoeld zijn voor OrgB, wat kan leiden tot privacyproblemen.
 
+>[!NOTE]
+>
+> Om ervoor te zorgen dat u de snelste en meest nauwkeurige ondersteuning krijgt, selecteert u de juiste details bij het maken van ondersteuningsverzoeken. Nauwkeurige selectie helpt uw geval rechtstreeks naar het juiste team te leiden en verkort de reactietijden.
+>
+>Als uw organisatie rechten voor de Rapportering van Adobe Commerce Intelligence/Commerce (MBI) maar u hulp met Geavanceerde Rapportering nodig hebt, selecteer niet **Commerce die** meldt als product. Het Commerce Reporting-team biedt geen ondersteuning voor problemen met Geavanceerde rapportage.
+>
+>Als u geen verschillend product kunt selecteren (bijvoorbeeld, **Uitgezocht een product** dropdown is leeg of niet getoond), is het gewoonlijk toe te schrijven aan één van de volgende redenen:
+>
+>* Uw Commerce-rechten zijn verlopen of zijn inactief (bijvoorbeeld vanwege een openstaande facturerings- of licentiekwestie).
+>* Voor instanties die worden gehost op Adobe Commerce op de cloud-infrastructuur (PaaS), bent u niet toegevoegd aan het Cloud-project.
+>
+>Voor Adobe Commerce-projecten in de cloud neemt u contact op met de eigenaar van uw account en vraagt u om toevoeging aan het juiste Cloud-project. Voor meer informatie, zie [ gebruikerstoegang ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access) voor Adobe Commerce op wolkeninfrastructuur beheren.
+>
+>Nadat u Gedeelde Toegang hebt verleend en aan het project van de Wolk toegevoegd:
+>
+>1. Ga naar de [ pagina van de Steun van Adobe ](https://experienceleague.adobe.com/home?lang=en#support).
+>1. In de organisatie drop-down op de linkerzijde, selecteer de organisatie waarvan naam met **(Commerce)** beëindigt.
+>1. Verzend het kaartje voor het aangewezen product, en selecteer niet **Commerce die** voor kwesties specifiek met betrekking tot Geavanceerde Rapportering Te melden.
+
 U moet een account hebben op zowel https://account.adobe.com als https://account.magento.com om u aan te melden bij de Experience League om een ondersteuningskwestie te kunnen indienen. U kunt pas een ondersteuningskwestie verzenden nadat u bent aangemeld.
 
 >[!NOTE]
@@ -178,21 +197,21 @@ U moet een account hebben op zowel https://account.adobe.com als https://account
 
 Ga als volgt te werk als u een nieuw ondersteuningsticket wilt verzenden via uw Adobe Commerce-accountpagina:
 
-1. Meld u aan bij uw Adobe Commerce-account. Zie [&#x200B; gedetailleerde instructies &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=nl-NL#create-a-commerce-account) in onze gebruikersgids.
+1. Meld u aan bij uw Adobe Commerce-account. Zie [ gedetailleerde instructies ](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) in onze gebruikersgids.
 1. Klik de **Steun** tabel.
 
-   ![&#x200B; magento_account_support_tab &#x200B;](assets/magento_account_support_tab.png){width="800"}
+   ![ magento_account_support_tab ](assets/magento_account_support_tab.png){width="800"}
 
 1. De ondersteuningspagina van de Adobe Experience League wordt voor u geladen.
 1. Selecteer **[!UICONTROL Open Ticket]** in het linkermenu.
-1. Vul de [&#x200B; gebieden &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-support-ticket-contact-reason-descriptions) in.
+1. Vul de [ gebieden ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-support-ticket-contact-reason-descriptions) in.
 1. Klik **voorleggen**.
 
 #### *Gelieve te verifiëren uw e-mailadres* fout op de pagina van de Rekening van Adobe Commerce {#verify-email-address-error}
 
-U zult geen steunkaartje kunnen voorleggen als u gelieve uw e-mailadresfout te verifiëren gelijkend op hieronder op de [&#x200B; Adobe Commerce rekening &#x200B;](https://account.magento.com/) pagina ontvangt.
+U zult geen steunkaartje kunnen voorleggen als u gelieve uw e-mailadresfout te verifiëren gelijkend op hieronder op de [ Adobe Commerce rekening ](https://account.magento.com/) pagina ontvangt.
 
-![&#x200B; Verify_Email_Address_Error &#x200B;](assets/Verify_Email_Address_Error.png)
+![ Verify_Email_Address_Error ](assets/Verify_Email_Address_Error.png)
 
 
 ### Volg je Commerce-supportaanvragen {#track-support-case}
@@ -211,11 +230,11 @@ Uw ondersteuningszaken zijn die van u:
 
 U kunt de Commerce-gevallen die u persoonlijk hebt verzonden weergeven door op **[!UICONTROL My Cases]** in het linkermenu te klikken. Zorg ervoor dat u de juiste organisatie hebt geselecteerd die eindigt in &quot;(Commerce)&quot;.
 
-![&#x200B; mening-steun-gevallen &#x200B;](assets/view_support_cases.png)
+![ mening-steun-gevallen ](assets/view_support_cases.png)
 
 #### Je historische kwesties bekijken vanuit Adobe Commerce Help Center
 
-Leer meer over hoe u uw historische gevallen **van het Centrum van de Hulp van Adobe Commerce in** Ontmanteling van het Centrum van de Hulp van Adobe Commerce [&#x200B; in onze Kennisbank van Adobe Commerce kunt bekijken.](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center)
+Leer meer over hoe u uw historische gevallen **van het Centrum van de Hulp van Adobe Commerce in** Ontmanteling van het Centrum van de Hulp van Adobe Commerce [ in onze Kennisbank van Adobe Commerce kunt bekijken.](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center)
 
 #### Je gevolgde kwesties bekijken
 
@@ -228,7 +247,7 @@ U kunt de gevallen van Commerce bekijken u *aan als controleur* door **[!UICONTR
 
 Om gevallen te vinden, typ uw onderzoeksvraag op het *[!UICONTROL Search]* gebied en druk *ga* op uw toetsenbord in.
 
-![&#x200B; onderzoek-gevallen &#x200B;](assets/search_cases.png)
+![ onderzoek-gevallen ](assets/search_cases.png)
 
 #### Vergroot uw zaken
 
@@ -236,11 +255,11 @@ Als u van mening bent dat een zaak extra aandacht vereist en onze eerste reactie
 
 1. Klik op **[!UICONTROL Escalate to management]** rechtsonder in het deelvenster *[!UICONTROL Case Detail]* aan de rechterkant van het scherm.
 
-   ![&#x200B; escalate-aan-beheer &#x200B;](assets/escalate_to_management.png)
+   ![ escalate-aan-beheer ](assets/escalate_to_management.png)
 
 1. Nadat u hebt geklikt, wordt een pop-upformulier weergegeven. Vul het formulier in en klik op **[!UICONTROL Escalate]** .
 
-   ![&#x200B; bevestiging-escalatie &#x200B;](assets/confirm_escalation.png)
+   ![ bevestiging-escalatie ](assets/confirm_escalation.png)
 
    *de Redenen voor escalatie kunnen* omvatten: Communicatie van de agent Vaardigheden, de Technische Kennis van de Agent, wachtend Callback/Update, Verandering in Kwestie Urgentie, Resolutie voldeed niet aan verwachtingen, of Tijd aan Resolutie.
 
@@ -250,15 +269,15 @@ U kunt watchers toevoegen om gevallen te ondersteunen die door leden van uw orga
 
 1. Als u een watcher wilt toevoegen aan een bestaand hoofdlettergebruik, opent u het hoofdlettergebruik en klikt u op het potloodpictogram naast &quot;watchers&quot; in het deelvenster Details hoofdlettergebruik rechts van het scherm.
 
-   ![&#x200B; add-watchers &#x200B;](assets/add_watchers.png)
+   ![ add-watchers ](assets/add_watchers.png)
 
 1. Nadat u op het potlood hebt geklikt, kunt u er wachtwoorden aan toevoegen of eruit verwijderen.
 
-   ![&#x200B; update-horloges &#x200B;](assets/update_watchers.png)
+   ![ update-horloges ](assets/update_watchers.png)
 
 >[!NOTE]
 >
->Voor meer informatie over hoe te om horloges voor uw geval toe te voegen en te verwijderen, [&#x200B; ziet horloges toevoegen en verwijderen, sluiten en opnieuw openen kaartenvideo &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket).
+>Voor meer informatie over hoe te om horloges voor uw geval toe te voegen en te verwijderen, [ ziet horloges toevoegen en verwijderen, sluiten en opnieuw openen kaartenvideo ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket).
 
 ### Opmerkingen in uw geval {#comments-in-your-case}
 
@@ -268,46 +287,46 @@ Ga als volgt te werk om een opmerking toe te voegen:
 1. Blader naar de onderkant van uw ticket.
 1. Schrijf uw opmerking in het veld **[!UICONTROL Comments]** en klik op **[!UICONTROL Add comments]** .
 
-![&#x200B; toe:voegen-commentaren &#x200B;](assets/add_comments.png)
+![ toe:voegen-commentaren ](assets/add_comments.png)
 
 ### Kwestie sluiten {#close-case}
 
 Als u de kwestie wilt sluiten, klikt u op **[!UICONTROL Close case]** rechtsonder in het deelvenster *[!UICONTROL Case Detail]* .
 
-![&#x200B; dicht-geval &#x200B;](assets/close_case.png)
+![ dicht-geval ](assets/close_case.png)
 
 >[!NOTE]
 >
->Voor meer informatie over hoe te om uw geval te sluiten, zie [&#x200B; horloges toevoegen en verwijderen, sluiten en opnieuw openen kaartenvideo &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket).
+>Voor meer informatie over hoe te om uw geval te sluiten, zie [ horloges toevoegen en verwijderen, sluiten en opnieuw openen kaartenvideo ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket).
 
 ### De kwestie opnieuw openen {#reopen-case}
 
 >[!NOTE]
 >
->**U kunt een geval slechts binnen 14 dagen na zijn sluiting opnieuw openen.** Als u langer bent dan 14 dagen na de afsluiting van de zaak, maar nog steeds hulp wilt vragen over een probleem, moet u een nieuwe kwestie openen.<br> voor meer informatie over het sluiten en het heropenen van gevallen, zie [&#x200B; horloges toevoegen en verwijderen, sluiten en opnieuw openen kaartenvideo &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket).
+>**U kunt een geval slechts binnen 14 dagen na zijn sluiting opnieuw openen.** Als u langer bent dan 14 dagen na de afsluiting van de zaak, maar nog steeds hulp wilt vragen over een probleem, moet u een nieuwe kwestie openen.<br> voor meer informatie over het sluiten en het heropenen van gevallen, zie [ horloges toevoegen en verwijderen, sluiten en opnieuw openen kaartenvideo ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket).
 
 >[!NOTE]
 >
->U kunt een kwestie niet opnieuw openen door op een e-mailbericht van een gesloten kaartje te antwoorden. Om het geval opnieuw te openen, zorg ervoor dat u [&#x200B; Gedeelde Toegang &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26164) door de rekeningseigenaar bent gegeven.
+>U kunt een kwestie niet opnieuw openen door op een e-mailbericht van een gesloten kaartje te antwoorden. Om het geval opnieuw te openen, zorg ervoor dat u [ Gedeelde Toegang ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26164) door de rekeningseigenaar bent gegeven.
 
 ### Een ticket verzenden met gebruik van Cloud Console {#cloud-console}
 
 Voer de volgende stappen uit om een nieuw ondersteuningsticket te verzenden met de Cloud Console:
 
-1. Login aan de [&#x200B; Console van de Wolk &#x200B;](https://console.adobecommerce.com).
+1. Login aan de [ Console van de Wolk ](https://console.adobecommerce.com).
 1. Selecteer **[!UICONTROL Support]** in het gebruikersmenu.
 1. De pagina **[!UICONTROL My Tickets]** wordt geladen.
 1. Klik op **[!UICONTROL Submit a ticket]** in de rechterbovenhoek.
-1. Vul de [&#x200B; gebieden &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-support-ticket-contact-reason-descriptions) in.
+1. Vul de [ gebieden ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-support-ticket-contact-reason-descriptions) in.
 1. Klik op **[!UICONTROL Submit]**.
 
 ### Adobe Commerce P1-hotline {#P1-hotline}
 
-Het [&#x200B; P1 hotline van Adobe Commerce P1 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html?lang=nl-NL) artikel verstrekt P1 hotline aantallen voor Adobe Commerce wanneer het zoeken hulp tijdens een P1 incident en verklaart welke informatie te verstrekken.
+Het [ P1 hotline van Adobe Commerce P1 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html) artikel verstrekt P1 hotline aantallen voor Adobe Commerce wanneer het zoeken hulp tijdens een P1 incident en verklaart welke informatie te verstrekken.
 
 ### Adobe Commerce-operationeel model voor gedeelde verantwoordelijkheid {#shared-responsibility-operational-model}
 
-Zie het artikel op [&#x200B; Adobe Commerce Gedeelde Verantwoordelijkheid Operationeel Model &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary),
+Zie het artikel op [ Adobe Commerce Gedeelde Verantwoordelijkheid Operationeel Model ](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary),
 waarmee wordt beoogd de operationele verantwoordelijkheden voor alleen ons Pro-infrastructuuraanbod te verduidelijken.
 
 ### Een vervolgticket openen {#follow-up}
@@ -320,44 +339,44 @@ Om een follow-up kaartje te openen, klik &quot;*creeer een follow-up*&quot;verbi
 
 Je kunt aan andere Adobe Commerce-rekeninghouders beperkte toegang tot je account verlenen. Met name, gebruikend de **gedeelde toegang** functionaliteit, kunt u voorrechten voor vertrouwde op werknemers en dienstverleners verstrekken om uw rekening van het Centrum van de Hulp te gebruiken zodat zij met uw steunkaartjes konden werken.
 
-U kunt gedeelde toegang verstrekken en beheren gebruikend uw Adobe Commerce- rekeningspagina in [&#x200B; https://account.magento.com &#x200B;](https://account.magento.com/).
+U kunt gedeelde toegang verstrekken en beheren gebruikend uw Adobe Commerce- rekeningspagina in [ https://account.magento.com ](https://account.magento.com/).
 
 ### Wie gedeelde toegang kan verlenen {#who-can-provide-shared-access}
 
 Alleen de eigenaar van de account (primaire rekeninghouder) met de bijbehorende rechten kan andere gebruikers gedeelde toegang bieden.
 
-Het beheren van gebruikers en hun toegang is de verantwoordelijkheid van de klant, vooral in het gedeelde toegangsperspectief. Het Adobe Commerce-ondersteuningsteam kan dus geen gedeelde toegang verlenen aan een Adobe Commerce-account namens een klant. De klanten worden aangemoedigd om gebruikers met gedeelde toegang zelf toe te voegen, gebruikend de [&#x200B; de rekeningspagina van Adobe Commerce &#x200B;](https://account.magento.com/).
+Het beheren van gebruikers en hun toegang is de verantwoordelijkheid van de klant, vooral in het gedeelde toegangsperspectief. Het Adobe Commerce-ondersteuningsteam kan dus geen gedeelde toegang verlenen aan een Adobe Commerce-account namens een klant. De klanten worden aangemoedigd om gebruikers met gedeelde toegang zelf toe te voegen, gebruikend de [ de rekeningspagina van Adobe Commerce ](https://account.magento.com/).
 
 Gebruikers die gedeelde toegang hebben gekregen, kunnen dergelijke toegang niet aan andere gebruikers overdragen of verlenen.
 
 ### Gedeelde toegang bieden {#provide-shared-access}
 
-Zie [&#x200B; een Commerce rekening &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/commerce-account/commerce-account-share) sectie van Adobe Commerce delen Begonnen Gids voor gedetailleerde stappen bij vestiging een gedeelde rekening.
+Zie [ een Commerce rekening ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) sectie van Adobe Commerce delen Begonnen Gids voor gedetailleerde stappen bij vestiging een gedeelde rekening.
 
 >[!NOTE]
 >
->De gebruiker moet een bestaande rekening hebben alvorens zij Gedeelde Toegang kunnen worden verleend - verwijs naar [&#x200B; een rekening van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) voor meer details creëren.
+>De gebruiker moet een bestaande rekening hebben alvorens zij Gedeelde Toegang kunnen worden verleend - verwijs naar [ een rekening van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) voor meer details creëren.
 
 Na het verstrekken van gedeelde toegang voor een nieuwe gebruiker, is de verwante informatie beschikbaar in **Gedeelde Toegang** > **leidt Toestemmingen** van uw de rekeningspagina van Adobe Commerce.
 
 >[!NOTE]
 >
->Via gedeelde toegang wordt niet automatisch toegang tot de Commerce Cloud-console verleend. U moet [&#x200B; de gebruiker afzonderlijk aan het Project van de Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/project/user-access#add-a-user-to-the-project) toevoegen.
+>Via gedeelde toegang wordt niet automatisch toegang tot de Commerce Cloud-console verleend. U moet [ de gebruiker afzonderlijk aan het Project van de Wolk ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access#add-a-user-to-the-project) toevoegen.
 
-![&#x200B; magento-account-shared-manage-permissions &#x200B;](assets/magento_account_shared_manage_permissions.png)
+![ magento-account-shared-manage-permissions ](assets/magento_account_shared_manage_permissions.png)
 
 ### Gedeelde toegang intrekken (verwijderen) {#revoke-shared-access}
 
-1. Login aan uw rekening van Adobe Commerce in [&#x200B; https://account.magento.com &#x200B;](https://account.magento.com/).
+1. Login aan uw rekening van Adobe Commerce in [ https://account.magento.com ](https://account.magento.com/).
 1. In het paneel op de linkerzijde, onder Gedeelde Toegang, kies **Beheers Toestemmingen.**
-1. Vind de gebruiker om gedeelde toegang van terug te trekken en ![&#x200B; te klikken verwijdert pictogram &#x200B;](assets/remove_icon.png){width="25"} in de rij van de gebruiker (**Acties** kolom).
+1. Vind de gebruiker om gedeelde toegang van terug te trekken en ![ te klikken verwijdert pictogram ](assets/remove_icon.png){width="25"} in de rij van de gebruiker (**Acties** kolom).
 1. Klik **Gebruiker van de Schrapping** om toegang of X in de hoogste hoek terug te roepen om het terugroepen te annuleren.
 
-   ![&#x200B; revoke_shared_access &#x200B;](assets/revoke_shared_access.png){width="800"}
+   ![ revoke_shared_access ](assets/revoke_shared_access.png){width="800"}
 
    U kunt gedeelde toegang ook intrekken gebruikend **geeft** menu uit:
 
-1. Login aan uw rekening van Adobe Commerce in [&#x200B; https://account.magento.com &#x200B;](https://account.magento.com/).
+1. Login aan uw rekening van Adobe Commerce in [ https://account.magento.com ](https://account.magento.com/).
 1. In het paneel op de linkerzijde, onder Gedeelde Toegang, kies **Beheers Toestemmingen.**
 1. Vind de gebruiker om gedeelde toegang van terug te trekken en **te klikken geeft** in de rij van de gebruiker uit (**Acties** kolom).
 1. Klik **Schrapping Deze Gebruiker** bij de bodem van de pagina.
@@ -379,38 +398,38 @@ Als u een project van de Wolk van de Handel van Adobe en een gebruiker aan het p
 
 <u> Oplossing </u>
 
-Het is niet mogelijk om de lijst van de Gedeelde gebruikers van de Toegang met de Naam van het Aandeel van *Wolk Gedeelde Toegang van MAG [ XYZ]* te schrappen als de Gedeelde Toegang niet [&#x200B; op deze pagina &#x200B;](https://account.magento.com/grantor/manage/) werd toegevoegd/gegeven. Deze worden ter informatie/audit bewaard.
+Het is niet mogelijk om de lijst van de Gedeelde gebruikers van de Toegang met de Naam van het Aandeel van *Wolk Gedeelde Toegang van MAG [ XYZ]* te schrappen als de Gedeelde Toegang niet [ op deze pagina ](https://account.magento.com/grantor/manage/) werd toegevoegd/gegeven. Deze worden ter informatie/audit bewaard.
 
 Nochtans, zodra u de toestemmingen voor die Gedeelde gebruikers van de Toegang hebt ingetrokken, zullen zij niet meer die toegang hebben.
 
-1. Login aan uw rekening van Adobe Commerce in [&#x200B; https://account.magento.com &#x200B;](https://account.magento.com/).
+1. Login aan uw rekening van Adobe Commerce in [ https://account.magento.com ](https://account.magento.com/).
 1. Kies in het linkerdeelvenster onder *[!UICONTROL Shared Access]* de optie **[!UICONTROL Manage Permissions]** .
 1. Zoek de gebruiker om gedeelde toegang van in te trekken en **[!UICONTROL Edit]** in de rij van de gebruiker te klikken (*[!UICONTROL Actions]* kolom).
 1. Schakel alle bronnen onder *[!UICONTROL Grant Account Permissions]* uit.
 
-![&#x200B; subsidie-rekening-toestemmingen-beeld &#x200B;](assets/help-center-user-guide-grant-account-permissions-image.png){width="800"}
+![ subsidie-rekening-toestemmingen-beeld ](assets/help-center-user-guide-grant-account-permissions-image.png){width="800"}
 
-Voor meer informatie, gelieve te verwijzen naar de [&#x200B; Manage de documentatie van de Toegang van de Gebruiker &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=nl-NL#manage-users-from-the-project-web-interface) op onze Commerce op de Gids van de Infrastructuur van de Wolk.
+Voor meer informatie, gelieve te verwijzen naar de [ Manage de documentatie van de Toegang van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-project-web-interface) op onze Commerce op de Gids van de Infrastructuur van de Wolk.
 
 ### Toegang tot uw gedeelde account (switchaccounts) {#switch-accounts}
 
 >[!NOTE]
 >
 >Deze stap is niet vereist voor het verzenden van tickets voor Adobe Commerce.
->Voor een demonstratie bij het voorleggen van een kaartje van Adobe Commerce, [&#x200B; gelieve deze video &#x200B;](https://experienceleague.adobe.com/nl/playlists/support-requests) te zien.
+>Voor een demonstratie bij het voorleggen van een kaartje van Adobe Commerce, [ gelieve deze video ](https://experienceleague.adobe.com/en/playlists/support-requests) te zien.
 
 Voer de volgende stappen uit om de gedeelde toegang te gebruiken die aan u wordt geboden:
 
-1. Login aan uw rekening van Adobe Commerce in [&#x200B; https://account.magento.com &#x200B;](https://account.magento.com/).
+1. Login aan uw rekening van Adobe Commerce in [ https://account.magento.com ](https://account.magento.com/).
 1. Klik het **menu van de Rekeningen van de Schakelaar** en selecteer een rekening.
 
-   ![&#x200B; magento-account-shared-switch &#x200B;](assets/magento_account_shared_switch.png){width="800"}
+   ![ magento-account-shared-switch ](assets/magento_account_shared_switch.png){width="800"}
 
 Om te weten welke rekening u momenteel gebruikt (uw eigen inheemse rekening of gedeelde toegang), zie het **menu van de Rekeningen van de Schakelaar**: het toont de actieve rekening.
 
 ### Problemen met gedeelde toegang oplossen {#troubleshooting-shared-access}
 
-Gelieve te verwijzen naar het [&#x200B; Gedeelde artikel van het toegangsoplossen van problemen &#x200B;](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md) in onze basis van de steunkennis.
+Gelieve te verwijzen naar het [ Gedeelde artikel van het toegangsoplossen van problemen ](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md) in onze basis van de steunkennis.
 
 
 
