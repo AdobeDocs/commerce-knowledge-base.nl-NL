@@ -48,7 +48,7 @@ Als u Configuration Management wilt uitschakelen, moet u ervoor zorgen dat de ma
 
 Ga als volgt te werk om het configuratiebestand te verwijderen:
 
-1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
 1. Verwijder het configuratiebestand:
    * Voor Adobe Commerce 2.4:
 
@@ -62,18 +62,18 @@ Ga als volgt te werk om het configuratiebestand te verwijderen:
      rm app/etc/config.local.php
    ```
 
-Leer meer over het Beheer van de Configuratie door [&#x200B; beheer van de Configuratie voor opslagmontages &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) in onze ontwikkelaarsdocumentatie te herzien.
+Leer meer over het Beheer van de Configuratie door [&#x200B; beheer van de Configuratie voor opslagmontages &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie te herzien.
 
 ### Stap 1: Verwijder de software van Adobe Commerce met opstelling :uninstall bevel {#setup-uninstall}
 
 
 Als u de Adobe Commerce-software verwijdert, wordt de database neergezet en hersteld, wordt de implementatieconfiguratie verwijderd en worden mappen onder `var` gewist.
 
-Het overzicht [&#x200B; desinstalleert de software van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html) in onze ontwikkelaarsdocumentatie.
+Het overzicht [&#x200B; desinstalleert de software van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie.
 
 Voer de volgende stappen uit om de Adobe Commerce-software te verwijderen:
 
-1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
 1. Uitvoeren `setup:uninstall` :
 
    ```php
@@ -144,7 +144,7 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 Als het uitvoeren van de opdracht `setup:uninstall` mislukt met een fout en niet kan worden voltooid, wordt de DB mogelijk handmatig gewist met de volgende stappen:
 
-1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL).
 1. Verbinding maken met de MySQL-database:
 
    ```sql
@@ -165,15 +165,15 @@ Als het uitvoeren van de opdracht `setup:uninstall` mislukt met een fout en niet
 
 1. Verwijder de volgende configuratiebestanden: `config.php`, `config.php` `.bak` , `env.php` en `env.php.bak` .
 
-Na het terugstellen van OB, [&#x200B; maak een git duw aan het milieu om opnieuw op te stellen &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#git-commands) en Adobe Commerce aan nieuw gecreeerd OB te installeren. Of [&#x200B; stel het redistribueren bevel &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands) in werking.
+Na het terugstellen van OB, [&#x200B; maak een git duw aan het milieu om opnieuw op te stellen &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=nl-NL#git-commands) en Adobe Commerce aan nieuw gecreeerd OB te installeren. Of [&#x200B; stel het redistribueren bevel &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=nl-NL#environment-commands) in werking.
 
 ## Gerelateerde lezing
 
 In onze documentatie voor ontwikkelaars:
 
-* [&#x200B; herstel een momentopname op Wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
-* [&#x200B; creeer een momentopname &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
-* [&#x200B; Momentopnamen en reservebeheer &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [&#x200B; beheer takken met de Console van de Wolk - de logboeken van de Mening &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=en#view-logs)
-* [&#x200B; de mislukte plaatsing van de Component &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html)
-* [&#x200B; beheer uw project &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html#configure-the-project)
+* [&#x200B; herstel een momentopname op Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+* [&#x200B; creeer een momentopname &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
+* [&#x200B; Momentopnamen en reservebeheer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [&#x200B; beheer takken met de Console van de Wolk - de logboeken van de Mening &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=nl-NL#view-logs)
+* [&#x200B; de mislukte plaatsing van de Component &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html?lang=nl-NL)
+* [&#x200B; beheer uw project &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=nl-NL#configure-the-project)

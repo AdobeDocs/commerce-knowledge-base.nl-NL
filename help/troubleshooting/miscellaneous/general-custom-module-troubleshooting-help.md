@@ -27,24 +27,24 @@ Controleer de logboeken om te zien of zijn er ingangen met de naam van de douane
 
 1. De plaats van logboeken wordt geplaatst bij [&#x200B; Adobe Commerce op de logboeken van de het planarchitectuur van de wolkeninfrastructuur Pro &#x200B;](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) in onze steun kennisbasis.
 1. Afhankelijk van de fouten die u vindt, als u een aangepaste module wilt in-, uitschakelen of verwijderen, bevatten deze artikelen details over deze handelingen:
-   * [&#x200B; laat of maakt modules &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) in onze ontwikkelaarsdocumentatie toe onbruikbaar.
-   * [&#x200B; desinstalleert modules &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) in onze ontwikkelaarsdocumentatie.
+   * [&#x200B; laat of maakt modules &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/manage-modules) in onze ontwikkelaarsdocumentatie toe onbruikbaar.
+   * [&#x200B; desinstalleert modules &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) in onze ontwikkelaarsdocumentatie.
 
 ### Adobe Commerce op cloud-infrastructuur, alle versies
 
-1. Logs plaatsen: [&#x200B; Adobe Commerce op de logboeken van de wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) in onze ontwikkelaarsdocumentatie.
+1. Logs plaatsen: [&#x200B; Adobe Commerce op de logboeken van de wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/test/log-locations) in onze ontwikkelaarsdocumentatie.
 1. Afhankelijk van de fouten die u vindt, als u een aangepaste module wilt in-, uitschakelen of verwijderen, bevatten deze artikelen in de ontwikkelaarsdocumentatie details over deze acties:
-   * [&#x200B; installeer, beheer, en bevorder uitbreidingen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions).
-   * [&#x200B; de mislukte plaatsing van de Component &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
+   * [&#x200B; installeer, beheer, en bevorder uitbreidingen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/extensions).
+   * [&#x200B; de mislukte plaatsing van de Component &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
 
 ## Gerelateerde lezing
 
 In onze documentatie voor ontwikkelaars:
 
 * [&#x200B; Overzicht van de Module &#x200B;](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
-* [&#x200B; Fouten die facultatieve steekproefgegevens installeren &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
+* [&#x200B; Fouten die facultatieve steekproefgegevens installeren &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
 * [&#x200B; Uitzondering behandeling &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/develop/exceptions/)
-* [&#x200B; Uitzonderingen tijdens installatie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
-* [&#x200B; stel de Manager van de Module in werking &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites)
-* [&#x200B; de configuratiedossiers van de Module &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
-* [&#x200B; uit geheugenfouten &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade)
+* [&#x200B; Uitzonderingen tijdens installatie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
+* [&#x200B; stel de Manager van de Module in werking &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/prepare/prerequisites)
+* [&#x200B; de configuratiedossiers van de Module &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/files/module-files)
+* [&#x200B; uit geheugenfouten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade)
