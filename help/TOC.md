@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 943a85cb94073190654ae8abd7315f3014c40170
+source-git-commit: ceea083458aef5f8d0fcabef66399046d0d2016b
 workflow-type: tm+mt
-source-wordcount: '2249'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -220,8 +220,6 @@ ht-degree: 0%
    * [Adobe commerce Intelligence Training Video: SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
    * [Alleen korting geven voor eerste aankoop (geen coupons)](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
    * [Omgeving terugdraaien zonder Cloud-opname](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
-   * [Loglocaties (directory&#39;s) voor Starter-abonnement](/help/how-to/general/log-locations-directories-for-starter-plan.md)
-   * [Implementatiedowntime in Adobe Commerce op cloudinfrastructuur verminderen](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)
    * [Een nieuw land toevoegen aan Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [Ontwerpconfiguratie aanpassen in Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
    * [Schijfruimte vergroten voor integratieomgeving in de cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)

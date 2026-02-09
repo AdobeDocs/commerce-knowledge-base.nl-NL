@@ -4,9 +4,9 @@ description: Dit artikel biedt oplossingen voor het gebruik van producten die ni
 exl-id: 454eca5b-4722-46e0-8e5d-3daf8e3e675a
 feature: Cache, Categories, Console, Products, Storefront
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Dit artikel biedt oplossingen voor het gebruik van producten die niet in de wink
 1. Meld u aan bij de Commerce-beheerder.
 1. Ga naar **Catalogus** > **Producten**.
 
-   ![&#x200B; open_product_page_magento_2.4.1.png &#x200B;](assets/open_product_page_magento_2.4.1.png)
+   ![ open_product_page_magento_2.4.1.png ](assets/open_product_page_magento_2.4.1.png)
 
 1. Klik **toevoegen Product** en ga door het proces van de productverwezenlijking. Of importeer producten uit een CSV-bestand.
 
@@ -49,7 +49,7 @@ Elk van de volgende punten zou de kwestie kunnen oplossen.
 
 * Controleer de productinstellingen in Admin. Ga naar **Catalogus** > **Producten**, open de productpagina en zorg ervoor de volgende gebieden correct worden gevormd:
    * **laat Product** toe = *ja.*
-   * **Status van de Beeld**: *in Voorraad*. Of als *uit Voorraad* de correcte waarde is, zorg ervoor dat **Vertoning uit de Producten van de Voorraad** (**STORES** > **Montages** > **Configuratie** > **CATALOGUS** > **Voorraad** > **Opties van de Voorraad** 6&rbrace; Vertoning uit de Producten van de Voorraad **) wordt geplaatst aan *ja* (gevormd op globaal niveau).**
+   * **Status van de Beeld**: *in Voorraad*. Of als *uit Voorraad* de correcte waarde is, zorg ervoor dat **Vertoning uit de Producten van de Voorraad** (**STORES** > **Montages** > **Configuratie** > **CATALOGUS** > **Voorraad** > **Opties van de Voorraad** 6} Vertoning uit de Producten van de Voorraad **) wordt geplaatst aan** ja *(gevormd op globaal niveau).*
    * **Categorieën**: Als u probeert om het product op een categoriepagina te vinden, verifieer dat het product aan de categorie wordt toegewezen. Om het oplossen van problemen te vereenvoudigen, creeer een nieuwe categorie van de huidige pagina en wijs een product aan het toe.
    * **Zichtbaarheid** = *Catalogus, Onderzoek.*
    * In het **Product in Websites** sectie, zorg ervoor het product aan de correcte website wordt toegewezen.
@@ -59,5 +59,5 @@ Elk van de volgende punten zou de kwestie kunnen oplossen.
 
 ## Gerelateerde lezing in onze kennisbasis voor support
 
-* [Loglocaties (mappen) voor Pro-architectuur](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
-* [Loglocaties (directory&#39;s) voor starterarchitectuur](/help/how-to/general/log-locations-directories-for-starter-plan.md)
+[Loglocaties (mappen) voor Pro-architectuur](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
+

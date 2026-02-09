@@ -1,10 +1,10 @@
 ---
-title: 'looppas "opstelling :static-content: stelt van &grave; in werking opgestelde_version.txt kwestie'
+title: 'looppas "opstelling :static-content: stelt van ` in werking opgestelde_version.txt kwestie'
 description: 'Dit artikel verstrekt een moeilijke situatie "opstellen_version.txt"is geen beschrijfbare fout wanneer het in werking stellen van het "opstelling :static-content: stelt"bevel manueel op.'
 exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
 feature: Deploy, Page Content, SCD
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Dit artikel bevat een correctie voor `deployed_version.txt` . Dit is geen beschr
 
 ## Probleem
 
-Als u Adobe Commerce op de aanbevelingen van de wolkeninfrastructuur volgt om [&#x200B; Beheer van de Configuratie &#x200B;](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) te gebruiken (en statische activa te bewegen produceren aan het bouwstijlstadium om website onderbreking tijdens plaatsing te verminderen), kunt u de volgende fout zien wanneer het in werking stellen van het `setup:static-content:deploy` bevel manueel:
+Als u de aanbevelingen van Adobe Commerce voor de infrastructuur van de cloud opvolgt om configuratiebeheer te gebruiken (en het genereren van statische elementen naar het bouwstadium te verplaatsen om de downtime van websites tijdens de implementatie te verminderen), kan de volgende fout optreden wanneer u de opdracht `setup:static-content:deploy` handmatig uitvoert:
 
 ```
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy
