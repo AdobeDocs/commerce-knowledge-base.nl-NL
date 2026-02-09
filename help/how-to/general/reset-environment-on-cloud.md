@@ -19,10 +19,10 @@ In dit artikel worden verschillende scenario&#39;s getoond voor het terugdraaien
 
 Kies de meest geschikte optie voor uw kwestie:
 
-* Als u activiteit (geplande plaatsing of verbetering) hebt gepland - [ Scenario 1: Geplande activiteit) ](#scen1).
-* Als u een geldige momentopname hebt - [ Scenario 2: herstel een momentopname ](#scen2).
-* Als u een stabiele bouwstijl hebt, maar geen geldige momentopname - [ Scenario 3: Geen momentopname, bouwt stabiel (de verbinding van SSH beschikbaar) ](#scen3).
-* Als de bouwstijl gebroken is en u geen geldige momentopname hebt - [ Scenario 4: Geen momentopname; bouwt gebroken (geen verbinding SSH) ](#scen4).
+* Als u activiteit (geplande plaatsing of verbetering) hebt gepland - [&#x200B; Scenario 1: Geplande activiteit) &#x200B;](#scen1).
+* Als u een geldige momentopname hebt - [&#x200B; Scenario 2: herstel een momentopname &#x200B;](#scen2).
+* Als u een stabiele bouwstijl hebt, maar geen geldige momentopname - [&#x200B; Scenario 3: Geen momentopname, bouwt stabiel (de verbinding van SSH beschikbaar) &#x200B;](#scen3).
+* Als de bouwstijl gebroken is en u geen geldige momentopname hebt - [&#x200B; Scenario 4: Geen momentopname; bouwt gebroken (geen verbinding SSH) &#x200B;](#scen4).
 
 ## Scenario 1: Geplande activiteit
 
@@ -40,9 +40,9 @@ Met een geplande implementatie of upgrade kunt u het eenvoudigst en aanbevolen [
 <u> op de dag van de veranderingen </u>:
 
 1. Plaats de website in [!UICONTROL Maintenance Mode] .
-Lees meer over [ toelaten of onbruikbaar maken [!UICONTROL Maintenance Mode] ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) in onze gebruikersgids, en [[!UICONTROL Maintenance Mode] opties voor verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html) in onze verbeteringsgids.
-1. Uitsnijdtaken uitschakelen. Lees meer over het onbruikbaar maken van kroonbanen in onze [ handleiding van de eigenschappen van kronen ](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>).
-1. Neem een lokale [[!UICONTROL Database Dump] ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html).
+Lees meer over [&#x200B; toelaten of onbruikbaar maken [!UICONTROL Maintenance Mode] &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) in onze gebruikersgids, en [[!UICONTROL Maintenance Mode] opties voor verbetering &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html) in onze verbeteringsgids.
+1. Uitsnijdtaken uitschakelen. Lees meer over het onbruikbaar maken van kroonbanen in onze [&#x200B; handleiding van de eigenschappen van kronen &#x200B;](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>).
+1. Neem een lokale [[!UICONTROL Database Dump] &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html).
 
 <u> als a [!UICONTROL Rollback] </u> wordt vereist:
 
@@ -58,13 +58,13 @@ Wanneer u dit vergelijkt met het importeren van een lokale [!UICONTROL Database 
 
 ## Scenario 2: Een momentopname herstellen
 
-Lees: [ herstel een momentopname op Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot) in onze ontwikkelaarsdocumentatie.
+Lees: [&#x200B; herstel een momentopname op Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot) in onze ontwikkelaarsdocumentatie.
 
 >[!NOTE]
 >
 >Het maken van een momentopname moet onze eerste stap zijn nadat u Adobe Commerce hebt benaderd via een account voor de cloud-infrastructuur en voordat u grote wijzigingen aanbrengt. Het is een goede praktijk en hoogst geadviseerd.
 
-Lees: [ creeer een momentopname ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot) in onze ontwikkelaarsdocumentatie.
+Lees: [&#x200B; creeer een momentopname &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot) in onze ontwikkelaarsdocumentatie.
 
 ## Scenario 3: Geen momentopname, bouwstijl stabiel (beschikbare verbinding SSH)
 
@@ -91,21 +91,21 @@ Als u Configuration Management wilt uitschakelen, moet u ervoor zorgen dat de ma
 
 Ga als volgt te werk om het configuratiebestand te verwijderen:
 
-1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Verwijder het configuratiebestand: `rm app/etc/config.php`
 
-Lees meer over [ beheer van de Configuratie voor opslagmontages ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) in onze ontwikkelaarsdocumentatie.
+Lees meer over [&#x200B; beheer van de Configuratie voor opslagmontages &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) in onze ontwikkelaarsdocumentatie.
 
 ### Stap 1: Verwijder de software van Adobe Commerce met opstelling :uninstall bevel
 
 
 Als u de Adobe Commerce-software verwijdert, wordt de database neergezet en hersteld, wordt de implementatieconfiguratie verwijderd en worden mappen onder `var` gewist.
 
-Lees: [ desinstalleert de software van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html) in onze ontwikkelaarsdocumentatie.
+Lees: [&#x200B; desinstalleert de software van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html) in onze ontwikkelaarsdocumentatie.
 
 Voer de volgende stappen uit om de Adobe Commerce-software te verwijderen:
 
-1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Uitvoeren `setup:uninstall` : `bin/magento setup:uninstall`
 1. Verwijderen bevestigen.
 
@@ -121,10 +121,10 @@ Dit betekent dat we onze Adobe Commerce-installatie (inclusief DB) hebben terugg
 
 Met [!DNL git] reset, keren we de code terug naar de gewenste status in het verleden.
 
-1. De omgeving klonen naar uw lokale ontwikkelomgeving. U kunt de opdracht kopiëren in de Cloud Console:    ![ copy_git_clone.png ](assets/copy_git_clone.png)
+1. De omgeving klonen naar uw lokale ontwikkelomgeving. U kunt de opdracht kopiëren in de Cloud Console:    ![&#x200B; copy_git_clone.png &#x200B;](assets/copy_git_clone.png)
 1. Open de geschiedenis van uw verplichtingen. Gebruik `--reverse` om de historie in omgekeerde volgorde weer te geven voor meer gemak: `git log --reverse`
 1. Selecteer de commit hash waarop u goed bent geweest. Om code aan zijn authentiek staat (Vanilla) terug te stellen, vind zeer eerste begaan die uw tak (milieu) creeerde.
-   ![ alt tekst ](image.png)
+   ![&#x200B; alt tekst &#x200B;](image.png)
 1. Harde [!DNL git] reset toepassen: `git reset --h <commit_hash>`
 1. Push changes to server: `git push --force <origin> <branch>`
 
@@ -155,10 +155,10 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 Als het uitvoeren van de opdracht `setup:uninstall` mislukt met een fout en niet kan worden voltooid, wordt de DB mogelijk handmatig gewist met de volgende stappen:
 
-1. [ SSH aan uw milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
-1. Verbind met de DB MySQL: `mysql -h database.internal` (Voor Pro milieu&#39;s zie: [ Opstelling de dienst MySQL ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)).
+1. [&#x200B; SSH aan uw milieu &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. Verbind met de DB MySQL: `mysql -h database.internal` (Voor Pro milieu&#39;s zie: [&#x200B; Opstelling de dienst MySQL &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)).
 1. Zet de `main` DB neer: `drop database main;`
 1. Maak een lege `main` DB: `create database main;`
 1. Verwijder de volgende configuratiebestanden: `config.php`, `config.php.bak`, `env.php`, `env.php.bak`
 
-Na het terugstellen van OB, [ maak a  [!DNL git]  duw aan het milieu om opnieuw op te stellen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html) en Adobe Commerce aan nieuw gecreeerd OB te installeren. Of [ stel het redistribueren bevel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands) in werking.
+Na het terugstellen van OB, [&#x200B; maak a  [!DNL git]  duw aan het milieu om opnieuw op te stellen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html) en Adobe Commerce aan nieuw gecreeerd OB te installeren. Of [&#x200B; stel het redistribueren bevel &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands) in werking.
