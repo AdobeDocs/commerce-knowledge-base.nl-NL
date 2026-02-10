@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 41585ba5bc50e9a65d5d28963f43054f5f98b918
+source-git-commit: c6d036ff57ede5dbdb031f00f099e00c811d7b0a
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2207'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -216,7 +216,6 @@ ht-degree: 0%
    * [Checklist voor vestiging een nieuw  [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [Een DB-momentopname herstellen uit Staging of Productie](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials: betalingsmethode bijwerken of abonnement annuleren](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
-   * [Alleen korting geven voor eerste aankoop (geen coupons)](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
    * [Omgeving terugdraaien zonder Cloud-opname](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [Een nieuw land toevoegen aan Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [Ontwerpconfiguratie aanpassen in Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
