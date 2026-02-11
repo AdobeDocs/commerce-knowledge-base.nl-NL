@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: c6d036ff57ede5dbdb031f00f099e00c811d7b0a
+source-git-commit: 950cbe6a4886f1f4f9f38250a46eb7f82bda73d4
 workflow-type: tm+mt
-source-wordcount: '2207'
+source-wordcount: '2196'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -223,7 +223,6 @@ ht-degree: 0%
    * [Adobe Commerce over cloudinfrastructuur: berekening van de CPU-toewijzing](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [Prijzen van gedeelde catalogi bijwerken met REST API](/help/how-to/general/update-shared-catalog-prices-using-rest-api.md)
    * [Grote MySQL-tabellen zoeken](/help/how-to/general/find-large-mysql-tables.md)
-   * [De Productie van gegevens en dossiers van de synchronisatie aan het Staging of het Staging aan Integratie](/help/how-to/general/sync-data-and-files-from-production-to-staging-or-staging-to-integration.md)
    * [Schijfruimte controleren met CLI op Adobe Commerce in een cloud-infrastructuuromgeving](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
    * [Vastgezette Adobe Commerce handmatig opnieuw instellen op snijtaken in cloudinfrastructuur](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [Test snel op productie als een actieve site hetzelfde domein gebruikt](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
