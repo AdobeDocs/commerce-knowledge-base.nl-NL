@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 950cbe6a4886f1f4f9f38250a46eb7f82bda73d4
+source-git-commit: 0e5465d2d3ef177f8d42f791f4652fc9139695fb
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2192'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -230,7 +230,6 @@ ht-degree: 0%
    * [Onderkennen en meten van uitvallen voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/how-to-identify-outages.md)
    * [Eigenaar van account wijzigen voor New Relic op Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [Admin-URL wijzigen in Adobe Commerce op cloudinfrastructuur](/help/how-to/general/change-magento-admin-url-on-cloud.md)
-   * [Elasticsearch inschakelen op Cloud](/help/how-to/general/enable-elasticsearch-on-cloud.md)
    * [NPM configureren om PWA Studio te kunnen gebruiken](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md)
    * [Kolomvertakkingen opnieuw rangschikken op Adobe Commerce](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
    * [Adobe Commerce-productdocumentatie vinden](/help/how-to/general/how-to-find-magento-product-documentation.md)
