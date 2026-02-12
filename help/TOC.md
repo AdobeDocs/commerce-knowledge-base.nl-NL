@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 0e5465d2d3ef177f8d42f791f4652fc9139695fb
+source-git-commit: 888089e960017477364b3b3dae7e9cc5c69892ba
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -219,7 +219,6 @@ ht-degree: 0%
    * [Omgeving terugdraaien zonder Cloud-opname](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [Een nieuw land toevoegen aan Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [Ontwerpconfiguratie aanpassen in Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
-   * [Schijfruimte vergroten voor integratieomgeving in de cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)
    * [Adobe Commerce over cloudinfrastructuur: berekening van de CPU-toewijzing](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [Prijzen van gedeelde catalogi bijwerken met REST API](/help/how-to/general/update-shared-catalog-prices-using-rest-api.md)
    * [Grote MySQL-tabellen zoeken](/help/how-to/general/find-large-mysql-tables.md)
