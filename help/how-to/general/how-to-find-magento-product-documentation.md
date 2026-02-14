@@ -103,4 +103,4 @@ Adobe Commerce over cloudinfrastructuur</td>
 
 * Het Centrum van het Vertrouwen van de Adobe (veiligheidsupdates en flarden): [&#x200B; https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
 * Adobe Commerce Community Developer Blog (Hoe kan ik-onderwerpen, best practices en technisch nieuws van de gemeenschap): [&#x200B; https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
-* Adobe Commerce Blog (high level e-commerce):[&#x200B; https://business.adobe.com/blog/](https://business.adobe.com/blog/)
+* Adobe Commerce Blog (high level e-commerce):[&#x200B; https://business.adobe.com/nl/blog/](https://business.adobe.com/nl/blog/)

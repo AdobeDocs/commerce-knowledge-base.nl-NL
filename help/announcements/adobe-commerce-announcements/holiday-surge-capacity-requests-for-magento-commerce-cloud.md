@@ -19,7 +19,7 @@ Voor een uitvoerige, dwars-oplossing checklist en beste praktijken voor het voor
 
 **Planning en het Schatten van Verkeer**
 
-Wij adviseren dat alle verkopers van Adobe Commerce op onze wolkeninfrastructuur [&#x200B; deze reeks aanbevelingen op gebruiken hoe te om piekseizoensverkeer &#x200B;](https://business.adobe.com/blog/how-to/the-5-ps-of-peak-season-performance-a-guide-to-preparing-your-infrastructure-for-high-traffic) voor het piekvakantieverkoopseizoen elk jaar te schatten.
+Wij adviseren dat alle verkopers van Adobe Commerce op onze wolkeninfrastructuur [&#x200B; deze reeks aanbevelingen op gebruiken hoe te om piekseizoensverkeer &#x200B;](https://business.adobe.com/nl/blog/how-to/the-5-ps-of-peak-season-performance-a-guide-to-preparing-your-infrastructure-for-high-traffic) voor het piekvakantieverkoopseizoen elk jaar te schatten.
 
 Als u de aanbevolen schatting hebt voltooid en uw team datums heeft vastgesteld waarvoor u extra capaciteit nodig hebt, gaat u verder naar de volgende stap voor informatie over hoe u om piekcapaciteit kunt vragen.
 
