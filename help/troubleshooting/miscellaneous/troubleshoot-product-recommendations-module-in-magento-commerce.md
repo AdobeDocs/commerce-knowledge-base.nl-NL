@@ -39,17 +39,17 @@ Als u het
 magento/product-recommendations
 ```
 
-correct, (Controle [[!UICONTROL Product Recommendations - Install and Configure] &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) in onze ontwikkelaarsdocumentatie.) maar u ziet geen aanbevelingen, probeer het volgende:
+correct, (Controle [[!UICONTROL Product Recommendations - Install and Configure] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) in onze ontwikkelaarsdocumentatie.) maar u ziet geen aanbevelingen, probeer het volgende:
 
 * Het is mogelijk dat de module niet genoeg tijd heeft gehad om gedragsgegevens te verzamelen. Laat het systeem 24 uur werken, zodat het gegevens kan gaan verzamelen. Overweeg het opstellen van een aanbevelingstype dat geen gedragsgegevens, zoals &quot;*meer als dit*&quot;vereist.
 
 * Als u niet de aanbevelingen ziet die u vormde, is het mogelijk er nog niet voldoende gegevens zijn om aanbevelingen voor de gebruiker te bouwen.
 
-* Controleer of de [!DNL SaaS] Data Space of [!DNL API] Key geldig is. Als u een fout na het specificeren van uw [!DNL SaaS] Ruimte van Gegevens of uw [!DNL API] sleutel tijdens de initialisering van productaanbevelingen krijgt, controle om ervoor te zorgen u de [[!DNL SaaS]  Ruimte van Gegevens en  [!DNL API]  sleutel &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas) (in onze gebruikersgids) correct bent ingegaan. Om ervoor te zorgen dat de [!DNL MageID] - en [!DNL API] -toets worden gekoppeld, moet de gebruiker die eigenaar is van de [!DNL MageID] -toets, doorgaans de gebruiker die eigenaar is van de Adobe Commerce-licentie, dezelfde gebruiker zijn die de [!DNL API] -toets genereert. Als u [!DNL MageID] moet veranderen dat werd gebruikt, [&#x200B; een kaartje van de Steun &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voorleggen.
+* Controleer of de [!DNL SaaS] Data Space of [!DNL API] Key geldig is. Als u een fout na het specificeren van uw [!DNL SaaS] Ruimte van Gegevens of uw [!DNL API] sleutel tijdens de initialisering van productaanbevelingen krijgt, controle om ervoor te zorgen u de [[!DNL SaaS]  Ruimte van Gegevens en  [!DNL API]  sleutel &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/services/saas) (in onze gebruikersgids) correct bent ingegaan. Om ervoor te zorgen dat de [!DNL MageID] - en [!DNL API] -toets worden gekoppeld, moet de gebruiker die eigenaar is van de [!DNL MageID] -toets, doorgaans de gebruiker die eigenaar is van de Adobe Commerce-licentie, dezelfde gebruiker zijn die de [!DNL API] -toets genereert. Als u [!DNL MageID] moet veranderen dat werd gebruikt, [&#x200B; een kaartje van de Steun &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voorleggen.
 
 >[!NOTE]
 >
->Als [**[!UICONTROL Cookie Restriction Mode]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) (in onze gebruikersgids) **&#x200B; wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de winkelinstemming. Als &#x200B;** [!UICONTROL Cookie Restriction Mode]&#x200B;**&#x200B;** gehandicapt is, verzamelt Adobe Commerce gedragsgegevens door gebrek.
+>Als [**[!UICONTROL Cookie Restriction Mode]**](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) (in onze gebruikersgids) **&#x200B; wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de winkelinstemming. Als &#x200B;** [!UICONTROL Cookie Restriction Mode]&#x200B;**&#x200B;** gehandicapt is, verzamelt Adobe Commerce gedragsgegevens door gebrek.
 
 ## Catalogus [!DNL SaaS] Exportmodule
 
@@ -61,10 +61,10 @@ saas-export
 
 ) module:
 
-1. Bevestig [[!DNL cron] &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) (in onze ontwikkelaarsdocumentatie) banen loopt.
-1. Bevestig [[!UICONTROL indexers] &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) (in onze ontwikkelaarsdocumentatie) loopt en    ```php    Product Feed    ```    [!UICONTROL indexer] is ingesteld op    ```php    Update by Schedule    ```    .
+1. Bevestig [[!DNL cron] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) (in onze ontwikkelaarsdocumentatie) banen loopt.
+1. Bevestig [[!UICONTROL indexers] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers) (in onze ontwikkelaarsdocumentatie) loopt en    ```php    Product Feed    ```    [!UICONTROL indexer] is ingesteld op    ```php    Update by Schedule    ```    .
 1. Bevestig de modules *worden toegelaten*. De    ```php    saas-export    ```    De metapackage installeert de volgende modules, allen die *moeten worden toegelaten*:    ```php    "magento/module-catalog-data-exporter"      "magento/module-catalog-inventory-data-exporter"      "magento/module-catalog-url-rewrite-data-exporter"      "magento/module-configurable-product-data-exporter"      "magento/module-data-exporter"      "magento/module-saas-catalog"    ```
-1. Controleer de [&#x200B; logboeken &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/enable-logging) (in onze ontwikkelaarsdocumentatie). Zorg ervoor dat er geen fouten aan de bovenstaande modules zijn gekoppeld.
+1. Controleer de [&#x200B; logboeken &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/enable-logging) (in onze ontwikkelaarsdocumentatie). Zorg ervoor dat er geen fouten aan de bovenstaande modules zijn gekoppeld.
 1. Vernieuw de [!UICONTROL Configuration cache]. Ga naar **Systeem** > **Hulpmiddelen** > **het Beheer van het Geheime voorgeheugen**, en ontruim [!UICONTROL Configuration cache].
 1. Controleer of de databasetabel `cde_products_products_feed` gegevens bevat.
 
@@ -74,14 +74,14 @@ saas-export
 
 ## Gebeurtenissen
 
-[&#x200B; verifieer de Inzameling van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/verify), in onze ontwikkelaarsdocumentatie, beschrijft de gedragsgebeurtenissen die naar Adobe Commerce worden verzonden.
+[&#x200B; verifieer de Inzameling van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/product-recommendations/getting-started/verify), in onze ontwikkelaarsdocumentatie, beschrijft de gedragsgebeurtenissen die naar Adobe Commerce worden verzonden.
 
 ## Gerelateerde lezing
 
-* [&#x200B; Ontwikkeling van de Beheerder van de Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/development-overview) in onze ontwikkelingsdocumentatie
-* [&#x200B; Inleiding aan de Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) in de Gids van de Aanbevelingen van het Product
-* [&#x200B; creeer de Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) in de Gids van de Aanbevelingen van het Product
-* [&#x200B; Logboeken van het Overzicht en los &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in de [!DNL SaaS] Gids van de Uitvoer van Gegevens problemen op
-* [[!DNL SaaS]  de Nota&#39;s van de Versie van de Uitbreiding van de Gegevens van de Uitvoer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) in de Gids van de Uitvoer van Gegevens van Adobe Commerce voor [!DNL SaaS] de Diensten
-* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [&#x200B; Ontwikkeling van de Beheerder van de Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/product-recommendations/developer/development-overview) in onze ontwikkelingsdocumentatie
+* [&#x200B; Inleiding aan de Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/product-recommendations/overview) in de Gids van de Aanbevelingen van het Product
+* [&#x200B; creeer de Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/product-recommendations/admin/create) in de Gids van de Aanbevelingen van het Product
+* [&#x200B; Logboeken van het Overzicht en los &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in de [!DNL SaaS] Gids van de Uitvoer van Gegevens problemen op
+* [[!DNL SaaS]  de Nota&#39;s van de Versie van de Uitbreiding van de Gegevens van de Uitvoer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/release-notes) in de Gids van de Uitvoer van Gegevens van Adobe Commerce voor [!DNL SaaS] de Diensten
+* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
 

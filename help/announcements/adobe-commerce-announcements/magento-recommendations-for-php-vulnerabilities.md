@@ -17,7 +17,7 @@ Op 3 September, heeft het Meerstatelijke Informatie Delend en Centrum van de Ana
 
 >[!WARNING]
 >
->Op Adobe Commerce over cloudinfrastructuur dient u te weten dat serviceupgrades niet naar de productieomgeving kunnen worden doorgevoerd zonder dat ons infrastructuurteam hiervan 48 uur op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voorleggen detailend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
+>Op Adobe Commerce over cloudinfrastructuur dient u te weten dat serviceupgrades niet naar de productieomgeving kunnen worden doorgevoerd zonder dat ons infrastructuurteam hiervan 48 uur op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voorleggen detailend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
 
 Lees verder voor effecten en stappen voor Adobe Commerce-sites:
 
@@ -28,7 +28,7 @@ Als u Adobe Commerce gebruikt voor cloudinfrastructuur, werkt u samen met uw tec
 Aanvullende opmerkingen over het opnieuw implementeren van uw Cloud-site voor deze update:
 
 * Als uw site nog steeds PHP versie 7.0 gebruikt, moet u eerst een upgrade uitvoeren naar een ondersteunde PHP versie voordat u de site opnieuw implementeert om te kunnen profiteren van deze beveiligingsupdates.
-* Voor 2.1.x/2.2.x, kan meer informatie over bevordering PHP [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html) worden gevonden.
+* Voor 2.1.x/2.2.x, kan meer informatie over bevordering PHP [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=nl-NL) worden gevonden.
 
 \* *Vorige versies van dit artikel en ons overseinen verklaarde 19 September, maar onze teams hebben hun werk voorafgaand aan programma gebeëindigd.*
 

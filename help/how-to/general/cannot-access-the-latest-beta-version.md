@@ -33,7 +33,7 @@ Dit zijn de meest voorkomende oorzaken van problemen:
 
 ### Locatie van code voor vroege toegang
 
-Tijdens bètatoegangsperioden, zijn de versiepakketten slechts beschikbaar via Composer op [&#x200B; repo.magento.com &#x200B;](https://repo.magento.com/). De pakketten van de versie zijn niet beschikbaar op portals GitHub en Adobe Commerce tijdens deze periode, en wij zullen hen aan deze plaatsen op de datum GA publiceren. Voor meer details op hoe te om Composer te gebruiken, gelieve [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) te klikken.
+Tijdens bètatoegangsperioden, zijn de versiepakketten slechts beschikbaar via Composer op [&#x200B; repo.magento.com &#x200B;](https://repo.magento.com/). De pakketten van de versie zijn niet beschikbaar op portals GitHub en Adobe Commerce tijdens deze periode, en wij zullen hen aan deze plaatsen op de datum GA publiceren. Voor meer details op hoe te om Composer te gebruiken, gelieve [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/composer) te klikken.
 
 ### MageID die u moet gebruiken
 
@@ -47,7 +47,7 @@ Ga als volgt te werk om te weten te komen of uw MageID primair is:
    * Als u de actieve de vergunningsinformatie van de Partner ziet, dan is uw MageID primair. De licentie van de Partner is actief als de waarde DATE van het EIND een datum in de toekomst is.
    * Als u niet de actieve de vergunningsinformatie van de Partner ziet, dan heeft uw MageID slechts gedeelde toegang. Om te weten te komen wie de primaire identiteitskaart houder is, ga naar **Gedeeld met me** Bericht SHARENAME die daar wordt gespecificeerd. Klik **de Rekeningen van de Schakelaar** en selecteer de waarde u in SHARENAME hebt genoteerd. Op de welkomstpagina ziet u de e-mail van de houder van de primaire id.
 1. Als om het even welke reden u deze informatie over [&#x200B; magento.com &#x200B;](https://account.magento.com/customer/account/login) niet kunt vinden, gelieve uw Manager van de Partner te contacteren.
-1. Als niets van de bovengenoemde werken, gelieve [&#x200B; contactSteun &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
+1. Als niets van de bovengenoemde werken, gelieve [&#x200B; contactSteun &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
 
 #### Ontwikkelaar heeft geen juiste toegang tot toetsen
 

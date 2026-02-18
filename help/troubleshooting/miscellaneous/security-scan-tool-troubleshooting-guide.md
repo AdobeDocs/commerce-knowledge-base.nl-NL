@@ -59,7 +59,7 @@ De volgende statussen kunnen bij controles worden weergegeven:
 1. **Onbekend**: Het hulpmiddel van het Scannen van de Veiligheid heeft nog geen gegevens over uw domein; wacht op de volgende synchronisatiecyclus.
 1. **Gebrek**: Als de status toont ontbreken, zult u de kwestie (toelaat 2FA, veranderings admin URL, enz.) moeten bevestigen en op de volgende synchronisatiecyclus wachten.
 
-Als 24 uren zijn overgegaan aangezien de veranderingen aan de instantie werden aangebracht en zij niet in het Scanrapport van de Veiligheid worden weerspiegeld, kunt u [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) voorleggen. Geef de URL van de winkel op wanneer u het ticket verzendt.
+Als 24 uren zijn overgegaan aangezien de veranderingen aan de instantie werden aangebracht en zij niet in het Scanrapport van de Veiligheid worden weerspiegeld, kunt u [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) voorleggen. Geef de URL van de winkel op wanneer u het ticket verzendt.
 
 ## BotNet vermoedelijke fout
 
@@ -77,7 +77,7 @@ U ontvangt een melding met betrekking tot de fout &quot;BotNet Suspect&quot;.
 1. Controleren op de nieuwe SSH-accounts, wijzigingen in het bestandssysteem, enzovoort.
 1. Voer een beveiligingscontrole uit.
 1. Controleer de Adobe Commerce-versie en upgrade, vooral als Magento 1 nog wordt uitgevoerd. Dit wordt niet meer ondersteund.
-1. Als de kwestie nog voortduurt, [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) en verstrekt de opslag URL.
+1. Als de kwestie nog voortduurt, [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) en verstrekt de opslag URL.
 
 ## Probleem: fout bij het toedienen van het compromis
 
@@ -90,7 +90,7 @@ Er is een fout opgetreden met betrekking tot een fout met betrekking tot een &qu
 1. Wijzigingen in de systeemconfiguratie doorvoeren, met name aangepaste `HTML head` en `Miscellaneous HTML` in `footer` sectiewaarden.
 1. Voer code en gegevensbestandoverzicht voor onbekende veranderingen en tekenen van geïnjecteerde malware uit.
 
-Als niets van de bovengenoemde hulp, [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voorlegt en de opslag URL en foutenmelding van het rapport verstrekt.
+Als niets van de bovengenoemde hulp, [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voorlegt en de opslag URL en foutenmelding van het rapport verstrekt.
 
 ## Veelgestelde vragen
 
@@ -104,7 +104,7 @@ U kunt de vorige 10 rapporten van uw eind produceren. Neem contact op met de ond
 
 ### Welke informatie is nodig wanneer het voorleggen van een steunkaartje?
 
-Gelieve te verstrekken precies de domeinnaam aangezien het voor [&#x200B; veiligheidsaftasten &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID, en Cloud Project_ID wordt voorgelegd. Merk op dat Cloud Project_ID niet voor Adobe Commerce op-gebouw wordt vereist.
+Gelieve te verstrekken precies de domeinnaam aangezien het voor [&#x200B; veiligheidsaftasten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID, en Cloud Project_ID wordt voorgelegd. Merk op dat Cloud Project_ID niet voor Adobe Commerce op-gebouw wordt vereist.
 
 ### Wat gebeurt er als ik mijn winkel verwijder van scannen met hulpprogramma&#39;s?
 

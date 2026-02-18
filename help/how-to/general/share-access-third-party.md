@@ -28,10 +28,10 @@ Afhankelijk van uw interne veiligheidsnormen, kunt u verkiezen om de derdeproble
 * Geef uw externe leverancier toegang tot de cloudomgeving. Verwante artikelen:
 
    * [&#x200B; de Gids van de Gebruiker van het Centrum van de Hulp van Adobe Commerce > GEDEELDE TOEGANG: DE VOORRECHTEN VAN DE VERLENER VOOR ANDERE GEBRUIKERS OM TOT UW ACCOUNT &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guidee#shared-access) in onze steun kennisbasis toegang te hebben.
-   * [&#x200B; delend Uw Rekening van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) in onze gebruikersgids.
+   * [&#x200B; delend Uw Rekening van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/commerce-account/commerce-account-share) in onze gebruikersgids.
 
 * Creeer een gegevensbestandstortplaats (of geef de derdeverkoper toegang om dit te doen). Dit kan worden gedaan met de CLI of in de Commerce Admin. Deze stortplaats van DB zal klantengegevens verduisteren, zodat alles zij code en product SKU&#39;s, enz. krijgen, geen merkgebonden/klantengegevens. Voor verwijzing, gebruik [ delend Uw Rekening van Commerce ] (/help/how-to/general/create-database-dump-on-cloud.md) in onze steun kennisbasis.
-* Zodra het testen volledig is, zorg ervoor om de gedeelde toegang tot uw wolkenmilieu, zoals die in [&#x200B; wordt beschreven de Gids van de Gebruiker van het Centrum van de Hulp van Adobe Commerce > Intrekken (schrapt gedeelde toegang) &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#revoke-shared-access) in onze basis van steunkennis.
+* Zodra het testen volledig is, zorg ervoor om de gedeelde toegang tot uw wolkenmilieu, zoals die in [&#x200B; wordt beschreven de Gids van de Gebruiker van het Centrum van de Hulp van Adobe Commerce > Intrekken (schrapt gedeelde toegang) &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#revoke-shared-access) in onze basis van steunkennis.
 
 ## Testen van beste praktijken
 

@@ -18,11 +18,11 @@ Zijn de cijfers in een bepaald rapport onnauwkeurig? Ziet u onverwachte NULL-waa
 * [Checklist voor diagnostische gegevensdiscrepantie](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [Exporteren gebruiken om verschillen in gegevens vast te stellen](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-Wij adviseren ook dat u de correcte [&#x200B; replicatiemethodes &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) verzekert en [&#x200B; opnieuw controleert &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) is geplaatst voor de lijsten en de kolommen betrokken bij de discrepantie. Houd er rekening mee dat u beheerdersmachtigingen nodig hebt voor toegang tot de replicatiemethode en voor het opnieuw controleren van gegevens.
+Wij adviseren ook dat u de correcte [&#x200B; replicatiemethodes &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) verzekert en [&#x200B; opnieuw controleert &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) is geplaatst voor de lijsten en de kolommen betrokken bij de discrepantie. Houd er rekening mee dat u beheerdersmachtigingen nodig hebt voor toegang tot de replicatiemethode en voor het opnieuw controleren van gegevens.
 
 ## Ik heb nog steeds hulp nodig!
 
-Als het rapport nog steeds onnauwkeurig is, maak je dan geen zorgen - ons ondersteuningsteam is blij om te helpen! [&#x200B; Bereik uit aan ons &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) met de volgende informatie:
+Als het rapport nog steeds onnauwkeurig is, maak je dan geen zorgen - ons ondersteuningsteam is blij om te helpen! [&#x200B; Bereik uit aan ons &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) met de volgende informatie:
 
 * Wat is de naam van het rapport waar je de discrepantie ziet?
 * Welke waarden in het rapport zijn onjuist?
@@ -32,4 +32,4 @@ Als het rapport nog steeds onnauwkeurig is, maak je dan geen zorgen - ons onders
 ## Gerelateerde lezing
 
 * [Berekende kolommen](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
-* [&#x200B; Structurele gegevensbestandveranderingen &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)
+* [&#x200B; Structurele gegevensbestandveranderingen &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html?lang=nl-NL)

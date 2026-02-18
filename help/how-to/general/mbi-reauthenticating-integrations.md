@@ -16,7 +16,7 @@ Dit artikel biedt oplossingen voor het opnieuw autoriseren van een integratie om
 
 ## Database- en SaaS-integratie
 
-Voor lijsten van Gegevensbestand en integratie SaaS, verwijs naar [&#x200B; het Verbinden van Externe Gegevens die een Integratie gebruiken &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations) in onze ontwikkelaarsdocumentatie. (Gebruik voor navigatie de inhoudsopgave links bij het openen van de pagina.)
+Voor lijsten van Gegevensbestand en integratie SaaS, verwijs naar [&#x200B; het Verbinden van Externe Gegevens die een Integratie gebruiken &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-business-intelligence/mbi/analyze/saas/integrations) in onze ontwikkelaarsdocumentatie. (Gebruik voor navigatie de inhoudsopgave links bij het openen van de pagina.)
 
 ## Hebt u verbindingsproblemen?
 
@@ -35,4 +35,4 @@ Het statuut van alle integratie is op de pagina van Integraties ( **beheert Gege
 
 Als u de verificatie opnieuw wilt uitvoeren, moet u mogelijk uw accountgegevens opnieuw invoeren. In sommige gevallen moet u mogelijk nieuwe API-sleutels voor de probleemintegratie genereren. Klik de naam van de probleemintegratie om met het hertoelatingsproces te beginnen.
 
-Als het probleem voortduurt, gelieve [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voor te leggen.
+Als het probleem voortduurt, gelieve [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voor te leggen.

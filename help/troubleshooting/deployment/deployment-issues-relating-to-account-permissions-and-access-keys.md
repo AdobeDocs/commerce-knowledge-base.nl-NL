@@ -50,7 +50,7 @@ Als een implementatie is mislukt nadat een wijziging is aangebracht in de primai
 
 ### Hoe te om de toegangssleutel onbruikbaar te maken
 
-Als u geen toegang tot de [&#x200B; Commerce Marketplace &#x200B;](https://marketplace.magento.com/) rekening verbonden aan de oude sleutel hebt, [&#x200B; contacteer de Steun van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) om de sleutel gehandicapt te hebben.
+Als u geen toegang tot de [&#x200B; Commerce Marketplace &#x200B;](https://marketplace.magento.com/) rekening verbonden aan de oude sleutel hebt, [&#x200B; contacteer de Steun van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) om de sleutel gehandicapt te hebben.
 
 Als u toegang hebt tot het Marketplace-account dat aan de oude toets is gekoppeld, voert u de volgende stappen uit om de toets uit te schakelen:
 
@@ -64,4 +64,4 @@ Als u toegang hebt tot het Marketplace-account dat aan de oude toets is gekoppel
 
 ## Gerelateerde lezing
 
-* [&#x200B; krijgt uw authentificatietoetsen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; krijgt uw authentificatietoetsen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) in onze ontwikkelaarsdocumentatie.

@@ -40,7 +40,7 @@ Dit zijn de meest voorkomende oorzaken van problemen:
 
 Tijdens de release zijn de releasepakketten beschikbaar op twee locaties:
 
-1. Via Composer op [&#x200B; magento.com &#x200B;](https://repo.magento.com/) gebruikend primaire MageID voor de rekening. Voor meer details op hoe te om Composer te gebruiken, gelieve te verwijzen naar [&#x200B; installeer Adobe Commerce gebruikend Composer &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) in onze ontwikkelaarsdocumentatie.
+1. Via Composer op [&#x200B; magento.com &#x200B;](https://repo.magento.com/) gebruikend primaire MageID voor de rekening. Voor meer details op hoe te om Composer te gebruiken, gelieve te verwijzen naar [&#x200B; installeer Adobe Commerce gebruikend Composer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/composer) in onze ontwikkelaarsdocumentatie.
 1. **Mijn Rekening** > **Downloads** op [&#x200B; account.magento.com &#x200B;](https://account.magento.com/customer/account/login).
 
 >[!NOTE]
@@ -61,7 +61,7 @@ Ga als volgt te werk om te weten te komen of uw MageID primair is:
    * Als u de Adobe Commerce-licentiegegevens ziet, is uw MageID primair.
    * Als u de Adobe Commerce-licentiegegevens niet ziet, heeft uw MageID alleen gedeelde toegang. Om te weten te komen wie de primaire identiteitskaart houder is, ga naar **Gedeeld met me** Bericht SHARENAME die daar wordt gespecificeerd. Klik **de Rekeningen van de Schakelaar** en selecteer de waarde u in SHARENAME hebt genoteerd. Op de welkomstpagina ziet u het e-mailbericht van de houder van de primaire id.
 1. Als om het even welke reden u deze informatie over [&#x200B; magento.com &#x200B;](https://account.magento.com/customer/account/login) niet kunt vinden, gelieve uw Team van de Rekening van Adobe te contacteren.
-1. Als niets van de bovengenoemde werken, gelieve [&#x200B; contactSteun &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
+1. Als niets van de bovengenoemde werken, gelieve [&#x200B; contactSteun &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
 
 **voor partners**
 
@@ -71,8 +71,8 @@ Ga als volgt te werk om te weten te komen of uw MageID primair is:
    * Als u de actieve de vergunningsinformatie van de Partner ziet, dan is uw MageID primair. De licentie van de Partner is actief als de waarde DATE van het EIND een datum in de toekomst is.
    * Als u niet de actieve de vergunningsinformatie van de Partner ziet, dan heeft uw MageID slechts gedeelde toegang. Om te weten te komen wie de primaire identiteitskaart houder is, ga naar **Gedeeld met me** Bericht SHARENAME die daar wordt gespecificeerd. Klik **de Rekeningen van de Schakelaar** en selecteer de waarde u in SHARENAME hebt genoteerd. Op de welkomstpagina ziet u het e-mailbericht van de houder van de primaire id.
 1. Als om het even welke reden u deze informatie over [&#x200B; magento.com &#x200B;](https://account.magento.com/customer/account/login) niet kunt vinden, gelieve uw Manager van de Partner te contacteren.
-1. Als geen van bovenstaande werken, gelieve [&#x200B; с Steun &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) contacteren.
+1. Als geen van bovenstaande werken, gelieve [&#x200B; с Steun &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) contacteren.
 
 ### Geen onderdeel van het pre-releaseprogramma
 
-Om in het programma van de Toegang van de pre-versie te worden omvat, moet uw organisatie een actieve rekening van Adobe Commerce of van de Partner hebben die in goed staat is. Als u gelooft u aan deze criteria voldoet en niet tot de pre-versiecode toegang hebt, gelieve [&#x200B; de Steun van het contact &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) met uw MageID.
+Om in het programma van de Toegang van de pre-versie te worden omvat, moet uw organisatie een actieve rekening van Adobe Commerce of van de Partner hebben die in goed staat is. Als u gelooft u aan deze criteria voldoet en niet tot de pre-versiecode toegang hebt, gelieve [&#x200B; de Steun van het contact &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) met uw MageID.

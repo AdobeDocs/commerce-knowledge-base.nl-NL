@@ -41,14 +41,14 @@ Als uw PayPal-betalingsmethode API&#39;s met factureringsovereenkomsten en refer
 
 Zie de volgende artikelen:
 
-* [&#x200B; PayPal gateway verworpen verzoek - dubbele factuurkwestie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838) in onze basis van de steunkennis.
+* [&#x200B; PayPal gateway verworpen verzoek - dubbele factuurkwestie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26838) in onze basis van de steunkennis.
 * [&#x200B; verhogingsidentiteitskaart van de Verandering voor nieuwe opslagentiteit &#x200B;](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md) in onze basis van de steunkennis.
 
 ## Contact opnemen met de ondersteuningsafdeling om geavanceerde betalingslogboeken te verzamelen
 
 Om gecompliceerde betalingsproblemen op te lossen, kan het Adobe Commerce Support Team u vragen een toegewezen patch toe te passen om geavanceerde betalingsregistratie mogelijk te maken. In dit geval moeten de volgende stappen worden uitgevoerd:
 
-[&#x200B; leg een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) met de volgende details voor:
+[&#x200B; leg een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) met de volgende details voor:
 
 * Geef zoveel mogelijk details op voor het probleem.
 * Geef een overzicht van de stappen die u hebt geprobeerd vanuit dit artikel, de kennisbasis en andere bronnen. Alle resultaten opnemen.
@@ -57,5 +57,5 @@ Om gecompliceerde betalingsproblemen op te lossen, kan het Adobe Commerce Suppor
 Als u de patch voor Geavanceerde betalingsaanmelding ontvangt:
 
 * Breng de pleister aan.
-* Verzamel logboeken en maak hen aan uw [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) vast.
+* Verzamel logboeken en maak hen aan uw [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) vast.
 * Wacht op verdere aanbevelingen van het Adobe Commerce Support Team.

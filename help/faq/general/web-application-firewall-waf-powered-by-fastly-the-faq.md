@@ -104,7 +104,7 @@ Er wordt naar schatting 1,5 milliseconden (ms) tot 20 ms latentie toegevoegd aan
 
 ## Kunnen de klanten IP zwarte lijsten tot stand brengen en wijzigen om verkeer te blokkeren?
 
-Ja, klanten kunnen het blokkeren door land en toegangsbeheerlijst (ACL) van Adobe Commerce op Admin UI van de cloudinfrastructuur toelaten. Gebruik deze eigenschappen in gevallen waar u toegang voor bezoekers wilt blokkeren die uit specifieke landen of bepaalde IPs of IP waaiers komen. Als u wilt dat geblokkeerde bezoekers een aangepaste pagina zien in plaats van een foutcode, kunt u een aangepaste foutpagina maken door HTML te uploaden in het menu Snelconfiguratie. Zie [&#x200B; een douane fout/onderhoudspagina &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in onze ontwikkelaarsdocumentatie creëren.
+Ja, klanten kunnen het blokkeren door land en toegangsbeheerlijst (ACL) van Adobe Commerce op Admin UI van de cloudinfrastructuur toelaten. Gebruik deze eigenschappen in gevallen waar u toegang voor bezoekers wilt blokkeren die uit specifieke landen of bepaalde IPs of IP waaiers komen. Als u wilt dat geblokkeerde bezoekers een aangepaste pagina zien in plaats van een foutcode, kunt u een aangepaste foutpagina maken door HTML te uploaden in het menu Snelconfiguratie. Zie [&#x200B; een douane fout/onderhoudspagina &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie creëren.
 
 ## Waar kan ik de operationele status van mijn WAF-dienst controleren?
 
@@ -118,7 +118,7 @@ Op dit moment wordt geen incidentbeheer aangeboden.
 
 Hoewel Adobe Commerce geen Centrum van de Verrichtingen van de Veiligheid heeft, hebben wij een proces van de veiligheidsverrichtingen dat ons toestaat om de juiste middelen in dienst te nemen om op veiligheidsincidenten in real time te antwoorden. We bieden ook 24-7-365 follow-up aan.
 
-U kunt op Adobe Commerce betrekking hebbende veiligheidsnieuws en updates van het [&#x200B; Centrum van de Veiligheid &#x200B;](https://helpx.adobe.com/security.html) ook krijgen.
+U kunt op Adobe Commerce betrekking hebbende veiligheidsnieuws en updates van het [&#x200B; Centrum van de Veiligheid &#x200B;](https://helpx.adobe.com/nl/security.html) ook krijgen.
 
 ## Welke ondersteuning is beschikbaar?
 
@@ -132,7 +132,7 @@ Zie de [&#x200B; termijnen van SLA van 0&rbrace; Cloud voor extra steuninformati
 
 ## Als de WAF het legale verkeer blokkeert of andere problemen veroorzaakt, hoe kan ik dan hulp krijgen?
 
-[&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) bij het [&#x200B; Centrum van de Hulp van Adobe Commerce &#x200B;](https://support.magento.com) voor. Gelieve te omvatten erop wijst dat het kaartje met de dienst van WAF verwant is en het geblokkeerde verzoekherkenningsteken (identiteitskaart) omvat.
+[&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) bij het [&#x200B; Centrum van de Hulp van Adobe Commerce &#x200B;](https://support.magento.com) voor. Gelieve te omvatten erop wijst dat het kaartje met de dienst van WAF verwant is en het geblokkeerde verzoekherkenningsteken (identiteitskaart) omvat.
 
 Het Adobe Commerce-systeem voor kaartverkoop volgt de communicatie tussen onze supporttechnici en het personeel van een klant. Dit systeem verstrekt een tijd-gestempelde transcriptie van mededelingen, en verzendt e-mail naar klant en het personeel van Adobe Commerce aangezien de kaartjes worden bijgewerkt.
 
@@ -160,7 +160,7 @@ De volgende tabel geeft een overzicht van de ondersteuningskanalen en de beschik
 </tr>
 <tr>
 <td>Noodescalatie*</td>
-<td>Verwijs naar <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html"> P1 van Adobe Commerce bericht hotline </a> artikel voor de aantallen van de V.S. en van de internationale.</td>
+<td>Verwijs naar <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html?lang=nl-NL"> P1 van Adobe Commerce bericht hotline </a> artikel voor de aantallen van de V.S. en van de internationale.</td>
 </tr>
 </tbody>
 </table>

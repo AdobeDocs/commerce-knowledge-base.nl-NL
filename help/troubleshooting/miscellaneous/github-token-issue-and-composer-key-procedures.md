@@ -42,7 +42,7 @@ Werk uw Composer-versie bij naar 1.10.22 om het probleem op te lossen:
 1. Dit voegt de vereiste voor die Composer-pakketversie toe. Controleer het vergrendelingsbestand - de versie `composer/composer` moet 1.0.22 of hoger zijn.
 1. Vastleggen `composer.json` en `composer.lock` en een implementatie uitvoeren.
 
-Als deze methode niet werkt, gelieve [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voor te leggen.
+Als deze methode niet werkt, gelieve [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voor te leggen.
 
 ## Gerelateerde lezing
 
