@@ -14,7 +14,7 @@ ht-degree: 0%
 
 MariaDB is een open-sourcedatabase voor bedrijven die met Adobe Commerce wordt gebruikt.
 
-MariaDB 10.4 bereikt het eind van steun op [ 18 Juni, 2024 ](https://endoflife.date/mariadb). U bent niet meer PCI-compatibel wanneer u een niet-ondersteunde versie van MariaDB gebruikt. In dit artikel wordt uitgelegd hoe u van MariaDB 10.4 naar 10.5 kunt upgraden om Adobe Commerce te blijven gebruiken voor cloudinfrastructuur.
+MariaDB 10.4 bereikt het eind van steun op [&#x200B; 18 Juni, 2024 &#x200B;](https://endoflife.date/mariadb). U bent niet meer PCI-compatibel wanneer u een niet-ondersteunde versie van MariaDB gebruikt. In dit artikel wordt uitgelegd hoe u van MariaDB 10.4 naar 10.5 kunt upgraden om Adobe Commerce te blijven gebruiken voor cloudinfrastructuur.
 
 >[!NOTE]
 >
@@ -30,16 +30,16 @@ Goedkeuren van de nieuwe beveiligingspatches (2.4.4-p9 of 2.4.5-p8) die op 11 ju
 
 ### Upgradestappen voor cloudimplementaties
 
-1. Creeer de steun van a [ DB gebruikend ECE-Hulpmiddelen DB reservebevelen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots). Deze reservekopie moet worden uitgevoerd vóór stap 2 en 3 als er iets verkeerd gaat tijdens het bijwerken van tabellen/rijen.
-1. [ Controle en zet alle compacte lijsten in dynamische lijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/mariadb-upgrade) om. Deze stap wordt vereist om potentieel gegevensverlies tijdens de gegevensbestandverbetering te vermijden.
-1. Controleren op MYISAM-tabellen. U moet [ alle lijsten MyISAM in InnoD ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud) omzetten.
-1. Nadat u de gegevensbestandlijsten en rijen (de vorige twee stappen) hebt voorbereid, creeer de steun van a [- OB gebruikend de reserve van ECE-Hulpmiddelen OB ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots).
-1. [ Open een steunkaartje ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) om de verbetering van MariaDB 10.4 aan 10.5 te plannen. Geef in het ticket de datum en tijd op waarop u de DB-upgrade wilt uitvoeren. Het ondersteuningsteam heeft een opzegtermijn van 48 uur nodig en het ontwikkelingsteam van de handelaar moet beschikbaar zijn. Zodra de tijd en de datum voor de verbetering worden overeengekomen, doe het volgende:
+1. Creeer de steun van a [&#x200B; DB gebruikend ECE-Hulpmiddelen DB reservebevelen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots). Deze reservekopie moet worden uitgevoerd vóór stap 2 en 3 als er iets verkeerd gaat tijdens het bijwerken van tabellen/rijen.
+1. [&#x200B; Controle en zet alle compacte lijsten in dynamische lijsten &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/mariadb-upgrade) om. Deze stap wordt vereist om potentieel gegevensverlies tijdens de gegevensbestandverbetering te vermijden.
+1. Controleren op MYISAM-tabellen. U moet [&#x200B; alle lijsten MyISAM in InnoD &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud) omzetten.
+1. Nadat u de gegevensbestandlijsten en rijen (de vorige twee stappen) hebt voorbereid, creeer de steun van a [- OB gebruikend de reserve van ECE-Hulpmiddelen OB &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots).
+1. [&#x200B; Open een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) om de verbetering van MariaDB 10.4 aan 10.5 te plannen. Geef in het ticket de datum en tijd op waarop u de DB-upgrade wilt uitvoeren. Het ondersteuningsteam heeft een opzegtermijn van 48 uur nodig en het ontwikkelingsteam van de handelaar moet beschikbaar zijn. Zodra de tijd en de datum voor de verbetering worden overeengekomen, doe het volgende:
    1. Zet uw plaats in onderhoudswijze, en stop om het even welke activiteiten van DB, bijvoorbeeld, bakens.
-   1. Creeer de steun van a [ DB gebruikend ECE-Hulpmiddelen DB reservebevelen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots).
-   1. Laat de support weten dat u de back-up hebt voltooid via uw ondersteuningsticket. Om stappen voor het bekijken van en het volgen van uw kaartjes te krijgen, verwijs naar [ Gids van de Gebruiker van het Centrum van de Hulp van Adobe Commerce: Spoor uw Tickets ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#track-tickets) in onze basis van steunkennis.
+   1. Creeer de steun van a [&#x200B; DB gebruikend ECE-Hulpmiddelen DB reservebevelen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots).
+   1. Laat de support weten dat u de back-up hebt voltooid via uw ondersteuningsticket. Om stappen voor het bekijken van en het volgen van uw kaartjes te krijgen, verwijs naar [&#x200B; Gids van de Gebruiker van het Centrum van de Hulp van Adobe Commerce: Spoor uw Tickets &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#track-tickets) in onze basis van steunkennis.
    1. Het Adobe Commerce-ondersteuningsteam start vervolgens het MariaDB-upgradeproces. Als alle bovenstaande stappen zijn uitgevoerd en de database een gemiddelde grootte heeft, duurt het proces ongeveer een uur. Grotere database&#39;s duren langer. Zodra de upgrade is voltooid, wordt u op de hoogte gesteld via uw ticket.
-1. Onderhoudsmodus uitschakelen. Verwijs naar [ toe of onbruikbaar maken onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) in onze ontwikkelaarsdocumentatie.
+1. Onderhoudsmodus uitschakelen. Verwijs naar [&#x200B; toe of onbruikbaar maken onderhoudswijze &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) in onze ontwikkelaarsdocumentatie.
 
 >[!NOTE]
 >
@@ -47,6 +47,6 @@ Goedkeuren van de nieuwe beveiligingspatches (2.4.4-p9 of 2.4.5-p8) die op 11 ju
 
 ## Verwante lezing
 
-* [ de verbeteringsgids van DB beste praktijken ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites) voor plaatsingen op-gebouw.
-* [ Verbetering MariaDB 10.0 tot 10.2 voor Adobe Commerce op wolk ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud) in onze basis van de steunkennis.
-* [ de levenscyclusbeleid van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; de verbeteringsgids van DB beste praktijken &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites) voor plaatsingen op-gebouw.
+* [&#x200B; Verbetering MariaDB 10.0 tot 10.2 voor Adobe Commerce op wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud) in onze basis van de steunkennis.
+* [&#x200B; de levenscyclusbeleid van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy) in onze ontwikkelaarsdocumentatie.

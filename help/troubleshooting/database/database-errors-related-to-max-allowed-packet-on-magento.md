@@ -1,6 +1,6 @@
 ---
 title: Databasefouten met betrekking tot max_allowed_packet op Adobe Commerce
-description: Dit artikel verstrekt een oplossing voor de fouten van de gegevensbestandverbinding in ` var/log/exception.log ` die kunnen voorkomen wanneer het invoeren van een groot aantal producten of het uitvoeren van een andere taak die de server dwingt om grotere pakketten te behandelen dan die in \ max_allowed_packet"worden geplaatst die groter is dan het gebrek, 16MB.
+description: Dit artikel verstrekt een oplossing voor de fouten van de gegevensbestandverbinding in &grave; var/log/exception.log &grave; die kunnen voorkomen wanneer het invoeren van een groot aantal producten of het uitvoeren van een andere taak die de server dwingt om grotere pakketten te behandelen dan die in  max_allowed_packet"worden geplaatst die groter is dan het gebrek, 16MB.
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
@@ -17,11 +17,11 @@ Dit artikel biedt een oplossing voor databaseverbindingsfouten in de `var/log/ex
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op-gebouw, alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce op-gebouw, alle [&#x200B; gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Probleem
 
-Wanneer een [!DNL MySQL] cliënt of de [ mysqld ](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) server een pakket groter dan [ max\_allowed\_packet ](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) bytes ontvangt, geeft het een [ ER\_NET\_PACKET\_TOO\_LARGE ](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) fout uit (die in `exception.log`) kan worden gezien en sluit de verbinding. Met sommige cliënten, kunt u a *Verloren verbinding aan [!DNL MySQL] server tijdens vraag* fout ook krijgen als het communicatie pakket te groot is.
+Wanneer een [!DNL MySQL] cliënt of de [&#x200B; mysqld &#x200B;](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) server een pakket groter dan [&#x200B; max\_allowed\_packet &#x200B;](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) bytes ontvangt, geeft het een [&#x200B; ER\_NET\_PACKET\_TOO\_LARGE &#x200B;](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) fout uit (die in `exception.log`) kan worden gezien en sluit de verbinding. Met sommige cliënten, kunt u a *Verloren verbinding aan [!DNL MySQL] server tijdens vraag* fout ook krijgen als het communicatie pakket te groot is.
 
 <u> Stappen om te reproduceren </u>
 
@@ -33,8 +33,8 @@ De standaardwaarde van 16 MB voor de instelling [!DNL MySQL] `max_allowed_packet
 
 ## Oplossing
 
-1. Identificeer vragen waar de individuele rijen de huidige `max_allowed_packet` grens overschrijden. Dergelijke vragen moeten worden herschreven om de hoeveelheid terug te geven gegevens te verminderen. Dit kan door een kleiner aantal kolommen in de `SELECT` verklaring te hebben of een kleiner gegevenstype voor diverse kolommen als deel van het lijstontwerp te kiezen. Als u een rekening van New Relic hebt, gebruik de [ pagina van de Fouten van New Relic APM ](https://docs.newrelic.com/docs/apm/apm-ui-pages/error-analytics/errors-page-explore-events-behind-errors) en de [ pagina van de Gegevensbestanden van New Relic APM ](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time), en [ Logs van New Relic ](https://docs.newrelic.com/docs/logs/log-management/get-started/get-started-log-management) om naar de relevante vragen te zoeken.
-1. Voor snelle sanering, kunt u tijdelijk verzoeken om de `max_allowed_packet` grootte om worden verhoogd wanneer u [ een kaartje ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voorlegt, maar dit is bij de discretie van het team van de Techniek van de Klant, aangezien te groot van een waarde replicatiefouten kan veroorzaken door netwerkcongestie te veroorzaken.
+1. Identificeer vragen waar de individuele rijen de huidige `max_allowed_packet` grens overschrijden. Dergelijke vragen moeten worden herschreven om de hoeveelheid terug te geven gegevens te verminderen. Dit kan door een kleiner aantal kolommen in de `SELECT` verklaring te hebben of een kleiner gegevenstype voor diverse kolommen als deel van het lijstontwerp te kiezen. Als u een rekening van New Relic hebt, gebruik de [&#x200B; pagina van de Fouten van New Relic APM &#x200B;](https://docs.newrelic.com/docs/apm/apm-ui-pages/error-analytics/errors-page-explore-events-behind-errors) en de [&#x200B; pagina van de Gegevensbestanden van New Relic APM &#x200B;](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time), en [&#x200B; Logs van New Relic &#x200B;](https://docs.newrelic.com/docs/logs/log-management/get-started/get-started-log-management) om naar de relevante vragen te zoeken.
+1. Voor snelle sanering, kunt u tijdelijk verzoeken om de `max_allowed_packet` grootte om worden verhoogd wanneer u [&#x200B; een kaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voorlegt, maar dit is bij de discretie van het team van de Techniek van de Klant, aangezien te groot van een waarde replicatiefouten kan veroorzaken door netwerkcongestie te veroorzaken.
 1. Als beste praktijken, zou u het volgende bevel in uw CLI voor sommige van uw grote gegevensbestandlijsten moeten in werking stellen:
 
    ```
@@ -45,7 +45,7 @@ De standaardwaarde van 16 MB voor de instelling [!DNL MySQL] `max_allowed_packet
 
 ## Gerelateerde lezing
 
-* [ op-gebouw installatieoverzicht ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) in onze ontwikkelaarsdocumentatie.
-* [ beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in onze basis van steunkennis.
-* [ Beste praktijken om de kwesties van gegevensbestandprestaties ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) in onze basis van de steunkennis op te lossen.
-* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [&#x200B; op-gebouw installatieoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) in onze ontwikkelaarsdocumentatie.
+* [&#x200B; beste praktijken van het Gegevensbestand voor Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in onze basis van steunkennis.
+* [&#x200B; Beste praktijken om de kwesties van gegevensbestandprestaties &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) in onze basis van de steunkennis op te lossen.
+* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

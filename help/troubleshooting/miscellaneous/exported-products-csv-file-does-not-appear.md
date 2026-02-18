@@ -17,7 +17,7 @@ Dit artikel biedt een oplossing voor het probleem waarbij het exporteren van het
 
 ## Betrokken producten en versies
 
-* Adobe Commerce op wolkeninfrastructuur, alle [ gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce op wolkeninfrastructuur, alle [&#x200B; gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Probleem
 
@@ -27,7 +27,7 @@ Eerste vereisten: **voeg Geheime Sleutel aan URLs** optie toe wordt geplaatst aa
 
 1. In Admin, navigeer aan **Systeem** > **Overdracht van Gegevens** > **de Uitvoer**.
 
-   ![ magento_export_products_2.3.4.png ](assets/magento_export_products_2.3.4.png)
+   ![&#x200B; magento_export_products_2.3.4.png &#x200B;](assets/magento_export_products_2.3.4.png)
 
 1. Selecteren
    * **Type van Entiteit**: De entiteit u wenst om uit te voeren
@@ -73,7 +73,7 @@ Als u het proces optioneel als een snijtaak wilt toevoegen, moet u de variabele 
 
 #### Proces toevoegen als een snijtaak (optioneel)
 
-1. Zorg ervoor dat de uitsnede is ingesteld en geconfigureerd. Zie [ de banen van de opstelling cron ](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) voor details.
+1. Zorg ervoor dat de uitsnede is ingesteld en geconfigureerd. Zie [&#x200B; de banen van de opstelling cron &#x200B;](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) voor details.
 1. Voer het volgende bevel uit om een lijst van gebruikers van de berichtrij terug te keren:     `./bin/magento queue:consumers:list`
 1. Voeg het volgende toe aan uw `.magento.env.yaml` -bestand in de hoofdmap van de toepassing en neem de consumenten op die u wilt toevoegen. Hier ziet u bijvoorbeeld de consument die nodig is voor exportverwerking:
 
@@ -87,16 +87,16 @@ Als u het proces optioneel als een snijtaak wilt toevoegen, moet u de variabele 
                    - exportProcessor
    ```
 
-   Vervolgens drukt u op dit bijgewerkte bestand en implementeert u de omgeving opnieuw. Ook verwijzing [ voegt de banen van de douanecurn aan uw project ](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#add-custom-cron-jobs-to-your-project) in onze ontwikkelingsdocumentatie toe.
+   Vervolgens drukt u op dit bijgewerkte bestand en implementeert u de omgeving opnieuw. Ook verwijzing [&#x200B; voegt de banen van de douanecurn aan uw project &#x200B;](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#add-custom-cron-jobs-to-your-project) in onze ontwikkelingsdocumentatie toe.
 
 >[!NOTE]
 >
->Als u het `.magento.env.yaml` -bestand niet kunt vinden voor uw omgeving en u denkt dat het is verwijderd, moet u een nieuw `.magento.env.yaml` maken. Deze is mogelijk aanvankelijk leeg, u kunt desgewenst gegevens toevoegen. Verwijzing de volgende artikelen: [ vorm milieuvariabelen voor plaatsing ](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) en [ de variabelen van het Milieu ](/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html) in onze ontwikkelaarsdocumentatie.
+>Als u het `.magento.env.yaml` -bestand niet kunt vinden voor uw omgeving en u denkt dat het is verwijderd, moet u een nieuw `.magento.env.yaml` maken. Deze is mogelijk aanvankelijk leeg, u kunt desgewenst gegevens toevoegen. Verwijzing de volgende artikelen: [&#x200B; vorm milieuvariabelen voor plaatsing &#x200B;](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) en [&#x200B; de variabelen van het Milieu &#x200B;](/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html) in onze ontwikkelaarsdocumentatie.
 
 >[!TIP]
 >
->[ YAML dossiers ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) zijn gevoelig geval en staan geen lusjes toe. Wees voorzichtig met het gebruik van consistente inspringing in het .magento.env.yaml-bestand, anders werkt de configuratie mogelijk niet naar behoren. De voorbeelden in de documentatie en in het voorbeeldbestand gebruiken een inspringing met twee spaties. Gebruik de Griekenland-hulpmiddelen bevestigen bevel om uw configuratie te controleren.
+>[&#x200B; YAML dossiers &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) zijn gevoelig geval en staan geen lusjes toe. Wees voorzichtig met het gebruik van consistente inspringing in het .magento.env.yaml-bestand, anders werkt de configuratie mogelijk niet naar behoren. De voorbeelden in de documentatie en in het voorbeeldbestand gebruiken een inspringing met twee spaties. Gebruik de Griekenland-hulpmiddelen bevestigen bevel om uw configuratie te controleren.
 
 >[!NOTE]
 >
->Op Adobe Commerce op de Pro projecten van de wolkeninfrastructuur, moet de [ auto-crons eigenschap ](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) op uw Adobe Commerce op wolkeninfrastructuur worden toegelaten alvorens u de banen van de douaneKneep aan het Opvoeren en van de Productie milieu&#39;s kunt toevoegen gebruikend `.magento.app.yaml`. Als deze eigenschap niet wordt toegelaten, [ creeer een steunkaartje ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket), om de baan te hebben die voor u wordt toegevoegd.
+>Op Adobe Commerce op de Pro projecten van de wolkeninfrastructuur, moet de [&#x200B; auto-crons eigenschap &#x200B;](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) op uw Adobe Commerce op wolkeninfrastructuur worden toegelaten alvorens u de banen van de douaneKneep aan het Opvoeren en van de Productie milieu&#39;s kunt toevoegen gebruikend `.magento.app.yaml`. Als deze eigenschap niet wordt toegelaten, [&#x200B; creeer een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket), om de baan te hebben die voor u wordt toegevoegd.

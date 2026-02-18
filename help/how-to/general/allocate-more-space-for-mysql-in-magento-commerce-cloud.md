@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## Ruimte toewijzen aan Starter-plan en Pro Plan-integratie
 
-Voor alle milieu&#39;s van het Plan van de Starter en het Pro milieu van de Plan [ Integratie ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242), kunt u meer ruimte voor MySQL in het `.magento/services.yaml` dossier toewijzen, door de `mysql: disk:` parameter te verhogen. Bijvoorbeeld:
+Voor alle milieu&#39;s van het Plan van de Starter en het Pro milieu van de Plan [&#x200B; Integratie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242), kunt u meer ruimte voor MySQL in het `.magento/services.yaml` dossier toewijzen, door de `mysql: disk:` parameter te verhogen. Bijvoorbeeld:
 
 ```yaml
 mysql:
@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-Zie de [ dienst MySQL van de Opstelling ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql) artikel voor verwijzing.
+Zie de [&#x200B; dienst MySQL van de Opstelling &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql) artikel voor verwijzing.
 
 Nadat u het `.magento/services.yaml` -bestand hebt gewijzigd, moet u de wijzigingen doorvoeren en doorvoeren, zodat deze kunnen worden toegepast. De duw zal het plaatsingsproces teweegbrengen.
 
@@ -33,7 +33,7 @@ Nadat u het `.magento/services.yaml` -bestand hebt gewijzigd, moet u de wijzigin
 
 ## Ruimte toewijzen aan Pro Plan Staging of Productie
 
-Om deze veranderingen voor het Opvoeren of het milieu van de Productie van het Pro plan aan te brengen, moet u a [ steunkaartje ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) tot stand brengen. Wanneer het voorleggen van een steunkaartje om opslag te verhogen, zal de steun moeten weten hoeveel en aan welke verdeling de opslag zou moeten worden toegepast (`/mysql` of `/exports`). Voor een aanvraag voor een opslagverhoging is goedkeuring vereist van uw Adobe-accountteam, dat de hoeveelheid opslagruimte waarover u beschikt (op basis van het bestelformulier) controleert voordat het kan worden goedgekeurd.
+Om deze veranderingen voor het Opvoeren of het milieu van de Productie van het Pro plan aan te brengen, moet u a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) tot stand brengen. Wanneer het voorleggen van een steunkaartje om opslag te verhogen, zal de steun moeten weten hoeveel en aan welke verdeling de opslag zou moeten worden toegepast (`/mysql` of `/exports`). Voor een aanvraag voor een opslagverhoging is goedkeuring vereist van uw Adobe-accountteam, dat de hoeveelheid opslagruimte waarover u beschikt (op basis van het bestelformulier) controleert voordat het kan worden goedgekeurd.
 
 ## Toegewezen ruimte verkleinen is niet beschikbaar (Pro- en Starterabonnement)
 

@@ -34,13 +34,13 @@ Wanneer u uw Adobe Commerce-project voor cloudinfrastructuur wilt plannen, kunt 
 
 Voer de volgende stappen uit om het subdomein in uw Adobe Commerce te verwerken voor een infrastructuurproject in de cloud:
 
-* [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) verzoekend om subdomain aan de Fastly dienst/Nginx configuratie (voor Adobe Commerce op de architectuur van het de planplan van de wolkeninfrastructuur Pro) toe te voegen.
+* [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) verzoekend om subdomain aan de Fastly dienst/Nginx configuratie (voor Adobe Commerce op de architectuur van het de planplan van de wolkeninfrastructuur Pro) toe te voegen.
 * Vorm de overeenkomstige DNS montages op uw kant.
 
 Nadat u de stappen voor subdomeinconfiguratie hebt uitgevoerd, moet u ook de volgende stappen uitvoeren om uw productiedomein voor het SSL-certificaat te valideren:
 
 * Upload het DNS TXT-record voor SSL-validatie van uw productiedomein.
-* [ legt een steunkaartje ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voor het verzoeken om het productiedomein voor het SSL certificaat te bevestigen.
+* [&#x200B; legt een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voor het verzoeken om het productiedomein voor het SSL certificaat te bevestigen.
 
 Door het subdomein te gebruiken, kunt u in de toekomst een &quot;zachte opstart&quot; van uw winkel uitvoeren, aangezien voor een dergelijke opstart alleen de bijbehorende DNS-instellingen hoeven te worden bijgewerkt.
 
@@ -48,11 +48,11 @@ Door het subdomein te gebruiken, kunt u in de toekomst een &quot;zachte opstart&
 
 In onze kennisbasis voor ondersteuning:
 
-* [ vorm snel DNS montages op het Opvoeren en de milieu&#39;s van de Productie ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
-* [ Opstelling snel voor het plan van de Aanzet op wolk ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
-* [ Potentiële blokkers voor lancering op Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* [&#x200B; vorm snel DNS montages op het Opvoeren en de milieu&#39;s van de Productie &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
+* [&#x200B; Opstelling snel voor het plan van de Aanzet op wolk &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
+* [&#x200B; Potentiële blokkers voor lancering op Adobe Commerce op wolkeninfrastructuur &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
 
 In onze documentatie voor ontwikkelaars:
 
-* [ Snelle Overzicht ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [ ga levende checklist: DNS configuraties voor Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [&#x200B; Snelle Overzicht &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
+* [&#x200B; ga levende checklist: DNS configuraties voor Fastly &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)

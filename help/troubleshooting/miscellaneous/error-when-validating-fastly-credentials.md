@@ -29,7 +29,7 @@ De stappen die in dit artikel worden beschreven, zijn ook van toepassing als u u
 
 ## Oplossing
 
-1. Controleer of u de juiste service-id en API-token voor [!DNL Fastly] hebt en probeer opnieuw te valideren. Voor gedetailleerde instructie, verwijs naar [ Test de  [!DNL Fastly]  geloofsbrieven ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
+1. Controleer of u de juiste service-id en API-token voor [!DNL Fastly] hebt en probeer opnieuw te valideren. Voor gedetailleerde instructie, verwijs naar [&#x200B; Test de  [!DNL Fastly]  geloofsbrieven &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials) in onze ontwikkelaarsdocumentatie.
 1. Als het verifiëren van de geloofsbrieven ontbreekt, stel het volgende krullbevel in werking om de status van de dienst te bevestigen:
 
    ```curl
@@ -38,7 +38,7 @@ De stappen die in dit artikel worden beschreven, zijn ook van toepassing als u u
 
 1. Als de bovenstaande opdracht een fout retourneert die lijkt op: `{"msg":"Token $TOKEN expired at 2021-09-28T02:03:37Z"}` , verzendt u een ondersteuningsticket om een nieuwe API-token aan te vragen. Nadat u het nieuwe token hebt ontvangen, werkt u de configuratie in uw omgeving bij.
 
-   Leren hoe te om een steunkaartje voor te leggen, verwijs naar [ Gids van de Gebruiker van het Centrum van Adobe Commerce > STEUN TICKETS ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-tickets) in onze basis van de steunkennis.
+   Leren hoe te om een steunkaartje voor te leggen, verwijs naar [&#x200B; Gids van de Gebruiker van het Centrum van Adobe Commerce > STEUN TICKETS &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-tickets) in onze basis van de steunkennis.
 
    >[!NOTE]
    >
@@ -50,6 +50,6 @@ De stappen die in dit artikel worden beschreven, zijn ook van toepassing als u u
 
 ## Verwante lezingen in onze ontwikkelaarsdocumentatie:
 
-* [ Wolk voor Adobe Commerce >  [!DNL Fastly] >  [!DNL Fastly]  de dienstrekening en geloofsbrieven ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
+* [&#x200B; Wolk voor Adobe Commerce >  [!DNL Fastly] >  [!DNL Fastly]  de dienstrekening en geloofsbrieven &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
 
-* [ Wolk voor Adobe Commerce > Opstelling  [!DNL Fastly] > Test de  [!DNL Fastly]  geloofsbrieven ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
+* [&#x200B; Wolk voor Adobe Commerce > Opstelling  [!DNL Fastly] > Test de  [!DNL Fastly]  geloofsbrieven &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
