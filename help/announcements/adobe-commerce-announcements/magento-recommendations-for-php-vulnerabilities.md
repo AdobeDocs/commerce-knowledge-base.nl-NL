@@ -4,20 +4,20 @@ description: Op 3 september heeft het Multi-State Information Sharing and Analys
 exl-id: 0bc7caab-0b89-463a-a7f2-a7c92df9f84e
 feature: Compliance, Recommendations
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce Recommendations for PHP Vulnerabilities
 
-Op 3 September, heeft het Meerstatelijke Informatie Delend en Centrum van de Analyse (MS-ISAC) een alarm met betrekking tot veelvoudige kwetsbaarheid uitgegeven die voor willekeurige codeuitvoering en een aanbeveling kon toestaan dat alle plaatsen die PHP gebruiken aan de recentste PHP versie ASAP zouden moeten bijwerken ([&#x200B; volledig alarm is hier beschikbaar &#x200B;](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/)).
+Op 3 September, heeft het Meerstatelijke Informatie Delend en Centrum van de Analyse (MS-ISAC) een alarm met betrekking tot veelvoudige kwetsbaarheid uitgegeven die voor willekeurige codeuitvoering en een aanbeveling kon toestaan dat alle plaatsen die PHP gebruiken aan de recentste PHP versie ASAP zouden moeten bijwerken ([ volledig alarm is hier beschikbaar ](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/)).
 
 >[!WARNING]
 >
->Op Adobe Commerce over cloudinfrastructuur dient u te weten dat serviceupgrades niet naar de productieomgeving kunnen worden doorgevoerd zonder dat ons infrastructuurteam hiervan 48 uur op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn [&#x200B; een steunkaartje &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) voorleggen detailend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
+>Op Adobe Commerce over cloudinfrastructuur dient u te weten dat serviceupgrades niet naar de productieomgeving kunnen worden doorgevoerd zonder dat ons infrastructuurteam hiervan 48 uur op de hoogte wordt gesteld. Dit is nodig omdat wij ervoor moeten zorgen dat wij een ingenieur van de infrastructuursteun beschikbaar hebben om uw configuratie binnen een gewenst tijdsbestek met minimale onderbreking aan uw productiemilieu bij te werken. Zo 48 uren voorafgaand aan wanneer uw veranderingen op productie moeten zijn [ een steunkaartje ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) voorleggen detailend uw vereiste de dienstverbetering en het verklaren van de tijd wanneer u het verbeteringsproces wilt beginnen.
 
 Lees verder voor effecten en stappen voor Adobe Commerce-sites:
 
@@ -28,7 +28,7 @@ Als u Adobe Commerce gebruikt voor cloudinfrastructuur, werkt u samen met uw tec
 Aanvullende opmerkingen over het opnieuw implementeren van uw Cloud-site voor deze update:
 
 * Als uw site nog steeds PHP versie 7.0 gebruikt, moet u eerst een upgrade uitvoeren naar een ondersteunde PHP versie voordat u de site opnieuw implementeert om te kunnen profiteren van deze beveiligingsupdates.
-* Voor 2.1.x/2.2.x, kan meer informatie over bevordering PHP [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=nl-NL) worden gevonden.
+* Voor 2.1.x/2.2.x, kan meer informatie over bevordering PHP [ hier ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html) worden gevonden.
 
 \* *Vorige versies van dit artikel en ons overseinen verklaarde 19 September, maar onze teams hebben hun werk voorafgaand aan programma gebeëindigd.*
 
@@ -42,8 +42,8 @@ Houd rekening met enkele aanvullende gegevens voor Adobe Commerce over andere ho
 
 Tot de aanbevolen patches voor deze kwetsbaarheid behoren:
 
-* PHP 7.1: [&#x200B; https://www.php.net/ChangeLog-7.php\#7.1.32 &#x200B;](https://www.php.net/ChangeLog-7.php#7.1.32)
-* PHP 7.2: [&#x200B; https://www.php.net/ChangeLog-7.php\#7.2.22 &#x200B;](https://www.php.net/ChangeLog-7.php#7.2.22)
-* PHP 7.3: [&#x200B; https://www.php.net/ChangeLog-7.php\#7.3.9 &#x200B;](https://www.php.net/ChangeLog-7.php#7.3.9)
+* PHP 7.1: [ https://www.php.net/ChangeLog-7.php\#7.1.32 ](https://www.php.net/ChangeLog-7.php#7.1.32)
+* PHP 7.2: [ https://www.php.net/ChangeLog-7.php\#7.2.22 ](https://www.php.net/ChangeLog-7.php#7.2.22)
+* PHP 7.3: [ https://www.php.net/ChangeLog-7.php\#7.3.9 ](https://www.php.net/ChangeLog-7.php#7.3.9)
 
-Als u meer informatie over PHP en recente versies zou willen, kunt u [&#x200B; PHP plaats &#x200B;](https://www.php.net/) bezoeken. En als u vragen hebt of meer informatie over beste praktijken voor veiligheid zou willen, gelieve onze [&#x200B; Gids van de Beste praktijken van de Veiligheid te controleren &#x200B;](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf).
+Als u meer informatie over PHP en recente versies zou willen, kunt u [ PHP plaats ](https://www.php.net/) bezoeken. En als u vragen hebt of meer informatie over beste praktijken voor veiligheid zou willen, gelieve onze [ Gids van de Beste praktijken van de Veiligheid te controleren ](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf).

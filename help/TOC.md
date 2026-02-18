@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 3e4d6106345c2a05108171fa6b8d9646f40efbc5
+source-git-commit: 688cdb1d0e76850aa953c602a78820fe6208ae41
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -207,8 +207,6 @@ ht-degree: 0%
    * Elasticsearch {#elasticsearch}
       * [Het vallen terug naar  [!DNL Elasticsearch7]  wanneer de onderzoeksmotor aan  [!DNL Opensearch] wordt geplaatst](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [ElasticSuite-volgindices veroorzaken problemen met Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
-* Handleiding voor Help Center {#help-center-guide}
-   * [Experience League Support-gebruikershandleiding voor Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * Hoe kan ik {#how-to}
    * [Hoe kan ik-overzicht](/help/how-to/overview.md)
    * [Checklist voor vestiging een nieuw  [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)

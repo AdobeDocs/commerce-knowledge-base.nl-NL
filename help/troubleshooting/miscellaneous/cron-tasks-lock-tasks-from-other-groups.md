@@ -4,9 +4,9 @@ description: Dit artikel verstrekt een oplossing voor Adobe Commerce op de kwest
 exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 feature: Configuration
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Eerder, in onze wolkenomgeving, werd de server Jenkins gebruikt om [!DNL cron] b
 
 ## Oplossing
 
-1. De steun van Adobe Commerce van het contact [&#128279;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om zelf-geleid [!DNL crons] toegelaten te hebben.
+1. De steun van Adobe Commerce van het contact [ ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) om zelf-geleid [!DNL crons] toegelaten te hebben.
 1. Bewerk het `.magento.app.yaml` -bestand in de hoofdmap van de code voor Adobe Commerce in de [!DNL Git] -vertakking. Voeg het volgende toe:
 
    ```yaml
@@ -71,5 +71,5 @@ Als u wilt controleren of de zelfbeheerde [!DNL cron] is ingeschakeld, voert u d
 
 ## Gerelateerde lezing
 
-* [!DNL cron]  de banen van de opstelling [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) in onze ontwikkelaarsdocumentatie
-* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [ de banen van de opstelling  [!DNL cron]  in onze ontwikkelaarsdocumentatie](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
+* [ Beste praktijken voor het wijzigen van gegevensbestandlijsten ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

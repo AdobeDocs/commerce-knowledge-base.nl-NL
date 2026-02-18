@@ -4,9 +4,9 @@ description: 'In dit artikel worden stappen beschreven voor het oplossen van pro
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer
-source-git-commit: 27fed162416c619a08d757279a3405f1fa72e976
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ In dit artikel worden stappen beschreven voor het oplossen van problemen met Ado
 <li>Schuif omlaag en klik op Alle transacties tonen.</li>
 <li>U kunt transacties door <a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view"> diverse parameters </a> sorteren en aan die springen die verdenking veroorzaken.</li>
 <li>Controleer de transacties met een lage Apdex-score, een ongewoon hoge telling of een hoge Gem-tijd, of Verspreid %.</li>
-<li>Klik op elke afzonderlijke transactie. Als u niet de kwestie kunt oplossen, <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket"> voorlegt een steunkaartje.</a>
+<li>Klik op elke afzonderlijke transactie. Als u niet de kwestie kunt oplossen, <a href="https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket"> voorlegt een steunkaartje.</a>
 </li>
 <li>Als u verder moet onderzoeken, overweeg het controleren van niet-Webtransacties.</li>
 </ol>
@@ -60,7 +60,7 @@ In dit artikel worden stappen beschreven voor het oplossen van problemen met Ado
 </ol>
 </td>
 <td>
-<p>Meer over de score van de Apdex van New Relic leren, verwijs naar <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction"> Documentatie van New Relic &gt; de Apdex van APM &gt; de gebruikerstevredenheid van de Meetlat </a>. U kunt ook naar <a href="https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert"> Beheerde alarm voor Adobe Commerce verwijzen: De waarschuwingsalarm van de Index </a> in onze basis van de steunkennis.</p>
+<p>Meer over de score van de Apdex van New Relic leren, verwijs naar <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction"> Documentatie van New Relic &gt; de Apdex van APM &gt; de gebruikerstevredenheid van de Meetlat </a>. U kunt ook naar <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert"> Beheerde alarm voor Adobe Commerce verwijzen: De waarschuwingsalarm van de Index </a> in onze basis van de steunkennis.</p>
 </td>
 </tr>
 <tr>

@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor problemen met de implementatie
 exl-id: e8d72ebe-453f-4d18-a25e-c76e685aa667
 feature: Deploy, Roles/Permissions
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -50,18 +50,18 @@ Als een implementatie is mislukt nadat een wijziging is aangebracht in de primai
 
 ### Hoe te om de toegangssleutel onbruikbaar te maken
 
-Als u geen toegang tot de [&#x200B; Commerce Marketplace &#x200B;](https://marketplace.magento.com/) rekening verbonden aan de oude sleutel hebt, [&#x200B; contacteer de Steun van Adobe Commerce &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) om de sleutel gehandicapt te hebben.
+Als u geen toegang tot de [ Commerce Marketplace ](https://marketplace.magento.com/) rekening verbonden aan de oude sleutel hebt, [ contacteer de Steun van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) om de sleutel gehandicapt te hebben.
 
 Als u toegang hebt tot het Marketplace-account dat aan de oude toets is gekoppeld, voert u de volgende stappen uit om de toets uit te schakelen:
 
-1. Login aan de [&#x200B; Commerce Marketplace &#x200B;](https://marketplace.magento.com/) gebruikend de geloofsbrieven van de oude rekening.
+1. Login aan [ Commerce Marketplace ](https://marketplace.magento.com/) gebruikend de geloofsbrieven van de oude rekening.
 1. Klik de rekeningsnaam in het hoogste recht van de pagina en selecteer **Mijn Profiel**.
 1. Klik **Sleutels van de Toegang** in het lusje van de Marketplace.
 
-   ![&#x200B; magento_products_access_keys_2.4.1.png &#x200B;](/help/troubleshooting/miscellaneous/assets/magento_products_access_keys_2.4.1.png)
+   ![ magento_products_access_keys_2.4.1.png ](/help/troubleshooting/miscellaneous/assets/magento_products_access_keys_2.4.1.png)
 
 1. Klik **onbruikbaar maken** naast de toegangssleutel.
 
 ## Gerelateerde lezing
 
-* [&#x200B; krijgt uw authentificatietoetsen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) in onze ontwikkelaarsdocumentatie.
+* [ krijgt uw authentificatietoetsen ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) in onze ontwikkelaarsdocumentatie.

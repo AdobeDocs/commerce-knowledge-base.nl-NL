@@ -3,9 +3,9 @@ title: Tips voor tests van andere bedrijven voor Adobe Commerce op cloudinfrastr
 description: Dit artikel bevat opties voor het delen van toegang met derden voor tests/validatie wanneer u een probleem hebt met een extensie voor Adobe Commerce op cloudinfrastructuur.
 exl-id: e2d80aa9-8b68-48ed-bec5-68e128611a1e
 feature: Best Practices, Cloud
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 9e218e3fadbf9941c94d309fcfb6f258d2f4faf2
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Afhankelijk van uw interne veiligheidsnormen, kunt u verkiezen om de derdeproble
 
 * Geef uw externe leverancier toegang tot de cloudomgeving. Verwante artikelen:
 
-   * [&#x200B; de Gids van de Gebruiker van het Centrum van de Hulp van Adobe Commerce > GEDEELDE TOEGANG: DE VOORRECHTEN VAN DE VERLENER VOOR ANDERE GEBRUIKERS OM TOT UW ACCOUNT &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access) in onze steun kennisbasis toegang te hebben.
-   * [&#x200B; delend Uw Rekening van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/commerce-account/commerce-account-share) in onze gebruikersgids.
+   * [ de Gids van de Gebruiker van het Centrum van de Hulp van Adobe Commerce > GEDEELDE TOEGANG: DE VOORRECHTEN VAN DE VERLENER VOOR ANDERE GEBRUIKERS OM TOT UW ACCOUNT ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guidee#shared-access) in onze steun kennisbasis toegang te hebben.
+   * [ delend Uw Rekening van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) in onze gebruikersgids.
 
 * Creeer een gegevensbestandstortplaats (of geef de derdeverkoper toegang om dit te doen). Dit kan worden gedaan met de CLI of in de Commerce Admin. Deze stortplaats van DB zal klantengegevens verduisteren, zodat alles zij code en product SKU&#39;s, enz. krijgen, geen merkgebonden/klantengegevens. Voor verwijzing, gebruik [ delend Uw Rekening van Commerce ] (/help/how-to/general/create-database-dump-on-cloud.md) in onze steun kennisbasis.
-* Zodra het testen volledig is, zorg ervoor om de gedeelde toegang tot uw wolkenmilieu, zoals die in [&#x200B; wordt beschreven de Gids van de Gebruiker van het Centrum van de Hulp van Adobe Commerce > Intrekken (schrapt gedeelde toegang) &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access) in onze basis van steunkennis.
+* Zodra het testen volledig is, zorg ervoor om de gedeelde toegang tot uw wolkenmilieu, zoals die in [ wordt beschreven de Gids van de Gebruiker van het Centrum van de Hulp van Adobe Commerce > Intrekken (schrapt gedeelde toegang) ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#revoke-shared-access) in onze basis van steunkennis.
 
 ## Testen van beste praktijken
 
@@ -39,4 +39,4 @@ De standaardpraktijk moet op een lokaal milieu problemen oplossen. Ga naar Stagi
 
 ## Gerelateerde lezing
 
-* [&#x200B; Beste praktijken voor het gebruiken van derdeuitbreidingen in Adobe Commerce &#x200B;](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) in onze basis van de steunkennis.
+* [ Beste praktijken voor het gebruiken van derdeuitbreidingen in Adobe Commerce ](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) in onze basis van de steunkennis.
