@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 9d80bfb801d55c25627e92e9777699c14056e2dd
+source-git-commit: 3e4d6106345c2a05108171fa6b8d9646f40efbc5
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2123'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -211,7 +211,6 @@ ht-degree: 0%
    * [Experience League Support-gebruikershandleiding voor Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * Hoe kan ik {#how-to}
    * [Hoe kan ik-overzicht](/help/how-to/overview.md)
-   * [Beveiligingspatches verkrijgen en toepassen](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
    * [Checklist voor vestiging een nieuw  [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [Een DB-momentopname herstellen uit Staging of Productie](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials: betalingsmethode bijwerken of abonnement annuleren](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
@@ -220,7 +219,6 @@ ht-degree: 0%
    * [Grote MySQL-tabellen zoeken](/help/how-to/general/find-large-mysql-tables.md)
    * [Vastgezette Adobe Commerce handmatig opnieuw instellen op snijtaken in cloudinfrastructuur](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [Test snel op productie als een actieve site hetzelfde domein gebruikt](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
-   * [Statische implementatieopties voor inhoud om downtime bij implementatie op Cloud te reduceren](/help/how-to/general/static-content-deployment-options-to-reduce-deployment-downtime-on-cloud.md)
    * [Onderkennen en meten van uitvallen voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/how-to-identify-outages.md)
    * [Eigenaar van account wijzigen voor New Relic op Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [Admin-URL wijzigen in Adobe Commerce op cloudinfrastructuur](/help/how-to/general/change-magento-admin-url-on-cloud.md)
