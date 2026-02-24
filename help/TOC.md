@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 688cdb1d0e76850aa953c602a78820fe6208ae41
+source-git-commit: 4d86db1115489e83e58d82464abed8fbd82fea25
 workflow-type: tm+mt
-source-wordcount: '2112'
+source-wordcount: '2096'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -220,9 +220,7 @@ ht-degree: 0%
    * [Onderkennen en meten van uitvallen voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/how-to-identify-outages.md)
    * [Eigenaar van account wijzigen voor New Relic op Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [Admin-URL wijzigen in Adobe Commerce op cloudinfrastructuur](/help/how-to/general/change-magento-admin-url-on-cloud.md)
-   * [NPM configureren om PWA Studio te kunnen gebruiken](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md)
    * [Kolomvertakkingen opnieuw rangschikken op Adobe Commerce](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
-   * [Adobe Commerce-productdocumentatie vinden](/help/how-to/general/how-to-find-magento-product-documentation.md)
    * [HTTP omleiden naar HTTPS voor alle pagina&#39;s op Adobe Commerce op cloudinfrastructuur (TLS afdwingen)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [Meer ruimte toewijzen voor MySQL in Adobe Commerce in de cloud](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [De incrementele id wijzigen voor een DB-entiteit (bestelling, factuur, creditnota, enz.) in een bepaalde winkel](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
