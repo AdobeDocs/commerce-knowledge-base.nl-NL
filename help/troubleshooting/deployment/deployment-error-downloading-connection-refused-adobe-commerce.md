@@ -59,6 +59,6 @@ Om te controleren wie op het project een Super Gebruiker is, verwijs naar [&#x20
 
 ## Aanbevolen lezen
 
-* [&#x200B; de plaatsingsproblemen van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640).
+* [&#x200B; de plaatsingsproblemen van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-29640).
 * [&#x200B; Adobe Commerce op wolkenrepo kon niet worden betreden: 403 Verboden of 404 niet Gevonden fout toen het opstellen van &#x200B;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
 * [&#x200B; de Plaatsing ontbreekt met &quot;Fout bouwend project: De bouwstijlhaak ontbrak met statuscode 1&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
