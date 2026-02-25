@@ -1,10 +1,10 @@
 ---
 title: 'PWA Studio: browser kan de .local.pwadev-site niet oplossen'
-description: Dit artikel biedt een oplossing voor het tijdstip waarop een ander programma of proces uw [hostbestand] (https://en.wikipedia.org/wiki/Hosts_(file) heeft bewerkt en de vermelding voor uw projectdomein heeft verwijderd.
+description: Dit artikel biedt een oplossing voor het tijdstip waarop een ander programma of proces uw [hostbestand] (https://en.wikipedia.org/wiki/Hosts_(file\) heeft bewerkt en de vermelding voor uw projectdomein heeft verwijderd.
 exl-id: a1606016-906a-433f-9e40-9faa5f9bd790
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1d0d51209bdc02360c6f8527701cdf0da811659d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -31,11 +31,11 @@ Deze ingang vertelt om het even welke browser op de computer van de ontwikkelaar
 
 ## Oplossing
 
-U kunt [&#x200B; uw hostfile &#x200B;](https://support.rackspace.com/how-to/modify-your-hosts-file/) manueel uitgeven om de ingang terug toe te voegen, maar u zou uw andere geïnstalleerde software moeten onderzoeken om te zien wat de vorige verandering heeft overschreven.
+U kunt [ uw hostfile ](https://docs.rackspace.com/docs/modify-your-hosts-file) manueel uitgeven om de ingang terug toe te voegen, maar u zou uw andere geïnstalleerde software moeten onderzoeken om te zien wat de vorige verandering heeft overschreven.
 
 ## Gerelateerde lezing in onze kennisbasis voor support
 
-* [&#x200B; PWA Studio: Zelfondertekende fout van het certificaatvertrouwen &#x200B;](https://support.magento.com/hc/en-us/articles/360038973172)
+* [ PWA Studio: Zelfondertekende fout van het certificaatvertrouwen ](https://support.magento.com/hc/en-us/articles/360038973172)
 * [PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
-* [PWA Studio: fout &quot;Cannot proxy to&quot; wordt weergegeven in browser](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
-* [PWA Studio: validatiefouten bij het uitvoeren van de ontwikkelaarsmodus](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
+* [PWA Studio: in Browser wordt de fout &#39;&#39;Kan proxy niet aan&#39;&#39; weergegeven](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
+* [PWA Studio: Validatiefouten bij uitvoering van ontwikkelaarsmodus](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
