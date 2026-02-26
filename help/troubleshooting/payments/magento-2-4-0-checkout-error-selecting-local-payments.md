@@ -4,9 +4,9 @@ description: In dit artikel wordt gesproken over een oplossing voor een bekend p
 exl-id: de2eafb0-d03c-4ff8-9615-0f2676d95848
 feature: B2B, Categories, Checkout, Orders, Payments
 role: Developer
-source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
+source-git-commit: 7705b6030d2f0877c228dae1707916ad38c9d587
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Het foutenbericht, &quot;*Er zijn momenteel geen beschikbare betalingsmethodes. 
 
 * Adobe Commerce 2.4.0 is geïnstalleerd.
 * Maak één product en één categorie.
-* Vorm [&#x200B; de Betalingsmethode van Braintree &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree/).
+* Vorm [ de Betalingsmethode van Braintree ](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree/).
 
 <u> Stappen om </u> te reproduceren:
 
@@ -53,4 +53,3 @@ De oplossing is het weergegeven foutbericht te negeren en de betaling als normaa
 ## Gerelateerde lezing
 
 * [Bekende uitgave van Adobe Commerce 2.4.0: Betalingsmethoden van Braintree worden niet weergegeven bij de afhandeling van meerdere adressen](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
-* [Adobe Commerce 2.4.0 B2B Admin kan geen configureerbaar product toevoegen om te citeren](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
