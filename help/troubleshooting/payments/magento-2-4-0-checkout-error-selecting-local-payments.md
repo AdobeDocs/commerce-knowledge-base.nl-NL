@@ -28,7 +28,7 @@ Het foutenbericht, &quot;*Er zijn momenteel geen beschikbare betalingsmethodes. 
 
 * Adobe Commerce 2.4.0 is geïnstalleerd.
 * Maak één product en één categorie.
-* Vorm [ de Betalingsmethode van Braintree ](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree/).
+* Vorm [&#x200B; de Betalingsmethode van Braintree &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree/).
 
 <u> Stappen om </u> te reproduceren:
 
