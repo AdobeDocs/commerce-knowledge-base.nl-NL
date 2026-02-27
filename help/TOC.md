@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: bb56e1f5ae48d9a8c370b1d19588551d76779b66
+source-git-commit: caefdec695d553b2681e8677b200e687ea824d55
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2071'
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -217,7 +217,6 @@ ht-degree: 0%
    * [Vastgezette Adobe Commerce handmatig opnieuw instellen op snijtaken in cloudinfrastructuur](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [Test snel op productie als een actieve site hetzelfde domein gebruikt](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
    * [Onderkennen en meten van uitvallen voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/how-to-identify-outages.md)
-   * [Eigenaar van account wijzigen voor New Relic op Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [Admin-URL wijzigen in Adobe Commerce op cloudinfrastructuur](/help/how-to/general/change-magento-admin-url-on-cloud.md)
    * [Kolomvertakkingen opnieuw rangschikken op Adobe Commerce](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
    * [HTTP omleiden naar HTTPS voor alle pagina&#39;s op Adobe Commerce op cloudinfrastructuur (TLS afdwingen)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
