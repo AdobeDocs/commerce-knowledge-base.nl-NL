@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: caefdec695d553b2681e8677b200e687ea824d55
+source-git-commit: d1169e70188408f48207d9ca9b5a9ec3aaabeea0
 workflow-type: tm+mt
-source-wordcount: '2071'
+source-wordcount: '2043'
 ht-degree: 0%
 
 ---
@@ -180,7 +180,6 @@ ht-degree: 0%
       * [Modules ontbreken in Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
       * [Oude teamleden ontvangen e-mailberichten over de cloud van Adobe Commerce](/help/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.md)
       * [Nieuw domein wordt omgeleid naar standaarddomein](/help/troubleshooting/miscellaneous/new-domain-redirecting.md)
-      * [Kan gebruiker niet toevoegen aan Adobe Commerce Cloud Project](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
       * [De einden van de uitsnede toe te schrijven aan misconfigured of mist  [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
       * [[!DNL Admin] aanmelden werkt niet - toegestane sessiegrootte is overschreden](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
       * [[!DNL Google Tag Manager] wordt afgebroken door de widget Live zoeken](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
@@ -189,7 +188,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -224,10 +223,8 @@ ht-degree: 0%
    * [De incrementele id wijzigen voor een DB-entiteit (bestelling, factuur, creditnota, enz.) in een bepaalde winkel](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [Snel instellen voor starterabonnement op cloud](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
    * [Adobe Commerce Intelligence Training Video: Cohort Report Builder](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
-   * [Upgrade MariaDB 10.0 naar 10.2 voor Adobe Commerce op cloud](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
    * [De Adobe Commerce-omgeving herstellen op cloudinfrastructuur](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI: integraties opnieuw verifiëren](/help/how-to/general/mbi-reauthenticating-integrations.md)
-   * [Vorm de Snelle montages DNS op het Opvoeren en de milieu&#39;s van de Productie](/help/how-to/general/configure-fastly-dns-settings-on-staging-and-production-environments.md)
    * [Loglocaties (directory&#39;s) voor Pro-plan: integratie, opslag, productie](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
    * [Adobe Commerce op cloud: controleer of een upgrade naar de hostinstanties nodig is](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [Bootstrap Adobe Commerce 2 in een sandboxscript](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
