@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 37d987f5eab3d229f0f3230c7da5a7a79c910dc4
+source-git-commit: 3386035e973f1f839a9ff8792b4c2dbd55262139
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -221,7 +221,6 @@ ht-degree: 0%
    * [Meer ruimte toewijzen voor MySQL in Adobe Commerce in de cloud](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [De incrementele id wijzigen voor een DB-entiteit (bestelling, factuur, creditnota, enz.) in een bepaalde winkel](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [Snel instellen voor starterabonnement op cloud](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
-   * [Adobe Commerce Intelligence Training Video: Cohort Report Builder](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
    * [De Adobe Commerce-omgeving herstellen op cloudinfrastructuur](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI: integraties opnieuw verifiëren](/help/how-to/general/mbi-reauthenticating-integrations.md)
    * [Loglocaties (directory&#39;s) voor Pro-plan: integratie, opslag, productie](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
