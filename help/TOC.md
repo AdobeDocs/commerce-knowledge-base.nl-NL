@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 3386035e973f1f839a9ff8792b4c2dbd55262139
+source-git-commit: 0d15e1ccd8acd9bd20d2665a8e0581c034432609
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2018'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -236,7 +236,6 @@ ht-degree: 0%
    * [Adobe Commerce on cloud: verificatietoetsen wijzigen en opnieuw implementeren](/help/how-to/general/redeploy-with-another-key.md)
    * [Hoe te om een &quot;scrubbed&quot;stortplaats te creëren wanneer gevraagd door steunagent](/help/how-to/general/create-dump-for-support.md)
    * [MBI: Geavanceerde berekende kolommen maken en bewerken](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
-   * [Limiet schijfruimte controleren voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)
    * [SSL-certificaten (TLS) voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
    * [Kan de nieuwste Beta-versie niet openen](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [De toepassingsmodus wijzigen](/help/how-to/general/switch-the-magento-mode.md)
