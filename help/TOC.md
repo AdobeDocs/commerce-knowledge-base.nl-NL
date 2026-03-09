@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 27fdd8be38a2507601aba7d52a0cd4348ec9ed6e
+source-git-commit: 8351ff2e2ac3db4488ad61dc38974e4ca79c6ce6
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2002'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -234,7 +234,6 @@ ht-degree: 0%
    * [Adobe Commerce on cloud Infrastructure: controleer de CPU-configuratie van de host](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
    * [Adobe Commerce on cloud: verificatietoetsen wijzigen en opnieuw implementeren](/help/how-to/general/redeploy-with-another-key.md)
    * [Hoe te om een &quot;scrubbed&quot;stortplaats te creëren wanneer gevraagd door steunagent](/help/how-to/general/create-dump-for-support.md)
-   * [MBI: Geavanceerde berekende kolommen maken en bewerken](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
    * [SSL-certificaten (TLS) voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
    * [Kan de nieuwste Beta-versie niet openen](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [De toepassingsmodus wijzigen](/help/how-to/general/switch-the-magento-mode.md)
