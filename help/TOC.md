@@ -2,10 +2,10 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 8351ff2e2ac3db4488ad61dc38974e4ca79c6ce6
+source-git-commit: 9eb525793f5401cf23931b9cbff92ba92c1024c1
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 0%
+source-wordcount: '1996'
+ht-degree: 1%
 
 ---
 
@@ -92,7 +92,6 @@ ht-degree: 0%
       * [Problemen met gereedheid voor uitsnijden](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
       * [SQL-query&#39;s: EXPLAIN-kostenfouten](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
       * [Problemen met New Relic op Adobe Commerce op cloudinfrastructuur oplossen](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
-      * [Cache inschakelen om prestatievermindering te voorkomen](/help/troubleshooting/miscellaneous/enable-magento-cache-to-avoid-performance-degradation.md)
       * [Handleiding voor het oplossen van problemen met Adobe Commerce Security Scan](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
       * [Gereedheidscontrole voor bestandsmachtigingen](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
       * [Problemen met de eCommerce-omzet in Google opsporen](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
@@ -187,7 +186,7 @@ ht-degree: 0%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
