@@ -18,7 +18,7 @@ In dit artikel wordt uitgelegd hoe in aanmerking komende klanten van Adobe Comme
 
 * **is op van toepassing:**
    * Klanten die Adobe Commerce Intelligence Essentials hebben aangeschaft als een zelfstandig abonnement van maand tot maand.
-   * Klanten die het factureren direct door [ account.magento.com beheren ](https://account.magento.com)
+   * Klanten die het factureren direct door [&#x200B; account.magento.com beheren &#x200B;](https://account.magento.com)
 * **is niet van toepassing op:**
    * Klanten die Commerce Intelligence openen als onderdeel van een Adobe Commerce-contract (bijvoorbeeld Adobe Commerce Pro of Adobe Commerce op cloudinfrastructuur).
    * Klanten met op contract gebaseerde facturering of gefactureerde abonnementen
@@ -35,7 +35,7 @@ In dit artikel wordt uitgelegd hoe in aanmerking komende klanten van Adobe Comme
 
 Commerce Intelligence Essentials-klanten kunnen hun abonnementen alleen annuleren of hun betalingsmethoden bijwerken als ze de primaire rekeninghouder voor de Magento-account zijn. De stappen zijn:
 
-1. Navigeer aan [ account.magento.com ](https://account.magento.com) en login.
+1. Navigeer aan [&#x200B; account.magento.com &#x200B;](https://account.magento.com) en login.
 2. Klik op **[!UICONTROL Magento]** > **[!UICONTROL My Products and Services]** > **[!UICONTROL Magento Business Intelligence]** en klik op **[!UICONTROL Show Details]** naast de licentie die u wilt bijwerken.
 3. Selecteer **[!UICONTROL Update Payment Method]** of **[!UICONTROL Cancel License]** .
 
