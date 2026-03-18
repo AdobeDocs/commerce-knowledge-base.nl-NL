@@ -4,7 +4,7 @@ description: In dit artikel worden enkele veelvoorkomende snelle voorbeelden van
 exl-id: 3e42d38f-97bc-4d38-8e36-23b1453f81d9
 feature: Support
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8be0c125bb0417e34e016656337506da88796630
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Bijvoorbeeld:
 
 `max_execution_time = 120`
 
-Raadpleeg [&#x200B; aanpassen php.ini montages &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/app/php-settings) artikel.
+Raadpleeg [ aanpassen php.ini montages ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) artikel.
 
 ## Voorbeeld
 
@@ -35,7 +35,7 @@ Raadpleeg [&#x200B; aanpassen php.ini montages &#x200B;](https://experienceleagu
 
 ## Oplossing
 
-Pas de `php.ini` -instellingen aan. Raadpleeg dit [&#x200B; aanpassen php.ini montages &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/app/php-settings) artikel.
+Pas de `php.ini` -instellingen aan. Raadpleeg dit [ aanpassen php.ini montages ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) artikel.
 
 ## Voorbeeld
 
@@ -65,9 +65,9 @@ Controleer de map `<root>/tmp` omdat deze waarschijnlijk vol is. Als de map vol 
 
 In onze documentatie voor ontwikkelaars:
 
-* [&#x200B; PHP montagesfouten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/overview)
-* [&#x200B; Vereiste PHP montages &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/php-settings)
-* [&#x200B; herdis controle &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
-* [&#x200B; vormen Redis &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
-* [&#x200B; PHP fout van de geheugengrens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/overview)
-* [&#x200B; Oplossingen aan gemeenschappelijke problemen - de grens van het Geheugen &#x200B;](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)
+* [ PHP montagesfouten ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [ Vereiste PHP montages ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [ herdis controle ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [ vormen Redis ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [ PHP fout van de geheugengrens ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [ Oplossingen aan gemeenschappelijke problemen - de grens van het Geheugen ](https://developer.adobe.com/commerce/testing/guide/unit/command-line#solutions-to-common-problems)

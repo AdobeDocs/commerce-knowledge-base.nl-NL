@@ -1,19 +1,19 @@
 ---
-title: 'PWA Studio: validatiefouten bij het uitvoeren van de ontwikkelaarsmodus'
-description: Dit onderwerp bespreekt een oplossing voor wanneer de bevestigingsfouten voorkomen wanneer het runnen van ontwikkelaarswijze in de Progressieve Studio van de Web App (PWA) voor Adobe Commerce als resultaat van niet eerder creërend venia-concept (Venia is een PWA storefront.) milieudossier. Dit bestand bevat de variabelen voor uw lokale ontwikkelomgeving.
+title: 'PWA Studio: Validatiefouten bij uitvoering van ontwikkelaarsmodus'
+description: Dit onderwerp bespreekt een oplossing voor wanneer de bevestigingsfouten voorkomen wanneer het runnen van ontwikkelaarwijze in Progressieve Studio van de Web App (PWA) voor Adobe Commerce als resultaat van eerder het venia-concept (Venia is een PWA storefront.) milieudossier. Dit bestand bevat de variabelen voor uw lokale ontwikkelomgeving.
 exl-id: 97d042ef-88e6-4eda-a834-2cff4de276e2
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 9d32a5971341ed8dc46e0932c10eaac4d17ec299
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
-# PWA Studio: validatiefouten bij het uitvoeren van de ontwikkelaarsmodus
+# PWA Studio: Validatiefouten bij uitvoering van ontwikkelaarsmodus
 
-Dit onderwerp bespreekt een oplossing voor wanneer de bevestigingsfouten voorkomen wanneer het runnen van ontwikkelaarswijze in de Progressieve Studio van de Web App (PWA) voor Adobe Commerce als resultaat van niet eerder creërend venia-concept (Venia is een PWA storefront.) milieudossier. Dit bestand bevat de variabelen voor uw lokale ontwikkelomgeving.
+Dit onderwerp bespreekt een oplossing voor wanneer de bevestigingsfouten voorkomen wanneer het runnen van ontwikkelaarwijze in Progressieve Studio van de Web App (PWA) voor Adobe Commerce als resultaat van eerder het venia-concept (Venia is een PWA storefront.) milieudossier. Dit bestand bevat de variabelen voor uw lokale ontwikkelomgeving.
 
 ## Betrokken producten en versies
 
@@ -23,11 +23,11 @@ Dit onderwerp bespreekt een oplossing voor wanneer de bevestigingsfouten voorkom
 
 <u> Stap om te reproduceren </u>:
 
-* Voer de ontwikkelaarsmodus uit in PWA Studio voor Adobe Commerce.
+* Voer de ontwikkelaarsmodus uit in PWA Studio for Adobe Commerce.
 
 <u> Verwacht resultaat </u>:
 
-* De server van de PWA Studio begint normaal.
+* De PWA Studio-server wordt normaal gestart.
 
 <u> Werkelijk resultaat </u>:
 
@@ -53,5 +53,5 @@ in de hoofdmap om het bestand te genereren dat de variabelen voor uw lokale ontw
 
 ## Gerelateerde lezing
 
-* [&#x200B; PWA Studio voor de Documentatie van Adobe Commerce &#x200B;](https://magento.github.io/pwa-studio/)
-* [&#x200B; Venia Storefront (Concept) &#x200B;](https://magento.github.io/pwa-studio/venia-pwa-concept/)
+* [ PWA Studio voor de Documentatie van Adobe Commerce ](https://developer.adobe.com/commerce/pwa-studio/)
+* [ Venia Storefront (Concept) ](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)

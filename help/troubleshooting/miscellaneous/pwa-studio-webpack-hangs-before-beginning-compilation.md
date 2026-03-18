@@ -1,10 +1,10 @@
 ---
 title: 'PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart'
-description: Dit artikel spreekt over een voorgestelde oplossing aan wanneer een javascript [Webpack] (https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) lang alvorens met compilatie in de Progressieve Studio van de Web App (PWA Studio) te beginnen hangt.
+description: Dit artikel spreekt over een voorgestelde oplossing aan wanneer een javascript [Webpack] (https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack) lang alvorens met compilatie in de Progressieve Studio van de Web App (PWA Studio) te beginnen hangt.
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 032fe4d32921c63570672b9c68e8c03e00bd1077
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: Webpack loopt vast voordat de compilatie wordt gestart
 
-Dit artikel spreekt over een voorgestelde oplossing aan wanneer een javascript [&#x200B; Webpack &#x200B;](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) lange tijd alvorens met compilatie in de Progressieve Studio van de Web App (PWA Studio) te beginnen hangt.
+Dit artikel spreekt over een voorgestelde oplossing aan wanneer een javascript [ Webpack ](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack) lange tijd alvorens met compilatie in de Progressieve Studio van de Web App (PWA Studio) te beginnen hangt.
 
 ## Betrokken producten en versies
 
@@ -21,7 +21,7 @@ Dit artikel spreekt over een voorgestelde oplossing aan wanneer een javascript [
 
 ## Probleem
 
-[&#x200B; Controle wat de recentste versie van pwa-buildpack is &#x200B;](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack), en
+[ Controle wat de recentste versie van pwa-buildpack is ](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack), en
 
 ```yaml
 pwa-buildpack
@@ -37,7 +37,7 @@ project, kan de webpack lang hangen alvorens met compilatie te beginnen.
 
 <u> Stappen om </u> te reproduceren:
 
-<u> Eerste vereisten </u>: Opstelling een storefront van de PWA Studio, zoals Venia, met een lokale instantie van Adobe Commerce en stel a in werking
+<u> Eerste vereisten </u>: Opstelling een storefront van PWA Studio, zoals Venia, met een lokale instantie van Adobe Commerce en stel a in werking
 
 ```yaml
 build
@@ -88,12 +88,12 @@ openssl version
 
 De versie moet 1.0 of hoger zijn (of LibreSSL 2, in het geval van OSX High Sierra.).
 
-U kunt hogere versies van OpenSSL met [&#x200B; Homebrew &#x200B;](https://brew.sh/) op OSX, [&#x200B; Chocolade &#x200B;](https://chocolatey.org/) op Vensters, of uw het pakketmanager van de distributie van Linux installeren.
+U kunt hogere versies van OpenSSL met [ Homebrew ](https://brew.sh/) op OSX, [ Chocolade ](https://chocolatey.org/) op Vensters, of uw het pakketmanager van de distributie van Linux installeren.
 
 ## Gerelateerde lezing
 
-* [&#x200B; JavaScript Webpack: Concepten &#x200B;](https://webpack.js.org/concepts/)
-* [&#x200B; Venia storefront opstelling &#x200B;](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
-* [&#x200B; PWA Buildpack &#x200B;](https://magento.github.io/pwa-studio/pwa-buildpack/)
-* [&#x200B; bouwdpack Interface van de Lijn van het Bevel &#x200B;](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
-* [&#x200B; Hulpmiddelen en bibliotheken: bouwstijlpak &#x200B;](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
+* [ JavaScript Webpack: Concepten ](https://webpack.js.org/concepts/)
+* [ Venia storefront opstelling ](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
+* [ PWA Buildpack ](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
+* [ bouwdpack Interface van de Lijn van het Bevel ](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
+* [ Hulpmiddelen en bibliotheken: bouwstijlpak ](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)
