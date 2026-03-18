@@ -53,5 +53,5 @@ in de hoofdmap om het bestand te genereren dat de variabelen voor uw lokale ontw
 
 ## Gerelateerde lezing
 
-* [ PWA Studio voor de Documentatie van Adobe Commerce ](https://developer.adobe.com/commerce/pwa-studio/)
-* [ Venia Storefront (Concept) ](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
+* [&#x200B; PWA Studio voor de Documentatie van Adobe Commerce &#x200B;](https://developer.adobe.com/commerce/pwa-studio/)
+* [&#x200B; Venia Storefront (Concept) &#x200B;](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
