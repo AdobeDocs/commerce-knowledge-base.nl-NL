@@ -3,9 +3,9 @@ title: 'Adobe Commerce Intelligence Essentials: betalingsmethode bijwerken of ab
 description: Hoe in aanmerking komende klanten van Commerce Intelligence Essentials (standalone, maand-aan-maand, facturering via account.magento.com) betalingsmethode kunnen bijwerken of annuleren. Dit is niet van toepassing op abonnementen op basis van Pro, Cloud of contracten of gefactureerde abonnementen.
 exl-id: 45e95451-6d17-44c7-81d3-87f5876b5758
 feature: Commerce Intelligence
-source-git-commit: 7d304a492471168f456071a9a38134f465dbc88f
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ In dit artikel wordt uitgelegd hoe in aanmerking komende klanten van Adobe Comme
 
 * **is op van toepassing:**
    * Klanten die Adobe Commerce Intelligence Essentials hebben aangeschaft als een zelfstandig abonnement van maand tot maand.
-   * Klanten die het factureren direct door [&#x200B; account.magento.com beheren &#x200B;](https://account.magento.com)
+   * Klanten die het factureren direct door [ account.magento.com beheren ](https://account.magento.com)
 * **is niet van toepassing op:**
    * Klanten die Commerce Intelligence openen als onderdeel van een Adobe Commerce-contract (bijvoorbeeld Adobe Commerce Pro of Adobe Commerce op cloudinfrastructuur).
    * Klanten met op contract gebaseerde facturering of gefactureerde abonnementen
@@ -35,10 +35,10 @@ In dit artikel wordt uitgelegd hoe in aanmerking komende klanten van Adobe Comme
 
 Commerce Intelligence Essentials-klanten kunnen hun abonnementen alleen annuleren of hun betalingsmethoden bijwerken als ze de primaire rekeninghouder voor de Magento-account zijn. De stappen zijn:
 
-1. Navigeer aan [&#x200B; account.magento.com &#x200B;](https://account.magento.com) en login.
+1. Navigeer aan [ account.magento.com ](https://account.magento.com) en login.
 2. Klik op **[!UICONTROL Magento]** > **[!UICONTROL My Products and Services]** > **[!UICONTROL Magento Business Intelligence]** en klik op **[!UICONTROL Show Details]** naast de licentie die u wilt bijwerken.
 3. Selecteer **[!UICONTROL Update Payment Method]** of **[!UICONTROL Cancel License]** .
 
 ## Gerelateerde lezing
 
-* [Commerce Intelligence-gebruikershandleiding](/docs/commerce-business-intelligence/mbi/guide-overview.html)
+* [ de Gids van de Gebruiker van Commerce Intelligence ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html)

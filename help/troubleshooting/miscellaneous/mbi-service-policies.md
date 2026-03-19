@@ -4,9 +4,9 @@ description: In Commerce Intelligence is het ons doel de stellige klantenservice
 exl-id: 2e1ef4b3-a77c-4281-8337-fb90574a44f7
 feature: Commerce Intelligence, User Account
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -34,20 +34,20 @@ Omdat wij willen ervoor zorgen dat slechts de mensen u machtigt tot uw gegevens 
 
 Hoewel we deze handelingen niet namens u kunnen uitvoeren, zijn we meer dan bereid om u door deze handelingen te laten lopen:
 
-* [Gebruikersaccountgegevens maken en wijzigen](/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html)
+* [ Creërend en wijzigend de informatie van de gebruikersrekening ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html)
 * Factureringsgegevens invoeren of wijzigen
-* [Het delen van dashboards met andere gebruikers](/docs/commerce-business-intelligence/mbi/build/dashboards/share-dashboard-with-users.html?lang=en)
+* [ delend dashboards met andere gebruikers ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/dashboards/share-dashboard-with-users.html?lang=en)
 * Gegevensverbindingen en serverdetails bespreken, maken of wijzigen
-* Het uitvoeren van Admin-vlakke functies voor Standaard of read-only gebruikers (b.v. [&#x200B; toevoegend/het uitgeven metriek &#x200B;](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-metrics.html))
+* Het uitvoeren van Admin-vlakke functies voor Standaard of read-only gebruikers (b.v. [ toevoegend/het uitgeven metriek ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-metrics.html))
 * Het onthullen van rekeningsdetails - bijvoorbeeld, rapporten of het factureren informatie - over binnenkomende telefoongesprekken. We volgen een geregistreerd e-mailadres.
 
 Naast de hierboven vermelde functies voor gegevensbeveiliging zijn er enkele productgerelateerde verzoeken die ons supportteam niet kan verwerken:
 
-* **het Onderwijzen SQL** - wil SQL Report Builder gebruiken, maar u kent SQL niet? Geen zorgen - wij zetten een [&#x200B; zelfstudie &#x200B;](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) samen om u met de grondbeginselen te helpen.
+* **het Onderwijzen SQL** - wil SQL Report Builder gebruiken, maar u kent SQL niet? Geen zorgen - wij zetten een [ zelfstudie ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) samen om u met de grondbeginselen te helpen.
 
-* **SQL visualisatieproblemen die niet door productgebreken** worden veroorzaakt - als een grafiek omhoog kijkt die een weinig eigenaardig kijkt en het **niet** door een productgebrek wordt veroorzaakt, is het waarschijnlijk dat de oorzaak de vraag zelf is. Neem een blik bij ons [&#x200B; Creërend visualisaties van SQL vragen leerprogramma &#x200B;](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) in onze gebruikersgids voor begeleiding op hoe te om uw vragen voor visualisatie te structureren.
-* **het Zuiveren SQL vragen** - van tijd tot tijd, kunt u niet-EXPLAIN fouten ontmoeten die uw vraag van het lopen houden. Wij adviseren die naar de [&#x200B; Gids van de Gebruiker van Commerce Intelligence verwijzen: Gebruikend SQL Report Builder &#x200B;](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) en ons SQL leerprogramma voor hulp die waar de vraag verkeerd ging aanwijzen.
+* **SQL visualisatieproblemen die niet door productgebreken** worden veroorzaakt - als een grafiek omhoog kijkt die een weinig eigenaardig kijkt en het **niet** door een productgebrek wordt veroorzaakt, is het waarschijnlijk dat de oorzaak de vraag zelf is. Neem een blik bij ons [ Creërend visualisaties van SQL vragen leerprogramma ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) in onze gebruikersgids voor begeleiding op hoe te om uw vragen voor visualisatie te structureren.
+* **het Zuiveren SQL vragen** - van tijd tot tijd, kunt u niet-EXPLAIN fouten ontmoeten die uw vraag van het lopen houden. Wij adviseren die naar de [ Gids van de Gebruiker van Commerce Intelligence verwijzen: Gebruikend SQL Report Builder ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) en ons SQL leerprogramma voor hulp die waar de vraag verkeerd ging aanwijzen.
 
 ## Hoe dien ik een ticket in?
 
-U kunt [&#x200B; een kaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) aan ons team van de Steun voorleggen door **te klikken legt een kaartje** verbinding bij de bovenkant van de pagina voor. Wij adviseren controlerend uit [&#x200B; Informatie in uw steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) alvorens u naar ons rekt om ervoor te zorgen alle noodzakelijke informatie in uw aanvankelijke voorlegging is.
+U kunt [ een kaartje ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) aan ons team van de Steun voorleggen door **te klikken legt een kaartje** verbinding bij de bovenkant van de pagina voor. Wij adviseren controlerend uit [ Informatie in uw steunkaartje ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) alvorens u naar ons rekt om ervoor te zorgen alle noodzakelijke informatie in uw aanvankelijke voorlegging is.

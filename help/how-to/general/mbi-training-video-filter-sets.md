@@ -3,9 +3,9 @@ title: 'Adobe Commerce Intelligence Training Video: filtersets'
 description: Wilt u alleen bepaalde gegevens van uw bedrijf analyseren? Wilt u de zaken handmatig opruimen? In Adobe Commerce Intelligence kunt u de functie Filtersets gebruiken om dit proces te vereenvoudigen.
 exl-id: 2756f1f0-1465-4a7b-b249-7a3b36674e43
 feature: Commerce Intelligence
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,6 @@ In deze video leert u:
 * Een filter toepassen op metrisch
 * Hoe te om een filter toe te passen dat op een berekende gegevensdimensie wordt geplaatst
 
-Om op de video te letten, ga naar [&#x200B; Commerce Intelligence - de Reeksen van de Filter &#x200B;](/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) in Adobe Experience League.
+Om op de video te letten, ga naar [ Commerce Intelligence - de Reeksen van de Filter ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) in de Liga van de Ervaring van Adobe.
 
-**wil volgen?** Controle uit ons [&#x200B; Creërend filterreeksen voor metriek leerprogramma &#x200B;](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) voor geschreven instructies.
+**wil volgen?** Controle uit ons [ Creërend filterreeksen voor metriek leerprogramma ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) voor geschreven instructies.

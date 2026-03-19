@@ -4,9 +4,9 @@ description: Dit artikel verstrekt een oplossing voor wanneer de kringen ophoude
 exl-id: 30643ea9-969f-41c8-8e62-b24e56d690cf
 feature: Cache
 role: Developer
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Dit artikel biedt een oplossing voor het geval dat de uitsnede stopt met werken 
 
 ## Betrokken producten en versies
 
-Adobe Commerce op wolkeninfrastructuur, [&#x200B; alle gesteunde versies &#x200B;](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+Adobe Commerce op wolkeninfrastructuur, [ alle gesteunde versies ](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Probleem
 
@@ -25,7 +25,7 @@ De kroon werkte niet meer.
 
 ## Oorzaak
 
-De module [!DNL OpCache] is bijgewerkt naar een nieuwere versie die een [!DNL GraphQL] -plug-in introduceert die de `env.php` in runtime herschrijft en de instelling voor uitsnijden kan overschrijven, wat de uitgave kan hebben veroorzaakt. De [!DNL OpCache] configuratie moet worden bijgewerkt om om het even welke kwesties met `env.php file` te vermijden, en dat werd opgelost in [&#x200B; versie 2002.1.13 &#x200B;](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) van het [!DNL ECE Tools] pakket.
+De module [!DNL OpCache] is bijgewerkt naar een nieuwere versie die een [!DNL GraphQL] -plug-in introduceert die de `env.php` in runtime herschrijft en de instelling voor uitsnijden kan overschrijven, wat de uitgave kan hebben veroorzaakt. De [!DNL OpCache] configuratie moet worden bijgewerkt om om het even welke kwesties met `env.php file` te vermijden, en dat werd opgelost in [ versie 2002.1.13 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) van het [!DNL ECE Tools] pakket.
 
 ## Oplossing
 
@@ -49,13 +49,13 @@ Optie 2: Open het `app/etc/env.php` -bestand - als u het onderstaande ziet, is d
 1. Als de uitsnede is uitgeschakeld, voert u deze opdracht uit om de uitsnede opnieuw in te schakelen: `vendor/bin/ece-tools cron:enable`
 1. Zorg ervoor dat u de nieuwste versie van [!DNL ECE Tools] gebruikt. Als u dat niet doet, voert u een upgrade uit (of gaat u verder met item 3). Voer deze opdracht uit om uw bestaande versie te controleren:
    `composer show magento/ece-tools`
-1. Controleer of het `op-exclude.txt` -bestand aanwezig is als de nieuwste versie van [!DNL ECE Tools] al beschikbaar is. Voer hiertoe de volgende opdracht uit:
+1. Controleer of het [!DNL ECE Tools] -bestand aanwezig is als de nieuwste versie van `op-exclude.txt` al beschikbaar is. Voer hiertoe de volgende opdracht uit:
    `ls op-exclude.txt`.
 Als dit bestand niet aanwezig is, voegt u https://github.com/magento/magento-cloud/blob/master/op-exclude.txt toe aan uw repo en past u de wijziging toe en herstelt u deze.
 1. U hoeft [!DNL ECE Tools] niet te upgraden, maar u kunt ook gewoon https://github.com/magento/magento-cloud/blob/master/op-exclude.txt toevoegen of wijzigen in uw repo, en vervolgens de wijziging doorvoeren en opnieuw implementeren.
 
 ## Gerelateerde lezing
 
-* [Problemen met gereedheid voor uitsnijden](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
-* [Crons, eigenschap](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
-* [Cron job zit vast in status &quot;running&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+* [ de kwesties van de de gereedheidscontrole van de Kroon {](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
+* [ bezit van Crons ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
+* [ de baan van het Gewas is geplakt in &quot;lopende&quot;status ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
