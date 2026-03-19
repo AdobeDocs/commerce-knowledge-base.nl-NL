@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+source-git-commit: e669e0f092b009a124f728390f6fff24aadece15
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '1955'
 ht-degree: 1%
 
 ---
@@ -185,7 +185,7 @@ ht-degree: 1%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -222,9 +222,7 @@ ht-degree: 1%
    * [Adobe Commerce op cloud: controleer of een upgrade naar de hostinstanties nodig is](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [Bootstrap Adobe Commerce 2 in een sandboxscript](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
    * [Adobe Commerce Intelligence Training Video: filtersets](/help/how-to/general/mbi-training-video-filter-sets.md)
-   * [Databasequery&#39;s in Adobe Commerce profileren op cloudinfrastructuur](/help/how-to/general/how-to-profile-database-queries-on-cloud.md)
    * [Blokkeren van kwaadwillig verkeer voor Adobe Commerce op snelniveau](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
-   * [Creeer een flard voor de installatie van Composer van Adobe Commerce van GitHub begaat](/help/how-to/general/create-a-patch-for-a-magento-2-composer-installation-from-a-github-commit.md)
    * [Beheerderswachtwoord wijzigen in Adobe Commerce op cloudinfrastructuur](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [OmgevingsvCPU-laag in uw cluster weergeven op Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
    * [Adobe Commerce on cloud Infrastructure: controleer de CPU-configuratie van de host](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
