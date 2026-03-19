@@ -1,6 +1,6 @@
 ---
 title: Hoofdmenu (Categorieën) wordt niet weergegeven op subpagina's waarvoor Snelheid is ingeschakeld
-description: Dit artikel biedt een oplossing voor het feit dat het hoofdmenu (of het [menu Navigatie boven aan categorie] (https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in de gebruikershandleiding) niet wordt weergegeven in de winkel voor subpagina's (bijvoorbeeld *blog/pagina*) wanneer Fastly of Varnish is ingeschakeld.
+description: Dit artikel biedt een oplossing voor het feit dat het hoofdmenu (of het [menu Navigatie boven aan categorie] (https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=nl-NL) in de gebruikershandleiding) niet wordt weergegeven in de winkel voor subpagina's (bijvoorbeeld *blog/pagina*) wanneer Fastly of Varnish is ingeschakeld.
 exl-id: 7c54791d-8aa6-4f01-a28b-a7aecdb8ff74
 feature: Categories, Marketing Tools
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Hoofdmenu (Categorieën) wordt niet weergegeven op subpagina&#39;s waarvoor Snelheid is ingeschakeld
 
-Dit artikel verstrekt een moeilijke situatie voor wanneer het Belangrijkste Menu (of het [&#x200B; menu van de Navigatie van de Categorie Hoogste &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in onze gebruikersgids) niet op opslag voor subpagina&#39;s (bijvoorbeeld, *blog/pagina*) wordt getoond wanneer de Fastly of Varnish wordt toegelaten.
+Dit artikel verstrekt een moeilijke situatie voor wanneer het Belangrijkste Menu (of het [&#x200B; menu van de Navigatie van de Categorie Hoogste &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=nl-NL) in onze gebruikersgids) niet op opslag voor subpagina&#39;s (bijvoorbeeld, *blog/pagina*) wordt getoond wanneer de Fastly of Varnish wordt toegelaten.
 
 **Oorzaak:** het niet-toegelaten `/` karakter (schuine streep) in de *Zeer belangrijke URL* parameter van de pagina (de montages van de Optimalisering van de Motor van het Onderzoek). Het karakter wordt gewoonlijk toegevoegd wanneer *Weg URL* (met volledige paginalocatie) incorrect in plaats van *Sleutel URL* wordt gespecificeerd: bijvoorbeeld, *blog/pagina\_name* in plaats van enkel *pagina\_name*.
 
@@ -27,7 +27,7 @@ Dit artikel verstrekt een moeilijke situatie voor wanneer het Belangrijkste Menu
 
 ## Probleem
 
-Het Belangrijkste Menu (die ook als het [&#x200B; Belangrijkste menu van de Navigatie van de Categorie &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in onze gebruikersgids wordt bedoeld) wordt niet getoond op opslag voor subpages wanneer de Fastly of andere op varens-Gebaseerde diensten worden toegelaten.
+Het Belangrijkste Menu (die ook als het [&#x200B; Belangrijkste menu van de Navigatie van de Categorie &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=nl-NL) in onze gebruikersgids wordt bedoeld) wordt niet getoond op opslag voor subpages wanneer de Fastly of andere op varens-Gebaseerde diensten worden toegelaten.
 
 ## Oorzaak
 
@@ -57,10 +57,10 @@ Voor SEO doeleinden op productpagina&#39;s, herschrijft het gebruik URL (**Marke
 
 De *Zeer belangrijke URL* parameter voor SEO:
 
-* [&#x200B; Optimalisering van de Motor van het Onderzoek &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html)
-* [&#x200B; Toevoegend een Nieuwe Pagina &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html)
+* [&#x200B; Optimalisering van de Motor van het Onderzoek &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html?lang=nl-NL)
+* [&#x200B; Toevoegend een Nieuwe Pagina &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html?lang=nl-NL)
 
 Paginahiërarchie:
 
-* [&#x200B; Overzicht &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html)
-* [&#x200B; Toevoegend een Knoop &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html#add-a-hierarchy-node)
+* [&#x200B; Overzicht &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html?lang=nl-NL)
+* [&#x200B; Toevoegend een Knoop &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html?lang=nl-NL#add-a-hierarchy-node)

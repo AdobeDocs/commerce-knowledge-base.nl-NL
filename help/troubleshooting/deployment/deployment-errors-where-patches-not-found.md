@@ -36,10 +36,10 @@ Eerder toegepaste patches voor uw oudere versie(s) zijn niet van toepassing of z
     - ACSD-XXXXX
    ```
 
-1. Zoek omhoog de flardidentiteitskaarts in de [&#x200B; Nota&#39;s van de Versie van de Patches van de Kwaliteit &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) om te controleren of elke één op de nieuwe versie van Adobe Commerce kan worden toegepast u bevordert aan.
+1. Zoek omhoog de flardidentiteitskaarts in de [&#x200B; Nota&#39;s van de Versie van de Patches van de Kwaliteit &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html?lang=nl-NL) om te controleren of elke één op de nieuwe versie van Adobe Commerce kan worden toegepast u bevordert aan.
 1. Als de patch niet van toepassing is op de nieuwe versie van Adobe Commerce waarnaar u wilt upgraden, verwijdert u de patch-id uit het `.magento.env.yaml` -bestand.
 1. Als u alle patch-id&#39;s hebt gecontroleerd die door de fout worden aangegeven, duw dan op de wijzigingen en wijzig de implementatie.
 
 ## Gerelateerde lezing
 
-* [&#x200B; past flarden &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment) in Commerce op de Gids van de Infrastructuur van de Wolk toe.
+* [&#x200B; past flarden &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=nl-NL#apply-a-patch-in-a-local-environment) in Commerce op de Gids van de Infrastructuur van de Wolk toe.

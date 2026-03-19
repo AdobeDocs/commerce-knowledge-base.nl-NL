@@ -39,7 +39,7 @@ In de volgende stappen wordt beschreven hoe u omleidingen kunt plaatsen op [!DNL
 
 1. Maak een Edge-woordenboek.
 
-   Eerst, kunt u [[!DNL VCL]  fragmenten in Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) gebruiken om een randwoordenboek te bepalen. Dit bevat de omleidingen.
+   Eerst, kunt u [[!DNL VCL]  fragmenten in Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=nl-NL) gebruiken om een randwoordenboek te bepalen. Dit bevat de omleidingen.
 
    Enkele kanttekeningen:
 
@@ -100,7 +100,7 @@ Als u geen Adobe Commerce-testomgeving wilt gebruiken, maar wilt zien hoe deze o
 ## Gerelateerde lezing
 
 * [[!DNL Fastly VCL]  verwijzing &#x200B;](https://docs.fastly.com/vcl/)
-* [&#x200B; vorm routes &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) in onze ontwikkelaarsdocumentatie
-* [&#x200B; Opstelling  [!DNL Fastly] &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in onze ontwikkelaarsdocumentatie
+* [&#x200B; vorm routes &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie
+* [&#x200B; Opstelling  [!DNL Fastly] &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=nl-NL) in onze ontwikkelaarsdocumentatie
 * [[!DNL VCL]  regelmatige uitdrukkingsbedriegblad &#x200B;](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) in onze ontwikkelaarsdocumentatie
-* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce
+* [&#x200B; Beste praktijken voor het wijzigen van gegevensbestandlijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in het Playbook van de Implementatie van Commerce

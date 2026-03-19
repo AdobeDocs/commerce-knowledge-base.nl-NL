@@ -16,17 +16,17 @@ Dit artikel bevat een overzicht van de officiële documentatiebronnen die bespre
 
 ## Adobe Commerce is gereed voor GDPR
 
-De [&#x200B; officiële homepage &#x200B;](https://business.adobe.com/privacy/general-data-protection-regulation.html) voor alle middelen van Adobe Commerce GDPR.
+De [&#x200B; officiële homepage &#x200B;](https://business.adobe.com/nl/privacy/general-data-protection-regulation.html) voor alle middelen van Adobe Commerce GDPR.
 
 ## Officiële Adobe Commerce-verklaringen
 
-* [&#x200B; Algemene Verordening GDPR van de Bescherming van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/privacy/gdpr.html)
-* [&#x200B; Naleving GDPR &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html)
+* [&#x200B; Algemene Verordening GDPR van de Bescherming van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/privacy/gdpr.html?lang=nl-NL)
+* [&#x200B; Naleving GDPR &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html?lang=nl-NL)
 
 ## GDPR-compatibiliteit in onze documentatie voor ontwikkelaars: Adobe Commerce 2.X en 1.X
 
-* [&#x200B; de persoonlijke informatieverwijzing van de Klant (versie 2.x) &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-* [&#x200B; de persoonlijke informatieverwijzing van de Klant (versie 1.x) &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+* [&#x200B; de persoonlijke informatieverwijzing van de Klant (versie 2.x) &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=nl-NL)
+* [&#x200B; de persoonlijke informatieverwijzing van de Klant (versie 1.x) &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=nl-NL)
 
 Deze onderwerpen van de de ontwikkelaarsdocumentatie van Adobe Commerce verstrekken gegevensstroomdiagrammen en gegevensbestandinformatie die Merchants en Integrators van het Systeem helpt om gebruiksgevallen op te lossen gelijkend op het volgende:
 

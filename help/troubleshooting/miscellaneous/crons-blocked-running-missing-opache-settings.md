@@ -25,7 +25,7 @@ De kroon werkte niet meer.
 
 ## Oorzaak
 
-De module [!DNL OpCache] is bijgewerkt naar een nieuwere versie die een [!DNL GraphQL] -plug-in introduceert die de `env.php` in runtime herschrijft en de instelling voor uitsnijden kan overschrijven, wat de uitgave kan hebben veroorzaakt. De [!DNL OpCache] configuratie moet worden bijgewerkt om om het even welke kwesties met `env.php file` te vermijden, en dat werd opgelost in [&#x200B; versie 2002.1.13 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) van het [!DNL ECE Tools] pakket.
+De module [!DNL OpCache] is bijgewerkt naar een nieuwere versie die een [!DNL GraphQL] -plug-in introduceert die de `env.php` in runtime herschrijft en de instelling voor uitsnijden kan overschrijven, wat de uitgave kan hebben veroorzaakt. De [!DNL OpCache] configuratie moet worden bijgewerkt om om het even welke kwesties met `env.php file` te vermijden, en dat werd opgelost in [&#x200B; versie 2002.1.13 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=nl-NL#v2002.1.13) van het [!DNL ECE Tools] pakket.
 
 ## Oplossing
 
@@ -56,6 +56,6 @@ Als dit bestand niet aanwezig is, voegt u https://github.com/magento/magento-clo
 
 ## Gerelateerde lezing
 
-* [&#x200B; de kwesties van de de gereedheidscontrole van de Kroon &lbrace;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
-* [&#x200B; bezit van Crons &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
-* [&#x200B; de baan van het Gewas is geplakt in &quot;lopende&quot;status &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+* [&#x200B; de kwesties van de de gereedheidscontrole van de Kroon &lbrace;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html?lang=nl-NL)
+* [&#x200B; bezit van Crons &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=nl-NL)
+* [&#x200B; de baan van het Gewas is geplakt in &quot;lopende&quot;status &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=nl-NL)

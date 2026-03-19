@@ -41,4 +41,4 @@ Commerce Intelligence Essentials-klanten kunnen hun abonnementen alleen annulere
 
 ## Gerelateerde lezing
 
-* [&#x200B; de Gids van de Gebruiker van Commerce Intelligence &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html)
+* [&#x200B; de Gids van de Gebruiker van Commerce Intelligence &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=nl-NL)
