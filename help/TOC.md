@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: fb8a1b5815663b62c5416829b5471adb9c0980c5
+source-git-commit: e7dcfc91da247d881f4aae4725a5c130102799ee
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '1905'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 1%
    * [Overzicht van aankondigingen](/help/announcements/overview.md)
    * Aankondigingen van Adobe Commerce {#commerce-announcements}
       * [Vakantiedrukcapaciteit voor Adobe Commerce op onze cloudinfrastructuur](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
-      * [Veelgestelde vragen over het bijgewerkte levenscyclusbeleid voor Adobe Commerce-releases](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)
       * [Overschakelen naar OpenSearch for Adobe Commerce op Cloud 2.4.4](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
       * [Adobe Commerce Recommendations for PHP Vulnerabilities](/help/announcements/adobe-commerce-announcements/magento-recommendations-for-php-vulnerabilities.md)
       * [De zoekfunctie voor MySQL-catalogus wordt verwijderd uit Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
@@ -184,7 +183,7 @@ ht-degree: 1%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -228,7 +227,6 @@ ht-degree: 1%
    * [Hoe te om een &quot;scrubbed&quot;stortplaats te creëren wanneer gevraagd door steunagent](/help/how-to/general/create-dump-for-support.md)
    * [SSL-certificaten (TLS) voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
    * [Kan de nieuwste Beta-versie niet openen](/help/how-to/general/cannot-access-the-latest-beta-version.md)
-   * [Meld u aan bij Fastly-account dat bij Adobe Commerce wordt geleverd voor cloudinfrastructuur](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
    * [Geef Adobe Commerce-foutrapportnummer weer in plaats van Fastly 503-fout](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
    * [Standaardwaarden voor thema&#39;s herstellen](/help/how-to/general/reset-a-theme-to-defaults.md)
    * [Een door Adobe geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)
