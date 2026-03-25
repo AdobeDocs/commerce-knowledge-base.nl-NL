@@ -4,9 +4,9 @@ description: Dit artikel biedt een patch voor de bekende Adobe Commerce 2.3.0-be
 exl-id: 948d5907-70bd-4890-bc8a-23e04b116018
 feature: Admin Workspace, Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Dit artikel biedt een patch voor de bekende Adobe Commerce 2.3.0-beperking die v
 
 >[!NOTE]
 >
->De belangrijkste integratie van Adobe Commerce Cybersource-betalingen is sinds 2.3.3 verouderd en zal in 2.4.0 volledig worden verwijderd. Gebruik in plaats hiervan de [&#x200B; officiële uitbreiding &#x200B;](https://marketplace.magento.com/cybersource-global-payment-management.html) van Marketplace.
+>De belangrijkste integratie van Adobe Commerce Cybersource-betalingen is sinds 2.3.3 verouderd en zal in 2.4.0 volledig worden verwijderd. Gebruik in plaats hiervan de [ officiële uitbreiding ](https://marketplace.magento.com/cybersource-global-payment-management.html) van Marketplace.
 
 ## Probleem
 
@@ -69,6 +69,6 @@ De patches zijn ook compatibel met de volgende versies:
 
 ## Hoe een pleister aanbrengen
 
-Voor instructies, zie [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
+Voor instructies, zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) in onze steunkennisbasis wordt verstrekt.
 
 ## Bijgevoegde bestanden

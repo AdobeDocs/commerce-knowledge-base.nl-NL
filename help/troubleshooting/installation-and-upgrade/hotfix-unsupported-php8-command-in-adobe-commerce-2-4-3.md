@@ -4,7 +4,7 @@ description: 'Dit artikel biedt een oplossing voor het volgende probleem: wannee
 exl-id: 1c472214-8387-403e-b2d2-d3f3c9e1da6a
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -42,9 +42,9 @@ PHP fatale fout.
 
 ## Oplossing
 
-Als tussenoplossing stelt u het volgende bevel in CLI/Terminal in werking: `composer require symfony/polyfill-php80` van de de wortelomslag van het Magento of installeert een composer flard.
+Als tussenoplossing voert u het volgende bevel in CLI/Terminal: `composer require symfony/polyfill-php80` van de de wortelomslag van Magento in werking of installeert een composer flard.
 
-Om het probleem voor 2.4.3 op te lossen, moeten Adobe Commerce (alle implementatiemethoden) en Magento Open Source handelaren een patch toepassen:
+Om het probleem voor 2.4.3 op te lossen, moeten Adobe Commerce (alle implementatiemethoden) en Magento Open Source-handelaren een patch toepassen:
 
 [AC-384_Fix_Incompatible_PHP_Method__2.4.3_ce.patch](assets/AC-384__Fix_Incompatible_PHP_Method__2.4.3_ce.patch.zip)
 
@@ -54,8 +54,8 @@ Om het probleem voor 2.3.7-p1 op te lossen, moeten Adobe Commerce (alle implemen
 
 ## Hoe de pleister moet worden aangebracht
 
-Zie [&#x200B; hoe te om een componentenflard toe te passen die door Magento &#x200B;](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
+Zie [ hoe te om een componentenflard toe te passen die door Magento ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) voor instructies wordt verstrekt.
 
 ## Verwante lezing
 
-GitHub [&#x200B; Niet gestaafd PHP 8 bevel in Magento 2.4.3 EE #33680 &#x200B;](https://github.com/magento/magento2/issues/33680)
+GitHub [ Niet gestaafd PHP 8 bevel in Magento 2.4.3 EE #33680 ](https://github.com/magento/magento2/issues/33680)

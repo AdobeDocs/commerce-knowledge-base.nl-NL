@@ -4,9 +4,9 @@ description: In dit artikel wordt gesproken over het probleem waarbij een patch 
 exl-id: dc765bcd-0761-4efd-a345-46a908d61272
 feature: Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Dit probleem kan ontstaan door een incompatibiliteit van de versie tussen de pat
 
 Verwijder de pleister. De methode voor het verwijderen van patches is anders voor Adobe Commerce op cloudinfrastructuur dan voor Adobe Commerce op locatie en Magento Open Source.
 
-### Magento Open Source, alle 1.X versies
+### Magento Open Source, alle 1.X-versies
 
 Voor Magento Open Source 1.X-versies:
 
 * Voer de volgende SSH-opdracht uit: `h SUPEE_patch --revert `
 
-### Adobe Commerce op locatie, Magento Open Source, alle 2.x-versies
+### Adobe Commerce on-premisse, Magento Open Source, alle 2.x versies
 
 Voor Adobe Commerce on-premisse en Magento Open Source 2.x versies,
 
@@ -65,4 +65,4 @@ Voor Adobe Commerce op cloud-infrastructuur, alle versies,
 
 ## Gerelateerde lezing
 
-* [&#x200B; hoe te om een componentenflard toe te passen dat door Adobe &#x200B;](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in onze steunkennisbasis wordt verstrekt.
+* [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) in onze steunkennisbasis wordt verstrekt.

@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: e7dcfc91da247d881f4aae4725a5c130102799ee
+source-git-commit: 651620add857a2cf33c59fd0cd7972cb7c1e0cc3
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1896'
 ht-degree: 1%
 
 ---
@@ -183,7 +183,7 @@ ht-degree: 1%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -229,7 +229,6 @@ ht-degree: 1%
    * [Kan de nieuwste Beta-versie niet openen](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [Geef Adobe Commerce-foutrapportnummer weer in plaats van Fastly 503-fout](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
    * [Standaardwaarden voor thema&#39;s herstellen](/help/how-to/general/reset-a-theme-to-defaults.md)
-   * [Een door Adobe geleverde componentpatch toepassen](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)
    * [Logboeken controleren om 500- en 503-fouten op Adobe Commerce op te lossen](/help/how-to/general/check-logs-to-troubleshoot-500-and-503-errors-on-magento.md)
    * [Database-dump maken op Adobe Commerce op cloudinfrastructuur](/help/how-to/general/create-database-dump-on-cloud.md)
    * [Tips voor tests van andere bedrijven voor Adobe Commerce op cloudinfrastructuur](/help/how-to/general/share-access-third-party.md)

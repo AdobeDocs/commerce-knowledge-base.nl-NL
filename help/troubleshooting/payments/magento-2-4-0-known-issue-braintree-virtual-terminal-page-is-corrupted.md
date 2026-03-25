@@ -1,19 +1,19 @@
 ---
 title: Adobe Commerce 2.4.0 Braintree Virtual Terminal is beschadigd
-description: Dit artikel verstrekt een flard voor de bekende kwestie van Adobe Commerce 2.4.0, waar de Virtuele Eindpagina van de Braintree niet de juiste elementen UI of een correct foutenmelding laadt als de Braintree niet wordt gevormd.
+description: Dit artikel verstrekt een flard voor de bekende kwestie van Adobe Commerce 2.4.0, waar de Virtuele Eindpagina van Braintree niet de juiste elementen UI of een correct foutenmelding laadt als Braintree niet wordt gevormd.
 exl-id: 1d4d762d-2ab3-4752-ad6d-1eb6a179917d
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce 2.4.0 Braintree Virtual Terminal is beschadigd
 
-Dit artikel verstrekt een flard voor de bekende kwestie van Adobe Commerce 2.4.0, waar de Virtuele Eindpagina van de Braintree niet de juiste elementen UI of een correct foutenmelding laadt als de Braintree niet wordt gevormd.
+Dit artikel verstrekt een flard voor de bekende kwestie van Adobe Commerce 2.4.0, waar de Virtuele Eindpagina van Braintree niet de juiste elementen UI of een correct foutenmelding laadt als Braintree niet wordt gevormd.
 
 ## Betrokken producten en versies
 
@@ -22,33 +22,33 @@ Dit artikel verstrekt een flard voor de bekende kwestie van Adobe Commerce 2.4.0
 
 ## Probleem
 
-### Scenario 1: betalingsmethode voor Braintree is geconfigureerd
+### Scenario 1: betalingsmethode Braintree is geconfigureerd
 
 <u> Stappen om te reproduceren:</u>
 
-In Commerce Admin, ga naar **Verkoop** > **de Virtuele Terminal van de Braintree** ** *
+In Commerce Admin, ga naar **Verkoop** > **Virtuele Terminal van Braintree** ** *
 
 <u> Verwacht resultaat:</u>
 
-De **Virtuele Eind van de Braintree &lbrace;** pagina laadt met juiste UI.
+De **Virtuele Eind van Braintree {** pagina laadt met juiste UI.
 
 <u> Ware resultaat:</u>
 
-UI van de **Virtuele Eind van de Braintree** pagina is gebroken.
+UI van de **Virtuele Eind van Braintree** pagina is gebroken.
 
-### Scenario 2: betalingsmethode voor Braintree is geconfigureerd
+### Scenario 2: De betalingsmethode Braintree is geconfigureerd
 
 <u> Stappen om te reproduceren:</u>
 
-In Commerce Admin, ga naar **Verkoop** > **de Virtuele Terminal van de Braintree** ** *
+In Commerce Admin, ga naar **Verkoop** > **Virtuele Terminal van Braintree** ** *
 
 <u> Verwacht resultaat:</u>
 
-De **Virtuele Eind van de Braintree &lbrace;** pagina laadt met juiste UI en een waarschuwing wordt getoond informerend dat de Braintree nog niet wordt gevormd.
+De **Virtuele Eind van Braintree {** pagina laadt met juiste UI en een waarschuwing wordt getoond op de hoogte brengend dat Braintree nog niet wordt gevormd.
 
 <u> Ware resultaat:</u>
 
-UI van de **Virtuele Eind van de Braintree** pagina wordt gebroken en geen waarschuwing wordt getoond.
+UI van de **Virtuele Eindpagina van Braintree** wordt gebroken en geen waarschuwing wordt getoond.
 
 ## Oplossing
 
@@ -69,6 +69,6 @@ De patch is gemaakt voor:
 
 ## Hoe de pleister aanbrengen
 
-Zie [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor instructies wordt verstrekt.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden

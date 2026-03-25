@@ -4,9 +4,9 @@ description: Dit artikel biedt een oplossing voor een bekende Adobe Commerce-pro
 exl-id: 2c1dadd9-7754-4b4c-8d37-b75c13beae5c
 feature: B2B, Install, Upgrade
 role: Developer
-source-git-commit: 7705b6030d2f0877c228dae1707916ad38c9d587
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -65,12 +65,12 @@ Als u het bestand wilt downloaden, schuift u omlaag naar het einde van het artik
 
 <u> Composer-patch </u>
 
-Zie [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) voor composer flardinstructies wordt verstrekt.
+Zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) voor composer flardinstructies wordt verstrekt.
 
 <u> Git patch </u>
 
-* Zie [&#x200B; flarden &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in ontwikkelaarsdocumentatie voor het flardinstructies van de it voor Adobe Commerce op wolkeninfrastructuur toepassen.
-* Zie [&#x200B; Toepassend flarden: De flarden van de Douane &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) in ontwikkelaarsdocumentatie voor de instructies van het git flardflard voor Adobe Commerce.
+* Zie [ flarden ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in ontwikkelaarsdocumentatie voor het flardinstructies van de it voor Adobe Commerce op wolkeninfrastructuur toepassen.
+* Zie [ Toepassend flarden: De flarden van de Douane ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) in ontwikkelaarsdocumentatie voor de instructies van het git flardflard voor Adobe Commerce.
 
 ## Gerelateerde lezing
 
