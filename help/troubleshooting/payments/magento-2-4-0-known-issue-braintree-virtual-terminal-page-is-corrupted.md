@@ -30,7 +30,7 @@ In Commerce Admin, ga naar **Verkoop** > **Virtuele Terminal van Braintree** ** 
 
 <u> Verwacht resultaat:</u>
 
-De **Virtuele Eind van Braintree {** pagina laadt met juiste UI.
+De **Virtuele Eind van Braintree &lbrace;** pagina laadt met juiste UI.
 
 <u> Ware resultaat:</u>
 
@@ -44,7 +44,7 @@ In Commerce Admin, ga naar **Verkoop** > **Virtuele Terminal van Braintree** ** 
 
 <u> Verwacht resultaat:</u>
 
-De **Virtuele Eind van Braintree {** pagina laadt met juiste UI en een waarschuwing wordt getoond op de hoogte brengend dat Braintree nog niet wordt gevormd.
+De **Virtuele Eind van Braintree &lbrace;** pagina laadt met juiste UI en een waarschuwing wordt getoond op de hoogte brengend dat Braintree nog niet wordt gevormd.
 
 <u> Ware resultaat:</u>
 
@@ -69,6 +69,6 @@ De patch is gemaakt voor:
 
 ## Hoe de pleister aanbrengen
 
-Zie [ hoe te om een componentenflard toe te passen die door Adobe ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) voor instructies wordt verstrekt.
+Zie [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) voor instructies wordt verstrekt.
 
 ## Bijgevoegde bestanden
