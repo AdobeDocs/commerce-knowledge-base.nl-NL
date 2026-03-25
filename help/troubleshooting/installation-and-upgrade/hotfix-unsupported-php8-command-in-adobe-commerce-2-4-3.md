@@ -54,7 +54,7 @@ Om het probleem voor 2.3.7-p1 op te lossen, moeten Adobe Commerce (alle implemen
 
 ## Hoe de pleister moet worden aangebracht
 
-Zie [&#x200B; hoe te om een componentenflard toe te passen die door Magento &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) voor instructies wordt verstrekt.
+Zie [&#x200B; hoe te om een componentenflard toe te passen die door Magento &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) voor instructies wordt verstrekt.
 
 ## Verwante lezing
 

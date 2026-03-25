@@ -65,4 +65,4 @@ Voor Adobe Commerce op cloud-infrastructuur, alle versies,
 
 ## Gerelateerde lezing
 
-* [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) in onze steunkennisbasis wordt verstrekt.
+* [&#x200B; hoe te om een componentenflard toe te passen die door Adobe &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) in onze steunkennisbasis wordt verstrekt.
