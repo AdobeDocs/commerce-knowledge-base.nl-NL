@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Alles wat u nodig hebt om problemen op te lossen en uw Commerce-winkel te behouden.
 breadcrumb-title: Commerce KB
-source-git-commit: 651620add857a2cf33c59fd0cd7972cb7c1e0cc3
+source-git-commit: 1502ee72f4421f8fdec5c0e780f1f56423a2cce8
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1880'
 ht-degree: 1%
 
 ---
@@ -183,7 +183,7 @@ ht-degree: 1%
       * [Kan zoekmachine niet wijzigen in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [De Magento-cloud CLI geeft geen actieve omgeving weer](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [[!DNL SendGrid] bestandsbeperking voor Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-      * [&#x200B; Slechte prestaties in integratiemilieu&#39;s &#x200B;](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
+      * [ Slechte prestaties in integratiemilieu&#39;s ](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Implementatie {#deployment}
       * [Implementatie mislukt: Elasticsearch- en Adobe Commerce-versies zijn niet compatibel](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [De fout &#39;Huidige versie van RDBMS wordt niet ondersteund&#39; bij de implementatie](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
@@ -215,10 +215,8 @@ ht-degree: 1%
    * [De incrementele id wijzigen voor een DB-entiteit (bestelling, factuur, creditnota, enz.) in een bepaalde winkel](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [De Adobe Commerce-omgeving herstellen op cloudinfrastructuur](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI: integraties opnieuw verifiëren](/help/how-to/general/mbi-reauthenticating-integrations.md)
-   * [Loglocaties (directory&#39;s) voor Pro-plan: integratie, opslag, productie](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
    * [Adobe Commerce op cloud: controleer of een upgrade naar de hostinstanties nodig is](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [Bootstrap Adobe Commerce 2 in een sandboxscript](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
-   * [Adobe Commerce Intelligence Training Video: filtersets](/help/how-to/general/mbi-training-video-filter-sets.md)
    * [Blokkeren van kwaadwillig verkeer voor Adobe Commerce op snelniveau](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
    * [Beheerderswachtwoord wijzigen in Adobe Commerce op cloudinfrastructuur](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [OmgevingsvCPU-laag in uw cluster weergeven op Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
