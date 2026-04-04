@@ -1,6 +1,6 @@
 ---
 title: Abonneren op Adobe Commerce-statusupdates
-description: In dit artikel wordt uitgelegd hoe u zich op [status van Adobe] (https://status.adobe.com) kunt abonneren op de status Adobe Commerce voor statuswaarschuwingen, updates en informatie over eventuele grote storingen of onderhoud.
+description: In dit artikel wordt uitgelegd hoe u zich op [status van Adobe] (https://status.adobe.com/nl-nl) kunt abonneren op de status Adobe Commerce voor statuswaarschuwingen, updates en informatie over eventuele grote storingen of onderhoud.
 exl-id: 17b39925-4726-45da-b55d-c04c9b782df1
 source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
 workflow-type: tm+mt
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Hoe te om aan de statusupdates van het Magento van de Adobe in te schrijven
 
-1. Ga naar [&#x200B; status van de Adobe &#x200B;](https://status.adobe.com).
+1. Ga naar [&#x200B; status van de Adobe &#x200B;](https://status.adobe.com/nl-nl).
 1. Klik **Teken binnen**.
 1. Meld u aan met uw Adobe referenties.
 1. Selecteer **Onderneming of de Rekening van de School** als voorgesteld met de optie.
