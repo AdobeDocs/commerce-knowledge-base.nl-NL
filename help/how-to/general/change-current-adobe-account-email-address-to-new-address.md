@@ -28,7 +28,7 @@ Als u geen toegang hebt tot het huidige e-mailadres, stelt u e-mail door:sturen 
 
 Ga als volgt te werk om het e-mailadres te wijzigen:
 
-1. Stel het wachtwoord dat met het oude e-mailadres wordt gebruikt opnieuw in. Volg de instructies die in [&#x200B; worden gegeven vergeten wachtwoord van het Terugstellen &#x200B;](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in Adobe helpx.
+1. Stel het wachtwoord dat met het oude e-mailadres wordt gebruikt opnieuw in. Volg de instructies die in [&#x200B; worden gegeven vergeten wachtwoord van het Terugstellen &#x200B;](https://helpx.adobe.com/nl/manage-account/using/change-or-reset-password.html) in Adobe helpx.
 1. De koppeling voor het opnieuw instellen van het wachtwoord wordt samen met instructies naar de postbus van de huidige eigenaar verzonden.
 1. Navigeer aan de [&#x200B; de rekeningspagina van Adobe &#x200B;](https://account.adobe.com) aan login met nieuwe e-mail en opstelling het wachtwoord.
 
@@ -50,9 +50,9 @@ Nadat u het e-mailadres voor uw MAGE-id hebt gewijzigd, moet u ook de volgende s
 ### Commerce Marketplace-e-mail verifiëren
 
 1. Login aan [&#x200B; https://commercemarketplace.com/customer/account &#x200B;](https://commercemarketplace.com/customer/account) en bevestig dat uw rekening e-mail aan het nieuwe adres is bijgewerkt.
-1. Als e-mail niet is bijgewerkt, leg het kaartje van de a [&#x200B; Steun voor &#x200B;](https://experienceleague.adobe.com/en/support#home) verzoekend dat de Commerce Marketplace rekening e-mail wordt verbeterd.
+1. Als e-mail niet is bijgewerkt, leg het kaartje van de a [&#x200B; Steun voor &#x200B;](https://experienceleague.adobe.com/nl/support#home) verzoekend dat de Commerce Marketplace rekening e-mail wordt verbeterd.
 
 ### Vraag om ondersteuning voor het voltooien van updates van interne accounts
 
-1. Verzend het kaartje van de a [&#x200B; Steun &#x200B;](https://experienceleague.adobe.com/en/support#home) vragend ons om het even welke vereiste interne updates (bijvoorbeeld, die de verbinding tussen uw oude en nieuwe identiteitskaart van Adobe en uw identiteitskaart van de MAGE bijwerken) te voltooien.
+1. Verzend het kaartje van de a [&#x200B; Steun &#x200B;](https://experienceleague.adobe.com/nl/support#home) vragend ons om het even welke vereiste interne updates (bijvoorbeeld, die de verbinding tussen uw oude en nieuwe identiteitskaart van Adobe en uw identiteitskaart van de MAGE bijwerken) te voltooien.
 1. Als u al een ondersteuningsticket hebt geopend omdat het Commerce Marketplace-e-mailadres niet in de vorige sectie is bijgewerkt, kunt u hetzelfde ticket gebruiken om deze extra interne updates aan te vragen.
